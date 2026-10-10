@@ -1,0 +1,51 @@
+﻿1,键,描述
+2,key,txt
+3,gangLook,Member List
+4,gangTask,Gang Bounty
+5,gangShop,Gang Shop
+6,gangJoin,Join Gang
+7,gangQuit,Leave Gang
+8,gangSubm,Submit Quest
+9,close,Exit
+10,noGang,"Welcome, great hero, to {0}!"
+11,sameGang,You have joined {0}. Complete quests to earn contribution points and exchange for rewards.
+12,takeGang,You have joined {0}. Quests are completed immediately upon acceptance—do not exceed the time limit.
+13,diffGang,"Kid, what brings you to our {0}?"
+14,joinGang,Welcome to {0}!
+15,joinGangTips,You must join a gang to accept quests.
+16,getGangTips,Confirm accepting [{0}] quest?
+17,redoGangTips,You have already accepted another quest and cannot take more.
+18,quitGang,You have left the gang.
+19,undoneGang,Cannot submit—quest not completed.
+20,doneGang,Quest completed. Obtained {0} contribution.
+21,discGang,You do not meet our gang's requirements.
+22,noAttackSelf,Cannot challenge yourself.
+23,checkTips,This person is currently at [{0}]. Go challenge them!
+24,joinGangTips2,You must join the gang first to initiate a challenge.
+25,atGangTask,Quest already accepted.
+26,openLock,Door lock is now open.
+27,needLock,Requires a key or property purchase to enter.
+28,findSucc,"This person is named {0}, {1}, age {2}, currently located at {3}."
+29,findFail,No such person found. Please verify the name.
+30,limitTips,Daily limit reached. Try again tomorrow.
+31,spTips,Energy
+32,loveTips,Favorability
+33,spLimit,Not enough energy.
+34,putFail,No hostages currently.
+35,putSucc,Hostage placement complete.
+36,release,Hostage has been released.
+37,sackTitle,A sack containing {0}.
+38,sackContent,{0} kidnapped {2} at {1}.
+39,giveKid,[{0}] was born.
+40,npcOver,{0} has passed away.
+41,noRelease,Cannot release here.
+42,noEquip,No more equipment to loot.
+43,noItemNum,This item's uses are exhausted.
+44,useItemNum,This item has {0} uses left.
+45,lessSP,"You feel exhausted, energy decreased by {0}."
+46,addSP,"You feel refreshed, energy increased by {0}."
+47,acupointSucc,You ruthlessly expend inner energy to destroy one of this person's acupoints.
+48,acupointFail,This person's meridians are already completely destroyed.
+49,wuxueSucc,You expend inner energy to nullify one of this person's martial arts.
+50,wuxueFail,This person's martial arts are already nullified.
+51,getPlayerItem,{0} was stolen.

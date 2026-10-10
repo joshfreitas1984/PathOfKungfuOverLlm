@@ -1,0 +1,365 @@
+﻿1,动作状态名称,备注,攻击距离 ( AI使用距离 0表示无限制 )( 1个单位表示2格 或 2步) （float）,命令,默认按键,消耗体力,消耗血量百分比,攻击前摇帧数(目前只需要填写普攻A1),技能按键是否需要持续按键 0不需要  1需要 （轻击、重击、其他动作不需要配置）,是否可以取消招式  0不可以，1可以
+2,name,,atkDistance,cmd,button,costTili,costHPRate,atkForwardFrame,needContinueSkill,canCancelSkill
+3,jian/A1,剑的普攻 一段 A1,3.2,Attack,Mouse0,0,0,11,0,0
+4,jian/A2,剑的普攻 二段 A2,3,Attack,Mouse0,0,0,0,0,0
+5,jian/A3,剑的普攻 三段 A3,2.8,Attack,Mouse0,0,0,0,0,0
+6,jian/B6,剑的重击 B招,3.1,Attack2,Mouse1,25,0,0,0,0
+7,jian/B6,剑的重击 B招 有残影,3.1,Attack2,Mouse1,25,0,0,0,0
+8,jian/特殊技第1击,凌鸿剑势技能1空中释放特效技1,2.35,Skill1,1,15,0,0,0,0
+9,jian/特殊技第2击,凌鸿剑势技能1空中释放特效技2,2.35,Skill1,1,15,0,0,0,0
+10,jian/Skill1,剑的第一技能：纵起惊鸿 第1段,5,Skill1,1,0,0,0,0,0
+11,jian/Skill1_2,剑的第一技能：纵起惊鸿 第2段,5,Skill1,1,35,0,0,0,0
+12,jian/Skill1_3,剑的第一技能：纵起惊鸿 第3段,5,Skill1,1,35,0,0,0,0
+13,jian/Skill2,剑的第二技能:3. 物衍天行 持剑上挑,2.8,Skill2,2,0,0,0,0,0
+14,jian/Skill3,剑的第三技能：孤鸿照影 冲刺技能 长剑倒刺入地面，借助剑势向前横飞,6.61,Skill3,F,0,0,0,0,0
+15,jian/Skill4,剑的第4技能 原地上挑,2.55,Skill4,3,15,0,0,0,0
+16,jian/Skill5,剑的第5技能  向前穿刺，攻击沿途敌人,8,Skill5,R,15,0,0,0,0
+17,jian/Skill7,清风剑法 1,2.35,Skill1,1,0,0,0,0,0
+18,jian/Skill8,清风剑法 2,7.2,Skill2,2,0,0,0,0,0
+19,jian/Skill9,清风剑法 3,5,Skill3,3,0,0,0,0,0
+20,jian/Skill10,斩杀刀1,2.6,Skill1,1,0,0,0,0,0
+21,jian/Skill10_2,斩杀刀2,3.2,Skill1,2,0,0,0,0,0
+22,jian/Skill11,斩杀刀3,6,Skill2,3,0,0,0,0,1
+23,jian/Skill12,斩杀刀4,5.1,Skill3,3,0,0,0,0,0
+24,jian/Skill13,两仪剑法技能1,2,Skill1,1,0,0,0,0,0
+25,jian/Skill14,两仪剑法技能2,2,Skill2,2,0,0,0,0,0
+26,jian/Skill15,两仪剑法技能3,2,Skill3,3,0,0,0,0,0
+27,jian/Skill16,浮萍剑技能1,2,Skill1,1,0,0,0,0,0
+28,jian/Skill17,浮萍剑技能2,2,Skill2,1,0,0,0,0,0
+29,jian/Skill18,浮萍剑技能3,2,Skill3,1,0,0,0,0,0
+30,jian/Skill19,新剑法技能1,2,Skill1,1,0,0,0,0,0
+31,jian/Skill20,新剑法技能2,2,Skill2,2,0,0,0,0,0
+32,jian/Skill21,新剑法技能3,2,Skill3,3,0,0,0,0,0
+33,jian/格挡,格挡,2,Gedang,E,5,0,0,0,0
+34,jian/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+35,jian/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+36,jian/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+37,jian/跳击,跳击,2,Attack,A,15,0,0,0,0
+38,jian/跳,跳,0,Jump,Space,5,0,0,0,0
+39,jian/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+40,shanzi/A1,扇子的普攻 一段 A1,2.3,Attack,Mouse0,0,0,10,0,0
+41,shanzi/A2,扇子的普攻 二段 A2,2.9,Attack,Mouse0,0,0,0,0,0
+42,shanzi/A3,扇子的普攻 三段 A3,3.4,Attack,Mouse0,0,0,0,0,0
+43,shanzi/A4,扇子的普攻 四段 A4,3.4,Attack,Mouse0,0,0,0,0,0
+44,shanzi/B6,扇子的重击 B招,3.2,Attack2,Mouse1,25,0,0,0,0
+45,shanzi/B6,扇子的重击 B招 变招,3.2,Attack2,Mouse1,25,0,0,0,0
+46,shanzi/Skill1,扇子的第一技能：问秋风 持扇直刺,2.6,Skill1,1,0,0,0,0,0
+47,shanzi/Skill2,萧意寒  问秋风 的被动技能,2.6,Skill,None,0,0,0,0,0
+48,shanzi/Skill3, 扇子的第二技能：归去来   抛出折扇,5,Skill2,2,0,0,0,0,0
+49,shanzi/Skill4,"通用技能2 扇子的第5技能  空余目   释放出毒砂,致盲状态",2.8,Skill5,R,15,0,0,0,0
+50,shanzi/Skill5,扇子的通用技能1 展扇转身，整个身体压低，攻击目标腿部，造成击倒效果 ,2.2,Skill4,R,15,0,0,0,0
+51,shanzi/Skill6,扇子的第3技能  5. 扇子处于展开状态向前攻击，在短距离旋转两次后，扇子将回手,2.8,Skill3,R,0,0,0,0,0
+52,shanzi/Skill7,扇子的第一技能,2.6,Skill1,1,0,0,0,0,0
+53,shanzi/Skill8,扇子的第二技能,2.6,Skill,2,0,0,0,0,0
+54,shanzi/Skill9,扇子的第三技能,5,Skill2,3,0,0,0,0,0
+55,shanzi/Skill11_火枪,Boss连天明 火枪技能,4.6,Skill,R,0,0,0,0,0
+56,shanzi/格挡,格挡,2,Gedang,E,5,0,0,0,0
+57,shanzi/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+58,shanzi/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+59,shanzi/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+60,shanzi/跳击,跳击,2,Attack,A,15,0,0,0,0
+61,shanzi/跳,跳,0,Jump,Space,5,0,0,0,0
+62,shanzi/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+63,quan/A1,拳的普攻 一段 A1,2.1,Attack,Mouse0,0,0,10,0,0
+64,quan/A2,拳的普攻 二段 A2,2.3,Attack,Mouse0,0,0,0,0,0
+65,quan/A3,拳的普攻 三段 A3,2.3,Attack,Mouse0,0,0,0,0,0
+66,quan/A4,拳的普攻 四段 A4,2.5,Attack,Mouse0,0,0,0,0,0
+67,quan/B6,拳的重击 B招,2.5,Attack2,Mouse1,25,0,0,0,0
+68,quan/B6,拳的重击 B招 变招,2.5,Attack2,Mouse1,25,0,0,0,0
+69,quan/Skill1,千煅拳技能1,2,Skill1,1,0,0,0,0,0
+70,quan/Skill2,千煅拳技能1派生,2,Skill2,1,0,0,0,0,0
+71,quan/Skill3,千煅拳技能1派生,2,Skill3,1,0,0,0,0,0
+72,quan/Skill4,千煅拳技能2,2,Skill2,2,0,0,0,0,0
+73,quan/Skill5,千煅拳技能2派生,2,Skill2,2,0,0,0,0,0
+74,quan/Skill6,千煅拳技能3,2,Skill3,3,0,0,0,0,0
+75,quan/Skill7,拳的通用技能1： 主动技能：向前上方双掌斜推，攻击敌方下巴，把人托起\n可中断普攻，敌浮空半人高\n,1,Skill4,R,15,0,0,0,0
+76,quan/Skill8,拳的通用技能2 缴械 （近战武器，除了重刃）（拳法没有弹反，只有缴械） 主动技能：敌人攻击时，双手向前横着直伸合掌，然后肘击，判定方法和格挡一样，0.2秒内视为缴械成功，敌方后仰，我方合掌的瞬间敌方手中武器消除掉。（缴械状态持续5秒）,1,Skill5,R,15,0,0,0,0
+77,quan/Skill9,拳的通用技能第3技能  如雷贯耳 主动技能：双手合击，拍敌方双耳，晕眩状态持续3秒。,1,Skill,R,15,0,0,0,0
+78,quan/Skill10,伏阳开碑拳技能1,2,Skill1,1,0,0,0,0,0
+79,quan/Skill11,伏阳开碑拳技能2,2,Skill2,2,0,0,0,0,0
+80,quan/Skill12,伏阳开碑拳技能3,2,Skill3,3,0,0,0,0,0
+81,quan/Skill13,太极拳的第一技能：连出五拳，后面加被动可以连出六拳,2,Skill1,1,0,0,0,0,0
+82,quan/Skill14,太极拳的第二技能 主动技能：按键不动后，我方做招架状，任何攻击打过来都会被化解，然后把敌方推到身后且处于踉跄状态,2,Skill2,2,0,0,0,0,1
+83,quan/Skill16,太极拳的第三技能：按键后如果马上松开，会直接爆炸，伤害为X+内息*系数/境界，如果之前有储能的BUFF，加上储能的伤害并清除储能BUFF。,5,Skill3,2,0,0,0,1,0
+84,quan/Skill18,新拳法（指气）技能1,2,Skill1,1,0,0,0,0,0
+85,quan/Skill19,新拳法（指气）技能2,2,Skill2,2,0,0,0,0,0
+86,quan/Skill20,新拳法（指气）技能3,5,Skill3,3,0,0,0,0,0
+87,quan/格挡,格挡,2,Gedang,E,5,0,0,0,0
+88,quan/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+89,quan/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+90,quan/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+91,quan/跳击,跳击,2,Attack,A,15,0,0,0,0
+92,quan/跳,跳,0,Jump,Space,5,0,0,0,0
+93,quan/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+94,qiangfa/A1,枪法的普攻 一段 A1,3.2,Attack,Mouse0,0,0,10,0,0
+95,qiangfa/A2,枪法的普攻 二段 A2,3,Attack,Mouse0,0,0,0,0,0
+96,qiangfa/A3,枪法的普攻 三段 A3,2.8,Attack,Mouse0,0,0,0,0,0
+97,qiangfa/B6,枪法的重击 B招,4.9,Attack2,Mouse1,25,0,0,0,0
+98,qiangfa/B6,枪法的重击 B招 变招,4.9,Attack2,Mouse1,25,0,0,0,0
+99,qiangfa/Skill3,枪法的通用技能1：向前上方斜挥。浮空技,1,Skill5,R,15,0,0,0,0
+100,qiangfa/Skill7,攻击身边一圈，击飞敌人。（目的是敌方靠近自己后，因为攻击距离打不到对方）,1,Skill4,R,15,0,0,0,0
+101,qiangfa/Skill1,回马枪法的第一技能：抖枪花3次，每抖一次攻击3次，也就是3个枪花，浮空,2,Skill1,1,0,0,0,0,0
+102,qiangfa/Skill5,回马枪法的第二技能 枪插地，双手握住枪尾，撑杆，翻身跳到敌人背后，落地后方向依然是不变,2,Skill2,2,0,0,0,0,0
+103,qiangfa/Skill4,回马枪法的第三技能：回马枪，向同一方向移动时，产生BUFF，提升1技能伤害，一直持续到转向或者释放技能时消失，本技能反向攻击，伤害根据BUFF时长决定，最高提升50%,5,Skill3,3,0,0,0,0,0
+104,qiangfa/Skill10,来回滑行3次,2,Skill1,1,0,0,0,0,0
+105,qiangfa/Skill10_2,Skill10的第四招,2,Skill1,1,0,0,0,0,0
+106,qiangfa/Skill11,水平旋转自身挥舞枪身和腿部，对身边所有敌人造成（2）次（X）点伤害,2,Skill2,2,0,0,0,0,0
+107,qiangfa/Skill12,持枪攻击3次，对前方目标造成3次（X）点伤害，此技能可中断普通攻击强制施展。,5,Skill3,2,0,0,0,0,0
+108,qiangfa/Skill13,众相菩提杖技能1,2,Skill1,1,0,0,0,0,0
+109,qiangfa/Skill14,众相菩提杖技能2,2,Skill2,2,0,0,0,1,0
+110,qiangfa/Skill15,众相菩提杖技能3,2,Skill3,3,0,0,0,0,0
+111,qiangfa/Skill16_喷酒,boss技:葛有方 喷酒,4,Skill,R,0,0,0,0,0
+112,qiangfa/Skill17,震国抵岳枪技能1,2,Skill1,1,0,0,0,0,0
+113,qiangfa/Skill18,震国抵岳枪技能2,2,Skill2,2,0,0,0,1,0
+114,qiangfa/Skill19,震国抵岳枪技能3,2,Skill3,3,0,0,0,0,0
+115,qiangfa/格挡,格挡,2,Gedang,E,5,0,0,0,0
+116,qiangfa/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+117,qiangfa/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+118,qiangfa/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+119,qiangfa/跳击,跳击,2,Attack,A,15,0,0,0,0
+120,qiangfa/跳,跳,0,Jump,Space,5,0,0,0,0
+121,qiangfa/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+122,lang/A1,狼的普攻 一段 A1,1.8,Attack,Mouse0,0,0,6,0,0
+123,lang/闪避,闪避,2,ShanBi,Mouse0,20,0,0,0,0
+124,lang/Skill1,狼的技能1,2.2,Skill1,Mouse0,0,0,0,0,0
+125,lang/Skill2,狼的技能2,3,Skill2,Mouse0,0,0,0,0,0
+126,she/A1,蛇的普攻 一段 A1,2.4,Attack,Mouse0,0,0,6,0,0
+127,she/闪避,蛇后跳,2,ShanBi,Mouse0,20,0,0,0,0
+128,she/Skill,蛇的技能1,3.6,Skill1,Mouse0,0,0,0,0,0
+129,xiong/A1,熊的普攻 一段 A1,2.4,Attack,Mouse0,0,0,6,0,0
+130,xiong/Skill1,熊技能,2.2,Skill1,Mouse0,0,0,0,0,0
+131,xiong/闪避,熊后跳,2,ShanBi,Mouse0,20,0,0,0,0
+132,guren/A1,蛊人普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+133,guren/Skill1,蛊人技能,3.6,Skill1,Mouse0,0,0,0,0,0
+134,guren/闪避,蛊人闪避,2,ShanBi,Mouse0,20,0,0,0,0
+135,chanchu/A1,蟾蜍普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+136,chanchu/Skill1,蟾蜍技能,3.6,Skill1,Mouse0,0,0,0,0,0
+137,chanchu/闪避,蟾蜍闪避,2,ShanBi,Mouse0,20,0,0,0,0
+138,mojiajiawei_jinzhan/A1,墨家甲卫近战 普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+139,mojiajiawei_jinzhan/闪避,墨家甲卫近战 闪避,2,ShanBi,Mouse0,20,0,0,0,0
+140,mojiajiawei_yuancheng/A1,墨家甲卫远程 普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+141,mojiajiawei_yuancheng/闪避,墨家甲卫远程 闪避,2,ShanBi,Mouse0,20,0,0,0,0
+142,laohu/A1,老虎 普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+143,laohu/闪避,老虎 闪避,2,ShanBi,Mouse0,20,0,0,0,0
+144,zhizhu/A1,蜘蛛普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+145,zhizhu/闪避,蜘蛛闪避,2,ShanBi,Mouse0,20,0,0,0,0
+146,xiezi/A1,蝎子普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+147,xiezi/闪避,蝎子闪避,2,ShanBi,Mouse0,20,0,0,0,0
+148,wugong/A1,蜈蚣普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+149,wugong/闪避,蜈蚣闪避,2,ShanBi,Mouse0,20,0,0,0,0
+150,dashe/A1,大蛇普通攻击,2.4,Attack,Mouse0,0,0,6,0,0
+151,dashe/Skill2,大蛇技能,3.6,Skill1,Mouse0,0,0,0,0,0
+152,dashe/闪避,大蛇闪避,2,ShanBi,Mouse0,20,0,0,0,0
+153,shengbiao/A1,绳镖的普攻 一段 A1,5.8,Attack,Mouse0,0,0,13,0,0
+154,shengbiao/A2,绳镖的普攻 二段 A2,5.8,Attack,Mouse0,0,0,0,0,0
+155,shengbiao/A3,绳镖的普攻 三段 A3,5.8,Attack,Mouse0,0,0,0,0,0
+156,shengbiao/B6,绳镖的重击 B招,5.8,Attack2,Mouse1,25,0,0,0,0
+157,shengbiao/B6,绳镖的重击 B招 有残影,5.8,Attack2,Mouse1,25,0,0,0,0
+158,shengbiao/Skill4,绳镖技能4,5.8,Skill4,4,15,0,0,0,0
+159,shengbiao/Skill1,绳镖技能5,5.8,Skill5,5,15,0,0,0,0
+160,shengbiao/Skill2,绳镖技能1,5.8,Skill1,1,0,0,0,0,0
+161,shengbiao/Skill3,绳镖技能2,5.8,Skill2,2,0,0,0,0,0
+162,shengbiao/Skill5,绳镖技能3,5.8,Skill3,3,0,0,0,0,0
+163,shengbiao/Skill1,boss技:  肉痴  绳镖 第一技能,5.5,Skill,1,0,0,0,0,0
+164,shengbiao/Skill2,boss技:  肉痴 绳镖 第二技能  ,5,Skill,2,0,0,0,0,0
+165,shengbiao/跳,跳,0,Jump,Space,5,0,0,0,0
+166,shengbiao/跳击2,跳击,2,Attack,A,15,0,0,0,0
+167,shengbiao/闪避,闪避,2,ShanBi,Q,20,0,0,0,0
+168,shengbiao/前闪避,前闪避,2,ShanBi,Q,20,0,0,0,0
+169,zhongren/A1,重刃的普攻 一段 A1,2.1,Attack,Mouse0,0,0,10,0,0
+170,zhongren/A2,重刃的普攻 二段 A2,2.3,Attack,Mouse0,0,0,0,0,0
+171,zhongren/B6,重刃的重击 B招,5.2,Attack2,Mouse1,25,0,0,0,0
+172,zhongren/B6,重刃的重击 B招 变招,5.2,Attack2,Mouse1,25,0,0,0,0
+173,zhongren/格挡,格挡,2,Gedang,E,5,0,0,0,0
+174,zhongren/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+175,zhongren/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+176,zhongren/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+177,zhongren/跳击,跳击,2,Attack,A,15,0,0,0,0
+178,zhongren/跳,跳,0,Jump,Space,5,0,0,0,0
+179,zhongren/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+180,zhongren/Skill2,向前横挥刀面（非刀刃），击晕对方，DEBUFF，持续2秒。,1,Skill4,R,15,0,0,0,0
+181,zhongren/Skill3,跳起，双手握剑插地，圆形攻击波攻击周围2个人身体范围的敌人，击飞。,1,Skill5,R,15,0,0,0,0
+182,zhongren/Skill5,横着挥舞重刃1次，旋转身体再挥舞1次，向前一步旋转身体再挥舞1次，最后一次击飞（都是面向前方） ,2,Skill1,1,0,0,0,0,0
+183,zhongren/Skill4,在空中时候，身体可以圈成轮子形状，然后旋转攻击3次，原地按键则多一个向前跳跃的动作,2,Skill2,2,0,0,0,0,0
+184,zhongren/Skill1,双手握刀，旋转，每3帧消耗1真气攻击1次，直到真气为0停止旋转，对身边所有目标造成伤害，可以自由移动。,1,Skill3,2,0,0,0,0,0
+185,zhongren/Skill6,技能1,1,Skill1,1,0,0,0,1,0
+186,zhongren/Skill7,技能2,1,Skill2,1,0,0,0,0,0
+187,zhongren/Skill8,技能3,1,Skill3,1,0,0,0,0,0
+188,anqi/A1,暗器的普攻 一段 A1,10,Attack,Mouse0,5,0,15,0,0
+189,anqi/A2,暗器的普攻 二段 A2,10,Attack,Mouse0,5,0,0,0,0
+190,anqi/A3,暗器的普攻 三段 A3,10,Attack,Mouse0,5,0,0,0,0
+191,anqi/B6,暗器的重击 B招,10,Attack2,Mouse1,15,0,0,0,0
+192,anqi/B6,暗器的重击 B招 变招,10,Attack2,Mouse1,15,0,0,0,0
+193,anqi/格挡,格挡,2,Gedang,E,5,0,0,0,0
+194,anqi/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+195,anqi/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+196,anqi/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+197,anqi/跳击,跳击,10,Attack,A,5,0,0,0,0
+198,anqi/跳,跳,0,Jump,Space,5,0,0,0,0
+199,anqi/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+200,SheShenJi,舍身技,1,Skill,R,0,12,0,0,0
+201,TongYongJi_NeiGong,通用技能 内功(可用于buff、debuff等施法动作),1,Skill,R,0,0,0,0,0
+202,TongYongJi_QingGong,通用技能 轻功(可用于buff、debuff等施法动作),1,Skill,F,0,0,0,0,0
+203,shuangshouqingren/A1,双手轻刃的普攻 一段 A1,2.1,Attack,Mouse0,0,0,10,0,0
+204,shuangshouqingren/A2,双手轻刃的普攻 二段 A2,2.3,Attack,Mouse0,0,0,0,0,0
+205,shuangshouqingren/A3,双手轻刃的普攻 三段 A3,2.3,Attack,Mouse0,0,0,0,0,0
+206,shuangshouqingren/B6,双手轻刃的重击 B招,2.5,Attack2,Mouse1,25,0,0,0,0
+207,shuangshouqingren/B6,双手轻刃的重击 B招 变招,2.5,Attack2,Mouse1,25,0,0,0,0
+208,shuangshouqingren/格挡,格挡,2,Gedang,E,5,0,0,0,0
+209,shuangshouqingren/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+210,shuangshouqingren/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+211,shuangshouqingren/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+212,shuangshouqingren/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+213,shuangshouqingren/Skill1,双手轻刃的第一个技能,2.1,Skill1,1,0,0,0,0,0
+214,shuangshouqingren/Skill2,双手轻刃的第二个技能,2.3,Skill2,2,0,0,0,0,0
+215,shuangshouqingren/Skill3,双手轻刃的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+216,shuangshouqingren/Skill4,双手轻刃的通用技能1,2.5,Skill4,4,15,0,0,0,0
+217,shuangshouqingren/Skill5,双手轻刃的通用技能2,2.5,Skill5,5,15,0,0,0,0
+218,shuangshouqingren/Skill6,双手轻刃的第一个技能,2.1,Skill1,1,0,0,0,0,0
+219,shuangshouqingren/Skill7,双手轻刃的第二个技能,2.3,Skill2,2,0,0,0,0,0
+220,shuangshouqingren/Skill8,双手轻刃的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+221,shuangshouqingren/Skill9,双手轻刃的第一个技能,2.1,Skill1,1,0,0,0,0,0
+222,shuangshouqingren/Skill10,双手轻刃的第二个技能,2.3,Skill2,2,0,0,0,0,0
+223,shuangshouqingren/Skill11,双手轻刃的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+224,shuangshouqingren/Skill12,双手轻刃的第一个技能,2.1,Skill1,1,0,0,0,0,0
+225,shuangshouqingren/Skill13,双手轻刃的第二个技能,2.3,Skill2,2,0,0,0,0,0
+226,shuangshouqingren/Skill14,双手轻刃的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+227,shuangshouqingren/跳击,跳击,2,Attack,A,15,0,0,0,0
+228,shuangshouqingren/跳,跳,0,Jump,Space,5,0,0,0,0
+229,tui/A1,腿脚的普攻 一段 A1,2.1,Attack,Mouse0,0,0,10,0,0
+230,tui/A2,腿脚的普攻 二段 A2,2.3,Attack,Mouse0,0,0,0,0,0
+231,tui/A3,腿脚的普攻 三段 A3,2.3,Attack,Mouse0,0,0,0,0,0
+232,tui/A4,腿脚的普攻 四段 A4,2.3,Attack,Mouse0,0,0,0,0,0
+233,tui/B6,腿脚的重击 B招,2.5,Attack2,Mouse1,25,0,0,0,0
+234,tui/B6,腿脚的重击 B招 变招,2.5,Attack2,Mouse1,25,0,0,0,0
+235,tui/格挡,格挡,2,Gedang,E,5,0,0,0,0
+236,tui/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+237,tui/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+238,tui/前闪避,向前闪避,2,ShanBi,Q,0,0,0,0,0
+239,tui/跳击,跳击,2,Attack,A,15,0,0,0,0
+240,tui/跳,跳,0,Jump,Space,5,0,0,0,0
+241,tui/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+242,tui/Skill1,腿脚的第一个技能,2.1,Skill1,1,0,0,0,0,0
+243,tui/Skill2,腿脚的第二个技能,2.3,Skill2,2,0,0,0,0,0
+244,tui/Skill3,腿脚的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+245,tui/Skill4,腿脚的通用技能1,2.5,Skill4,4,15,0,0,0,0
+246,tui/Skill5,腿脚的通用技能2,2.5,Skill5,5,15,0,0,0,0
+247,tui/Skill6,腿脚的第一个技能,2.1,Skill1,1,0,0,0,0,0
+248,tui/Skill7,腿脚的第二个技能,2.3,Skill2,2,0,0,0,0,0
+249,tui/Skill8,腿脚的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+250,301006,狳甲翻,2.1,Skill1,E,20,0,0,,
+251,duanbing/A1,短兵的普攻 一段 A1,2.1,Attack,Mouse0,0,0,10,0,0
+252,duanbing/A2,短兵的普攻 一段 A2,,,,,,,,
+253,duanbing/A3,短兵的普攻 一段 A3,,,,,,,,
+254,duanbing/A4,短兵的普攻 一段 A4,,,,,,,,
+255,duanbing/B6,短兵的重击 B招,2.5,Attack2,Mouse1,25,0,0,0,0
+256,duanbing/B6,短兵的重击 B招 变招,2.5,Attack2,Mouse1,25,0,0,0,0
+257,duanbing/格挡,格挡,2,Gedang,E,5,0,0,0,0
+258,duanbing/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+259,duanbing/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+260,duanbing/前闪避,向前闪避,2,ShanBi,Q,20,0,0,0,0
+261,duanbing/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+262,duanbing/Skill1,短兵的第一个技能,2.1,Skill1,1,0,0,0,0,0
+263,duanbing/Skill2,短兵的第二个技能,2.3,Skill2,2,0,0,0,0,0
+264,duanbing/Skill3,短兵的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+265,duanbing/Skill4,短兵的通用技能1,2.5,Skill4,4,5,0,0,0,0
+266,duanbing/Skill5,短兵的通用技能2,2.5,Skill5,5,5,0,0,0,0
+267,duanbing/Skill6,短兵的第一个技能,2.1,Skill1,1,0,0,0,0,0
+268,duanbing/Skill6_2,短兵的第一个技能,2.1,Skill1,1,0,0,0,0,0
+269,duanbing/Skill7,短兵的第二个技能,2.3,Skill2,2,0,0,0,0,0
+270,duanbing/Skill8,短兵的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+271,duanbing/A7,月残经派生轻攻击1,2.1,Attack,Mouse0,10,0,10,0,0
+272,duanbing/A8,月残经派生轻攻击2,2.1,Attack,Mouse0,10,0,10,0,0
+273,duanbing/A9,月残经派生轻攻击3,2.1,Attack,Mouse0,10,0,10,0,0
+274,duanbing/B7,月残经派生重攻击,2.5,Attack2,Mouse1,25,0,0,0,0
+275,duanbing/跳击2,跳击,2,Attack,A,15,0,0,0,0
+276,duanbing/跳,跳,0,Jump,Space,5,0,0,0,0
+277,gongjian/A1,弓箭的普攻 一段 A1,2.1,Attack,Mouse0,0,0,10,0,0
+278,gongjian/B6,弓箭的重击 B招,2.5,Attack2,Mouse1,25,0,0,0,0
+279,gongjian/B6,弓箭的重击 B招 变招,2.5,Attack2,Mouse1,25,0,0,0,0
+280,gongjian/格挡,格挡,2,Gedang,E,5,0,0,0,0
+281,gongjian/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+282,gongjian/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+283,gongjian/前闪避,向前闪避,2,ShanBi,Q,20,0,0,0,0
+284,gongjian/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+285,gongjian/Skill4,弓箭的第一个技能,2.1,Skill1,1,0,0,0,0,0
+286,gongjian/Skill2,弓箭的第二个技能,2.3,Skill2,2,0,0,0,0,0
+287,gongjian/Skill3,弓箭的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+288,gongjian/Skill5,弓箭的通用技能1,2.5,Skill4,4,15,0,0,0,0
+289,gongjian/Skill1,弓箭的通用技能2,2.5,Skill5,5,15,0,0,0,0
+290,anqi/Skill1,暗器的第一个技能,2.1,Skill1,1,0,0,0,0,0
+291,anqi/Skill4,暗器的第二个技能,2.3,Skill2,2,0,0,0,0,0
+292,anqi/Skill5,暗器的第三个技能 ,2.3,Skill3,3,0,0,0,0,0
+293,anqi/Skill2,暗器的通用技能1,2.5,Skill4,4,5,0,0,0,0
+294,anqi/Skill3,暗器的通用技能2,2.5,Skill5,5,5,0,0,0,0
+295,anqi/Skill6,暗器的第一个技能,2.1,Skill1,1,0,0,0,0,0
+296,anqi/Skill7,暗器的第二个技能,2.1,Skill2,2,0,0,0,0,0
+297,anqi/Skill8,暗器的第三个技能,2.1,Skill3,3,0,0,0,0,0
+298,gongjian/跳击,跳击,2,Attack,A,15,0,0,0,0
+299,gongjian/跳,跳,0,Jump,Space,5,0,0,0,0
+300,huoqiang/A1,火枪的普攻 一段 A1,10,Attack,Mouse0,0,0,10,0,0
+301,huoqiang/B6,火枪的重击 B招,2,Attack2,Mouse1,0,0,0,0,0
+302,huoqiang/B6,火枪的重击 B招 变招,2,Attack2,Mouse1,0,0,0,0,0
+303,huoqiang/格挡,格挡,2,Gedang,E,5,0,0,0,0
+304,huoqiang/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+305,huoqiang/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+306,huoqiang/前闪避,向前闪避,2,ShanBi,Q,20,0,0,0,0
+307,huoqiang/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+308,huoqiang/Skill1,火枪的第一个技能,2,Skill1,1,0,0,0,0,0
+309,huoqiang/Skill2,火枪的第二个技能,10,Skill2,2,0,0,0,1,0
+310,huoqiang/Skill3,火枪的第三个技能 ,10,Skill3,3,0,0,0,0,0
+311,huoqiang/Skill4,火枪的通用技能1,3,Skill4,4,15,0,0,0,0
+312,huoqiang/Skill5,火枪的通用技能2,2,Skill5,5,15,0,0,0,0
+313,huoqiang/跳击,跳击,2,Attack,A,15,0,0,0,0
+314,huoqiang/跳,跳,0,Jump,Space,5,0,0,0,0
+315,ruanbian/A1,鞭子的普攻 一段 A1,10,Attack,Mouse0,0,0,10,0,0
+316,ruanbian/A2,鞭子的普攻 一段 A2,10,Attack,Mouse0,0,0,10,0,0
+317,ruanbian/A3,鞭子的普攻 一段 A3,10,Attack,Mouse0,0,0,10,0,0
+318,ruanbian/B6,鞭子的重击 B招,2,Attack2,Mouse1,25,0,0,0,0
+319,ruanbian/B6,鞭子的重击 B招 变招,2,Attack2,Mouse1,25,0,0,0,0
+320,ruanbian/格挡,格挡,2,Gedang,E,5,0,0,0,0
+321,ruanbian/闪避,后跳,2,ShanBi,Q,20,0,0,0,0
+322,ruanbian/闪避_2,后跳 带残影，中断动作的后跳,2,ShanBi,Q,20,0,0,0,0
+323,ruanbian/前闪避,向前闪避,2,ShanBi,Q,20,0,0,0,0
+324,ruanbian/Run,跑,0,Run,"W,D,S,A;UpArrow,RightArrow,DownArrow,LeftArrow",0,0,0,0,0
+325,ruanbian/Skill1,鞭子的第一个技能,2,Skill1,1,0,0,0,0,0
+326,ruanbian/Skill2,鞭子的第二个技能,10,Skill2,2,0,0,0,1,0
+327,ruanbian/Skill2_2,鞭子2技能按键派生,10,Attack,Mouse0,20,0,0,0,0
+328,ruanbian/Skill2_3,鞭子2技能按键派生,10,Attack,Mouse0,20,0,0,0,0
+329,ruanbian/Skill2_4,鞭子2技能按键派生,10,Attack,Mouse0,20,0,0,0,0
+330,ruanbian/Skill3,鞭子的第三个技能 ,10,Skill3,3,0,0,0,0,0
+331,ruanbian/Skill4,鞭子的通用技能1,3,Skill4,4,15,0,0,0,0
+332,ruanbian/Skill5,鞭子的通用技能2,2,Skill5,5,15,0,0,0,0
+333,ruanbian/跳击,跳击,2,Attack,A,15,0,0,0,0
+334,ruanbian/跳,跳,0,Jump,Space,5,0,0,0,0
+335,ruanbian/Skill6,鞭子的第一个技能,2,Skill1,1,0,0,0,0,0
+336,ruanbian/Skill7,鞭子的第二个技能,2,Skill2,2,0,0,0,0,0
+337,ruanbian/Skill7_2,鞭子2技能按键派生,10,Attack,Mouse0,20,0,0,0,0
+338,ruanbian/Skill7_3,鞭子2技能按键派生,10,Attack,Mouse0,20,0,0,0,0
+339,ruanbian/Skill7_4,鞭子2技能按键派生,10,Attack,Mouse0,20,0,0,0,0
+340,ruanbian/Skill8,鞭子的第三个技能,2,Skill3,3,0,0,0,0,0
+341,qinggong_buhaige,步海阁,1,Skill,F,20,0,0,0,0
+342,qinggong_ganchanyoushenhuan,赶蝉游身环,1,Skill,F,20,0,0,0,0
+343,qinggong_tiyunzong,梯云纵,1,Skill,F,20,0,0,0,0
+344,qinggong_wangliangguibu_1,魍魉诡步,1,Skill,F,20,0,0,0,0
+345,qinggong_duanbingdundiqinggong_1,巫蟒堕月,1,Skill,F,20,0,0,0,0
+346,qinggong_changtingyuanji,长亭远寄,1,Skill,F,20,0,0,0,0
+347,qinggong_lingboweibu,凌波微步,1,Skill,F,20,0,0,0,0
+348,qinggong_luoshentaxuebu,洛神踏雪步,1,Skill,F,20,0,0,0,0
+349,qinggong_qiuyuchuangunshu,犰狳穿滚术,1,Skill,F,20,0,0,0,0
+350,qinggong_yanzongbu,燕纵步,1,Skill,F,20,0,0,0,0
+351,qinggong_ziwuxiaofengtu,紫乌啸凤图,1,Skill,F,20,0,0,0,0
+352,qinggong_niliushiershen,逆流十二身,1,Skill,F,20,0,0,0,0
+353,qinggong_moyuan,漠玉鞍,1,Skill,F,20,0,0,0,0
+354,neigong_wuxuancanqi,武玄参契,1,Skill,R,0,0,0,0,0
+355,neigong_xixingzuohuantu,吸星噬寰图,1,Skill,R,0,0,0,0,0
+356,neigong_chanyinshizihou,内功,1,Skill,R,0,0,0,0,0
+357,neigong_jinzhonghutizhao,内功,1,Skill,R,0,0,0,0,0
+358,neigong_qingnangbaochao,内功,1,Skill,R,0,0,0,0,0
+359,neigong_shaoxiabiece,内功,1,Skill,R,0,0,0,0,0
+360,neigong_taisulingshupian,内功,1,Skill,R,0,0,0,0,0
+361,neigong_taixuanhunyuanjing,内功,1,Skill,R,0,0,0,0,0
+362,neigong_taixuwujijin,内功,1,Skill,R,0,0,0,0,0
+363,neigong_tianyayuemingzhang,内功,1,Skill,R,0,0,0,0,0
+364,neigong_xiangzhuzanglanshu,内功,1,Skill,R,0,0,0,0,0
+365,neigong_zhishanqi,内功,1,Skill,R,0,0,0,0,0

@@ -1,0 +1,17 @@
+﻿1,武器类型,移动速度,攻击类型,游走最短距离,游走最长距离,默认状态,造诣加成公式,
+2,id,speed,type,minDistanceYouZou,maxDistanceYouZou,DefatultState,formula,
+3,1,900,0,2,3.2,quan/Idle3,100,拳掌
+4,2,800,0,2.5,3.6,jian/Idle,100,单手轻刃
+5,3,550,0,3,4,zhongren/Idle,100,重刃
+6,4,650,0,3,4,qiangfa/Idle,100,长兵
+7,5,850,0,2,3.2,shanzi/Idle,100,扇子
+8,6,800,1,5.5,6.4,anqi/Idle,100,暗器
+9,7,0,,0,0,,100,0
+10,8,0,,0,0,,100,0
+11,9,950,0,2,3.2,tui/Idle,100,腿脚
+12,10,750,0,3,4,shuangshouqingren/Idle,100,双手轻刃
+13,11,650,1,4.5,4.8,shengbiao/Idle,100,绳镖
+14,12,700,1,5.5,6.8,gongjian/Idle,100,弓箭
+15,13,650,1,2.5,4,ruanbian/Idle,100,软鞭
+16,14,700,1,5.5,7.2,huoqiang/Idle,100,火器
+17,15,850,0,2.5,4,duanbing/Idle,100,短兵

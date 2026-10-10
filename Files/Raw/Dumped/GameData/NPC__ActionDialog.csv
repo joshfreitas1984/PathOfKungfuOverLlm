@@ -1,0 +1,10 @@
+﻿1,对话ID,初始对话,初始选项,初始方法,条件ID,改变参数ID,成功对话,成功选项,成功方法,失败对话,失败选项,失败方法
+2,id,initDialog,initLips,initFun,termID,changeID,succeedDialog,succeedLips,succeedFun,failDialog,failLips,failFun
+3,9,阁下要打听何人？,"搜索,离开","Find,CloseUI",,,,,,,,
+4,10,此处房产冬暖夏凉，适宜住人。,"购买({0}文),开锁,离开","BuyHouse,OpenLock,CloseUI",,,,,,,,
+5,11,私家宅邸，闲人免入。,"购买({0}文),开锁,离开","BuyHouse,OpenLock,CloseUI",,,,,,,,
+6,12,此处房产已归属你的名下。,离开,CloseUI,,,,,,,,
+7,15,这位朋友若有闲暇，不妨与在下一同去酒馆小酌几杯可好？,"赴约,拒绝","Friend,NoFriend",,,那我先行在酒铺找个安静的雅间，静等阁下了。,暂且离去。,GoQPJG,下次有空，再来相约。,暂且离去。,CloseUI
+8,17,关押着人质的牢门。,"放置,离开","PutNpc,CloseUI",,,,,,,,
+9,18,存取物品的箱子，无甚特别之处。,"存取物品,离开","StorageBox,CloseUI",,,,,,,,
+10,19,朱门半掩，幔舞似幻，隐现佳人妙影……,"掀帘而入,离开","EnterRoom,CloseUI",,,,,,,,

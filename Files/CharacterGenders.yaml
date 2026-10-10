@@ -1,0 +1,4151 @@
+# Character genders for Path of Kung Fu, to be read by a CharacterLineContext provider.
+# Derived from the game data: NPC.xlsx column 性别 (1 = male, 2 = female) and monster.xlsx 角色模组 sex.
+# Names that appear with both genders (generic roles such as 行人, 掌柜) are left out on purpose.
+# The player character picks a gender in-game, so there is no entry for them.
+
+- name: "“亥”字高手"
+  gender: male
+  evidence: "game data x1"
+- name: "“梅花易数”孙茶"
+  gender: male
+  evidence: "game data x1"
+- name: "丁佑德"
+  englishName: "Ding Youde"
+  gender: male
+  evidence: "game data x1"
+- name: "丁昭"
+  englishName: "Ding Zhao"
+  gender: male
+  evidence: "game data x2"
+- name: "丁昭（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "丁蕴真"
+  englishName: "Ding Yunzhen"
+  gender: female
+  evidence: "game data x1"
+- name: "万大初"
+  englishName: "Wan Dachu"
+  gender: male
+  evidence: "game data x1"
+- name: "三更"
+  gender: male
+  evidence: "game data x1"
+- name: "与宴宾客"
+  gender: male
+  evidence: "game data x3"
+- name: "丐帮弟子"
+  gender: male
+  evidence: "game data x16"
+- name: "丐帮长老"
+  gender: male
+  evidence: "game data x3"
+- name: "东壁先生"
+  gender: male
+  evidence: "game data x2"
+- name: "东市恶奴"
+  gender: male
+  evidence: "game data x2"
+- name: "东市无赖"
+  gender: male
+  evidence: "game data x4"
+- name: "东市混混"
+  gender: male
+  evidence: "game data x3"
+- name: "东海女真"
+  gender: male
+  evidence: "game data x7"
+- name: "东海浪人"
+  gender: male
+  evidence: "game data x6"
+- name: "东瀛大名"
+  gender: male
+  evidence: "game data x1"
+- name: "东瀛密探"
+  gender: male
+  evidence: "game data x1"
+- name: "东瀛武士"
+  gender: male
+  evidence: "game data x3"
+- name: "东瀛浪人"
+  gender: male
+  evidence: "game data x1"
+- name: "中年嫖客"
+  gender: male
+  evidence: "game data x1"
+- name: "中年文士"
+  gender: male
+  evidence: "game data x1"
+- name: "中年男子"
+  gender: male
+  evidence: "game data x1"
+- name: "丹左膳"
+  gender: male
+  evidence: "game data x3"
+- name: "丹筑执事"
+  gender: male
+  evidence: "game data x1"
+- name: "丹青轩弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "义禄堂水贼"
+  gender: male
+  evidence: "game data x1"
+- name: "义禄堂管事"
+  gender: male
+  evidence: "game data x1"
+- name: "乌图鲁"
+  gender: male
+  evidence: "game data x1"
+- name: "乌梭"
+  gender: male
+  evidence: "game data x1"
+- name: "乌玄"
+  englishName: "Wu Xuan"
+  gender: male
+  evidence: "game data x1"
+- name: "乐师"
+  gender: male
+  evidence: "game data x1"
+- name: "乔员外"
+  gender: male
+  evidence: "game data x1"
+- name: "乔应珠"
+  englishName: "Qiao Yingzhu"
+  gender: female
+  evidence: "game data x2"
+- name: "乔府丫鬟"
+  gender: female
+  evidence: "game data x1"
+- name: "乔府女仆"
+  gender: female
+  evidence: "game data x1"
+- name: "乔府门房"
+  gender: male
+  evidence: "game data x1"
+- name: "乔福"
+  englishName: "Qiao Fu"
+  gender: male
+  evidence: "game data x1"
+- name: "乞丐"
+  gender: male
+  evidence: "game data x7"
+- name: "乞儿"
+  gender: female
+  evidence: "game data x1"
+- name: "书摊伙计"
+  gender: male
+  evidence: "game data x1"
+- name: "书生"
+  gender: male
+  evidence: "game data x1"
+- name: "书院士子"
+  gender: male
+  evidence: "game data x5"
+- name: "二当家北豺"
+  gender: male
+  evidence: "game data x1"
+- name: "于红梅"
+  englishName: "Yu Hongmei"
+  gender: male
+  evidence: "game data x4"
+- name: "云裁掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "五圣教执事"
+  gender: male
+  evidence: "game data x1"
+- name: "五圣教普通弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "五圣教精英弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "五圣教长老"
+  gender: male
+  evidence: "game data x1"
+- name: "五湖盟众"
+  gender: male
+  evidence: "game data x1"
+- name: "京城小吏"
+  gender: male
+  evidence: "game data x1"
+- name: "京城小贩"
+  gender: male
+  evidence: "game data x1"
+- name: "京营校尉"
+  gender: male
+  evidence: "game data x1"
+- name: "人贩"
+  gender: male
+  evidence: "game data x3"
+- name: "人贩匪徒"
+  gender: male
+  evidence: "game data x4"
+- name: "人贩看守"
+  gender: male
+  evidence: "game data x1"
+- name: "仇千秋"
+  englishName: "Qiu Qianqiu"
+  gender: male
+  evidence: "game data x1"
+- name: "仇千秋_女真服饰"
+  gender: male
+  evidence: "game data x1"
+- name: "今川正人"
+  gender: male
+  evidence: "game data x1"
+- name: "今川留"
+  gender: male
+  evidence: "game data x3"
+- name: "今川留(尸首)"
+  gender: male
+  evidence: "game data x1"
+- name: "从大龙"
+  gender: male
+  evidence: "game data x1"
+- name: "任寒秋"
+  englishName: "Ren Hanqiu"
+  gender: female
+  evidence: "game data x2"
+- name: "伏血堂水贼"
+  gender: male
+  evidence: "game data x1"
+- name: "伙夫"
+  gender: male
+  evidence: "game data x1"
+- name: "伪帝"
+  gender: male
+  evidence: "game data x1"
+- name: "伪帝亲信"
+  gender: male
+  evidence: "game data x2"
+- name: "伪帝侍卫"
+  gender: male
+  evidence: "game data x2"
+- name: "估衣婆"
+  gender: female
+  evidence: "game data x1"
+- name: "何傲霜（神秘人"
+  gender: female
+  evidence: "game data x1"
+- name: "何大勺"
+  gender: male
+  evidence: "game data x1"
+- name: "何郎中"
+  gender: male
+  evidence: "game data x1"
+- name: "余水民"
+  englishName: "Yu Shuimin"
+  gender: male
+  evidence: "game data x1"
+- name: "使刀武人"
+  gender: male
+  evidence: "game data x1"
+- name: "侍卫"
+  gender: male
+  evidence: "game data x3"
+- name: "侍女"
+  gender: female
+  evidence: "game data x4"
+- name: "依依"
+  gender: female
+  evidence: "game data x1"
+- name: "侠士"
+  gender: male
+  evidence: "game data x2"
+- name: "俞秉襄"
+  englishName: "Yu Bingxiang"
+  gender: male
+  evidence: "game data x1"
+- name: "俞阳洲"
+  englishName: "Yu Yangzhou"
+  gender: male
+  evidence: "game data x1"
+- name: "信众"
+  gender: male
+  evidence: "game data x1"
+- name: "信差"
+  gender: male
+  evidence: "game data x2"
+- name: "修船匠人"
+  gender: male
+  evidence: "game data x1"
+- name: "倭人枪手"
+  gender: male
+  evidence: "game data x2"
+- name: "倭人武士"
+  gender: male
+  evidence: "game data x6"
+- name: "倭国武士"
+  gender: male
+  evidence: "game data x3"
+- name: "倭国老者"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇"
+  gender: male
+  evidence: "game data x41"
+- name: "倭寇一（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇三（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇乙"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇二（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇头目"
+  gender: male
+  evidence: "game data x3"
+- name: "倭寇武士"
+  gender: male
+  evidence: "game data x2"
+- name: "倭寇武士乙"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇武士乙（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇武士甲"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇武士甲（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇甲"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇甲（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇精锐"
+  gender: male
+  evidence: "game data x2"
+- name: "倭寇精锐/大将"
+  gender: male
+  evidence: "game data x1"
+- name: "倭寇（尸首）"
+  gender: male
+  evidence: "game data x6"
+- name: "假太和弟子"
+  gender: male
+  evidence: "game data x4"
+- name: "假船工"
+  gender: male
+  evidence: "game data x2"
+- name: "健壮仆从"
+  gender: male
+  evidence: "game data x2"
+- name: "健壮仆从（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "健硕流民"
+  gender: male
+  evidence: "game data x1"
+- name: "傅俊"
+  englishName: "Fu Jun"
+  gender: male
+  evidence: "game data x1"
+- name: "傻小子"
+  gender: male
+  evidence: "game data x3"
+- name: "僧人"
+  gender: male
+  evidence: "game data x13"
+- name: "僧侣"
+  gender: male
+  evidence: "game data x1"
+- name: "元康记掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "光明卫"
+  gender: male
+  evidence: "game data x8"
+- name: "光明卫&1"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&48"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&49"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&80"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&81"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&82"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&83"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&84"
+  gender: male
+  evidence: "game data x1"
+- name: "光明卫&85"
+  gender: male
+  evidence: "game data x1"
+- name: "入魔弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "公子"
+  gender: female
+  evidence: "game data x1"
+- name: "公输古榆"
+  gender: male
+  evidence: "game data x2"
+- name: "公输直"
+  gender: male
+  evidence: "game data x2"
+- name: "关仲木"
+  englishName: "Guan Zhongmu"
+  gender: male
+  evidence: "game data x3"
+- name: "关伯金"
+  englishName: "Guan Bo Jin"
+  gender: male
+  evidence: "game data x3"
+- name: "关叔水"
+  englishName: "Guan Shushui"
+  gender: male
+  evidence: "game data x3"
+- name: "关外农人"
+  gender: male
+  evidence: "game data x4"
+- name: "关外猎户"
+  gender: male
+  evidence: "game data x1"
+- name: "关季火"
+  englishName: "Guan Jihuo"
+  gender: male
+  evidence: "game data x3"
+- name: "关翠花"
+  englishName: "Guan Cuihua"
+  gender: female
+  evidence: "game data x3"
+- name: "兵卒"
+  gender: male
+  evidence: "game data x2"
+- name: "兵卒（乙）"
+  gender: male
+  evidence: "game data x1"
+- name: "兵卒（甲）"
+  gender: male
+  evidence: "game data x1"
+- name: "兵痞"
+  gender: male
+  evidence: "game data x1"
+- name: "兵痞（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "军冶所管事"
+  gender: male
+  evidence: "game data x1"
+- name: "军器监管事"
+  gender: male
+  evidence: "game data x1"
+- name: "军士"
+  gender: male
+  evidence: "game data x20"
+- name: "农人"
+  gender: male
+  evidence: "game data x4"
+- name: "农人（老）"
+  gender: male
+  evidence: "game data x1"
+- name: "农夫"
+  gender: male
+  evidence: "game data x3"
+- name: "农妇"
+  gender: female
+  evidence: "game data x4"
+- name: "农户"
+  gender: male
+  evidence: "game data x1"
+- name: "冯延明"
+  englishName: "Feng Yanming"
+  gender: male
+  evidence: "game data x1"
+- name: "冯成荫"
+  englishName: "Feng Chengyin"
+  gender: male
+  evidence: "game data x2"
+- name: "冯烨"
+  englishName: "Feng Ye"
+  gender: male
+  evidence: "game data x1"
+- name: "冯焕远"
+  englishName: "Feng Huan Yuan"
+  gender: male
+  evidence: "game data x1"
+- name: "冷峻青年"
+  gender: male
+  evidence: "game data x1"
+- name: "冷鹄堂水贼"
+  gender: male
+  evidence: "game data x2"
+- name: "凌义"
+  englishName: "Ling Yi"
+  gender: male
+  evidence: "game data x1"
+- name: "凌义（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "出云勇"
+  gender: male
+  evidence: "game data x1"
+- name: "出云圭树"
+  gender: male
+  evidence: "game data x2"
+- name: "出云家臣"
+  gender: male
+  evidence: "game data x11"
+- name: "出云家臣（尸首）"
+  gender: male
+  evidence: "game data x4"
+- name: "出云左马助"
+  gender: male
+  evidence: "game data x1"
+- name: "出云武士"
+  gender: male
+  evidence: "game data x3"
+- name: "出云直树"
+  gender: male
+  evidence: "game data x2"
+- name: "击鼓乐师"
+  gender: male
+  evidence: "game data x1"
+- name: "刀凤瑶"
+  gender: female
+  evidence: "game data x1"
+- name: "刀奴"
+  gender: male
+  evidence: "game data x4"
+- name: "刑部钦差"
+  gender: male
+  evidence: "game data x1"
+- name: "刘文晓"
+  englishName: "Liu Wenxiao"
+  gender: male
+  evidence: "game data x1"
+- name: "刘烁"
+  englishName: "Liu Shuo"
+  gender: male
+  evidence: "game data x2"
+- name: "刘老太"
+  gender: female
+  evidence: "game data x1"
+- name: "刘邑"
+  englishName: "Liu Yi"
+  gender: male
+  evidence: "game data x1"
+- name: "刘郎中"
+  gender: male
+  evidence: "game data x1"
+- name: "刘顺"
+  englishName: "Liu Shun"
+  gender: male
+  evidence: "game data x1"
+- name: "刽子手"
+  gender: male
+  evidence: "game data x1"
+- name: "化缘沙弥"
+  gender: male
+  evidence: "game data x1"
+- name: "北条重秀"
+  gender: male
+  evidence: "game data x1"
+- name: "北豺"
+  gender: male
+  evidence: "game data x1"
+- name: "匠人"
+  gender: male
+  evidence: "game data x2"
+- name: "匪盗"
+  gender: male
+  evidence: "game data x6"
+- name: "匪盗（尸首）"
+  gender: male
+  evidence: "game data x3"
+- name: "医士"
+  gender: male
+  evidence: "game data x1"
+- name: "医馆郎中"
+  gender: male
+  evidence: "game data x1"
+- name: "华服青年"
+  gender: male
+  evidence: "game data x1"
+- name: "卖炭翁"
+  gender: male
+  evidence: "game data x2"
+- name: "卖糕小贩"
+  gender: male
+  evidence: "game data x1"
+- name: "卖花女"
+  gender: female
+  evidence: "game data x1"
+- name: "卖货郎"
+  gender: male
+  evidence: "game data x1"
+- name: "卖饼婆婆"
+  gender: female
+  evidence: "game data x1"
+- name: "卖饼翁"
+  gender: male
+  evidence: "game data x1"
+- name: "南一"
+  gender: male
+  evidence: "game data x1"
+- name: "南宫刹"
+  gender: male
+  evidence: "game data x1"
+- name: "南宫莲"
+  englishName: "Nangong Lian"
+  gender: female
+  evidence: "game data x3"
+- name: "南蛮武痴"
+  gender: male
+  evidence: "game data x1"
+- name: "卜曼成"
+  englishName: "Bu Mancheng"
+  gender: male
+  evidence: "game data x1"
+- name: "卜曼成（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "卢千川"
+  englishName: "Lu Qianchuan"
+  gender: male
+  evidence: "game data x1"
+- name: "卫兵"
+  gender: male
+  evidence: "game data x2"
+- name: "卫所军官"
+  gender: male
+  evidence: "game data x1"
+- name: "卯雅"
+  gender: female
+  evidence: "game data x2"
+- name: "受伤樵夫"
+  gender: male
+  evidence: "game data x1"
+- name: "右圣王"
+  gender: male
+  evidence: "game data x1"
+- name: "右圣王&44"
+  gender: male
+  evidence: "game data x1"
+- name: "叶伯应"
+  englishName: "Ye Bo Ying"
+  gender: male
+  evidence: "game data x2"
+- name: "司药所医士"
+  gender: male
+  evidence: "game data x1"
+- name: "吕绮萝"
+  gender: female
+  evidence: "game data x2"
+- name: "吴士廉"
+  englishName: "Wu Shilian"
+  gender: male
+  evidence: "game data x1"
+- name: "吴平安"
+  englishName: "Wu Ping'an"
+  gender: male
+  evidence: "game data x2"
+- name: "吴府管家"
+  gender: male
+  evidence: "game data x1"
+- name: "吴林"
+  englishName: "Wu Lin"
+  gender: male
+  evidence: "game data x1"
+- name: "吴猛"
+  englishName: "Wu Meng"
+  gender: male
+  evidence: "game data x1"
+- name: "吴管家"
+  gender: male
+  evidence: "game data x1"
+- name: "吴长老"
+  gender: male
+  evidence: "game data x1"
+- name: "周公子"
+  gender: male
+  evidence: "game data x1"
+- name: "周员外"
+  gender: male
+  evidence: "game data x1"
+- name: "呼救声"
+  gender: male
+  evidence: "game data x1"
+- name: "和尚"
+  gender: male
+  evidence: "game data x1"
+- name: "唐小玥"
+  englishName: "Tang Xiaoyue"
+  gender: female
+  evidence: "game data x1"
+- name: "唐恕"
+  gender: male
+  evidence: "game data x4"
+- name: "唐恨"
+  gender: male
+  evidence: "game data x1"
+- name: "商人"
+  gender: male
+  evidence: "game data x1"
+- name: "商会主管"
+  gender: male
+  evidence: "game data x1"
+- name: "商会主簿"
+  gender: male
+  evidence: "game data x2"
+- name: "商会十七"
+  gender: male
+  evidence: "game data x1"
+- name: "商会总管"
+  gender: male
+  evidence: "game data x2"
+- name: "商会执事"
+  gender: male
+  evidence: "game data x5"
+- name: "商会护卫"
+  gender: male
+  evidence: "game data x5"
+- name: "商会杂役"
+  gender: male
+  evidence: "game data x11"
+- name: "商会账房"
+  gender: male
+  evidence: "game data x1"
+- name: "商会零三"
+  gender: male
+  evidence: "game data x1"
+- name: "商贾"
+  gender: male
+  evidence: "game data x1"
+- name: "商队护卫"
+  gender: male
+  evidence: "game data x5"
+- name: "善妒女子1"
+  gender: female
+  evidence: "game data x1"
+- name: "善妒女子2"
+  gender: female
+  evidence: "game data x1"
+- name: "善妒舞伎（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "善德堂掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "嗜血疯魔"
+  gender: male
+  evidence: "game data x1"
+- name: "嗜血疯魔（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "围观武者"
+  gender: male
+  evidence: "game data x1"
+- name: "围观的武人"
+  gender: male
+  evidence: "game data x1"
+- name: "圆性"
+  gender: male
+  evidence: "game data x1"
+- name: "土匪（尸首）"
+  gender: male
+  evidence: "game data x5"
+- name: "地材天宝楼弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "地痞"
+  gender: male
+  evidence: "game data x9"
+- name: "地痞喽啰"
+  gender: male
+  evidence: "game data x2"
+- name: "地痞赌鬼"
+  gender: male
+  evidence: "game data x1"
+- name: "坛门值守"
+  gender: male
+  evidence: "game data x1"
+- name: "坠坑男子"
+  gender: male
+  evidence: "game data x1"
+- name: "垂钓翁"
+  gender: male
+  evidence: "game data x4"
+- name: "壁城水寨来人"
+  gender: male
+  evidence: "game data x2"
+- name: "壁城水贼"
+  gender: male
+  evidence: "game data x20"
+- name: "壁城精锐"
+  gender: male
+  evidence: "game data x3"
+- name: "壮硕流民"
+  gender: male
+  evidence: "game data x1"
+- name: "夏青晓"
+  englishName: "Xia Qingxiao"
+  gender: female
+  evidence: "game data x1"
+- name: "外门弟子丙"
+  gender: male
+  evidence: "game data x1"
+- name: "外门弟子乙"
+  gender: male
+  evidence: "game data x1"
+- name: "外门弟子甲"
+  gender: male
+  evidence: "game data x1"
+- name: "夜兰"
+  gender: female
+  evidence: "game data x1"
+- name: "大当家西虎"
+  gender: male
+  evidence: "game data x2"
+- name: "大旗门执事"
+  gender: male
+  evidence: "game data x1"
+- name: "大旗门斥候"
+  gender: male
+  evidence: "game data x2"
+- name: "大旗门普通弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "大旗门死士"
+  gender: male
+  evidence: "game data x6"
+- name: "大旗门精英弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "大旗门长老"
+  gender: male
+  evidence: "game data x1"
+- name: "大理黑衣蒙面人"
+  gender: male
+  evidence: "game data x1"
+- name: "大祭司"
+  gender: male
+  evidence: "game data x1"
+- name: "大雪山执事"
+  gender: male
+  evidence: "game data x1"
+- name: "大雪山普通弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "大雪山精英弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "大雪山长老"
+  gender: male
+  evidence: "game data x1"
+- name: "天下人"
+  gender: male
+  evidence: "game data x1"
+- name: "天字廿叁"
+  gender: male
+  evidence: "game data x1"
+- name: "天涯海阁弟子"
+  gender: male
+  evidence: "game data x3"
+- name: "天涯海阁执事"
+  gender: male
+  evidence: "game data x1"
+- name: "天涯海阁普通弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "天涯海阁精英弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "天涯海阁行脚商"
+  gender: male
+  evidence: "game data x1"
+- name: "天涯海阁长老"
+  gender: male
+  evidence: "game data x1"
+- name: "太和 何傲霜"
+  gender: female
+  evidence: "game data x1"
+- name: "太和山执事"
+  gender: female
+  evidence: "game data x1"
+- name: "太和山普通弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "太和山精英弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "太和山长老"
+  gender: male
+  evidence: "game data x1"
+- name: "太和弟子（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "太和村民（文本中原[村民]）"
+  gender: male
+  evidence: "game data x3"
+- name: "太和道童"
+  gender: male
+  evidence: "game data x3"
+- name: "太平使（女）"
+  gender: female
+  evidence: "game data x3"
+- name: "太平使（男）"
+  gender: male
+  evidence: "game data x3"
+- name: "太平道人女"
+  gender: female
+  evidence: "game data x1"
+- name: "太平道人男"
+  gender: male
+  evidence: "game data x1"
+- name: "女 太平使"
+  gender: female
+  evidence: "game data x1"
+- name: "女 太平道人"
+  gender: female
+  evidence: "game data x1"
+- name: "女倭寇"
+  gender: female
+  evidence: "game data x1"
+- name: "女声"
+  gender: female
+  evidence: "game data x1"
+- name: "女婢"
+  gender: female
+  evidence: "game data x6"
+- name: "女子"
+  gender: female
+  evidence: "game data x2"
+- name: "女真人"
+  gender: male
+  evidence: "game data x6"
+- name: "女真人_1"
+  gender: male
+  evidence: "game data x1"
+- name: "女真人_2"
+  gender: male
+  evidence: "game data x1"
+- name: "女真兵卒"
+  gender: male
+  evidence: "game data x1"
+- name: "女真士卒"
+  gender: male
+  evidence: "game data x4"
+- name: "女真头人"
+  gender: male
+  evidence: "game data x4"
+- name: "女真悍卒"
+  gender: male
+  evidence: "game data x4"
+- name: "女真牧民"
+  gender: male
+  evidence: "game data x3"
+- name: "好赌僧"
+  gender: male
+  evidence: "game data x1"
+- name: "妇人"
+  gender: female
+  evidence: "game data x3"
+- name: "妇人（乙）"
+  gender: female
+  evidence: "game data x1"
+- name: "妇人（甲）"
+  gender: female
+  evidence: "game data x1"
+- name: "姜正渊"
+  gender: male
+  evidence: "game data x3"
+- name: "姜武烈"
+  gender: male
+  evidence: "game data x3"
+- name: "姜熙月"
+  gender: female
+  evidence: "game data x1"
+- name: "娄捕快"
+  gender: male
+  evidence: "game data x1"
+- name: "娇俏女子"
+  gender: female
+  evidence: "game data x1"
+- name: "娜克希&110"
+  gender: female
+  evidence: "game data x1"
+- name: "娲祖院弟子"
+  gender: female
+  evidence: "game data x1"
+- name: "婚宴宾客"
+  gender: male
+  evidence: "game data x3"
+- name: "嫖客"
+  gender: male
+  evidence: "game data x3"
+- name: "嬴不凡"
+  gender: male
+  evidence: "game data x2"
+- name: "子弟"
+  gender: male
+  evidence: "game data x1"
+- name: "孙家女儿"
+  gender: female
+  evidence: "game data x1"
+- name: "孙猎户"
+  gender: male
+  evidence: "game data x1"
+- name: "孙老先生"
+  gender: male
+  evidence: "game data x1"
+- name: "孙茶"
+  englishName: "Sun Cha"
+  gender: male
+  evidence: "game data x2"
+- name: "孟阳伯"
+  englishName: "Meng Yang Bo"
+  gender: male
+  evidence: "game data x3"
+- name: "孩童"
+  gender: male
+  evidence: "game data x9"
+- name: "守关弟子"
+  gender: male
+  evidence: "game data x2"
+- name: "守冢弟子"
+  gender: male
+  evidence: "game data x2"
+- name: "守山道人"
+  gender: male
+  evidence: "game data x3"
+- name: "守船亲卫"
+  gender: male
+  evidence: "game data x11"
+- name: "守船亲卫(尸首)"
+  gender: male
+  evidence: "game data x4"
+- name: "守船亲卫1"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫10"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫11（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫2"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫3"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫4"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫5"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫5（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫6"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫6（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫7"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫7（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫8"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫8（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "守船亲卫9"
+  gender: female
+  evidence: "game data x1"
+- name: "守门士卒"
+  gender: male
+  evidence: "game data x1"
+- name: "守陵人"
+  gender: male
+  evidence: "game data x1"
+- name: "安大春"
+  gender: male
+  evidence: "game data x1"
+- name: "宋红玉"
+  englishName: "Song Hongyu"
+  gender: female
+  evidence: "game data x2"
+- name: "宋逐北"
+  gender: male
+  evidence: "game data x2"
+- name: "官兵"
+  gender: male
+  evidence: "game data x6"
+- name: "官员"
+  gender: male
+  evidence: "game data x1"
+- name: "官差"
+  gender: male
+  evidence: "game data x8"
+- name: "宝阁执事"
+  gender: female
+  evidence: "game data x1"
+- name: "客人"
+  gender: male
+  evidence: "game data x3"
+- name: "客商"
+  gender: male
+  evidence: "game data x2"
+- name: "客栈小二"
+  gender: male
+  evidence: "game data x1"
+- name: "客栈掌柜"
+  gender: male
+  evidence: "game data x4"
+- name: "宦官"
+  gender: male
+  evidence: "game data x3"
+- name: "宫女"
+  gender: female
+  evidence: "game data x3"
+- name: "宫殿守卫"
+  gender: male
+  evidence: "game data x1"
+- name: "家丁"
+  gender: male
+  evidence: "game data x5"
+- name: "家仆"
+  gender: male
+  evidence: "game data x2"
+- name: "宾客"
+  gender: male
+  evidence: "game data x3"
+- name: "富贵公子"
+  gender: male
+  evidence: "game data x1"
+- name: "富贵宾客"
+  gender: male
+  evidence: "game data x1"
+- name: "寻欢宾客"
+  gender: male
+  evidence: "game data x3"
+- name: "寻芳狎客"
+  gender: male
+  evidence: "game data x1"
+- name: "封天洪"
+  englishName: "Feng Tianhong"
+  gender: male
+  evidence: "game data x1"
+- name: "将士"
+  gender: male
+  evidence: "game data x2"
+- name: "小七"
+  gender: female
+  evidence: "game data x2"
+- name: "小乞丐"
+  gender: male
+  evidence: "game data x1"
+- name: "小六子"
+  gender: male
+  evidence: "game data x1"
+- name: "小包袱"
+  gender: female
+  evidence: "game data x1"
+- name: "小厮"
+  gender: male
+  evidence: "game data x1"
+- name: "小天师"
+  gender: male
+  evidence: "game data x1"
+- name: "小女孩"
+  gender: female
+  evidence: "game data x1"
+- name: "小岚（少女）"
+  gender: female
+  evidence: "game data x1"
+- name: "小武师"
+  gender: male
+  evidence: "game data x1"
+- name: "小沙弥"
+  gender: male
+  evidence: "game data x3"
+- name: "小翠"
+  gender: female
+  evidence: "game data x1"
+- name: "小花"
+  gender: female
+  evidence: "game data x1"
+- name: "小若"
+  gender: female
+  evidence: "game data x1"
+- name: "小虎"
+  gender: male
+  evidence: "game data x1"
+- name: "小蝶"
+  gender: female
+  evidence: "game data x1"
+- name: "小西瓜"
+  gender: male
+  evidence: "game data x1"
+- name: "小贩丙"
+  gender: male
+  evidence: "game data x1"
+- name: "小贩乙"
+  gender: male
+  evidence: "game data x1"
+- name: "小贩甲"
+  gender: male
+  evidence: "game data x1"
+- name: "小道童"
+  gender: male
+  evidence: "game data x1"
+- name: "小钰"
+  gender: female
+  evidence: "game data x4"
+- name: "小钰爹"
+  gender: male
+  evidence: "game data x1"
+- name: "小阿花"
+  gender: female
+  evidence: "game data x1"
+- name: "小雀儿"
+  gender: female
+  evidence: "game data x1"
+- name: "少女"
+  gender: female
+  evidence: "game data x3"
+- name: "少年道奴"
+  gender: male
+  evidence: "game data x1"
+- name: "屈鲤"
+  gender: male
+  evidence: "game data x1"
+- name: "展诛恶"
+  gender: male
+  evidence: "game data x1"
+- name: "山草记掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "山贼前哨"
+  gender: male
+  evidence: "game data x3"
+- name: "山贼匪徒"
+  gender: male
+  evidence: "game data x5"
+- name: "山贼喽啰"
+  gender: male
+  evidence: "game data x7"
+- name: "山贼喽啰（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "山贼护卫"
+  gender: male
+  evidence: "game data x2"
+- name: "山贼精锐"
+  gender: male
+  evidence: "game data x3"
+- name: "山贼首领"
+  gender: male
+  evidence: "game data x2"
+- name: "山贼首领（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "崔氏"
+  gender: female
+  evidence: "game data x1"
+- name: "崔老伯"
+  gender: male
+  evidence: "game data x1"
+- name: "崔青菱"
+  englishName: "Cui Qingling"
+  gender: female
+  evidence: "game data x1"
+- name: "巡逻士卒"
+  gender: male
+  evidence: "game data x3"
+- name: "巡逻足轻"
+  gender: male
+  evidence: "game data x2"
+- name: "左三思"
+  gender: male
+  evidence: "game data x3"
+- name: "左世宏"
+  englishName: "Zuo Shi Hong"
+  gender: male
+  evidence: "game data x1"
+- name: "左冷"
+  englishName: "Zuo Leng"
+  gender: male
+  evidence: "game data x3"
+- name: "左圣王&40"
+  gender: male
+  evidence: "game data x1"
+- name: "巫凝蝶"
+  gender: female
+  evidence: "game data x2"
+- name: "巫黎寨特使"
+  gender: female
+  evidence: "game data x1"
+- name: "布庄掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "布庄老板"
+  gender: female
+  evidence: "game data x1"
+- name: "布衣青年"
+  gender: male
+  evidence: "game data x1"
+- name: "常服道人"
+  gender: male
+  evidence: "game data x8"
+- name: "常阔天"
+  gender: male
+  evidence: "game data x2"
+- name: "年老宾客"
+  gender: male
+  evidence: "game data x1"
+- name: "年老船工"
+  gender: male
+  evidence: "game data x1"
+- name: "年轻女子"
+  gender: female
+  evidence: "game data x2"
+- name: "年轻帮众"
+  gender: male
+  evidence: "game data x1"
+- name: "年轻贵妇"
+  gender: female
+  evidence: "game data x1"
+- name: "年长贵妇"
+  gender: female
+  evidence: "game data x1"
+- name: "幽冥院弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "庄客"
+  gender: male
+  evidence: "game data x4"
+- name: "庄客首领"
+  gender: male
+  evidence: "game data x1"
+- name: "庄客首领（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "庄客（尸首）"
+  gender: male
+  evidence: "game data x4"
+- name: "库房管事"
+  gender: male
+  evidence: "game data x1"
+- name: "应良翰"
+  englishName: "Ying Liang Han"
+  gender: male
+  evidence: "game data x1"
+- name: "店小二"
+  gender: male
+  evidence: "game data x8"
+- name: "废相"
+  gender: male
+  evidence: "game data x1"
+- name: "廉德强"
+  englishName: "Lian Deqiang"
+  gender: male
+  evidence: "game data x1"
+- name: "延年殿侍女"
+  gender: female
+  evidence: "game data x2"
+- name: "异国商人"
+  gender: male
+  evidence: "game data x5"
+- name: "引导僧"
+  gender: male
+  evidence: "game data x1"
+- name: "弘德堂执事"
+  gender: male
+  evidence: "game data x1"
+- name: "弟子"
+  gender: male
+  evidence: "game data x2"
+- name: "张元魁"
+  englishName: "Zhang Yuankui"
+  gender: male
+  evidence: "game data x1"
+- name: "张克猛"
+  englishName: "Zhang Kemeng"
+  gender: male
+  evidence: "game data x2"
+- name: "张克谦"
+  englishName: "Zhang Keqian"
+  gender: male
+  evidence: "game data x1"
+- name: "张维庸"
+  englishName: "Zhang Weiyong"
+  gender: male
+  evidence: "game data x2"
+- name: "张英"
+  englishName: "Zhang Ying"
+  gender: male
+  evidence: "game data x3"
+- name: "张铁"
+  englishName: "Zhang Tie"
+  gender: male
+  evidence: "game data x3"
+- name: "张铁(尸首)"
+  gender: male
+  evidence: "game data x1"
+- name: "张铁（晕倒）"
+  gender: male
+  evidence: "game data x1"
+- name: "张鹏山"
+  englishName: "Zhang Pengshan"
+  gender: male
+  evidence: "game data x3"
+- name: "张鹏山（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "录功曹曹吏"
+  gender: male
+  evidence: "game data x1"
+- name: "徐嵩阳"
+  englishName: "Xu Songyang"
+  gender: male
+  evidence: "game data x1"
+- name: "徐行川"
+  englishName: "Xu Xingchuan"
+  gender: male
+  evidence: "game data x1"
+- name: "御膳房宦官"
+  gender: male
+  evidence: "game data x1"
+- name: "御道守卫"
+  gender: male
+  evidence: "game data x1"
+- name: "总会管事"
+  gender: male
+  evidence: "game data x1"
+- name: "总会账房"
+  gender: male
+  evidence: "game data x1"
+- name: "恶仆"
+  gender: male
+  evidence: "game data x1"
+- name: "恶少"
+  gender: male
+  evidence: "game data x1"
+- name: "恶少随从"
+  gender: male
+  evidence: "game data x1"
+- name: "恶疤刘"
+  gender: male
+  evidence: "game data x1"
+- name: "惊慌的文生"
+  gender: male
+  evidence: "game data x1"
+- name: "慈弘"
+  gender: male
+  evidence: "game data x2"
+- name: "慈海"
+  gender: male
+  evidence: "game data x1"
+- name: "慧寂"
+  gender: male
+  evidence: "game data x1"
+- name: "戍卒"
+  gender: male
+  evidence: "game data x9"
+- name: "成达"
+  gender: male
+  evidence: "game data x1"
+- name: "战损 何傲霜"
+  gender: female
+  evidence: "game data x1"
+- name: "戚定远"
+  englishName: "Qi Dingyuan"
+  gender: male
+  evidence: "game data x5"
+- name: "戚定远（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "戴天鸿"
+  englishName: "Dai Tianhong"
+  gender: male
+  evidence: "game data x2"
+- name: "戴天鸿（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "戴群"
+  englishName: "Dai Qun"
+  gender: male
+  evidence: "game data x1"
+- name: "打手"
+  gender: male
+  evidence: "game data x4"
+- name: "打更人"
+  gender: male
+  evidence: "game data x2"
+- name: "执金郎"
+  gender: male
+  evidence: "game data x1"
+- name: "抄经书生"
+  gender: male
+  evidence: "game data x1"
+- name: "投倭汉人"
+  gender: male
+  evidence: "game data x1"
+- name: "投军青年"
+  gender: male
+  evidence: "game data x2"
+- name: "护卫"
+  gender: male
+  evidence: "game data x2"
+- name: "护卫军士"
+  gender: male
+  evidence: "game data x2"
+- name: "护卫打手"
+  gender: male
+  evidence: "game data x1"
+- name: "护卫随从"
+  gender: male
+  evidence: "game data x4"
+- name: "护卫首领"
+  gender: male
+  evidence: "game data x2"
+- name: "护船亲卫"
+  gender: female
+  evidence: "game data x2"
+- name: "护院打手"
+  gender: male
+  evidence: "game data x7"
+- name: "拓跋笑"
+  gender: male
+  evidence: "game data x3"
+- name: "拜佛老人"
+  gender: male
+  evidence: "game data x1"
+- name: "拜月老人&2"
+  gender: male
+  evidence: "game data x1"
+- name: "拜月老人&76"
+  gender: male
+  evidence: "game data x1"
+- name: "持刀大汉"
+  gender: male
+  evidence: "game data x7"
+- name: "持刀大汉（尸首）"
+  gender: male
+  evidence: "game data x3"
+- name: "持械甲士"
+  gender: male
+  evidence: "game data x21"
+- name: "挑战者乙"
+  gender: male
+  evidence: "game data x1"
+- name: "挑战者甲"
+  gender: male
+  evidence: "game data x1"
+- name: "捕快"
+  gender: male
+  evidence: "game data x1"
+- name: "换糖帮商人"
+  gender: male
+  evidence: "game data x1"
+- name: "换糖帮商人（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "换糖帮帮众"
+  gender: male
+  evidence: "game data x5"
+- name: "换糖帮帮众（尸首）"
+  gender: male
+  evidence: "game data x3"
+- name: "换糖帮杀手"
+  gender: male
+  evidence: "game data x4"
+- name: "掌灯僧"
+  gender: male
+  evidence: "game data x1"
+- name: "探花一"
+  gender: male
+  evidence: "game data x1"
+- name: "探花七"
+  gender: male
+  evidence: "game data x3"
+- name: "探花三三"
+  gender: male
+  evidence: "game data x1"
+- name: "探花三九"
+  gender: male
+  evidence: "game data x1"
+- name: "探花九"
+  gender: male
+  evidence: "game data x1"
+- name: "探花二"
+  gender: female
+  evidence: "game data x1"
+- name: "探花六"
+  gender: male
+  evidence: "game data x2"
+- name: "探花十"
+  gender: male
+  evidence: "game data x1"
+- name: "探花十四"
+  gender: male
+  evidence: "game data x1"
+- name: "探花四九"
+  gender: male
+  evidence: "game data x1"
+- name: "探花女1"
+  gender: female
+  evidence: "game data x1"
+- name: "探花女2"
+  gender: female
+  evidence: "game data x1"
+- name: "探花廿三"
+  gender: male
+  evidence: "game data x1"
+- name: "探花廿八"
+  gender: female
+  evidence: "game data x1"
+- name: "探花廿六"
+  gender: male
+  evidence: "game data x1"
+- name: "探花男1"
+  gender: male
+  evidence: "game data x1"
+- name: "探花男2"
+  gender: male
+  evidence: "game data x1"
+- name: "探花虚"
+  gender: male
+  evidence: "game data x1"
+- name: "探花虚（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "接引弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "揽月苑侍女"
+  gender: female
+  evidence: "game data x4"
+- name: "揽月苑小厮"
+  gender: male
+  evidence: "game data x4"
+- name: "揽月苑打手"
+  gender: male
+  evidence: "game data x4"
+- name: "揽月苑歌伎"
+  gender: female
+  evidence: "game data x2"
+- name: "搬运工"
+  gender: male
+  evidence: "game data x2"
+- name: "摊主"
+  gender: male
+  evidence: "game data x1"
+- name: "擂裁"
+  gender: male
+  evidence: "game data x1"
+- name: "敕书塔执事"
+  gender: male
+  evidence: "game data x1"
+- name: "教书先生"
+  gender: male
+  evidence: "game data x2"
+- name: "方大坚"
+  englishName: "Fang Dajian"
+  gender: male
+  evidence: "game data x1"
+- name: "方子振"
+  englishName: "Fang Zi Zhen"
+  gender: male
+  evidence: "game data x1"
+- name: "方顾"
+  englishName: "Fang Gu"
+  gender: male
+  evidence: "game data x1"
+- name: "无名文生"
+  gender: male
+  evidence: "game data x1"
+- name: "无名铁匠"
+  gender: male
+  evidence: "game data x2"
+- name: "无赖"
+  gender: male
+  evidence: "game data x1"
+- name: "无赖头头"
+  gender: male
+  evidence: "game data x1"
+- name: "明印"
+  englishName: "Ming Yin"
+  gender: male
+  evidence: "game data x2"
+- name: "明尊"
+  gender: male
+  evidence: "game data x1"
+- name: "明尊&41"
+  gender: male
+  evidence: "game data x1"
+- name: "明忍禅师"
+  gender: male
+  evidence: "game data x1"
+- name: "易雁书"
+  englishName: "Yi Yanshu"
+  gender: female
+  evidence: "game data x1"
+- name: "星宿海船夫"
+  gender: male
+  evidence: "game data x2"
+- name: "春风楼楼主"
+  gender: male
+  evidence: "game data x2"
+- name: "晴儿"
+  gender: female
+  evidence: "game data x1"
+- name: "暖春堂掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "暗器商"
+  gender: male
+  evidence: "game data x1"
+- name: "曹辅之"
+  englishName: "Cao Fuzhi"
+  gender: male
+  evidence: "game data x3"
+- name: "曼珠"
+  gender: female
+  evidence: "game data x1"
+- name: "月女&109"
+  gender: female
+  evidence: "game data x1"
+- name: "月女&5"
+  gender: female
+  evidence: "game data x1"
+- name: "月女&79"
+  gender: female
+  evidence: "game data x1"
+- name: "月女&96"
+  gender: female
+  evidence: "game data x1"
+- name: "月女&97"
+  gender: female
+  evidence: "game data x1"
+- name: "月女亲卫&17"
+  gender: female
+  evidence: "game data x1"
+- name: "月女亲卫&18"
+  gender: female
+  evidence: "game data x1"
+- name: "月女亲卫&19"
+  gender: female
+  evidence: "game data x1"
+- name: "月蟾宫叛民（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "月蟾宫民（尸首）"
+  gender: female
+  evidence: "game data x2"
+- name: "朗落男声"
+  gender: male
+  evidence: "game data x1"
+- name: "望月村民&7"
+  gender: male
+  evidence: "game data x1"
+- name: "望月村民&8"
+  gender: male
+  evidence: "game data x1"
+- name: "望月村长"
+  gender: male
+  evidence: "game data x1"
+- name: "朝奉集商会执事"
+  gender: male
+  evidence: "game data x1"
+- name: "朝奉集守卫"
+  gender: male
+  evidence: "game data x1"
+- name: "朝奉集木匠"
+  gender: male
+  evidence: "game data x1"
+- name: "朝奉集武人"
+  gender: male
+  evidence: "game data x3"
+- name: "朝奉集猎户"
+  gender: male
+  evidence: "game data x1"
+- name: "朝廷水军"
+  gender: male
+  evidence: "game data x4"
+- name: "朝鲜武人"
+  gender: male
+  evidence: "game data x2"
+- name: "木匠"
+  gender: male
+  evidence: "game data x1"
+- name: "朱丹阳"
+  englishName: "Zhu Danyang"
+  gender: male
+  evidence: "game data x2"
+- name: "朱尧"
+  gender: male
+  evidence: "game data x1"
+- name: "朱翊真"
+  englishName: "Zhu Yizhen"
+  gender: male
+  evidence: "game data x3"
+- name: "朴水根"
+  gender: male
+  evidence: "game data x1"
+- name: "朴石勇"
+  gender: male
+  evidence: "game data x1"
+- name: "杀手"
+  gender: male
+  evidence: "game data x1"
+- name: "杀生堂执事"
+  gender: male
+  evidence: "game data x1"
+- name: "杂货郎"
+  gender: male
+  evidence: "game data x3"
+- name: "杂货铺掌柜"
+  gender: male
+  evidence: "game data x2"
+- name: "李万石"
+  gender: male
+  evidence: "game data x2"
+- name: "李丫"
+  englishName: "Li Ya"
+  gender: female
+  evidence: "game data x1"
+- name: "李义谦"
+  gender: male
+  evidence: "game data x3"
+- name: "李二牛"
+  englishName: "Li Erniu"
+  gender: male
+  evidence: "game data x2"
+- name: "李何苦"
+  gender: female
+  evidence: "game data x3"
+- name: "李六"
+  englishName: "Li Liu"
+  gender: male
+  evidence: "game data x1"
+- name: "李和"
+  englishName: "Li He"
+  gender: male
+  evidence: "game data x1"
+- name: "李寿福"
+  gender: male
+  evidence: "game data x1"
+- name: "李崇山"
+  englishName: "Li Chongshan"
+  gender: male
+  evidence: "game data x1"
+- name: "李常闵"
+  englishName: "Li Chang Min"
+  gender: male
+  evidence: "game data x1"
+- name: "李庄客"
+  englishName: "Li Zhuangke"
+  gender: male
+  evidence: "game data x1"
+- name: "李府下人"
+  gender: male
+  evidence: "game data x2"
+- name: "李府侍卫"
+  gender: male
+  evidence: "game data x5"
+- name: "李张氏"
+  gender: female
+  evidence: "game data x1"
+- name: "李忠武"
+  englishName: "Li Zhongwu"
+  gender: male
+  evidence: "game data x1"
+- name: "李映心"
+  englishName: "Li Yingxin"
+  gender: male
+  evidence: "game data x5"
+- name: "李氏"
+  gender: female
+  evidence: "game data x1"
+- name: "李老头"
+  gender: male
+  evidence: "game data x1"
+- name: "李老汉"
+  gender: male
+  evidence: "game data x1"
+- name: "李长安"
+  englishName: "Li Chang'an"
+  gender: male
+  evidence: "game data x1"
+- name: "李青山"
+  englishName: "Li Qingshan"
+  gender: male
+  evidence: "game data x1"
+- name: "李青山（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "李麒"
+  englishName: "Li Qi"
+  gender: male
+  evidence: "game data x2"
+- name: "村中孩童"
+  gender: male
+  evidence: "game data x2"
+- name: "村中少年"
+  gender: male
+  evidence: "game data x1"
+- name: "村妇（中年）"
+  gender: female
+  evidence: "game data x1"
+- name: "村民 何傲霜"
+  gender: female
+  evidence: "game data x1"
+- name: "杜颜白"
+  englishName: "Du Yanbai"
+  gender: male
+  evidence: "game data x6"
+- name: "杜鹃"
+  gender: female
+  evidence: "game data x1"
+- name: "杨氏"
+  gender: female
+  evidence: "game data x1"
+- name: "杨茂昌"
+  englishName: "Yang Maochang"
+  gender: male
+  evidence: "game data x1"
+- name: "杨茂昌（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "杭儿"
+  gender: female
+  evidence: "game data x1"
+- name: "杭儿爹"
+  gender: male
+  evidence: "game data x1"
+- name: "杭州城军官"
+  gender: male
+  evidence: "game data x1"
+- name: "林不忘"
+  gender: male
+  evidence: "game data x2"
+- name: "林不忘（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "林二虎"
+  englishName: "Lin Erhu"
+  gender: male
+  evidence: "game data x1"
+- name: "林云逍"
+  gender: male
+  evidence: "game data x1"
+- name: "果果"
+  gender: female
+  evidence: "game data x2"
+- name: "染病的村民"
+  gender: male
+  evidence: "game data x2"
+- name: "柳先生"
+  gender: male
+  evidence: "game data x1"
+- name: "柳戊"
+  englishName: "Liu Wu"
+  gender: male
+  evidence: "game data x1"
+- name: "柳星雨"
+  englishName: "Liu Xingyu"
+  gender: female
+  evidence: "game data x3"
+- name: "柳生宗近"
+  gender: male
+  evidence: "game data x1"
+- name: "柳生瞬"
+  gender: male
+  evidence: "game data x1"
+- name: "柳茵茵"
+  englishName: "Liu Yin Yin"
+  gender: female
+  evidence: "game data x1"
+- name: "柳蝶"
+  englishName: "Liu Die"
+  gender: female
+  evidence: "game data x1"
+- name: "栖花轩特使"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫"
+  gender: female
+  evidence: "game data x20"
+- name: "桃卫(尸首)"
+  gender: female
+  evidence: "game data x4"
+- name: "桃卫10"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫11（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫1（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫1（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫2（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫2（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫3（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫4（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫5（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫6（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫7（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫8（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫9"
+  gender: female
+  evidence: "game data x1"
+- name: "桃卫（决战后站街）"
+  gender: female
+  evidence: "game data x15"
+- name: "桃坞宾客"
+  gender: male
+  evidence: "game data x12"
+- name: "梁三"
+  englishName: "Liang San"
+  gender: male
+  evidence: "game data x1"
+- name: "梁三顾"
+  englishName: "Liang San Gu"
+  gender: male
+  evidence: "game data x2"
+- name: "梁边云"
+  englishName: "Liang Bianyun"
+  gender: male
+  evidence: "game data x1"
+- name: "楚府侍卫"
+  gender: male
+  evidence: "game data x2"
+- name: "楚府侍女"
+  gender: female
+  evidence: "game data x3"
+- name: "楚府家仆"
+  gender: male
+  evidence: "game data x3"
+- name: "楚振邦"
+  gender: male
+  evidence: "game data x1"
+- name: "楚林灵"
+  gender: female
+  evidence: "game data x3"
+- name: "楚濯德"
+  gender: male
+  evidence: "game data x1"
+- name: "楼兰护卫"
+  gender: male
+  evidence: "game data x2"
+- name: "楼兰红衣老者"
+  gender: male
+  evidence: "game data x1"
+- name: "楼兰老者"
+  gender: female
+  evidence: "game data x1"
+- name: "楼兰蓝衣老者"
+  gender: male
+  evidence: "game data x1"
+- name: "楼兰遗民"
+  gender: male
+  evidence: "game data x6"
+- name: "楼兰黑衣老者"
+  gender: male
+  evidence: "game data x1"
+- name: "樵人"
+  gender: male
+  evidence: "game data x4"
+- name: "樵夫"
+  gender: male
+  evidence: "game data x2"
+- name: "歌伎"
+  gender: female
+  evidence: "game data x1"
+- name: "歌女"
+  gender: female
+  evidence: "game data x1"
+- name: "歌妓"
+  gender: female
+  evidence: "game data x1"
+- name: "武器商"
+  gender: male
+  evidence: "game data x1"
+- name: "武士"
+  gender: male
+  evidence: "game data x5"
+- name: "武士精锐/头目"
+  gender: male
+  evidence: "game data x1"
+- name: "武师护卫"
+  gender: male
+  evidence: "game data x6"
+- name: "武痴"
+  gender: male
+  evidence: "game data x1"
+- name: "武痴徒儿"
+  gender: male
+  evidence: "game data x1"
+- name: "武馆子弟"
+  gender: male
+  evidence: "game data x1"
+- name: "武馆学徒"
+  gender: male
+  evidence: "game data x2"
+- name: "武馆弟子丙"
+  gender: female
+  evidence: "game data x1"
+- name: "武馆弟子乙"
+  gender: male
+  evidence: "game data x1"
+- name: "武馆弟子甲"
+  gender: male
+  evidence: "game data x1"
+- name: "武馆教习"
+  gender: male
+  evidence: "game data x2"
+- name: "死士"
+  gender: male
+  evidence: "game data x3"
+- name: "残忍的军士"
+  gender: male
+  evidence: "game data x1"
+- name: "残瘸老者"
+  gender: male
+  evidence: "game data x1"
+- name: "段孝先"
+  englishName: "Duan Xiao Xian"
+  gender: male
+  evidence: "game data x1"
+- name: "段孝先（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "段府家仆"
+  gender: male
+  evidence: "game data x1"
+- name: "段氏子弟"
+  gender: male
+  evidence: "game data x11"
+- name: "段氏子弟（尸首）"
+  gender: male
+  evidence: "game data x3"
+- name: "段氏弃徒"
+  gender: male
+  evidence: "game data x2"
+- name: "段氏族长"
+  gender: male
+  evidence: "game data x1"
+- name: "段氏长者"
+  gender: male
+  evidence: "game data x6"
+- name: "段氏长者（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "段绍裘"
+  englishName: "Duan Shaoqiu"
+  gender: male
+  evidence: "game data x3"
+- name: "段罔顾"
+  gender: male
+  evidence: "game data x2"
+- name: "殿内声音"
+  gender: male
+  evidence: "game data x1"
+- name: "毒药商"
+  gender: male
+  evidence: "game data x1"
+- name: "毛毛"
+  gender: male
+  evidence: "game data x1"
+- name: "毛贼"
+  gender: male
+  evidence: "game data x2"
+- name: "民夫"
+  gender: male
+  evidence: "game data x3"
+- name: "水寨供奉"
+  gender: male
+  evidence: "game data x1"
+- name: "水寨刺客"
+  gender: male
+  evidence: "game data x5"
+- name: "水贼头领"
+  gender: male
+  evidence: "game data x1"
+- name: "汉人老妪"
+  gender: female
+  evidence: "game data x1"
+- name: "江云晟"
+  englishName: "Jiang Yunsheng"
+  gender: male
+  evidence: "game data x1"
+- name: "江寻砚"
+  gender: male
+  evidence: "game data x1"
+- name: "江总旗"
+  gender: male
+  evidence: "game data x1"
+- name: "江湖人"
+  gender: male
+  evidence: "game data x3"
+- name: "江湖人士"
+  gender: male
+  evidence: "game data x1"
+- name: "江湖人士（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "江湖刀客"
+  gender: male
+  evidence: "game data x10"
+- name: "江湖客"
+  gender: male
+  evidence: "game data x2"
+- name: "沈家老太"
+  gender: female
+  evidence: "game data x1"
+- name: "沈府护卫"
+  gender: male
+  evidence: "game data x3"
+- name: "沈无瑕"
+  englishName: "Shen Wuxia"
+  gender: male
+  evidence: "game data x1"
+- name: "沈梦秋"
+  englishName: "Shen Mengqiu"
+  gender: female
+  evidence: "game data x2"
+- name: "沈梦秋（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "沈瑄"
+  gender: male
+  evidence: "game data x1"
+- name: "沙哑女声"
+  gender: female
+  evidence: "game data x1"
+- name: "沙天嚎"
+  englishName: "Sha Tianhao"
+  gender: male
+  evidence: "game data x1"
+- name: "泉月楼掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "法定"
+  gender: male
+  evidence: "game data x1"
+- name: "法月衣鹤"
+  gender: female
+  evidence: "game data x1"
+- name: "泥厚里"
+  gender: male
+  evidence: "game data x1"
+- name: "泼云斋掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "洗衣妇"
+  gender: female
+  evidence: "game data x1"
+- name: "洛家高手"
+  gender: male
+  evidence: "game data x1"
+- name: "洛阳校尉"
+  gender: male
+  evidence: "game data x1"
+- name: "洪四海"
+  englishName: "Hong Sihai"
+  gender: male
+  evidence: "game data x4"
+- name: "流寇"
+  gender: male
+  evidence: "game data x5"
+- name: "流寇_女真服饰"
+  gender: male
+  evidence: "game data x1"
+- name: "流寇首领"
+  gender: male
+  evidence: "game data x1"
+- name: "流民 （小孩）"
+  gender: male
+  evidence: "game data x2"
+- name: "流民女子"
+  gender: female
+  evidence: "game data x1"
+- name: "流民妇人"
+  gender: female
+  evidence: "game data x3"
+- name: "流民孩童"
+  gender: male
+  evidence: "game data x2"
+- name: "流民男子"
+  gender: male
+  evidence: "game data x1"
+- name: "流民老者"
+  gender: male
+  evidence: "game data x1"
+- name: "流民（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "流民（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "流民（男）"
+  gender: male
+  evidence: "game data x2"
+- name: "流莺女子"
+  gender: female
+  evidence: "game data x1"
+- name: "济德"
+  gender: male
+  evidence: "game data x2"
+- name: "济明"
+  gender: male
+  evidence: "game data x1"
+- name: "济玄"
+  gender: male
+  evidence: "game data x1"
+- name: "济空"
+  gender: male
+  evidence: "game data x1"
+- name: "浣衣娘"
+  gender: female
+  evidence: "game data x2"
+- name: "浪人"
+  gender: male
+  evidence: "game data x2"
+- name: "海阁弟子"
+  gender: male
+  evidence: "game data x8"
+- name: "涯守弟子"
+  gender: male
+  evidence: "game data x2"
+- name: "清倌人（女）"
+  gender: female
+  evidence: "game data x1"
+- name: "渔女"
+  gender: female
+  evidence: "game data x1"
+- name: "渔家女"
+  gender: female
+  evidence: "game data x1"
+- name: "渔民"
+  gender: male
+  evidence: "game data x7"
+- name: "游哨"
+  gender: male
+  evidence: "game data x2"
+- name: "游文彦"
+  englishName: "You Wenyan"
+  gender: male
+  evidence: "game data x1"
+- name: "游方僧人"
+  gender: male
+  evidence: "game data x1"
+- name: "游方郎中"
+  gender: male
+  evidence: "game data x1"
+- name: "湖畔老叟"
+  gender: male
+  evidence: "game data x2"
+- name: "漕帮弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "潇湘子"
+  gender: male
+  evidence: "game data x2"
+- name: "潇湘子亲卫（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "潇湘子（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "潘正"
+  englishName: "Pan Zheng"
+  gender: male
+  evidence: "game data x1"
+- name: "火鳞堂水贼"
+  gender: male
+  evidence: "game data x2"
+- name: "灰衣青年"
+  gender: male
+  evidence: "game data x1"
+- name: "灵素堂掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "灵蜈奴"
+  gender: male
+  evidence: "game data x7"
+- name: "灵隐寺僧"
+  gender: male
+  evidence: "game data x4"
+- name: "焦静"
+  englishName: "Jiao Jing"
+  gender: female
+  evidence: "game data x1"
+- name: "照雪炉铁匠"
+  gender: male
+  evidence: "game data x1"
+- name: "燕南归"
+  englishName: "Yan Nan Gui"
+  gender: male
+  evidence: "game data x4"
+- name: "燕鸾"
+  englishName: "Yan Luan"
+  gender: female
+  evidence: "game data x2"
+- name: "牛富"
+  gender: male
+  evidence: "game data x1"
+- name: "牛富（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "狎客"
+  gender: male
+  evidence: "game data x16"
+- name: "狗剩儿"
+  gender: male
+  evidence: "game data x1"
+- name: "狱卒"
+  gender: male
+  evidence: "game data x1"
+- name: "猎户"
+  gender: male
+  evidence: "game data x3"
+- name: "猎王堂水贼"
+  gender: male
+  evidence: "game data x8"
+- name: "猎王堂管事"
+  gender: male
+  evidence: "game data x1"
+- name: "玄心和尚"
+  gender: male
+  evidence: "game data x1"
+- name: "玉先生"
+  gender: female
+  evidence: "game data x2"
+- name: "玉玲珑"
+  gender: female
+  evidence: "game data x1"
+- name: "玉箫楼侍女"
+  gender: female
+  evidence: "game data x4"
+- name: "玉箫楼小厮"
+  gender: male
+  evidence: "game data x3"
+- name: "玉箫楼打手"
+  gender: male
+  evidence: "game data x7"
+- name: "玉箫楼混混"
+  gender: male
+  evidence: "game data x2"
+- name: "王佃户"
+  gender: male
+  evidence: "game data x1"
+- name: "王巨"
+  gender: male
+  evidence: "game data x2"
+- name: "王府护院"
+  gender: male
+  evidence: "game data x4"
+- name: "王承福"
+  englishName: "Wang Chengfu"
+  gender: male
+  evidence: "game data x1"
+- name: "王承福（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "王村长"
+  gender: male
+  evidence: "game data x1"
+- name: "王樵夫"
+  gender: male
+  evidence: "game data x1"
+- name: "王氏"
+  gender: female
+  evidence: "game data x1"
+- name: "王氏（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "王福生"
+  englishName: "Wang Fusheng"
+  gender: male
+  evidence: "game data x1"
+- name: "王粱"
+  englishName: "Wang Liang"
+  gender: male
+  evidence: "game data x1"
+- name: "王粱(尸首)"
+  gender: male
+  evidence: "game data x1"
+- name: "王阿生"
+  gender: male
+  evidence: "game data x3"
+- name: "玖拾"
+  gender: female
+  evidence: "game data x1"
+- name: "玲珑阁弟子"
+  gender: male
+  evidence: "game data x1"
+- name: "珍宝阁特使"
+  gender: female
+  evidence: "game data x1"
+- name: "琵琶僧"
+  gender: male
+  evidence: "game data x1"
+- name: "璧城水贼（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "田健"
+  englishName: "Tian Jian"
+  gender: male
+  evidence: "game data x2"
+- name: "男 太平使"
+  gender: male
+  evidence: "game data x1"
+- name: "男 太平道人"
+  gender: male
+  evidence: "game data x1"
+- name: "男人"
+  gender: male
+  evidence: "game data x1"
+- name: "男子"
+  gender: male
+  evidence: "game data x2"
+- name: "画匠"
+  gender: male
+  evidence: "game data x1"
+- name: "画眉"
+  gender: female
+  evidence: "game data x1"
+- name: "疤脸大汉"
+  gender: male
+  evidence: "game data x2"
+- name: "疯人"
+  gender: male
+  evidence: "game data x1"
+- name: "疯癔之人"
+  gender: male
+  evidence: "game data x2"
+- name: "疯癔之人（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "病弱老者"
+  gender: male
+  evidence: "game data x1"
+- name: "瘦削青年"
+  gender: male
+  evidence: "game data x1"
+- name: "瘦弱乞丐"
+  gender: male
+  evidence: "game data x1"
+- name: "瘦弱乞丐（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "瘦弱匪徒"
+  gender: male
+  evidence: "game data x1"
+- name: "瘦弱流民"
+  gender: female
+  evidence: "game data x1"
+- name: "白文和"
+  englishName: "Bai Wenhe"
+  gender: female
+  evidence: "game data x2"
+- name: "白明远"
+  englishName: "Bai Mingyuan"
+  gender: male
+  evidence: "game data x1"
+- name: "白武同"
+  englishName: "Bai Wutong"
+  gender: male
+  evidence: "game data x1"
+- name: "白武同（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "白浩"
+  englishName: "Bai Hao"
+  gender: male
+  evidence: "game data x1"
+- name: "白眉老僧"
+  gender: male
+  evidence: "game data x1"
+- name: "白衣文士"
+  gender: male
+  evidence: "game data x1"
+- name: "白衣老者"
+  gender: male
+  evidence: "game data x2"
+- name: "白马僧人"
+  gender: male
+  evidence: "game data x2"
+- name: "白马武僧"
+  gender: male
+  evidence: "game data x16"
+- name: "百姓妇女"
+  gender: female
+  evidence: "game data x1"
+- name: "百姓居民"
+  gender: male
+  evidence: "game data x1"
+- name: "百目君"
+  gender: male
+  evidence: "game data x2"
+- name: "百药房医师"
+  gender: male
+  evidence: "game data x1"
+- name: "皇宫守卫"
+  gender: male
+  evidence: "game data x1"
+- name: "皇宫禁卫"
+  gender: male
+  evidence: "game data x2"
+- name: "皮货商"
+  gender: male
+  evidence: "game data x1"
+- name: "皮革匠"
+  gender: female
+  evidence: "game data x1"
+- name: "盈月使&100"
+  gender: male
+  evidence: "game data x1"
+- name: "盈月使&3"
+  gender: male
+  evidence: "game data x1"
+- name: "盈月使&77"
+  gender: male
+  evidence: "game data x1"
+- name: "盗贼"
+  gender: male
+  evidence: "game data x2"
+- name: "看守捕快"
+  gender: male
+  evidence: "game data x2"
+- name: "知客僧"
+  gender: male
+  evidence: "game data x2"
+- name: "石匠"
+  gender: male
+  evidence: "game data x1"
+- name: "石庆"
+  gender: male
+  evidence: "game data x1"
+- name: "祁语山"
+  englishName: "Qi Yushan"
+  gender: female
+  evidence: "game data x1"
+- name: "祖大新"
+  englishName: "Zu Daxin"
+  gender: male
+  evidence: "game data x1"
+- name: "祝旷"
+  englishName: "Zhu Kuang"
+  gender: male
+  evidence: "game data x1"
+- name: "神捕堂执事"
+  gender: male
+  evidence: "game data x1"
+- name: "神社巫女"
+  gender: female
+  evidence: "game data x2"
+- name: "神秀弟子"
+  gender: female
+  evidence: "game data x3"
+- name: "神秘人"
+  gender: male
+  evidence: "game data x7"
+- name: "神秘人士"
+  gender: male
+  evidence: "game data x1"
+- name: "神秘人女"
+  gender: female
+  evidence: "game data x1"
+- name: "神秘人男"
+  gender: male
+  evidence: "game data x1"
+- name: "神秘人（【何傲霜】剧情中的第二个神秘人）"
+  gender: female
+  evidence: "game data x1"
+- name: "神秘客商"
+  gender: male
+  evidence: "game data x5"
+- name: "神秘护卫（尸首）"
+  gender: male
+  evidence: "game data x3"
+- name: "神秘浪人"
+  gender: male
+  evidence: "game data x3"
+- name: "神秘的江湖人士"
+  gender: male
+  evidence: "game data x3"
+- name: "神秘道人"
+  gender: male
+  evidence: "game data x3"
+- name: "福顺"
+  gender: female
+  evidence: "game data x1"
+- name: "私塾先生"
+  gender: male
+  evidence: "game data x1"
+- name: "秘药楼掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "秦奇"
+  englishName: "Qin Qi"
+  gender: male
+  evidence: "game data x1"
+- name: "秦奇（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "秦岳渊"
+  englishName: "Qin Yueyuan"
+  gender: male
+  evidence: "game data x1"
+- name: "秦岳渊（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "秦懿瑶"
+  englishName: "Qin Yi Yao"
+  gender: female
+  evidence: "game data x2"
+- name: "秦懿瑶（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "秦承运"
+  englishName: "Qin Chengyun"
+  gender: male
+  evidence: "game data x1"
+- name: "秦承运（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "穆凝紫"
+  gender: female
+  evidence: "game data x2"
+- name: "穆妮曼"
+  englishName: "Mu Niman"
+  gender: female
+  evidence: "game data x2"
+- name: "穷酸书生"
+  gender: male
+  evidence: "game data x2"
+- name: "空远之音"
+  gender: male
+  evidence: "game data x2"
+- name: "窦四"
+  englishName: "Dou Si"
+  gender: male
+  evidence: "game data x1"
+- name: "窦四（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "端木清"
+  gender: female
+  evidence: "game data x2"
+- name: "第五青衫"
+  gender: female
+  evidence: "game data x2"
+- name: "算命先生"
+  gender: male
+  evidence: "game data x1"
+- name: "管家"
+  gender: male
+  evidence: "game data x3"
+- name: "粥棚小吏"
+  gender: male
+  evidence: "game data x1"
+- name: "精壮汉子"
+  gender: male
+  evidence: "game data x1"
+- name: "精锐光明卫&42"
+  gender: male
+  evidence: "game data x1"
+- name: "精锐光明卫&43"
+  gender: male
+  evidence: "game data x1"
+- name: "精锐光明卫&45"
+  gender: male
+  evidence: "game data x1"
+- name: "糖人张"
+  gender: male
+  evidence: "game data x3"
+- name: "紫晴"
+  gender: female
+  evidence: "game data x1"
+- name: "紫晴（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "紫衫女子"
+  gender: female
+  evidence: "game data x1"
+- name: "红绡"
+  gender: female
+  evidence: "game data x3"
+- name: "纤夫"
+  gender: male
+  evidence: "game data x1"
+- name: "纨绔"
+  gender: male
+  evidence: "game data x3"
+- name: "纨绔公子"
+  gender: male
+  evidence: "game data x1"
+- name: "纨绔青年"
+  gender: male
+  evidence: "game data x1"
+- name: "纪雨竹"
+  englishName: "Ji Yuzhu"
+  gender: female
+  evidence: "game data x5"
+- name: "纪雨竹（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "绣衣使"
+  gender: female
+  evidence: "game data x1"
+- name: "罕古丽"
+  gender: female
+  evidence: "game data x1"
+- name: "罗刹寨匪首"
+  gender: male
+  evidence: "game data x1"
+- name: "罗刹寨匪首（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "罗大娘"
+  gender: female
+  evidence: "game data x1"
+- name: "罗扬"
+  englishName: "Luo Yang"
+  gender: male
+  evidence: "game data x2"
+- name: "羽林军"
+  gender: male
+  evidence: "game data x2"
+- name: "羽林卫"
+  gender: male
+  evidence: "game data x4"
+- name: "羽林卫戍卒"
+  gender: male
+  evidence: "game data x2"
+- name: "翟心阳"
+  englishName: "Zhai Xinyang"
+  gender: male
+  evidence: "game data x1"
+- name: "翠青"
+  gender: female
+  evidence: "game data x1"
+- name: "老人"
+  gender: male
+  evidence: "game data x2"
+- name: "老僧"
+  gender: male
+  evidence: "game data x2"
+- name: "老僧（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "老农"
+  gender: male
+  evidence: "game data x2"
+- name: "老刘头"
+  gender: male
+  evidence: "game data x1"
+- name: "老周"
+  gender: male
+  evidence: "game data x2"
+- name: "老坛"
+  gender: male
+  evidence: "game data x1"
+- name: "老妇"
+  gender: female
+  evidence: "game data x1"
+- name: "老妪"
+  gender: female
+  evidence: "game data x2"
+- name: "老婆婆"
+  gender: female
+  evidence: "game data x1"
+- name: "老张"
+  gender: male
+  evidence: "game data x1"
+- name: "老晁"
+  gender: male
+  evidence: "game data x1"
+- name: "老武士"
+  gender: male
+  evidence: "game data x1"
+- name: "老渔夫"
+  gender: male
+  evidence: "game data x1"
+- name: "老秦"
+  gender: male
+  evidence: "game data x1"
+- name: "老者"
+  gender: male
+  evidence: "game data x2"
+- name: "老艄公"
+  gender: male
+  evidence: "game data x1"
+- name: "老衙役"
+  gender: male
+  evidence: "game data x1"
+- name: "老铁头"
+  gender: male
+  evidence: "game data x1"
+- name: "老鸨"
+  gender: female
+  evidence: "game data x3"
+- name: "老鸨（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "肉痴"
+  gender: male
+  evidence: "game data x3"
+- name: "肖婆婆"
+  gender: female
+  evidence: "game data x2"
+- name: "肖婆婆（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "胀死者"
+  gender: male
+  evidence: "game data x1"
+- name: "胎记男"
+  gender: male
+  evidence: "game data x1"
+- name: "胡三"
+  englishName: "Hu San"
+  gender: male
+  evidence: "game data x1"
+- name: "胡员外"
+  gender: male
+  evidence: "game data x1"
+- name: "胡郎中"
+  gender: male
+  evidence: "game data x4"
+- name: "膏粱子弟"
+  gender: male
+  evidence: "game data x2"
+- name: "膳房管事"
+  gender: male
+  evidence: "game data x1"
+- name: "至宝阁商人"
+  gender: male
+  evidence: "game data x1"
+- name: "船厂守军"
+  gender: male
+  evidence: "game data x3"
+- name: "船场军官"
+  gender: male
+  evidence: "game data x1"
+- name: "船场守军"
+  gender: male
+  evidence: "game data x2"
+- name: "船夫"
+  gender: male
+  evidence: "game data x4"
+- name: "船工"
+  gender: male
+  evidence: "game data x5"
+- name: "艺伎"
+  gender: female
+  evidence: "game data x3"
+- name: "艺妓"
+  gender: female
+  evidence: "game data x10"
+- name: "花相"
+  englishName: "Hua Xiang"
+  gender: male
+  evidence: "game data x2"
+- name: "苏娘子"
+  gender: female
+  evidence: "game data x1"
+- name: "苏娘子（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "苏鹤子"
+  englishName: "Su Hezi"
+  gender: female
+  evidence: "game data x2"
+- name: "苗人商贩"
+  gender: male
+  evidence: "game data x2"
+- name: "苗人女子"
+  gender: female
+  evidence: "game data x1"
+- name: "苗人老农"
+  gender: male
+  evidence: "game data x1"
+- name: "苗人老者"
+  gender: male
+  evidence: "game data x2"
+- name: "苗人青年"
+  gender: male
+  evidence: "game data x2"
+- name: "苗冶坊掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "苗寨土司"
+  gender: male
+  evidence: "game data x1"
+- name: "苗寨守卫"
+  gender: male
+  evidence: "game data x2"
+- name: "若烟"
+  gender: female
+  evidence: "game data x3"
+- name: "若烟（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "范岩"
+  englishName: "Fan Yan"
+  gender: male
+  evidence: "game data x1"
+- name: "茶博士"
+  gender: male
+  evidence: "game data x1"
+- name: "茶客乙"
+  gender: male
+  evidence: "game data x1"
+- name: "茶客甲"
+  gender: male
+  evidence: "game data x1"
+- name: "茶寮老板"
+  gender: male
+  evidence: "game data x1"
+- name: "茶屋店主"
+  gender: female
+  evidence: "game data x1"
+- name: "茶铺掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "荆山玉"
+  englishName: "Jing Shanyu"
+  gender: male
+  evidence: "game data x1"
+- name: "荆蒙"
+  englishName: "Jing Meng"
+  gender: male
+  evidence: "game data x1"
+- name: "药铺掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "荷官"
+  gender: female
+  evidence: "game data x12"
+- name: "莳花馆侍女"
+  gender: female
+  evidence: "game data x4"
+- name: "莳花馆小厮"
+  gender: male
+  evidence: "game data x4"
+- name: "莳花馆打手"
+  gender: male
+  evidence: "game data x4"
+- name: "莳花馆歌伎"
+  gender: female
+  evidence: "game data x2"
+- name: "菜农"
+  gender: male
+  evidence: "game data x1"
+- name: "菜娃"
+  gender: male
+  evidence: "game data x1"
+- name: "萧存威"
+  englishName: "Xiao Cunwei"
+  gender: male
+  evidence: "game data x1"
+- name: "落魄乞丐"
+  gender: male
+  evidence: "game data x1"
+- name: "落魄乞丐（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "落魄书生"
+  gender: male
+  evidence: "game data x1"
+- name: "落魄武士"
+  gender: male
+  evidence: "game data x4"
+- name: "葛有方"
+  englishName: "Ge Youfang"
+  gender: male
+  evidence: "game data x2"
+- name: "蒙巳"
+  gender: male
+  evidence: "game data x3"
+- name: "蒙托"
+  gender: male
+  evidence: "game data x2"
+- name: "蒙芸"
+  gender: female
+  evidence: "game data x2"
+- name: "蒙面人"
+  gender: male
+  evidence: "game data x11"
+- name: "蒙面侍卫"
+  gender: male
+  evidence: "game data x3"
+- name: "蒙面尊使"
+  gender: female
+  evidence: "game data x1"
+- name: "蒙面甲士"
+  gender: male
+  evidence: "game data x2"
+- name: "蓝玉"
+  gender: female
+  evidence: "game data x1"
+- name: "蔡强"
+  englishName: "Cai Qiang"
+  gender: male
+  evidence: "game data x1"
+- name: "蔡言"
+  englishName: "Cai Yan"
+  gender: male
+  evidence: "game data x1"
+- name: "虎子（文本中原[孩童]）"
+  gender: male
+  evidence: "game data x1"
+- name: "虚弱流民"
+  gender: male
+  evidence: "game data x2"
+- name: "虞庆"
+  englishName: "Yu Qing"
+  gender: male
+  evidence: "game data x1"
+- name: "虞阳"
+  englishName: "Yu Yang"
+  gender: male
+  evidence: "game data x1"
+- name: "蛇卫"
+  gender: male
+  evidence: "game data x1"
+- name: "蛊人"
+  gender: male
+  evidence: "game data x3"
+- name: "蛊人“蒙笙”"
+  gender: female
+  evidence: "game data x1"
+- name: "蛊人（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "蛛卫"
+  gender: female
+  evidence: "game data x4"
+- name: "蛛卫（尸首）"
+  gender: female
+  evidence: "game data x4"
+- name: "蜈卫"
+  gender: male
+  evidence: "game data x1"
+- name: "蜈蚣蛊人"
+  gender: male
+  evidence: "game data x1"
+- name: "蜈蚣蛊人（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "蜘蛛鬼"
+  gender: male
+  evidence: "game data x1"
+- name: "蜡染铺掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "蝎卫"
+  gender: male
+  evidence: "game data x2"
+- name: "蝎姬"
+  gender: female
+  evidence: "game data x2"
+- name: "螣蛇谷民"
+  gender: male
+  evidence: "game data x8"
+- name: "螣蛇谷民（尸首）"
+  gender: male
+  evidence: "game data x5"
+- name: "蟾卫"
+  gender: female
+  evidence: "game data x1"
+- name: "行商"
+  gender: male
+  evidence: "game data x1"
+- name: "行脚商人"
+  gender: male
+  evidence: "game data x5"
+- name: "行脚商人（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "行路人"
+  gender: male
+  evidence: "game data x7"
+- name: "街头顽童"
+  gender: male
+  evidence: "game data x1"
+- name: "衣记掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "补锅匠"
+  gender: male
+  evidence: "game data x1"
+- name: "补鞋匠"
+  gender: male
+  evidence: "game data x1"
+- name: "袁二爷"
+  gender: male
+  evidence: "game data x3"
+- name: "被绑女子"
+  gender: female
+  evidence: "game data x3"
+- name: "裁云庄掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "褚玉书"
+  englishName: "Chu Yushu"
+  gender: male
+  evidence: "game data x1"
+- name: "襄阳城军官"
+  gender: male
+  evidence: "game data x1"
+- name: "襄阳小校"
+  gender: male
+  evidence: "game data x1"
+- name: "襄阳布庄掌柜"
+  gender: female
+  evidence: "game data x1"
+- name: "襄阳捕快"
+  gender: male
+  evidence: "game data x2"
+- name: "襄阳铁卫"
+  gender: male
+  evidence: "game data x1"
+- name: "西京商会执事"
+  gender: male
+  evidence: "game data x1"
+- name: "西园看守"
+  gender: male
+  evidence: "game data x2"
+- name: "西域商人"
+  gender: male
+  evidence: "game data x2"
+- name: "西域富商"
+  gender: male
+  evidence: "game data x1"
+- name: "西域胡商"
+  gender: male
+  evidence: "game data x3"
+- name: "西门仲"
+  englishName: "Ximen Zhong"
+  gender: male
+  evidence: "game data x2"
+- name: "西门仲（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "西门家仆"
+  gender: male
+  evidence: "game data x2"
+- name: "西门家奴"
+  gender: male
+  evidence: "game data x4"
+- name: "西门直"
+  englishName: "Ximen Zhi"
+  gender: male
+  evidence: "game data x1"
+- name: "许张氏"
+  gender: female
+  evidence: "game data x2"
+- name: "许绣娘"
+  gender: female
+  evidence: "game data x1"
+- name: "许青鸟"
+  englishName: "Xu Qingdiao"
+  gender: female
+  evidence: "game data x1"
+- name: "译经僧"
+  gender: male
+  evidence: "game data x1"
+- name: "说书人"
+  gender: male
+  evidence: "game data x2"
+- name: "诸葛复"
+  englishName: "Zhuge Fu"
+  gender: male
+  evidence: "game data x1"
+- name: "谋士"
+  gender: male
+  evidence: "game data x1"
+- name: "谢昊"
+  englishName: "Xie Hao"
+  gender: male
+  evidence: "game data x1"
+- name: "谢正青"
+  englishName: "Xie Zhengqing"
+  gender: male
+  evidence: "game data x3"
+- name: "豆丁"
+  gender: male
+  evidence: "game data x1"
+- name: "豆腐脑摊主"
+  gender: male
+  evidence: "game data x1"
+- name: "豪横汉子"
+  gender: male
+  evidence: "game data x1"
+- name: "财主"
+  gender: male
+  evidence: "game data x1"
+- name: "货郎"
+  gender: male
+  evidence: "game data x1"
+- name: "贵族武士"
+  gender: male
+  evidence: "game data x1"
+- name: "费建远"
+  englishName: "Fei Jianyuan"
+  gender: male
+  evidence: "game data x1"
+- name: "贺元忠"
+  englishName: "He Yuanzhong"
+  gender: male
+  evidence: "game data x1"
+- name: "贺元忠（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "贼人甲"
+  gender: male
+  evidence: "game data x1"
+- name: "赌刀客"
+  gender: male
+  evidence: "game data x1"
+- name: "赌场打手"
+  gender: male
+  evidence: "game data x2"
+- name: "赌场混混"
+  gender: male
+  evidence: "game data x6"
+- name: "赌坊打手"
+  gender: male
+  evidence: "game data x13"
+- name: "赌坊掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "赌坊老板"
+  gender: male
+  evidence: "game data x1"
+- name: "赌徒"
+  gender: male
+  evidence: "game data x35"
+- name: "赤那齐"
+  gender: male
+  evidence: "game data x1"
+- name: "赤鼎堂匠人"
+  gender: male
+  evidence: "game data x1"
+- name: "赤鼎堂水贼"
+  gender: male
+  evidence: "game data x3"
+- name: "走货郎"
+  gender: male
+  evidence: "game data x7"
+- name: "赵云灵"
+  englishName: "Zhao Yunling"
+  gender: female
+  evidence: "game data x1"
+- name: "赵云灵（原）"
+  gender: female
+  evidence: "game data x1"
+- name: "赵云灵（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "赵修远"
+  englishName: "Zhao Xiuyuan"
+  gender: male
+  evidence: "game data x1"
+- name: "赵姓乞丐"
+  gender: male
+  evidence: "game data x1"
+- name: "赵婶"
+  gender: female
+  evidence: "game data x1"
+- name: "赵德才"
+  englishName: "Zhao De Cai"
+  gender: male
+  evidence: "game data x1"
+- name: "赵掌柜"
+  gender: male
+  evidence: "game data x2"
+- name: "赵掌柜（大理酒楼）"
+  gender: male
+  evidence: "game data x1"
+- name: "赵明澈"
+  gender: male
+  evidence: "game data x3"
+- name: "赵樵夫"
+  gender: male
+  evidence: "game data x1"
+- name: "赵辛"
+  englishName: "Zhao Xin"
+  gender: male
+  evidence: "game data x3"
+- name: "赵顺奎"
+  englishName: "Zhao Shunkui"
+  gender: male
+  evidence: "game data x1"
+- name: "趟子手"
+  gender: male
+  evidence: "game data x10"
+- name: "趟子手（尸首）"
+  gender: male
+  evidence: "game data x4"
+- name: "跑跑"
+  gender: male
+  evidence: "game data x2"
+- name: "路人"
+  gender: male
+  evidence: "game data x1"
+- name: "跳跳"
+  gender: male
+  evidence: "game data x2"
+- name: "蹦蹦"
+  gender: male
+  evidence: "game data x2"
+- name: "车夫"
+  gender: male
+  evidence: "game data x1"
+- name: "轩海阁特使"
+  gender: male
+  evidence: "game data x1"
+- name: "轻伤的老者"
+  gender: male
+  evidence: "game data x1"
+- name: "辎重官"
+  gender: male
+  evidence: "game data x1"
+- name: "边关农人"
+  gender: male
+  evidence: "game data x2"
+- name: "近侍亲卫1"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫1（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫2"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫2（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫3"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫3（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫4"
+  gender: female
+  evidence: "game data x1"
+- name: "近侍亲卫4（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "连天云"
+  englishName: "Lian Tianyun"
+  gender: male
+  evidence: "game data x1"
+- name: "连天明"
+  gender: male
+  evidence: "game data x4"
+- name: "连环寨喽啰"
+  gender: male
+  evidence: "game data x13"
+- name: "连环寨寨守"
+  gender: male
+  evidence: "game data x2"
+- name: "连环寨山贼"
+  gender: male
+  evidence: "game data x19"
+- name: "连环寨山贼（尸首）"
+  gender: male
+  evidence: "game data x10"
+- name: "连环寨暗哨"
+  gender: male
+  evidence: "game data x2"
+- name: "连环寨精锐"
+  gender: male
+  evidence: "game data x3"
+- name: "退伍老兵"
+  gender: male
+  evidence: "game data x1"
+- name: "道人"
+  gender: male
+  evidence: "game data x1"
+- name: "道场师傅"
+  gender: male
+  evidence: "game data x1"
+- name: "道场弟子"
+  gender: male
+  evidence: "game data x5"
+- name: "道奴"
+  gender: male
+  evidence: "game data x4"
+- name: "道奴（尸首）"
+  gender: male
+  evidence: "game data x3"
+- name: "道悟"
+  gender: male
+  evidence: "game data x1"
+- name: "道观馆主"
+  gender: male
+  evidence: "game data x1"
+- name: "邓克礼"
+  englishName: "Deng Keli"
+  gender: male
+  evidence: "game data x4"
+- name: "邓红婵"
+  englishName: "Deng Hongchan"
+  gender: female
+  evidence: "game data x2"
+- name: "邵副使"
+  gender: male
+  evidence: "game data x1"
+- name: "郎中"
+  gender: male
+  evidence: "game data x1"
+- name: "郑福男"
+  gender: male
+  evidence: "game data x1"
+- name: "郑铁匠"
+  gender: male
+  evidence: "game data x2"
+- name: "郝应年"
+  englishName: "Hao Yingnian"
+  gender: male
+  evidence: "game data x1"
+- name: "郝应年（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "酒客"
+  gender: male
+  evidence: "game data x14"
+- name: "酒楼伙计"
+  gender: male
+  evidence: "game data x2"
+- name: "酒楼掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "酒楼闲人"
+  gender: male
+  evidence: "game data x1"
+- name: "酒铺小二"
+  gender: male
+  evidence: "game data x1"
+- name: "酒铺小贩"
+  gender: male
+  evidence: "game data x3"
+- name: "酒铺掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "酸腐文人"
+  gender: male
+  evidence: "game data x7"
+- name: "醉汉"
+  gender: male
+  evidence: "game data x1"
+- name: "醉汉甲"
+  gender: male
+  evidence: "game data x1"
+- name: "醉酒匪徒"
+  gender: male
+  evidence: "game data x1"
+- name: "金哲秀"
+  gender: male
+  evidence: "game data x1"
+- name: "金老头"
+  gender: male
+  evidence: "game data x1"
+- name: "钱丕"
+  englishName: "Qian Pi"
+  gender: male
+  evidence: "game data x1"
+- name: "钱长老"
+  gender: male
+  evidence: "game data x1"
+- name: "钱长老（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "铁匠"
+  gender: male
+  evidence: "game data x2"
+- name: "铁匠学徒"
+  gender: male
+  evidence: "game data x1"
+- name: "铁号掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "银环院弟子"
+  gender: female
+  evidence: "game data x1"
+- name: "铸刀窟铁匠"
+  gender: male
+  evidence: "game data x1"
+- name: "铸轩匠人"
+  gender: male
+  evidence: "game data x1"
+- name: "锦瑟"
+  gender: female
+  evidence: "game data x3"
+- name: "锦绣富商"
+  gender: male
+  evidence: "game data x1"
+- name: "锦衣卫"
+  gender: male
+  evidence: "game data x8"
+- name: "锦衣小旗"
+  gender: male
+  evidence: "game data x2"
+- name: "锦衣总旗"
+  gender: male
+  evidence: "game data x1"
+- name: "锦衣贵人"
+  gender: male
+  evidence: "game data x1"
+- name: "镇民"
+  gender: male
+  evidence: "game data x5"
+- name: "镇长"
+  gender: male
+  evidence: "game data x1"
+- name: "镖头"
+  gender: male
+  evidence: "game data x1"
+- name: "镖师（尸体）"
+  gender: male
+  evidence: "game data x1"
+- name: "门房"
+  gender: male
+  evidence: "game data x1"
+- name: "阮彦春"
+  englishName: "Ruan Yanchun"
+  gender: male
+  evidence: "game data x1"
+- name: "阮彦春（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "阴阳卫"
+  gender: male
+  evidence: "game data x8"
+- name: "阿二"
+  gender: male
+  evidence: "game data x2"
+- name: "阿仓"
+  gender: male
+  evidence: "game data x1"
+- name: "阿大"
+  gender: male
+  evidence: "game data x3"
+- name: "阿年"
+  gender: male
+  evidence: "game data x1"
+- name: "阿强"
+  gender: male
+  evidence: "game data x1"
+- name: "阿福"
+  gender: male
+  evidence: "game data x1"
+- name: "阿舟"
+  gender: male
+  evidence: "game data x1"
+- name: "阿藤"
+  gender: female
+  evidence: "game data x1"
+- name: "阿金"
+  gender: male
+  evidence: "game data x1"
+- name: "陈从"
+  englishName: "Chen Cong"
+  gender: male
+  evidence: "game data x1"
+- name: "陈先乾"
+  englishName: "Chen Xianqian"
+  gender: male
+  evidence: "game data x1"
+- name: "陈员外"
+  gender: male
+  evidence: "game data x1"
+- name: "陈大目"
+  gender: male
+  evidence: "game data x1"
+- name: "陈河"
+  gender: male
+  evidence: "game data x2"
+- name: "陈记锻坊掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "陈跛子"
+  gender: male
+  evidence: "game data x1"
+- name: "陈锦程"
+  englishName: "Chen Jincheng"
+  gender: male
+  evidence: "game data x2"
+- name: "陈风"
+  englishName: "Chen Feng"
+  gender: male
+  evidence: "game data x1"
+- name: "陈风爹"
+  gender: male
+  evidence: "game data x1"
+- name: "陈默"
+  englishName: "Chen Mo"
+  gender: male
+  evidence: "game data x2"
+- name: "随从（尸首）"
+  gender: male
+  evidence: "game data x2"
+- name: "隐月使&101"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月使&4"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月使&78"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼主&6"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼主&98"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼主&99"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼刺客"
+  gender: male
+  evidence: "game data x3"
+- name: "隐月楼圣使"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&10"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&102"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼弟子&103"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&104"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼弟子&105"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&106"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&107"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&11"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼弟子&12"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&13"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&14"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&15"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&16"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&60"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼弟子&61"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&62"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼弟子&63"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&64"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&65"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&66"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&67"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼弟子&9"
+  gender: female
+  evidence: "game data x1"
+- name: "隐月楼执事"
+  gender: male
+  evidence: "game data x1"
+- name: "隐月楼教习"
+  gender: male
+  evidence: "game data x1"
+- name: "雍容女子"
+  gender: female
+  evidence: "game data x1"
+- name: "雪山刀匠"
+  gender: male
+  evidence: "game data x4"
+- name: "雪山弟子"
+  gender: male
+  evidence: "game data x2"
+- name: "雪炉匠人"
+  gender: male
+  evidence: "game data x1"
+- name: "青年"
+  gender: male
+  evidence: "game data x2"
+- name: "青年酒客"
+  gender: male
+  evidence: "game data x1"
+- name: "青松阁特使"
+  gender: female
+  evidence: "game data x2"
+- name: "青楼侍女"
+  gender: female
+  evidence: "game data x1"
+- name: "青楼女子"
+  gender: female
+  evidence: "game data x3"
+- name: "青楼小厮"
+  gender: male
+  evidence: "game data x2"
+- name: "青楼打手"
+  gender: male
+  evidence: "game data x1"
+- name: "青衫文士"
+  gender: male
+  evidence: "game data x1"
+- name: "青鸟娘"
+  gender: female
+  evidence: "game data x1"
+- name: "靛衣女子"
+  gender: female
+  evidence: "game data x1"
+- name: "面具人"
+  gender: male
+  evidence: "game data x3"
+- name: "靳有德"
+  gender: male
+  evidence: "game data x1"
+- name: "韩三喜"
+  gender: female
+  evidence: "game data x1"
+- name: "韩铁山"
+  englishName: "Han Tieshan"
+  gender: male
+  evidence: "game data x1"
+- name: "项天奉"
+  englishName: "Xiang Tianfeng"
+  gender: male
+  evidence: "game data x2"
+- name: "顽童"
+  gender: male
+  evidence: "game data x1"
+- name: "顾二叔"
+  gender: male
+  evidence: "game data x1"
+- name: "顾二叔（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "顾夫人"
+  gender: female
+  evidence: "game data x1"
+- name: "顾夫人（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "顾家女婢（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "顾府家丁"
+  gender: male
+  evidence: "game data x1"
+- name: "顾府家丁（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "顾府护院"
+  gender: male
+  evidence: "game data x3"
+- name: "顾瑶"
+  englishName: "Gu Yao"
+  gender: female
+  evidence: "game data x1"
+- name: "顾瑶（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "顾老爷"
+  gender: male
+  evidence: "game data x1"
+- name: "顾老爷（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "风凌"
+  gender: male
+  evidence: "game data x2"
+- name: "风月女子"
+  gender: female
+  evidence: "game data x1"
+- name: "风流名士"
+  gender: male
+  evidence: "game data x1"
+- name: "饥民（童女）"
+  gender: female
+  evidence: "game data x1"
+- name: "饥民（童男）"
+  gender: male
+  evidence: "game data x1"
+- name: "馔玉楼掌柜"
+  gender: male
+  evidence: "game data x1"
+- name: "香火摊贩"
+  gender: male
+  evidence: "game data x1"
+- name: "马俊才"
+  englishName: "Ma Juncai"
+  gender: male
+  evidence: "game data x1"
+- name: "马小荷"
+  gender: female
+  evidence: "game data x1"
+- name: "马恒"
+  englishName: "Ma Heng"
+  gender: male
+  evidence: "game data x1"
+- name: "马郑氏"
+  gender: female
+  evidence: "game data x1"
+- name: "驯鹰人"
+  gender: male
+  evidence: "game data x1"
+- name: "驿使"
+  gender: male
+  evidence: "game data x1"
+- name: "驿官"
+  gender: male
+  evidence: "game data x3"
+- name: "骆景孝"
+  gender: male
+  evidence: "game data x2"
+- name: "高田氏"
+  gender: female
+  evidence: "game data x1"
+- name: "鬼祟仆从"
+  gender: male
+  evidence: "game data x2"
+- name: "鬼祟仆从（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "鬼祟女子"
+  gender: female
+  evidence: "game data x1"
+- name: "鬼祟的江湖人士"
+  gender: male
+  evidence: "game data x4"
+- name: "魁霄堂水贼"
+  gender: male
+  evidence: "game data x2"
+- name: "魁霄堂管事"
+  gender: male
+  evidence: "game data x1"
+- name: "魏山"
+  englishName: "Wei Shan"
+  gender: male
+  evidence: "game data x1"
+- name: "魏无涯"
+  englishName: "Wei Wuya"
+  gender: male
+  evidence: "game data x2"
+- name: "鲁志"
+  englishName: "Lu Zhi"
+  gender: male
+  evidence: "game data x1"
+- name: "鲁良温"
+  englishName: "Lu Liangwen"
+  gender: male
+  evidence: "game data x1"
+- name: "鸿文阁特使"
+  gender: male
+  evidence: "game data x1"
+- name: "鹤羽孩童"
+  gender: male
+  evidence: "game data x2"
+- name: "麻合"
+  gender: male
+  evidence: "game data x1"
+- name: "麻木的少年"
+  gender: male
+  evidence: "game data x1"
+- name: "麻阿四"
+  gender: male
+  evidence: "game data x2"
+- name: "黄二喜"
+  englishName: "Huang Erxi"
+  gender: male
+  evidence: "game data x2"
+- name: "黄字拾肆"
+  gender: male
+  evidence: "game data x1"
+- name: "黄小小"
+  englishName: "Huang Xiao Xiao"
+  gender: female
+  evidence: "game data x1"
+- name: "黄小玥"
+  englishName: "Huang Xiaoyue"
+  gender: female
+  evidence: "game data x3"
+- name: "黄小玥（昏迷）"
+  gender: female
+  evidence: "game data x1"
+- name: "黄梦周"
+  englishName: "Huang Mengzhou"
+  gender: male
+  evidence: "game data x1"
+- name: "黄沙镇商会执事"
+  gender: male
+  evidence: "game data x1"
+- name: "黄沙镇守卫"
+  gender: male
+  evidence: "game data x7"
+- name: "黄洞玄"
+  englishName: "Huang Dongxuan"
+  gender: male
+  evidence: "game data x1"
+- name: "黄老翁"
+  gender: male
+  evidence: "game data x1"
+- name: "黄莺"
+  gender: female
+  evidence: "game data x1"
+- name: "黄莺（尸首）"
+  gender: female
+  evidence: "game data x1"
+- name: "黎大安"
+  gender: male
+  evidence: "game data x1"
+- name: "黑商"
+  gender: male
+  evidence: "game data x1"
+- name: "黑市庄荷"
+  gender: male
+  evidence: "game data x1"
+- name: "黑市看守"
+  gender: male
+  evidence: "game data x4"
+- name: "黑市看门人"
+  gender: male
+  evidence: "game data x1"
+- name: "黑市行人"
+  gender: male
+  evidence: "game data x2"
+- name: "黑田宗次郎"
+  gender: male
+  evidence: "game data x1"
+- name: "黑羽胧"
+  gender: female
+  evidence: "game data x2"
+- name: "黑衣 何傲霜"
+  gender: female
+  evidence: "game data x1"
+- name: "黑衣人"
+  gender: male
+  evidence: "game data x2"
+- name: "黑衣人（尸首）"
+  gender: male
+  evidence: "game data x1"
+- name: "黑衣匪徒"
+  gender: male
+  evidence: "game data x1"
+- name: "黑衣匪首"
+  gender: male
+  evidence: "game data x1"
+- name: "黑衣蒙面人"
+  gender: male
+  evidence: "game data x1"
+- name: "黑衣青年"
+  gender: male
+  evidence: "game data x1"
+- name: "黑贩"
+  gender: male
+  evidence: "game data x1"
+- name: "黑贩船工"
+  gender: male
+  evidence: "game data x6"
+- name: "黑雾众忍者"
+  gender: male
+  evidence: "game data x2"
+- name: "黑风副统领&47"
+  gender: female
+  evidence: "game data x1"
+- name: "黑风响马"
+  gender: male
+  evidence: "game data x8"
+- name: "黑风统领"
+  gender: male
+  evidence: "game data x1"
+- name: "黑风统领&46"
+  gender: male
+  evidence: "game data x1"
+- name: "齐佑"
+  englishName: "Qi You"
+  gender: male
+  evidence: "game data x1"
+- name: "齐荣"
+  englishName: "Qi Rong"
+  gender: male
+  evidence: "game data x1"
+- name: "龙虎道人"
+  gender: male
+  evidence: "game data x8"

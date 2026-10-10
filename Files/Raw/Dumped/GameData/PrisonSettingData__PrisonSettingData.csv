@@ -1,0 +1,3 @@
+﻿1,购买牢房钥匙的价格,购买牢房箱子里的物品的价格,各级缉捕值对应刑期时辰数列表,死刑关押天数,法场战斗组,玩家法场战斗胜利后增加的缉捕值,关系列表npc随机入狱的概率分母,关系列表npc随机入狱的刑期时辰数,玩家劫牢狱增加的npc好感与缉捕值,关系列表npc随机死刑的概率分母,玩家劫法场失败增加的缉捕值,随机牢狱事件轮询间隔(天),随机牢狱事件冷却时间(天),随机牢狱事件人数限制
+2,buyPrisonKeyPrice,buyPrisonBoxItemPrice,prisonTermListStr,deathPenaltyTime,monsterTeamId,playerExecutionBattleVectoryArrest,relationshipNpcPrisonDenominator,relationshipNpcPrisonTerm,breakPrisonAddValueStr,relationshipNpcDeathPenaltyDenominator,breakExecutionFailedArrest,randomEventCheckInterval,randomEventCD,randomEventNumLimit
+3,2000,30000,"6,6,12",45,3072,30,800,360,"50,5",5000,50,60,60,1

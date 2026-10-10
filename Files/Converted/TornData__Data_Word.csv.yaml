@@ -1,0 +1,4726 @@
+- raw: "1,ID,Section,Chinese"
+- raw: "2,int,string,string"
+- raw: "3,1,默认界面,创意工坊"
+  splits:
+  - split: 3
+    text: "创意工坊"
+- raw: "4,2,默认界面,历史更新"
+  splits:
+  - split: 3
+    text: "历史更新"
+- raw: "5,3,默认界面,更新计划"
+  splits:
+  - split: 3
+    text: "更新计划"
+- raw: "6,4,默认界面,攻略和WIKI"
+  splits:
+  - split: 3
+    text: "攻略和"
+  templates:
+  - split: 3
+    template: "{0}WIKI"
+- raw: "7,5,默认界面,问题反馈"
+  splits:
+  - split: 3
+    text: "问题反馈"
+- raw: "8,6,默认界面,初入江湖"
+  splits:
+  - split: 3
+    text: "初入江湖"
+- raw: "9,7,默认界面,江湖往事"
+  splits:
+  - split: 3
+    text: "江湖往事"
+- raw: "10,8,默认界面,系统设置"
+  splits:
+  - split: 3
+    text: "系统设置"
+- raw: "11,9,默认界面,金盆洗手"
+  splits:
+  - split: 3
+    text: "金盆洗手"
+- raw: "12,10,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "13,11,默认界面,创建角色"
+  splits:
+  - split: 3
+    text: "创建角色"
+- raw: "14,12,默认界面,姓"
+  splits:
+  - split: 3
+    text: "姓"
+- raw: "15,13,默认界面,名"
+  splits:
+  - split: 3
+    text: "名"
+- raw: "16,14,默认界面,随机"
+  splits:
+  - split: 3
+    text: "随机"
+- raw: "17,15,默认界面,保存模组"
+  splits:
+  - split: 3
+    text: "保存模组"
+- raw: "18,16,默认界面,读取模组"
+  splits:
+  - split: 3
+    text: "读取模组"
+- raw: "19,17,默认界面,性别选择"
+  splits:
+  - split: 3
+    text: "性别选择"
+- raw: "20,18,默认界面,脸"
+  splits:
+  - split: 3
+    text: "脸"
+- raw: "21,19,默认界面,前发"
+  splits:
+  - split: 3
+    text: "前发"
+- raw: "22,20,默认界面,后发"
+  splits:
+  - split: 3
+    text: "后发"
+- raw: "23,21,默认界面,眼睛"
+  splits:
+  - split: 3
+    text: "眼睛"
+- raw: "24,22,默认界面,眉毛"
+  splits:
+  - split: 3
+    text: "眉毛"
+- raw: "25,23,默认界面,鼻子"
+  splits:
+  - split: 3
+    text: "鼻子"
+- raw: "26,24,默认界面,嘴巴"
+  splits:
+  - split: 3
+    text: "嘴巴"
+- raw: "27,25,默认界面,脸饰"
+  splits:
+  - split: 3
+    text: "脸饰"
+- raw: "28,26,默认界面,衣服"
+  splits:
+  - split: 3
+    text: "衣服"
+- raw: "29,27,默认界面,面具"
+  splits:
+  - split: 3
+    text: "面具"
+- raw: "30,28,默认界面,剧情立绘"
+  splits:
+  - split: 3
+    text: "剧情立绘"
+- raw: "31,29,默认界面,随机"
+  splits:
+  - split: 3
+    text: "随机"
+- raw: "32,30,默认界面,下一步"
+  splits:
+  - split: 3
+    text: "下一步"
+- raw: "33,31,默认界面,男"
+  splits:
+  - split: 3
+    text: "男"
+- raw: "34,32,默认界面,女"
+  splits:
+  - split: 3
+    text: "女"
+- raw: "35,33,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "36,34,默认界面,天赋"
+  splits:
+  - split: 3
+    text: "天赋"
+- raw: "37,35,默认界面,剩余天赋点"
+  splits:
+  - split: 3
+    text: "剩余天赋点"
+- raw: "38,36,默认界面,下一步"
+  splits:
+  - split: 3
+    text: "下一步"
+- raw: "39,37,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "40,38,默认界面,初始属性"
+  splits:
+  - split: 3
+    text: "初始属性"
+- raw: "41,39,默认界面,武侠资质"
+  splits:
+  - split: 3
+    text: "武侠资质"
+- raw: "42,40,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "43,41,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "44,42,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "45,43,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "46,44,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "47,45,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "48,46,默认界面,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "49,47,默认界面,轻功"
+  splits:
+  - split: 3
+    text: "轻功"
+- raw: "50,48,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "51,49,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "52,50,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "53,51,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "54,52,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "55,53,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "56,54,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "57,55,默认界面,随机重选"
+  splits:
+  - split: 3
+    text: "随机重选"
+- raw: "58,56,默认界面,可分配资质点"
+  splits:
+  - split: 3
+    text: "可分配资质点"
+- raw: "59,57,默认界面,初始属性分配"
+  splits:
+  - split: 3
+    text: "初始属性分配"
+- raw: "60,58,默认界面,武力"
+  splits:
+  - split: 3
+    text: "武力"
+- raw: "61,59,默认界面,筋骨"
+  splits:
+  - split: 3
+    text: "筋骨"
+- raw: "62,60,默认界面,身法"
+  splits:
+  - split: 3
+    text: "身法"
+- raw: "63,61,默认界面,内息"
+  splits:
+  - split: 3
+    text: "内息"
+- raw: "64,62,默认界面,悟性"
+  splits:
+  - split: 3
+    text: "悟性"
+- raw: "65,63,默认界面,可分配属性点"
+  splits:
+  - split: 3
+    text: "可分配属性点"
+- raw: "66,64,默认界面,重置"
+  splits:
+  - split: 3
+    text: "重置"
+- raw: "67,65,默认界面,下一步"
+  splits:
+  - split: 3
+    text: "下一步"
+- raw: "68,66,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "69,67,默认界面,游戏环境设置"
+  splits:
+  - split: 3
+    text: "游戏环境设置"
+- raw: "70,68,默认界面,每月天数"
+  splits:
+  - split: 3
+    text: "每月天数"
+- raw: "71,69,默认界面,随机NPC自然死亡"
+  splits:
+  - split: 3
+    text: "随机"
+  - split: 3
+    subIndex: 1
+    text: "自然死亡"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}"
+- raw: "72,70,默认界面,剧情NPC自然死亡"
+  splits:
+  - split: 3
+    text: "剧情"
+  - split: 3
+    subIndex: 1
+    text: "自然死亡"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}"
+- raw: "73,71,默认界面,剧情NPC允许被杀/被俘虏"
+  splits:
+  - split: 3
+    text: "剧情"
+  - split: 3
+    subIndex: 1
+    text: "允许被杀"
+  - split: 3
+    subIndex: 2
+    text: "被俘虏"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}/{2}"
+- raw: "74,72,默认界面,角色数量"
+  splits:
+  - split: 3
+    text: "角色数量"
+- raw: "75,73,默认界面,怀孕时长"
+  splits:
+  - split: 3
+    text: "怀孕时长"
+- raw: "76,74,默认界面,NPC上阵数量"
+  splits:
+  - split: 3
+    text: "上阵数量"
+  templates:
+  - split: 3
+    template: "NPC{0}"
+- raw: "77,75,默认界面,孩童成长时长"
+  splits:
+  - split: 3
+    text: "孩童成长时长"
+- raw: "78,76,默认界面,下一步"
+  splits:
+  - split: 3
+    text: "下一步"
+- raw: "79,77,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "80,78,默认界面,选择难度"
+  splits:
+  - split: 3
+    text: "选择难度"
+- raw: "81,79,默认界面,普通"
+  splits:
+  - split: 3
+    text: "普通"
+- raw: "82,80,默认界面,困难"
+  splits:
+  - split: 3
+    text: "困难"
+- raw: "83,81,默认界面,极难"
+  splits:
+  - split: 3
+    text: "极难"
+- raw: "84,82,默认界面,江湖路"
+  splits:
+  - split: 3
+    text: "江湖路"
+- raw: "85,83,默认界面,进入游戏"
+  splits:
+  - split: 3
+    text: "进入游戏"
+- raw: "86,84,默认界面,读取存档"
+  splits:
+  - split: 3
+    text: "读取存档"
+- raw: "87,85,默认界面,节点存档"
+  splits:
+  - split: 3
+    text: "节点存档"
+- raw: "88,86,默认界面,自动存档"
+  splits:
+  - split: 3
+    text: "自动存档"
+- raw: "89,87,默认界面,存档"
+  splits:
+  - split: 3
+    text: "存档"
+- raw: "90,88,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "91,89,默认界面,系统设置"
+  splits:
+  - split: 3
+    text: "系统设置"
+- raw: "92,90,默认界面,显示设置"
+  splits:
+  - split: 3
+    text: "显示设置"
+- raw: "93,91,默认界面,分辨率"
+  splits:
+  - split: 3
+    text: "分辨率"
+- raw: "94,92,默认界面,模式"
+  splits:
+  - split: 3
+    text: "模式"
+- raw: "95,93,默认界面,全屏"
+  splits:
+  - split: 3
+    text: "全屏"
+- raw: "96,94,默认界面,窗口"
+  splits:
+  - split: 3
+    text: "窗口"
+- raw: "97,95,默认界面,显示地图网格"
+  splits:
+  - split: 3
+    text: "显示地图网格"
+- raw: "98,96,默认界面,战斗镜头震动和模糊"
+  splits:
+  - split: 3
+    text: "战斗镜头震动和模糊"
+- raw: "99,97,默认界面,恢复预设"
+  splits:
+  - split: 3
+    text: "恢复预设"
+- raw: "100,98,默认界面,声音设置"
+  splits:
+  - split: 3
+    text: "声音设置"
+- raw: "101,99,默认界面,音乐"
+  splits:
+  - split: 3
+    text: "音乐"
+- raw: "102,100,默认界面,音效"
+  splits:
+  - split: 3
+    text: "音效"
+- raw: "103,101,默认界面,恢复预设"
+  splits:
+  - split: 3
+    text: "恢复预设"
+- raw: "104,102,默认界面,自定义设置"
+  splits:
+  - split: 3
+    text: "自定义设置"
+- raw: "105,103,默认界面,自动存档时间"
+  splits:
+  - split: 3
+    text: "自动存档时间"
+- raw: "106,104,默认界面,恢复预设"
+  splits:
+  - split: 3
+    text: "恢复预设"
+- raw: "107,105,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "108,106,默认界面,默认操作配置（键鼠）"
+  splits:
+  - split: 3
+    text: "默认操作配置（键鼠）"
+- raw: "109,107,默认界面,默认操作配置（键盘）"
+  splits:
+  - split: 3
+    text: "默认操作配置（键盘）"
+- raw: "110,108,默认界面,默认操作配置（手柄）"
+  splits:
+  - split: 3
+    text: "默认操作配置（手柄）"
+- raw: "111,109,默认界面,招式1"
+  splits:
+  - split: 3
+    text: "招式1"
+- raw: "112,110,默认界面,招式2"
+  splits:
+  - split: 3
+    text: "招式2"
+- raw: "113,111,默认界面,招式3"
+  splits:
+  - split: 3
+    text: "招式3"
+- raw: "114,112,默认界面,招式4"
+  splits:
+  - split: 3
+    text: "招式4"
+- raw: "115,113,默认界面,招式5"
+  splits:
+  - split: 3
+    text: "招式5"
+- raw: "116,114,默认界面,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "117,115,默认界面,战斗中轻功/大地图轻功"
+  splits:
+  - split: 3
+    text: "战斗中轻功"
+  - split: 3
+    subIndex: 1
+    text: "大地图轻功"
+  templates:
+  - split: 3
+    template: "{0}/{1}"
+- raw: "118,116,默认界面,道具1"
+  splits:
+  - split: 3
+    text: "道具1"
+- raw: "119,117,默认界面,道具2"
+  splits:
+  - split: 3
+    text: "道具2"
+- raw: "120,118,默认界面,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "121,119,默认界面,爆气"
+  splits:
+  - split: 3
+    text: "爆气"
+- raw: "122,120,默认界面,闪避"
+  splits:
+  - split: 3
+    text: "闪避"
+- raw: "123,121,默认界面,大地图交互/战斗中纵跃"
+  splits:
+  - split: 3
+    text: "大地图交互"
+  - split: 3
+    subIndex: 1
+    text: "战斗中纵跃"
+  templates:
+  - split: 3
+    template: "{0}/{1}"
+- raw: "124,122,默认界面,轻击"
+  splits:
+  - split: 3
+    text: "轻击"
+- raw: "125,123,默认界面,重击/装弹"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "装弹"
+  templates:
+  - split: 3
+    template: "{0}/{1}"
+- raw: "126,124,默认界面,上"
+  splits:
+  - split: 3
+    text: "上"
+- raw: "127,125,默认界面,下"
+  splits:
+  - split: 3
+    text: "下"
+- raw: "128,126,默认界面,左"
+  splits:
+  - split: 3
+    text: "左"
+- raw: "129,127,默认界面,右"
+  splits:
+  - split: 3
+    text: "右"
+- raw: "130,128,默认界面,恢复预设"
+  splits:
+  - split: 3
+    text: "恢复预设"
+- raw: "131,129,默认界面,恢复预设"
+  splits:
+  - split: 3
+    text: "恢复预设"
+- raw: "132,130,默认界面,属性"
+  splits:
+  - split: 3
+    text: "属性"
+- raw: "133,131,默认界面,保存"
+  splits:
+  - split: 3
+    text: "保存"
+- raw: "134,132,默认界面,打坐"
+  splits:
+  - split: 3
+    text: "打坐"
+- raw: "135,133,默认界面,飞鸽传书"
+  splits:
+  - split: 3
+    text: "飞鸽传书"
+- raw: "136,134,默认界面,精力"
+  splits:
+  - split: 3
+    text: "精力"
+- raw: "137,135,默认界面,任务追踪"
+  splits:
+  - split: 3
+    text: "任务追踪"
+- raw: "138,136,默认界面,世界地图"
+  splits:
+  - split: 3
+    text: "世界地图"
+- raw: "139,137,默认界面,退出"
+  splits:
+  - split: 3
+    text: "退出"
+- raw: "140,138,默认界面,属性"
+  splits:
+  - split: 3
+    text: "属性"
+- raw: "141,139,默认界面,行囊"
+  splits:
+  - split: 3
+    text: "行囊"
+- raw: "142,140,默认界面,交情"
+  splits:
+  - split: 3
+    text: "交情"
+- raw: "143,141,默认界面,武学"
+  splits:
+  - split: 3
+    text: "武学"
+- raw: "144,142,默认界面,三才书"
+  splits:
+  - split: 3
+    text: "三才书"
+- raw: "145,143,默认界面,内功境界"
+  splits:
+  - split: 3
+    text: "内功境界"
+- raw: "146,144,默认界面,经脉"
+  splits:
+  - split: 3
+    text: "经脉"
+- raw: "147,145,默认界面,任务"
+  splits:
+  - split: 3
+    text: "任务"
+- raw: "148,146,默认界面,区域声望"
+  splits:
+  - split: 3
+    text: "区域声望"
+- raw: "149,147,默认界面,生活技能"
+  splits:
+  - split: 3
+    text: "生活技能"
+- raw: "150,148,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "151,149,默认界面,同行"
+  splits:
+  - split: 3
+    text: "同行"
+- raw: "152,150,默认界面,动态立绘"
+  splits:
+  - split: 3
+    text: "动态立绘"
+- raw: "153,151,默认界面,剧情立绘"
+  splits:
+  - split: 3
+    text: "剧情立绘"
+- raw: "154,152,默认界面,人物信息"
+  splits:
+  - split: 3
+    text: "人物信息"
+- raw: "155,153,默认界面,境界"
+  splits:
+  - split: 3
+    text: "境界"
+- raw: "156,154,默认界面,门派"
+  splits:
+  - split: 3
+    text: "门派"
+- raw: "157,155,默认界面,帮派"
+  splits:
+  - split: 3
+    text: "帮派"
+- raw: "158,156,默认界面,精力"
+  splits:
+  - split: 3
+    text: "精力"
+- raw: "159,157,默认界面,门派位阶"
+  splits:
+  - split: 3
+    text: "门派位阶"
+- raw: "160,158,默认界面,帮派位阶"
+  splits:
+  - split: 3
+    text: "帮派位阶"
+- raw: "161,159,默认界面,帮派功勋"
+  splits:
+  - split: 3
+    text: "帮派功勋"
+- raw: "162,160,默认界面,缉捕值"
+  splits:
+  - split: 3
+    text: "缉捕值"
+- raw: "163,161,默认界面,武学资质"
+  splits:
+  - split: 3
+    text: "武学资质"
+- raw: "164,162,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "165,163,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "166,164,默认界面,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "167,165,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "168,166,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "169,167,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "170,168,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "171,169,默认界面,轻功"
+  splits:
+  - split: 3
+    text: "轻功"
+- raw: "172,170,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "173,171,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "174,172,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "175,173,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "176,174,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "177,175,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "178,176,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "179,177,默认界面,天赋"
+  splits:
+  - split: 3
+    text: "天赋"
+- raw: "180,178,默认界面,属性"
+  splits:
+  - split: 3
+    text: "属性"
+- raw: "181,179,默认界面,外功攻击力"
+  splits:
+  - split: 3
+    text: "外功攻击力"
+- raw: "182,180,默认界面,外功防御力"
+  splits:
+  - split: 3
+    text: "外功防御力"
+- raw: "183,181,默认界面,气血上限"
+  splits:
+  - split: 3
+    text: "气血上限"
+- raw: "184,182,默认界面,体力上限"
+  splits:
+  - split: 3
+    text: "体力上限"
+- raw: "185,183,默认界面,真气上限"
+  splits:
+  - split: 3
+    text: "真气上限"
+- raw: "186,184,默认界面,速度"
+  splits:
+  - split: 3
+    text: "速度"
+- raw: "187,185,默认界面,吸血"
+  splits:
+  - split: 3
+    text: "吸血"
+- raw: "188,186,默认界面,暴击"
+  splits:
+  - split: 3
+    text: "暴击"
+- raw: "189,187,默认界面,暴击伤害"
+  splits:
+  - split: 3
+    text: "暴击伤害"
+- raw: "190,188,默认界面,内功攻击力"
+  splits:
+  - split: 3
+    text: "内功攻击力"
+- raw: "191,189,默认界面,内功防御力"
+  splits:
+  - split: 3
+    text: "内功防御力"
+- raw: "192,190,默认界面,气血恢复"
+  splits:
+  - split: 3
+    text: "气血恢复"
+- raw: "193,191,默认界面,体力恢复"
+  splits:
+  - split: 3
+    text: "体力恢复"
+- raw: "194,192,默认界面,初始真气"
+  splits:
+  - split: 3
+    text: "初始真气"
+- raw: "195,193,默认界面,内劲增长"
+  splits:
+  - split: 3
+    text: "内劲增长"
+- raw: "196,194,默认界面,反伤"
+  splits:
+  - split: 3
+    text: "反伤"
+- raw: "197,195,默认界面,免暴"
+  splits:
+  - split: 3
+    text: "免暴"
+- raw: "198,196,默认界面,暴击减免"
+  splits:
+  - split: 3
+    text: "暴击减免"
+- raw: "199,197,默认界面,武学造诣"
+  splits:
+  - split: 3
+    text: "武学造诣"
+- raw: "200,198,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "201,199,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "202,200,默认界面,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "203,201,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "204,202,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "205,203,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "206,204,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "207,205,默认界面,轻功"
+  splits:
+  - split: 3
+    text: "轻功"
+- raw: "208,206,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "209,207,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "210,208,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "211,209,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "212,210,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "213,211,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "214,212,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "215,213,默认界面,基本属性"
+  splits:
+  - split: 3
+    text: "基本属性"
+- raw: "216,214,默认界面,武力"
+  splits:
+  - split: 3
+    text: "武力"
+- raw: "217,215,默认界面,筋骨"
+  splits:
+  - split: 3
+    text: "筋骨"
+- raw: "218,216,默认界面,身法"
+  splits:
+  - split: 3
+    text: "身法"
+- raw: "219,217,默认界面,可分配属性点"
+  splits:
+  - split: 3
+    text: "可分配属性点"
+- raw: "220,218,默认界面,内息"
+  splits:
+  - split: 3
+    text: "内息"
+- raw: "221,219,默认界面,悟性"
+  splits:
+  - split: 3
+    text: "悟性"
+- raw: "222,220,默认界面,重置"
+  splits:
+  - split: 3
+    text: "重置"
+- raw: "223,221,默认界面,确定"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "224,222,默认界面,项链"
+  splits:
+  - split: 3
+    text: "项链"
+- raw: "225,223,默认界面,武器"
+  splits:
+  - split: 3
+    text: "武器"
+- raw: "226,224,默认界面,护臂"
+  splits:
+  - split: 3
+    text: "护臂"
+- raw: "227,225,默认界面,坠饰"
+  splits:
+  - split: 3
+    text: "坠饰"
+- raw: "228,226,默认界面,外装"
+  splits:
+  - split: 3
+    text: "外装"
+- raw: "229,227,默认界面,戒指"
+  splits:
+  - split: 3
+    text: "戒指"
+- raw: "230,228,默认界面,护甲"
+  splits:
+  - split: 3
+    text: "护甲"
+- raw: "231,229,默认界面,护腰"
+  splits:
+  - split: 3
+    text: "护腰"
+- raw: "232,230,默认界面,护腿"
+  splits:
+  - split: 3
+    text: "护腿"
+- raw: "233,231,默认界面,行囊"
+  splits:
+  - split: 3
+    text: "行囊"
+- raw: "234,232,默认界面,装备"
+  splits:
+  - split: 3
+    text: "装备"
+- raw: "235,233,默认界面,药品"
+  splits:
+  - split: 3
+    text: "药品"
+- raw: "236,234,默认界面,食物"
+  splits:
+  - split: 3
+    text: "食物"
+- raw: "237,235,默认界面,艺能"
+  splits:
+  - split: 3
+    text: "艺能"
+- raw: "238,236,默认界面,秘籍"
+  splits:
+  - split: 3
+    text: "秘籍"
+- raw: "239,237,默认界面,材料"
+  splits:
+  - split: 3
+    text: "材料"
+- raw: "240,238,默认界面,任务"
+  splits:
+  - split: 3
+    text: "任务"
+- raw: "241,239,默认界面,其他"
+  splits:
+  - split: 3
+    text: "其他"
+- raw: "242,240,默认界面,境界筛选"
+  splits:
+  - split: 3
+    text: "境界筛选"
+- raw: "243,241,默认界面,整理"
+  splits:
+  - split: 3
+    text: "整理"
+- raw: "244,242,默认界面,银两"
+  splits:
+  - split: 3
+    text: "银两"
+- raw: "245,243,默认界面,境界"
+  splits:
+  - split: 3
+    text: "境界"
+- raw: "246,244,默认界面,粗通皮毛"
+  splits:
+  - split: 3
+    text: "粗通皮毛"
+- raw: "247,245,默认界面,略有小成"
+  splits:
+  - split: 3
+    text: "略有小成"
+- raw: "248,246,默认界面,心领神会"
+  splits:
+  - split: 3
+    text: "心领神会"
+- raw: "249,247,默认界面,出类拔萃"
+  splits:
+  - split: 3
+    text: "出类拔萃"
+- raw: "250,248,默认界面,登堂入室"
+  splits:
+  - split: 3
+    text: "登堂入室"
+- raw: "251,249,默认界面,融会贯通"
+  splits:
+  - split: 3
+    text: "融会贯通"
+- raw: "252,250,默认界面,炉火纯青"
+  splits:
+  - split: 3
+    text: "炉火纯青"
+- raw: "253,251,默认界面,登峰造极"
+  splits:
+  - split: 3
+    text: "登峰造极"
+- raw: "254,252,默认界面,震古烁今"
+  splits:
+  - split: 3
+    text: "震古烁今"
+- raw: "255,253,默认界面,返璞归真"
+  splits:
+  - split: 3
+    text: "返璞归真"
+- raw: "256,254,默认界面,类型筛选"
+  splits:
+  - split: 3
+    text: "类型筛选"
+- raw: "257,255,默认界面,类型"
+  splits:
+  - split: 3
+    text: "类型"
+- raw: "258,256,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "259,257,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "260,258,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "261,259,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "262,260,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "263,261,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "264,262,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "265,263,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "266,264,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "267,265,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "268,266,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "269,267,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "270,268,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "271,269,默认界面,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "272,270,默认界面,轻功"
+  splits:
+  - split: 3
+    text: "轻功"
+- raw: "273,271,默认界面,心决"
+  splits:
+  - split: 3
+    text: "心决"
+- raw: "274,272,默认界面,三才书"
+  splits:
+  - split: 3
+    text: "三才书"
+- raw: "275,273,默认界面,父母"
+  splits:
+  - split: 3
+    text: "父母"
+- raw: "276,274,默认界面,同怀"
+  splits:
+  - split: 3
+    text: "同怀"
+- raw: "277,275,默认界面,义亲"
+  splits:
+  - split: 3
+    text: "义亲"
+- raw: "278,276,默认界面,知交"
+  splits:
+  - split: 3
+    text: "知交"
+- raw: "279,277,默认界面,金兰"
+  splits:
+  - split: 3
+    text: "金兰"
+- raw: "280,278,默认界面,眷侣"
+  splits:
+  - split: 3
+    text: "眷侣"
+- raw: "281,279,默认界面,配偶"
+  splits:
+  - split: 3
+    text: "配偶"
+- raw: "282,280,默认界面,子女"
+  splits:
+  - split: 3
+    text: "子女"
+- raw: "283,281,默认界面,师傅"
+  splits:
+  - split: 3
+    text: "师傅"
+- raw: "284,282,默认界面,徒弟"
+  splits:
+  - split: 3
+    text: "徒弟"
+- raw: "285,283,默认界面,仇敌"
+  splits:
+  - split: 3
+    text: "仇敌"
+- raw: "286,284,默认界面,当前武器"
+  splits:
+  - split: 3
+    text: "当前武器"
+- raw: "287,285,默认界面,武学"
+  splits:
+  - split: 3
+    text: "武学"
+- raw: "288,286,默认界面,补全被动"
+  splits:
+  - split: 3
+    text: "补全被动"
+- raw: "289,287,默认界面,江湖散学"
+  splits:
+  - split: 3
+    text: "江湖散学"
+- raw: "290,288,默认界面,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "291,289,默认界面,闪避"
+  splits:
+  - split: 3
+    text: "闪避"
+- raw: "292,290,默认界面,纵跃"
+  splits:
+  - split: 3
+    text: "纵跃"
+- raw: "293,291,默认界面,轻击"
+  splits:
+  - split: 3
+    text: "轻击"
+- raw: "294,292,默认界面,重击"
+  splits:
+  - split: 3
+    text: "重击"
+- raw: "295,293,默认界面,江湖通式"
+  splits:
+  - split: 3
+    text: "江湖通式"
+- raw: "296,294,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "297,295,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "298,296,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "299,297,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "300,298,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "301,299,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "302,300,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "303,301,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "304,302,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "305,303,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "306,304,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "307,305,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "308,306,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "309,307,默认界面,武学研本"
+  splits:
+  - split: 3
+    text: "武学研本"
+- raw: "310,308,默认界面,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "311,309,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "312,310,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "313,311,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "314,312,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "315,313,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "316,314,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "317,315,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "318,316,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "319,317,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "320,318,默认界面,轻功"
+  splits:
+  - split: 3
+    text: "轻功"
+- raw: "321,319,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "322,320,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "323,321,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "324,322,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "325,323,默认界面,当前散学"
+  splits:
+  - split: 3
+    text: "当前散学"
+- raw: "326,324,默认界面,轻击"
+  splits:
+  - split: 3
+    text: "轻击"
+- raw: "327,325,默认界面,重击"
+  splits:
+  - split: 3
+    text: "重击"
+- raw: "328,326,默认界面,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "329,327,默认界面,闪避"
+  splits:
+  - split: 3
+    text: "闪避"
+- raw: "330,328,默认界面,跳跃"
+  splits:
+  - split: 3
+    text: "跳跃"
+- raw: "331,329,默认界面,当前通式"
+  splits:
+  - split: 3
+    text: "当前通式"
+- raw: "332,330,默认界面,当前武功"
+  splits:
+  - split: 3
+    text: "当前武功"
+- raw: "333,331,默认界面,武学混用"
+  splits:
+  - split: 3
+    text: "武学混用"
+- raw: "334,332,默认界面,当前内功"
+  splits:
+  - split: 3
+    text: "当前内功"
+- raw: "335,333,默认界面,当前轻功"
+  splits:
+  - split: 3
+    text: "当前轻功"
+- raw: "336,334,默认界面,散学"
+  splits:
+  - split: 3
+    text: "散学"
+- raw: "337,335,默认界面,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "338,336,默认界面,闪避"
+  splits:
+  - split: 3
+    text: "闪避"
+- raw: "339,337,默认界面,纵跃"
+  splits:
+  - split: 3
+    text: "纵跃"
+- raw: "340,338,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "341,339,默认界面,轻击·拳掌"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "拳掌"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "342,340,默认界面,轻击·单手轻刃"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "单手轻刃"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "343,341,默认界面,轻击·重刃"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "重刃"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "344,342,默认界面,轻击·长兵"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "长兵"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "345,343,默认界面,轻击·扇法"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "扇法"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "346,344,默认界面,轻击·暗器"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "暗器"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "347,345,默认界面,轻击·腿脚"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "腿脚"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "348,346,默认界面,轻击·双手轻刃"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "双手轻刃"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "349,347,默认界面,轻击·绳镖"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "绳镖"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "350,348,默认界面,轻击·弓箭"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "弓箭"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "351,349,默认界面,轻击·软鞭"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "软鞭"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "352,350,默认界面,轻击·火器"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "火器"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "353,351,默认界面,轻击·短兵"
+  splits:
+  - split: 3
+    text: "轻击"
+  - split: 3
+    subIndex: 1
+    text: "短兵"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "354,352,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "355,353,默认界面,重击·拳掌"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "拳掌"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "356,354,默认界面,重击·单手轻刃"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "单手轻刃"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "357,355,默认界面,重击·重刃"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "重刃"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "358,356,默认界面,重击·长兵"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "长兵"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "359,357,默认界面,重击·扇法"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "扇法"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "360,358,默认界面,重击·暗器"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "暗器"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "361,359,默认界面,重击·腿脚"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "腿脚"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "362,360,默认界面,重击·双手轻刃"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "双手轻刃"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "363,361,默认界面,重击·绳镖"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "绳镖"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "364,362,默认界面,重击·弓箭"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "弓箭"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "365,363,默认界面,重击·软鞭"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "软鞭"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "366,364,默认界面,重击·火器"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "火器"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "367,365,默认界面,重击·短兵"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "短兵"
+  templates:
+  - split: 3
+    template: "{0}·{1}"
+- raw: "368,366,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "369,367,默认界面,通用"
+  splits:
+  - split: 3
+    text: "通用"
+- raw: "370,368,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "371,369,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "372,370,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "373,371,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "374,372,默认界面,扇法"
+  splits:
+  - split: 3
+    text: "扇法"
+- raw: "375,373,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "376,374,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "377,375,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "378,376,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "379,377,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "380,378,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "381,379,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "382,380,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "383,381,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "384,382,默认界面,查看武学"
+  splits:
+  - split: 3
+    text: "查看武学"
+- raw: "385,383,默认界面,切换武学"
+  splits:
+  - split: 3
+    text: "切换武学"
+- raw: "386,384,默认界面,查看内功"
+  splits:
+  - split: 3
+    text: "查看内功"
+- raw: "387,385,默认界面,切换内功"
+  splits:
+  - split: 3
+    text: "切换内功"
+- raw: "388,386,默认界面,查看轻功"
+  splits:
+  - split: 3
+    text: "查看轻功"
+- raw: "389,387,默认界面,切换轻功"
+  splits:
+  - split: 3
+    text: "切换轻功"
+- raw: "390,388,默认界面,内功境界"
+  splits:
+  - split: 3
+    text: "内功境界"
+- raw: "391,389,默认界面,破境需满足"
+  splits:
+  - split: 3
+    text: "破境需满足"
+- raw: "392,390,默认界面,跳转经脉"
+  splits:
+  - split: 3
+    text: "跳转经脉"
+- raw: "393,391,默认界面,冲关破境"
+  splits:
+  - split: 3
+    text: "冲关破境"
+- raw: "394,392,默认界面,破境可提升"
+  splits:
+  - split: 3
+    text: "破境可提升"
+- raw: "395,393,默认界面,经脉"
+  splits:
+  - split: 3
+    text: "经脉"
+- raw: "396,394,默认界面,十二正经"
+  splits:
+  - split: 3
+    text: "十二正经"
+- raw: "397,395,默认界面,手太阴经"
+  splits:
+  - split: 3
+    text: "手太阴经"
+- raw: "398,396,默认界面,足阳明经"
+  splits:
+  - split: 3
+    text: "足阳明经"
+- raw: "399,397,默认界面,手少阴经"
+  splits:
+  - split: 3
+    text: "手少阴经"
+- raw: "400,398,默认界面,足厥阴经"
+  splits:
+  - split: 3
+    text: "足厥阴经"
+- raw: "401,399,默认界面,手少阳经"
+  splits:
+  - split: 3
+    text: "手少阳经"
+- raw: "402,400,默认界面,足少阴经"
+  splits:
+  - split: 3
+    text: "足少阴经"
+- raw: "403,401,默认界面,奇经八脉"
+  splits:
+  - split: 3
+    text: "奇经八脉"
+- raw: "404,402,默认界面,手阳明经"
+  splits:
+  - split: 3
+    text: "手阳明经"
+- raw: "405,403,默认界面,足太阴经"
+  splits:
+  - split: 3
+    text: "足太阴经"
+- raw: "406,404,默认界面,手太阳经"
+  splits:
+  - split: 3
+    text: "手太阳经"
+- raw: "407,405,默认界面,足少阳经"
+  splits:
+  - split: 3
+    text: "足少阳经"
+- raw: "408,406,默认界面,手厥阴经"
+  splits:
+  - split: 3
+    text: "手厥阴经"
+- raw: "409,407,默认界面,足太阳经"
+  splits:
+  - split: 3
+    text: "足太阳经"
+- raw: "410,408,默认界面,修为池剩余"
+  splits:
+  - split: 3
+    text: "修为池剩余"
+- raw: "411,409,默认界面,任脉"
+  splits:
+  - split: 3
+    text: "任脉"
+- raw: "412,410,默认界面,冲脉"
+  splits:
+  - split: 3
+    text: "冲脉"
+- raw: "413,411,默认界面,阴跷脉"
+  splits:
+  - split: 3
+    text: "阴跷脉"
+- raw: "414,412,默认界面,阴维脉"
+  splits:
+  - split: 3
+    text: "阴维脉"
+- raw: "415,413,默认界面,督脉"
+  splits:
+  - split: 3
+    text: "督脉"
+- raw: "416,414,默认界面,带脉"
+  splits:
+  - split: 3
+    text: "带脉"
+- raw: "417,415,默认界面,阳跷脉"
+  splits:
+  - split: 3
+    text: "阳跷脉"
+- raw: "418,416,默认界面,阳维脉"
+  splits:
+  - split: 3
+    text: "阳维脉"
+- raw: "419,417,默认界面,进行中"
+  splits:
+  - split: 3
+    text: "进行中"
+- raw: "420,418,默认界面,已完成"
+  splits:
+  - split: 3
+    text: "已完成"
+- raw: "421,419,默认界面,青萍村"
+  splits:
+  - split: 3
+    text: "青萍村"
+- raw: "422,420,默认界面,承安镇"
+  splits:
+  - split: 3
+    text: "承安镇"
+- raw: "423,421,默认界面,太和山"
+  splits:
+  - split: 3
+    text: "太和山"
+- raw: "424,422,默认界面,天涯海阁"
+  splits:
+  - split: 3
+    text: "天涯海阁"
+- raw: "425,423,默认界面,杭州城"
+  splits:
+  - split: 3
+    text: "杭州城"
+- raw: "426,424,默认界面,大理"
+  splits:
+  - split: 3
+    text: "大理"
+- raw: "427,425,默认界面,五圣教"
+  splits:
+  - split: 3
+    text: "五圣教"
+- raw: "428,426,默认界面,桃花坞"
+  splits:
+  - split: 3
+    text: "桃花坞"
+- raw: "429,427,默认界面,襄阳"
+  splits:
+  - split: 3
+    text: "襄阳"
+- raw: "430,428,默认界面,长安"
+  splits:
+  - split: 3
+    text: "长安"
+- raw: "431,429,默认界面,隋东关"
+  splits:
+  - split: 3
+    text: "隋东关"
+- raw: "432,430,默认界面,烹饪"
+  splits:
+  - split: 3
+    text: "烹饪"
+- raw: "433,431,默认界面,锻造"
+  splits:
+  - split: 3
+    text: "锻造"
+- raw: "434,432,默认界面,炼丹"
+  splits:
+  - split: 3
+    text: "炼丹"
+- raw: "435,433,默认界面,类型"
+  splits:
+  - split: 3
+    text: "类型"
+- raw: "436,434,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "437,435,默认界面,已习得"
+  splits:
+  - split: 3
+    text: "已习得"
+- raw: "438,436,默认界面,未习得"
+  splits:
+  - split: 3
+    text: "未习得"
+- raw: "439,437,默认界面,烹饪等级"
+  splits:
+  - split: 3
+    text: "烹饪等级"
+- raw: "440,438,默认界面,烹饪"
+  splits:
+  - split: 3
+    text: "烹饪"
+- raw: "441,439,默认界面,锻造"
+  splits:
+  - split: 3
+    text: "锻造"
+- raw: "442,440,默认界面,炼丹"
+  splits:
+  - split: 3
+    text: "炼丹"
+- raw: "443,441,默认界面,类型"
+  splits:
+  - split: 3
+    text: "类型"
+- raw: "444,442,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "445,443,默认界面,已习得"
+  splits:
+  - split: 3
+    text: "已习得"
+- raw: "446,444,默认界面,未习得"
+  splits:
+  - split: 3
+    text: "未习得"
+- raw: "447,445,默认界面,烹饪等级"
+  splits:
+  - split: 3
+    text: "烹饪等级"
+- raw: "448,446,默认界面,烹饪"
+  splits:
+  - split: 3
+    text: "烹饪"
+- raw: "449,447,默认界面,锻造"
+  splits:
+  - split: 3
+    text: "锻造"
+- raw: "450,448,默认界面,炼丹"
+  splits:
+  - split: 3
+    text: "炼丹"
+- raw: "451,449,默认界面,类型"
+  splits:
+  - split: 3
+    text: "类型"
+- raw: "452,450,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "453,451,默认界面,已习得"
+  splits:
+  - split: 3
+    text: "已习得"
+- raw: "454,452,默认界面,未习得"
+  splits:
+  - split: 3
+    text: "未习得"
+- raw: "455,453,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "456,454,默认界面,拳掌"
+  splits:
+  - split: 3
+    text: "拳掌"
+- raw: "457,455,默认界面,单手轻刃"
+  splits:
+  - split: 3
+    text: "单手轻刃"
+- raw: "458,456,默认界面,重刃"
+  splits:
+  - split: 3
+    text: "重刃"
+- raw: "459,457,默认界面,长兵"
+  splits:
+  - split: 3
+    text: "长兵"
+- raw: "460,458,默认界面,扇子"
+  splits:
+  - split: 3
+    text: "扇子"
+- raw: "461,459,默认界面,暗器"
+  splits:
+  - split: 3
+    text: "暗器"
+- raw: "462,460,默认界面,腿脚"
+  splits:
+  - split: 3
+    text: "腿脚"
+- raw: "463,461,默认界面,双手轻刃"
+  splits:
+  - split: 3
+    text: "双手轻刃"
+- raw: "464,462,默认界面,绳镖"
+  splits:
+  - split: 3
+    text: "绳镖"
+- raw: "465,463,默认界面,弓箭"
+  splits:
+  - split: 3
+    text: "弓箭"
+- raw: "466,464,默认界面,软鞭"
+  splits:
+  - split: 3
+    text: "软鞭"
+- raw: "467,465,默认界面,火器"
+  splits:
+  - split: 3
+    text: "火器"
+- raw: "468,466,默认界面,短兵"
+  splits:
+  - split: 3
+    text: "短兵"
+- raw: "469,467,默认界面,防具"
+  splits:
+  - split: 3
+    text: "防具"
+- raw: "470,468,默认界面,锻造等级"
+  splits:
+  - split: 3
+    text: "锻造等级"
+- raw: "471,469,默认界面,烹饪"
+  splits:
+  - split: 3
+    text: "烹饪"
+- raw: "472,470,默认界面,锻造"
+  splits:
+  - split: 3
+    text: "锻造"
+- raw: "473,471,默认界面,炼丹"
+  splits:
+  - split: 3
+    text: "炼丹"
+- raw: "474,472,默认界面,类型"
+  splits:
+  - split: 3
+    text: "类型"
+- raw: "475,473,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "476,474,默认界面,已习得"
+  splits:
+  - split: 3
+    text: "已习得"
+- raw: "477,475,默认界面,未习得"
+  splits:
+  - split: 3
+    text: "未习得"
+- raw: "478,476,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "479,477,默认界面,血量"
+  splits:
+  - split: 3
+    text: "血量"
+- raw: "480,478,默认界面,真气"
+  splits:
+  - split: 3
+    text: "真气"
+- raw: "481,479,默认界面,毒药"
+  splits:
+  - split: 3
+    text: "毒药"
+- raw: "482,480,默认界面,其他"
+  splits:
+  - split: 3
+    text: "其他"
+- raw: "483,481,默认界面,炼丹等级"
+  splits:
+  - split: 3
+    text: "炼丹等级"
+- raw: "484,482,默认界面,返回"
+  splits:
+  - split: 3
+    text: "返回"
+- raw: "485,483,默认界面,冲穴属性"
+  splits:
+  - split: 3
+    text: "冲穴属性"
+- raw: "486,484,默认界面,规则说明"
+  splits:
+  - split: 3
+    text: "规则说明"
+- raw: "487,485,默认界面,修为池剩余"
+  splits:
+  - split: 3
+    text: "修为池剩余"
+- raw: "488,486,默认界面,冲穴"
+  splits:
+  - split: 3
+    text: "冲穴"
+- raw: "489,487,默认界面,开启脉路"
+  splits:
+  - split: 3
+    text: "开启脉路"
+- raw: "490,488,默认界面,顺旋脉路"
+  splits:
+  - split: 3
+    text: "顺旋脉路"
+- raw: "491,489,默认界面,逆旋脉路"
+  splits:
+  - split: 3
+    text: "逆旋脉路"
+- raw: "492,490,默认界面,更换脉路"
+  splits:
+  - split: 3
+    text: "更换脉路"
+- raw: "493,491,默认界面,返回游戏"
+  splits:
+  - split: 3
+    text: "返回游戏"
+- raw: "494,492,默认界面,存储档案"
+  splits:
+  - split: 3
+    text: "存储档案"
+- raw: "495,493,默认界面,读取档案"
+  splits:
+  - split: 3
+    text: "读取档案"
+- raw: "496,494,默认界面,系统设置"
+  splits:
+  - split: 3
+    text: "系统设置"
+- raw: "497,495,默认界面,退出游戏"
+  splits:
+  - split: 3
+    text: "退出游戏"
+- raw: "498,496,默认界面,购买"
+  splits:
+  - split: 3
+    text: "购买"
+- raw: "499,497,默认界面,出售"
+  splits:
+  - split: 3
+    text: "出售"
+- raw: "500,498,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "501,499,默认界面,商品进货时辰"
+  splits:
+  - split: 3
+    text: "商品进货时辰"
+- raw: "502,500,默认界面,所需银两"
+  splits:
+  - split: 3
+    text: "所需银两"
+- raw: "503,501,默认界面,我的银两"
+  splits:
+  - split: 3
+    text: "我的银两"
+- raw: "504,502,默认界面,购买"
+  splits:
+  - split: 3
+    text: "购买"
+- raw: "505,503,默认界面,物品描述"
+  splits:
+  - split: 3
+    text: "物品描述"
+- raw: "506,504,默认界面,出售银两"
+  splits:
+  - split: 3
+    text: "出售银两"
+- raw: "507,505,默认界面,批量出售"
+  splits:
+  - split: 3
+    text: "批量出售"
+- raw: "508,506,默认界面,出售银两"
+  splits:
+  - split: 3
+    text: "出售银两"
+- raw: "509,507,默认界面,我的银两"
+  splits:
+  - split: 3
+    text: "我的银两"
+- raw: "510,508,默认界面,批量出售"
+  splits:
+  - split: 3
+    text: "批量出售"
+- raw: "511,509,默认界面,物品描述"
+  splits:
+  - split: 3
+    text: "物品描述"
+- raw: "512,510,默认界面,境界筛选"
+  splits:
+  - split: 3
+    text: "境界筛选"
+- raw: "513,511,默认界面,品质筛选"
+  splits:
+  - split: 3
+    text: "品质筛选"
+- raw: "514,512,默认界面,已选择"
+  splits:
+  - split: 3
+    text: "已选择"
+- raw: "515,513,默认界面,总银两"
+  splits:
+  - split: 3
+    text: "总银两"
+- raw: "516,514,默认界面,出售"
+  splits:
+  - split: 3
+    text: "出售"
+- raw: "517,515,默认界面,粗通皮毛"
+  splits:
+  - split: 3
+    text: "粗通皮毛"
+- raw: "518,516,默认界面,略有小成"
+  splits:
+  - split: 3
+    text: "略有小成"
+- raw: "519,517,默认界面,心领神会"
+  splits:
+  - split: 3
+    text: "心领神会"
+- raw: "520,518,默认界面,出类拔萃"
+  splits:
+  - split: 3
+    text: "出类拔萃"
+- raw: "521,519,默认界面,登堂入室"
+  splits:
+  - split: 3
+    text: "登堂入室"
+- raw: "522,520,默认界面,融会贯通"
+  splits:
+  - split: 3
+    text: "融会贯通"
+- raw: "523,521,默认界面,炉火纯青"
+  splits:
+  - split: 3
+    text: "炉火纯青"
+- raw: "524,522,默认界面,登峰造极"
+  splits:
+  - split: 3
+    text: "登峰造极"
+- raw: "525,523,默认界面,震古烁今"
+  splits:
+  - split: 3
+    text: "震古烁今"
+- raw: "526,524,默认界面,返璞归真"
+  splits:
+  - split: 3
+    text: "返璞归真"
+- raw: "527,525,默认界面,练习设置"
+  splits:
+  - split: 3
+    text: "练习设置"
+- raw: "528,526,默认界面,木人桩设置"
+  splits:
+  - split: 3
+    text: "木人桩设置"
+- raw: "529,527,默认界面,木人桩境界"
+  splits:
+  - split: 3
+    text: "木人桩境界"
+- raw: "530,528,默认界面,霸体"
+  splits:
+  - split: 3
+    text: "霸体"
+- raw: "531,529,默认界面,倒计时"
+  splits:
+  - split: 3
+    text: "倒计时"
+- raw: "532,530,默认界面,召唤"
+  splits:
+  - split: 3
+    text: "召唤"
+- raw: "533,531,默认界面,离开战斗"
+  splits:
+  - split: 3
+    text: "离开战斗"
+- raw: "534,532,默认界面,伤害量"
+  splits:
+  - split: 3
+    text: "伤害量"
+- raw: "535,533,默认界面,连击数"
+  splits:
+  - split: 3
+    text: "连击数"
+- raw: "536,534,默认界面,普攻"
+  splits:
+  - split: 3
+    text: "普攻"
+- raw: "537,535,默认界面,重击/装弹"
+  splits:
+  - split: 3
+    text: "重击"
+  - split: 3
+    subIndex: 1
+    text: "装弹"
+  templates:
+  - split: 3
+    template: "{0}/{1}"
+- raw: "538,536,默认界面,闪避"
+  splits:
+  - split: 3
+    text: "闪避"
+- raw: "539,537,默认界面,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "540,538,默认界面,跳跃"
+  splits:
+  - split: 3
+    text: "跳跃"
+- raw: "541,539,默认界面,爆气"
+  splits:
+  - split: 3
+    text: "爆气"
+- raw: "542,540,默认界面,炼丹等级"
+  splits:
+  - split: 3
+    text: "炼丹等级"
+- raw: "543,541,默认界面,制作"
+  splits:
+  - split: 3
+    text: "制作"
+- raw: "544,542,默认界面,消耗"
+  splits:
+  - split: 3
+    text: "消耗"
+- raw: "545,543,默认界面,当前拥有"
+  splits:
+  - split: 3
+    text: "当前拥有"
+- raw: "546,544,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "547,545,默认界面,锻造等级"
+  splits:
+  - split: 3
+    text: "锻造等级"
+- raw: "548,546,默认界面,制作"
+  splits:
+  - split: 3
+    text: "制作"
+- raw: "549,547,默认界面,消耗"
+  splits:
+  - split: 3
+    text: "消耗"
+- raw: "550,548,默认界面,当前拥有"
+  splits:
+  - split: 3
+    text: "当前拥有"
+- raw: "551,549,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "552,550,默认界面,烹饪地图"
+  splits:
+  - split: 3
+    text: "烹饪地图"
+- raw: "553,551,默认界面,制作"
+  splits:
+  - split: 3
+    text: "制作"
+- raw: "554,552,默认界面,消耗"
+  splits:
+  - split: 3
+    text: "消耗"
+- raw: "555,553,默认界面,当前拥有"
+  splits:
+  - split: 3
+    text: "当前拥有"
+- raw: "556,554,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "557,555,默认界面,父母"
+  splits:
+  - split: 3
+    text: "父母"
+- raw: "558,556,默认界面,同怀"
+  splits:
+  - split: 3
+    text: "同怀"
+- raw: "559,557,默认界面,金兰"
+  splits:
+  - split: 3
+    text: "金兰"
+- raw: "560,558,默认界面,配偶"
+  splits:
+  - split: 3
+    text: "配偶"
+- raw: "561,559,默认界面,子女"
+  splits:
+  - split: 3
+    text: "子女"
+- raw: "562,560,默认界面,境界"
+  splits:
+  - split: 3
+    text: "境界"
+- raw: "563,561,默认界面,门派"
+  splits:
+  - split: 3
+    text: "门派"
+- raw: "564,562,默认界面,索要银两"
+  splits:
+  - split: 3
+    text: "索要银两"
+- raw: "565,563,默认界面,索要物品"
+  splits:
+  - split: 3
+    text: "索要物品"
+- raw: "566,564,默认界面,未读"
+  splits:
+  - split: 3
+    text: "未读"
+- raw: "567,565,默认界面,已读"
+  splits:
+  - split: 3
+    text: "已读"
+- raw: "568,566,默认界面,批量删除"
+  splits:
+  - split: 3
+    text: "批量删除"
+- raw: "569,567,默认界面,关系"
+  splits:
+  - split: 3
+    text: "关系"
+- raw: "570,568,默认界面,好感度"
+  splits:
+  - split: 3
+    text: "好感度"
+- raw: "571,569,默认界面,江湖信息"
+  splits:
+  - split: 3
+    text: "江湖信息"
+- raw: "572,570,默认界面,确定"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "573,571,默认界面,仓库"
+  splits:
+  - split: 3
+    text: "仓库"
+- raw: "574,572,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "575,573,默认界面,装备"
+  splits:
+  - split: 3
+    text: "装备"
+- raw: "576,574,默认界面,药品"
+  splits:
+  - split: 3
+    text: "药品"
+- raw: "577,575,默认界面,食物"
+  splits:
+  - split: 3
+    text: "食物"
+- raw: "578,576,默认界面,艺能"
+  splits:
+  - split: 3
+    text: "艺能"
+- raw: "579,577,默认界面,秘籍"
+  splits:
+  - split: 3
+    text: "秘籍"
+- raw: "580,578,默认界面,材料"
+  splits:
+  - split: 3
+    text: "材料"
+- raw: "581,579,默认界面,任务"
+  splits:
+  - split: 3
+    text: "任务"
+- raw: "582,580,默认界面,其他"
+  splits:
+  - split: 3
+    text: "其他"
+- raw: "583,581,默认界面,一键取出"
+  splits:
+  - split: 3
+    text: "一键取出"
+- raw: "584,582,默认界面,境界筛选"
+  splits:
+  - split: 3
+    text: "境界筛选"
+- raw: "585,583,默认界面,行囊"
+  splits:
+  - split: 3
+    text: "行囊"
+- raw: "586,584,默认界面,全部"
+  splits:
+  - split: 3
+    text: "全部"
+- raw: "587,585,默认界面,装备"
+  splits:
+  - split: 3
+    text: "装备"
+- raw: "588,586,默认界面,药品"
+  splits:
+  - split: 3
+    text: "药品"
+- raw: "589,587,默认界面,食物"
+  splits:
+  - split: 3
+    text: "食物"
+- raw: "590,588,默认界面,艺能"
+  splits:
+  - split: 3
+    text: "艺能"
+- raw: "591,589,默认界面,秘籍"
+  splits:
+  - split: 3
+    text: "秘籍"
+- raw: "592,590,默认界面,材料"
+  splits:
+  - split: 3
+    text: "材料"
+- raw: "593,591,默认界面,任务"
+  splits:
+  - split: 3
+    text: "任务"
+- raw: "594,592,默认界面,其他"
+  splits:
+  - split: 3
+    text: "其他"
+- raw: "595,593,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "596,594,默认界面,行囊银两"
+  splits:
+  - split: 3
+    text: "行囊银两"
+- raw: "597,595,默认界面,摇骰"
+  splits:
+  - split: 3
+    text: "摇骰"
+- raw: "598,596,默认界面,选择下注金额"
+  splits:
+  - split: 3
+    text: "选择下注金额"
+- raw: "599,597,默认界面,银两"
+  splits:
+  - split: 3
+    text: "银两"
+- raw: "600,598,默认界面,确定"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "601,599,默认界面,帮派等级"
+  splits:
+  - split: 3
+    text: "帮派等级"
+- raw: "602,600,默认界面,帮派资金"
+  splits:
+  - split: 3
+    text: "帮派资金"
+- raw: "603,601,默认界面,产业收入"
+  splits:
+  - split: 3
+    text: "产业收入"
+- raw: "604,602,默认界面,当前帮派位阶"
+  splits:
+  - split: 3
+    text: "当前帮派位阶"
+- raw: "605,603,默认界面,累计帮派功勋"
+  splits:
+  - split: 3
+    text: "累计帮派功勋"
+- raw: "606,604,默认界面,获取薪俸"
+  splits:
+  - split: 3
+    text: "获取薪俸"
+- raw: "607,605,默认界面,报名考核"
+  splits:
+  - split: 3
+    text: "报名考核"
+- raw: "608,606,默认界面,查看教众"
+  splits:
+  - split: 3
+    text: "查看教众"
+- raw: "609,607,默认界面,离开"
+  splits:
+  - split: 3
+    text: "离开"
+- raw: "610,608,默认界面,购买"
+  splits:
+  - split: 3
+    text: "购买"
+- raw: "611,609,默认界面,出售"
+  splits:
+  - split: 3
+    text: "出售"
+- raw: "612,610,默认界面,帮派商店"
+  splits:
+  - split: 3
+    text: "帮派商店"
+- raw: "613,611,默认界面,所需功勋"
+  splits:
+  - split: 3
+    text: "所需功勋"
+- raw: "614,612,默认界面,我的功勋"
+  splits:
+  - split: 3
+    text: "我的功勋"
+- raw: "615,613,默认界面,购买"
+  splits:
+  - split: 3
+    text: "购买"
+- raw: "616,614,默认界面,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "617,615,默认界面,推荐境界"
+  splits:
+  - split: 3
+    text: "推荐境界"
+- raw: "618,616,默认界面,进入副本"
+  splits:
+  - split: 3
+    text: "进入副本"
+- raw: "619,617,默认界面,历时"
+  splits:
+  - split: 3
+    text: "历时"
+- raw: "620,618,默认界面,获得"
+  splits:
+  - split: 3
+    text: "获得"
+- raw: "621,619,默认界面,修为"
+  splits:
+  - split: 3
+    text: "修为"
+- raw: "622,620,默认界面,银两"
+  splits:
+  - split: 3
+    text: "银两"
+- raw: "623,621,默认界面,造诣"
+  splits:
+  - split: 3
+    text: "造诣"
+- raw: "624,622,默认界面,离开战斗"
+  splits:
+  - split: 3
+    text: "离开战斗"
+- raw: "625,623,创角-天赋,还有剩余天赋点没有使用，是否继续?"
+  splits:
+  - split: 3
+    text: "还有剩余天赋点没有使用，是否继续"
+  templates:
+  - split: 3
+    template: "{0}?"
+- raw: "626,624,创角-天赋,取消"
+  splits:
+  - split: 3
+    text: "取消"
+- raw: "627,625,创角-天赋,剩余天赋点不足"
+  splits:
+  - split: 3
+    text: "剩余天赋点不足"
+- raw: "628,626,创角-初始属性,点击资质文字可锁定该项资质，至多可同时锁定两项资质。"
+  splits:
+  - split: 3
+    text: "点击资质文字可锁定该项资质，至多可同时锁定两项资质。"
+- raw: "629,627,创角-初始属性,资质决定了角色获取该项造诣的上限值，后续使用该项武器或武学时将获得造诣，造诣越高，对应获取的攻击，防御等加成就越高。"
+  splits:
+  - split: 3
+    text: "资质决定了角色获取该项造诣的上限值，后续使用该项武器或武学时将获得造诣，造诣越高，对应获取的攻击，防御等加成就越高。"
+- raw: "630,628,创角-初始属性,影响外功攻击力，武学伤害。"
+  splits:
+  - split: 3
+    text: "影响外功攻击力，武学伤害。"
+- raw: "631,629,创角-初始属性,影响外功防御力，气血上限，免暴，武学伤害。"
+  splits:
+  - split: 3
+    text: "影响外功防御力，气血上限，免暴，武学伤害。"
+- raw: "632,630,创角-初始属性,影响移动速度，暴击几率，暴击伤害，武学伤害。"
+  splits:
+  - split: 3
+    text: "影响移动速度，暴击几率，暴击伤害，武学伤害。"
+- raw: "633,631,创角-初始属性,影响内功攻击力，内功防御力，武学伤害。"
+  splits:
+  - split: 3
+    text: "影响内功攻击力，内功防御力，武学伤害。"
+- raw: "634,632,创角-初始属性,影响偷学与请教武学的成功率，试探对方境界增加修为获取速度，开启三才书槽位。"
+  splits:
+  - split: 3
+    text: "影响偷学与请教武学的成功率，试探对方境界增加修为获取速度，开启三才书槽位。"
+- raw: "635,633,创角-初始属性,可分配属性点未分配完"
+  splits:
+  - split: 3
+    text: "可分配属性点未分配完"
+- raw: "636,634,创角-初始属性,可分配资质点未分配完"
+  splits:
+  - split: 3
+    text: "可分配资质点未分配完"
+- raw: "637,635,游戏环境设置,游戏模式"
+  splits:
+  - split: 3
+    text: "游戏模式"
+- raw: "638,636,游戏环境设置,剧情"
+  splits:
+  - split: 3
+    text: "剧情"
+- raw: "639,637,游戏环境设置,沙盒"
+  splits:
+  - split: 3
+    text: "沙盒"
+- raw: "640,638,游戏环境设置,5天"
+  splits:
+  - split: 3
+    text: "5天"
+- raw: "641,639,游戏环境设置,15天"
+  splits:
+  - split: 3
+    text: "15天"
+- raw: "642,640,游戏环境设置,30天"
+  splits:
+  - split: 3
+    text: "30天"
+- raw: "643,641,游戏环境设置,是"
+  splits:
+  - split: 3
+    text: "是"
+- raw: "644,642,游戏环境设置,否"
+  splits:
+  - split: 3
+    text: "否"
+- raw: "645,643,游戏环境设置,是"
+  splits:
+  - split: 3
+    text: "是"
+- raw: "646,644,游戏环境设置,否"
+  splits:
+  - split: 3
+    text: "否"
+- raw: "647,645,游戏环境设置,少量"
+  splits:
+  - split: 3
+    text: "少量"
+- raw: "648,646,游戏环境设置,普通"
+  splits:
+  - split: 3
+    text: "普通"
+- raw: "649,647,游戏环境设置,大量"
+  splits:
+  - split: 3
+    text: "大量"
+- raw: "650,648,游戏环境设置,3月"
+  splits:
+  - split: 3
+    text: "3月"
+- raw: "651,649,游戏环境设置,5月"
+  splits:
+  - split: 3
+    text: "5月"
+- raw: "652,650,游戏环境设置,10月"
+  splits:
+  - split: 3
+    text: "10月"
+- raw: "653,651,游戏环境设置,2个"
+  splits:
+  - split: 3
+    text: "2个"
+- raw: "654,652,游戏环境设置,4个"
+  splits:
+  - split: 3
+    text: "4个"
+- raw: "655,653,游戏环境设置,7年"
+  splits:
+  - split: 3
+    text: "7年"
+- raw: "656,654,游戏环境设置,14年"
+  splits:
+  - split: 3
+    text: "14年"
+- raw: "657,655,游戏环境设置,此选项决定创建的游戏世界模式。沙盒模式屏蔽了剧情，专注于开放世界与帮派之争，更自由更江湖的模式。"
+  splits:
+  - split: 3
+    text: "此选项决定创建的游戏世界模式。沙盒模式屏蔽了剧情，专注于开放世界与帮派之争，更自由更江湖的模式。"
+- raw: "658,656,游戏环境设置,每月的天数越少，游戏时间过越快，游戏中的NPC衰老速度也越快。"
+  splits:
+  - split: 3
+    text: "每月的天数越少，游戏时间过越快，游戏中的"
+  - split: 3
+    subIndex: 1
+    text: "衰老速度也越快。"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}"
+- raw: "659,657,游戏环境设置,此选项决定随机NPC是否会因为年龄而自然死亡。但不影响游戏剧情的体验。"
+  splits:
+  - split: 3
+    text: "此选项决定随机"
+  - split: 3
+    subIndex: 1
+    text: "是否会因为年龄而自然死亡。但不影响游戏剧情的体验。"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}"
+- raw: "660,658,游戏环境设置,剧情NPC若被杀死，会导致与其相关的任务无法完成，喜欢体验RPG剧情的玩家建议关闭，请慎重选择。"
+  splits:
+  - split: 3
+    text: "剧情"
+  - split: 3
+    subIndex: 1
+    text: "若被杀死，会导致与其相关的任务无法完成，喜欢体验"
+  - split: 3
+    subIndex: 2
+    text: "剧情的玩家建议关闭，请慎重选择。"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}RPG{2}"
+- raw: "661,659,游戏环境设置,此选项决定随机NPC生成的数量，数量越多则数据运算量越大对电脑性能要求越高。"
+  splits:
+  - split: 3
+    text: "此选项决定随机"
+  - split: 3
+    subIndex: 1
+    text: "生成的数量，数量越多则数据运算量越大对电脑性能要求越高。"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}"
+- raw: "662,660,游戏环境设置,此选项决定NPC和角色怀孕所需的游戏世界时间"
+  splits:
+  - split: 3
+    text: "此选项决定"
+  - split: 3
+    subIndex: 1
+    text: "和角色怀孕所需的游戏世界时间"
+  templates:
+  - split: 3
+    template: "{0}NPC{1}"
+- raw: "663,661,游戏环境设置,玩家最多同时上阵的同伴数量，推荐选择2位以获得最佳战斗体验，4位上阵同伴可能会导致战斗难度较易"
+  splits:
+  - split: 3
+    text: "玩家最多同时上阵的同伴数量，推荐选择2位以获得最佳战斗体验，4位上阵同伴可能会导致战斗难度较易"
+- raw: "664,662,游戏环境设置,孩童自诞生到成年所需经历游戏世界时间"
+  splits:
+  - split: 3
+    text: "孩童自诞生到成年所需经历游戏世界时间"
+- raw: "665,663,游戏环境设置,轻松战斗，方便快速体验剧情。"
+  splits:
+  - split: 3
+    text: "轻松战斗，方便快速体验剧情。"
+- raw: "666,664,创角-选择难度,困难战斗，在难度上略有一些挑战。"
+  splits:
+  - split: 3
+    text: "困难战斗，在难度上略有一些挑战。"
+- raw: "667,665,创角-选择难度,极难战斗，在难度上有较大的挑战。"
+  splits:
+  - split: 3
+    text: "极难战斗，在难度上有较大的挑战。"
+- raw: "668,666,创角-选择难度,非常困难的战斗，在难度上有巨大的挑战。"
+  splits:
+  - split: 3
+    text: "非常困难的战斗，在难度上有巨大的挑战。"
+- raw: "669,667,创角-选择难度,玩家有部分免伤\\n玩家受击硬直时也可进行攻击且附带短暂霸体\\n玩家可随时闪避(包括角色受击硬直时)\\n同时最多2个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
+  splits:
+  - split: 3
+    text: "玩家有部分免伤"
+  - split: 3
+    subIndex: 1
+    text: "玩家受击硬直时也可进行攻击且附带短暂霸体"
+  - split: 3
+    subIndex: 2
+    text: "玩家可随时闪避"
+  - split: 3
+    subIndex: 3
+    text: "包括角色受击硬直时"
+  - split: 3
+    subIndex: 4
+    text: "同时最多2个"
+  - split: 3
+    subIndex: 5
+    text: "攻击玩家"
+  - split: 3
+    subIndex: 6
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}({3})\\n{4}NPC{5}\\n{6}"
+- raw: "670,668,创角-选择难度,玩家有少量免伤\\n玩家受击硬直时无法攻击\\n玩家可随时闪避(包括角色受击硬直时)\\nNPC略微增加格挡弹反和闪避的几率同时最多3个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
+  splits:
+  - split: 3
+    text: "玩家有少量免伤"
+  - split: 3
+    subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - split: 3
+    subIndex: 2
+    text: "玩家可随时闪避"
+  - split: 3
+    subIndex: 3
+    text: "包括角色受击硬直时"
+  - split: 3
+    subIndex: 4
+    text: "略微增加格挡弹反和闪避的几率同时最多3个"
+  - split: 3
+    subIndex: 5
+    text: "攻击玩家"
+  - split: 3
+    subIndex: 6
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}({3})\\nNPC{4}NPC{5}\\n{6}"
+- raw: "671,669,创角-选择难度,玩家无免伤\\n玩家受击硬直时无法攻击玩家\\n可随时闪避(包括角色受击硬直时)\\nNPC少量增加格挡弹反和闪避的几率同时最多4个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
+  splits:
+  - split: 3
+    text: "玩家无免伤"
+  - split: 3
+    subIndex: 1
+    text: "玩家受击硬直时无法攻击玩家"
+  - split: 3
+    subIndex: 2
+    text: "可随时闪避"
+  - split: 3
+    subIndex: 3
+    text: "包括角色受击硬直时"
+  - split: 3
+    subIndex: 4
+    text: "少量增加格挡弹反和闪避的几率同时最多4个"
+  - split: 3
+    subIndex: 5
+    text: "攻击玩家"
+  - split: 3
+    subIndex: 6
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}({3})\\nNPC{4}NPC{5}\\n{6}"
+- raw: "672,670,创角-选择难度,玩家无免伤玩家受击硬直时无法攻击玩家受击硬直时如无真气，则无法释放闪避;如有真气可额外消耗1点真气，释放闪避动作NPC大量提升格挡弹反与闪避的几率\\n同时最多5个NPC攻击玩家"
+  splits:
+  - split: 3
+    text: "玩家无免伤玩家受击硬直时无法攻击玩家受击硬直时如无真气，则无法释放闪避"
+  - split: 3
+    subIndex: 1
+    text: "如有真气可额外消耗1点真气，释放闪避动作"
+  - split: 3
+    subIndex: 2
+    text: "大量提升格挡弹反与闪避的几率"
+  - split: 3
+    subIndex: 3
+    text: "同时最多5个"
+  - split: 3
+    subIndex: 4
+    text: "攻击玩家"
+  templates:
+  - split: 3
+    template: "{0};{1}NPC{2}\\n{3}NPC{4}"
+- raw: "673,671,创角-动漫界面,【按ESC跳过当前动画】"
+  splits:
+  - split: 3
+    text: "【按"
+  - split: 3
+    subIndex: 1
+    text: "跳过当前动画】"
+  templates:
+  - split: 3
+    template: "{0}ESC{1}"
+- raw: "674,672,天赋界面,心意明达"
+  splits:
+  - split: 3
+    text: "心意明达"
+- raw: "675,673,天赋界面,气海充盈"
+  splits:
+  - split: 3
+    text: "气海充盈"
+- raw: "676,674,天赋界面,牛磐虎健"
+  splits:
+  - split: 3
+    text: "牛磐虎健"
+- raw: "677,675,天赋界面,抱御守元"
+  splits:
+  - split: 3
+    text: "抱御守元"
+- raw: "678,676,天赋界面,踏雪鸿泥"
+  splits:
+  - split: 3
+    text: "踏雪鸿泥"
+- raw: "679,677,天赋界面,蕴纳柔劲"
+  splits:
+  - split: 3
+    text: "蕴纳柔劲"
+- raw: "680,678,天赋界面,破锋锐劲"
+  splits:
+  - split: 3
+    text: "破锋锐劲"
+- raw: "681,679,天赋界面,丹心碧血"
+  splits:
+  - split: 3
+    text: "丹心碧血"
+- raw: "682,680,天赋界面,妙手生花"
+  splits:
+  - split: 3
+    text: "妙手生花"
+- raw: "683,681,天赋界面,天纵之才"
+  splits:
+  - split: 3
+    text: "天纵之才"
+- raw: "684,682,天赋界面,神完气足"
+  splits:
+  - split: 3
+    text: "神完气足"
+- raw: "685,683,天赋界面,梵金刚体"
+  splits:
+  - split: 3
+    text: "梵金刚体"
+- raw: "686,684,天赋界面,栖身奉道"
+  splits:
+  - split: 3
+    text: "栖身奉道"
+- raw: "687,685,天赋界面,崧生岳降"
+  splits:
+  - split: 3
+    text: "崧生岳降"
+- raw: "688,686,天赋界面,秋尽而藏"
+  splits:
+  - split: 3
+    text: "秋尽而藏"
+- raw: "689,687,天赋界面,气止神闲"
+  splits:
+  - split: 3
+    text: "气止神闲"
+- raw: "690,688,天赋界面,洞隐烛微"
+  splits:
+  - split: 3
+    text: "洞隐烛微"
+- raw: "691,689,天赋界面,攻敌必救"
+  splits:
+  - split: 3
+    text: "攻敌必救"
+- raw: "692,690,天赋界面,灵犀一点"
+  splits:
+  - split: 3
+    text: "灵犀一点"
+- raw: "693,691,天赋界面,道法自然"
+  splits:
+  - split: 3
+    text: "道法自然"
+- raw: "694,692,天赋界面,明镜止水"
+  splits:
+  - split: 3
+    text: "明镜止水"
+- raw: "695,693,天赋界面,渊渟岳峙"
+  splits:
+  - split: 3
+    text: "渊渟岳峙"
+- raw: "696,694,天赋界面,昏昭智愚"
+  splits:
+  - split: 3
+    text: "昏昭智愚"
+- raw: "697,695,天赋界面,天生财贵"
+  splits:
+  - split: 3
+    text: "天生财贵"
+- raw: "698,696,天赋界面,若愚之智"
+  splits:
+  - split: 3
+    text: "若愚之智"
+- raw: "699,697,天赋界面,真贯之体"
+  splits:
+  - split: 3
+    text: "真贯之体"
+- raw: "700,698,天赋界面,天狼孤煞"
+  splits:
+  - split: 3
+    text: "天狼孤煞"
+- raw: "701,699,天赋界面,镇军之材"
+  splits:
+  - split: 3
+    text: "镇军之材"
+- raw: "702,700,天赋界面,明心见性，方可念头通达，一心起时，万念如臂使指，气血回复提升10%，内劲获取速率提升10%。"
+  splits:
+  - split: 3
+    text: "明心见性，方可念头通达，一心起时，万念如臂使指，气血回复提升10%，内劲获取速率提升10%。"
+- raw: "703,701,天赋界面,气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人，内息属性+1"
+  splits:
+  - split: 3
+    text: "气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人，内息属性"
+  templates:
+  - split: 3
+    template: "{0}+1"
+- raw: "704,702,天赋界面,架若牛磐，势如虎健，乃为罕见之材，修习外家功法，造诣定一日千里，筋骨属性+1."
+  splits:
+  - split: 3
+    text: "架若牛磐，势如虎健，乃为罕见之材，修习外家功法，造诣定一日千里，筋骨属性"
+  templates:
+  - split: 3
+    template: "{0}+1."
+- raw: "705,703,天赋界面,真元抱守，御心见性，神思不乱，可抵内劲侵袭，内功防御提升3%。"
+  splits:
+  - split: 3
+    text: "真元抱守，御心见性，神思不乱，可抵内劲侵袭，内功防御提升3%。"
+- raw: "706,704,天赋界面,踏雪无痕，若惊鸿穿纵，翩翩佳人公子，游花间不染片叶，移动速度提升10%。"
+  splits:
+  - split: 3
+    text: "踏雪无痕，若惊鸿穿纵，翩翩佳人公子，游花间不染片叶，移动速度提升10%。"
+- raw: "707,705,天赋界面,筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师，内功攻击提升2%。"
+  splits:
+  - split: 3
+    text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师，内功攻击提升2%。"
+- raw: "708,706,天赋界面,筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师，外功攻击提升3%。"
+  splits:
+  - split: 3
+    text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师，外功攻击提升3%。"
+- raw: "709,707,天赋界面,饮冰难凉，碧血难消，你性格坚韧顽强，纵被击倒亦能快速恢复，体力值恢复速率额外提升5%。"
+  splits:
+  - split: 3
+    text: "饮冰难凉，碧血难消，你性格坚韧顽强，纵被击倒亦能快速恢复，体力值恢复速率额外提升5%。"
+- raw: "710,708,天赋界面,其技奇巧，转触回春，你秉性与医道暗合，自身体力上限提升10%，气血回复速率提升10%。"
+  splits:
+  - split: 3
+    text: "其技奇巧，转触回春，你秉性与医道暗合，自身体力上限提升10%，气血回复速率提升10%。"
+- raw: "711,709,天赋界面,人杰之表，万中无一，天资聪颖，可提前解锁比当前武学境界高一级的装备类物品，无视其境界需求。"
+  splits:
+  - split: 3
+    text: "人杰之表，万中无一，天资聪颖，可提前解锁比当前武学境界高一级的装备类物品，无视其境界需求。"
+- raw: "712,710,天赋界面,神足无倦，气足无眠，你天生精气充沛，体力上限提升20%。"
+  splits:
+  - split: 3
+    text: "神足无倦，气足无眠，你天生精气充沛，体力上限提升20%。"
+- raw: "713,711,天赋界面,\"体健刚强，若伽蓝之身，天生佛缘，武学至深，机缘起时，或可为不垢不灭,气血最大值额外提升10%。\""
+  splits:
+  - split: 3
+    text: "体健刚强，若伽蓝之身，天生佛缘，武学至深，机缘起时，或可为不垢不灭"
+  - split: 3
+    subIndex: 1
+    text: "气血最大值额外提升10%。"
+  templates:
+  - split: 3
+    template: "{0},{1}"
+- raw: "714,712,天赋界面,以武栖身，以身奉道，你无法拥有子嗣，但所有武学招式的伤害额外获得3%的加成。"
+  splits:
+  - split: 3
+    text: "以武栖身，以身奉道，你无法拥有子嗣，但所有武学招式的伤害额外获得3%的加成。"
+- raw: "715,713,天赋界面,崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
+  splits:
+  - split: 3
+    text: "崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
+- raw: "716,714,天赋界面,时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。"
+  splits:
+  - split: 3
+    text: "时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。"
+- raw: "717,715,天赋界面,举重若轻，神静气止，你的真气上限额外增加（1），但移动速度降低3%。"
+  splits:
+  - split: 3
+    text: "举重若轻，神静气止，你的真气上限额外增加（1），但移动速度降低3%。"
+- raw: "718,716,天赋界面,洞微知著，观叶知秋，你所见深刻透彻，直指招式破绽间隔之处，暴击率提升3%。"
+  splits:
+  - split: 3
+    text: "洞微知著，观叶知秋，你所见深刻透彻，直指招式破绽间隔之处，暴击率提升3%。"
+- raw: "719,717,天赋界面,攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群，颇擅拆解他人招式，暴击伤害额外提升5%。"
+  splits:
+  - split: 3
+    text: "攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群，颇擅拆解他人招式，暴击伤害额外提升5%。"
+- raw: "720,718,天赋界面,犹自灵犀，一点即通，你天生灵慧，常有异想，每次提升境界时，会随机解锁已修习的武学之下的一种招式。"
+  splits:
+  - split: 3
+    text: "犹自灵犀，一点即通，你天生灵慧，常有异想，每次提升境界时，会随机解锁已修习的武学之下的一种招式。"
+- raw: "721,719,天赋界面,寻释问道，你曾梦黄粱，其间一道者含笑而行，自醒再不复相见，你使用【太和】武学时威力大增。"
+  splits:
+  - split: 3
+    text: "寻释问道，你曾梦黄粱，其间一道者含笑而行，自醒再不复相见，你使用【太和】武学时威力大增。"
+- raw: "722,720,天赋界面,心如明镜，所为皆无不可，造成的内功伤害额外提升2%。"
+  splits:
+  - split: 3
+    text: "心如明镜，所为皆无不可，造成的内功伤害额外提升2%。"
+- raw: "723,721,天赋界面,如渊仰止，似岳驻峙，你自喜清静，尤擅架势，外功防御和内功防御力提升2%。"
+  splits:
+  - split: 3
+    text: "如渊仰止，似岳驻峙，你自喜清静，尤擅架势，外功防御和内功防御力提升2%。"
+- raw: "724,722,天赋界面,大智若愚，昭昏实巧，获得一个三才书人卷槽位。"
+  splits:
+  - split: 3
+    text: "大智若愚，昭昏实巧，获得一个三才书人卷槽位。"
+- raw: "725,723,天赋界面,财可通神，钱能使权，创建角色时额外获得20两银钱。"
+  splits:
+  - split: 3
+    text: "财可通神，钱能使权，创建角色时额外获得20两银钱。"
+- raw: "726,724,天赋界面,昏昏昭昭，可为大智，愚者行与世，或反能得本心？你额外获得（3）点悟性。"
+  splits:
+  - split: 3
+    text: "昏昏昭昭，可为大智，愚者行与世，或反能得本心？你额外获得（3）点悟性。"
+- raw: "727,725,天赋界面,气窍通明，可称慧体，你天生七脉通达，内功攻击提升2%。"
+  splits:
+  - split: 3
+    text: "气窍通明，可称慧体，你天生七脉通达，内功攻击提升2%。"
+- raw: "728,726,天赋界面,命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，额外获得20%的伤害提升和防御加成。"
+  splits:
+  - split: 3
+    text: "命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，额外获得20%的伤害提升和防御加成。"
+- raw: "729,727,天赋界面,天生军阵之材，气血值上限提升10%，造成的外功伤害提升3%，造成的内功伤害降低3%。"
+  splits:
+  - split: 3
+    text: "天生军阵之材，气血值上限提升10%，造成的外功伤害提升3%，造成的内功伤害降低3%。"
+- raw: "730,728,飞鸽传书界面,飞鸽传书"
+  splits:
+  - split: 3
+    text: "飞鸽传书"
+- raw: "731,729,武学界面-问号,江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。\\n当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。\\n可以在各地武馆购买学习。"
+  splits:
+  - split: 3
+    text: "江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。"
+  - split: 3
+    subIndex: 1
+    text: "当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。"
+  - split: 3
+    subIndex: 2
+    text: "可以在各地武馆购买学习。"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}"
+- raw: "732,730,武学界面-问号,江湖通式是各类武器的通用技能，不消耗真气而是消耗体力使用的技能一般是浮空技或者位移技，可以强制中断当前的普通攻击释放。\\n当你切换武器类型的时候，会自动切换到对应武器种类的江湖通式。\\n可以在各地武馆购买学习。"
+  splits:
+  - split: 3
+    text: "江湖通式是各类武器的通用技能，不消耗真气而是消耗体力使用的技能一般是浮空技或者位移技，可以强制中断当前的普通攻击释放。"
+  - split: 3
+    subIndex: 1
+    text: "当你切换武器类型的时候，会自动切换到对应武器种类的江湖通式。"
+  - split: 3
+    subIndex: 2
+    text: "可以在各地武馆购买学习。"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}"
+- raw: "733,731,武学界面-问号,武学研本是各类武器的高级技能以及内功轻功，需要消耗真气使用的技能可以强制中断当前的普通攻击释放。\\n当你切换武器类型的时候，需要手动切换武学研本的技能(点击当前武学的书本图标切换)。\\n通过任务获取，或者从NPC身上获取。"
+  splits:
+  - split: 3
+    text: "武学研本是各类武器的高级技能以及内功轻功，需要消耗真气使用的技能可以强制中断当前的普通攻击释放。"
+  - split: 3
+    subIndex: 1
+    text: "当你切换武器类型的时候，需要手动切换武学研本的技能"
+  - split: 3
+    subIndex: 2
+    text: "点击当前武学的书本图标切换"
+  - split: 3
+    subIndex: 3
+    text: "通过任务获取，或者从"
+  - split: 3
+    subIndex: 4
+    text: "身上获取。"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}({2})。\\n{3}NPC{4}"
+- raw: "734,732,新手教程,【指引任务】"
+  splits:
+  - split: 3
+    text: "【指引任务】"
+- raw: "735,733,新手教程,了解角色信息面板"
+  splits:
+  - split: 3
+    text: "了解角色信息面板"
+- raw: "736,734,新手教程,跳过引导"
+  splits:
+  - split: 3
+    text: "跳过引导"
+- raw: "737,735,新手教程,进入引导"
+  splits:
+  - split: 3
+    text: "进入引导"
+- raw: "738,736,新手教程-跳过,击败杜颜白"
+  splits:
+  - split: 3
+    text: "击败杜颜白"
+- raw: "739,737,新手教程-跳过,下一步"
+  splits:
+  - split: 3
+    text: "下一步"
+- raw: "740,738,大世界界面-左下,武林大会"
+  splits:
+  - split: 3
+    text: "武林大会"
+- raw: "741,739,新手教程-进入,【角色信息面板】"
+  splits:
+  - split: 3
+    text: "【角色信息面板】"
+- raw: "742,740,新手教程-进入,气血值:表示角色的生命值，当气血值清零时，角色死亡。\\n体力:表示角色的体力值，使用特殊动作，会消耗体力。"
+  splits:
+  - split: 3
+    text: "气血值"
+  - split: 3
+    subIndex: 1
+    text: "表示角色的生命值，当气血值清零时，角色死亡。"
+  - split: 3
+    subIndex: 2
+    text: "体力"
+  - split: 3
+    subIndex: 3
+    text: "表示角色的体力值，使用特殊动作，会消耗体力。"
+  templates:
+  - split: 3
+    template: "{0}:{1}\\n{2}:{3}"
+- raw: "743,741,新手教程-进入,气血值"
+  splits:
+  - split: 3
+    text: "气血值"
+- raw: "744,742,新手教程-进入,体力"
+  splits:
+  - split: 3
+    text: "体力"
+- raw: "745,743,新手教程-进入,下一条"
+  splits:
+  - split: 3
+    text: "下一条"
+- raw: "746,744,新手教程-进入,内劲:表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。\\n真气点:表示角色的真气点，消耗真气点释放技能。"
+  splits:
+  - split: 3
+    text: "内劲"
+  - split: 3
+    subIndex: 1
+    text: "表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。"
+  - split: 3
+    subIndex: 2
+    text: "真气点"
+  - split: 3
+    subIndex: 3
+    text: "表示角色的真气点，消耗真气点释放技能。"
+  templates:
+  - split: 3
+    template: "{0}:{1}\\n{2}:{3}"
+- raw: "747,745,新手教程-进入,真气点"
+  splits:
+  - split: 3
+    text: "真气点"
+- raw: "748,746,新手教程-进入,内劲"
+  splits:
+  - split: 3
+    text: "内劲"
+- raw: "749,747,新手教程-进入,上一条"
+  splits:
+  - split: 3
+    text: "上一条"
+- raw: "750,748,新手教程-进入,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "751,749,新手教程-进入,【任务完成】"
+  splits:
+  - split: 3
+    text: "【任务完成】"
+- raw: "752,750,新手教程-进入,完成移动指令"
+  splits:
+  - split: 3
+    text: "完成移动指令"
+- raw: "753,751,新手教程-进入,【移动】"
+  splits:
+  - split: 3
+    text: "【移动】"
+- raw: "754,752,新手教程-进入,(使用方向键，控制角色移动）。"
+  splits:
+  - split: 3
+    text: "使用方向键，控制角色移动）。"
+  templates:
+  - split: 3
+    template: "({0}"
+- raw: "755,753,新手教程-进入,上移"
+  splits:
+  - split: 3
+    text: "上移"
+- raw: "756,754,新手教程-进入,下移"
+  splits:
+  - split: 3
+    text: "下移"
+- raw: "757,755,新手教程-进入,左移"
+  splits:
+  - split: 3
+    text: "左移"
+- raw: "758,756,新手教程-进入,右移"
+  splits:
+  - split: 3
+    text: "右移"
+- raw: "759,757,新手教程-进入,进行一次向上移动操作0/1"
+  splits:
+  - split: 3
+    text: "进行一次向上移动操作0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "760,758,新手教程-进入,进行一次向下移动操作0/1"
+  splits:
+  - split: 3
+    text: "进行一次向下移动操作0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "761,759,新手教程-进入,进行一次向左移动操作0/1"
+  splits:
+  - split: 3
+    text: "进行一次向左移动操作0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "762,760,新手教程-进入,进行一次向右移动操作0/1"
+  splits:
+  - split: 3
+    text: "进行一次向右移动操作0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "763,761,新手教程-进入,跳跃"
+  splits:
+  - split: 3
+    text: "跳跃"
+- raw: "764,762,新手教程-进入,【跳跃】"
+  splits:
+  - split: 3
+    text: "【跳跃】"
+- raw: "765,763,新手教程-进入,(使用跳跃键，控制角色在场景中跳跃。在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。)"
+  splits:
+  - split: 3
+    text: "使用跳跃键，控制角色在场景中跳跃。在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。"
+  templates:
+  - split: 3
+    template: "({0})"
+- raw: "766,764,新手教程-进入,跳跃"
+  splits:
+  - split: 3
+    text: "跳跃"
+- raw: "767,765,新手教程-进入,使用跳跃键，完成两次跳跃操作0/2"
+  splits:
+  - split: 3
+    text: "使用跳跃键，完成两次跳跃操作0"
+  templates:
+  - split: 3
+    template: "{0}/2"
+- raw: "768,766,新手教程-进入,轻重击"
+  splits:
+  - split: 3
+    text: "轻重击"
+- raw: "769,767,新手教程-进入,【轻重击】"
+  splits:
+  - split: 3
+    text: "【轻重击】"
+- raw: "770,768,新手教程-进入,(使用轻击键，控制角色进行一次普通攻击。使用重击键，角色将消耗一定体力，并进行一次强力攻击)"
+  splits:
+  - split: 3
+    text: "使用轻击键，控制角色进行一次普通攻击。使用重击键，角色将消耗一定体力，并进行一次强力攻击"
+  templates:
+  - split: 3
+    template: "({0})"
+- raw: "771,769,新手教程-进入,轻击"
+  splits:
+  - split: 3
+    text: "轻击"
+- raw: "772,770,新手教程-进入,重击"
+  splits:
+  - split: 3
+    text: "重击"
+- raw: "773,771,新手教程-进入,使用轻击，完成两次轻击操作0/2"
+  splits:
+  - split: 3
+    text: "使用轻击，完成两次轻击操作0"
+  templates:
+  - split: 3
+    template: "{0}/2"
+- raw: "774,772,新手教程-进入,使用重击，完成两次重击操作0/2"
+  splits:
+  - split: 3
+    text: "使用重击，完成两次重击操作0"
+  templates:
+  - split: 3
+    template: "{0}/2"
+- raw: "775,773,新手教程-进入,跳击"
+  splits:
+  - split: 3
+    text: "跳击"
+- raw: "776,774,新手教程-进入,【跳击】"
+  splits:
+  - split: 3
+    text: "【跳击】"
+- raw: "777,775,新手教程-进入,\"(在跳跃过程中，按下轻击键,控制角色进行跳跃攻击。)\""
+  splits:
+  - split: 3
+    text: "在跳跃过程中，按下轻击键"
+  - split: 3
+    subIndex: 1
+    text: "控制角色进行跳跃攻击。"
+  templates:
+  - split: 3
+    template: "({0},{1})"
+- raw: "778,776,新手教程-进入,使用跳击，完成两次跳击操作0/2"
+  splits:
+  - split: 3
+    text: "使用跳击，完成两次跳击操作0"
+  templates:
+  - split: 3
+    template: "{0}/2"
+- raw: "779,777,新手教程-进入,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "780,778,新手教程-进入,【格挡】"
+  splits:
+  - split: 3
+    text: "【格挡】"
+- raw: "781,779,新手教程-进入,(按住格挡健，角色将持续消耗体力，进入格挡状态。)"
+  splits:
+  - split: 3
+    text: "按住格挡健，角色将持续消耗体力，进入格挡状态。"
+  templates:
+  - split: 3
+    template: "({0})"
+- raw: "782,780,新手教程-进入,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "783,781,新手教程-进入,(注意:角色使用远程武器时，无法使用格挡。)"
+  splits:
+  - split: 3
+    text: "注意"
+  - split: 3
+    subIndex: 1
+    text: "角色使用远程武器时，无法使用格挡。"
+  templates:
+  - split: 3
+    template: "({0}:{1})"
+- raw: "784,782,新手教程-进入,使用格挡，完成一次格挡操作0/1"
+  splits:
+  - split: 3
+    text: "使用格挡，完成一次格挡操作0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "785,783,新手教程-进入,按住"
+  splits:
+  - split: 3
+    text: "按住"
+- raw: "786,784,新手教程-进入,弹反"
+  splits:
+  - split: 3
+    text: "弹反"
+- raw: "787,785,新手教程-进入,【弹反】"
+  splits:
+  - split: 3
+    text: "【弹反】"
+- raw: "788,786,新手教程-进入,(在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。)"
+  splits:
+  - split: 3
+    text: "在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。"
+  templates:
+  - split: 3
+    template: "({0})"
+- raw: "789,787,新手教程-进入,格挡"
+  splits:
+  - split: 3
+    text: "格挡"
+- raw: "790,788,新手教程-进入,(注意:角色使用远程武器时，无法使用弹反。）"
+  splits:
+  - split: 3
+    text: "注意"
+  - split: 3
+    subIndex: 1
+    text: "角色使用远程武器时，无法使用弹反。）"
+  templates:
+  - split: 3
+    template: "({0}:{1}"
+- raw: "791,789,新手教程-进入,关闭"
+  splits:
+  - split: 3
+    text: "关闭"
+- raw: "792,790,新手教程-进入,使用弹反，完成一次弹反操作0/1"
+  splits:
+  - split: 3
+    text: "使用弹反，完成一次弹反操作0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "793,791,新手教程-进入,按下"
+  splits:
+  - split: 3
+    text: "按下"
+- raw: "794,792,新手教程-进入,躲避伤害"
+  splits:
+  - split: 3
+    text: "躲避伤害"
+- raw: "795,793,新手教程-进入,【闪避】"
+  splits:
+  - split: 3
+    text: "【闪避】"
+- raw: "796,794,新手教程-进入,同时按下左/右移动键+闪避键，消耗部分体力进行“前闪避”操作，可控制角色朝向左/右移动一定距离，规避伤害。"
+  splits:
+  - split: 3
+    text: "同时按下左"
+  - split: 3
+    subIndex: 1
+    text: "右移动键"
+  - split: 3
+    subIndex: 2
+    text: "闪避键，消耗部分体力进行“前闪避”操作，可控制角色朝向左"
+  - split: 3
+    subIndex: 3
+    text: "右移动一定距离，规避伤害。"
+  templates:
+  - split: 3
+    template: "{0}/{1}+{2}/{3}"
+- raw: "797,795,,闪避"
+  splits:
+  - split: 3
+    text: "闪避"
+- raw: "798,796,,空格"
+  splits:
+  - split: 3
+    text: "空格"
+- raw: "799,797,,【闪避】"
+  splits:
+  - split: 3
+    text: "【闪避】"
+- raw: "800,798,,\"直接按下闪避键，消耗部分体力进行\"\"后闪避\"\"操作，可控制角色后退一定距离，规避伤害。\""
+  splits:
+  - split: 3
+    text: "直接按下闪避键，消耗部分体力进行"
+  - split: 3
+    subIndex: 1
+    text: "后闪避"
+  - split: 3
+    subIndex: 2
+    text: "操作，可控制角色后退一定距离，规避伤害。"
+  templates:
+  - split: 3
+    template: "{0}\"{1}\"{2}"
+- raw: "801,799,,使用前闪避成功躲避一次攻击0/2"
+  splits:
+  - split: 3
+    text: "使用前闪避成功躲避一次攻击0"
+  templates:
+  - split: 3
+    template: "{0}/2"
+- raw: "802,800,,使用后闪避成功躲避一次攻击0/1"
+  splits:
+  - split: 3
+    text: "使用后闪避成功躲避一次攻击0"
+  templates:
+  - split: 3
+    template: "{0}/1"
+- raw: "803,801,,使用道具、技能栏介绍"
+  splits:
+  - split: 3
+    text: "使用道具、技能栏介绍"
+- raw: "804,802,,【使用道具】"
+  splits:
+  - split: 3
+    text: "【使用道具】"
+- raw: "805,803,,(按下使用道具键，可在战斗中使用道具。)"
+  splits:
+  - split: 3
+    text: "按下使用道具键，可在战斗中使用道具。"
+  templates:
+  - split: 3
+    template: "({0})"
+- raw: "806,804,,道具1"
+  splits:
+  - split: 3
+    text: "道具1"
+- raw: "807,805,,道具2"
+  splits:
+  - split: 3
+    text: "道具2"
+- raw: "808,806,,(注意:需在行囊中装备药品，才可在战斗中使用道具。)"
+  splits:
+  - split: 3
+    text: "注意"
+  - split: 3
+    subIndex: 1
+    text: "需在行囊中装备药品，才可在战斗中使用道具。"
+  templates:
+  - split: 3
+    template: "({0}:{1})"
+- raw: "809,807,,【技能栏】"
+  splits:
+  - split: 3
+    text: "【技能栏】"
+- raw: "810,808,,(武学秘籍:修习武学秘籍后，可通过消耗真气点释放技能。)/n(江湖通式:修习江湖通式后，可通过消耗体力释放技能。)"
+  splits:
+  - split: 3
+    text: "武学秘籍"
+  - split: 3
+    subIndex: 1
+    text: "修习武学秘籍后，可通过消耗真气点释放技能。"
+  - split: 3
+    subIndex: 2
+    text: "江湖通式"
+  - split: 3
+    subIndex: 3
+    text: "修习江湖通式后，可通过消耗体力释放技能。"
+  templates:
+  - split: 3
+    template: "({0}:{1})/n({2}:{3})"
+- raw: "811,809,,技能1"
+  splits:
+  - split: 3
+    text: "技能1"
+- raw: "812,810,,技能2"
+  splits:
+  - split: 3
+    text: "技能2"
+- raw: "813,811,,技能3"
+  splits:
+  - split: 3
+    text: "技能3"
+- raw: "814,812,,技能4"
+  splits:
+  - split: 3
+    text: "技能4"
+- raw: "815,813,,技能5"
+  splits:
+  - split: 3
+    text: "技能5"
+- raw: "816,814,,(注意:需在武学界面中装备武学，才可在战斗中使用对应技能。)"
+  splits:
+  - split: 3
+    text: "注意"
+  - split: 3
+    subIndex: 1
+    text: "需在武学界面中装备武学，才可在战斗中使用对应技能。"
+  templates:
+  - split: 3
+    template: "({0}:{1})"
+- raw: "817,815,,【技能栏】"
+  splits:
+  - split: 3
+    text: "【技能栏】"
+- raw: "818,816,,(爆气:使用爆气技能可迅速脱离受控状态。)/n(内功:修习内功秘籍后，可在战斗中释放内功技能。)/n(轻功:修习轻功秘籍后，可在战斗中释放轻功技能。)"
+  splits:
+  - split: 3
+    text: "爆气"
+  - split: 3
+    subIndex: 1
+    text: "使用爆气技能可迅速脱离受控状态。"
+  - split: 3
+    subIndex: 2
+    text: "内功"
+  - split: 3
+    subIndex: 3
+    text: "修习内功秘籍后，可在战斗中释放内功技能。"
+  - split: 3
+    subIndex: 4
+    text: "轻功"
+  - split: 3
+    subIndex: 5
+    text: "修习轻功秘籍后，可在战斗中释放轻功技能。"
+  templates:
+  - split: 3
+    template: "({0}:{1})/n({2}:{3})/n({4}:{5})"
+- raw: "819,817,,爆气"
+  splits:
+  - split: 3
+    text: "爆气"
+- raw: "820,818,,内功"
+  splits:
+  - split: 3
+    text: "内功"
+- raw: "821,819,,轻功"
+  splits:
+  - split: 3
+    text: "轻功"
+- raw: "822,820,,(注意:需在武学界面中装备武学，才可在战斗中使用对应技能。)"
+  splits:
+  - split: 3
+    text: "注意"
+  - split: 3
+    subIndex: 1
+    text: "需在武学界面中装备武学，才可在战斗中使用对应技能。"
+  templates:
+  - split: 3
+    template: "({0}:{1})"
+- raw: "823,821,,击败杜颜白"
+  splits:
+  - split: 3
+    text: "击败杜颜白"
+- raw: "824,822,武林大会,即刻参赛"
+  splits:
+  - split: 3
+    text: "即刻参赛"
+- raw: "825,823,武林大会,上届结束"
+  splits:
+  - split: 3
+    text: "上届结束"
+- raw: "826,824,武林大会,首次武林大会尚未举办，无法查看。"
+  splits:
+  - split: 3
+    text: "首次武林大会尚未举办，无法查看。"
+- raw: "827,825,武林大会,尚未抵达过京城，无法传送至报名处。"
+  splits:
+  - split: 3
+    text: "尚未抵达过京城，无法传送至报名处。"
+- raw: "828,826,武林大会,玩法说明"
+  splits:
+  - split: 3
+    text: "玩法说明"
+- raw: "829,827,武林大会,1.举办时间段"
+  splits:
+  - split: 3
+    text: "1.举办时间段"
+- raw: "830,828,武林大会,每年1月初-3月底"
+  splits:
+  - split: 3
+    text: "每年1月初-3月底"
+- raw: "831,829,武林大会,2.比赛轮次"
+  splits:
+  - split: 3
+    text: "2.比赛轮次"
+- raw: "832,830,武林大会,共五轮，依次角逐出十六强-八强-四强-半区魁首-武林盟主!"
+  splits:
+  - split: 3
+    text: "共五轮，依次角逐出十六强"
+  - split: 3
+    subIndex: 1
+    text: "八强"
+  - split: 3
+    subIndex: 2
+    text: "四强"
+  - split: 3
+    subIndex: 3
+    text: "半区魁首"
+  - split: 3
+    subIndex: 4
+    text: "武林盟主"
+  templates:
+  - split: 3
+    template: "{0}-{1}-{2}-{3}-{4}!"
+- raw: "833,831,武林大会,3.武斗排名奖励"
+  splits:
+  - split: 3
+    text: "3.武斗排名奖励"
+- raw: "834,832,武林大会,\"武林盟主/n奖励:\"\"武斗桂冠\"\"*1+珍稀道具*3+声望+银两\""
+  splits:
+  - split: 3
+    text: "武林盟主"
+  - split: 3
+    subIndex: 1
+    text: "奖励"
+  - split: 3
+    subIndex: 2
+    text: "武斗桂冠"
+  - split: 3
+    subIndex: 3
+    text: "珍稀道具"
+  - split: 3
+    subIndex: 4
+    text: "声望"
+  - split: 3
+    subIndex: 5
+    text: "银两"
+  templates:
+  - split: 3
+    template: "{0}/n{1}:\"{2}\"*1+{3}*3+{4}+{5}"
+- raw: "835,833,武林大会,\"半区魁首/n奖励:\"\"武斗之魂\"\"*1+珍稀道具*2+声望+银两\""
+  splits:
+  - split: 3
+    text: "半区魁首"
+  - split: 3
+    subIndex: 1
+    text: "奖励"
+  - split: 3
+    subIndex: 2
+    text: "武斗之魂"
+  - split: 3
+    subIndex: 3
+    text: "珍稀道具"
+  - split: 3
+    subIndex: 4
+    text: "声望"
+  - split: 3
+    subIndex: 5
+    text: "银两"
+  templates:
+  - split: 3
+    template: "{0}/n{1}:\"{2}\"*1+{3}*2+{4}+{5}"
+- raw: "836,834,武林大会,\"四强/n奖励:\"\"武斗精意\"\"*1+珍稀道具*1+声望+银两\""
+  splits:
+  - split: 3
+    text: "四强"
+  - split: 3
+    subIndex: 1
+    text: "奖励"
+  - split: 3
+    subIndex: 2
+    text: "武斗精意"
+  - split: 3
+    subIndex: 3
+    text: "珍稀道具"
+  - split: 3
+    subIndex: 4
+    text: "声望"
+  - split: 3
+    subIndex: 5
+    text: "银两"
+  templates:
+  - split: 3
+    template: "{0}/n{1}:\"{2}\"*1+{3}*1+{4}+{5}"
+- raw: "837,835,武林大会,\"八强/n奖励:\"\"武斗印记\"\"*1+声望+银两\""
+  splits:
+  - split: 3
+    text: "八强"
+  - split: 3
+    subIndex: 1
+    text: "奖励"
+  - split: 3
+    subIndex: 2
+    text: "武斗印记"
+  - split: 3
+    subIndex: 3
+    text: "声望"
+  - split: 3
+    subIndex: 4
+    text: "银两"
+  templates:
+  - split: 3
+    template: "{0}/n{1}:\"{2}\"*1+{3}+{4}"
+- raw: "838,836,武林大会,十六强/n奖励:声望+银两"
+  splits:
+  - split: 3
+    text: "十六强"
+  - split: 3
+    subIndex: 1
+    text: "奖励"
+  - split: 3
+    subIndex: 2
+    text: "声望"
+  - split: 3
+    subIndex: 3
+    text: "银两"
+  templates:
+  - split: 3
+    template: "{0}/n{1}:{2}+{3}"
+- raw: "839,837,武林大会,未入围&未参赛/n无奖励"
+  splits:
+  - split: 3
+    text: "未入围"
+  - split: 3
+    subIndex: 1
+    text: "未参赛"
+  - split: 3
+    subIndex: 2
+    text: "无奖励"
+  templates:
+  - split: 3
+    template: "{0}&{1}/n{2}"
+- raw: "840,838,钓鱼玩法,1.小游戏开始后，持续按住“鼠标左/右键”，即可控制“指针”持续向左/右进行移动。"
+  splits:
+  - split: 3
+    text: "1.小游戏开始后，持续按住“鼠标左"
+  - split: 3
+    subIndex: 1
+    text: "右键”，即可控制“指针”持续向左"
+  - split: 3
+    subIndex: 2
+    text: "右进行移动。"
+  templates:
+  - split: 3
+    template: "{0}/{1}/{2}"
+- raw: "841,839,钓鱼玩法,2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。"
+  splits:
+  - split: 3
+    text: "2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。"
+- raw: "842,840,钓鱼玩法,3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。"
+  splits:
+  - split: 3
+    text: "3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。"
+- raw: "843,841,钓鱼玩法,4.“鱼所在水域”分为“长/中/短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大，"
+  splits:
+  - split: 3
+    text: "4.“鱼所在水域”分为“长"
+  - split: 3
+    subIndex: 1
+    text: "中"
+  - split: 3
+    subIndex: 2
+    text: "短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大，"
+  templates:
+  - split: 3
+    template: "{0}/{1}/{2}"
+- raw: "844,842,钓鱼玩法,此处可得鱼获:"
+  splits:
+  - split: 3
+    text: "此处可得鱼获"
+  templates:
+  - split: 3
+    template: "{0}:"
+- raw: "845,843,钓鱼玩法,甩杆"
+  splits:
+  - split: 3
+    text: "甩杆"
+- raw: "846,844,钓鱼玩法,离开"
+  splits:
+  - split: 3
+    text: "离开"
+- raw: "847,845,天赋,【天煞孤狼】和【天纵之才】只能任选其一"
+  splits:
+  - split: 3
+    text: "【天煞孤狼】和【天纵之才】只能任选其一"
+- raw: "848,846,创建角色,数据还在加载中"
+  splits:
+  - split: 3
+    text: "数据还在加载中"
+- raw: "849,847,创建角色,外功攻击=武力*武力攻击"
+  splits:
+  - split: 3
+    text: "外功攻击"
+  - split: 3
+    subIndex: 1
+    text: "武力"
+  - split: 3
+    subIndex: 2
+    text: "武力攻击"
+  templates:
+  - split: 3
+    template: "{0}={1}*{2}"
+- raw: "850,848,创建角色,外功防御=筋骨*筋骨防御境界"
+  splits:
+  - split: 3
+    text: "外功防御"
+  - split: 3
+    subIndex: 1
+    text: "筋骨"
+  - split: 3
+    subIndex: 2
+    text: "筋骨防御境界"
+  templates:
+  - split: 3
+    template: "{0}={1}*{2}"
+- raw: "851,849,创建角色,移动速度=身法*5"
+  splits:
+  - split: 3
+    text: "移动速度"
+  - split: 3
+    subIndex: 1
+    text: "身法"
+  templates:
+  - split: 3
+    template: "{0}={1}*5"
+- raw: "852,850,创建角色,内功攻击=内息*内息攻击境界"
+  splits:
+  - split: 3
+    text: "内功攻击"
+  - split: 3
+    subIndex: 1
+    text: "内息"
+  - split: 3
+    subIndex: 2
+    text: "内息攻击境界"
+  templates:
+  - split: 3
+    template: "{0}={1}*{2}"
+- raw: "853,851,创建角色,悟性值=悟性*修为悟性境界"
+  splits:
+  - split: 3
+    text: "悟性值"
+  - split: 3
+    subIndex: 1
+    text: "悟性"
+  - split: 3
+    subIndex: 2
+    text: "修为悟性境界"
+  templates:
+  - split: 3
+    template: "{0}={1}*{2}"
+- raw: "854,852,武林大会,武林大会"
+  splits:
+  - split: 3
+    text: "武林大会"
+- raw: "855,853,消耗天赋点,消耗天赋点"
+  splits:
+  - split: 3
+    text: "消耗天赋点"
+- raw: "856,854,开始界面,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "857,855,开始界面,历史版本更新"
+  splits:
+  - split: 3
+    text: "历史版本更新"
+- raw: "858,856,版本更新,自定义模组"
+  splits:
+  - split: 3
+    text: "自定义模组"
+- raw: "859,857,版本更新,本地模组"
+  splits:
+  - split: 3
+    text: "本地模组"
+- raw: "860,858,版本更新,获取模组"
+  splits:
+  - split: 3
+    text: "获取模组"
+- raw: "861,859,版本更新,是否读取该存档"
+  splits:
+  - split: 3
+    text: "是否读取该存档"
+- raw: "862,860,版本更新,确定"
+  splits:
+  - split: 3
+    text: "确定"
+- raw: "863,861,版本更新,取消"
+  splits:
+  - split: 3
+    text: "取消"
+- raw: "864,862,版本更新,是否读取该存档"
+  splits:
+  - split: 3
+    text: "是否读取该存档"
+- raw: "865,863,版本更新,键值重复是否继续"
+  splits:
+  - split: 3
+    text: "键值重复是否继续"
+- raw: "866,864,版本更新,此按键无法被设置成快捷键"
+  splits:
+  - split: 3
+    text: "此按键无法被设置成快捷键"
+- raw: "867,865,版本更新,是否保存修改"
+  splits:
+  - split: 3
+    text: "是否保存修改"
+- raw: "868,866,默认界面,境界"
+  splits:
+  - split: 3
+    text: "境界"
+- raw: "869,867,默认界面,门派"
+  splits:
+  - split: 3
+    text: "门派"
+- raw: "870,868,版本更新,5分钟"
+  splits:
+  - split: 3
+    text: "5分钟"
+- raw: "871,869,版本更新,10分钟"
+  splits:
+  - split: 3
+    text: "10分钟"
+- raw: "872,870,版本更新,15分钟"
+  splits:
+  - split: 3
+    text: "15分钟"
+- raw: "873,871,版本更新,项链"
+  splits:
+  - split: 3
+    text: "项链"
+- raw: "874,872,版本更新,戒指"
+  splits:
+  - split: 3
+    text: "戒指"
+- raw: "875,873,版本更新,武器"
+  splits:
+  - split: 3
+    text: "武器"
+- raw: "876,874,版本更新,护甲"
+  splits:
+  - split: 3
+    text: "护甲"
+- raw: "877,875,版本更新,护臂"
+  splits:
+  - split: 3
+    text: "护臂"
+- raw: "878,876,版本更新,护腰"
+  splits:
+  - split: 3
+    text: "护腰"
+- raw: "879,877,版本更新,坠饰"
+  splits:
+  - split: 3
+    text: "坠饰"
+- raw: "880,878,版本更新,护腿"
+  splits:
+  - split: 3
+    text: "护腿"
+- raw: "881,879,版本更新,外装"
+  splits:
+  - split: 3
+    text: "外装"
+- raw: "882,880,版本更新,天才书"
+  splits:
+  - split: 3
+    text: "天才书"
+- raw: "883,881,版本更新,天行书，曰君子自强，虽百屈而不饶者，方可领会其真意，若天赋寰宇，其势不可挡，不可转，不可折，不可逆，不可滞，至刚至强，乃为天道。"
+  splits:
+  - split: 3
+    text: "天行书，曰君子自强，虽百屈而不饶者，方可领会其真意，若天赋寰宇，其势不可挡，不可转，不可折，不可逆，不可滞，至刚至强，乃为天道。"
+- raw: "884,882,版本更新,地行书，曰厚德载物，夫万载不朽，唯不争之胜可为广博，如岳如渊，垂黄土以化众生，其势固，无可灭者，其形博，以养众生，此为地之道。"
+  splits:
+  - split: 3
+    text: "地行书，曰厚德载物，夫万载不朽，唯不争之胜可为广博，如岳如渊，垂黄土以化众生，其势固，无可灭者，其形博，以养众生，此为地之道。"
+- raw: "885,883,版本更新,人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
+  splits:
+  - split: 3
+    text: "人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
+- raw: "886,884,版本更新,物品为空"
+  splits:
+  - split: 3
+    text: "物品为空"
+- raw: "887,885,版本更新,长按空格跳过"
+  splits:
+  - split: 3
+    text: "长按空格跳过"
+- raw: "888,886,版本更新,【附加属性】"
+  splits:
+  - split: 3
+    text: "【附加属性】"
+- raw: "889,887,版本更新,装备"
+  splits:
+  - split: 3
+    text: "装备"
+- raw: "890,888,版本更新,卸下"
+  splits:
+  - split: 3
+    text: "卸下"
+- raw: "891,889,版本更新,丢弃"
+  splits:
+  - split: 3
+    text: "丢弃"
+- raw: "892,890,版本更新,拆分"
+  splits:
+  - split: 3
+    text: "拆分"
+- raw: "893,891,版本更新,锁定"
+  splits:
+  - split: 3
+    text: "锁定"
+- raw: "894,892,版本更新,品阶"
+  splits:
+  - split: 3
+    text: "品阶"
+- raw: "895,893,版本更新,类型"
+  splits:
+  - split: 3
+    text: "类型"
+- raw: "896,894,版本更新,境界需求"
+  splits:
+  - split: 3
+    text: "境界需求"
+- raw: "897,895,版本更新,学习需求"
+  splits:
+  - split: 3
+    text: "学习需求"
+- raw: "898,896,版本更新,所属武学："
+  splits:
+  - split: 3
+    text: "所属武学"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "899,897,版本更新,类型："
+  splits:
+  - split: 3
+    text: "类型"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "900,898,版本更新,未习得"
+  splits:
+  - split: 3
+    text: "未习得"
+- raw: "901,899,版本更新,武学总章"
+  splits:
+  - split: 3
+    text: "武学总章"
+- raw: "902,900,版本更新,武学注解"
+  splits:
+  - split: 3
+    text: "武学注解"
+- raw: "903,901,界面,删除"
+  splits:
+  - split: 3
+    text: "删除"
+- raw: "904,902,版本更新,心决"
+  splits:
+  - split: 3
+    text: "心决"
+- raw: "905,903,版本更新,当前修为："
+  splits:
+  - split: 3
+    text: "当前修为"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "906,904,版本更新,冲穴，贯通经络"
+  splits:
+  - split: 3
+    text: "冲穴，贯通经络"
+- raw: "907,905,版本更新,提升内功境界"
+  splits:
+  - split: 3
+    text: "提升内功境界"
+- raw: "908,906,版本更新,修习并使用武学"
+  splits:
+  - split: 3
+    text: "修习并使用武学"
+- raw: "909,907,版本更新,更换更强的装备"
+  splits:
+  - split: 3
+    text: "更换更强的装备"
+- raw: "910,908,版本更新,可通过以下方式提升实力"
+  splits:
+  - split: 3
+    text: "可通过以下方式提升实力"
+- raw: "911,909,版本更新,世事无常重新来过"
+  splits:
+  - split: 3
+    text: "世事无常重新来过"
+- raw: "912,910,版本更新,亡"
+  splits:
+  - split: 3
+    text: "亡"
+- raw: "913,911,版本更新,已使用"
+  splits:
+  - split: 3
+    text: "已使用"
+- raw: "914,912,版本更新,当前武学累计附加："
+  splits:
+  - split: 3
+    text: "当前武学累计附加"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "915,913,版本更新,当前修为:"
+  splits:
+  - split: 3
+    text: "当前修为"
+  templates:
+  - split: 3
+    template: "{0}:"
+- raw: "916,914,版本更新,主属性"
+  splits:
+  - split: 3
+    text: "主属性"
+- raw: "917,915,版本更新,副属性"
+  splits:
+  - split: 3
+    text: "副属性"
+- raw: "918,916,版本更新,副属性"
+  splits:
+  - split: 3
+    text: "副属性"
+- raw: "919,917,版本更新,分舵数量："
+  splits:
+  - split: 3
+    text: "分舵数量"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "920,918,版本更新,宗主："
+  splits:
+  - split: 3
+    text: "宗主"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "921,919,版本更新,附属数量："
+  splits:
+  - split: 3
+    text: "附属数量"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "922,920,版本更新,成员"
+  splits:
+  - split: 3
+    text: "成员"
+- raw: "923,921,版本更新,产业"
+  splits:
+  - split: 3
+    text: "产业"
+- raw: "924,922,版本更新,关系"
+  splits:
+  - split: 3
+    text: "关系"
+- raw: "925,923,版本更新,每日俸禄总支出："
+  splits:
+  - split: 3
+    text: "每日俸禄总支出"
+  templates:
+  - split: 3
+    template: "{0}："
+- raw: "926,924,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "927,925,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "928,926,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "929,927,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "930,928,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "931,929,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "932,930,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "933,931,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "934,932,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "935,933,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "936,934,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "937,935,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "938,936,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "939,937,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "940,938,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "941,939,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "942,940,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "943,941,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "944,942,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "945,943,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "946,944,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "947,945,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "948,946,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "949,947,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "950,948,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "951,949,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "952,950,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "953,951,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "954,952,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "955,953,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "956,954,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "957,955,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "958,956,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "959,957,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "960,958,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "961,959,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "962,960,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "963,961,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "964,962,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "965,963,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "966,964,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "967,965,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "968,966,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "969,967,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "970,968,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "971,969,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "972,970,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "973,971,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "974,972,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "975,973,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "976,974,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "977,975,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "978,976,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "979,977,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "980,978,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "981,979,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "982,980,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "983,981,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "984,982,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "985,983,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "986,984,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "987,985,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "988,986,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "989,987,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "990,988,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "991,989,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "992,990,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "993,991,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "994,992,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "995,993,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "996,994,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "997,995,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "998,996,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "999,997,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"
+- raw: "1000,998,版本更新,版本更新"
+  splits:
+  - split: 3
+    text: "版本更新"

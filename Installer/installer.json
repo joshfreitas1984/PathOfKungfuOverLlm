@@ -1,0 +1,19 @@
+{
+  "gameName": "Path of Kung Fu",
+  "steamAppId": 2361680,
+  "steamFolderName": "The road of Jianghu",
+  "exeName": "daojianjianghulu.exe",
+  "gitHubRepo": "joshfreitas1984/PathOfKungfuOverLlm",
+  // gh account to publish as from "7. Package Release". Leave null to open the browser instead.
+  "ghAccount": null,
+  "patchZipPrefix": "EnglishPatch",
+  "wineLaunchOption": "WINEDLLOVERRIDES=\"winhttp=n,b\" %command%",
+  "bepInEx": {
+    "flavour": "mono",
+    // The exe is a 64-bit PE, so the x64 BepInEx build.
+    "architecture": "x64",
+    "version": "5.4.23.3",
+    "url": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.3/BepInEx_win_x64_5.4.23.3.zip",
+    "sha256": "41a089e5b1b1f0713b331346baf6677b1184c69eabebf51101097954e854c749"
+  }
+}

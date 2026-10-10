@@ -1,0 +1,15 @@
+﻿1,属性,描述,英文描述,归属排列,模板颜色,限制人数,亲友,结交CD,是否可勒索对象,是否作为展示列
+2,property,txt,txtEnglish,array,color,number,kithKin,cd,CanRansom,Show
+3,FuMu,父母,Parent,1,#2A2F2F,2,1,60,1,1
+4,TongHuai,同怀,Sibling (by blood),2,#2A2F2F,100,1,60,1,1
+5,YiQin,义亲,Sworn Kin,3,#2A2F2F,100,1,60,0,1
+6,ZhiJiao,知交,Close Friend,4,#2A2F2F,100,1,60,0,1
+7,JinLan,金兰,Sworn Sibling (bonded friendship),5,#2A2F2F,100,1,60,1,1
+8,JuanLv,眷侣,Beloved,6,#2A2F2F,100,1,60,0,1
+9,PeiOu,配偶,Spouse,7,#2A2F2F,1,1,60,1,1
+10,PeiOu_Old,配偶(亡),Deceased Spouse,7,#2A2F2F,100,1,60,0,0
+11,ZiNv,子女,Child,8,#2A2F2F,100,1,60,1,1
+12,ShiFu,师傅,Master (teacher),9,#2A2F2F,1,1,60,0,1
+13,ShiFu_Old,师傅(亡),Deceased Master,9,#2A2F2F,100,1,0,0,0
+14,TuDi,徒弟,Apprentice,10,#2A2F2F,100,1,60,0,1
+15,ChouDi,仇敌,Mortal Enemy,11,#2A2F2F,100,0,60,0,1

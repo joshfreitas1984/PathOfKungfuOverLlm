@@ -1,0 +1,61 @@
+# Same model choices as DragonHierOverLlm (Qwen2.5 14B Instruct translator, Qwen3.8 27B IQ4_XS for every QC role).
+# The FIRST entry in `models` is the main translator
+# model (see FanslationStudio.LlmKit's LlmHelpers.CalculateModelConfig). Shape: LlmKit
+# docs/architecture/downstream-project-structure/downstream-config-shape.md
+models:
+  - name: Qwen25-Standard
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    customPromptsPath:              # blank = LlmKit's embedded defaults (or point at the Prompts folder)
+    apiKeyPath:
+    model: qwen2.5:14b-instruct
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
+
+glossaryPreset:
+  usePresetChineseGlossary: true
+
+useContinuousWorkerPool: true
+maxConcurrency: 2
+retryCount: 3
+# escalationModelName: Translator-Standard
+# escalationRetryCount: 1
+batchSize: 20
+skipLineValidation: false
+correctionPromptsEnabled: true
+translateFlagged: true
+
+# Adds per-line context from the game to the prompt: a line naming a character from CharacterGenders.yaml is told their gender.
+lineContextEnabled: true
+
+# QC settings copied from DragonHierOverLlm (same models). autoAcceptDefectCategories and minAcceptableScore came from
+# that game's own hand-triage; re-check them against this game's QC output (plan step 6).
+qualityControl:
+  enabled: true
+  # Single model for every QC role (detection/verification/correction/repair) - see
+  # ../FanslationStudio.LlmKit/docs/investigations/qc-evaluator-model-selection.md for why, and why a faster/cheaper
+  # corrector model was tried and rejected.
+  modelName: Qwen38Qc-IQ4XS
+  minAcceptableScore: 60
+  maxConcurrency: 2
+  inlineRuleCheckRetries: 2
+  autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
+  # Switched off 2026-09-20 to prioritize detection-phase throughput: measured against the current
+  # production quant, doubled detection costs ~15h across the full corpus for a thin recall lift
+  # (1/18 in-scope defect rows in the original measurement) - see
+  # ../FanslationStudio.LlmKit/docs/investigations/qc-evaluator-model-selection.md's "Process variants" section. Revert
+  # to true (or remove this line) if speed stops being the priority.
+  doubledDetectionEnabled: false
+  # Detection-only temperature (corrections keep Qwen38's 0.15): makes QC verdicts and gold-set
+  # runs repeatable - at 0.15 the identical request was seen to return NONE then DROPPED_CONTENT.
+  detectionTemperature: 0
+  # One verify->repair round instead of the default two (2026-10-03): on a defect-heavy batch the
+  # second repair round was accepted 0 of 10 times (13 of 21 repairs returned the candidate
+  # unchanged), so it only added ~17% more calls per flagged column. Raise back to 2 to restore it.
+  maxScoreRepairIterations: 1
+  # Verifier must quote the text each rejection is about; rejections quoting nothing real are
+  # overruled and the quotes guide the repair (2026-10-03: flagged 2-3 -> 1 of 28, same call count).
+  # The pre-verification gate is on by default in LlmKit (preVerificationGateEnabled).
+  verificationEvidenceEnabled: true

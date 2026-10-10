@@ -1,0 +1,30 @@
+﻿1,buffer类型,buffer名称,buffer描述,buffer持续时间(秒)(如果是永久buffer填-1),bufferIcon,txt,关联战斗buffId(ECA表的BuffData的id)
+2,id,name,des,time,icon,错误提示,battleBuffId
+3,10010,Poisoning,"A sinister poison lurks within your organs, its effects dormant yet insidious...",1440,mapbuff/10010,,10010
+4,10011,Hunger,"Long without food, your body grows weak and weary...",-1,mapbuff/10011,,
+5,10018,Limping,"Your leg is severed, crippled for life.",-1,mapbuff/10018,,
+6,10019,Severed Finger,"Your hand is maimed, missing fingers, unable to grasp.",-1,mapbuff/10019,,
+7,10020,Blind in One Eye,"Blind in one eye, a visible disfigurement.",-1,mapbuff/10020,,
+8,10021,Disfigurement,"Your face is horribly disfigured, a sight of terror.",-1,mapbuff/10021,,
+9,10022,Deafness,"Molten metal fills your ears, leaving you deaf and unhearing.",-1,mapbuff/10022,,
+10,10023,Burned Skin,"Your flesh is scorched, skin blistered and festering.",-1,mapbuff/10023,,
+11,10024,Castration,"Castrated, your manhood utterly destroyed.",-1,mapbuff/10024,Need no JJ,
+12,10025,Whipping,"Mutilated, your womanhood excised without mercy.",-1,mapbuff/10025,,
+13,10026,Pregnancy,"Heavily pregnant, every movement is cumbersome.",10m,mapbuff/10025,,
+14,10027,Full-Body Comfort,"Your meridians flow smoothly, body at ease, movements slightly more agile...",1440,mapbuff/10027,,10027
+15,10028,Refreshed and Clear-Minded,"Your spirit is clear, inner energy harmonious and unhindered...Slightly increases ​​Internal Attack​​ for 24 hours.",1440,mapbuff/10028,,10028
+16,10029,Energetic,"Vigorous and full of energy, as if renewed strength surges within...\n​​Effect:​​ Moderately improves ​​Stamina Recovery​​ for 24 hours.",1440,mapbuff/10029,,10029
+17,10030,Exquisite Delicacies,"Its flavor is divine, a heavenly feast impossible to resist...",1440,mapbuff/10030,,10030
+18,10031,Dragon-Tiger Esoteric Lineage,"Enlightened by a master, as if bathed in divine light—your inner power surges, doubling in might.",180,mapbuff/10031,,10031
+19,10032,Smooth Internal Energy Flow,"Your cultivation complete, inner energy flows like rushing streams, filling your body with bliss.",180,mapbuff/10032,,10032
+20,10033,Constant Vigilance,"Alert and vigilant, the mind is focused, thoughts are sharp, and the will is surging.",180,mapbuff/10033,,10033
+21,10034,Swift as a Shooting Star,"Gathering breath and concentrating the spirit, one suddenly feels as light as a swallow, agile and free, as if able to chase the stars and the moon.",180,mapbuff/10034,,10034
+22,10035,Preemptive Strike,"Because of your imposing presence, the crowd is uneasy and dares not act recklessly.",180,mapbuff/10035,,10035
+23,10036,Severe Injury,"Severely wounded, bones and tendons near breaking, the body weak and exhausted, on the verge of collapse.",1440,mapbuff/10036,,10036
+24,10037,Rainbow Serpent Gu Poison,"Poison invades the organs, the body burns as if scorched, the internal organs aflame, suffering unbearably.",1440,mapbuff/10037,,
+25,10038,Mushroom Soup,"After drinking the mushroom soup, the entire body feels comforted, as if floating in bliss...",600,mapbuff/10038,,
+26,10039,Miasma,"Afflicted by the southern miasma, the body is weary, the spirit exhausted, and breathing is labored.",4320,mapbuff/10039,,
+27,10040,Abundant Energy,"After resting briefly, energy is replenished, breath flows smoothly, and a slight [Stamina] recovery effect is enhanced, lasting for 12 hours.",1440,mapbuff/10040,,10040
+28,10041,Crimson Illusion,"The marvelous family technique of the skull's eye, the ingenious divine art of the fleshy orb.",180,mapbuff/10023,,10041
+29,10042,Bizarre and Peculiar Poison,"Poison invades the organs, the body burns as if scorched, the internal organs aflame, suffering unbearably...",1m,mapbuff/10010,,10042
+30,10043,Divine Inspiration,"With a heart unburdened, blessings naturally come to the soul, inner energy flows freely, the body feels at ease, and movement speed is slightly increased in battle, lasting for 1 month.",1m,mapbuff/10029,,10043

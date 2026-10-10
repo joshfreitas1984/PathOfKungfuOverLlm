@@ -1,0 +1,918 @@
+﻿file,col,header,cjkCells,distinct,avgLen,jsonShare,refShare,class,sample
+AreaPrestigeSettingData/AreaPrestigeSettingData.csv,4,各声望级别对应描述文本,1,1,14.0,0.0,0.0,text,"仇恨,冷淡,寻常,友善,尊敬"
+Audio/sounds.csv,2,描述,196,190,6.0,0.0,0.2,name,拳脚重击受击 / 东瀛 / 购买数量不得小于1
+BattleDungeonData/BattleDungeonData.csv,2,,57,56,6.9,0.0,0.09,name,义禄堂 / 地道连战 / 水贼巢穴难度2
+BattlePartner/pos.csv,2,名称,1,1,23.0,0.0,0.0,text,这里主要显示伙伴在战斗中的随机位置(相对位置)
+BattleTouchData/BattleTouchData.csv,2,name,306,1,3.0,0.0,1.0,key/ref,传送点
+BetShop2/Config.csv,2,赌坊名称,46,33,5.3,0.0,1.0,key/ref,大理赌坊地字桌 / 襄阳城赌坊地字桌 / 洛阳赌坊天字桌
+BetShop2/Lips.csv,9,不满足条件点击的提示语,5,3,9.2,0.0,1.0,text,你的杀手声望不足！ / 你的银两不足！ / 不满此桌最低下注银两
+BetShop/Bet.csv,2,点,23,23,3.0,0.0,0.04,param,13点 / 8点 / 18点豹子
+BetShop/Bet.csv,3,下注tips1,15,15,2.5,0.0,0.07,name,八点 / 六点 / 十五点
+BetShop/Bet.csv,4,下注tips2,23,9,4.7,0.39,0.0,name,[一赔二十四] / [一赔一] / 一赔十八
+BetShop/Config.csv,2,赌坊名称,46,33,5.3,0.0,1.0,key/ref,大理赌坊地字桌 / 襄阳城赌坊地字桌 / 洛阳赌坊天字桌
+BetShop/Lips.csv,2,名称,51,28,6.3,0.0,0.21,name,退出门派 / 要（需要100文） / 门派挑战·上
+BetShop/Lips.csv,9,不满足条件点击的提示语,5,3,9.2,0.0,1.0,text,你的杀手声望不足！ / 你的银两不足！ / 不满此桌最低下注银两
+BetShop/SkillLv.csv,2,杀手等级名称,5,5,3.4,0.0,0.0,name,夜行鬼 / 隐月尊者 / 无光上人
+BetShop/SkillTask.csv,3,杀手任务名称,4,2,10.0,0.0,0.0,text,觅踪索命·<{0}> / 背义诛亲·<{0}>
+BetShop/SkillTask.csv,4,杀手任务对话内容,4,4,78.0,0.0,0.0,text,有一豪主，许下重金，要买你之<relationsh / 利字当头，莫问是非，雇主许下重金，要取<name> / 仇家悬赏，金银铺路，这一刀落下，便是生死两分，<n
+BetShop/SkillTask.csv,5,领命杀人的对话内容,4,4,48.0,0.0,0.0,text,哈哈哈，果然没看错你，速战速决！【<name>所在 / 好，杀人取金，两不相欠，莫再迟疑！【<name>所 / 够干脆！速去速回，莫误了买卖！【<name>所在区
+BetShop/SkillTask.csv,6,以财抵命的对话内容,4,3,24.5,0.0,0.0,text,可笑可笑，你倒是心软，不过……不是没得商量。 / 想饶其一命？哪有这般好相与的事，没银子也得舍些名声 / 若要饶其一条性命，倒也不难，就是免不得上下打点……
+BetShop/SkillTask.csv,7,扣钱成功的回头话,4,1,12.0,0.0,0.0,text,既然如此，我帮你打点一二
+BetShop/Talk.csv,2,对话内容,46,33,31.5,0.0,0.04,text,天涯海阁坐镇南海，护佑一方，若欲出入本门，来寻在下 / 身形狠厉，煞气暗涌……想来也是江湖中的狠角色，此番 / 怎的行色如此匆忙，可是有要事寻我？
+Buff/Buff.csv,2,状态名,3,3,6.7,0.0,0.33,name,流血 / 程序用buff:提升30%攻击力 / 蛇毒
+Buff/Buff.csv,4,策划用,3,3,16.0,0.0,0.0,remark,每次行动回合后减少当前气血的固定值 / 每次战斗回合结束减少当前气血的百分比。 / 程序用buff，用于技能
+Buff/Buff.csv,5,状态描述,3,3,17.0,0.0,0.0,text,提升30%攻击力 / 每次行动回合后减少气血level*5点 / 每次战斗回合结束减少当前气血的百分之level。
+Capture/相关定义.csv,2,,1,1,17.0,0.0,0.0,text,俘虏状态（kidnapState）
+Capture/相关定义.csv,4,,4,4,4.2,0.0,0.25,name,自由人 / 牢房里的俘虏 / 麻袋里的俘虏
+CookJingYing/Config.csv,4,当前的等级名称,20,20,4.0,0.0,0.0,name,馔玉炊金 / 炼虚合道 / 垂纶有术
+CookJingYing/Config.csv,5,效果描述,20,17,27.8,0.0,0.0,text,*锻造物品时获得额外经验，锻造出高品质物品时获得更 / *锻造出高品质物品时获得额外经验\n*小概率额外提 / *钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经
+CookJingYing/Config.csv,10,经验增加的提示文字,20,4,8.0,0.0,0.0,param,锻造经验+{0} / 钓鱼经验+{0} / 烹饪经验+{0}
+CookJingYing/Config.csv,13,品质提升或者数量增加的的提示,20,3,24.2,0.0,0.0,text,福临心至，妙手偶得，你所得渔获数量额外+{0}！ / 福临心至，妙手偶得，你所制作物品品质额外+{0}！ / 福临心至，妙手偶得，你所制物品数量额外+{0}！
+Cook/CookBook.csv,2,图纸名称,130,127,4.4,0.0,1.0,key/ref,捭阖·精 / 归元散 / 硬木刀·精
+Cook/CookBook.csv,7,描述,130,127,21.8,0.0,1.0,text,铸铁浇成，厚实粗重。 / 入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量 / 莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心
+Data_FlyItem/程序.csv,2,Name,30,30,9.3,0.0,1.0,key/ref,测试用2 / 暗器技能1_飞镖 / 观澜刀法技能1踢剑
+Data_FlyItem/程序.csv,58,FormulaWai,27,14,19.2,0.0,0.0,text,((境界等级+1)*30+(内息*1.2)/境界等 / 攻击力*1 / ((境界等级*10.0+武力*2.5/境界等级)+
+Data_FlyItem/策划用.csv,2,名字,30,30,9.3,0.0,1.0,key/ref,测试用2 / 暗器技能1_飞镖 / 观澜刀法技能1踢剑
+Data_FlyItem/策划用.csv,58,外功公式,29,11,27.1,0.0,0.64,text,"(境界等级*50.0+武力*3.5/境界等级)/2 / 弹反,(10+内息*3.0)/境界等级 / 25+身法*2.8/境界等级"
+Data_FlyItem/策划用.csv,59,内功公式,29,11,27.1,0.0,0.36,text,"(境界等级*50.0+武力*3.5/境界等级)+内 / 内功攻击*1.37 / 弹反,(10+内息*3.0)/境界等级"
+Data_Wulin/Sheet1.csv,2,Name,5,5,5.0,0.0,0.0,name,十六强掉落 / 四强掉落 / 半区魁首掉落
+ECA/BuffData.csv,1,,935,107,4.6,0.0,0.98,key/ref,悟玄参契 / 醉君侯刀铭 / 太素灵枢篇
+ECA/BuffData.csv,2,,926,93,5.4,0.0,0.9,key/ref,悟玄参契 / 获得真气 / 太素灵枢篇
+ECA/BuffData.csv,3,,623,80,4.6,0.0,0.72,key/ref,修改暴击几率 / 修改治疗公式 / 悟玄参契
+ECA/BuffData.csv,4,,626,4,2.1,0.0,1.0,key/ref,武学注解 / 武学总章 / 主动
+ECA/BuffData.csv,5,,1,1,2.0,0.0,1.0,key/ref,备注
+ECA/BuffData.csv,9,显示名字,1200,947,3.3,0.0,0.97,key/ref,流构 / 天晨灌脉 / 千川挂瀑
+ECA/BuffData.csv,10,说明,1201,901,17.3,0.0,0.32,remark,提升【碎灯花】的招式伤害。 / 提升所有招式内功攻击5% / 【阳关三别】招式的调息时间降低5秒，提升外功攻击5
+ECA/BuffData.csv,18,额外参数,804,360,15.3,0.0,0.02,text,"免伤,0.1 / 内功攻击,(内息*拳法系数*40*0.5)*0.0 / 内功攻击,内功攻击*0.05"
+ECA/EffectData.csv,3,,1050,1041,9.0,0.0,0.97,key/ref,玄黄入阵旌百战于野1 / 昭霞别册霞清曜阳1 / 醉饮降龙无双式云起龙襄2
+ECA/EffectData.csv,4,,1197,184,4.4,0.0,0.99,key/ref,悟玄参契 / 醉君侯刀铭 / 污泥浊水
+ECA/EffectData.csv,5,,1290,934,3.3,0.0,0.99,key/ref,流构 / 天晨灌脉 / 千川挂瀑
+ECA/EffectData.csv,6,,1179,765,12.9,0.0,0.41,text,施展【鳞五净蛊鞭】、【掣骨金虹决】招式中的【灵蛇刁 / 提升【碎灯花】的招式伤害。 / 攻击附带【减速】效果的敌人时的
+ECA/EffectData.csv,10,条件参数,191,10,8.5,0.0,0.1,param,"1,伤害>0 / hp,(hp/最大气血)<=公式变量1 / hp,(hp/最大气血)>=公式变量1"
+ECA/EffectData.csv,11,额外条件,11,6,12.5,0.0,0.0,text,3|身法*中天诸悬系数 / 3|身法*中天诸悬系数;5|1150101 / 3|身法*中天诸悬系数;
+ECA/EffectData.csv,14,动作参数,63,43,19.1,0.0,0.07,text,"20102110,debuff数量/1 / 20103070,(最大气血-hp)/最大气血*1 / 20103040,(最大气血-hp)/最大气血*1"
+ECA/EffectData.csv,18,,3,1,11.0,0.0,0.0,text,",debuff数量/1"
+ECA/EffectData.csv,20,,29,4,17.7,0.0,0.5,text,",(最大气血-hp)/最大气血*100 / 最大气血*0.3 / ,(最大气血-hp)/最大气血*100/10"
+ECA/PassiveSkillData.csv,2,技能总称,951,276,4.2,0.0,0.98,key/ref,流构 / 护腿悟性1 / 悟玄参契
+ECA/PassiveSkillData.csv,3,,951,949,3.9,0.0,0.99,key/ref,流构 / 天晨灌脉 / 千川挂瀑
+ECA/PassiveSkillData.csv,4,技能名,909,908,3.3,0.0,0.99,key/ref,流构 / 天晨灌脉 / 千川挂瀑
+ECA/PassiveSkillData.csv,5,buffId列表,37,31,25.7,0.0,0.71,text,施展【鳞五净蛊鞭】、【掣骨金虹决】招式中的【灵蛇刁 / 施展【斩铁无锋卷】、【醉君侯刀铭】招式中的【覆压千 / 施展【凌鸿剑势】、【清风剑法】招式中的【物衍天行】
+ECA/PassiveSkillData.csv,8,,765,765,9.0,0.0,0.94,key/ref,玄黄入阵旌百战于野1 / 昭霞别册霞清曜阳1 / 饮情蛊如芒囚心1
+ECA/PassiveSkillData.csv,10,,765,765,9.0,0.0,0.25,param,浮萍剑诀独照松月2 / 浮萍剑诀散飘零2 / 醉饮降龙无双式云起龙襄2
+ECA/PassiveSkillData.csv,12,,730,730,9.0,0.0,0.09,param,逆流十二身逆法顺流3 / 火器外功1火器外功13 / 浮萍剑诀独照松月3
+ECA/PassiveSkillData.csv,14,,715,715,9.0,0.0,0.03,param,浮萍剑诀渡秋萍4 / 无心流·拔刀术流·戮4 / 斩铁无锋卷无前意4
+ECA/PassiveSkillData.csv,16,,258,258,9.2,0.0,0.03,param,北顾枪法不复还5 / 千锻拳势覆锤古法5 / 太玄混元经一气复明5
+ECA/PassiveSkillData.csv,18,,253,253,9.2,0.0,0.02,param,双刃外功1双刃外功16 / 坠饰内功1坠饰内功16 / 湘竹葬兰书藏北海6
+ECA/Sheet1.csv,2,武学名,74,74,4.4,0.0,0.97,key/ref,流缶金绳镖 / 腿脚通式 / 短兵通式
+ECA/Sheet1.csv,3,武学类型,74,16,2.2,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+ECA/Sheet1.csv,4,所属门派,74,4,3.8,0.0,1.0,key/ref,江湖武学 / 太和 / 五圣教
+ECA/Sheet1.csv,11,武学描述,62,60,32.2,0.0,0.84,text,五圣教秘传，专擅贴身短打，近斗搏杀，观势如情人悱恻 / 尽载军阵所传弓弩操持之法，心体之术分而习练，方能百 / 步伐取自梅花寒香之意，独寒独蕴，实为江湖内不可多见
+ECA/Sheet1.csv,16,,74,74,4.4,0.0,0.97,key/ref,流缶金绳镖 / 腿脚通式 / 短兵通式
+ECA/Sheet2.csv,2,归属武学,941,123,4.4,0.0,1.0,key/ref,护腿悟性1 / 悟玄参契 / 醉君侯刀铭
+ECA/Sheet2.csv,3,招式名称,941,910,3.6,0.0,1.0,key/ref,天晨灌脉 / 千川挂瀑 / 凭栏叹
+ECA/Sheet2.csv,4,,37,37,5.0,0.0,1.0,key/ref,护腿悟性1 / 单轻剑法1 / 单轻内功2
+ECA/Sheet2.csv,43,,36,36,5.0,0.0,1.0,key/ref,护腿悟性1 / 单轻剑法1 / 单轻内功2
+ECA/Sheet3.csv,2,归属武学,958,123,4.4,0.0,1.0,key/ref,护腿悟性1 / 悟玄参契 / 醉君侯刀铭
+ECA/Sheet3.csv,3,招式名称,975,949,3.6,0.0,1.0,key/ref,天晨灌脉 / 千川挂瀑 / 凭栏叹
+ECA/Sheet3.csv,4,,427,41,4.0,0.0,0.98,key/ref,护腿悟性1 / 单轻剑法1 / 单轻内功2
+ECA/Sheet3.csv,5,所属类别,593,4,2.3,0.0,1.0,key/ref,内功 / 通常动作 / 武功
+ECA/Sheet3.csv,6,所属亚类别 (武器类型),346,17,2.5,0.0,0.94,key/ref,腿脚 / 绳镖 / 短兵
+ECA/Sheet3.csv,8,对应武器,18,2,2.0,0.0,1.0,key/ref,主动 / 被动
+ECA/Sheet3.csv,9,武学性质 主动类型,612,4,2.1,0.0,1.0,key/ref,武学注解 / 武学总章 / 主动
+ECA/Sheet3.csv,10,武学类型,594,4,4.0,0.0,1.0,key/ref,江湖通式 / 武学总章 / 江湖散学
+ECA/Sheet3.csv,13,备注,574,473,27.1,0.0,0.99,remark,腿脚的普攻 三段 A3 / 1技能恢复血量+X，CD40秒。 / 重拳冲击，猛击敌方腹部，造成{0}点伤害，在短暂间
+ECA/Sheet3.csv,16,散学类型,18,4,2.0,0.0,1.0,key/ref,格挡 / 纵跃 / 闪躲
+ECA/Sheet3.csv,18,属性提升,18,1,6.0,0.0,1.0,key/ref,增加buff
+ECA/Sheet3.csv,19,招式效果,521,9,4.7,0.0,0.89,key/ref,伤害 / 闪避 / 增加多个buff
+ECA/Sheet3.csv,21,效果组成公式,141,83,28.6,0.0,0.49,text,(1+身法*长兵系数*40*0.5)*(0.3/( / 外功攻击*0.5 / ((1+身法*剑法系数*40*0.5)*(0.5/
+ECA/Sheet3.csv,22,内功效果组成公式,130,74,27.7,0.0,0.48,text,"(内功攻击*1)*(1.3+蓄力时间秒*0.3), / (内功攻击*1)*1.3 / ((1+身法*剑法系数*40*0.5)*(0.5/"
+ECA/Sheet3.csv,24,招式描述,594,508,41.4,0.0,0.22,text,被动招式：提升自身攻击命中敌人的概率。 / 江湖中流转的长兵武学，招式大开大合，威势惊人，令人 / （暂未实装）被动招式：【爆气】招式调息时间降低至3
+ECA/Sheet3.csv,28,效果目标  (这个字段战斗未使用),144,2,2.0,0.0,1.0,key/ref,自己 / 敌人
+ECA/Sheet3.csv,29,攻击附加状态(攻击的时候才会生效),11,5,11.8,0.0,1.0,text,"击倒 / 减速敌方:0.3,3;格挡弹反 / Debuff数量增加攻击比例,0.02,3"
+ECA/Sheet3.csv,38,对应动作,14,14,11.2,0.0,1.0,text,tui/闪避 / quan/闪避 / gongjian/闪避
+ECA/Sheet3.csv,39,共用CD动作,13,13,12.2,0.0,1.0,text,quan/闪避_2 / duanbing/闪避_2 / shengbiao/闪避_2
+ECA/Sheet3.csv,43,,958,123,4.4,0.0,1.0,key/ref,护腿悟性1 / 悟玄参契 / 醉君侯刀铭
+ECA/Sheet3.csv,53,招式描述,630,540,32.1,0.0,0.28,text,"主动招式：抖枪前行，最后以枪砸地震开敌人，对敌人造 / 主动招式：跃然腾空，借崩坠之势，向前方连续劈滚，造 / 施展【钧北顾】后,提升暴击伤害20%，此效果持续三"
+ECA/Sheet4.csv,2,槎枒寻梅,9,5,4.9,0.0,1.0,key/ref,弑流··伐剑取 / 槎枒寻梅 / 羁离谱
+ECA/Sheet4.csv,3,敛英,9,9,2.0,0.0,1.0,key/ref,銮客 / 刀取 / 残筋
+ECA/Sheet4.csv,4,提升气血回复属性10%,9,9,15.1,0.0,1.0,text,进入战斗时，根据提升最终伤害5% / 招式【引星穹】调息降低1秒 / 降低【初取·攻伐】调息时间1秒
+ECA/参数说明.csv,1,,9,9,7.9,0.0,0.0,param,5:效果储值 / 1:修改战斗属性 / 3:添加Effect
+ECA/参数说明.csv,2,,7,7,19.4,0.0,0.14,text,"技能id,数值类型,数值公式,额外参数 / Buff参数 / 效果id,数值类型,数值公式"
+ECA/参数说明.csv,3,,5,5,27.8,0.0,0.0,text,"数值类型：1:公式变量1 2:公式变量2 / 属性名称:额外外功伤害,额外内功伤害 / 数值类型：6:添加buff  8:添加effect"
+ECA/参数说明.csv,4,,1,1,36.0,0.0,0.0,text,"额外参数：数值类型6:初始buffId,数值类型8"
+ECA/参数说明.csv,6,,55,55,8.9,0.0,0.0,param,8:使用指定技能 / 16:受击前 / 12:受击伤害统计
+ECA/参数说明.csv,7,,42,32,15.9,0.0,0.07,text,"发生变化的属性名称,判断公式(可选) / 技能id(0:任意),技能类型(可选) / 是否为斩杀(0:任意,1:是,2:否)(可选)"
+ECA/参数说明.csv,8,,2,2,61.5,0.0,0.0,text,"技能类型:0:任意 1:1技能 2:2技能 3:3 / 动作状态:0:任意,1:休闲,2:移动,3:轻击,"
+ECA/示例.csv,2,,52,48,10.9,0.0,0.21,text,移除buff 霸王卸甲-沐血为衣 / 持有单手轻刃时添加buff8 / 真气溢出时添加buff1
+ECA/示例.csv,3,事件类型,1,1,6.0,0.0,0.0,name,buff类型
+ECA/示例.csv,4,条件类型,1,1,4.0,0.0,0.0,name,显示图标
+ECA/示例.csv,5,条件参数,31,20,7.6,0.0,0.5,key/ref,"1,伤害>0 / 爆气消耗增加10% / 提升外功攻击防御百分比"
+ECA/示例.csv,6,额外条件,26,20,12.4,0.0,0.25,text,血量每降低1%，提升免伤0.2% / 爆气消耗增加10% / 这个buff加10%的最终伤害增加
+ECA/示例.csv,7,动作目标类型,1,1,8.0,0.0,0.0,name,是否显示详细参数
+ECA/示例.csv,8,动作类型,1,1,3.0,0.0,0.0,name,互斥组
+ECA/示例.csv,9,动作参数列表,6,6,13.8,0.0,0.0,text,"5,(气血值-hp)/气血值*100 / 12,debuff数量/2 / -(气血值*0.01)"
+ECA/示例.csv,10,冷却时间,1,1,4.0,0.0,0.0,name,持续时间
+ECA/示例.csv,11,最大触发次数,1,1,4.0,0.0,0.0,name,最大层数
+ECA/示例.csv,12,,1,1,7.0,0.0,0.0,name,效果是否可叠加
+ECA/示例.csv,13,,1,1,9.0,0.0,0.0,name,持续时间是否可叠加
+ECA/示例.csv,14,,1,1,8.0,0.0,0.0,name,是否debuff
+ECA/示例.csv,15,,19,13,11.1,0.0,0.15,text,"免伤,0.001 / 免伤,0.0015 / 1020301,额外伤害,100"
+ECA/示例.csv,16,天涯月明章,91,91,6.2,0.0,0.87,key/ref,悟玄参契 / 获得真气 / 太素灵枢篇
+EscortAgencyData/EscortAgencyData.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+EscortAgencyData/EscortAgencyData.csv,3,镖局名,5,5,4.0,0.0,1.0,key/ref,玉源镖局 / 昌合镖局 / 弘都镖局
+EscortAgencyData/EscortAgencyData.csv,4,场景名,5,5,2.2,0.0,1.0,key/ref,杭州城 / 洛阳 / 襄阳
+EscortTaskData/EscortTaskData.csv,2,,12,12,2.4,0.0,1.0,key/ref,太和 / 杭州 / 长安
+EscortTaskLvData/EscortTaskLvData.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+ExQualitySellPriceData/ExQualitySellPriceData.csv,2,类别,63,9,2.0,0.0,1.0,key/ref,其他 / 秘籍 / 武器
+FeiGeTalk/language.csv,2,对话内容,5,5,12.0,0.0,0.0,text,"这里是飞鸽对话内容4 / 测试内容，<帅哥||美女>,<name> / 这里是飞鸽对话内容3"
+FeiGeTalk/language.csv,3,备注,1,1,39.0,0.0,0.0,remark,对话id及内容由剧情策划确认，并在剧情文案中标注对
+GameNotice/body.csv,5,公告描述,1,1,624.0,0.0,0.0,text,诸位少侠：\n    我是《江湖路》的游戏制作人—
+GangData2/GangName.csv,2,帮派类别,3,3,1.0,0.0,0.0,name,会 / 教 / 帮
+GangData2/GangProperty.csv,3,名称,58,37,3.8,0.0,1.0,key/ref,襄阳矿产 / 襄阳布庄 / 鸿文阁机关
+GangData2/GangProperty.csv,4,备注,30,30,4.2,0.0,1.0,remark,虞庆 / 老晁 / 铸轩匠人
+GangData2/GangStation.csv,2,,22,22,6.9,0.0,1.0,key/ref,备注 / 洛阳帮派驻地2 / 长安帮派驻地2
+GangData2/GangStation.csv,10,驻地名称,21,1,4.0,0.0,1.0,key/ref,帮派驻地
+GangData2/GangStationDialog.csv,5,,2,2,10.0,0.0,1.0,text,"无帮派对话,其他帮派对话,本帮派对话 / 备注"
+GangData2/GangTask.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+GangData/GangName.csv,2,帮派类别,3,3,1.0,0.0,0.0,name,会 / 教 / 帮
+GangData/GangName.csv,3,帮派名称,3,3,74.3,0.0,0.0,text,"九宫,阴阳,极乐,皇天,黄龙,魍魉,骷髅,鬼蝠,贪 / 云龙,八幡,琉璃,夜叉,罗刹,伏羲,女娲,神农,慈 / 龙卷,湿婆,丧魂,毒蝶,千山,活杀,风沙,梨花,兽"
+GangData/GangName.csv,4,首领称呼,3,3,2.3,0.0,1.0,key/ref,教主 / 帮主 / 总舵主
+GangData/GangName.csv,5,二阶称呼,3,3,2.3,0.0,1.0,key/ref,副帮主 / 舵主 / 使者
+GangData/GangName.csv,6,三阶称呼,3,3,2.0,0.0,1.0,key/ref,长老 / 护法 / 坛主
+GangData/GangName.csv,7,四阶称呼,3,3,2.0,0.0,1.0,key/ref,香主 / 旗主 / 头领
+GangData/GangName.csv,8,五阶称呼,3,3,2.0,0.0,1.0,key/ref,教众 / 兄弟 / 帮众
+GangData/GangProperty.csv,3,名称,58,37,3.8,0.0,1.0,key/ref,襄阳矿产 / 襄阳布庄 / 鸿文阁机关
+GangData/GangProperty.csv,4,备注,30,30,4.2,0.0,1.0,remark,虞庆 / 老晁 / 铸轩匠人
+GangData/GangStation.csv,2,,22,22,6.9,0.0,1.0,key/ref,备注 / 洛阳帮派驻地2 / 长安帮派驻地2
+GangData/GangStation.csv,10,驻地名称,21,1,4.0,0.0,1.0,key/ref,帮派驻地
+GangData/GangStation.csv,15,卡点提示,7,3,20.1,0.0,0.0,text,废弃矿洞年久失修，无人加固请勿擅自闯入！ / 坑洞深不见底，诡秘异常，只身前往恐有不妥！ / 此处驻地暂在官府管辖之下，闲人不得进内！
+GangData/GangStationDialog.csv,5,,2,2,10.0,0.0,1.0,text,"无帮派对话,其他帮派对话,本帮派对话 / 备注"
+GangData/GangTask.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+GangData/GangTask.csv,3,名称,54,26,4.0,0.0,0.04,name,追匿寻踪 / 捕风捉影 / 秣马厉兵
+GangData/GangTask.csv,4,描述,54,26,39.7,0.0,0.0,text,敌帮近日骤然偃旗息鼓，定是图谋不轨，将npcNam / 帮内仓储兵器良莠不齐，现需一件itemName，以 / 敌帮虽溃，却仍有传言，逃出的npcName身上携有
+Gyms/Job.csv,3,,5,4,4.6,0.0,0.0,name,(小弟子) / (馆主) / (大弟子)
+Gyms/Job.csv,5,形象,2,1,170.0,0.0,0.0,text,dataName:掌柜;protagonist:1
+Gyms/Main.csv,2,名字,7,7,6.0,0.0,0.0,name,【青门武馆】 / 【京义武馆】 / 【伏钧武馆】
+Gyms/config.csv,4,  武馆人员身份称谓,1,1,27.0,0.0,0.0,text,(馆主)_(大弟子)_(小弟子)_(挑战者)_(守
+Gyms/相关定义.csv,2,,1,1,9.0,0.0,0.0,name,武馆人员职业类型：
+Gyms/相关定义.csv,4,,4,4,2.8,0.0,1.0,key/ref,馆主 / 大弟子 / 挑战者
+JingLuo/Sheet1.csv,2,阳池,24,24,2.1,0.0,0.79,key/ref,列缺 / 合谷 / 温溜
+JingLuo/Sheet1.csv,7,关冲,59,59,2.0,0.0,0.8,key/ref,肩贞 / 云门 / 天府
+JingLuo/Sheet1.csv,9,攻击+1,59,6,4.0,0.0,0.17,param,气血+5 / 防御+1 / 速度+3
+JingLuo/acupoint.csv,2,穴道名,59,59,2.0,0.0,0.29,name,肩髎 / 辄筋 / 云门
+JingLuo/acupoint.csv,3,穴道描述,59,12,10.2,0.0,0.0,text,"高及甚为极，水之始为泉。心经经穴中，本穴最高，又为 / 凡肉不着骨之处,可由肉下通透者,故名臂臑。 / 迎，迎受也；香，脾胃五谷之气也,与胃经相邻，所处又"
+JingLuo/acupoint.csv,14,顺通受益,59,26,7.0,0.0,0.15,param,外功攻击+156 / 气血上限+148 / 气血上限+660
+JingLuo/acupoint.csv,17,,59,20,3.3,0.0,1.0,key/ref,足少阴经 / 足少阳经 / 足阳明经
+JingLuo/acupoint.csv,19,,59,59,4.3,0.0,0.0,param,阳跷脉3 / 手太阴经1 / 足少阴经2
+JingLuo/auxiliary.csv,2,穴道名,113,113,2.0,0.0,0.43,name,彧中 / 天泉 / 后溪
+JingLuo/auxiliary.csv,4,受益,119,43,6.5,0.0,0.19,param,内功防御+6 / 气血上限+12 / 气血上限+120
+JingLuo/collaterals.csv,3,名称,20,20,3.4,0.0,1.0,key/ref,足少阴经 / 足少阳经 / 足阳明经
+JingLuo/collaterals.csv,5,奖励类型,20,16,6.7,0.0,0.12,param,外功防御+5 / 外功防御+15 / 外功防御+41
+JingLuo/collaterals.csv,9,经络描述,20,20,42.2,0.0,0.0,text,带脉者，起于季胁足厥阴之章门穴，同足少阳循带脉穴， / 足厥阴之筋，起于大指之上，上结入内踝之前，上循胫， / 督脉起于会阴，其循行路线，起始于小腹内，从会阴部向
+JingLuo/collaterals.csv,10,经络任务描述,20,20,26.4,0.0,0.0,text,前往经脉界面的手太阳经，完成所有冲穴之后，贯通此经 / 前往经脉界面的足少阴经，完成所有冲穴之后，贯通此经 / 前往经脉界面的督脉，完成所有冲穴之后，贯通此经脉。
+KillerOrg/Npc.csv,2,,2,2,6.5,0.0,0.5,key/ref,清萍村的杀手组织npc / 备注
+KillerOrg/Setting.csv,5,各声望级别对应称呼,1,1,19.0,0.0,0.0,text,"称呼1,称呼2,称呼3,称呼4,称呼5"
+KillerOrg/Task.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+KillerOrg/Task.csv,3,标题,2,2,9.5,0.0,0.0,name,提交itemName / 杀死npcName
+KillerOrg/Task.csv,4,描述,2,2,15.5,0.0,0.0,text,组织现在需要你去暗杀npcName / 组织急需5个itemName
+LangCX/Lang.csv,1,中文,92,91,3.7,0.0,0.99,key/ref,襄阳布庄 / 武器架 / 岗哨寨门
+LanguageConfig/LanguageConfig_jt.csv,2,v_1.2.0.1_v,847,821,14.8,0.06,0.17,text,十月怀胎，一朝分娩，你诞下一名{0}！ / 帮主威名，如雷贯耳！之前多有得罪，还望您大人有大量 / 眷侣
+Library/monster装备品质.csv,2,描述,1,1,2.0,0.0,1.0,key/ref,精英
+Library/各系统装备品质掉落.csv,2,系统名称,3,3,2.0,0.0,0.0,name,初级 / 高级 / 中级
+Library/属性翻译.csv,2,cn,34,32,3.3,0.0,0.97,key/ref,内力 / 反击伤害 / 最大攻击力
+Library/属性翻译.csv,3,AttributeType,34,32,3.1,0.0,1.0,key/ref,内力 / 反击伤害 / 最大攻击力
+Library/武器基本属性百分比.csv,2,系统名称,7,7,2.0,0.0,1.0,key/ref,孤品 / 极品 / 上品
+Library/装备后缀.csv,3,属性名称,20,2,4.0,0.0,1.0,key/ref,外功攻击 / 内功攻击
+Library/装备后缀.csv,5,后缀文本,20,2,1.0,0.0,0.0,name,锋 / 蕴
+Library/装备附属出现概率.csv,5,品质名,28,7,2.0,0.0,1.0,key/ref,孤品 / 极品 / 上品
+Library/装备附属出现概率.csv,6,所属难度,28,4,2.0,0.0,1.0,key/ref,困难 / 简单 / 极难
+Library/装备附属属性库.csv,2,附加属性,24,24,3.0,0.0,0.96,key/ref,气血上限 / 内功防御 / 身法
+LoadingTip/Config.csv,2,提示文本内容,28,28,37.0,0.0,0.0,text,当某个经脉的所有穴位完成冲穴时，你会自动贯通所有穴 / 你可以在普通攻击的时候释放技能，来组成不同的连击； / 闪避键可以与方向键一起按，来调整闪避的方向。
+MapBuffer/body.csv,2,buffer名称,28,28,3.0,0.0,0.54,key/ref,流星赶月 / 虹蛇蛊毒 / 精力充沛
+MapBuffer/body.csv,3,buffer描述,28,28,20.6,0.0,0.44,text,异毒入腑，其效隐而不发，难知其索……降低血量上限2 / 受南疆瘴气所侵，体倦神疲，气息不畅。 / 妙传家法髑髅眼，巧幻神通赤肉团
+MapBuffer/body.csv,6,txt,2,2,9.0,0.0,0.5,key/ref,错误提示 / 该武学需要自我阉割后才能习得
+MapBuffer/body2.csv,6,txt,1,1,4.0,0.0,1.0,key/ref,错误提示
+MapBuffer/备用.csv,2,饥饿,15,15,2.4,0.0,0.07,name,气血失调 / 昏迷 / 醉酒
+MapBuffer/备用.csv,3,当饱食度为0时会处于饥饿状态，在武力和筋骨下降30%。,15,15,15.5,0.0,0.07,text,攻击力降低寒毒等级*10% / 战斗结束后，气血不会恢复满。 / 精力每5秒-1。
+MapDungeonEntryData/MapDungeonEntryData.csv,2,,9,9,6.2,0.0,0.44,name,备注 / 副本 女真岗哨 / 副本 水贼巢穴
+MapDungeonEntryData/MapDungeonEntryData.csv,4,交互物名称,8,8,4.0,0.0,1.0,key/ref,寝宫入口 / 岗哨寨门 / 宫阙偏殿
+MapDungeonEntryData/MapDungeonEntryData.csv,8,在地图上的名字,8,8,6.9,0.0,0.0,name,副本·连环寨 / 副本·潇湘寝宫 / 副本·水贼巢穴
+MapDungeonEntryData/MapDungeonEntryData.csv,9,在地图上的描述,8,8,68.1,0.0,0.0,text,紫禁城深处宫阙，为伪帝占据，豢养鹰犬。其妄图勾结北 / 壁城水寨垄断东南水运、海运多年，独霸漕运、纵横绿林 / 东瀛大名贼心不死，勾结沿海奸商走私兵器，豢养忍者、
+MapPortalData/MapPortalData.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+MapPortalData/MapPortalData.csv,3,地图名,5,5,3.2,0.0,1.0,key/ref,太和山 / 杭州城 / 承安镇
+MapPracticeRoomEntryData/MapPracticeRoomEntryData.csv,2,,12,8,2.3,0.0,1.0,key/ref,长安 / 备注 / 杭州城
+MapPracticeRoomEntryData/MapPracticeRoomEntryData.csv,3,交互物名称,11,1,4.0,0.0,1.0,key/ref,练功木人
+MapText/body.csv,3,地图显示的名称,6,6,32.8,0.0,0.0,text,青萍村;困龙湖;困龙湖;碧水潭;诛恶岭;后山山洞; / 陋巷;南安村;凤栖林;北宁村;狗熊岭;杨柳岸;东市 / 太和村;云知岭;太和山;丹筑;长生院;正一院;玉阳
+MilitaryAttache/MilitaryAttache.csv,2,武馆名称,1,1,4.0,0.0,1.0,key/ref,全安武馆
+MilitaryAttache/MilitaryAttache.csv,3,馆主,1,1,2.0,0.0,1.0,key/ref,馆主
+MilitaryAttache/MilitaryAttache.csv,7,大弟子名称,1,1,3.0,0.0,1.0,key/ref,大弟子
+MilitaryAttache/MilitaryAttache.csv,10,小弟子名称,1,1,3.0,0.0,1.0,key/ref,小弟子
+NPC/ActionDialog.csv,2,初始对话,8,8,14.0,0.0,0.0,text,这位朋友若有闲暇，不妨与在下一同去酒馆小酌几杯可好 / 此处房产冬暖夏凉，适宜住人。 / 朱门半掩，幔舞似幻，隐现佳人妙影……
+NPC/ActionDialog.csv,3,初始选项,8,7,7.4,0.0,0.14,name,"掀帘而入,离开 / 离开 / 搜索,离开"
+NPC/ActionDialog.csv,7,成功对话,1,1,21.0,0.0,0.0,text,那我先行在酒铺找个安静的雅间，静等阁下了。
+NPC/ActionDialog.csv,8,成功选项,1,1,5.0,0.0,1.0,text,暂且离去。
+NPC/ActionDialog.csv,10,失败对话,1,1,10.0,0.0,0.0,text,下次有空，再来相约。
+NPC/ActionDialog.csv,11,失败选项,1,1,5.0,0.0,1.0,text,暂且离去。
+NPC/Dialog.csv,5,内容,579,419,22.7,0.05,0.0,text,lp[哥哥||姊姊]，可有事情需小妹帮忙？请尽管吩 / 阁下有事可否待我吃完再谈？又或者坐下一同进膳？ / 阿真不熟悉中原，阿真仍回辽东杀鞑子去。
+NPC/NPC.csv,2,交互名称,2754,1308,3.8,0.0,0.94,key/ref,兵痞 / 虞庆 / 醉汉甲
+NPC/NPC.csv,34,切磋胜利,1,1,24.0,1.0,1.0,json,[少侠||姑娘]好身手，假以时日想必能扬名武林！
+NPC/NPC.csv,35,切磋失败,1,1,31.0,0.0,1.0,text,胜败乃兵家常事，[少侠||姑娘]可精研武艺，日后再
+NPC/NpcAction.csv,13,文字说明,109,86,107.1,0.0,0.0,remark,夫妻<color=#E64D00>a</color / <color=#E64D00>a</color>与 / 与<color=#E64D00>b</color>
+NPC/NpcDialog.csv,2,对话,418,395,35.2,0.07,0.01,text,狂徒见你正欲起势运功，赶忙退避一旁不再言语，不敢再 / 当那拦路凶徒刚刚接过包裹之际，四周猛然传来数声突兀 / {0}在街口说书谋生，口吐妙语莲花，所言山南海北，
+NPC/NpcDialog.csv,4,,69,69,9.2,0.0,0.16,name,库房管事-本帮派对话 / 野怪的战斗胜利后交互 / 尸首
+NPC/NpcDialogLips.csv,2,名称,543,287,8.5,0.01,0.08,text,求取银两 / 指点关要 / 纳徒授艺
+NPC/NpcDialogLips.csv,9,不满足提示,246,49,10.1,0.0,0.04,text,"需先结为知交,需好感度≥60 / 需为异性 / 需好感度≥50,精力值不足"
+NPC/NpcDialogLips.csv,10,方法,20,15,31.6,0.0,0.0,text,CutTo室内小憩，微风和煦，此景此时不觉自醉…… / CutTo你将其逼入角落，不顾对方哀求叫骂，肆意羞 / CutTo你将其逼入角落，不顾对方哀求叫骂，肆意羞
+NPC/NpcDialogLips.csv,16,成功赋值,69,45,94.2,0.0,0.0,text,"10-,friendsSan,lichang,Le / 25-,冤家路窄，不共戴天的a和b一见到彼此便拔刀 / 40-,LessenSP(),lichang,fr"
+NPC/NpcDialogLips.csv,25,受限提示,16,11,23.2,0.0,0.0,text,今日你二人已分出胜负，不妨十二时辰之后再来。 / 推宫活血之术不宜频繁施为，不妨十二时辰之后再与此人 / 今日一番切磋后，其人甚为疲倦，不妨十二时辰之后再来
+NPC/NpcDialogLips.csv,27,成功提示,117,27,18.5,0.09,0.0,text,你与{0}情投意合，结为眷侣！ / 善因恶果，一念恩仇，{0}已将你视为仇敌，来日之事 / 你身法鬼魅，从{0}怀中窃走物品，神鬼莫觉。
+NPC/NpcDialogLips.csv,28,失败提示,14,1,15.0,0.0,0.0,text,此人颇为顽固，宁死不吐露半字。
+NPC/NpcXingWei.csv,4,行为名,34,32,4.0,0.0,0.5,key/ref,商店 / 赠送财物 / 赶尽杀绝
+NPC/NpcXingWei.csv,5,行为限制,32,19,8.8,0.0,0.0,name,馆主身份显示 / 必须是眷侣且没有和其他人成功共结连理显示，好感度越 / 无限制
+NPC/NpcXingWei.csv,9,行为操作流程,9,9,7.3,0.0,0.0,name,选择偷窃的道具或银两数量 / 输入银两数 / 选择抢夺的道具或银两数量
+NPC/NpcXingWei.csv,10,行为结果,15,14,16.0,0.0,0.0,text,降低好感度；\n概率触发战斗； / 好感度增加 / 给对方留下DeBuff；\n降低好感度；
+NPC/NpcXingWei.csv,14,备注,1,1,11.0,0.0,0.0,remark,只能选一种，可以选多个
+NPC/NpcXingWeiTalk.csv,3,说明,32,32,4.6,0.0,0.41,remark,送礼 / 偷窃 / 要杀要剐，悉听尊便
+NPC/NpcXingWeiTalk.csv,4,我方请求内容,20,20,29.4,0.75,0.05,json,{0}：朋友身上这件宝贝恰是在下苦求难得之物，不知 / {0}：近日江湖奔波，颇为辛劳，不如你我今日不言刀 / {0}：如此花月美景，你我郎情妾意，何不早些就寝，
+NPC/NpcXingWeiTalk.csv,5,对方对你请求内容的回应,24,23,22.5,0.96,0.0,json,{0}听了你的请求，脸上一阵惊讶，一阵羞赧，一阵不 / {0}：欢迎你的到来，有什么可以为你效劳的呢？ / {0}：想挑战我，先跟我小弟子门打一场吧
+NPC/NpcXingWeiTalk.csv,6,npc判定成功,27,27,21.8,0.93,0.04,json,{0}：今日奇耻大辱，在下记下了，他日定当讨要个说 / {0}：我也正有此意，请赐教 / {0}：太棒了，这是我喜欢的东西&{0}：这东西虽
+NPC/NpcXingWeiTalk.csv,7,npc判定失败,18,18,26.6,0.89,0.0,json,{0}：实不相瞒，这东西正是我眼下当用之物，确实不 / {0}：这礼物确实是我喜欢的，只恐在下身无长物，无 / 轻微的异样并未引起{0}的格外注意，稍一晃神之后，
+NPC/NpcXingWeiTalk.csv,8,npc第二级行为判定成功,5,5,27.8,1.0,0.0,json,{0}：看阁下气焰嚣张，还以为武功了得，却不想如此 / {0}:想不到你武功早已今非昔比，在下输得心服口服 / {0}：恃强凌弱而已，哼！我既技不如人，无话可说。
+NPC/NpcXingWeiTalk.csv,9,npc第二级行为判定失败,5,5,23.2,1.0,0.0,json,{0}：今日饶你一命，若再敢行凶抢劫，必然把你绑送 / {0}：你这歹人，今日有次一败，看你日后还敢行凶否 / {0}：没想到你这蟊贼也有一身好武功，我无话可说。
+NPC/PlayerAction.csv,13,文字说明,55,37,69.8,0.0,0.0,remark,<color=#E64D00>a</color>偶 / 传闻此处有人贩卖神丹妙药…… / 与<color=#E64D00>p</color>
+NPC/SelfAction.csv,17,文本说明,3690,269,61.2,0.0,0.0,remark,<color=#E64D00>a</color>购 / <color=#E64D00>a</color>在 / <color=#E64D00>a</color>避
+NPC/SelfAction.csv,30,每日触发次数期望，自动算出，不可修改（看备注）,12,7,12.0,0.0,0.0,remark,每时辰触发约0.007次 / 每时辰触发约0.730次 / 每时辰触发约0.109次
+NPC/dialogChange.csv,6,对话内容,113,113,35.7,0.0,1.0,text,p竟然和a狼狈为奸，借宴请b的机会对其施以毒手。幸 / a在街上找寻了一个时辰，始终未果。口中喃喃道说着什 / a与p金兰之情，共载此时，天涯挚交如此，人生夫复何
+NPC/dialogChange.csv,7,说明,113,113,35.7,0.0,1.0,remark,p竟然和a狼狈为奸，借宴请b的机会对其施以毒手。幸 / a在街上找寻了一个时辰，始终未果。口中喃喃道说着什 / a与p金兰之情，共载此时，天涯挚交如此，人生夫复何
+NPC/dialogTerm.csv,5,不满足提示,7,7,6.6,0.0,0.0,param,(金钱>100) / (精力>20) / (境界高于对方)
+NPC/multiAction.csv,28,前言消息,14,14,33.2,0.14,0.0,text,天元星位，勾心交错，一局珍珑引得天下豪杰群聚此地， / {0}与旧友{1}在酒楼里豪饮畅谈，颇为投缘。 / 为报昔日冤仇，{0}在酒楼摆下鸿门宴，邀{1}前来
+NPC/multiAction.csv,29,C结局,13,11,37.6,0.0,0.0,text,与{0}素有仇怨的{2}恰遇此景，暗中使坏，搅散了 / 此时与{1}素有仇怨的{2}恰遇此景，出手相助，使 / 亲友{2}路过时，识破此间机关，相劝{0}就此罢手
+NPC/proAction.csv,18,文本说明,103,23,43.7,0.0,0.0,remark,<color=#E64D00>a</color>颇 / <color=#E64D00>a</color>随 / <color=#E64D00>a</color>心
+NpcScout/config.csv,6,探子形象,1,1,181.0,0.0,0.0,text,dataName:新角色0909021449;pr
+OpenUI/body.csv,5,界面描述,11,11,9.5,0.0,0.0,text,主角属性默认界面 / 主角属性行囊，秘籍界面 / 厨艺界面
+PigeonMsgData/PigeonMsgData.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+PigeonMsgData/PigeonMsgData.csv,4,标题,13,5,4.0,0.0,0.0,name,亲友家书 / 四海敬奉 / 旁人书信
+PigeonMsgData/PigeonMsgData.csv,5,内容,13,13,57.8,0.0,0.0,text,<name>：\n阁下近日所为实难称磊落二字，只愿 / <name>：\n久仰阁下高风，才思敏捷，品行高洁 / 燕南归行踪已然探明，某即日折返承安，你我仍于先前亭
+PigeonMsgData/PigeonMsgData2.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+Poetry/Config.csv,4,诗句内容,200,198,38.2,0.0,0.0,text,"王婆卖瓜自卖夸,说她瓜甜赛蜜糖,若问此瓜甜不甜,吃 / 挽弓当挽强,用箭当用长,射人先射马,擒贼先擒王 / 草铺横野六七里,笛弄晚风三四声,归来饱饭黄昏后,不"
+PrisonCellData/PrisonCellData.csv,2,,113,113,5.4,0.0,0.01,param,杭州牢房1 / 承安牢房7 / 京城牢房6
+PrisonCellData/PrisonCellData.csv,4,交互物名称,112,1,2.0,0.0,1.0,key/ref,牢门
+PrisonData/PrisonData.csv,2,名称,7,7,4.0,0.0,0.43,name,京城牢狱 / 长安牢狱 / 大理牢狱
+PrisonData/PrisonData.csv,4,箱子交互物名称,7,1,5.0,0.0,1.0,key/ref,囚狱储物箱
+Read/Sheet1.csv,3,文本内容  换行用 /n ,27,27,120.0,0.0,0.0,text,"沈某自决断擅自调兵以来，便已知晓船场诸事皆是奸臣阴 / 太和山经此一事，非可久留之所,我护送潜龙先生回往钱 / 无名兄，见信如晤：\n十余载未见，当年兄台故乡一别"
+RefreshBoss/Refresh.csv,2,野怪称号,315,126,3.2,0.0,0.93,key/ref,老虎 / 剪径强人 / 锦衣卫
+RefreshBoss/Refresh.csv,15,,301,18,2.9,0.0,1.0,key/ref,龙门DLC / 太和山 / 万毒窟
+RefreshBoss/Refresh2.csv,15,,292,16,2.8,0.0,1.0,key/ref,太和山 / 万毒窟 / 杭州城
+RefreshBoss/RefreshTalk.csv,2,对话内容,108,102,21.5,0.0,0.26,text,数名失控灵蜈奴不由分说向你扑来…… / 腐蛊花海中显出一人身影，虽仍是人之相貌，其举止却与 / 你误入贼窝，瞬间被众匪包围……
+RefreshBoss/Sheet1.csv,2,地痞头目,559,184,3.4,0.0,0.99,key/ref,天涯海阁执事 / 李府下人 / 摊主
+RefreshBoss/Sheet2.csv,1,地痞头目,27,25,5.0,0.0,0.92,key/ref,精锐武士 / 狼群口角流涎，眼冒绿光，向你缓缓逼近。 / 水贼头目
+RefreshBoss/Sheet2.csv,2,瞧甚么？快滚！,25,25,21.0,0.0,1.0,text,此间之物，只需运出几件，那便是半生无忧了！ / 纵使是武士，落单碰着我们，也只有死！ / 以血喂刀，杀……杀……
+SandBox_NpcFromTouch/Touch.csv,2,name,165,165,2.8,0.0,1.0,key/ref,南宫莲 / 俞秉襄 / 虞阳
+SandBox_NpcFromTouch/Touch.csv,8,avatarData,165,165,196.7,0.0,0.0,text,dataName:新角色0625142444;pr / dataName:新黄小玥;protagonist / dataName:新角色0518183647;pr
+SandBox_NpcFromTouch/Touch.csv,10,talkLib,121,121,1885.0,1.0,0.0,json,"[{""index"":0,""open"":{""isOp / [{""index"":0,""open"":{""isOp / [{""index"":0,""open"":null,"""
+SandBox_NpcFromTouch/Touch.csv,17,sandboxTalkLib,163,163,19.6,0.0,0.0,text,五圣教源自上古三苗，传承至今，纵使寨里最老的老人， / 自马踏江湖之后，神秀峰便将门中弟子悉数遣散，如今仅 / 爹的胆子也太小了些，东瀛人，女真人，谁的银子不是挣
+SandBox_Pos/DefaultItems.csv,5,备注,13,13,2.3,0.0,1.0,remark,腿脚 / 绳镖 / 短兵
+SandBox_Pos/FreezePos.csv,4,closePos,5,5,42.2,0.0,1.0,text,"23070_1_3_1,2,4,8_门扉紧闭。 / 20100_4_5_1,2,4,8_门扉紧闭。;2 / 13050_3_5_1,2,4,8_门扉紧闭。;1"
+SandBox_Pos/FreezePos.csv,6,区域,5,5,3.0,0.0,1.0,key/ref,杭州城 / 承安镇 / 襄阳城
+SandBox_Pos/Light.csv,3,light_name,125,125,2.8,0.0,0.0,param,真12 / 真49 / 真22
+SandBox_Pos/Light.csv,5,备注,125,2,4.4,0.0,0.5,remark,连环寨火光 / 塞外战场
+SandBox_Pos/Prelayer.csv,5,备注,25,14,5.9,0.0,0.0,remark,箭头 / 秦皇陵北门 / 显示杭州前往西湖深处的小船前景
+SandBox_Pos/TransPos.csv,6,备注,16,16,7.8,0.0,0.0,remark,杭州-西湖深处 / 白桐山庄-白氏主厅 / 天涯海阁-崖底
+SandBox_Touch/Touch.csv,3,name,2446,976,3.1,0.0,0.99,key/ref,银楼 / 石矿（石壁显示） / 绣娘闺房
+SandBox_Touch/Touch.csv,12,avatarData,201,162,178.9,0.0,0.0,text,dataName:新角色0604205648;pr / dataName:金鲤商会8;protagonis / dataName:商队护卫;protagonist
+SandBox_Touch/Touch.csv,15,talkLib,2384,1327,573.2,1.0,0.0,json,"[{""index"":0,""open"":null,"" / [{""index"":0,""open"":null,"" / [{""index"":0,""open"":null,"""
+SandBox_Touch/Touch.csv,17,searchTalks,908,274,201.2,1.0,0.0,json,"[{""id"":1,""talkType"":0,""na / [{""id"":1,""talkType"":0,""na / [{""id"":1,""talkType"":0,""na"
+SkillBattle/Sheet1.csv,1,所属亚类别 (武器类型),651,20,2.4,0.0,1.0,key/ref,腿脚 / 暗器 / 软鞭
+SkillBattle/Sheet1.csv,7,单手轻刃,115,14,2.2,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+SkillBattle/Sheet1.csv,14,,68,68,4.6,0.0,0.93,key/ref,流缶金绳镖 / 太虚无极劲 / 悟玄参契
+SkillBattle/Sheet1.csv,15,,68,15,2.3,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+SkillBattle/Sheet1.csv,16,,68,6,3.7,0.0,1.0,key/ref,江湖武学 / 太和 / 大旗门
+SkillBattle/心诀配置.csv,2,心诀名,114,113,2.0,0.0,0.96,key/ref,流构 / 漫堤 / 雨绻
+SkillBattle/心诀配置.csv,5,效果类型,114,2,4.0,0.0,0.0,name,全局有效 / 对应招式
+SkillBattle/心诀配置.csv,6,心诀效果,19,13,8.3,0.0,0.0,param,真气消耗:-1 / 使用后无敌:1 / 追踪敌人距离提升:0.3
+SkillBattle/心诀配置.csv,8,描述,114,113,19.9,0.0,0.84,text,额外增加轻击5%的伤害 / 招式【朔风厉松】能释放时无敌 / 自身移动速度提升50点，每30秒获得1点真气
+SkillBattle/心诀配置.csv,10,,114,33,4.9,0.0,1.0,key/ref,流缶金绳镖 / 醉君侯刀铭 / 清风剑法
+SkillBattle/招式配置.csv,2,归属武学,1011,113,4.2,0.0,0.94,key/ref,悟玄参契 / 醉君侯刀铭 / 暗器
+SkillBattle/招式配置.csv,3,招式名称,1011,932,3.5,0.0,0.97,key/ref,天晨灌脉 / 千川挂瀑 / 凭栏叹
+SkillBattle/招式配置.csv,4,所属类别,1008,4,2.3,0.0,1.0,key/ref,内功 / 通常动作 / 武功
+SkillBattle/招式配置.csv,5,所属亚类别 (武器类型),606,18,2.5,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+SkillBattle/招式配置.csv,8,武学性质 主动类型,1011,2,2.0,0.0,1.0,key/ref,主动 / 被动
+SkillBattle/招式配置.csv,9,武学类型,1011,4,4.0,0.0,1.0,key/ref,江湖通式 / 武学总章 / 江湖散学
+SkillBattle/招式配置.csv,12,备注,627,504,26.2,0.0,0.91,remark,腿脚的普攻 三段 A3 / 1技能恢复血量+X，CD40秒。 / 重拳冲击，猛击敌方腹部，造成{0}点伤害，在短暂间
+SkillBattle/招式配置.csv,15,散学类型,45,5,2.0,0.0,1.0,key/ref,纵跃 / 闪躲 / 格挡
+SkillBattle/招式配置.csv,18,招式效果,906,8,5.0,0.0,1.0,key/ref,伤害 / 闪避 / 增加多个buff
+SkillBattle/招式配置.csv,20,效果组成公式,190,98,28.0,0.0,0.56,text,外功攻击*0.5 / ((1+武力*重剑系数*5*0.5)*(1.0/( / ((1+身法*长兵系数*10*0.5)*(1.5/
+SkillBattle/招式配置.csv,21,内功效果组成公式,179,73,26.8,0.0,0.6,text,(1+内息*拳法系数*20*0.5)*(0.5/( / ((1+内息*剑法系数*2*0.5)*(1.5/( / ((1+内息*长兵系数*8*0.5)*(1.5/(
+SkillBattle/招式配置.csv,23,需要替换的描述,1009,814,34.6,0.0,0.9,text,被动招式：施展【镇残碑】后5秒内，下一次轻击对敌人 / 被动招式：施展【风潇雨晦】后，获得【聚风】效果，具 / 被动招式：施展【夜斩石虎】招式时，移动速度提升50
+SkillBattle/招式配置.csv,24,招式描述,1009,805,34.7,0.0,0.9,text,被动招式：施展【镇残碑】后5秒内，下一次轻击对敌人 / 被动招式：施展【风潇雨晦】后，获得【聚风】效果，具 / 被动招式：施展【夜斩石虎】招式时，移动速度提升50
+SkillBattle/招式配置.csv,28,效果目标  (这个字段战斗未使用),389,2,2.0,0.0,1.0,key/ref,自己 / 敌人
+SkillBattle/招式配置.csv,29,攻击附加状态(攻击的时候才会生效),12,5,11.7,0.0,1.0,text,"击倒 / 减速敌方:0.3,3;格挡弹反 / Debuff数量增加攻击比例,0.02,3"
+SkillBattle/招式配置.csv,40,对应动作,39,38,10.8,0.0,0.97,text,chanchu/闪避 / zhongren/前闪避 / ruanbian/闪避
+SkillBattle/招式配置.csv,41,共用CD动作,13,13,12.2,0.0,1.0,text,quan/闪避_2 / duanbing/闪避_2 / shengbiao/闪避_2
+SkillBattle/散学对应招式表.csv,2,武学名,4,4,2.0,0.0,1.0,key/ref,格挡 / 纵跃 / 闪避
+SkillBattle/散学对应招式表.csv,4,武学描述,4,4,56.5,0.0,0.0,text,江湖中的纵跃法，双足鼎力，向上纵跃。纵跃滞空时可以 / 江湖中的闪避架势，身轻如鸿，向后闪躲。在任何时候（ / 江湖中的架招格挡手法，借体力而卸力。持续按住格挡操
+SkillBattle/武学境界对应招式表.csv,2,武学名,100,100,4.2,0.0,0.97,key/ref,悟玄参契 / 醉君侯刀铭 / 老虎
+SkillBattle/武学境界对应招式表.csv,3,武学类型,100,16,2.3,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+SkillBattle/武学境界对应招式表.csv,4,所属门派,100,7,3.8,0.0,1.0,key/ref,江湖武学 / 太和 / 大旗门
+SkillBattle/武学境界对应招式表.csv,11,武学描述,87,87,36.8,0.0,0.84,text,大旗门所传军阵刀法，运如电掣，势如虎跃龙腾，极尽刚 / 出自八卦的步法，行如游身，又谓游身八卦形，据传可八 / 悟玄可通明，悟理方参契，此上心决古朴难明，似与昆仑
+SkillBattle/武学境界对应招式表.csv,16,,98,94,4.2,0.0,0.97,key/ref,悟玄参契 / 醉君侯刀铭 / 老虎
+SkillBattle/武学境界对应招式表英文1.csv,2,武学名,4,4,24.2,0.0,0.0,text,Western Firearms路Pearl / Secret Sword路Mountain Ech / Mindless Style路Iaido
+SkillBattle/武学境界对应招式表英文1.csv,11,武学描述,1,1,282.0,0.0,0.0,text,Rumored to have been crea
+SkillBattle/武学境界对应招式表英文1.csv,16,,98,94,4.2,0.0,0.97,key/ref,悟玄参契 / 醉君侯刀铭 / 老虎
+SkillBattle/轻击对应招式表.csv,2,武学名,13,13,5.3,0.0,1.0,key/ref,轻击·绳镖 / 轻击·火器 / 轻击·扇法
+SkillBattle/轻击对应招式表.csv,5,武学描述,13,13,37.1,0.0,0.92,text,江湖中流转的重刃武学，招式如封似闭，重若千钧。连续 / 江湖中流转的绳镖武学，多为诡门所习，令人防不胜防。 / 江湖中流转的腿法武学，刚猛无匹。连续按键会使出连续
+SkillBattle/重击对应招式表.csv,2,武学名,13,13,5.3,0.0,1.0,key/ref,重击·火器 / 重击·拳掌 / 重击·重刃
+SkillBattle/重击对应招式表.csv,5,武学描述,13,13,24.8,0.0,0.92,text,江湖中流转的短兵之重击，轻灵迅疾，千变万化。 / 江湖中流转的单手轻刃之重击，招式轻灵潇洒，迅疾无形 / 江湖中流转的重刃之重击，招式如封似闭，重若千钧。
+SkillBattle/飞行道具配置.csv,2,飞行道具名,2,2,4.5,0.0,0.5,key/ref,"归去来 / 归去来,放词"
+SkillBattle/飞行道具配置.csv,4,飞行道具伤害,2,2,23.0,0.0,0.0,text,(境界等级+1)*30+内息*1.2/境界等级 / (境界等级+1)*30+内息*2.4/境界等级
+SkillBattle/飞行道具配置.csv,5,附带效果,2,1,2.0,0.0,0.0,name,僵直
+SkillBattle/飞行道具配置.csv,8,飞行道具匀速速度,2,1,10.0,0.0,0.0,text,0.02/100像素
+SkillBattle/飞行道具配置.csv,11,飞行道具弹道,2,2,4.0,0.0,0.0,name,直线伤害 / 折返伤害
+SkillBuff/Buff配置.csv,2,buff说明,9,9,10.1,0.0,0.0,remark,增加和减少某个技能的cd（固定数字） / 增加和减少某个技能的cd（百分比数字） / 增加或者减少某类武学的伤害
+SkillBuff/Buff配置.csv,3,buff例子,9,9,54.7,0.0,0.0,text,"104000_104001_1_1,0_2003_ / 108000_108001_1_1,0_2003_ / 103000_103001_1_1,0_2003_"
+SkillBuff/Buff配置.csv,4,buff例子说明,9,9,75.2,0.0,0.0,remark,其他参数同上\n参数8：生效的武器类型\n参数9： / \n其他参数同上\n参数8：要增减的技能ID(-1 / 其他参数同上\n参数8：生效的技能ID(-1表示所
+SkillBuff/buff触发条件.csv,2,条件说明,14,14,7.0,0.0,0.0,remark,攻击空中的敌人 / 每提升一点真气 / 闪避成功后
+SkillBuff/buff触发条件.csv,3,条件例子,3,3,19.0,0.0,0.0,text,"10,102001(buff唯一id) / 2,1020001（提撩式的技能id） / 8,1020001（提撩式的技能id）"
+SkillBuff/属性命名规范.csv,1,武力,27,27,2.9,0.0,0.89,key/ref,暴伤减免 / 体力上限 / 内功防御
+Spine动画/GSpineAnimation.csv,2,weapon,48,10,1.7,0.0,0.5,key/ref,奇门-钝器 / 奇门-软兵 / 拳掌
+Steal/相关定义.csv,2,,1,1,13.0,0.0,0.0,text,AttrType基本属性：
+Steal/相关定义.csv,4,,5,5,2.0,0.0,1.0,key/ref,内息 / 武力 / 悟性
+Steal/相关定义.csv,7,,1,1,7.0,0.0,0.0,name,偷窃栏位类型：
+Steal/相关定义.csv,9,,3,3,3.7,0.0,0.0,name,道具 / 空空如也 / 让对方警惕
+StorageBoxData/StorageBoxData.csv,3,箱子交互物名称,11,1,3.0,0.0,1.0,key/ref,储物箱
+TaskDes/TaskDes.csv,2,name,769,644,4.9,0.0,0.84,key/ref,云开月明·三 / 兵卒征粮 / 八方谋定（已入天涯海阁+完成太和）
+TaskDes/TaskDes.csv,3,finishDes,750,693,22.8,0.0,0.0,text,这南宫莲，手段一流。不可贸然行事。仍需多方探查，从 / 此人苦苦乞求食物。 / 左三思并非此物之主。
+TaskDes/TaskDes.csv,4,failDes,769,1,19.0,0.0,0.0,text,时事变迁，时机已逝，此事已无完成之途。
+TaskDes/TaskDes.csv,5,introduction,9,9,44.4,0.0,0.0,text,邓红婵告知太和山隐仙岩之事，此间或有机缘，再助突破 / 传说之中，神龟负图出洛水，洛阳城内，或有河图洛书之 / 镇国公昔年于京城之中运筹帷幄，彼处或有河图洛书之迹
+TaskDes/TaskZhiYing.csv,2,替换的指引的标题,1,1,4.0,0.0,1.0,key/ref,关中旧人
+TaskDes/TaskZhiYing.csv,3,替换的指引的内容,1,1,8.0,0.0,1.0,text,离开灵隐寺厢房。
+TaskFreeze/body.csv,4,closePos,16,16,85.5,0.0,0.5,text,"12000_19_36_1,2,4,8_此洞幽深莫 / 23070_1_3_1,2,4,8_门扉紧闭。 / 14010_9_6_1,2,4,8_石门紧闭，非蛮"
+TaskFreeze/body.csv,6,区域,27,27,4.2,0.0,0.52,key/ref,太和山子地图 / 杭州城 / 青萍村子地图
+TaskFreeze/body.csv,7,备注,1,1,9.0,0.0,0.0,remark,18040:万毒窟
+TaskLib/TaskLib.csv,2,name,1,1,4.0,0.0,0.0,name,真武日常
+TaskNew/Task.csv,2,name,789,780,7.3,0.0,0.71,key/ref,民变在即（沈梦秋-7） / 代理家主-蛇与公子-指引任务 / 雪麓霜刀_2
+TaskNew/Task.csv,12,zhiYingTaskTitle,318,258,5.2,0.0,0.95,key/ref,胜却人间 / 船场疑云·三 / 祀天祈雨·二
+TaskNew/Task.csv,13,zhiYingTaskContent,318,270,15.6,0.0,0.85,text,前往曼珠居所，寻找壁城来客。 / 与乔应珠交谈。 / 进入秦皇陵主墓室。
+TaskProcess/TaskProcess.csv,2,name,2137,575,4.5,0.0,0.95,key/ref,兵卒征粮 / 前路未明 / 摊前老者
+TaskProcess/TaskProcess.csv,3,tip,2124,1417,12.3,0.0,0.16,text,与靛衣女子交谈。 / 返回洛阳城民居地窖密室，与成达交谈。 / 寻找异国商人
+TaskProcess/TaskProcess.csv,4,mainTouch,2014,2014,4445.4,1.0,0.0,json,"[{""triggerType"":0,""npcId"" / [{""triggerType"":0,""npcId"" / [{""triggerType"":1,""npcId"""
+TaskProcess/TaskProcess.csv,5,otherTouch,401,391,916.4,1.0,0.0,json,"[{""triggerType"":0,""npcId"" / [{""triggerType"":0,""npcId"" / [{""triggerType"":0,""npcId"""
+Team/Team.csv,2,阵法名称,2,2,3.0,0.0,0.0,name,众势阵 / 六合阵
+Team/Team.csv,3,策划用备注,1,1,13.0,0.0,1.0,remark,此阵法可随意进行位置配置。
+Team/Team.csv,6,限制文本,2,2,9.0,0.0,0.0,text,需要至少2人才能启动阵法。 / 无任何限制
+Team/Team.csv,7,阵法介绍文本,2,2,24.0,0.0,0.0,text,融融六合，神清完足，江湖中流传的攻守兼备之阵法。 / 人众而势高，拾薪而卷火，跨州连郡，夫星火而染天。
+Team/Team.csv,8,阵法效果文本,2,2,18.5,0.0,0.5,text,"此阵法可随意进行位置配置。 / 此阵法可增强前排角色防御8%,减少后排血量5%。"
+TornData/Data_Skill.csv,1,ID,6,4,19.5,0.0,0.0,text,消耗：10点体力。 / 技能效果：角色播放通用动作【tongyongdon / 消耗真元：1
+TornData/Data_Skill.csv,2,Name,21,21,4.0,0.0,1.0,key/ref,虚实相生 / 紫乌啼月 / 广凌纳云
+TornData/Data_Skill.csv,3,Des,16,16,62.0,0.0,0.14,text,主动技能：恢复血量X+内息*系数/境界，前摇1秒（ / 主动技能：立刻获得2点真气，随后真气产生速度降低3 / 主动技能：施展招式后获得3层【金钟罩】效果，每层持
+TornData/Data_Speak.csv,2,HpLower0,5,5,12.4,0.0,0.0,text,未曾想，竟是……葬身于此…… / 有胆量随我进了内寨，再来打过！ / 饶……饶命……
+TornData/Data_Speak.csv,3,HpLower10,1,1,8.0,0.0,0.0,text,竟会功败垂成……
+TornData/Data_Speak.csv,4,HpLower20,1,1,14.0,0.0,0.0,text,好手段，若非要护那块废物……
+TornData/Data_Speak.csv,6,HpLower40,2,2,12.0,0.0,0.0,text,这鸟不拉屎之地，竟有这般人物？ / 施主，回头是岸……
+TornData/Data_Speak.csv,7,HpLower50,121,53,10.2,0.0,0.02,text,同大贤良师作对，唯有死路一条！ / 呜嗷…… / 哼，不想竟这般难缠……
+TornData/Data_Speak.csv,8,HpLower60,1,1,16.0,0.0,0.0,text,寻来强援又如何，老叫花怕过谁来？
+TornData/Data_Speak.csv,10,HpLower80,3,3,9.7,0.0,0.0,text,兀那洪家小子，好生碍事！ / 吼—— / 将这叛徒同其帮手，一并杀了！
+TornData/Data_Speak.csv,11,HpLower90,1,1,2.0,0.0,0.0,text,死！
+TornData/Data_Speak.csv,12,HpLower100,14,13,11.1,0.0,0.0,text,何人在此窥伺！ / 仇千秋，你竟叛盟！ / 敢开罪壁城水寨，怕不是活腻了！
+TornData/Data_Word.csv,2,Section,971,21,4.3,0.0,0.29,name,天赋界面 / 武学界面-问号 / 创建角色
+TornData/Data_Word.csv,3,Chinese,998,630,6.7,0.0,0.52,key/ref,15分钟 / 眷侣 / 门派位阶
+TouchPos/content.csv,6,交互物名称,37,25,2.7,0.0,0.88,key/ref,告示牌 / 承安石碑 / 古旧的书卷
+Touch/Touch.csv,3,name,6107,2296,3.5,0.0,0.9,key/ref,银楼 / 兵痞 / 虞庆
+Touch/Touch.csv,12,avatarData,3669,2145,183.6,0.0,0.0,text,dataName:新角色0625142937;pr / dataName:新角色0716190950;pr / dataName:新角色0619144548;pr
+Touch/Touch.csv,15,talkLib,4829,3205,625.6,1.0,0.0,json,"[{""index"":0,""open"":null,"" / [{""index"":0,""open"":null,"" / [{""index"":0,""open"":null,"""
+Touch/Touch.csv,17,searchTalks,918,281,201.3,1.0,0.0,json,"[{""id"":1,""talkType"":0,""na / [{""id"":1,""talkType"":0,""na / [{""id"":1,""talkType"":0,""na"
+WorldEvolution/GetCjTask.csv,3,成就任务简称,9,1,4.0,0.0,0.0,name,玩家等级
+WorldEvolution/GetCjTask.csv,4,成就任务详细描述,9,9,7.0,0.0,0.0,param,玩家等级达到6 / 玩家等级达到3 / 玩家等级达到4
+WorldEvolution/SxTip.csv,2,名称,9,9,3.6,0.0,1.0,key/ref,移动速度 / 内劲增长 / 气血值
+WorldEvolution/attribute.csv,3,境界名,11,11,4.0,0.0,1.0,key/ref,震古烁今 / 粗通皮毛 / 略有小成
+WorldEvolution/attribute.csv,6,境界描述,10,10,46.2,0.0,0.0,text,可以轻易的施展整套的武学，对各家精意亦有所了解，内 / 武学千年，唯曰，天地众生，此境之玄，言语难以尽书， / 习武修学之际，已能隐隐体会到内劲所存，对于武学套路
+WorldEvolution/attribute.csv,24,境界突破经络描述,9,9,13.2,0.0,0.0,text,冲脉打通;带脉打通;阴跷脉打通 / 足少阴经打通;足太阳经打通 / 任脉打通;督脉打通
+WorldEvolution/born.csv,2,名称,54,54,2.0,0.0,0.24,name,布庄 / 石匠 / 幕僚
+WorldEvolution/characteristic.csv,3,名称,47,47,4.0,0.0,0.23,name,洞若观火 / 锻体铸心 / 蹊径通幽
+WorldEvolution/characteristic.csv,4,描述,47,47,41.6,0.0,0.0,text,肆意违诺，决然弃德，其心不正，其行不端，为人所不耻 / 七窍暗晦，杂脉从生，此生于武学一道无望，非大机缘， / 闻其一而料其十，知其十，而推其百，才智出众，如锥处
+WorldEvolution/characteristic.csv,5,,42,42,22.0,0.0,0.0,text,外功攻击力增加10% / 拥有此特质的人物学习武学时，有25%概率领悟一式此 / 内功攻击力增加10%
+WorldEvolution/city.csv,2,场景名,13,13,2.9,0.0,1.0,key/ref,桃花坞 / 太和山 / 杭州城
+WorldEvolution/city.csv,3,场景级别,13,5,2.5,0.0,0.0,name,城市 / 村庄 / 大城市
+WorldEvolution/dot.csv,2,文案内容,10,10,4.2,0.0,0.2,name,内劲延绵 / 身法灵敏 / 筋骨强壮
+WorldEvolution/explain.csv,2,描述,49,49,11.2,0.08,0.12,text,"你不满足我们入帮要求 / 此人正在[{0}],前去挑战 / 此行为今日已至上限，不妨明日再试。"
+WorldEvolution/fame.csv,2,名称,7,7,4.0,0.0,0.14,name,邪名昭彰 / 亦正亦邪 / 誉满寰中
+WorldEvolution/friends.csv,2,名称,10,10,4.0,0.0,0.1,name,大仁大义 / 深情厚义 / 仁义行事
+WorldEvolution/gangName.csv,2,帮派类别,3,3,1.0,0.0,0.0,name,会 / 教 / 帮
+WorldEvolution/gangName.csv,3,帮派名称,1,1,242.0,0.0,0.0,text,"太初,青霞,九宫,银翼,狂沙,封神,碎星,掩月,自"
+WorldEvolution/gangName.csv,4,首领称呼,3,3,2.3,0.0,1.0,key/ref,教主 / 帮主 / 总舵主
+WorldEvolution/gangName.csv,5,二阶称呼,3,3,2.3,0.0,1.0,key/ref,副帮主 / 舵主 / 使者
+WorldEvolution/gangName.csv,6,三阶称呼,3,3,2.0,0.0,1.0,key/ref,长老 / 护法 / 坛主
+WorldEvolution/gangName.csv,7,四阶称呼,3,3,2.0,0.0,1.0,key/ref,香主 / 旗主 / 头领
+WorldEvolution/gangName.csv,8,五阶称呼,3,3,2.0,0.0,1.0,key/ref,教众 / 兄弟 / 帮众
+WorldEvolution/gangTask.csv,2,,1,1,2.0,0.0,1.0,key/ref,备注
+WorldEvolution/gangTask.csv,3,名称,10,5,9.6,0.0,0.0,name,击败npcName / 交付itemName / 收集itemName
+WorldEvolution/gangTask.csv,4,描述,10,5,29.4,0.0,0.0,text,npcName急需itemName，请速去交付此物 / npcName屡次挑衅于本帮，请速去将其击败，小惩 / npcName盗取了本帮的itemName，请速去
+WorldEvolution/house.csv,5,名称,9,2,2.0,0.0,1.0,key/ref,民居 / 民房
+WorldEvolution/house.csv,7,箱子名称,9,1,3.0,0.0,1.0,key/ref,储物箱
+WorldEvolution/job.csv,2,职业名称,1,1,4.0,0.0,0.0,name,(掌柜)
+WorldEvolution/job.csv,6,形象,1,1,170.0,0.0,0.0,text,dataName:掌柜;protagonist:1
+WorldEvolution/kongDi.csv,3,场景名,5,2,3.0,0.0,1.0,key/ref,杭州城 / 承安镇
+WorldEvolution/kongDi.csv,4,建筑名称,5,1,2.0,0.0,1.0,key/ref,帮派
+WorldEvolution/lichang.csv,2,名称,7,7,4.0,0.0,0.0,name,乖僻奉私 / 逐世霸道 / 善贤仁悯
+WorldEvolution/lichang.csv,8,描述,7,7,35.4,0.0,0.0,text,邪善之辨，正恶之别，夫纷争者，皆出于此，昏昏昭昭， / 尘世混杂，人心黯晦，唯仁悯者，如世间之灯火，迷盲之 / 千秋百年，一孤侠道，世事变化万千，然黑白善恶终须有
+WorldEvolution/like.csv,2,喜好类别,34,34,2.0,0.0,0.82,key/ref,布匹 / 道藏 / 小说
+WorldEvolution/name.csv,2,姓,337,337,1.0,0.0,0.04,name,卫 / 朱 / 公冶
+WorldEvolution/name.csv,3,男,1422,1398,1.9,0.0,0.87,key/ref,泰然 / 德厚 / 冠玉
+WorldEvolution/name.csv,4,女,1395,1395,1.9,0.0,0.9,key/ref,书竹 / 南珍 / 半雪
+WorldEvolution/name2.csv,2,姓,1,1,9.0,0.0,0.0,name,Thompson极
+WorldEvolution/name2.csv,4,女,1,1,7.0,0.0,0.0,name,Michel极
+WorldEvolution/paramMap.csv,2,描述,2,2,2.0,0.0,1.0,key/ref,银两 / 修为
+WorldEvolution/sect.csv,3,名称,24,1,4.0,0.0,1.0,key/ref,无门无派
+WorldEvolution/sect.csv,5,位阶名称,24,1,1.0,0.0,0.0,name,无
+WorldEvolution/spawn.csv,2,场景名,16,16,2.8,0.0,0.94,key/ref,青萍酒馆 / 太和山 / 杭州城
+WorldEvolution/tips.csv,2,名称,59,59,1.6,0.0,0.22,name,十三 / 贰 / 十八
+WorldEvolution/tips.csv,3,提示,5,5,22.6,0.0,0.8,text,影响偷学与请教武学的成功率，试探对方境界，增加修为 / 影响移动速度，暴击几率，暴击伤害，武学伤害。 / 影响外功攻击力，武学伤害。
+WorldEvolution/world.csv,2,说明,49,49,9.4,0.0,0.02,remark,初始真气上限 / 初始年龄 / 初始属性点
+WorldTime/Hotel.csv,2,名称,1,1,4.0,0.0,1.0,key/ref,青萍酒铺
+WorldTime/PlayerEvent.csv,8,说明,1,1,4.0,0.0,0.0,remark,触发事件
+WorldTime/SingleAnim.csv,7,备注,234,121,4.8,0.0,0.98,remark,矮茶 / 月女亲卫&17 / 朝奉集守卫
+WorldTime/StateControl.csv,2,状态名称,14,14,3.2,0.0,0.0,name,练功 / 杂耍卖艺 / 采集
+WuqiType/body.csv,8,,13,13,2.3,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+aptitude/Chance.csv,2,名称,15,15,3.3,0.0,0.0,param,暗器: / 弓箭: / 绳镖:
+aptitude/Chance.csv,3,属性增加公式,15,3,12.1,0.0,0.0,text,体力上限=0.01*武学造诣 / 攻击力=0.2*武学造诣 / 气血上限=2*武学造诣
+aptitude/Chance.csv,9,随机区间对应的称谓,15,1,8.0,0.0,0.0,param,天才;奇才;一般
+aptitude/Chance.csv,12,资质描述,15,1,60.0,0.0,0.0,text,资质影响造诣上限，使用该项武器时将获得造诣，造诣越
+aptitude/Chance.csv,13,造诣描述,15,15,49.5,0.0,0.0,text,角色在重刃类武学中修习程度的体现，使用重刃战斗的场 / 角色在拳掌类武学中修习程度的体现，使用拳掌战斗的场 / 角色在绳镖类武学中修习程度的体现，使用绳镖战斗的场
+box/Sheet2.csv,2,,71,70,4.5,0.0,0.87,key/ref,破布护腕 / 天麻草 / 有毒的野果
+box/Sheet2.csv,4,,11,11,2.9,0.0,1.0,key/ref,麻布缠腰 / 青田月 / 凝华丹
+box/boxpoint.csv,6,对话,162,60,16.9,0.0,0.0,text,墨家存放于秘窟之中的宝箱，想来价值不菲。 / 完好的木桶，不知内中何物。 / 一个板条货箱，里面存放着一些医食杂物。
+box/boxpoint.csv,7,选项,162,4,5.0,0.0,0.0,name,"打开,离开 / 搜寻,离开 / 挖掘,离开"
+box/宝箱表现形式.csv,2,宝箱名,39,39,4.0,0.0,0.87,key/ref,武器架 / 树叶堆 / 野兽遗弃的巢穴
+box/宝箱表现形式.csv,3,限制方式,39,3,2.0,0.0,0.33,name,室内 / 通用 / 室外
+currency/currency.csv,3,货币名,6,6,4.0,0.0,0.33,name,当前区域声望 / 杀手组织声望 / 帮派贡献
+dungeon/config.csv,13,交互物名称,10,1,3.0,0.0,1.0,key/ref,铁栅栏
+fishing/Config.csv,2,说明,9,9,5.7,0.0,0.0,remark,青萍村钓鱼点 / 京城钓鱼点 / 五圣教钓鱼点
+fishing/Config.csv,4,可以获取的鱼类别,9,8,19.1,0.0,0.0,text,斑斓螺，白沙螺，草鱼，草虾，草蟹，草螺 / 血玉虾，虎头虾，草鱼，草虾，草蟹，草螺 / 蓝田蟹，斑斓螺，三眼蟹，白沙螺，草鱼，草虾，草蟹，
+fishing/Sheet2.csv,1,,4,4,1.8,0.0,0.0,name,中 / 低 / 游戏难度
+fishing/Sheet2.csv,2,渔获品质,1,1,1.0,0.0,0.0,name,低
+fishing/Sheet2.csv,3,,1,1,1.0,0.0,0.0,name,中
+fishing/Sheet2.csv,4,,1,1,1.0,0.0,0.0,name,高
+friendship/config.csv,2,描述,13,13,2.5,0.0,0.85,key/ref,子女 / 眷侣 / 仇敌
+inborn/inborn.csv,2,天赋名称,28,28,4.0,0.0,1.0,key/ref,气止神闲 / 镇军之材 / 气海充盈
+inborn/inborn.csv,3,天赋类别,28,4,2.0,0.0,0.0,name,白藏 / 青阳 / 玄英
+inborn/inborn.csv,5,天赋描述,28,28,38.7,0.0,0.88,text,攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群， / 其技奇巧，转触回春，你秉性与医道暗合，自身体力上限 / 命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，
+inborn/inborn.csv,8,参数1,5,5,14.0,0.0,0.0,text,气血回复+0.1;内劲获取速率+0.1 / 内功攻击提升2%。 / 体力上限提升20%
+item/Sheet2.csv,2,道具名,315,57,4.4,0.0,0.81,key/ref,腿脚 / 洛书·重光篇 / 悟玄参契
+item/Sheet2.csv,3,附属名,315,113,3.3,0.0,0.02,name,心诀·万化 / 心诀·断空流 / 心诀·鼎湖
+item/Sheet2.csv,4,类别,315,1,2.0,0.0,1.0,key/ref,秘籍
+item/Sheet2.csv,5,类型,315,23,3.9,0.0,0.87,key/ref,腿脚轻击 / 心诀 / 腿脚重击
+item/Sheet2.csv,15,使用调用列表类别,315,1,1.0,0.0,0.0,name,无
+item/Sheet2.csv,17,按钮文本,315,1,2.0,0.0,1.0,key/ref,修习
+item/Sheet2.csv,18,text,315,171,29.4,0.0,0.45,text,重击将使自身跃起，并攻向附近距离最近的敌人 / 此术据传为“刀祖”于红梅所秘藏之法，其上记述的功力 / 太玄冥冥，一气混元，玄之又玄，众妙之门，众法首章。
+item/Sheet2.csv,19,tips,315,171,8.2,0.0,0.67,key/ref,习得非攻·匠造卷 / 习得悲遮扇法心诀·乃绝 / 习得众相菩提杖
+item/Sheet3.csv,2,道具名,187,187,3.4,0.0,0.96,key/ref,朝天蛤蟆口 / 聚散流云 / 水火长棍
+item/Sheet3.csv,3,类别,187,9,2.0,0.0,0.89,key/ref,武器 / 护腰 / 项链
+item/Sheet3.csv,5,武器类型,104,10,2.7,0.0,0.9,key/ref,绳镖 / 单手轻刃 / 双手轻刃
+item/Sheet3.csv,10,主属性,187,153,8.0,0.0,0.48,param,攻击力+17 / 防御力+14 / 攻击力+29;暴击+12
+item/Sheet3.csv,17,按钮文本,187,1,2.0,0.0,1.0,key/ref,装备
+item/Sheet3.csv,18,text,187,187,35.1,0.0,0.37,text,行踏九州，印镇十方。 / 夔者，形似龙，仅一足，凶兽也。夔袖以夔纹为饰，内有 / 明教守正所制之扇，扇面绘龙。用之则有翻手为云之态。
+item/Sheet3.csv,25,粗布衣,138,138,3.1,0.0,1.0,key/ref,朝天蛤蟆口 / 炎纹锦 / 织云
+item/Sheet3.csv,26,护甲,138,5,2.0,0.0,1.0,key/ref,护腰 / 坠饰 / 护腿
+item/Sheet3.csv,27,气血上限+357;防御力+8,138,32,14.6,0.0,0.03,text,气血上限+21147;防御力+626 / 气血上限+21148 / 气血上限+1901;防御力+58
+item/Sheet3.csv,28,气血上限+285;防御力+8,138,32,14.6,0.0,0.0,text,气血上限+6463;防御力+160 / 气血上限+10454; / 气血上限+2472;
+item/Sheet3.csv,29,气血上限+,138,1,5.0,0.0,0.0,param,气血上限+
+item/Sheet3.csv,31,防御力+,112,1,4.0,0.0,0.0,param,防御力+
+item/Sheet4.csv,2,道具名,190,190,3.4,0.0,0.93,key/ref,朝天蛤蟆口 / 聚散流云 / 勾魂索
+item/Sheet4.csv,3,类别,190,8,2.0,0.0,1.0,key/ref,武器 / 护腰 / 项链
+item/Sheet4.csv,6,武器类型,114,9,2.6,0.0,1.0,key/ref,绳镖 / 单手轻刃 / 双手轻刃
+item/Sheet4.csv,12,主属性,190,133,8.6,0.0,0.53,key/ref,防御力+14 / 气血上限+90 / 命中+67
+item/Sheet4.csv,19,按钮文本,190,1,2.0,0.0,1.0,key/ref,装备
+item/Sheet4.csv,20,text,189,188,28.4,0.0,0.34,text,行踏九州，印镇十方。 / 小钰亲手缝补的衣衫——襟内绣了枝不易察觉的红豆枝。 / 明教守正所制之扇，扇面绘龙。用之则有翻手为云之态。
+item/任务.csv,2,道具名,170,161,4.2,0.0,0.28,name,河图洛书残篇·肆 / 圣女印信 / “恨”字玉牌
+item/任务.csv,3,类别,170,1,2.0,0.0,1.0,key/ref,任务
+item/任务.csv,17,按钮文本,26,2,2.0,0.0,0.5,key/ref,阅读 / 使用
+item/任务.csv,18,tips,164,1,8.0,0.0,0.0,name,触发XX任务成功
+item/任务.csv,19,text,170,147,18.9,0.0,0.13,text,寻常木片，其上刻痕入木三分，似是用剑高手以剑尖削就 / 瘦弱喽啰的家信 / 一封满含乡情的信笺。
+item/其他.csv,2,道具名,160,150,3.3,0.0,0.59,key/ref,夜行衣衫 / 太和道袍 / 苗蛊心
+item/其他.csv,3,类别,160,1,2.0,0.0,1.0,key/ref,其他
+item/其他.csv,19,按钮文本,116,2,2.0,0.0,1.0,key/ref,装备 / 使用
+item/其他.csv,20,text,160,124,17.6,0.0,0.12,text,虽说不能食用，但颜色如此鲜艳的蘑菇似乎另有用途。 / 一把钥匙，似能打开襄阳的某处房门。 / 小钰亲手为你缝制的衣衫，很是妥帖合身，款式温雅清婉
+item/材料.csv,2,道具名,82,81,2.8,0.0,0.85,key/ref,鸡肉 / 碎木 / 木桶
+item/材料.csv,3,类别,82,1,2.0,0.0,1.0,key/ref,材料
+item/材料.csv,19,按钮文本,2,1,2.0,0.0,1.0,key/ref,使用
+item/材料.csv,20,text,82,80,26.7,0.0,0.13,text,形如黑炭，或为红锈，其质固且坚，锻而生铁。 / 用来生火的燃料。 / 斗宽而柄细，赖之以掘土。
+item/秘籍.csv,2,道具名,906,491,5.2,0.0,0.97,key/ref,虎贲阵（下册） / 流构 / 洛神踏雪步（下册）
+item/秘籍.csv,3,附属名,906,52,2.7,0.0,1.0,key/ref,天衍篇 / 腿脚 / 流缶金绳镖
+item/秘籍.csv,5,类别,906,1,2.0,0.0,1.0,key/ref,秘籍
+item/秘籍.csv,6,类型,906,5,3.7,0.0,1.0,key/ref,心诀 / 武学研本 / 江湖散学
+item/秘籍.csv,22,使用调用列表类别,905,1,1.0,0.0,0.0,name,无
+item/秘籍.csv,25,按钮文本,906,1,2.0,0.0,1.0,key/ref,修习
+item/秘籍.csv,26,text,906,282,35.4,0.0,0.43,text,"招式【绕蛊缠身】施展时获得【霸体】效果。 / 进入战斗后,默认额外增加1颗初始子弹数量。 / 出自八卦的步法，行如游身，又谓游身八卦形，据传可八"
+item/秘籍.csv,27,tips,906,282,7.4,0.0,0.4,name,习得众相菩提杖 / 习得流缶金绳镖心诀·激灼 / 习得地覆·睚眦卷
+item/秘籍.csv,33,buffTxt,10,1,7.0,0.0,0.0,name,阉割后才能习得
+item/艺能.csv,2,道具名,130,130,8.2,0.0,0.98,key/ref,沧漫·精锻造配方 / 纵渊·精锻造配方 / 高粱红烹饪配方
+item/艺能.csv,3,类别,130,1,2.0,0.0,1.0,key/ref,艺能
+item/艺能.csv,19,按钮文本,130,1,2.0,0.0,0.0,name,学习
+item/艺能.csv,20,text,130,125,42.2,0.0,0.0,text,记载了护甲类装备的精制技艺，学习后可以缝制【羽罗披 / 记载了双手轻刃类武器的精制技艺，学习后可以锻造【丸 / 记载了某种药材的配制单方，阅读后可习得雪蟾膏的制药
+item/艺能.csv,21,tips,130,127,10.1,0.0,0.0,text,习得饮风·精锻造配方 / 习得葱花鱼汤配方 / 习得血玉虾羹配方
+item/药品.csv,2,道具名,21,21,3.1,0.0,1.0,key/ref,还复膏 / 凝华丹 / 玉髓膏
+item/药品.csv,3,类别,21,1,2.0,0.0,1.0,key/ref,药品
+item/药品.csv,8,作用描述,21,4,4.0,0.0,1.0,key/ref,真气增长 / 体力不减 / 气血回复
+item/药品.csv,9,使用效果,21,21,11.7,0.0,0.0,text,"气血:4440 / 添加buff:气血恢复,1944,5 / 真气:1"
+item/药品.csv,18,使用限制,21,8,4.0,0.0,0.0,param,境界≥6 / 境界≥5 / 境界≥1
+item/药品.csv,23,text,21,21,13.1,0.0,0.05,text,立即回复气血值8840点 / 立即回复气血值1160点 / 获得真气1点
+item/药品.csv,24,tips,21,21,8.0,0.0,0.0,name,使用【凝神露】 / 已使用【止血草】 / 已使用【八宝花丸】
+item/药品.csv,27,道具说明,21,21,22.9,0.0,0.52,remark,江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出 / 色若银晶，嗅如沉香，敷可续肌，服可养血。 / 传闻日中有踆乌，固体而行，可至千里。
+item/装备.csv,2,道具名,649,641,3.2,0.0,0.95,key/ref,捭阖·精 / 朝天蛤蟆口 / 小木弓
+item/装备.csv,4,类别,649,8,2.0,0.0,1.0,key/ref,武器 / 护腰 / 项链
+item/装备.csv,6,武器类型,413,14,2.5,0.0,1.0,key/ref,绳镖 / 短兵 / 单手轻刃
+item/装备.csv,8,,629,9,2.1,0.0,0.56,key/ref,商店 / BOSS特效 / 制作
+item/装备.csv,14,主属性,649,76,9.1,0.0,0.12,param,攻击力+252 / 气血上限+142;防御力+22 / 气血上限+998;防御力+148
+item/装备.csv,25,按钮文本,649,1,2.0,0.0,1.0,key/ref,装备
+item/装备.csv,26,text,646,520,21.4,0.0,0.24,text,铸铁浇成，厚实粗重。 / 柳条为弦制成的小弓，劲力微弱，不外顽童玩物。 / 青山吐秋月，阻作南楼客。
+item/食物.csv,2,道具名,70,70,3.6,0.0,1.0,key/ref,同袍酒 / 东坡肉 / 口感不佳的野果
+item/食物.csv,3,类别,70,1,2.0,0.0,1.0,key/ref,食物
+item/食物.csv,9,使用效果,69,17,4.7,0.0,0.24,param,精力+40 / 精力+6 / 精力+12
+item/食物.csv,21,按钮文本,70,2,2.0,0.0,0.0,name,食用 / 饮用
+item/食物.csv,22,text,70,70,27.1,0.0,0.34,text,莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心 / 入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量 / 寻常碱面所制的馒头，虽难言可口，却是饱腹充饥之首选
+item/食物.csv,23,tips,70,62,4.9,0.0,0.79,key/ref,同袍酒 / 东坡肉 / 食用口感不错的野果，精力+2
+language/language.csv,2,chinese,12,12,2.3,0.0,0.75,key/ref,嘴巴 / 高度 / 性别选择
+mall/mall.csv,2,商品名称,14,14,3.3,0.0,0.0,name,初心镯 / 明月坠 / 纵行靴
+mall/mall.csv,5,效果说明,14,8,31.9,0.0,0.0,remark,日中有踆乌，扶摇望九霄，服用此丹药可立即减少1小时 / 来源无考，丹方为不宣之秘，多收于大通商会，服之可完 / 繁市胜景之图，绘三教九流之貌，阅览可增加500阅历
+monster/Sheet1.csv,2,name,36,24,6.5,0.0,0.96,key/ref,青萍村 浣衣娘 / 青萍村 贼人 / 山贼 匪探
+monster/Sheet1.csv,3,monster,4,3,7.5,0.0,0.0,name,调整后单个怪物奖励修为 / 调整后单个怪物奖励银两 / 怪物数量
+monster/Sheet1.csv,4,小怪数量,2,1,2.0,0.0,1.0,key/ref,小怪
+monster/Sheet1.csv,5,精英数量,2,1,2.0,0.0,1.0,key/ref,精英
+monster/Sheet1.csv,10,award,4,4,10.5,0.0,0.0,text,当前剧情战斗奖励银两总和 / 当前剧情战斗奖励修为总和 / 调整后奖励修为总和
+monster/Sheet2.csv,3,1002,6,6,3.7,0.0,0.0,name,Boss远 / Boss近 / 小怪近
+monster/Sheet2.csv,5,,1,1,1.0,0.0,0.0,name,格
+monster/Sheet2.csv,6,,3,3,1.7,0.0,0.67,key/ref,小怪 / 闪 / 精英
+monster/Sheet2.csv,7,简单,2,2,1.0,0.0,0.0,name,反 / 格
+monster/Sheet2.csv,8,,3,3,1.7,0.0,0.67,key/ref,闪 / 小怪 / 精英
+monster/Sheet2.csv,9,,1,1,1.0,0.0,0.0,name,反
+monster/Sheet2.csv,10,,13,13,2.5,0.0,0.85,key/ref,杭州 / 连环寨 / 地图
+monster/Sheet2.csv,11,普通,2,2,1.5,0.0,0.5,key/ref,格 / 等级
+monster/Sheet2.csv,12,,1,1,1.0,0.0,0.0,name,闪
+monster/Sheet2.csv,13,,1,1,1.0,0.0,0.0,name,反
+monster/Sheet2.csv,14,,1,1,1.0,0.0,0.0,name,总
+monster/Sheet2.csv,15,困难,1,1,1.0,0.0,0.0,name,格
+monster/Sheet2.csv,16,,1,1,1.0,0.0,0.0,name,闪
+monster/Sheet2.csv,17,,1,1,1.0,0.0,0.0,name,反
+monster/Sheet2.csv,18,,1,1,1.0,0.0,0.0,name,总
+monster/Sheet2.csv,19,极难,1,1,1.0,0.0,0.0,name,格
+monster/Sheet2.csv,20,,1,1,1.0,0.0,0.0,name,闪
+monster/Sheet2.csv,21,,1,1,1.0,0.0,0.0,name,反
+monster/Sheet2.csv,22,,1,1,1.0,0.0,0.0,name,总
+monster/Sheet3.csv,3,Name,203,198,12.4,0.0,0.36,text,老虎（普通怪）AI / 斩铁无锋卷（精英怪）AI / 伙伴AI剑
+monster/Sheet3.csv,4,,1,1,4.0,0.0,0.0,name,怪物类型
+monster/Sheet3.csv,6,,199,111,7.3,0.0,0.95,key/ref,醉君侯刀铭 / 伙伴AI剑 / 老虎
+monster/Sheet3.csv,7,,123,4,8.5,0.0,0.0,name,（通用BOSS怪）AI / （通用BOSS怪占位）AI / （精英怪）AI
+monster/Sheet3.csv,18,备注,68,26,3.7,0.0,0.77,remark,端木清 / 无名集回忆西虎的ai / 唐恕
+monster/Sheet3.csv,22,,1,1,4.0,0.0,1.0,key/ref,武器类型
+monster/Sheet3.csv,23,,13,13,2.3,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+monster/Sheet3.csv,25,,70,70,3.4,0.0,0.97,key/ref,1毒蟾 / 0毒蝎卫 / 2双手轻刃
+monster/Sheet3.csv,26,,1,1,2.0,0.0,1.0,key/ref,简单
+monster/Sheet3.csv,27,,1,1,2.0,0.0,0.0,name,正常
+monster/Sheet3.csv,28,,1,1,2.0,0.0,1.0,key/ref,困难
+monster/Sheet3.csv,29,,1,1,2.0,0.0,1.0,key/ref,极难
+monster/Sheet3.csv,31,name,2687,868,3.5,0.0,1.0,key/ref,军冶所管事 / 兵痞 / 南宫莲
+monster/Sheet3.csv,35,,2665,32,2.5,0.0,0.97,key/ref,蛊蝎 / 暗器 / 老虎
+monster/Sheet3.csv,36,,2665,63,3.5,0.0,1.0,key/ref,2双手轻刃 / 1毒蟾 / 0毒蝎卫
+monster/Sheet3.csv,43,道具名,509,501,3.1,0.0,0.92,key/ref,朝天蛤蟆口 / 小木弓 / 锈铁缠手
+monster/Sheet3.csv,44,类别,509,8,2.0,0.0,1.0,key/ref,武器 / 护腰 / 项链
+monster/Sheet3.csv,46,武器类型,321,14,2.5,0.0,1.0,key/ref,绳镖 / 短兵 / 单手轻刃
+monster/Sheet3.csv,50,,111,81,3.3,0.0,0.99,key/ref,南宫莲 / 段绍裘 / 谢昊
+monster/Sheet3.csv,51,,110,31,3.0,0.0,1.0,key/ref,飞鸿印雪 / 污泥浊水 / 血功噬心
+monster/Sheet3.csv,52,,60,4,6.3,0.0,0.0,name,永久生效 / 每降低血量20% / 血量降低至40%
+monster/Sheet3.csv,53,,60,20,5.6,0.0,0.75,key/ref,气血值提高 / 内外功防御提高 / 暴击提高
+monster/Sheet3.csv,57,,5,3,3.8,0.0,1.0,key/ref,大当家西虎 / 王阿生 / 杜颜白
+monster/Sheet3.csv,60,,1,1,4.0,0.0,0.0,name,怪物ID
+monster/Sheet3.csv,62,,32,17,2.9,0.0,0.94,key/ref,楚林灵 / 黄洞玄 / 李映心
+monster/Sheet3.csv,63,,32,15,3.6,0.0,1.0,key/ref,诡谲阴柔 / 唐门旧客 / 如梦令
+monster/Sheet3.csv,72,,3,2,5.0,0.0,0.5,key/ref,简单 / 如果是BOSS增加防御
+monster/Sheet3.csv,75,,2,1,2.0,0.0,1.0,key/ref,普通
+monster/Sheet3.csv,78,,2,1,2.0,0.0,1.0,key/ref,困难
+monster/Sheet3.csv,81,,2,1,2.0,0.0,1.0,key/ref,极难
+monster/Sheet4.csv,1,所属关卡,136,97,6.8,0.0,1.0,key/ref,隋东关野外boss_72 / 壁城水寨BOSS / 隋东关野外boss_67
+monster/Sheet4.csv,2,所属关卡,243,204,8.4,0.0,1.0,key/ref,连环寨副本 / 隋东关野外boss_72 / 壁城水寨BOSS
+monster/Sheet4.csv,7,注：特指BOSS，普通怪，精英怪均用普通AI,21,21,4.1,0.0,0.71,remark,连环寨副本3 / 长安 / 五圣教副本2
+monster/Sheet4.csv,8,,1,1,2.0,0.0,1.0,key/ref,等级
+monster/Sheet4.csv,9,,1,1,4.0,0.0,0.0,name,战斗场次
+monster/Sheet4.csv,10,,20,5,6.7,0.0,0.0,param,力竭机制1+技能1霸体 / 普通AI / 力竭机制1
+monster/Sheet4.csv,16,Name,24,24,13.0,0.0,0.0,text,普通模式力竭难度3（远程） / EX模式力竭难度1（近战） / 简单模式力竭难度3（近战）
+monster/Sheet4.csv,28,,33,33,4.8,0.0,1.0,key/ref,流缶金绳镖 / 醉君侯刀铭 / 清风剑法
+monster/Sheet4.csv,29,,31,13,2.5,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+monster/Sheet4.csv,43,name,144,142,3.6,0.0,0.99,key/ref,诸葛复 / 段绍裘 / 百目君
+monster/Sheet4.csv,45,太和山精英弟子,9,9,7.2,0.0,1.0,key/ref,大雪山普通弟子 / 天涯海阁普通弟子 / 太和山普通弟子
+monster/Sheet4.csv,49,,147,131,3.4,0.0,0.99,key/ref,天涯海阁执事 / 小钰爹 / 南宫莲
+monster/Sheet4.csv,52,隋东关野外boss_63,12,12,12.0,0.0,1.0,text,隋东关野外boss_72 / 隋东关野外boss_67 / 隋东关野外boss_75
+monster/Sheet5.csv,1,,9,9,8.2,0.0,1.0,key/ref,净蛊天池普通副本8 / 桃花坞普通副本7 / 桃花坞简单副本7
+monster/Sheet5.csv,2,,495,273,3.5,0.0,1.0,key/ref,兵痞 / 南宫莲 / 赌坊打手
+monster/Sheet5.csv,8,,807,9,5.0,0.0,1.0,key/ref,连环寨困难 / 桃花坞困难 / 五圣教普通
+monster/Sheet5.csv,16,,819,66,4.5,0.0,1.0,key/ref,还复膏 / 人世·寒鹊卷 / 流缶金绳镖
+monster/Sheet5.csv,17,,819,4,2.2,0.0,1.0,key/ref,杂项 / 秘籍 / 三才书
+monster/Sheet5.csv,33,,38,24,2.8,0.0,1.0,key/ref,蛊蝎 / 老虎 / 毒蝎
+monster/Sheet5.csv,40,,254,150,3.4,0.0,1.0,key/ref,南宫莲 / 老虎 / 段绍裘
+monster/Sheet5.csv,45,,26,1,3.0,0.0,0.0,name,动物组
+monster/Sheet6.csv,3,,5,5,2.6,0.0,1.0,key/ref,灯火夜蟾 / 白狼王 / 白狼
+monster/Sheet6.csv,5,,18,18,2.5,0.0,0.94,key/ref,蛊蝎 / 墨家甲卫 / 逃逸蛊蛇
+monster/Sheet6.csv,9,,38,38,3.7,0.0,0.97,key/ref,1毒蟾 / 0毒蝎卫 / 1逃逸蛊蛇
+monster/Sheet6.csv,14,,3,3,4.3,0.0,1.0,key/ref,蛊人（尸首） / 练功甲人 / 谢正青
+monster/buff条件.csv,2,触发条件(暂未用到此字段),3,3,5.7,0.0,0.33,name,杂兵死之前 / 气血≤气血最大值X% / 初始
+monster/buff类型.csv,2,状态效果,24,24,8.5,0.0,0.08,name,吸血为原来的X% / 体力恢复速度为原来的X% / 体力上限为原来的X%
+monster/buff组.csv,2,状态名,41,41,3.3,0.0,0.02,param,强攻3 / 弱攻3 / 弱防3
+monster/monster_easy.csv,2,name,5451,1424,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_easy.csv,4,角色模组,5437,1420,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_easy.csv,36,所属关卡,4993,230,4.3,0.0,1.0,key/ref,连环寨副本 / 隋东关野外boss_72 / 隋东关野外boss_67
+monster/monster_easy.csv,45,,1029,112,5.7,0.0,0.1,name,地碎天倾46 / 壁城水寨BOSS / 沙盒门派挑战
+monster/monster_easy.csv,47,,327,3,6.0,0.0,0.0,name,普通难度副本 / 简单难度副本 / 困难难度副本
+monster/monster_hard.csv,2,name,5451,1424,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_hard.csv,4,角色模组,5437,1420,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_hard.csv,36,所属关卡,4993,230,4.3,0.0,1.0,key/ref,连环寨副本 / 隋东关野外boss_72 / 隋东关野外boss_67
+monster/monster_hard.csv,45,,7,1,7.0,0.0,1.0,key/ref,大雪山BOSS
+monster/monster_hardEX.csv,2,name,5451,1424,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_hardEX.csv,4,角色模组,5437,1420,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_hardEX.csv,36,所属关卡,4994,230,4.3,0.0,1.0,key/ref,连环寨副本 / 隋东关野外boss_72 / 隋东关野外boss_67
+monster/monster_hardEX.csv,45,,7,1,7.0,0.0,1.0,key/ref,大雪山BOSS
+monster/monster_normal.csv,2,name,5451,1424,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_normal.csv,4,角色模组,5437,1420,3.4,0.0,1.0,key/ref,兵痞 / 虞庆 / 醉汉甲
+monster/monster_normal.csv,36,所属关卡,4993,230,4.3,0.0,1.0,key/ref,连环寨副本 / 隋东关野外boss_72 / 隋东关野外boss_67
+monster/monster_normal.csv,45,,7,1,7.0,0.0,1.0,key/ref,大雪山BOSS
+monster/monster_team.csv,2,name,883,414,3.7,0.0,0.95,key/ref,兵痞 / 南宫莲 / 赌坊打手
+monster/monster_team.csv,29,战斗组备注,662,303,7.7,0.0,0.23,remark,桃花坞简单副本5 / 剧情杀 / 五圣教剧情
+monster/monster_team.csv,30,其他备注,165,23,3.5,0.0,0.3,remark,怪物高防御 / 皇城深处 / 战斗开始需要项天奉加入\n打一半项天奉离开
+monster/monster_team.csv,32,,51,3,2.0,0.0,1.0,key/ref,困难 / 简单 / 普通
+monster/加点方向.csv,13,,59,59,4.2,0.0,0.95,key/ref,流缶金绳镖 / 腿脚通式 / 短兵通式
+monster/加点方向.csv,14,,55,5,2.7,0.0,0.8,key/ref,内息 / 武力 / 武力、内息
+monster/原始team数据已作废.csv,2,name,213,186,7.2,0.0,0.16,name,承安镇 西门家仆2 / 承安镇 孟阳伯 / 承安镇 东市无赖
+monster/最大等级限制.csv,2,类型名称,2,2,4.0,0.0,0.0,name,普通怪物 / 精英怪物
+monster/角色模组.csv,2,name,207,176,3.6,0.0,0.98,key/ref,天涯海阁执事 / 南宫莲 / 赌坊打手
+monster/角色模组.csv,4,dataName,207,175,3.6,0.0,0.99,key/ref,天涯海阁执事 / 南宫莲 / 赌坊打手
+monster/额外修为奖励.csv,11,,1,1,3.0,0.0,0.0,name,旧经验
+monster/额外修为奖励.csv,12,,1,1,3.0,0.0,0.0,name,新经验
+partner/like.csv,2,类别,40,40,2.3,0.0,0.65,key/ref,布匹 / 道藏 / 小说
+partner/partner.csv,2,name,4,4,3.8,0.0,0.25,name,主角(男) / 小七 / 主角(女)
+partner/partner.csv,6,所属,2,2,4.0,0.0,0.5,key/ref,姑苏楚家 / 承安陋巷
+partner/partner.csv,26,残章触发,2,2,139.0,0.0,0.0,text,0#楚林灵出生时，祖父已从军中退伍，携家眷住在姑苏 / 0#承安镇的小乞丐，孤儿，小贼，这都是她的名字，唯
+setting/GamepadEvent.csv,2,名称,23,23,2.8,0.0,0.83,key/ref,后跳 / 上移 / 轻击
+setting/KeyCodeData.csv,2,简化名称,16,16,3.6,0.0,0.38,name,右摇杆← / 左摇杆↓ / 右摇杆↑
+setting/key1.csv,2,键值名字,19,19,3.4,0.0,0.58,key/ref,上 / 轻击 / 重击/装弹
+setting/key1.csv,4,键值1,4,4,4.0,0.0,0.5,key/ref,空格 / 鼠标右键 / 鼠标左键
+setting/key1.csv,5,键值2,2,2,4.0,0.0,1.0,key/ref,空格 / 左SHIFT
+setting/key1.csv,6,键值3,6,6,3.7,0.0,1.0,key/ref,左摇杆↓ / L按下 / R按下
+shop2/shop.csv,2,名称,129,106,3.6,0.0,1.0,key/ref,襄阳布庄 / 隐月楼商店 / 杭绣布庄
+shop2/shop.csv,10,,129,125,4.7,0.0,1.0,key/ref,承安镇声望商店 / 五圣教丹殿 / 隐月楼商店
+shop2/wares.csv,3,商品名,2,2,12.5,0.0,0.0,text,Zhaoci (昭 赤) / Hongjian (鸿渐)
+shop2/武器数据.csv,1,,196,7,2.9,0.0,1.0,key/ref,桃花坞 / 杭州城 / 承安镇
+shop2/武器数据.csv,2,,196,1,3.0,0.0,1.0,key/ref,铁匠铺
+shop2/武器数据.csv,5,,196,7,8.9,0.0,1.0,key/ref,杭州城铁匠铺3-4 / 襄阳铁匠铺4-5 / 承安镇铁匠铺2-3
+shop2/武器数据.csv,7,,196,196,8.8,0.0,1.0,key/ref,五圣教铁匠铺金丝软鞭 / 五圣教铁匠铺电光铳 / 桃花坞铁匠铺北逐天狼
+shop2/武器数据.csv,9,,196,84,2.9,0.0,0.99,key/ref,锈铁缠手 / 铁丸 / 金丝软鞭
+shop2/武器数据.csv,12,,196,13,2.4,0.0,1.0,key/ref,绳镖 / 短兵 / 单手轻刃
+shop2/药品数据.csv,1,,175,8,3.0,0.0,1.0,key/ref,桃花坞 / 杭州城 / 襄阳
+shop2/药品数据.csv,2,,175,2,2.0,0.0,1.0,key/ref,药铺 / 药店
+shop2/药品数据.csv,5,,175,22,7.9,0.0,1.0,key/ref,杭州城药铺3-12 / 大理药铺5-6 / 承安镇药店2-3
+shop2/药品数据.csv,8,,175,5,4.4,0.0,1.0,key/ref,真气增长 / 内劲增长 / 体力不减
+shop2/药品数据.csv,9,,175,98,6.5,0.0,1.0,key/ref,胡记药铺归元散 / 襄阳药铺金创散 / 桃花坞药铺持续恢复气血6
+shop2/药品数据.csv,11,,90,18,3.4,0.0,1.0,key/ref,还复膏 / 固本丸 / 凝神露
+shop2/装备数据.csv,1,,64,8,2.9,0.0,1.0,key/ref,桃花坞 / 杭州城 / 承安镇
+shop2/装备数据.csv,2,,64,1,2.0,0.0,1.0,key/ref,服装
+shop2/装备数据.csv,5,,64,8,7.9,0.0,1.0,key/ref,桃花坞服装6-7 / 清平村服装1-2 / 五圣教服装5-6
+shop2/装备数据.csv,7,,64,64,11.4,0.0,1.0,text,杭州城服装3-4鬼面护胫 / 襄阳服装4-5青玉缠手 / 杭州城服装3-4绫罗直裰
+shop2/装备数据.csv,9,,64,28,3.5,0.0,1.0,key/ref,破布护腕 / 蜀锦腕 / 镇西关
+shop2/酒楼数据.csv,1,,8,8,4.1,0.0,1.0,key/ref,桃花坞 / 杭州城酒楼 / 襄阳
+shop2/酒楼数据.csv,2,,8,1,2.0,0.0,1.0,key/ref,酒楼
+shop2/酒楼数据.csv,5,,8,8,7.9,0.0,1.0,key/ref,天涯海阁酒楼4-5 / 承安镇酒楼2-3 / 杭州城酒楼3-4
+shop2/酒楼数据.csv,7,,43,42,7.9,0.0,1.0,key/ref,桃花坞酒楼浓情蜜意 / 杭州城酒楼糯米鸡 / 三元客栈高粱红
+shop2/酒楼数据.csv,9,,43,31,3.2,0.0,1.0,key/ref,烧刀子 / 丹河大曲 / 惜玉怜香
+shop2/门派商店数据.csv,1,太和,6,4,4.3,0.0,1.0,key/ref,门派宝阁 / 门派丹殿 / 太和藏经阁
+shop2/门派商店数据.csv,3,,3,3,35.0,0.0,1.0,text,三才书（天-4，地-4，人-4）+门派秘籍（武学+ / 非通用装备（门派武学对应的武器种类+5种护甲+戒指 / 特殊药品（永久加成）+常规药品
+shop2/门派商店数据.csv,5,太和门派,55,55,3.9,0.0,1.0,key/ref,还复膏 / 回气血5 / 归元散
+shop2/门派商店数据.csv,6,,51,31,5.6,0.0,1.0,key/ref,天衍篇 / 气血值每秒回复78，共持续5秒 / 立即回复60
+shop2/门派商店数据.csv,7,,5,5,28.4,0.0,1.0,text,装配此卷的角色施展拳掌、腿脚武学将获得额外5%外功 / 装配此卷的角色持拳掌、腿脚时外功和内功攻击额外提升 / 装配此卷的角色施展单手轻刃、扇法武学将获得额外5%
+shop2/门派商店数据.csv,8,,59,59,9.0,0.0,1.0,key/ref,门派藏经阁天衍·凌云卷 / 门派藏经阁天衍·望山卷 / 门派藏经阁琅玉带
+shop2/门派商店数据.csv,13,,90,90,5.1,0.0,1.0,key/ref,地覆·坤玖卷 / 腿脚重击 / 撼地摧城
+shop2/门派商店数据.csv,14,,90,14,2.7,0.0,1.0,key/ref,天衍篇 / 腿脚 / 短兵
+shop2/门派商店数据.csv,15,,50,50,27.6,0.0,1.0,text,装配此卷的角色每拥有1068点气血最大值，则提升外 / 装配此卷的角色外功防御提升10%。 / 装配此卷的角色施展单手轻刃、扇法武学将获得额外5%
+shop2/门派商店数据.csv,23,天涯海阁,5,3,4.2,0.0,1.0,key/ref,门派丹殿 / 门派宝阁 / 门派藏经阁
+shop2/门派商店数据.csv,25,,2,2,29.0,0.0,1.0,text,非通用装备（门派武学对应的武器种类+5种护甲+戒指 / 特殊药品（永久加成）+常规药品
+shop2/门派商店数据.csv,27,天涯海阁门派,55,55,3.7,0.0,1.0,key/ref,还复膏 / 回气血5 / 归元散
+shop2/门派商店数据.csv,28,,29,8,2.3,0.0,1.0,key/ref,天衍篇 / 单手轻刃 / 武器
+shop2/门派商店数据.csv,29,,5,5,29.2,0.0,1.0,text,装配此卷的角色施展单手轻刃、扇法武学将获得额外5% / 装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外 / 装配此卷的角色持单手轻刃、扇法时外功攻击额外提升5
+shop2/门派商店数据.csv,41,五圣教,6,4,38.2,0.0,1.0,text,门派宝阁 / 门派丹殿 / 装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外
+shop2/门派商店数据.csv,43,,2,2,29.0,0.0,1.0,text,非通用装备（门派武学对应的武器种类+5种护甲+戒指 / 特殊药品（永久加成）+常规药品
+shop2/门派商店数据.csv,46,,47,46,3.8,0.0,1.0,key/ref,还复膏 / 回气血5 / 镔铁双匕
+shop2/门派商店数据.csv,47,,23,7,2.2,0.0,1.0,key/ref,天衍篇 / 武器 / 护腰
+shop2/门派商店数据.csv,48,,5,4,27.8,0.0,1.0,text,装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外 / 装配此卷的角色内功攻击提升10%。 / 装配此卷的角色持绳镖、软鞭时外功和内功攻击额外提升
+shop3/wares.csv,3,商品名,3601,960,3.5,0.0,0.99,key/ref,流构 / 虎贲阵（下册） / 洛神踏雪步（下册）
+shop/shop.csv,2,名称,130,106,3.5,0.0,0.96,key/ref,襄阳布庄 / 隐月楼商店 / 杭绣布庄
+shop/shop.csv,10,,130,125,4.7,0.0,0.96,key/ref,承安镇声望商店 / 五圣教丹殿 / 隐月楼商店
+shop/shop.csv,11,,22,22,3.3,0.0,1.0,key/ref,录功曹 / 暖春堂 / 裁云庄
+shop/wares.csv,3,商品名,3689,1010,3.6,0.0,0.99,key/ref,流构 / 虎贲阵（下册） / 洛神踏雪步（下册）
+shop/武器数据.csv,1,,196,7,2.9,0.0,1.0,key/ref,桃花坞 / 杭州城 / 承安镇
+shop/武器数据.csv,2,,196,1,3.0,0.0,1.0,key/ref,铁匠铺
+shop/武器数据.csv,5,,196,7,8.9,0.0,1.0,key/ref,杭州城铁匠铺3-4 / 襄阳铁匠铺4-5 / 承安镇铁匠铺2-3
+shop/武器数据.csv,7,,196,196,8.8,0.0,1.0,key/ref,五圣教铁匠铺金丝软鞭 / 五圣教铁匠铺电光铳 / 桃花坞铁匠铺北逐天狼
+shop/武器数据.csv,9,,196,84,2.9,0.0,0.99,key/ref,锈铁缠手 / 铁丸 / 金丝软鞭
+shop/武器数据.csv,12,,196,13,2.4,0.0,1.0,key/ref,绳镖 / 短兵 / 单手轻刃
+shop/药品数据.csv,1,,175,8,3.0,0.0,1.0,key/ref,桃花坞 / 杭州城 / 襄阳
+shop/药品数据.csv,2,,175,2,2.0,0.0,1.0,key/ref,药铺 / 药店
+shop/药品数据.csv,5,,175,22,7.9,0.0,1.0,key/ref,杭州城药铺3-12 / 大理药铺5-6 / 承安镇药店2-3
+shop/药品数据.csv,8,,175,5,4.4,0.0,1.0,key/ref,真气增长 / 内劲增长 / 体力不减
+shop/药品数据.csv,9,,175,98,6.5,0.0,1.0,key/ref,胡记药铺归元散 / 襄阳药铺金创散 / 桃花坞药铺持续恢复气血6
+shop/药品数据.csv,11,,90,18,3.4,0.0,1.0,key/ref,还复膏 / 固本丸 / 凝神露
+shop/装备数据.csv,1,,64,8,2.9,0.0,1.0,key/ref,桃花坞 / 杭州城 / 承安镇
+shop/装备数据.csv,2,,64,1,2.0,0.0,1.0,key/ref,服装
+shop/装备数据.csv,5,,64,8,7.9,0.0,1.0,key/ref,桃花坞服装6-7 / 清平村服装1-2 / 五圣教服装5-6
+shop/装备数据.csv,7,,64,64,11.4,0.0,1.0,text,杭州城服装3-4鬼面护胫 / 襄阳服装4-5青玉缠手 / 杭州城服装3-4绫罗直裰
+shop/装备数据.csv,9,,64,28,3.5,0.0,1.0,key/ref,破布护腕 / 蜀锦腕 / 镇西关
+shop/酒楼数据.csv,1,,8,8,4.1,0.0,1.0,key/ref,桃花坞 / 杭州城酒楼 / 襄阳
+shop/酒楼数据.csv,2,,8,1,2.0,0.0,1.0,key/ref,酒楼
+shop/酒楼数据.csv,5,,8,8,7.9,0.0,1.0,key/ref,天涯海阁酒楼4-5 / 承安镇酒楼2-3 / 杭州城酒楼3-4
+shop/酒楼数据.csv,7,,43,42,7.9,0.0,1.0,key/ref,桃花坞酒楼浓情蜜意 / 杭州城酒楼糯米鸡 / 三元客栈高粱红
+shop/酒楼数据.csv,9,,43,31,3.2,0.0,1.0,key/ref,烧刀子 / 丹河大曲 / 惜玉怜香
+shop/门派商店数据.csv,1,太和,6,4,4.3,0.0,1.0,key/ref,门派宝阁 / 门派丹殿 / 太和藏经阁
+shop/门派商店数据.csv,3,,3,3,35.0,0.0,1.0,text,三才书（天-4，地-4，人-4）+门派秘籍（武学+ / 非通用装备（门派武学对应的武器种类+5种护甲+戒指 / 特殊药品（永久加成）+常规药品
+shop/门派商店数据.csv,5,太和门派,55,55,3.9,0.0,1.0,key/ref,还复膏 / 回气血5 / 归元散
+shop/门派商店数据.csv,6,,51,31,5.6,0.0,1.0,key/ref,天衍篇 / 气血值每秒回复78，共持续5秒 / 立即回复60
+shop/门派商店数据.csv,7,,5,5,28.4,0.0,1.0,text,装配此卷的角色施展拳掌、腿脚武学将获得额外5%外功 / 装配此卷的角色持拳掌、腿脚时外功和内功攻击额外提升 / 装配此卷的角色施展单手轻刃、扇法武学将获得额外5%
+shop/门派商店数据.csv,8,,59,59,9.0,0.0,1.0,key/ref,门派藏经阁天衍·凌云卷 / 门派藏经阁天衍·望山卷 / 门派藏经阁琅玉带
+shop/门派商店数据.csv,13,,90,90,5.1,0.0,1.0,key/ref,地覆·坤玖卷 / 腿脚重击 / 撼地摧城
+shop/门派商店数据.csv,14,,90,14,2.7,0.0,1.0,key/ref,天衍篇 / 腿脚 / 短兵
+shop/门派商店数据.csv,15,,50,50,27.6,0.0,1.0,text,装配此卷的角色每拥有1068点气血最大值，则提升外 / 装配此卷的角色外功防御提升10%。 / 装配此卷的角色施展单手轻刃、扇法武学将获得额外5%
+shop/门派商店数据.csv,23,天涯海阁,5,3,4.2,0.0,1.0,key/ref,门派丹殿 / 门派宝阁 / 门派藏经阁
+shop/门派商店数据.csv,25,,2,2,29.0,0.0,1.0,text,非通用装备（门派武学对应的武器种类+5种护甲+戒指 / 特殊药品（永久加成）+常规药品
+shop/门派商店数据.csv,27,天涯海阁门派,55,55,3.7,0.0,1.0,key/ref,还复膏 / 回气血5 / 归元散
+shop/门派商店数据.csv,28,,29,8,2.3,0.0,1.0,key/ref,天衍篇 / 单手轻刃 / 武器
+shop/门派商店数据.csv,29,,5,5,29.2,0.0,1.0,text,装配此卷的角色施展单手轻刃、扇法武学将获得额外5% / 装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外 / 装配此卷的角色持单手轻刃、扇法时外功攻击额外提升5
+shop/门派商店数据.csv,41,五圣教,6,4,38.2,0.0,1.0,text,门派宝阁 / 门派丹殿 / 装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外
+shop/门派商店数据.csv,43,,2,2,29.0,0.0,1.0,text,非通用装备（门派武学对应的武器种类+5种护甲+戒指 / 特殊药品（永久加成）+常规药品
+shop/门派商店数据.csv,46,,47,46,3.8,0.0,1.0,key/ref,还复膏 / 回气血5 / 镔铁双匕
+shop/门派商店数据.csv,47,,23,7,2.2,0.0,1.0,key/ref,天衍篇 / 武器 / 护腰
+shop/门派商店数据.csv,48,,5,4,27.8,0.0,1.0,text,装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外 / 装配此卷的角色内功攻击提升10%。 / 装配此卷的角色持绳镖、软鞭时外功和内功攻击额外提升
+sit/exit.csv,2,名称,1,1,4.0,0.0,1.0,key/ref,青萍酒铺
+skill2/Sheet1.csv,1,生存向,17,17,4.1,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+skill2/Sheet1.csv,2,气血上限,54,54,5.8,0.0,1.0,key/ref,人世·寒鹊卷 / 地覆·骄子卷 / 地覆·混元卷
+skill2/Sheet1.csv,3,防御,4,4,3.5,0.0,1.0,key/ref,河图 / 暴击 / 所属道具ID
+skill2/Sheet1.csv,4,体力,4,4,6.0,0.0,1.0,key/ref,洛书 / 攻击类型 / 秘术占用cost值（悟性值）
+skill2/Sheet1.csv,5,,52,52,26.8,0.0,1.0,text,装配此卷的角色每拥有1068点气血最大值，则提升外 / 装配此卷的角色外功防御提升10%。 / 装配此卷的角色施展单手轻刃、扇法武学将获得额外5%
+skill2/Sheet1.csv,6,,52,3,7.9,0.0,1.0,key/ref,"攻击力,0.10 / 秘术效果 / 游走最长距离"
+skill2/Sheet1.csv,7,,2,2,3.0,0.0,1.0,key/ref,图标 / 默认状态
+skill2/Sheet1.csv,8,,1,1,2.0,0.0,1.0,key/ref,所属
+skill2/Sheet1.csv,9,,1,1,4.0,0.0,1.0,key/ref,秘术分类
+skill2/Sheet1.csv,10,,1,1,3.0,0.0,1.0,key/ref,参数1
+skill2/Sheet1.csv,11,,51,49,29.6,0.0,1.0,text,海客谈瀛洲，烟涛微茫信难求。此乃东瀛流传而来的秘卷 / 以势镇，以形伏，破其一指，攻敌一线。 / 人世若梦，似虚如幻，唯固源守心，得气息在在，逍遥广
+skill2/mijuan.csv,6,篇章奖励,12,8,9.7,0.0,1.0,key/ref,"内劲增长,0.05 / 破防,0.05;真气上限,0.2 / 暴击,0.05"
+skill2/三才书属性加成.csv,5,,19,6,2.6,0.0,1.0,key/ref,绳镖 / 单手轻刃 / 拳掌
+skill2/三才书属性加成.csv,6,,18,6,2.0,0.0,1.0,key/ref,腿脚 / 长兵 / 软鞭
+skill2/三才书属性加成.csv,7,,3,1,2.0,0.0,1.0,key/ref,弓箭
+skill2/三才书特效.csv,2,秘术名称,3,3,6.0,0.0,1.0,key/ref,人世·不工卷 / 地覆·无垢卷 / 人世·悬壶卷
+skill2/三才书特效.csv,3,备注,3,3,33.0,0.0,1.0,remark,装配此卷的角色进入战斗后，治疗成效提升10%，此效 / 装配此卷的角色进入战斗后，防御力提升20%，造成的 / 装配此卷的角色进入战斗后，移动速度降低80点，造成
+skill2/密卷.csv,9,秘术效果文本备用,50,48,29.4,0.0,1.0,text,海客谈瀛洲，烟涛微茫信难求。此乃东瀛流传而来的秘卷 / 生当同衾，死亦同穴，缠绵入骨，情恨未了，五圣教前任 / 以势镇，以形伏，破其一指，攻敌一线。
+skill2/密卷.csv,11,秘术效果,50,1,8.0,0.0,1.0,key/ref,"攻击力,0.10"
+skill2/心决.csv,2,心诀名,11,11,2.0,0.0,1.0,key/ref,放词 / 鸳折 / 知秋
+skill2/心决.csv,6,描述,11,11,31.7,0.0,1.0,text,【穷途】触发时，立即重置招式【空余目】冷却CD。 / 施展招式【孤鸿照影】后，将获得buff：返鸾（返鸾 / 招式【空余目】释放时不再具有伤害，但对敌方的致盲时
+skill2/招式配置.csv,2,招式名,107,73,3.7,0.0,1.0,key/ref,蜿蜒九变 / 燕子冲霄 / 叶连天
+skill2/招式配置.csv,3,招式类型,107,2,2.0,0.0,1.0,key/ref,主动 / 被动
+skill2/招式配置.csv,11,tips,66,45,8.0,0.0,1.0,key/ref,飞蝗石八重开启 / 玉洁剑法八重开启 / 太和绵掌四重开启
+skill2/招式配置.csv,13,text,107,73,34.0,0.0,1.0,text,自然之辩：天人冥冥，自然感应，其造化之辩，非守一不 / 黑市快刀：快刀直起，骤然劈斩，造成{0}点伤害。【 / 九曲云龙现：施展枪回九曲时，每段伤害有30%概率打
+skill2/武学等级配置.csv,4,对应显示,430,10,4.8,0.0,1.0,key/ref,三重/十重 / 二重/十重 / 一重/十重
+skill2/武学等级配置.csv,10,备注,430,43,4.6,0.0,1.0,remark,抱元守一 / 猛獒拳（敌） / 飞蝗石
+skill2/武学配置.csv,2,武学名称,49,49,5.0,0.0,1.0,key/ref,通用武功(拳脚) / 通用武功(长兵) / 抱元守一
+skill2/武学配置.csv,3,武学级别,49,4,4.0,0.0,1.0,key/ref,上乘武学 / 进阶武学 / 一般武学
+skill2/武学配置.csv,4,武学类型,49,3,2.0,0.0,1.0,key/ref,内功 / 武功 / 轻功
+skill2/武学配置.csv,5,出处,49,10,3.7,0.0,0.9,key/ref,江湖武学 / 丐帮武学 / 姑苏楚家
+skill2/武学配置.csv,6,对应武器,33,11,2.3,0.0,0.82,key/ref,奇门-钝器 / 奇门-软兵 / 长兵
+skill2/武学配置.csv,9,招式中文,50,32,11.6,0.0,1.0,text,"横勾鞭,勾栏缠鞭 / 运气纳体,周天流转,不缚外物 / 莲花落,莲不息,无穷碧，叶连天"
+skill2/武学配置.csv,11,学习方法,47,3,4.0,0.0,1.0,key/ref,任务学习 / 秘籍学习 / 主线剧情学习
+skill2/武学配置.csv,12,武学描述,47,30,23.9,0.0,1.0,text,功法掌风劲力并非向前，而是向后，除非熄烛登榻，恐再 / 最适初习内功者，静感气脉之流转，吐纳之波息，实为夯 / 钟灵毓秀，自造化始，剑势慧颖，自灵犀起。
+skill/Sheet1.csv,1,生存向,17,17,4.1,0.0,1.0,key/ref,腿脚 / 绳镖 / 短兵
+skill/Sheet1.csv,2,气血上限,54,54,5.8,0.0,1.0,key/ref,人世·寒鹊卷 / 地覆·骄子卷 / 地覆·混元卷
+skill/Sheet1.csv,3,防御,4,4,3.5,0.0,1.0,key/ref,河图 / 暴击 / 所属道具ID
+skill/Sheet1.csv,4,体力,4,4,6.0,0.0,1.0,key/ref,洛书 / 攻击类型 / 秘术占用cost值（悟性值）
+skill/Sheet1.csv,5,,52,52,26.8,0.0,1.0,text,装配此卷的角色每拥有1068点气血最大值，则提升外 / 装配此卷的角色外功防御提升10%。 / 装配此卷的角色施展单手轻刃、扇法武学将获得额外5%
+skill/Sheet1.csv,6,,52,3,7.9,0.0,1.0,key/ref,"攻击力,0.10 / 秘术效果 / 游走最长距离"
+skill/Sheet1.csv,7,,2,2,3.0,0.0,1.0,key/ref,图标 / 默认状态
+skill/Sheet1.csv,8,,1,1,2.0,0.0,1.0,key/ref,所属
+skill/Sheet1.csv,9,,1,1,4.0,0.0,1.0,key/ref,秘术分类
+skill/Sheet1.csv,10,,1,1,3.0,0.0,1.0,key/ref,参数1
+skill/Sheet1.csv,11,,51,49,29.6,0.0,1.0,text,海客谈瀛洲，烟涛微茫信难求。此乃东瀛流传而来的秘卷 / 以势镇，以形伏，破其一指，攻敌一线。 / 人世若梦，似虚如幻，唯固源守心，得气息在在，逍遥广
+skill/mijuan.csv,2,篇章名称,15,15,6.0,0.0,0.0,name,人书·县车篇 / 天书·晨明篇 / 人书·高舂篇
+skill/mijuan.csv,5,篇章奖励描述,15,9,7.4,0.0,0.22,param,攻击力提升5% / 体力上限提升5% / 内劲增长提升5%
+skill/mijuan.csv,6,篇章奖励,12,8,9.7,0.0,1.0,key/ref,"内劲增长,0.05 / 破防,0.05;真气上限,0.2 / 暴击,0.05"
+skill/mijuan.csv,8,描述,15,1,10.0,0.0,0.0,text,天行健，君子自强不息
+skill/三才书属性加成.csv,2,秘术名称,50,50,6.0,0.0,1.0,key/ref,人世·寒鹊卷 / 地覆·骄子卷 / 地覆·混元卷
+skill/三才书属性加成.csv,4,备注,50,49,25.3,0.0,1.0,remark,装配此卷的角色外功防御提升10%。 / 装配此卷的角色体力恢复额外提升20% / 装配此卷的角色气血恢复额外提升10%
+skill/三才书属性加成.csv,5,,19,6,2.6,0.0,1.0,key/ref,绳镖 / 单手轻刃 / 拳掌
+skill/三才书属性加成.csv,6,,18,6,2.0,0.0,1.0,key/ref,腿脚 / 长兵 / 软鞭
+skill/三才书属性加成.csv,7,,3,1,2.0,0.0,1.0,key/ref,弓箭
+skill/三才书特效.csv,2,秘术名称,3,3,6.0,0.0,1.0,key/ref,人世·不工卷 / 地覆·无垢卷 / 人世·悬壶卷
+skill/三才书特效.csv,3,备注,3,3,33.0,0.0,1.0,remark,装配此卷的角色进入战斗后，治疗成效提升10%，此效 / 装配此卷的角色进入战斗后，防御力提升20%，造成的 / 装配此卷的角色进入战斗后，移动速度降低80点，造成
+skill/密卷.csv,2,秘术名称,50,50,6.0,0.0,1.0,key/ref,人世·寒鹊卷 / 地覆·骄子卷 / 地覆·混元卷
+skill/密卷.csv,4,秘术效果文本,50,49,25.3,0.0,1.0,text,装配此卷的角色外功防御提升10%。 / 装配此卷的角色体力恢复额外提升20% / 装配此卷的角色气血恢复额外提升10%
+skill/密卷.csv,9,秘术效果文本备用,50,48,29.4,0.0,1.0,text,海客谈瀛洲，烟涛微茫信难求。此乃东瀛流传而来的秘卷 / 生当同衾，死亦同穴，缠绵入骨，情恨未了，五圣教前任 / 以势镇，以形伏，破其一指，攻敌一线。
+skill/密卷.csv,11,秘术效果,50,1,8.0,0.0,1.0,key/ref,"攻击力,0.10"
+skill/心决.csv,2,心诀名,11,11,2.0,0.0,1.0,key/ref,放词 / 鸳折 / 知秋
+skill/心决.csv,6,描述,11,11,31.7,0.0,1.0,text,【穷途】触发时，立即重置招式【空余目】冷却CD。 / 施展招式【孤鸿照影】后，将获得buff：返鸾（返鸾 / 招式【空余目】释放时不再具有伤害，但对敌方的致盲时
+skill/招式配置.csv,2,招式名,107,73,3.7,0.0,1.0,key/ref,蜿蜒九变 / 燕子冲霄 / 叶连天
+skill/招式配置.csv,3,招式类型,107,2,2.0,0.0,1.0,key/ref,主动 / 被动
+skill/招式配置.csv,11,tips,66,45,8.0,0.0,1.0,key/ref,飞蝗石八重开启 / 玉洁剑法八重开启 / 太和绵掌四重开启
+skill/招式配置.csv,13,text,107,73,34.0,0.0,1.0,text,自然之辩：天人冥冥，自然感应，其造化之辩，非守一不 / 黑市快刀：快刀直起，骤然劈斩，造成{0}点伤害。【 / 九曲云龙现：施展枪回九曲时，每段伤害有30%概率打
+skill/武学等级配置.csv,4,对应显示,430,10,4.8,0.0,1.0,key/ref,三重/十重 / 二重/十重 / 一重/十重
+skill/武学等级配置.csv,10,备注,430,43,4.6,0.0,1.0,remark,抱元守一 / 猛獒拳（敌） / 飞蝗石
+skill/武学配置.csv,2,武学名称,49,49,5.0,0.0,1.0,key/ref,通用武功(拳脚) / 通用武功(长兵) / 抱元守一
+skill/武学配置.csv,3,武学级别,49,4,4.0,0.0,1.0,key/ref,上乘武学 / 进阶武学 / 一般武学
+skill/武学配置.csv,4,武学类型,49,3,2.0,0.0,1.0,key/ref,内功 / 武功 / 轻功
+skill/武学配置.csv,5,出处,49,10,3.7,0.0,0.9,key/ref,江湖武学 / 丐帮武学 / 姑苏楚家
+skill/武学配置.csv,6,对应武器,33,11,2.3,0.0,0.82,key/ref,奇门-钝器 / 奇门-软兵 / 长兵
+skill/武学配置.csv,9,招式中文,50,32,11.6,0.0,1.0,text,"横勾鞭,勾栏缠鞭 / 运气纳体,周天流转,不缚外物 / 莲花落,莲不息,无穷碧，叶连天"
+skill/武学配置.csv,11,学习方法,47,3,4.0,0.0,1.0,key/ref,任务学习 / 秘籍学习 / 主线剧情学习
+skill/武学配置.csv,12,武学描述,47,30,23.9,0.0,1.0,text,功法掌风劲力并非向前，而是向后，除非熄烛登榻，恐再 / 最适初习内功者，静感气脉之流转，吐纳之波息，实为夯 / 钟灵毓秀，自造化始，剑势慧颖，自灵犀起。
+skillgrow/Sheet1.csv,5,效果,699,22,11.0,0.0,0.09,text,外功攻击+403;内功攻击+403 / 气血上限+6015 / 外功攻击+5;内功攻击+5
+skillgrow/Sheet1.csv,7,备注,836,70,4.6,0.0,1.0,remark,流缶金绳镖 / 太虚无极劲 / 悟玄参契
+skillgrow/Sheet1.csv,8,,317,244,3.6,0.0,1.0,key/ref,啸傲湖山 / 虚实相生 / 长亭寒
+skillgrow/Sheet1.csv,10,,366,12,7.2,0.0,0.17,param,外功攻击+503 / 外功攻击+27 / 外功攻击+5
+skillgrow/Sheet1.csv,11,,330,10,7.2,0.0,0.0,param,内功攻击+403 / 内功攻击+249 / 内功攻击+125
+skillgrow/Sheet2.csv,5,0,419,43,6.8,0.0,0.19,param,内功攻击+250 / 速度+80 / 气血上限+122
+skin/skin.csv,2,道具名称,1,1,2.0,0.0,0.0,name,素衣
+skin/skin.csv,3,装备位置,1,1,2.0,0.0,1.0,key/ref,衣服
+skin/skin.csv,5,性别限制,1,1,1.0,0.0,0.0,name,男
+skin/skin.csv,7,描述,1,1,33.0,0.0,0.0,text,小钰所赠衣袍，内衬针脚细密，衣衫内衬绣了株与衣着浑
+weather/sceneweather.csv,2,地图名,182,158,4.9,0.0,0.86,key/ref,长安帮派密室下 / 东瀛 / 自创大理帮派仓库下
+weather/weather.csv,2,类型,5,5,2.2,0.0,0.4,name,雨天 / 雪天 / 雾天
+任务标签/任务标签.csv,2,标签名称,6,6,4.0,0.0,0.0,name,情字难舍 / 人物志 / 营生委托
+地图表/MapConfig.csv,2,地图名称,193,126,4.3,0.0,0.9,key/ref,东瀛 / 大理帮派 / 千寻塔顶
+地图表/MapConfig.csv,3,地点备注,193,171,4.8,0.0,0.88,remark,长安帮派密室下 / 东瀛 / 千寻塔顶
+天赋/Talent.csv,2,天赋名称,3,3,4.0,0.0,0.0,name,诸相江湖 / 玲珑剔透 / 市井出身
+天赋/Talent.csv,3,天赋文本,3,3,20.7,0.0,0.0,text,此人出身市井，身手矫健，身法属性提升1% / 渺渺红尘，江湖踏足，武力属性提升5%。 / 此人心窍玲珑剔透，悟性高超，内息属性提升2%。
+天赋/Talent.csv,4,天赋效果,3,3,8.3,0.0,0.0,text,内息属性提升2%。 / 武力属性提升5% / 身法属性提升1%
+奖励组/任务清单.csv,1,所属剧情章节,718,17,3.1,0.0,0.94,key/ref,适用所有剧情 / 桃花坞 / 隋东关
+奖励组/任务清单.csv,3,name,718,691,6.3,0.0,0.74,key/ref,狼毫未归C / 民变在即（沈梦秋-7） / 何必见戴-猎户
+奖励组/任务清单.csv,4,奖励分层,1,1,4.0,0.0,0.0,name,随机武器
+奖励组/任务清单.csv,5,,115,1,15.0,0.0,0.0,text,已弃用，仍作留存处理，避免报错
+姓名库/女名.csv,1,女名,1395,1395,1.9,0.0,0.9,key/ref,书竹 / 南珍 / 半雪
+姓名库/姓名库.csv,1,surnam,353,351,1.1,0.0,0.04,name,卫 / 朱 / 公冶
+姓名库/姓名库.csv,2,male,1422,1422,1.9,0.0,0.89,key/ref,泰然 / 德厚 / 冠玉
+姓名库/姓名库.csv,3,female,1395,1395,1.9,0.0,0.9,key/ref,书竹 / 南珍 / 半雪
+姓名库/男名.csv,1,男名,1422,1422,1.9,0.0,0.89,key/ref,泰然 / 德厚 / 冠玉
+引导表/Guide.csv,2,备注,35,31,6.1,0.0,0.0,remark,学习武功结束 / 战斗托管技能强指引 / 打开宝箱结束
+引导表/Guide.csv,12,提示文本,56,3,9.0,0.0,0.0,name,点击黄色高亮处执行 / 点击高亮地点开始移动 / 点击白色高亮处执行
+战斗场景/战斗场景.csv,3,场景中文名,101,99,7.5,0.0,0.02,param,室外_街头_村庄_1 / 龙门荒漠圣火窟3 / 室外_索道桥头_1
+战斗场景资源/战斗场景资源.csv,2,资源名,85,70,4.3,0.0,0.09,asset-ref,囚车 / 草垛 / 桌子1.1_d
+战斗场景资源/战斗场景资源.csv,3,备注,84,9,3.3,0.0,0.11,remark,天涯海阁木楼 / 森林 / 连环寨前厅
+战斗属性计算公式/JingJieLv.csv,3,名称,300,30,5.2,0.0,0.57,key/ref,绳镖系数 / 天龙披山防御系数 / 短兵系数
+战斗属性计算公式/JingJieLv.csv,6,,180,18,4.2,0.0,0.94,key/ref,绳镖系数 / 护盾系数 / 短兵系数
+战斗属性计算公式/境界等级系数.csv,3,名称,110,11,10.4,0.0,0.0,text,内息攻击境界等级系数 / 内息防御境界等级系数 / 筋骨暴击减免境界等级系数
+战斗属性计算公式/境界等级系数.csv,16,,11,11,7.8,0.0,0.0,param,10：修为悟性境界等级系数 / 8：身法暴击伤害 / 2：内息攻击
+战斗属性计算公式/战斗属性计算公式.csv,1,战斗属性,20,20,3.4,0.0,1.0,key/ref,体力上限 / 内功防御 / 气血恢复
+战斗属性计算公式/战斗属性计算公式.csv,2,备注,6,6,10.7,0.0,0.0,remark,这里表示内径增长百分点 / 每秒恢复N点体力 / 每秒恢复N点气血
+战斗属性计算公式/战斗属性计算公式.csv,3,计算公式,13,13,12.1,0.0,0.08,text,筋骨*筋骨暴击减免境界等级系数 / 身法*身法暴击境界等级系数 / 身法*身法暴击伤害境界等级系数
+战斗脚本/战斗脚本.csv,2,所属脚本id,1,1,4.0,0.0,0.0,name,脚本id
+战斗脚本/战斗脚本.csv,4,备注,1,1,13.0,0.0,0.0,remark,等待3秒，等最后一句话说完
+战斗脚本/战斗脚本.csv,5,执行条件,2,2,24.0,0.0,0.0,text,"血量百分比小于等于:0,0 / 死亡:1100002,1100010,110001"
+战斗脚本/战斗脚本.csv,6,执行动作,10,9,35.6,0.0,0.0,text,恢复;恢复AI:1100003; / 恢复;暂停AI:1100003;恢复AI:1100 / 暂停;主角死亡不能结束游戏:1
+战斗脚本/战斗脚本.csv,8,对话,7,7,15.9,0.0,0.0,text,与你等将死之人，何须多言。 / ……阁下何人? / 能无声无息潜入至此，确为高手……
+秘术/Sorcery.csv,2,秘术名称,3,3,3.7,0.0,0.33,name,青山剑意 / 不动如山 / 逍遥游
+秘术/Sorcery.csv,4,秘术效果文本,3,3,24.3,0.0,0.0,text,水击三千，扶摇九万里，谓之逍遥，提升角色10%身法 / 渊渟岳峙，不动如山，提升角色5%防御力。 / 青山若剑，观青山而悟，剑意朗朗，提升1%剑法伤害。
+秘术/Sorcery.csv,7,获取方式,3,2,4.0,0.0,0.0,name,任务获取 / 任务获得
+秘术/Sorcery.csv,8,秘术分类,3,3,4.3,0.0,0.0,name,属性加成类 / 技能加成类 / 防御类
+羁绊/fetter.csv,2,羁绊名称,2,2,3.5,0.0,0.0,name,羡姊之意 / 霖玲心
+羁绊/fetter.csv,4,羁绊文本,2,2,24.5,0.0,0.0,text,楚林灵与小七共同上阵时，楚林玲内力最大值提升5% / 小七与楚林灵共同上阵时，小七造成的所有伤害提升3%
+羁绊/fetter.csv,5,羁绊效果,2,2,18.0,0.0,0.0,text,13000135造成的所有伤害提升3% / 12000127内力最大值提升5%
+色值相关/境界.csv,2,name,20,20,4.0,0.0,0.45,name,了然于胸 / 一代宗师 / 粗通皮毛
+色值相关/装备品质.csv,2,name,7,7,1.0,0.0,0.0,name,白 / 橙 / 蓝
+装备随机掉落配置/Sheet1.csv,4,,15,11,6.0,0.0,1.0,key/ref,天衍·泄玉卷 / 天衍·夕落卷 / 天衍·敛瀑卷
+装备随机掉落配置/Sheet1.csv,5,,15,3,2.0,0.0,1.0,key/ref,太和 / 海阁 / 五圣
+装备随机掉落配置/Sheet1.csv,7,,9,9,5.0,0.0,1.0,key/ref,连环寨困难 / 桃花坞困难 / 五圣教普通
+装备随机掉落配置/Sheet1.csv,12,,4,4,5.5,0.0,0.25,name,剧情战斗填充 / 副本 / 副本装备掉落
+装备随机掉落配置/Sheet1.csv,14,,28,21,4.4,0.0,0.43,name,装备 / 副本 净蛊天池 / 桃花坞难度2
+装备随机掉落配置/Sheet1.csv,21,,43,37,6.0,0.0,1.0,key/ref,人世·寒鹊卷 / 地覆·骄子卷 / 地覆·混元卷
+装备随机掉落配置/Sheet1.csv,22,,10,3,2.0,0.0,1.0,key/ref,太和 / 海阁 / 五圣
+装备随机掉落配置/Sheet2.csv,2,,44,36,6.0,0.0,1.0,key/ref,人世·寒鹊卷 / 地覆·骄子卷 / 地覆·混元卷
+装备随机掉落配置/Sheet2.csv,3,,18,3,2.0,0.0,1.0,key/ref,太和 / 海阁 / 五圣
+装备随机掉落配置/Sheet2.csv,10,道具名,795,452,5.2,0.0,0.99,key/ref,流构 / 洛神踏雪步（下册） / 锋狩控弦决（下册）
+装备随机掉落配置/Sheet2.csv,14,,83,83,2.0,0.0,0.95,key/ref,流构 / 漫堤 / 雨绻
+装备随机掉落配置/Sheet2.csv,17,,114,113,2.0,0.0,0.96,key/ref,流构 / 漫堤 / 雨绻
+装备随机掉落配置/掉落基础配置.csv,8,道具名称,2787,516,3.6,0.0,0.97,key/ref,流构 / 山水画扇锻造配方 / 朝天蛤蟆口
+装备随机掉落配置/掉落基础配置.csv,9,,558,2,4.0,0.0,1.0,key/ref,（下册） / （上册）
+装备随机掉落配置/掉落基础配置.csv,10,类别,2633,18,2.3,0.0,0.89,key/ref,心决 / 杂物 / 秘籍
+装备随机掉落配置/掉落基础配置.csv,12,,2540,11,4.8,0.0,0.91,key/ref,连环寨困难 / 桃花坞困难 / 五圣教普通
+装备随机掉落配置/掉落基础配置.csv,17,,30,30,8.7,0.0,1.0,key/ref,醉饮降龙无双式（下册） / 洛神踏雪步（下册） / 霸王卸甲（下册）
+装备随机掉落配置/掉落基础配置.csv,19,,8,7,2.9,0.0,1.0,key/ref,心决 / 秘籍 / 三才书
+装备随机掉落配置/掉落基础配置.csv,20,,9,9,3.6,0.0,0.89,key/ref,心决 / 秘籍 / 占比
+装备随机掉落配置/掉落基础配置.csv,21,,7,7,7.9,0.0,0.71,key/ref,数量 / 秘籍 / 纯秘籍：0.12681128789544
+装备随机掉落配置/掉落基础配置.csv,22,,4,4,3.2,0.0,0.75,key/ref,药品杂项 / 数量 / 占比/数量
+装备随机掉落配置/掉落基础配置.csv,23,,4,4,3.2,0.0,1.0,key/ref,区间值 / 占比/数量 / 三才书
+装备随机掉落配置/掉落基础配置.csv,24,,4,4,2.2,0.0,1.0,key/ref,心诀 / 系数 / 区间值
+装备随机掉落配置/掉落基础配置.csv,25,,2,2,2.0,0.0,1.0,key/ref,心决 / 系数
+角色动作配置/角色动作配置.csv,1,动作状态名称,92,92,10.7,0.0,0.55,text,anqi/格挡 / chanchu/闪避 / zhongren/前闪避
+角色动作配置/角色动作配置.csv,2,备注,363,248,9.4,0.0,0.25,remark,短兵的通用技能2 / 绳镖的重击 B招 有残影 / 腿脚的普攻 三段 A3
+角色战斗AI/角色战斗AI.csv,2,备注,51,51,20.7,0.0,0.0,remark,双手轻刃AI战斗智力>=66 / 沧海观澜刀法 剑法3 AI 高水平 战斗智力>=6 / 重刃1 AI战斗智力>=66
+角色战斗AI/角色战斗AI.csv,19,后跳技能,51,15,9.2,0.0,0.93,key/ref,tui/闪避 / quan/闪避 / gongjian/闪避
+角色战斗基础配置/角色战斗基础配置.csv,2,备注,1,1,16.0,0.0,0.0,remark,战斗中体力、内劲、真气等基础配置
+角色战斗基础配置/角色战斗基础配置.csv,3,主角战斗中自带buff(1. 伤害保护  2. 受击动画保护,1,1,21.0,0.0,0.0,asset-ref,"伤害保护,5,0.3;受击动画保护,6,3"
+资源采集/collect.csv,2,资源点名称,491,16,2.8,0.0,1.0,asset-ref,枯枝堆 / 天麻草 / 青石
+资源采集/collect.csv,3,资源点类型,491,4,2.1,0.0,0.5,asset-ref,矿石 / 碎木 / 花草
+资源采集/collect.csv,7,可采集物品1,492,21,21.3,0.0,0.0,text,野花*1-几率100% / 采集1备注 / 矿石*1-几率30%，\n铁矿石*1-几率30%，
+资源采集/collect.csv,8,可采集物品2,492,2,28.0,0.0,0.0,text,"采集2备注 / 修为*1-60%，\n修为*2-5%,\n修为*3"
+门派表/party.csv,2,门派名称,8,8,3.2,0.0,1.0,key/ref,大旗门 / 无门无派 / 大雪山
+门派表/sect.csv,3,名称,28,7,3.1,0.0,1.0,key/ref,大旗门 / 大雪山 / 五圣教
+门派表/sect.csv,5,位阶名称,28,1,1.0,0.0,0.0,name,无
+飞行道具伤害表/飞行道具伤害表.csv,2,名字,88,84,11.0,0.0,0.3,text,拔刀武学2技能1 / 火枪技能1 / 火枪技能4落地爆炸
+飞行道具伤害表/飞行道具伤害表.csv,3,公式,55,30,38.4,0.0,0.44,text,((1+武力*暗器系数*5*0.5)*(1.5/( / ((1+武力*扇子系数*40*0.5)*(1/(1 / 外功攻击*1.8
+飞行道具伤害表/飞行道具伤害表.csv,4,公式2,35,17,38.4,0.0,0.33,text,内功攻击*0.7 / ((1+内息*扇子系数*5*0.5)*(1.5/( / ((1+内息*暗器系数*2*0.5)*(1.0/(

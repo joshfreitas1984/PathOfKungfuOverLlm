@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>FanslationStudio.PathOfKungfu.Plugin</AssemblyName>
+    <Product>Path of Kung Fu English Patch</Product>
+    <Version>1.0.0</Version>
+    <Authors>joshfreitas1984</Authors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>PathOfKungfuPlugin</RootNamespace>
+
+    <!-- Local dev convenience: PostBuild copies the DLL into the installed game's BepInEx/plugins and
+         into the ReleaseFolder staging area used by "7. Package Release". Override on another machine. -->
+    <GameRoot>G:\SteamLibrary\steamapps\common\The road of Jianghu</GameRoot>
+    <GameDir>$(GameRoot)\BepInEx\plugins</GameDir>
+    <ReleaseFolder>$(GameRoot)\ReleaseFolder\Files\BepInEx\plugins</ReleaseFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2021.3.16" IncludeAssets="compile" PrivateAssets="all" />
+  </ItemGroup>
+
+  <!-- Game assemblies straight from the installed game's Managed folder (plain Mono IL). -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameRoot)\daojianjianghulu_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Used by the dumper to read the game's own .xlsx files and write the manifest. -->
+    <Reference Include="MiniExcel">
+      <HintPath>$(GameRoot)\daojianjianghulu_Data\Managed\MiniExcel.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(GameRoot)\daojianjianghulu_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="Build" Condition="'$(CI)' != 'true'">
+    <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFolder="$(GameDir)" ContinueOnError="true" />
+    <Copy SourceFiles="$(TargetDir)$(TargetName)$(TargetExt)" DestinationFolder="$(ReleaseFolder)" ContinueOnError="true" />
+  </Target>
+
+</Project>

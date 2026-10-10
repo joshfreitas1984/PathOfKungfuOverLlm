@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Converted\" />
+    <Folder Include="Glossary\" />
+    <Folder Include="Mod\" />
+    <Folder Include="Prompts\" />
+    <Folder Include="Raw\Dumped\" />
+    <Folder Include="Raw\Export\" />
+    <Folder Include="TestResults\" />
+  </ItemGroup>
+
+</Project>

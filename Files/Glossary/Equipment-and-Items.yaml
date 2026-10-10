@@ -1,0 +1,58 @@
+# Equipment slots, item categories and currency.
+
+# Equipment slots
+
+- raw: "项链"
+  result: "Necklace"
+- raw: "武器"
+  result: "Weapon"
+- raw: "护臂"
+  result: "Bracers"
+- raw: "坠饰"
+  result: "Pendant"
+- raw: "外装"
+  result: "Outfit"
+- raw: "戒指"
+  result: "Ring"
+- raw: "护甲"
+  result: "Armor"
+- raw: "护腰"
+  result: "Waist Guard"
+- raw: "护腿"
+  result: "Leg Guards"
+- raw: "防具"
+  result: "Armor Gear"
+
+# Item categories
+
+- raw: "装备"
+  result: "Equipment"
+- raw: "药品"
+  result: "Medicine"
+- raw: "食物"
+  result: "Food"
+- raw: "艺能"
+  result: "Crafts"
+- raw: "秘籍"
+  result: "Manual"
+- raw: "材料"
+  result: "Materials"
+- raw: "毒药"
+  result: "Poison"
+- raw: "行囊"
+  result: "Pack"
+- raw: "仓库"
+  result: "Warehouse"
+
+# Currency and trade
+
+- raw: "银两"
+  result: "Silver"
+- raw: "银钱"
+  result: "Silver"
+- raw: "购买"
+  result: "Buy"
+- raw: "出售"
+  result: "Sell"
+- raw: "批量出售"
+  result: "Bulk Sell"

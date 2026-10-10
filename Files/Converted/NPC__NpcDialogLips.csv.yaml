@@ -1,0 +1,4484 @@
+- raw: "1,ID,名称,显示参数,显示条件,显示值,执行参数,执行条件,执行值,不满足提示,方法,概率,,,CD时间,成功参数,成功赋值,失败参数,失败赋值,成功对话ID,失败对话ID,战斗胜利对话ID,战斗失败对话ID,限制次数,限制恢复CD,受限提示,特殊参数,成功提示,失败提示"
+  splits:
+  - split: 2
+    text: "名称"
+  - split: 9
+    text: "不满足提示"
+  - split: 25
+    text: "受限提示"
+  - split: 27
+    text: "成功提示"
+  - split: 28
+    text: "失败提示"
+- raw: "2,id,name,param,term,value,eParam,eTerm,eValue,lipsTips,fun,mathP,mathN,battle,cdTime,succParam,succValue,failParam,failValue,succDialog,failDialog,succAttackDialog,failAttackDialog,count,regainTime,RestrictTips,tsParam,succTips,failTips"
+- raw: "3,30,浏览货品,touchId,//,1110003002,,,,,Shop12001,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "浏览货品"
+- raw: "4,31,浏览货品,touchId,//,1110002005,,,,,Shop12002,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "浏览货品"
+- raw: "5,32,浏览货品,touchId,//,1110003006,,,,,Shop12003,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "浏览货品"
+- raw: "6,33,浏览货品,touchId,//,1110003007,,,,,Shop12004,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "浏览货品"
+- raw: "7,34,浏览货品,touchId,//,1110002009,,,,,Shop12005,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "浏览货品"
+- raw: "8,36,浏览货品,,,,,,,,Shop12002,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "浏览货品"
+- raw: "9,37,睡到某时,,,,,,,,Sleep,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "睡到某时"
+- raw: "10,38,睡到天亮,,,,,,,,SleepDawn,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "睡到天亮"
+- raw: "11,39,武馆交易,,,,,,,,\"GymsShop,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "武馆交易"
+- raw: "12,40,上门踢馆,,,,,,,,,100,,,0,,,,,112,,,,1,7200,阁下近日已挑战过此处，且待五日后再来为好。,,,"
+  splits:
+  - split: 2
+    text: "上门踢馆"
+  - split: 25
+    text: "阁下近日已挑战过此处，且待五日后再来为好。"
+- raw: "13,41,开始挑战,,,,,,,,GymsBattle3,100,,,0,,,,,,,113,116,1000,,,,,"
+  splits:
+  - split: 2
+    text: "开始挑战"
+- raw: "14,42,开始挑战,,,,,,,,GymsBattle2,100,,,0,,,,,,,114,116,1000,,,,,"
+  splits:
+  - split: 2
+    text: "开始挑战"
+- raw: "15,43,开始挑战,,,,,,,,GymsBattle1,100,,,0,,,,,,,115,116,1000,,,,,"
+  splits:
+  - split: 2
+    text: "开始挑战"
+- raw: "16,44,夺取武馆,,,,,,,,GymsOwn,100,,,0,,,,,119,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "夺取武馆"
+- raw: "17,45,礼貌离开,,,,,,,,,100,,,0,\"PlayerLove(),1000+\",\"30+,sliver\",,,120,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "礼貌离开"
+- raw: "18,46,接受挑战,,,,,,,,GymsBattle4,100,,,0,,,,,,,117,118,1000,,,,,"
+  splits:
+  - split: 2
+    text: "接受挑战"
+- raw: "19,47,无奈离开,,,,,,,,\"GymsLose,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "无奈离开"
+- raw: "20,48,赶走挑战者,,,,,,,,\"GymsKeep,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "赶走挑战者"
+- raw: "21,49, 武馆交易（免费）,gymsOwnerId,//,1,,,,,\"GymsShop,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "武馆交易（免费）"
+  templates:
+  - split: 2
+    template: " {0}"
+- raw: "22,50,调整武馆镇守,gymsOwnerId,//,1,gymsDefierId,//,0,正有挑战者来犯,GymsGuardSet,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "调整武馆镇守"
+  - split: 9
+    text: "正有挑战者来犯"
+- raw: "23,51,召回同伴,,,,,,,,\"GymsGuardRemove,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "召回同伴"
+- raw: "24,60,打探行踪,,,,,,,,NpcSrcout,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "打探行踪"
+- raw: "25,61,取消委托,,,,,,,,NpcSrcoutRemove,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取消委托"
+- raw: "26,100,随心畅谈,\"age,state\",\">,!/\",\"9,2\",love,>,-31,需好感度≥-30,,100,,,0,,,,,1001,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "随心畅谈"
+  - split: 9
+    text: "需好感度≥"
+  templates:
+  - split: 9
+    template: "{0}-30"
+- raw: "27,200,礼尚往来,\"age,state\",\">,!/\",\"9,2\",love,>,-31,需好感度≥-30,,100,,,0,,,,,2001,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "礼尚往来"
+  - split: 9
+    text: "需好感度≥"
+  templates:
+  - split: 9
+    template: "{0}-30"
+- raw: "28,300,图谋不轨,\"age,JiaoQing<FuMu>\",\">,!/\",\"9,1\",,,,,,100,,,0,,,,,3001,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "图谋不轨"
+- raw: "29,400,江湖结缘,\"age,state,JiaoQing<FuMu>\",\">,!/,!/\",\"9,2,1\",,,,,,100,,,0,,,,,4001,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "江湖结缘"
+- raw: "30,700,技艺武学,\"age,state\",\">,!/\",\"13,2\",,,,,,100,,,0,,,,,7001,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "技艺武学"
+- raw: "31,500,暂且离去,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "32,600,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "33,601,返回,,,,,,,,ReturnBack,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "34,110,简单问候,love,<,20,4,<,SP,精力值不足,CutTo你二人简问互答，诉近日之见闻，相谈甚欢……,100,,,0,\"PlayerLove(),5-\",\"1+,LessenSP()\",,,1101,,,,1,1440,今日已经问候过此人，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "简单问候"
+  - split: 9
+    text: "精力值不足"
+  - split: 25
+    text: "今日已经问候过此人，不妨十二时辰之后再来。"
+- raw: "35,111,简单问候,love,<,0,,,,,CutTo你二人简问互答，诉近日之见闻，相谈甚欢……,100,,,0,\"PlayerLove(),10-\",\"3+,LessenSP()\",,,1101,,,,1,1440,今日已经问候过此人，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "简单问候"
+  - split: 25
+    text: "今日已经问候过此人，不妨十二时辰之后再来。"
+- raw: "36,120,畅谈心事,love,>,19,9,<,SP,精力值不足,CutTo你与其言语互诉，置腹畅谈，言语酣畅，不觉内心大慰。,80,,,0,\"PlayerLove(),10-\",\"2+,LessenSP()\",10-,LessenSP(),1201,1202,,,2,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "畅谈心事"
+  - split: 9
+    text: "精力值不足"
+  - split: 25
+    text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+- raw: "37,121,畅谈心事,,,,,,,,,50,,,0,\"PlayerLove(),10-\",\"1+,LessenSP()\",10-,LessenSP(),1201,1202,,,2,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "畅谈心事"
+  - split: 25
+    text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+- raw: "38,130,探讨武学,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,attribute,attribute,,0,\"PlayerLove(),10-,xiuWei,10+\",\"5+,LessenSP(),10+,xiuWei\",10-,LessenSP(),1301,1302,,,1,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "探讨武学"
+  - split: 9
+    text: "境界需至少与对方相当"
+  - split: 25
+    text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+- raw: "39,131,探讨武学,attribute,<,attribute,\"love,9\",\">,<\",\"29,SP\",\"需好感度≥30,精力值不足\",CutTo你与其言语互诉，摹武假演，为其讲述此招武学之精意……,attribute,attribute,,0,\"PlayerLove(),10-,xiuWei,10+\",\"5+,LessenSP(),10+,xiuWei\",10-,LessenSP(),1301,1302,,,1,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "探讨武学"
+  - split: 9
+    text: "需好感度≥30"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 25
+    text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "40,132,探讨武学,attribute,//,attribute,\"love,9\",\">,<\",\"29,SP\",\"需好感度≥30,精力值不足\",CutTo你与其言语互诉，摹武假演，为其讲述此招武学之精意……,attribute,attribute,,0,\"PlayerLove(),10-,xiuWei,10+\",\"5+,LessenSP(),10+,xiuWei\",10-,LessenSP(),1301,1302,,,1,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "探讨武学"
+  - split: 9
+    text: "需好感度≥30"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 25
+    text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "41,210,赠送道具（每5日可赠一次）,,,,29,<,SP,精力值不足,GiveItem,100,,,0,,,,,,,,,1,7200,礼尚往来不宜多，莫以钱财论知音。,,,"
+  splits:
+  - split: 2
+    text: "赠送道具（每5日可赠一次）"
+  - split: 9
+    text: "精力值不足"
+  - split: 25
+    text: "礼尚往来不宜多，莫以钱财论知音。"
+- raw: "42,10003,择物相赠,,,,,,,,,100,,,0,\"30-,1+\",\"LessenSP(),friendsSan\",30-,LessenSP(),2101,2102,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "择物相赠"
+- raw: "43,220,求取物品,,,,\"love,9\",\">,<\",\"24,SP\",\"需好感度≥25,精力值不足\",ShowItem,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取物品"
+  - split: 9
+    text: "需好感度≥25"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "44,221,求取物品,,,,,,,,,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取物品"
+- raw: "45,10002,求取成功后判断,,,,,,,,,50,,,0,10-,LessenSP(),10-,LessenSP(),2201,2202,,,1000,,,\"1,5,8,10,20,40,80\",,"
+  splits:
+  - split: 2
+    text: "求取成功后判断"
+- raw: "46,230,求取银两,,,,\"love,9\",\">,<\",\"39,SP\",\"需好感度≥40,精力值不足\",,100,,,0,,,,,2301,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取银两"
+  - split: 9
+    text: "需好感度≥40"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "47,234,求取银两,,,,,,,好感度不足,,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取银两"
+  - split: 9
+    text: "好感度不足"
+- raw: "48,231,求取纹银1两,,,,\"9,goldCoin\",\"<,>\",\"SP,999\",\"精力值不足,对方金钱不足\",,70,,,0,\"PlayerLove(),goldCoin,1000+,10-\",\"10-,1000-,sliver,LessenSP()\",10-,LessenSP(),2311,2312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取纹银1两"
+  - split: 9
+    text: "精力值不足"
+  - split: 9
+    subIndex: 1
+    text: "对方金钱不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "49,232,求取纹银5两,,,,\"9,goldCoin\",\"<,>\",\"SP,4999\",\"精力值不足,对方金钱不足\",,50,,,0,\"PlayerLove(),goldCoin,5000+,10-\",\"20-,5000-,sliver,LessenSP()\",10-,LessenSP(),2311,2312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取纹银5两"
+  - split: 9
+    text: "精力值不足"
+  - split: 9
+    subIndex: 1
+    text: "对方金钱不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "50,233,求取纹银10两,,,,\"9,goldCoin\",\"<,>\",\"SP,9999\",\"精力值不足,对方金钱不足\",,30,,,0,\"PlayerLove(),goldCoin,10000+,10-\",\"30-,10000-,sliver,LessenSP()\",10-,LessenSP(),2311,2312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取纹银10两"
+  - split: 9
+    text: "精力值不足"
+  - split: 9
+    subIndex: 1
+    text: "对方金钱不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "51,240,切磋演练,,,,14,<,SP,精力值不足,,100,,,0,15-,LessenSP(),,,2401,2402,,,1,1440,今日一番切磋后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "切磋演练"
+  - split: 9
+    text: "精力值不足"
+  - split: 25
+    text: "今日一番切磋后，其人甚为疲倦，不妨十二时辰之后再来。"
+- raw: "52,244,切磋演练,,,,,,,,,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "切磋演练"
+- raw: "53,241,望请指教,,,,,,,,RebelBattle,100,,,0,,,,,,,2403,2404,1000,,,,,"
+  splits:
+  - split: 2
+    text: "望请指教"
+- raw: "54,242,承让,,,,,,,,CloseUI,100,,,0,\"PlayerLove(),xiuWei,10+\",\"5+,10+,xiuWei\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承让"
+- raw: "55,243,多谢赐教,,,,,,,,CloseUI,100,,,0,\"PlayerLove(),xiuWei,5+\",\"3+,5+,xiuWei\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "多谢赐教"
+- raw: "56,310,挑衅讥讽,state,!/,2,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),10-,3-,1-,ResetState()\",\"2-,LessenSP(),friendsEr,lichang,5\",\"10-,ResetState()\",\"LessenSP(),5\",3101,3102,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "挑衅讥讽"
+  - split: 9
+    text: "精力值不足"
+- raw: "57,313,再度言语相讥,,,,,,,,,100,,,0,\"PlayerLove(),5-,3-\",\"10-,friendsEr,lichang\",,,3105,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "再度言语相讥"
+- raw: "58,312,出手攻袭,,,,,,,,Battle,100,,,0,,,,,,,3103,3104,1000,,,,,"
+  splits:
+  - split: 2
+    text: "出手攻袭"
+- raw: "59,311,肆意羞辱,,,,,,,,,100,,,0,\"PlayerLove(),10-,SetChouDiLoveAtPlayer(),7-\",\"50-,friendsEr,10+,lichang\",,,3111,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "肆意羞辱"
+- raw: "60,320,偷窃财物,,,,29,<,SP,精力值不足,StartSteal,100,,,0,\"30-,10-,3-,ResetState()\",\"LessenSP(),friendsEr,lichang,5\",\"PlayerLove(),30-,5-,3-,ResetState()\",\"20-,LessenSP(),friendsEr,lichang,5\",3201,,3203,3204,1000,,,,,"
+  splits:
+  - split: 2
+    text: "偷窃财物"
+  - split: 9
+    text: "精力值不足"
+- raw: "61,10102,特殊-偷窃财物,,,,,,,,,,,attributeSf,0,\"30-,ResetState()\",\"LessenSP(),5\",\"PlayerLove(),10-,5-,3-,ResetState()\",\"10-,LessenSP(),friendsEr,lichang,5\",,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "偷窃财物"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+- raw: "62,323,……,,,,,,,,,100,,,0,PlayerLove(),20-,,,3221,,,,1000,,,,,"
+- raw: "63,322,……,,,,,,,,,100,,,0,3-,lichang,,,3222,,,,1000,,,,你身法鬼魅，从{0}怀中窃走物品，神鬼莫觉。,"
+  splits:
+  - split: 27
+    text: "你身法鬼魅，从"
+  - split: 27
+    subIndex: 1
+    text: "怀中窃走物品，神鬼莫觉。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "64,321,事已至此，放手一搏！,,,,,,,,Battle,100,,,0,,,,,,,3203,3204,1000,,,,,"
+  splits:
+  - split: 2
+    text: "事已至此，放手一搏！"
+- raw: "65,330,劫其财物,,,,19,<,SP,精力值不足,RecordItem10103,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "劫其财物"
+  - split: 9
+    text: "精力值不足"
+- raw: "66,10103,抢劫财物,,,,,,,,,100,,,0,\"PlayerLove(),10-,5-,SetLoveAtPlayer(),ResetState()\",\"20-,LessenSP(),friendsEr,3-,5\",,,3307,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢劫财物"
+- raw: "67,331,既是不允，那便强抢过来！,,,,,,,,Battle,100,,,0,AddPlayerArrestNum(),10+,,,,,3303,3304,1000,,,,,"
+  splits:
+  - split: 2
+    text: "既是不允，那便强抢过来！"
+- raw: "68,332,早该如此！这便收下此物！,,,,,,,,GetRecordItem,100,,,0,AddPlayerArrestNum(),10+,,,3308,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "早该如此！这便收下此物！"
+- raw: "69,340,蓄意袭击,,,,9,<,SP,精力值不足,,100,,,0,,,,,3401,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "蓄意袭击"
+  - split: 9
+    text: "精力值不足"
+- raw: "70,342,出手攻袭,,,,,,,,Battle,100,,,0,\"PlayerLove(),10-,SetLoveAtPlayer(),5-,AddPlayerArrestNum()\",\"20-,LessenSP(),5-,SetPlayerAreaPrestige(),5+\",,,,,3403,3404,1000,,,,,"
+  splits:
+  - split: 2
+    text: "出手攻袭"
+- raw: "71,341,取其性命,touchId,//,0,,,,,,100,,,0,,,,,3412,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "72,3410,取其性命,isJuQing,//,1,,,,,,100,,,0,,,,,3412,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "73,343,吾意已决，取其性命！,,,,,,,,TryKill,100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddPlayerArrestNum()\",\"100-,friendsEr,30-,30+,SetPlayerAreaPrestige(),20+\",,,3411,3414,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "吾意已决，取其性命！"
+- raw: "74,344,求饶无用，纳命来！,,,,,,,,Kill,100,,,0,\"PlayerLove(),5-,SetLoveAtPlayer(),SetChouDiLoveAtPlayer(),15-,20-,AddPlayerArrestNum()\",\"100-,friendsEr,100-,30+,lichang,SetPlayerAreaPrestige(),20+\",,,3411,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求饶无用，纳命来！"
+- raw: "75,345,取其性命,,,,,,,,CloseUI,100,,,0,30+,SetPlayerAreaPrestige(),,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "76,346,取其性命,,,,,,,,\"Kill,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "77,349,吾意已决，放其离开。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "吾意已决，放其离开。"
+- raw: "78,350,放其一马,,,,,,,,,100,,,0,,,,,3413,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "放其一马"
+- raw: "79,351,破财免灾，乞求饶恕,,,,299,<,sliver,所需银两不足,ClearRecordItem,60,,,0,\"PlayerLove(),goldCoin,300-\",\"5-,300+,sliver\",,,3510,3511,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "破财免灾，乞求饶恕"
+  - split: 9
+    text: "所需银两不足"
+- raw: "80,352,诚心悔过，发誓不再逞强斗狠,,,,,,,,ClearRecordItem,40,,,0,\"PlayerLove(),8-\",\"5-,lichang\",,,3520,3511,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "诚心悔过，发誓不再逞强斗狠"
+- raw: "81,353,技不如人，认命待宰,,,,,,,,ClearRecordItem,100,,,0,,,,,3530,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "技不如人，认命待宰"
+- raw: "82,370,俘获,touchId,//,0,\"29,0,0\",\"<,<,//\",\"SP,listMyItemData<908175>,CaptureOnBagLimited\",\"精力值不足,需要空麻袋,麻袋太多背不动了\",,100,,,0,,,,,3704,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+  - split: 9
+    text: "精力值不足"
+  - split: 9
+    subIndex: 1
+    text: "需要空麻袋"
+  - split: 9
+    subIndex: 2
+    text: "麻袋太多背不动了"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+- raw: "83,3702,俘获,isJuQing,//,1,\"29,0,0\",\"<,<,//\",\"SP,listMyItemData<908175>,CaptureOnBagLimited\",\"精力值不足,需要空麻袋,麻袋太多背不动了\",,100,,,0,,,,,3704,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+  - split: 9
+    text: "精力值不足"
+  - split: 9
+    subIndex: 1
+    text: "需要空麻袋"
+  - split: 9
+    subIndex: 2
+    text: "麻袋太多背不动了"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+- raw: "84,377,执意不退，逞凶作恶,,,,,,,,Battle,100,,,0,\"ResetState(),30-,15-,7-,PlayerLove(),15-,AddPlayerArrestNum()\",\"5,LessenSP(),friendsEr,lichang,60-,SetPlayerAreaPrestige(),10+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",,,3701,3703,1000,,,,,"
+  splits:
+  - split: 2
+    text: "执意不退，逞凶作恶"
+- raw: "85,3700,俘获,isJuQing,//,1,\"29,0,0\",\"<,<,//\",\"SP,listMyItemData<908175>,CaptureOnBagLimited\",\"精力值不足,需要空麻袋,麻袋太多背不动了\",,100,,,0,,,,,3704,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+  - split: 9
+    text: "精力值不足"
+  - split: 9
+    subIndex: 1
+    text: "需要空麻袋"
+  - split: 9
+    subIndex: 2
+    text: "麻袋太多背不动了"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+- raw: "86,371,击昏此人，且装入麻袋。,0,<,listMyItemData<908175>,,,,,\"UseItemCount908175,CloseUI\",100,,,0,\"Kidnap(),10-,AddPlayerArrestNum()\",\"1,SetPlayerAreaPrestige(),10+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "击昏此人，且装入麻袋。"
+- raw: "87,378,身上恰好没有空麻袋，只好放任而去。,1,>,listMyItemData<908175>,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "身上恰好没有空麻袋，只好放任而去。"
+- raw: "88,379,此刻难明，且任其逃走，日后再算！,,,,,,,,\"Release,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此刻难明，且任其逃走，日后再算！"
+- raw: "89,380,起身直追！,,,,,,,,RebelBattle,100,,,0,,,,,,,3418,3419,1000,,,,,"
+  splits:
+  - split: 2
+    text: "起身直追！"
+- raw: "90,381,暂饶过此人，以观后效！,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂饶过此人，以观后效！"
+- raw: "91,382,对方技高一筹，暂且离去，来日再报！,,,,,,,,\"Release,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "对方技高一筹，暂且离去，来日再报！"
+- raw: "92,383,击昏此人，且装入麻袋。,,,,,,,,\"UseItemCount908175,CloseUI\",100,,,0,\"Kidnap(),PlayerLove(),10+\",\"1,60-,SetPlayerAreaPrestige()\",,,,,,,1000,,,,你出手俘获此间恶徒，本地称颂之声不绝……,"
+  splits:
+  - split: 2
+    text: "击昏此人，且装入麻袋。"
+  - split: 27
+    text: "你出手俘获此间恶徒，本地称颂之声不绝……"
+- raw: "93,372,强行掳掠,,,,,,,,Battle,100,,,0,\"AddPlayerArrestNum(), 15-\",\"20+,SetPlayerAreaPrestige()\",,,,,3701,3703,1000,,,,,"
+  splits:
+  - split: 2
+    text: "强行掳掠"
+- raw: "94,373,求饶逃走,, ,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求饶逃走"
+- raw: "95,374,将其释放,,,,,,,,,100,,,0,,,,,3741,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "将其释放"
+- raw: "96,375,将其释放,,,,,,,,\"Release,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "将其释放"
+- raw: "97,376,俘获,touchId,//,0,\"0,0\",\"<,//\",\"listMyItemData<908175>,CaptureOnBagLimited\",\"需要空麻袋,麻袋太多背不动了\",,100,,,0,\"30-,15-,7-,PlayerLove(),15-,AddPlayerArrestNum()\",\"LessenSP(),friendsEr,lichang,60-,SetPlayerAreaPrestige(),20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+  - split: 9
+    text: "需要空麻袋"
+  - split: 9
+    subIndex: 1
+    text: "麻袋太多背不动了"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "98,3760,俘获此人,,,,\"0,0\",\"<,//\",\"listMyItemData<908175>,CaptureOnBagLimited\",\"需要空麻袋,麻袋太多背不动了\",,100,,,0,,,,,3707,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获此人"
+  - split: 9
+    text: "需要空麻袋"
+  - split: 9
+    subIndex: 1
+    text: "麻袋太多背不动了"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "99,3701,俘获,isJuQing,//,1,\"0,0\",\"<,//\",\"listMyItemData<908175>,CaptureOnBagLimited\",\"需要空麻袋,麻袋太多背不动了\",,100,,,0,\"30-,15-,7-,PlayerLove(),15-,AddPlayerArrestNum()\",\"LessenSP(),friendsEr,lichang,60-,SetPlayerAreaPrestige(),20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+  - split: 9
+    text: "需要空麻袋"
+  - split: 9
+    subIndex: 1
+    text: "麻袋太多背不动了"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "100,4120,义结金兰,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<JinLan>\",\"!/,!/,<,!/\",\"1,1,60,1\",\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,59\",\"需先结为知交,需好感度≥60\",,50,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "需好感度≥60"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "101,4121,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,JiaoQing<JinLan>\",\"//,!/,<,!/\",\"1,1,60,1\",\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,59\",\"需先结为知交,需好感度≥60\",,50,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "需好感度≥60"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "102,4122,义结金兰,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<JinLan>\",\"!/,!/,>,!/\",\"1,1,59,1\",\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,59\",\"需先结为知交,需好感度≥60\",,50,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "需好感度≥60"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "103,4100,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,59,72,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,50,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "104,4101,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,71,74,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,55,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "105,4102,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,73,76,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,60,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "106,4103,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,75,78,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,65,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "107,4104,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,77,80,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,70,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "108,4105,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,79,82,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,75,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "109,4106,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,81,84,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,80,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "110,4107,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,83,86,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,85,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "111,4108,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,85,88,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,90,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "112,4109,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,love,JiaoQing<JinLan>\",\"//,!/,>,<,!/\",\"1,1,87,90,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,95,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "113,4110,义结金兰,\"JiaoQing<ZhiJiao>,JiaoQing<ChouDi>,love,JiaoQing<JinLan>\",\"//,!/,>,!/\",\"1,1,89,1\",\"JiaoQing<ZhiJiao>,19\",\"//,<\",\"1,SP\",\"需先结为知交,精力值不足\",,100,,,0,\"RemoveJiaoQing(),ZhiJiao;id,20-,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),ShowUIAnim()\",\"ZhiJiao;1,RemoveJiaoQing(),LessenSP(),1,JinLan;1,AddJiaoQing(),5+,9\",15-,LessenSP(),4101,4102,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "义结金兰"
+  - split: 9
+    text: "需先结为知交"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "114,411,割袍断义,JiaoQing<JinLan>,//,1,,,,,,100,,,0,\"PlayerLove(),relationship,RemoveJiaoQing(),JinLan;id,ShowUIAnim()\",\"30-,0,JinLan;1,RemoveJiaoQing(),12\",,,4111,,,,1000,,,,{0}与你二人割袍断义，再非金兰挚交！,"
+  splits:
+  - split: 2
+    text: "割袍断义"
+  - split: 27
+    text: "与你二人割袍断义，再非金兰挚交！"
+  templates:
+  - split: 27
+    template: "⟦0⟧{0}"
+- raw: "115,412,把酒言欢,JiaoQing<JinLan>,//,1,\"love,14\",\">,<\",\"-1,SP\",\"需好感度≥0,精力值不足\",,50,,,0,\"PlayerLove(),15-\",\"2+,LessenSP()\",,,4121,4122,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "把酒言欢"
+  - split: 9
+    text: "需好感度≥0"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "116,4220,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<JuanLv>\",\"!/,!/,<,!/\",\"1,1,30,1\",\"sex,love\",\"!/,>\",\"sex,29\",\"需为异性,需好感度≥30\",,30,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "需为异性"
+  - split: 9
+    subIndex: 1
+    text: "需好感度≥30"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "117,4221,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,love,sex,JiaoQing<JuanLv>\",\"!/,!/,>,//,!/\",\"1,1,29,sex,1\",sex,!/,sex,需为异性,,30,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4202,4203,,,1001,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "需为异性"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "118,4200,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,29,40,1\",19,<,SP,精力值不足,,30,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "119,4201,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,39,45,1\",19,<,SP,精力值不足,,38,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "120,4202,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,44,50,1\",19,<,SP,精力值不足,,46,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "121,4203,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,49,55,1\",19,<,SP,精力值不足,,54,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "122,4204,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,54,60,1\",19,<,SP,精力值不足,,62,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "123,4205,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,59,65,1\",19,<,SP,精力值不足,,68,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "124,4206,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,64,70,1\",19,<,SP,精力值不足,,76,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "125,4207,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,69,75,1\",19,<,SP,精力值不足,,84,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "126,4208,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,<,!/\",\"1,1,sex,74,80,1\",19,<,SP,精力值不足,,91,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "127,4209,倾诉爱慕,\"kithKin<>,JiaoQing<ChouDi>,sex,love,JiaoQing<JuanLv>\",\"!/,!/,!/,>,!/\",\"1,1,sex,79,1\",19,<,SP,精力值不足,,100,,,0,\"20-,relationship,AddJiaoQing(),JuanLv;id,ShowUIAnim()\",\"LessenSP(),2,JuanLv;1,AddJiaoQing(),11\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4201,4202,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "倾诉爱慕"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "128,421,风花雪月,JiaoQing<JuanLv>,//,1,\"love,14\",\">,<\",\"29,SP\",\"需好感度≥30,精力值不足\",,80,,,0,\"PlayerLove(),15-,ShowUIAnim()\",\"2+,LessenSP(),14\",,,4211,4212,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "风花雪月"
+  - split: 9
+    text: "需好感度≥30"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "129,423,风花雪月,JiaoQing<PeiOu>,//,1,\"love,14\",\">,<\",\"29,SP\",\"需好感度≥30,精力值不足\",,100,,,0,\"PlayerLove(),15-,ShowUIAnim()\",\"2+,LessenSP(),14\",,,4211,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "风花雪月"
+  - split: 9
+    text: "需好感度≥30"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "130,422,劳燕分飞,JiaoQing<JuanLv>,//,1,14,<,SP,精力值不足,,100,,,0,\"PlayerLove(),relationship,RemoveJiaoQing(),JuanLv;id,15-,ShowUIAnim()\",\"30-,0,JuanLv;1,RemoveJiaoQing(),LessenSP(),15\",,,4221,,,,1000,,,,{0}与你情丝牵斩，破镜难圆，再非江湖眷侣了。,"
+  splits:
+  - split: 2
+    text: "劳燕分飞"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "与你情丝牵斩，破镜难圆，再非江湖眷侣了。"
+  templates:
+  - split: 27
+    template: "⟦0⟧{0}"
+- raw: "131,4320,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,love\",\"//,!/,<\",\"1,1,70\",\"sex,JiaoQing<JuanLv>,1,JiaoQing<PeiOu>,love\",\"!/,//,>,<,>\",\"sex,1,JiaoQing<PeiOu>,1,69\",\"需为异性,需先结为眷侣,你已婚许,对方已婚许,需好感度≥70\",,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "需为异性"
+  - split: 9
+    subIndex: 1
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 2
+    text: "你已婚许"
+  - split: 9
+    subIndex: 3
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 4
+    text: "需好感度≥70"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3},{4}"
+- raw: "132,4321,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,love,sex,JiaoQing<PeiOu>\",\"//,!/,>,//,<\",\"1,1,69,sex,1\",sex,!/,sex,需为异性,,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "需为异性"
+- raw: "133,4322,共结连理,\"kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,<\",\"1,1,70\",\"sex,JiaoQing<JuanLv>,1,JiaoQing<PeiOu>,love\",\"!/,//,>,<,>\",\"sex,1,JiaoQing<PeiOu>,1,69\",\"需为异性,需先结为眷侣,你已婚许,对方已婚许,需好感度≥70\",,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "需为异性"
+  - split: 9
+    subIndex: 1
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 2
+    text: "你已婚许"
+  - split: 9
+    subIndex: 3
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 4
+    text: "需好感度≥70"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3},{4}"
+- raw: "134,4323,共结连理,\"kithKin<>,JiaoQing<ChouDi>,love,sex,JiaoQing<PeiOu>\",\"!/,!/,>,//,<\",\"1,1,69,sex,1\",sex,!/,sex,需为异性,,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "需为异性"
+- raw: "135,4300,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,69,75\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "136,4301,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,74,80\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,58,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "137,4302,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,79,85\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,64,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "138,4303,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,84,90\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,71,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "139,4304,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,89,95\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,78,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "140,4305,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,94,100\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,85,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "141,4306,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love\",\"//,!/,!/,>\",\"1,1,sex,99\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,100,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共结连理"
+  - split: 9
+    text: "对方已婚许"
+  - split: 9
+    subIndex: 1
+    text: "你已婚许"
+  - split: 9
+    subIndex: 2
+    text: "需先结为眷侣"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "142,4400,推朋荐友,,,,3000,<,attribute,暂未开放,,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "推朋荐友"
+  - split: 9
+    text: "暂未开放"
+- raw: "143,4500,化仇解怨（消耗同袍酒*1）,love,<,1,\"JiaoQing<ChouDi>,0,9\",\"//,<,<\",\"1,listMyItemData<902060>,SP\",\"并无仇怨，无须化解,缺少：同袍酒,精力值不足\",UseItemCount902060,100,,,0,\"relationship,RemoveJiaoQing(),ChouDi;id,10-,love,ShowUIAnim()\",\"0,ChouDi;1,RemoveJiaoQing(),LessenSP(),0,16\",,,4501,,,,1000,,,,[同袍酒]数量 - 1_恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与{0}二人再非仇敌关系。,"
+  splits:
+  - split: 2
+    text: "化仇解怨（消耗同袍酒"
+  - split: 9
+    text: "并无仇怨，无须化解"
+  - split: 9
+    subIndex: 1
+    text: "缺少"
+  - split: 9
+    subIndex: 2
+    text: "同袍酒"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  - split: 27
+    text: "同袍酒"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  - split: 27
+    subIndex: 2
+    text: "恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与"
+  - split: 27
+    subIndex: 3
+    text: "二人再非仇敌关系。"
+  templates:
+  - split: 2
+    template: "{0}*1）"
+  - split: 9
+    template: "{0},{1}：{2},{3}"
+  - split: 27
+    template: "[{0}]{1} - 1_{2}⟦0⟧{3}"
+- raw: "144,4501,化仇解怨（消耗同袍酒*1）,love,>,0,\"JiaoQing<ChouDi>,0,9\",\"//,<,<\",\"1,listMyItemData<902060>,SP\",\"并无仇怨，无须化解,缺少：同袍酒,精力值不足\",UseItemCount902060,100,,,0,\"relationship,RemoveJiaoQing(),ChouDi;id,10-,ShowUIAnim()\",\"0,ChouDi;1,RemoveJiaoQing(),LessenSP(),16\",,,4501,,,,1000,,,,[同袍酒]数量 - 1_恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与{0}二人再非仇敌关系。,"
+  splits:
+  - split: 2
+    text: "化仇解怨（消耗同袍酒"
+  - split: 9
+    text: "并无仇怨，无须化解"
+  - split: 9
+    subIndex: 1
+    text: "缺少"
+  - split: 9
+    subIndex: 2
+    text: "同袍酒"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  - split: 27
+    text: "同袍酒"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  - split: 27
+    subIndex: 2
+    text: "恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与"
+  - split: 27
+    subIndex: 3
+    text: "二人再非仇敌关系。"
+  templates:
+  - split: 2
+    template: "{0}*1）"
+  - split: 9
+    template: "{0},{1}：{2},{3}"
+  - split: 27
+    template: "[{0}]{1} - 1_{2}⟦0⟧{3}"
+- raw: "145,4502,化仇解怨（消耗同袍酒*1）,JiaoQing<FuMu>,//,1,\"JiaoQing<ChouDi>,0,9\",\"//,<,<\",\"1,listMyItemData<902060>,SP\",\"并无仇怨，无须化解,缺少：同袍酒,精力值不足\",UseItemCount902060,100,,,0,\"relationship,RemoveJiaoQing(),ChouDi;id,10-,love,ShowUIAnim()\",\"0,ChouDi;1,RemoveJiaoQing(),LessenSP(),0,16\",,,4501,,,,1000,,,,[同袍酒]数量 - 1_恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与{0}二人再非仇敌关系。,"
+  splits:
+  - split: 2
+    text: "化仇解怨（消耗同袍酒"
+  - split: 9
+    text: "并无仇怨，无须化解"
+  - split: 9
+    subIndex: 1
+    text: "缺少"
+  - split: 9
+    subIndex: 2
+    text: "同袍酒"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  - split: 27
+    text: "同袍酒"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  - split: 27
+    subIndex: 2
+    text: "恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与"
+  - split: 27
+    subIndex: 3
+    text: "二人再非仇敌关系。"
+  templates:
+  - split: 2
+    template: "{0}*1）"
+  - split: 9
+    template: "{0},{1}：{2},{3}"
+  - split: 27
+    template: "[{0}]{1} - 1_{2}⟦0⟧{3}"
+- raw: "146,4600,邀为同伴,isPartner,//,0,love,>,49,需好感度≥50,,100,,,0,,,,,4401,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "邀为同伴"
+  - split: 9
+    text: "需好感度≥50"
+- raw: "147,4601,结伴同行！,,,,,,,,PartnerJoinTeam,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "结伴同行！"
+- raw: "148,4602,邀为同伴,\"isPartner,JiaoQing<FuMu>\",\"//,//\",\"0,1\",love,>,49,需好感度≥50,,100,,,0,,,,,4402,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "邀为同伴"
+  - split: 9
+    text: "需好感度≥50"
+- raw: "149,4603,结伴同行！,,,,,,,,PartnerJoinTeam,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "结伴同行！"
+- raw: "150,433,结为夫妻,,,,,,,,,100,,,0,\"relationship,AddJiaoQing(),PeiOu;id,SetLoveAtPlayer(),3,ShowUIAnim()\",\"3,PeiOu;1,AddJiaoQing(),5+,relationship,13\",,,4313,,,,1000,,,,执子之手，与子偕老，你与{0}二人结为夫妻!决意生死不离。,"
+  splits:
+  - split: 2
+    text: "结为夫妻"
+  - split: 27
+    text: "执子之手，与子偕老，你与"
+  - split: 27
+    subIndex: 1
+    text: "二人结为夫妻"
+  - split: 27
+    subIndex: 2
+    text: "决意生死不离。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}!{2}"
+- raw: "151,431,共度良宵,\"sex,JiaoQing<PeiOu>\",\"//,//\",\"1,1\",\"bufferList<>,10024,love,24\",\"!/,!/,>,<\",\"10024,bufferList<>,59,SP\",\"对方已阉割,已阉割,需好感度≥60,精力值不足\",,80,,,0,\"PlayerLove(),25-,state,TryPregnancy(),ShowUIAnim(),AddLife()\",\"5+,LessenSP(),99,id,10,<color=#E64D00>a</color>与<color=#E64D00>p</color>郎情妾意，尽享春宵……\",,,4311,4312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共度良宵"
+  - split: 9
+    text: "对方已阉割"
+  - split: 9
+    subIndex: 1
+    text: "已阉割"
+  - split: 9
+    subIndex: 2
+    text: "需好感度≥60"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "152,432,一纸休书,JiaoQing<PeiOu>,//,1,,,,,,100,,,0,\"PlayerLove(),relationship,RemoveJiaoQing(),PeiOu;id,0,ShowUIAnim()\",\"30-,0,PeiOu;1,RemoveJiaoQing(),relationship,15\",,,4321,,,,1000,,,,千年缘散，情空恨虚，{0}与你分道扬镳，再非夫妻了。,"
+  splits:
+  - split: 2
+    text: "一纸休书"
+  - split: 27
+    text: "千年缘散，情空恨虚，"
+  - split: 27
+    subIndex: 1
+    text: "与你分道扬镳，再非夫妻了。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "153,434,共度良宵,\"sex,JiaoQing<PeiOu>\",\"!/,//\",\"1,1\",\"bufferList<>,10024,love,24\",\"!/,!/,>,<\",\"10024,bufferList<>,59,SP\",\"对方已阉割,已阉割,需好感度≥60,精力值不足\",,80,,,0,\"PlayerLove(),25-,TryPregnancy(),ShowUIAnim(),AddLife()\",\"5+,LessenSP(),id,10,<color=#E64D00>a</color>与<color=#E64D00>p</color>郎情妾意，尽享春宵……\",,,4311,4312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共度良宵"
+  - split: 9
+    text: "对方已阉割"
+  - split: 9
+    subIndex: 1
+    text: "已阉割"
+  - split: 9
+    subIndex: 2
+    text: "需好感度≥60"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "154,435,共度良宵,\"sex,JiaoQing<JuanLv>\",\"!/,//\",\"1,1\",\"bufferList<>,10024,love,24\",\"!/,!/,>,<\",\"10024,bufferList<>,59,SP\",\"对方已阉割,已阉割,需好感度≥60,精力值不足\",,60,,,0,\"PlayerLove(),25-,TryPregnancy(),ShowUIAnim(),AddLife()\",\"5+,LessenSP(),id,10,<color=#E64D00>a</color>与<color=#E64D00>p</color>郎情妾意，尽享春宵……\",,,4311,4312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共度良宵"
+  - split: 9
+    text: "对方已阉割"
+  - split: 9
+    subIndex: 1
+    text: "已阉割"
+  - split: 9
+    subIndex: 2
+    text: "需好感度≥60"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "155,436,共度良宵,\"sex,JiaoQing<JuanLv>\",\"//,//\",\"1,1\",\"bufferList<>,10024,love,24\",\"!/,!/,>,<\",\"10024,bufferList<>,59,SP\",\"对方已阉割,已阉割,需好感度≥60,精力值不足\",,60,,,0,\"PlayerLove(),25-,state,TryPregnancy(),ShowUIAnim(),AddLife()\",\"5+,LessenSP(),99,id,10,<color=#E64D00>a</color>与<color=#E64D00>p</color>郎情妾意，尽享春宵……\",,,4311,4312,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "共度良宵"
+  - split: 9
+    text: "对方已阉割"
+  - split: 9
+    subIndex: 1
+    text: "已阉割"
+  - split: 9
+    subIndex: 2
+    text: "需好感度≥60"
+  - split: 9
+    subIndex: 3
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1},{2},{3}"
+- raw: "156,4700,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<TuDi>\",\"!/,!/,<,!/\",\"1,1,60,1\",\"1,love\",\">,>\",\"JiaoQing<ShiFu>,59\",\"你已有师门,需好感度≥60\",,50,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "需好感度≥60"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "157,4701,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,59,72,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,50,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "158,4702,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,71,74,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,55,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "159,4703,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,73,76,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,60,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "160,4704,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,75,78,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,65,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "161,4705,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,77,80,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,70,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "162,4706,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,79,82,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,75,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "163,4707,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,81,84,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,80,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "164,4708,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,83,86,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,85,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "165,4709,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,85,88,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,90,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "166,4710,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<TuDi>\",\"!/,!/,>,<,!/\",\"1,1,87,90,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,95,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "167,4711,拜入门下,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<TuDi>\",\"!/,!/,>,!/\",\"1,1,89,1\",\"1,19\",\">,<\",\"JiaoQing<ShiFu>,SP\",\"你已有师门,精力值不足\",,100,,,0,\"20-,AddJiaoQing(),ShiFu;id\",\"LessenSP(),TuDi;1,AddJiaoQing()\",15-,LessenSP(),4701,4702,,,1000,,,,你拜入{0}门下，以师事之。,"
+  splits:
+  - split: 2
+    text: "拜入门下"
+  - split: 9
+    text: "你已有师门"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 27
+    text: "你拜入"
+  - split: 27
+    subIndex: 1
+    text: "门下，以师事之。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "168,4800,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<ShiFu>\",\"!/,!/,<,!/\",\"1,1,30,1\",\"JiaoQing<ShiFu>,attribute,love\",\"<,<,>\",\"1,attribute,29\",\"对方已有师门,境界需高于对方,需好感度≥30\",,30,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "需好感度≥30"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "169,4801,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,29,40,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,30,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "170,4802,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,39,45,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,38,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "171,4803,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,44,50,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,46,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "172,4804,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,49,55,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,54,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "173,4805,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,54,60,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,62,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "174,4806,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,59,65,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,68,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "175,4807,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,64,70,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,76,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "176,4808,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,69,75,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,84,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "177,4809,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ShiFu>\",\"!/,!/,>,<,!/\",\"1,1,74,80,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,91,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "178,4810,纳徒授艺,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<ShiFu>\",\"!/,!/,>,!/\",\"1,1,79,1\",\"JiaoQing<ShiFu>,attribute,19\",\"<,<,<\",\"1,attribute,SP\",\"对方已有师门,境界需高于对方,精力值不足\",,100,,,0,\"20-,AddJiaoQing(),TuDi;id\",\"LessenSP(),ShiFu;1,AddJiaoQing()\",15-,LessenSP(),4801,4802,,,1000,,,,你将{0}收为弟子，壮大师门。,"
+  splits:
+  - split: 2
+    text: "纳徒授艺"
+  - split: 9
+    text: "对方已有师门"
+  - split: 9
+    subIndex: 1
+    text: "境界需高于对方"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "收为弟子，壮大师门。"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "179,4900,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<ZhiJiao>\",\"!/,!/,<,!/\",\"1,1,30,1\",love,>,29,需好感度≥30,,30,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "需好感度≥30"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "180,4901,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,29,40,1\",19,<,SP,精力值不足,,30,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "181,4902,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,39,45,1\",19,<,SP,精力值不足,,38,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "182,4903,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,44,50,1\",19,<,SP,精力值不足,,46,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "183,4904,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,49,55,1\",19,<,SP,精力值不足,,54,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "184,4905,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,54,60,1\",19,<,SP,精力值不足,,62,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "185,4906,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,59,65,1\",19,<,SP,精力值不足,,68,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "186,4907,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,64,70,1\",19,<,SP,精力值不足,,76,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "187,4908,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,69,75,1\",19,<,SP,精力值不足,,84,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "188,4909,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,<,!/\",\"1,1,74,80,1\",19,<,SP,精力值不足,,91,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "189,4910,知心相交,\"kithKin<>,JiaoQing<ChouDi>,love,JiaoQing<ZhiJiao>\",\"!/,!/,>,!/\",\"1,1,79,1\",19,<,SP,精力值不足,,100,,,0,\"20-,AddJiaoQing(),ZhiJiao;id\",\"LessenSP(),ZhiJiao;1,AddJiaoQing()\",15-,LessenSP(),4901,4902,,,1000,,,,你与{0}道同情厚，引为知交。,"
+  splits:
+  - split: 2
+    text: "知心相交"
+  - split: 9
+    text: "精力值不足"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "道同情厚，引为知交。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "190,471,叛离师门,JiaoQing<TuDi>,//,1,,,,,,100,,,0,\"PlayerLove(),relationship,RemoveJiaoQing(),ShiFu;id,15-\",\"50-,0,TuDi;1,RemoveJiaoQing(),LessenSP()\",,,4703,,,,1000,,,,你离开{0}门下，不复有师徒之名。,"
+  splits:
+  - split: 2
+    text: "叛离师门"
+  - split: 27
+    text: "你离开"
+  - split: 27
+    subIndex: 1
+    text: "门下，不复有师徒之名。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "191,472,问道解惑,JiaoQing<TuDi>,//,1,\"love,14\",\">,<\",\"-1,SP\",\"需好感度≥0,精力值不足\",,50,,,0,\"PlayerLove(),15-,10+\",\"2+,LessenSP(),xiuWei\",,,4704,4705,,,2,1440,今日一番问道后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "问道解惑"
+  - split: 9
+    text: "需好感度≥0"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 25
+    text: "今日一番问道后，其人甚为疲倦，不妨十二时辰之后再来。"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "192,481,逐出门墙,JiaoQing<ShiFu>,//,1,,,,,,100,,,0,\"PlayerLove(),relationship,RemoveJiaoQing(),TuDi;id,15-\",\"30-,0,ShiFu;1,RemoveJiaoQing(),LessenSP()\",,,4803,,,,1000,,,,你将{0}逐出门下，不复有师徒之名。,"
+  splits:
+  - split: 2
+    text: "逐出门墙"
+  - split: 27
+    text: "你将"
+  - split: 27
+    subIndex: 1
+    text: "逐出门下，不复有师徒之名。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "193,482,指点关要,JiaoQing<ShiFu>,//,1,\"love,14\",\">,<\",\"-1,SP\",\"需好感度≥0,精力值不足\",,50,,,0,\"PlayerLove(),15-,xiuWei\",\"3+,LessenSP(),10+\",,,4804,4805,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "指点关要"
+  - split: 9
+    text: "需好感度≥0"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "194,491,陌路两绝,JiaoQing<ZhiJiao>,//,1,,,,,,100,,,0,\"PlayerLove(),relationship,RemoveJiaoQing(),ZhiJiao;id,15-\",\"30-,0,ZhiJiao;1,RemoveJiaoQing(),LessenSP()\",,,4903,,,,1000,,,,你与{0}割袍断义，陌路扬镳。,"
+  splits:
+  - split: 2
+    text: "陌路两绝"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "割袍断义，陌路扬镳。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "195,492,对酌同乐,JiaoQing<ZhiJiao>,//,1,\"love,14\",\">,<\",\"-1,SP\",\"需好感度≥0,精力值不足\",,50,,,0,\"PlayerLove(),15-\",\"2+,LessenSP()\",,,4904,4905,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "对酌同乐"
+  - split: 9
+    text: "需好感度≥0"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "196,701,切磋武学,,,,,,,,,100,,,0,,,,,7104,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "切磋武学"
+- raw: "197,702,切磋武学,,,,,,,,,100,,,0,,,,,7104,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "切磋武学"
+- raw: "198,710,请教技艺,,,,\"love,14\",\">,<\",\"49,SP\",\"需好感度≥50,精力值不足\",GetJiYi10200,100,,,0,15-,LessenSP(),15-,LessenSP(),,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "请教技艺"
+  - split: 9
+    text: "需好感度≥50"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "199,711,请教技艺,love,<,50,love,>,49,,GetJiYi10200,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "请教技艺"
+- raw: "200,10200,特殊-请教技艺,love,>,49,,,,,,,,attributeWx,0,,,,,7102,7103,,,1000,,,,你悟性超凡，兼有{0}悉心传授，尽得其法真传。,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "请教技艺"
+  - split: 27
+    text: "你悟性超凡，兼有"
+  - split: 27
+    subIndex: 1
+    text: "悉心传授，尽得其法真传。"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "201,720,偷学技艺,\"isServant,isPartner\",\"//,//\",\"0,0\",14,<,SP,精力值不足,StealJiYi10201,100,,,0,,,\"PlayerLove(),15-,10-\",\"50-,LessenSP(),lichang\",,7211,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "偷学技艺"
+  - split: 9
+    text: "精力值不足"
+- raw: "202,721,偷学技艺,\"isServant,isPartner\",\"//,//\",\"1,0\",14,<,SP,精力值不足,StealJiYi10202,100,,,0,,,\"PlayerLove(),15-,10-\",\"50-,LessenSP(),lichang\",,7211,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "偷学技艺"
+  - split: 9
+    text: "精力值不足"
+- raw: "203,10201,特殊-偷学技艺,,,,,,,,,,,attributeWx,0,\"15-,8-,3-\",\"LessenSP(),friendsEr,lichang\",\"15-,PlayerLove(),4-,3-\",\"LessenSP(),20-,friendsEr,lichang\",7212,7202,,,1000,,,,你悟性超绝，仅凭窥视{0}技艺，便勘破此方玄妙。,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "偷学技艺"
+  - split: 27
+    text: "你悟性超绝，仅凭窥视"
+  - split: 27
+    subIndex: 1
+    text: "技艺，便勘破此方玄妙。"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "204,10202,特殊-偷学技艺,,,,,,,,,,,attributeWx,0,\"15-,8-,3-\",\"LessenSP(),friendsEr,lichang\",\"15-,PlayerLove(),4-,3-\",\"LessenSP(),15-,friendsEr,lichang\",7203,7204,,,1000,,,,你悟性超绝，仅凭窥视{0}技艺，便勘破此方玄妙。,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "偷学技艺"
+  - split: 27
+    text: "你悟性超绝，仅凭窥视"
+  - split: 27
+    subIndex: 1
+    text: "技艺，便勘破此方玄妙。"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "205,730,避无可避,,,,,,,,Battle,100,,,0,,,,,,,7213,7214,1000,,,,,"
+  splits:
+  - split: 2
+    text: "避无可避"
+- raw: "206,250,请教武学,,,,\"love,19\",\">,<\",\"49,SP\",\"需好感度≥50,精力值不足\",GetWuXue10100,100,,,0,20-,LessenSP(),20-,LessenSP(),,2501,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "请教武学"
+  - split: 9
+    text: "需好感度≥50"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "207,251,请教武学,,,,,,,,,100,,,0,,,,,,2501,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "请教武学"
+- raw: "208,10100,特殊-请教武学,,,,,,,,,,,attributeWx,0,,,,,2502,2503,,,1000,,,,你悟性超凡，兼有{0}倾囊相授，方才悟透其间玄妙。,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "请教武学"
+  - split: 27
+    text: "你悟性超凡，兼有"
+  - split: 27
+    subIndex: 1
+    text: "倾囊相授，方才悟透其间玄妙。"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "209,360,偷学武学,\"isServant,isPartner\",\"//,//\",\"0,0\",14,<,SP,精力值不足,StealWuXue10101,100,,,0,,,\"PlayerLove(),15-,10-\",\"50-,LessenSP(),lichang\",,3601,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "偷学武学"
+  - split: 9
+    text: "精力值不足"
+- raw: "210,363,偷学武学,\"isServant,isPartner\",\"//,//\",\"1,0\",14,<,SP,精力值不足,StealWuXue10104,100,,,0,,,\"PlayerLove(),15-,10-\",\"50-,LessenSP(),lichang\",,3601,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "偷学武学"
+  - split: 9
+    text: "精力值不足"
+- raw: "211,361,尝试逃跑,,,,,,,,Battle,,,attributeSf,0,,,,,3611,3612,,,1000,,,,你身法灵动，如燕掠空，躲过{0}狠辣一击，从险境中脱身。,"
+  splits:
+  - split: 2
+    text: "尝试逃跑"
+  - split: 27
+    text: "你身法灵动，如燕掠空，躲过"
+  - split: 27
+    subIndex: 1
+    text: "狠辣一击，从险境中脱身。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "212,362,避无可避,,,,,,,,Battle,100,,,0,,,,,,,3613,3614,1000,,,,,"
+  splits:
+  - split: 2
+    text: "避无可避"
+- raw: "213,364,重入江湖,,,,,,,,ExitGame,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "重入江湖"
+- raw: "214,10101,特殊-偷学武学,,,,,,,,,,,attributeWx,0,\"15-,12-,5-\",\"LessenSP(),friendsEr,lichang\",\"15-,PlayerLove(),8-,5-\",\"LessenSP(),40-,friendsEr,lichang\",3602,3603,,,1000,,,,你悟性超绝，仅凭窥探{0}修习架势，便勘破此武奥妙。,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "偷学武学"
+  - split: 27
+    text: "你悟性超绝，仅凭窥探"
+  - split: 27
+    subIndex: 1
+    text: "修习架势，便勘破此武奥妙。"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "215,10104,特殊-偷学武学,,,,,,,,,,,attributeWx,0,\"15-,12-,5-\",\"LessenSP(),friendsEr,lichang\",\"15-,PlayerLove(),8-,5-\",\"LessenSP(),30-,friendsEr,lichang\",3604,3605,,,1000,,,,你悟性超绝，仅凭窥探{0}修习架势，便勘破此武奥妙。,"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "偷学武学"
+  - split: 27
+    text: "你悟性超绝，仅凭窥探"
+  - split: 27
+    subIndex: 1
+    text: "修习架势，便勘破此武奥妙。"
+  templates:
+  - split: 2
+    template: "{0}-{1}"
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "216,10001,求取银两,,,,,,,,,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取银两"
+- raw: "217,10004,夺走财物,,,,,,,,TakeAll,100,,,0,AddPlayerArrestNum(),5+,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "夺走财物"
+- raw: "218,10005,仇敌,\"love,JiaoQing<ChouDi>\",\"<,!/\",\"29-,1\",,,,,,,,,0,\"relationship,AddJiaoQing(),ChouDi;id\",\"5,ChouDi;1,AddJiaoQing()\",,,,,,,1000,,,,善因恶果，一念恩仇，{0}已将你视为仇敌，来日之事，却不可知……,"
+  splits:
+  - split: 2
+    text: "仇敌"
+  - split: 27
+    text: "善因恶果，一念恩仇，"
+  - split: 27
+    subIndex: 1
+    text: "已将你视为仇敌，来日之事，却不可知……"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "219,10006,仇敌,\"love,JiaoQing<ChouDi>\",\"<,!/\",\"29-,1\",,,,,,,,,0,\"relationship,AddJiaoQing(),ChouDi;touchId\",\"5,ChouDi;1,AddJiaoQing()\",,,,,,,1000,,,,善因恶果，一念恩仇，{0}已将你视为仇敌，来日之事，却不可知……,"
+  splits:
+  - split: 2
+    text: "仇敌"
+  - split: 27
+    text: "善因恶果，一念恩仇，"
+  - split: 27
+    subIndex: 1
+    text: "已将你视为仇敌，来日之事，却不可知……"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "220,169,盗扒其身,,,,\"listEquip<>,9\",\"!/,<\",\"0,SP\",\"对方身无长物,精力值不足\",\"GetEquip,CloseUI\",100,,,0,\"10-,8-,12-\",\"LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "盗扒其身"
+  - split: 9
+    text: "对方身无长物"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "221,170,盗扒其身,,,,\"listEquip<>,9\",\"!/,<\",\"0,SP\",\"对方身无长物,精力值不足\",\"GetEquip,CloseUI\",100,,,0,\"10-,8-,12-,AddPlayerArrestNum()\",\"LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "盗扒其身"
+  - split: 9
+    text: "对方身无长物"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "222,171,盗扒其身,,,,,,,,\"GetEquip,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "盗扒其身"
+- raw: "223,172,拾捡行囊,\"allStealble<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "拾捡行囊"
+  - split: 9
+    text: "对方行囊空空"
+- raw: "224,173,拾捡行囊,\"allStealble<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "拾捡行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "225,174,拾捡行囊,\"allStealble<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "拾捡行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "226,175,拾捡行囊,\"allStealble<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "拾捡行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "227,176,抢夺行囊,\"allStealble<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "对方行囊空空"
+- raw: "228,177,抢夺行囊,\"allStealble<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "229,178,抢夺行囊,\"allStealble<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "230,179,抢夺行囊,\"allStealble<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "231,385,逼问隐秘,,,,9,<,SP,精力值不足,,100,,,0,,,,,7225,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "逼问隐秘"
+  - split: 9
+    text: "精力值不足"
+- raw: "232,386,施刑拷打,,,,,,,,,100,,,0,,,,,7229,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "施刑拷打"
+- raw: "233,387,敷药治疗,,,,,,,,,100,,,0,,,,,7232,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "敷药治疗"
+- raw: "234,388,残废其身,,,,,,,,,100,,,0,,,,,7230,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "残废其身"
+- raw: "235,389,取其性命,,,,,,,,TryKill,100,,,0,\"PlayerLoveToValue(),10-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),5-,kidnapState,15-,AddPlayerArrestNum()\",\"100-,friendsEr,30-,30+,lichang,0,SetPlayerAreaPrestige(),20+\",,,3411,3414,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "236,390,鞭笞,health,>,0,9,<,SP,精力值不足,CutTo你将其逼入角落，不顾对方哀求叫骂，肆意羞辱，直至对方无力言语。,100,,,0,\"PlayerLove(),5-,5-,5+,health\",\"15-,friendsEr,lichang,LessenSP(),10-\",,,7234,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "鞭笞"
+  - split: 9
+    text: "精力值不足"
+- raw: "237,391,鞭笞,health,<,1,9,<,SP,精力值不足,CutTo你将其逼入角落，不顾对方哀求叫骂，肆意羞辱，直至对方无力言语……对方身虚体弱，无力再受，待被你鞭答过后，已无声息……,100,,,0,\"NoActive(),kidnapState,PlayerLove(),5-,5-,5+,health\",\"1,0,15-,friendsEr,lichang,LessenSP(),10-\",,,7235,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "鞭笞"
+  - split: 9
+    text: "精力值不足"
+- raw: "238,392,索要,,,,1,<,SP,精力值不足,Ransom,100,,,0,,,,,200,201,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "索要"
+  - split: 9
+    text: "精力值不足"
+- raw: "239,393,收为家仆,,,,,,,,Servant,100,,,0,5-,SetPlayerAreaPrestige(),,,3415,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "收为家仆"
+- raw: "240,394,收为家仆,kidnapState,//,2,obey,>,99,不够服从,TryServant,100,,,1440,5-,SetPlayerAreaPrestige(),,,3415,3416,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "收为家仆"
+  - split: 9
+    text: "不够服从"
+- raw: "241,20399,逼问武学,lichang,<,16,,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "242,20400,逼问武学,\"lichang,lichang\",\">,<\",\"15,31\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "243,20401,逼问武学,\"lichang,lichang\",\">,<\",\"30,46\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "244,20402,逼问武学,\"lichang,lichang\",\">,<\",\"45,56\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "245,20403,逼问武学,\"lichang,lichang\",\">,<\",\"55,71\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "246,20404,逼问武学,\"lichang,lichang\",\">,<\",\"70,86\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "247,20405,逼问武学,lichang,>,85,,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问武学"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏武学精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "248,20406,（逼问武学成功）,,,,,,,,,100,,,,,,,,7226,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "（逼问武学成功）"
+- raw: "249,20407,（逼问武学失败）,,,,,,,,,100,,,,,,,,7227,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "（逼问武学失败）"
+- raw: "250,20408,逼问技艺,lichang,<,16,,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "251,20409,逼问技艺,\"lichang,lichang\",\">,<\",\"15,31\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "252,20410,逼问技艺,\"lichang,lichang\",\">,<\",\"30,46\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "253,20411,逼问技艺,\"lichang,lichang\",\">,<\",\"45,56\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "254,20412,逼问技艺,\"lichang,lichang\",\">,<\",\"55,71\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "255,20413,逼问技艺,\"lichang,lichang\",\">,<\",\"70,86\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "256,20414,逼问技艺,lichang,>,85,,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
+  splits:
+  - split: 2
+    text: "逼问技艺"
+  - split: 27
+    text: "一番逼问下，你终得知其秘藏技艺精要。"
+  - split: 28
+    text: "此人颇为顽固，宁死不吐露半字。"
+- raw: "257,20415,（逼问技艺成功）,,,,,,,,,100,,,,,,,,7226,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "（逼问技艺成功）"
+- raw: "258,20416,（逼问技艺失败）,,,,,,,,,100,,,,,,,,7227,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "（逼问技艺失败）"
+- raw: "259,20417,使用刑具：浸水皮鞭,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908092>,SP\",\"缺少：浸水皮鞭,精力值不足\",UseItemCount908092,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,10-,LessenSP(),+10\",,,7228,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "浸水皮鞭"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "浸水皮鞭"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "260,20418,使用刑具：烙铁,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908093>,SP\",\"缺少：烙铁,精力值不足\",UseItemCount908093,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,15-,LessenSP(),+20\",,,7228,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "烙铁"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "烙铁"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "261,20419,使用刑具：虎形钳,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908094>,SP\",\"缺少：虎形钳,精力值不足\",UseItemCount908094,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,10-,LessenSP(),+10\",,,7228,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "虎形钳"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "虎形钳"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "262,20420,使用刑具：蜡烛,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908095>,SP\",\"缺少：蜡烛,精力值不足\",UseItemCount908095,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,5-,LessenSP(),+10\",,,7228,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "蜡烛"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "蜡烛"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "263,20421,使用刑具：短羽毛,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908096>,SP\",\"缺少：短羽毛,精力值不足\",UseItemCount908096,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,5-,LessenSP(),+10\",,,7228,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "短羽毛"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "短羽毛"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "264,20422,使用刑具：剜肉小刀,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908097>,SP\",\"缺少：剜肉小刀,精力值不足\",UseItemCount908097,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,10-,LessenSP(),+20\",,,7228,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "剜肉小刀"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "剜肉小刀"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "265,20423,废除武学,health,>,0,\"99,9,allSkillList<>\",\"<,<,>\",\"xiuWei,SP,0\",\"修为不足，需消耗修为：100,精力值不足,此人身负武学俱已废除，无需再运功废除。\",,100,,,0,\"RemoveWuxue(),PlayerLove(),10-,18-,100-,10-,health,SetObey()\",\"1,50-,lichang,friendsEr,xiuWei,LessenSP(),10-,10+\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "废除武学"
+  - split: 9
+    text: "修为不足，需消耗修为"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "此人身负武学俱已废除，无需再运功废除。"
+  templates:
+  - split: 9
+    template: "{0}：100,{1},{2}"
+- raw: "266,20424,废除穴位,health,>,0,\"199,9,acupointDataList<>\",\"<,<,>\",\"xiuWei,SP,0\",\"修为不足，需消耗修为：200,精力值不足,此人穴道俱被废除损毁，无需再运功废除。\",,100,,,0,\"RemoveAcupoint(),PlayerLove(),10-,18-,200-,10-,health,SetObey()\",\"1,50-,lichang,friendsEr,xiuWei,LessenSP(),10-,10+\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "废除穴位"
+  - split: 9
+    text: "修为不足，需消耗修为"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "此人穴道俱被废除损毁，无需再运功废除。"
+  templates:
+  - split: 9
+    template: "{0}：200,{1},{2}"
+- raw: "267,20425,使用刑具：浸水皮鞭,health,<,1,\"0,9\",\"<,<\",\"listMyItemData<908092>,SP\",\"缺少：浸水皮鞭,精力值不足\",\"UseItemCount908092,Kill5,CloseUI\",100,,,0,\"kidnapState,10-\",\"0,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "浸水皮鞭"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "浸水皮鞭"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "268,20426,使用刑具：烙铁,health,<,1,\"0,9\",\"<,<\",\"listMyItemData<908093>,SP\",\"缺少：烙铁,精力值不足\",\"UseItemCount908093,Kill5,CloseUI\",100,,,0,\"kidnapState,10-\",\"0,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "烙铁"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "烙铁"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "269,20427,使用刑具：虎形钳,health,<,1,\"0,9\",\"<,<\",\"listMyItemData<908094>,SP\",\"缺少：虎形钳,精力值不足\",\"UseItemCount908094,Kill5,CloseUI\",100,,,0,\"kidnapState,10-\",\"0,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "虎形钳"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "虎形钳"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "270,20428,使用刑具：蜡烛,health,<,1,\"0,9\",\"<,<\",\"listMyItemData<908095>,SP\",\"缺少：蜡烛,精力值不足\",\"UseItemCount908095,Kill5,CloseUI\",100,,,0,\"kidnapState,10-\",\"0,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "蜡烛"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "蜡烛"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "271,20429,使用刑具：短羽毛,health,<,1,\"0,9\",\"<,<\",\"listMyItemData<908096>,SP\",\"缺少：短羽毛,精力值不足\",\"UseItemCount908096,Kill5,CloseUI\",100,,,0,\"kidnapState,10-\",\"0,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "短羽毛"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "短羽毛"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "272,20430,使用刑具：剜肉小刀,health,<,1,\"0,9\",\"<,<\",\"listMyItemData<908097>,SP\",\"缺少：剜肉小刀,精力值不足\",\"UseItemCount908097,Kill5,CloseUI\",100,,,0,\"kidnapState,10-\",\"0,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "使用刑具"
+  - split: 2
+    subIndex: 1
+    text: "剜肉小刀"
+  - split: 9
+    text: "缺少"
+  - split: 9
+    subIndex: 1
+    text: "剜肉小刀"
+  - split: 9
+    subIndex: 2
+    text: "精力值不足"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 2
+    template: "{0}：{1}"
+  - split: 9
+    template: "{0}：{1},{2}"
+- raw: "273,20431,废除武学,health,<,1,\"99,9,allSkillList<>\",\"<,<,>\",\"xiuWei,SP,0\",\"修为不足，需消耗修为：100,精力值不足,此人身负武学俱已废除，无需再运功废除。\",\"Kill5,CloseUI\",100,,,0,\"kidnapState,RemoveWuxue(),PlayerLove(),10-,18-,100-,10-\",\"0,1,50-,lichang,friendsEr,xiuWei,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "废除武学"
+  - split: 9
+    text: "修为不足，需消耗修为"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "此人身负武学俱已废除，无需再运功废除。"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 9
+    template: "{0}：100,{1},{2}"
+- raw: "274,20432,废除穴位,health,<,1,\"199,9,acupointDataList<>\",\"<,<,>\",\"xiuWei,SP,0\",\"修为不足，需消耗修为：200,精力值不足,此人穴道俱被废除损毁，无需再运功废除。\",\"Kill5,CloseUI\",100,,,0,\"kidnapState,RemoveAcupoint(),PlayerLove(),10-,18-,200-,10-\",\"0,1,50-,lichang,friendsEr,xiuWei,LessenSP()\",,,,,,,1000,,,,此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……,"
+  splits:
+  - split: 2
+    text: "废除穴位"
+  - split: 9
+    text: "修为不足，需消耗修为"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "此人穴道俱被废除损毁，无需再运功废除。"
+  - split: 27
+    text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+  templates:
+  - split: 9
+    template: "{0}：200,{1},{2}"
+- raw: "275,20433,使用还复膏,obey,>,99,\"0,9,health\",\"<,<,<\",\"listMyItemData<901000>,SP,100\",\"缺少对应药品,精力值不足,已恢复健康\",UseItemCount901000,100,,,0,\"PlayerLove(),SetSP(),health,10-\",\"1+,5+,5+,LessenSP()\",,,7233,,,,1000,,,,[还复膏]数量 - 1,"
+  splits:
+  - split: 2
+    text: "使用还复膏"
+  - split: 9
+    text: "缺少对应药品"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "已恢复健康"
+  - split: 27
+    text: "还复膏"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "[{0}]{1} - 1"
+- raw: "276,20434,使用续命散,obey,>,99,\"0,9,health\",\"<,<,<\",\"listMyItemData<901102>,SP,100\",\"缺少对应药品,精力值不足,已恢复健康\",UseItemCount901102,100,,,0,\"PlayerLove(),SetSP(),health,10-\",\"3+,10+,10+,LessenSP()\",,,7233,,,,1000,,,,[续命散]数量 - 1,"
+  splits:
+  - split: 2
+    text: "使用续命散"
+  - split: 9
+    text: "缺少对应药品"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "已恢复健康"
+  - split: 27
+    text: "续命散"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "[{0}]{1} - 1"
+- raw: "277,20435,使用净血丸,obey,>,99,\"0,9,health\",\"<,<,<\",\"listMyItemData<901103>,SP,100\",\"缺少对应药品,精力值不足,已恢复健康\",UseItemCount901103,100,,,0,\"PlayerLove(),SetSP(),health,10-\",\"5+,20+,20+,LessenSP()\",,,7233,,,,1000,,,,[净血丸]数量 - 1,"
+  splits:
+  - split: 2
+    text: "使用净血丸"
+  - split: 9
+    text: "缺少对应药品"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "已恢复健康"
+  - split: 27
+    text: "净血丸"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "[{0}]{1} - 1"
+- raw: "278,204331,使用还复膏,obey,<,100,\"0,9,health\",\"<,<,<\",\"listMyItemData<901000>,SP,100\",\"缺少对应药品,精力值不足,已恢复健康\",UseItemCount901000,100,,,0,\"PlayerLove(),SetSP(),health,10-,SetObey()\",\"1+,5+,5+,LessenSP(),4-\",,,7233,,,,1000,,,,[还复膏]数量 - 1,"
+  splits:
+  - split: 2
+    text: "使用还复膏"
+  - split: 9
+    text: "缺少对应药品"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "已恢复健康"
+  - split: 27
+    text: "还复膏"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "[{0}]{1} - 1"
+- raw: "279,204341,使用续命散,obey,<,100,\"0,9,health\",\"<,<,<\",\"listMyItemData<901102>,SP,100\",\"缺少对应药品,精力值不足,已恢复健康\",UseItemCount901102,100,,,0,\"PlayerLove(),SetSP(),health,10-,SetObey()\",\"3+,10+,10+,LessenSP(),4-\",,,7233,,,,1000,,,,[续命散]数量 - 1,"
+  splits:
+  - split: 2
+    text: "使用续命散"
+  - split: 9
+    text: "缺少对应药品"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "已恢复健康"
+  - split: 27
+    text: "续命散"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "[{0}]{1} - 1"
+- raw: "280,204351,使用净血丸,obey,<,100,\"0,9,health\",\"<,<,<\",\"listMyItemData<901103>,SP,100\",\"缺少对应药品,精力值不足,已恢复健康\",UseItemCount901103,100,,,0,\"PlayerLove(),SetSP(),health,10-,SetObey()\",\"5+,20+,20+,LessenSP(),4-\",,,7233,,,,1000,,,,[净血丸]数量 - 1,"
+  splits:
+  - split: 2
+    text: "使用净血丸"
+  - split: 9
+    text: "缺少对应药品"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  - split: 9
+    subIndex: 2
+    text: "已恢复健康"
+  - split: 27
+    text: "净血丸"
+  - split: 27
+    subIndex: 1
+    text: "数量"
+  templates:
+  - split: 9
+    template: "{0},{1},{2}"
+  - split: 27
+    template: "[{0}]{1} - 1"
+- raw: "281,20436,闸斩足脚,\"bufferList<>,health\",\"!/,>\",\"10018,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,14-,22-,health,SetObey(),5-,PlayerLove()\",\"10018,LessenSP(),lichang,friendsEr,25-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "闸斩足脚"
+  - split: 9
+    text: "精力值不足"
+- raw: "282,20437,残断掌指,\"bufferList<>,health\",\"!/,>\",\"10019,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,8-,16-,health,SetObey(),5-,PlayerLove()\",\"10019,LessenSP(),lichang,friendsEr,20-,50+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "残断掌指"
+  - split: 9
+    text: "精力值不足"
+- raw: "283,20438,戳瞎渺目,\"bufferList<>,health\",\"!/,>\",\"10020,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,12-,20-,health,SetObey(),5-,PlayerLove()\",\"10020,LessenSP(),lichang,friendsEr,20-,50+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "戳瞎渺目"
+  - split: 9
+    text: "精力值不足"
+- raw: "284,20439,损毁其容,\"bufferList<>,health\",\"!/,>\",\"10021,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,10-,18-,health,SetObey(),5-,PlayerLove()\",\"10021,LessenSP(),lichang,friendsEr,15-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "损毁其容"
+  - split: 9
+    text: "精力值不足"
+- raw: "285,20440,铜汁灌耳,\"bufferList<>,health\",\"!/,>\",\"10022,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,16-,24-,health,SetObey(),5-,PlayerLove()\",\"10022,LessenSP(),lichang,friendsEr,20-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "铜汁灌耳"
+  - split: 9
+    text: "精力值不足"
+- raw: "286,20441,焚肌烧肤,\"bufferList<>,health\",\"!/,>\",\"10023,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,18-,26-,health,SetObey(),5-,PlayerLove()\",\"10023,LessenSP(),lichang,friendsEr,25-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "焚肌烧肤"
+  - split: 9
+    text: "精力值不足"
+- raw: "287,20442,阉阳去势,\"bufferList<>,health\",\"!/,>\",\"10024,0\",\"sex,9\",\"//,<\",\"1,SP\",\"囚犯需为男性,精力值不足\",,100,,,,\"SetBuffer(),10-,20-,28-,health,SetObey(),5-,PlayerLove()\",\"10024,LessenSP(),lichang,friendsEr,35-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "阉阳去势"
+  - split: 9
+    text: "囚犯需为男性"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "288,20443,剜阴割脔,SP,>,3000,sex,!/,1,囚犯需为女性,,100,,,,\"SetBuffer(),10-,20-,28-,health,SetObey(),5-,PlayerLove()\",\"10025,LessenSP(),lichang,friendsEr,35-,10+,SetPlayerAreaPrestige(),40-\",,,7231,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "剜阴割脔"
+  - split: 9
+    text: "囚犯需为女性"
+- raw: "289,20444,闸斩足脚,\"bufferList<>,health\",\"!/,<\",\"10018,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,14-,22-,5-,PlayerLove()\",\"0,10018,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "闸斩足脚"
+  - split: 9
+    text: "精力值不足"
+- raw: "290,20445,残断掌指,\"bufferList<>,health\",\"!/,<\",\"10019,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,8-,16-,5-,PlayerLove()\",\"0,10019,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "残断掌指"
+  - split: 9
+    text: "精力值不足"
+- raw: "291,20446,戳瞎渺目,\"bufferList<>,health\",\"!/,<\",\"10020,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,12-,20-,5-,PlayerLove()\",\"0,10020,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "戳瞎渺目"
+  - split: 9
+    text: "精力值不足"
+- raw: "292,20447,损毁其容,\"bufferList<>,health\",\"!/,<\",\"10021,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,10-,18-,5-,PlayerLove()\",\"0,10021,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "损毁其容"
+  - split: 9
+    text: "精力值不足"
+- raw: "293,20448,铜汁灌耳,\"bufferList<>,health\",\"!/,<\",\"10022,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,16-,24-,5-,PlayerLove()\",\"0,10022,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "铜汁灌耳"
+  - split: 9
+    text: "精力值不足"
+- raw: "294,20449,焚肌烧肤,\"bufferList<>,health\",\"!/,<\",\"10023,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,18-,26-,5-,PlayerLove()\",\"0,10023,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "焚肌烧肤"
+  - split: 9
+    text: "精力值不足"
+- raw: "295,20450,阉阳去势,\"bufferList<>,health\",\"!/,<\",\"10024,1\",\"sex,9\",\"//,<\",\"1,SP\",\"囚犯需为男性,精力值不足\",\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,20-,28-,5-,PlayerLove()\",\"0,10024,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "阉阳去势"
+  - split: 9
+    text: "囚犯需为男性"
+  - split: 9
+    subIndex: 1
+    text: "精力值不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "296,20451,剜阴割脔,SP,>,3000,sex,!/,1,囚犯需为女性,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,20-,28-,5-,PlayerLove()\",\"0,10025,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),40-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "剜阴割脔"
+  - split: 9
+    text: "囚犯需为女性"
+- raw: "297,1111,旧人相逢，怎能不热情相对，且与其相谈！,,,,,,,,,100,,,0,\"PlayerLove(),1+,2+,10-\",\"5+,friendsSan,lichang,LessenSP()\",,,1411,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "旧人相逢，怎能不热情相对，且与其相谈！"
+- raw: "298,1112,佯装不知，且转身离去。,,,,,,,,,100,,,0,\"PlayerLove(),5-\",\"3-,LessenSP()\",,,1412,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "佯装不知，且转身离去。"
+- raw: "299,1121,仇人相见，唯有挺身迎战！,,,,,,,,,100,,,0,\"PlayerLove(),energy,10-\",\"10-,10-,LessenSP()\",,,1421,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "仇人相见，唯有挺身迎战！"
+- raw: "300,1122,事有不谐，且走为上计！,,,,,,,,,100,,,0,\"energy,5-\",\"5-,LessenSP()\",,,1422,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "事有不谐，且走为上计！"
+- raw: "301,1123,狭路相逢，且战！,,,,,,,,Battle,100,,,0,,,,,,,1423,1424,1000,,,,,"
+  splits:
+  - split: 2
+    text: "狭路相逢，且战！"
+- raw: "302,1131,以德报怨，以理服人，与其慢慢讲来，或能化解仇怨。,,,,,,,,,100,,,0,\"PlayerLove(),energy,1+,2+,10-\",\"5+,5-,friendsSan,lichang,LessenSP()\",,,1431,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "以德报怨，以理服人，与其慢慢讲来，或能化解仇怨。"
+- raw: "303,1132,此人着实狂妄，且出手教训一二！,,,,,,,,Battle,100,,,0,\"PlayerLove(),energy,10-\",\"10-,10-,LessenSP()\",,,,,1423,1424,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人着实狂妄，且出手教训一二！"
+- raw: "304,1133,唾面自干，不予其计较。,,,,,,,,,100,,,0,\"energy,5-\",\"5-,LessenSP()\",,,1432,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "唾面自干，不予其计较。"
+- raw: "305,1141,且出手擒之，断不能让其逃了！,,,,,,,,Battle,100,,,0,\"PlayerLove(),energy,10-\",\"10-,10-,LessenSP()\",,,,,1423,1424,1000,,,,,"
+  splits:
+  - split: 2
+    text: "且出手擒之，断不能让其逃了！"
+- raw: "306,1142,此人品行低劣，却是落到做蟊贼的样子，不需与其计较。,,,,,,,,,100,,,0,\"energy,5-\",\"5-,LessenSP()\",,,1441,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人品行低劣，却是落到做蟊贼的样子，不需与其计较。"
+- raw: "307,1151,金兰相逢，情谊深厚，且与其相谈！,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5+,5-\",,,1451,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "金兰相逢，情谊深厚，且与其相谈！"
+- raw: "308,1152,虽金兰情谊深厚，但手上尚有要事，且先离去。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5-,5-\",,,1452,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "虽金兰情谊深厚，但手上尚有要事，且先离去。"
+- raw: "309,1161,情深义重，怎能相负，且与其相谈，驻足片刻何妨。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5+,5-\",,,1461,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "情深义重，怎能相负，且与其相谈，驻足片刻何妨。"
+- raw: "310,1162,儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5-,5-\",,,1462,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。"
+- raw: "311,1171,我夫妻情深义重，怎能相负，且与其相谈，驻足片刻何妨。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5+,5-\",,,1471,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我夫妻情深义重，怎能相负，且与其相谈，驻足片刻何妨。"
+- raw: "312,1172,儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5-,5-\",,,1472,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。"
+- raw: "313,1181,行差踏错也属在所难免，且息事宁人罢了。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "行差踏错也属在所难免，且息事宁人罢了。"
+- raw: "314,1182,此等窃贼，定要出手惩治一番！,,,,,,,,Battle,100,,,0,,,,,,,1900,1901,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此等窃贼，定要出手惩治一番！"
+- raw: "315,1191,行差踏错也属在所难免，且息事宁人罢了。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "行差踏错也属在所难免，且息事宁人罢了。"
+- raw: "316,1192,此等窃贼，定要出手惩治一番！,,,,,,,,Battle,100,,,0,,,,,,,1902,1901,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此等窃贼，定要出手惩治一番！"
+- raw: "317,1193,取回被窃银两,,,,,,,,,100,,,0,\"goldCoin,100+,1+\",\"100-,sliver,friendsSan\",,,1909,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取回被窃银两"
+- raw: "318,1201,此事甚好，何妨与豪士结识一番。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"10+,5-\",,,1903,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此事甚好，何妨与豪士结识一番。"
+- raw: "319,1202,哪来的白送钱的憨子，趁其尚在施礼，速速离去。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"10-,5-\",,,1904,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "哪来的白送钱的憨子，趁其尚在施礼，速速离去。"
+- raw: "320,1211,此等窃贼，定要出手惩治一番！,,,,,,,,Battle,100,,,0,,,,,,,1905,1906,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此等窃贼，定要出手惩治一番！"
+- raw: "321,1212,行差踏错也属在所难免，且息事宁人罢了。,,,,,,,,CloseUI,100,,,0,,,, ,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "行差踏错也属在所难免，且息事宁人罢了。"
+- raw: "322,1213,取回被窃物什,,,,,,,,,100,,,0,\"ReturnItematPlayer(),1+\",\"1,friendsSan\",,,1909,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取回被窃物什"
+- raw: "323,1221,以武会友，实乃乐事，便试试他的武学！,,,,,,,,Battle,100,,,0,,,,,,,1907,1908,1000,,,,,"
+  splits:
+  - split: 2
+    text: "以武会友，实乃乐事，便试试他的武学！"
+- raw: "324,1222,纷争扰扰，何苦节外生枝，且婉拒之，息事宁人。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "纷争扰扰，何苦节外生枝，且婉拒之，息事宁人。"
+- raw: "325,501,事有不谐，且先走为上！,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "事有不谐，且先走为上！"
+- raw: "326,1231,海内江湖客皆为一家，既阁下抬举，在下又岂有推脱之礼？,,,,,,,,,100,,,0,\"AddJiaoQing(),ZhiJiao;id,PlayerLove(),2+,AddLife()\",\"ZhiJiao;1,AddJiaoQing(),15+,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，二人相谈甚欢，对<color=#E64D00>p</color>有了数分钦佩之意。\",,,210011,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "海内江湖客皆为一家，既阁下抬举，在下又岂有推脱之礼？"
+- raw: "327,1232,尔乃何人，欲要与我结交，只怕……,,,,,,,,,100,,,0,\"PlayerLove(),2-,AddLife()\",\"8-,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，却是言锋不合，对<color=#E64D00>p</color>心生嫌恶。\",,,210012,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "尔乃何人，欲要与我结交，只怕……"
+- raw: "328,1241,既如此，乃是在下之幸！愿你我今日共结金兰，快慰平生，纵马江湖！,,,,,,,,CutTo你与n性情相近，志趣相投，相约结为八拜之交，皇天厚土于此见证，有违此誓，人神共灭之！,100,,,0,\"RemoveJiaoQing(),ZhiJiao;id,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),2+,PlayerLove(),AddLife()\",\"ZhiJiao;1,RemoveJiaoQing(),JinLan;1,AddJiaoQing(),5+,lichang,10+,<color=#E64D00>a</color>与<color=#E64D00>p</color>义结金兰，交情愈加深厚！\",,,210021,,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
+  splits:
+  - split: 2
+    text: "既如此，乃是在下之幸！愿你我今日共结金兰，快慰平生，纵马江湖！"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "二人交情深厚，义结金兰！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "329,1242,你我虽情谊深厚，只是……义结金兰之事，恐强求不得。,,,,,,,,,100,,,0,\"SetLoveAtPlayer(),2-,PlayerLove(),AddLife()\",\"5-,lichang,15-,<color=#E64D00>a</color>欲与<color=#E64D00>p</color>义结金兰，却是被其婉拒，一时间<color=#E64D00>a</color>失望之色甚浓……\",,,210022,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "你我虽情谊深厚，只是……义结金兰之事，恐强求不得。"
+- raw: "330,1251,既得大人抬爱，在下岂有推脱之理？愿侍奉膝下，陪伴左右。,,,,,,,,,100,,,0,\"AddJiaoQing(),YiQin;id,SetLoveAtPlayer(),2+,PlayerLove(),AddLife()\",\"YiQin;1,AddJiaoQing(),5+,lichang,10+,<color=#E64D00>a</color>观<color=#E64D00>p</color>孤苦无依，秉性又恰与自己相合，当即将<color=#E64D00>p</color>收为义[子||女]，日后江湖之中再不复伶仃之影。\",,,210031,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "既得大人抬爱，在下岂有推脱之理？愿侍奉膝下，陪伴左右。"
+- raw: "331,1252,阁下多有照拂，在下感念于心，只是义亲一事，实非我所愿……,,,,,,,,,100,,,0,\"SetLoveAtPlayer(),PlayerLove(),AddLife()\",\"5-,15-,<color=#E64D00>a</color>观<color=#E64D00>p</color>孤苦无依，秉性又恰与自己相合，欲将<color=#E64D00>p</color>收为义[子||女]，却被婉言相拒，一时失望而返……\",,,210032,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "阁下多有照拂，在下感念于心，只是义亲一事，实非我所愿……"
+- raw: "332,1261,数日不见，你却是与我日思夜想的一般无二……,,,,,,,,,100,,,0,\"2+,PlayerLove(),AddLife()\",\"lichang,15+,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……\",,,210041,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "数日不见，你却是与我日思夜想的一般无二……"
+- raw: "333,1262,我自为我，有何不同？,,,,,,,,,100,,,0,\"2-,PlayerLove(),AddLife()\",\"lichang,15-,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许，只叹<color=#E64D00>p</color>似是不知此情……\",,,210042,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我自为我，有何不同？"
+- raw: "334,1271,天下之大，如你我心意相通者，尚有几何？我亦倾心你许久……,,,,,,,,CutTo红尘漫漫，n与你结为红颜眷侣，此情此誓，虽海枯石烂，亦不悔也。,100,,,0,\"AddJiaoQing(),JuanLv;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,AddJiaoQing(),3+,10+,lichang,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，不想<color=#E64D00>p</color>亦倾心于其多时，二人结为眷侣，柔情无限。\",,,210051,,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "天下之大，如你我心意相通者，尚有几何？我亦倾心你许久……"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "335,1272,承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……,,,,,,,,,100,,,0,\"2-,PlayerLove(),AddLife()\",\"lichang,20-,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，怎奈落花有意流水无情……\",,,210052,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……"
+- raw: "336,1281,执子之手与子偕老，你我二人，将来便是夫妇了！,,,,,,,,CutTo你与n相约三生，夫妻结发，百年共白头，千年共此修。,100,,,0,\"RemoveJiaoQing(),JuanLv;id,AddJiaoQing(),PeiOu;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,RemoveJiaoQing(),PeiOu;1,AddJiaoQing(),3+,10+,lichang,痴情缠绵多时的<color=#E64D00>a</color>与<color=#E64D00>p</color>二位眷侣，决意成婚，执子之手与子偕老，永不违约。\",,,210061,,,,1000,,,,执子之手，与子偕老，你与{0}二人结为夫妻!决意生死不离。,"
+  splits:
+  - split: 2
+    text: "执子之手与子偕老，你我二人，将来便是夫妇了！"
+  - split: 27
+    text: "执子之手，与子偕老，你与"
+  - split: 27
+    subIndex: 1
+    text: "二人结为夫妻"
+  - split: 27
+    subIndex: 2
+    text: "决意生死不离。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}!{2}"
+- raw: "337,1282,……你我只做眷侣不亦是美事？何必为了一纸婚约那等虚名？,,,,,,,,,100,,,0,\"2-,PlayerLove(),AddLife()\",\"lichang,30-,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意，怎奈落花有意流水无情，二人心思各异，再不复之前柔情。\",,,210062,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "……你我只做眷侣不亦是美事？何必为了一纸婚约那等虚名？"
+- raw: "338,1291,情淡意薄，顺其心意。,,,,,,,,,100,,,0,\"RemoveJiaoQing(),PeiOu;id,2+,AddLife()\",\"PeiOu;1,RemoveJiaoQing(),lichang,恩怨几许，痴燕纷飞，破镜再难圆， <color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘，此后再无夫妻之情。\",,,210071,,,,1000,,,,千年缘散，情空恨虚，{0}与你分道扬镳，再非夫妻了。,"
+  splits:
+  - split: 2
+    text: "情淡意薄，顺其心意。"
+  - split: 27
+    text: "千年缘散，情空恨虚，"
+  - split: 27
+    subIndex: 1
+    text: "与你分道扬镳，再非夫妻了。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "339,1292,恼羞成怒，出手泄愤！,,,,,,,,Battle,100,,,0,\"PlayerLove(),5-\",\"20-,lichang\",,,,,210072,210073,1000,,,,,"
+  splits:
+  - split: 2
+    text: "恼羞成怒，出手泄愤！"
+- raw: "340,1293,暂且离去,,,,,,,,CloseUI,100,,,0,\"RemoveJiaoQing(),PeiOu;id,AddLife()\",\"PeiOu;1,RemoveJiaoQing(),<color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘，<color=#E64D00>p</color>恼羞成怒将<color=#E64D00>a</color>打伤，此后二人分道扬镳，再无夫妻之情。\",,,,,,,1000,,,,千年缘散，情空恨虚，{0}与你分道扬镳，再非夫妻了。,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+  - split: 27
+    text: "千年缘散，情空恨虚，"
+  - split: 27
+    subIndex: 1
+    text: "与你分道扬镳，再非夫妻了。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "341,1294,暂且离去,,,,,,,,CloseUI,100,,,0,\"RemoveJiaoQing(),PeiOu;id,AddLife()\",\"PeiOu;1,RemoveJiaoQing(),<color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘，<color=#E64D00>p</color>恼羞成怒，却被<color=#E64D00>a</color>反伤肺腑，此后二人分道扬镳，再无夫妻之情。\",,,,,,,1000,,,,千年缘散，情空恨虚，{0}与你分道扬镳，再非夫妻了。,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+  - split: 27
+    text: "千年缘散，情空恨虚，"
+  - split: 27
+    subIndex: 1
+    text: "与你分道扬镳，再非夫妻了。"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "342,1301,拿钱消灾。,,,,799,<,sliver,所需银两不足,,70,,,0,800-,sliver,800-,sliver,210081,210082,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "拿钱消灾。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "343,1302,言语转圜。,,,,,,,,,,,attributeWx,0,,,,,210083,210084,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "言语转圜。"
+- raw: "344,1303,惩戒凶徒。,,,,,,,,,100,,,0,,,,,210085,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "惩戒凶徒。"
+- raw: "345,1304,包裹碎石，伪装成财宝递出。,,,,,,,,,40,,,0,,,PlayerLove(),40-,210086,210087,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "包裹碎石，伪装成财宝递出。"
+- raw: "346,1305,加快脚步离开。,,,,,,,,,100,,,0,,,,,210088,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "加快脚步离开。"
+- raw: "347,1306,事已至此，放手一搏！,,,,,,,,Battle,100,,,0,,,,,,,210091,210092,1000,,,,,"
+  splits:
+  - split: 2
+    text: "事已至此，放手一搏！"
+- raw: "348,1307,快步离去。,,,,,,,,,100,,,0,,,,,210089,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "快步离去。"
+- raw: "349,1308,快步离去。,,,,,,,,,100,,,0,,,,,210090,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "快步离去。"
+- raw: "350,1311,给予少许钱财，免其饥寒之苦。,,,,299,<,sliver,所需银两不足,,100,,,0,\"300-,PlayerLove(),20+\",\"sliver,10+,SetPlayerAreaPrestige()\",,,210101,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "给予少许钱财，免其饥寒之苦。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "351,1312,给予大量钱财，助其东山再起。,,,,1999,<,sliver,所需银两不足,,100,,,0,\"2000-,PlayerLove(),200+\",\"sliver,40+,SetPlayerAreaPrestige()\",,,210102,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "给予大量钱财，助其东山再起。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "352,1313,言语打发。,,,,,,,,,100,,,0,,,,,210103,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "言语打发。"
+- raw: "353,1314,默然不理。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210104,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "默然不理。"
+- raw: "354,1315,不为所动，转身欲走。,,,,,,,,,100,,,0,PlayerLove(),10-,,,210105,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "不为所动，转身欲走。"
+- raw: "355,1316,快步离去。,,,,,,,,,100,,,0,,,,,210106,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "快步离去。"
+- raw: "356,1321,好一嚣张狂徒，定要出手教训一番！,,,,,,,,Battle,100,,,0,,,,,,,210091,210092,1000,,,,,"
+  splits:
+  - split: 2
+    text: "好一嚣张狂徒，定要出手教训一番！"
+- raw: "357,1322,出言规劝。,,,,,,,,,,,attributeWx,0,20+,SetPlayerAreaPrestige(),PlayerLove(),40-,210111,210112,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "出言规劝。"
+- raw: "358,1323,警告威胁。,,,,,,,,,attribute,attribute,,0,20+,SetPlayerAreaPrestige(),PlayerLove(),40-,210113,210114,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "警告威胁。"
+- raw: "359,1324,默然不理。,,,,,,,,,,,attributeSf,0,,,PlayerAddBuffer(),10010,210115,210119,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "默然不理。"
+- raw: "360,1325,缓步离开。,,,,,,,,,100,,,0,,,,,210116,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "缓步离开。"
+- raw: "361,1326,运功起势，出手教训一番！,,,,,,,,,100,,,,,,,,210117,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "运功起势，出手教训一番！"
+- raw: "362,1327,宵小之辈，不值一提，转身离去。,,,,,,,,,100,,,,,,,,210118,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "宵小之辈，不值一提，转身离去。"
+- raw: "363,1328,宵小之辈，不值一提，转身离去。,,,,,,,,,100,,,,,,,,210120,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "宵小之辈，不值一提，转身离去。"
+- raw: "364,1329,速速离去。,,,,,,,,,100,,,,20-,SetPlayerAreaPrestige(),,,210121,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "速速离去。"
+- raw: "365,1341,递交银两，购置神功。,,,,499,<,sliver,所需银两不足,,100,,,,\"500-,GiveItem2Player()\",\"sliver,95901001_1#95901002_1#95902001_1#95902002_1#95903001_1#95903002_1#95904002_1#95904001_1#95905002_1#95905001_1#95906001_1#95906002_1#95909001_1#95909002_1#95910001_1#95910002_1#95911001_1#95911002_1#95912001_1#95912002_1#95913001_1#95913002_1#95914001_1#95914002_1#95915001_1#95915002_1\",,,210131,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "递交银两，购置神功。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "366,1342,要求其展露几式，以辨真假。,,,,,,,,,100,,,,,,,,210133,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "要求其展露几式，以辨真假。"
+- raw: "367,1343,此事蹊跷，断然拒绝。,,,,,,,,,100,,,,,,,,210132,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此事蹊跷，断然拒绝。"
+- raw: "368,1344,上前交手！,,,,,,,,Battle,100,,,,,,,,,,210134,210135,1000,,,,,"
+  splits:
+  - split: 2
+    text: "上前交手！"
+- raw: "369,1345,不再试探，直接购置神功。,,,,499,<,sliver,所需银两不足,,100,,,,\"500-,GiveItem2Player()\",\"sliver,95901001_1#95901002_1#95902001_1#95902002_1#95903001_1#95903002_1#95904002_1#95904001_1#95905002_1#95905001_1#95906001_1#95906002_1#95909001_1#95909002_1#95910001_1#95910002_1#95911001_1#95911002_1#95912001_1#95912002_1#95913001_1#95913002_1#95914001_1#95914002_1#95915001_1#95915002_1\",,,210136,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "不再试探，直接购置神功。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "370,1346,断然拒绝。,,,,,,,,,100,,,,,,,,210137,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "断然拒绝。"
+- raw: "371,1347,递交银两，服用丹药。,,,,499,<,sliver,所需银两不足,,100,,,,500-,sliver,,,210138,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "递交银两，服用丹药。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "372,1348,断然拒绝。,,,,,,,,,100,,,,PlayerAddBuffer(),10042,,,210139,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "断然拒绝。"
+- raw: "373,1349,缓步离去。,,,,,,,,CloseUI,100,,,,GiveItem2Player(),95901001_1#95901002_1#95902001_1#95902002_1#95903001_1#95903002_1#95904002_1#95904001_1#95905002_1#95905001_1#95906001_1#95906002_1#95909001_1#95909002_1#95910001_1#95910002_1#95911001_1#95911002_1#95912001_1#95912002_1#95913001_1#95913002_1#95914001_1#95914002_1#95915001_1#95915002_1,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "缓步离去。"
+- raw: "374,1351,求取神丹妙药！,,,,799,<,sliver,所需银两不足,,100,,,,\"800-,GiveItem2Player()\",\"sliver,901002_3|901003_2|901004_1#901102_3|901103_2|901104_1#901400_2|901200_2|901300_2\",,,210141,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取神丹妙药！"
+  - split: 9
+    text: "所需银两不足"
+- raw: "375,1352,求取神功秘籍！,,,,999,<,sliver,所需银两不足,,100,,,,\"800-,GiveItem2Player()\",\"sliver,95101018_1#95101019_1#95101028_1#95101029_1#95102018_1#95102019_1#95102028_1#95102029_1#95103018_1#95103019_1#95104018_1#95104019_1#95104028_1#95104029_1#95104038_1#95104039_1#95106018_1#95106019_1#95109018_1#95109019_1#95110018_1#95110019_1#95110028_1#95110029_1#95111018_1#95111019_1#95120018_1#95120019_1#95140018_1#95140019_1#95150028_1#95150029_1#95201038_1#95201039_1#95201108_1#95201109_1#95201118_1#95201119_1#95201158_1#95201159_1#95201168_1#95201169_1#95201188_1#95201189_1#95301028_1#95301029_1#95301048_1#95301049_1#95301058_1#95301059_1#95301068_1#95301069_1#95301098_1#95301099_1#95301138_1#95301139_1#95301148_1#95301149_1#95301158_1#95301159_1\",,,210142,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取神功秘籍！"
+  - split: 9
+    text: "所需银两不足"
+- raw: "376,1353,求取神兵利器！,,,,799,<,sliver,所需银两不足,,100,,,,\"800-,GiveItem2Player()\",\"sliver,101004_1#101005_1#102004_1#102005_1#102104_1#102105_1#103004_1#103005_1#104001_1#104002_1#104003_1#104004_1#104005_1#104006_1#104007_1#104008_1#104101_1#104102_1#104103_1#104104_1#104105_1#104106_1#104107_1#104108_1#105001_1#105002_1#105003_1#105004_1#105005_1#105006_1#105007_1#105008_1#106004_1#106005_1#109004_1#109005_1#110004_1#110005_1#111004_1#111005_1#112004_1#112005_1#113004_1#113005_1#114004_1#114005_1#115004_1#115005_1\",,,210143,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求取神兵利器！"
+  - split: 9
+    text: "所需银两不足"
+- raw: "377,1354,无欲无求。,,,,,,,,,100,,,,PlayerAddBuffer(),10043,,,210144,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "无欲无求。"
+- raw: "378,1355,此事蹊跷，不必理会。,,,,,,,,,100,,,,,,,,210145,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此事蹊跷，不必理会。"
+- raw: "379,1361,[待补充],,,,,,,,,100,,,,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "待补充"
+  templates:
+  - split: 2
+    template: "[{0}]"
+- raw: "380,1362,[待补充],,,,,,,,,100,,,,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "待补充"
+  templates:
+  - split: 2
+    template: "[{0}]"
+- raw: "381,1363,[待补充],,,,,,,,,100,,,,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "待补充"
+  templates:
+  - split: 2
+    template: "[{0}]"
+- raw: "382,1371,既然你这般心诚，那我便收你为徒。从今往后，你需勤勉好学，不可懈怠。,,,,,,,,CutTo奉香茗，三跪九叩，n向你行拜师礼!,100,,,,\"AddJiaoQing(),TuDi;id,SetLoveAtPlayer(),PlayerLove()\",\"ShiFu;1,AddJiaoQing(),5+,40+\",,,210161,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "既然你这般心诚，那我便收你为徒。从今往后，你需勤勉好学，不可懈怠。"
+- raw: "383,1372,我且自认才疏学浅，这事莫要再提……,,,,,,,,,100,,,,,,,,210162,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我且自认才疏学浅，这事莫要再提……"
+- raw: "384,1381,承蒙师父看重，我亦愿拜您为师。,,,,1,>,JiaoQing<ShiFu>,你已有师门,CutTo幸承青睐，得入门墙，你向师父n执弟子礼!,100,,,,\"AddJiaoQing(),ShiFu;id,SetLoveAtPlayer(),PlayerLove()\",\"TuDi;1,AddJiaoQing(),5+,40+\",,,210171,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承蒙师父看重，我亦愿拜您为师。"
+  - split: 9
+    text: "你已有师门"
+- raw: "385,1382,承蒙错爱，我且暂无拜师之意。,,,,,,,,,100,,,,,,,,210172,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承蒙错爱，我且暂无拜师之意。"
+- raw: "386,1391,我自是满心欢喜，求之不得！,,,,,,,,CutTo你与n情谊深厚，义结金兰！,100,,,,\"RemoveJiaoQing(),ZhiJiao;id,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer()\",\"ZhiJiao;1,RemoveJiaoQing(),1,JinLan;1,AddJiaoQing(),5+\",,,210181,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我自是满心欢喜，求之不得！"
+- raw: "387,1392,你我情谊深厚，何须这结拜之名分？,,,,,,,,,100,,,,,,,,210182,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "你我情谊深厚，何须这结拜之名分？"
+- raw: "388,1401,我愿与你结为知交好友，笑谈这世间云起云落。,,,,,,,,CutTo你与n相识良久，志趣相投，相约结为知交好友，互诉衷肠！,100,,,0,\"AddJiaoQing(),ZhiJiao;id,PlayerLove(),2+,AddLife()\",\"ZhiJiao;1,AddJiaoQing(),15+,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，二人相谈甚欢，对<color=#E64D00>p</color>有了数分钦佩之意。\",,,210191,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我愿与你结为知交好友，笑谈这世间云起云落。"
+- raw: "389,1402,我孤身为伴，不喜与人深交，恐负你一番美意。,,,,,,,,,100,,,0,\"PlayerLove(),2-,AddLife()\",\"8-,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，却是言锋不合，对<color=#E64D00>p</color>心生嫌恶。\",,,210192,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我孤身为伴，不喜与人深交，恐负你一番美意。"
+- raw: "390,1411,相伴同游！,,,,,,,,CutTo你二人结伴同游，诉近日之见闻，相谈甚欢……,100,,,0,PlayerLove(),15+,,,210201,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "相伴同游！"
+- raw: "391,1412,暂无此意，还望海涵，莫要怪罪。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210202,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂无此意，还望海涵，莫要怪罪。"
+- raw: "392,1421,我亦倾心你许久……,,,,,,,,CutTo红尘漫漫，n与你结为红颜眷侣，此情此誓，虽海枯石烂，亦不悔也。,100,,,0,\"AddJiaoQing(),JuanLv;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,AddJiaoQing(),3+,10+,lichang,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，不想<color=#E64D00>p</color>亦倾心于其多时，二人结为眷侣，柔情无限。\",,,210211,,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "我亦倾心你许久……"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "393,1422,承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……,,,,,,,,,100,,,0,\"2-,PlayerLove(),AddLife()\",\"lichang,20-,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，怎奈落花有意流水无情……\",,,210212,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……"
+- raw: "394,1431,相伴同游！,,,,,,,,CutTo你二人结伴同游，诉近日之见闻，相谈甚欢……,100,,,0,PlayerLove(),15+,,,210221,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "相伴同游！"
+- raw: "395,1432,暂无此意，还望海涵，莫要怪罪。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210222,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂无此意，还望海涵，莫要怪罪。"
+- raw: "396,1441,我亦倾心你许久……,,,,,,,,CutTo红尘漫漫，n与你结为红颜眷侣，此情此誓，虽海枯石烂，亦不悔也。,100,,,0,\"AddJiaoQing(),JuanLv;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,AddJiaoQing(),3+,10+,lichang,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，不想<color=#E64D00>p</color>亦倾心于其多时，二人结为眷侣，柔情无限。\",,,210231,,,,1000,,,,你与{0}情投意合，结为眷侣！,"
+  splits:
+  - split: 2
+    text: "我亦倾心你许久……"
+  - split: 27
+    text: "你与"
+  - split: 27
+    subIndex: 1
+    text: "情投意合，结为眷侣！"
+  templates:
+  - split: 27
+    template: "{0}⟦0⟧{1}"
+- raw: "397,1442,承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……,,,,,,,,,100,,,0,\"2-,PlayerLove(),AddLife()\",\"lichang,20-,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，怎奈落花有意流水无情……\",,,210232,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……"
+- raw: "398,1451,有此真心，为师甚慰。,,,,,,,,,100,,,0,\"PlayerLove(),10+,xiuWei\",\"8+,SetPlayerAreaPrestige(),100+\",,,210241,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "有此真心，为师甚慰。"
+- raw: "399,1452,莫要打扰为师，为师之事，小辈无需多嘴。,,,,,,,,,100,,,0,\"PlayerLove(),10-\",\"5-,SetPlayerAreaPrestige()\",,,210242,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "莫要打扰为师，为师之事，小辈无需多嘴。"
+- raw: "400,1461,诉说心中困惑。,,,,,,,,,100,,,0,\"PlayerLove(),100+\",\"5+,xiuWei\",,,210251,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "诉说心中困惑。"
+- raw: "401,1462,徒儿自会解决，不劳师父费心。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210252,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "徒儿自会解决，不劳师父费心。"
+- raw: "402,1471,知无不言，言无不尽。,,,,,,,,,100,,,0,\"PlayerLove(),10+,xiuWei\",\"8+,SetPlayerAreaPrestige(),50+\",,,210261,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "知无不言，言无不尽。"
+- raw: "403,1472,无暇顾及，冷厉拒绝。,,,,,,,,,100,,,0,\"PlayerLove(),10-\",\"5-,SetPlayerAreaPrestige()\",,,210262,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "无暇顾及，冷厉拒绝。"
+- raw: "404,1481,你我知心而交，同行江湖，何必多言？,,,,,,,,PartnerJoinTeam,100,,,0,PlayerLove(),10+,,,210271,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "你我知心而交，同行江湖，何必多言？"
+- raw: "405,1482,阁下多有照拂，在下感念于心，只是同历江湖一事，万万不可轻下决意……,,,,,,,,,100,,,0,PlayerLove(),5-,,,210272,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "阁下多有照拂，在下感念于心，只是同历江湖一事，万万不可轻下决意……"
+- raw: "406,110011,出言相劝，断不能再让此人胡言多语。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),1+,2+,10-,ResetState(),StopAction()\",\"5-,friendsSan,lichang,LessenSP(),5,1\",,,110011,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "出言相劝，断不能再让此人胡言多语。"
+  - split: 9
+    text: "精力值不足"
+- raw: "407,110012,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"1-,ResetState()\",\"lichang,5\",,,110012,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "408,110021,因果循环，该有此劫，且袖手观之。,,,,,,,,,100,,,0,\"energy,PlayerLove(),1-,2-,ResetState()\",\"25-,5-,friendsEr,lichang,5\",,,110021,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "因果循环，该有此劫，且袖手观之。"
+- raw: "409,110022,救危扶难，仁义所在，且运功助之解毒。,,,,14,<,SP,精力值不足,,100,,,0,\"energy,PlayerLove(),3+,4+,15-,ResetState(),StopAction()\",\"10-,10+,friendsSan,lichang,LessenSP(),5,1\",,,110022,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "救危扶难，仁义所在，且运功助之解毒。"
+  - split: 9
+    text: "精力值不足"
+- raw: "410,110023,此人身负剧毒，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110023,110024,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人身负剧毒，何不趁此机会，于其身上得些利……"
+  - split: 9
+    text: "精力值不足"
+- raw: "411,110031,何妨闲坐片刻，且于此围观听书。,,,,,,,,,100,,,0,\"goldCoin,ResetState()\",\"100+,5\",,,110031,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "何妨闲坐片刻，且于此围观听书。"
+- raw: "412,110032,此人所讲妙趣横生，为其捧场助势！,,,,9,<,SP,精力值不足,,100,,,0,\"goldCoin,PlayerLove(),80+,3+,4+,10-,ResetState()\",\"120+,10+,sliver,friendsSan,lichang,LessenSP(),5\",,,110032,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人所讲妙趣横生，为其捧场助势！"
+  - split: 9
+    text: "精力值不足"
+- raw: "413,110033,此人言谈与我之前所见全然不同，此等胡说八道之语，定当教训一番！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState(),StopAction()\",\"40-,friendsEr,lichang,LessenSP(),5,1\",,,,,110033,110034,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人言谈与我之前所见全然不同，此等胡说八道之语，定当教训一番！"
+  - split: 9
+    text: "精力值不足"
+- raw: "414,110041,因果循环，该有此劫，且袖手观之。,,,,,,,,,100,,,0,\"energy,PlayerLove(),1-,2-,ResetState()\",\"25-,5-,friendsEr,lichang,5\",,,110041,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "因果循环，该有此劫，且袖手观之。"
+- raw: "415,110042,救危扶难，仁义所在，且运功助之恢复精神。,,,,9,<,SP,精力值不足,,100,,,0,\"energy,PlayerLove(),5+,3+,10-,ResetState(),StopAction()\",\"5+,10+,friendsSan,lichang,LessenSP(),5,1\",,,110042,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "救危扶难，仁义所在，且运功助之恢复精神。"
+  - split: 9
+    text: "精力值不足"
+- raw: "416,110043,此人身负异伤，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110043,110044,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人身负异伤，何不趁此机会，于其身上得些利……"
+  - split: 9
+    text: "精力值不足"
+- raw: "417,110051,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110051,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "418,110052,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110052,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+  - split: 9
+    text: "境界需至少与对方相当"
+- raw: "419,110053,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110052,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "420,110054,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110052,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "421,110055,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110053,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "422,110056,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110053,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+- raw: "423,110057,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110053,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "424,110058,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110054,110055,1000,,,,,"
+  splits:
+  - split: 2
+    text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+  - split: 9
+    text: "精力值不足"
+- raw: "425,110061,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110061,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "426,110062,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110062,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+  - split: 9
+    text: "境界需至少与对方相当"
+- raw: "427,110063,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110062,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "428,110064,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110062,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "429,110065,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110063,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "430,110066,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110063,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+- raw: "431,110067,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110063,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "432,110068,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110064,110065,1000,,,,,"
+  splits:
+  - split: 2
+    text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+  - split: 9
+    text: "精力值不足"
+- raw: "433,110071,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110071,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "434,110072,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110072,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+  - split: 9
+    text: "境界需至少与对方相当"
+- raw: "435,110073,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110072,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "436,110074,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110072,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "437,110075,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110073,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "438,110076,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110073,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+- raw: "439,110077,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110073,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "440,110078,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110074,110075,1000,,,,,"
+  splits:
+  - split: 2
+    text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+  - split: 9
+    text: "精力值不足"
+- raw: "441,110081,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110081,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "442,110082,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110082,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+  - split: 9
+    text: "境界需至少与对方相当"
+- raw: "443,110083,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110082,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "444,110084,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110082,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "一时技痒，且与此人搭手陪练片刻。"
+- raw: "445,110085,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110083,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "446,110086,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110083,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+- raw: "447,110087,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110083,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+  - split: 9
+    text: "境界需高于对方"
+- raw: "448,110088,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110084,110085,1000,,,,,"
+  splits:
+  - split: 2
+    text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+  - split: 9
+    text: "精力值不足"
+- raw: "449,110091,此事与我何干，且袖手观之。,,,,,,,,,100,,,0,\"energy,ResetState()\",\"30+,5\",,,110091,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此事与我何干，且袖手观之。"
+- raw: "450,110092,救危扶难，仁义所在，出手相助。,,,,149,<,sliver,所需银两不足,,100,,,0,\"energy,PlayerLove(),3+,2+,150-,ResetState(),StopAction()\",\"10-,35+,friendsSan,lichang,sliver,5,1\",,,110092,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "救危扶难，仁义所在，出手相助。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "451,110093,此人身疲神惫，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110093,110094,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人身疲神惫，何不趁此机会，于其身上得些利……"
+  - split: 9
+    text: "精力值不足"
+- raw: "452,110101,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"energy,lichang,evil,ResetState()\",\"15-,2-,4-,5\",,,110101,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "453,110102,此人甚为可怜，且慷慨解囊，为其出资。,,,,199,<,sliver,所需银两不足,,100,,,0,\"energy,PlayerLove(),3+,2+,200-,30+,ResetState(),StopAction()\",\"10-,15+,friendsSan,lichang,sliver,xiuWei,5,1\",,,110102,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人甚为可怜，且慷慨解囊，为其出资。"
+  - split: 9
+    text: "所需银两不足"
+- raw: "454,110111,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"PlayerLove(),1-,ResetState()\",\"15-,lichang,5\",,,110111,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "455,110112,求成心切，于武学之道南辕北辙，且为其细细讲来才是。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),5+,2+,xiuWei,10-,ResetState(),StopAction()\",\"15+,friendsSan,lichang,15+,LessenSP(),5,1\",,,110112,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "求成心切，于武学之道南辕北辙，且为其细细讲来才是。"
+  - split: 9
+    text: "精力值不足"
+- raw: "456,110113,救危扶难，仁义所在，且运功助之恢复精神。,,,,19,<,SP,精力值不足,,100,,,0,\"PlayerLove(),energy,8+,4+,xiuWei,20-,ResetState(),StopAction()\",\"25+,20+,friendsSan,lichang,15+,LessenSP(),5,1\",,,110113,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "救危扶难，仁义所在，且运功助之恢复精神。"
+  - split: 9
+    text: "精力值不足"
+- raw: "457,110114,此人身疲神惫，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110114,110115,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人身疲神惫，何不趁此机会，于其身上得些利……"
+  - split: 9
+    text: "精力值不足"
+- raw: "458,110121,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"PlayerLove(),1-,ResetState()\",\"15-,lichang,5\",,,110121,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "459,110122,出手相助，帮其暂作调息。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),energy,8+,4+,10-,ResetState(),StopAction()\",\"25+,20+,friendsSan,lichang,LessenSP(),5,1\",,,110122,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "出手相助，帮其暂作调息。"
+  - split: 9
+    text: "精力值不足"
+- raw: "460,110123,此人身疲神惫，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110123,110124,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人身疲神惫，何不趁此机会，于其身上得些利……"
+  - split: 9
+    text: "精力值不足"
+- raw: "461,110131,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"energy,ResetState()\",\"25-,5\",,,110131,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人之事，与我何干？且莫去理会。"
+- raw: "462,110132,且一同参详，若然能够得利，也属意外之喜。,,,,9,<,SP,精力值不足,,100,,,0,\"energy,PlayerLove(),10-,ResetState(),StopAction()\",\"25-,10+,LessenSP(),5,1\",,,110132,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "且一同参详，若然能够得利，也属意外之喜。"
+  - split: 9
+    text: "精力值不足"
+- raw: "463,110133,全然无私，尽心苦思，助其参详。,,,,4,<,Wx,悟性不足,,100,,,0,\"xiuWei,PlayerLove(),30+,ResetState(),StopAction()\",\"30+,10+,xiuWei,5,1\",,,110133,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "全然无私，尽心苦思，助其参详。"
+  - split: 9
+    text: "悟性不足"
+- raw: "464,110141,他人死活与我何干，且袖手观之。,,,,,,,,,100,,,0,\"energy,2-,ResetState()\",\"20-,lichang,5\",,,110141,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "他人死活与我何干，且袖手观之。"
+- raw: "465,110142,胡乱寻些药材与他，也算是尽力。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),4+,2+,10-,ResetState()\",\"10+,friendsSan,lichang,LessenSP(),5\",,,110142,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "胡乱寻些药材与他，也算是尽力。"
+  - split: 9
+    text: "精力值不足"
+- raw: "466,110143,救危扶难，仁义所在，且运功施药，全力助之解毒。,,,,14,<,SP,精力值不足,,100,,,0,\"PlayerLove(),6+,3+,15-,ResetState(),StopAction()\",\"20+,friendsSan,lichang,LessenSP(),5,1\",,,110143,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "救危扶难，仁义所在，且运功施药，全力助之解毒。"
+  - split: 9
+    text: "精力值不足"
+- raw: "467,110151,因果循环，该有此劫，且袖手观之。,,,,,,,,,100,,,0,\"energy,2-,ResetState()\",\"20-,lichang,5\",,,110151,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "因果循环，该有此劫，且袖手观之。"
+- raw: "468,110152,救危扶难，仁义所在，出手相助。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),energy,5+,2+,10-,ResetState(),StopAction()\",\"10+,10-,friendsSan,lichang,LessenSP(),5,1\",,,110152,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "救危扶难，仁义所在，出手相助。"
+  - split: 9
+    text: "精力值不足"
+- raw: "469,110153,此人神魂不清，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110153,110154,1000,,,,,"
+  splits:
+  - split: 2
+    text: "此人神魂不清，何不趁此机会，于其身上得些利……"
+  - split: 9
+    text: "精力值不足"
+- raw: "470,310011,冤仇相报，也属常理，且袖手旁观。,,,,,,,,\"OtherP310015,OtherN310019\",100,,,0,\"energy,AddLife(),ResetState()\",\"25-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，a心中对b的仇怨也更加深了几分。,5\",,,310011,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "冤仇相报，也属常理，且袖手旁观。"
+- raw: "471,310012,行走江湖，以和为贵，且出言相劝二者罢手。,,,,14,<,SP,精力值不足,\"OtherP310016,OtherN310019\",100,,,0,\"PlayerLove(),4+,2+,15-,AddLife(),ResetState()\",\"10-,friendsSan,lichang,LessenSP(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。,5\",,,310012,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "行走江湖，以和为贵，且出言相劝二者罢手。"
+  - split: 9
+    text: "精力值不足"
+- raw: "472,310013,思索片刻，终决意为前者助战。,,,,14,<,SP,精力值不足,\"OtherP310017,OtherN310019\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20+,friendsEr,lichang,LessenSP(),5\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "思索片刻，终决意为前者助战。"
+  - split: 9
+    text: "精力值不足"
+- raw: "473,310014,思索片刻，终决意为后者助战。,,,,14,<,SP,精力值不足,\"OtherP310018,OtherN310019,Battle\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20-,friendsEr,lichang,LessenSP(),5\",,,,,310015,310016,1000,,,,,"
+  splits:
+  - split: 2
+    text: "思索片刻，终决意为后者助战。"
+  - split: 9
+    text: "精力值不足"
+- raw: "474,310015,,,,,,,,,,100,,,0,\"energy,AddLife()\",\"25-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，b心中对a的仇怨也更加深了几分。\",,,,,,,1000,,,,,"
+- raw: "475,310016,,,,,,,,,,100,,,0,\"PlayerLove(),AddLife()\",\"10-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，b和a双方决定暂时罢手，相约他日再做了断。\",,,,,,,1000,,,,,"
+- raw: "476,310017,,,,,,,,,Battle,100,,,0,PlayerLove(),20-,,,,,310013,310017,1000,,,,,"
+- raw: "477,310018,,,,,,,,,,100,,,0,PlayerLove(),20+,,,,,,,1000,,,,,"
+- raw: "478,310019,,,,,,,,,,100,,,0,\"npcLove<id>,10-\",\"10-,npcLove<id>\",,,,,,,1000,,,,,"
+- raw: "479,310020,暂且离去,,,,,,,,OtherP310022,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "480,310021,暂且离去,,,,,,,,OtherP310023,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "481,310022,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+- raw: "482,310023,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。,,,,,,,1000,,,,,"
+- raw: "483,310024,肆意羞辱,,,,,,,,OtherP310034,100,,,0,\"PlayerLove(),10-,SetChouDiLoveAtPlayer(),7-,AddLife(),AddPlayerArrestNum() \",\"50-,friendsEr,10+,lichang,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,1+\",,,3111,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "肆意羞辱"
+- raw: "484,310025,抢夺行囊,\"itemList<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "对方行囊空空"
+- raw: "485,310026,抢夺行囊,\"itemList<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "486,310027,抢夺行囊,\"itemList<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "487,310028,抢夺行囊,\"itemList<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "488,310029,取其性命,touchId,//,0,,,,,\"OtherP310034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum() \",\"100-,friendsEr,30-,30+,lichang,20-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,3411,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "489,310030,取其性命,isJuQing,//,1,,,,,\"OtherP310034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum() \",\"100-,friendsEr,30-,30+,lichang,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,3411,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "490,310031,俘获,touchId,//,0,,,,,OtherP310034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum() \",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+- raw: "491,310032,俘获,isJuQing,//,1,,,,,OtherP310034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum() \",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+- raw: "492,310033,暂且离去,,,,,,,,\"OtherP310034,CloseUI\",100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "493,310034,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+- raw: "494,310035,破财免灾，乞求饶恕,,,,299,<,sliver,所需银两不足,\"OtherP310038,ClearRecordItem\",60,,,0,\"PlayerLove(),goldCoin,300-,AddLife()\",\"5-,300+,sliver,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。\",,,3510,3511,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "破财免灾，乞求饶恕"
+  - split: 9
+    text: "所需银两不足"
+- raw: "495,310036,诚心悔过，发誓不再逞强斗狠,,,,,,,,\"OtherP310038,ClearRecordItem\",40,,,0,\"PlayerLove(),8-,AddLife()\",\"5-,lichang,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。\",,,3520,3511,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "诚心悔过，发誓不再逞强斗狠"
+- raw: "496,310037,技不如人，认命待宰,,,,,,,,ClearRecordItem,100,,,0,,,,,3530,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "技不如人，认命待宰"
+- raw: "497,310038,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。,,,,,,,1000,,,,,"
+- raw: "498,410011,冤仇相报，也属常理，且袖手旁观。,,,,,,,,\"OtherP410015,OtherN410019\",100,,,0,\"energy,AddLife(),ResetState()\",\"25-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，b心中对a的仇怨也更加深了几分。,5\",,,410011,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "冤仇相报，也属常理，且袖手旁观。"
+- raw: "499,410012,行走江湖，以和为贵，且出言相劝二者罢手。,,,,14,<,SP,精力值不足,\"OtherP410016,OtherN410019\",100,,,0,\"PlayerLove(),4+,2+,15-,AddLife(),ResetState()\",\"10-,friendsSan,lichang,LessenSP(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，b和a双方决定暂时罢手，相约他日再做了断。,5\",,,410012,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "行走江湖，以和为贵，且出言相劝二者罢手。"
+  - split: 9
+    text: "精力值不足"
+- raw: "500,410013,思索片刻，终决意为前者助战。,,,,14,<,SP,精力值不足,\"OtherP410017,OtherN410019\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20+,friendsEr,lichang,LessenSP(),5\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "思索片刻，终决意为前者助战。"
+  - split: 9
+    text: "精力值不足"
+- raw: "501,410014,思索片刻，终决意为后者助战。,,,,14,<,SP,精力值不足,\"OtherP410018,OtherN410019,Battle\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20-,friendsEr,lichang,LessenSP(),5\",,,,,410015,410016,1000,,,,,"
+  splits:
+  - split: 2
+    text: "思索片刻，终决意为后者助战。"
+  - split: 9
+    text: "精力值不足"
+- raw: "502,410015,,,,,,,,,,100,,,0,\"energy,AddLife()\",\"25-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，a心中对b的仇怨也更加深了几分。\",,,,,,,1000,,,,,"
+- raw: "503,410016,,,,,,,,,,100,,,0,\"PlayerLove(),AddLife()\",\"10-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。\",,,,,,,1000,,,,,"
+- raw: "504,410017,,,,,,,,,Battle,100,,,0,PlayerLove(),20-,,,,,410013,410017,1000,,,,,"
+- raw: "505,410018,,,,,,,,,,100,,,0,PlayerLove(),20+,,,,,,,1000,,,,,"
+- raw: "506,410019,,,,,,,,,,100,,,0,\"npcLove<id>,10-\",\"10-,npcLove<id>\",,,,,,,1000,,,,,"
+- raw: "507,410020,暂且离去,,,,,,,,OtherP410022,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "508,410021,暂且离去,,,,,,,,OtherP410023,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "509,410022,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+- raw: "510,410023,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。,,,,,,,1000,,,,,"
+- raw: "511,410024,肆意羞辱,,,,,,,,OtherP410034,100,,,0,\"PlayerLove(),10-,SetChouDiLoveAtPlayer(),7-,AddLife(),AddPlayerArrestNum() \",\"50-,friendsEr,10+,lichang,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,1+\",,,3111,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "肆意羞辱"
+- raw: "512,410025,抢夺行囊,\"itemList<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "对方行囊空空"
+- raw: "513,410026,抢夺行囊,\"itemList<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "514,410027,抢夺行囊,\"itemList<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "515,410028,抢夺行囊,\"itemList<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "抢夺行囊"
+  - split: 9
+    text: "精力值不足"
+- raw: "516,410029,取其性命,touchId,//,0,,,,,\"OtherP410034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"100-,friendsEr,30-,30+,lichang,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",,,3411,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "517,410030,取其性命,isJuQing,//,1,,,,,\"OtherP410034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"100-,friendsEr,30-,30+,lichang,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",,,3411,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "518,410031,俘获,touchId,//,0,,,,,OtherP410034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+- raw: "519,410032,俘获,isJuQing,//,1,,,,,OtherP410034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "俘获"
+- raw: "520,410033,暂且离去,,,,,,,,\"OtherP410034,CloseUI\",100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "521,410034,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
+- raw: "522,410035,破财免灾，乞求饶恕,,,,299,<,sliver,所需银两不足,\"OtherP410038,ClearRecordItem\",60,,,0,\"PlayerLove(),goldCoin,300-,AddLife()\",\"5-,300+,sliver,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。\",,,3510,3511,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "破财免灾，乞求饶恕"
+  - split: 9
+    text: "所需银两不足"
+- raw: "523,410036,诚心悔过，发誓不再逞强斗狠,,,,,,,,\"OtherP410038,ClearRecordItem\",40,,,0,\"PlayerLove(),8-,AddLife()\",\"5-,300+,sliver,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。\",,,3520,3511,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "诚心悔过，发誓不再逞强斗狠"
+- raw: "524,410037,技不如人，认命待宰,,,,,,,,ClearRecordItem,100,,,0,,,,,3530,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "技不如人，认命待宰"
+- raw: "525,410038,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。,,,,,,,1000,,,,,"
+- raw: "526,666,银两贿赂,,,,PlayerArrestNum*200,<,sliver,所需银两不足,,100,,,0,,,,,302,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "银两贿赂"
+  - split: 9
+    text: "所需银两不足"
+- raw: "527,667,银两贿赂,,,,PlayerArrestNum*200,<,sliver,所需银两不足,CaptorsBribe,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "银两贿赂"
+  - split: 9
+    text: "所需银两不足"
+- raw: "528,668,束手就缚,,,,,,,,BeImprisoned,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "束手就缚"
+- raw: "529,669,放手一搏,,,,,,,,CaptorsBattle,100,,,0,,,,,,,304,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "放手一搏"
+- raw: "530,670,银两贿赂,lichang,<,61,PlayerArrestNum*200,<,sliver,所需银两不足,CaptorsBribe,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "银两贿赂"
+  - split: 9
+    text: "所需银两不足"
+- raw: "531,671,银两贿赂,,,,PlayerArrestNum*200,<,sliver,所需银两不足,CaptorsBribe,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "银两贿赂"
+  - split: 9
+    text: "所需银两不足"
+- raw: "532,672,取其性命,,,,,,,,KillCaptors,100,,,0,AddPlayerArrestNum_Certain(),20+,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "533,673,暂且离去,,,,,,,,StartRunPath,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "534,674,欲赴雅阁（需银钱五百文）,,,,499,<,sliver,所需银两不足,ListenToMusic,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "欲赴雅阁（需银钱五百文）"
+  - split: 9
+    text: "所需银两不足"
+- raw: "535,675,唱和吟诗,,,,9,<,SP,精力不足,,100,,,0,,,,,403,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "唱和吟诗"
+  - split: 9
+    text: "精力不足"
+- raw: "536,676,舒络推拿,,,,,,,,CutTo按摩梳络，推背通筋，你感到疲倦尽消，神完气足……,100,,,0,\"PlayerAddBuffer(),20+,PlayerLove()\",\"10027,LessenSP(),5+\",,,,,,,1,1440,推宫活血之术不宜频繁施为，不妨十二时辰之后再与此人约行此事。,,,"
+  splits:
+  - split: 2
+    text: "舒络推拿"
+  - split: 25
+    text: "推宫活血之术不宜频繁施为，不妨十二时辰之后再与此人约行此事。"
+- raw: "537,677,划拳取乐,,,,9,<,SP,精力不足,,100,,,0,10-,LessenSP(),,,406,,,,3,1440,今日你二人已分出胜负，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "划拳取乐"
+  - split: 9
+    text: "精力不足"
+  - split: 25
+    text: "今日你二人已分出胜负，不妨十二时辰之后再来。"
+- raw: "538,678,沐浴洗尘,,,,,,,,Bath ,100,,,0,,,,,,,,,1,1440,其人今日已颇为劳累，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "沐浴洗尘"
+  - split: 25
+    text: "其人今日已颇为劳累，不妨十二时辰之后再来。"
+- raw: "539,679,休憩小驻,,,,,,,,CutTo室内小憩，微风和煦，此景此时不觉自醉……,100,,,0,\"PlayerAddBuffer(),30+,PlayerLove()\",\"10029,LessenSP(),10+\",,,,,,,1,1440,精神尚足，不妨十二时辰之后再来。,,,"
+  splits:
+  - split: 2
+    text: "休憩小驻"
+  - split: 25
+    text: "精神尚足，不妨十二时辰之后再来。"
+- raw: "540,680,为其赎身,,,,\"love,9999\",\">,<\",\"89,sliver\",\"需好感度≥90,所需银两不足\",,100,,,0,10000-,sliver,,,410,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "为其赎身"
+  - split: 9
+    text: "需好感度≥90"
+  - split: 9
+    subIndex: 1
+    text: "所需银两不足"
+  templates:
+  - split: 9
+    template: "{0},{1}"
+- raw: "541,681,既如此，还请姑娘吟诵前句,,,,,,,,ActionDialogRecitePoetry,100,,,0,10-,LessenSP(),,,,,,,3,1440,此人今日文思已然枯竭，不妨十二时辰后再来。,,,"
+  splits:
+  - split: 2
+    text: "既如此，还请姑娘吟诵前句"
+  - split: 25
+    text: "此人今日文思已然枯竭，不妨十二时辰后再来。"
+- raw: "542,682,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "543,683,暂且离去,,,,,,,,GoOnDance,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "544,684,石头,,,,,,,,,60,,,0,PlayerLove(),1+,,,408,409,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "石头"
+- raw: "545,685,剪刀,,,,,,,,,60,,,0,PlayerLove(),1+,,,408,409,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "剪刀"
+- raw: "546,686,布,,,,,,,,,60,,,0,PlayerLove(),1+,,,408,409,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "布"
+- raw: "547,687,再来一局,,,,,,,,,100,,,0,,,,,406,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "再来一局"
+- raw: "548,688,还请姑娘多多指教了……,,,,,,,,BuyBackOneIsFreedom,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "还请姑娘多多指教了……"
+- raw: "549,689,返回,,,,,,,,ReturnTopDialog,100,,,0,PlayerLove(),3+,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "550,690,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "551,691,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "552,692,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "553,693,闭眼小憩,,,,,,,,EndBathEvent,100,,,0,\"PlayerAddBuffer(),30+,PlayerLove()\",\"10028,LessenSP(),5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "闭眼小憩"
+- raw: "554,694,暂且离去,,,,,,,,EndBathEvent,100,,,0,\"30+,PlayerLove()\",\"LessenSP(),5+\",,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "555,695,承接护镖,,,,,,,,\"EscortCart_GetTask,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "承接护镖"
+- raw: "556,696,……世态炎凉至此，多言无益。,,,,,,,,ExitTeam,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "……世态炎凉至此，多言无益。"
+- raw: "557,697,……此等无情无义之辈，且先处置此间，再作清算！,,,,,,,,ExitTeam,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "……此等无情无义之辈，且先处置此间，再作清算！"
+- raw: "558,750,尚需考虑,,,,,,,,,100,,,0,,,,,432,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "尚需考虑"
+- raw: "559,751,\"我欲退出gangName,不知有何规程？\",,,,,,,,,100,,,0,,,,,435,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "我欲退出"
+  - split: 2
+    subIndex: 1
+    text: "不知有何规程？"
+  templates:
+  - split: 2
+    template: "{0}gangName,{1}"
+- raw: "560,752,确认退出,,,,0,//,gangOnJoinCD,还需等待gangJoinCDRemain天,Gang_Exit,100,,,0,,,,,436,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "确认退出"
+  - split: 9
+    text: "还需等待"
+  - split: 9
+    subIndex: 1
+    text: "天"
+  templates:
+  - split: 9
+    template: "{0}gangJoinCDRemain{1}"
+- raw: "561,753,尚需考虑,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "尚需考虑"
+- raw: "562,754,查看帮派任务,,,,,,,,Gang_Task,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "查看帮派任务"
+- raw: "563,755,查看帮派名册,,,,,,,,Gang_Rank,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "查看帮派名册"
+- raw: "564,756,帮派商店,,,,,,,,Gang_Shop,100,,,0,,,,,,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "帮派商店"
+- raw: "565,757,加入gangName,,,,,,,,Gang_Join,100,,,0,,,,,431,,,,1000,,,,,"
+  splits:
+  - split: 2
+    text: "加入"
+  templates:
+  - split: 2
+    template: "{0}gangName"

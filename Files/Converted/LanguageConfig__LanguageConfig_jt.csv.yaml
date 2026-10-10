@@ -1,0 +1,5090 @@
+- raw: "2,Version,v_1.2.0.1_v"
+- raw: "3,Prot,v_197_888_v"
+- raw: "4,key1,是"
+  splits:
+  - split: 2
+    text: "是"
+- raw: "5,key2,否"
+  splits:
+  - split: 2
+    text: "否"
+- raw: "6,key3,战斗数据不能少于{0}个"
+  splits:
+  - split: 2
+    text: "战斗数据不能少于"
+  - split: 2
+    subIndex: 1
+    text: "个"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "7,key4,提示"
+  splits:
+  - split: 2
+    text: "提示"
+- raw: "8,key5,是否给<color=#FF0B00>{0}</color>使用<color=#00B70F>{1}</color>"
+  splits:
+  - split: 2
+    text: "是否给"
+  - split: 2
+    subIndex: 1
+    text: "使用"
+  templates:
+  - split: 2
+    template: "{0}<color=#FF0B00>⟦0⟧</color>{1}<color=#00B70F>⟦1⟧</color>"
+- raw: "9,key6,精力值已恢复至上限"
+  splits:
+  - split: 2
+    text: "精力值已恢复至上限"
+- raw: "10,key7,精力增加{0}"
+  splits:
+  - split: 2
+    text: "精力增加"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "11,key8,修为不足"
+  splits:
+  - split: 2
+    text: "修为不足"
+- raw: "12,key9,修为{0}"
+  splits:
+  - split: 2
+    text: "修为"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "13,key10,修为{0}"
+  splits:
+  - split: 2
+    text: "修为"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "16,AvatarPartName_0,脸"
+  splits:
+  - split: 2
+    text: "脸"
+- raw: "17,AvatarPartName_1,前发"
+  splits:
+  - split: 2
+    text: "前发"
+- raw: "18,AvatarPartName_2,后发"
+  splits:
+  - split: 2
+    text: "后发"
+- raw: "19,AvatarPartName_3,眼睛"
+  splits:
+  - split: 2
+    text: "眼睛"
+- raw: "20,AvatarPartName_4,眉毛"
+  splits:
+  - split: 2
+    text: "眉毛"
+- raw: "21,AvatarPartName_5,鼻子"
+  splits:
+  - split: 2
+    text: "鼻子"
+- raw: "22,AvatarPartName_6,嘴巴"
+  splits:
+  - split: 2
+    text: "嘴巴"
+- raw: "23,AvatarPartName_7,脸饰"
+  splits:
+  - split: 2
+    text: "脸饰"
+- raw: "24,AvatarPartName_8,胡子"
+  splits:
+  - split: 2
+    text: "胡子"
+- raw: "25,AvatarPartName_9,衣服"
+  splits:
+  - split: 2
+    text: "衣服"
+- raw: "26,AvatarPartName_10,面具"
+  splits:
+  - split: 2
+    text: "面具"
+- raw: "27,AvatarPartName_11,剧情立绘"
+  splits:
+  - split: 2
+    text: "剧情立绘"
+- raw: "30,FoodEatTip_ZzReset,{0}服下蜕资丹，武学资质重置成功。"
+  splits:
+  - split: 2
+    text: "服下蜕资丹，武学资质重置成功。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "33,NPCScout_ScouterName,隐月楼密探"
+  splits:
+  - split: 2
+    text: "隐月楼密探"
+- raw: "34,NPCScout_ToggleTipTitle,追索"
+  splits:
+  - split: 2
+    text: "追索"
+- raw: "35,NPCScout_ToggleTipContent,可委派隐月楼留心查探此人，随后便可在各个城镇酒楼的密探处寻得此人行踪。\\n当前正在追索的人数：{0}/{1}"
+  splits:
+  - split: 2
+    text: "可委派隐月楼留心查探此人，随后便可在各个城镇酒楼的密探处寻得此人行踪。"
+  - split: 2
+    subIndex: 1
+    text: "当前正在追索的人数"
+  templates:
+  - split: 2
+    template: "{0}\\n{1}：⟦0⟧/⟦1⟧"
+- raw: "36,NPCScout_ToggleLimit,委派数已达上限。"
+  splits:
+  - split: 2
+    text: "委派数已达上限。"
+- raw: "37,NPCScout_Dialog1,此事寻常，{0}文便能办妥。却不知这些阁下留意之人中，是哪位行踪未明？"
+  splits:
+  - split: 2
+    text: "此事寻常，"
+  - split: 2
+    subIndex: 1
+    text: "文便能办妥。却不知这些阁下留意之人中，是哪位行踪未明？"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "38,NPCScout_Dialog2,\"{0}近时常于{1}({2},{3})周遭盘桓，若欲寻之，或需早些动身。\""
+  splits:
+  - split: 2
+    text: "近时常于"
+  - split: 2
+    subIndex: 1
+    text: "周遭盘桓，若欲寻之，或需早些动身。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧(⟦2⟧,⟦3⟧){1}"
+- raw: "39,NPCScout_Dialog3,远在天边，近在眼前，阁下愿破这等冤枉财，我亦无话可说。"
+  splits:
+  - split: 2
+    text: "远在天边，近在眼前，阁下愿破这等冤枉财，我亦无话可说。"
+- raw: "40,NPCScout_Dialog4,斯人已矣，节哀顺变。"
+  splits:
+  - split: 2
+    text: "斯人已矣，节哀顺变。"
+- raw: "41,NPCScout_Dialog5,阁下若改换主意，不欲再行委托追索，同我言语一声便是。"
+  splits:
+  - split: 2
+    text: "阁下若改换主意，不欲再行委托追索，同我言语一声便是。"
+- raw: "42,NPCScout_Lips1,打探他人行踪"
+  splits:
+  - split: 2
+    text: "打探他人行踪"
+- raw: "43,NPCScout_Lips2,不再留意此人行踪"
+  splits:
+  - split: 2
+    text: "不再留意此人行踪"
+- raw: "47,NPCTalk_LipsLimitTimesDesc,【{0}/{1}】"
+- raw: "48,NPCTalk_LipsName_QieCuo,武学切磋"
+  splits:
+  - split: 2
+    text: "武学切磋"
+- raw: "49,NPCTalk_LipsName_QieCuo_confirm,切磋一番"
+  splits:
+  - split: 2
+    text: "切磋一番"
+- raw: "50,NPCTalk_Dialog_QieCuo,江湖规矩，点到为止。"
+  splits:
+  - split: 2
+    text: "江湖规矩，点到为止。"
+- raw: "51,NPCTalk_HideAttribute_Tips,此人修为过于高深，如雾中花、水中月，莫能洞彻。"
+  splits:
+  - split: 2
+    text: "此人修为过于高深，如雾中花、水中月，莫能洞彻。"
+- raw: "52,NPCTalk_LipsName_NextTalk,继续谈话"
+  splits:
+  - split: 2
+    text: "继续谈话"
+- raw: "55,NPCWage_CanAfford,已支出{0}用于同伴与家仆的薪水发放。"
+  splits:
+  - split: 2
+    text: "已支出"
+  - split: 2
+    subIndex: 1
+    text: "用于同伴与家仆的薪水发放。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "56,NPCWage_CannotAfford,当前金额不足以发放全部薪水，部分同伴好感值降低了。"
+  splits:
+  - split: 2
+    text: "当前金额不足以发放全部薪水，部分同伴好感值降低了。"
+- raw: "57,NPCWage_UITipTitle,同伴薪酬"
+  splits:
+  - split: 2
+    text: "同伴薪酬"
+- raw: "58,NPCWage_UITipContent,\"每日需支付给该同伴的银两数额,快速旅行时只需付两成。\""
+  splits:
+  - split: 2
+    text: "每日需支付给该同伴的银两数额"
+  - split: 2
+    subIndex: 1
+    text: "快速旅行时只需付两成。"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "59,NPCWage_NoticeWhenJoinTeam,{0}已加入队伍，每日需支付其{1}文银钱作为报酬。"
+  splits:
+  - split: 2
+    text: "已加入队伍，每日需支付其"
+  - split: 2
+    subIndex: 1
+    text: "文银钱作为报酬。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "62,NPCGift_Empty,请选择物品作为礼物"
+  splits:
+  - split: 2
+    text: "请选择物品作为礼物"
+- raw: "63,NPCGift_HasHate,这批物事中似有此人憎厌之物，故被婉辞璧还。"
+  splits:
+  - split: 2
+    text: "这批物事中似有此人憎厌之物，故被婉辞璧还。"
+- raw: "64,NPCGift_AllHate,此人似对这些物事憎厌至极，推辞不受"
+  splits:
+  - split: 2
+    text: "此人似对这些物事憎厌至极，推辞不受"
+- raw: "65,NPCGift_AddLoveTip,预计好感度提升：{0}"
+  splits:
+  - split: 2
+    text: "预计好感度提升"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "68,Spawn_PregnancyMailTile,家书传讯"
+  splits:
+  - split: 2
+    text: "家书传讯"
+- raw: "69,Spawn_ChildSexName1,麟儿"
+  splits:
+  - split: 2
+    text: "麟儿"
+- raw: "70,Spawn_ChildSexName2,千金"
+  splits:
+  - split: 2
+    text: "千金"
+- raw: "71,Spawn_ParentSexName1,少侠"
+  splits:
+  - split: 2
+    text: "少侠"
+- raw: "72,Spawn_ParentSexName2,女侠"
+  splits:
+  - split: 2
+    text: "女侠"
+- raw: "73,Spawn_PregnancyMailContent1,近日寻郎中问脉，喜闻{0}已身怀六甲，特家书相告。"
+  splits:
+  - split: 2
+    text: "近日寻郎中问脉，喜闻"
+  - split: 2
+    subIndex: 1
+    text: "已身怀六甲，特家书相告。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "74,Spawn_PregnancyMailContent2,月时已近，依郎中所测，你应已有孕在身，特家书相告。"
+  splits:
+  - split: 2
+    text: "月时已近，依郎中所测，你应已有孕在身，特家书相告。"
+- raw: "75,Spawn_PregnancyWorldMsg,{0}与{1}情深无限，近日传出{0}已有孕在身。"
+  splits:
+  - split: 2
+    text: "与"
+  - split: 2
+    subIndex: 1
+    text: "情深无限，近日传出"
+  - split: 2
+    subIndex: 2
+    text: "已有孕在身。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}⟦0⟧{2}"
+- raw: "76,Spawn_PregnancyLifeContent1,{0}与{1}情深无限，{1}已有孕在身。"
+  splits:
+  - split: 2
+    text: "与"
+  - split: 2
+    subIndex: 1
+    text: "情深无限，"
+  - split: 2
+    subIndex: 2
+    text: "已有孕在身。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}⟦1⟧{2}"
+- raw: "77,Spawn_PregnancyLifeContent2,{0}与{1}情深无限，{0}已有孕在身。"
+  splits:
+  - split: 2
+    text: "与"
+  - split: 2
+    subIndex: 1
+    text: "情深无限，"
+  - split: 2
+    subIndex: 2
+    text: "已有孕在身。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}⟦0⟧{2}"
+- raw: "79,Spawn_ChildBornMailContent1,十月怀胎，一朝分娩，你诞下一名{0}。"
+  splits:
+  - split: 2
+    text: "十月怀胎，一朝分娩，你诞下一名"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧。"
+- raw: "80,Spawn_ChildBornMailContent2,家信传书，飞鸽报喜，{0}诞下一名{1}。"
+  splits:
+  - split: 2
+    text: "家信传书，飞鸽报喜，"
+  - split: 2
+    subIndex: 1
+    text: "诞下一名"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧。"
+- raw: "81,Spawn_ChildBornLifeContent1,十月怀胎，一朝分娩，诞下一名{0}。"
+  splits:
+  - split: 2
+    text: "十月怀胎，一朝分娩，诞下一名"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧。"
+- raw: "82,Spawn_ChildBornLifeContent2,十月怀胎，一朝分娩，{0}喜获{1}。"
+  splits:
+  - split: 2
+    text: "十月怀胎，一朝分娩，"
+  - split: 2
+    subIndex: 1
+    text: "喜获"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧。"
+- raw: "84,Spawn_NpcReNamedLife,{0}改名为{1}"
+  splits:
+  - split: 2
+    text: "改名为"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧"
+- raw: "85,Spawn_NpcReNamedTitle,名称修改"
+  splits:
+  - split: 2
+    text: "名称修改"
+- raw: "86,Spawn_ChildBornAndNamedTitle,请为子女取名"
+  splits:
+  - split: 2
+    text: "请为子女取名"
+- raw: "87,Spawn_ChildBornAndNamedTip1,家信传书，飞鸽报喜，少侠喜得{0}！"
+  splits:
+  - split: 2
+    text: "家信传书，飞鸽报喜，少侠喜得"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧！"
+- raw: "88,Spawn_ChildBornAndNamedTip2,十月怀胎，一朝分娩，你诞下一名{0}！"
+  splits:
+  - split: 2
+    text: "十月怀胎，一朝分娩，你诞下一名"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧！"
+- raw: "89,Spawn_RandomNamedTip,取消后，将使用随机名字，是否确定取消?"
+  splits:
+  - split: 2
+    text: "取消后，将使用随机名字，是否确定取消"
+  templates:
+  - split: 2
+    template: "{0}?"
+- raw: "90,Spawn_SameNamedTip,该姓名已被使用，请选用其他姓氏或名字。"
+  splits:
+  - split: 2
+    text: "该姓名已被使用，请选用其他姓氏或名字。"
+- raw: "92,Spawn_ChildGrowMailTile,幼子成材"
+  splits:
+  - split: 2
+    text: "幼子成材"
+- raw: "93,Spawn_ChildGrowMailContent,子女{0}日渐成长，当指点其途，定其方向。"
+  splits:
+  - split: 2
+    text: "子女"
+  - split: 2
+    subIndex: 1
+    text: "日渐成长，当指点其途，定其方向。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "94,Spawn_ChildGrowEndNoticeContent,日月如梭，子女{0}已成年。"
+  splits:
+  - split: 2
+    text: "日月如梭，子女"
+  - split: 2
+    subIndex: 1
+    text: "已成年。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "96,Spawn_DescendantFreeBtn,遣其历练"
+  splits:
+  - split: 2
+    text: "遣其历练"
+- raw: "97,Spawn_SetDescendantFreeConfirm,龙游四海，历经波澜，方成一代宗师。\\n是否要让{0}孤身闯荡江湖？"
+  splits:
+  - split: 2
+    text: "龙游四海，历经波澜，方成一代宗师。"
+  - split: 2
+    subIndex: 1
+    text: "是否要让"
+  - split: 2
+    subIndex: 2
+    text: "孤身闯荡江湖？"
+  templates:
+  - split: 2
+    template: "{0}\\n{1}⟦0⟧{2}"
+- raw: "98,Spawn_SetYoungDescendantFreeTip,婴孩孱弱，尚难自理。"
+  splits:
+  - split: 2
+    text: "婴孩孱弱，尚难自理。"
+- raw: "101,UIWorldTime_SpendTimeTip,将打坐：{0}"
+  splits:
+  - split: 2
+    text: "将打坐"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "102,UIWorldTime_SpendTimeLimitTip1,无法时光倒流"
+  splits:
+  - split: 2
+    text: "无法时光倒流"
+- raw: "103,UIWorldTime_SpendTimeLimitTip2,打坐时间不宜过久"
+  splits:
+  - split: 2
+    text: "打坐时间不宜过久"
+- raw: "106,UISteal_StateTip_Item,悉心翻找，颇有所获！:{0}"
+  splits:
+  - split: 2
+    text: "悉心翻找，颇有所获！"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧"
+- raw: "107,UISteal_StateTip_Empty,你一番小心翻找，虽一无所获，但所幸未激起{0}的警惕。"
+  splits:
+  - split: 2
+    text: "你一番小心翻找，虽一无所获，但所幸未激起"
+  - split: 2
+    subIndex: 1
+    text: "的警惕。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "108,UISteal_StateTip_Alert,引起了{0}的警惕！"
+  splits:
+  - split: 2
+    text: "引起了"
+  - split: 2
+    subIndex: 1
+    text: "的警惕！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "109,UISteal_StateTip_TimeEnd,\"错过了逃走时机,被其发现了！\""
+  splits:
+  - split: 2
+    text: "错过了逃走时机"
+  - split: 2
+    subIndex: 1
+    text: "被其发现了！"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "110,UISteal_StealButton_Default,悄然离开"
+  splits:
+  - split: 2
+    text: "悄然离开"
+- raw: "111,UISteal_StealButton_TimeEnd,放手一搏！"
+  splits:
+  - split: 2
+    text: "放手一搏！"
+- raw: "114,Gyms_GymsKeep,及时驱赶踢馆者，你保住了{0}的归属权。"
+  splits:
+  - split: 2
+    text: "及时驱赶踢馆者，你保住了"
+  - split: 2
+    subIndex: 1
+    text: "的归属权。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "115,Gyms_GymsOwn,挑战胜利，你获得{0}的归属权。"
+  splits:
+  - split: 2
+    text: "挑战胜利，你获得"
+  - split: 2
+    subIndex: 1
+    text: "的归属权。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "116,Gyms_GymsOwnTipTile,夺得武馆。"
+  splits:
+  - split: 2
+    text: "夺得武馆。"
+- raw: "117,Gyms_GymsOwnTipContent,你已成功夺取武馆{0}，此武馆所售物事皆可免费获取，每日可领取武馆俸禄，不时亦会有挑战者登门踢馆，请及时应战，否则武馆归属将再度易手。"
+  splits:
+  - split: 2
+    text: "你已成功夺取武馆"
+  - split: 2
+    subIndex: 1
+    text: "，此武馆所售物事皆可免费获取，每日可领取武馆俸禄，不时亦会有挑战者登门踢馆，请及时应战，否则武馆归属将再度易手。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "118,Gyms_GymsOwnTipTile_GuardSet,同伴镇守。"
+  splits:
+  - split: 2
+    text: "同伴镇守。"
+- raw: "119,Gyms_GymsOwnTipContent_GuardSett,是否在此处武馆安置同伴镇守？"
+  splits:
+  - split: 2
+    text: "是否在此处武馆安置同伴镇守？"
+- raw: "121,Gyms_GymsLose,失去{0}归属权。"
+  splits:
+  - split: 2
+    text: "失去"
+  - split: 2
+    subIndex: 1
+    text: "归属权。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "122,Gyms_MonthlyIncomeMsgTitle,武馆俸禄通知。"
+  splits:
+  - split: 2
+    text: "武馆俸禄通知。"
+- raw: "123,Gyms_MonthlyIncomeMsgContent,{0}近日俸禄已下发。"
+  splits:
+  - split: 2
+    text: "近日俸禄已下发。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "124,Gyms_DefierMsgTitle,武馆踢馆通知。"
+  splits:
+  - split: 2
+    text: "武馆踢馆通知。"
+- raw: "125,Gyms_DefierMsgContent,请尽快来{0}接受我的挑战，否则你将失去{1}。"
+  splits:
+  - split: 2
+    text: "请尽快来"
+  - split: 2
+    subIndex: 1
+    text: "接受我的挑战，否则你将失去"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧。"
+- raw: "126,Gyms_GymsLose_ByTimeOutMsgTitle,武馆失去通知。"
+  splits:
+  - split: 2
+    text: "武馆失去通知。"
+- raw: "127,Gyms_GymsLose_ByTimeOutMsgContent,未及时迎战踢馆者，你失去了{0}的归属权。"
+  splits:
+  - split: 2
+    text: "未及时迎战踢馆者，你失去了"
+  - split: 2
+    subIndex: 1
+    text: "的归属权。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "128,Gyms_GuardSet_Diaglog,选择此处镇守同伴。"
+  splits:
+  - split: 2
+    text: "选择此处镇守同伴。"
+- raw: "129,Gyms_GuardRemoveTipTile_LowLove,武馆守卫离开。"
+  splits:
+  - split: 2
+    text: "武馆守卫离开。"
+- raw: "130,Gyms_GuardRemoveTipContent_LowLove,{0}与你日渐生隙，决意孤身离去，你名下{1}-{2}已无人镇守。"
+  splits:
+  - split: 2
+    text: "与你日渐生隙，决意孤身离去，你名下"
+  - split: 2
+    subIndex: 1
+    text: "已无人镇守。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧-⟦2⟧{1}"
+- raw: "131,Gyms_GuardRemoveTipTile_Die,武馆守卫去世。"
+  splits:
+  - split: 2
+    text: "武馆守卫去世。"
+- raw: "132,Gyms_GuardRemoveTipContent_Die,{0}年岁已高，飘然离世，你名下{1}-{2}已无人镇守。"
+  splits:
+  - split: 2
+    text: "年岁已高，飘然离世，你名下"
+  - split: 2
+    subIndex: 1
+    text: "已无人镇守。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧-⟦2⟧{1}"
+- raw: "133,Gyms_GuardSetTip,{0}已前往{1}-{2}进行守卫。"
+  splits:
+  - split: 2
+    text: "已前往"
+  - split: 2
+    subIndex: 1
+    text: "进行守卫。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧-⟦2⟧{1}"
+- raw: "134,Gyms_GuardRemoveTip,已取消对{1}-{2}的守卫。"
+  splits:
+  - split: 2
+    text: "已取消对"
+  - split: 2
+    subIndex: 1
+    text: "的守卫。"
+  templates:
+  - split: 2
+    template: "{0}⟦1⟧-⟦2⟧{1}"
+- raw: "135,Gyms_DoGuardSucc_MsgTitle,武馆守卫成功。"
+  splits:
+  - split: 2
+    text: "武馆守卫成功。"
+- raw: "136,Gyms_DoGuardSucc_MsgContent,你名下{1}-{2}镇守者{0}成功抵挡了挑战者{3}来犯。"
+  splits:
+  - split: 2
+    text: "你名下"
+  - split: 2
+    subIndex: 1
+    text: "镇守者"
+  - split: 2
+    subIndex: 2
+    text: "成功抵挡了挑战者"
+  - split: 2
+    subIndex: 3
+    text: "来犯。"
+  templates:
+  - split: 2
+    template: "{0}⟦1⟧-⟦2⟧{1}⟦0⟧{2}⟦3⟧{3}"
+- raw: "137,Gyms_DoGuardFail_MsgTitle,武馆守卫失败。"
+  splits:
+  - split: 2
+    text: "武馆守卫失败。"
+- raw: "138,Gyms_DoGuardFail_MsgContent,{1}-{2}镇守者{0}已被挑战者{3}击败，请速归守卫武馆，若逾期未响应他人挑战，则会失去武馆拥有权。"
+  splits:
+  - split: 2
+    text: "镇守者"
+  - split: 2
+    subIndex: 1
+    text: "已被挑战者"
+  - split: 2
+    subIndex: 2
+    text: "击败，请速归守卫武馆，若逾期未响应他人挑战，则会失去武馆拥有权。"
+  templates:
+  - split: 2
+    template: "⟦1⟧-⟦2⟧{0}⟦0⟧{1}⟦3⟧{2}"
+- raw: "141,RansomJiaoQingTip_1,境界：               {0}"
+  splits:
+  - split: 2
+    text: "境界"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "142,RansomJiaoQingTip_2,门派：               {0}"
+  splits:
+  - split: 2
+    text: "门派"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "143,RansomJiaoQingTip_3,立场：               {0}"
+  splits:
+  - split: 2
+    text: "立场"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "144,RansomJiaoQingTip_4,身处：               {0}"
+  splits:
+  - split: 2
+    text: "身处"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "145,RansomJiaoQingTip_default2,无门无派"
+  splits:
+  - split: 2
+    text: "无门无派"
+- raw: "146,RansomJiaoQingTip_default4,无迹可寻"
+  splits:
+  - split: 2
+    text: "无迹可寻"
+- raw: "147,RansomButton_1,索要银两"
+  splits:
+  - split: 2
+    text: "索要银两"
+- raw: "148,RansomButton_2,索要物品"
+  splits:
+  - split: 2
+    text: "索要物品"
+- raw: "149,Ransom_SelectGoldTilte,选择索要数额"
+  splits:
+  - split: 2
+    text: "选择索要数额"
+- raw: "150,Ransom_SelectGoldNameStr,银两(文)"
+  splits:
+  - split: 2
+    text: "银两"
+  - split: 2
+    subIndex: 1
+    text: "文"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "151,Ransom_SelectGoldComfirmStr,索要"
+  splits:
+  - split: 2
+    text: "索要"
+- raw: "152,RansomTip_Capture,深陷密室"
+  splits:
+  - split: 2
+    text: "深陷密室"
+- raw: "153,RansomTip_Servant,沦为家仆"
+  splits:
+  - split: 2
+    text: "沦为家仆"
+- raw: "154,RansomTip_Dead,已去世"
+  splits:
+  - split: 2
+    text: "已去世"
+- raw: "155,RansomDialogContent_default,阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手放我离去。"
+  splits:
+  - split: 2
+    text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手放我离去。"
+- raw: "156,RansomJiaoQingLimitTip,江湖之中此人杳无音讯……"
+  splits:
+  - split: 2
+    text: "江湖之中此人杳无音讯……"
+- raw: "159,Capture_DailyCostTip1,消耗了些许银两购买食物，豢养俘虏。"
+  splits:
+  - split: 2
+    text: "消耗了些许银两购买食物，豢养俘虏。"
+- raw: "160,Capture_DailyCostTip2,银两略有不足，喂养俘虏的银财只够再维持片刻……"
+  splits:
+  - split: 2
+    text: "银两略有不足，喂养俘虏的银财只够再维持片刻……"
+- raw: "161,Capture_DailyCostTip3,囊中羞涩，已然难分食给俘虏所用……"
+  splits:
+  - split: 2
+    text: "囊中羞涩，已然难分食给俘虏所用……"
+- raw: "162,Capture_DieOfHungerTipTitle,俘虏饿死"
+  splits:
+  - split: 2
+    text: "俘虏饿死"
+- raw: "163,Capture_DieOfHungerTipContent,因银财不足，无力支撑俘虏供给，{0}在今日凌晨活活饿死了。"
+  splits:
+  - split: 2
+    text: "因银财不足，无力支撑俘虏供给，"
+  - split: 2
+    subIndex: 1
+    text: "在今日凌晨活活饿死了。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "164,Capture_CaptivitySuccTip,俘虏已安置。"
+  splits:
+  - split: 2
+    text: "俘虏已安置。"
+- raw: "165,Capture_BagEmptyTip,暂无俘虏在麻袋中。"
+  splits:
+  - split: 2
+    text: "暂无俘虏在麻袋中。"
+- raw: "166,Capture_BagEscapeTip,俘虏{0}从麻袋中逃脱了。"
+  splits:
+  - split: 2
+    text: "俘虏"
+  - split: 2
+    subIndex: 1
+    text: "从麻袋中逃脱了。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "167,Capture_CaptivityFullTip,该地牢已经无法容纳更多俘虏了。"
+  splits:
+  - split: 2
+    text: "该地牢已经无法容纳更多俘虏了。"
+- raw: "168,Capture_GetNewServantTip,一个新的家仆加入了伙伴队伍。"
+  splits:
+  - split: 2
+    text: "一个新的家仆加入了伙伴队伍。"
+- raw: "169,Capture_ServantDeedTitle,{0}之家仆契"
+  splits:
+  - split: 2
+    text: "之家仆契"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "170,Capture_ServantDeedContent,{0}于{1}合法拥有该家仆之证。"
+  splits:
+  - split: 2
+    text: "于"
+  - split: 2
+    subIndex: 1
+    text: "合法拥有该家仆之证。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "171,Capture_SetServantFreeBtn,放其自由"
+  splits:
+  - split: 2
+    text: "放其自由"
+- raw: "172,Capture_SetServantFreeConfirm,若执行此操作，你将失去该家仆，是否确认？"
+  splits:
+  - split: 2
+    text: "若执行此操作，你将失去该家仆，是否确认？"
+- raw: "173,Capture_ForbitServantSellTip,本店只做正经买卖，这种……东西，小店不敢要。"
+  splits:
+  - split: 2
+    text: "本店只做正经买卖，这种……东西，小店不敢要。"
+- raw: "174,Capture_BagAbandon,你将手中麻袋推入井中，不消片刻便是沉入井底……<color=red>{0}</color>已被溺沉此处……"
+  splits:
+  - split: 2
+    text: "你将手中麻袋推入井中，不消片刻便是沉入井底……"
+  - split: 2
+    subIndex: 1
+    text: "已被溺沉此处……"
+  templates:
+  - split: 2
+    template: "{0}<color=red>⟦0⟧</color>{1}"
+- raw: "178,key11,确认与当前伙伴分道扬镳，相忘于江湖？"
+  splits:
+  - split: 2
+    text: "确认与当前伙伴分道扬镳，相忘于江湖？"
+- raw: "179,key12,{0}加入队伍成功!"
+  splits:
+  - split: 2
+    text: "加入队伍成功"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}!"
+- raw: "180,key13,特殊Npc仅能通过剧情邀请入队"
+  splits:
+  - split: 2
+    text: "特殊"
+  - split: 2
+    subIndex: 1
+    text: "仅能通过剧情邀请入队"
+  templates:
+  - split: 2
+    template: "{0}Npc{1}"
+- raw: "181,key14,同时上阵的同伴数量上限将随着玩家境界提升逐步增加，完成特定剧情或提升好感度，都可获取同伴共游江湖！"
+  splits:
+  - split: 2
+    text: "同时上阵的同伴数量上限将随着玩家境界提升逐步增加，完成特定剧情或提升好感度，都可获取同伴共游江湖！"
+- raw: "182,key15,当前上阵同伴已达上限"
+  splits:
+  - split: 2
+    text: "当前上阵同伴已达上限"
+- raw: "183,key16,分道扬镳"
+  splits:
+  - split: 2
+    text: "分道扬镳"
+- raw: "184,UIBattleReady_HeadTip,点击下方【+】按钮上阵同伴，同时上阵的同伴数量上限将随着玩家开局设置而变化，完成特定剧情或提升好感度，都可获取同伴共游江湖!"
+  splits:
+  - split: 2
+    text: "点击下方"
+  - split: 2
+    subIndex: 1
+    text: "按钮上阵同伴，同时上阵的同伴数量上限将随着玩家开局设置而变化，完成特定剧情或提升好感度，都可获取同伴共游江湖"
+  templates:
+  - split: 2
+    template: "{0}【+】{1}!"
+- raw: "185,SetPartnerFollowRoleLimit,同行人数已达上限"
+  splits:
+  - split: 2
+    text: "同行人数已达上限"
+- raw: "186,TeamCountToTwoTipTxt,上阵2位同伴获得最佳战斗体验"
+  splits:
+  - split: 2
+    text: "上阵2位同伴获得最佳战斗体验"
+- raw: "187,TeamCountToFourTipTxt,上阵4位同伴可能会导致战斗难度较易"
+  splits:
+  - split: 2
+    text: "上阵4位同伴可能会导致战斗难度较易"
+- raw: "189,SanCaiBookTxtTag,三才书"
+  splits:
+  - split: 2
+    text: "三才书"
+- raw: "190,BookUnLockWuXinNumTipTxt,是否消耗{0}点悟性值解锁新装配格"
+  splits:
+  - split: 2
+    text: "是否消耗"
+  - split: 2
+    subIndex: 1
+    text: "点悟性值解锁新装配格"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "191,BookUnLockTipTxt,需要解锁{0}"
+  splits:
+  - split: 2
+    text: "需要解锁"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "192,SanCaiBookTipTxt,当前残篇<color=green>{0}</color>篇 "
+  splits:
+  - split: 2
+    text: "当前残篇"
+  - split: 2
+    subIndex: 1
+    text: "篇"
+  templates:
+  - split: 2
+    template: "{0}<color=green>⟦0⟧</color>{1} "
+- raw: "193,WuXingNumTipTxt,悟性值不足"
+  splits:
+  - split: 2
+    text: "悟性值不足"
+- raw: "196,ComCollectTipsTxt,且待半晌"
+  splits:
+  - split: 2
+    text: "且待半晌"
+- raw: "197,CaiJi,采集中"
+  splits:
+  - split: 2
+    text: "采集中"
+- raw: "198,ChongHoleTipsTxt,冲穴中"
+  splits:
+  - split: 2
+    text: "冲穴中"
+- raw: "199,EsotericaTipsTxt,研习中"
+  splits:
+  - split: 2
+    text: "研习中"
+- raw: "200,CutThroughTipsTxt,贯通中"
+  splits:
+  - split: 2
+    text: "贯通中"
+- raw: "201,BrokenLensTipsTxt,突破中"
+  splits:
+  - split: 2
+    text: "突破中"
+- raw: "202,BecomeSwornTipsTxt,歃血为契"
+  splits:
+  - split: 2
+    text: "歃血为契"
+- raw: "203,BridalChamberTipsTxt,鸳被正暖"
+  splits:
+  - split: 2
+    text: "鸳被正暖"
+- raw: "204,CoupleTipsTxt,情投意合"
+  splits:
+  - split: 2
+    text: "情投意合"
+- raw: "205,UnCoupleTipsTxt,劳燕飞分"
+  splits:
+  - split: 2
+    text: "劳燕飞分"
+- raw: "206,DekimraneTipsTxt,割袍断义"
+  splits:
+  - split: 2
+    text: "割袍断义"
+- raw: "207,GetMarriedTipsTxt,佳偶天成"
+  splits:
+  - split: 2
+    text: "佳偶天成"
+- raw: "208,InterflowTipsTxt,风花雪月"
+  splits:
+  - split: 2
+    text: "风花雪月"
+- raw: "209,DisarmEnemyTipsTxt,尽释前嫌"
+  splits:
+  - split: 2
+    text: "尽释前嫌"
+- raw: "210,CutThroughFinishTipsTxt,贯通成功"
+  splits:
+  - split: 2
+    text: "贯通成功"
+- raw: "211,TipContentTitleTuPoTxt,突破奖励"
+  splits:
+  - split: 2
+    text: "突破奖励"
+- raw: "212,TipContentTitleCutThroughTxt,贯通奖励"
+  splits:
+  - split: 2
+    text: "贯通奖励"
+- raw: "213,StudyMJTipTxt,该秘籍无法重复修习"
+  splits:
+  - split: 2
+    text: "该秘籍无法重复修习"
+- raw: "214,UIRoleAttributeLockTipTxt,该功能尚未开放"
+  splits:
+  - split: 2
+    text: "该功能尚未开放"
+- raw: "215,StudyZSTipTxt,是否消耗{0}修为学习{1}"
+  splits:
+  - split: 2
+    text: "是否消耗"
+  - split: 2
+    subIndex: 1
+    text: "修为学习"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧"
+- raw: "216,AttributeTipTxtContent,初出茅庐"
+  splits:
+  - split: 2
+    text: "初出茅庐"
+- raw: "217,PrestigeTipTxtContent,亦正亦邪"
+  splits:
+  - split: 2
+    text: "亦正亦邪"
+- raw: "218,PrestigeTipTxtDes,默默无闻"
+  splits:
+  - split: 2
+    text: "默默无闻"
+- raw: "219,AttributeTipTxtTitle,【境界】"
+  splits:
+  - split: 2
+    text: "【境界】"
+- raw: "220,PrestigeTipTxtTitle,【声望】"
+  splits:
+  - split: 2
+    text: "【声望】"
+- raw: "221,MiJiDesContentTipTxt,(此章残缺)"
+  splits:
+  - split: 2
+    text: "此章残缺"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "222,AddNpcLoveTipTxt,{0}好感度+{1}"
+  splits:
+  - split: 2
+    text: "好感度"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}+⟦1⟧"
+- raw: "223,MinusNpcLoveTipTxt,{0}好感度-{1}"
+  splits:
+  - split: 2
+    text: "好感度"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}-⟦1⟧"
+- raw: "224,ChouDiFobidLoveTipTxt,此人视你为雠寇，并不领情。"
+  splits:
+  - split: 2
+    text: "此人视你为雠寇，并不领情。"
+- raw: "225,OnSelectUpEuipTipTxt,当前版本暂时无法使用火枪技能，请关注后续更新内容！"
+  splits:
+  - split: 2
+    text: "当前版本暂时无法使用火枪技能，请关注后续更新内容！"
+- raw: "226,ItemNameTipTitle,火器"
+  splits:
+  - split: 2
+    text: "火器"
+- raw: "227,MartialArtsBook,武学研本"
+  splits:
+  - split: 2
+    text: "武学研本"
+- raw: "228,ZZMaxNumTipTxt,可分配资质点未分配完"
+  splits:
+  - split: 2
+    text: "可分配资质点未分配完"
+- raw: "229,AttributeMaxNumTipTxt,可分配属性点未分配完"
+  splits:
+  - split: 2
+    text: "可分配属性点未分配完"
+- raw: "230,ItemUseTipTxt,请先完成杜颜白引导剧情后使用"
+  splits:
+  - split: 2
+    text: "请先完成杜颜白引导剧情后使用"
+- raw: "231,ItemRestAttributeTipTxt,【洗髓丹】不足，无法重置已分配的属性点数"
+  splits:
+  - split: 2
+    text: "【洗髓丹】不足，无法重置已分配的属性点数"
+- raw: "232,RestAttributeTipTxt,药力尚存，无需再服用洗髓丹"
+  splits:
+  - split: 2
+    text: "药力尚存，无需再服用洗髓丹"
+- raw: "233,SliverTypeOneTipTxt,银两{0}{1}两{2}文"
+  splits:
+  - split: 2
+    text: "银两"
+  - split: 2
+    subIndex: 1
+    text: "两"
+  - split: 2
+    subIndex: 2
+    text: "文"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧⟦1⟧{1}⟦2⟧{2}"
+- raw: "234,SliverTypeTwoTipTxt,银两{0}{1}文"
+  splits:
+  - split: 2
+    text: "银两"
+  - split: 2
+    subIndex: 1
+    text: "文"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧⟦1⟧{1}"
+- raw: "235,SliverTypeThreeTipTxt,银两{0}{1}两"
+  splits:
+  - split: 2
+    text: "银两"
+  - split: 2
+    subIndex: 1
+    text: "两"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧⟦1⟧{1}"
+- raw: "236,PlayerFullnessChangeTip,饱食度{0}"
+  splits:
+  - split: 2
+    text: "饱食度"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "237,ItemFullness,饱食度:"
+  splits:
+  - split: 2
+    text: "饱食度"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "238,DoBadToNpcLips,行凶作恶"
+  splits:
+  - split: 2
+    text: "行凶作恶"
+- raw: "239,DoBadToNpcDialog,若无他事便快离去，莫扰我饮酒"
+  splits:
+  - split: 2
+    text: "若无他事便快离去，莫扰我饮酒"
+- raw: "240,DoBadToKillNpcConfirm,杀了此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
+  splits:
+  - split: 2
+    text: "杀了此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
+- raw: "241,DoBadToCaptureNpcConfirm,俘获此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
+  splits:
+  - split: 2
+    text: "俘获此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
+- raw: "244,AcupointAttributeTipTxt,该穴道需境界{0}开启"
+  splits:
+  - split: 2
+    text: "该穴道需境界"
+  - split: 2
+    subIndex: 1
+    text: "开启"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "245,AcupointTipsTxt,该穴道需{0}冲穴成功开启"
+  splits:
+  - split: 2
+    text: "该穴道需"
+  - split: 2
+    subIndex: 1
+    text: "冲穴成功开启"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "246,AcupointFinishTipsTxt,该穴道已冲穴"
+  splits:
+  - split: 2
+    text: "该穴道已冲穴"
+- raw: "247,Acupoint_Finish,已冲穴(点击可重新冲穴)"
+  splits:
+  - split: 2
+    text: "已冲穴"
+  - split: 2
+    subIndex: 1
+    text: "点击可重新冲穴"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "248,Acupoint_UnFinish,未冲穴"
+  splits:
+  - split: 2
+    text: "未冲穴"
+- raw: "249,AcupointShowTipTitle,规则说明"
+  splits:
+  - split: 2
+    text: "规则说明"
+- raw: "250,AcupointShowTips,冲穴操作规则：{0}开启脉路：将隐藏的脉路翻开，消耗9修为{1}顺旋脉路：将脉路顺时针旋转，消耗6修为{2}逆旋脉路：将脉路逆时针旋转，消耗6修为{3}更换脉路：随机更换成其他脉路，消耗15修为{4}基础规则：{5}将穴道的起始位置<color=#01a605>【绿色】</color>和终点位置<color=#ff0000>【红色】</color>连成一线即可突破穴道。{6}脉路通过辅穴<color=#FF00E9>【紫色】</color>会额外获得战斗属性的奖励         "
+  splits:
+  - split: 2
+    text: "冲穴操作规则"
+  - split: 2
+    subIndex: 1
+    text: "开启脉路"
+  - split: 2
+    subIndex: 2
+    text: "将隐藏的脉路翻开，消耗9修为"
+  - split: 2
+    subIndex: 3
+    text: "顺旋脉路"
+  - split: 2
+    subIndex: 4
+    text: "将脉路顺时针旋转，消耗6修为"
+  - split: 2
+    subIndex: 5
+    text: "逆旋脉路"
+  - split: 2
+    subIndex: 6
+    text: "将脉路逆时针旋转，消耗6修为"
+  - split: 2
+    subIndex: 7
+    text: "更换脉路"
+  - split: 2
+    subIndex: 8
+    text: "随机更换成其他脉路，消耗15修为"
+  - split: 2
+    subIndex: 9
+    text: "基础规则"
+  - split: 2
+    subIndex: 10
+    text: "将穴道的起始位置"
+  - split: 2
+    subIndex: 11
+    text: "【绿色】"
+  - split: 2
+    subIndex: 12
+    text: "和终点位置"
+  - split: 2
+    subIndex: 13
+    text: "【红色】"
+  - split: 2
+    subIndex: 14
+    text: "连成一线即可突破穴道。"
+  - split: 2
+    subIndex: 15
+    text: "脉路通过辅穴"
+  - split: 2
+    subIndex: 16
+    text: "【紫色】"
+  - split: 2
+    subIndex: 17
+    text: "会额外获得战斗属性的奖励"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧{1}：{2}⟦1⟧{3}：{4}⟦2⟧{5}：{6}⟦3⟧{7}：{8}⟦4⟧{9}：⟦5⟧{10}<color=#01a605>{11}</color>{12}<color=#ff0000>{13}</color>{14}⟦6⟧{15}<color=#FF00E9>{16}</color>{17}         "
+- raw: "251,MusclesOrVeinsTips,当前经脉所有穴位未完成  "
+  splits:
+  - split: 2
+    text: "当前经脉所有穴位未完成"
+  templates:
+  - split: 2
+    template: "{0}  "
+- raw: "252,MusclesOrVeinsFinishTips,当前经脉已贯通 "
+  splits:
+  - split: 2
+    text: "当前经脉已贯通"
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "253,StartPosTip,起点位置"
+  splits:
+  - split: 2
+    text: "起点位置"
+- raw: "254,EndPosTip,终点位置    "
+  splits:
+  - split: 2
+    text: "终点位置"
+  templates:
+  - split: 2
+    template: "{0}    "
+- raw: "255,CloseChongHoleSubWindow,如果放弃冲穴，这个穴道的脉路会被重置。之前消耗的修为会进行返还。是否放弃冲穴退回上一级？      "
+  splits:
+  - split: 2
+    text: "如果放弃冲穴，这个穴道的脉路会被重置。之前消耗的修为会进行返还。是否放弃冲穴退回上一级？"
+  templates:
+  - split: 2
+    template: "{0}      "
+- raw: "256,ForcedChongHoleTxt,强行冲穴：需要消耗<color=green>{0}</color>修为一键完成冲穴，且自动获得全部辅穴属性"
+  splits:
+  - split: 2
+    text: "强行冲穴"
+  - split: 2
+    subIndex: 1
+    text: "需要消耗"
+  - split: 2
+    subIndex: 2
+    text: "修为一键完成冲穴，且自动获得全部辅穴属性"
+  templates:
+  - split: 2
+    template: "{0}：{1}<color=green>⟦0⟧</color>{2}"
+- raw: "257,ManualChongHoleTxt,手动冲穴：手动完成冲穴操作，连接辅穴可以获得额外属性 "
+  splits:
+  - split: 2
+    text: "手动冲穴"
+  - split: 2
+    subIndex: 1
+    text: "手动完成冲穴操作，连接辅穴可以获得额外属性"
+  templates:
+  - split: 2
+    template: "{0}：{1} "
+- raw: "258,ChongHoleTitleTxt,是否进入{0}穴道进行冲穴?  "
+  splits:
+  - split: 2
+    text: "是否进入"
+  - split: 2
+    subIndex: 1
+    text: "穴道进行冲穴"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}?  "
+- raw: "259,ChongHoleFinishTipTxt,已连通可以冲穴 "
+  splits:
+  - split: 2
+    text: "已连通可以冲穴"
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "260,MusclesOrVeinsTipTxt,经脉贯通成功"
+  splits:
+  - split: 2
+    text: "经脉贯通成功"
+- raw: "261,MusclesOrVeinsTipTitle,贯通说明"
+  splits:
+  - split: 2
+    text: "贯通说明"
+- raw: "262,MusclesOrVeinsShowTipContent,诸穴道冲破后，点击贯通即可打通此条经脉。"
+  splits:
+  - split: 2
+    text: "诸穴道冲破后，点击贯通即可打通此条经脉。"
+- raw: "263,ReChongHoleTipTxt,是否重新冲穴？"
+  splits:
+  - split: 2
+    text: "是否重新冲穴？"
+- raw: "264,AutoChongHoleTip,是否自动贯通经脉（消耗{0}修为）并进行冲关破境？"
+  splits:
+  - split: 2
+    text: "是否自动贯通经脉（消耗"
+  - split: 2
+    subIndex: 1
+    text: "修为）并进行冲关破境？"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "267,PartnerLevelUpInValidTips,冲关等级不能高于主角等级"
+  splits:
+  - split: 2
+    text: "冲关等级不能高于主角等级"
+- raw: "268,ForceLevelUpFailedTips,经脉尚未贯通完毕，无法使用强行破境功能。"
+  splits:
+  - split: 2
+    text: "经脉尚未贯通完毕，无法使用强行破境功能。"
+- raw: "269,ForceLevelUpTips,厚积薄发，消耗大量修为强行冲关破境，此举会跳过原有任务需求，直接抵达下一境界，<color=red>此行为不可逆，突破任务会消失</color>，是否消耗<color=green>{0}</color>修为，强行冲关破境？"
+  splits:
+  - split: 2
+    text: "厚积薄发，消耗大量修为强行冲关破境，此举会跳过原有任务需求，直接抵达下一境界，"
+  - split: 2
+    subIndex: 1
+    text: "此行为不可逆，突破任务会消失"
+  - split: 2
+    subIndex: 2
+    text: "，是否消耗"
+  - split: 2
+    subIndex: 3
+    text: "修为，强行冲关破境？"
+  templates:
+  - split: 2
+    template: "{0}<color=red>{1}</color>{2}<color=green>⟦0⟧</color>{3}"
+- raw: "272,LockDungeon,暂未开放"
+  splits:
+  - split: 2
+    text: "暂未开放"
+- raw: "273,RecommendAttribute,推荐境界"
+  splits:
+  - split: 2
+    text: "推荐境界"
+- raw: "274,EnterDungeon,进入副本"
+  splits:
+  - split: 2
+    text: "进入副本"
+- raw: "275,InCD,冷却中"
+  splits:
+  - split: 2
+    text: "冷却中"
+- raw: "276,Tips,提示"
+  splits:
+  - split: 2
+    text: "提示"
+- raw: "277,ConfirmEnterDungeon,是否确认进入副本？"
+  splits:
+  - split: 2
+    text: "是否确认进入副本？"
+- raw: "278,key4,{0}时辰后"
+  splits:
+  - split: 2
+    text: "时辰后"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "279,AwardPreview,掉落预览"
+  splits:
+  - split: 2
+    text: "掉落预览"
+- raw: "280,RandomItem,随机道具"
+  splits:
+  - split: 2
+    text: "随机道具"
+- raw: "281,RandomEquip,随机装备"
+  splits:
+  - split: 2
+    text: "随机装备"
+- raw: "282,RandomMiJi,随机秘籍"
+  splits:
+  - split: 2
+    text: "随机秘籍"
+- raw: "283,DungeonLockTips,进入此副本需求境界:{0}"
+  splits:
+  - split: 2
+    text: "进入此副本需求境界"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧"
+- raw: "286,PracticeRoomTalk,坚实牢靠的练功木人，或可借之锤炼身手。"
+  splits:
+  - split: 2
+    text: "坚实牢靠的练功木人，或可借之锤炼身手。"
+- raw: "287,PracticeRoomTalkOption0,磨砺武艺"
+  splits:
+  - split: 2
+    text: "磨砺武艺"
+- raw: "288,PracticeRoomTalkOption1,暂且离去"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "289,PracticeSetting,练习设置"
+  splits:
+  - split: 2
+    text: "练习设置"
+- raw: "290,WoodenStakeSetting,【木人桩设置】"
+  splits:
+  - split: 2
+    text: "【木人桩设置】"
+- raw: "291,WoodenStakeAttribute,木人桩境界："
+  splits:
+  - split: 2
+    text: "木人桩境界"
+  templates:
+  - split: 2
+    template: "{0}："
+- raw: "292,SuperArmor,霸体:"
+  splits:
+  - split: 2
+    text: "霸体"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "293,Countdown,倒计时:"
+  splits:
+  - split: 2
+    text: "倒计时"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "294,Summon,召唤"
+  splits:
+  - split: 2
+    text: "召唤"
+- raw: "295,ExitBattle,离开战斗"
+  splits:
+  - split: 2
+    text: "离开战斗"
+- raw: "296,None,无"
+  splits:
+  - split: 2
+    text: "无"
+- raw: "297,TotalDamage,伤害量"
+  splits:
+  - split: 2
+    text: "伤害量"
+- raw: "298,ComboCount,连击数"
+  splits:
+  - split: 2
+    text: "连击数"
+- raw: "301,BatchSell,批量出售"
+  splits:
+  - split: 2
+    text: "批量出售"
+- raw: "302,SellItemList,出售列表"
+  splits:
+  - split: 2
+    text: "出售列表"
+- raw: "303,QualitySelect,品质筛选:"
+  splits:
+  - split: 2
+    text: "品质筛选"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "304,AttributeSelect,境界筛选:"
+  splits:
+  - split: 2
+    text: "境界筛选"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "305,Selected,已选择:"
+  splits:
+  - split: 2
+    text: "已选择"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "306,TotalMoney,总银两:"
+  splits:
+  - split: 2
+    text: "总银两"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "307,Sell,出售"
+  splits:
+  - split: 2
+    text: "出售"
+- raw: "308,ItemDesc,物品描述："
+  splits:
+  - split: 2
+    text: "物品描述"
+  templates:
+  - split: 2
+    template: "{0}："
+- raw: "309,Jian,件"
+  splits:
+  - split: 2
+    text: "件"
+- raw: "310,Wen,文"
+  splits:
+  - split: 2
+    text: "文"
+- raw: "311,EmptyTips,物品为空"
+  splits:
+  - split: 2
+    text: "物品为空"
+- raw: "312,SellSuccess,出售成功"
+  splits:
+  - split: 2
+    text: "出售成功"
+- raw: "313,Quality,品质"
+  splits:
+  - split: 2
+    text: "品质"
+- raw: "314,notSellTips,出售物品过多，正在努力加载中..."
+  splits:
+  - split: 2
+    text: "出售物品过多，正在努力加载中..."
+- raw: "315,notSellTips2,当前暂无物品可以出售"
+  splits:
+  - split: 2
+    text: "当前暂无物品可以出售"
+- raw: "318,PlayingComboVideo,正在播放连招视频..."
+  splits:
+  - split: 2
+    text: "正在播放连招视频..."
+- raw: "321,GangLv,总舵等级:"
+  splits:
+  - split: 2
+    text: "总舵等级"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "322,GangMoney,帮派资金:"
+  splits:
+  - split: 2
+    text: "帮派资金"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "323,GangRevenue,每日收支:"
+  splits:
+  - split: 2
+    text: "每日收支"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "324,NotInstalled2,(未实装)"
+  splits:
+  - split: 2
+    text: "未实装"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "325,CurGangRank,当前帮派位阶:"
+  splits:
+  - split: 2
+    text: "当前帮派位阶"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "326,TotalGangCoin,累计帮派功勋:"
+  splits:
+  - split: 2
+    text: "累计帮派功勋"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "327,GangRankHighest,位阶已达最高"
+  splits:
+  - split: 2
+    text: "位阶已达最高"
+- raw: "328,GetSalary,获取薪俸"
+  splits:
+  - split: 2
+    text: "获取薪俸"
+- raw: "329,Enroll,报名考核"
+  splits:
+  - split: 2
+    text: "报名考核"
+- raw: "330,LookFifthRank,查看{0}"
+  splits:
+  - split: 2
+    text: "查看"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "331,Exit,离开"
+  splits:
+  - split: 2
+    text: "离开"
+- raw: "332,ReturnBack,返回"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "333,Close,关闭"
+  splits:
+  - split: 2
+    text: "关闭"
+- raw: "334,Attack,攻占"
+  splits:
+  - split: 2
+    text: "攻占"
+- raw: "335,Leave,暂且撤离"
+  splits:
+  - split: 2
+    text: "暂且撤离"
+- raw: "336,GiveUp,束手认命"
+  splits:
+  - split: 2
+    text: "束手认命"
+- raw: "337,UnderstudyGangMember,候补"
+  splits:
+  - split: 2
+    text: "候补"
+- raw: "338,GangShopRankTips,\"当前位阶不足，当前位阶:{0},商品需求位阶:{1}\""
+  splits:
+  - split: 2
+    text: "当前位阶不足，当前位阶"
+  - split: 2
+    subIndex: 1
+    text: "商品需求位阶"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧,{1}:⟦1⟧"
+- raw: "339,TaskDesc,【任务描述】"
+  splits:
+  - split: 2
+    text: "【任务描述】"
+- raw: "340,TaskAward,【任务奖励】"
+  splits:
+  - split: 2
+    text: "【任务奖励】"
+- raw: "341,GangCoin,帮派功勋"
+  splits:
+  - split: 2
+    text: "帮派功勋"
+- raw: "342,GangCoin2,帮派功勋:"
+  splits:
+  - split: 2
+    text: "帮派功勋"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "343,GangCoinNotEnough,帮派功勋不足"
+  splits:
+  - split: 2
+    text: "帮派功勋不足"
+- raw: "344,GangShopNotJoinLimit,非本帮人士，无法购买"
+  splits:
+  - split: 2
+    text: "非本帮人士，无法购买"
+- raw: "345,NeedGangCoin,所需功勋:"
+  splits:
+  - split: 2
+    text: "所需功勋"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "346,MyGangCoin,我的功勋:"
+  splits:
+  - split: 2
+    text: "我的功勋"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "347,RemainRefreshTime,距离刷新还有"
+  splits:
+  - split: 2
+    text: "距离刷新还有"
+- raw: "348,RemainFailedTime,距离到期还有"
+  splits:
+  - split: 2
+    text: "距离到期还有"
+- raw: "349,RankTask,阶任务"
+  splits:
+  - split: 2
+    text: "阶任务"
+- raw: "350,GangTaskGotFailed,\"位阶不足，当前位阶:{0},任务所需位阶:{1}\""
+  splits:
+  - split: 2
+    text: "位阶不足，当前位阶"
+  - split: 2
+    subIndex: 1
+    text: "任务所需位阶"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧,{1}:⟦1⟧"
+- raw: "351,TaskNotGot,未领取"
+  splits:
+  - split: 2
+    text: "未领取"
+- raw: "352,TaskGot,进行中"
+  splits:
+  - split: 2
+    text: "进行中"
+- raw: "353,TaskSuccess,已完成"
+  splits:
+  - split: 2
+    text: "已完成"
+- raw: "354,TaskFailed,任务失败"
+  splits:
+  - split: 2
+    text: "任务失败"
+- raw: "355,GetTaskTips,当前位阶最多同时领取{0}个任务，是否领取该任务？"
+  splits:
+  - split: 2
+    text: "当前位阶最多同时领取"
+  - split: 2
+    subIndex: 1
+    text: "个任务，是否领取该任务？"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "356,GetTaskSuccessTips,任务领取成功"
+  splits:
+  - split: 2
+    text: "任务领取成功"
+- raw: "357,GetTaskFailedTips,任务领取失败，已达到当前位阶最大可进行任务数"
+  splits:
+  - split: 2
+    text: "任务领取失败，已达到当前位阶最大可进行任务数"
+- raw: "358,TaskGotTips,此任务已领取"
+  splits:
+  - split: 2
+    text: "此任务已领取"
+- raw: "359,GangTaskRemoveTips,放弃后任务将以失败结算，并在下个周期刷新，是否确定？"
+  splits:
+  - split: 2
+    text: "放弃后任务将以失败结算，并在下个周期刷新，是否确定？"
+- raw: "360,Day,天"
+  splits:
+  - split: 2
+    text: "天"
+- raw: "361,ShiChen,时辰"
+  splits:
+  - split: 2
+    text: "时辰"
+- raw: "362,GangTaskFailedTips,风云变幻，往事难追，帮派任务失败。"
+  splits:
+  - split: 2
+    text: "风云变幻，往事难追，帮派任务失败。"
+- raw: "363,GangTalkDialog,这里是{0}"
+  splits:
+  - split: 2
+    text: "这里是"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "364,GangHouseKeep,帮派管家"
+  splits:
+  - split: 2
+    text: "帮派管家"
+- raw: "365,GangRank,帮派位阶"
+  splits:
+  - split: 2
+    text: "帮派位阶"
+- raw: "366,GangShop,帮派商店"
+  splits:
+  - split: 2
+    text: "帮派商店"
+- raw: "367,GangTask,帮派任务"
+  splits:
+  - split: 2
+    text: "帮派任务"
+- raw: "368,JoinGang,加入帮派"
+  splits:
+  - split: 2
+    text: "加入帮派"
+- raw: "369,ExitGang,退出帮派"
+  splits:
+  - split: 2
+    text: "退出帮派"
+- raw: "370,GetRankUpTask,<兄弟||妹子>近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，<兄弟||妹子>若有意在本帮提升位阶，不妨前往一观。"
+  splits:
+  - split: 2
+    text: "兄弟"
+  - split: 2
+    subIndex: 1
+    text: "妹子"
+  - split: 2
+    subIndex: 2
+    text: "近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，"
+  - split: 2
+    subIndex: 3
+    text: "兄弟"
+  - split: 2
+    subIndex: 4
+    text: "妹子"
+  - split: 2
+    subIndex: 5
+    text: "若有意在本帮提升位阶，不妨前往一观。"
+  templates:
+  - split: 2
+    template: "<{0}||{1}>{2}<{3}||{4}>{5}"
+- raw: "371,RankUpTask,升阶任务"
+  splits:
+  - split: 2
+    text: "升阶任务"
+- raw: "372,RankUpTips,你在{0}中的位阶已达到{1}"
+  splits:
+  - split: 2
+    text: "你在"
+  - split: 2
+    subIndex: 1
+    text: "中的位阶已达到"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧"
+- raw: "373,RankUpTips2,由于本{0}{1}{2}身亡，经{3}中长老商讨，{4}德才兼备，接替其位"
+  splits:
+  - split: 2
+    text: "由于本"
+  - split: 2
+    subIndex: 1
+    text: "身亡，经"
+  - split: 2
+    subIndex: 2
+    text: "中长老商讨，"
+  - split: 2
+    subIndex: 3
+    text: "德才兼备，接替其位"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧⟦1⟧⟦2⟧{1}⟦3⟧{2}⟦4⟧{3}"
+- raw: "374,RankUpTips3,因你横夺其位，{0}对你心生怨恨"
+  splits:
+  - split: 2
+    text: "因你横夺其位，"
+  - split: 2
+    subIndex: 1
+    text: "对你心生怨恨"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "375,TouchFailed,操作失败，未加入本帮派"
+  splits:
+  - split: 2
+    text: "操作失败，未加入本帮派"
+- raw: "376,RankUpLimitTip,未达到升阶所需的帮派功勋"
+  splits:
+  - split: 2
+    text: "未达到升阶所需的帮派功勋"
+- raw: "377,ExitGangSuccess,已退出帮派{0}"
+  splits:
+  - split: 2
+    text: "已退出帮派"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "378,JoinGangSuccess,已加入帮派{0}"
+  splits:
+  - split: 2
+    text: "已加入帮派"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "379,JoinGangFailed,加入帮派失败，当前已加入其他帮派，无法重复加入"
+  splits:
+  - split: 2
+    text: "加入帮派失败，当前已加入其他帮派，无法重复加入"
+- raw: "380,ExitGangFailed,离开帮派失败，未加入该帮派或你已是帮主"
+  splits:
+  - split: 2
+    text: "离开帮派失败，未加入该帮派或你已是帮主"
+- raw: "381,ExitGangFailed_Header,你乃一帮之主，岂能如此？"
+  splits:
+  - split: 2
+    text: "你乃一帮之主，岂能如此？"
+- raw: "382,ExitGangFailed_SubGang,需前往帮派总舵办理"
+  splits:
+  - split: 2
+    text: "需前往帮派总舵办理"
+- raw: "383,GangTaskNpcPos,\"位置：{0}({1},{2})\""
+  splits:
+  - split: 2
+    text: "位置"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧(⟦1⟧,⟦2⟧)"
+- raw: "384,NoJoinGangTip,暂未加入或创建任何帮派"
+  splits:
+  - split: 2
+    text: "暂未加入或创建任何帮派"
+- raw: "385,NoMatchGangCreateCondTip,尚未达到在此驻地创立帮派的条件"
+  splits:
+  - split: 2
+    text: "尚未达到在此驻地创立帮派的条件"
+- raw: "386,GangCreateNameTip_Length,帮派名字长度不符"
+  splits:
+  - split: 2
+    text: "帮派名字长度不符"
+- raw: "387,GangCreateNameTip_Same,该名字已被其他帮派占用"
+  splits:
+  - split: 2
+    text: "该名字已被其他帮派占用"
+- raw: "388,GangCreateSuccTip,成功创立了{0}!"
+  splits:
+  - split: 2
+    text: "成功创立了"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧!"
+- raw: "389,GangCreateTouchDialog_CanCreate_Empty,可在此处创建帮派"
+  splits:
+  - split: 2
+    text: "可在此处创建帮派"
+- raw: "390,GangCreateTouchDialog_CanCreate_PlayOwn,{0}驻地（本人帮派）"
+  splits:
+  - split: 2
+    text: "驻地（本人帮派）"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "391,GangCreateTouchDialog_CanCreate_Other,{0}驻地(别人帮派)"
+  splits:
+  - split: 2
+    text: "驻地"
+  - split: 2
+    subIndex: 1
+    text: "别人帮派"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}({1})"
+- raw: "392,GangCreateTouchDialog_PlayJoin,{0}驻地（我方帮派）"
+  splits:
+  - split: 2
+    text: "驻地（我方帮派）"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "393,GangCreateTouchDialog_Other,{0}驻地(别人帮派)"
+  splits:
+  - split: 2
+    text: "驻地"
+  - split: 2
+    subIndex: 1
+    text: "别人帮派"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}({1})"
+- raw: "394,GangCreateTouchDialog_Disuse,\"曾经{0}的旧驻地,现已荒废,无法再重建\""
+  splits:
+  - split: 2
+    text: "曾经"
+  - split: 2
+    subIndex: 1
+    text: "的旧驻地"
+  - split: 2
+    subIndex: 2
+    text: "现已荒废"
+  - split: 2
+    subIndex: 3
+    text: "无法再重建"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1},{2},{3}"
+- raw: "395,GangCreateTouchAttckLips_Other,发动帮派战争"
+  splits:
+  - split: 2
+    text: "发动帮派战争"
+- raw: "396,GangTypeOnGroup_MainGang,总舵"
+  splits:
+  - split: 2
+    text: "总舵"
+- raw: "397,GangTypeOnGroup_SubGang,分舵"
+  splits:
+  - split: 2
+    text: "分舵"
+- raw: "398,GangTypeOnGroup_SuzerainGang,宗主"
+  splits:
+  - split: 2
+    text: "宗主"
+- raw: "399,GangTypeOnGroup_DependcyGang,附属"
+  splits:
+  - split: 2
+    text: "附属"
+- raw: "400,GangTypeOnGroup_None,竞争"
+  splits:
+  - split: 2
+    text: "竞争"
+- raw: "401,GangSwapMemberLimitTip,无法直接变更帮主！"
+  splits:
+  - split: 2
+    text: "无法直接变更帮主！"
+- raw: "402,GangSwapMemberRankPosTip,是否确定交换两人位阶？"
+  splits:
+  - split: 2
+    text: "是否确定交换两人位阶？"
+- raw: "403,GangSwapMemberToSixRankTip,{0}被列入候补{1}，将无法参与帮派战争"
+  splits:
+  - split: 2
+    text: "被列入候补"
+  - split: 2
+    subIndex: 1
+    text: "，将无法参与帮派战争"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "404,GangCreate,创立帮派"
+  splits:
+  - split: 2
+    text: "创立帮派"
+- raw: "405,GangDissolve,解散帮派"
+  splits:
+  - split: 2
+    text: "解散帮派"
+- raw: "406,GangDissolveConfirmTip,解散后各驻地将被荒废，是否确定解散{0}？"
+  splits:
+  - split: 2
+    text: "解散后各驻地将被荒废，是否确定解散"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧？"
+- raw: "407,GangDissolveTip,{0}已解散"
+  splits:
+  - split: 2
+    text: "已解散"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "408,GangRankMemberContentTip1,境界：               {0}"
+  splits:
+  - split: 2
+    text: "境界"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "409,GangRankMemberContentTip2,俸禄：               {0}"
+  splits:
+  - split: 2
+    text: "俸禄"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "410,GangRankMemberContentTip3,好感：               {0}"
+  splits:
+  - split: 2
+    text: "好感"
+  templates:
+  - split: 2
+    template: "{0}：               ⟦0⟧"
+- raw: "411,GangGoOutBattleMemberClickTip,{0}正被派遣出征中"
+  splits:
+  - split: 2
+    text: "正被派遣出征中"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "412,GangAbdicateConfirm,与{0}交换位阶，将失去帮主权力，是否确定?"
+  splits:
+  - split: 2
+    text: "与"
+  - split: 2
+    subIndex: 1
+    text: "交换位阶，将失去帮主权力，是否确定"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}?"
+- raw: "413,GangAbdicateTip,{0}成为了{1}的新帮主"
+  splits:
+  - split: 2
+    text: "成为了"
+  - split: 2
+    subIndex: 1
+    text: "的新帮主"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "414,GangExpelMemberConfirm,确认开除该成员？"
+  splits:
+  - split: 2
+    text: "确认开除该成员？"
+- raw: "415,GangExpelMemberTip,{0}已被逐出帮派"
+  splits:
+  - split: 2
+    text: "已被逐出帮派"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "416,GangExpelMemberNpcLife,已被逐出帮派：{0}"
+  splits:
+  - split: 2
+    text: "已被逐出帮派"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "417,GangChaseMemberNpcLife,{0}对{1}下达了追杀令"
+  splits:
+  - split: 2
+    text: "对"
+  - split: 2
+    subIndex: 1
+    text: "下达了追杀令"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "418,GangUndoChaseMemberNpcLife,{0}撤销了对{1}的追杀令"
+  splits:
+  - split: 2
+    text: "撤销了对"
+  - split: 2
+    subIndex: 1
+    text: "的追杀令"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "419,GangChaseMemberNpcState,已对该成员下达了追杀令"
+  splits:
+  - split: 2
+    text: "已对该成员下达了追杀令"
+- raw: "420,GangChaseMemberNpcMsgTitle,帮派追杀令"
+  splits:
+  - split: 2
+    text: "帮派追杀令"
+- raw: "421,GangChaseMemberNpcMsgContent,{0}的追杀令执行完毕，{1}已成功击杀了{2}。"
+  splits:
+  - split: 2
+    text: "的追杀令执行完毕，"
+  - split: 2
+    subIndex: 1
+    text: "已成功击杀了"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}⟦2⟧。"
+- raw: "422,GangChaseMemberTip,已对{0}下达追杀令"
+  splits:
+  - split: 2
+    text: "已对"
+  - split: 2
+    subIndex: 1
+    text: "下达追杀令"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "423,GangUndoChaseMemberTip,已撤销对{0}的追杀令"
+  splits:
+  - split: 2
+    text: "已撤销对"
+  - split: 2
+    subIndex: 1
+    text: "的追杀令"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "424,GangCaptivityMemberSuccTip,已将{0}押入帮派大牢囚禁"
+  splits:
+  - split: 2
+    text: "已将"
+  - split: 2
+    subIndex: 1
+    text: "押入帮派大牢囚禁"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "425,GangCaptivityMemberFailTip,{0}拒捕并成功逃脱，帮派已将其开除并下达追杀令"
+  splits:
+  - split: 2
+    text: "拒捕并成功逃脱，帮派已将其开除并下达追杀令"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "426,GangCaptivityMemberNpcState,该成员囚禁于帮派大牢"
+  splits:
+  - split: 2
+    text: "该成员囚禁于帮派大牢"
+- raw: "427,GangReleaseCaptivityMemberTip,已将{0}从帮派大牢中释放"
+  splits:
+  - split: 2
+    text: "已将"
+  - split: 2
+    subIndex: 1
+    text: "从帮派大牢中释放"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "428,GangRulerLimitTip,你并非此帮帮主"
+  splits:
+  - split: 2
+    text: "你并非此帮帮主"
+- raw: "429,NoMatchGangLvUpCondTip,未满足帮派升级条件"
+  splits:
+  - split: 2
+    text: "未满足帮派升级条件"
+- raw: "430,GangLvUpReqMemberAttrDesc,{0}个{1}"
+  splits:
+  - split: 2
+    text: "个"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧"
+- raw: "431,GangLvName,{0}级"
+  splits:
+  - split: 2
+    text: "级"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "432,GangLvMaxLimitTip,帮派等级已达上限"
+  splits:
+  - split: 2
+    text: "帮派等级已达上限"
+- raw: "433,GangLvMaxLimitShortTip,已达上限"
+  splits:
+  - split: 2
+    text: "已达上限"
+- raw: "434,GangLvMaxNoLimitShortTip,未达上限"
+  splits:
+  - split: 2
+    text: "未达上限"
+- raw: "435,GangMoneyChangeTip,帮派资金{0}"
+  splits:
+  - split: 2
+    text: "帮派资金"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "436,GangMoneyLackTip,帮派资金不足"
+  splits:
+  - split: 2
+    text: "帮派资金不足"
+- raw: "437,GangPropertyOwnerDesc,（由{0}提供庇护）"
+  splits:
+  - split: 2
+    text: "（由"
+  - split: 2
+    subIndex: 1
+    text: "提供庇护）"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "438,GangPropertyGuard,商行武师"
+  splits:
+  - split: 2
+    text: "商行武师"
+- raw: "439,GangMinePropertyTouchDesc_GangOwn,{0}所拥矿产"
+  splits:
+  - split: 2
+    text: "所拥矿产"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "440,GangSalaryPayTip_CannotAfford,由于帮派资金不足以支付成员俸禄，{0}离开了帮派"
+  splits:
+  - split: 2
+    text: "由于帮派资金不足以支付成员俸禄，"
+  - split: 2
+    subIndex: 1
+    text: "离开了帮派"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "441,GangRecruitNewConfirmTip,{0}申请加入帮派"
+  splits:
+  - split: 2
+    text: "申请加入帮派"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "442,GangRecruitNewNpcAttrabuteTip,境界：{0}"
+  splits:
+  - split: 2
+    text: "境界"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "443,GangRecruitNewSuccTip,{0}成为{1}{2}"
+  splits:
+  - split: 2
+    text: "成为"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧⟦2⟧"
+- raw: "444,GangRecruitAheadCostTitle,帮派资金投入，可加快成员招新"
+  splits:
+  - split: 2
+    text: "帮派资金投入，可加快成员招新"
+- raw: "445,GangRecruitAheadCostDescStr,银两(文)"
+  splits:
+  - split: 2
+    text: "银两"
+  - split: 2
+    subIndex: 1
+    text: "文"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "446,GangRecruitAheadCostConfirmStr,投入"
+  splits:
+  - split: 2
+    text: "投入"
+- raw: "447,GangRecruitAheadCostResultStr,预计{0}天后可招募到帮派新成员"
+  splits:
+  - split: 2
+    text: "预计"
+  - split: 2
+    subIndex: 1
+    text: "天后可招募到帮派新成员"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "448,GangRecruitFailResultStr_NoNpc,没有合适的帮众人选，无人前来应征"
+  splits:
+  - split: 2
+    text: "没有合适的帮众人选，无人前来应征"
+- raw: "449,GangRecruitFailResultStr_LowMoney,帮派资金无法再支付得起帮众俸禄"
+  splits:
+  - split: 2
+    text: "帮派资金无法再支付得起帮众俸禄"
+- raw: "450,GangRecruitFailResultStr_MemberLimit,帮众人数已达当前等级上限"
+  splits:
+  - split: 2
+    text: "帮众人数已达当前等级上限"
+- raw: "451,GangRecruitFailResultStr_SalaryLimit,没有能支付得起其俸禄的帮众人选"
+  splits:
+  - split: 2
+    text: "没有能支付得起其俸禄的帮众人选"
+- raw: "452,GangInvitNpcJoinLipsName,邀请加入帮派"
+  splits:
+  - split: 2
+    text: "邀请加入帮派"
+- raw: "453,GangInvitNpcJoinSuccDialog,我早听闻{0}在江湖上行侠仗义，声名远扬。今日承蒙另眼，定当追随帮主，在这江湖之中闯出一番更大的名堂！往后但有差遣，在下赴汤蹈火，绝无二话！"
+  splits:
+  - split: 2
+    text: "我早听闻"
+  - split: 2
+    subIndex: 1
+    text: "在江湖上行侠仗义，声名远扬。今日承蒙另眼，定当追随帮主，在这江湖之中闯出一番更大的名堂！往后但有差遣，在下赴汤蹈火，绝无二话！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "454,GangInvitNpcJoinFailDialog_NoGang_Love,帮主，承蒙抬爱，邀我加入{0}。只是在下闯荡江湖习惯无拘无束，恕在下难以从命……你我关系尚浅，来日方长，日后若有机会，再论共行侠义之事。"
+  splits:
+  - split: 2
+    text: "帮主，承蒙抬爱，邀我加入"
+  - split: 2
+    subIndex: 1
+    text: "。只是在下闯荡江湖习惯无拘无束，恕在下难以从命……你我关系尚浅，来日方长，日后若有机会，再论共行侠义之事。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "455,GangInvitNpcJoinFailDialog_NoGang_Attr,帮主，承蒙抬爱，只是……以{0}目前的实力，在这江湖难有作为，加入贵帮恐怕难以实现我的抱负，只能辜负帮主的美意了。"
+  splits:
+  - split: 2
+    text: "帮主，承蒙抬爱，只是……以"
+  - split: 2
+    subIndex: 1
+    text: "目前的实力，在这江湖难有作为，加入贵帮恐怕难以实现我的抱负，只能辜负帮主的美意了。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "456,GangInvitNpcJoinFailDialog_HasGang_Love,帮主，承蒙抬爱，实不相瞒，早时我已加入{0}。他们待我不薄，我既已投身其中，自当坚守忠义。且你我关系尚浅，实在抱歉，暂时无法答应你的邀请。"
+  splits:
+  - split: 2
+    text: "帮主，承蒙抬爱，实不相瞒，早时我已加入"
+  - split: 2
+    subIndex: 1
+    text: "。他们待我不薄，我既已投身其中，自当坚守忠义。且你我关系尚浅，实在抱歉，暂时无法答应你的邀请。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "457,GangInvitNpcJoinFailDialog_HasGang_Attr,\"帮主，承蒙抬爱，我目前已加入{0},但我也一直在等待一个能与我理想相契合，且实力更雄厚的契机，倘若今后贵帮实力壮大起来了，或许我会好好考虑下加入贵帮。\""
+  splits:
+  - split: 2
+    text: "帮主，承蒙抬爱，我目前已加入"
+  - split: 2
+    subIndex: 1
+    text: "但我也一直在等待一个能与我理想相契合，且实力更雄厚的契机，倘若今后贵帮实力壮大起来了，或许我会好好考虑下加入贵帮。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,{1}"
+- raw: "458,GangInvitNpcJoinFailDialog_HasGang_Owner,承蒙贵帮青眼，邀我加入{0}。但我身为{1}帮主，自接手帮派那日起，便肩负着兄弟们的信任与期望。多年来，我们同甘共苦，在这江湖上闯出了一片天地。若我此时加入贵帮，不仅是对兄弟的背叛，更有负这一方追随的情义。"
+  splits:
+  - split: 2
+    text: "承蒙贵帮青眼，邀我加入"
+  - split: 2
+    subIndex: 1
+    text: "。但我身为"
+  - split: 2
+    subIndex: 2
+    text: "帮主，自接手帮派那日起，便肩负着兄弟们的信任与期望。多年来，我们同甘共苦，在这江湖上闯出了一片天地。若我此时加入贵帮，不仅是对兄弟的背叛，更有负这一方追随的情义。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+- raw: "459,GangPropertyOccupyLipsName,夺取帮派所有权。"
+  splits:
+  - split: 2
+    text: "夺取帮派所有权。"
+- raw: "460,GangPropertyAttckDialog_Shop_HasGang,阁下可知这是谁的店？这可是{0}的地盘！得罪我们，整个江湖都没你的容身之地！趁现在滚，还来得及！"
+  splits:
+  - split: 2
+    text: "阁下可知这是谁的店？这可是"
+  - split: 2
+    subIndex: 1
+    text: "的地盘！得罪我们，整个江湖都没你的容身之地！趁现在滚，还来得及！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "461,GangPropertyAttckDialog_Shop_NoGang,本店武师可不是好惹的，现在跪地求饶，或许还能留你一条小命。"
+  splits:
+  - split: 2
+    text: "本店武师可不是好惹的，现在跪地求饶，或许还能留你一条小命。"
+- raw: "462,GangPropertyAttckResultDialog_Win,这次被你得逞，但江湖路远，咱们迟早会再碰面。你夺了我们的产业，这笔账，我一定会讨回来。"
+  splits:
+  - split: 2
+    text: "这次被你得逞，但江湖路远，咱们迟早会再碰面。你夺了我们的产业，这笔账，我一定会讨回来。"
+- raw: "463,GangPropertyAttckResultDialog_Lose,我当是哪路英雄好汉，敢来我这撒野！原来是徒有虚名的草包。就凭你，也想吞并我的商行？"
+  splits:
+  - split: 2
+    text: "我当是哪路英雄好汉，敢来我这撒野！原来是徒有虚名的草包。就凭你，也想吞并我的商行？"
+- raw: "464,GangPropertyAttckResultDialog_Win_TouchNpc,帮主威名，如雷贯耳！之前多有得罪，还望您大人有大量，在您的英明领导下，我商行定能如虎添翼，蓬勃发展。往后，商行定对您唯命是从，不敢有半分懈怠。"
+  splits:
+  - split: 2
+    text: "帮主威名，如雷贯耳！之前多有得罪，还望您大人有大量，在您的英明领导下，我商行定能如虎添翼，蓬勃发展。往后，商行定对您唯命是从，不敢有半分懈怠。"
+- raw: "465,GangPropertyAttckResultDialog_Lose_TouchNpc,号称一帮之主，结果连我家一个武师都打不过，真是笑掉大牙。今日之事，要是不给出一个满意的交代，你们帮派休想在这一带立足！赶紧把钱交出来，别浪费我时间。"
+  splits:
+  - split: 2
+    text: "号称一帮之主，结果连我家一个武师都打不过，真是笑掉大牙。今日之事，要是不给出一个满意的交代，你们帮派休想在这一带立足！赶紧把钱交出来，别浪费我时间。"
+- raw: "466,GangRelationChangeLips,与{0}的关系{1}"
+  splits:
+  - split: 2
+    text: "与"
+  - split: 2
+    subIndex: 1
+    text: "的关系"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧"
+- raw: "467,GangOnAttackOtherCDTip,你最近已经发起了一次帮派战争，需要{0}天整备方可再次发起战争。"
+  splits:
+  - split: 2
+    text: "你最近已经发起了一次帮派战争，需要"
+  - split: 2
+    subIndex: 1
+    text: "天整备方可再次发起战争。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "468,GangOccupyPropertyTip,成功获得{0}的帮派所有权。"
+  splits:
+  - split: 2
+    text: "成功获得"
+  - split: 2
+    subIndex: 1
+    text: "的帮派所有权。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "469,GangPropertyBeOccupyedTip,丢失{0}的帮派所有权。"
+  splits:
+  - split: 2
+    text: "丢失"
+  - split: 2
+    subIndex: 1
+    text: "的帮派所有权。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "470,GangMergeSubGangLips,占领{0}的{1}。"
+  splits:
+  - split: 2
+    text: "占领"
+  - split: 2
+    subIndex: 1
+    text: "的"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧。"
+- raw: "471,GangAttackAgentTitle,{0} 进攻我方:{1}。"
+  splits:
+  - split: 2
+    text: "进攻我方"
+  templates:
+  - split: 2
+    template: "⟦0⟧ {0}:⟦1⟧。"
+- raw: "472,GangAttackAgentTip_AttackTime,此产业预计{0}天后被攻陷，点击可派遣帮会成员御敌，时限内帮主可前往产业所在地，亲自迎战。"
+  splits:
+  - split: 2
+    text: "此产业预计"
+  - split: 2
+    subIndex: 1
+    text: "天后被攻陷，点击可派遣帮会成员御敌，时限内帮主可前往产业所在地，亲自迎战。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "473,GangAttackAgentTip_AttackEndTime,此产业预计{0}天后被攻陷，时限内帮主可前往产业所在地，亲自迎战。"
+  splits:
+  - split: 2
+    text: "此产业预计"
+  - split: 2
+    subIndex: 1
+    text: "天后被攻陷，时限内帮主可前往产业所在地，亲自迎战。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "474,GangAttackAgentTip_NoMemberSet,已没有可对外派遣的帮派成员了。"
+  splits:
+  - split: 2
+    text: "已没有可对外派遣的帮派成员了。"
+- raw: "475,GangAttackAgentViewTip_AttackTime,{0}天后将沦陷"
+  splits:
+  - split: 2
+    text: "天后将沦陷"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "476,GangAttackAgentViewTip_AttackEndime,{0}天后结束战斗"
+  splits:
+  - split: 2
+    text: "天后结束战斗"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "477,GangGoOutBattleMemberDialog_src,我等即将拿下此地的帮派所有权了！"
+  splits:
+  - split: 2
+    text: "我等即将拿下此地的帮派所有权了！"
+- raw: "478,GangGoOutBattleMemberDialog_dest,\"我等定会击退对方,帮主请放心。\""
+  splits:
+  - split: 2
+    text: "我等定会击退对方"
+  - split: 2
+    subIndex: 1
+    text: "帮主请放心。"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "479,GangGoOutBattleMemberLipsName,亲自应战"
+  splits:
+  - split: 2
+    text: "亲自应战"
+- raw: "480,GangAttckAgentBattleResultDialog_Win,\"此次是我等轻敌,江湖路远,咱们迟早会再碰面。\""
+  splits:
+  - split: 2
+    text: "此次是我等轻敌"
+  - split: 2
+    subIndex: 1
+    text: "江湖路远"
+  - split: 2
+    subIndex: 2
+    text: "咱们迟早会再碰面。"
+  templates:
+  - split: 2
+    template: "{0},{1},{2}"
+- raw: "481,GangAttckAgentBattleResultDialog_lose,\"贵帮帮主也不过如此,那就得罪了,此地以后归我帮所有！\""
+  splits:
+  - split: 2
+    text: "贵帮帮主也不过如此"
+  - split: 2
+    subIndex: 1
+    text: "那就得罪了"
+  - split: 2
+    subIndex: 2
+    text: "此地以后归我帮所有！"
+  templates:
+  - split: 2
+    template: "{0},{1},{2}"
+- raw: "482,GangAttckAgentBattleResultMsgTitle,帮派产业争夺。"
+  splits:
+  - split: 2
+    text: "帮派产业争夺。"
+- raw: "483,GangAttckAgentBattleResultMsgContent_Win,我方产业{0}的帮派归属权已被{1}夺去。"
+  splits:
+  - split: 2
+    text: "我方产业"
+  - split: 2
+    subIndex: 1
+    text: "的帮派归属权已被"
+  - split: 2
+    subIndex: 2
+    text: "夺去。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+- raw: "484,GangAttckAgentBattleResultMsgContent_Lose,\"我方抵挡住{1}的进攻,守住产业{0}的帮派归属权。\""
+  splits:
+  - split: 2
+    text: "我方抵挡住"
+  - split: 2
+    subIndex: 1
+    text: "的进攻"
+  - split: 2
+    subIndex: 2
+    text: "守住产业"
+  - split: 2
+    subIndex: 3
+    text: "的帮派归属权。"
+  templates:
+  - split: 2
+    template: "{0}⟦1⟧{1},{2}⟦0⟧{3}"
+- raw: "485,GangGroupBattleDialog,凭你这点人马也敢来犯！不过是以卵击石罢了，我帮经营多年，高手如云，我劝你趁早退兵，否则定让你有来无回！"
+  splits:
+  - split: 2
+    text: "凭你这点人马也敢来犯！不过是以卵击石罢了，我帮经营多年，高手如云，我劝你趁早退兵，否则定让你有来无回！"
+- raw: "486,GangGroupBattleAidTeamDialog,所谓唇亡齿寒，如今{0}帮太过强盛，{1}前来助{2}，大家同心协力，共御强敌！"
+  splits:
+  - split: 2
+    text: "所谓唇亡齿寒，如今"
+  - split: 2
+    subIndex: 1
+    text: "帮太过强盛，"
+  - split: 2
+    subIndex: 2
+    text: "前来助"
+  - split: 2
+    subIndex: 3
+    text: "，大家同心协力，共御强敌！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧{2}⟦2⟧{3}"
+- raw: "487,GangGroupBattleEndDialog_Win,战胜"
+  splits:
+  - split: 2
+    text: "战胜"
+- raw: "488,GangGroupBattleEndDialog_Lose_Kill,江湖之中，犯吾帮者，未有善终。汝狂悖无知，妄图犯我天威。今杀汝，乃为正江湖纲纪，使诸贼闻风丧胆，不敢再犯吾帮之毫厘！"
+  splits:
+  - split: 2
+    text: "江湖之中，犯吾帮者，未有善终。汝狂悖无知，妄图犯我天威。今杀汝，乃为正江湖纲纪，使诸贼闻风丧胆，不敢再犯吾帮之毫厘！"
+- raw: "489,GangGroupBattleEndDialog_Lose_Letgo,念汝亦非大奸大恶，本帮主今日特赦汝命。然{0}恶贯满盈，为祸江湖，此帮必当覆灭，以靖四海！"
+  splits:
+  - split: 2
+    text: "念汝亦非大奸大恶，本帮主今日特赦汝命。然"
+  - split: 2
+    subIndex: 1
+    text: "恶贯满盈，为祸江湖，此帮必当覆灭，以靖四海！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "490,GangGroupBattleEndDialog_Win_SubGang,帮主果然英勇，此番领军来攻，调度有方，我等拼死抵抗，却仍难以招架。今我心服口服，这处驻地归帮主，实至名归。望帮主今后宽宏大量，莫再穷追猛打，容我等在这江湖一隅安身立命。"
+  splits:
+  - split: 2
+    text: "帮主果然英勇，此番领军来攻，调度有方，我等拼死抵抗，却仍难以招架。今我心服口服，这处驻地归帮主，实至名归。望帮主今后宽宏大量，莫再穷追猛打，容我等在这江湖一隅安身立命。"
+- raw: "491,GangGroupBattleEndDialog_Win_MainGang,想我纵横江湖半生，历经无数风雨，却没料到会败在你手里。"
+  splits:
+  - split: 2
+    text: "想我纵横江湖半生，历经无数风雨，却没料到会败在你手里。"
+- raw: "492,GangGroupBattleEndDialog_Win_MainGang_Merge,自踏入江湖，我便知有此一劫，只叹时运不济，无力回天，此次战败，实乃我一时疏忽。我帮大势已去，只可惜了这帮兄弟，皆是热血汉子，望你能好生对待。"
+  splits:
+  - split: 2
+    text: "自踏入江湖，我便知有此一劫，只叹时运不济，无力回天，此次战败，实乃我一时疏忽。我帮大势已去，只可惜了这帮兄弟，皆是热血汉子，望你能好生对待。"
+- raw: "493,GangGroupBattleEndDialog_Win_MainGang_Dependcy_Agree,帮主高瞻远瞩，威名远扬。我帮经此一役，元气大伤，归附贵帮实乃幸事。往后我等定按时纳贡，全力协助帮主拓展霸业，与贵帮携手，共创江湖辉煌。"
+  splits:
+  - split: 2
+    text: "帮主高瞻远瞩，威名远扬。我帮经此一役，元气大伤，归附贵帮实乃幸事。往后我等定按时纳贡，全力协助帮主拓展霸业，与贵帮携手，共创江湖辉煌。"
+- raw: "494,GangGroupBattleEndDialog_Win_MainGang_Dependcy_Refuse,帮主威德，震慑江湖，吾虽不才，却难屈膝称臣。然吾帮兄弟，皆忠义良善之辈，为谋生计，随吾闯荡江湖，恳请帮主怜其赤诚，收纳麾下，使彼等有安身立命之所，吾纵捐躯，亦含笑九泉。"
+  splits:
+  - split: 2
+    text: "帮主威德，震慑江湖，吾虽不才，却难屈膝称臣。然吾帮兄弟，皆忠义良善之辈，为谋生计，随吾闯荡江湖，恳请帮主怜其赤诚，收纳麾下，使彼等有安身立命之所，吾纵捐躯，亦含笑九泉。"
+- raw: "495,GangGroupBattleEndDialog_Win_MainGang_Header,手下败将，任凭处置。"
+  splits:
+  - split: 2
+    text: "手下败将，任凭处置。"
+- raw: "496,GangGroupBattleEndWinLips_Merge,吞并{0}"
+  splits:
+  - split: 2
+    text: "吞并"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "497,GangGroupBattleEndWinLips_DealwithHeader,处置帮主{0}"
+  splits:
+  - split: 2
+    text: "处置帮主"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "498,GangGroupBattleEndWinLips_MergeConfirm,吞并{0}所有地盘和产业，并将其成员纳入纳入麾下"
+  splits:
+  - split: 2
+    text: "吞并"
+  - split: 2
+    subIndex: 1
+    text: "所有地盘和产业，并将其成员纳入纳入麾下"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "499,GangGroupBattleEndWinLips_Dependcy,要{0}作为附属，对我帮称臣纳贡"
+  splits:
+  - split: 2
+    text: "要"
+  - split: 2
+    subIndex: 1
+    text: "作为附属，对我帮称臣纳贡"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "500,GangGroupBattleEndWinLips_DependcyConfirm,成为对方的宗主帮"
+  splits:
+  - split: 2
+    text: "成为对方的宗主帮"
+- raw: "501,GangGroupBattleEndGangHearLips_Kill,斩草除根"
+  splits:
+  - split: 2
+    text: "斩草除根"
+- raw: "502,GangGroupBattleEndGangHearLips_Release,流放"
+  splits:
+  - split: 2
+    text: "流放"
+- raw: "503,GangGroupBattleEndGangHearLips_Capture,关押到帮会地牢"
+  splits:
+  - split: 2
+    text: "关押到帮会地牢"
+- raw: "504,GangGroupMergeTip,{0}吞并了{1}"
+  splits:
+  - split: 2
+    text: "吞并了"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧"
+- raw: "505,GangGroupDependcyTip,{1}臣服于{0}"
+  splits:
+  - split: 2
+    text: "臣服于"
+  templates:
+  - split: 2
+    template: "⟦1⟧{0}⟦0⟧"
+- raw: "506,GangGroupDissolveTip,{0}已隐匿于江湖"
+  splits:
+  - split: 2
+    text: "已隐匿于江湖"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "507,GangShopWorkLips,打工。"
+  splits:
+  - split: 2
+    text: "打工。"
+- raw: "508,GangShopWorkLips_Partner,同伴打工。"
+  splits:
+  - split: 2
+    text: "同伴打工。"
+- raw: "509,GangShopWorkLips_PartnerSet,派出{0}"
+  splits:
+  - split: 2
+    text: "派出"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "510,GangShopWorkLips_PartnerCancel,召回{0}"
+  splits:
+  - split: 2
+    text: "召回"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "511,GangShopRobLips,把钱都拿出来({0})。"
+  splits:
+  - split: 2
+    text: "把钱都拿出来"
+  templates:
+  - split: 2
+    template: "{0}(⟦0⟧)。"
+- raw: "512,GangShopRobLips_1,抢劫"
+  splits:
+  - split: 2
+    text: "抢劫"
+- raw: "513,GangShopRobDialog_NoGang,帮主恕罪！小的有眼无珠，不识尊颜，但求帮主海量，饶过商行。今愿将近日所得，悉数献上，孝敬帮主。"
+  splits:
+  - split: 2
+    text: "帮主恕罪！小的有眼无珠，不识尊颜，但求帮主海量，饶过商行。今愿将近日所得，悉数献上，孝敬帮主。"
+- raw: "514,GangShopRobDialog_NoGang_NoMoney,帮主在上，小的已然绝境，实在无力供奉，恳望帮主大发恻隐，饶过这商行，留我全家性命。"
+  splits:
+  - split: 2
+    text: "帮主在上，小的已然绝境，实在无力供奉，恳望帮主大发恻隐，饶过这商行，留我全家性命。"
+- raw: "515,GangShopRobDialog_HasGang,此乃{0}的地盘！趁现在滚，还来得及！"
+  splits:
+  - split: 2
+    text: "此乃"
+  - split: 2
+    subIndex: 1
+    text: "的地盘！趁现在滚，还来得及！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "516,GangShopRobBattleDialog_Win,某甘拜下风……既如此，在下无话可说，只求高抬贵手放过我等一次……"
+  splits:
+  - split: 2
+    text: "某甘拜下风……既如此，在下无话可说，只求高抬贵手放过我等一次……"
+- raw: "517,GangShopRobBattleDialog_Lose,狂悖之徒，作恶多端，今日终落吾手！吾已雇武师擒汝，即刻押赴官府。狱中暗无天日，恰是汝反思罪孽之所，定要汝饱受牢狱之苦，方解吾恨！"
+  splits:
+  - split: 2
+    text: "狂悖之徒，作恶多端，今日终落吾手！吾已雇武师擒汝，即刻押赴官府。狱中暗无天日，恰是汝反思罪孽之所，定要汝饱受牢狱之苦，方解吾恨！"
+- raw: "518,GangShopRobImprisonLips,束手就擒"
+  splits:
+  - split: 2
+    text: "束手就擒"
+- raw: "519,GangShopPlayerWorkDialog,既有意来我商行谋事，不妨明言，此处有帮派照拂，运转顺畅。工作时间，短则半日，权当消遣；长至一年，可攒下不菲积蓄。期满结算工钱，侠士不妨一试。"
+  splits:
+  - split: 2
+    text: "既有意来我商行谋事，不妨明言，此处有帮派照拂，运转顺畅。工作时间，短则半日，权当消遣；长至一年，可攒下不菲积蓄。期满结算工钱，侠士不妨一试。"
+- raw: "520,GangShopPartnerWorkDialog,贵客临门，承蒙您带来这些人手，实解我商行燃眉之急！往后若需更换人手，提前知会一声便好，工钱每日结算，在下向来公道，您尽可放心。"
+  splits:
+  - split: 2
+    text: "贵客临门，承蒙您带来这些人手，实解我商行燃眉之急！往后若需更换人手，提前知会一声便好，工钱每日结算，在下向来公道，您尽可放心。"
+- raw: "521,GangShopPartnerWorkDialog_NoPartner,贵客临门！看您器宇不凡特有一事相求，不知阁下能否带来些人手，助我商行运转，以解燃眉之急。"
+  splits:
+  - split: 2
+    text: "贵客临门！看您器宇不凡特有一事相求，不知阁下能否带来些人手，助我商行运转，以解燃眉之急。"
+- raw: "522,GangShopPartnerWorkDialog_Worker,\"在此做工已久，渐入佳境，与众人相处也算融洽,可心中常念与你一同闯荡江湖之事……\""
+  splits:
+  - split: 2
+    text: "在此做工已久，渐入佳境，与众人相处也算融洽"
+  - split: 2
+    subIndex: 1
+    text: "可心中常念与你一同闯荡江湖之事……"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "523,WorkHalfDay,打半日工"
+  splits:
+  - split: 2
+    text: "打半日工"
+- raw: "524,WorkOneDay,打一日工"
+  splits:
+  - split: 2
+    text: "打一日工"
+- raw: "525,WorkTwoDay,打两日工"
+  splits:
+  - split: 2
+    text: "打两日工"
+- raw: "526,WorkFiveDay,打五日工"
+  splits:
+  - split: 2
+    text: "打五日工"
+- raw: "527,WorkOneMonth,打一月工"
+  splits:
+  - split: 2
+    text: "打一月工"
+- raw: "528,WorkTwoMonth,打两月工"
+  splits:
+  - split: 2
+    text: "打两月工"
+- raw: "529,WorkHalfYear,打半年工"
+  splits:
+  - split: 2
+    text: "打半年工"
+- raw: "530,WorkOneYear,打一年工"
+  splits:
+  - split: 2
+    text: "打一年工"
+- raw: "531,GangShopPlayerWorkResultDialog,君于商行，劳心劳力，功不可没，今付此酬，聊表谢忱。"
+  splits:
+  - split: 2
+    text: "君于商行，劳心劳力，功不可没，今付此酬，聊表谢忱。"
+- raw: "532,GangShopPlayerWorkResultTip,在{0}{1}，获得报酬{2}"
+  splits:
+  - split: 2
+    text: "在"
+  - split: 2
+    subIndex: 1
+    text: "，获得报酬"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧⟦1⟧{1}⟦2⟧"
+- raw: "533,GangShopPartnerWorkTip_Start,{0}开始留在{1}打工"
+  splits:
+  - split: 2
+    text: "开始留在"
+  - split: 2
+    subIndex: 1
+    text: "打工"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "534,GangShopPartnerWorkTip_End,{0}停止在{1}打工并回到队伍"
+  splits:
+  - split: 2
+    text: "停止在"
+  - split: 2
+    subIndex: 1
+    text: "打工并回到队伍"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}"
+- raw: "535,GangShopPartnerWorkResultTip,伙伴打工入账{0}"
+  splits:
+  - split: 2
+    text: "伙伴打工入账"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "536,GangShopPartnerWorkerExtraName,（正在打工中）"
+  splits:
+  - split: 2
+    text: "（正在打工中）"
+- raw: "537,GangChangeMainStationConfirm,是否确认迁移总舵到该驻地？需花费{0}帮派资金。"
+  splits:
+  - split: 2
+    text: "是否确认迁移总舵到该驻地？需花费"
+  - split: 2
+    subIndex: 1
+    text: "帮派资金。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "538,GangChangeMainStationTip_lowMoney,帮派资金不足"
+  splits:
+  - split: 2
+    text: "帮派资金不足"
+- raw: "539,GangChangeMainStationTip_alreadyMain,已经是总舵"
+  splits:
+  - split: 2
+    text: "已经是总舵"
+- raw: "540,GangChangeMainStationTip,成功完成总舵迁移"
+  splits:
+  - split: 2
+    text: "成功完成总舵迁移"
+- raw: "542,KillNpcSuccessTips,此人已然毙命，是时候回{0}里复命了……"
+  splits:
+  - split: 2
+    text: "此人已然毙命，是时候回"
+  - split: 2
+    subIndex: 1
+    text: "里复命了……"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "543,DefeatNpcSuccessTips,切磋过后，此人已然对你心服口服，是时候回{0}里复命了……"
+  splits:
+  - split: 2
+    text: "切磋过后，此人已然对你心服口服，是时候回"
+  - split: 2
+    subIndex: 1
+    text: "里复命了……"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "544,KidnapNpcSuccessTips,此人隐秘你已悉数知悉，是时候回{0}里复命了……"
+  splits:
+  - split: 2
+    text: "此人隐秘你已悉数知悉，是时候回"
+  - split: 2
+    subIndex: 1
+    text: "里复命了……"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "545,CollectItemSuccessTips,一应物事已然筹备妥当，是时候回{0}里复命了……"
+  splits:
+  - split: 2
+    text: "一应物事已然筹备妥当，是时候回"
+  - split: 2
+    subIndex: 1
+    text: "里复命了……"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "546,GivePresentNpcSuccessTips,已然处理妥当，是时候回{0}里复命了……"
+  splits:
+  - split: 2
+    text: "已然处理妥当，是时候回"
+  - split: 2
+    subIndex: 1
+    text: "里复命了……"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "548,GangStationDeacon,{0}执事"
+  splits:
+  - split: 2
+    text: "执事"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "549,GangStationManager,{0}总管"
+  splits:
+  - split: 2
+    text: "总管"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "550,GangStationAdviser,{0}师爷"
+  splits:
+  - split: 2
+    text: "师爷"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "551,GangStationDepotManager,{0}库房管事"
+  splits:
+  - split: 2
+    text: "库房管事"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "552,GangStationGuard,{0}护卫"
+  splits:
+  - split: 2
+    text: "护卫"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "555,Fixed,固定"
+  splits:
+  - split: 2
+    text: "固定"
+- raw: "556,Unfixed,解除固定"
+  splits:
+  - split: 2
+    text: "解除固定"
+- raw: "557,Lock,锁定"
+  splits:
+  - split: 2
+    text: "锁定"
+- raw: "558,Unlock,解锁"
+  splits:
+  - split: 2
+    text: "解锁"
+- raw: "561,AreaPrestige,区域声望"
+  splits:
+  - split: 2
+    text: "区域声望"
+- raw: "562,NotEnough,不足"
+  splits:
+  - split: 2
+    text: "不足"
+- raw: "563,AreaPrestigeLv0Tip,当前区域声望为:{0}，无法使用商店服务"
+  splits:
+  - split: 2
+    text: "当前区域声望为"
+  - split: 2
+    subIndex: 1
+    text: "，无法使用商店服务"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧{1}"
+- raw: "564,AreaPrestigeCond,区域声望要求:{0}"
+  splits:
+  - split: 2
+    text: "区域声望要求"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧"
+- raw: "565,NoBuyLimit,无购买限制"
+  splits:
+  - split: 2
+    text: "无购买限制"
+- raw: "567,TaskUsderDaoj,此物品仅能在[{0}]地图中使用"
+  splits:
+  - split: 2
+    text: "此物品仅能在"
+  - split: 2
+    subIndex: 1
+    text: "地图中使用"
+  templates:
+  - split: 2
+    template: "{0}[⟦0⟧]{1}"
+- raw: "570,PigeonMsg,飞鸽传书"
+  splits:
+  - split: 2
+    text: "飞鸽传书"
+- raw: "571,AlreadyRead,已读"
+  splits:
+  - split: 2
+    text: "已读"
+- raw: "572,Unread,未读"
+  splits:
+  - split: 2
+    text: "未读"
+- raw: "573,BatchDelete,批量删除"
+  splits:
+  - split: 2
+    text: "批量删除"
+- raw: "574,ConfirmDelete,确认删除"
+  splits:
+  - split: 2
+    text: "确认删除"
+- raw: "575,Cancel,取消"
+  splits:
+  - split: 2
+    text: "取消"
+- raw: "576,BatchDeleteTips,确认是否删除所勾选传书？"
+  splits:
+  - split: 2
+    text: "确认是否删除所勾选传书？"
+- raw: "577,Relation,关系"
+  splits:
+  - split: 2
+    text: "关系"
+- raw: "578,Love,好感度"
+  splits:
+  - split: 2
+    text: "好感度"
+- raw: "579,DeleteTips,确认是否删除此条传书？"
+  splits:
+  - split: 2
+    text: "确认是否删除此条传书？"
+- raw: "580,Delete,删除"
+  splits:
+  - split: 2
+    text: "删除"
+- raw: "581,GetTask,已领取任务"
+  splits:
+  - split: 2
+    text: "已领取任务"
+- raw: "582,Got,已领取"
+  splits:
+  - split: 2
+    text: "已领取"
+- raw: "585,EscortAgencyBoss,镖头"
+  splits:
+  - split: 2
+    text: "镖头"
+- raw: "586,PlayerRobEscortCartTalk,我是负责押运此趟镖车的镖师"
+  splits:
+  - split: 2
+    text: "我是负责押运此趟镖车的镖师"
+- raw: "587,PlayerRobEscortCartTalkOption0,劫镖"
+  splits:
+  - split: 2
+    text: "劫镖"
+- raw: "588,PlayerRobEscortCartTalkOption1,离开"
+  splits:
+  - split: 2
+    text: "离开"
+- raw: "589,HandleEscortNpcTalk,生死一念，是否要将诸镖师杀人灭口，以绝后患？"
+  splits:
+  - split: 2
+    text: "生死一念，是否要将诸镖师杀人灭口，以绝后患？"
+- raw: "590,HandleEscortNpcTalkOption0,杀人灭口"
+  splits:
+  - split: 2
+    text: "杀人灭口"
+- raw: "591,HandleEscortNpcTalkOption1,放其一马"
+  splits:
+  - split: 2
+    text: "放其一马"
+- raw: "592,AbandonKillEscortNpcTalk,多谢高手饶命"
+  splits:
+  - split: 2
+    text: "多谢高手饶命"
+- raw: "593,AbandonKillEscortNpcOption0,快滚吧"
+  splits:
+  - split: 2
+    text: "快滚吧"
+- raw: "594,GetEscortTaskTalk,行走江湖，仗艺傍身，何不押护镖车，赚些银两财物？"
+  splits:
+  - split: 2
+    text: "行走江湖，仗艺傍身，何不押护镖车，赚些银两财物？"
+- raw: "595,GetEscortTaskTalkOption0,接受护镖任务"
+  splits:
+  - split: 2
+    text: "接受护镖任务"
+- raw: "596,GetEscortTaskTalkOption1,离开"
+  splits:
+  - split: 2
+    text: "离开"
+- raw: "597,GetEscortTask,已接受护镖任务，开始自动跟随镖车……"
+  splits:
+  - split: 2
+    text: "已接受护镖任务，开始自动跟随镖车……"
+- raw: "598,GetEscortTaskFailed,{0}处镖路阻塞，可前往一探，或能打通……"
+  splits:
+  - split: 2
+    text: "处镖路阻塞，可前往一探，或能打通……"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "599,EscortCalPathFailed,镖车路线计算失败，已强制结束护镖任务"
+  splits:
+  - split: 2
+    text: "镖车路线计算失败，已强制结束护镖任务"
+- raw: "600,EscortTaskSuccess,千里押护，运镖成功！"
+  splits:
+  - split: 2
+    text: "千里押护，运镖成功！"
+- raw: "601,NpcRobCartTalk,镖车内物，乃我等所需，若阁下识相的话……早些闪开方是正途！ "
+  splits:
+  - split: 2
+    text: "镖车内物，乃我等所需，若阁下识相的话……早些闪开方是正途！"
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "602,NpcRobCartTalkOption0,进入战斗"
+  splits:
+  - split: 2
+    text: "进入战斗"
+- raw: "603,HandleRobNpcTalk,技不如人，要杀要剐……悉听尊便！"
+  splits:
+  - split: 2
+    text: "技不如人，要杀要剐……悉听尊便！"
+- raw: "604,HandleRobNpcTalkOption0,取其性命"
+  splits:
+  - split: 2
+    text: "取其性命"
+- raw: "605,HandleRobNpcTalkOption1,夺取包裹"
+  splits:
+  - split: 2
+    text: "夺取包裹"
+- raw: "606,HandleRobNpcTalkOption2,暂且离去"
+  splits:
+  - split: 2
+    text: "暂且离去"
+- raw: "608,Prestige,声望"
+  splits:
+  - split: 2
+    text: "声望"
+- raw: "609,DisableFlyTips,当前已禁用轻功"
+  splits:
+  - split: 2
+    text: "当前已禁用轻功"
+- raw: "610,DisableMeditationTips,当前已禁用打坐"
+  splits:
+  - split: 2
+    text: "当前已禁用打坐"
+- raw: "611,DisableSaveArchiveTips,当前已禁用存档"
+  splits:
+  - split: 2
+    text: "当前已禁用存档"
+- raw: "614,PlayerImprisonContent,您已被入狱收押，刑期共{0}日{1}时辰……"
+  splits:
+  - split: 2
+    text: "您已被入狱收押，刑期共"
+  - split: 2
+    subIndex: 1
+    text: "日"
+  - split: 2
+    subIndex: 2
+    text: "时辰……"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+- raw: "615,JumpToExecutionDay,跳至行刑日"
+  splits:
+  - split: 2
+    text: "跳至行刑日"
+- raw: "616,PlayerDeathPenaltyContent,罪大恶极，恕无可恕，你被判斩首之刑，{0}日后午时三刻，法场问斩！"
+  splits:
+  - split: 2
+    text: "罪大恶极，恕无可恕，你被判斩首之刑，"
+  - split: 2
+    subIndex: 1
+    text: "日后午时三刻，法场问斩！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "617,TakePlayerAllItemTips,你与同伴所有物品已被卸除，置于密室储物箱内，待刑期满时方可返还。"
+  splits:
+  - split: 2
+    text: "你与同伴所有物品已被卸除，置于密室储物箱内，待刑期满时方可返还。"
+- raw: "618,CellDoorTalk,阴暗牢房的铁门内，沾染着铁锈与血斑。"
+  splits:
+  - split: 2
+    text: "阴暗牢房的铁门内，沾染着铁锈与血斑。"
+- raw: "619,CellDoorTalkOption0,呼喊狱卒"
+  splits:
+  - split: 2
+    text: "呼喊狱卒"
+- raw: "620,CallPrisonGuardTips,狱卒{0}听到你的呼喊，正在朝你这里走来"
+  splits:
+  - split: 2
+    text: "狱卒"
+  - split: 2
+    subIndex: 1
+    text: "听到你的呼喊，正在朝你这里走来"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "621,CallPrisonGuardFailedTips,当前没有狱卒，呼喊失败"
+  splits:
+  - split: 2
+    text: "当前没有狱卒，呼喊失败"
+- raw: "622,CellDoorTalkOption1,解锁牢门(需要牢房钥匙)"
+  splits:
+  - split: 2
+    text: "解锁牢门"
+  - split: 2
+    subIndex: 1
+    text: "需要牢房钥匙"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "623,ExitCellTips,您已越狱，周遭狱卒已与您进入敌对状态。"
+  splits:
+  - split: 2
+    text: "您已越狱，周遭狱卒已与您进入敌对状态。"
+- raw: "624,ExitCelFailedTips,狱卒正在前来，此刻勿要轻举妄动…"
+  splits:
+  - split: 2
+    text: "狱卒正在前来，此刻勿要轻举妄动…"
+- raw: "625,PrisonGuardTalk,入得此间，俱都警醒着点儿！犯在我等手里，还想有翻身之日么！"
+  splits:
+  - split: 2
+    text: "入得此间，俱都警醒着点儿！犯在我等手里，还想有翻身之日么！"
+- raw: "626,PrisonGuardTalkOption0,贿购牢房钥匙(需要{0})"
+  splits:
+  - split: 2
+    text: "贿购牢房钥匙"
+  - split: 2
+    subIndex: 1
+    text: "需要"
+  templates:
+  - split: 2
+    template: "{0}({1}⟦0⟧)"
+- raw: "627,BuyPrisonKeyTips,已获取牢房钥匙。"
+  splits:
+  - split: 2
+    text: "已获取牢房钥匙。"
+- raw: "628,BuyPrisonKeyTalk,如此..你拿了钥匙，便觅机逃狱去，若有万一，莫将老子供了出来..."
+  splits:
+  - split: 2
+    text: "如此..你拿了钥匙，便觅机逃狱去，若有万一，莫将老子供了出来..."
+- raw: "629,PrisonGuardTalkOption1,购买密室储物箱内的物品(需要{0})"
+  splits:
+  - split: 2
+    text: "购买密室储物箱内的物品"
+  - split: 2
+    subIndex: 1
+    text: "需要"
+  templates:
+  - split: 2
+    template: "{0}({1}⟦0⟧)"
+- raw: "630,BuyPrisonBoxItemTips,已获得密室储物箱内所有物品。"
+  splits:
+  - split: 2
+    text: "已获得密室储物箱内所有物品。"
+- raw: "631,PrisonGuardTalkOption2,传递消息(贿赂)"
+  splits:
+  - split: 2
+    text: "传递消息"
+  - split: 2
+    subIndex: 1
+    text: "贿赂"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "632,PrisonGuardTalkOption3,传递消息(劫狱)"
+  splits:
+  - split: 2
+    text: "传递消息"
+  - split: 2
+    subIndex: 1
+    text: "劫狱"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "633,PrisonGuardCatchTalk,大胆狂徒，竟妄图越狱，若不束手就缚，这便送你去见阎王!"
+  splits:
+  - split: 2
+    text: "大胆狂徒，竟妄图越狱，若不束手就缚，这便送你去见阎王"
+  templates:
+  - split: 2
+    template: "{0}!"
+- raw: "634,PrisonGuardCatchTalkOption0,事已至此，放手一搏！"
+  splits:
+  - split: 2
+    text: "事已至此，放手一搏！"
+- raw: "635,CellDoorOutsideTalk,阴暗牢房的铁门外，沾染着铁锈与血斑。"
+  splits:
+  - split: 2
+    text: "阴暗牢房的铁门外，沾染着铁锈与血斑。"
+- raw: "636,CellDoorOutsideTalkOption0,撬解牢门。"
+  splits:
+  - split: 2
+    text: "撬解牢门。"
+- raw: "637,DestroyCellDoorLockTips,已将{0}成功救出，其已加入同伴队伍。"
+  splits:
+  - split: 2
+    text: "已将"
+  - split: 2
+    subIndex: 1
+    text: "成功救出，其已加入同伴队伍。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "638,UnOpen,暂未开放"
+  splits:
+  - split: 2
+    text: "暂未开放"
+- raw: "639,ReleasePlayerContent,刑期已满，重复自由，你与同伴被收之物已返还，入狱同伴已归队。"
+  splits:
+  - split: 2
+    text: "刑期已满，重复自由，你与同伴被收之物已返还，入狱同伴已归队。"
+- raw: "640,LastMealTalk,午时已到，人犯验明，当押至刑场问斩！待阁下吃了这碗断头饭，冤恨两清，且上黄泉路！"
+  splits:
+  - split: 2
+    text: "午时已到，人犯验明，当押至刑场问斩！待阁下吃了这碗断头饭，冤恨两清，且上黄泉路！"
+- raw: "641,LastMealOption0,生死而已，如何可怖？且去而已！"
+  splits:
+  - split: 2
+    text: "生死而已，如何可怖？且去而已！"
+- raw: "642,MoveToExecutionGroundTips,正被押往当地法场……"
+  splits:
+  - split: 2
+    text: "正被押往当地法场……"
+- raw: "643,BeforeExecutionTalk,犯人已验明正身！此人罪大恶极，按律当诛！午时三刻已到，斩！"
+  splits:
+  - split: 2
+    text: "犯人已验明正身！此人罪大恶极，按律当诛！午时三刻已到，斩！"
+- raw: "644,BeforeExecutionTalkOption0,奋起一搏"
+  splits:
+  - split: 2
+    text: "奋起一搏"
+- raw: "645,BeforeExecutionTalkOption1,认命待死"
+  splits:
+  - split: 2
+    text: "认命待死"
+- raw: "646,GiveWeaponToPlayerTips,你已装备{0}，放手一搏！"
+  splits:
+  - split: 2
+    text: "你已装备"
+  - split: 2
+    subIndex: 1
+    text: "，放手一搏！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "647,ExecutionBattleWinTips,战斗胜利，逃得升天！"
+  splits:
+  - split: 2
+    text: "战斗胜利，逃得升天！"
+- raw: "648,BeforeExecutionNpcBreakTalk,我来助你！拿上兵刃，我等一起杀出去！"
+  splits:
+  - split: 2
+    text: "我来助你！拿上兵刃，我等一起杀出去！"
+- raw: "649,BeforeExecutionNpcBreakOption0,接过兵刃！"
+  splits:
+  - split: 2
+    text: "接过兵刃！"
+- raw: "650,AfterExecutionTalk,你平生知交好友甚少，如今逢此难竟无人相助，寒芒闪烁，你只觉冽风扑面，过往前尘诸事转瞬成空……"
+  splits:
+  - split: 2
+    text: "你平生知交好友甚少，如今逢此难竟无人相助，寒芒闪烁，你只觉冽风扑面，过往前尘诸事转瞬成空……"
+- raw: "651,AfterExecutionTalkOption0,重新来过"
+  splits:
+  - split: 2
+    text: "重新来过"
+- raw: "652,AfterExecutionTalk1,莫要丧志，我们一同杀出去，生死同归！"
+  splits:
+  - split: 2
+    text: "莫要丧志，我们一同杀出去，生死同归！"
+- raw: "653,AfterExecutionTalkOption1,接过兵刃！"
+  splits:
+  - split: 2
+    text: "接过兵刃！"
+- raw: "655,RemainPrisonTerm,剩余关押时间:<color=#CEB44A>{0}</color>日<color=#CEB44A>{1}</color>时辰"
+  splits:
+  - split: 2
+    text: "剩余关押时间"
+  - split: 2
+    subIndex: 1
+    text: "日"
+  - split: 2
+    subIndex: 2
+    text: "时辰"
+  templates:
+  - split: 2
+    template: "{0}:<color=#CEB44A>⟦0⟧</color>{1}<color=#CEB44A>⟦1⟧</color>{2}"
+- raw: "656,OneKeyTakeOut,一键取出"
+  splits:
+  - split: 2
+    text: "一键取出"
+- raw: "658,NpcImprisonPigeonMsgTitle,囹圄求援"
+  splits:
+  - split: 2
+    text: "囹圄求援"
+- raw: "659,NpcImprisonPigeonMsgContent,在下事发，被差役抓入{0}，直至{1}方可出狱，若有事相商，可待在下出狱后相会。"
+  splits:
+  - split: 2
+    text: "在下事发，被差役抓入"
+  - split: 2
+    subIndex: 1
+    text: "，直至"
+  - split: 2
+    subIndex: 2
+    text: "方可出狱，若有事相商，可待在下出狱后相会。"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+- raw: "661,NpcExecuteDeathPenaltyPigeonMsgTitle,囹圄求援"
+  splits:
+  - split: 2
+    text: "囹圄求援"
+- raw: "662,NpcExecuteDeathPenaltyPigeonMsgContent,依刑典所判，我恐于{0}午时在{1}法场被斩首示众！特贿赂差役传讯于你，望看在往日情分上速来相救！"
+  splits:
+  - split: 2
+    text: "依刑典所判，我恐于"
+  - split: 2
+    subIndex: 1
+    text: "午时在"
+  - split: 2
+    subIndex: 2
+    text: "法场被斩首示众！特贿赂差役传讯于你，望看在往日情分上速来相救！"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+- raw: "664,PlayerBreakExecutionTalk,你果真收到讯息！此来可是要救我逃此斩首之刑？"
+  splits:
+  - split: 2
+    text: "你果真收到讯息！此来可是要救我逃此斩首之刑？"
+- raw: "665,PlayerBreakExecutionTalkOption0,出手相助，理当如此！"
+  splits:
+  - split: 2
+    text: "出手相助，理当如此！"
+- raw: "666,PlayerBreakExecutionTalkOption1,国法不容……只怕爱莫能助……"
+  splits:
+  - split: 2
+    text: "国法不容……只怕爱莫能助……"
+- raw: "668,PlayerBreakExecutionGiveWeaponTalk,予我把兵刃！你我联手杀出去！"
+  splits:
+  - split: 2
+    text: "予我把兵刃！你我联手杀出去！"
+- raw: "669,PlayerBreakExecutionGiveWeaponTalkOption0,正该如此！"
+  splits:
+  - split: 2
+    text: "正该如此！"
+- raw: "670,PlayerBreakExecutionGiveWeaponTalkOption1,手中并无余物，你且空手抵御一二……"
+  splits:
+  - split: 2
+    text: "手中并无余物，你且空手抵御一二……"
+- raw: "671,GiveWeaponToNpcTips,当真好兵刃，你我今日放手一搏！"
+  splits:
+  - split: 2
+    text: "当真好兵刃，你我今日放手一搏！"
+- raw: "672,breakExecutionFailedContent,劫法场失败，触犯国法，被捕入狱……"
+  splits:
+  - split: 2
+    text: "劫法场失败，触犯国法，被捕入狱……"
+- raw: "674,StoreNpcExitTeamTipsOnImprison,{0}已于入狱前先一步逃脱抓捕"
+  splits:
+  - split: 2
+    text: "已于入狱前先一步逃脱抓捕"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "677,CaptorsName,【捕快】"
+  splits:
+  - split: 2
+    text: "【捕快】"
+- raw: "678,ArrestTipWinTitle,缉捕值"
+  splits:
+  - split: 2
+    text: "缉捕值"
+- raw: "679,ArrestTipWinDesc,当行凶作恶且周围一定范围内有人发现时可能会向官府举报你，从而增加你的缉捕值，达到一定缉捕值后捕快将会追捕你。"
+  splits:
+  - split: 2
+    text: "当行凶作恶且周围一定范围内有人发现时可能会向官府举报你，从而增加你的缉捕值，达到一定缉捕值后捕快将会追捕你。"
+- raw: "680,ArrestTips,您已被官府海捕通缉，请小心行事。"
+  splits:
+  - split: 2
+    text: "您已被官府海捕通缉，请小心行事。"
+- raw: "681,ExitTeamTipsTxt,{0}离开队伍"
+  splits:
+  - split: 2
+    text: "离开队伍"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "682,AddArrestTipTxt1,你之恶行被周遭{0}所窥，已向官府告发，缉捕值+{1}"
+  splits:
+  - split: 2
+    text: "你之恶行被周遭"
+  - split: 2
+    subIndex: 1
+    text: "所窥，已向官府告发，缉捕值"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}+⟦1⟧"
+- raw: "683,AddArrestTipTxt2,隔墙有耳，你之恶行被周遭行人所窥，已向官府告发，缉捕值+{0}"
+  splits:
+  - split: 2
+    text: "隔墙有耳，你之恶行被周遭行人所窥，已向官府告发，缉捕值"
+  templates:
+  - split: 2
+    template: "{0}+⟦0⟧"
+- raw: "684,MinusArrestTipTxt,缉捕值-{0}"
+  splits:
+  - split: 2
+    text: "缉捕值"
+  templates:
+  - split: 2
+    template: "{0}-⟦0⟧"
+- raw: "685,NoAddArrestTipTxt1,月黑风高，你趁夜色行事，周遭无人察觉。"
+  splits:
+  - split: 2
+    text: "月黑风高，你趁夜色行事，周遭无人察觉。"
+- raw: "686,NoAddArrestTipTxt2,你于僻静之处行事，周遭无人察觉。"
+  splits:
+  - split: 2
+    text: "你于僻静之处行事，周遭无人察觉。"
+- raw: "687,ArrestByZeroTipTxt,财可通神，狱能抵罪，现通缉既消，日后行事，恐需慎之又慎"
+  splits:
+  - split: 2
+    text: "财可通神，狱能抵罪，现通缉既消，日后行事，恐需慎之又慎"
+- raw: "688,UpdateArrestNumTipTxt,当前缉捕值较低，使用会导致此物品消耗，浪费部分功用，是否确认使用？"
+  splits:
+  - split: 2
+    text: "当前缉捕值较低，使用会导致此物品消耗，浪费部分功用，是否确认使用？"
+- raw: "691,SkinEquipOnUpTips,时装性别不符"
+  splits:
+  - split: 2
+    text: "时装性别不符"
+- raw: "694,XiaoHaoSC_1,一"
+  splits:
+  - split: 2
+    text: "一"
+- raw: "695,XiaoHaoSC_2,二"
+  splits:
+  - split: 2
+    text: "二"
+- raw: "696,XiaoHaoSC_3,三"
+  splits:
+  - split: 2
+    text: "三"
+- raw: "697,XiaoHaoSC_4,四"
+  splits:
+  - split: 2
+    text: "四"
+- raw: "698,XiaoHaoSC_5,五"
+  splits:
+  - split: 2
+    text: "五"
+- raw: "699,XiaoHaoSC_6,六"
+  splits:
+  - split: 2
+    text: "六"
+- raw: "700,XiaoHaoSC_7,七"
+  splits:
+  - split: 2
+    text: "七"
+- raw: "701,XiaoHaoSC_8,八"
+  splits:
+  - split: 2
+    text: "八"
+- raw: "702,XiaoHaoSC_9,九"
+  splits:
+  - split: 2
+    text: "九"
+- raw: "703,XiaoHaoSC_10,十"
+  splits:
+  - split: 2
+    text: "十"
+- raw: "704,XiaoHaoSC_11,十一"
+  splits:
+  - split: 2
+    text: "十一"
+- raw: "705,XiaoHaoSC_12,十二"
+  splits:
+  - split: 2
+    text: "十二"
+- raw: "706,XiaoHaoSCX_1,数日后....."
+  splits:
+  - split: 2
+    text: "数日后....."
+- raw: "707,XiaoHaoSCX_2,{0}时辰后....."
+  splits:
+  - split: 2
+    text: "时辰后....."
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "708,XiaoHaoSCX_3,一日后....."
+  splits:
+  - split: 2
+    text: "一日后....."
+- raw: "709,XiaoHaoSCX_4,两日后....."
+  splits:
+  - split: 2
+    text: "两日后....."
+- raw: "712,ZZRefreshTipsTxt,目前某个资质为天才，是否要刷新   "
+  splits:
+  - split: 2
+    text: "目前某个资质为天才，是否要刷新"
+  templates:
+  - split: 2
+    template: "{0}   "
+- raw: "715,NeedCost,所需{0}:"
+  splits:
+  - split: 2
+    text: "所需"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧:"
+- raw: "716,MyCost,我的{0}:"
+  splits:
+  - split: 2
+    text: "我的"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧:"
+- raw: "717,PurchaseLimit,限购"
+  splits:
+  - split: 2
+    text: "限购"
+- raw: "718,ShopHelper,商店物品会在指定时辰补货，【限购】商品永远不会补货。"
+  splits:
+  - split: 2
+    text: "商店物品会在指定时辰补货，【限购】商品永远不会补货。"
+- raw: "719,Shop_SectCond,需加入门派：{0}"
+  splits:
+  - split: 2
+    text: "需加入门派"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "720,Shop_SectLimit,未加入本门派无法购买"
+  splits:
+  - split: 2
+    text: "未加入本门派无法购买"
+- raw: "723,BrothelRoomName,青楼雅阁"
+  splits:
+  - split: 2
+    text: "青楼雅阁"
+- raw: "724,BrothelNpcName,【{0}】"
+- raw: "725,EnterBrothelRoom,欲赴雅阁，需先行前往老鸨处购得凭证"
+  splits:
+  - split: 2
+    text: "欲赴雅阁，需先行前往老鸨处购得凭证"
+- raw: "726,BuyEnterBrothelRoom,姑娘正于雅阁静候，且莫于此反复，误了良辰好景"
+  splits:
+  - split: 2
+    text: "姑娘正于雅阁静候，且莫于此反复，误了良辰好景"
+- raw: "727,BathTipContentTxt,至此盥洗，擦背拂尘，你感到疲惫之感一扫而空"
+  splits:
+  - split: 2
+    text: "至此盥洗，擦背拂尘，你感到疲惫之感一扫而空"
+- raw: "730,BattleCameraEffect,战斗镜头震动和模糊:"
+  splits:
+  - split: 2
+    text: "战斗镜头震动和模糊"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "731,UnsupportedInputKeycode,此按键无法设置为快捷按键"
+  splits:
+  - split: 2
+    text: "此按键无法设置为快捷按键"
+- raw: "732,UnsupportedInputKeycode_Keypad,暂未支持将小键盘设置为快捷按键:{0}"
+  splits:
+  - split: 2
+    text: "暂未支持将小键盘设置为快捷按键"
+  templates:
+  - split: 2
+    template: "{0}:⟦0⟧"
+- raw: "733,SettingNew,无法将快捷键设置为方向键"
+  splits:
+  - split: 2
+    text: "无法将快捷键设置为方向键"
+- raw: "736,NextStep,下一步"
+  splits:
+  - split: 2
+    text: "下一步"
+- raw: "737,NotInstalled,此功能未实装"
+  splits:
+  - split: 2
+    text: "此功能未实装"
+- raw: "738,SelectGameLv,选择难度"
+  splits:
+  - split: 2
+    text: "选择难度"
+- raw: "739,EnterGame,进入游戏"
+  splits:
+  - split: 2
+    text: "进入游戏"
+- raw: "740,GameLv-1,普通"
+  splits:
+  - split: 2
+    text: "普通"
+- raw: "741,GameLv0,困难"
+  splits:
+  - split: 2
+    text: "困难"
+- raw: "742,GameLv1,极难"
+  splits:
+  - split: 2
+    text: "极难"
+- raw: "743,GameLv2,江湖路"
+  splits:
+  - split: 2
+    text: "江湖路"
+- raw: "745,GameLv-1_Desc1,轻松战斗，方便快速体验剧情。"
+  splits:
+  - split: 2
+    text: "轻松战斗，方便快速体验剧情。"
+- raw: "746,GameLv-1_Desc2,\"玩家有部分免伤,玩家受击硬直时也可进行攻击且附带短暂霸体,玩家可随时闪避（包括角色受击硬直时）,同时最多2个NPC攻击玩家,敌方普通攻击前摇时有红点提示\""
+  splits:
+  - split: 2
+    text: "玩家有部分免伤"
+  - split: 2
+    subIndex: 1
+    text: "玩家受击硬直时也可进行攻击且附带短暂霸体"
+  - split: 2
+    subIndex: 2
+    text: "玩家可随时闪避（包括角色受击硬直时）"
+  - split: 2
+    subIndex: 3
+    text: "同时最多2个"
+  - split: 2
+    subIndex: 4
+    text: "攻击玩家"
+  - split: 2
+    subIndex: 5
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - split: 2
+    template: "{0},{1},{2},{3}NPC{4},{5}"
+- raw: "748,GameLv0_Desc1,困难战斗，在难度上略有一些挑战。"
+  splits:
+  - split: 2
+    text: "困难战斗，在难度上略有一些挑战。"
+- raw: "749,GameLv0_Desc2,\"玩家有少量免伤,<color=#FF0000>玩家受击硬直时无法攻击</color>,玩家可随时闪避（包括角色受击硬直时）,NPC略微增加格挡弹反和闪避的几率,同时最多3个NPC攻击玩家,敌方普通攻击前摇时有红点提示\""
+  splits:
+  - split: 2
+    text: "玩家有少量免伤"
+  - split: 2
+    subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - split: 2
+    subIndex: 2
+    text: "玩家可随时闪避（包括角色受击硬直时）"
+  - split: 2
+    subIndex: 3
+    text: "略微增加格挡弹反和闪避的几率"
+  - split: 2
+    subIndex: 4
+    text: "同时最多3个"
+  - split: 2
+    subIndex: 5
+    text: "攻击玩家"
+  - split: 2
+    subIndex: 6
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - split: 2
+    template: "{0},<color=#FF0000>{1}</color>,{2},NPC{3},{4}NPC{5},{6}"
+- raw: "751,GameLv1_Desc1,极难战斗，在难度上有较大的挑战。"
+  splits:
+  - split: 2
+    text: "极难战斗，在难度上有较大的挑战。"
+- raw: "752,GameLv1_Desc2,\"<color=#FF0000>玩家无免伤</color>,<color=#FF0000>玩家受击硬直时无法攻击</color>,玩家可随时闪避(包括角色受击硬直时),NPC少量增加格挡弹反和闪避的几率,同时最多4个NPC攻击玩家,敌方普通攻击前摇时有红点提示\""
+  splits:
+  - split: 2
+    text: "玩家无免伤"
+  - split: 2
+    subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - split: 2
+    subIndex: 2
+    text: "玩家可随时闪避"
+  - split: 2
+    subIndex: 3
+    text: "包括角色受击硬直时"
+  - split: 2
+    subIndex: 4
+    text: "少量增加格挡弹反和闪避的几率"
+  - split: 2
+    subIndex: 5
+    text: "同时最多4个"
+  - split: 2
+    subIndex: 6
+    text: "攻击玩家"
+  - split: 2
+    subIndex: 7
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - split: 2
+    template: "<color=#FF0000>{0}</color>,<color=#FF0000>{1}</color>,{2}({3}),NPC{4},{5}NPC{6},{7}"
+- raw: "754,GameLv2_Desc1,非常困难的战斗，在难度上有巨大的挑战。"
+  splits:
+  - split: 2
+    text: "非常困难的战斗，在难度上有巨大的挑战。"
+- raw: "755,GameLv2_Desc2,\"<color=#FF0000>玩家无免伤</color>,<color=#FF0000>玩家受击硬直时无法攻击</color>,<color=#FF0000>玩家受击硬直时如无真气，则无法释放闪避；如有真气可额外消耗1点真气，释放闪避动作</color>,<color=#FF0000>NPC大量提升格挡弹反与闪避的几率</color>,同时最多5个NPC攻击玩家,<color=#FF0000>敌方普通攻击前摇时没有红点提示</color>\""
+  splits:
+  - split: 2
+    text: "玩家无免伤"
+  - split: 2
+    subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - split: 2
+    subIndex: 2
+    text: "玩家受击硬直时如无真气，则无法释放闪避；如有真气可额外消耗1点真气，释放闪避动作"
+  - split: 2
+    subIndex: 3
+    text: "大量提升格挡弹反与闪避的几率"
+  - split: 2
+    subIndex: 4
+    text: "同时最多5个"
+  - split: 2
+    subIndex: 5
+    text: "攻击玩家"
+  - split: 2
+    subIndex: 6
+    text: "敌方普通攻击前摇时没有红点提示"
+  templates:
+  - split: 2
+    template: "<color=#FF0000>{0}</color>,<color=#FF0000>{1}</color>,<color=#FF0000>{2}</color>,<color=#FF0000>NPC{3}</color>,{4}NPC{5},<color=#FF0000>{6}</color>"
+- raw: "758,BreakOut,爆气"
+  splits:
+  - split: 2
+    text: "爆气"
+- raw: "761,Task_Tip_1,任务追踪的数量已达上限"
+  splits:
+  - split: 2
+    text: "任务追踪的数量已达上限"
+- raw: "762,Task_Tip_2,目标在其他地图"
+  splits:
+  - split: 2
+    text: "目标在其他地图"
+- raw: "765,SkipGuide,跳过引导"
+  splits:
+  - split: 2
+    text: "跳过引导"
+- raw: "766,EnterGuide,进入引导"
+  splits:
+  - split: 2
+    text: "进入引导"
+- raw: "767,Next,下一条"
+  splits:
+  - split: 2
+    text: "下一条"
+- raw: "768,Prev,上一条"
+  splits:
+  - split: 2
+    text: "上一条"
+- raw: "769,SandBoxBattleGuide,是否进行战斗教学？"
+  splits:
+  - split: 2
+    text: "是否进行战斗教学？"
+- raw: "770,SandBoxBattleGuide_Go,去战斗"
+  splits:
+  - split: 2
+    text: "去战斗"
+- raw: "771,SandBoxBattleGuide_NoGo,早已掌握"
+  splits:
+  - split: 2
+    text: "早已掌握"
+- raw: "773,PlayerInfoPanel,角色信息面板"
+  splits:
+  - split: 2
+    text: "角色信息面板"
+- raw: "774,Move,移动"
+  splits:
+  - split: 2
+    text: "移动"
+- raw: "775,Jump,跳跃"
+  splits:
+  - split: 2
+    text: "跳跃"
+- raw: "776,NormalAttack,轻重击"
+  splits:
+  - split: 2
+    text: "轻重击"
+- raw: "777,JumpAttack,跳击"
+  splits:
+  - split: 2
+    text: "跳击"
+- raw: "778,Block,格挡"
+  splits:
+  - split: 2
+    text: "格挡"
+- raw: "779,Rebound,弹反"
+  splits:
+  - split: 2
+    text: "弹反"
+- raw: "780,JumpBack,闪避"
+  splits:
+  - split: 2
+    text: "闪避"
+- raw: "781,ItemSlots,使用道具"
+  splits:
+  - split: 2
+    text: "使用道具"
+- raw: "782,SkillSlots,技能栏"
+  splits:
+  - split: 2
+    text: "技能栏"
+- raw: "784,PlayerInfoPanelDesc1,气血值：表示角色的生命值，当气血值清零时，角色死亡。|体力：表示角色的体力值，使用特殊动作，会消耗体力。"
+  splits:
+  - split: 2
+    text: "气血值"
+  - split: 2
+    subIndex: 1
+    text: "表示角色的生命值，当气血值清零时，角色死亡。"
+  - split: 2
+    subIndex: 2
+    text: "体力"
+  - split: 2
+    subIndex: 3
+    text: "表示角色的体力值，使用特殊动作，会消耗体力。"
+  templates:
+  - split: 2
+    template: "{0}：{1}|{2}：{3}"
+- raw: "785,PlayerInfoPanelDesc2,内劲：表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。|真气点：表示角色的真气点，消耗真气点释放技能。"
+  splits:
+  - split: 2
+    text: "内劲"
+  - split: 2
+    subIndex: 1
+    text: "表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。"
+  - split: 2
+    subIndex: 2
+    text: "真气点"
+  - split: 2
+    subIndex: 3
+    text: "表示角色的真气点，消耗真气点释放技能。"
+  templates:
+  - split: 2
+    template: "{0}：{1}|{2}：{3}"
+- raw: "786,MoveDesc,(使用方向键，控制角色移动。)"
+  splits:
+  - split: 2
+    text: "使用方向键，控制角色移动。"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "787,JumpDesc,(使用跳跃键，控制角色在场景中跳跃。|在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。)"
+  splits:
+  - split: 2
+    text: "使用跳跃键，控制角色在场景中跳跃。"
+  - split: 2
+    subIndex: 1
+    text: "在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。"
+  templates:
+  - split: 2
+    template: "({0}|{1})"
+- raw: "788,NormalAttackDesc,(使用轻击键，控制角色进行一次普通攻击。|使用重击键，角色将消耗一定体力，并进行一次强力攻击)"
+  splits:
+  - split: 2
+    text: "使用轻击键，控制角色进行一次普通攻击。"
+  - split: 2
+    subIndex: 1
+    text: "使用重击键，角色将消耗一定体力，并进行一次强力攻击"
+  templates:
+  - split: 2
+    template: "({0}|{1})"
+- raw: "789,JumpAttackDesc,\"(在跳跃过程中，按下轻击键,控制角色进行跳跃攻击。)\""
+  splits:
+  - split: 2
+    text: "在跳跃过程中，按下轻击键"
+  - split: 2
+    subIndex: 1
+    text: "控制角色进行跳跃攻击。"
+  templates:
+  - split: 2
+    template: "({0},{1})"
+- raw: "790,BlockDesc,(按住格挡键，角色将持续消耗体力，进入格挡状态。)"
+  splits:
+  - split: 2
+    text: "按住格挡键，角色将持续消耗体力，进入格挡状态。"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "791,ReboundDesc,(在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。)"
+  splits:
+  - split: 2
+    text: "在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "792,JumpBackDesc1,\"同时按下左/右移动键+闪避键，消耗部分体力进行\"\"前闪避\"\"操作，可控制角色朝向左/右移动一定距离，规避伤害。\""
+  splits:
+  - split: 2
+    text: "同时按下左"
+  - split: 2
+    subIndex: 1
+    text: "右移动键"
+  - split: 2
+    subIndex: 2
+    text: "闪避键，消耗部分体力进行"
+  - split: 2
+    subIndex: 3
+    text: "前闪避"
+  - split: 2
+    subIndex: 4
+    text: "操作，可控制角色朝向左"
+  - split: 2
+    subIndex: 5
+    text: "右移动一定距离，规避伤害。"
+  templates:
+  - split: 2
+    template: "{0}/{1}+{2}\"{3}\"{4}/{5}"
+- raw: "793,JumpBackDesc2,\"直接按下闪避键，消耗部分体力进行\"\"后闪避\"\"操作，可控制角色后退一定距离，规避伤害。\""
+  splits:
+  - split: 2
+    text: "直接按下闪避键，消耗部分体力进行"
+  - split: 2
+    subIndex: 1
+    text: "后闪避"
+  - split: 2
+    subIndex: 2
+    text: "操作，可控制角色后退一定距离，规避伤害。"
+  templates:
+  - split: 2
+    template: "{0}\"{1}\"{2}"
+- raw: "794,ItemSlotsDesc,(按下使用道具键，可在战斗中使用道具。)"
+  splits:
+  - split: 2
+    text: "按下使用道具键，可在战斗中使用道具。"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "795,SkillSlotsDesc1,(武学秘籍：修习武学秘籍后，可通过消耗真气点释放技能。)|(江湖通式：修习江湖通式后，可通过消耗体力释放技能。)"
+  splits:
+  - split: 2
+    text: "武学秘籍"
+  - split: 2
+    subIndex: 1
+    text: "修习武学秘籍后，可通过消耗真气点释放技能。"
+  - split: 2
+    subIndex: 2
+    text: "江湖通式"
+  - split: 2
+    subIndex: 3
+    text: "修习江湖通式后，可通过消耗体力释放技能。"
+  templates:
+  - split: 2
+    template: "({0}：{1})|({2}：{3})"
+- raw: "796,SkillSlotsDesc2,(爆气：使用爆气技能可迅速脱离受控状态。)|(内功：修习内功秘籍后，可在战斗中释放内功技能。)|(轻功：修习轻功秘籍后，可在战斗中释放轻功技能。)"
+  splits:
+  - split: 2
+    text: "爆气"
+  - split: 2
+    subIndex: 1
+    text: "使用爆气技能可迅速脱离受控状态。"
+  - split: 2
+    subIndex: 2
+    text: "内功"
+  - split: 2
+    subIndex: 3
+    text: "修习内功秘籍后，可在战斗中释放内功技能。"
+  - split: 2
+    subIndex: 4
+    text: "轻功"
+  - split: 2
+    subIndex: 5
+    text: "修习轻功秘籍后，可在战斗中释放轻功技能。"
+  templates:
+  - split: 2
+    template: "({0}：{1})|({2}：{3})|({4}：{5})"
+- raw: "799,BlockWarn,(注意：角色使用远程武器时，无法使用格挡。)"
+  splits:
+  - split: 2
+    text: "注意"
+  - split: 2
+    subIndex: 1
+    text: "角色使用远程武器时，无法使用格挡。"
+  templates:
+  - split: 2
+    template: "({0}：{1})"
+- raw: "800,ReboundWarn,(注意：角色使用远程武器时，无法使用弹反。)"
+  splits:
+  - split: 2
+    text: "注意"
+  - split: 2
+    subIndex: 1
+    text: "角色使用远程武器时，无法使用弹反。"
+  templates:
+  - split: 2
+    template: "({0}：{1})"
+- raw: "801,ItemSlotsWarn,(注意：需在行囊中装备药品，才可在战斗中使用道具。)"
+  splits:
+  - split: 2
+    text: "注意"
+  - split: 2
+    subIndex: 1
+    text: "需在行囊中装备药品，才可在战斗中使用道具。"
+  templates:
+  - split: 2
+    template: "({0}：{1})"
+- raw: "802,SkillSlotsWarn,(注意：需在武学界面中装备武学，才可在战斗中使用对应技能。)"
+  splits:
+  - split: 2
+    text: "注意"
+  - split: 2
+    subIndex: 1
+    text: "需在武学界面中装备武学，才可在战斗中使用对应技能。"
+  templates:
+  - split: 2
+    template: "({0}：{1})"
+- raw: "804,GuideTask,指引任务"
+  splits:
+  - split: 2
+    text: "指引任务"
+- raw: "805,GuideTaskFinish,任务完成"
+  splits:
+  - split: 2
+    text: "任务完成"
+- raw: "807,GuideTask_PlayerInfoPanel,了解角色信息面板"
+  splits:
+  - split: 2
+    text: "了解角色信息面板"
+- raw: "808,GuideTask_Move,完成移动指令"
+  splits:
+  - split: 2
+    text: "完成移动指令"
+- raw: "809,GuideTask_MissDamage,躲避伤害"
+  splits:
+  - split: 2
+    text: "躲避伤害"
+- raw: "810,GuideTask_ItemSlotsAndSkillSlots,使用道具、技能栏介绍"
+  splits:
+  - split: 2
+    text: "使用道具、技能栏介绍"
+- raw: "811,GuideTask_BeatEnemy,击败杜颜白"
+  splits:
+  - split: 2
+    text: "击败杜颜白"
+- raw: "813,GuideTaskTracker_MoveUp,进行一次向上移动操作{0}/1"
+  splits:
+  - split: 2
+    text: "进行一次向上移动操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "814,GuideTaskTracker_MoveDown,进行一次向下移动操作{0}/1"
+  splits:
+  - split: 2
+    text: "进行一次向下移动操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "815,GuideTaskTracker_MoveLeft,进行一次向左移动操作{0}/1"
+  splits:
+  - split: 2
+    text: "进行一次向左移动操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "816,GuideTaskTracker_MoveRight,进行一次向右移动操作{0}/1"
+  splits:
+  - split: 2
+    text: "进行一次向右移动操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "817,GuideTaskTracker_Jump,使用跳跃键，完成两次跳跃操作{0}/2"
+  splits:
+  - split: 2
+    text: "使用跳跃键，完成两次跳跃操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/2"
+- raw: "818,GuideTaskTracker_NormalAttack1,使用轻击，完成两次轻击操作{0}/2"
+  splits:
+  - split: 2
+    text: "使用轻击，完成两次轻击操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/2"
+- raw: "819,GuideTaskTracker_NormalAttack2,使用重击，完成两次重击操作{0}/2"
+  splits:
+  - split: 2
+    text: "使用重击，完成两次重击操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/2"
+- raw: "820,GuideTaskTracker_JumpAttack,使用跳击，完成两次跳击操作{0}/2"
+  splits:
+  - split: 2
+    text: "使用跳击，完成两次跳击操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/2"
+- raw: "821,GuideTaskTracker_Block,使用格挡，完成一次格挡操作{0}/1"
+  splits:
+  - split: 2
+    text: "使用格挡，完成一次格挡操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "822,GuideTaskTracker_Rebound,使用弹反，完成一次弹反操作{0}/1"
+  splits:
+  - split: 2
+    text: "使用弹反，完成一次弹反操作"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "823,GuideTaskTracker_JumpBack1,使用前闪避成功躲避一次攻击{0}/2"
+  splits:
+  - split: 2
+    text: "使用前闪避成功躲避一次攻击"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/2"
+- raw: "824,GuideTaskTracker_JumpBack2,使用后闪避成功躲避一次攻击{0}/1"
+  splits:
+  - split: 2
+    text: "使用后闪避成功躲避一次攻击"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧/1"
+- raw: "826,GuideDialog_PlayerInfoPanel,战场之中一瞬万变，需得时时体察自身状况，切勿鲁莽丢了性命。"
+  splits:
+  - split: 2
+    text: "战场之中一瞬万变，需得时时体察自身状况，切勿鲁莽丢了性命。"
+- raw: "827,GuideDialog_Move,且行至标注所在，看你身子康复几分。"
+  splits:
+  - split: 2
+    text: "且行至标注所在，看你身子康复几分。"
+- raw: "828,GuideDialog_Jump,以气运劲，腾跃长空，试着在跳跃过程中腾转身形。"
+  splits:
+  - split: 2
+    text: "以气运劲，腾跃长空，试着在跳跃过程中腾转身形。"
+- raw: "829,GuideDialog_NormalAttack,力分轻重，且当如臂驱使，方可称道流转自如。来，用不同力道施展攻击。"
+  splits:
+  - split: 2
+    text: "力分轻重，且当如臂驱使，方可称道流转自如。来，用不同力道施展攻击。"
+- raw: "830,GuideDialog_JumpAttack,动若脱兔，跃击长空，试着在空中打出一次攻击。"
+  splits:
+  - split: 2
+    text: "动若脱兔，跃击长空，试着在空中打出一次攻击。"
+- raw: "831,GuideDialog_Block,凡事并非仅有一法，以退为进，亦为妙手。摆出格挡姿势防住我的攻击。"
+  splits:
+  - split: 2
+    text: "凡事并非仅有一法，以退为进，亦为妙手。摆出格挡姿势防住我的攻击。"
+- raw: "832,GuideDialog_Rebound,战场胜机往往一瞬，形势逆转，一定乾坤。在我即将攻向你的一瞬，使出格挡将攻击弹反。"
+  splits:
+  - split: 2
+    text: "战场胜机往往一瞬，形势逆转，一定乾坤。在我即将攻向你的一瞬，使出格挡将攻击弹反。"
+- raw: "833,GuideDialog_JumpBack,身法以活为要，以明阴阳变化为妙。此剑你可否躲过!"
+  splits:
+  - split: 2
+    text: "身法以活为要，以明阴阳变化为妙。此剑你可否躲过"
+  templates:
+  - split: 2
+    template: "{0}!"
+- raw: "835,Pressed,按住"
+  splits:
+  - split: 2
+    text: "按住"
+- raw: "836,Click,按下"
+  splits:
+  - split: 2
+    text: "按下"
+- raw: "837,NextStep,下一步"
+  splits:
+  - split: 2
+    text: "下一步"
+- raw: "838,KeymapTips,(如有修改键位，请以实际键位为准)"
+  splits:
+  - split: 2
+    text: "如有修改键位，请以实际键位为准"
+  templates:
+  - split: 2
+    template: "({0})"
+- raw: "841,MapTip_1,该区域无法通过快速移动抵达"
+  splits:
+  - split: 2
+    text: "该区域无法通过快速移动抵达"
+- raw: "842,MapTip_2,需抵达过该区域方能进行快速移动"
+  splits:
+  - split: 2
+    text: "需抵达过该区域方能进行快速移动"
+- raw: "843,MapTip_3,当前所处区域无法通过快速移动离开"
+  splits:
+  - split: 2
+    text: "当前所处区域无法通过快速移动离开"
+- raw: "844,MapTip_4,当前所处区域无法使用快速移动"
+  splits:
+  - split: 2
+    text: "当前所处区域无法使用快速移动"
+- raw: "845,MapTip_41,当前剧情中传送功能暂不可用"
+  splits:
+  - split: 2
+    text: "当前剧情中传送功能暂不可用"
+- raw: "846,MapTip_5,该区域暂时无法通过快速移动抵达"
+  splits:
+  - split: 2
+    text: "该区域暂时无法通过快速移动抵达"
+- raw: "847,MapTip_6,当前处于该区域"
+  splits:
+  - split: 2
+    text: "当前处于该区域"
+- raw: "848,DisableMapTransfer,当前已禁用区域快速移动"
+  splits:
+  - split: 2
+    text: "当前已禁用区域快速移动"
+- raw: "849,MapTip_HouseTitle,房屋"
+  splits:
+  - split: 2
+    text: "房屋"
+- raw: "850,MapTip_HouseTip,一处正在出售中的房屋"
+  splits:
+  - split: 2
+    text: "一处正在出售中的房屋"
+- raw: "851,MapTip_HouseTip_Own,你已拥有此房屋"
+  splits:
+  - split: 2
+    text: "你已拥有此房屋"
+- raw: "852,MapTip_DungeonTitle,副本"
+  splits:
+  - split: 2
+    text: "副本"
+- raw: "855,Xing_1,段"
+  splits:
+  - split: 2
+    text: "段"
+- raw: "858,ShuXing_1,天赋"
+  splits:
+  - split: 2
+    text: "天赋"
+- raw: "859,ShuXing_2,特质"
+  splits:
+  - split: 2
+    text: "特质"
+- raw: "862,ZaoYi,造诣"
+  splits:
+  - split: 2
+    text: "造诣"
+- raw: "865,BanDepotTips,此物品无法储存"
+  splits:
+  - split: 2
+    text: "此物品无法储存"
+- raw: "866,BanDepotTaskItemTips,任务道具无法在仓库存放"
+  splits:
+  - split: 2
+    text: "任务道具无法在仓库存放"
+- raw: "869,tfTips01,【天煞孤狼】和【天纵之才】只能任选其一"
+  splits:
+  - split: 2
+    text: "【天煞孤狼】和【天纵之才】只能任选其一"
+- raw: "872,taskTip001,需要在“{0}”使用;"
+  splits:
+  - split: 2
+    text: "需要在"
+  - split: 2
+    subIndex: 1
+    text: "使用"
+  templates:
+  - split: 2
+    template: "{0}“⟦0⟧”{1};"
+- raw: "873,taskTip002,当前状态无法使用此物品。"
+  splits:
+  - split: 2
+    text: "当前状态无法使用此物品。"
+- raw: "876,buQuanSkillTip1,此按钮只存在于EA版本，正式版本会去掉。\\n可以通过点击此按钮补全之前版本被动已满的武学因为版本迭代增加的新被动。"
+  splits:
+  - split: 2
+    text: "此按钮只存在于"
+  - split: 2
+    subIndex: 1
+    text: "版本，正式版本会去掉。"
+  - split: 2
+    subIndex: 2
+    text: "可以通过点击此按钮补全之前版本被动已满的武学因为版本迭代增加的新被动。"
+  templates:
+  - split: 2
+    template: "{0}EA{1}\\n{2}"
+- raw: "877,buQuanSkillTip2,成功领悟了最后一篇注解"
+  splits:
+  - split: 2
+    text: "成功领悟了最后一篇注解"
+- raw: "878,buQuanSkillTip3,没有符合条件的注解需要补全"
+  splits:
+  - split: 2
+    text: "没有符合条件的注解需要补全"
+- raw: "881,CookTip_1,物品制造中，无法退出界面"
+  splits:
+  - split: 2
+    text: "物品制造中，无法退出界面"
+- raw: "882,CookTip_2,*基础属性、词条效果会依据品质的增强而增强"
+  splits:
+  - split: 2
+    text: "基础属性、词条效果会依据品质的增强而增强"
+  templates:
+  - split: 2
+    template: "*{0}"
+- raw: "883,CookTip_3,无需异能书籍，即可掌握钓鱼技能"
+  splits:
+  - split: 2
+    text: "无需异能书籍，即可掌握钓鱼技能"
+- raw: "886,betShopTip1,行囊银两:"
+  splits:
+  - split: 2
+    text: "行囊银两"
+  templates:
+  - split: 2
+    template: "{0}:"
+- raw: "887,betShopTip2,选择下注金额"
+  splits:
+  - split: 2
+    text: "选择下注金额"
+- raw: "888,betShopTip3,银两(文)"
+  splits:
+  - split: 2
+    text: "银两"
+  - split: 2
+    subIndex: 1
+    text: "文"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "889,betShopTip4,确定"
+  splits:
+  - split: 2
+    text: "确定"
+- raw: "890,betShopTip5,投注{0}"
+  splits:
+  - split: 2
+    text: "投注"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "891,betShopTip501,押物{0}"
+  splits:
+  - split: 2
+    text: "押物"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "892,betShopTip6,已达行囊银两最大值"
+  splits:
+  - split: 2
+    text: "已达行囊银两最大值"
+- raw: "893,betShopTip7,已达此区域最大下注总额"
+  splits:
+  - split: 2
+    text: "已达此区域最大下注总额"
+- raw: "894,betShopTip8,投注前请先点击摇骰按钮"
+  splits:
+  - split: 2
+    text: "投注前请先点击摇骰按钮"
+- raw: "895,betShopTip9,\"银两不足,无法下注\""
+  splits:
+  - split: 2
+    text: "银两不足"
+  - split: 2
+    subIndex: 1
+    text: "无法下注"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "896,betShopTip10,是否离开赌局？"
+  splits:
+  - split: 2
+    text: "是否离开赌局？"
+- raw: "897,betShopTip11,{0}    {1}    {2}   {3}点"
+  splits:
+  - split: 2
+    text: "点"
+  templates:
+  - split: 2
+    template: "⟦0⟧    ⟦1⟧    ⟦2⟧   ⟦3⟧{0}"
+- raw: "898,betShopTip12,赢"
+  splits:
+  - split: 2
+    text: "赢"
+- raw: "899,betShopTip13,输"
+  splits:
+  - split: 2
+    text: "输"
+- raw: "900,betShopTip14,不满此桌入场最低本金，点击下方空白区域退出"
+  splits:
+  - split: 2
+    text: "不满此桌入场最低本金，点击下方空白区域退出"
+- raw: "901,betShopTip15,点击下方空白区域退出"
+  splits:
+  - split: 2
+    text: "点击下方空白区域退出"
+- raw: "902,betShopTip16,请先下注"
+  splits:
+  - split: 2
+    text: "请先下注"
+- raw: "903,betShopTip17,>摇骰阶段\\n摇骰阶段是骰宝游戏的开始，点击“摇骰”按钮，即可进行下注。\\n\\n>下注阶段\\n在任意区域完成下注后，即可点击“开骰！”，点击按钮后，进入“结算阶段”。\\n点击“重置所有投注”按钮后，将所有区域的投注银两数量重置为默认值0。\\n\\n>结算阶段\\n若押注与开骰结果一致，则返回赌本并获得对应的赔率。\\n\\n>下注区域说明\\n1.大/小下注区\\n开骰结果的骰子总点数符合大/小区域对应点数，即可获得对应的赔率银两。\\n\\n2.全围下注区\\n开骰结果的三个骰子相符，即可获得对应的赔率银两。\\n\\n3.围骰下注区\\n开骰结果的三个骰子相符，且三个骰子的总点数符合下注区域值，即可获得对应的赔率银两。\\n\\n4.点数下注区\\n开骰结果的骰子总点数符合下注区域值，即可获得对应的赔率银两。。"
+  splits:
+  - split: 2
+    text: "摇骰阶段"
+  - split: 2
+    subIndex: 1
+    text: "摇骰阶段是骰宝游戏的开始，点击“摇骰”按钮，即可进行下注。"
+  - split: 2
+    subIndex: 2
+    text: "下注阶段"
+  - split: 2
+    subIndex: 3
+    text: "在任意区域完成下注后，即可点击“开骰！”，点击按钮后，进入“结算阶段”。"
+  - split: 2
+    subIndex: 4
+    text: "点击“重置所有投注”按钮后，将所有区域的投注银两数量重置为默认值0。"
+  - split: 2
+    subIndex: 5
+    text: "结算阶段"
+  - split: 2
+    subIndex: 6
+    text: "若押注与开骰结果一致，则返回赌本并获得对应的赔率。"
+  - split: 2
+    subIndex: 7
+    text: "下注区域说明"
+  - split: 2
+    subIndex: 8
+    text: "1.大"
+  - split: 2
+    subIndex: 9
+    text: "小下注区"
+  - split: 2
+    subIndex: 10
+    text: "开骰结果的骰子总点数符合大"
+  - split: 2
+    subIndex: 11
+    text: "小区域对应点数，即可获得对应的赔率银两。"
+  - split: 2
+    subIndex: 12
+    text: "2.全围下注区"
+  - split: 2
+    subIndex: 13
+    text: "开骰结果的三个骰子相符，即可获得对应的赔率银两。"
+  - split: 2
+    subIndex: 14
+    text: "3.围骰下注区"
+  - split: 2
+    subIndex: 15
+    text: "开骰结果的三个骰子相符，且三个骰子的总点数符合下注区域值，即可获得对应的赔率银两。"
+  - split: 2
+    subIndex: 16
+    text: "4.点数下注区"
+  - split: 2
+    subIndex: 17
+    text: "开骰结果的骰子总点数符合下注区域值，即可获得对应的赔率银两。。"
+  templates:
+  - split: 2
+    template: ">{0}\\n{1}\\n\\n>{2}\\n{3}\\n{4}\\n\\n>{5}\\n{6}\\n\\n>{7}\\n{8}/{9}\\n{10}/{11}\\n\\n{12}\\n{13}\\n\\n{14}\\n{15}\\n\\n{16}\\n{17}"
+- raw: "904,betShopTip18,押物的数量不能大于15"
+  splits:
+  - split: 2
+    text: "押物的数量不能大于15"
+- raw: "905,betShopTip19,押物"
+  splits:
+  - split: 2
+    text: "押物"
+- raw: "906,betShopTip20,查看"
+  splits:
+  - split: 2
+    text: "查看"
+- raw: "907,betShopTip101,一"
+  splits:
+  - split: 2
+    text: "一"
+- raw: "908,betShopTip102,二"
+  splits:
+  - split: 2
+    text: "二"
+- raw: "909,betShopTip103,三"
+  splits:
+  - split: 2
+    text: "三"
+- raw: "910,betShopTip104,四"
+  splits:
+  - split: 2
+    text: "四"
+- raw: "911,betShopTip105,五"
+  splits:
+  - split: 2
+    text: "五"
+- raw: "912,betShopTip106,六"
+  splits:
+  - split: 2
+    text: "六"
+- raw: "913,betShopTip107,七"
+  splits:
+  - split: 2
+    text: "七"
+- raw: "914,betShopTip108,八"
+  splits:
+  - split: 2
+    text: "八"
+- raw: "915,betShopTip109,九"
+  splits:
+  - split: 2
+    text: "九"
+- raw: "916,betShopTip110,十"
+  splits:
+  - split: 2
+    text: "十"
+- raw: "917,betShopTip111,十一"
+  splits:
+  - split: 2
+    text: "十一"
+- raw: "918,betShopTip112,十二"
+  splits:
+  - split: 2
+    text: "十二"
+- raw: "919,betShopTip113,十三"
+  splits:
+  - split: 2
+    text: "十三"
+- raw: "920,betShopTip114,十四"
+  splits:
+  - split: 2
+    text: "十四"
+- raw: "921,betShopTip115,十五"
+  splits:
+  - split: 2
+    text: "十五"
+- raw: "922,betShopTip116,十六"
+  splits:
+  - split: 2
+    text: "十六"
+- raw: "923,betShopTip117,十七"
+  splits:
+  - split: 2
+    text: "十七"
+- raw: "924,betShopTip118,十八"
+  splits:
+  - split: 2
+    text: "十八"
+- raw: "927,UIFinshingTip_1,1.小游戏开始后，持续按住“鼠标左/右键”，即可控制“指针”持续向左/右进行移动。\\n\\n2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。\\n\\n3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。\\n\\n4.“鱼所在水域”分为“长/中/短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大。"
+  splits:
+  - split: 2
+    text: "1.小游戏开始后，持续按住“鼠标左"
+  - split: 2
+    subIndex: 1
+    text: "右键”，即可控制“指针”持续向左"
+  - split: 2
+    subIndex: 2
+    text: "右进行移动。"
+  - split: 2
+    subIndex: 3
+    text: "2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。"
+  - split: 2
+    subIndex: 4
+    text: "3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。"
+  - split: 2
+    subIndex: 5
+    text: "4.“鱼所在水域”分为“长"
+  - split: 2
+    subIndex: 6
+    text: "中"
+  - split: 2
+    subIndex: 7
+    text: "短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大。"
+  templates:
+  - split: 2
+    template: "{0}/{1}/{2}\\n\\n{3}\\n\\n{4}\\n\\n{5}/{6}/{7}"
+- raw: "928,UIFinshingTip_2,垂钓失败"
+  splits:
+  - split: 2
+    text: "垂钓失败"
+- raw: "931,UIPaiMaiHangTip_1,已达寄售拍卖上限，暂无法继续寄售"
+  splits:
+  - split: 2
+    text: "已达寄售拍卖上限，暂无法继续寄售"
+- raw: "932,UIPaiMaiHangTip_2,寄售成功！"
+  splits:
+  - split: 2
+    text: "寄售成功！"
+- raw: "933,UIPaiMaiHangTip_3,是否撤回寄售物品？"
+  splits:
+  - split: 2
+    text: "是否撤回寄售物品？"
+- raw: "934,UIPaiMaiHangTip_4,暂无货品寄售"
+  splits:
+  - split: 2
+    text: "暂无货品寄售"
+- raw: "935,UIPaiMaiHangTip_5,输入单个物品寄售金额"
+  splits:
+  - split: 2
+    text: "输入单个物品寄售金额"
+- raw: "936,UIPaiMaiHangTip_6,该物品已退回至行囊"
+  splits:
+  - split: 2
+    text: "该物品已退回至行囊"
+- raw: "937,UIPaiMaiHangMsg_1,货品寄售失败"
+  splits:
+  - split: 2
+    text: "货品寄售失败"
+- raw: "938,UIPaiMaiHangMsg_2,货价不匹，业已流拍，物品已退回行囊……阁下若真心想卖，需得定下合适价码，方显诚意！"
+  splits:
+  - split: 2
+    text: "货价不匹，业已流拍，物品已退回行囊……阁下若真心想卖，需得定下合适价码，方显诚意！"
+- raw: "939,UIPaiMaiHangMsg_3,货品寄售成功！"
+  splits:
+  - split: 2
+    text: "货品寄售成功！"
+- raw: "940,UIPaiMaiHangMsg_4,恭贺阁下，售出宝品，再添金银！"
+  splits:
+  - split: 2
+    text: "恭贺阁下，售出宝品，再添金银！"
+- raw: "943,UISkillNetsWorkTip_1,隐月楼恭贺阁下加入！"
+  splits:
+  - split: 2
+    text: "隐月楼恭贺阁下加入！"
+- raw: "944,UISkillNetsWorkTip_2,击杀此人的价格为：{0}"
+  splits:
+  - split: 2
+    text: "击杀此人的价格为"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "945,UISkillNetsWorkTip_3,隐月楼已接下此任务。"
+  splits:
+  - split: 2
+    text: "隐月楼已接下此任务。"
+- raw: "946,UISkillNetsWorkTip_4,请先输入正确的npc名称"
+  splits:
+  - split: 2
+    text: "请先输入正确的"
+  - split: 2
+    subIndex: 1
+    text: "名称"
+  templates:
+  - split: 2
+    template: "{0}npc{1}"
+- raw: "947,UISkillNetsWorkTip_5,找不到该npc或者该npc不能被击杀"
+  splits:
+  - split: 2
+    text: "找不到该"
+  - split: 2
+    subIndex: 1
+    text: "或者该"
+  - split: 2
+    subIndex: 2
+    text: "不能被击杀"
+  templates:
+  - split: 2
+    template: "{0}npc{1}npc{2}"
+- raw: "948,UISkillNetsWorkTip_6,该npc已经死亡！"
+  splits:
+  - split: 2
+    text: "该"
+  - split: 2
+    subIndex: 1
+    text: "已经死亡！"
+  templates:
+  - split: 2
+    template: "{0}npc{1}"
+- raw: "949,UISkillNetsWorkTip_7,契约既定，隐月楼不日履约。"
+  splits:
+  - split: 2
+    text: "契约既定，隐月楼不日履约。"
+- raw: "950,UISkillNetsWorkTip_8,\"{0}于{1}地（{2},{3}）被击杀，钱货两讫。\""
+  splits:
+  - split: 2
+    text: "于"
+  - split: 2
+    subIndex: 1
+    text: "地"
+  - split: 2
+    subIndex: 2
+    text: "被击杀，钱货两讫。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧{1}（⟦2⟧,⟦3⟧）{2}"
+- raw: "951,UISkillNetsWorkTip_9,买凶杀人"
+  splits:
+  - split: 2
+    text: "买凶杀人"
+- raw: "952,UISkillNetsWorkTip_10,银两不足！"
+  splits:
+  - split: 2
+    text: "银两不足！"
+- raw: "953,UISkillNetsWorkTip_11,任务剩余时间{0}"
+  splits:
+  - split: 2
+    text: "任务剩余时间"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "954,UISkillNetsWorkTip_12,杀手声望不足！"
+  splits:
+  - split: 2
+    text: "杀手声望不足！"
+- raw: "955,UISkillNetsWorkTip_13,目标意外死亡，杀手任务终止！"
+  splits:
+  - split: 2
+    text: "目标意外死亡，杀手任务终止！"
+- raw: "956,UISkillNetsWorkTip_14,杀手任务完成!"
+  splits:
+  - split: 2
+    text: "杀手任务完成"
+  templates:
+  - split: 2
+    template: "{0}!"
+- raw: "957,UISkillNetsWorkTip_15,目标暂时隐匿行踪！"
+  splits:
+  - split: 2
+    text: "目标暂时隐匿行踪！"
+- raw: "958,UISkillNetsWorkTip_16,目标所在区域：{0}，（{1}，{2}）"
+  splits:
+  - split: 2
+    text: "目标所在区域"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧，（⟦1⟧，⟦2⟧）"
+- raw: "959,UISkillNetsWorkTip_17,杀手等级：{0}"
+  splits:
+  - split: 2
+    text: "杀手等级"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧"
+- raw: "960,UISkillNetsWorkTip_18,已达最高等级"
+  splits:
+  - split: 2
+    text: "已达最高等级"
+- raw: "961,UISkillNetsWorkTip_19,领取杀手任务"
+  splits:
+  - split: 2
+    text: "领取杀手任务"
+- raw: "962,UISkillNetsWorkTip_20,暗杀目标{0}业已被他人所杀，既然买卖不成，相约酬金原数奉还!"
+  splits:
+  - split: 2
+    text: "暗杀目标"
+  - split: 2
+    subIndex: 1
+    text: "业已被他人所杀，既然买卖不成，相约酬金原数奉还"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}!"
+- raw: "963,UISkillNetsWorkTip_21,该目标已在暗杀名单。"
+  splits:
+  - split: 2
+    text: "该目标已在暗杀名单。"
+- raw: "964,UISkillNetsWorkTip_22,击杀此人的价格为：{0}，阁下是否愿意接受？如果同意，隐月楼将接下此任务。"
+  splits:
+  - split: 2
+    text: "击杀此人的价格为"
+  - split: 2
+    subIndex: 1
+    text: "，阁下是否愿意接受？如果同意，隐月楼将接下此任务。"
+  templates:
+  - split: 2
+    template: "{0}：⟦0⟧{1}"
+- raw: "965,UISkillNetsWorkTip_23,挑战成功"
+  splits:
+  - split: 2
+    text: "挑战成功"
+- raw: "966,UISkillNetsWorkTip_24,挑战失败"
+  splits:
+  - split: 2
+    text: "挑战失败"
+- raw: "967,UISkillNetsWorkTip_25,其间有规诫，入内三思量：\\n若事有闪失，实力低下之辈必遭血光之灾……"
+  splits:
+  - split: 2
+    text: "其间有规诫，入内三思量"
+  - split: 2
+    subIndex: 1
+    text: "若事有闪失，实力低下之辈必遭血光之灾……"
+  templates:
+  - split: 2
+    template: "{0}：\\n{1}"
+- raw: "968,UISkillNetsWorkTip_26,确认退出<隐月楼>后，若当前有正在进行的杀手任务，将会被直接中断！\\n确认是否退出<隐月楼>？"
+  splits:
+  - split: 2
+    text: "确认退出"
+  - split: 2
+    subIndex: 1
+    text: "隐月楼"
+  - split: 2
+    subIndex: 2
+    text: "后，若当前有正在进行的杀手任务，将会被直接中断！"
+  - split: 2
+    subIndex: 3
+    text: "确认是否退出"
+  - split: 2
+    subIndex: 4
+    text: "隐月楼"
+  templates:
+  - split: 2
+    template: "{0}<{1}>{2}\\n{3}<{4}>？"
+- raw: "969,UISkillNetsWorkTipJiaoQing_0,配偶"
+  splits:
+  - split: 2
+    text: "配偶"
+- raw: "970,UISkillNetsWorkTipJiaoQing_1,父母"
+  splits:
+  - split: 2
+    text: "父母"
+- raw: "971,UISkillNetsWorkTipJiaoQing_2,子女"
+  splits:
+  - split: 2
+    text: "子女"
+- raw: "972,UISkillNetsWorkTipJiaoQing_3,同怀"
+  splits:
+  - split: 2
+    text: "同怀"
+- raw: "973,UISkillNetsWorkTipJiaoQing_4,义亲"
+  splits:
+  - split: 2
+    text: "义亲"
+- raw: "974,UISkillNetsWorkTipJiaoQing_5,知交"
+  splits:
+  - split: 2
+    text: "知交"
+- raw: "975,UISkillNetsWorkTipJiaoQing_6,金兰"
+  splits:
+  - split: 2
+    text: "金兰"
+- raw: "976,UISkillNetsWorkTipJiaoQing_7,眷侣"
+  splits:
+  - split: 2
+    text: "眷侣"
+- raw: "977,UISkillNetsWorkTipJiaoQing_8,师傅"
+  splits:
+  - split: 2
+    text: "师傅"
+- raw: "978,UISkillNetsWorkTipJiaoQing_9,徒弟"
+  splits:
+  - split: 2
+    text: "徒弟"
+- raw: "979,UISkillNetsWorkTipJiaoQing_10,仇敌"
+  splits:
+  - split: 2
+    text: "仇敌"
+- raw: "982,UISeartTiaoZhanTip_1,你已成功加入<{0}>。"
+  splits:
+  - split: 2
+    text: "你已成功加入"
+  templates:
+  - split: 2
+    template: "{0}<⟦0⟧>。"
+- raw: "983,UISeartTiaoZhanTip_2,你已退出<{0}>。"
+  splits:
+  - split: 2
+    text: "你已退出"
+  templates:
+  - split: 2
+    template: "{0}<⟦0⟧>。"
+- raw: "984,UISeartTiaoZhanTip_3,你已是其他门派弟子，是否需要退出该门派，转投<{0}>名下？"
+  splits:
+  - split: 2
+    text: "你已是其他门派弟子，是否需要退出该门派，转投"
+  - split: 2
+    subIndex: 1
+    text: "名下？"
+  templates:
+  - split: 2
+    template: "{0}<⟦0⟧>{1}"
+- raw: "987,LittlePetName,小黄"
+  splits:
+  - split: 2
+    text: "小黄"

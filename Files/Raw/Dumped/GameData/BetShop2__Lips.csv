@@ -1,0 +1,53 @@
+﻿1,怪物组ID,名称,显示条件,条件参数,消耗参数,点击触发的功能,功能参数,功能参数2,不满足条件点击的提示语,关闭赌坊
+2,id,Name,showConditions,ConditionsCan,ConsumeCan,Function,FunctionCan,FunctionCan2,Tips,open
+3,2001,Accept (requires 10 coins),0,1002_10,0,1,UIBetShop,,不满此桌最低下注银两,1
+4,2002,Decline,0,0,0,2,0,,0,1
+5,2003,Accept (requires 100 coins),0,1002_100,0,1,UIBetShop,,不满此桌最低下注银两,1
+6,2004,Accept (requires 1 tael),0,1002_1000,0,1,UIBetShop,,不满此桌最低下注银两,1
+7,9001,Deposit Items,0,0,0,1,UIPaiMaiHang,,0,1
+8,8001,Hire Assassin,0,0,0,3,1_1,,0,1
+9,8002,Join Organization,1_0,0,0,3,1_2,,0,1
+10,8003,Take Assassin Mission,1_1,0,0,5,8101_8102,talk,0,1
+11,8004,Assassin Shop,1_1,0,0,1,UIShopShow,41001,0,1
+12,8005,View Current Assassin Mission,1_2,0,0,3,1_3,talk,0,1
+13,8006,Assassin Shop,1_2,0,0,1,UIShopShow,41001,0,1
+14,8009,Leave,0,0,0,2,0,,0,1
+15,8101,Accept Killing Contract,0,0,0,3,2_1,talk1,0,1
+16,8102,Pay to Spare Life,0,0,0,5,8103_8104_8110,talk2,0,1
+17,8103,Offer Silver (100 coins),0,1002_100,1002_100,5,8009,talk3,你的银两不足！,1
+18,8104,Reduce Reputation (100 Assassin Rep),0,1006_100,1006_100,5,8009,talk3,你的杀手声望不足！,1
+19,8105,Inevitable Confrontation,0,0,0,6,0,,0,1
+20,8106,Accept Killing Contract,0,0,0,7,0,,0,1
+21,8110,Back,0,0,0,4,8101_8102,,0,1
+22,14000101,Join Sect,2_1001,0,0,8,0,,0,1
+23,14000102,Leave Sect,3_1001,0,0,9,0,,0,1
+24,14000201,Sect Challenge: Beginner,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1
+25,14000202,Sect Challenge: Intermediate,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1
+26,14000203,Sect Challenge: Advanced,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1
+27,15000101,Join Sect,2_1002,0,0,8,0,,0,1
+28,15000102,Leave Sect,3_1002,0,0,9,0,,0,1
+29,15000201,Sect Challenge: Beginner,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1
+30,15000202,Sect Challenge: Intermediate,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1
+31,15000203,Sect Challenge: Advanced,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1
+32,18000101,Join Sect,2_1005,0,0,8,0,,0,1
+33,18000102,Leave Sect,3_1005,0,0,9,0,,0,1
+34,18000201,Sect Challenge: Beginner,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1
+35,18000202,Sect Challenge: Intermediate,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1
+36,18000203,Sect Challenge: Advanced,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1
+37,22000101,Join Sect,2_1006,0,0,8,0,,0,1
+38,22000102,Leave Sect,3_1006,0,0,9,0,,0,1
+39,22000201,Sect Challenge: Beginner,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1
+40,22000202,Sect Challenge: Intermediate,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1
+41,22000203,Sect Challenge: Advanced,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1
+42,26000101,Join Sect,2_1007,0,0,8,0,,0,1
+43,26000102,Leave Sect,3_1007,0,0,9,0,,0,1
+44,26000201,Sect Challenge: Beginner,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1
+45,26000202,Sect Challenge: Intermediate,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1
+46,26000203,Sect Challenge: Advanced,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1
+47,920101,Sect Challenge: Upper Tier,5_0,0,0,10,0,,0,1
+48,920102,Sect Challenge: Lower Tier,5_1,0,0,10,0,,0,1
+49,920201,Sect Challenge: Upper Tier (Requires Sect Membership),6_0,0,0,0,0,,0,1
+50,920202,Sect Challenge: Lower Tier (Requires Sect Membership),6_1,0,0,0,0,,0,1
+51,920301,Sect Challenge: Upper Tier (Requires Prior Completion),7_0,0,0,0,0,,0,1
+52,920302,Sect Challenge: Lower Tier (Requires Prior Completion),7_1,0,0,0,0,,0,1
+53,920999,Back,0,0,0,11,0,,0,1

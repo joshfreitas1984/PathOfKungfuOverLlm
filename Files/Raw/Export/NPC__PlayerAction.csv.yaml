@@ -1,0 +1,636 @@
+- raw: "1,ID,参数,条件,值,触发概率,场合,时辰要求,天气要求,改变参数,赋值,被动参数,赋值,文字说明,对话ID,持续时间,CD时间(秒),权重,权重分组,事件广播参数"
+  splits:
+  - split: 13
+    text: "文字说明"
+- raw: "2,id,selfParam,term,sideParam,prob,place,time,weather,changeParam,changeValue,playerParam,playerValue,explain,dialogID,duration,cdTime,weight,weightGroup,msgTypeParam"
+- raw: "3,1,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"//,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
+  splits:
+  - split: 13
+    text: "趁"
+  - split: 13
+    subIndex: 1
+    text: "不备，悄然偷窃了些许钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "4,2,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
+  splits:
+  - split: 13
+    text: "趁"
+  - split: 13
+    subIndex: 1
+    text: "不备，悄然偷窃了些许钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "5,3,\"attribute,goldCoin,lichang,500,3600,id,kithKin<>,love\",\">,<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,gameTime,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
+  splits:
+  - split: 13
+    text: "趁"
+  - split: 13
+    subIndex: 1
+    text: "不备，悄然偷窃了些许钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "6,4,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"//,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"4,9\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,5,1,2"
+  splits:
+  - split: 13
+    text: "左寻右觅，但终未能成功窃取"
+  - split: 13
+    subIndex: 1
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "7,5,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"<,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"4,9\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,5,1,2"
+  splits:
+  - split: 13
+    text: "左寻右觅，但终未能成功窃取"
+  - split: 13
+    subIndex: 1
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "8,6,\"attribute,goldCoin,lichang,3600,id,kithKin<>,love\",\">,<,<,<,!/,!/,<\",\"attribute,300,30,gameTime,kithKin<>,1,1\",100,1,\"4,9\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,5,1,2"
+  splits:
+  - split: 13
+    text: "左寻右觅，但终未能成功窃取"
+  - split: 13
+    subIndex: 1
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "9,7,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"//,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"10,3\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,15,1,2"
+  splits:
+  - split: 13
+    text: "趁"
+  - split: 13
+    subIndex: 1
+    text: "不备，悄然偷窃了些许钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "10,8,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"10,3\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,15,1,2"
+  splits:
+  - split: 13
+    text: "趁"
+  - split: 13
+    subIndex: 1
+    text: "不备，悄然偷窃了些许钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "11,9,\"attribute,goldCoin,lichang,500,3600,id,kithKin<>,love\",\">,<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,gameTime,kithKin<>,1,1\",100,1,\"10,3\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,15,1,2"
+  splits:
+  - split: 13
+    text: "趁"
+  - split: 13
+    subIndex: 1
+    text: "不备，悄然偷窃了些许钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "12,10,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"//,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"10,3\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,15,1,2"
+  splits:
+  - split: 13
+    text: "左寻右觅，但终未能成功窃取"
+  - split: 13
+    subIndex: 1
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "13,11,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"<,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"10,3\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,15,1,2"
+  splits:
+  - split: 13
+    text: "左寻右觅，但终未能成功窃取"
+  - split: 13
+    subIndex: 1
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "14,12,\"attribute,goldCoin,lichang,3600,id,kithKin<>,love\",\">,<,<,<,!/,!/,<\",\"attribute,300,30,gameTime,kithKin<>,1,1\",100,1,\"10,3\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,15,1,2"
+  splits:
+  - split: 13
+    text: "左寻右觅，但终未能成功窃取"
+  - split: 13
+    subIndex: 1
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "15,13,\"lichang,lichang,45,55,goldCoin,id,kithKin<>\",\">,<,<,>,>,!/,!/\",\"45,55,lichang,lichang,100,kithKin<>,1\",100,1,0,0,\"goldCoin,PlayerLove(),100+\",\"100-,10+,sliver\",,,<color=#E64D00>a</color>听闻与<color=#E64D00>p</color>立场相近，特来相谈，一番攀谈之下，只觉与<color=#E64D00>p</color>言锋相合，特赠予了<color=#E64D00>p</color>些许银两。,1500,40,1600,60,2,2"
+  splits:
+  - split: 13
+    text: "听闻与"
+  - split: 13
+    subIndex: 1
+    text: "立场相近，特来相谈，一番攀谈之下，只觉与"
+  - split: 13
+    subIndex: 2
+    text: "言锋相合，特赠予了"
+  - split: 13
+    subIndex: 3
+    text: "些许银两。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "16,14,\"attribute,lichang,love,id,kithKin<>,love\",\"//,<,<,!/,!/,<\",\"attribute,40,0,kithKin<>,1,1\",0,1,\"4,9\",0,\"lichang,GetRandomItemAtPlayer()\",\"10-,1\",,,心怀不轨的<color=#E64D00>a</color>暗中下手，窃取了<color=#E64D00>p</color>囊中物什……,1510,40,1600,0,1,2"
+  splits:
+  - split: 13
+    text: "心怀不轨的"
+  - split: 13
+    subIndex: 1
+    text: "暗中下手，窃取了"
+  - split: 13
+    subIndex: 2
+    text: "囊中物什……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "17,15,\"attribute,lichang,love,id,kithKin<>,love\",\"<,<,<,!/,!/,<\",\"attribute,40,0,kithKin<>,1,1\",0,1,\"4,9\",0,\"lichang,GetRandomItemAtPlayer()\",\"10-,1\",,,心怀不轨的<color=#E64D00>a</color>暗中下手，窃取了<color=#E64D00>p</color>囊中物什……,1510,40,1600,0,1,2"
+  splits:
+  - split: 13
+    text: "心怀不轨的"
+  - split: 13
+    subIndex: 1
+    text: "暗中下手，窃取了"
+  - split: 13
+    subIndex: 2
+    text: "囊中物什……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "18,16,\"attribute,lichang,love,3600,id,kithKin<>,love\",\">,<,<,<,!/,!/,<\",\"attribute,40,0,gameTime,kithKin<>,1,1\",0,1,\"4,9\",0,\"lichang,GetRandomItemAtPlayer()\",\"10-,1\",,,心怀不轨的<color=#E64D00>a</color>暗中下手，窃取了<color=#E64D00>p</color>囊中物什……,1510,40,1600,0,1,2"
+  splits:
+  - split: 13
+    text: "心怀不轨的"
+  - split: 13
+    subIndex: 1
+    text: "暗中下手，窃取了"
+  - split: 13
+    subIndex: 2
+    text: "囊中物什……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "19,17,\"lichang,xiuWei,id,kithKin<>\",\"<,>,!/,!/\",\"40,200,kithKin<>,1\",100,1,\"4,9\",0,\"lichang,PlayerLove()\",\"5+,5+\",,,行走江湖，当以武会友，<color=#E64D00>a</color>发起挑战，望请赐教，切莫避战。,1520,40,1600,30,2,2"
+  splits:
+  - split: 13
+    text: "行走江湖，当以武会友，"
+  - split: 13
+    subIndex: 1
+    text: "发起挑战，望请赐教，切莫避战。"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}"
+- raw: "20,18,\"love,id,kithKin<>\",\">,!/,!/\",\"10,kithKin<>,1\",100,0,0,0,PlayerLove(),5+,,,<color=#E64D00>a</color>从远处遥望见昔日好友<color=#E64D00>p</color>，片刻间飞奔而至，滔滔不绝之下，与<color=#E64D00>p</color>相谈甚欢。,1410,60,1600,31,2,2"
+  splits:
+  - split: 13
+    text: "从远处遥望见昔日好友"
+  - split: 13
+    subIndex: 1
+    text: "，片刻间飞奔而至，滔滔不绝之下，与"
+  - split: 13
+    subIndex: 2
+    text: "相谈甚欢。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "21,19,\"love,id,kithKin<>\",\"<,!/,!/\",\"-49,kithKin<>,1\",100,0,\"4,10\",0,\"lichang,PlayerLove()\",\"5-,5-\",,,<color=#E64D00>a</color>发现了仇家<color=#E64D00>p</color>的行踪，从远处拔出刀冲向<color=#E64D00>p</color>，与<color=#E64D00>p</color>死命相搏。,1420,60,1600,32,1,2"
+  splits:
+  - split: 13
+    text: "发现了仇家"
+  - split: 13
+    subIndex: 1
+    text: "的行踪，从远处拔出刀冲向"
+  - split: 13
+    subIndex: 2
+    text: "，与"
+  - split: 13
+    subIndex: 3
+    text: "死命相搏。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "22,20,\"love,id,kithKin<>\",\"<,!/,!/\",\"-30,kithKin<>,1\",100,0,\"4,10\",0,\"lichang,PlayerLove()\",\"5-,5-\",,,与<color=#E64D00>p</color>素有仇怨的<color=#E64D00>a</color>当街横在<color=#E64D00>p</color>面前，指着<color=#E64D00>p</color>向街坊邻居大肆辱骂了起来。,1430,60,1600,33,1,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "素有仇怨的"
+  - split: 13
+    subIndex: 2
+    text: "当街横在"
+  - split: 13
+    subIndex: 3
+    text: "面前，指着"
+  - split: 13
+    subIndex: 4
+    text: "向街坊邻居大肆辱骂了起来。"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}<color=#E64D00>p</color>{4}"
+- raw: "23,21,\"love,100,id,kithKin<>\",\"<,<,!/,!/\",\"-10,sliver,kithKin<>,1\",100,0,\"4,10\",0,\"goldCoin,100-\",\"100+,sliver\",,,对<color=#E64D00>p</color>怀恨在心的<color=#E64D00>a</color>暗中跟踪<color=#E64D00>p</color>，趁<color=#E64D00>p</color>不备，悄然偷窃了<color=#E64D00>p</color>钱财。,1440,60,1600,40,1,2"
+  splits:
+  - split: 13
+    text: "对"
+  - split: 13
+    subIndex: 1
+    text: "怀恨在心的"
+  - split: 13
+    subIndex: 2
+    text: "暗中跟踪"
+  - split: 13
+    subIndex: 3
+    text: "，趁"
+  - split: 13
+    subIndex: 4
+    text: "不备，悄然偷窃了"
+  - split: 13
+    subIndex: 5
+    text: "钱财。"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}<color=#E64D00>p</color>{4}<color=#E64D00>p</color>{5}"
+- raw: "24,22,\"relationship,JiaoQing<JinLan>\",\"//,//\",\"1,1\",100,0,\"4,10\",0,PlayerLove(),5+,,,<color=#E64D00>a</color>听闻金兰好友<color=#E64D00>p</color>在此地行走，特意赶来与<color=#E64D00>p</color>相聚，将附近江湖之事尽数告知于<color=#E64D00>p</color>。,1450,60,1600,40,2,2"
+  splits:
+  - split: 13
+    text: "听闻金兰好友"
+  - split: 13
+    subIndex: 1
+    text: "在此地行走，特意赶来与"
+  - split: 13
+    subIndex: 2
+    text: "相聚，将附近江湖之事尽数告知于"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>。"
+- raw: "25,23,\"relationship,JiaoQing<JuanLv>\",\"//,//\",\"2,1\",100,0,\"4,10\",0,\"PlayerLove(),energy\",\"8+,5-\",,,<color=#E64D00>a</color>听闻红颜眷侣<color=#E64D00>p</color>在此处，思念甚厚，特来寻<color=#E64D00>p</color>相聚片刻。,1460,60,1600,41,2,2"
+  splits:
+  - split: 13
+    text: "听闻红颜眷侣"
+  - split: 13
+    subIndex: 1
+    text: "在此处，思念甚厚，特来寻"
+  - split: 13
+    subIndex: 2
+    text: "相聚片刻。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "26,24,\"relationship,JiaoQing<PeiOu>\",\"//,//\",\"3,1\",100,0,\"4,10\",0,PlayerLove(),5+,,,与<color=#E64D00>p</color>万分恩爱的<color=#E64D00>a</color>倍感思念，特来寻<color=#E64D00>p</color>相聚片刻。,1470,60,1600,42,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "万分恩爱的"
+  - split: 13
+    subIndex: 2
+    text: "倍感思念，特来寻"
+  - split: 13
+    subIndex: 3
+    text: "相聚片刻。"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "27,25,\"love,lichang,lichang,54,69,14,kithKin<>,JiaoQing<ChouDi>\",\"//,>,<,<,>,>,!/,!/\",\"0,54,69,lichang,lichang,friendsSan,1,1\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>听闻与<color=#E64D00>p</color>立场相近，特来相谈。,210010,60,1600,30,2,2"
+  splits:
+  - split: 13
+    text: "听闻与"
+  - split: 13
+    subIndex: 1
+    text: "立场相近，特来相谈。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "28,26,\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,64\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>从远处遥望见知交老友<color=#E64D00>p</color>，片刻间飞奔而至。,210020,60,1600,31,2,2"
+  splits:
+  - split: 13
+    text: "从远处遥望见知交老友"
+  - split: 13
+    subIndex: 1
+    text: "，片刻间飞奔而至。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "29,27,\"love,age,kithKin<>,JiaoQing<ChouDi>\",\">,>,!/,!/\",\"59,44,1,1\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>听闻相交许久的后生晚辈<color=#E64D00>p</color>于此地走动，特来相谈。,210030,60,1600,15,2,2"
+  splits:
+  - split: 13
+    text: "听闻相交许久的后生晚辈"
+  - split: 13
+    subIndex: 1
+    text: "于此地走动，特来相谈。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "30,28,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,28,45\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,49,28,45,lichang,lichang\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……,210040,60,1600,10,2,2"
+  splits:
+  - split: 13
+    text: "对"
+  - split: 13
+    subIndex: 1
+    text: "暗生情愫，心下暗许……"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "31,29,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,44,61\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,49,44,61,lichang,lichang\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……,210040,60,1600,20,2,2"
+  splits:
+  - split: 13
+    text: "对"
+  - split: 13
+    subIndex: 1
+    text: "暗生情愫，心下暗许……"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "32,30,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,60,77\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,49,60,77,lichang,lichang\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……,210040,60,1600,20,2,2"
+  splits:
+  - split: 13
+    text: "对"
+  - split: 13
+    subIndex: 1
+    text: "暗生情愫，心下暗许……"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+- raw: "33,31,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,28,45\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,69,28,45,lichang,lichang\",100,0,\"4,10\",0,,,,,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹……,210050,60,1600,40,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "互有好感多时的"
+  - split: 13
+    subIndex: 2
+    text: "决意向"
+  - split: 13
+    subIndex: 3
+    text: "表明心迹……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "34,32,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,44,61\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,69,44,61,lichang,lichang\",100,0,\"4,10\",0,,,,,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹……,210050,60,1600,41,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "互有好感多时的"
+  - split: 13
+    subIndex: 2
+    text: "决意向"
+  - split: 13
+    subIndex: 3
+    text: "表明心迹……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "35,33,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,60,77\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,69,60,77,lichang,lichang\",100,0,\"4,10\",0,,,,,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹……,210050,60,1600,42,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "互有好感多时的"
+  - split: 13
+    subIndex: 2
+    text: "决意向"
+  - split: 13
+    subIndex: 3
+    text: "表明心迹……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "36,34,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,28,45\",\"!/,!/,//,>,>,<,<,>\",\"sex,1,1,79,28,45,lichang,lichang\",100,0,\"4,10\",0,,,,,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意……,210060,60,1600,43,2,2"
+  splits:
+  - split: 13
+    text: "柔情无限之际，"
+  - split: 13
+    subIndex: 1
+    text: "向"
+  - split: 13
+    subIndex: 2
+    text: "提出成婚之意……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "37,35,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,44,61\",\"!/,!/,//,>,>,<,<,>\",\"sex,1,1,79,44,61,lichang,lichang\",100,0,\"4,10\",0,,,,,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意……,210060,60,1600,44,2,2"
+  splits:
+  - split: 13
+    text: "柔情无限之际，"
+  - split: 13
+    subIndex: 1
+    text: "向"
+  - split: 13
+    subIndex: 2
+    text: "提出成婚之意……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "38,36,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,60,77\",\"!/,!/,//,>,>,<,<,>\",\"sex,1,1,79,60,77,lichang,lichang\",100,0,\"4,10\",0,,,,,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意……,210060,60,1600,45,2,2"
+  splits:
+  - split: 13
+    text: "柔情无限之际，"
+  - split: 13
+    subIndex: 1
+    text: "向"
+  - split: 13
+    subIndex: 2
+    text: "提出成婚之意……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "39,37,\"sex,JiaoQing<PeiOu>,love\",\"!/,//,<\",\"sex,1,0\",100,0,\"4,10\",0,,,,,恩怨几许，痴燕纷飞，<color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘。,210070,60,1600,50,1,2"
+  splits:
+  - split: 13
+    text: "恩怨几许，痴燕纷飞，"
+  - split: 13
+    subIndex: 1
+    text: "心怀不满，决意断绝与"
+  - split: 13
+    subIndex: 2
+    text: "之姻缘。"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "40,38,\"love,id,kithKin<>,3600\",\"<,!/,!/,<\",\"1,kithKin<>,1,gameTime\",100,0,\"3,11\",0,,,,,一行踪诡异之人拦路而出，欲行不轨之事……,210080,80,2880,40,1,2"
+  splits:
+  - split: 13
+    text: "一行踪诡异之人拦路而出，欲行不轨之事……"
+- raw: "41,39,\"love,id,kithKin<>,goldCoin,JiaoQing<ChouDi>,999\",\">,!/,!/,<,!/,<\",\"-1,kithKin<>,1,100,1,sliver\",100,0,\"3,11\",0,,,,,本地一憔悴旅者，听闻本地有声望兴隆的大侠客，特来寻求施舍帮助……,210100,80,2880,40,1,2"
+  splits:
+  - split: 13
+    text: "本地一憔悴旅者，听闻本地有声望兴隆的大侠客，特来寻求施舍帮助……"
+- raw: "42,40,\"love,id,kithKin<>,3600\",\"<,!/,!/,<\",\"1,kithKin<>,1,gameTime\",100,0,\"3,11\",0,,,,,路旁偶有狂妄骄纵之徒，四处叫嚣，寻衅滋事……,210110,80,2880,40,1,2"
+  splits:
+  - split: 13
+    text: "路旁偶有狂妄骄纵之徒，四处叫嚣，寻衅滋事……"
+- raw: "43,41,\"id,kithKin<>,JiaoQing<ChouDi>\",\"!/,!/,!/\",\"kithKin<>,1,1\",100,0,\"3,11\",0,,,,,有消息称，有一神秘人物惊现街头，兜售江湖失传多载的神功秘籍……,210130,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "有消息称，有一神秘人物惊现街头，兜售江湖失传多载的神功秘籍……"
+- raw: "44,42,\"id,kithKin<>,JiaoQing<ChouDi>,attribute\",\"!/,!/,!/,>\",\"kithKin<>,1,1,5\",100,0,\"3,11\",0,,,,,闻听有一古怪之人在此地驻足……,210140,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "闻听有一古怪之人在此地驻足……"
+- raw: "45,43,\"id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,//\",\"kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,传闻此处有人贩卖神丹妙药……,210150,80,4320,0,1,2"
+  splits:
+  - split: 13
+    text: "传闻此处有人贩卖神丹妙药……"
+- raw: "46,44,\"JiaoQing<ShiFu>,kithKin<>,JiaoQing<ChouDi>,attribute\",\"<,!/,!/,<\",\"1,1,1,attribute\",100,0,\"3,11\",0,,,,,对<color=#E64D00>p</color>之才学钦佩已久的<color=#E64D00>a</color>决定拜<color=#E64D00>p</color>为师。,210160,80,7200,40,2,2"
+  splits:
+  - split: 13
+    text: "对"
+  - split: 13
+    subIndex: 1
+    text: "之才学钦佩已久的"
+  - split: 13
+    subIndex: 2
+    text: "决定拜"
+  - split: 13
+    subIndex: 3
+    text: "为师。"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "47,45,\"1,kithKin<>,JiaoQing<ChouDi>,attribute\",\">,!/,!/,>\",\"JiaoQing<ShiFu>,1,1,attribute\",100,0,\"3,11\",0,,,,,武学宗师<color=#E64D00>a</color>欲要收徒……,210170,80,14400,5,2,2"
+  splits:
+  - split: 13
+    text: "武学宗师"
+  - split: 13
+    subIndex: 1
+    text: "欲要收徒……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}"
+- raw: "48,46,\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,64\",100,0,\"3,11\",0,,,,,与<color=#E64D00>p</color>情谊日深的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明结交金兰之意……,210180,80,7200,15,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "情谊日深的"
+  - split: 13
+    subIndex: 2
+    text: "决意向"
+  - split: 13
+    subIndex: 3
+    text: "表明结交金兰之意……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "49,47,\"id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,>\",\"kithKin<>,1,1,29\",100,0,\"3,11\",0,,,,,与<color=#E64D00>p</color>相识已久的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明结为知交之意……,210190,80,7200,15,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "相识已久的"
+  - split: 13
+    subIndex: 2
+    text: "决意向"
+  - split: 13
+    subIndex: 3
+    text: "表明结为知交之意……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "50,48,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,!/,!/,//\",\"1,sex,kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>偶遇才子，心向往之，欲与之结交相识……,210200,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "偶遇才子，心向往之，欲与之结交相识……"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}"
+- raw: "51,49,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,!/,!/,//\",\"1,sex,kithKin<>,1,1,19\",100,0,\"3,11\",0,,,,,与才子相识已久的<color=#E64D00>a</color>决意向其表明心迹……,210210,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "与才子相识已久的"
+  - split: 13
+    subIndex: 1
+    text: "决意向其表明心迹……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}"
+- raw: "52,50,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"//,!/,!/,!/,!/,>\",\"1,sex,kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>偶遇佳人，心向往之，欲与之结交相识……,210220,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "偶遇佳人，心向往之，欲与之结交相识……"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}"
+- raw: "53,51,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"//,!/,!/,!/,!/,>\",\"1,sex,kithKin<>,1,1,19\",100,0,\"3,11\",0,,,,,与佳人相识已久的<color=#E64D00>a</color>决意向其表明心迹……,210230,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "与佳人相识已久的"
+  - split: 13
+    subIndex: 1
+    text: "决意向其表明心迹……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>a</color>{1}"
+- raw: "54,52,\"JiaoQing<ShiFu>,love\",\"//,>\",\"1,19\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>听闻师父<color=#E64D00>p</color>在此处，思念甚厚，特来寻<color=#E64D00>p</color>相聚片刻。,210240,80,2880,40,2,2"
+  splits:
+  - split: 13
+    text: "听闻师父"
+  - split: 13
+    subIndex: 1
+    text: "在此处，思念甚厚，特来寻"
+  - split: 13
+    subIndex: 2
+    text: "相聚片刻。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "55,53,\"JiaoQing<TuDi>,love\",\"//,>\",\"1,19\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>听闻徒弟<color=#E64D00>p</color>在此处，担心徒儿修行险阻，特来寻<color=#E64D00>p</color>为其排忧解难。,210250,80,2880,40,2,2"
+  splits:
+  - split: 13
+    text: "听闻徒弟"
+  - split: 13
+    subIndex: 1
+    text: "在此处，担心徒儿修行险阻，特来寻"
+  - split: 13
+    subIndex: 2
+    text: "为其排忧解难。"
+  templates:
+  - split: 13
+    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+- raw: "56,54,\"love,id,kithKin<>,age,attribute\",\">,!/,!/,<,<\",\"-1,kithKin<>,1,30,attribute\",100,0,\"3,11\",0,,,,,崇拜<color=#E64D00>p</color>许久的后生晚辈<color=#E64D00>a</color>，闻听<color=#E64D00>p</color>在此处，特来拜访……,210260,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "崇拜"
+  - split: 13
+    subIndex: 1
+    text: "许久的后生晚辈"
+  - split: 13
+    subIndex: 2
+    text: "，闻听"
+  - split: 13
+    subIndex: 3
+    text: "在此处，特来拜访……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+- raw: "57,55,\"love,id,kithKin<>\",\">,!/,!/\",\"49,kithKin<>,1\",100,0,\"3,11\",0,PlayerLove(),8+,,,与<color=#E64D00>p</color>情谊日深的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>提出结伴同行江湖之意……,210270,80,4320,40,2,2"
+  splits:
+  - split: 13
+    text: "与"
+  - split: 13
+    subIndex: 1
+    text: "情谊日深的"
+  - split: 13
+    subIndex: 2
+    text: "决意向"
+  - split: 13
+    subIndex: 3
+    text: "提出结伴同行江湖之意……"
+  templates:
+  - split: 13
+    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
