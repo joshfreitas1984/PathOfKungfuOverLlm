@@ -247,7 +247,7 @@
   splits:
   - split: 4
     text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有{firstName}{playerTitle}相助，否则也不知道果果会多伤心......"
-    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {firstName}{playerTitle}'s help, who knows how upset Guoguo would have been..."
+    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {playerTitle} {firstName}'s help, who knows how upset Guoguo would have been..."
     tokens:
       firstName:
         source: "<fName>"
@@ -359,7 +359,7 @@
   splits:
   - split: 4
     text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有{firstName}{playerTitle}相助，否则也不知道果果会多伤心......"
-    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {firstName}{playerTitle}'s help, who knows how upset Guoguo would have been..."
+    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {playerTitle} {firstName}'s help, who knows how upset Guoguo would have been..."
     tokens:
       firstName:
         source: "<fName>"
@@ -413,7 +413,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你来啦！"
-    translated: "{firstName}{playerTitle}, you're here!"
+    translated: "{playerTitle} {firstName}, you're here!"
     tokens:
       firstName:
         source: "<fName>"
@@ -463,7 +463,7 @@
   splits:
   - split: 4
     text: "……{firstName}{playerTitle}，此间逢变，已再非安居之处，还是速离此地罢……"
-    translated: "......{firstName}{playerTitle}, with changes afoot, this place is no longer safe. It's best to leave quickly......"
+    translated: "......{playerTitle} {firstName}, with changes afoot, this place is no longer safe. It's best to leave quickly......"
     tokens:
       firstName:
         source: "<fName>"
@@ -639,7 +639,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，自承安一别，咱们可许久未见了。"
-    translated: "{firstName}{playerTitle}, since our parting in An City, it has been a long time since we've met."
+    translated: "{playerTitle} {firstName}, since our parting in An City, it has been a long time since we've met."
     tokens:
       firstName:
         source: "<fName>"
@@ -826,7 +826,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，可寻见了燕大侠么？"
-    translated: "{firstName}{playerTitle}, have you found Great Hero Yan?"
+    translated: "{playerTitle} {firstName}, have you found Great Hero Yan?"
     tokens:
       firstName:
         source: "<fName>"
@@ -856,7 +856,7 @@
   splits:
   - split: 4
     text: "咦？{firstName}{playerTitle}，你当真来京城找我跟莲花姐姐啦！"
-    translated: "Hey, {firstName}{playerTitle}, you really came to the Capital City to look for me and Lotus Sister!"
+    translated: "Hey, {playerTitle} {firstName}, you really came to the Capital City to look for me and Lotus Sister!"
     tokens:
       firstName:
         source: "<fName>"
@@ -871,7 +871,7 @@
   splits:
   - split: 4
     text: "如今想来，还是同{firstName}{playerTitle}闯荡江湖更有趣些。"
-    translated: "Now that I think about it, it's still more fun to travel the Jianghu with you, {firstName}{playerTitle}."
+    translated: "Now that I think about it, it's still more fun to travel the Jianghu with you, {playerTitle} {firstName}."
     tokens:
       firstName:
         source: "<fName>"
@@ -1482,7 +1482,7 @@
   splits:
   - split: 4
     text: "张铁兄有我照看，{firstName}{playerTitle}一切放心。"
-    translated: "{firstName}{playerTitle}, Brother Zhang Tie has me to look after him, so you can rest assured about everything."
+    translated: "{playerTitle} {firstName}, Brother Zhang Tie has me to look after him, so you can rest assured about everything."
     tokens:
       firstName:
         source: "<fName>"
@@ -1713,7 +1713,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，好俊身手。"
-    translated: "{firstName}{playerTitle}, you have such fine skills"
+    translated: "{playerTitle} {firstName}, you have such fine skills"
     tokens:
       firstName:
         source: "<fName>"
@@ -1867,7 +1867,7 @@
   splits:
   - split: 4
     text: "总舵有吴长老操持着，我亦放心得很。如何？{firstName}{playerTitle}若是不弃，收拾好行李，咱们便一同上路罢？"
-    translated: "With Elder Wu in charge at the main headquarters, I feel very reassured. How about it, {firstName}{playerTitle}? If you're not opposed, pack your things, and let's set off together?"
+    translated: "With Elder Wu in charge at the main headquarters, I feel very reassured. How about it, {playerTitle} {firstName}? If you're not opposed, pack your things, and let's set off together?"
     tokens:
       firstName:
         source: "<fName>"
@@ -1902,7 +1902,7 @@
   splits:
   - split: 4
     text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，{firstName}{playerTitle}且忙去！"
-    translated: "Come now, Sihai is a lazybones who can wait anywhere-you know, just catch a few winks-{firstName}{playerTitle} had better get to work!"
+    translated: "Come now, Sihai is a lazybones who can wait anywhere-you know, just catch a few winks-{playerTitle} {firstName} had better get to work!"
     tokens:
       firstName:
         source: "<fName>"
@@ -2102,7 +2102,7 @@
   splits:
   - split: 4
     text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳{firstName}{playerTitle}多多照拂了。"
-    translated: "My grandson may be clever and outwardly gentle, but his heart is fiery within. If he is to venture into the Jianghu, I entrust him to your care, {firstName}{playerTitle}."
+    translated: "My grandson may be clever and outwardly gentle, but his heart is fiery within. If he is to venture into the Jianghu, I entrust him to your care, {playerTitle} {firstName}."
     tokens:
       firstName:
         source: "<fName>"
@@ -2137,7 +2137,7 @@
   splits:
   - split: 4
     text: "此事，便有劳{firstName}{playerTitle}了。"
-    translated: "This matter will depend on you, {firstName} {playerTitle}."
+    translated: "This matter will depend on you, {playerTitle} {firstName}."
     tokens:
       firstName:
         source: "<fName>"
@@ -2277,7 +2277,7 @@
   splits:
   - split: 4
     text: "我留于此处探查周遭，{firstName}{playerTitle}，你将此间之事禀与门主，且看他作何想法。"
-    translated: "I will stay here to investigate, {firstName}{playerTitle}, you report what has happened to the Sect Leader, and see what he thinks."
+    translated: "I will stay here to investigate, {playerTitle} {firstName}, you report what has happened to the Sect Leader, and see what he thinks."
     tokens:
       firstName:
         source: "<fName>"
@@ -2292,7 +2292,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，往后若有何需，径来寻我便是。"
-    translated: "{firstName}{playerTitle}, if you ever need anything in the future, come and find me directly."
+    translated: "{playerTitle} {firstName}, if you ever need anything in the future, come and find me directly."
     tokens:
       firstName:
         source: "<fName>"
@@ -2327,7 +2327,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你之大名，如今可是已然传遍本门了。"
-    translated: "{firstName}{playerTitle}, your name has now spread throughout our sect."
+    translated: "{playerTitle} {firstName}, your name has now spread throughout our sect."
     tokens:
       firstName:
         source: "<fName>"
@@ -2415,7 +2415,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
-    translated: "{firstName}{playerTitle}, Li Mou has always been a man of his word. If you need anything in the future, all of Daqi Sect will be at your service."
+    translated: "{playerTitle} {firstName}, Li Mou has always been a man of his word. If you need anything in the future, all of Daqi Sect will be at your service."
     tokens:
       firstName:
         source: "<fName>"
@@ -2565,7 +2565,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
-    translated: "{firstName}{playerTitle}, thanks to your help with the matter in Luoyang, we truly couldn't have overturned Ci Hong... Fortunately, our mission was successful. When you have time, come to Luoyang and visit more often!"
+    translated: "{playerTitle} {firstName}, thanks to your help with the matter in Luoyang, we truly couldn't have overturned Ci Hong... Fortunately, our mission was successful. When you have time, come to Luoyang and visit more often!"
     tokens:
       firstName:
         source: "<fName>"
@@ -2610,7 +2610,7 @@
   splits:
   - split: 4
     text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，{firstName}{playerTitle}瞧见没？"
-    translated: "Great, great! What was that word again... Reveal, reveal the truth! Beneath the big Buddha in town, there's a new stele. Did you see it, {firstName}{playerTitle}?"
+    translated: "Great, great! What was that word again... Reveal, reveal the truth! Beneath the big Buddha in town, there's a new stele. Did you see it, {playerTitle} {firstName}?"
     tokens:
       firstName:
         source: "<fName>"
@@ -3004,7 +3004,7 @@
   splits:
   - split: 4
     text: "……此事卯雅尚需仔细思量，{firstName}{playerTitle}，多谢了。"
-    translated: "...I still need to think carefully about this, {firstName}{playerTitle}, thank you."
+    translated: "...I still need to think carefully about this, {playerTitle} {firstName}, thank you."
     tokens:
       firstName:
         source: "<fName>"
@@ -3082,7 +3082,7 @@
   splits:
   - split: 4
     text: "卯雅教务繁忙，若此后想再同{firstName}{playerTitle}说话儿，自会托人相请。"
-    translated: "Mao Ya is busy with her duties; if she wishes to speak with you, {firstName}{playerTitle}, again in the future, she will have someone invite you."
+    translated: "Mao Ya is busy with her duties; if she wishes to speak with you, {playerTitle} {firstName}, again in the future, she will have someone invite you."
     tokens:
       firstName:
         source: "<fName>"
@@ -3097,7 +3097,7 @@
   splits:
   - split: 4
     text: "卯雅教务繁忙，若此后想再同{firstName}{playerTitle}说话儿，自会托人相请。"
-    translated: "Mao Ya is busy with her duties; if she wishes to speak with you, {firstName}{playerTitle}, again in the future, she will have someone invite you."
+    translated: "Mao Ya is busy with her duties; if she wishes to speak with you, {playerTitle} {firstName}, again in the future, she will have someone invite you."
     tokens:
       firstName:
         source: "<fName>"
@@ -3112,7 +3112,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，芸儿还没求过人，但不知{playerTitle}能否帮芸儿……阻住爹爹？"
-    translated: "{firstName}{playerTitle}, Yun'er has never asked for help before, but I wonder if {playerTitle} could help me... stop Father?"
+    translated: "{playerTitle} {firstName}, Yun'er has never asked for help before, but I wonder if {playerTitle} could help me... stop Father?"
     tokens:
       firstName:
         source: "<fName>"
@@ -3150,7 +3150,7 @@
   splits:
   - split: 4
     text: "谢谢{firstName}{playerTitle}……芸儿……知晓该怎么做了。"
-    translated: "Thank you so much, {firstName} {playerTitle}......Yun'er......I know what to do now."
+    translated: "Thank you so much, {playerTitle} {firstName}......Yun'er......I know what to do now."
     tokens:
       firstName:
         source: "<fName>"
@@ -3165,7 +3165,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你来啦。"
-    translated: "{firstName}{playerTitle}, you're here"
+    translated: "{playerTitle} {firstName}, you're here"
     tokens:
       firstName:
         source: "<fName>"
@@ -3180,7 +3180,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，花山节之事，多亏你啦！"
-    translated: "{firstName}{playerTitle}, thanks to you, the Huashan Festival was a success!"
+    translated: "{playerTitle} {firstName}, thanks to you, the Huashan Festival was a success!"
     tokens:
       firstName:
         source: "<fName>"
@@ -3268,7 +3268,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，别来无恙。"
-    translated: "{firstName}{playerTitle}, everything is fine"
+    translated: "{playerTitle} {firstName}, everything is fine"
     tokens:
       firstName:
         source: "<fName>"
@@ -3283,7 +3283,7 @@
   splits:
   - split: 4
     text: "花山节虽小，然于苗地，功在千秋……{firstName}{playerTitle}，多谢了。"
-    translated: "Though Huashan Festival is small, it holds great significance for the Miao people... {firstName}{playerTitle}, thank you."
+    translated: "Though Huashan Festival is small, it holds great significance for the Miao people... {playerTitle} {firstName}, thank you."
     tokens:
       firstName:
         source: "<fName>"
@@ -3385,7 +3385,7 @@
   splits:
   - split: 4
     text: "千蛛一族难离半步，{firstName}{playerTitle}，可否同我说说……这花山节……当真有他们说的那般好玩么？"
-    translated: "The Spider Clan is hard to leave behind, {firstName}{playerTitle}. Could you tell me about... the Flower Mountain Festival... is it really as fun as they say?"
+    translated: "The Spider Clan is hard to leave behind, {playerTitle} {firstName}. Could you tell me about... the Flower Mountain Festival... is it really as fun as they say?"
     tokens:
       firstName:
         source: "<fName>"
@@ -3450,7 +3450,7 @@
   splits:
   - split: 4
     text: "{lastName}{playerTitle}，我这妹妹之后便托付给你了……"
-    translated: "{lastName}{playerTitle}, I entrust my younger sister to you from now on......"
+    translated: "{playerTitle} {lastName}, I entrust my younger sister to you from now on......"
     tokens:
       lastName:
         source: "<lName>"
@@ -3465,7 +3465,7 @@
   splits:
   - split: 4
     text: "{lastName}{playerTitle}，日后若是得空，可带凝紫再回教中探望……"
-    translated: "{lastName}{playerTitle}, if you have time in the future, you may bring Ningzi to visit the temple again......"
+    translated: "{playerTitle} {lastName}, if you have time in the future, you may bring Ningzi to visit the temple again......"
     tokens:
       lastName:
         source: "<lName>"
@@ -3826,7 +3826,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，咱们这便走么？"
-    translated: "{firstName}{playerTitle}, shall we go now?"
+    translated: "{playerTitle} {firstName}, shall we go now?"
     tokens:
       firstName:
         source: "<fName>"
@@ -3851,7 +3851,7 @@
   splits:
   - split: 4
     text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-    translated: "It's no trouble, {firstName} {playerTitle}. If you're not busy, we'll stay here. Should you need us, come anytime."
+    translated: "It's no trouble, {playerTitle} {firstName}. If you're not busy, we'll stay here. Should you need us, come anytime."
     tokens:
       firstName:
         source: "<fName>"
@@ -3866,7 +3866,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，咱们这便走么？"
-    translated: "{firstName}{playerTitle}, shall we go now?"
+    translated: "{playerTitle} {firstName}, shall we go now?"
     tokens:
       firstName:
         source: "<fName>"
@@ -3891,7 +3891,7 @@
   splits:
   - split: 4
     text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-    translated: "It's no trouble, {firstName} {playerTitle}. If you're not busy, we'll stay here. Should you need us, come anytime."
+    translated: "It's no trouble, {playerTitle} {firstName}. If you're not busy, we'll stay here. Should you need us, come anytime."
     tokens:
       firstName:
         source: "<fName>"
@@ -3906,7 +3906,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，咱们这便走么？"
-    translated: "{firstName}{playerTitle}, shall we go now?"
+    translated: "{playerTitle} {firstName}, shall we go now?"
     tokens:
       firstName:
         source: "<fName>"
@@ -3931,7 +3931,7 @@
   splits:
   - split: 4
     text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-    translated: "It's no trouble, {firstName} {playerTitle}. If you're not busy, we'll stay here. Should you need us, come anytime."
+    translated: "It's no trouble, {playerTitle} {firstName}. If you're not busy, we'll stay here. Should you need us, come anytime."
     tokens:
       firstName:
         source: "<fName>"

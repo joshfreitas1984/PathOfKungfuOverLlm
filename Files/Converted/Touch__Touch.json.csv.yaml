@@ -25036,7 +25036,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}此事待以后再议……我还是放心不下我爹，我还是再寻寻我爹。"
-    translated: "{firstName}{playerTitle}, this matter will have to wait for another time... I still can't rest easy about my father; I must look for him again."
+    translated: "{playerTitle} {firstName}, this matter will have to wait for another time... I still can't rest easy about my father; I must look for him again."
     tokens:
       firstName:
         source: "<fName>"
@@ -25081,7 +25081,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}！你回来了！可曾在地窖中发现些什么？"
-    translated: "{firstName}{playerTitle}! You're back! Did you find anything in the cellar?"
+    translated: "{playerTitle} {firstName}! You're back! Did you find anything in the cellar?"
     tokens:
       firstName:
         source: "<fName>"
@@ -25101,7 +25101,7 @@
   splits:
   - split: 4
     text: "那便辛苦{firstName}{playerTitle}再走一趟！"
-    translated: "Then please trouble you, {firstName}{playerTitle}, to make another trip!"
+    translated: "Then please trouble you, {playerTitle} {firstName}, to make another trip!"
     tokens:
       firstName:
         source: "<fName>"
@@ -25188,7 +25188,7 @@
   splits:
   - split: 4
     text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有{firstName}{playerTitle}相助，否则也不知道果果会多伤心......"
-    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {firstName}{playerTitle}'s help, who knows how sad Guoguo would have been..."
+    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {playerTitle} {firstName}'s help, who knows how sad Guoguo would have been..."
     tokens:
       firstName:
         source: "<fName>"
@@ -25300,7 +25300,7 @@
   splits:
   - split: 4
     text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有{firstName}{playerTitle}相助，否则也不知道果果会多伤心......"
-    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {firstName}{playerTitle}'s help, who knows how sad Guoguo would have been..."
+    translated: "Those three children are so mischievous, bullying Guoguo again! Thanks to {playerTitle} {firstName}'s help, who knows how sad Guoguo would have been..."
     tokens:
       firstName:
         source: "<fName>"
@@ -25354,7 +25354,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你来啦！"
-    translated: "{firstName}{playerTitle}, you're here!"
+    translated: "{playerTitle} {firstName}, you're here!"
     tokens:
       firstName:
         source: "<fName>"
@@ -25770,7 +25770,7 @@
   splits:
   - split: 4
     text: "……{firstName}{playerTitle}，此间逢变，已再非安居之处，还是速离此地罢……"
-    translated: "......{firstName}{playerTitle}, with changes afoot, this place is no longer safe. It's best to leave quickly......"
+    translated: "......{playerTitle} {firstName}, with changes afoot, this place is no longer safe. It's best to leave quickly......"
     tokens:
       firstName:
         source: "<fName>"
@@ -25891,7 +25891,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}侠气血不顺，似心有郁结，是在为何事烦恼？"
-    translated: "{firstName}{playerTitle} Hero, your lifeforce feels unbalanced, as if you have something on your mind. What troubles you?"
+    translated: "{playerTitle} {firstName} Hero, your lifeforce feels unbalanced, as if you have something on your mind. What troubles you?"
     tokens:
       firstName:
         source: "<fName>"
@@ -26913,7 +26913,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，可寻见了燕大侠么？"
-    translated: "{firstName}{playerTitle}, have you found Great Hero Yan?"
+    translated: "{playerTitle} {firstName}, have you found Great Hero Yan?"
     tokens:
       firstName:
         source: "<fName>"
@@ -26928,7 +26928,7 @@
   splits:
   - split: 4
     text: "可惜小七本领低微，若能助{firstName}{playerTitle}手刃连天明，那才解气！"
-    translated: "Alas, Xiao Qi's skills are limited. If only she could help {firstName} {playerTitle} slay Lian Tianming with her own hands; that would truly be satisfying!"
+    translated: "Alas, Xiao Qi's skills are limited. If only she could help {playerTitle} {firstName} slay Lian Tianming with her own hands; that would truly be satisfying!"
     tokens:
       firstName:
         source: "<fName>"
@@ -26943,7 +26943,7 @@
   splits:
   - split: 4
     text: "咦？{firstName}{playerTitle}，你当真来京城找我跟莲花姐姐啦！"
-    translated: "Hey, {firstName}{playerTitle}, you really came to the Capital City to look for me and Lotus Sister!"
+    translated: "Hey, {playerTitle} {firstName}, you really came to the Capital City to look for me and Lotus Sister!"
     tokens:
       firstName:
         source: "<fName>"
@@ -26958,7 +26958,7 @@
   splits:
   - split: 4
     text: "如今想来，还是同{firstName}{playerTitle}闯荡江湖更有趣些。"
-    translated: "Now that I think about it, it's still more fun to travel the Jianghu with you, {firstName}{playerTitle}."
+    translated: "Now that I think about it, it's still more fun to travel the Jianghu with you, {playerTitle} {firstName}."
     tokens:
       firstName:
         source: "<fName>"
@@ -27008,7 +27008,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你我诺言，南宫莲谨记于心。"
-    translated: "{firstName}{playerTitle}, Nangong Lian remembers our promise in her heart."
+    translated: "{playerTitle} {firstName}, Nangong Lian remembers our promise in her heart."
     tokens:
       firstName:
         source: "<fName>"
@@ -27269,7 +27269,7 @@
   splits:
   - split: 4
     text: "总舵有吴长老操持着，我亦放心得很。如何？{firstName}{playerTitle}若是不弃，收拾好行李，咱们便一同上路罢？"
-    translated: "With Elder Wu in charge at the main headquarters, I feel very reassured. How about it, {firstName}{playerTitle}? If you're not opposed, pack your things, and let's set off together?"
+    translated: "With Elder Wu in charge at the main headquarters, I feel very reassured. How about it, {playerTitle} {firstName}? If you're not opposed, pack your things, and let's set off together?"
     tokens:
       firstName:
         source: "<fName>"
@@ -27304,7 +27304,7 @@
   splits:
   - split: 4
     text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，{firstName}{playerTitle}且忙去！"
-    translated: "Come now, Sihai is a lazybones who can wait anywhere-you know, just catch a few winks-{firstName}{playerTitle} should get to work!"
+    translated: "Come now, Sihai is a lazybones who can wait anywhere-you know, just catch a few winks-{playerTitle} {firstName} should get to work!"
     tokens:
       firstName:
         source: "<fName>"
@@ -27711,7 +27711,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，嵩阳蒙你大恩，无以……无以为报！"
-    translated: "{firstName}{playerTitle}, Songyang is deeply grateful for your kindness, and has nothing... nothing to offer in return!"
+    translated: "{playerTitle} {firstName}, Songyang is deeply grateful for your kindness, and has nothing... nothing to offer in return!"
     tokens:
       firstName:
         source: "<fName>"
@@ -28653,7 +28653,7 @@
   splits:
   - split: 4
     text: "原来是{firstName}{playerTitle}，今日又想寻老夫谈些什么？"
-    translated: "Turns out it's you, {firstName} {playerTitle}. What do you wish to discuss with old man today?"
+    translated: "Turns out it's you, {playerTitle} {firstName}. What do you wish to discuss with old man today?"
     tokens:
       firstName:
         source: "<fName>"
@@ -28803,7 +28803,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，自承安一别，咱们可许久未见了。"
-    translated: "{firstName}{playerTitle}, since our parting in An City, it has been a long time since we've met."
+    translated: "{playerTitle} {firstName}, since our parting in An City, it has been a long time since we've met."
     tokens:
       firstName:
         source: "<fName>"
@@ -28894,7 +28894,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang in Su Bei. This spared me from running around, and those elders in the sect can finally stop complaining. Although Si Hai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, I will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang in Su Bei. This spared me from running around, and those elders in the sect can finally stop complaining. Although Si Hai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, I will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -32902,7 +32902,7 @@
   splits:
   - split: 4
     text: "张铁兄有我照看，{firstName}{playerTitle}一切放心。"
-    translated: "{firstName}{playerTitle}, Brother Zhang Tie has me to look after him, so you can rest assured about everything."
+    translated: "{playerTitle} {firstName}, Brother Zhang Tie has me to look after him, so you can rest assured about everything."
     tokens:
       firstName:
         source: "<fName>"
@@ -34821,7 +34821,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，好俊身手。"
-    translated: "{firstName}{playerTitle}, you have such fine skills"
+    translated: "{playerTitle} {firstName}, you have such fine skills"
     tokens:
       firstName:
         source: "<fName>"
@@ -34889,7 +34889,7 @@
   splits:
   - split: 4
     text: "小老儿已然无恙。{firstName}{playerTitle}，小女此后，可就托付于你了！"
-    translated: "Old man, I am already well. {firstName}{playerTitle}, I entrust my daughter to you from now on!"
+    translated: "Old man, I am already well. {playerTitle} {firstName}, I entrust my daughter to you from now on!"
     tokens:
       firstName:
         source: "<fName>"
@@ -34904,7 +34904,7 @@
   splits:
   - split: 4
     text: "小老儿已然无恙。{firstName}{playerTitle}，小女此后，可就托付于你了！"
-    translated: "Old man, I am already well. {firstName}{playerTitle}, I entrust my daughter to you from now on!"
+    translated: "Old man, I am already well. {playerTitle} {firstName}, I entrust my daughter to you from now on!"
     tokens:
       firstName:
         source: "<fName>"
@@ -36488,7 +36488,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36573,7 +36573,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36588,7 +36588,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36603,7 +36603,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36618,7 +36618,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36633,7 +36633,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36648,7 +36648,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36663,7 +36663,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36678,7 +36678,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36693,7 +36693,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36708,7 +36708,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -36723,7 +36723,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -37457,7 +37457,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，若想姐姐了，记得常回教中瞧瞧。"
-    translated: "{firstName}{playerTitle}, if you miss me, remember to drop by the sect often."
+    translated: "{playerTitle} {firstName}, if you miss me, remember to drop by the sect often."
     tokens:
       firstName:
         source: "<fName>"
@@ -37805,7 +37805,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，我这便要回返教中了，咱们……有缘再会罢。"
-    translated: "{firstName}{playerTitle}, I must now return to the sect. We shall... meet again if fate allows."
+    translated: "{playerTitle} {firstName}, I must now return to the sect. We shall... meet again if fate allows."
     tokens:
       firstName:
         source: "<fName>"
@@ -37982,7 +37982,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，今天可要看你大展身手了。"
-    translated: "{firstName}{playerTitle}, today is when you will truly shine."
+    translated: "{playerTitle} {firstName}, today is when you will truly shine."
     tokens:
       firstName:
         source: "<fName>"
@@ -38187,7 +38187,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，花杆那么高，你要如何爬呀？"
-    translated: "{firstName}{playerTitle}, the bamboo pole is so tall, how do you plan to climb it?"
+    translated: "{playerTitle} {firstName}, the bamboo pole is so tall, how do you plan to climb it?"
     tokens:
       firstName:
         source: "<fName>"
@@ -38202,7 +38202,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，好厉害……"
-    translated: "{firstName}{playerTitle}, so impressive......"
+    translated: "{playerTitle} {firstName}, so impressive......"
     tokens:
       firstName:
         source: "<fName>"
@@ -38242,7 +38242,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}！我以后也要似你这般！"
-    translated: "{firstName}{playerTitle}! I want to be like you someday!"
+    translated: "{playerTitle} {firstName}! I want to be like you someday!"
     tokens:
       firstName:
         source: "<fName>"
@@ -38853,7 +38853,7 @@
   splits:
   - split: 4
     text: "当下花山节还需筹备赛事，{firstName}{playerTitle}不妨在大理与五圣教中多逛一逛。若能多帮些人，花山节也更热闹！"
-    translated: "The Flower Mountain Festival still needs to prepare for the competition, {firstName}{playerTitle}, you might as well wander around Dali and the Wusheng Sect. If you can help more people, the Flower Mountain Festival will be even more lively!"
+    translated: "The Flower Mountain Festival still needs to prepare for the competition, {playerTitle} {firstName}, you might as well wander around Dali and the Wusheng Sect. If you can help more people, the Flower Mountain Festival will be even more lively!"
     tokens:
       firstName:
         source: "<fName>"
@@ -43114,7 +43114,7 @@
   splits:
   - split: 4
     text: "……此事卯雅尚需仔细思量，{firstName}{playerTitle}，多谢了。"
-    translated: "...I still need to think carefully about this, {firstName}{playerTitle}, thank you."
+    translated: "...I still need to think carefully about this, {playerTitle} {firstName}, thank you."
     tokens:
       firstName:
         source: "<fName>"
@@ -43192,7 +43192,7 @@
   splits:
   - split: 4
     text: "卯雅教务繁忙，若此后想再同{firstName}{playerTitle}说话儿，自会托人相请。"
-    translated: "Mao Ya is busy with her duties. If she wishes to speak with you, {firstName}{playerTitle}, again in the future, she will have someone invite you."
+    translated: "Mao Ya is busy with her duties. If she wishes to speak with you, {playerTitle} {firstName}, again in the future, she will have someone invite you."
     tokens:
       firstName:
         source: "<fName>"
@@ -43207,7 +43207,7 @@
   splits:
   - split: 4
     text: "卯雅教务繁忙，若此后想再同{firstName}{playerTitle}说话儿，自会托人相请。"
-    translated: "Mao Ya is busy with her duties. If she wishes to speak with you, {firstName}{playerTitle}, again in the future, she will have someone invite you."
+    translated: "Mao Ya is busy with her duties. If she wishes to speak with you, {playerTitle} {firstName}, again in the future, she will have someone invite you."
     tokens:
       firstName:
         source: "<fName>"
@@ -43222,7 +43222,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，芸儿还没求过人，但不知{playerTitle}能否帮芸儿……阻住爹爹？"
-    translated: "{firstName}{playerTitle}, Yun'er has never asked for help before, but I wonder if {playerTitle} could help me... stop Father?"
+    translated: "{playerTitle} {firstName}, Yun'er has never asked for help before, but I wonder if {playerTitle} could help me... stop Father?"
     tokens:
       firstName:
         source: "<fName>"
@@ -43260,7 +43260,7 @@
   splits:
   - split: 4
     text: "谢谢{firstName}{playerTitle}……芸儿……知晓该怎么做了。"
-    translated: "Thank you so much, {firstName} {playerTitle}......Yun'er......I know what to do now."
+    translated: "Thank you so much, {playerTitle} {firstName}......Yun'er......I know what to do now."
     tokens:
       firstName:
         source: "<fName>"
@@ -43275,7 +43275,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你来啦。"
-    translated: "{firstName}{playerTitle}, you're here"
+    translated: "{playerTitle} {firstName}, you're here"
     tokens:
       firstName:
         source: "<fName>"
@@ -43290,7 +43290,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，花山节之事，多亏你啦！"
-    translated: "{firstName}{playerTitle}, thanks to you, the Huashan Festival was a success!"
+    translated: "{playerTitle} {firstName}, thanks to you, the Huashan Festival was a success!"
     tokens:
       firstName:
         source: "<fName>"
@@ -43378,7 +43378,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，别来无恙。"
-    translated: "{firstName}{playerTitle}, everything is fine"
+    translated: "{playerTitle} {firstName}, everything is fine"
     tokens:
       firstName:
         source: "<fName>"
@@ -43393,7 +43393,7 @@
   splits:
   - split: 4
     text: "花山节虽小，然于苗地，功在千秋……{firstName}{playerTitle}，多谢了。"
-    translated: "Though Huashan Festival is small, it holds great significance for the Miao people... {firstName}{playerTitle}, thank you."
+    translated: "Though Huashan Festival is small, it holds great significance for the Miao people... {playerTitle} {firstName}, thank you."
     tokens:
       firstName:
         source: "<fName>"
@@ -43495,7 +43495,7 @@
   splits:
   - split: 4
     text: "千蛛一族难离半步，{firstName}{playerTitle}，可否同我说说……这花山节……当真有他们说的那般好玩么？"
-    translated: "The Spider Clan is hard to leave behind, {firstName}{playerTitle}. Could you tell me about... the Flower Mountain Festival... Is it really as fun as they say?"
+    translated: "The Spider Clan is hard to leave behind, {playerTitle} {firstName}. Could you tell me about... the Flower Mountain Festival... Is it really as fun as they say?"
     tokens:
       firstName:
         source: "<fName>"
@@ -43711,7 +43711,7 @@
   splits:
   - split: 4
     text: "{lastName}{playerTitle}，我这妹妹之后便托付给你了……"
-    translated: "{lastName}{playerTitle}, I entrust my younger sister to you from now on......"
+    translated: "{playerTitle} {lastName}, I entrust my younger sister to you from now on......"
     tokens:
       lastName:
         source: "<lName>"
@@ -43726,7 +43726,7 @@
   splits:
   - split: 4
     text: "{lastName}{playerTitle}，日后若是得空，可带凝紫再回教中探望……"
-    translated: "{lastName}{playerTitle}, if you have time in the future, you may bring Ningzi to visit the temple again......"
+    translated: "{playerTitle} {lastName}, if you have time in the future, you may bring Ningzi to visit the temple again......"
     tokens:
       lastName:
         source: "<lName>"
@@ -44634,7 +44634,7 @@
   splits:
   - split: 4
     text: "{lastName}{playerTitle}，我这妹妹之后便托付给你了……"
-    translated: "{lastName}{playerTitle}, I entrust my younger sister to you from now on......"
+    translated: "{playerTitle} {lastName}, I entrust my younger sister to you from now on......"
     tokens:
       lastName:
         source: "<lName>"
@@ -44649,7 +44649,7 @@
   splits:
   - split: 4
     text: "{lastName}{playerTitle}，日后若是得空，可带凝紫再回教中探望……"
-    translated: "{lastName}{playerTitle}, if you have time in the future, you may bring Ningzi to visit the temple again......"
+    translated: "{playerTitle} {lastName}, if you have time in the future, you may bring Ningzi to visit the temple again......"
     tokens:
       lastName:
         source: "<lName>"
@@ -45495,7 +45495,7 @@
   splits:
   - split: 4
     text: "如今天下太平，{firstName}{playerTitle}得闲也要出去走走才是。"
-    translated: "With peace throughout the land these days, even you, {firstName} {playerTitle}, should take some time to go out and explore."
+    translated: "With peace throughout the land these days, even you, {playerTitle} {firstName}, should take some time to go out and explore."
     tokens:
       firstName:
         source: "<fName>"
@@ -47129,7 +47129,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47144,7 +47144,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47159,7 +47159,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47174,7 +47174,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47189,7 +47189,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47204,7 +47204,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47219,7 +47219,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47234,7 +47234,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -47249,7 +47249,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
-    translated: "{firstName}{playerTitle}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
+    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang of Suibei. This spared me from chasing around, and the Elders in the sect can finally stop complaining. Although Sihai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, Hong will be here waiting for you."
     tokens:
       firstName:
         source: "<fName>"
@@ -48443,7 +48443,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，咱们这便走么？"
-    translated: "{firstName}{playerTitle}, shall we go now?"
+    translated: "{playerTitle} {firstName}, shall we go now?"
     tokens:
       firstName:
         source: "<fName>"
@@ -48468,7 +48468,7 @@
   splits:
   - split: 4
     text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-    translated: "It's no trouble, {firstName} {playerTitle}. If you're free, we'll stay here. Should you need us, come anytime."
+    translated: "It's no trouble, {playerTitle} {firstName}. If you're free, we'll stay here. Should you need us, come anytime."
     tokens:
       firstName:
         source: "<fName>"
@@ -48483,7 +48483,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，咱们这便走么？"
-    translated: "{firstName}{playerTitle}, shall we go now?"
+    translated: "{playerTitle} {firstName}, shall we go now?"
     tokens:
       firstName:
         source: "<fName>"
@@ -48508,7 +48508,7 @@
   splits:
   - split: 4
     text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-    translated: "It's no trouble, {firstName} {playerTitle}. If you're free, we'll stay here. Should you need us, come anytime."
+    translated: "It's no trouble, {playerTitle} {firstName}. If you're free, we'll stay here. Should you need us, come anytime."
     tokens:
       firstName:
         source: "<fName>"
@@ -48533,7 +48533,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，咱们这便走么？"
-    translated: "{firstName}{playerTitle}, shall we go now?"
+    translated: "{playerTitle} {firstName}, shall we go now?"
     tokens:
       firstName:
         source: "<fName>"
@@ -48558,7 +48558,7 @@
   splits:
   - split: 4
     text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-    translated: "It's no trouble, {firstName} {playerTitle}. If you're free, we'll stay here. Should you need us, come anytime."
+    translated: "It's no trouble, {playerTitle} {firstName}. If you're free, we'll stay here. Should you need us, come anytime."
     tokens:
       firstName:
         source: "<fName>"
@@ -50494,7 +50494,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}既有所请，谢某自当从命！"
-    translated: "{firstName}{playerTitle} since you have asked, Xie will comply!"
+    translated: "{playerTitle} {firstName} since you have asked, Xie will comply!"
     tokens:
       firstName:
         source: "<fName>"
@@ -51854,7 +51854,7 @@
   splits:
   - split: 4
     text: "我留于此处探查周遭，{firstName}{playerTitle}，你将此间之事禀与门主，且看他作何想法。"
-    translated: "I will stay here to investigate, {firstName}{playerTitle}, you report this to the Sect Leader and see what he thinks."
+    translated: "I will stay here to investigate, {playerTitle} {firstName}, you report this to the Sect Leader and see what he thinks."
     tokens:
       firstName:
         source: "<fName>"
@@ -51869,7 +51869,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，往后若有何需，径来寻我便是。"
-    translated: "{firstName}{playerTitle}, if you ever need anything in the future, come and find me directly."
+    translated: "{playerTitle} {firstName}, if you ever need anything in the future, come and find me directly."
     tokens:
       firstName:
         source: "<fName>"
@@ -51904,7 +51904,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你之大名，如今可是已然传遍本门了。"
-    translated: "{firstName}{playerTitle}, your name has now spread throughout our sect."
+    translated: "{playerTitle} {firstName}, your name has now spread throughout our sect."
     tokens:
       firstName:
         source: "<fName>"
@@ -52012,7 +52012,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
-    translated: "{firstName}{playerTitle}, Li Mou has always been a man of his word. If you need anything in the future, all of Daqi Sect will be at your disposal."
+    translated: "{playerTitle} {firstName}, Li Mou has always been a man of his word. If you need anything in the future, all of Daqi Sect will be at your disposal."
     tokens:
       firstName:
         source: "<fName>"
@@ -52512,7 +52512,7 @@
   splits:
   - split: 4
     text: "是{firstName}{playerTitle}！待这辽东战局稍安些，咱们可得好好喝上一场！"
-    translated: "It's you, {firstName} {playerTitle}! Once the battle in Liaodong calms down a bit, we've got to have a good drink together!"
+    translated: "It's you, {playerTitle} {firstName}! Once the battle in Liaodong calms down a bit, we've got to have a good drink together!"
     tokens:
       firstName:
         source: "<fName>"
@@ -52537,7 +52537,7 @@
   splits:
   - split: 4
     text: "先前之事，众位兄弟无不念{firstName}{playerTitle}恩情。"
-    translated: "Previously, everyone here couldn't help but think of the kindness {firstName}{playerTitle} did for us."
+    translated: "Previously, everyone here couldn't help but think of the kindness {playerTitle} {firstName} did for us."
     tokens:
       firstName:
         source: "<fName>"
@@ -52552,7 +52552,7 @@
   splits:
   - split: 4
     text: "要没{firstName}{playerTitle}，咱们可取不了先前那般大捷！"
-    translated: "Without you, {firstName}{playerTitle}, we couldn't have achieved such a great victory earlier!"
+    translated: "Without you, {playerTitle} {firstName}, we couldn't have achieved such a great victory earlier!"
     tokens:
       firstName:
         source: "<fName>"
@@ -52642,7 +52642,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}！下回杀鞑子，还同我们一道如何？"
-    translated: "{firstName}{playerTitle}! Next time we fight the Tartars, will you join us again?"
+    translated: "{playerTitle} {firstName}! Next time we fight the Tartars, will you join us again?"
     tokens:
       firstName:
         source: "<fName>"
@@ -52727,7 +52727,7 @@
   splits:
   - split: 4
     text: "若我中原儿郎都有{firstName}{playerTitle}这般身手，何愁鞑子不平。"
-    translated: "If all the sons of Central China were as skilled as you, {firstName} {playerTitle}, we would have no fear of the Tartars."
+    translated: "If all the sons of Central China were as skilled as you, {playerTitle} {firstName}, we would have no fear of the Tartars."
     tokens:
       firstName:
         source: "<fName>"
@@ -53927,7 +53927,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
-    translated: "{firstName}{playerTitle}, thanks to your help with the matter in Luoyang, we truly couldn't have overturned Ci Hong... It's fortunate that we succeeded. Come visit Luoyang more often when you have time!"
+    translated: "{playerTitle} {firstName}, thanks to your help with the matter in Luoyang, we truly couldn't have overturned Ci Hong... It's fortunate that we succeeded. Come visit Luoyang more often when you have time!"
     tokens:
       firstName:
         source: "<fName>"
@@ -53972,7 +53972,7 @@
   splits:
   - split: 4
     text: "济德和尚有我看着，{firstName}{playerTitle}且宽心去寻账簿。"
-    translated: "Master Jide has me watching over him, so {firstName}{playerTitle} may rest easy and go look for the ledger."
+    translated: "Master Jide has me watching over him, so {playerTitle} {firstName} may rest easy and go look for the ledger."
     tokens:
       firstName:
         source: "<fName>"
@@ -53987,7 +53987,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，大恩不言谢，我等皆欠{firstName}{playerTitle}一命。日后若有用处，咱们兄弟几个赴汤蹈火，在所不辞。"
-    translated: "{firstName}{playerTitle}, great kindness needs no thanks. We all owe {firstName}{playerTitle} our lives. Should you ever need us in the future, we brothers will go through fire and water without hesitation."
+    translated: "{playerTitle} {firstName}, great kindness needs no thanks. We all owe {playerTitle} {firstName} our lives. Should you ever need us in the future, we brothers will go through fire and water without hesitation."
     tokens:
       firstName:
         source: "<fName>"
@@ -54085,7 +54085,7 @@
   splits:
   - split: 4
     text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，{firstName}{playerTitle}瞧见没？"
-    translated: "Great, great! What was that word again... Reveal, reveal the truth! Beneath the big Buddha in town, there's a new stele. Did you see it, {firstName}{playerTitle}?"
+    translated: "Great, great! What was that word again... Reveal, reveal the truth! Beneath the big Buddha in town, there's a new stele. Did you see it, {playerTitle} {firstName}?"
     tokens:
       firstName:
         source: "<fName>"
@@ -55378,7 +55378,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，近日陈某可没少杀鞑子，既你至此，咱们可得好好喝几杯！"
-    translated: "{firstName}{playerTitle}, recently Chen Mou has been killing plenty of Tartars. Now that you're here, we must have a good drink together!"
+    translated: "{playerTitle} {firstName}, recently Chen Mou has been killing plenty of Tartars. Now that you're here, we must have a good drink together!"
     tokens:
       firstName:
         source: "<fName>"
@@ -55498,7 +55498,7 @@
   splits:
   - split: 4
     text: "此事，便有劳{firstName}{playerTitle}了。"
-    translated: "This matter will depend on you, {firstName} {playerTitle}."
+    translated: "This matter will depend on you, {playerTitle} {firstName}."
     tokens:
       firstName:
         source: "<fName>"
@@ -55628,7 +55628,7 @@
   splits:
   - split: 4
     text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳{firstName}{playerTitle}多多照拂了。"
-    translated: "My grandson is though clever and outwardly gentle, his heart is fierce within. If he is to venture into the Jianghu, I entrust him to you, {firstName} {playerTitle}, for your care and protection."
+    translated: "My grandson is though clever and outwardly gentle, his heart is fierce within. If he is to venture into the Jianghu, I entrust him to you, {playerTitle} {firstName}, for your care and protection."
     tokens:
       firstName:
         source: "<fName>"
@@ -62384,7 +62384,7 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}安好！许久未见，您风采依旧！不知此次前来……可有需要小的通报或安排的？"
-    translated: "{firstName}{playerTitle} well-being! It has been a long time since we last met; your presence is as impressive as ever! Is there anything you need me to inform or arrange this time?"
+    translated: "{playerTitle} {firstName} well-being! It has been a long time since we last met; your presence is as impressive as ever! Is there anything you need me to inform or arrange this time?"
     tokens:
       firstName:
         source: "<fName>"

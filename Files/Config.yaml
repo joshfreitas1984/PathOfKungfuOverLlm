@@ -19,7 +19,7 @@ glossaryPreset:
   usePresetChineseGlossary: true
 
 # Regular translation model (by name from models:). Unset = the first entry.
-translationModelName: Qwen38Qc-IQ4XS
+#translationModelName: Qwen38Qc-IQ4XS
 
 useContinuousWorkerPool: true
 maxConcurrency: 2
@@ -82,14 +82,14 @@ namedTokenReplacers:
   - literal: "<fName>"
     name: firstName
     allowDroppedRepeats: true         # a repeated name may become "you"
-    description: the player's first name. Copy it exactly as written.
+    description: the player's first name. Copy it exactly as written. If a {playerTitle} follows it in the source, write the title first, then the name ({playerTitle} {firstName}).
   - literal: "<lName>"
     name: lastName
     allowDroppedRepeats: true         # a repeated name may become "you"
-    description: the player's family name. Copy it exactly as written.
+    description: the player's family name. Copy it exactly as written. If a {playerTitle} follows it in the source, write the title first, then the name ({playerTitle} {lastName}).
   - literal: "<name>"
     name: fullName
-    description: a character's name, filled in by the game. Copy it exactly as written.
+    description: a character's name, filled in by the game. Copy it exactly as written. If a {playerTitle} follows it in the source, write the title first, then the name ({playerTitle} {fullName}).
   - literal: "<faction>"
     name: faction
     description: a faction name, filled in by the game. Copy it exactly as written.
@@ -97,7 +97,7 @@ namedTokenReplacers:
     name: playerTitle
     restoreFromGlossary: true
     allowDroppedRepeats: true         # natural English writes "you" for the 2nd/3rd repeat
-    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written. If the source repeats it, keep it at least once and write "you" for the later repeats where English reads better.
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. When the source puts a name ({firstName}, {lastName} or {fullName}) before it, English puts the title first, as {playerTitle} {firstName}. Copy it exactly as written. If the source repeats it, keep it at least once and write "you" for the later repeats where English reads better.
 
   # NPC dialogue and action text: the game replaces these bare words and letters itself, and in English mode only recognises them
   # written ///token/// (as in its own NPC_EN workbook), so they come back wrapped. See docs/investigations/runtime-tokens.md.
@@ -157,4 +157,4 @@ namedTokenReplacers:
     name: playerTitle
     restoreFromGlossary: true
     allowDroppedRepeats: true         # natural English writes "you" for the 2nd/3rd repeat
-    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written. If the source repeats it, keep it at least once and write "you" for the later repeats where English reads better.
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. When the source puts a name ({firstName}, {lastName} or {fullName}) before it, English puts the title first, as {playerTitle} {firstName}. Copy it exactly as written. If the source repeats it, keep it at least once and write "you" for the later repeats where English reads better.
