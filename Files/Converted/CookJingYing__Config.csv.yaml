@@ -2,19 +2,25 @@
   splits:
   - split: 4
     text: "当前的等级名称"
+    translated: "Current rank name"
   - split: 5
     text: "效果描述"
+    translated: "Effect Description"
   - split: 10
     text: "经验增加的提示文字"
+    translated: "Experience increase prompt text"
 - raw: "2,id,type,nowLv,name,tip,addExp,otherExp,pzFwei,pzExp,tip2,pzNumFw,pzNumGl,tip3,otherNumFw,otherNumGl,nowExp,maxLv"
 - raw: "3,1001001,1,1,灶旁生手,*当前等级暂无相关增益效果,10,0,0,0,烹饪经验+{0},0,0,福临心至，妙手偶得，你所制物品数量额外+{0}！,0,0,50,5"
   splits:
   - split: 4
     text: "灶旁生手"
+    translated: "Novice at the stove"
   - split: 5
     text: "当前等级暂无相关增益效果"
+    translated: "There are no related bonus effects for your current level."
   - split: 10
     text: "烹饪经验"
+    translated: "Cooking Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -24,10 +30,13 @@
   splits:
   - split: 4
     text: "略通膳艺"
+    translated: "A Little Skilled in Culinary Arts"
   - split: 5
     text: "每次烹饪获得额外经验"
+    translated: "Gain extra experience each time you cook"
   - split: 10
     text: "烹饪经验"
+    translated: "Cooking Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -37,13 +46,17 @@
   splits:
   - split: 4
     text: "庖馔巧匠"
+    translated: "Culinary Artisan"
   - split: 5
     text: "每次烹饪获得更多额外经验"
+    translated: "Gain more additional experience each time you cook."
   - split: 5
     subIndex: 1
     text: "小概率额外多获得1个食物"
+    translated: "A small chance to additionally obtain 1 Food"
   - split: 10
     text: "烹饪经验"
+    translated: "Cooking Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -53,13 +66,17 @@
   splits:
   - split: 4
     text: "馐膳大家"
+    translated: "Delicious feast for all"
   - split: 5
     text: "每次烹饪获得更多额外经验"
+    translated: "Gain more additional experience each time you cook."
   - split: 5
     subIndex: 1
     text: "一定概率额外多获得1-2个食物"
+    translated: "With an additional chance to obtain 1-2 Food"
   - split: 10
     text: "烹饪经验"
+    translated: "Cooking Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -69,13 +86,17 @@
   splits:
   - split: 4
     text: "馔玉炊金"
+    translated: "Feast on jade and cook with gold"
   - split: 5
     text: "每次烹饪获得更多额外经验"
+    translated: "Gain more additional experience each time you cook."
   - split: 5
     subIndex: 1
     text: "大概率额外多获得2-4个食物"
+    translated: "Probably get an extra 2-4 Food items"
   - split: 10
     text: "烹饪经验"
+    translated: "Cooking Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -85,10 +106,13 @@
   splits:
   - split: 4
     text: "焰起拙工"
+    translated: "Flame of the clumsy craftsman rises"
   - split: 5
     text: "当前等级暂无相关增益效果"
+    translated: "There are no related bonus effects for your current level."
   - split: 10
     text: "锻造经验"
+    translated: "Forging Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -98,13 +122,17 @@
   splits:
   - split: 4
     text: "锤下生巧"
+    translated: "Skill comes with practice"
   - split: 5
     text: "锻造出高品质物品时获得额外经验"
+    translated: "Gain extra experience when forging high-quality items"
   - split: 5
     subIndex: 1
     text: "小概率额外提升1个品质境界"
+    translated: "A small chance of an additional 1 Quality Realm boost"
   - split: 10
     text: "锻造经验"
+    translated: "Forging Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -114,13 +142,17 @@
   splits:
   - split: 4
     text: "赤炉能匠"
+    translated: "Red Furnace Artisan"
   - split: 5
     text: "锻造物品时获得额外经验，锻造出高品质物品时获得更多额外经验。"
+    translated: "Gain extra experience when forging items; gain even more additional experience when forging high-quality items."
   - split: 5
     subIndex: 1
     text: "一定概率额外提升1-2个品质境界"
+    translated: "A certain probability to further increase 1 by -2 Quality Realm"
   - split: 10
     text: "锻造经验"
+    translated: "Forging Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -130,13 +162,17 @@
   splits:
   - split: 4
     text: "百炼千锻"
+    translated: "Refined a thousand times"
   - split: 5
     text: "锻造物品时获得额外经验，锻造出高品质物品时获得更多额外经验。"
+    translated: "Gain extra experience when forging items; gain even more additional experience when forging high-quality items."
   - split: 5
     subIndex: 1
     text: "大概率额外提升1-3个品质境界"
+    translated: "Likely to further enhance by 1 -3 Quality Realms"
   - split: 10
     text: "锻造经验"
+    translated: "Forging Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -146,13 +182,17 @@
   splits:
   - split: 4
     text: "天地为炉"
+    translated: "The heavens and earth as the furnace"
   - split: 5
     text: "锻造物品时获得额外经验，锻造出高品质物品时获得更多额外经验。"
+    translated: "Gain extra experience when forging items; gain even more additional experience when forging high-quality items."
   - split: 5
     subIndex: 1
     text: "必然额外提升1-4个品质境界"
+    translated: "Necessarily increase the quality realm by an additional 1 -4 levels"
   - split: 10
     text: "锻造经验"
+    translated: "Forging Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -162,10 +202,13 @@
   splits:
   - split: 4
     text: "初窥药石"
+    translated: "First Glimpse of Medicine and Stones"
   - split: 5
     text: "当前等级暂无相关增益效果"
+    translated: "There are no related bonus effects for your current level."
   - split: 10
     text: "炼丹经验"
+    translated: "Alchemy Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -175,10 +218,13 @@
   splits:
   - split: 4
     text: "丹华初绽"
+    translated: "Petal Dawn Bloomed"
   - split: 5
     text: "每次炼丹获得额外经验"
+    translated: "Gain extra experience each time you perform Alchemy."
   - split: 10
     text: "炼丹经验"
+    translated: "Alchemy Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -188,13 +234,17 @@
   splits:
   - split: 4
     text: "药韵天成"
+    translated: "Heavenly Scent of Medicine"
   - split: 5
     text: "每次炼丹获得更多额外经验"
+    translated: "Gain more additional experience each time you perform Alchemy."
   - split: 5
     subIndex: 1
     text: "小概率额外多获得1枚丹药"
+    translated: "Rarely obtain 1 additional elixirs"
   - split: 10
     text: "炼丹经验"
+    translated: "Alchemy Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -204,13 +254,17 @@
   splits:
   - split: 4
     text: "点石成丹"
+    translated: "Transmute stone into elixir"
   - split: 5
     text: "每次炼丹获得更多额外经验"
+    translated: "Gain more additional experience each time you perform Alchemy."
   - split: 5
     subIndex: 1
     text: "一定概率额外多获得1-2枚丹药"
+    translated: "Gain an additional 1-2 pills at a certain probability."
   - split: 10
     text: "炼丹经验"
+    translated: "Alchemy Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -220,13 +274,17 @@
   splits:
   - split: 4
     text: "炼虚合道"
+    translated: "Refine Illusion and Unite with the Tao"
   - split: 5
     text: "每次炼丹获得更多额外经验"
+    translated: "Gain more additional experience each time you perform Alchemy."
   - split: 5
     subIndex: 1
     text: "大概率额外多获得2-4枚丹药"
+    translated: "Probably gain an additional 2-4 medicinal pills"
   - split: 10
     text: "炼丹经验"
+    translated: "Alchemy Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -236,10 +294,13 @@
   splits:
   - split: 4
     text: "溪湖初钓"
+    translated: "Fishing by the Brook for the First Time"
   - split: 5
     text: "当前等级暂无相关增益效果"
+    translated: "There are no related bonus effects for your current level."
   - split: 10
     text: "钓鱼经验"
+    translated: "Fishing Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -249,10 +310,13 @@
   splits:
   - split: 4
     text: "渔艺小成"
+    translated: "Fishing Skills Nearly Mastered"
   - split: 5
     text: "钓到稀有鱼时获得额外经验"
+    translated: "Gain extra experience when catching rare fish"
   - split: 10
     text: "钓鱼经验"
+    translated: "Fishing Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -262,10 +326,13 @@
   splits:
   - split: 4
     text: "垂纶有术"
+    translated: "Skillful Fishing Line Technique"
   - split: 5
     text: "钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经验。"
+    translated: "Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
   - split: 10
     text: "钓鱼经验"
+    translated: "Fishing Experience"
   templates:
   - split: 5
     template: "*{0}"
@@ -275,13 +342,17 @@
   splits:
   - split: 4
     text: "鳞波妙手"
+    translated: "Wave-Fingered Grace"
   - split: 5
     text: "钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经验。"
+    translated: "Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
   - split: 5
     subIndex: 1
     text: "小概率额外多获得1条鱼"
+    translated: "Rarely obtain 1 additional fish"
   - split: 10
     text: "钓鱼经验"
+    translated: "Fishing Experience"
   templates:
   - split: 5
     template: "*{0}\\n{1}"
@@ -291,13 +362,17 @@
   splits:
   - split: 4
     text: "独钓江海"
+    translated: "Fishing alone by the river sea"
   - split: 5
     text: "钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经验。"
+    translated: "Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
   - split: 5
     subIndex: 1
     text: "一定概率额外多获得1-2条鱼"
+    translated: "There is a chance of getting 1-2 extra fish."
   - split: 10
     text: "钓鱼经验"
+    translated: "Fishing Experience"
   templates:
   - split: 5
     template: "*{0}\\n*{1}"

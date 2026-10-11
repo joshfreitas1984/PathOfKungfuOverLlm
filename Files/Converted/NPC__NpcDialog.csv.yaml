@@ -2,6 +2,7 @@
   splits:
   - split: 2
     text: "对话"
+    translated: "Dialogue"
 - raw: "2,id,dialog,lipsID,,"
 - raw: "3,1,1,\"100,200,300,400,700,4602,4502,500\",初始,"
 - raw: "4,98,14,\"385,170,176,177,178,179,390,391,392,394,386,387,388,389,374,500\",帮派地牢,"
@@ -9,6 +10,7 @@
   splits:
   - split: 2
     text: "江湖秘闻，武林逸事，有心自可得之，阁下若有何事，不妨明言。"
+    translated: "Secrets of Jianghu, tales of Wulin, one can obtain them with effort; if you have anything to say, do not hesitate to speak plainly."
 - raw: "6,101,14,\"385,170,176,177,178,179,390,391,392,394,386,387,388,389,374,500\",俘获,"
 - raw: "7,102,1,\"30,31,32,33,34,100,200,300,400,700,500\",剧情,"
 - raw: "8,103,27,\"100,400,700,500\",同伴,"
@@ -18,6 +20,7 @@
   splits:
   - split: 2
     text: "客官请坐，吃饭还是住店。"
+    translated: "Customer, please be seated. Would you like to eat or stay at the inn?"
 - raw: "12,107,32,\"169,172,173,174,175,500\",尸首,"
 - raw: "13,108,17,\"39,40,500\",武馆馆主,"
 - raw: "14,109,17,\"50,49,500\",武馆大弟子,"
@@ -27,38 +30,47 @@
   splits:
   - split: 2
     text: "既然朋友有兴致，便让吾之小徒儿与阁下搭手试招……只怕，我这徒儿学艺不精，若是致阁下有所伤残……哼，不若早些退去。"
+    translated: "Since you're interested, let my young disciple join you for a sparring match... But alas, my disciple may not be skilled enough, and if he were to cause you any harm... Hmph, it would be best if you left early."
 - raw: "18,113,阁下好武艺，今日这梁子便算结下了！若再不退去，我首席弟子下场，生死不论！劝你速离，莫要丢了性命！,42,武馆踢馆2,"
   splits:
   - split: 2
     text: "阁下好武艺，今日这梁子便算结下了！若再不退去，我首席弟子下场，生死不论！劝你速离，莫要丢了性命！"
+    translated: "Sir, your martial arts skills are impressive, but our feud is settled for today! If you do not leave now, my top disciple will deal with you, and the outcome will be uncertain! I advise you to leave quickly before you lose your life!"
 - raw: "19,114,当真深藏不露……我这便亲自出马，教你识得人外有人，天外有天！夺我武馆，痴心妄想！,43,武馆踢馆3,"
   splits:
   - split: 2
     text: "当真深藏不露……我这便亲自出马，教你识得人外有人，天外有天！夺我武馆，痴心妄想！"
+    translated: "You really hide your true abilities......I will take action myself and teach you that there are those beyond human comprehension, and skies beyond the sky! To think you could take my Martial Arts Hall is a foolish dream!"
 - raw: "20,115,在下技不如人……甘拜，甘拜下风……可否，且放过鄙武馆，此乃我唯一营生啊……,\"44,45\",武馆踢馆胜利,"
   splits:
   - split: 2
     text: "在下技不如人……甘拜，甘拜下风……可否，且放过鄙武馆，此乃我唯一营生啊……"
+    translated: "I am not as skilled as you are... I yield, I yield... may I ask if you could spare my Martial Arts Hall? This is my only means of livelihood..."
 - raw: "21,116,如此伎俩，却妄学甚踢馆斗狠？徒儿们，送客！,500,武馆踢馆失败,"
   splits:
   - split: 2
     text: "如此伎俩，却妄学甚踢馆斗狠？徒儿们，送客！"
+    translated: "Such tricks, yet you dare to challenge the house? Apprentices, show this guest out!"
 - raw: "22,117,在下技不如人，输得心甘情愿，是吾狂妄自大……要杀要剐，悉听尊便。,48,武馆对抗挑战者胜利,"
   splits:
   - split: 2
     text: "在下技不如人，输得心甘情愿，是吾狂妄自大……要杀要剐，悉听尊便。"
+    translated: "I am outmatched, and I accept my defeat willingly. It was my arrogance that led to this... Whether you choose to kill or spare me, I leave it to your discretion."
 - raw: "23,118,既如此，这间武馆便归我了！,47,武馆对抗挑战者失败,"
   splits:
   - split: 2
     text: "既如此，这间武馆便归我了！"
+    translated: "Since that's the case, this Martial Arts Hall is mine now!"
 - raw: "24,119,阁下夺我武馆，断人财路，如此行径……终有一日，我定当寻汝报此仇！,500,武馆馆主被强夺武馆,"
   splits:
   - split: 2
     text: "阁下夺我武馆，断人财路，如此行径……终有一日，我定当寻汝报此仇！"
+    translated: "My lord, you took my Martial Arts Hall and cut off my means of livelihood... Such actions will one day be avenged! I swear it."
 - raw: "25,120,阁下宅心仁厚，实……实令在下汗颜，些许银两不成敬意，还望大侠收下……,500,武馆馆主被击败后，礼貌离开,"
   splits:
   - split: 2
     text: "阁下宅心仁厚，实……实令在下汗颜，些许银两不成敬意，还望大侠收下……"
+    translated: "Sir, your kindness shames me. A small amount of silver is but a token of my respect; I hope the Great Hero will accept it..."
 - raw: "26,121,17,\"51,500\",武馆守卫,"
 - raw: "27,200,21,\"375,392,601,500\",勒索成功,"
 - raw: "28,201,22,\"392,601,500\",勒索失败,"
@@ -71,234 +83,292 @@
   splits:
   - split: 2
     text: "数日时间竟有如此多趣闻，江湖际遇实是出乎意料……"
+    translated: "In just a few days, there have been so many interesting tales; the encounters in Jianghu are truly unexpected......"
 - raw: "35,1201,能倾听你的心底私事，想来是被阁下当成了至亲至近之人，江湖人海茫茫，能被阁下信任也算是我的善缘了。,600,,"
   splits:
   - split: 2
     text: "能倾听你的心底私事，想来是被阁下当成了至亲至近之人，江湖人海茫茫，能被阁下信任也算是我的善缘了。"
+    translated: "To be able to listen to your innermost secrets must mean you consider me a very close confidant. In the vast sea of Jianghu, to be trusted by you is indeed a fortunate chance for me."
 - raw: "36,1202,我知道阁下心事重重，但我自己也是俗务缠身。无暇与阁下闲谈，还请多多包涵。,600,,"
   splits:
   - split: 2
     text: "我知道阁下心事重重，但我自己也是俗务缠身。无暇与阁下闲谈，还请多多包涵。"
+    translated: "I know you are preoccupied, but I too am burdened with worldly affairs. I have no time to chat leisurely, please bear with me."
 - raw: "37,1301,能得阁下指点，实在是让我受益匪浅。,600,,"
   splits:
   - split: 2
     text: "能得阁下指点，实在是让我受益匪浅。"
+    translated: "Having you guide me is truly invaluable"
 - raw: "38,1302,阁下虽然武功造诣在我之上，但刚刚的一番指点确实不得要领。且恕在下无礼，还请阁下不要再多言了。,600,,"
   splits:
   - split: 2
     text: "阁下虽然武功造诣在我之上，但刚刚的一番指点确实不得要领。且恕在下无礼，还请阁下不要再多言了。"
+    translated: "Though your martial skill mastery surpasses mine, your recent guidance was indeed off the mark. Allow me to be blunt: I ask that you refrain from further commentary."
 - raw: "39,2101,太好了，这正是我所喜欢的东西，多谢阁下不吝相赠。,600,,"
   splits:
   - split: 2
     text: "太好了，这正是我所喜欢的东西，多谢阁下不吝相赠。"
+    translated: "Great, this is exactly what I like. Thank you for your generous gift, sir."
 - raw: "40,2102,阁下欲赠我礼品，确实令我十分欣喜，但恐在下身无长物，无以回赠，因而愧不敢受。,600,,"
   splits:
   - split: 2
     text: "阁下欲赠我礼品，确实令我十分欣喜，但恐在下身无长物，无以回赠，因而愧不敢受。"
+    translated: "My lord, your gift to me truly fills me with joy, but I fear I have nothing of value to return, and thus I am hesitant to accept it out of shame."
 - raw: "41,2201,这本是我颇费周折得来之物，不过既然是朋友想要，自然不该吝啬，你拿去便是了。,600,,"
   splits:
   - split: 2
     text: "这本是我颇费周折得来之物，不过既然是朋友想要，自然不该吝啬，你拿去便是了。"
+    translated: "This is something I went to great lengths to obtain, but since a friend wants it, I shouldn't be stingy. You can have it."
 - raw: "42,2202,实不相瞒，这东西正是我眼下当用之物，确实不方便赠予阁下，还请见谅。,600,,"
   splits:
   - split: 2
     text: "实不相瞒，这东西正是我眼下当用之物，确实不方便赠予阁下，还请见谅。"
+    translated: "To be honest, this item is exactly what I need right now, so it's not convenient for me to give it to you. Please understand."
 - raw: "43,2301,不知道阁下需要多少银两呢？,\"231,232,233,601\",,"
   splits:
   - split: 2
     text: "不知道阁下需要多少银两呢？"
+    translated: "I wonder how much Silver you need?"
 - raw: "44,2311,这些银两虽是我长久积攒而来，不过既然是朋友想要，自然不该吝啬，你拿去便是了。,600,,"
   splits:
   - split: 2
     text: "这些银两虽是我长久积攒而来，不过既然是朋友想要，自然不该吝啬，你拿去便是了。"
+    translated: "Though this silver has been accumulated over a long time, if a friend wants it, I shouldn't be stingy. You may take it."
 - raw: "45,2312,实不相瞒，这些银两正是我当下急需之物，确实不方便挪借予你，还请见谅。,600,,"
   splits:
   - split: 2
     text: "实不相瞒，这些银两正是我当下急需之物，确实不方便挪借予你，还请见谅。"
+    translated: "To be honest, these Silver coins are exactly what I urgently need right now, so it's really inconvenient for me to lend them to you. Please forgive me."
 - raw: "46,2401,我也正有与阁下切磋之意，请赐教。,241,,"
   splits:
   - split: 2
     text: "我也正有与阁下切磋之意，请赐教。"
+    translated: "I also have the intention of sparring with you, please instruct me."
 - raw: "47,2402,今日身体略有不适，还是改日再与阁下切磋吧。,500,,"
   splits:
   - split: 2
     text: "今日身体略有不适，还是改日再与阁下切磋吧。"
+    translated: "I don't feel well today, so let's reschedule our sparring match."
 - raw: "48,2403,阁下武艺高绝，在下输得心服口服。,242,,"
   splits:
   - split: 2
     text: "阁下武艺高绝，在下输得心服口服。"
+    translated: "My martial arts are far inferior; I yield with complete sincerity."
 - raw: "49,2404,多谢承让，侥幸胜得一招。若是阁下勤加练习，来日武功定然在我之上。,243,,"
   splits:
   - split: 2
     text: "多谢承让，侥幸胜得一招。若是阁下勤加练习，来日武功定然在我之上。"
+    translated: "Thank you for your generosity; I was fortunate to win that one move. If you practice diligently, your martial skills will surely surpass mine in the future."
 - raw: "50,2501,授武传艺之事，事关江湖传承，你我虽有些情谊在身，贸然求教，也恕在下拒辞了。,500,,"
   splits:
   - split: 2
     text: "授武传艺之事，事关江湖传承，你我虽有些情谊在身，贸然求教，也恕在下拒辞了。"
+    translated: "The matter of teaching martial arts and skills is crucial to the succession of Jianghu. Although we have some affection between us, I must decline your request if you ask too boldly."
 - raw: "51,2502,今日将此武学教授于你，望你可将此本领用作傍身之技，方便来日行走江湖。,500,,"
   splits:
   - split: 2
     text: "今日将此武学教授于你，望你可将此本领用作傍身之技，方便来日行走江湖。"
+    translated: "Today I will teach you this martial art. May you use this skill to your advantage as you venture into the Jianghu in days to come."
 - raw: "52,2503,阁下武学出众，在下才疏学浅，何敢指点？,500,,"
   splits:
   - split: 2
     text: "阁下武学出众，在下才疏学浅，何敢指点？"
+    translated: "Sir, your martial art skills are outstanding; I am but a novice, how dare I offer guidance?"
 - raw: "53,2611,此番得好友相助，同修共练，武功进境相较平日快得不少。待你我养精蓄锐，日后再一起修炼如何？,500,,"
   splits:
   - split: 2
     text: "此番得好友相助，同修共练，武功进境相较平日快得不少。待你我养精蓄锐，日后再一起修炼如何？"
+    translated: "With my friend's help, our joint practice has advanced my martial skill much faster than usual. Once we rest and regain our strength, shall we continue to train together in the future?"
 - raw: "54,2612,怕是今日你我二人的修炼未得要领，此间我只觉得颇为困乏劳累，我看我们还是各回住所，调息修养吧。,500,,"
   splits:
   - split: 2
     text: "怕是今日你我二人的修炼未得要领，此间我只觉得颇为困乏劳累，我看我们还是各回住所，调息修养吧。"
+    translated: "I fear that today our cultivation did not go well; I feel quite tired and weary. Let's return to our lodgings and rest to recover our energy."
 - raw: "55,3101,……你此言实是欺人太甚！此番羞辱，我记下了！,\"313,500\",,"
   splits:
   - split: 2
     text: "……你此言实是欺人太甚！此番羞辱，我记下了！"
+    translated: "......You are truly insulting me! I will remember this humiliation!"
 - raw: "56,3102,我不屑与你一般见识，也请阁下就此作罢，莫要再咄咄逼人了。,601,,"
   splits:
   - split: 2
     text: "我不屑与你一般见识，也请阁下就此作罢，莫要再咄咄逼人了。"
+    translated: "I disdain to engage in your petty behavior; I also ask you to desist, and do not be so overbearing."
 - raw: "57,3103,恃强凌弱而已，哼！,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "恃强凌弱而已，哼！"
+    translated: "It's just bullying the weak with power, humph!"
 - raw: "58,3104,看阁下气焰嚣张，咄咄逼人，还以为武功了得，却不想如此不堪一击。且看我手段，让阁下尽尝痛苦滋味！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "看阁下气焰嚣张，咄咄逼人，还以为武功了得，却不想如此不堪一击。且看我手段，让阁下尽尝痛苦滋味！"
+    translated: "Seeing your arrogant and aggressive demeanor, I thought you were skilled in martial arts, but it seems you are unable to withstand even one hit. Watch now as I show you my true strength and let you taste the bitterness of pain!"
 - raw: "59,3105,……你此言实是欺人太甚！今日你我定要分出高低，以雪我之耻！,312,,"
   splits:
   - split: 2
     text: "……你此言实是欺人太甚！今日你我定要分出高低，以雪我之耻！"
+    translated: "......You are truly insulting me! Today, we must settle this and clear my shame!"
 - raw: "60,3201,嗯？？我这行囊里似乎少了些什么……,322,,"
   splits:
   - split: 2
     text: "嗯？？我这行囊里似乎少了些什么……"
+    translated: "Hm?? It seems my pack is missing something..."
 - raw: "61,3221,小贼！定然是你行这偷鸡摸狗之举！莫以为我会就此罢休！,321,,"
   splits:
   - split: 2
     text: "小贼！定然是你行这偷鸡摸狗之举！莫以为我会就此罢休！"
+    translated: "Thief! It must have been you who did this sneaky deed! Don't think I'll let it go!"
 - raw: "62,3222,……只怕是我一时疏忽，遗落在何处了？,500,,"
   splits:
   - split: 2
     text: "……只怕是我一时疏忽，遗落在何处了？"
+    translated: "...probably because I was careless, left it somewhere?"
 - raw: "63,3111,今日奇耻大辱，在下记下了，他日定当讨要个说法。,500,,"
   splits:
   - split: 2
     text: "今日奇耻大辱，在下记下了，他日定当讨要个说法。"
+    translated: "Today's great humiliation, I have remembered, and I will surely demand an explanation in the future."
 - raw: "64,3211,这般大费周章的白日行凶，竟然只是为了这些许财物，真是可笑。,500,,"
   splits:
   - split: 2
     text: "这般大费周章的白日行凶，竟然只是为了这些许财物，真是可笑。"
+    translated: "Such a fuss to commit a daytime assault, only for such petty property? Truly laughable."
 - raw: "65,3202,嗯？？我这包袱怎掀起了几分……幸而尚未遭窃，需得系紧包袱，免遭贼人惦记。,323,,"
   splits:
   - split: 2
     text: "嗯？？我这包袱怎掀起了几分……幸而尚未遭窃，需得系紧包袱，免遭贼人惦记。"
+    translated: "Hm?? Why did my bag loosen a bit... Fortunately, it hasn't been stolen yet. I need to secure it tightly so thieves don't take notice."
 - raw: "66,3203,没想到你这蟊贼也有一身好武功，我无话可说。,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "没想到你这蟊贼也有一身好武功，我无话可说。"
+    translated: "I didn't expect you, you thief, to have such good martial skills; I have nothing to say."
 - raw: "67,3204,尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！"
+    translated: "You scoundrels, with your thief's nature unrepentant, you must be made to remember this lesson for the rest of your lives!"
 - raw: "68,3301,青天白日便敢如此行凶，实在是欺人太甚。,331,,"
   splits:
   - split: 2
     text: "青天白日便敢如此行凶，实在是欺人太甚。"
+    translated: "Daring to commit such violence in broad daylight is simply too outrageous."
 - raw: "69,3303,是……是我技不如人，此物，此物给阁下便是了……,332,,"
   splits:
   - split: 2
     text: "是……是我技不如人，此物，此物给阁下便是了……"
+    translated: "It's... it's my inferior skill. I shall give you this item then..."
 - raw: "70,3308,……你既已得偿所愿……便放我离去吧……,\"176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "……你既已得偿所愿……便放我离去吧……"
+    translated: "......Since you have gotten what you wanted......let me go now, please......"
 - raw: "71,3304,尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！"
+    translated: "You scoundrels, with your thief's nature unrepentant, you must be made to remember this lesson for the rest of your lives!"
 - raw: "72,3305,这般行凶，竟只是为了些许财物，一身本领空负……真是可笑。,500,,"
   splits:
   - split: 2
     text: "这般行凶，竟只是为了些许财物，一身本领空负……真是可笑。"
+    translated: "Such violence for mere possessions... what a waste of skill and talent. Truly laughable."
 - raw: "73,3306,尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！"
+    translated: "You scoundrels, with your thief's nature unrepentant, you must be made to remember this lesson for the rest of your lives!"
 - raw: "74,3307,宵小之辈，妄夺他人之物？今日便当教训教训你！,331,,"
   splits:
   - split: 2
     text: "宵小之辈，妄夺他人之物？今日便当教训教训你！"
+    translated: "Rascals, daring to seize what belongs to others? I'll teach you a lesson today!"
 - raw: "75,3401,16,\"342,601\",,"
 - raw: "76,3403,山野蛮夫，逞凶斗狠而已，算什么英雄好汉，要杀要剐悉听尊便。,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "山野蛮夫，逞凶斗狠而已，算什么英雄好汉，要杀要剐悉听尊便。"
+    translated: "Ruffians of the wilderness, you merely seek to fight and bully; what heroes are you? Do as you please with me."
 - raw: "77,3404,尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！"
+    translated: "You scoundrels, with your thief's nature unrepentant, you must be made to remember this lesson for the rest of your lives!"
 - raw: "78,3510,倒是识趣，看在财物的份上……放过你也并非不可，快滚，莫要让我再看到你！,500,,"
   splits:
   - split: 2
     text: "倒是识趣，看在财物的份上……放过你也并非不可，快滚，莫要让我再看到你！"
+    translated: "You're wise enough to know when you're beat. For the sake of my belongings... I might let you live this time, but get out of here! Don't let me see you again!"
 - raw: "79,3511,事已至此才想起摇尾讨饶？且去和阎王求饶罢！,364,,"
   splits:
   - split: 2
     text: "事已至此才想起摇尾讨饶？且去和阎王求饶罢！"
+    translated: "Do you only think of groveling now that things have reached this point? Go beg forgiveness from King Yama!"
 - raw: "80,3520,倒是识趣，如此……放过你也并非不可，快滚，莫要让我再看到你！,500,,"
   splits:
   - split: 2
     text: "倒是识趣，如此……放过你也并非不可，快滚，莫要让我再看到你！"
+    translated: "You're wise enough to know when you're beaten. I suppose letting you go isn't out of the question... Leave now, and don't let me see you again!"
 - raw: "81,3530,江湖之中，生死比斗本属寻常，后悔的话，便来世再说罢！,364,,"
   splits:
   - split: 2
     text: "江湖之中，生死比斗本属寻常，后悔的话，便来世再说罢！"
+    translated: "In the Jianghu, life-and-death duels are commonplace; if you regret anything, speak of it in another life!"
 - raw: "82,3601,于我习武之时在一旁偷看，是何居心？莫不是要偷师学艺不成？,361,,"
   splits:
   - split: 2
     text: "于我习武之时在一旁偷看，是何居心？莫不是要偷师学艺不成？"
+    translated: "What are your intentions by watching me practice from the side? Are you not content with learning by stealth?"
 - raw: "83,3602,你暗中揣摩，暗下苦功，终将其所擅武学习得一二。,500,,"
   splits:
   - split: 2
     text: "你暗中揣摩，暗下苦功，终将其所擅武学习得一二。"
+    translated: "You secretly studied and put in the hard work, eventually picking up a few tricks of their martial art."
 - raw: "84,3603,我之武学皆乃心血所凝，岂容你就此偷习！,362,,"
   splits:
   - split: 2
     text: "我之武学皆乃心血所凝，岂容你就此偷习！"
+    translated: "My martial arts are the condensation of my hard work and dedication; how dare you think to steal them!"
 - raw: "85,3604,你暗中揣摩，暗下苦功，终将其所擅武学习得一二。,500,,"
   splits:
   - split: 2
     text: "你暗中揣摩，暗下苦功，终将其所擅武学习得一二。"
+    translated: "You secretly studied and put in the hard work, eventually picking up a few tricks of their martial art."
 - raw: "86,3605,……我所擅武学虽微不足道，然亦是常年累月，辛苦所得，望主上心念同行之谊，莫再如此。,500,,"
   splits:
   - split: 2
     text: "……我所擅武学虽微不足道，然亦是常年累月，辛苦所得，望主上心念同行之谊，莫再如此。"
+    translated: "...Although the martial arts I specialize in may be insignificant, they are the result of years of hard work. I hope my lord will remember our companionship and not speak to me in such a way again."
 - raw: "87,3611,你这偷师他人门派武功的败类，看招。,500,,"
   splits:
   - split: 2
     text: "你这偷师他人门派武功的败类，看招。"
+    translated: "You disgrace, stealing martial skills from other sects. See my move."
 - raw: "88,3612,早就留意到了你在暗中偷窥，莫再躲躲藏藏了，如你这般偷学别派技艺，实非君子所为，今日不与你计较，速速离去吧。,500,,"
   splits:
   - split: 2
     text: "早就留意到了你在暗中偷窥，莫再躲躲藏藏了，如你这般偷学别派技艺，实非君子所为，今日不与你计较，速速离去吧。"
+    translated: "I noticed you sneaking around long ago. Stop hiding. It's not the way of a gentleman to secretly learn another sect's skills. I won't hold it against you today; leave now."
 - raw: "89,3613,阁下已有此等武功，却还要偷窥我这招式，想来是另有企图了，这笔账来日定要与阁下算个清楚。,500,,"
   splits:
   - split: 2
     text: "阁下已有此等武功，却还要偷窥我这招式，想来是另有企图了，这笔账来日定要与阁下算个清楚。"
+    translated: "Sir, with your martial skills, you still wish to spy on my move; it seems you have other intentions. This debt will be settled between us someday."
 - raw: "90,3614,尔等贼子，竟敢盗学我派武技！江湖规矩岂是尔等可触犯？可笑！待我施以严惩，以明戒律！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "尔等贼子，竟敢盗学我派武技！江湖规矩岂是尔等可触犯？可笑！待我施以严惩，以明戒律！"
+    translated: "You scoundrels, how dare you steal our sect's martial arts techniques! Are you not afraid to violate the rules of the Jianghu? How laughable! I shall mete out severe punishment to set an example!"
 - raw: "91,3701,你要干什么？放开我……唔~唔！,\"371,378\",,"
   splits:
   - split: 2
     text: "你要干什么？放开我……唔"
+    translated: "What do you want? Let go of me......Mm"
   - split: 2
     subIndex: 1
     text: "唔！"
+    translated: "Ugh!"
   templates:
   - split: 2
     template: "{0}~{1}"
@@ -306,29 +376,36 @@
   splits:
   - split: 2
     text: "竟然敢打我的主意？看招！"
+    translated: "Dare to scheme against me? See my move!"
 - raw: "93,3703,尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "尔等败类，贼性难移，还需得让尔等宵小终身铭记教训！"
+    translated: "You scoundrels, with your thief's nature unrepentant, you must be made to remember this lesson for the rest of your lives!"
 - raw: "94,3704,悍贼！胆敢如此胡作非为，莫要逼我使出手段！速速退去，免我出手伤你！,\"377,601\",,"
   splits:
   - split: 2
     text: "悍贼！胆敢如此胡作非为，莫要逼我使出手段！速速退去，免我出手伤你！"
+    translated: "Ruffian! Dare to act so recklessly! Do not force me to take action against you! Quickly retreat and spare yourself my hand!"
 - raw: "95,3705,此人已然束手，当放当诛，皆在你一念之间……,\"3760,345,350\",野怪的战斗胜利后交互,"
   splits:
   - split: 2
     text: "此人已然束手，当放当诛，皆在你一念之间……"
+    translated: "This person is already restrained; whether to spare or punish them lies in your decision..."
 - raw: "96,3706,拦路恶徒已然穷途末路，当放当诛，皆在你一念之间……,\"3760,346,350\",劫镖Npc的战斗胜利后交互,"
   splits:
   - split: 2
     text: "拦路恶徒已然穷途末路，当放当诛，皆在你一念之间……"
+    translated: "The bandits are now cornered and at the end of their road. Whether to spare them or punish them is in your hands..."
 - raw: "97,3707,你要干什么？放开我……唔~唔！,383,做好事【俘获】交互,"
   splits:
   - split: 2
     text: "你要干什么？放开我……唔"
+    translated: "What do you want? Let go of me......Mm"
   - split: 2
     subIndex: 1
     text: "唔！"
+    translated: "Ugh!"
   templates:
   - split: 2
     template: "{0}~{1}"
@@ -336,124 +413,157 @@
   splits:
   - split: 2
     text: "纵然你今日将我放了，等来日再见，依然要找你算这笔账。"
+    translated: "Even if you set me free today, when we meet again in the future, I will still come to settle this account with you."
 - raw: "99,3410,事已至此，要杀要剐随尔！,389,,"
   splits:
   - split: 2
     text: "事已至此，要杀要剐随尔！"
+    translated: "At this point, do as you will-whether to kill or maim!"
 - raw: "100,3411,你竟如此歹毒……我之亲朋定然不会善罢甘休！定然会为…我复仇……,500,,"
   splits:
   - split: 2
     text: "你竟如此歹毒……我之亲朋定然不会善罢甘休！定然会为…我复仇……"
+    translated: "You are so ruthless......My kin and friends will never let this go! They will surely avenge...me......"
 - raw: "101,3412,你……你当真要取我性命不成？,\"343,601\",,"
   splits:
   - split: 2
     text: "你……你当真要取我性命不成？"
+    translated: "Do you really mean to take my life?"
 - raw: "102,3413,你……此言当真？,\"349,601\",,"
   splits:
   - split: 2
     text: "你……此言当真？"
+    translated: "You... do you mean that seriously?"
 - raw: "103,3414,……若阁下能饶我性命，在下愿为阁下家仆，日夜侍奉！,\"393,344,500\",,"
   splits:
   - split: 2
     text: "……若阁下能饶我性命，在下愿为阁下家仆，日夜侍奉！"
+    translated: "......If you spare my life, I will serve you as your manservant day and night!"
 - raw: "104,3415,得主人不弃……在下定当竭心侍奉主人……,500,,"
   splits:
   - split: 2
     text: "得主人不弃……在下定当竭心侍奉主人……"
+    translated: "...if my master does not abandon me, I will surely devote myself to serving my master with all my heart..."
 - raw: "105,3416,士可杀不可辱！恕在下无法服从！,\"601,500\",,"
   splits:
   - split: 2
     text: "士可杀不可辱！恕在下无法服从！"
+    translated: "A scholar can be killed but not humiliated! I'm afraid I cannot comply!"
 - raw: "106,3417,终不负我心！让我逮到重获自由的机会了！往日之仇，定当相报！,\"379,380\",,"
   splits:
   - split: 2
     text: "终不负我心！让我逮到重获自由的机会了！往日之仇，定当相报！"
+    translated: "Finally, I haven't betrayed my own heart! I've found the chance to regain my freedom! For past grievances, I will surely seek revenge!"
 - raw: "107,3418,终归……还是难逃魔掌，我，我认负了……,381,,"
   splits:
   - split: 2
     text: "终归……还是难逃魔掌，我，我认负了……"
+    translated: "In the end......I still can't escape their grasp, W-well, I concede......"
 - raw: "108,3419,哈哈哈！皇天不负！我终于再得自由！,382,,"
   splits:
   - split: 2
     text: "哈哈哈！皇天不负！我终于再得自由！"
+    translated: "Ha ha ha! Thank goodness! I've finally regained my freedom again!"
 - raw: "109,4101,你我二人性情相近，志趣相投，此番你我二人结义，真是我三生有幸。,500,,"
   splits:
   - split: 2
     text: "你我二人性情相近，志趣相投，此番你我二人结义，真是我三生有幸。"
+    translated: "You and I have similar temperaments and shared interests; this time, us two becoming sworn brothers is truly a blessing for me in this life and the next."
 - raw: "110,4102,此番厚爱实在是愧不敢当，怎奈你我志趣各异，我与阁下非同路之人，恕在下难以从命了。,500,,"
   splits:
   - split: 2
     text: "此番厚爱实在是愧不敢当，怎奈你我志趣各异，我与阁下非同路之人，恕在下难以从命了。"
+    translated: "Such kindness is more than I deserve, but alas, our interests differ. I am not on the same path as you, so I must decline your request."
 - raw: "111,4121,既然金兰挚交想要喝几杯，那咱们便通宵把酒，不醉不归，如何？,500,,"
   splits:
   - split: 2
     text: "既然金兰挚交想要喝几杯，那咱们便通宵把酒，不醉不归，如何？"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "112,4122,难得今日你我相聚，好友欲饮，在下本当应允……但无奈此间有要事身，需即刻起身远赴他处，还望金兰见谅。,500,,"
   splits:
   - split: 2
     text: "难得今日你我相聚，好友欲饮，在下本当应允……但无奈此间有要事身，需即刻起身远赴他处，还望金兰见谅。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "113,4111,当真要与我割袍断义，断绝金兰之情？如此也好，今后大路朝天，各走一边就是了。,500,,"
   splits:
   - split: 2
     text: "当真要与我割袍断义，断绝金兰之情？如此也好，今后大路朝天，各走一边就是了。"
+    translated: "Are you truly going to sever our ties and end our Sworn Bond? Very well, then. From now on, we'll go our separate ways."
 - raw: "114,4201,被阁下青睐，实属有幸。望来日可以朝暮相伴，三生相约。,500,,"
   splits:
   - split: 2
     text: "被阁下青睐，实属有幸。望来日可以朝暮相伴，三生相约。"
+    translated: "To be favored by you is truly an honor. I look forward to our morning and evening company in the days to come, with a lifetime appointment."
 - raw: "115,4202,我孤身一身闯荡江湖惯了，儿女私情不足虑也，你我还是萍水相逢的好。,500,,"
   splits:
   - split: 2
     text: "我孤身一身闯荡江湖惯了，儿女私情不足虑也，你我还是萍水相逢的好。"
+    translated: "I am used to traveling alone in the Jianghu; matters of love and affection do not concern me. It's best if we remain mere acquaintances."
 - raw: "116,4211,近日江湖奔波，颇为辛劳，你我今日不言刀剑，只谈风月，如何？,500,,"
   splits:
   - split: 2
     text: "近日江湖奔波，颇为辛劳，你我今日不言刀剑，只谈风月，如何？"
+    translated: "Recently traveling through Jianghu has been quite taxing. Today, let's put aside talk of blades and swords and just chat about the moon and flowers, shall we?"
 - raw: "117,4212,这……周公之礼，还是留在你我三书六聘之后，如何？,500,,"
   splits:
   - split: 2
     text: "这……周公之礼，还是留在你我三书六聘之后，如何？"
+    translated: "This... let's reserve the formal betrothal ceremony for after we exchange the three letters and six gifts, how about that?"
 - raw: "118,4221,不曾想到你如此负心薄幸，今日遂了你的心愿，你我各觅佳偶便是。,500,,"
   splits:
   - split: 2
     text: "不曾想到你如此负心薄幸，今日遂了你的心愿，你我各觅佳偶便是。"
+    translated: "I never thought you would be so heartless. Today, I grant your wish and we shall each find our own happy endings."
 - raw: "119,4301,我对你早已倾心日久，愿你我二人结发白首，直至山无角楞，江水为竭。,433,,"
   splits:
   - split: 2
     text: "我对你早已倾心日久，愿你我二人结发白首，直至山无角楞，江水为竭。"
+    translated: "I have long been smitten with you; I wish for us to be husband and wife until the mountains lose their peaks and the rivers run dry."
 - raw: "120,4302,若要约定三生，自当有媒妁之言，高堂之命。你如此轻言出口，委实让人难以应允。,500,,"
   splits:
   - split: 2
     text: "若要约定三生，自当有媒妁之言，高堂之命。你如此轻言出口，委实让人难以应允。"
+    translated: "If we are to pledge our vows for three lifetimes, there must be a matchmaker's words and our parents' consent. Your casual mention of it makes it hard for me to agree."
 - raw: "121,4311,如此花月美景，你我郎情妾意，何不早些就寝，尽享春宵一刻。,500,,"
   splits:
   - split: 2
     text: "如此花月美景，你我郎情妾意，何不早些就寝，尽享春宵一刻。"
+    translated: "With such beautiful moonlit scenery, why don't we retire early and enjoy the delights of the night."
 - raw: "122,4312,不可尽日只想着男欢女爱之事。你我还须每日求学，每日精进才好。,500,,"
   splits:
   - split: 2
     text: "不可尽日只想着男欢女爱之事。你我还须每日求学，每日精进才好。"
+    translated: "Don't spend your days only thinking about male and female pleasures. We must continue to study and improve ourselves every day."
 - raw: "123,4313,你我既已礼成……便已是夫妇……至此之后，千山万水，皆与卿同承。,500,,"
   splits:
   - split: 2
     text: "你我既已礼成……便已是夫妇……至此之后，千山万水，皆与卿同承。"
+    translated: "Now that our ceremony is complete......we are husband and wife......from this moment on, through mountains and rivers, we shall face everything together."
 - raw: "124,4321,罢了，曾经的海誓山盟不过是过眼云烟而已，此言既已出口，还望你他日不会后悔。,500,,"
   splits:
   - split: 2
     text: "罢了，曾经的海誓山盟不过是过眼云烟而已，此言既已出口，还望你他日不会后悔。"
+    translated: "Forget it, the vows we once made are but fleeting clouds and passing shadows. I hope you won't regret this when you look back."
 - raw: "125,4401,你我知心而交，同行江湖，何必多言？,4601,,"
   splits:
   - split: 2
     text: "你我知心而交，同行江湖，何必多言？"
+    translated: "You and I understand each other without words; as companions in the Jianghu, what need is there for more talk?"
 - raw: "126,4402,[父亲||母亲]有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！,4603,,"
   splits:
   - split: 2
     text: "父亲"
+    translated: "Father"
   - split: 2
     subIndex: 1
     text: "母亲"
+    translated: "Mother"
   - split: 2
     subIndex: 2
     text: "有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！"
+    translated: "With my life at stake, how dare I refuse? To be by your side and share the Jianghu with you is what I desire!"
   templates:
   - split: 2
     template: "[{0}||{1}]{2}"
@@ -461,202 +571,254 @@
   splits:
   - split: 2
     text: "你我恩怨两清，再无怨怼，至此化干戈为玉帛……也堪称一段佳话，且来日再会！"
+    translated: "Our grievances are settled, and we shall have no more ill will. Let us turn swords into plowshares... This can be considered a fine tale. We shall meet again in the future!"
 - raw: "128,4701,你既愿随我习武求道，今后便以师徒相称。务要笃心守志，莫负师承。,500,,"
   splits:
   - split: 2
     text: "你既愿随我习武求道，今后便以师徒相称。务要笃心守志，莫负师承。"
+    translated: "Since you are willing to follow me and study martial arts and seek the Way, we shall henceforth address each other as teacher and disciple. You must be sincere and steadfast in your resolve, and not disappoint your mentor's teachings. Disappointed your expectations\\nLet me help you. Do not disappoint your mentor's expectations.\\nLet me help you."
 - raw: "129,4702,我功夫尚浅，火候不到，暂无收徒打算，此事还是罢了。,500,,"
   splits:
   - split: 2
     text: "我功夫尚浅，火候不到，暂无收徒打算，此事还是罢了。"
+    translated: "My skills are still shallow, and I'm not ready to take on an apprentice yet. Let's leave it at that for now."
 - raw: "130,4703,罢，罢！庙小难容大佛，多言无益，此后你我再无师徒之份！,500,,"
   splits:
   - split: 2
     text: "罢，罢！庙小难容大佛，多言无益，此后你我再无师徒之份！"
+    translated: "Enough, enough! A small temple cannot house a great Buddha; further words are useless. From now on, there will be no master-disciple bond between us!"
 - raw: "131,4704,此问个中关窍，其实在此……若还有甚不明之处，自可与为师直言讲来。,500,,"
   splits:
   - split: 2
     text: "此问个中关窍，其实在此……若还有甚不明之处，自可与为师直言讲来。"
+    translated: "The key to this question lies here......If there is anything you do not understand, you may speak freely to your master."
 - raw: "132,4705,习武之道，亦需时时勤思。此问徒儿不妨先自行揣摩，再问不迟。,500,,"
   splits:
   - split: 2
     text: "习武之道，亦需时时勤思。此问徒儿不妨先自行揣摩，再问不迟。"
+    translated: "The way of martial arts also requires constant reflection. Let my disciple ponder this first before asking further."
 - raw: "133,4801,承蒙师父看重，徒儿愿随师父左右，一心聆听教诲！,500,,"
   splits:
   - split: 2
     text: "承蒙师父看重，徒儿愿随师父左右，一心聆听教诲！"
+    translated: "Thanks to my Master's favor, your disciple wishes to stay by your side and listen intently to your teachings!"
 - raw: "134,4802,承蒙看重，只是在下并无拜师之念，抱歉辜负阁下美意。,500,,"
   splits:
   - split: 2
     text: "承蒙看重，只是在下并无拜师之念，抱歉辜负阁下美意。"
+    translated: "Thank you for your consideration, but I have no intention of becoming a disciple. I apologize for disappointing you."
 - raw: "135,4803,天大地大，此处既不能容，我自去便是！师徒情分，今日一笔勾销！,500,,"
   splits:
   - split: 2
     text: "天大地大，此处既不能容，我自去便是！师徒情分，今日一笔勾销！"
+    translated: "Heaven and earth are vast, but if this place cannot hold me, I shall leave! Our master-disciple bond is ended today!"
 - raw: "136,4804,此处疑难，徒儿苦思良久而不得其解，今得师父一言指点，顿觉拨云见日！,500,,"
   splits:
   - split: 2
     text: "此处疑难，徒儿苦思良久而不得其解，今得师父一言指点，顿觉拨云见日！"
+    translated: "Here was a puzzle that had troubled me for so long, but now with my master's single word of guidance, the clouds have cleared!"
 - raw: "137,4805,多谢师父美意，且容徒儿自行思量琢磨一番，倘还有疑，再来寻问师父。,500,,"
   splits:
   - split: 2
     text: "多谢师父美意，且容徒儿自行思量琢磨一番，倘还有疑，再来寻问师父。"
+    translated: "Thank you, Master, for your kindness. Allow your disciple some time to think and ponder. If there are any further questions, I will come to ask you again."
 - raw: "138,4901,我与足下志趣相投，性情相合，今能引为知己，幸甚，幸甚！,500,,"
   splits:
   - split: 2
     text: "我与足下志趣相投，性情相合，今能引为知己，幸甚，幸甚！"
+    translated: "I find myself in rare fortune to have found a kindred spirit like you, with shared interests and compatible temperaments. It is a great pleasure indeed!"
 - raw: "139,4902,承蒙错爱，只是你我脾性不同，志趣相违，恐怕并非良友……,500,,"
   splits:
   - split: 2
     text: "承蒙错爱，只是你我脾性不同，志趣相违，恐怕并非良友……"
+    translated: "Thanks for your mistaken affection, but our temperaments are different, and our interests diverge; we may not be good friends..."
 - raw: "140,4903,我本欲与你倾心相交，奈何这般无情……今日你我分道扬镳，后会无期！,500,,"
   splits:
   - split: 2
     text: "我本欲与你倾心相交，奈何这般无情……今日你我分道扬镳，后会无期！"
+    translated: "I wished to be deeply connected with you, but alas, your heart is cold... Today we part ways, never to meet again!"
 - raw: "141,4904,此时风光恰好，与子同游，吟赏山水，把酒言欢，岂不快哉！,500,,"
   splits:
   - split: 2
     text: "此时风光恰好，与子同游，吟赏山水，把酒言欢，岂不快哉！"
+    translated: "The scenery is perfect now, traveling with you, admiring the mountains and rivers, drinking and chatting merrily, how delightful!"
 - raw: "142,4905,我虽亦欲同你把盏言欢，只是此刻并非饮酒赏乐之时，且先忙要事如何？,500,,"
   splits:
   - split: 2
     text: "我虽亦欲同你把盏言欢，只是此刻并非饮酒赏乐之时，且先忙要事如何？"
+    translated: "Though I too wish to share a cup with you and enjoy your company, this is not the time for drinking and music. Should we tend to our urgent matters first?"
 - raw: "143,7001,,\"701,250,710,360,363,720,721,601\",,"
 - raw: "144,7102,此乃我安身立命之技，然你我确为挚交，此技传你倒不失你我情分……,500,,"
   splits:
   - split: 2
     text: "此乃我安身立命之技，然你我确为挚交，此技传你倒不失你我情分……"
+    translated: "This is my livelihood, but since we are close friends, teaching you this skill would not be inappropriate for our relationship......"
 - raw: "145,7103,我手里这点小本领，本不足道，况且朋友这番技艺远在我之上，指教二字，在下实在愧不敢当。,500,,"
   splits:
   - split: 2
     text: "我手里这点小本领，本不足道，况且朋友这番技艺远在我之上，指教二字，在下实在愧不敢当。"
+    translated: "With my humble skills in hand, I am not worthy to be praised. Moreover, my friend's abilities far surpass mine; I truly feel unworthy of such instruction."
 - raw: "146,7104,以武会友，实乃人生乐事！,\"130,131,132,240,601\",,"
   splits:
   - split: 2
     text: "以武会友，实乃人生乐事！"
+    translated: "Meeting friends through martial arts is truly a joy in life!"
 - raw: "147,7201,我手里这点小本领，本不足道。不过阁下在一旁鬼鬼祟祟暗中窥探，实在是有失身份。,500,,"
   splits:
   - split: 2
     text: "我手里这点小本领，本不足道。不过阁下在一旁鬼鬼祟祟暗中窥探，实在是有失身份。"
+    translated: "My humble skills are nothing worth mentioning. However, you, lurking and watching from the side, truly lack decorum."
 - raw: "148,7202,我之技艺皆乃心血所凝，岂容你就此偷习！,730,,"
   splits:
   - split: 2
     text: "我之技艺皆乃心血所凝，岂容你就此偷习！"
+    translated: "My skills are the crystallization of my hard work and dedication; how can you think to steal them so easily!"
 - raw: "149,7203,你暗中揣摩，暗下苦功，终将其所擅技艺习得一二。,500,,"
   splits:
   - split: 2
     text: "你暗中揣摩，暗下苦功，终将其所擅技艺习得一二。"
+    translated: "You secretly observed and put in the hard work, eventually picking up some of their skills."
 - raw: "150,7204,……我所擅技艺虽微不足道，然亦是常年累月，辛苦所得，望主上心念同行之谊，莫再如此。,500,,"
   splits:
   - split: 2
     text: "……我所擅技艺虽微不足道，然亦是常年累月，辛苦所得，望主上心念同行之谊，莫再如此。"
+    translated: "...Although my skills may be insignificant, they are the result of years of hard work. I hope that Lord will remember our companionship and not speak of me in such a way."
 - raw: "151,7211,阁下技艺卓绝，我这粗手笨脚的手段，实在不值得阁下暗中关注，还请离开吧。,500,,"
   splits:
   - split: 2
     text: "阁下技艺卓绝，我这粗手笨脚的手段，实在不值得阁下暗中关注，还请离开吧。"
+    translated: "Your skills are unparalleled; my clumsy methods are not worth your secret attention. Please leave."
 - raw: "152,7212,你暗中揣摩，暗下苦功，终将其所擅技艺习得一二。,500,,"
   splits:
   - split: 2
     text: "你暗中揣摩，暗下苦功，终将其所擅技艺习得一二。"
+    translated: "You secretly observed and put in the hard work, eventually picking up some of their skills."
 - raw: "153,7213,今日败于阁下之手，他日定要讨个公道。,500,,"
   splits:
   - split: 2
     text: "今日败于阁下之手，他日定要讨个公道。"
+    translated: "Today, I lost to your hand. Someday, I will seek justice."
 - raw: "154,7214,你这鬼祟龌龊之徒，贼性难移，还需得让尔等终身铭记教训！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "你这鬼祟龌龊之徒，贼性难移，还需得让尔等终身铭记教训！"
+    translated: "You sneaky and despicable scoundrel, with a thief's nature that never changes, you must be made to remember this lesson for the rest of your life!"
 - raw: "155,7215,既落于你手，又有何话可说，且直接杀了我便是，否则，纵十载百年，我也誓杀汝之亲族满门！,500,,"
   splits:
   - split: 2
     text: "既落于你手，又有何话可说，且直接杀了我便是，否则，纵十载百年，我也誓杀汝之亲族满门！"
+    translated: "Since I am in your hands, what more is there to say? Just kill me outright. Otherwise, even if it takes ten or a hundred years, I swear I will kill your entire family!"
 - raw: "156,7216,何必动此大刑……大侠欲求何物，拿了便是，小的知无不言，只求留小的一条性命苟活，日后为大侠鞍前马后，亦是美事……,500,,"
   splits:
   - split: 2
     text: "何必动此大刑……大侠欲求何物，拿了便是，小的知无不言，只求留小的一条性命苟活，日后为大侠鞍前马后，亦是美事……"
+    translated: "No need for such harsh treatment... Great Hero, what do you seek? Take it if you will, I shall speak freely of all I know. I only beg that you spare my life... to serve you in the future would be a blessing..."
 - raw: "157,7217,竟对我下如此重手……罢了，你直言所求之物便是了。,500,,"
   splits:
   - split: 2
     text: "竟对我下如此重手……罢了，你直言所求之物便是了。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "158,7218,你当我是那等无骨气之人否？有何手段，不妨使来！,500,,"
   splits:
   - split: 2
     text: "你当我是那等无骨气之人否？有何手段，不妨使来！"
+    translated: "Do you take me for someone without backbone? Use whatever means you have!"
 - raw: "159,7219,……人在屋檐下，不得不低头，你所欲何为，尽管告知于我便是了……,500,,"
   splits:
   - split: 2
     text: "……人在屋檐下，不得不低头，你所欲何为，尽管告知于我便是了……"
+    translated: "...Since one is under another's roof, one must bow. Tell me what you desire, and I shall comply...."
 - raw: "160,7220,区区小道，不过如此……我怎会轻易开口？,500,,"
   splits:
   - split: 2
     text: "区区小道，不过如此……我怎会轻易开口？"
+    translated: "A mere minor path... not worth speaking of...... How could I be so quick to speak?"
 - raw: "161,7221,这，也罢……你所欲为何，我应了便是……,500,,"
   splits:
   - split: 2
     text: "这，也罢……你所欲为何，我应了便是……"
+    translated: "This, as you wish......What do you desire, I shall grant it......"
 - raw: "162,7222,吾行为磊落，岂可让你等小人得逞？,500,,"
   splits:
   - split: 2
     text: "吾行为磊落，岂可让你等小人得逞？"
+    translated: "I act with integrity; how can I let scoundrels like you succeed?"
 - raw: "163,7223,既有所求，何不直言？以我之性情怎会有不允之理？,500,,"
   splits:
   - split: 2
     text: "既有所求，何不直言？以我之性情怎会有不允之理？"
+    translated: "Since you have a request, why not speak plainly? Given my nature, how could I refuse?"
 - raw: "164,7224,正邪不两立，孤侠至死不偷生！有何手段，尽管使出来！,500,,"
   splits:
   - split: 2
     text: "正邪不两立，孤侠至死不偷生！有何手段，尽管使出来！"
+    translated: "Good and evil cannot coexist; an lone hero would rather die than live as a coward! Use whatever means you have; I will not back down!"
 - raw: "165,7225,尔既将我囚困于此，又复问些什么！,\"20399,20400,20401,20402,20403,20404,20405,20408,20409,20410,20411,20412,20413,20414,601\",,"
   splits:
   - split: 2
     text: "尔既将我囚困于此，又复问些什么！"
+    translated: "Since you've imprisoned me here, why ask such questions!"
 - raw: "166,7226,尔既已取得欲取之物，还困留我于此做甚？,500,,"
   splits:
   - split: 2
     text: "尔既已取得欲取之物，还困留我于此做甚？"
+    translated: "Since you've already obtained what you wanted, why do you still keep me here?"
 - raw: "167,7227,我奉劝尔莫再妄想，且放我离去，才为上途！,500,,"
   splits:
   - split: 2
     text: "我奉劝尔莫再妄想，且放我离去，才为上途！"
+    translated: "I advise you to stop scheming and let me go; that is the wise course!"
 - raw: "168,7228,竟对我下如此重手……此等刑具，实……实是为江湖所不齿……莫，莫要再动刑了……,\"601,500\",,"
   splits:
   - split: 2
     text: "竟对我下如此重手……此等刑具，实……实是为江湖所不齿……莫，莫要再动刑了……"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "169,7229,你！你竟如此刁钻恶毒……莫，莫不是要对我用刑？,\"20417,20418,20419,20420,20421,20422,20425,20426,20427,20428,20429,20430,601\",,"
   splits:
   - split: 2
     text: "你！你竟如此刁钻恶毒……莫，莫不是要对我用刑？"
+    translated: "You! How could you be so cruel and vicious......D-Don't tell me you want to torture me?"
 - raw: "170,7230,你！你这般是要作甚？你我虽有宿怨，难道你……你怎敢！,\"20423,20424,20431,20432,20438,20439,20440,20441,20442,20446,20447,20448,20449,20450,601\",,"
   splits:
   - split: 2
     text: "你！你这般是要作甚？你我虽有宿怨，难道你……你怎敢！"
+    translated: "You! What do you think you're doing? Though we have a grudge, does that mean you... how dare you!"
 - raw: "171,7231,啊啊啊啊……恶贼！若然我有逃生之机……定将你之恶行昭告天下，定要你血债血偿！,\"601,500\",,"
   splits:
   - split: 2
     text: "啊啊啊啊……恶贼！若然我有逃生之机……定将你之恶行昭告天下，定要你血债血偿！"
+    translated: "Ah ah ah ah...... Villain! If I ever have a chance to escape...... I will expose your evil deeds to the world and make you pay with your blood!"
 - raw: "172,7232,……你又意欲何为？,\"20433,204331,20434,204341,20435,204351,601\",,"
   splits:
   - split: 2
     text: "……你又意欲何为？"
+    translated: "...What do you intend to do this time?"
 - raw: "173,7233,……汝将我囚禁于此，现在又来献好心，是何道理，我被你折磨得还不够么……,\"601,500\",,"
   splits:
   - split: 2
     text: "……汝将我囚禁于此，现在又来献好心，是何道理，我被你折磨得还不够么……"
+    translated: "...You imprisoned me here and now you come with kind words. What is the reason for that? Have I not suffered enough at your hands already..."
 - raw: "174,7234,你……你怎敢欺凌于我！无耻之尤，我与你誓不共戴天！,500,,"
   splits:
   - split: 2
     text: "你……你怎敢欺凌于我！无耻之尤，我与你誓不共戴天！"
+    translated: "You... How dare you bully me! You are shameless, I cannot live under the same sky as you!"
 - raw: "175,7235,此人已无声息……,500,,"
   splits:
   - split: 2
     text: "此人已无声息……"
+    translated: "This person is silent..."
 - raw: "176,1410,对你颇有好感的{0}遥见你在不远处，热情地跑来向你问候。,\"1111,1112\",,"
   splits:
   - split: 2
     text: "对你颇有好感的"
+    translated: "Has quite a fondness for you"
   - split: 2
     subIndex: 1
     text: "遥见你在不远处，热情地跑来向你问候。"
+    translated: "Seeing you in the distance, they ran over to greet you enthusiastically."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -664,9 +826,11 @@
   splits:
   - split: 2
     text: "你与"
+    translated: "You and"
   - split: 2
     subIndex: 1
     text: "热情地执手相谈，二人语带欢笑，开心异常。"
+    translated: "Chatting enthusiastically hand in hand, the two of them laughed and were extremely happy."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -674,9 +838,11 @@
   splits:
   - split: 2
     text: "你忙于赶路，无暇与"
+    translated: "You were too busy traveling to spare any time for"
   - split: 2
     subIndex: 1
     text: "闲谈，简单寒暄了两句便匆匆离开了。"
+    translated: "Chatting casually, they exchanged a few brief pleasantries before leaving in a hurry."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -684,9 +850,11 @@
   splits:
   - split: 2
     text: "仇家"
+    translated: "Rival Family"
   - split: 2
     subIndex: 1
     text: "发现了你的行踪，从远处拔出刀冲向你，与你死命相搏。"
+    translated: "Spotted your trail from afar, he drew his blade and charged at you, fighting with all his might."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -694,25 +862,31 @@
   splits:
   - split: 2
     text: "你我仇深似海，今日于此相遇，难免一战，生死之际，莫要怪我不留情面！"
+    translated: "Our enmity runs deep; meeting here today, we cannot avoid a battle. At the moment of life or death, do not blame me for showing no mercy!"
 - raw: "181,1422,万幸早做准备，两方相遇之际，你堪堪避开，免了一场恶战。,500,,"
   splits:
   - split: 2
     text: "万幸早做准备，两方相遇之际，你堪堪避开，免了一场恶战。"
+    translated: "Thanks to early preparations, you narrowly avoided the meeting of the two sides, thus avoiding a fierce battle."
 - raw: "182,1423,唔………你……,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "唔………你……"
+    translated: "Mm... ...you..."
 - raw: "183,1424,给……老子…滚……,500,,"
   splits:
   - split: 2
     text: "给……老子…滚……"
+    translated: "Get the hell away from me..."
 - raw: "184,1430,与你素有仇怨的{0}当街横在你面前，当着街坊邻居手指着你大肆辱骂了起来。,\"1131,1132,1133\",,"
   splits:
   - split: 2
     text: "与你素有仇怨的"
+    translated: "Who has long been at odds with you"
   - split: 2
     subIndex: 1
     text: "当街横在你面前，当着街坊邻居手指着你大肆辱骂了起来。"
+    translated: "Blocking your way in the street and pointing at you, they began to abuse you in front of the neighbors."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -720,9 +894,11 @@
   splits:
   - split: 2
     text: "唯以德报怨方为上法，你决意劝说"
+    translated: "Only by returning resentment with virtue is one truly righteous; you decide to persuade them."
   - split: 2
     subIndex: 1
     text: "，时过半晌，双方虽未尽释前嫌，关系却亦是缓和了几分。"
+    translated: ", After some time had passed, although they had not fully resolved their grievances, their relationship had improved somewhat."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -730,13 +906,16 @@
   splits:
   - split: 2
     text: "此人出言不逊，何必与此等人计较，且不去理会，此乃君子之气度。"
+    translated: "This person speaks rudely; there's no need to argue with such a person. Ignore them and show some nobility."
 - raw: "187,1440,对你怀恨在心的{0}暗中跟踪你，趁你不备突施妙手偷了你的银两，转身便逃。,\"1141,1142\",,"
   splits:
   - split: 2
     text: "对你怀恨在心的"
+    translated: "Who harbors resentment toward you"
   - split: 2
     subIndex: 1
     text: "暗中跟踪你，趁你不备突施妙手偷了你的银两，转身便逃。"
+    translated: "Following you in secret, they took your Silver when you weren't looking and fled."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -744,13 +923,16 @@
   splits:
   - split: 2
     text: "区区财物，何足挂齿，此等样人，出手攻袭，只是脏了自己的手，且放他去罢。"
+    translated: "Such petty possessions are not worth mentioning. A person like this, who attacks others, only dirties their own hands. Let them go."
 - raw: "189,1450,金兰好友{0}听闻你在此地行走，特意赶来你身边，将附近的江湖事件分享给你。,\"1151,1152\",,"
   splits:
   - split: 2
     text: "金兰好友"
+    translated: "Sworn Bond friend"
   - split: 2
     subIndex: 1
     text: "听闻你在此地行走，特意赶来你身边，将附近的江湖事件分享给你。"
+    translated: "Hearing that you were here, I came to your side deliberately to share nearby Jianghu events with you."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -758,17 +940,21 @@
   splits:
   - split: 2
     text: "金兰之情，共载此时，天涯挚交如此，人生夫复何求？"
+    translated: "A Sworn Bond, shared in this moment, true friends across the horizon, what more could one ask for in life?"
 - raw: "191,1452,金兰之情虽贵，然正有要事在身，且改日赔罪。,500,,"
   splits:
   - split: 2
     text: "金兰之情虽贵，然正有要事在身，且改日赔罪。"
+    translated: "Though the Sworn Bond is precious, I have urgent matters to attend to, and I shall make amends another day."
 - raw: "192,1460,红颜眷侣{0}听闻你在江湖上频繁走动，特意赶来见你一面。,\"1161,1162\",,"
   splits:
   - split: 2
     text: "红颜眷侣"
+    translated: "Red Beauty Lover"
   - split: 2
     subIndex: 1
     text: "听闻你在江湖上频繁走动，特意赶来见你一面。"
+    translated: "I heard you move around the Jianghu frequently and came especially to see you."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -776,9 +962,11 @@
   splits:
   - split: 2
     text: "三生石枯，忘川海烂，终不改此情，不变此心，今日之誓，便我与"
+    translated: "Three Lives Stone withered, Forgetful River in ruins, yet my love and heart remain unchanged. Today's vow, for you and me,"
   - split: 2
     subIndex: 1
     text: "之证。"
+    translated: "Proof"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -786,13 +974,16 @@
   splits:
   - split: 2
     text: "耳鬓厮磨终有时，岂可因此而误了正事，暂且先去。"
+    translated: "Intimate moments will come in time; we cannot let this distract us from our duties. For now, we must depart."
 - raw: "195,1470,与你万分恩爱的{0}追上了你。,\"1171,1172\",,"
   splits:
   - split: 2
     text: "与你万分恩爱的"
+    translated: "Who is deeply devoted to you"
   - split: 2
     subIndex: 1
     text: "追上了你。"
+    translated: "Caught up to you"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -800,9 +991,11 @@
   splits:
   - split: 2
     text: "你与"
+    translated: "You and"
   - split: 2
     subIndex: 1
     text: "情投意合，人世之所求，又何堪与画眉并论？"
+    translated: "A mutual affection is what people seek in life; how can it be compared to what Mei desires?"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -810,13 +1003,16 @@
   splits:
   - split: 2
     text: "情爱片刻，终有时尽，且先去做正事，来日再论此情不迟。"
+    translated: "Moments of passion have their end; let us attend to our duties first, and discuss this matter another day."
 - raw: "198,1480,你在忽然之间感到一丝异样，像是有人轻轻地触碰了你一下，继而发现身上好像少了些银两，而{0}正从你身边走过。,\"1181,1182\",,"
   splits:
   - split: 2
     text: "你在忽然之间感到一丝异样，像是有人轻轻地触碰了你一下，继而发现身上好像少了些银两，而"
+    translated: "You suddenly feel something amiss, as if someone had lightly touched you, and then you notice that you seem to be missing some Silver."
   - split: 2
     subIndex: 1
     text: "正从你身边走过。"
+    translated: "Passing by you"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -824,6 +1020,7 @@
   splits:
   - split: 2
     text: "从你身侧飘过，试图顺手牵羊，结果非但没有偷窃成功，反而被你抓了个现行。"
+    translated: "Passed by your side, trying to pickpocket, but failed not only to steal but also got caught in the act by you."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -831,9 +1028,11 @@
   splits:
   - split: 2
     text: "大步走向你，开口言道"
+    translated: "Striding toward you, they speak"
   - split: 2
     subIndex: 1
     text: "“在下行走江湖，广交四海朋友。若阁下不弃，还望赏些薄面，交个朋友如何？”说罢，强塞与你一叠银票，并向你深施一礼。"
+    translated: "I travel the Jianghu and make friends far and wide. If you don't mind, I hope to extend a small courtesy and become friends. Saying this, he forcefully presses a stack of silver notes into your hand and bows deeply to you."
   templates:
   - split: 2
     template: "⟦0⟧{0}:{1}"
@@ -841,9 +1040,11 @@
   splits:
   - split: 2
     text: "你忽觉身侧有异，似有人轻轻地触碰了你一下，继而发现身上好像少了些物件，而"
+    translated: "You suddenly feel something amiss beside you, as if someone gently touched you, and then you notice that some items seem to be missing from your person, and"
   - split: 2
     subIndex: 1
     text: "正从你身边走过。"
+    translated: "Passing by you"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -851,9 +1052,11 @@
   splits:
   - split: 2
     text: "吵吵嚷嚷的人群有一人"
+    translated: "In the noisy crowd, there is one person."
   - split: 2
     subIndex: 1
     text: "站了出来向你发起挑战，氛围突然紧张了起来。"
+    translated: "Stepped forward to challenge you, the atmosphere suddenly became tense."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -861,48 +1064,60 @@
   splits:
   - split: 2
     text: "在下一时鬼迷心窍，再不敢有下次了，还望大侠放我一马。"
+    translated: "I was momentarily possessed by a foolish impulse and dare not do it again. I hope you, Great Hero, will spare me."
 - raw: "204,1901,这般身手就该老老实实把东西交出来，何必多受些这些皮肉之苦？,501,,"
   splits:
   - split: 2
     text: "这般身手就该老老实实把东西交出来，何必多受些这些皮肉之苦？"
+    translated: "With skills like these, you should honestly hand over the item; why endure this unnecessary pain?"
 - raw: "205,1902,大侠，在下行窃也是迫不得已，下次再也不敢了……还望放我一马。,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "大侠，在下行窃也是迫不得已，下次再也不敢了……还望放我一马。"
+    translated: "Great Hero, I had no choice but to steal, and I promise I won't do it again... Please spare me."
 - raw: "206,1903,承蒙阁下不弃，能与君结识真是三生有幸。,500,,"
   splits:
   - split: 2
     text: "承蒙阁下不弃，能与君结识真是三生有幸。"
+    translated: "It is truly a blessing of three lifetimes to have the honor of meeting you, sir."
 - raw: "207,1904,好一奇士，行为举止着实与众不同……,500,,"
   splits:
   - split: 2
     text: "好一奇士，行为举止着实与众不同……"
+    translated: "What an unusual man, his behavior and manners are truly unique..."
 - raw: "208,1905,大侠，在下行窃也是迫不得已，下次再也不敢了……还望放我一马。,\"1213,311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "大侠，在下行窃也是迫不得已，下次再也不敢了……还望放我一马。"
+    translated: "Great Hero, I had no choice but to steal, and I promise I won't do it again... Please spare me."
 - raw: "209,1906,这般身手就该老老实实把东西交出来，何必多受些这些皮肉之苦？,501,,"
   splits:
   - split: 2
     text: "这般身手就该老老实实把东西交出来，何必多受些这些皮肉之苦？"
+    translated: "With skills like these, you should honestly hand over the item; why endure this unnecessary pain?"
 - raw: "210,1907,大侠确实技高一筹，在下领教了，今日之后定当格外苦练，他日再来领教高招。,\"311,350,500\",,"
   splits:
   - split: 2
     text: "大侠确实技高一筹，在下领教了，今日之后定当格外苦练，他日再来领教高招。"
+    translated: "Great Hero, you are indeed superior in skill. I have learned from you today. From now on, I will train even harder, and one day I will return to learn more of your advanced techniques."
 - raw: "211,1908,看你像是个是个习武之人，没想到如此中看不中用……,501,,"
   splits:
   - split: 2
     text: "看你像是个是个习武之人，没想到如此中看不中用……"
+    translated: "You look like a martial artist, yet you're so disappointing..."
 - raw: "212,1909,[少侠||女侠]，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "少侠"
+    translated: "Young Hero"
   - split: 2
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 2
     subIndex: 2
     text: "，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。"
+    translated: ", I have returned all the belongings as compensation; I will never do such a thing again.... I hope you will spare me."
   templates:
   - split: 2
     template: "[{0}||{1}]{2}"
@@ -910,12 +1125,15 @@
   splits:
   - split: 2
     text: "少侠"
+    translated: "Young Hero"
   - split: 2
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 2
     subIndex: 2
     text: "之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？"
+    translated: "I have long heard of your deeds. Today, upon meeting you, I boldly extend an offer to be acquainted, but I wonder if it aligns with your wishes?"
   templates:
   - split: 2
     template: "[{0}||{1}]{2}"
@@ -923,12 +1141,15 @@
   splits:
   - split: 2
     text: "少侠"
+    translated: "Young Hero"
   - split: 2
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 2
     subIndex: 2
     text: "果真率性！今日相识，实快慰平生！"
+    translated: "Truly spontaneous! Meeting you today brings me more joy than I've felt in years!"
   templates:
   - split: 2
     template: "[{0}||{1}]{2}"
@@ -936,28 +1157,36 @@
   splits:
   - split: 2
     text: "……阁下既不愿结交，在下亦不敢强求，只是阁下此言……未免自视甚高了些！"
+    translated: "...Since you do not wish to associate, I dare not force the matter, but your words just now... are rather arrogant!"
 - raw: "216,210020,你我二人，情深义厚，在下冒昧开言，欲与[兄||姊]义结金兰，以全你我情谊，却不知[兄||姊]意愿如何？,\"1241,1242\",,"
   splits:
   - split: 2
     text: "你我二人，情深义厚，在下冒昧开言，欲与"
+    translated: "You and I, with deep affection and strong bonds, I dare to speak frankly and wish to discuss something with you,"
   - split: 2
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 3
     text: "义结金兰，以全你我情谊，却不知"
+    translated: "Formed a sworn bond to fulfill our friendship, yet did not know"
   - split: 2
     subIndex: 4
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 5
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 6
     text: "意愿如何？"
+    translated: "How willing are you?"
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
@@ -965,19 +1194,24 @@
   splits:
   - split: 2
     text: "皇天厚土，金兰之交，你我定不相负！"
+    translated: "Heaven and earth as witness, in our sworn bond, you and I shall not fail each other!"
 - raw: "218,210022,自然，自然……既[兄||姊]不愿结交，在下亦不敢强求……,500,,"
   splits:
   - split: 2
     text: "自然，自然……既"
+    translated: "Of course, of course......then"
   - split: 2
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 3
     text: "不愿结交，在下亦不敢强求……"
+    translated: "I don't dare to force you......I also don't dare to insist..."
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -985,15 +1219,19 @@
   splits:
   - split: 2
     text: "，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义"
+    translated: ", Your nature aligns with mine, and you have the bearing of my younger self. I am greatly comforted and wish to take you as my adopted son."
   - split: 2
     subIndex: 1
     text: "子"
+    translated: "Child"
   - split: 2
     subIndex: 2
     text: "女"
+    translated: "She"
   - split: 2
     subIndex: 3
     text: "，却不知你意下如何？"
+    translated: ", But I wonder what you think about it?"
   templates:
   - split: 2
     template: "lp{0}[{1}||{2}]{3}"
@@ -1001,24 +1239,31 @@
   splits:
   - split: 2
     text: "今日喜得义"
+    translated: "Today I gained an honorary title"
   - split: 2
     subIndex: 1
     text: "子"
+    translated: "Child"
   - split: 2
     subIndex: 2
     text: "女"
+    translated: "She"
   - split: 2
     subIndex: 3
     text: "，有"
+    translated: ", There is"
   - split: 2
     subIndex: 4
     text: "子"
+    translated: "Child"
   - split: 2
     subIndex: 5
     text: "女"
+    translated: "She"
   - split: 2
     subIndex: 6
     text: "若此，实快慰平生！"
+    translated: "If so, it truly brings me great comfort in life!"
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
@@ -1026,13 +1271,16 @@
   splits:
   - split: 2
     text: "……你既如此说，我定不能强求，只叹可惜……"
+    translated: "......Since you say so, I cannot force you. I can only regret it......"
 - raw: "222,210040,些许时日不见……倒觉得lp似换了个人一般……似，似有些不一样……,\"1261,1262\",,"
   splits:
   - split: 2
     text: "些许时日不见……倒觉得"
+    translated: "It's been a few days since we last met......I feel like"
   - split: 2
     subIndex: 1
     text: "似换了个人一般……似，似有些不一样……"
+    translated: "As if they were a different person......as if, as if there's something different about them......"
   templates:
   - split: 2
     template: "{0}lp{1}"
@@ -1040,20 +1288,25 @@
   splits:
   - split: 2
     text: "你……你也常惦着我么……"
+    translated: "You... do you often think of me too...?"
 - raw: "224,210042,……你，你却不明我意么……,500,,"
   splits:
   - split: 2
     text: "……你，你却不明我意么……"
+    translated: "......You, do you not understand my meaning?......"
 - raw: "225,210050,lp……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与lp相伴江湖，便心满意足了……却不知，lp你心意如何？,\"1271,1272\",,"
   splits:
   - split: 2
     text: "……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与"
+    translated: "...We have known each other for a long time. In this vast Jianghu, no one understands me as you do. If, if I could..."
   - split: 2
     subIndex: 1
     text: "相伴江湖，便心满意足了……却不知，"
+    translated: "To be content with each other in the Jianghu... yet unaware that,"
   - split: 2
     subIndex: 2
     text: "你心意如何？"
+    translated: "What are your feelings?"
   templates:
   - split: 2
     template: "lp{0}lp{1}lp{2}"
@@ -1061,23 +1314,29 @@
   splits:
   - split: 2
     text: "如此，如此……便太好了，还怕我拙口笨舌，道不出心迹……至此之后，诺大江湖，你我便再非孤身一人了……"
+    translated: "So, so... that's wonderful, I was worried my clumsy tongue would fail to express my feelings... From now on, in this vast Jianghu, you and I will no longer be alone..."
 - raw: "227,210052,……如此么？也，也好……,500,,"
   splits:
   - split: 2
     text: "……如此么？也，也好……"
+    translated: "......Is that so? Well, that's fine too......"
 - raw: "228,210060,我与lp情深无限，契阔生死自不必多言，今欲与lp结为夫妇……不知，不知p你意下如何……,\"1281,1282\",,"
   splits:
   - split: 2
     text: "我与"
+    translated: "I with"
   - split: 2
     subIndex: 1
     text: "情深无限，契阔生死自不必多言，今欲与"
+    translated: "Boundless affection, the bond of life and death needs no further words. Today, I wish to..."
   - split: 2
     subIndex: 2
     text: "结为夫妇……不知，不知"
+    translated: "To become husband and wife......I don't know, I don't know."
   - split: 2
     subIndex: 3
     text: "你意下如何……"
+    translated: "What do you think......"
   templates:
   - split: 2
     template: "{0}lp{1}lp{2}p{3}"
@@ -1085,37 +1344,46 @@
   splits:
   - split: 2
     text: "此生结发，定不负卿情……生生世世，与子共生。"
+    translated: "Till death do us part, I shall never betray your love... Reincarnation after reincarnation, I will live with you."
 - raw: "230,210062,如此……也罢……,500,,"
   splits:
   - split: 2
     text: "如此……也罢……"
+    translated: "Very well, then......"
 - raw: "231,210070,你我夫妻至此，破镜再难圆，今日起，姻缘断绝，再不复夫妻之情。,\"1291,1292\",,"
   splits:
   - split: 2
     text: "你我夫妻至此，破镜再难圆，今日起，姻缘断绝，再不复夫妻之情。"
+    translated: "From this day forward, our marriage is shattered beyond repair. Our fate is severed, and we are no longer husband and wife."
 - raw: "232,210071,……将来之事，你好自为之罢。,500,,"
   splits:
   - split: 2
     text: "……将来之事，你好自为之罢。"
+    translated: "...As for the future, you had better take care of yourself."
 - raw: "233,210072,……恼羞成怒，欲杀我泄愤么？,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
     text: "……恼羞成怒，欲杀我泄愤么？"
+    translated: "...Out of anger and shame, do you want to kill me to vent your frustration?"
 - raw: "234,210073,……看在往日情分，我留你性命，以后莫要再作纠缠！,1294,,"
   splits:
   - split: 2
     text: "……看在往日情分，我留你性命，以后莫要再作纠缠！"
+    translated: "...For old times' sake, I spare your life. Don't bother me again in the future! Tangle with me if you dare. If it has a more specific meaning in this context, please provide additional context for an accurate translation.)"
 - raw: "235,210080,此山是我开，此树是我栽，要想从此过，留下买路财！,\"1301,1302,1303,1304\",,"
   splits:
   - split: 2
     text: "此山是我开，此树是我栽，要想从此过，留下买路财！"
+    translated: "This mountain was opened by me, these trees were planted by me. If you wish to pass through here, leave your toll money behind!"
 - raw: "236,210081,拦路之人接过银子，在手中掂量了几下，说道：“算你识相，今日就饶你一回，下次可没这么好运了！”说罢，侧身让开了道路……,1305,,"
   splits:
   - split: 2
     text: "拦路之人接过银子，在手中掂量了几下，说道"
+    translated: "The man blocking the way took the money, weighed it in his hand, and said,"
   - split: 2
     subIndex: 1
     text: "“算你识相，今日就饶你一回，下次可没这么好运了！”说罢，侧身让开了道路……"
+    translated: "Consider yourself lucky this time. I'll let you go today, but you won't be so fortunate next time! With that, they stepped aside to let the way clear...."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1123,9 +1391,11 @@
   splits:
   - split: 2
     text: "拦路之人接过银子，在手中掂量了几下，脸上露出一丝狡黠的笑容，说道"
+    translated: "The man blocking the way took the silver, weighed it in his hand, and gave a sly smile as he said"
   - split: 2
     subIndex: 1
     text: "“算你识相，今日就饶你一回，下次可没这么好运了！”说罢，侧身让开了道路……正当你松了一口气，急忙从其身侧走过之时，那凶徒一脸戏谑，挥动兵刃，向你袭来！"
+    translated: "Consider yourself lucky today, I'll spare you this time, but there won't be such good fortune next time! With that, he stepped aside to let you pass... Just as you breathed a sigh of relief and hurried past him, the thug grinned maliciously and swung his weapon at you!"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1133,9 +1403,11 @@
   splits:
   - split: 2
     text: "拦路之人听了你的话，微微一愣，眼中闪过一丝犹豫，上下打量了你一番，似乎在判断你话语的真实性。片刻之后，冷哼一声道"
+    translated: "The man blocking the way was taken aback by your words, a hint of hesitation flashing in his eyes as he sized you up, seemingly judging the truthfulness of what you said. After a moment, he snorted and said,"
   - split: 2
     subIndex: 1
     text: "“哼，少在这里花言巧语！不过看你还算老实，今日就不为难你了，赶紧滚吧！”"
+    translated: "Hmph, stop with the sweet talk! Since you seem honest enough, I'll let you off easy today. Get out of here!"
   templates:
   - split: 2
     template: "{0}：{1} "
@@ -1143,21 +1415,26 @@
   splits:
   - split: 2
     text: "你试图用言语打动拦路凶徒，滔滔不绝地讲述着自己的苦衷和江湖道义。然而那凶徒却对你的话充耳不闻，反而被你的啰嗦激怒，随即拿起武器，向你扑了过来。"
+    translated: "You tried to persuade the bandit with words, pouring out your hardships and appeals to Jianghu righteousness. However, the bandit ignored your speech and was infuriated by your chatter, picking up a weapon and charging at you."
 - raw: "240,210085,你本就不是个胆小怕事之人，面对这等恶行，怎能容忍？定要出手惩治一番！,1306,,"
   splits:
   - split: 2
     text: "你本就不是个胆小怕事之人，面对这等恶行，怎能容忍？定要出手惩治一番！"
+    translated: "You're not one to back down from a challenge; how could you tolerate such evil deeds? You must take action to punish them!"
 - raw: "241,210086,当那拦路凶徒刚刚接过包裹之际，四周猛然传来数声突兀的异响。凶徒神色一凛，来不及仔细查验包裹中的物品，便毫不犹豫地转身匆匆离去……,1308,,"
   splits:
   - split: 2
     text: "当那拦路凶徒刚刚接过包裹之际，四周猛然传来数声突兀的异响。凶徒神色一凛，来不及仔细查验包裹中的物品，便毫不犹豫地转身匆匆离去……"
+    translated: "Just as the bandit had just taken the package, several sudden strange noises erupted from all around. The bandit's expression turned serious, not having time to carefully inspect the contents of the package before turning and hastily leaving..."
 - raw: "242,210087,拦路凶徒迫不及待地打开包裹查看，而其发现包裹里全是碎石时，顿时暴跳如雷，怒吼道：“你竟敢戏弄我！”随即挥舞着武器向你扑来。,1306,,"
   splits:
   - split: 2
     text: "拦路凶徒迫不及待地打开包裹查看，而其发现包裹里全是碎石时，顿时暴跳如雷，怒吼道"
+    translated: "The bandit eagerly opened the package to check it and, upon discovering that it was filled with rubble, flew into a rage, roaring in anger."
   - split: 2
     subIndex: 1
     text: "“你竟敢戏弄我！”随即挥舞着武器向你扑来。"
+    translated: "You dare to toy with me! They then lunged at you, brandishing their weapon."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1165,49 +1442,61 @@
   splits:
   - split: 2
     text: "你小心翼翼地从其身旁走过，生怕那凶徒反悔……好在那凶徒只是阴恻恻盯着你，未行恶举。"
+    translated: "You carefully walked past them, wary of the thug's possible change of heart......Fortunately, the thug merely glared at you menacingly but made no move."
 - raw: "244,210089,你遇事不乱，凭借你过人口才，幸而化解了这场无妄之灾……,500,,"
   splits:
   - split: 2
     text: "你遇事不乱，凭借你过人口才，幸而化解了这场无妄之灾……"
+    translated: "You remained calm in the face of trouble and, thanks to your remarkable eloquence, managed to counter this unexpected disaster..."
 - raw: "245,210090,你松了一口气，庆幸这突如其来的变故让你躲过一劫。但你也不敢在此多做停留，急忙加快脚步离开这个危险之地。,500,,"
   splits:
   - split: 2
     text: "你松了一口气，庆幸这突如其来的变故让你躲过一劫。但你也不敢在此多做停留，急忙加快脚步离开这个危险之地。"
+    translated: "You breathed a sigh of relief, glad that this sudden turn of events had spared you. But you didn't dare to linger and hurriedly quickened your pace to leave the dangerous area."
 - raw: "246,210091,此人已然束手，当放当诛，皆在你一念之间……,\"3760,343,350\",,"
   splits:
   - split: 2
     text: "此人已然束手，当放当诛，皆在你一念之间……"
+    translated: "This person is already restrained; whether to spare or punish them lies in your decision..."
 - raw: "247,210092,宵小之辈，且看我手段，让你尽尝痛苦滋味！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "宵小之辈，且看我手段，让你尽尝痛苦滋味！"
+    translated: "Scum, let me show you my skills and let you taste the bitterness of pain!"
 - raw: "248,210100,全因我在外吹嘘家中豪富，不曾想引来了一伙恶徒觊觎，他们趁夜打家劫舍，一遭家业尽毁我手。我如今流落至此，身无分文，食不果腹，还望大侠看在我如此凄惨的份上，助我一番。,\"1311,1312,1313,1314\",,"
   splits:
   - split: 2
     text: "全因我在外吹嘘家中豪富，不曾想引来了一伙恶徒觊觎，他们趁夜打家劫舍，一遭家业尽毁我手。我如今流落至此，身无分文，食不果腹，还望大侠看在我如此凄惨的份上，助我一番。"
+    translated: "It was all because I boasted of my family's wealth while out in the world. Unbeknownst to me, it attracted a band of villains who raided our home under cover of night, leaving us destitute. Now I am reduced to begging here, penniless and starving. I humbly ask Great Hero to help me in my dire straits."
 - raw: "249,210101,你心中虽想帮助，但又担心此人有不劳而获之心，亦或者这背后另有隐情，于是决定先给予一些钱财，解其燃眉之急……旅者见状，眼中闪过一丝惊喜，赶忙接过银子，千恩万谢之后匆匆离去。,500,,"
   splits:
   - split: 2
     text: "你心中虽想帮助，但又担心此人有不劳而获之心，亦或者这背后另有隐情，于是决定先给予一些钱财，解其燃眉之急……旅者见状，眼中闪过一丝惊喜，赶忙接过银子，千恩万谢之后匆匆离去。"
+    translated: "Though you wanted to help, you were also wary of encouraging laziness or uncovering hidden motives. So you decided to give some money to ease their immediate need... The traveler's eyes lit up with surprise upon seeing this, and they quickly accepted the silver, expressing endless gratitude before hurrying away."
 - raw: "250,210102,你深知旅者此刻的困境，于是拿出一个沉甸甸的钱袋，递与旅者。旅者不敢相信地看着手中的钱袋，随后“扑通”一声跪地，磕头如捣蒜向你拜谢，随后小心翼翼地将钱袋揣入囊中，转身离去……,500,,"
   splits:
   - split: 2
     text: "你深知旅者此刻的困境，于是拿出一个沉甸甸的钱袋，递与旅者。旅者不敢相信地看着手中的钱袋，随后“扑通”一声跪地，磕头如捣蒜向你拜谢，随后小心翼翼地将钱袋揣入囊中，转身离去……"
+    translated: "You knew of the traveler's predicament and pulled out a heavy money bag, handing it to them. The traveler stared at the money bag in disbelief, then fell to their knees with a thud, bowing repeatedly like pounding garlic as they thanked you. Carefully, they tucked the money bag into their pouch and turned to leave..."
 - raw: "251,210103,你对旅者的话半信半疑，且觉得其遭遇与你并无关联，于是你面无表情地将其驱赶。旅者听闻，脸色煞白，苦苦哀求……,1315,,"
   splits:
   - split: 2
     text: "你对旅者的话半信半疑，且觉得其遭遇与你并无关联，于是你面无表情地将其驱赶。旅者听闻，脸色煞白，苦苦哀求……"
+    translated: "You half-believe the traveler's words and feel that their plight is unrelated to you, so you expressionlessly dismiss them. The traveler, hearing this, turns pale and pleads desperately..."
 - raw: "252,210104,你心中对旅者遭遇虽有同情，但江湖险恶，人心难测，你不想轻易卷入他人是非之中，于是决定不予理会。,1316,,"
   splits:
   - split: 2
     text: "你心中对旅者遭遇虽有同情，但江湖险恶，人心难测，你不想轻易卷入他人是非之中，于是决定不予理会。"
+    translated: "Though you felt sympathy for the traveler's plight, the dangers of the Jianghu and the unpredictability of human nature made you reluctant to get involved in others' troubles. You decided to mind your own business."
 - raw: "253,210105,你仍不为所动，转身欲走，旅者见状，竟突然抽出一把匕首，面露凶光，恶狠狠地说道：“你今日若不帮我，就休怪我无情。”说罢，便向你扑来。,1306,,"
   splits:
   - split: 2
     text: "你仍不为所动，转身欲走，旅者见状，竟突然抽出一把匕首，面露凶光，恶狠狠地说道"
+    translated: "You remained unmoved and turned to leave, but the traveler suddenly drew a dagger, his face twisted with malice as he growled menacingly."
   - split: 2
     subIndex: 1
     text: "“你今日若不帮我，就休怪我无情。”说罢，便向你扑来。"
+    translated: "“If you don't help me today, don't blame me for my cold heart.” Saying that, they lunged at you."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1215,21 +1504,28 @@
   splits:
   - split: 2
     text: "你面无表情地从旅者身边走过，仿佛没有听到其呼喊声。旅者望着你远去的背影，绝望地瘫软在地……"
+    translated: "You walked past the traveler expressionlessly, as if you hadn't heard their cries. The traveler watched your departing figure and collapsed in despair on the ground......"
 - raw: "255,210110,此人行径乖张，肆意妄为，毫无忌惮地高声叫骂，全然罔顾他人感受。恰在此时，你从一旁路过。而那狂徒反倒变本加厉，对着你肆意嘲讽起来，言辞间满是轻蔑与挑衅……,\"1321,1322,1323,1324\",,"
   splits:
   - split: 2
     text: "此人行径乖张，肆意妄为，毫无忌惮地高声叫骂，全然罔顾他人感受。恰在此时，你从一旁路过。而那狂徒反倒变本加厉，对着你肆意嘲讽起来，言辞间满是轻蔑与挑衅……"
+    translated: "This person acted wildly and recklessly, shouting loudly without any regard for others' feelings. Just then, you passed by. The ruffian only grew more brazen, taunting you with disdain and provocation..."
 - raw: "256,210111,你停下脚步，面色平静地看着对方，轻声劝导……狂徒听后，竟似被触动了心弦，眼中的疯狂渐渐褪去，取而代之的是一丝迷茫……,1325,,"
   splits:
   - split: 2
     text: "你停下脚步，面色平静地看着对方，轻声劝导……狂徒听后，竟似被触动了心弦，眼中的疯狂渐渐褪去，取而代之的是一丝迷茫……"
+    translated: "You stopped in your tracks, looking at them with a calm expression, gently persuading... The madman seemed to be touched by your words, the madness in his eyes gradually fading, replaced by a hint of confusion..."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "InventedGender"
 - raw: "257,210112,你心中虽有不悦，但仍强压怒火，抱拳向狂徒行礼，耐心劝导。狂徒听闻你的话，先是一愣，随后仰天大笑起来：“君子？老子才不管什么君子小人，江湖上拳头硬才是硬道理！”说罢，狂徒挥舞着手臂，向你冲来。,1321,,"
   splits:
   - split: 2
     text: "你心中虽有不悦，但仍强压怒火，抱拳向狂徒行礼，耐心劝导。狂徒听闻你的话，先是一愣，随后仰天大笑起来"
+    translated: "Though you were displeased, you suppressed your anger and bowed to the madman with a fist salute, patiently trying to reason with him. Upon hearing your words, the madman was initially taken aback, then burst into laughter, looking up at the sky."
   - split: 2
     subIndex: 1
     text: "“君子？老子才不管什么君子小人，江湖上拳头硬才是硬道理！”说罢，狂徒挥舞着手臂，向你冲来。"
+    translated: "'Gentleman? I don't care about gentlemen or scoundrels! In the Jianghu, might makes right!' With that, the ruffian waved his arms and charged at you."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1237,9 +1533,11 @@
   splits:
   - split: 2
     text: "你向前踏出一步，随即冷冷地盯着狂徒，你的目光如同一把利刃，直直地刺向狂徒。狂徒被你的气势所震慑，身体微微颤抖，但仍旧倔强地瞪着你，嘴里嘟囔着"
+    translated: "You took a step forward and glared coldly at the ruffian. Your gaze was like a sharp blade, piercing straight into him. The ruffian was intimidated by your momentum, his body trembling slightly, but he still stubbornly glared back at you, muttering to himself."
   - split: 2
     subIndex: 1
     text: "“你……你吓唬谁呢！有种就放马过来。”"
+    translated: "You... you're trying to scare who? Come on and fight if you've got the guts!"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1247,29 +1545,36 @@
   splits:
   - split: 2
     text: "你向前踏出一步，随即冷冷地盯着狂徒，你的眼神中充满了杀意，狂徒因而激怒，其双眼通红，怒吼一声，挥舞着手中的武器朝你冲了过来。"
+    translated: "You took a step forward and glared coldly at the madman. Your eyes were filled with killing intent, which enraged him. His eyes turned red as he roared and charged at you, wielding his weapon."
 - raw: "260,210115,你仿若未闻那狂徒的嘲讽，心中波澜不惊，脚步未作丝毫停留，径直从其身侧走过。狂徒见你这般反应，不禁恼羞成怒，手中暗器如流星般朝你后背射来。你虽未回头，但却如鬼魅般侧身避开暗器……,\"1321,1328\",,"
   splits:
   - split: 2
     text: "你仿若未闻那狂徒的嘲讽，心中波澜不惊，脚步未作丝毫停留，径直从其身侧走过。狂徒见你这般反应，不禁恼羞成怒，手中暗器如流星般朝你后背射来。你虽未回头，但却如鬼魅般侧身避开暗器……"
+    translated: "You ignored the bandit's taunt as if you hadn't heard it, your composure unshaken, and continued walking without a moment's pause, passing by his side. Seeing your reaction, the bandit grew enraged with shame and anger, hurling hidden weapons at your back like meteors. Though you didn't turn around, you sidestepped the projectiles like a ghost..."
 - raw: "261,210116,良久过后，狂徒缓缓放下双手，长叹了一口气，随即落寞地转身离去……经此一事，当地百姓皆对你的善言规劝之举赞叹有加。,500,,"
   splits:
   - split: 2
     text: "良久过后，狂徒缓缓放下双手，长叹了一口气，随即落寞地转身离去……经此一事，当地百姓皆对你的善言规劝之举赞叹有加。"
+    translated: "After a long while, the ruffian slowly lowered his hands, let out a long sigh, and left dejectedly... Following this incident, the local villagers praised your kind words and advice."
 - raw: "262,210117,狂徒见你正欲起势运功，赶忙退避一旁不再言语，不敢再招惹与你……经此一事，你的威名在这一带传颂开来，许多宵小之徒听闻你的名号，都不敢再轻言叫嚣。,500,,"
   splits:
   - split: 2
     text: "狂徒见你正欲起势运功，赶忙退避一旁不再言语，不敢再招惹与你……经此一事，你的威名在这一带传颂开来，许多宵小之徒听闻你的名号，都不敢再轻言叫嚣。"
+    translated: "The madman saw you about to start your exercise and hurriedly stepped back, no longer speaking, daring not to provoke you again......After this incident, your reputation spread throughout the area, and many petty ruffians who heard of your name did not dare to speak out against you anymore."
 - raw: "263,210118,因忌惮你方才所散发的威势，狂徒见你离去好一段距离，才敢松懈心神……,500,,"
   splits:
   - split: 2
     text: "因忌惮你方才所散发的威势，狂徒见你离去好一段距离，才敢松懈心神……"
+    translated: "Because they feared the aura you had just exuded, the ruffian did not relax until you had walked a good distance away..."
 - raw: "264,210119,你径直从其身侧缓步走过，狂徒不禁恼羞成怒，大喝道：“鼠辈，看招！”你一时躲闪不及，后背已是鲜血如注，随即一阵更为猛烈的痛苦袭来，这时你才惊觉暗器上竟淬有剧毒。你强忍痛楚，转身怒视……,\"1321,1329\",,"
   splits:
   - split: 2
     text: "你径直从其身侧缓步走过，狂徒不禁恼羞成怒，大喝道"
+    translated: "You strode past them calmly, and the ruffian couldn't contain his anger and rage, shouting loudly."
   - split: 2
     subIndex: 1
     text: "“鼠辈，看招！”你一时躲闪不及，后背已是鲜血如注，随即一阵更为猛烈的痛苦袭来，这时你才惊觉暗器上竟淬有剧毒。你强忍痛楚，转身怒视……"
+    translated: "Rats, take this! You failed to dodge in time and blood poured down your back. Soon after, an even more intense pain struck, and you realized the hidden weapon was poisoned. You gritted your teeth against the agony and turned to glare..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1277,32 +1582,41 @@
   splits:
   - split: 2
     text: "你冷冷回看狂徒，不发一言，回身继续前行……狂徒见状，心中大惊，一时间汗出如渖……经此一事，你的威名在这一带传颂开来，宵小之徒听闻你的名号，不敢再轻言叫嚣。"
+    translated: "You coldly looked back at the ruffian without a word, turned around, and continued on your way......Seeing this, the ruffian was greatly alarmed, sweating profusely......After this incident, your reputation spread throughout the area, and petty villains no longer dared to speak out against you."
 - raw: "266,210121,狂徒见你仓皇离去，愈加放肆，四周之人更是敢怒不敢言……,500,,"
   splits:
   - split: 2
     text: "狂徒见你仓皇离去，愈加放肆，四周之人更是敢怒不敢言……"
+    translated: "The madman saw you fleeing in panic and became even more brazen; the people around him were too afraid to speak out..."
 - raw: "267,210130,[小子||丫头]，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定!我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，[小子||丫头]需得当机立断，莫要迟疑！,\"1341,1342,1343\",,"
   splits:
   - split: 2
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 1
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 2
     text: "，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定"
+    translated: ", I see that your bones are remarkable; you must be a prodigy in martial arts. Our meeting today is surely fate itself."
   - split: 2
     subIndex: 3
     text: "我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，"
+    translated: "I'm selling this unparalleled divine martial art at a cheap price; once you master it, you can become a renowned Hero in the Jianghu."
   - split: 2
     subIndex: 4
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 5
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 6
     text: "需得当机立断，莫要迟疑！"
+    translated: "Act decisively, do not hesitate!"
   templates:
   - split: 2
     template: "[{0}||{1}]{2}!{3}[{4}||{5}]{6}"
@@ -1310,18 +1624,23 @@
   splits:
   - split: 2
     text: "你咬牙拿出一笔银子买下秘籍。商贩接过银子，迅速将秘籍塞到你手上，还不忘叮嘱几句"
+    translated: "You grit your teeth and take out some silver to buy the manual. The merchant takes the silver and quickly stuffs the manual into your hand, not forgetting to remind you of a few things."
   - split: 2
     subIndex: 1
     text: "“此术珍贵无比，"
+    translated: "'This technique is incredibly precious"
   - split: 2
     subIndex: 2
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 3
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 4
     text: "需要勤加修炼，莫要辜负了这绝世功法。”"
+    translated: "You must practice diligently; do not fail to live up to this peerless technique.'"
   templates:
   - split: 2
     template: "{0}：{1}[{2}||{3}]{4}"
@@ -1329,18 +1648,23 @@
   splits:
   - split: 2
     text: "你心觉此事太过蹊跷，于是断然拒绝。那商贩冷笑道"
+    translated: "You felt that this was too suspicious and firmly refused. The merchant laughed coldly and said,"
   - split: 2
     subIndex: 1
     text: "“你这"
+    translated: "'You're this"
   - split: 2
     subIndex: 2
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 3
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 4
     text: "，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……"
+    translated: ", What a fool I am! With such an opportunity right before my eyes, I missed it entirely. How blind I am! With that, they put away the manual and fell silent......'"
   templates:
   - split: 2
     template: "{0}：{1}[{2}||{3}]{4}"
@@ -1348,18 +1672,23 @@
   splits:
   - split: 2
     text: "你心中虽有疑虑，但又不想错失机缘。于是你试图让此人演练几式，藉此进一步观察秘籍真假。此人听后眼神闪烁，说道"
+    translated: "Though you had doubts, you didn't want to miss the opportunity. So you tried to get them to demonstrate a few moves to further observe the authenticity of the manual. They hesitated, their eyes flickering as they replied."
   - split: 2
     subIndex: 1
     text: "“此功杀人夺命，伤残难免，"
+    translated: "'This technique kills and takes lives, causing injury and disability."
   - split: 2
     subIndex: 2
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 3
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 4
     text: "可有胆量一试？”"
+    translated: "Do you have the courage to try?'"
   templates:
   - split: 2
     template: "{0}：{1}[{2}||{3}]{4}"
@@ -1367,9 +1696,11 @@
   splits:
   - split: 2
     text: "一番交战过后，商贩败于你手，惊慌地说道"
+    translated: "After the battle, the merchant was defeated by you and said in panic,"
   - split: 2
     subIndex: 1
     text: "“是晚辈鲁莽，冲撞了前辈。这本秘籍交予阁下，算是小的赔罪。”随后，商贩将秘籍交到你手上，便不再言语……"
+    translated: "It was my rashness, Senior, for disturbing you. This manual I hand over to you as an apology. Afterward, the merchant handed the manual to you and fell silent......"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1377,15 +1708,19 @@
   splits:
   - split: 2
     text: "你躲避不及，被其击伤在地，更因此受了一种古怪毒伤，痛苦不堪。那人得意说道"
+    translated: "You couldn't dodge in time and were struck to the ground, suffering from a strange and painful poison as well. The person gloated, saying,"
   - split: 2
     subIndex: 1
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 2
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 3
     text: "，看你也算有点胆量。我有一颗专治此伤的奇丹，只要你给银子，此丹便割爱与你，服下即刻痊愈。”"
+    translated: ", Seeing that you have some courage, I have a miraculous pill that treats this injury. If you pay the silver, I will part with it for you; once taken, it will heal you immediately.'"
   templates:
   - split: 2
     template: "{0}：“[{1}||{2}]{3}"
@@ -1393,18 +1728,23 @@
   splits:
   - split: 2
     text: "犹豫再三，你一咬牙，不再试探，直接购置此功。此人接过银子，脸上瞬间堆满笑容，赶忙将秘籍交与你手，还不忘叮嘱"
+    translated: "After much hesitation, you grit your teeth and stop beating around the bush, purchasing the technique directly. The person takes the silver, their face immediately breaking into a smile as they hurriedly hand over the manual to you, not forgetting to remind you"
   - split: 2
     subIndex: 1
     text: "“此术珍贵无比，"
+    translated: "'This technique is incredibly precious"
   - split: 2
     subIndex: 2
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 3
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 4
     text: "需勤加修炼，莫要辜负这绝世功法。”"
+    translated: "Work hard to cultivate, do not disappoint this peerless technique.'"
   templates:
   - split: 2
     template: "{0}：{1}[{2}||{3}]{4}"
@@ -1412,18 +1752,23 @@
   splits:
   - split: 2
     text: "那卖秘籍之人见状，冷笑一声道"
+    translated: "The seller of the manual smirked and said."
   - split: 2
     subIndex: 1
     text: "“你这"
+    translated: "'You're this"
   - split: 2
     subIndex: 2
     text: "小子"
+    translated: "Boy"
   - split: 2
     subIndex: 3
     text: "丫头"
+    translated: "Girl"
   - split: 2
     subIndex: 4
     text: "，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……"
+    translated: ", It's a shame not to recognize greatness when you see it; with such a wonderful opportunity right before my eyes, I unexpectedly missed it. If I want to find another chance like this in the future, it will be even more difficult! With that, they put away the manual and fell silent......'"
   templates:
   - split: 2
     template: "{0}：{1}[{2}||{3}]{4}"
@@ -1431,26 +1776,33 @@
   splits:
   - split: 2
     text: "你咬咬牙，决定相信此人，你将丹药服下后，不消片刻，内伤全无……那人见你伤势痊愈，便收起秘籍，侧立一旁不再言语。你望着其手中的秘籍，心中懊悔不已……"
+    translated: "You gritted your teeth and decided to trust this person. After swallowing the medicine, your internal injuries vanished in no time... The man, seeing that you were healed, put away the manual and stood silently by your side. You looked at the manual in his hand, filled with regret..."
 - raw: "276,210139,江湖诡诈，你担心中其圈套，断然拒绝了此人。那人见你不欲购丹，便收起丹药、秘籍，侧立一旁不再言语……,500,,"
   splits:
   - split: 2
     text: "江湖诡诈，你担心中其圈套，断然拒绝了此人。那人见你不欲购丹，便收起丹药、秘籍，侧立一旁不再言语……"
+    translated: "The Jianghu is treacherous, and you fear falling into their trap, so you firmly refuse. Seeing that you do not wish to buy the pills, the person puts away both the elixirs and the manual, standing silently by your side without speaking further......"
 - raw: "277,210140,一古怪之人拦住了你的去路，口中念叨着道经心法……半晌过后，此人停下所念，对你言道：“甘露不润无根之草，大道不渡无缘之人……[少侠||姑娘]若心有所求，不妨告知在下，或有所得……”,\"1351,1352,1353,1354,1355\",,"
   splits:
   - split: 2
     text: "一古怪之人拦住了你的去路，口中念叨着道经心法……半晌过后，此人停下所念，对你言道"
+    translated: "A strange person blocked your path, muttering about the Daoist scriptures and Heart Method... After a while, they stopped reciting and spoke to you."
   - split: 2
     subIndex: 1
     text: "“甘露不润无根之草，大道不渡无缘之人……"
+    translated: "'Nectar does not nourish rootless grass; the Great Way does not save those without fate..."
   - split: 2
     subIndex: 2
     text: "少侠"
+    translated: "Young Hero"
   - split: 2
     subIndex: 3
     text: "姑娘"
+    translated: "Miss"
   - split: 2
     subIndex: 4
     text: "若心有所求，不妨告知在下，或有所得……”"
+    translated: "If you have something in mind, don't hesitate to tell me, and there might be a chance of success...'"
   templates:
   - split: 2
     template: "{0}：{1}[{2}||{3}]{4}"
@@ -1458,21 +1810,26 @@
   splits:
   - split: 2
     text: "你想起曾听闻的神丹传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取丹药。怪人接过银两，微微点头，取出一个小巧的丹盒，递与你。便又念叨起道经心法……"
+    translated: "You recall the legends of divine elixirs you once heard, and your heart begins to stir. You grit your teeth and decide to spend Silver on obtaining the pills. The odd person takes the Silver, nods slightly, and retrieves a small pill box, handing it to you. They then start muttering about Daoist scriptures and Heart Methods..."
 - raw: "279,210142,你想起曾听闻的神功传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取秘籍。怪人收取银两后，拿出一本古朴的秘籍交给你，便又念叨起道经心法，不再看你……,500,,"
   splits:
   - split: 2
     text: "你想起曾听闻的神功传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取秘籍。怪人收取银两后，拿出一本古朴的秘籍交给你，便又念叨起道经心法，不再看你……"
+    translated: "You recall the legends of divine martial arts you once heard, and your heart begins to stir. You grit your teeth and decide to spend Silver to obtain the Manual. The odd person takes the Silver and hands you an ancient Manual, then starts muttering about Daoist scriptures and Heart Methods, no longer looking at you..."
 - raw: "280,210143,你想起曾听闻的神兵传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取神兵。怪人收取银两后，将一个用破布包裹的物什递交与你，便又念叨起道经心法，不再看你……,500,,"
   splits:
   - split: 2
     text: "你想起曾听闻的神兵传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取神兵。怪人收取银两后，将一个用破布包裹的物什递交与你，便又念叨起道经心法，不再看你……"
+    translated: "You recall the legends of divine weapons you once heard, and your heart begins to stir. You grit your teeth and decide to spend Silver to obtain a divine weapon. The odd person takes the Silver and hands you a bundle wrapped in rags before muttering about Daoist scriptures and Heart Methods, no longer looking at you......"
 - raw: "281,210144,怪人凝视你片刻道：“无欲无求，自然之状态……既如此，你我也算有缘，便祝你清风相伴，了无牵挂。”言罢，轻念法诀，手画符道，片刻后你感到通体舒畅，身体轻盈。作罢，怪人便又念起道经心法……,500,,"
   splits:
   - split: 2
     text: "怪人凝视你片刻道"
+    translated: "The odd person stared at you for a moment and said,"
   - split: 2
     subIndex: 1
     text: "“无欲无求，自然之状态……既如此，你我也算有缘，便祝你清风相伴，了无牵挂。”言罢，轻念法诀，手画符道，片刻后你感到通体舒畅，身体轻盈。作罢，怪人便又念起道经心法……"
+    translated: "'Desireless and unburdened, a state of nature......Since that is the case, I wish you gentle breezes and freedom from attachments.' With that, they softly recite incantations, drawing symbols in the air. Moments later, you feel refreshed and light-bodied. Finished, the odd person continues to chant the Daoist scriptures and Heart Method..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1480,9 +1837,13 @@
   splits:
   - split: 2
     text: "你眉头微皱，眼神中闪过一丝警惕，目不斜视地径直向前走去，全然不理此人。那怪人见你如此反应，低声喃喃自语道"
+    translated: "You frowned slightly, a hint of caution flashing in your eyes. You walked straight ahead without so much as a glance at the person. The strange man, seeing your reaction, muttered to himself under his breath."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "InventedGender"
   - split: 2
     subIndex: 1
     text: "“心有恶障，难得清明……”便又念叨起道经心法，不再看你……"
+    translated: "Mind clouded by evil, hard to find clarity...... They began muttering the Daoist scripture and Heart Method again, no longer looking at you......"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1490,10 +1851,12 @@
   splits:
   - split: 2
     text: "武功想要好，就得吃蚝宝，一包精神变好，两包身体更壮，三包不会疲劳……这药真的好！少侠可要来上几包？"
+    translated: "To improve martial skill, one must eat Oyster Treasures. One pack boosts willpower, two packs strengthen the body, and three packs prevent fatigue... This medicine is truly great! Young Hero, would you like to try a few packs?"
 - raw: "284,210151,[待补充],,,"
   splits:
   - split: 2
     text: "待补充"
+    translated: "To be added later"
   templates:
   - split: 2
     template: "[{0}]"
@@ -1501,6 +1864,7 @@
   splits:
   - split: 2
     text: "待补充"
+    translated: "To be added later"
   templates:
   - split: 2
     template: "[{0}]"
@@ -1508,6 +1872,7 @@
   splits:
   - split: 2
     text: "待补充"
+    translated: "To be added later"
   templates:
   - split: 2
     template: "[{0}]"
@@ -1515,18 +1880,22 @@
   splits:
   - split: 2
     text: "小可久闻前辈大名，故而今日斗胆前来，欲拜您为师，不知前辈意下如何？"
+    translated: "Xiao Ke has long heard of your great reputation, so today I boldly came to ask if you would have me as your disciple. What do you think, Senior?"
 - raw: "288,210161,多谢师父！弟子定当谨遵师父教诲，奋发向上，不负师父厚望。,500,,"
   splits:
   - split: 2
     text: "多谢师父！弟子定当谨遵师父教诲，奋发向上，不负师父厚望。"
+    translated: "Thank you, Master! I will definitely follow your teachings, work hard to improve, and not disappoint your high expectations."
 - raw: "289,210162,如此……虽不能拜您为师，但我仍会以前辈为榜样，奋发图强。,500,,"
   splits:
   - split: 2
     text: "如此……虽不能拜您为师，但我仍会以前辈为榜样，奋发图强。"
+    translated: "Though I cannot become your disciple, I will still look up to you as a senior and strive to strengthen myself."
 - raw: "290,210170,p，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？,\"1381,1382\",,"
   splits:
   - split: 2
     text: "，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？"
+    translated: ", Now that I have made some achievements in the path of martial arts, I see that you have a desire to progress and great potential. I wish to take you on as my disciple; what do you think?"
   templates:
   - split: 2
     template: "p{0}"
@@ -1534,29 +1903,37 @@
   splits:
   - split: 2
     text: "好，从今日起，你便是我的徒弟。为师定会尽心教导与你，望你能奋发图强，早日有所成就。"
+    translated: "Fine, from today on, you are my disciple. I will do my best to teach you, and hope that you will work hard and achieve success soon."
 - raw: "292,210172,如此……也罢……,500,,"
   splits:
   - split: 2
     text: "如此……也罢……"
+    translated: "Very well, then......"
 - raw: "293,210180,fp[兄||姊]，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知fp[兄||姊]意下如何？,\"1391,1392\",,"
   splits:
   - split: 2
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 2
     text: "，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知"
+    translated: ", You and I have been kindred spirits since we met, sharing interests and ideals. Why don't we form a Sworn Bond, to share both fortune and hardship, life and death, from this day forward?"
   - split: 2
     subIndex: 3
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 4
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 5
     text: "意下如何？"
+    translated: "What do you think?"
   templates:
   - split: 2
     template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
@@ -1564,18 +1941,23 @@
   splits:
   - split: 2
     text: "哈哈，今日我"
+    translated: "Ha, today I"
   - split: 2
     subIndex: 1
     text: "得"
+    translated: "Got it"
   - split: 2
     subIndex: 2
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 3
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 4
     text: "这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！"
+    translated: "Such a response truly brings me great satisfaction. From now on, with our sworn bond, we will work together and surely achieve something remarkable in this world!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}fp[{2}||{3}]{4}"
@@ -1583,25 +1965,32 @@
   splits:
   - split: 2
     text: "如此……也罢……"
+    translated: "Very well, then......"
 - raw: "296,210190,fp[兄||姊]，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，fp[兄||姊]可愿否？,\"1401,1402\",,"
   splits:
   - split: 2
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 2
     text: "，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，"
+    translated: ", I see that you are generous and righteous in your dealings, and your actions serve as a model for our kind. I admire you greatly. I wish to be your confidant and friend, supporting each other on this long journey of life, moving forward together."
   - split: 2
     subIndex: 3
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 4
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 5
     text: "可愿否？"
+    translated: "Will you do it?"
   templates:
   - split: 2
     template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
@@ -1609,18 +1998,23 @@
   splits:
   - split: 2
     text: "哈哈，太好了！从此，"
+    translated: "Ha ha, great! From now on,"
   - split: 2
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 3
     text: "便是我"
+    translated: "It is I"
   - split: 2
     subIndex: 4
     text: "的知心好友，得此良友，实乃人生幸事！"
+    translated: "A dear close friend indeed! Having such a good friend is truly a blessing in life!"
   templates:
   - split: 2
     template: "{0}fp[{1}||{2}]{3}⟦0⟧{4}"
@@ -1628,22 +2022,27 @@
   splits:
   - split: 2
     text: "如此……也罢……"
+    translated: "Very well, then......"
 - raw: "299,210200,叨扰公子，小女观公子器宇不凡，气质出众，公子可否与小女相伴同游一番？,\"1411,1412\",,"
   splits:
   - split: 2
     text: "叨扰公子，小女观公子器宇不凡，气质出众，公子可否与小女相伴同游一番？"
+    translated: "Excuse me, Young Lord. I, a young lady, see that you have an extraordinary presence and distinguished demeanor. Would you care to accompany me on a journey?"
 - raw: "300,210201,今日与公子同游际遇，恨不能时光永驻于此……唯盼与公子早日重逢，再续今日之欢颜！,500,,"
   splits:
   - split: 2
     text: "今日与公子同游际遇，恨不能时光永驻于此……唯盼与公子早日重逢，再续今日之欢颜！"
+    translated: "Today, accompanying you on our journey, I wish time would forever stand still... I only hope to meet you again soon and continue the joy of today!"
 - raw: "301,210202,……是小女唐突了……,500,,"
   splits:
   - split: 2
     text: "……是小女唐突了……"
+    translated: "...It was my impulsive mistake..."
 - raw: "302,210210,fp公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？,\"1421,1422\",,"
   splits:
   - split: 2
     text: "公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？"
+    translated: "Young Lord, it has been a long time since we last met. Have you been well? Since our encounter, I have been consumed with thoughts of you. Today, I have gathered my courage to confess my feelings. I wish to be by your side for the rest of my life. Will you accept my sincere affection?"
   templates:
   - split: 2
     template: "fp{0}"
@@ -1651,13 +2050,16 @@
   splits:
   - split: 2
     text: "小女欢喜至极！愿生死相伴公子，朝朝暮暮，此情不渝……"
+    translated: "Little lady overjoyed! I wish to be with you, the Young Lord, day and night, this love unwavering......"
 - raw: "304,210212,她强忍泪水道：“公子有自己的追求，小女自是明白……”说到此处，她的声音略带哽咽，“小女……小女会将往昔深埋心底，只盼公子万事顺遂。”言罢，她缓缓转身离去，徒留一地惆怅。,500,,"
   splits:
   - split: 2
     text: "她强忍泪水道"
+    translated: "She held back her tears and said"
   - split: 2
     subIndex: 1
     text: "“公子有自己的追求，小女自是明白……”说到此处，她的声音略带哽咽，“小女……小女会将往昔深埋心底，只盼公子万事顺遂。”言罢，她缓缓转身离去，徒留一地惆怅。"
+    translated: "Sir, I understand your aspirations...... At this point, her voice choked up slightly. I will bury the past deep in my heart and only hope for your success. With that, she slowly turned and left, leaving behind a sense of melancholy."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1665,18 +2067,22 @@
   splits:
   - split: 2
     text: "叨扰姑娘，小生观姑娘眉若远黛，眸似秋水，实乃人间殊色，姑娘可否与小生相伴同游一番？"
+    translated: "Excuse me, Miss. I see that your eyebrows are like distant mountains and your eyes are like autumn water, truly a rare beauty in this world. Would you consider accompanying me on a journey?"
 - raw: "306,210221,今日与姑娘同游际遇，恨不能时光永驻于此……唯盼与姑娘早日重逢，再续今日之欢颜！,500,,"
   splits:
   - split: 2
     text: "今日与姑娘同游际遇，恨不能时光永驻于此……唯盼与姑娘早日重逢，再续今日之欢颜！"
+    translated: "Today, accompanying you on our journey, I wish time would stand still... I only hope to meet you again soon and continue the joy of today!"
 - raw: "307,210222,……是小生唐突了……,500,,"
   splits:
   - split: 2
     text: "……是小生唐突了……"
+    translated: "...It was this young man's impertinence..."
 - raw: "308,210230,fp姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？,\"1441,1442\",,"
   splits:
   - split: 2
     text: "姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？"
+    translated: "Miss, it has been a long time since we last met. Have you been well? Since our encounter, I have been consumed with thoughts of you. Today, I have gathered my courage to confess my feelings. I wish to be by your side for the rest of my life. Would you accept my sincere affection?"
   templates:
   - split: 2
     template: "fp{0}"
@@ -1684,13 +2090,16 @@
   splits:
   - split: 2
     text: "小生欢喜至极！愿生死相伴姑娘，朝朝暮暮，此情不渝……"
+    translated: "I am overjoyed! I wish to be with you until death, day and night, this love unwavering......"
 - raw: "310,210232,他声音哽咽，轻声说道：“姑娘有自己的追求，小生自是明白。只是，小生这颗心，恐怕难以收回了，只盼姑娘万事顺遂。”言罢，他缓缓转身离去，徒留一地惆怅。,500,,"
   splits:
   - split: 2
     text: "他声音哽咽，轻声说道"
+    translated: "He spoke in a choked voice, saying softly,"
   - split: 2
     subIndex: 1
     text: "“姑娘有自己的追求，小生自是明白。只是，小生这颗心，恐怕难以收回了，只盼姑娘万事顺遂。”言罢，他缓缓转身离去，徒留一地惆怅。"
+    translated: "Miss, I understand your aspirations. Yet, my heart cannot be reclaimed. I only hope that all goes well for you. With that, he slowly turned and left, leaving behind a sense of melancholy."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -1698,18 +2107,22 @@
   splits:
   - split: 2
     text: "师父，徒儿来啦！许久不见师父，徒儿甚是想念。近日徒儿听闻师父正在闭关钻研一门高深武技，徒儿担心师父太过劳累，特来探望。"
+    translated: "Master, your disciple is here! After a long time without seeing you, I miss you very much. Recently, I heard that you have been in seclusion studying a profound martial technique, and I am worried that you might be overworking yourself, so I came to visit."
 - raw: "312,210241,你因徒儿真心问候，大为感动，随即向其传授起武学真义……师父讲学，徒儿静心聆听，师徒二人情谊渐浓。,500,,"
   splits:
   - split: 2
     text: "你因徒儿真心问候，大为感动，随即向其传授起武学真义……师父讲学，徒儿静心聆听，师徒二人情谊渐浓。"
+    translated: "You were deeply moved by your disciple's sincere greeting and proceeded to impart the true essence of martial arts to them... As the master lectured, the disciple listened intently, and the bond between teacher and student grew stronger."
 - raw: "313,210242,师……师父，徒儿只是关心您。既然师父不需要徒儿在此，那徒儿……徒儿告退。,500,,"
   splits:
   - split: 2
     text: "师……师父，徒儿只是关心您。既然师父不需要徒儿在此，那徒儿……徒儿告退。"
+    translated: "S-Student...Master, the student is just concerned about you. Since Master doesn't need the student here, then the student...the student will take his leave."
 - raw: "314,210250,lp，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？,\"1461,1462\",,"
   splits:
   - split: 2
     text: "，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？"
+    translated: ", Master came today to see how you have been. I've heard that you seem to be hitting a bottleneck in your cultivation recently, and I am very concerned. The path of cultivation has its ups and downs; do not get anxious. Would you mind telling me what troubles you?"
   templates:
   - split: 2
     template: "lp{0}"
@@ -1717,6 +2130,7 @@
   splits:
   - split: 2
     text: "，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。"
+    translated: ", The path of cultivation emphasizes gradual progress; one cannot rush it. You are already endowed with exceptional talent. Tell me in detail about the techniques you have cultivated and your process... Through a series of teachings and guidance, the master and disciple grew closer."
   templates:
   - split: 2
     template: "lp{0}"
@@ -1724,13 +2138,16 @@
   splits:
   - split: 2
     text: "罢了，为师也不勉强与你。只望你日后若真有难处，莫要硬撑……"
+    translated: "Forget it, Master won't force you. I just hope that if you face difficulties in the future, you won't push yourself too hard......"
 - raw: "317,210260,晚辈{0}冒昧打扰，还望前辈海涵。此次前来，是想向前辈请教武学上的困惑，望前辈成全!,\"1471,1472\",,"
   splits:
   - split: 2
     text: "晚辈"
+    translated: "Descendant"
   - split: 2
     subIndex: 1
     text: "冒昧打扰，还望前辈海涵。此次前来，是想向前辈请教武学上的困惑，望前辈成全"
+    translated: "Excuse me for disturbing you; I hope you will be forgiving. This time, I came to seek your guidance on my martial arts dilemmas. I hope you will grant me your assistance."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}!"
@@ -1738,9 +2155,11 @@
   splits:
   - split: 2
     text: "在你的详细指导下，对武学境界有了新的认识和感悟，再三向你拜谢之后，"
+    translated: "With your detailed guidance, I gained new insights and understanding of the realms of martial arts. After bowing to you repeatedly in gratitude,"
   - split: 2
     subIndex: 1
     text: "满怀感激地离开了此处……"
+    translated: "Left here, filled with gratitude......"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦0⟧{1}"
@@ -1748,6 +2167,7 @@
   splits:
   - split: 2
     text: "虽表达了对武学求学之心，然而仍遭你的冷厉拒绝。无奈之下，只能落寞离去……"
+    translated: "Though they expressed a desire to study martial arts, they were still met with your cold rejection. With no other choice, they left in disappointment..."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1755,21 +2175,27 @@
   splits:
   - split: 2
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 2
     text: "，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知"
+    translated: ", Your martial arts skills are formidable, and you are known for your righteousness. I would like to join you on your journey through the Jianghu, to travel together as companions and share in the trials of the world. I wonder if you would consider it."
   - split: 2
     subIndex: 3
     text: "兄"
+    translated: "Brother"
   - split: 2
     subIndex: 4
     text: "姊"
+    translated: "Sister"
   - split: 2
     subIndex: 5
     text: "意下如何？"
+    translated: "What do you think?"
   templates:
   - split: 2
     template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
@@ -1777,14 +2203,17 @@
   splits:
   - split: 2
     text: "江湖路漫，有君相伴，纵前路艰险，心亦无惧。愿与君同进退，共生死！"
+    translated: "The path of the Jianghu is long; with you by my side, even the most perilous journey fills me with no fear. I wish to stand by you through every trial, sharing life and death!"
 - raw: "322,210272,如此……也罢……,500,,"
   splits:
   - split: 2
     text: "如此……也罢……"
+    translated: "Very well, then......"
 - raw: "323,110010,{0}酒后无德，吵闹生端，周遭行人唯恐避之不及。,\"110011,110012\",,"
   splits:
   - split: 2
     text: "酒后无德，吵闹生端，周遭行人唯恐避之不及。"
+    translated: "Drunk and disorderly, causing a commotion, passersby do their best to avoid them."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1792,9 +2221,11 @@
   splits:
   - split: 2
     text: "你一番好言相劝，止住"
+    translated: "You spoke kindly to them, and they stopped."
   - split: 2
     subIndex: 1
     text: "的醉言醉语，最终平息了这番不知所谓的闹剧。"
+    translated: "Their drunken ramblings eventually put an end to this meaningless spectacle."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1802,9 +2233,11 @@
   splits:
   - split: 2
     text: "见四周所有人都对他投以白眼，"
+    translated: "Seeing everyone around him give him white-eyed looks,"
   - split: 2
     subIndex: 1
     text: "醉意渐消，悻悻离去。"
+    translated: "As the intoxication faded, they left in sullen disappointment."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1812,6 +2245,7 @@
   splits:
   - split: 2
     text: "在洞窟中摸索前行时不慎被毒蛇咬伤，慌忙逃出洞口，瘫倒路旁低声求助。"
+    translated: "While exploring the cave, I was bitten by a venomous snake and fled hastily out of the Cave Entrance, collapsing by the roadside and calling for help in a low voice."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1819,12 +2253,15 @@
   splits:
   - split: 2
     text: "蛇毒在"
+    translated: "Venom is spreading"
   - split: 2
     subIndex: 1
     text: "体内淤积，不得排出。致使"
+    translated: "Internal stagnation, unable to be expelled. Leading to"
   - split: 2
     subIndex: 2
     text: "内息受阻，全身乏力。幸而毒不致命，若来日多加修养调息，身体或也可以完全恢复。"
+    translated: "Inner Qi is blocked, leaving me completely exhausted. Fortunately, the poison is not fatal. With proper cultivation and rest in the days to come, my body may also fully recover."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦0⟧{2}"
@@ -1832,9 +2269,11 @@
   splits:
   - split: 2
     text: "你见"
+    translated: "You see"
   - split: 2
     subIndex: 1
     text: "身中蛇毒，当即耗费内力助其打通内息，将毒素排出体外。方使其内脏免受蛇毒之害。"
+    translated: "Poisoned by snake venom, I immediately expended Inner Power to help clear their Inner Qi, expelling the toxins from their body. This prevented the venom from damaging their internal organs."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1842,14 +2281,17 @@
   splits:
   - split: 2
     text: "若不是我身中剧毒，怎会让你这人小人暗算。"
+    translated: "If not for the poison in my body, how could you, such a petty person, have betrayed me?"
 - raw: "330,110024,凭你这等三脚猫的功夫，居然也敢趁人之危？,\"351,352,353\",,"
   splits:
   - split: 2
     text: "凭你这等三脚猫的功夫，居然也敢趁人之危？"
+    translated: "With skills like yours, you dare to take advantage of someone in a vulnerable situation?"
 - raw: "331,110030,{0}在街口说书谋生，口吐妙语莲花，所言山南海北，引得路人纷纷驻足。,\"110031,110032,110033\",,"
   splits:
   - split: 2
     text: "在街口说书谋生，口吐妙语莲花，所言山南海北，引得路人纷纷驻足。"
+    translated: "At the street corner, he earns a living by storytelling, his words as eloquent as lotus blossoms, speaking of far-off lands and seas, drawing crowds of passersby to stop and listen."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1857,6 +2299,7 @@
   splits:
   - split: 2
     text: "讲到精彩之处，人们不禁纷纷喝彩鼓掌，不少路人拿出散碎银两来打赏。"
+    translated: "At the exciting parts, people couldn't help but cheer and clap, with many passersby pulling out loose Silver to tip."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1864,9 +2307,11 @@
   splits:
   - split: 2
     text: "你听闻"
+    translated: "You hear about"
   - split: 2
     subIndex: 1
     text: "所讲的轶事恰是自己日前亲眼所见，便在一旁帮腔协助。半晌下来，你两人都得了不少的赏钱。"
+    translated: "The anecdotes you shared were ones you had seen with your own eyes recently, so you chimed in to help. After a while, both of you earned quite a bit of money as rewards."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1874,17 +2319,21 @@
   splits:
   - split: 2
     text: "大侠高抬贵手，小的这就离开此地。"
+    translated: "Great Hero, please spare me; I will leave at once."
 - raw: "335,110034,闹事寻衅，也得看看自己几斤几两吧？当真可笑！,\"351,352,353\",,"
   splits:
   - split: 2
     text: "闹事寻衅，也得看看自己几斤几两吧？当真可笑！"
+    translated: "Creating trouble, do they not know their own worth? Truly laughable!"
 - raw: "336,110040,体力不支的{0}忽觉头晕目眩，瘫坐在路边的墙脚下无法动弹。,\"110041,110042,110043\",,"
   splits:
   - split: 2
     text: "体力不支的"
+    translated: "Stamina depleted,"
   - split: 2
     subIndex: 1
     text: "忽觉头晕目眩，瘫坐在路边的墙脚下无法动弹。"
+    translated: "Suddenly felt dizzy and disoriented, collapsing against the wall at the roadside, unable to move."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1892,6 +2341,7 @@
   splits:
   - split: 2
     text: "在许久之后慢慢恢复了，虽全身酸痛乏力却已是能行走自如，只是仍不明先前急病由来……"
+    translated: "After a long time, I gradually recovered, though my whole body ached and felt weak, I could walk freely. Still, I had no idea what had caused the sudden illness..."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1899,9 +2349,11 @@
   splits:
   - split: 2
     text: "你掐住"
+    translated: "You grabbed"
   - split: 2
     subIndex: 1
     text: "的人中，将其唤醒后。简单照料一番。待其恢复后才放心离开。"
+    translated: "Among the people, after waking them up, I took care of them for a while. Only after they had recovered did I feel at ease leaving."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1909,14 +2361,17 @@
   splits:
   - split: 2
     text: "若不是我身负异伤，又怎会让你这小人暗算！"
+    translated: "If not for my strange injuries, how could you, scoundrel, have ambushed me!"
 - raw: "340,110044,若不是我今日功力有损，懒得再动，不然定取你这小人狗命，滚！,500,,"
   splits:
   - split: 2
     text: "若不是我今日功力有损，懒得再动，不然定取你这小人狗命，滚！"
+    translated: "If not for my weakened energy today and my lack of desire to move, I would surely take your life, you little dog! Get out!"
 - raw: "341,110050,{0}将不久前习得的招式从头至尾操练了一遍，累的大汗淋漓。,\"110051,110052,110053,110054,110055,110056,110057,110058\",,"
   splits:
   - split: 2
     text: "将不久前习得的招式从头至尾操练了一遍，累的大汗淋漓。"
+    translated: "They went through the recently learned move from start to finish, sweating profusely from the exertion."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1924,9 +2379,11 @@
   splits:
   - split: 2
     text: "一回生，二回熟。潜心修习过后，"
+    translated: "Once a stranger, twice a friend. After focused practice,"
   - split: 2
     subIndex: 1
     text: "的修为和功力都有所增进。"
+    translated: "Their cultivation and power have both improved"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1934,9 +2391,11 @@
   splits:
   - split: 2
     text: "你见到"
+    translated: "You see"
   - split: 2
     subIndex: 1
     text: "正在独自习武，自忖对方功力与自己相当，便上前以武会友，搭手陪练。"
+    translated: "Practicing martial arts alone, they thought the other person's skill was on par with their own and went up to meet them as a friend, offering to spar."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1944,9 +2403,11 @@
   splits:
   - split: 2
     text: "你将自己习武的经验分享给"
+    translated: "You shared your own experience in martial arts with"
   - split: 2
     subIndex: 1
     text: "，让其触类旁通，这一遭修行堪比平日数次所得。"
+    translated: ", This experience is worth more than several days of regular practice."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1954,14 +2415,17 @@
   splits:
   - split: 2
     text: "只怪自己未曾防备，今日败于小人之手，若有来日，定叫你血债血偿！"
+    translated: "It's my own fault for not being prepared. Today, I fell to a villain's hands, but if there's a day in the future, I will surely make you pay with your blood!"
 - raw: "346,110055,这刚刚习得的武功用来对付你等宵小，真是再合适不过了。,\"351,352,353\",,"
   splits:
   - split: 2
     text: "这刚刚习得的武功用来对付你等宵小，真是再合适不过了。"
+    translated: "Using this newly learned martial skill to deal with scoundrels like you is most appropriate."
 - raw: "347,110060,{0}谨记前辈叮嘱，正于此处修习生疏心法……,\"110061,110062,110063,110064,110065,110066,110067,110068\",,"
   splits:
   - split: 2
     text: "谨记前辈叮嘱，正于此处修习生疏心法……"
+    translated: "Remembering my Senior's advice, I practice the unfamiliar Heart Method here..."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1969,9 +2433,11 @@
   splits:
   - split: 2
     text: "果然熟能生巧，"
+    translated: "Practice really does make perfect"
   - split: 2
     subIndex: 1
     text: "勤加练习之后，武学进境和修为感悟都有了些许提升。"
+    translated: "After diligent practice, there was some improvement in martial art progression and cultivation insight."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1979,9 +2445,11 @@
   splits:
   - split: 2
     text: "你见到"
+    translated: "You see"
   - split: 2
     subIndex: 1
     text: "正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身。各有丰厚收益。"
+    translated: "While meditating alone, I asked to join him, and after we pressed our palms together, our Inner Qi circulated between us, flowing through our bodies. We both gained rich rewards. Rich rewards."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1989,9 +2457,11 @@
   splits:
   - split: 2
     text: "你见其独自修行进步缓慢，便以自身内力相助其打通经脉。让"
+    translated: "Seeing their solitary practice progress slowly, you helped them by using your own Inner Power to open up their Meridians. Letting"
   - split: 2
     subIndex: 1
     text: "颇为感激这一臂之力。"
+    translated: "Very grateful for this helping hand"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1999,14 +2469,17 @@
   splits:
   - split: 2
     text: "趁人之危的狡诈匪徒，咳咳……无耻之尤！"
+    translated: "A cunning bandit taking advantage of others, cough cough...... utterly shameless!"
 - raw: "352,110065,这刚刚习得的武功用来对付你等宵小，真是再合适不过了。,\"351,352,353\",,"
   splits:
   - split: 2
     text: "这刚刚习得的武功用来对付你等宵小，真是再合适不过了。"
+    translated: "Using this newly learned martial skill to deal with scoundrels like you is most appropriate."
 - raw: "353,110070,{0}脑中思索着功法与招式，忽然灵光乍现，参透困扰许久的修行奥秘，当即找到一处僻静之所尝试运功冲脉……,\"110071,110072,110073,110074,110075,110076,110077,110078\",,"
   splits:
   - split: 2
     text: "脑中思索着功法与招式，忽然灵光乍现，参透困扰许久的修行奥秘，当即找到一处僻静之所尝试运功冲脉……"
+    translated: "Thinking about the techniques and moves, a sudden flash of inspiration struck, revealing the long-troubled secrets of cultivation. They immediately sought out a secluded spot to attempt to circulate their energy through the Chong Meridian..."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2014,6 +2487,7 @@
   splits:
   - split: 2
     text: "施展着招式迎风起舞，将刚刚参悟的谜题一一验证。武功修为大有进境。"
+    translated: "Performing the moves to dance in the wind, verifying each puzzle they unraveled. Their martial skill and cultivation have greatly advanced."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2021,9 +2495,11 @@
   splits:
   - split: 2
     text: "你见到"
+    translated: "You see"
   - split: 2
     subIndex: 1
     text: "正在独自习武，上前与其陪手对练。二人拆招换式你来我往，各有收益。"
+    translated: "Practicing martial arts alone, you approach and spar with them. The two of you exchange techniques and forms, each gaining from the practice."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2031,6 +2507,7 @@
   splits:
   - split: 2
     text: "所练招式虽然精妙，你却仍能想出破解之法并不吝传授，半日下来，二人武学都有不小的进步。"
+    translated: "Although the moves you practiced were exquisite, you still managed to devise ways to counter them and didn't hesitate to share your insights. By afternoon, both of you had made significant progress in your martial arts."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2038,14 +2515,17 @@
   splits:
   - split: 2
     text: "只怪自己调息打坐之时心无二念，未曾防备。他日若再遇阁下，定然讨要个公道！"
+    translated: "It was my own fault for meditating without any guard against distractions. If I ever meet you again, I will certainly demand justice!"
 - raw: "358,110075,这位少侠出手偷袭，实非君子所谓，现今被擒不知有何话讲？,\"351,352,353\",,"
   splits:
   - split: 2
     text: "这位少侠出手偷袭，实非君子所谓，现今被擒不知有何话讲？"
+    translated: "This young hero's sudden attack was not that of a gentleman; now that you are caught, what have you to say for yourself?"
 - raw: "359,110080,{0}于修炼中耗尽精气神将功力提至临界。只待冲破玄关，修为便可更上一层楼。,\"110081,110082,110083,110084,110085,110086,110087,110088\",,"
   splits:
   - split: 2
     text: "于修炼中耗尽精气神将功力提至临界。只待冲破玄关，修为便可更上一层楼。"
+    translated: "By depleting one's essence, energy, and spirit during cultivation, he raised his power to the critical point. All that remains is to break through the barrier, and his cultivation will advance to a higher level."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2053,9 +2533,11 @@
   splits:
   - split: 2
     text: "凝神静气半晌之后，"
+    translated: "After concentrating and calming their breath for a moment,"
   - split: 2
     subIndex: 1
     text: "终于百尺竿头更近一步，突破自身极限并从修炼中大获收益。"
+    translated: "Finally, they pushed past their limits and reaped great benefits from their training."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2063,9 +2545,11 @@
   splits:
   - split: 2
     text: "你见到"
+    translated: "You see"
   - split: 2
     subIndex: 1
     text: "正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身，各有丰厚收益。"
+    translated: "While meditating alone, they asked to join and meditate with them. After clasping palms, their Inner Qi interchanged, circulating through their bodies, yielding abundant benefits. Each gained abundant benefits."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2073,9 +2557,11 @@
   splits:
   - split: 2
     text: "你在"
+    translated: "You are"
   - split: 2
     subIndex: 1
     text: "即将冲破玄关之际，鼎力相助，助其打通周身经络。"
+    translated: "Just as they were about to break through the threshold, they lent a helping hand, aiding in the opening of their meridians throughout the body."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2083,17 +2569,21 @@
   splits:
   - split: 2
     text: "紧要关头竟然被你这下流小人偷袭，功败垂成，却是天意……"
+    translated: "At the critical moment, I was ambushed by you, this lecherous scoundrel. Success turned to failure; it must be fate..."
 - raw: "364,110085,哈哈哈……如今我已然神功大成，岂是你这般宵小能够伤到的？,\"351,352,353\",,"
   splits:
   - split: 2
     text: "哈哈哈……如今我已然神功大成，岂是你这般宵小能够伤到的？"
+    translated: "Ha ha ha......Now that I have achieved mastery in my divine skills, how could someone like you harm me?"
 - raw: "365,110090,连日劳顿让{0}的体力消耗殆尽，不得不在原地打坐调息。,\"110091,110092,110093\",,"
   splits:
   - split: 2
     text: "连日劳顿让"
+    translated: "The days of hard travel have left"
   - split: 2
     subIndex: 1
     text: "的体力消耗殆尽，不得不在原地打坐调息。"
+    translated: "Their stamina was depleted, and they had to meditate on the spot to recover."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2101,9 +2591,11 @@
   splits:
   - split: 2
     text: "经过了一段时间的调息，"
+    translated: "After a period of meditation,"
   - split: 2
     subIndex: 1
     text: "的精力恢复了些许。"
+    translated: "Their energy recovered somewhat"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2111,9 +2603,11 @@
   splits:
   - split: 2
     text: "你心怀怜悯，就近买了些食物药材送给"
+    translated: "You bought some food and medicine to give them out of compassion."
   - split: 2
     subIndex: 1
     text: "，助其快速恢复。"
+    translated: ", Help them recover quickly"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2121,10 +2615,12 @@
   splits:
   - split: 2
     text: "你！咳咳咳……"
+    translated: "You! Cough, cough, cough......"
 - raw: "369,110094,若不是今日体虚无力，定然取你狗命，滚!,500,,"
   splits:
   - split: 2
     text: "若不是今日体虚无力，定然取你狗命，滚"
+    translated: "If not for my weakness today, I would have taken your life. Get out."
   templates:
   - split: 2
     template: "{0}!"
@@ -2132,9 +2628,11 @@
   splits:
   - split: 2
     text: "囊中羞涩又馋嘴贪吃的"
+    translated: "Penniless but greedy for food"
   - split: 2
     subIndex: 1
     text: "，生抢路边摊的小吃，被摊主发现与之争斗起来。"
+    translated: ", Stealing snacks from a roadside stall, you were discovered by the vendor and ended up fighting with him."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2142,6 +2640,7 @@
   splits:
   - split: 2
     text: "趁着摊主不注意，挣脱开来，拿着刚刚抢到的点心跑开了。"
+    translated: "Taking advantage of the vendor's distraction, they broke free and ran off with the pastries they had just grabbed."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2149,12 +2648,15 @@
   splits:
   - split: 2
     text: "你不忍"
+    translated: "You couldn't bear it"
   - split: 2
     subIndex: 1
     text: "如此落魄，慷慨地付钱给了摊主。不曾想"
+    translated: "In such straits, he generously paid the vendor. Little did he know"
   - split: 2
     subIndex: 2
     text: "竟是世外高人，随便指点几招便使你受益匪浅。"
+    translated: "You're no ordinary person; even a few casual tips from you would be incredibly beneficial."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦0⟧{2}"
@@ -2162,6 +2664,7 @@
   splits:
   - split: 2
     text: "求成心切，连日来刻苦练功，废寝忘食。终致气血失调，疲惫不堪。"
+    translated: "Eager for success, he had been practicing diligently day and night, neglecting sleep and meals. This eventually led to a Lifeforce imbalance, leaving him exhausted."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2169,9 +2672,11 @@
   splits:
   - split: 2
     text: "气力不足的"
+    translated: "Weak from lack of strength"
   - split: 2
     subIndex: 1
     text: "连站立都勉力维之，不得不稍作休息以恢复些精力。"
+    translated: "Struggling to even stand, they had no choice but to rest briefly to regain some energy."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2179,12 +2684,15 @@
   splits:
   - split: 2
     text: "你将练功心得分享给"
+    translated: "You shared your insights on training with"
   - split: 2
     subIndex: 1
     text: "，告诫其练功需循序渐进、戒骄戒躁，"
+    translated: ", Warn them to progress gradually in their training, without arrogance or impatience,"
   - split: 2
     subIndex: 2
     text: "从中颇有受益。"
+    translated: "I gained much from it"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦0⟧{2}"
@@ -2192,9 +2700,11 @@
   splits:
   - split: 2
     text: "见"
+    translated: "See"
   - split: 2
     subIndex: 1
     text: "气虚血亏，你耗费精力为其调理，让其得以恢复些许。"
+    translated: "Qi deficiency and blood loss; you spent your energy on regulating for them, allowing them to recover somewhat."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2202,17 +2712,21 @@
   splits:
   - split: 2
     text: "足下趁人之危，实在非光明磊落之辈，我今天算是认栽了。"
+    translated: "You took advantage of my misfortune; you are certainly not a man of honor. I admit defeat today."
 - raw: "378,110115,上天有好生之德，若再敢恃强凌弱，定不轻饶。,500,,"
   splits:
   - split: 2
     text: "上天有好生之德，若再敢恃强凌弱，定不轻饶。"
+    translated: "Heaven shows mercy to all; if you dare to bully the weak again, I will not go easy on you."
 - raw: "379,110120,面露苦色的{0}呼吸急促，不得已停下了步履，在角落缓缓坐下调息。,\"110121,110122,110123\",,"
   splits:
   - split: 2
     text: "面露苦色的"
+    translated: "Looking distressed"
   - split: 2
     subIndex: 1
     text: "呼吸急促，不得已停下了步履，在角落缓缓坐下调息。"
+    translated: "Breathing heavily, they were forced to stop and slowly sit down in a corner to catch their breath."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2220,6 +2734,7 @@
   splits:
   - split: 2
     text: "稍作休息调息之后，精力恢复了些许。"
+    translated: "After resting and catching their breath, they regained some energy."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2227,12 +2742,15 @@
   splits:
   - split: 2
     text: "你悲怜"
+    translated: "You feel pity"
   - split: 2
     subIndex: 1
     text: "之痛苦，便耗费内力助其调整内息，不消几刻"
+    translated: "To alleviate their pain, they expended Inner Power to help adjust their Inner Qi; it took but a few moments."
   - split: 2
     subIndex: 2
     text: "红光满面，连连颔首致谢与你。"
+    translated: "With a ruddy complexion, they nodded repeatedly in thanks to you."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦0⟧{2}"
@@ -2240,10 +2758,12 @@
   splits:
   - split: 2
     text: "宵小鼠辈，无……无耻之尤！"
+    translated: "Rascally vermin, utterly... shameless!"
 - raw: "383,110124,若不是今日体虚无力，定然取你狗命，滚!,500,,"
   splits:
   - split: 2
     text: "若不是今日体虚无力，定然取你狗命，滚"
+    translated: "If not for my weakness today, I would have taken your life. Get out."
   templates:
   - split: 2
     template: "{0}!"
@@ -2251,6 +2771,7 @@
   splits:
   - split: 2
     text: "偶得一本无字书，苦思多日却仍难参悟其中玄妙……"
+    translated: "I obtained a book without words and have pondered for days but still cannot fathom its mysteries......"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2258,9 +2779,11 @@
   splits:
   - split: 2
     text: "任"
+    translated: "Ren"
   - split: 2
     subIndex: 1
     text: "如何苦想，终不得其解，最终与无字天书失之交臂。"
+    translated: "No matter how hard they thought, they could not find the solution, and ultimately missed the chance to obtain the Heavenly Scripture."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2268,9 +2791,11 @@
   splits:
   - split: 2
     text: "你听闻"
+    translated: "You hear about"
   - split: 2
     subIndex: 1
     text: "偶得一本无字之书，与之共同参谋，然苦思多日亦未有结果，倒是二人渐成挚友。"
+    translated: "I came across a book without words and consulted with it, but despite days of thought, I found no result. Instead, the two of us became close friends."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2278,9 +2803,11 @@
   splits:
   - split: 2
     text: "听闻以异邦花汁为墨书写，墨干字消。需敷以白醋方能使文字复现。你依此法相助，果然帮助"
+    translated: "I heard that writing with ink made from foreign flower juice makes the words disappear as the ink dries, but applying white vinegar brings the text back. You followed this method to help, and it indeed worked."
   - split: 2
     subIndex: 1
     text: "破解了无字书的玄机。"
+    translated: "Unlocked the mysteries of the wordless book"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2288,6 +2815,7 @@
   splits:
   - split: 2
     text: "刚走出酒铺，忽然面色紫黑，手中的半满的烧酒坛也掉在地上，摔成碎片。"
+    translated: "Just as you stepped out of the Wine Shop, your face suddenly turned purple-black, and the half-full bottle of liquor in your hand dropped to the ground, shattering into pieces."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2295,9 +2823,11 @@
   splits:
   - split: 2
     text: "一段时间过去，毒性渐渐从"
+    translated: "After some time, the poison gradually faded from"
   - split: 2
     subIndex: 1
     text: "身上褪去三分……"
+    translated: "...my body sheds three parts of its weight..."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2305,9 +2835,11 @@
   splits:
   - split: 2
     text: "侠义心肠的你见此情形，眼见情势危及，胡乱抓了把囊中药草助其服下，不消片刻"
+    translated: "With your chivalrous heart, seeing the dire situation, you hastily grabbed some herbs from your pouch and helped them swallow it; in no time,"
   - split: 2
     subIndex: 1
     text: "竟面色恢复如常，连连颔首致谢与你。"
+    translated: "Yet their face returned to normal, and they nodded repeatedly in thanks to you."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2315,9 +2847,11 @@
   splits:
   - split: 2
     text: "江湖阅历丰富的你识得此毒症，当即上前割破"
+    translated: "With your rich experience in Jianghu, you immediately stepped forward to cut open"
   - split: 2
     subIndex: 1
     text: "右手小指，帮其将毒素逼出体外。"
+    translated: "With their right little finger, help to expel the poison from their body."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2325,9 +2859,11 @@
   splits:
   - split: 2
     text: "气血两亏，体力不支的"
+    translated: "Lifeforce depleted, stamina exhausted,"
   - split: 2
     subIndex: 1
     text: "在路边忽然感觉头晕目眩。"
+    translated: "Suddenly felt dizzy and disoriented by the roadside."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2335,9 +2871,11 @@
   splits:
   - split: 2
     text: "不知过了多久，"
+    translated: "Don't know how long passed,"
   - split: 2
     subIndex: 1
     text: "睁开了眼睛，吃了些身旁不知是谁施舍的干粮和水，恢复了一丝气力。"
+    translated: "Opened their eyes, ate some dry food and water that someone had left beside them, and regained a bit of strength."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2345,9 +2883,11 @@
   splits:
   - split: 2
     text: "救人一命，胜造七级浮屠。看着奄奄一息的"
+    translated: "Saving a life is better than building seven tiers of a floating pagoda. Looking at the barely breathing"
   - split: 2
     subIndex: 1
     text: "，你心生恻隐，耗费内力护住其心脉，随后助其调理，方得其活命。"
+    translated: ", You felt compassion and expended your Inner Power to protect their heart meridian. You then helped them regulate their energy, allowing them to survive."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2355,20 +2895,25 @@
   splits:
   - split: 2
     text: "唔……你……"
+    translated: "Mm... you..."
 - raw: "396,110154,给老子……滚！,500,,"
   splits:
   - split: 2
     text: "给老子……滚！"
+    translated: "Get lost for me......!"
 - raw: "397,310010,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。,\"310011,310012,310013,310014\",,"
   splits:
   - split: 2
     text: "冤家路窄，不共戴天的"
+    translated: "Rivals meeting by chance, cannot live under the same sky's"
   - split: 2
     subIndex: 1
     text: "和"
+    translated: "And"
   - split: 2
     subIndex: 2
     text: "一见到彼此便拔刀相向，死斗在一处。"
+    translated: "As soon as they saw each other, they drew their blades and fought to the death."
   templates:
   - split: 2
     template: "{0}a{1}b{2}"
@@ -2376,9 +2921,11 @@
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    translated: "After dozens of exchanges that left both sides wounded and exhausted, their mutual hatred deepened."
   templates:
   - split: 2
     template: "a{0}b{1}"
@@ -2386,15 +2933,19 @@
   splits:
   - split: 2
     text: "因为忌惮"
+    translated: "Out of fear"
   - split: 2
     subIndex: 1
     text: "武功高强，在江湖中又颇有名望，"
+    translated: "With high martial skill and a reputation to match in the Jianghu,"
   - split: 2
     subIndex: 2
     text: "和"
+    translated: "And"
   - split: 2
     subIndex: 3
     text: "双方决定暂时罢手，相约他日再做了断。"
+    translated: "Both sides decided to call a temporary truce, agreeing to settle the matter another day."
   templates:
   - split: 2
     template: "{0}p{1}a{2}b{3}"
@@ -2402,12 +2953,15 @@
   splits:
   - split: 2
     text: "双拳难敌四手，"
+    translated: "Two fists are no match for four hands."
   - split: 2
     subIndex: 1
     text: "得你出手相助之后，"
+    translated: "After receiving your help,"
   - split: 2
     subIndex: 2
     text: "立刻难以支撑，数招之后负伤逃走。"
+    translated: "Soon unable to hold on, they were wounded and fled after several moves."
   templates:
   - split: 2
     template: "{0}a{1}b{2}"
@@ -2415,12 +2969,15 @@
   splits:
   - split: 2
     text: "双拳难敌四手，"
+    translated: "Two fists are no match for four hands."
   - split: 2
     subIndex: 1
     text: "得你出手相助之后，"
+    translated: "After receiving your help,"
   - split: 2
     subIndex: 2
     text: "立刻难以支撑，数招之后负伤逃走。"
+    translated: "Soon unable to hold on, they were wounded and fled after several moves."
   templates:
   - split: 2
     template: "{0}b{1}a{2}"
@@ -2428,17 +2985,21 @@
   splits:
   - split: 2
     text: "不想你如此黑白不分，竟助纣为虐，要杀要剐，悉听尊便。"
+    translated: "I don't want you to be so black and white, even aiding the wicked. Whether you wish to kill or be punished, it's your choice."
 - raw: "403,310016,凭你这等三脚猫的功夫，竟然还敢来多管闲事？,\"310035,310036,310037\",,"
   splits:
   - split: 2
     text: "凭你这等三脚猫的功夫，竟然还敢来多管闲事？"
+    translated: "With skills as mediocre as yours, you actually dare to meddle in other people's business?"
 - raw: "404,310017,江湖输赢常有，少侠且宽心……今日之恩，a来日必涌泉相报。,310021,,"
   splits:
   - split: 2
     text: "江湖输赢常有，少侠且宽心……今日之恩，"
+    translated: "Victory and defeat in Jianghu are common; be at ease, Young Hero......The favor of today,"
   - split: 2
     subIndex: 1
     text: "来日必涌泉相报。"
+    translated: "I will surely repay you with abundant gratitude in the future."
   templates:
   - split: 2
     template: "{0}a{1}"
@@ -2446,12 +3007,15 @@
   splits:
   - split: 2
     text: "冤家路窄，不共戴天的"
+    translated: "Rivals meeting by chance, cannot live under the same sky's"
   - split: 2
     subIndex: 1
     text: "和"
+    translated: "And"
   - split: 2
     subIndex: 2
     text: "一见到彼此便拔刀相向，死斗在一处。"
+    translated: "As soon as they saw each other, they drew their blades and fought to the death."
   templates:
   - split: 2
     template: "{0}b{1}a{2}"
@@ -2459,9 +3023,11 @@
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    translated: "After dozens of exchanges that left both sides wounded and exhausted, their mutual hatred deepened."
   templates:
   - split: 2
     template: "b{0}a{1}"
@@ -2469,15 +3035,19 @@
   splits:
   - split: 2
     text: "因为忌惮"
+    translated: "Out of fear"
   - split: 2
     subIndex: 1
     text: "武功高强，在江湖中又颇有名望，"
+    translated: "With high martial skill and a reputation to match in the Jianghu,"
   - split: 2
     subIndex: 2
     text: "和"
+    translated: "And"
   - split: 2
     subIndex: 3
     text: "双方决定暂时罢手，相约他日再做了断。"
+    translated: "Both sides decided to call a temporary truce, agreeing to settle the matter another day."
   templates:
   - split: 2
     template: "{0}p{1}b{2}a{3}"
@@ -2485,12 +3055,15 @@
   splits:
   - split: 2
     text: "双拳难敌四手，"
+    translated: "Two fists are no match for four hands."
   - split: 2
     subIndex: 1
     text: "得你出手相助之后，"
+    translated: "After receiving your help,"
   - split: 2
     subIndex: 2
     text: "立刻难以支撑，数招之后负伤逃走。"
+    translated: "Soon unable to hold on, they were wounded and fled after several moves."
   templates:
   - split: 2
     template: "{0}b{1}a{2}"
@@ -2498,12 +3071,15 @@
   splits:
   - split: 2
     text: "双拳难敌四手，"
+    translated: "Two fists are no match for four hands."
   - split: 2
     subIndex: 1
     text: "得你出手相助之后，"
+    translated: "After receiving your help,"
   - split: 2
     subIndex: 2
     text: "立刻难以支撑，数招之后负伤逃走。"
+    translated: "Soon unable to hold on, they were wounded and fled after several moves."
   templates:
   - split: 2
     template: "{0}a{1}b{2}"
@@ -2511,17 +3087,21 @@
   splits:
   - split: 2
     text: "不想你如此黑白不分，竟助纣为虐，要杀要剐，悉听尊便。"
+    translated: "I don't want you to be so black and white, even aiding the wicked. Whether you wish to kill or be punished, it's your choice."
 - raw: "411,410016,凭你这等三脚猫的功夫，竟然还敢来多管闲事？,\"410035,410036,410037\",,"
   splits:
   - split: 2
     text: "凭你这等三脚猫的功夫，竟然还敢来多管闲事？"
+    translated: "With skills as mediocre as yours, you actually dare to meddle in other people's business?"
 - raw: "412,410017,江湖输赢常有，少侠且宽心……今日之恩，b来日必涌泉相报。,410021,,"
   splits:
   - split: 2
     text: "江湖输赢常有，少侠且宽心……今日之恩，"
+    translated: "Victory and defeat in Jianghu are common; be at ease, Young Hero......The favor of today,"
   - split: 2
     subIndex: 1
     text: "来日必涌泉相报。"
+    translated: "I will surely repay you with abundant gratitude in the future."
   templates:
   - split: 2
     template: "{0}b{1}"
@@ -2529,34 +3109,42 @@
   splits:
   - split: 2
     text: "吾等公门中人，自当日夜监察，防患未然，只恨当今庙堂无力，让那等江湖人士公然行走于街市……"
+    translated: "We officials keep watch day and night to prevent trouble before it starts, but alas, the current government lacks the strength to stop such Jianghu figures from openly walking the streets..."
 - raw: "414,301,束手就擒，或能得大人高抬贵手，酌情减尔之刑，若然负隅反抗，只怕，国法不容情！,\"666,668,669\",被捕快逮到  2级缉捕等级触发,"
   splits:
   - split: 2
     text: "束手就擒，或能得大人高抬贵手，酌情减尔之刑，若然负隅反抗，只怕，国法不容情！"
+    translated: "Submit with hands tied, and you might receive Lord's leniency, reducing your punishment. If you resist, the law will show no mercy!"
 - raw: "415,302,……尔倒是识相，不知阁下手里，却是有几何银子？,\"667,668,669\",贿赂   2级缉捕等级触发选择贿赂对话,"
   splits:
   - split: 2
     text: "……尔倒是识相，不知阁下手里，却是有几何银子？"
+    translated: "...You are wise to be cooperative. But how much silver do you have on you?"
 - raw: "416,303,常言道国法如炉真如炉……阁下所犯之罪，便是上下打点，却也要不少银两……,\"667,668,669\",贿赂  根据立场值判定   3，4级缉捕等级触发,"
   splits:
   - split: 2
     text: "常言道国法如炉真如炉……阁下所犯之罪，便是上下打点，却也要不少银两……"
+    translated: "As the saying goes, the law is like a furnace... Sir, the bribes you must pay to smooth things over are no small amount of Silver..."
 - raw: "417,305,常言道国法如炉真如炉……阁下所犯之罪，便是上下打点，却也要不少银两……,\"667,668,669\",战斗和根据立场值有概率贿赂   3，4级缉捕等级触发,"
   splits:
   - split: 2
     text: "常言道国法如炉真如炉……阁下所犯之罪，便是上下打点，却也要不少银两……"
+    translated: "As the saying goes, the law is like a furnace... Sir, the bribes you must pay to smooth things over are no small amount of Silver..."
 - raw: "418,304,确为高手……奈何做贼？阁下此般，未免太不把我公门放在眼中了！要杀要剐，且看你的厉害！,\"672,376\",取其性命   2，3，4级战斗胜利后续,"
   splits:
   - split: 2
     text: "确为高手……奈何做贼？阁下此般，未免太不把我公门放在眼中了！要杀要剐，且看你的厉害！"
+    translated: "Indeed, you are a skilled warrior... Yet why resort to theft? Your actions show a great disrespect for the law! Whether you face execution or punishment, I will see how formidable you truly are!"
 - raw: "419,400,哎哟，贵客驾临，蓬荜生辉！咱这的绝色佳人，妙音雅舞，可是本地一绝哩。,\"674,500\",老鸨,"
   splits:
   - split: 2
     text: "哎哟，贵客驾临，蓬荜生辉！咱这的绝色佳人，妙音雅舞，可是本地一绝哩。"
+    translated: "Ooh, honored guest, your arrival brings glory to this humble place! Our local beauty and graceful dance are unparalleled here."
 - raw: "420,401,纤腰素手，罗衣飘飘，翩翩起舞间，宛若仙子下凡……,683,舞女,"
   splits:
   - split: 2
     text: "纤腰素手，罗衣飘飘，翩翩起舞间，宛若仙子下凡……"
+    translated: "Willowy waist, fair hands, flowing robes, dancing gracefully like a celestial maiden descended to earth......"
 - raw: "421,402,23,\"675,676,677,678,679,680,500\",歌妓,"
 - raw: "422,403,24,\"681,601\",吟诗作赋,"
 - raw: "423,404,\"{0},{1},{2},{3}\",,这个格式不要动，目前就这样配,"
@@ -2565,15 +3153,19 @@
   splits:
   - split: 2
     text: "哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，"
+    translated: "Oh dear, I was feeling nervous and just about to suggest we play a game of finger guessing to liven things up,"
   - split: 2
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 2
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 2
     subIndex: 3
     text: "便替奴家道出了心中所想……"
+    translated: "...spoke out what was in her heart for me..."
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2582,15 +3174,19 @@
   splits:
   - split: 2
     text: "此局是"
+    translated: "This game is"
   - split: 2
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 2
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 2
     subIndex: 3
     text: "胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……"
+    translated: "Victory, I am truly impressed by your skill at drinking games. This cup... I accept my punishment..."
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2598,15 +3194,19 @@
   splits:
   - split: 2
     text: "此局奴家虽胜，然以"
+    translated: "Though I have won this round, yet I"
   - split: 2
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 2
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 2
     subIndex: 3
     text: "之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？"
+    translated: "Such talent and learning cannot be judged by a mere game of drinking dice. Do not worry, let us drink to this cup... how about it?"
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2614,15 +3214,19 @@
   splits:
   - split: 2
     text: "此等大恩，无以为报，奴家往后残生，自当相随"
+    translated: "Such great kindness, I have nothing to offer in return. From now on, the rest of my life shall be at your side."
   - split: 2
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 2
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 2
     subIndex: 3
     text: "左右……"
+    translated: "Left and right......"
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2630,34 +3234,42 @@
   splits:
   - split: 2
     text: "杂役取来热水热桶，干巾帕布，湿气氤氲中，姑娘为你拂擦肩背，耳闻温软笑语，你只觉通体舒泰，紧绷的精神亦渐渐放松……"
+    translated: "A servant brought hot water and a heated bucket, along with dry towels and cloths. In the steamy air, Miss gently wiped your shoulders and back, her soft laughter soothing to your ears. You felt completely at ease, and your tense willpower gradually relaxed as well......"
 - raw: "431,412,这位客官，长安城虽是罹遭大灾，不比以往时节，但放眼周遭百里，尚还开张的青楼，可是别无分号。,\"674,500\",【特殊-长安城】老鸨,"
   splits:
   - split: 2
     text: "这位客官，长安城虽是罹遭大灾，不比以往时节，但放眼周遭百里，尚还开张的青楼，可是别无分号。"
+    translated: "Sir, although Chang'an has suffered great disaster and is not as it was in previous times, within a hundred miles around, there are no other branches of the open pleasure houses."
 - raw: "432,413,此地虽显凋敝，然于舞姬曼妙身姿之下，仍呈纸醉金迷之象。,683,【特殊-长安城】舞女,"
   splits:
   - split: 2
     text: "此地虽显凋敝，然于舞姬曼妙身姿之下，仍呈纸醉金迷之象。"
+    translated: "Though the place appears dilapidated, beneath the graceful figures of the dancers, it still exudes an air of opulence and indulgence."
 - raw: "433,414,23,\"675,676,677,679,680,500\",【特殊-长安城】歌妓，去掉“沐浴洗尘”lips,"
 - raw: "434,420,行走江湖，仗艺傍身，何不押护镖车，赚些银两财物？,\"695,500\",镖头,"
   splits:
   - split: 2
     text: "行走江湖，仗艺傍身，何不押护镖车，赚些银两财物？"
+    translated: "Traveling in the Jianghu, relying on one's skills, why not escort a treasure convoy and earn some Silver and valuables?"
 - raw: "435,421,31,696,玩家被捕时，触发同伴逃跑离队对话,"
 - raw: "436,422,31,697,玩家被捕时，触发最后一个同伴逃跑离队对话,"
 - raw: "437,430,咱们gangName在这mapName可是大名鼎鼎，gangWuxue，阁下可有意加入？,\"757,750\",帮派总管-无帮派对话,"
   splits:
   - split: 2
     text: "咱们"
+    translated: "Let's"
   - split: 2
     subIndex: 1
     text: "在这"
+    translated: "Here"
   - split: 2
     subIndex: 2
     text: "可是大名鼎鼎，"
+    translated: "But renowned,"
   - split: 2
     subIndex: 3
     text: "，阁下可有意加入？"
+    translated: ", Would you like to join?"
   templates:
   - split: 2
     template: "{0}gangName{1}mapName{2}gangWuxue{3}"
@@ -2665,15 +3277,19 @@
   splits:
   - split: 2
     text: "甚好，既入本帮，咱们便是休戚与共，同进同退，哪日"
+    translated: "Very well, once you join our faction, we will share both joy and sorrow, advance and retreat together. On that day,"
   - split: 2
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 3
     text: "若欲另谋高就，与我知会一声便是。"
+    translated: "If you wish to seek other employment, just let me know."
   templates:
   - split: 2
     template: "{0}fp[{1}||{2}]{3}"
@@ -2681,19 +3297,24 @@
   splits:
   - split: 2
     text: "无妨，无妨。"
+    translated: "It's all right, it's all right"
 - raw: "440,433,咱们gangName在这mapName可是大名鼎鼎，gangWuxue，可惜阁下已然另栖他枝，若是有意观光，还请自便。,500,帮派总管-其他帮派对话,"
   splits:
   - split: 2
     text: "咱们"
+    translated: "Let's"
   - split: 2
     subIndex: 1
     text: "在这"
+    translated: "Here"
   - split: 2
     subIndex: 2
     text: "可是大名鼎鼎，"
+    translated: "But renowned,"
   - split: 2
     subIndex: 3
     text: "，可惜阁下已然另栖他枝，若是有意观光，还请自便。"
+    translated: ", Unfortunately, you have already moved on. If you wish to sightsee, please feel free to do so."
   templates:
   - split: 2
     template: "{0}gangName{1}mapName{2}gangWuxue{3}"
@@ -2701,12 +3322,15 @@
   splits:
   - split: 2
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 1
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 2
     text: "此来何事？"
+    translated: "What brings you here?"
   templates:
   - split: 2
     template: "fp[{0}||{1}]{2}"
@@ -2714,15 +3338,19 @@
   splits:
   - split: 2
     text: "此事虽无不可，但若离了本帮，"
+    translated: "Though there's nothing wrong with this, if we leave our own sect,"
   - split: 2
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 3
     text: "先前为本帮所作贡献，可要一笔勾销了。"
+    translated: "All the contributions I made to the sect may now be erased."
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2730,23 +3358,29 @@
   splits:
   - split: 2
     text: "人各有志，不可强求……"
+    translated: "Everyone has their own aspirations; one cannot force them..."
 - raw: "444,437,此处专理本帮私务，阁下若是有事，不妨去寻总管相谈。,500,帮派执事-无帮派/其他帮派对话,"
   splits:
   - split: 2
     text: "此处专理本帮私务，阁下若是有事，不妨去寻总管相谈。"
+    translated: "Here is where our clan's personal affairs are handled. If you have matters to attend to, you might as well seek out the head steward to discuss them."
 - raw: "445,438,帮里眼下正有几件棘手事务需办，[兄弟||妹子]，可有闲暇？,\"754,500\",帮派执事-本帮派对话,"
   splits:
   - split: 2
     text: "帮里眼下正有几件棘手事务需办，"
+    translated: "The sect has several urgent matters to attend to at the moment."
   - split: 2
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 3
     text: "，可有闲暇？"
+    translated: ", Do you have some free time?"
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2754,27 +3388,34 @@
   splits:
   - split: 2
     text: "此间专理本帮名簿内务，阁下若是有事，不妨去寻总管相谈。"
+    translated: "This place handles our clan's registry affairs; if you have matters to attend to, you might as well seek out the director to discuss them."
 - raw: "447,440,帮里弟兄遍布五湖，诸多杂事若是无人处理，可要大大乱套……,\"755,500\",帮派师爷-本帮派对话,"
   splits:
   - split: 2
     text: "帮里弟兄遍布五湖，诸多杂事若是无人处理，可要大大乱套……"
+    translated: "If there's no one to handle all the miscellaneous tasks, the brotherhood spread across the Five Lakes will fall into chaos..."
 - raw: "448,441,此间一应物事，皆是替帮中弟兄所备，阁下若是有意，不妨瞧瞧。,\"756,500\",库房管事-无帮派/其他帮派对话,"
   splits:
   - split: 2
     text: "此间一应物事，皆是替帮中弟兄所备，阁下若是有意，不妨瞧瞧。"
+    translated: "All these items have been prepared for my fellow brothers in the guild. If you're interested, feel free to take a look."
 - raw: "449,442,此间一应物事，皆是替帮中弟兄所备，[兄弟||妹子]若是有意，不妨瞧瞧。,\"756,500\",库房管事-本帮派对话,"
   splits:
   - split: 2
     text: "此间一应物事，皆是替帮中弟兄所备，"
+    translated: "All these items have been prepared for my fellow brothers in the guild."
   - split: 2
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 2
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 3
     text: "若是有意，不妨瞧瞧。"
+    translated: "If you're interested, take a look"
   templates:
   - split: 2
     template: "{0}[{1}||{2}]{3}"
@@ -2782,21 +3423,27 @@
   splits:
   - split: 2
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 1
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 2
     text: "近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若"
+    translated: "Recently, you have contributed much to our faction, and I have left an important matter with the guild officers. If"
   - split: 2
     subIndex: 3
     text: "兄弟"
+    translated: "Brother"
   - split: 2
     subIndex: 4
     text: "妹子"
+    translated: "Sis"
   - split: 2
     subIndex: 5
     text: "有意在本帮提升位阶，不妨前往一观。"
+    translated: "If you wish to advance in this sect, feel free to take a look around."
   templates:
   - split: 2
     template: "[{0}||{1}]{2}[{3}||{4}]{5}"

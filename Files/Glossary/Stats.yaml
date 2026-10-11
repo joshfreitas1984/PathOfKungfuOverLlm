@@ -8,8 +8,10 @@
   result: "Max Stamina"
 - raw: "体力恢复"
   result: "Stamina Recovery"
+  badtrans: false
 - raw: "精力"
   result: "Energy"
+  badtrans: false
 - raw: "内劲"
   result: "Inner Force"
 - raw: "内劲增长"
@@ -33,6 +35,7 @@
   result: "External Attack Power"
 - raw: "外功攻击"
   result: "External Attack"
+  badtrans: false
 - raw: "内功攻击力"
   result: "Internal Attack Power"
 - raw: "内功攻击"
@@ -41,18 +44,22 @@
   result: "External Defense"
 - raw: "外功防御"
   result: "External Defense"
+  badtrans: false
 - raw: "内功防御力"
   result: "Internal Defense"
 - raw: "内功防御"
   result: "Internal Defense"
+  badtrans: false
 - raw: "外功伤害"
   result: "External Damage"
+  badtrans: false
 - raw: "内功伤害"
   result: "Internal Damage"
 - raw: "伤害量"
   result: "Damage Dealt"
 - raw: "伤害"
   result: "Damage"
+  badtrans: false
 - raw: "增伤"
   result: "Damage Boost"
 
@@ -62,18 +69,21 @@
   result: "Crit Rate"
 - raw: "暴击伤害"
   result: "Crit Damage"
+  badtrans: false
 - raw: "暴击减免"
   result: "Crit Reduction"
 - raw: "免暴"
   result: "Crit Immunity"
 - raw: "暴击"
   result: "Critical Hit"
+  badtrans: false
 - raw: "吸血"
   result: "Lifesteal"
 - raw: "反伤"
   result: "Damage Reflection"
 - raw: "速度"
   result: "Speed"
+  badtrans: false
 - raw: "移动速度"
   result: "Movement Speed"
 - raw: "攻击速度"
@@ -85,8 +95,10 @@
 
 - raw: "武力"
   result: "Might"
+  badtrans: false
 - raw: "筋骨"
   result: "Physique"
+  badtrans: false
 - raw: "悟性"
   result: "Comprehension"
 - raw: "武侠资质"
@@ -97,10 +109,12 @@
   result: "Aptitude"
 - raw: "属性"
   result: "Attributes"
+  badtrans: false
 - raw: "基本属性"
   result: "Basic Attributes"
 - raw: "初始属性"
   result: "Starting Attributes"
+  badtrans: false
 - raw: "主属性"
   result: "Primary Attribute"
 - raw: "副属性"

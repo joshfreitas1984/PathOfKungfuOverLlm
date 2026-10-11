@@ -43,6 +43,12 @@ complement the preset (气血 = Lifeforce, 真气 = True Qi, 内功 = Neigong...
 内劲 = Inner Force, 筋骨 = Physique, 武力 = Might, the ten mastery-tier names, and the talent names (idiomatic four-character
 phrases, rendered by meaning). Skill, move and item names (about 900 moves, 113 martial arts, 1,000 items) are not in the glossary yet:
 they need a names-first translation pass followed by review.
+**Flag strictness.** `badtrans` defaults to true, so a glossary miss flags the split. Entries that are prompt guidance only carry
+`badtrans: false`; `allowalt` lists harmless variants (`Japan`/`Japanese` for 东瀛, collapsed pinyin such as `Liu Yinyin`). Preset lines
+that over-flagged here (kinship terms, 将军, 庄主, 剑, 掌柜...) are overridden in `Preset-Overrides.yaml`, which repeats the preset line
+with `badtrans: false` or extra `allowalt`, so the shared preset is untouched. Still enforced on purpose: 少俠, 大侠, 江湖, bracketed
+move names, and real name mistakes (`第五青衫` written as `Qingshan Diwu`). `Character-Names.yaml` is hand-curated, not generated, so edits to it persist.
+
 
 ## Martial art, move and buff names (reviewed)
 
@@ -88,6 +94,33 @@ armadillo technique's manual). Shipped-English hints were consulted but many wer
   entry replaces a split's translation only when the line is translated, so the sample files had to be re-exported first.
 - Judgement calls to confirm: `墨家` Mohist and `钜子` "Mohist Juzi"; `和刀` "Wa Blade"; `武斗` "Martial Combat"; the Japanese-flavoured
   items (`御守` "Protective Charm", `百人一首` "Hyakunin Isshu", `花见` "Hanami").
+
+## Dialogue tokens and speaker names (reviewed)
+
+Found by running a dialogue sample before the corpus run (`SandBox_NpcFromTouch__Touch.json.csv`, 700 lines):
+
+- **Runtime tokens split sentences.** Dialogue holds `<fName>`/`<lName>`/`<name>`/`<faction>` (a name filled in by the game) and
+  gender alternatives `<少侠||姑娘>` (shown as the part before `||` to a male player, after it to a female player; 91 distinct, about
+  3,400 uses). Left alone, the splitter broke each sentence at the token and translated the pieces separately ("Big Brother is so
+  skilled with your hands"). `GameFileHandling.SplitterOptions` now glues them into the sentence (`PlaceholderPatterns`), the four
+  dialogue files set `IgnoreHtmlTagsInText` (a gender alternative looks like an HTML tag whose content must change) with a
+  `ValidateRuntimeTokens` hook that checks every name token, colour tag and gender alternative is still there, and
+  `Files/Qwen25-StandardPrompts/PlayerTokenPrompt.txt` tells the model how to treat them. `Glossary/Player-Gender-Tokens.yaml` gives
+  the English of all 91 alternatives (`<Young Hero||Miss>`, `<Big Brother||Big Sister>`...), reviewed by hand.
+  The same hook feeds `UnknownGenderPersonTokens` so a he/she beside a name token is not treated as an invented gender.
+  **Named tokens.** `Config.yaml: namedTokenReplacers` now hides name tokens and title alternatives from the model behind descriptive
+  slots (`{firstName}`, `{playerTitle}`...) and restores them afterwards; a title alternative is restored to its
+  `Player-Gender-Tokens.yaml` result, so the model never writes the pair (it was copying `<male||female>` from the validator message
+  in 77 lines) and cannot infer a gender from it. Pronoun alternatives (`<他||她>`) stay visible because he/him/his depends on the
+  sentence. `ValidateRuntimeTokens` now requires an exact count of name tokens and alternatives (an extra one is invented).
+  Sample result: 110 of 113 token lines keep every token; the other 3 failed validation and stay untranslated for a retry.
+- **Speaker names were inconsistent** (`小钰` as "Little Yu", "Xiao Yu" and "Xiaoyu"; `糖人张` as "Tangren Zhang"). The 1,206 distinct
+  speaker and NPC names not covered elsewhere were reviewed (people as pinyin, e.g. `Xiaoyu`, `Duanmu Qing`, `Tange Sazen`; roles in
+  English, e.g. `Waiter`, `Old Fisherman`, `Candy Figurine Zhang`; `（尸首）` "(Corpse)", `&101`, numbers and A/B/C letters carried
+  over). They are in `ManualTranslations.yaml` (exact) and `Glossary/Character-Names.yaml` (3+ characters, as hints). After the
+  change every one of the 115 speakers in the sample has one translation.
+- Judgement calls to confirm: pinyin without a space inside the given name (`Aoshuang`), `ü` written as `Yu`/`Lyu`, `Madam Xu
+  (née Zhang)` for `许张氏`, Japanese-flavoured names kept in their Japanese reading (`Tange Sazen`, `Yagyu Munechika`, `Izumo Keiju`).
 
 ## Glossary seed (validated)
 

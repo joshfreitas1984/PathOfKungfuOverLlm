@@ -2,137 +2,169 @@
   splits:
   - split: 12
     text: "提示文本"
+    translated: "Hint text"
 - raw: "2,id,,guideType,nextId,jump,content,ui,method,lightStyle,offset,posOffset,tip,tipXFlip,tipYFlip,tipOffset,condition,endCondition,delay,hideMaskWhileDelay,itemGoGuide"
 - raw: "3,1001,引导装备开始,ClickUI,1002,0,,UIMain,GetOnUIMainBtnBag,2,\"48,48\",,点击白色高亮处执行,1,1,,,,1,,101001;102001;104001;105001;109001;110001;103001;112001;106001;114001;115001;111001;113001"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "4,1002,,ClickUI,1003,0,,UIRoleAttribute,GetOnUIBagBtnFirst,1,\"-12,18\",,点击白色高亮处执行,1,,-70;-110,,,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "5,1003,,ClickUI,1004,0,,UIRoleAttribute,GetBagWeaponPage,1,\"-42,-7\",\"0,0\",点击白色高亮处执行,1,,-50;0,,,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "6,1004,引导装备结束,ClickUI,0,0,,UIRoleAttribute,GetBagFirstItem,1,\"-35,-30\",52，-60,点击白色高亮处执行,,,60;-60,,OnClickBagFirstWeapon,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "7,,,,,,,,,1,,,,,,,,,,,"
 - raw: "8,1011,引导武学开始,ClickUI,1012,0,,UIMain,GetOnUIMainBtnBag,2,\"48,48\",,点击白色高亮处执行,1,1,,,,1,,95101011;95102021;95104021;95105021;95109011;95110011;95103011;95120011;95106011;95140011;95150021;95111011;95130021"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "9,1012,点背包页签,ClickUI,1013,0,,UIRoleAttribute,GetOnUIBagBtnFirst,1,\"-12,18\",,点击白色高亮处执行,1,,-70;-110,,,0.5,, "
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "10,1013,点秘籍页签,ClickUI,1014,0,,UIRoleAttribute,GetBagMijiPage,1,\"-42,-7\",\"0,0\",点击白色高亮处执行,1,,-50;0,,,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "11,1014,使用秘籍,ClickUI,1015,0,,UIRoleAttribute,GetBagFirstItem,1,\"-35,-30\",255，-61,点击白色高亮处执行,,,300;-60,,OnUseMiji,3,1,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "12,1015,点武学页签,ClickUI,1016,0,,UIRoleAttribute,GetOnUIWuxueBtnFirst,1,\"-12,18\",\"0,0\",点击白色高亮处执行,1,,-70;-110,,,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "13,1016,点单手轻刃,ClickUI,1017,0,,UIRoleAttribute,GetUIWuxueDSQRBtnFirst,1,\"-32,8\",\"0,-15\",点击白色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "14,1017,点使用,ClickUI,0,0,,UIRoleAttribute,GetUIWuxueBtnUse,1,\"-32,8\",-92，-17,点击白色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击白色高亮处执行"
+    translated: "Click the white highlighted area to proceed"
 - raw: "15,,,,,,,,,1,,,,,,,,,,,"
 - raw: "16,1101,属性点强指引,ClickUI,1102,0,,UIMain,GetOnUIMainBtnPlayer,1,\"-40,-40\",,点击黄色高亮处执行,,,,,,1,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "17,1102,,ClickUI,1103,0,,UIPartner,GetOnUIPartnerBtnAttribute,1,\"10,10\",\"0,-10\",点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "18,1103,,ClickUI,1104,0,,UIPartner,GetOnUIPartnerBtnAddForce,1,\"20,20\",,点击黄色高亮处执行,,,,,IsCanUseAttributeCountZero,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "19,1104,属性点加成结束,ClickUI,0,0,,UIPartner,GetOnUIPartnerBtnConfirmAttibure,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "20,,,,,,,,,1,,,,,,,,,,,"
 - raw: "21,,,,,,,,,1,,,,,,,,,,,"
 - raw: "22,1201,使用内功强指引,ClickUI,1202,0,,UIMain,GetOnUIMainBtnSkill,1,\"20,20\",,点击黄色高亮处执行,,,,,,1,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "23,1202,,ClickUI,1203,0,,UIWuXue,GetOnUIWuXueButtonMagic,1,\"10,10\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "24,1203,,ClickUI,1204,0,,UIWuXue,GetOnUIWuXueBtnUse,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "25,1204,使用内功结束,ClickUI,0,0,,UIWuXue,GetOnUIWuXueBtnLevelUP,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "26,1205,加速,ClickUI,0,0,,UIWuXue,GetOnUIWuXueBtnAddSpeed,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "27,,,,,,,,,1,,,,,,,,,,,"
 - raw: "28,,,,,,,,,1,,,,,,,,,,,"
 - raw: "29,1301,学习轻功开始,ClickUI,1302,0,,UIMain,GetOnUIMainBtnBag,1,\"20,20\",,点击黄色高亮处执行,,,,,,1,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "30,1302,,ClickUI,1303,0,,UIBag,GetUIBagOptionBtnBook,1,\"0,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "31,1303,,ClickUI,1304,0,,UIBag,GetOnUIBagBtnUse,1,\"20,20\",\"0,28\",点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "32,1304,,ClickUI,1305,0,,UITipSelectPartner,GetOnUITipSelectBtnUse,1,\"20,20\",,点击黄色高亮处执行,,,,,,2,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "33,1305,,ClickUI,1306,0,,UIBag,GetOnUIBagBtnClose,1,\"20,20\",,点击黄色高亮处执行,1,1,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "34,1306,   去武学界面学习,ClickUI,1307,0,,UIMain,GetOnUIMainBtnSkill,1,\"20,20\",,点击黄色高亮处执行,,,,,,1,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "35,1307,,ClickUI,1308,0,,UIWuXue,GetOnUIWuXueButtonDodge,1,\"10,10\",\"0,-10\",点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "36,1308,学习轻功结束,ClickUI,1309,0,,UIWuXue,GetOnUIWuXueBtnUse,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "37,1309,关闭轻功界面结束,ClickUI,1310,0,,UIWuXue,GetOnUIWuXueBtnClose,1,\"20,20\",,点击黄色高亮处执行,1,1,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "38,1310,引导移动,ClickTile,1311,0,,Map,GuideToTile,1,,\"9,14\",点击高亮地点开始移动,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击高亮地点开始移动"
+    translated: "Click on the highlighted location to start moving."
 - raw: "39,1311,引导移动,ClickTile,0,0,,Map,GuideToTile,1,,\"9,14\",点击高亮地点开始移动,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击高亮地点开始移动"
+    translated: "Click on the highlighted location to start moving."
 - raw: "40,,,,,,,,,1,,,,,,,,,,,"
 - raw: "41,,,,,,,,,1,,,,,,,,,,,"
 - raw: "42,,,,,,,,,1,,,,,,,,,,,"
@@ -140,34 +172,42 @@
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "44,1402,,ClickUI,1403,0,,UIBag,GetUIBagOptionBtnBook,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "45,1403,,ClickUI,1404,0,,UIBag,GetOnUIBagBtnUse,1,\"20,20\",\"0,28\",点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "46,1404,,ClickUI,1405,0,,UITipSelectPartner,GetOnUITipSelectBtnUse,1,\"20,20\",,点击黄色高亮处执行,,,,,,2,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "47,1405,,ClickUI,1406,0,,UIBag,GetOnUIBagBtnClose,1,\"10,10\",,点击黄色高亮处执行,1,1,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "48,1406,   去武学界面学习,ClickUI,1407,0,,UIMain,GetOnUIMainBtnSkill,1,\"20,20\",,点击黄色高亮处执行,,,,,,1,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "49,1407,,ClickUI,1408,0,,UIWuXue,GetOnUIWuXueButtonKongfu,1,\"10,10\",\"0,-10\",点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "50,1408,学习武功结束,ClickUI,0,0,,UIWuXue,GetOnUIWuXueBtnUse,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "51,,,,,,,,,1,,,,,,,,,,,"
 - raw: "52,,,,,,,,,1,,,,,,,,,,,"
 - raw: "53,,,,,,,,,1,,,,,,,,,,,"
@@ -175,25 +215,30 @@
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "55,1502,,ClickUI,1503,0,,UIPartner,GetOnUIPartnerBtnSorcery,1,\"10,10\",\"0,-10\",点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "56,1503,使用秘术结束开始,ClickUI,0,0,,UISorcery,GetOnUISorceryBtnSelectSorcery,1,\"110,110\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "57,,,,,,,,,1,,,,,,,,,,,"
 - raw: "58,,,,,,,,,1,,,,,,,,,,,"
 - raw: "59,1601,战斗释放技能强指引,ClickUI,0,1,,Battle,GetOnBattleButtonUseSkill,1,\"20,20\",,点击黄色高亮处执行,,,,PauseGame,ResumeGame,0,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "60,,,,,,,,,1,,,,,,,,,,,"
 - raw: "61,1651,战斗托管技能强指引,ClickUI,0,1,,Battle,GetOnBattleButtonAutoSkill,1,\"-20,-20\",,点击黄色高亮处执行,,,,PauseGame,ResumeGame,0,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "62,,,,,,,,,1,,,,,,,,,,,"
 - raw: "63,,,,,,,,,1,,,,,,,,,,,"
 - raw: "64,,,,,,,,,1,,,,,,,,,,,"
@@ -202,18 +247,22 @@
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "67,1702,,ClickUI,1703,1,,UIPartner,GetOnUIPartnerBtnAddHP,1,\"10,10\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "68,1703,,ClickUI,1704,1,,UITipSelectItem,GetUITipSelectItemBtnItemFirst,1,\"110,110\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "69,1704,加血引导结束,ClickUI,0,1,,UITipSelectItem,GetUITipSelectItemBtnUse,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "70,,,,,,,,,1,,,,,,,,,,,"
 - raw: "71,,,,,,,,,1,,,,,,,,,,,"
 - raw: "72,,,,,,,,,1,,,,,,,,,,,"
@@ -221,14 +270,17 @@
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "74,1802,,ClickUI,1803,1,,UITeam,GetUITeamIsNotCurrentTeamMember,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "75,1803,伙伴上阵引导结束,ClickUI,0,1,,UITeam,GetUITeamBtnEmptySeat,1,\"10,10\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "76,,,,,,,,,1,,,,,,,,,,,"
 - raw: "77,,,,,,,,,1,,,,,,,,,,,"
 - raw: "78,,,,,,,,,1,,,,,,,,,,,"
@@ -237,21 +289,26 @@
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "81,1902,引导移动,ClickTile,1950,0,,Map,GuideToPos,1,,\"17,23\",点击黄色高亮处执行,,,,,,0.1,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "82,,,,,0,,,,1,,,,,,,,,,,"
 - raw: "83,1950,开始打开箱子,ClickUI,1951,0,,UIMain,GetOnUIMainBtnBox,1,\"20,20\",,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "84,1951,,ClickUI,1952,0,,UIMain,GetOnUIMainBtnOptionFirst,1,,,点击黄色高亮处执行,,,,,,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "85,1952,打开宝箱结束,ClickUI,1001,0,,UIBox,GetOnUIBoxBtnActive,1,\"114,114\",,点击黄色高亮处执行,,,,,IsBoxEmpty,0.5,,"
   splits:
   - split: 12
     text: "点击黄色高亮处执行"
+    translated: "Click the yellow highlighted area to proceed"
 - raw: "86,,,,,,,,,,,,,,,,,,,,"

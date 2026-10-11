@@ -2,18 +2,23 @@
   splits:
   - split: 2
     text: "初始对话"
+    translated: "Initial Dialogue"
   - split: 3
     text: "初始选项"
+    translated: "Initial Options"
 - raw: "2,id,initDialog,initLips,initFun,termID,changeID,succeedDialog,succeedLips,succeedFun,failDialog,failLips,failFun"
 - raw: "3,9,阁下要打听何人？,\"搜索,离开\",\"Find,CloseUI\",,,,,,,,"
   splits:
   - split: 2
     text: "阁下要打听何人？"
+    translated: "Sir, whom are you inquiring about?"
   - split: 3
     text: "搜索"
+    translated: "Search"
   - split: 3
     subIndex: 1
     text: "离开"
+    translated: "Leave"
   templates:
   - split: 3
     template: "{0},{1}"
@@ -21,17 +26,22 @@
   splits:
   - split: 2
     text: "此处房产冬暖夏凉，适宜住人。"
+    translated: "This property is warm in winter and cool in summer, suitable for living."
   - split: 3
     text: "购买"
+    translated: "Buy"
   - split: 3
     subIndex: 1
     text: "文"
+    translated: "Text"
   - split: 3
     subIndex: 2
     text: "开锁"
+    translated: "Pick the lock"
   - split: 3
     subIndex: 3
     text: "离开"
+    translated: "Leave"
   templates:
   - split: 3
     template: "{0}(⟦0⟧{1}),{2},{3}"
@@ -39,17 +49,22 @@
   splits:
   - split: 2
     text: "私家宅邸，闲人免入。"
+    translated: "Private residence, trespassers keep out"
   - split: 3
     text: "购买"
+    translated: "Buy"
   - split: 3
     subIndex: 1
     text: "文"
+    translated: "Text"
   - split: 3
     subIndex: 2
     text: "开锁"
+    translated: "Pick the lock"
   - split: 3
     subIndex: 3
     text: "离开"
+    translated: "Leave"
   templates:
   - split: 3
     template: "{0}(⟦0⟧{1}),{2},{3}"
@@ -57,17 +72,22 @@
   splits:
   - split: 2
     text: "此处房产已归属你的名下。"
+    translated: "This property is now under your name"
   - split: 3
     text: "离开"
+    translated: "Leave"
 - raw: "7,15,这位朋友若有闲暇，不妨与在下一同去酒馆小酌几杯可好？,\"赴约,拒绝\",\"Friend,NoFriend\",,,那我先行在酒铺找个安静的雅间，静等阁下了。,暂且离去。,GoQPJG,下次有空，再来相约。,暂且离去。,CloseUI"
   splits:
   - split: 2
     text: "这位朋友若有闲暇，不妨与在下一同去酒馆小酌几杯可好？"
+    translated: "If you have the time, why not join me for a few drinks at the tavern?"
   - split: 3
     text: "赴约"
+    translated: "Meeting the Appointment"
   - split: 3
     subIndex: 1
     text: "拒绝"
+    translated: "Refuse"
   templates:
   - split: 3
     template: "{0},{1}"
@@ -75,11 +95,14 @@
   splits:
   - split: 2
     text: "关押着人质的牢门。"
+    translated: "The cell door holding the hostages"
   - split: 3
     text: "放置"
+    translated: "Place"
   - split: 3
     subIndex: 1
     text: "离开"
+    translated: "Leave"
   templates:
   - split: 3
     template: "{0},{1}"
@@ -87,11 +110,14 @@
   splits:
   - split: 2
     text: "存取物品的箱子，无甚特别之处。"
+    translated: "A box for storing items, nothing particularly special about it."
   - split: 3
     text: "存取物品"
+    translated: "Access Items"
   - split: 3
     subIndex: 1
     text: "离开"
+    translated: "Leave"
   templates:
   - split: 3
     template: "{0},{1}"
@@ -99,11 +125,14 @@
   splits:
   - split: 2
     text: "朱门半掩，幔舞似幻，隐现佳人妙影……"
+    translated: "The crimson door half-opened, curtains swayed like illusions, revealing glimpses of a beauty's graceful figure......"
   - split: 3
     text: "掀帘而入"
+    translated: "Entering with a sweep of the curtain"
   - split: 3
     subIndex: 1
     text: "离开"
+    translated: "Leave"
   templates:
   - split: 3
     template: "{0},{1}"

@@ -21,6 +21,16 @@
     <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.Installer.Core\FanslationStudio.Installer.Core.csproj" />
   </ItemGroup>
 
+  <!-- The plugin's injection logic is plain C#; its sources are compiled in here so it can be tested without the game. -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Compile Include="..\PathOfKungfuPlugin\Translations.cs" Link="Plugin\Translations.cs" />
+    <Compile Include="..\PathOfKungfuPlugin\JsonInjector.cs" Link="Plugin\JsonInjector.cs" />
+    <Compile Include="..\PathOfKungfuPlugin\JsonFlattener.cs" Link="Plugin\JsonFlattener.cs" />
+    <Compile Include="..\PathOfKungfuPlugin\SheetInjector.cs" Link="Plugin\SheetInjector.cs" />
+    <Compile Include="..\PathOfKungfuPlugin\EnglishTokenBranch.cs" Link="Plugin\EnglishTokenBranch.cs" />
+  </ItemGroup>
+
   <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>

@@ -2,141 +2,187 @@
   splits:
   - split: 2
     text: "道具名"
+    translated: "Item name"
 - raw: "2,908004,一枚铜钱,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,小小的铜钱，握于掌中却似有千钧之重。,item/908004,0,0,0,0"
   splits:
   - split: 2
     text: "一枚铜钱"
+    translated: "A Copper Coin"
   - split: 19
     text: "小小的铜钱，握于掌中却似有千钧之重。"
+    translated: "A tiny copper coin, yet it feels as heavy as a thousand pounds in one's palm."
 - raw: "3,908005,孤鸿玉牌,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,杜颜白所赠玉牌，无字无印，只在最上方飞一只孤鸿。,item/908005,0,0,0,0"
   splits:
   - split: 2
     text: "孤鸿玉牌"
+    translated: "Lone Swan Jade Plaque"
   - split: 19
     text: "杜颜白所赠玉牌，无字无印，只在最上方飞一只孤鸿。"
+    translated: "The jade token Du Yanbai gave, unmarked and uninscribed, bears a solitary wild goose flying at the very top."
 - raw: "4,908006,连环寨木牌,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,绿林道上互相辨识的证明，下方是一个画工粗糙的九连环形状。,item/908006,0,0,0,0"
   splits:
   - split: 2
     text: "连环寨木牌"
+    translated: "Lianhuan Stronghold Wooden Plaque"
   - split: 19
     text: "绿林道上互相辨识的证明，下方是一个画工粗糙的九连环形状。"
+    translated: "A crude drawing of a nine-linked ring, used as proof for mutual recognition among the Green Forest Way."
 - raw: "5,908007,彩布球,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,悉心缝制的彩色布球，是果果心爱之物。,item/908007,0,0,0,0"
   splits:
   - split: 2
     text: "彩布球"
+    translated: "Colored Cloth Ball"
   - split: 19
     text: "悉心缝制的彩色布球，是果果心爱之物。"
+    translated: "The colorful cloth balls were dear to Guoguo's heart, carefully sewn."
 - raw: "6,908009,钱袋,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,失而复得的钱袋，内里虽有缺失，但仍旧沉甸甸的。,item/908009,0,0,0,0"
   splits:
   - split: 2
     text: "钱袋"
+    translated: "Money Pouch"
   - split: 19
     text: "失而复得的钱袋，内里虽有缺失，但仍旧沉甸甸的。"
+    translated: "The pouch of money, though lacking some, still felt heavy."
 - raw: "7,908010,黑市腰牌,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,南宫莲所赠腰牌，其上暗纹表明此乃黑市通行之令牌。,item/908010,0,0,0,0"
   splits:
   - split: 2
     text: "黑市腰牌"
+    translated: "Black Market Waist Tag"
   - split: 19
     text: "南宫莲所赠腰牌，其上暗纹表明此乃黑市通行之令牌。"
+    translated: "The token around your waist, given to you by Nangong Lian, has subtle engravings indicating that it is a pass for the Black Market."
 - raw: "8,908011,南宫莲信笺,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,\"read,980011\",阅读,触发XX任务成功,南宫莲留给你的信笺，点击展开可以阅读。,item/918000,0,0,0,0"
   splits:
   - split: 2
     text: "南宫莲信笺"
+    translated: "Letter from Nangong Lian"
   - split: 19
     text: "南宫莲留给你的信笺，点击展开可以阅读。"
+    translated: "Nangong Lian's letter to you; click to read."
 - raw: "9,908012,遗失的鞋履,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一只遗失的鞋履，其主人应当就在桥上。,item/908012,0,0,0,0"
   splits:
   - split: 2
     text: "遗失的鞋履"
+    translated: "Lost Shoes"
   - split: 19
     text: "一只遗失的鞋履，其主人应当就在桥上。"
+    translated: "A pair of lost shoes; their owner must be on the bridge."
 - raw: "10,908013,乔府来信,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,\"read,980014\",阅读,触发XX任务成功,乔府托人带来的信笺。,item/918000,0,0,0,0"
   splits:
   - split: 2
     text: "乔府来信"
+    translated: "Letter from the Qiao Mansion"
   - split: 19
     text: "乔府托人带来的信笺。"
+    translated: "A letter delivered by someone from the Qiao Mansion."
 - raw: "11,908014,收拾好的包袱,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,提前备好的包袱，内容物颇丰，但受人之托，还是不要打开了。,item/908014,0,0,0,0"
   splits:
   - split: 2
     text: "收拾好的包袱"
+    translated: "Packed Bundle"
   - split: 19
     text: "提前备好的包袱，内容物颇丰，但受人之托，还是不要打开了。"
+    translated: "The prepared knapsack was well-stocked, but, having been entrusted to me, it's best not to open it."
 - raw: "12,908015,功课典籍,任务,1001,1,0,0,0,999,False,-1,0,0,1,0,0,0,触发XX任务成功,新装订的道经功课，须分发给诸多同辈弟子。,item/908015,0,0,0,0"
   splits:
   - split: 2
     text: "功课典籍"
+    translated: "Study Texts"
   - split: 19
     text: "新装订的道经功课，须分发给诸多同辈弟子。"
+    translated: "The newly bound Daoist scriptures must be distributed to many fellow disciples."
 - raw: "13,908016,喽啰的家书,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980021\",阅读,触发XX任务成功,瘦弱喽啰的家信,item/918000,0,0,0,0"
   splits:
   - split: 2
     text: "喽啰的家书"
+    translated: "Underling's Letter Home"
   - split: 19
     text: "瘦弱喽啰的家信"
+    translated: "A letter from a frail lackey's family"
 - raw: "14,908018,刚玉针,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,乌黑泛光，品质上佳的刚玉针,item/908018,0,0,0,0"
   splits:
   - split: 2
     text: "刚玉针"
+    translated: "Corundum Needle"
   - split: 19
     text: "乌黑泛光，品质上佳的刚玉针"
+    translated: "A lustrous, high-quality corundum needle"
 - raw: "15,908019,解毒丹,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,具有祛除邪毒，温养经脉之功效。,item/908019,0,0,0,0"
   splits:
   - split: 2
     text: "解毒丹"
+    translated: "Antidote Elixir"
   - split: 19
     text: "具有祛除邪毒，温养经脉之功效。"
+    translated: "Has the effect of removing evil toxins and nourishing the meridians."
 - raw: "16,908020,闭气丹,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,具有延息闭气之功效。,item/908020,0,0,0,0"
   splits:
   - split: 2
     text: "闭气丹"
+    translated: "Breath-Holding Elixir"
   - split: 19
     text: "具有延息闭气之功效。"
+    translated: "It has the effect of delaying breath and holding one's breath."
 - raw: "17,908021,残损的竹简,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980022\",阅读,触发XX任务成功,一册残损的竹简。,item/908021,0,0,0,0"
   splits:
   - split: 2
     text: "残损的竹简"
+    translated: "Damaged Bamboo Slips"
   - split: 19
     text: "一册残损的竹简。"
+    translated: "A set of damaged bamboo slips"
 - raw: "18,908022,青萍真相,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,随着种种线索汇集，深藏在这个村庄里的真相浮出了水面。,item/908022,0,0,0,0"
   splits:
   - split: 2
     text: "青萍真相"
+    translated: "Truth of Qingping"
   - split: 19
     text: "随着种种线索汇集，深藏在这个村庄里的真相浮出了水面。"
+    translated: "As various clues converged, the truth hidden within this village surfaced."
 - raw: "19,908023,黑市名帖,任务,1001,1,0,0,0,999,False,-1,0,0,1,0,0,0,触发XX任务成功,一张素纸名帖，通体黑色，不见文字，隐约显露出暗纹。,item/908023,0,0,0,0"
   splits:
   - split: 2
     text: "黑市名帖"
+    translated: "Black Market Calling Card"
   - split: 19
     text: "一张素纸名帖，通体黑色，不见文字，隐约显露出暗纹。"
+    translated: "A plain white visiting card, entirely black, with no words visible, faintly revealing dark patterns."
 - raw: "20,908024,金缕莲钗,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一支金丝编制的钗子，做工考究，可作进入承安黑市的信物。,item/908024,0,0,0,0"
   splits:
   - split: 2
     text: "金缕莲钗"
+    translated: "Gold-Thread Lotus Hairpin"
   - split: 19
     text: "一支金丝编制的钗子，做工考究，可作进入承安黑市的信物。"
+    translated: "A hairpin woven from gold threads, meticulously crafted, can serve as a token to enter the Cheng'an Black Market."
 - raw: "21,908025,咸鱼,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,腌制风干许久的咸鱼，十分坚硬。,item/908025,0,0,0,0"
   splits:
   - split: 2
     text: "咸鱼"
+    translated: "Salted Fish"
   - split: 19
     text: "腌制风干许久的咸鱼，十分坚硬。"
+    translated: "A salted fish cured and air-dried for a long time is very hard."
 - raw: "22,908026,大力丸,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,\"task,1\",使用,,强身健体，包治百病。,item/908026,0,13000,0,0"
   splits:
   - split: 2
     text: "大力丸"
+    translated: "Mighty Pill"
   - split: 19
     text: "强身健体，包治百病。"
+    translated: "Build a strong body, cure all illnesses"
 - raw: "23,908027,梁三信笺<壹>,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,梁三所书之信，以告乔应珠琴音并非无人可识。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "梁三信笺"
+    translated: "Liang San's Letter"
   - split: 2
     subIndex: 1
     text: "壹"
+    translated: "I"
   - split: 19
     text: "梁三所书之信，以告乔应珠琴音并非无人可识。"
+    translated: "Liang San's letter informed Qiao Yingzhu that her lute music was not unrecognized. The zither music fills the air."
   templates:
   - split: 2
     template: "{0}<{1}>"
@@ -144,17 +190,22 @@
   splits:
   - split: 2
     text: "马俊才信笺"
+    translated: "Letter from Ma Juncai"
   - split: 19
     text: "马俊才所书之信，以告乔应珠莫再惦念于他。"
+    translated: "Ma Juncai wrote a letter to tell Qiao Yingzhu not to dwell on him anymore."
 - raw: "25,908029,梁三信笺<贰>,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,梁三所书之信，以表明心迹。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "梁三信笺"
+    translated: "Liang San's Letter"
   - split: 2
     subIndex: 1
     text: "贰"
+    translated: "II"
   - split: 19
     text: "梁三所书之信，以表明心迹。"
+    translated: "The letter Liang San wrote to express his true feelings."
   templates:
   - split: 2
     template: "{0}<{1}>"
@@ -162,173 +213,230 @@
   splits:
   - split: 2
     text: "复肌养息丸"
+    translated: "Muscle-Restoring Rest Pill"
   - split: 19
     text: "细长的瓷瓶上贴有写着“复肌养息丸”的纸片，从瓷瓶的不凡质地来看，里面所纳之物想必也是价值不菲。"
+    translated: "A slender porcelain bottle was labeled with a paper strip reading Muscle-Restoring Rest Pill, and from the bottle's exceptional quality, the contents inside were undoubtedly also of great value."
 - raw: "27,908064,火折子,任务,1001,2,0,0,0,999,False,1,0,0,1,0,0,0,触发XX任务成功,可用于生火。,item/908064,0,0,0,0"
   splits:
   - split: 2
     text: "火折子"
+    translated: "Fire Starter"
   - split: 19
     text: "可用于生火。"
+    translated: "Can be used to start a fire"
 - raw: "28,908065,破碎的探花面具,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,破碎的探花面具,item/908065,0,0,0,0"
   splits:
   - split: 2
     text: "破碎的探花面具"
+    translated: "Shattered Tanhua Mask"
   - split: 19
     text: "破碎的探花面具"
+    translated: "Shattered Tanhua Mask"
 - raw: "29,908066,追匿公文,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,\"read,980034\",0,触发XX任务成功,追匿公文,item/908066,0,0,0,0"
   splits:
   - split: 2
     text: "追匿公文"
+    translated: "Pursuit Notice"
   - split: 19
     text: "追匿公文"
+    translated: "Pursuit Notice"
 - raw: "30,908067,孙茶所留信笺,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,\"read,980033\",0,触发XX任务成功,孙茶所留信笺,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "孙茶所留信笺"
+    translated: "Letter Left by Sun Cha"
   - split: 19
     text: "孙茶所留信笺"
+    translated: "Letter Left by Sun Cha"
 - raw: "31,908068,细软包裹,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,细软包裹,item/908068,0,0,0,0"
   splits:
   - split: 2
     text: "细软包裹"
+    translated: "Valuables Bundle"
   - split: 19
     text: "细软包裹"
+    translated: "Valuables Bundle"
 - raw: "32,908069,金属粉末,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,金属粉末,item/908069,0,0,0,0"
   splits:
   - split: 2
     text: "金属粉末"
+    translated: "Metal Powder"
   - split: 19
     text: "金属粉末"
+    translated: "Metal Powder"
 - raw: "33,908070,雪山密令,任务,1001,3,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,雪山密令,item/908070,0,0,0,0"
   splits:
   - split: 2
     text: "雪山密令"
+    translated: "Snow Mountain Secret Order"
   - split: 19
     text: "雪山密令"
+    translated: "Snow Mountain Secret Order"
 - raw: "34,908071,白色棋子,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,白色棋子,item/908071,0,0,0,0"
   splits:
   - split: 2
     text: "白色棋子"
+    translated: "White Go Stone"
   - split: 19
     text: "白色棋子"
+    translated: "White Go Stone"
 - raw: "35,908072,方寰棋经,任务,1001,5,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,方寰棋经,item/908072,0,0,0,0"
   splits:
   - split: 2
     text: "方寰棋经"
+    translated: "Fanghuan Go Classic"
   - split: 19
     text: "方寰棋经"
+    translated: "Fanghuan Go Classic"
 - raw: "36,908073,上锈的钥匙,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,其上锈迹斑斑，看来已是使用了许久，或许能用来打开某物。,item/908089,0,0,0,0"
   splits:
   - split: 2
     text: "上锈的钥匙"
+    translated: "Rusted Key"
   - split: 19
     text: "其上锈迹斑斑，看来已是使用了许久，或许能用来打开某物。"
+    translated: "It's covered in rust, clearly having been used for a long time. Perhaps it can be used to open something."
 - raw: "37,908074,未署名的信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,未署名的信笺,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "未署名的信笺"
+    translated: "Unsigned Letter"
   - split: 19
     text: "未署名的信笺"
+    translated: "Unsigned Letter"
 - raw: "38,908075,沉甸甸的包裹,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,沉甸甸的包裹,item/908075,0,0,0,0"
   splits:
   - split: 2
     text: "沉甸甸的包裹"
+    translated: "Heavy Parcel"
   - split: 19
     text: "沉甸甸的包裹"
+    translated: "Heavy Parcel"
 - raw: "39,908076,洛文清手印,任务,1001,1,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,洛文清手印,item/908076,0,0,0,0"
   splits:
   - split: 2
     text: "洛文清手印"
+    translated: "Luo Wenqing's Handprint"
   - split: 19
     text: "洛文清手印"
+    translated: "Luo Wenqing's Handprint"
 - raw: "40,908077,蓝玉的包裹,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,蓝玉的包裹,item/908077,0,0,0,0"
   splits:
   - split: 2
     text: "蓝玉的包裹"
+    translated: "Lan Yu's Parcel"
   - split: 19
     text: "蓝玉的包裹"
+    translated: "Lan Yu's Parcel"
 - raw: "41,908078,蓝玉的日志,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980027\",阅读,触发XX任务成功,蓝玉的日志,item/908078,0,0,0,0"
   splits:
   - split: 2
     text: "蓝玉的日志"
+    translated: "Lan Yu's Journal"
   - split: 19
     text: "蓝玉的日志"
+    translated: "Lan Yu's Journal"
 - raw: "42,908079,莺啼伞,任务,1001,1,0,15,0,999,True,750,0,0,1,0,0,0,触发XX任务成功,莺啼伞,item/908079,0,0,0,0"
   splits:
   - split: 2
     text: "莺啼伞"
+    translated: "Oriole's Song Umbrella"
   - split: 19
     text: "莺啼伞"
+    translated: "Oriole's Song Umbrella"
 - raw: "43,908080,金乌鸣,任务,1001,1,0,29,0,999,True,600,0,0,1,0,0,0,触发XX任务成功,金乌鸣,item/908080,0,0,0,0"
   splits:
   - split: 2
     text: "金乌鸣"
+    translated: "Golden Crow's Cry"
   - split: 19
     text: "金乌鸣"
+    translated: "Golden Crow's Cry"
 - raw: "44,908081,牡丹媚,任务,1001,2,0,29,0,999,True,550,0,0,1,0,0,0,触发XX任务成功,牡丹媚,item/908081,0,0,0,0"
   splits:
   - split: 2
     text: "牡丹媚"
+    translated: "Peony Charm"
   - split: 19
     text: "牡丹媚"
+    translated: "Peony Charm"
 - raw: "45,908082,迟来的信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980026\",阅读,触发XX任务成功,迟来的信笺,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "迟来的信笺"
+    translated: "Belated Letter"
   - split: 19
     text: "迟来的信笺"
+    translated: "Belated Letter"
 - raw: "46,908085,文牒,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,糖人张所嘱托的文牒，需送往书生处。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "文牒"
+    translated: "Official Document"
   - split: 19
     text: "糖人张所嘱托的文牒，需送往书生处。"
+    translated: "The document Candy Figurine Zhang entrusted must be delivered to the scholar."
 - raw: "47,908086,文牒,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,糖人张所嘱托的文牒，需送往残瘸老者处。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "文牒"
+    translated: "Official Document"
   - split: 19
     text: "糖人张所嘱托的文牒，需送往残瘸老者处。"
+    translated: "The document Candy Figurine Zhang entrusted to you must be delivered to the Crippled Old Man."
 - raw: "48,908087,文牒,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,糖人张所嘱托的文牒，需送往连环寨处。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "文牒"
+    translated: "Official Document"
   - split: 19
     text: "糖人张所嘱托的文牒，需送往连环寨处。"
+    translated: "The document Candy Figurine Zhang entrusted to you must be delivered to Lianhuan Stronghold."
 - raw: "49,908088,食材清单,任务,1001,2,0,0,0,1,True,-1,0,0,1,0,\"read,980025\",阅读,触发XX任务成功,酒瓯小贩请托与你的食材清单，其上记载着所需采集的各式材料。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "食材清单"
+    translated: "Ingredient List"
   - split: 19
     text: "酒瓯小贩请托与你的食材清单，其上记载着所需采集的各式材料。"
+    translated: "The wine vendor has entrusted you with an ingredient list, which records the various materials needed to be collected."
 - raw: "50,909089,定海石,任务,1001,7,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,镇派三石之一，曾为神秀所有。,item/901005,0,0,0,0"
   splits:
   - split: 2
     text: "定海石"
+    translated: "Sea-Calming Stone"
   - split: 19
     text: "镇派三石之一，曾为神秀所有。"
+    translated: "One of the three founding stones of the sect, once owned by Shenshu."
 - raw: "51,909090,玄岳碑,任务,1001,7,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,镇派三石之一，曾为太和所有。,item/901006,0,0,0,0"
   splits:
   - split: 2
     text: "玄岳碑"
+    translated: "Xuanyue Stele"
   - split: 19
     text: "镇派三石之一，曾为太和所有。"
+    translated: "One of the three founding stones of the sect, once owned by Taihe."
 - raw: "52,909091,不二禅舍利,任务,1001,7,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,镇派三石之一，曾为少林所有。,item/901007,0,0,0,0"
   splits:
   - split: 2
     text: "不二禅舍利"
+    translated: "Non-Dual Zen Relic"
   - split: 19
     text: "镇派三石之一，曾为少林所有。"
+    translated: "One of the three founding stones of the sect, formerly owned by Shaolin."
 - raw: "53,909092,定海石·伪,任务,1001,1,0,0,0,999,False,-1,0,0,1,0,0,0,触发XX任务成功,仿“镇派三石”所制之物，似可用来开启某处秘门。,item/901005,0,0,0,0"
   splits:
   - split: 2
     text: "定海石"
+    translated: "Sea-Calming Stone"
   - split: 2
     subIndex: 1
     text: "伪"
+    translated: "Fake"
   - split: 19
     text: "仿“镇派三石”所制之物，似可用来开启某处秘门。"
+    translated: "An item made in imitation of the Three Stones of the Sect may be used to open a secret door somewhere."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -336,11 +444,14 @@
   splits:
   - split: 2
     text: "玄岳碑"
+    translated: "Xuanyue Stele"
   - split: 2
     subIndex: 1
     text: "伪"
+    translated: "Fake"
   - split: 19
     text: "仿“镇派三石”所制之物，似可用来开启某处秘门。"
+    translated: "An item made in imitation of the Three Stones of the Sect may be used to open a secret door somewhere."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -348,11 +459,14 @@
   splits:
   - split: 2
     text: "不二禅舍利"
+    translated: "Non-Dual Zen Relic"
   - split: 2
     subIndex: 1
     text: "伪"
+    translated: "Fake"
   - split: 19
     text: "仿“镇派三石”所制之物，似可用来开启某处秘门。"
+    translated: "An item made in imitation of the Three Stones of the Sect may be used to open a secret door somewhere."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -360,11 +474,14 @@
   splits:
   - split: 2
     text: "钜子零件"
+    translated: "Mohist Juzi Parts"
   - split: 2
     subIndex: 1
     text: "壹"
+    translated: "I"
   - split: 19
     text: "火铳零件，被珍而重之分储各地，若能将其集齐拼凑，不知将有何等威力……"
+    translated: "The parts of the fire lance are stored with great care in various places. If one were to gather them all and assemble them, who knows what kind of power they would possess......"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -372,11 +489,14 @@
   splits:
   - split: 2
     text: "钜子零件"
+    translated: "Mohist Juzi Parts"
   - split: 2
     subIndex: 1
     text: "贰"
+    translated: "II"
   - split: 19
     text: "火铳零件，被珍而重之分储各地，若能将其集齐拼凑，不知将有何等威力……"
+    translated: "The parts of the fire lance are stored with great care in various places. If one were to gather them all and assemble them, who knows what kind of power they would possess......"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -384,11 +504,14 @@
   splits:
   - split: 2
     text: "钜子零件"
+    translated: "Mohist Juzi Parts"
   - split: 2
     subIndex: 1
     text: "叁"
+    translated: "III"
   - split: 19
     text: "火铳零件，被珍而重之分储各地，若能将其集齐拼凑，不知将有何等威力……"
+    translated: "The parts of the fire lance are stored with great care in various places. If one were to gather them all and assemble them, who knows what kind of power they would possess......"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -396,11 +519,14 @@
   splits:
   - split: 2
     text: "钜子零件"
+    translated: "Mohist Juzi Parts"
   - split: 2
     subIndex: 1
     text: "肆"
+    translated: "IV"
   - split: 19
     text: "火铳零件，被珍而重之分储各地，若能将其集齐拼凑，不知将有何等威力……"
+    translated: "The parts of the fire lance are stored with great care in various places. If one were to gather them all and assemble them, who knows what kind of power they would possess......"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -408,11 +534,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "壹"
+    translated: "I"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -420,11 +549,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "贰"
+    translated: "II"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -432,11 +564,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "叁"
+    translated: "III"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -444,11 +579,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "肆"
+    translated: "IV"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -456,11 +594,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "伍"
+    translated: "V"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -468,11 +609,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "陆"
+    translated: "VI"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -480,11 +624,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "柒"
+    translated: "VII"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -492,11 +639,14 @@
   splits:
   - split: 2
     text: "黄天秘要"
+    translated: "Yellow Heaven Secret Essentials"
   - split: 2
     subIndex: 1
     text: "捌"
+    translated: "VIII"
   - split: 19
     text: "平平无奇的石板，上雕奇异密文……如能集齐，再去寻对太平道有所了解之人，许能解之。"
+    translated: "An unremarkable stone slab, engraved with strange cipher patterns......If you can gather them all, seek out someone knowledgeable about the Way of Peace; they may be able to decipher it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -504,263 +654,350 @@
   splits:
   - split: 2
     text: "信号烟火"
+    translated: "Signal Fireworks"
   - split: 19
     text: "某人用来通传讯息之物，贸然引燃，后果难料……"
+    translated: "Something someone used to convey messages was carelessly ignited... the consequences are unpredictable......"
 - raw: "69,909108,陈旧香囊,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,其内香料早已无味，却自带一股清异幽香……,item/800005,0,0,0,0"
   splits:
   - split: 2
     text: "陈旧香囊"
+    translated: "Aged Sachet"
   - split: 19
     text: "其内香料早已无味，却自带一股清异幽香……"
+    translated: "Though the spices inside had long lost their flavor, they still carried a subtle, mysterious fragrance......"
 - raw: "70,909109,买凶文书,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"task,1\",阅读,,文字歪歪扭扭，语序纷乱，似是东瀛手笔，但亦能看出其欲重金悬赏一名“凶犯”，赏银三两，死活不论。,item/908066,0,15000,0,0"
   splits:
   - split: 2
     text: "买凶文书"
+    translated: "Murder-for-Hire Contract"
   - split: 19
     text: "文字歪歪扭扭，语序纷乱，似是东瀛手笔，但亦能看出其欲重金悬赏一名“凶犯”，赏银三两，死活不论。"
+    translated: "The writing is crooked and disordered, clearly the work of someone from Dongying, but it's also evident that they are offering a hefty reward for a criminal, three taels of silver, dead or alive."
 - raw: "71,909110,青色丝帕,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,青青子衿，悠悠我心。,item/901014,0,0,0,0"
   splits:
   - split: 2
     text: "青色丝帕"
+    translated: "Green Silk Handkerchief"
   - split: 19
     text: "青青子衿，悠悠我心。"
+    translated: "Green your collar, my heart longs"
 - raw: "72,909111,食盒,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,装着些寻常酒菜，无甚稀奇。,item/901015,0,0,0,0"
   splits:
   - split: 2
     text: "食盒"
+    translated: "Food Box"
   - split: 19
     text: "装着些寻常酒菜，无甚稀奇。"
+    translated: "There's nothing special about the usual wine and dishes."
 - raw: "73,909112,精致食盒,任务,1001,3,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,装着些精致酒菜，香气扑鼻。,item/901016,0,0,0,0"
   splits:
   - split: 2
     text: "精致食盒"
+    translated: "Exquisite Food Box"
   - split: 19
     text: "装着些精致酒菜，香气扑鼻。"
+    translated: "Served were some exquisite dishes and wine, their fragrant aroma filling the air."
 - raw: "74,909113,旧剑,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,锈迹斑斑的剑，想来值些银钱。,item/901017,0,0,0,0"
   splits:
   - split: 2
     text: "旧剑"
+    translated: "Old Sword"
   - split: 19
     text: "锈迹斑斑的剑，想来值些银钱。"
+    translated: "A rust-stained sword; it must be worth some silver."
 - raw: "75,909114,巨熊掌,任务,1001,4,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,巨熊之掌，价值不菲。,item/901018,0,0,0,0"
   splits:
   - split: 2
     text: "巨熊掌"
+    translated: "Giant Bear Paw"
   - split: 19
     text: "巨熊之掌，价值不菲。"
+    translated: "The giant bear's paw is worth a fortune."
 - raw: "76,909115,燕窝,任务,1001,3,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,寻常燕窝，想来能值些银钱。,item/901019,0,0,0,0"
   splits:
   - split: 2
     text: "燕窝"
+    translated: "Bird's Nest"
   - split: 19
     text: "寻常燕窝，想来能值些银钱。"
+    translated: "Ordinary bird's nest soup should be worth some silver."
 - raw: "77,909116,朝参牙牌,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,正面刻着“都察院经历司”六个大字，背面则刻有此人姓名——蒋维躬。,item/901021,0,0,0,0"
   splits:
   - split: 2
     text: "朝参牙牌"
+    translated: "Court Audience Ivory Tag"
   - split: 19
     text: "正面刻着“都察院经历司”六个大字，背面则刻有此人姓名——蒋维躬。"
+    translated: "The front is engraved with the words Imperial Censorate Bureau of Experience, and the back bears this person's name-Jiang Weigong."
 - raw: "78,909117,薯干,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,简易晒制的薯干，香甜可口。,item/901023,0,0,0,0"
   splits:
   - split: 2
     text: "薯干"
+    translated: "Dried Sweet Potato"
   - split: 19
     text: "简易晒制的薯干，香甜可口。"
+    translated: "Simple sun-dried sweet potatoes, delicious and sweet"
 - raw: "79,909118,倭文书信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一封倭文写就的书信。,item/918000,0,0,0,0"
   splits:
   - split: 2
     text: "倭文书信"
+    translated: "Japanese-Script Letter"
   - split: 19
     text: "一封倭文写就的书信。"
+    translated: "A letter written in Japanese"
 - raw: "80,909119,抚恤文书,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,官府下发的抚恤文书。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "抚恤文书"
+    translated: "Condolence Pension Document"
   - split: 19
     text: "官府下发的抚恤文书。"
+    translated: "The official decree issued a Condolence Pension Document."
 - raw: "81,909120,恤金,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,官府下发的恤金。,item/silver,0,0,0,0"
   splits:
   - split: 2
     text: "恤金"
+    translated: "Condolence Money"
   - split: 19
     text: "官府下发的恤金。"
+    translated: "Government relief funds"
 - raw: "82,909121,小五门信物,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,小五门门人多隐于市，形制松散，故有只认信物不认人之说。,item/908070,0,0,0,0"
   splits:
   - split: 2
     text: "小五门信物"
+    translated: "Token of the Five Minor Sects"
   - split: 19
     text: "小五门门人多隐于市，形制松散，故有只认信物不认人之说。"
+    translated: "Xiaowu Gate members often hide in the city, with a loose structure, hence the saying that they recognize tokens but not people."
 - raw: "83,909122,铅红丹丸,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,色如鹤顶，药性难明。,item/901004,0,0,0,0"
   splits:
   - split: 2
     text: "铅红丹丸"
+    translated: "Red Lead Elixir Pill"
   - split: 19
     text: "色如鹤顶，药性难明。"
+    translated: "Its color like the top of a crane's head, its properties are hard to discern."
 - raw: "84,909123,咸鱼,任务,1001,1,0,0,0,1,True,1,0,0,1,0,0,0,触发XX任务成功,腥臭难当，难以下咽。,item/908025,0,0,0,0"
   splits:
   - split: 2
     text: "咸鱼"
+    translated: "Salted Fish"
   - split: 19
     text: "腥臭难当，难以下咽。"
+    translated: "The stench is overwhelming, making it hard to swallow."
 - raw: "85,909124,咸鱼,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"task,1\",使用,,腥臭难当，难以下咽，鱼腹鼓起，其中似有物事。,item/908025,0,13000,0,0"
   splits:
   - split: 2
     text: "咸鱼"
+    translated: "Salted Fish"
   - split: 19
     text: "腥臭难当，难以下咽，鱼腹鼓起，其中似有物事。"
+    translated: "The stench is unbearable, and the fish is hard to swallow; its belly bulges, as if something lies within."
 - raw: "86,909125,漆黑铁牌,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,京城黑市的通行信物。,item/901024,0,0,0,0"
   splits:
   - split: 2
     text: "漆黑铁牌"
+    translated: "Jet-Black Iron Token"
   - split: 19
     text: "京城黑市的通行信物。"
+    translated: "A token for free passage in the Capital City's Black Market."
 - raw: "87,909126,“徐”字玉佩,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,小七昔年被遗弃时随身之物，上镌一个“徐”字。,item/901025,0,0,0,0"
   splits:
   - split: 2
     text: "“徐”字玉佩"
+    translated: "“Xu” Jade Pendant"
   - split: 19
     text: "小七昔年被遗弃时随身之物，上镌一个“徐”字。"
+    translated: "The item Xiaoqi had with her when she was abandoned long ago was engraved with the character “Xu.”"
 - raw: "88,909127,奇怪的蒸饼,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,热腾腾的蒸饼，只是不知为何气味似乎有些奇怪。,item/901026,0,0,0,0"
   splits:
   - split: 2
     text: "奇怪的蒸饼"
+    translated: "Strange Steamed Flatbread"
   - split: 19
     text: "热腾腾的蒸饼，只是不知为何气味似乎有些奇怪。"
+    translated: "The steaming buns were hot and inviting, but for some reason, their smell seemed a bit odd."
 - raw: "89,909128,枯蝎令,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,五圣教枯蝎使令牌，上镌奇异苗纹。,item/901024,0,0,0,0"
   splits:
   - split: 2
     text: "枯蝎令"
+    translated: "Withered Scorpion Order"
   - split: 19
     text: "五圣教枯蝎使令牌，上镌奇异苗纹。"
+    translated: "The Wusheng Sect's Desiccated Scorpion Envoy token, engraved with strange Miao patterns."
 - raw: "90,909129,圣女印信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,竹青翠玉雕刻而成的玉牌，五圣教圣女的专属印信，拥有此物者可视为圣女认可的贵客。,item/901025,0,0,0,0"
   splits:
   - split: 2
     text: "圣女印信"
+    translated: "Saintess's Seal"
   - split: 19
     text: "竹青翠玉雕刻而成的玉牌，五圣教圣女的专属印信，拥有此物者可视为圣女认可的贵客。"
+    translated: "A jade token carved from green bamboo and jade, the exclusive badge of the Wusheng Sect's Holy Maiden. Possession of this item grants one the status of a honored guest recognized by the Holy Maiden."
 - raw: "91,909130,段氏秘辛,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,字迹歪扭，其中汉字苗文相杂，年月已久，不少字迹几已风化。,item/908015,0,0,0,0"
   splits:
   - split: 2
     text: "段氏秘辛"
+    translated: "Secret History of the Duan Clan"
   - split: 19
     text: "字迹歪扭，其中汉字苗文相杂，年月已久，不少字迹几已风化。"
+    translated: "The handwriting is crooked, with Mi ethnic script mixed among the Chinese characters. Time has worn away much of the text."
 - raw: "92,909131,夜明珠,任务,1001,5,0,0,0,1,True,10000,0,0,1,0,0,0,触发XX任务成功,今夜明珠色，当随满月开。,item/901503,0,0,0,0"
   splits:
   - split: 2
     text: "夜明珠"
+    translated: "Night-Shining Pearl"
   - split: 19
     text: "今夜明珠色，当随满月开。"
+    translated: "Tonight the Night-Shining Pearl's glow, shall follow the full moon's light."
 - raw: "93,909132,“恨”字玉牌,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,略显陈旧的玉牌，上镌一个“恨”字。,item/901025,0,0,0,0"
   splits:
   - split: 2
     text: "“恨”字玉牌"
+    translated: "“Hatred” Jade Tablet"
   - split: 19
     text: "略显陈旧的玉牌，上镌一个“恨”字。"
+    translated: "An old jade token, engraved with the character hate."
 - raw: "94,909133,江川酿,任务,1001,3,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,倭国名酒，香气醉人。,item/902017,0,0,0,0"
   splits:
   - split: 2
     text: "江川酿"
+    translated: "Jiangchuan Brew"
   - split: 19
     text: "倭国名酒，香气醉人。"
+    translated: "Famous wine from Japan, intoxicatingly fragrant"
 - raw: "95,909134,白及,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,苦、甘、涩，微寒。,item/907023,0,0,0,0"
   splits:
   - split: 2
     text: "白及"
+    translated: "Baiji"
   - split: 19
     text: "苦、甘、涩，微寒。"
+    translated: "Bitter, sweet, astringent, slightly cold"
 - raw: "96,909135,三七,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,性温，味甘、微苦。,item/907024,0,0,0,0"
   splits:
   - split: 2
     text: "三七"
+    translated: "Sanqi"
   - split: 19
     text: "性温，味甘、微苦。"
+    translated: "Mild, sweet, slightly bitter"
 - raw: "97,909136,倭文书信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,其上尽是倭国文字，似鬼画符，或可寻人解之……,item/908016,0,0,0,0"
   splits:
   - split: 2
     text: "倭文书信"
+    translated: "Japanese-Script Letter"
   - split: 19
     text: "其上尽是倭国文字，似鬼画符，或可寻人解之……"
+    translated: "It is covered in Japanese text, like scribbled curses; perhaps one can find someone to decipher it......"
 - raw: "98,909137,今川家信,任务,1001,2,0,0,0,1,True,1,0,0,1,0,0,0,触发XX任务成功,其上尽是倭国文字，但其中亦夹汉文，勉强只能认出几个皆以“今川”为姓的人名……,item/908016,0,0,0,0"
   splits:
   - split: 2
     text: "今川家信"
+    translated: "Letter from the Imagawa Family"
   - split: 19
     text: "其上尽是倭国文字，但其中亦夹汉文，勉强只能认出几个皆以“今川”为姓的人名……"
+    translated: "It was filled with Japanese text, but interspersed were some Han characters. Barely recognizing a few names all surnamed Imagawa......"
 - raw: "99,909138,西门遗信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980029\",阅读,触发XX任务成功,一封泛黄书信，似已有许多年头。,item/908016,0,0,0,0"
   splits:
   - split: 2
     text: "西门遗信"
+    translated: "Ximen's Last Letter"
   - split: 19
     text: "一封泛黄书信，似已有许多年头。"
+    translated: "A yellowed letter, seemingly many years old"
 - raw: "100,909139,旧剑,任务,1001,2,0,0,0,1,True,800,0,0,1,0,\"task,1\",使用,,锈迹斑斑的剑，打磨之后或能一用。,item/901017,0,20000,0,0"
   splits:
   - split: 2
     text: "旧剑"
+    translated: "Old Sword"
   - split: 19
     text: "锈迹斑斑的剑，打磨之后或能一用。"
+    translated: "A rust-stained sword; if polished, it might still be usable."
 - raw: "101,909140,小沙弥的疗伤药,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,草木灰加上些寻常药材精心搓制而成，许能治些轻微伤患。,item/908019,0,0,0,0"
   splits:
   - split: 2
     text: "小沙弥的疗伤药"
+    translated: "Junior Monk's Healing Medicine"
   - split: 19
     text: "草木灰加上些寻常药材精心搓制而成，许能治些轻微伤患。"
+    translated: "Made by carefully mixing ash with common herbs, it might treat minor injuries."
 - raw: "102,909141,赵云灵的玉佩,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一枚平平无奇的玉佩。,item/800104,0,0,0,0"
   splits:
   - split: 2
     text: "赵云灵的玉佩"
+    translated: "Zhao Yunling's Jade Pendant"
   - split: 19
     text: "一枚平平无奇的玉佩。"
+    translated: "An ordinary jade pendant"
 - raw: "103,909142,囚车钥匙,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一把普通的钥匙。,item/908089,0,0,0,0"
   splits:
   - split: 2
     text: "囚车钥匙"
+    translated: "Prison Cart Key"
   - split: 19
     text: "一把普通的钥匙。"
+    translated: "A normal key"
 - raw: "104,909143,应珠家书,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,乔应珠托你带给乔员外的家信，还是莫要拆开了。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "应珠家书"
+    translated: "Yingzhu's Letter Home"
   - split: 19
     text: "乔应珠托你带给乔员外的家信，还是莫要拆开了。"
+    translated: "Qiao Yingzhu asked you to deliver a letter to Squire Qiao; don't open it."
 - raw: "105,909144,诛恶令,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980028\",阅读,触发XX任务成功,寻常木片，其上刻痕入木三分，似是用剑高手以剑尖削就。,item/800101,0,0,0,0"
   splits:
   - split: 2
     text: "诛恶令"
+    translated: "Order to Slay the Wicked"
   - split: 19
     text: "寻常木片，其上刻痕入木三分，似是用剑高手以剑尖削就。"
+    translated: "A common piece of wood, with marks carved into it to a great depth, as if made by a sword expert using the tip of their sword."
 - raw: "106,909145,花山清单,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,记录着花山节所需一应物事的清单，角下画着条小蛇。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "花山清单"
+    translated: "Huashan Checklist"
   - split: 19
     text: "记录着花山节所需一应物事的清单，角下画着条小蛇。"
+    translated: "A list detailing the items needed for the Huashan Festival, with a little snake drawn beneath it."
 - raw: "107,909146,一包毽子,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一包中原常见的毽子，已有些旧了。,item/908068,0,0,0,0"
   splits:
   - split: 2
     text: "一包毽子"
+    translated: "A Bundle of Shuttlecocks"
   - split: 19
     text: "一包中原常见的毽子，已有些旧了。"
+    translated: "A package of shuttlecocks commonly found in Central China, already somewhat worn."
 - raw: "108,909147,红花,任务,1001,2,0,0,0,999,True,1,0,0,1,0,0,0,触发XX任务成功,漂亮的红花，似无他用。,item/907036,0,0,0,0"
   splits:
   - split: 2
     text: "红花"
+    translated: "Safflower"
   - split: 19
     text: "漂亮的红花，似无他用。"
+    translated: "A beautiful red flower, with no apparent use."
 - raw: "109,909148,胡郎中的药囊,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,沉甸甸的，其中似装着不少瓶罐。,item/908014,0,0,0,0"
   splits:
   - split: 2
     text: "胡郎中的药囊"
+    translated: "Doctor Hu's Medicine Pouch"
   - split: 19
     text: "沉甸甸的，其中似装着不少瓶罐。"
+    translated: "Heavy, as if containing many bottles and jars."
 - raw: "110,909149,河图洛书残篇·壹,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,河出图，洛出书，圣人则之。,item/954000,0,0,0,0"
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "壹"
+    translated: "I"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -768,11 +1005,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "贰"
+    translated: "II"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -780,11 +1020,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "叁"
+    translated: "III"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -792,11 +1035,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "肆"
+    translated: "IV"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -804,11 +1050,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "伍"
+    translated: "V"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -816,11 +1065,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "陆"
+    translated: "VI"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -828,11 +1080,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "柒"
+    translated: "VII"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -840,11 +1095,14 @@
   splits:
   - split: 2
     text: "河图洛书残篇"
+    translated: "Fragments of the Hetu and Luoshu"
   - split: 2
     subIndex: 1
     text: "捌"
+    translated: "VIII"
   - split: 19
     text: "河出图，洛出书，圣人则之。"
+    translated: "The river produced the diagram, the Luo produced the book; the sage follows them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -852,149 +1110,198 @@
   splits:
   - split: 2
     text: "一封家信"
+    translated: "A Letter from Home"
   - split: 19
     text: "一封满含乡情的信笺。"
+    translated: "A letter filled with hometown feelings"
 - raw: "119,909158,信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980031\",阅读,触发XX任务成功,一封信笺，不知是何人所写。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "信笺"
+    translated: "Letter"
   - split: 19
     text: "一封信笺，不知是何人所写。"
+    translated: "A letter, unknown whose hand wrote it"
 - raw: "120,909159,路引,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,出入襄阳所需之路引凭证，其上署名“莫中”。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "路引"
+    translated: "Travel Permit"
   - split: 19
     text: "出入襄阳所需之路引凭证，其上署名“莫中”。"
+    translated: "The pass permit required to enter Xiangyang is signed by Mo Zhong."
 - raw: "121,909160,路引,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,出入襄阳所需之路引凭证，其上署名“贾正”。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "路引"
+    translated: "Travel Permit"
   - split: 19
     text: "出入襄阳所需之路引凭证，其上署名“贾正”。"
+    translated: "The pass permit required to enter Xiangyang is signed by Jia Zheng."
 - raw: "122,909161,顾瑶玉佩,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,顾瑶的玉佩。,item/901025,0,0,0,0"
   splits:
   - split: 2
     text: "顾瑶玉佩"
+    translated: "Gu Yao's Jade Pendant"
   - split: 19
     text: "顾瑶的玉佩。"
+    translated: "Gu Yao's jade pendant"
 - raw: "123,909162,沈瑄绝笔,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980032\",阅读,触发XX任务成功,沈瑄临终写就的书信，或可拆开一观。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "沈瑄绝笔"
+    translated: "Shen Xuan's Final Writing"
   - split: 19
     text: "沈瑄临终写就的书信，或可拆开一观。"
+    translated: "Shen Xuan's deathbed letter might be opened and read."
 - raw: "124,909163,耄耋香,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,散发着一股古怪气味，不知有何用途。,item/907023,0,0,0,0"
   splits:
   - split: 2
     text: "耄耋香"
+    translated: "Longevity Incense"
   - split: 19
     text: "散发着一股古怪气味，不知有何用途。"
+    translated: "It gives off a strange odor; its purpose is unknown."
 - raw: "125,909164,蛇胆,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,新鲜剖出的蛇胆。,item/907008,0,0,0,0"
   splits:
   - split: 2
     text: "蛇胆"
+    translated: "Snake Gallbladder"
   - split: 19
     text: "新鲜剖出的蛇胆。"
+    translated: "Freshly removed snake gallbladder"
 - raw: "126,909165,陈旧香囊,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,何傲霜所赠定情之物，其内香料早已无味，却自带一股清异幽香……,item/800005,0,0,0,0"
   splits:
   - split: 2
     text: "陈旧香囊"
+    translated: "Aged Sachet"
   - split: 19
     text: "何傲霜所赠定情之物，其内香料早已无味，却自带一股清异幽香……"
+    translated: "The token of affection given to them by He Aoshuang had long lost its fragrance, yet it still carried a subtle, mysterious scent......"
 - raw: "127,909166,密信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,信封上写着“神狩十七年致吾徒傲霜”，还是莫要拆开了……,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "密信"
+    translated: "Secret Letter"
   - split: 19
     text: "信封上写着“神狩十七年致吾徒傲霜”，还是莫要拆开了……"
+    translated: "The envelope reads To My Disciple Ao Shuang in the Seventeenth Year of Shenshou... better not to open it..."
 - raw: "128,909167,壁城来信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一封装缮妥当的书信。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "壁城来信"
+    translated: "Letter from Bicheng"
   - split: 19
     text: "一封装缮妥当的书信。"
+    translated: "A neatly sealed letter"
 - raw: "129,909168,花相书信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一封装缮妥当的书信，花相所托之物，欲送往桃花坞处。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "花相书信"
+    translated: "Hua Xiang's Letter"
   - split: 19
     text: "一封装缮妥当的书信，花相所托之物，欲送往桃花坞处。"
+    translated: "A neatly packaged letter, the item entrusted by Hua Xiang, is to be sent to Taohua Dock."
 - raw: "130,909169,远行船册,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,袁二爷转赠之物，不知其中有何玄机。,item/951000,0,0,0,0"
   splits:
   - split: 2
     text: "远行船册"
+    translated: "Voyage Ship Ledger"
   - split: 19
     text: "袁二爷转赠之物，不知其中有何玄机。"
+    translated: "The gift from Second Master Yuan, I wonder what secrets it holds."
 - raw: "131,909170,潦草笺记,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980040\",阅读,触发XX任务成功,潇湘子所遗手记，其上记载着零碎文字图画。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "潦草笺记"
+    translated: "Scrawled Notes"
   - split: 19
     text: "潇湘子所遗手记，其上记载着零碎文字图画。"
+    translated: "Xiaoxiangzi's left handbook, which contains scattered text and drawings,"
 - raw: "132,909171,舱门钥匙,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一把钥匙，似能开启某扇锁着的门。,item/908073,0,0,0,0"
   splits:
   - split: 2
     text: "舱门钥匙"
+    translated: "Cabin Door Key"
   - split: 19
     text: "一把钥匙，似能开启某扇锁着的门。"
+    translated: "A key, one that seems able to unlock a certain locked door."
 - raw: "133,909172,闯阵口诀,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980035\",阅读,触发XX任务成功,公输古榆随手写成的破阵口诀，过关之法尽在其中。,item/908074,0,0,0,0"
   splits:
   - split: 2
     text: "闯阵口诀"
+    translated: "Formation-Breaking Mnemonic"
   - split: 19
     text: "公输古榆随手写成的破阵口诀，过关之法尽在其中。"
+    translated: "Gongshu Guyu smiled and nodded, draining the tea in one gulp. So they left the town."
 - raw: "134,909173,蒙芸的藏宝图,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一张画得歪歪扭扭的图画，似已有些年头。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "蒙芸的藏宝图"
+    translated: "Meng Yun's Treasure Map"
   - split: 19
     text: "一张画得歪歪扭扭的图画，似已有些年头。"
+    translated: "A crookedly drawn picture, as if it has been around for some years."
 - raw: "135,909174,小字条,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980036\",阅读,触发XX任务成功,蒙芸埋下的“宝藏”。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "小字条"
+    translated: "Small Note"
   - split: 19
     text: "蒙芸埋下的“宝藏”。"
+    translated: "Meng Yun's hidden treasure"
 - raw: "136,909175,幻赤初方,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,似乎是册药方，其上记录着许多不知名的药材。,item/951000,0,0,0,0"
   splits:
   - split: 2
     text: "幻赤初方"
+    translated: "Phantom Crimson Initial Formula"
   - split: 19
     text: "似乎是册药方，其上记录着许多不知名的药材。"
+    translated: "It seems to be a prescription with many unfamiliar herbs listed on it."
 - raw: "137,909176,解毒药方,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,东壁先生所研之方，能解“幻赤初方”中所载之毒。,item/959000,0,0,0,0"
   splits:
   - split: 2
     text: "解毒药方"
+    translated: "Antidote Formula"
   - split: 19
     text: "东壁先生所研之方，能解“幻赤初方”中所载之毒。"
+    translated: "Master Dongbi's formula can counter the poison described in the Phantom Crimson Initial Formula."
 - raw: "138,909177,焦毁信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,其上文字皆一时难识，许需寻苗寨中人帮忙解之。,item/959000,0,0,0,0"
   splits:
   - split: 2
     text: "焦毁信笺"
+    translated: "Charred Letter"
   - split: 19
     text: "其上文字皆一时难识，许需寻苗寨中人帮忙解之。"
+    translated: "The text above is hard to decipher at a glance; perhaps I need to find someone in the Miao Stronghold to help."
 - raw: "139,909178,焦毁信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,除账目之外，末尾还注出了藏物之处——三塔东北。,item/959000,0,0,0,0"
   splits:
   - split: 2
     text: "焦毁信笺"
+    translated: "Charred Letter"
   - split: 19
     text: "除账目之外，末尾还注出了藏物之处——三塔东北。"
+    translated: "In addition to the accounts, it also noted the hiding place of the items- northeast of the three towers."
 - raw: "140,909179,泛黄书信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980037\",阅读,触发XX任务成功,一封泛黄书信，似已有许多年头。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "泛黄书信"
+    translated: "Yellowed Letter"
   - split: 19
     text: "一封泛黄书信，似已有许多年头。"
+    translated: "A yellowed letter, seemingly many years old"
 - raw: "141,909180,连环密信·壹,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,信封缀有画工粗糙的九连环形状，其中内容却是似鬼画符，全然难明。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "连环密信"
+    translated: "Chained Secret Letter"
   - split: 2
     subIndex: 1
     text: "壹"
+    translated: "I"
   - split: 19
     text: "信封缀有画工粗糙的九连环形状，其中内容却是似鬼画符，全然难明。"
+    translated: "The envelope is adorned with a crudely drawn nine-linked ring shape, but its contents resemble ghostly scribbles, completely indecipherable."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1002,11 +1309,14 @@
   splits:
   - split: 2
     text: "连环密信"
+    translated: "Chained Secret Letter"
   - split: 2
     subIndex: 1
     text: "贰"
+    translated: "II"
   - split: 19
     text: "信封缀有画工粗糙的九连环形状，其中内容却是似鬼画符，全然难明。"
+    translated: "The envelope is adorned with a crudely drawn nine-linked ring shape, but its contents resemble ghostly scribbles, completely indecipherable."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1014,11 +1324,14 @@
   splits:
   - split: 2
     text: "连环密信"
+    translated: "Chained Secret Letter"
   - split: 2
     subIndex: 1
     text: "叁"
+    translated: "III"
   - split: 19
     text: "信封缀有画工粗糙的九连环形状，其中内容却是似鬼画符，全然难明。"
+    translated: "The envelope is adorned with a crudely drawn nine-linked ring shape, but its contents resemble ghostly scribbles, completely indecipherable."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1026,11 +1339,14 @@
   splits:
   - split: 2
     text: "小七的藏宝图"
+    translated: "Xiaoqi's Treasure Map"
   - split: 19
     text: "其上除难以明辨的画迹之外，还写着一行小字"
+    translated: "In addition to the barely discernible illustrations, there is also a line of small text above."
   - split: 19
     subIndex: 1
     text: "良庄东北山间。"
+    translated: "In the northeastern mountains of Liang Village"
   templates:
   - split: 19
     template: "{0}：{1}"
@@ -1038,125 +1354,166 @@
   splits:
   - split: 2
     text: "锈蚀钥匙"
+    translated: "Corroded Key"
   - split: 19
     text: "一把锈迹斑斑的钥匙，不知能打开何处的锁。"
+    translated: "A rusty key, who knows what lock it fits."
 - raw: "146,909185,菜谱,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一套菜谱，记了几道常见菜肴的独到烹制手法。,item/908015,0,0,0,0"
   splits:
   - split: 2
     text: "菜谱"
+    translated: "Cookbook"
   - split: 19
     text: "一套菜谱，记了几道常见菜肴的独到烹制手法。"
+    translated: "A set of recipes, detailing unique cooking techniques for several common dishes."
 - raw: "147,909186,神秘信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"task,1\",使用,,一封神秘信笺，不知出于谁手。,item/908000,0,16000,0,0"
   splits:
   - split: 2
     text: "神秘信笺"
+    translated: "Mysterious Letter"
   - split: 19
     text: "一封神秘信笺，不知出于谁手。"
+    translated: "A mysterious letter, unknown whose hand it came from."
 - raw: "148,909187,紫晴密函,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980038\",阅读,触发XX任务成功,紫晴赠予的一封信笺。信中仅有寥寥数语，并无提称落款，不知是何人所寄。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "紫晴密函"
+    translated: "Ziqing's Secret Letter"
   - split: 19
     text: "紫晴赠予的一封信笺。信中仅有寥寥数语，并无提称落款，不知是何人所寄。"
+    translated: "A letter from Ziqing. It contains only a few words and has no salutation or signature, so it's unclear who sent it."
 - raw: "149,909188,青云来信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980039\",阅读,触发XX任务成功,一封传入你手的信笺，落款题有李青山之名。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "青云来信"
+    translated: "Letter from Qingyun"
   - split: 19
     text: "一封传入你手的信笺，落款题有李青山之名。"
+    translated: "A letter that arrived in your hands is signed with Li Qingshan's name."
 - raw: "150,909189,霜岚,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,襄阳楚氏家传之物，时经百年，仍可削金断铁。,item/102004,0,0,0,0"
   splits:
   - split: 2
     text: "霜岚"
+    translated: "Frost Mist"
   - split: 19
     text: "襄阳楚氏家传之物，时经百年，仍可削金断铁。"
+    translated: "The Chu family heirloom of Xiangyang, though a hundred years old, can still slice through metal and sever iron."
 - raw: "151,909190,木质方匣,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,从乐师身上寻到的木质方匣，整匣无孔，似有某种机关。,item/908209,0,0,0,0"
   splits:
   - split: 2
     text: "木质方匣"
+    translated: "Wooden Square Box"
   - split: 19
     text: "从乐师身上寻到的木质方匣，整匣无孔，似有某种机关。"
+    translated: "The wooden square box found on Leshi is hole-free, as if it contains some kind of mechanism."
 - raw: "152,909191,陈旧书信,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980041\",阅读,触发XX任务成功,孙猎户家中遗落的书信，或可打开一观。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "陈旧书信"
+    translated: "Aged Letter"
   - split: 19
     text: "孙猎户家中遗落的书信，或可打开一观。"
+    translated: "Hunter Sun's discarded letters might be worth opening and reading."
 - raw: "153,909192,沾血扳指,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一枚沾血扳指，可作为杀死阮彦春的证明。,item/600005,0,0,0,0"
   splits:
   - split: 2
     text: "沾血扳指"
+    translated: "Bloodstained Thumb Ring"
   - split: 19
     text: "一枚沾血扳指，可作为杀死阮彦春的证明。"
+    translated: "A bloodstained thumb ring can serve as proof of killing Ruan Yanchun."
 - raw: "154,909193,白面土,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,颜色近白，不甚坚硬。,item/901403,0,0,0,0"
   splits:
   - split: 2
     text: "白面土"
+    translated: "White Powdery Soil"
   - split: 19
     text: "颜色近白，不甚坚硬。"
+    translated: "It is nearly white in color and not very hard."
 - raw: "155,909194,满载干粮的麻袋,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一个满装干饼粮米的袋子。,item/908091,0,0,0,0"
   splits:
   - split: 2
     text: "满载干粮的麻袋"
+    translated: "Sack Full of Dry Rations"
   - split: 19
     text: "一个满装干饼粮米的袋子。"
+    translated: "A bag filled with dried flatbread and rice."
 - raw: "156,909195,陈旧檀香,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一把檀香，或能一用。,item/908001,0,0,0,0"
   splits:
   - split: 2
     text: "陈旧檀香"
+    translated: "Aged Sandalwood Incense"
   - split: 19
     text: "一把檀香，或能一用。"
+    translated: "A stick of sandalwood incense might be useful."
 - raw: "157,909196,鼠袋,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,装着整整一袋硕鼠，不失为饥民佳肴。,item/908091,0,0,0,0"
   splits:
   - split: 2
     text: "鼠袋"
+    translated: "Rat Sack"
   - split: 19
     text: "装着整整一袋硕鼠，不失为饥民佳肴。"
+    translated: "Carrying an entire bag of field mice can be excellent fare for famine-stricken people."
 - raw: "158,909197,土饼,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,彼之砒霜，吾之蜜糖。,item/901003,0,0,0,0"
   splits:
   - split: 2
     text: "土饼"
+    translated: "Earthen Cake"
   - split: 19
     text: "彼之砒霜，吾之蜜糖。"
+    translated: "Poison to some is honey to others"
 - raw: "159,909198,浸水信笺,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"task,1\",使用,,一封神秘信笺，不知出于谁手。,item/908000,0,16000,0,0"
   splits:
   - split: 2
     text: "浸水信笺"
+    translated: "Water-Soaked Letter"
   - split: 19
     text: "一封神秘信笺，不知出于谁手。"
+    translated: "A mysterious letter, unknown whose hand it came from."
 - raw: "160,909199,河图洛书,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,完整的“河图洛书”，记载了一套绝世心法的诸多奥秘。,item/954000,0,0,0,0"
   splits:
   - split: 2
     text: "河图洛书"
+    translated: "Hetu and Luoshu"
   - split: 19
     text: "完整的“河图洛书”，记载了一套绝世心法的诸多奥秘。"
+    translated: "The complete Hetu and Luoshu records the many mysteries of an unparalleled Heart Method."
 - raw: "161,909200,慧寂手书,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,\"read,980042\",阅读,触发XX任务成功,一封书信，似是慧寂所遗。,item/908000,0,0,0,0"
   splits:
   - split: 2
     text: "慧寂手书"
+    translated: "Huiji's Handwritten Letter"
   - split: 19
     text: "一封书信，似是慧寂所遗。"
+    translated: "A letter, seemingly left by Huiji"
 - raw: "162,909201,锻刀令,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,大雪山门主于红梅手令，持此物者可令锻刀窟刀匠依意锻刀。,item/908070,0,0,0,0"
   splits:
   - split: 2
     text: "锻刀令"
+    translated: "Blade-Forging Order"
   - split: 19
     text: "大雪山门主于红梅手令，持此物者可令锻刀窟刀匠依意锻刀。"
+    translated: "The Grandmaster of Daxue Mountain, Yu Hongmei, commands that the holder of this item may instruct the blade smiths in the Forging Cavern to forge blades as desired."
 - raw: "163,909202,寒铁刀,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一柄宝刀，吹毛短发。,item/908062,0,0,0,0"
   splits:
   - split: 2
     text: "寒铁刀"
+    translated: "Cold Iron Blade"
   - split: 19
     text: "一柄宝刀，吹毛短发。"
+    translated: "A precious blade, sharp enough to cut hair and split a feather."
 - raw: "164,909203,真龙,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,朱翊真所赐尚方宝剑，奢美华贵，不甚实用。上镌两列篆字：玄鸟衔圭，九五至尊。万邦既伏，天命攸存。,item/901017,0,0,0,0"
   splits:
   - split: 2
     text: "真龙"
+    translated: "True Dragon"
   - split: 19
     text: "朱翊真所赐尚方宝剑，奢美华贵，不甚实用。上镌两列篆字"
+    translated: "The imperial sword bestowed by Zhu Yizhen is luxurious and grand, though not very practical. It is engraved with two rows of seal script characters."
   - split: 19
     subIndex: 1
     text: "玄鸟衔圭，九五至尊。万邦既伏，天命攸存。"
+    translated: "The oriole carries the jade token, supreme among the Nine Five. All vassal states are subdued, the mandate of heaven endures."
   templates:
   - split: 19
     template: "{0}：{1}"
@@ -1164,41 +1521,55 @@
   splits:
   - split: 2
     text: "北豺的头颅"
+    translated: "Head of the Northern Jackal"
   - split: 19
     text: "装有北豺头颅的包裹。"
+    translated: "A parcel containing North Wolf's head"
 - raw: "166,909205,秘图,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,据说是秦皇陵秘道地图，但看其上图样，却似另有玄机。,item/958000,0,0,0,0"
   splits:
   - split: 2
     text: "秘图"
+    translated: "Secret Map"
   - split: 19
     text: "据说是秦皇陵秘道地图，但看其上图样，却似另有玄机。"
+    translated: "It's said to be a map of the secret passages of the Qin Emperor Mausoleum, but looking at its design, it seems there may be more to it."
 - raw: "167,909206,云霄,任务,1001,5,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,三霄剑之一，饰之云纹，镌之青鸾，承影无形，冲霄拏云；据传集齐三霄宝剑将有奇异之事发生。,item/102206,0,0,0,0"
   splits:
   - split: 2
     text: "云霄"
+    translated: "Cloud Heaven"
   - split: 19
     text: "三霄剑之一，饰之云纹，镌之青鸾，承影无形，冲霄拏云；据传集齐三霄宝剑将有奇异之事发生。"
+    translated: "One of the Three Azure Swordsets, adorned with cloud patterns, engraved with a blue phoenix, shadowy and intangible, reaching for the heavens; it is said that gathering all three Azure swords will bring about strange occurrences."
 - raw: "168,909207,琼霄,任务,1001,5,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,三霄剑之一，饰之明珠，镌之鸿鹄，昆吾切玉，横断秋水；据传集齐三霄宝剑将有奇异之事发生。,item/102206,0,0,0,0"
   splits:
   - split: 2
     text: "琼霄"
+    translated: "Jade Heavens"
   - split: 19
     text: "三霄剑之一，饰之明珠，镌之鸿鹄，昆吾切玉，横断秋水；据传集齐三霄宝剑将有奇异之事发生。"
+    translated: "One of the Three Azure Swordsets, adorned with a pearl, engraved with cranes, sharp enough to slice jade from Kunwu and to cleave through autumn waters; it is said that gathering all three Azure treasures will bring about strange occurrences."
 - raw: "169,909208,碧霄,任务,1001,5,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,三霄剑之一，饰之花翎，镌之金蛟，削铁无声，运转如风；据传集齐三霄宝剑将有奇异之事发生。,item/102206,0,0,0,0"
   splits:
   - split: 2
     text: "碧霄"
+    translated: "Azure Heavens"
   - split: 19
     text: "三霄剑之一，饰之花翎，镌之金蛟，削铁无声，运转如风；据传集齐三霄宝剑将有奇异之事发生。"
+    translated: "One of the Three Azure Sages' Swords, adorned with a feather plume and engraved with a golden horned dragon, silently cuts through iron, its movements as swift as the wind; it is said that gathering all three Azure Sage treasures will bring about strange occurrences."
 - raw: "170,909209,一盒火药,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,包裹于粗布之中的一盒火药。,item/909199,0,0,0,0"
   splits:
   - split: 2
     text: "一盒火药"
+    translated: "A Box of Gunpowder"
   - split: 19
     text: "包裹于粗布之中的一盒火药。"
+    translated: "A box of gunpowder wrapped in coarse cloth."
 - raw: "171,909210,黑石钥匙,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,一把以罕见黑石制成的钥匙，不知何处可用。,item/908089,0,0,0,0"
   splits:
   - split: 2
     text: "黑石钥匙"
+    translated: "Black Stone Key"
   - split: 19
     text: "一把以罕见黑石制成的钥匙，不知何处可用。"
+    translated: "A key made from rare black stone, for an unknown purpose."

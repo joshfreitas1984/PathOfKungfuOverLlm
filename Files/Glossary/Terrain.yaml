@@ -11,6 +11,7 @@
   result: "Copper Vein"
 - raw: "田地"
   result: "Fields"
+  badtrans: false
 - raw: "水田"
   result: "Paddy Field"
 - raw: "荒田"
@@ -19,6 +20,7 @@
   result: "Wooden Bridge"
 - raw: "石桥"
   result: "Stone Bridge"
+  badtrans: false
 - raw: "拱桥"
   result: "Arch Bridge"
 - raw: "石拱桥"
@@ -39,14 +41,17 @@
   result: "Luoshui Port"
 - raw: "城门"
   result: "City Gate"
+  badtrans: false
 - raw: "小镇城门"
   result: "Town Gate"
 - raw: "牌坊"
   result: "Memorial Archway"
 - raw: "墓碑"
   result: "Gravestone"
+  badtrans: false
 - raw: "林间"
   result: "In the Woods"
+  badtrans: false
 - raw: "林中小屋"
   result: "Forest Cabin"
 - raw: "农家小院"

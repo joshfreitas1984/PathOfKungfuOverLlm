@@ -2,113 +2,141 @@
   splits:
   - split: 5
     text: "内容"
+    translated: "Content"
 - raw: "2,id,playerParam,term,npcParam,content,type,weight"
 - raw: "3,1,ager,//,age,这位朋友，你我年龄相仿，有话但讲无妨。,1,1"
   splits:
   - split: 5
     text: "这位朋友，你我年龄相仿，有话但讲无妨。"
+    translated: "My friend, we are of similar age; feel free to speak your mind."
 - raw: "4,2,ager,>,age,这位朋友，有何见教？,1,1"
   splits:
   - split: 5
     text: "这位朋友，有何见教？"
+    translated: "What brings you here, friend?"
 - raw: "5,3,\"ager,40\",\"<,<\",\"age,age\",阁下说话爽快些，有事不妨直说。,1,1"
   splits:
   - split: 5
     text: "阁下说话爽快些，有事不妨直说。"
+    translated: "Sir, speak plainly. If you have something to say, just say it."
 - raw: "6,4,gold,>,money,阁下必是富贵之人，鄙人随时效劳。,1,1"
   splits:
   - split: 5
     text: "阁下必是富贵之人，鄙人随时效劳。"
+    translated: "Sir, you must be a wealthy person; I am at your service at any time."
 - raw: "7,5,1000,<,age,看起来这位客官也不像个有钱的样子，想买些什么就自便吧。,1,1"
   splits:
   - split: 5
     text: "看起来这位客官也不像个有钱的样子，想买些什么就自便吧。"
+    translated: "You don't look like you have much money, so help yourself to whatever you want to buy."
 - raw: "8,6,attribute,>,attribute,这位大侠境界高深，在下十分钦佩。,1,1"
   splits:
   - split: 5
     text: "这位大侠境界高深，在下十分钦佩。"
+    translated: "I am greatly impressed by your profound realm, Great Hero."
 - raw: "9,7,attribute,<,attribute,阁下修为根基尚浅、闯荡江湖还需多加磨炼。,1,1"
   splits:
   - split: 5
     text: "阁下修为根基尚浅、闯荡江湖还需多加磨炼。"
+    translated: "Your cultivation foundation is still shallow; you still need much more practice to venture into the Jianghu."
 - raw: "10,8,\"sect,sect\",\"//,!/\",\"sect,0\",阁下与我既有同门手足之谊，自然不必见外，若有所需，但讲无妨。,1,2"
   splits:
   - split: 5
     text: "阁下与我既有同门手足之谊，自然不必见外，若有所需，但讲无妨。"
+    translated: "Sir, since we are fellow disciples, there is no need to be formal. If you require anything, feel free to ask."
 - raw: "11,9,sex,//,1,在下有礼了，不知这位兄台有何指教？,1,1"
   splits:
   - split: 5
     text: "在下有礼了，不知这位兄台有何指教？"
+    translated: "I am at your service, sir. May I ask what you wish to instruct me?"
 - raw: "12,10,sex,!/,1,在下有礼了，不知这位姑娘有何指教？,1,1"
   splits:
   - split: 5
     text: "在下有礼了，不知这位姑娘有何指教？"
+    translated: "I am at your service, miss. May I ask what you wish to discuss?"
 - raw: "13,11,1000,<,age,小可见过前辈，不知道前辈有何指教？,1,1"
   splits:
   - split: 5
     text: "小可见过前辈，不知道前辈有何指教？"
+    translated: "Little Xiao has met Senior before; he doesn't know what the Senior wishes to teach him?"
 - raw: "14,12,\"sex,ager\",\"//,<\",\"1,age\",小兄弟不必拘束，有话直说就好。,1,1"
   splits:
   - split: 5
     text: "小兄弟不必拘束，有话直说就好。"
+    translated: "Little Brother, don't be formal; just say what's on your mind."
 - raw: "15,13,\"sex,ager\",\"!/,>\",\"1,age\",这位姐姐可是有事相询？,1,1"
   splits:
   - split: 5
     text: "这位姐姐可是有事相询？"
+    translated: "Does this sister have a question?"
 - raw: "16,14,\"sex,ager\",\"!/,<\",\"1,age\",这位妹妹可是有事相询？,1,1"
   splits:
   - split: 5
     text: "这位妹妹可是有事相询？"
+    translated: "Does this younger sister have something to ask?"
 - raw: "17,15,1000,<,age,既已结为知交，有何需要不妨直说，无需多虑。,1,1"
   splits:
   - split: 5
     text: "既已结为知交，有何需要不妨直说，无需多虑。"
+    translated: "Now that we are confidants, feel free to speak your mind; there's no need to worry."
 - raw: "18,16,0,//,love,这位朋友看着面生，不知何事要与在下相谈？,1,1"
   splits:
   - split: 5
     text: "这位朋友看着面生，不知何事要与在下相谈？"
+    translated: "This friend looks unfamiliar to me; what brings you here to speak with me?"
 - raw: "19,17,\"80,sex\",\"<,//\",\"love,1\",好兄弟，共患难，有事尽管说来，在下一定尽力。,1,1"
   splits:
   - split: 5
     text: "好兄弟，共患难，有事尽管说来，在下一定尽力。"
+    translated: "Good brother, through thick and thin, speak freely of whatever you have in mind; I will certainly do my best."
 - raw: "20,18,\"80,sex\",\"<,!/\",\"love,1\",好姐妹，有何指教？,1,2"
   splits:
   - split: 5
     text: "好姐妹，有何指教？"
+    translated: "Good sister, what guidance do you have for me?"
 - raw: "21,19,1,//,JiaoQing<JinLan>,既有金兰之义，又为生死之交，若有差遣吩咐，直言便是了。,1,3"
   splits:
   - split: 5
     text: "既有金兰之义，又为生死之交，若有差遣吩咐，直言便是了。"
+    translated: "Having a sworn bond and being lifelong friends, if you have any instructions or requests, just speak them plainly."
 - raw: "22,20,1,//,JiaoQing<JuanLv>,你我既已深情相许，倾心相交。无论何事皆可直言，无须忌讳。,1,3"
   splits:
   - split: 5
     text: "你我既已深情相许，倾心相交。无论何事皆可直言，无须忌讳。"
+    translated: "Since we have pledged our deep affection to each other, we can speak our minds freely without reservation."
 - raw: "23,21,\"sex,1\",\"//,//\",\"1,JiaoQing<PeiOu>\",郎君，妾身既已许卿，相公之事，便是我之事……,1,3"
   splits:
   - split: 5
     text: "郎君，妾身既已许卿，相公之事，便是我之事……"
+    translated: "My lord, since I have pledged myself to you, what concerns you is also my concern......"
 - raw: "24,22,\"sex,1\",\"!/,//\",\"1,JiaoQing<PeiOu>\",夫人，你我既已结发，便不负一生相守，娘子之语，便是我分内所在。,1,3"
   splits:
   - split: 5
     text: "夫人，你我既已结发，便不负一生相守，娘子之语，便是我分内所在。"
+    translated: "Lady, since we have tied the knot, I vow to be by your side for life. Your words are my duty and honor."
 - raw: "25,23,1,//,state,阁下有事可否待我吃完再谈？又或者坐下一同进膳？,1,9"
   splits:
   - split: 5
     text: "阁下有事可否待我吃完再谈？又或者坐下一同进膳？"
+    translated: "May we wait until I finish eating before discussing this? Or would you like to sit down and join me?"
 - raw: "26,24,2,//,state,此人已陷入沉睡，对周遭事物少有防备……,1,99"
   splits:
   - split: 5
     text: "此人已陷入沉睡，对周遭事物少有防备……"
+    translated: "This person has fallen asleep and is not well guarded against their surroundings......"
 - raw: "27,25,3,//,state,正在山野路旁赏景采摘的{0}看见你走来，缓缓开口道:“想不到这位朋友也有如此雅兴，要结伴一起赏花吗？”,1,9"
   splits:
   - split: 5
     text: "正在山野路旁赏景采摘的"
+    translated: "Enjoying the scenery and picking flowers by the roadside in the mountains."
   - split: 5
     subIndex: 1
     text: "看见你走来，缓缓开口道"
+    translated: "Seeing you approach, they slowly spoke"
   - split: 5
     subIndex: 2
     text: "“想不到这位朋友也有如此雅兴，要结伴一起赏花吗？”"
+    translated: "I didn't expect this friend to have such refined tastes. Would you like to join me in admiring the flowers?"
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}:{2}"
@@ -116,9 +144,11 @@
   splits:
   - split: 5
     text: "饶有兴致的看着刚刚采到的草药，开口问道"
+    translated: "With interest, they looked at the herbs just gathered and asked."
   - split: 5
     subIndex: 1
     text: "“你可识得这株花草吗"
+    translated: "'Do you recognize this plant?"
   templates:
   - split: 5
     template: "⟦0⟧{0}:{1}?”"
@@ -126,6 +156,7 @@
   splits:
   - split: 5
     text: "似乎正在聚精会神的观察和思考着什么，看起来不太方便被打扰的样子。"
+    translated: "Seems to be concentrating intently on something, doesn't look like they want to be disturbed."
   templates:
   - split: 5
     template: "(⟦0⟧{0})"
@@ -133,12 +164,15 @@
   splits:
   - split: 5
     text: "身形矫健的"
+    translated: "Nimble-bodied"
   - split: 5
     subIndex: 1
     text: "收起了架势，擦了擦头上的汗，转身对你说到"
+    translated: "Assumed a relaxed stance, wiped the sweat from their forehead, and turned to you, saying"
   - split: 5
     subIndex: 2
     text: "“有钱捧个钱场，无钱捧个人场，都是真功夫！”"
+    translated: "“Support with money if you can, support with presence if you cannot; both are true skills!”"
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}：{2}"
@@ -146,9 +180,11 @@
   splits:
   - split: 5
     text: "（一身蓑衣的"
+    translated: "(In a raincoat,"
   - split: 5
     subIndex: 1
     text: "扭头看向你，朝你摆了摆手）嘘……慢点，别把鱼儿惊跑了。"
+    translated: "Shh... Take it slow, don't scare the fish away.)"
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}"
@@ -156,6 +192,7 @@
   splits:
   - split: 5
     text: "把钓上来的鱼装进竹篓之后，又用力的向前抛了一杆）朋友可有闲情雅致，陪我一起垂钓一番？"
+    translated: "After putting the caught fish in the bamboo basket, I cast the rod forward with force: Do you have the leisure to accompany me for a fishing session?)"
   templates:
   - split: 5
     template: "（⟦0⟧{0}"
@@ -163,9 +200,11 @@
   splits:
   - split: 5
     text: "放下工具后直起腰身，擦了擦额头上的汗，对你说到"
+    translated: "After putting down the tools, they straightened up and wiped the sweat from their forehead, then said to you."
   - split: 5
     subIndex: 1
     text: "“呼……这活儿甚是辛苦，朋友，你有何事如此着急？”"
+    translated: "Huff... This work is quite arduous. Friend, why are you in such a hurry?"
   templates:
   - split: 5
     template: "{0}：{1}"
@@ -173,12 +212,15 @@
   splits:
   - split: 5
     text: "蹲在地上干活的"
+    translated: "Crouching on the ground to work"
   - split: 5
     subIndex: 1
     text: "看见你走近，缓缓的站了起来，沙哑的开口道"
+    translated: "Seeing you approach, they slowly stood up and spoke in a hoarse voice."
   - split: 5
     subIndex: 2
     text: "“这位朋友，有事站在原地说就好，莫要踩到我这块地。”"
+    translated: "Friend, if you have something to say, just stay where you are and don't step on my turf."
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}：{2}"
@@ -186,16 +228,20 @@
   splits:
   - split: 5
     text: "在下适才实在难忍那厮折辱，教训了那厮一番……莫要引来仇怨才是……"
+    translated: "I just couldn't bear that fellow's humiliation any longer and taught him a lesson... Though I hope it doesn't bring about enmity..."
 - raw: "36,34,9,//,state,文人模样的{0}在路边在路边桌案上手执纸笔正在写着什么。听到你步声渐进，头也不抬地说道：“代写书信五文钱一封。”,1,9"
   splits:
   - split: 5
     text: "文人模样的"
+    translated: "A scholar-like figure"
   - split: 5
     subIndex: 1
     text: "在路边在路边桌案上手执纸笔正在写着什么。听到你步声渐进，头也不抬地说道"
+    translated: "At a roadside table, they are holding a brush and writing something on paper. Hearing your footsteps draw near, they don't look up and say,"
   - split: 5
     subIndex: 2
     text: "“代写书信五文钱一封。”"
+    translated: "“Write a letter for five coins per letter.”"
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}：{2}"
@@ -203,13 +249,16 @@
   splits:
   - split: 5
     text: "这郎中家祖传的强身健体的茶汤和他舒筋正骨的手段，真是一绝！"
+    translated: "This doctor's family heirloom health-restoring tea and his skill in setting bones and aligning joints are truly unparalleled!"
 - raw: "38,36,11,//,state,（神态疲惫、面色苍白的{0}懒散的坐在地上，一言不发。）,1,9"
   splits:
   - split: 5
     text: "（神态疲惫、面色苍白的"
+    translated: "(Fatigued and pale-faced,"
   - split: 5
     subIndex: 1
     text: "懒散的坐在地上，一言不发。）"
+    translated: "Slumped lazily on the ground, silent)"
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}"
@@ -217,97 +266,121 @@
   splits:
   - split: 5
     text: "这位朋友，且恕小女子有孕在身，不便施礼。若有何事请直言便好。"
+    translated: "This friend, forgive me as I am with child and cannot bow. If there is anything, please speak plainly."
 - raw: "40,38,\"99,1\",\"//,!/\",\"state,sex\",若是有什么事情，还请阁下快些言讲出来，小女子身怀六甲，眼下便要回房休息去了。,1,9"
   splits:
   - split: 5
     text: "若是有什么事情，还请阁下快些言讲出来，小女子身怀六甲，眼下便要回房休息去了。"
+    translated: "If there's anything you need to say, please do so quickly. I am with child and must return to my room to rest now."
 - raw: "41,39,\"99,1\",\"//,!/\",\"state,sex\",小女子方才从郎中处得知脉象呈喜，此间正要早些回家休息，这位朋友若是有什么事情，还请简单直言。,1,9"
   splits:
   - split: 5
     text: "小女子方才从郎中处得知脉象呈喜，此间正要早些回家休息，这位朋友若是有什么事情，还请简单直言。"
+    translated: "I just heard from the doctor that my pulse indicates good news. I should return home early to rest. If you have anything to say, please be straightforward."
 - raw: "42,40,attribute,<,attribute,以阁下此等武功，还是回炉另造，再练几年吧！,2,1"
   splits:
   - split: 5
     text: "以阁下此等武功，还是回炉另造，再练几年吧！"
+    translated: "With your current martial skill, you'd be better off going back to the drawing board and training for a few more years!"
 - raw: "43,41,1000,<,age,阁下连几两碎银都拿不出来，也配和我谈买卖？,2,1"
   splits:
   - split: 5
     text: "阁下连几两碎银都拿不出来，也配和我谈买卖？"
+    translated: "Sir, if you can't even produce a few taels of silver, how dare you talk business with me?"
 - raw: "44,42,sex,//,1,小的有眼无珠冒犯了大侠，还请高抬贵手放我一马。,3,1"
   splits:
   - split: 5
     text: "小的有眼无珠冒犯了大侠，还请高抬贵手放我一马。"
+    translated: "I was disrespectful and failed to recognize you, Great Hero. Please spare me and let me go."
 - raw: "45,43,1,!/,sex,小女子独身飘零江湖，但有得罪也是身不由己，还请阁下可怜奴家，高抬贵手吧。,3,1"
   splits:
   - split: 5
     text: "小女子独身飘零江湖，但有得罪也是身不由己，还请阁下可怜奴家，高抬贵手吧。"
+    translated: "A lone woman wandering the Jianghu, any offense was beyond my control. I implore you, sir, to have mercy and let me go."
 - raw: "46,44,sex,//,1,看什么看…信不信再多看一眼，老子把你打残了丢去喂狗！,4,1"
   splits:
   - split: 5
     text: "看什么看…信不信再多看一眼，老子把你打残了丢去喂狗！"
+    translated: "Looking at what... believe it or not, if you look at me one more time, I'll give you a glare that will cripple you and feed you to the dogs!"
 - raw: "47,45,1,<,age,久仰英雄大名，今日得见真是三生有幸！,5,1"
   splits:
   - split: 5
     text: "久仰英雄大名，今日得见真是三生有幸！"
+    translated: "I've long admired your reputation, hero! It's a blessing to meet you today!"
 - raw: "48,46,1,<,age,可曾听闻最近有什么江湖轶事吗？,6,1"
   splits:
   - split: 5
     text: "可曾听闻最近有什么江湖轶事吗？"
+    translated: "Have you heard of any recent Jianghu tales?"
 - raw: "49,47,1,<,age,十里八村之内，没有比我消息更灵通的了，想要打听些什么，找在下就对了！,6,1"
   splits:
   - split: 5
     text: "十里八村之内，没有比我消息更灵通的了，想要打听些什么，找在下就对了！"
+    translated: "Within a hundred-mile radius, none have better intel than me. If you want to find out anything, come to me!"
 - raw: "50,50,1,//,sex,店家可有上好的美酒，快些上来几斛。,8,1"
   splits:
   - split: 5
     text: "店家可有上好的美酒，快些上来几斛。"
+    translated: "Do you have any fine wine? Bring me several vats quickly."
 - raw: "51,51,1,!/,sex,店家可有可口的饭菜，快些上来几碟。,8,1"
   splits:
   - split: 5
     text: "店家可有可口的饭菜，快些上来几碟。"
+    translated: "Is there any delicious food? Bring out some dishes quickly."
 - raw: "52,52,1,<,age,不知店家可知近来江湖上有什么轶事传闻？,8,1"
   splits:
   - split: 5
     text: "不知店家可知近来江湖上有什么轶事传闻？"
+    translated: "Do you know of any recent rumors or tales circulating in the Jianghu?"
 - raw: "53,53,1,<,age,这位朋友，既要结识，当须知礼尚往来。这次是要送些什么给在下吗？,9,1"
   splits:
   - split: 5
     text: "这位朋友，既要结识，当须知礼尚往来。这次是要送些什么给在下吗？"
+    translated: "My friend, if you wish to be acquainted, you should know that courtesy demands reciprocity. What do you intend to give me this time?"
 - raw: "54,54,1,//,sex,今日受阁下恩情，来日必以涌泉相报。,10,1"
   splits:
   - split: 5
     text: "今日受阁下恩情，来日必以涌泉相报。"
+    translated: "Today, in gratitude for your kindness, I shall repay you with a thousandfold in the future."
 - raw: "55,55,1,!/,sex,小女子这厢谢过了。,10,1"
   splits:
   - split: 5
     text: "小女子这厢谢过了。"
+    translated: "This humble woman thanks you"
 - raw: "56,56,1,<,age,此番相求，在下确实爱莫能助，实在抱歉。,12,1"
   splits:
   - split: 5
     text: "此番相求，在下确实爱莫能助，实在抱歉。"
+    translated: "This time, I truly cannot assist you, I am very sorry."
 - raw: "57,57,1,<,age,阁下处境，我确实感同身受，奈何有心相助却无能为力啊。,12,1"
   splits:
   - split: 5
     text: "阁下处境，我确实感同身受，奈何有心相助却无能为力啊。"
+    translated: "Sir, I truly empathize with your situation, but alas, though I wish to help, I am unable to do so."
 - raw: "58,58,1,<,age,还请手下留情，点到为止。,13,1"
   splits:
   - split: 5
     text: "还请手下留情，点到为止。"
+    translated: "Please go easy and stop at the limit."
 - raw: "59,59,1,<,age,不必客气，亮招吧。,13,1"
   splits:
   - split: 5
     text: "不必客气，亮招吧。"
+    translated: "No need to be polite, show me what you've got."
 - raw: "60,60,1110003002,//,touchId,木香二钱、甘草一钱……此方竟有如此功效，甚妙，甚妙……,1,98"
   splits:
   - split: 5
     text: "木香二钱、甘草一钱……此方竟有如此功效，甚妙，甚妙……"
+    translated: "Two qians of Magnolia bark, one qian of licorice......This prescription has such effects, truly wonderful, truly wonderful......"
 - raw: "61,61,1110002005,//,touchId,客官，咱店里可有上好的女儿红~您看需要点啥……,1,98"
   splits:
   - split: 5
     text: "客官，咱店里可有上好的女儿红"
+    translated: "Customer, we have some fine Nv Hong wine in stock."
   - split: 5
     subIndex: 1
     text: "您看需要点啥……"
+    translated: "What would you like to order......"
   templates:
   - split: 5
     template: "{0}~{1}"
@@ -315,47 +388,59 @@
   splits:
   - split: 5
     text: "千金散尽还复来，天下武学尽可选。"
+    translated: "When wealth is squandered, it returns; all martial arts are open to choice."
 - raw: "63,63,\"sex,ager,21,0\",\"//,!/,>,<\",\"1,age,love,love\",真是想不到在此处又能与少侠你相遇！,1,1"
   splits:
   - split: 5
     text: "真是想不到在此处又能与少侠你相遇！"
+    translated: "I never expected to meet you again here, Young Hero!"
 - raw: "64,64,\"sex,ager,21,0\",\"!/,!/,>,<\",\"1,age,love,love\",真是想不到在此处又能与女侠你相遇！,1,1"
   splits:
   - split: 5
     text: "真是想不到在此处又能与女侠你相遇！"
+    translated: "I never expected to meet you again here, Miss Heroine!"
 - raw: "65,65,\"ager,0,-21\",\"!/,>,<\",\"age,love,love\",既然来了，有话快说，我没时间浪费在你身上。,1,2"
   splits:
   - split: 5
     text: "既然来了，有话快说，我没时间浪费在你身上。"
+    translated: "Since you're here, get to the point. I don't have time to waste on you."
 - raw: "66,66,\"sex,1,-1,50\",\"!/,//,<,>\",\"1,JiaoQing<PeiOu>,love,love\",贤妻，可是有心事烦忧？为夫愿为贤妻分担，倾听贤妻心声。,1,3"
   splits:
   - split: 5
     text: "贤妻，可是有心事烦忧？为夫愿为贤妻分担，倾听贤妻心声。"
+    translated: "Dear wife, do you have worries on your mind? Your husband is here to share your burden and listen to your heart."
 - raw: "67,67,\"sex,1,-1,50\",\"//,//,<,>\",\"1,JiaoQing<PeiOu>,love,love\",夫君，可是有心事烦忧？妾身愿为夫君分担，倾听夫君心声。,1,3"
   splits:
   - split: 5
     text: "夫君，可是有心事烦忧？妾身愿为夫君分担，倾听夫君心声。"
+    translated: "Husband, are you troubled by something? I am willing to share your burdens and listen to your heart's voice. I am willing to share your burden and listen to your heart."
 - raw: "68,68,1000,<,age,前辈仙风道骨，若有差遣，随时效劳。,1,1"
   splits:
   - split: 5
     text: "前辈仙风道骨，若有差遣，随时效劳。"
+    translated: "Senior, if you have any instructions, I am always at your service."
 - raw: "69,69,friendsSan,>,good,江湖风雨路漫漫，今日得与侠客相遇，实乃生平荣幸。,1,1"
   splits:
   - split: 5
     text: "江湖风雨路漫漫，今日得与侠客相遇，实乃生平荣幸。"
+    translated: "The path through Jianghu is long and filled with wind and rain, it is truly an honor to meet a hero today."
 - raw: "70,70,9,<,love,好个[英武少年||飒爽女侠]，若有所求，尽管开口，我愿效劳一二。,1,1"
   splits:
   - split: 5
     text: "好个"
+    translated: "Well then"
   - split: 5
     subIndex: 1
     text: "英武少年"
+    translated: "Valiant Youth"
   - split: 5
     subIndex: 2
     text: "飒爽女侠"
+    translated: "Dashing Female Heroine"
   - split: 5
     subIndex: 3
     text: "，若有所求，尽管开口，我愿效劳一二。"
+    translated: ", If you have a request, feel free to ask; I am willing to help."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -363,40 +448,50 @@
   splits:
   - split: 5
     text: "不愧是江湖扬名的豪客，若有急需，尽管开口，我必竭尽所能，助你一臂之力。"
+    translated: "Well-deserved reputation in Jianghu, if you ever find yourself in dire need, do not hesitate to ask; I will do my utmost to lend you a hand."
 - raw: "72,72,\"ager,0\",\"<,<\",\"age,love\",少侠你阅历尚浅，江湖风波不断，需得万分小心。,1,1"
   splits:
   - split: 5
     text: "少侠你阅历尚浅，江湖风波不断，需得万分小心。"
+    translated: "Young Hero, your experience is still limited; the Jianghu is full of unpredictable dangers, so you must be extremely cautious."
 - raw: "73,73,-20,>,love,旧日结下的梁子，是要今日一起算吗？,1,98"
   splits:
   - split: 5
     text: "旧日结下的梁子，是要今日一起算吗？"
+    translated: "Are the old scores to be settled today?"
 - raw: "74,74,-40,>,love,想不到今日又与你这死对头见面，真是冤家路窄。,1,98"
   splits:
   - split: 5
     text: "想不到今日又与你这死对头见面，真是冤家路窄。"
+    translated: "It's a real case of enemies meeting by chance to see you again today."
 - raw: "75,75,-70,>,love,我与你不共戴天，无话可说。,1,98"
   splits:
   - split: 5
     text: "我与你不共戴天，无话可说。"
+    translated: "I have nothing to say to you; we cannot live under the same sky."
 - raw: "76,76,20,//,state,其人一招一式，颇有江湖高手的风范，须多向其请教才是……,1,9"
   splits:
   - split: 5
     text: "其人一招一式，颇有江湖高手的风范，须多向其请教才是……"
+    translated: "That person's moves and styles have the bearing of a Jianghu master; I must seek their guidance..."
 - raw: "77,77,10,>,age,孩子似有些疲累，注意力已飘到别处去了，暂且莫要打扰这孩子了吧。,1,99"
   splits:
   - split: 5
     text: "孩子似有些疲累，注意力已飘到别处去了，暂且莫要打扰这孩子了吧。"
+    translated: "The child seems tired and distracted, let's not disturb them for now."
 - raw: "78,78,21,//,state,身形矫健的{0}收起了架势，擦了擦头上的汗，转身对你说到：“朋友有何事找我?”,1,9"
   splits:
   - split: 5
     text: "身形矫健的"
+    translated: "Nimble-bodied"
   - split: 5
     subIndex: 1
     text: "收起了架势，擦了擦头上的汗，转身对你说到"
+    translated: "Assumed a relaxed stance, wiped the sweat from their forehead, and turned to you, saying"
   - split: 5
     subIndex: 2
     text: "“朋友有何事找我"
+    translated: "'What brings you to see me, friend?"
   templates:
   - split: 5
     template: "{0}⟦0⟧{1}：{2}?”"
@@ -404,165 +499,206 @@
   splits:
   - split: 5
     text: "少侠，我这的兵刃可是应有尽有，何不来瞧上一瞧。"
+    translated: "Young Hero, my place has all sorts of weapons, why not come and take a look."
 - raw: "80,80,1,>,health,此人已奄奄一息，全无求生之意，若然再行拷打，只怕有死无生……,14,1"
   splits:
   - split: 5
     text: "此人已奄奄一息，全无求生之意，若然再行拷打，只怕有死无生……"
+    translated: "This person is on the verge of death, with no will to live. If they are tortured further, there may be no hope of survival..."
 - raw: "81,81,0,<,health,速速放我离去，否则我之亲朋定不会饶你！,14,1"
   splits:
   - split: 5
     text: "速速放我离去，否则我之亲朋定不会饶你！"
+    translated: "Hurry and let me go, or else my kin will never forgive you!"
 - raw: "82,,,,,不同服从度不同开头话,,"
   splits:
   - split: 5
     text: "不同服从度不同开头话"
+    translated: "Different opening lines for different levels of obedience"
 - raw: "83,82,0,<,age,江湖上近来可是又有了什么新鲜事？还请阁下为我述来。,15,1"
   splits:
   - split: 5
     text: "江湖上近来可是又有了什么新鲜事？还请阁下为我述来。"
+    translated: "Have there been any recent news in the Jianghu? I would be grateful if you could tell me about them."
 - raw: "84,83,0,<,age,坊间传闻……阁下行踪不定，此来寻我，可是有事相谈？,15,1"
   splits:
   - split: 5
     text: "坊间传闻……阁下行踪不定，此来寻我，可是有事相谈？"
+    translated: "Rumors in town...Lord, your whereabouts are unpredictable. Coming to seek me now, is there something you wish to discuss?"
 - raw: "85,84,0,<,age,无事不登三宝殿，阁下此来定有缘故，可有什么事情告知？,15,1"
   splits:
   - split: 5
     text: "无事不登三宝殿，阁下此来定有缘故，可有什么事情告知？"
+    translated: "You don't visit the Three Treasures Hall without reason, sir. What brings you here today? Is there something you wish to tell me?"
 - raw: "86,85,0,<,age,阁下特来寻我，定是有要事相谈，在下洗耳恭听。,15,1"
   splits:
   - split: 5
     text: "阁下特来寻我，定是有要事相谈，在下洗耳恭听。"
+    translated: "Sir, your special visit must mean you have important matters to discuss. I am all ears."
 - raw: "87,86,1,//,JiaoQing<JinLan>,你我金兰情深义重，无需多言，特此前来，可是探得些许江湖隐秘，特来与我共商？,15,98"
   splits:
   - split: 5
     text: "你我金兰情深义重，无需多言，特此前来，可是探得些许江湖隐秘，特来与我共商？"
+    translated: "Our Sworn Bond is deep and meaningful, so there's no need for words. You've come here with some secrets of the Jianghu to share and discuss with me?"
 - raw: "88,87,\"sex,1\",\"!/,//\",\"1,JiaoQing<JuanLv>\",娘子既至此，定然是有些见闻趣事？,15,98"
   splits:
   - split: 5
     text: "娘子既至此，定然是有些见闻趣事？"
+    translated: "Wife, since you've arrived here, there must be some interesting stories to share?"
 - raw: "89,88,\"sex,1\",\"//,//\",\"1,JiaoQing<JuanLv>\",郎君既至此，定然是有些见闻趣事？快为妾身言讲！,15,98"
   splits:
   - split: 5
     text: "郎君既至此，定然是有些见闻趣事？快为妾身言讲！"
+    translated: "My lord, since you're here, there must be some interesting tales to tell! Do tell me quickly!"
 - raw: "90,89,\"sex,1\",\"!/,//\",\"1,JiaoQing<PeiOu>\",贤妻面有喜色，可是有携佳音，要与我同享？,15,98"
   splits:
   - split: 5
     text: "贤妻面有喜色，可是有携佳音，要与我同享？"
+    translated: "Your virtuous wife looks pleased. Do you have good news to share with me?"
 - raw: "91,90,\"sex,1\",\"//,//\",\"1,JiaoQing<PeiOu>\",夫君面有喜色，可是有携佳音，要与我同享？,15,98"
   splits:
   - split: 5
     text: "夫君面有喜色，可是有携佳音，要与我同享？"
+    translated: "Husband, your face shows joy. Do you have good news to share with me?"
 - raw: "92,91,1,//,JiaoQing<ChouDi>,冤家路窄，仇敌相逢，你来寻我，可是杀我心切吗？,15,98"
   splits:
   - split: 5
     text: "冤家路窄，仇敌相逢，你来寻我，可是杀我心切吗？"
+    translated: "Rivals meeting in narrow paths, enemies encountering each other. You came to look for me-do you thirst for my death?"
 - raw: "93,92,0,//,love,虽未有幸识得侠士，这番巧遇江湖亦属有缘，却不知是有何事欲与在下相谈？,1,1"
   splits:
   - split: 5
     text: "虽未有幸识得侠士，这番巧遇江湖亦属有缘，却不知是有何事欲与在下相谈？"
+    translated: "Though I haven't had the pleasure of meeting you, Hero, this chance encounter in Jianghu seems fated. May I ask what brings you to speak with me?"
 - raw: "94,93,0,//,love,江湖多艰，今日有幸初识侠士，不知有何见教？,1,1"
   splits:
   - split: 5
     text: "江湖多艰，今日有幸初识侠士，不知有何见教？"
+    translated: "The ways of Jianghu are perilous; it is a pleasure to meet you today, Hero. What brings you here?"
 - raw: "95,94,0,//,love,茫茫江湖，有幸相逢已属不易，若有失礼之处，还望侠士海涵。,1,1"
   splits:
   - split: 5
     text: "茫茫江湖，有幸相逢已属不易，若有失礼之处，还望侠士海涵。"
+    translated: "In the vast Jianghu, it is already rare to meet, so I hope you will forgive any breaches of etiquette."
 - raw: "96,95,0,//,love,酒逢知己千杯少，话不投机半句多，阁下若是与我意气相投，你我未尝不能互称一声知交。,1,1"
   splits:
   - split: 5
     text: "酒逢知己千杯少，话不投机半句多，阁下若是与我意气相投，你我未尝不能互称一声知交。"
+    translated: "A kindred spirit needs no more than a nod; a mismatched conversation holds no interest. If you find yourself in accord with me, we may call each other confidants."
 - raw: "97,96,0,//,love,江湖巧遇，萍水之逢，不知阁下此来寻我意欲何为？,1,1"
   splits:
   - split: 5
     text: "江湖巧遇，萍水之逢，不知阁下此来寻我意欲何为？"
+    translated: "Meeting in the Jianghu, a chance encounter-what do you seek by coming to find me?"
 - raw: "98,97,0,//,love,江湖风云变幻，侠客于此间行走需多加小心……言尽于此。,1,1"
   splits:
   - split: 5
     text: "江湖风云变幻，侠客于此间行走需多加小心……言尽于此。"
+    translated: "The winds of change in Jianghu are fickle; heroes who walk these paths must be extra cautious... Words end here."
 - raw: "99,98,0,//,love,草莽之中，行走无定，相遇便是有缘，却不知是有何事相谈？,1,1"
   splits:
   - split: 5
     text: "草莽之中，行走无定，相遇便是有缘，却不知是有何事相谈？"
+    translated: "Amid the wilderness, wandering without fixed direction, to meet is to be fate-bound, yet I wonder what matter there is to discuss?"
 - raw: "100,99,0,<,love,阁下天资卓越，日后定然大有作为，若然有何需相助的尽来寻我便是。,1,1"
   splits:
   - split: 5
     text: "阁下天资卓越，日后定然大有作为，若然有何需相助的尽来寻我便是。"
+    translated: "Sir, you are exceptionally talented and are sure to achieve great things in the future. If you ever need any help, feel free to come to me."
 - raw: "101,100,0,<,love,江湖险恶，需慎言慎行，明哲保身才是……,1,1"
   splits:
   - split: 5
     text: "江湖险恶，需慎言慎行，明哲保身才是……"
+    translated: "The world of Jianghu is perilous; one must be cautious with words and deeds, preserving oneself wisely is the way..."
 - raw: "102,101,0,<,love,江湖多舛，再次与侠士相遇，实是有缘，不知可是有事相谈？,1,1"
   splits:
   - split: 5
     text: "江湖多舛，再次与侠士相遇，实是有缘，不知可是有事相谈？"
+    translated: "The ways of Jianghu are fraught with hardship. To meet you again, Hero, is indeed karmic. Do you have something to discuss?"
 - raw: "103,102,0,<,love,多次相见，不知可有何事需在下所助？,1,1"
   splits:
   - split: 5
     text: "多次相见，不知可有何事需在下所助？"
+    translated: "Having met so many times, is there something you need my help with?"
 - raw: "104,103,0,>,love,呵，又是阁下，此来可是又有何事寻我么？,1,1"
   splits:
   - split: 5
     text: "呵，又是阁下，此来可是又有何事寻我么？"
+    translated: "Ha, it's you again. Do you seek me for some reason once more?"
 - raw: "105,104,0,>,love,……之前事尚且在目，阁下竟还敢再来寻我？,1,1"
   splits:
   - split: 5
     text: "……之前事尚且在目，阁下竟还敢再来寻我？"
+    translated: "...The past is still fresh in my mind, yet you dare to seek me out again?"
 - raw: "106,105,9,<,love,再遇阁下，倍感欣慰，可有何事是在下可代为效劳的吗？,1,1"
   splits:
   - split: 5
     text: "再遇阁下，倍感欣慰，可有何事是在下可代为效劳的吗？"
+    translated: "Meeting you again brings me great joy. Is there anything I can do for you?"
 - raw: "107,106,9,<,love,你近来莫不是惹上什么麻烦了，四处都是你的流言传闻……,1,1"
   splits:
   - split: 5
     text: "你近来莫不是惹上什么麻烦了，四处都是你的流言传闻……"
+    translated: "Have you been getting into trouble lately? Rumors about you are everywhere..."
 - raw: "108,107,\"0,1\",\">,//\",\"love,JiaoQing<JinLan>\",兄弟情淡，各自独行，念及昔日情义，莫要逼在下说什么重话。,1,3"
   splits:
   - split: 5
     text: "兄弟情淡，各自独行，念及昔日情义，莫要逼在下说什么重话。"
+    translated: "Fraternity fades, each goes their own way; thinking of old ties, do not press me to say harsh words."
 - raw: "109,108,\"-1,1\",\"<,//\",\"love,JiaoQing<JinLan>\",你我情深义重，生死共，荣辱同，有何事相求，都尽管讲来。,1,3"
   splits:
   - split: 5
     text: "你我情深义重，生死共，荣辱同，有何事相求，都尽管讲来。"
+    translated: "Our bond is deep and strong, through life and death, honor and disgrace. Whatever you seek, speak freely."
 - raw: "110,109,\"29,1\",\"<,//\",\"love,JiaoQing<JinLan>\",知己，江湖多艰险，切勿轻忽……,1,3"
   splits:
   - split: 5
     text: "知己，江湖多艰险，切勿轻忽……"
+    translated: "Friend, the Jianghu is perilous; do not be careless..."
 - raw: "111,110,\"49,1\",\"<,//\",\"love,JiaoQing<JinLan>\",吾等情深义重，相伴江湖，誓言同心，有何际遇但讲给我听无妨。,1,3"
   splits:
   - split: 5
     text: "吾等情深义重，相伴江湖，誓言同心，有何际遇但讲给我听无妨。"
+    translated: "We are bound by deep affection and righteousness, companions in the Jianghu, our vows to be united in heart. Tell me of any encounters you have had without reservation."
 - raw: "112,111,\"0,1\",\">,//\",\"love,JiaoQing<JuanLv>\",情淡似水，各自逍遥，愿你我各安其道，莫再生间隙，我……言尽于此。,1,3"
   splits:
   - split: 5
     text: "情淡似水，各自逍遥，愿你我各安其道，莫再生间隙，我……言尽于此。"
+    translated: "Our feelings are as shallow as water, each of us free to our own paths. May you and I find peace in our own separate paths, without further discord. I... say no more."
 - raw: "113,112,\"-1,1\",\"<,//\",\"love,JiaoQing<JuanLv>\",卿我情深，心心相印，有事来寻我，何妨直言？,1,3"
   splits:
   - split: 5
     text: "卿我情深，心心相印，有事来寻我，何妨直言？"
+    translated: "Our feelings are deep, our hearts resonate. If you have something to say, do not hesitate to speak freely."
 - raw: "114,113,\"29,1\",\"<,//\",\"love,JiaoQing<JuanLv>\",此生若有所求，只求与卿厮守月下花前，这便足矣……,1,3"
   splits:
   - split: 5
     text: "此生若有所求，只求与卿厮守月下花前，这便足矣……"
+    translated: "In this life, if I have any wish, it is to be by your side under the moon and among the flowers... that would be enough..."
 - raw: "115,114,\"49,1\",\"<,//\",\"love,JiaoQing<JuanLv>\",与卿共度，纵千山万水，亦相知相守，誓言不离不弃，你我之情，又何须言语多说……,1,3"
   splits:
   - split: 5
     text: "与卿共度，纵千山万水，亦相知相守，誓言不离不弃，你我之情，又何须言语多说……"
+    translated: "With you, even across mountains and rivers, I vow to know and keep you, never to part, so why speak more words of our bond..."
 - raw: "116,115,\"0,1\",\">,//\",\"love,JiaoQing<PeiOu>\",情虽淡薄，仍愿各自安好，将来之事……且行且观之罢……,1,3"
   splits:
   - split: 5
     text: "情虽淡薄，仍愿各自安好，将来之事……且行且观之罢……"
+    translated: "Though feelings are shallow, I still wish for each of us to be well. As for the future... let us see as we go..."
 - raw: "117,116,\"-1,1\",\"<,//\",\"love,JiaoQing<PeiOu>\",与卿结缘，已别无所求，卿近来所遇何事，何不与我言说一二？,1,3"
   splits:
   - split: 5
     text: "与卿结缘，已别无所求，卿近来所遇何事，何不与我言说一二？"
+    translated: "Having met you, I ask for nothing more. What have you encountered lately? Why not tell me about it?"
 - raw: "118,117,\"49,1\",\"<,//\",\"love,JiaoQing<PeiOu>\",一路奔波，可用了餐饭?有何事且与我慢慢述来，你我夫妻，无论何事都需同身面对才好。,1,3"
   splits:
   - split: 5
     text: "一路奔波，可用了餐饭"
+    translated: "After all that travel, I finally got to eat."
   - split: 5
     subIndex: 1
     text: "有何事且与我慢慢述来，你我夫妻，无论何事都需同身面对才好。"
+    translated: "Tell me what's on your mind. As husband and wife, we should face anything together."
   templates:
   - split: 5
     template: "{0}?{1}"
@@ -570,24 +706,30 @@
   splits:
   - split: 5
     text: "你我恩怨，非刀剑说话，定难善了，又来寻我是要做甚？"
+    translated: "Our grudge isn't settled by blades and swords; it's hard to resolve peacefully. Why are you coming to see me again?"
 - raw: "120,119,1,//,JiaoQing<ChouDi>,你我水火难容，唯有啖尔鲜血，啮尔亲骨，方可了我怨仇！,1,3"
   splits:
   - split: 5
     text: "你我水火难容，唯有啖尔鲜血，啮尔亲骨，方可了我怨仇！"
+    translated: "You and I are like water and fire, incompatible! Only by drinking your blood and gnawing on your flesh can I satisfy my vengeance!"
 - raw: "121,120,1,//,JiaoQing<ChouDi>,你我恩怨深重，我恨不能啜食你心头血肉，方能平息我心头怒火！,1,3"
   splits:
   - split: 5
     text: "你我恩怨深重，我恨不能啜食你心头血肉，方能平息我心头怒火！"
+    translated: "Our grudge runs deep; I cannot quench my rage until I drink the flesh from your heart!"
 - raw: "122,121,1110002009,//,touchId,[小伙子||小姑娘]，可要来两个糖人儿消遣？,1,98"
   splits:
   - split: 5
     text: "小伙子"
+    translated: "Young man"
   - split: 5
     subIndex: 1
     text: "小姑娘"
+    translated: "Little Miss"
   - split: 5
     subIndex: 2
     text: "，可要来两个糖人儿消遣？"
+    translated: ", Want some candy figurines to pass the time?"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -595,37 +737,46 @@
   splits:
   - split: 5
     text: "阁下竟欲图谋不轨，若不退去，莫怪在下不留情面！当真出手，是死是活，且看你造化了！"
+    translated: "Sir, you dare to scheme against me! If you do not withdraw, do not blame me for showing no mercy! Should I take action, whether you live or die will be up to your own fate!"
 - raw: "124,123,1,//,JiaoQing<JinLan>,你我金兰结义，却是横刀相对么？速退去，我只当此间无事，否则……莫怪我不留情面了！,16,2"
   splits:
   - split: 5
     text: "你我金兰结义，却是横刀相对么？速退去，我只当此间无事，否则……莫怪我不留情面了！"
+    translated: "You and I formed a Sworn Bond, yet here we stand with blades drawn against each other? Step back at once, or I shall consider this no trivial matter and show you no mercy!"
 - raw: "125,124,1,//,JiaoQing<JuanLv>,你我眷侣情深，为何横刀相对么？,16,2"
   splits:
   - split: 5
     text: "你我眷侣情深，为何横刀相对么？"
+    translated: "Why do you stand before me with a blade, when our love is so deep?"
 - raw: "126,125,1,//,JiaoQing<PeiOu>,一日夫妻百日恩，你如此做行为，可是视我二人之情为无物……？,16,2"
   splits:
   - split: 5
     text: "一日夫妻百日恩，你如此做行为，可是视我二人之情为无物……？"
+    translated: "A hundred days of affection for one day as husband and wife, your actions show that you regard our feelings as nothing...?"
 - raw: "127,126,1,//,JiaoQing<ChouDi>,你我深仇大恨，正该寻你了却此间仇怨！不想倒撞上门来，也罢，今日你我定要将此恩怨了结！,16,2"
   splits:
   - split: 5
     text: "你我深仇大恨，正该寻你了却此间仇怨！不想倒撞上门来，也罢，今日你我定要将此恩怨了结！"
+    translated: "Our deep hatred demands that I seek you out to settle this grudge! Yet here I've come to your door instead. Very well, today we shall put an end to this feud once and for all!"
 - raw: "128,127,\"1,1\",\"<,//\",\"gymsOwnerId,gymsStaffType\",朋友此来鄙馆，不知有何见教？,17,1"
   splits:
   - split: 5
     text: "朋友此来鄙馆，不知有何见教？"
+    translated: "What brings you to my humble inn?"
 - raw: "129,128,\"1,2,0\",\"//,//,//\",\"gymsOwnerId,gymsStaffType,gymsDefierId\",弟子见过馆主！不知馆主可有吩咐？,17,1"
   splits:
   - split: 5
     text: "弟子见过馆主！不知馆主可有吩咐？"
+    translated: "Disciple greets the Pavilion Lord! Does the Pavilion Lord have any instructions?"
 - raw: "130,129,\"1,2,0\",\"//,//,!/\",\"gymsOwnerId,gymsStaffType,gymsDefierId\",\"馆主,那人气势汹汹，自号是来……来踢馆的！\",17,1"
   splits:
   - split: 5
     text: "馆主"
+    translated: "Hostess"
   - split: 5
     subIndex: 1
     text: "那人气势汹汹，自号是来……来踢馆的！"
+    translated: "That person came with great momentum, declaring themselves here to challenge the dojo!"
   templates:
   - split: 5
     template: "{0},{1}"
@@ -633,39 +784,49 @@
   splits:
   - split: 5
     text: "来者何人，有何指教？"
+    translated: "Who comes, and what do you seek?"
 - raw: "132,131,\"1,3,0\",\"//,//,//\",\"gymsOwnerId,gymsStaffType,gymsDefierId\",参见馆主！,17,1"
   splits:
   - split: 5
     text: "参见馆主！"
+    translated: "See the curator!"
 - raw: "133,132,\"1,3,0\",\"//,//,!/\",\"gymsOwnerId,gymsStaffType,gymsDefierId\",馆主您终于回来了，有人前来踢馆，我等不是对手，还望馆主出手，以正视听！,17,1"
   splits:
   - split: 5
     text: "馆主您终于回来了，有人前来踢馆，我等不是对手，还望馆主出手，以正视听！"
+    translated: "Master Innkeeper, you're finally back! Someone came to challenge the inn, and we couldn't handle them. We hope you'll step in to set things right!"
 - raw: "134,133,\"1,3\",\"<,//\",\"gymsOwnerId,gymsStaffType\",此来鄙馆，可是有事相询？,17,1"
   splits:
   - split: 5
     text: "此来鄙馆，可是有事相询？"
+    translated: "Did you come to my humble inn with a question?"
 - raw: "135,134,\"1,4\",\"//,//\",\"gymsOwnerId,gymsStaffType\",阁下便是此间馆主？如此甚好，今日若你手上功夫太软，被我夺去此位，可怨不得旁人！,17,1"
   splits:
   - split: 5
     text: "阁下便是此间馆主？如此甚好，今日若你手上功夫太软，被我夺去此位，可怨不得旁人！"
+    translated: "Are you the master of this establishment? Very well, if your skills are too weak today and I take this position from you, don't blame others!"
 - raw: "136,135,\"1,5\",\"//,//\",\"gymsOwnerId,gymsStaffType\",请馆主放心，我会守护好这里的！,17,1"
   splits:
   - split: 5
     text: "请馆主放心，我会守护好这里的！"
+    translated: "Please rest assured, Pavilion Lord, I will protect this place!"
 - raw: "137,160,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",……我之事自有我独自料理，[爹||娘]莫要多问。,1,3"
   splits:
   - split: 5
     text: "……我之事自有我独自料理，"
+    translated: "...My affairs I shall handle alone."
   - split: 5
     subIndex: 1
     text: "爹"
+    translated: "Father"
   - split: 5
     subIndex: 2
     text: "娘"
+    translated: "Mother"
   - split: 5
     subIndex: 3
     text: "莫要多问。"
+    translated: "Don't ask anymore"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -673,27 +834,34 @@
   splits:
   - split: 5
     text: "……又有何事？"
+    translated: "...What is it now?"
 - raw: "139,162,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",远些远些，莫来烦我！,1,3"
   splits:
   - split: 5
     text: "远些远些，莫来烦我！"
+    translated: "Stay back, don't bother me!"
 - raw: "140,163,\"-1,50,id\",\"<,>,//\",\"love,love,JiaoQing<FuMu>\",爹娘放心，孩儿此后行走江湖，自会小心行事。,1,3"
   splits:
   - split: 5
     text: "爹娘放心，孩儿此后行走江湖，自会小心行事。"
+    translated: "Rest assured, parents. From now on, as I travel through Jianghu, I will be careful in all my actions."
 - raw: "141,164,\"-1,50,id\",\"<,>,//\",\"love,love,JiaoQing<FuMu>\",孩儿此后必当日夜勤勉，以护[爹||娘]一生周全。,1,3"
   splits:
   - split: 5
     text: "孩儿此后必当日夜勤勉，以护"
+    translated: "I will henceforth strive day and night to protect [the one being addressed]."
   - split: 5
     subIndex: 1
     text: "爹"
+    translated: "Father"
   - split: 5
     subIndex: 2
     text: "娘"
+    translated: "Mother"
   - split: 5
     subIndex: 3
     text: "一生周全。"
+    translated: "A life of perfection"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -701,66 +869,82 @@
   splits:
   - split: 5
     text: "独踏江湖，方知双亲恩重……"
+    translated: "Walking alone in the Jianghu, one truly understands the depth of one's parents' love......"
 - raw: "143,166,\"49,id\",\"<,//\",\"love,JiaoQing<FuMu>\",江湖虽波谲云诡，但孩儿自会坚守本心，多行侠义之举。,1,3"
   splits:
   - split: 5
     text: "江湖虽波谲云诡，但孩儿自会坚守本心，多行侠义之举。"
+    translated: "Though the Jianghu is unpredictable, I shall remain true to my heart and do much good."
 - raw: "144,167,\"49,id\",\"<,//\",\"love,JiaoQing<FuMu>\",孩儿欲多知些爹娘昔年相识的往事，可否再同孩儿讲讲？,1,3"
   splits:
   - split: 5
     text: "孩儿欲多知些爹娘昔年相识的往事，可否再同孩儿讲讲？"
+    translated: "Child wishes to know more about Father and Mother's past encounters, may I hear the story once again?"
 - raw: "145,168,\"49,id\",\"<,//\",\"love,JiaoQing<FuMu>\",孩儿如今已能照顾自己，倒是爹娘年华渐高，要多多保重身体才是。,1,3"
   splits:
   - split: 5
     text: "孩儿如今已能照顾自己，倒是爹娘年华渐高，要多多保重身体才是。"
+    translated: "Now that I can take care of myself, Father and Mother are getting older, so you must take good care of your health."
 - raw: "146,169,\"59,id\",\"<,//\",\"love,JiaoQing<TuDi>\",徒儿近日进益不小，但切记勿过劳神，欲速不达。,1,3"
   splits:
   - split: 5
     text: "徒儿近日进益不小，但切记勿过劳神，欲速不达。"
+    translated: "Disciple, your recent progress has been significant, but remember not to overexert yourself. Haste makes waste."
 - raw: "147,170,\"60,id\",\">,//\",\"love,JiaoQing<TuDi>\",……行走江湖若闯了祸，可莫要说是我的徒弟。,1,3"
   splits:
   - split: 5
     text: "……行走江湖若闯了祸，可莫要说是我的徒弟。"
+    translated: "...If you get into trouble in the Jianghu, don't say that you are my disciple."
 - raw: "148,171,\"29,id\",\"<,//\",\"love,JiaoQing<ShiFu>\",师父，先前那招我仍有些领会不透，若有闲暇，可否……,1,3"
   splits:
   - split: 5
     text: "师父，先前那招我仍有些领会不透，若有闲暇，可否……"
+    translated: "Master, I still don't fully understand that move from before. If you have the time, could you..."
 - raw: "149,172,\"30,id\",\">,//\",\"love,JiaoQing<ShiFu>\",师父所教所传，尽是些陈旧把式……,1,3"
   splits:
   - split: 5
     text: "师父所教所传，尽是些陈旧把式……"
+    translated: "What my master taught and passed down are just outdated techniques..."
 - raw: "150,173,\"29,id\",\"<,//\",\"love,JiaoQing<ZhiJiao>\",别来无恙！不想你修为更有精进，可是碰着了什么奇遇？,1,3"
   splits:
   - split: 5
     text: "别来无恙！不想你修为更有精进，可是碰着了什么奇遇？"
+    translated: "Long time no see! I didn't expect your Cultivation to have advanced so much. Did you encounter some extraordinary opportunities?"
 - raw: "151,174,\"30,id\",\">,//\",\"love,JiaoQing<ZhiJiao>\",许久未见，你这“江湖大侠”的谱，可是摆得越发像样了。,1,3"
   splits:
   - split: 5
     text: "许久未见，你这“江湖大侠”的谱，可是摆得越发像样了。"
+    translated: "It's been a long time. Your demeanor as a Great Hero of Jianghu has become even more impressive."
 - raw: "152,175,\"59,id\",\"<,//\",\"love,JiaoQing<TuDi>\",徒儿寻为师何事？你当潜心习武，勿三心二意。,1,3"
   splits:
   - split: 5
     text: "徒儿寻为师何事？你当潜心习武，勿三心二意。"
+    translated: "Disciple, why have you sought out your master? You should focus on training in martial arts and not be distracted."
 - raw: "153,176,\"59,id\",\"<,//\",\"love,JiaoQing<TuDi>\",武道一途，切忌闭门造车，徒儿可有何困惑，需为师开解一二？,1,3"
   splits:
   - split: 5
     text: "武道一途，切忌闭门造车，徒儿可有何困惑，需为师开解一二？"
+    translated: "The path of martial arts forbids isolation; do you have any doubts, Disciple, that need Master to clarify?"
 - raw: "154,177,\"29,id\",\"<,//\",\"love,JiaoQing<ShiFu>\",弟子见过师父，敢问师父有何吩咐？,1,3"
   splits:
   - split: 5
     text: "弟子见过师父，敢问师父有何吩咐？"
+    translated: "Disciple greets Master. May I ask what Master commands?"
 - raw: "155,178,\"29,id\",\"<,//\",\"love,JiaoQing<ShiFu>\",师尊相唤，不知有何嘱咐，可需弟子效劳？,1,3"
   splits:
   - split: 5
     text: "师尊相唤，不知有何嘱咐，可需弟子效劳？"
+    translated: "Master calls, wondering what instructions there are for me to follow?"
 - raw: "156,179,\"29,id\",\"<,//\",\"love,JiaoQing<ZhiJiao>\",你我既已知心相交，有事便莫要再三遮隐，不妨直言。,1,3"
   splits:
   - split: 5
     text: "你我既已知心相交，有事便莫要再三遮隐，不妨直言。"
+    translated: "Since we have already shared our hearts, there's no need to hide anything; speak freely."
 - raw: "157,180,\"29,id\",\"<,//\",\"love,JiaoQing<ZhiJiao>\",lp，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。,1,3"
   splits:
   - split: 5
     text: "，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。"
+    translated: ", Since we are close friends, there's no need to hold back anything! Speak your mind freely."
   templates:
   - split: 5
     template: "lp{0}"
@@ -768,111 +952,139 @@
   splits:
   - split: 5
     text: "不忙，不忙。徒儿可是有何见闻解悟，要这般急着与为师讲？"
+    translated: "Not in a hurry, not in a hurry. Disciple, is there something you've seen or understood that you need to tell me so urgently?"
 - raw: "159,182,id,//,JiaoQing<ShiFu>,师父见识广博，所言必有深意，弟子当谨记于心！,15,98"
   splits:
   - split: 5
     text: "师父见识广博，所言必有深意，弟子当谨记于心！"
+    translated: "Master has broad knowledge; what he says must have deep meaning. I shall keep it in mind!"
 - raw: "160,183,id,//,JiaoQing<ZhiJiao>,嗯？江湖趣事？你可曾听闻江湖今日风传……,15,98"
   splits:
   - split: 5
     text: "嗯？江湖趣事？你可曾听闻江湖今日风传……"
+    translated: "Hm? Tales of the Jianghu? Have you heard the latest rumors circulating in the Jianghu today...?"
 - raw: "161,184,id,//,JiaoQing<TuDi>,逆徒，我悉心教你本事，却对为师刀剑相向！,16,2"
   splits:
   - split: 5
     text: "逆徒，我悉心教你本事，却对为师刀剑相向！"
+    translated: "Rebellious disciple, I taught you all my skills with care, yet you turn your blade and sword against me!"
 - raw: "162,185,id,//,JiaoQing<ShiFu>,师父！徒儿并无过错，师父何故要夺徒儿性命？,16,2"
   splits:
   - split: 5
     text: "师父！徒儿并无过错，师父何故要夺徒儿性命？"
+    translated: "Master! I have done nothing wrong; why do you seek to take my life?"
 - raw: "163,186,id,//,JiaoQing<ZhiJiao>,你我本是知心相交，你究竟为何要对好友痛下杀手？,16,2"
   splits:
   - split: 5
     text: "你我本是知心相交，你究竟为何要对好友痛下杀手？"
+    translated: "You and I were once close friends-why did you turn on your friend with such violence?"
 - raw: "164,200,,,,阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,18,1"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "165,300,,,,破财消灾……破财消灾……,19,1"
   splits:
   - split: 5
     text: "破财消灾……破财消灾……"
+    translated: "Spend money to avoid misfortune......Spend money to avoid misfortune......"
 - raw: "166,301,id,//,JiaoQing<FuMu>,阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "167,302,\"id,1\",\"//,//\",\"JiaoQing<PeiOu>,sex\",阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "168,303,\"id,2\",\"//,//\",\"JiaoQing<PeiOu>,sex\",阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "169,304,id,//,JiaoQing<JinLan>,阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "170,305,\"id,1,age\",\"//,//,<\",\"JiaoQing<TongHuai>,sex,age\",阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "171,306,\"id,1,age\",\"//,//,>\",\"JiaoQing<TongHuai>,sex,age\",阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "172,307,\"id,2,age\",\"//,//,<\",\"JiaoQing<TongHuai>,sex,age\",阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "173,308,\"id,2,age\",\"//,//,>\",\"JiaoQing<TongHuai>,sex,age\",阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,19,2"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "174,350,,,,阁下既已得偿所愿……可愿放在下离去？,20,1"
   splits:
   - split: 5
     text: "阁下既已得偿所愿……可愿放在下离去？"
+    translated: "My lord, since you have had your wish fulfilled......do you wish to let me leave?"
 - raw: "175,351,id,//,JiaoQing<FuMu>,阁下既已得偿所愿……可愿放在下离去？,20,2"
   splits:
   - split: 5
     text: "阁下既已得偿所愿……可愿放在下离去？"
+    translated: "My lord, since you have had your wish fulfilled......do you wish to let me leave?"
 - raw: "176,352,id,//,JiaoQing<JinLan>,阁下既已得偿所愿……可愿放在下离去？,20,2"
   splits:
   - split: 5
     text: "阁下既已得偿所愿……可愿放在下离去？"
+    translated: "My lord, since you have had your wish fulfilled......do you wish to let me leave?"
 - raw: "177,353,\"id,1\",\"//,//\",\"JiaoQing<PeiOu>,sex\",阁下既已得偿所愿……可愿放在下离去？,20,2"
   splits:
   - split: 5
     text: "阁下既已得偿所愿……可愿放在下离去？"
+    translated: "My lord, since you have had your wish fulfilled......do you wish to let me leave?"
 - raw: "178,354,\"id,2\",\"//,//\",\"JiaoQing<PeiOu>,sex\",阁下既已得偿所愿……可愿放在下离去？,20,2"
   splits:
   - split: 5
     text: "阁下既已得偿所愿……可愿放在下离去？"
+    translated: "My lord, since you have had your wish fulfilled......do you wish to let me leave?"
 - raw: "179,355,id,//,JiaoQing<TongHuai>,阁下既已得偿所愿……可愿放在下离去？,20,2"
   splits:
   - split: 5
     text: "阁下既已得偿所愿……可愿放在下离去？"
+    translated: "My lord, since you have had your wish fulfilled......do you wish to let me leave?"
 - raw: "180,400,,,,阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。,21,1"
   splits:
   - split: 5
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手，放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our best. I only ask that you show mercy and let me go."
 - raw: "181,450,,,,阁下未免贪心过甚！当真有胆，要杀要剐便随你！,22,1"
   splits:
   - split: 5
     text: "阁下未免贪心过甚！当真有胆，要杀要剐便随你！"
+    translated: "Sir, you are being too greedy! If you truly have the courage, do as you please-kill me or punish me!"
 - raw: "182,500,-30,>,love,……奴家今日颇倦，[公子||姑娘]欲要寻欢，还请自便。,23,1"
   splits:
   - split: 5
     text: "……奴家今日颇倦，"
+    translated: "...I am rather tired today,"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "欲要寻欢，还请自便。"
+    translated: "If you wish to seek pleasure, please feel free to do so."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -880,15 +1092,19 @@
   splits:
   - split: 5
     text: "今日奴家身体略恙，若不能好生陪"
+    translated: "Today I'm not feeling well, so I can't accompany you properly."
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "寻欢作乐，还请莫怪……"
+    translated: "Seeking pleasure and joy, please do not blame me......"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -896,12 +1112,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "不必拘礼，如此良辰美景，莫要辜负才是。"
+    translated: "Don't be formal; such a fine time and beautiful scenery should not be wasted."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -909,12 +1128,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "今日能来瞧我，奴家，奴家甚是欢喜……"
+    translated: "Today that you came to see me, I am very pleased......"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -922,15 +1144,19 @@
   splits:
   - split: 5
     text: "奴家日思夜盼，总算盼得"
+    translated: "I have longed day and night, finally waiting for"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "至此相会，却不知何日方能……唉。"
+    translated: "Upon meeting here, I wonder when we shall... Ah."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -938,15 +1164,19 @@
   splits:
   - split: 5
     text: "与"
+    translated: "With"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "对诗，恐怕少些意趣……哎，也罢。"
+    translated: "Reciting poems together... I'm afraid it lacks some charm... Sigh, never mind."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -954,12 +1184,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "若欲唱和吟诗，奴家奉陪便是。"
+    translated: "If you wish to sing and recite poetry, I shall accompany you."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -967,12 +1200,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "既有此兴，想来文采斐然，奴家亦欲领略一二。"
+    translated: "With such enthusiasm, I assume your literary talent is impressive; this one also wishes to enjoy it a bit."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -980,24 +1216,31 @@
   splits:
   - split: 5
     text: "与"
+    translated: "With"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "对诗，自当妙趣横生，奴家亦当倾心以对，免误"
+    translated: "Poetry should be delightful and amusing; I shall respond with sincerity to avoid any misunderstanding."
   - split: 5
     subIndex: 4
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 5
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 6
     text: "才情。"
+    translated: "Talent"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
@@ -1005,15 +1248,19 @@
   splits:
   - split: 5
     text: "能与"
+    translated: "Can with"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "这般妙人对诗而娱，奴家自觉三生有幸……"
+    translated: "Such a delightful person reciting poetry for entertainment; I feel truly blessed indeed......"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1021,16 +1268,20 @@
   splits:
   - split: 5
     text: "嗯，答得倒是不错。"
+    translated: "Well, your answer was quite good"
 - raw: "193,511,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]好捷才，倒是奴家小看你了。,25,1"
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "好捷才，倒是奴家小看你了。"
+    translated: "You're too quick; I underestimated you"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1038,12 +1289,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "这般才情，当真罕有……"
+    translated: "Such talent is indeed rare..."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1051,12 +1305,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……"
+    translated: "The poetry recited sounds like celestial music; to match such a verse tonight would not be in vain......"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1064,16 +1321,20 @@
   splits:
   - split: 5
     text: "能对出如此诗韵，奴家唯有……心为君倾……"
+    translated: "To match such poetic rhythm, I can only... give you my heart..."
 - raw: "197,515,-30,>,love,[公子||姑娘]若无真才实学，还是莫要自讨无趣了。,26,1"
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "若无真才实学，还是莫要自讨无趣了。"
+    translated: "Without genuine talent and learning, it's best not to seek pointless amusement."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1081,12 +1342,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "可是累了，怎地这也答不上来？"
+    translated: "But I'm so tired, how come I can't even answer this?"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1094,15 +1358,19 @@
   splits:
   - split: 5
     text: "此为偏诗古句，"
+    translated: "This is a verse in ancient style,"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "难以作答，亦属常情。"
+    translated: "It's also normal to find it hard to answer."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1110,15 +1378,19 @@
   splits:
   - split: 5
     text: "哎呀！以"
+    translated: "Ouch!"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "这般才情，既要对诗，自需好生答复，莫要戏弄奴家……"
+    translated: "With such talent, if you're going to respond with poetry, you must give a proper answer and not toy with me......"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1126,12 +1398,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……"
+    translated: "If you do not wish to compose poetry properly, that is fine as well. There are still many things we can do on such a lovely evening..."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1139,15 +1414,19 @@
   splits:
   - split: 5
     text: "山高路远，江湖多险。有"
+    translated: "Mountains are high, roads are long, and the Jianghu is perilous. There are"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "相伴，我心中甚安，前路纵有千难万险，亦无所惧。"
+    translated: "With you by my side, I feel at ease. No matter how many dangers lie ahead, I fear nothing."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1155,37 +1434,46 @@
   splits:
   - split: 5
     text: "江湖多变，风雨难测。你我盟契，生死相随，共闯江湖，不负侠义之名！"
+    translated: "The world of Jianghu is unpredictable, with storms brewing at any moment. Our alliance, forged in life and death, sees us venture forth together, upholding the name of chivalry!"
 - raw: "204,602,id,!/,kithKin<>,江湖路漫，有君相伴，纵前路艰险，心亦无所畏惧。愿与君共同进退，生死与共。,27,1"
   splits:
   - split: 5
     text: "江湖路漫，有君相伴，纵前路艰险，心亦无所畏惧。愿与君共同进退，生死与共。"
+    translated: "The path of the Jianghu is long; with you by my side, even the most perilous journey holds no fear for me. I wish to stand by you through thick and thin, sharing life and death together."
 - raw: "205,603,id,//,JiaoQing<YiQin>,孩儿，沿途风霜，务要多增衣物……,27,1"
   splits:
   - split: 5
     text: "孩儿，沿途风霜，务要多增衣物……"
+    translated: "Child, along the way, be sure to wear more clothes against the wind and frost..."
 - raw: "206,604,id,//,JiaoQing<ZhiJiao>,你我挚交，有何事直言便可，定当一力为之。,27,1"
   splits:
   - split: 5
     text: "你我挚交，有何事直言便可，定当一力为之。"
+    translated: "As close friends, you can speak freely; I will do whatever it takes to help."
 - raw: "207,605,id,//,JiaoQing<JinLan>,义结金兰，当生死与共，有何可相助之处，尽管讲来。,27,1"
   splits:
   - split: 5
     text: "义结金兰，当生死与共，有何可相助之处，尽管讲来。"
+    translated: "Formed a Sworn Bond, we should share life and death. Feel free to ask for any help you need."
 - raw: "208,606,id,//,JiaoQing<JuanLv>,一枝双栖，死生契阔，纵千山万水，也当与子同承……,27,1"
   splits:
   - split: 5
     text: "一枝双栖，死生契阔，纵千山万水，也当与子同承……"
+    translated: "Side by side through life and death, even across mountains and seas, I shall share your burden..."
 - raw: "209,607,id,//,JiaoQing<PeiOu>,百年同船渡，千年共枕眠，你我结发，此生不渝。,27,1"
   splits:
   - split: 5
     text: "百年同船渡，千年共枕眠，你我结发，此生不渝。"
+    translated: "A hundred years aboard the same boat, a thousand years sharing the same pillow; you and I, once wed, for life unwavering."
 - raw: "210,608,\"id,3\",\"//,>\",\"JiaoQing<FuMu>,age\",[爹……爹爹！||娘……娘亲！],27,1"
   splits:
   - split: 5
     text: "爹……爹爹！"
+    translated: "Father......Father!"
   - split: 5
     subIndex: 1
     text: "娘……娘亲！"
+    translated: "Mother... Mother!"
   templates:
   - split: 5
     template: "[{0}||{1}]"
@@ -1193,15 +1481,19 @@
   splits:
   - split: 5
     text: "孩儿以后也要成为似"
+    translated: "I want to become someone like that too, someday."
   - split: 5
     subIndex: 1
     text: "爹爹"
+    translated: "Father"
   - split: 5
     subIndex: 2
     text: "娘亲"
+    translated: "Mother"
   - split: 5
     subIndex: 3
     text: "这样的大侠！"
+    translated: "Such a great hero!"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1209,15 +1501,19 @@
   splits:
   - split: 5
     text: "孩儿此后要好生习武，才好与"
+    translated: "I must practice martial arts diligently henceforth, in order to be worthy of you,"
   - split: 5
     subIndex: 1
     text: "爹爹"
+    translated: "Father"
   - split: 5
     subIndex: 2
     text: "娘亲"
+    translated: "Mother"
   - split: 5
     subIndex: 3
     text: "一同闯荡江湖。"
+    translated: "Travel the Jianghu together"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1225,12 +1521,15 @@
   splits:
   - split: 5
     text: "爹"
+    translated: "Father"
   - split: 5
     subIndex: 1
     text: "娘"
+    translated: "Mother"
   - split: 5
     subIndex: 2
     text: "，孩儿近日读书，却有许多不明之处……"
+    translated: ", Lately, while reading, I've come across many unclear points......"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1238,15 +1537,19 @@
   splits:
   - split: 5
     text: "孩儿此后必当日夜勤勉，以护"
+    translated: "I will henceforth strive day and night to protect [the one being addressed]."
   - split: 5
     subIndex: 1
     text: "爹"
+    translated: "Father"
   - split: 5
     subIndex: 2
     text: "娘"
+    translated: "Mother"
   - split: 5
     subIndex: 3
     text: "一生周全。"
+    translated: "A life of perfection"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1254,20 +1557,25 @@
   splits:
   - split: 5
     text: "乖徒儿，习武之道虽需时时精进，但也应适时而为。"
+    translated: "Dear disciple, though the path of martial arts requires constant improvement, it should also be done in due time."
 - raw: "216,614,id,//,JiaoQing<ShiFu>,此式真意徒儿依师父所言演练，果有所悟！,27,1"
   splits:
   - split: 5
     text: "此式真意徒儿依师父所言演练，果有所悟！"
+    translated: "Practicing the true essence of this technique as my master instructed, I indeed gained some insight!"
 - raw: "217,615,\"id,2,14,-30,10\",\"//,<,>,<,>\",\"JiaoQing<FuMu>,age,age,love,love\",[爹爹||娘]好啰嗦……,27,1"
   splits:
   - split: 5
     text: "爹爹"
+    translated: "Father"
   - split: 5
     subIndex: 1
     text: "娘"
+    translated: "Mother"
   - split: 5
     subIndex: 2
     text: "好啰嗦……"
+    translated: "So wordy......"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1275,16 +1583,20 @@
   splits:
   - split: 5
     text: "远些远些，莫来烦我！"
+    translated: "Stay back, don't bother me!"
 - raw: "219,617,\"id,13,10\",\"//,<,>\",\"JiaoQing<FuMu>,age,love\",[爹||娘]所言不过陈腔滥调，我自有主张，莫来相扰。,27,1"
   splits:
   - split: 5
     text: "爹"
+    translated: "Father"
   - split: 5
     subIndex: 1
     text: "娘"
+    translated: "Mother"
   - split: 5
     subIndex: 2
     text: "所言不过陈腔滥调，我自有主张，莫来相扰。"
+    translated: "What you say is just cliche; I have my own convictions, so do not bother me."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1292,17 +1604,21 @@
   splits:
   - split: 5
     text: "呵呵，师徒江湖同游，不错，不错。"
+    translated: "Heh heh, master and disciple traveling Jianghu together, not bad, not bad."
 - raw: "221,619,id,//,JiaoQing<ShiFu>,弟子随侍在侧，师父但有用弟子处，尽管吩咐。,27,1"
   splits:
   - split: 5
     text: "弟子随侍在侧，师父但有用弟子处，尽管吩咐。"
+    translated: "The disciple stands by at your side; should you have any use for me, do not hesitate to give orders."
 - raw: "222,620,id,//,JiaoQing<ZhiJiao>,古人言：“相知无远近，万里尚为邻。”今我与子偕行共路，岂不羡煞古人！,27,1"
   splits:
   - split: 5
     text: "古人言"
+    translated: "As the ancients say:"
   - split: 5
     subIndex: 1
     text: "“相知无远近，万里尚为邻。”今我与子偕行共路，岂不羡煞古人！"
+    translated: "Distance doesn't matter between friends; even a thousand miles apart, we are still neighbors. Now that I travel with you, how can we not envy the ancients!"
   templates:
   - split: 5
     template: "{0}：{1}"
@@ -1310,12 +1626,15 @@
   splits:
   - split: 5
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "好身手，假以时日想必能扬名武林！"
+    translated: "Impressive skills; with time, you're sure to make a name for yourself in Wulin!"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -1323,15 +1642,19 @@
   splits:
   - split: 5
     text: "胜败乃兵家常事，"
+    translated: "Victory and defeat are common in warfare"
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "可精研武艺，日后再与在下切磋。"
+    translated: "You may polish your martial arts; we shall spar again in the future."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1339,15 +1662,19 @@
   splits:
   - split: 5
     text: "既已答应"
+    translated: "Having already agreed"
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "同游江湖，往后日子尽可以依靠我！"
+    translated: "Traveling the Jianghu together, from now on, you can rely on me for all your days!"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1355,76 +1682,95 @@
   splits:
   - split: 5
     text: "敌势甚猛，吾不欲舍生赴死，先遁为上！"
+    translated: "The enemy's strength is formidable; I do not wish to throw my life away. It is best to flee first!"
 - raw: "227,802,,,,家中尚有亲眷待我回返，先走为敬！,31,1"
   splits:
   - split: 5
     text: "家中尚有亲眷待我回返，先走为敬！"
+    translated: "There are still relatives at home waiting for me to return; I must take my leave!"
 - raw: "228,803,,,,存得此身方有后望之机，他日在下定会替你报仇！,31,1"
   splits:
   - split: 5
     text: "存得此身方有后望之机，他日在下定会替你报仇！"
+    translated: "Only by surviving can I have the chance to seek revenge one day! I will definitely avenge you!"
 - raw: "229,804,,,,事已至此，顾全己命才是头等紧要！,31,1"
   splits:
   - split: 5
     text: "事已至此，顾全己命才是头等紧要！"
+    translated: "At this point, ensuring my own safety is the top priority!"
 - raw: "230,805,,,,此刻脱逃，非愚举也！,31,1"
   splits:
   - split: 5
     text: "此刻脱逃，非愚举也！"
+    translated: "Fleeing now would not be a foolish move!"
 - raw: "231,850,0,//,death,人世无常，死生非命，此人业已横死。,32,1"
   splits:
   - split: 5
     text: "人世无常，死生非命，此人业已横死。"
+    translated: "Life is unpredictable, death defies fate; this person has already met a violent end."
 - raw: "232,851,1,//,death,人世浮沉，生死命寿，此人业已寿终正寝。,32,1"
   splits:
   - split: 5
     text: "人世浮沉，生死命寿，此人业已寿终正寝。"
+    translated: "Through the vicissitudes of life and death, this person's time has come to an end."
 - raw: "233,852,2,//,death,人世无常，死生非命，此人业已横死。,32,1"
   splits:
   - split: 5
     text: "人世无常，死生非命，此人业已横死。"
+    translated: "Life is unpredictable, death defies fate; this person has already met a violent end."
 - raw: "234,853,3,//,death,饿殍之身，嶙瘦若枯，此人业已因饥饿而亡。,32,1"
   splits:
   - split: 5
     text: "饿殍之身，嶙瘦若枯，此人业已因饥饿而亡。"
+    translated: "A starving corpse, emaciated and withered, this person has already died of hunger."
 - raw: "235,854,4,//,death,病躯残损，难渡春秋，此人因恶疾而亡。,32,1"
   splits:
   - split: 5
     text: "病躯残损，难渡春秋，此人因恶疾而亡。"
+    translated: "A sickly body, damaged and unable to endure the seasons, this person died from a terrible illness."
 - raw: "236,855,5,//,death,伤痕便体，残躯难撑，此人被酷刑折磨至死。,32,1"
   splits:
   - split: 5
     text: "伤痕便体，残躯难撑，此人被酷刑折磨至死。"
+    translated: "Wounded and broken, this person was tortured to death."
 - raw: "237,900,\"id,-1\",\"!/,<\",\"JiaoQing<FuMu>,love\",本以为能与你常伴而行，谁曾想阁下竟是如此无情之辈……,33,1"
   splits:
   - split: 5
     text: "本以为能与你常伴而行，谁曾想阁下竟是如此无情之辈……"
+    translated: "I thought we could travel together, yet never did I expect you to be so heartless......"
 - raw: "238,901,\"0,id\",\">,!/\",\"love,JiaoQing<FuMu>\",历经诸事，我已心灰意冷，你我恩断义绝，此生再不相见！,33,1"
   splits:
   - split: 5
     text: "历经诸事，我已心灰意冷，你我恩断义绝，此生再不相见！"
+    translated: "After all I've been through, my heart is numb. Our ties are severed; we shall never meet again in this life!"
 - raw: "239,902,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",往日积怨，刻骨铭心，自今日起你我恩断义绝，再无瓜葛！,33,1"
   splits:
   - split: 5
     text: "往日积怨，刻骨铭心，自今日起你我恩断义绝，再无瓜葛！"
+    translated: "Past grievances run deep, etched in my heart. From today onward, our ties are severed, and we have no further connection!"
 - raw: "240,903,\"id,-1\",\"!/,<\",\"JiaoQing<FuMu>,love\",……我本意与阁下共闯江湖，立名建威，但你我交情日浅，当下只能就此别过了。,33,1"
   splits:
   - split: 5
     text: "……我本意与阁下共闯江湖，立名建威，但你我交情日浅，当下只能就此别过了。"
+    translated: "......I originally intended to venture into Jianghu with you, to establish a name and build our reputation, but our friendship is still shallow. For now, we must part ways."
 - raw: "241,904,\"id,-1\",\"//,<\",\"JiaoQing<FuMu>,love\",孩儿此来是与大人辞行的……孩儿已决意闯荡四方，便就此而别了……,33,1"
   splits:
   - split: 5
     text: "孩儿此来是与大人辞行的……孩儿已决意闯荡四方，便就此而别了……"
+    translated: "Child comes to bid Lord farewell......I have decided to venture forth into the four directions and so must take my leave now......"
 - raw: "242,950,,,,咱们gangName在这mapName，可是大大有名。,7,1"
   splits:
   - split: 5
     text: "咱们"
+    translated: "Let's"
   - split: 5
     subIndex: 1
     text: "在这"
+    translated: "Here"
   - split: 5
     subIndex: 2
     text: "，可是大大有名。"
+    translated: ", But is extremely famous"
   templates:
   - split: 5
     template: "{0}gangName{1}mapName{2}"
@@ -1432,13 +1778,16 @@
   splits:
   - split: 5
     text: "捍卫本帮声威，义不容辞！"
+    translated: "It is my duty to defend the reputation of our sect without hesitation!"
 - raw: "244,952,,,,谁敢招惹咱们gangName，那便是跟我过不去！,7,1"
   splits:
   - split: 5
     text: "谁敢招惹咱们"
+    translated: "Who dares to provoke us?"
   - split: 5
     subIndex: 1
     text: "，那便是跟我过不去！"
+    translated: ", That's a challenge to me!"
   templates:
   - split: 5
     template: "{0}gangName{1}"
@@ -1446,107 +1795,134 @@
   splits:
   - split: 5
     text: "也不知这月俸钱几时能发……"
+    translated: "I wonder when this month's salary will be issued......"
 - raw: "246,1000,\"1140007004,30\",\"//,>\",\"touchId,love\",……好。我回太和山，告辞。,33,2"
   splits:
   - split: 5
     text: "……好。我回太和山，告辞。"
+    translated: "...... Alright. I'll return to Taihe Mountain, farewell."
 - raw: "247,1001,\"1140007016,30\",\"//,>\",\"touchId,love\",……好。我回太和山，告辞。,33,2"
   splits:
   - split: 5
     text: "……好。我回太和山，告辞。"
+    translated: "...... Alright. I'll return to Taihe Mountain, farewell."
 - raw: "248,1002,\"1160001066,30\",\"//,>\",\"touchId,love\",我且回杭州去……后会有期。,33,2"
   splits:
   - split: 5
     text: "我且回杭州去……后会有期。"
+    translated: "I'll head back to Hangzhou then... We'll meet again someday."
 - raw: "249,1003,\"1140005099,30\",\"//,>\",\"touchId,love\",小玥已惯常孑身一人，这便回临川村了。,33,2"
   splits:
   - split: 5
     text: "小玥已惯常孑身一人，这便回临川村了。"
+    translated: "Little Yue was used to being alone and headed back to Linchuan Village."
 - raw: "250,1004,\"1140005034,30\",\"//,>\",\"touchId,love\",小玥已惯常孑身一人，这便回临川村了。,33,2"
   splits:
   - split: 5
     text: "小玥已惯常孑身一人，这便回临川村了。"
+    translated: "Little Yue was used to being alone and headed back to Linchuan Village."
 - raw: "251,1005,\"1140005079,30\",\"//,>\",\"touchId,love\",是……衣鹤在文昌镇外，静候大人。,33,2"
   splits:
   - split: 5
     text: "是……衣鹤在文昌镇外，静候大人。"
+    translated: "It is... Yi He waiting outside Wenchang Town for Lord."
 - raw: "252,1006,\"1170001056,30\",\"//,>\",\"touchId,love\",好……那丹某便回大理探望藤娘。,33,2"
   splits:
   - split: 5
     text: "好……那丹某便回大理探望藤娘。"
+    translated: "Well...... then Tan will return to Dali to visit Teng mother."
 - raw: "253,1007,\"1190001076,30\",\"//,>\",\"touchId,love\",……嗯。若烟只回桃花坞中探望姊妹。,33,2"
   splits:
   - split: 5
     text: "……嗯。若烟只回桃花坞中探望姊妹。"
+    translated: "... Hmm. Ruoyan only returned to Taohua Dock to visit her sisters."
 - raw: "254,1008,\"1200001063,30\",\"//,>\",\"touchId,love\",只盼勿忘昔日之言……梦秋告辞。,33,2"
   splits:
   - split: 5
     text: "只盼勿忘昔日之言……梦秋告辞。"
+    translated: "Only hope you don't forget our words of old...... Dream Autumn takes leave."
 - raw: "255,1009,\"1200000247,30\",\"//,>\",\"touchId,love\",也罢，也罢……白桐山庄倒是许久未归了，告辞。,33,2"
   splits:
   - split: 5
     text: "也罢，也罢……白桐山庄倒是许久未归了，告辞。"
+    translated: "Very well, very well...... I haven't returned to Baitong Manor in a long time, I must take my leave."
 - raw: "256,1010,\"1200000246,30\",\"//,>\",\"touchId,love\",既如此，我且回白桐山庄去……有缘再会。,33,2"
   splits:
   - split: 5
     text: "既如此，我且回白桐山庄去……有缘再会。"
+    translated: "Since that's the case, I'll return to Baitong Manor... Until we meet again by fate."
 - raw: "257,1011,\"1200000249,30\",\"//,>\",\"touchId,love\",小妹暂回白桐山庄打理……珍重。,33,2"
   splits:
   - split: 5
     text: "小妹暂回白桐山庄打理……珍重。"
+    translated: "Little sister will return to Baitong Manor to attend to things... take care."
 - raw: "258,1012,\"1200000229,30\",\"//,>\",\"touchId,love\",这般也好……有朝一日，襄阳再见罢。,33,2"
   splits:
   - split: 5
     text: "这般也好……有朝一日，襄阳再见罢。"
+    translated: "This will do......One day, we shall meet again in Xiangyang."
 - raw: "259,1013,\"1200009953,30\",\"//,>\",\"touchId,love\",……好。襄阳城北，听候差遣。,33,2"
   splits:
   - split: 5
     text: "……好。襄阳城北，听候差遣。"
+    translated: "...... Fine. Head to the northern part of Xiangyang City. Wait for further instructions."
 - raw: "260,1014,\"1180000338,30\",\"//,>\",\"touchId,love\",汉人这般容易变心……我回苗疆去，不复见才好……,33,2"
   splits:
   - split: 5
     text: "汉人这般容易变心……我回苗疆去，不复见才好……"
+    translated: "Han people are so fickle......I should return to Miaojiang and never see them again......"
 - raw: "261,1015,\"1110005003,30\",\"//,>\",\"touchId,love\",也好。在下自去寻梦……他日青萍村中再会罢。,33,2"
   splits:
   - split: 5
     text: "也好。在下自去寻梦……他日青萍村中再会罢。"
+    translated: "Very well. I shall go seek my dreams... We shall meet again in Qingping Village one day."
 - raw: "262,1016,\"1220001029,30\",\"//,>\",\"touchId,love\",……阿真回辽东去，阿真不需帮手。,33,2"
   splits:
   - split: 5
     text: "……阿真回辽东去，阿真不需帮手。"
+    translated: "...Ah Zhen will return to Liaodong, Ah Zhen doesn't need any help."
 - raw: "263,1017,\"1220001042,30\",\"//,>\",\"touchId,love\",是……小弟别无所归，只回辽东看看。,33,2"
   splits:
   - split: 5
     text: "是……小弟别无所归，只回辽东看看。"
+    translated: "I have... nowhere else to go, so I'll return to Liaodong to take a look."
 - raw: "264,1018,\"1260001067,30\",\"//,>\",\"touchId,love\",江湖路远……你的刀，可莫要钝了。,33,2"
   splits:
   - split: 5
     text: "江湖路远……你的刀，可莫要钝了。"
+    translated: "The path of the Jianghu is long......Your blade, do not let it become dull."
 - raw: "265,1019,\"1270001032,30\",\"//,>\",\"touchId,love\",胧……谨遵主公之命，就此告退。,33,2"
   splits:
   - split: 5
     text: "胧……谨遵主公之命，就此告退。"
+    translated: "Lum... I will follow my lord's orders and take my leave."
 - raw: "266,1020,\"1140007004,29\",\"//,<\",\"touchId,love\",……好。我回太和山等你。,33,2"
   splits:
   - split: 5
     text: "……好。我回太和山等你。"
+    translated: "...... Fine. I'll go back to Taihe Mountain and wait for you."
 - raw: "267,1021,\"1140007016,29\",\"//,<\",\"touchId,love\",……好。我回太和村等你。,33,2"
   splits:
   - split: 5
     text: "……好。我回太和村等你。"
+    translated: "...... Okay. I'll go back to Taihe Village and wait for you."
 - raw: "268,1022,\"1160001066,29\",\"//,<\",\"touchId,love\",那懿瑶便先回杭州探望家父，[公子||姑娘]若有需要，可来隆顺镖局唤我。,33,2"
   splits:
   - split: 5
     text: "那懿瑶便先回杭州探望家父，"
+    translated: "So Yi Yao will return to Hangzhou to visit her father first."
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "若有需要，可来隆顺镖局唤我。"
+    translated: "If needed, you can come to the Longshun Escort Agency to call for me."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1554,15 +1930,19 @@
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 2
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 3
     text: "若要小玥同行，便来临川村寻我。"
+    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1570,15 +1950,19 @@
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 2
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 3
     text: "若要小玥同行，便来临川村寻我。"
+    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1586,9 +1970,11 @@
   splits:
   - split: 5
     text: "是。衣鹤在文昌镇外，随时等候"
+    translated: "Yes. Yi He is waiting outside Wenchang Town at all times."
   - split: 5
     subIndex: 1
     text: "大人。"
+    translated: "Lord"
   templates:
   - split: 5
     template: "{0}p{1}"
@@ -1596,15 +1982,19 @@
   splits:
   - split: 5
     text: "好！那愚兄便回大理探望藤娘，"
+    translated: "Very well! Then I will return to Dali to visit Tengniang."
   - split: 5
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "妹子"
+    translated: "Sis"
   - split: 5
     subIndex: 3
     text: "，不妨再来找愚兄喝上两壶。"
+    translated: ", Come back and have a few pots of tea with me."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1612,19 +2002,24 @@
   splits:
   - split: 5
     text: "我……我暂且回桃花坞中看看……"
+    translated: "I... I'll go back to Taohua Dock for now and see what's there..."
 - raw: "274,1028,\"1200001063,29\",\"//,<\",\"touchId,love\",梦秋此身，已托付于[公子||姑娘]……我在襄阳，随时等候。,33,2"
   splits:
   - split: 5
     text: "梦秋此身，已托付于"
+    translated: "My body has already been entrusted to"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "……我在襄阳，随时等候。"
+    translated: "......I am in Xiangyang, waiting for you at all times."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1632,15 +2027,19 @@
   splits:
   - split: 5
     text: "无妨，"
+    translated: "It's fine"
   - split: 5
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "若有差遣，随时到白桐山庄来唤便是。"
+    translated: "If you need anything, feel free to come to Baitong Manor and call for me at any time."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1648,15 +2047,19 @@
   splits:
   - split: 5
     text: "那我且回白桐山庄看看，"
+    translated: "Then I'll go back to Baitong Manor and take a look."
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "可到那儿寻我！"
+    translated: "You can find me there!"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -1664,15 +2067,19 @@
   splits:
   - split: 5
     text: "小妹暂回白桐山庄打理，"
+    translated: "Little sister will temporarily return to Baitong Manor to handle affairs."
   - split: 5
     subIndex: 1
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，日后再会。"
+    translated: ", See you again someday"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1680,15 +2087,19 @@
   splits:
   - split: 5
     text: "我暂回府中看望爷爷，"
+    translated: "I will return to the estate to visit my grandfather."
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 3
     text: "，咱们襄阳再见。"
+    translated: ", See you in Xiangyang"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1696,15 +2107,19 @@
   splits:
   - split: 5
     text: "好……谢正青于襄阳城北，等候"
+    translated: "Good... Xie Zhengqing waits for you in the northern part of Xiangyang City."
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "相唤。"
+    translated: "Call out"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1712,115 +2127,144 @@
   splits:
   - split: 5
     text: "那……我回苗疆探望姊姊与教主，你可要记得回教中寻我。"
+    translated: "Then... I'll return to Miaojiang to visit my sister and the Sect Master. You must remember to look for me at the sect."
 - raw: "281,1035,\"1110005003,29\",\"//,<\",\"touchId,love\",那你可要早些回青萍村寻我，免得我钓上神鱼时，你却不在。,33,2"
   splits:
   - split: 5
     text: "那你可要早些回青萍村寻我，免得我钓上神鱼时，你却不在。"
+    translated: "Then you'd better return to Qingping Village early to find me, so that when I catch a divine fish, you're not missing."
 - raw: "282,1036,\"1220001029,29\",\"//,<\",\"touchId,love\",阿真不熟悉中原，阿真仍回辽东杀鞑子去。,33,2"
   splits:
   - split: 5
     text: "阿真不熟悉中原，阿真仍回辽东杀鞑子去。"
+    translated: "Although Ah Zhen is unfamiliar with Central Plains, they still return to Liaodong to fight the Tartars."
 - raw: "283,1037,\"1220001042,29\",\"//,<\",\"touchId,love\",是，小弟回去后一定日日习练，不致荒废功夫。,33,2"
   splits:
   - split: 5
     text: "是，小弟回去后一定日日习练，不致荒废功夫。"
+    translated: "Yes, I will practice every day when I return to avoid letting my skills deteriorate."
 - raw: "284,1038,\"1260001067,29\",\"//,<\",\"touchId,love\",好……我回大雪山练刀，待你忙完，再来比试。,33,2"
   splits:
   - split: 5
     text: "好……我回大雪山练刀，待你忙完，再来比试。"
+    translated: "Alright...... I'll return to Daxue Mountain to practice my blade, and when you're done with your business, I'll come back for the match."
 - raw: "285,1039,\"1270001032,29\",\"//,<\",\"touchId,love\",胧将隐于暗处待命，主公若有令，胧必现身。,33,2"
   splits:
   - split: 5
     text: "胧将隐于暗处待命，主公若有令，胧必现身。"
+    translated: "I will hide in the shadows and await your command, Lord. Should you give the order, I shall appear."
 - raw: "286,1040,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……好。我回太和山，告辞。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和山，告辞。"
+    translated: "...... Alright. I'll return to Taihe Mountain, farewell."
 - raw: "287,1041,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……好。我回太和山，告辞。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和山，告辞。"
+    translated: "...... Alright. I'll return to Taihe Mountain, farewell."
 - raw: "288,1042,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",我且回杭州去……后会有期。,33,3"
   splits:
   - split: 5
     text: "我且回杭州去……后会有期。"
+    translated: "I'll head back to Hangzhou then... We'll meet again someday."
 - raw: "289,1043,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",小玥已惯常孑身一人，这便回临川村了。,33,3"
   splits:
   - split: 5
     text: "小玥已惯常孑身一人，这便回临川村了。"
+    translated: "Little Yue was used to being alone and headed back to Linchuan Village."
 - raw: "290,1044,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",小玥已惯常孑身一人，这便回临川村了。,33,3"
   splits:
   - split: 5
     text: "小玥已惯常孑身一人，这便回临川村了。"
+    translated: "Little Yue was used to being alone and headed back to Linchuan Village."
 - raw: "291,1045,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",是……衣鹤在文昌镇外，静候大人。,33,3"
   splits:
   - split: 5
     text: "是……衣鹤在文昌镇外，静候大人。"
+    translated: "It is... Yi He waiting outside Wenchang Town for Lord."
 - raw: "292,1046,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",好……那丹某便回大理探望藤娘。,33,3"
   splits:
   - split: 5
     text: "好……那丹某便回大理探望藤娘。"
+    translated: "Well...... then Tan will return to Dali to visit Teng mother."
 - raw: "293,1047,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……嗯。若烟只回桃花坞中探望姊妹。,33,3"
   splits:
   - split: 5
     text: "……嗯。若烟只回桃花坞中探望姊妹。"
+    translated: "... Hmm. Ruoyan only returned to Taohua Dock to visit her sisters."
 - raw: "294,1048,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",只盼勿忘昔日之言……梦秋告辞。,33,3"
   splits:
   - split: 5
     text: "只盼勿忘昔日之言……梦秋告辞。"
+    translated: "Only hope you don't forget our words of old...... Dream Autumn takes leave."
 - raw: "295,1049,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",也罢，也罢……白桐山庄倒是许久未归了，告辞。,33,3"
   splits:
   - split: 5
     text: "也罢，也罢……白桐山庄倒是许久未归了，告辞。"
+    translated: "Very well, very well...... I haven't returned to Baitong Manor in a long time, I must take my leave."
 - raw: "296,1050,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",既如此，我且回白桐山庄去……有缘再会。,33,3"
   splits:
   - split: 5
     text: "既如此，我且回白桐山庄去……有缘再会。"
+    translated: "Since that's the case, I'll return to Baitong Manor... Until we meet again by fate."
 - raw: "297,1051,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",小妹暂回白桐山庄打理……珍重。,33,3"
   splits:
   - split: 5
     text: "小妹暂回白桐山庄打理……珍重。"
+    translated: "Little sister will return to Baitong Manor to attend to things... take care."
 - raw: "298,1052,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",这般也好……有朝一日，襄阳再见罢。,33,3"
   splits:
   - split: 5
     text: "这般也好……有朝一日，襄阳再见罢。"
+    translated: "This will do......One day, we shall meet again in Xiangyang."
 - raw: "299,1053,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……好。襄阳城北，听候差遣。,33,3"
   splits:
   - split: 5
     text: "……好。襄阳城北，听候差遣。"
+    translated: "...... Fine. Head to the northern part of Xiangyang City. Wait for further instructions."
 - raw: "300,1054,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",汉人这般容易变心……我回苗疆去，不复见才好……,33,3"
   splits:
   - split: 5
     text: "汉人这般容易变心……我回苗疆去，不复见才好……"
+    translated: "Han people are so fickle......I should return to Miaojiang and never see them again......"
 - raw: "301,1055,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",也好。在下自去寻梦……他日青萍村中再会罢。,33,3"
   splits:
   - split: 5
     text: "也好。在下自去寻梦……他日青萍村中再会罢。"
+    translated: "Very well. I shall go seek my dreams... We shall meet again in Qingping Village one day."
 - raw: "302,1056,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……阿真回辽东去，阿真不需帮手。,33,3"
   splits:
   - split: 5
     text: "……阿真回辽东去，阿真不需帮手。"
+    translated: "...Ah Zhen will return to Liaodong, Ah Zhen doesn't need any help."
 - raw: "303,1057,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",是……小弟别无所归，只回辽东看看。,33,3"
   splits:
   - split: 5
     text: "是……小弟别无所归，只回辽东看看。"
+    translated: "I have... nowhere else to go, so I'll return to Liaodong to take a look."
 - raw: "304,1058,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",既不同道，便不必多言……后会有期。,33,3"
   splits:
   - split: 5
     text: "既不同道，便不必多言……后会有期。"
+    translated: "Since we are not fellow travelers, there is no need for more words......We shall meet again."
 - raw: "305,1059,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",胧的使命已尽……愿[兄长||姊姊]大人武运昌隆。,33,3"
   splits:
   - split: 5
     text: "胧的使命已尽……愿"
+    translated: "Luo's mission is complete......may"
   - split: 5
     subIndex: 1
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "大人武运昌隆。"
+    translated: "Lord Wu's martial fortune is thriving"
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1828,23 +2272,29 @@
   splits:
   - split: 5
     text: "……好。我回太和山等你。"
+    translated: "...... Fine. I'll go back to Taihe Mountain and wait for you."
 - raw: "307,1061,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",……好。我回太和村等你。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和村等你。"
+    translated: "...... Okay. I'll go back to Taihe Village and wait for you."
 - raw: "308,1062,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那懿瑶便先回杭州探望家父，[公子||姑娘]若有需要，可来隆顺镖局唤我。,33,3"
   splits:
   - split: 5
     text: "那懿瑶便先回杭州探望家父，"
+    translated: "So Yi Yao will return to Hangzhou to visit her father first."
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "若有需要，可来隆顺镖局唤我。"
+    translated: "If needed, you can come to the Longshun Escort Agency to call for me."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1852,15 +2302,19 @@
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 2
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 3
     text: "若要小玥同行，便来临川村寻我。"
+    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1868,15 +2322,19 @@
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 2
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 3
     text: "若要小玥同行，便来临川村寻我。"
+    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1884,9 +2342,11 @@
   splits:
   - split: 5
     text: "是。衣鹤在文昌镇外，随时等候"
+    translated: "Yes. Yi He is waiting outside Wenchang Town at all times."
   - split: 5
     subIndex: 1
     text: "大人。"
+    translated: "Lord"
   templates:
   - split: 5
     template: "{0}p{1}"
@@ -1894,15 +2354,19 @@
   splits:
   - split: 5
     text: "好！那愚兄便回大理探望藤娘，"
+    translated: "Very well! Then I will return to Dali to visit Tengniang."
   - split: 5
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "妹子"
+    translated: "Sis"
   - split: 5
     subIndex: 3
     text: "，不妨再来找愚兄喝上两壶。"
+    translated: ", Come back and have a few pots of tea with me."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1910,19 +2374,24 @@
   splits:
   - split: 5
     text: "我……我暂且回桃花坞中看看……"
+    translated: "I... I'll go back to Taohua Dock for now and see what's there..."
 - raw: "314,1068,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",梦秋此身，已托付于[公子||姑娘]……我在襄阳，随时等候。,33,3"
   splits:
   - split: 5
     text: "梦秋此身，已托付于"
+    translated: "My body has already been entrusted to"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "……我在襄阳，随时等候。"
+    translated: "......I am in Xiangyang, waiting for you at all times."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -1930,15 +2399,19 @@
   splits:
   - split: 5
     text: "无妨，"
+    translated: "It's fine"
   - split: 5
     subIndex: 1
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "若有差遣，随时到白桐山庄来唤便是。"
+    translated: "If you need anything, feel free to come to Baitong Manor and call for me at any time."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1946,15 +2419,19 @@
   splits:
   - split: 5
     text: "那我且回白桐山庄看看，"
+    translated: "Then I'll go back to Baitong Manor and take a look."
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "可到那儿寻我！"
+    translated: "You can find me there!"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -1962,15 +2439,19 @@
   splits:
   - split: 5
     text: "小妹暂回白桐山庄打理，"
+    translated: "Little sister will temporarily return to Baitong Manor to handle affairs."
   - split: 5
     subIndex: 1
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，日后再会。"
+    translated: ", See you again someday"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1978,15 +2459,19 @@
   splits:
   - split: 5
     text: "我暂回府中看望爷爷，"
+    translated: "I will return to the estate to visit my grandfather."
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 3
     text: "，咱们襄阳再见。"
+    translated: ", See you in Xiangyang"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -1994,15 +2479,19 @@
   splits:
   - split: 5
     text: "好……谢正青于襄阳城北，等候"
+    translated: "Good... Xie Zhengqing waits for you in the northern part of Xiangyang City."
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "相唤。"
+    translated: "Call out"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -2010,31 +2499,39 @@
   splits:
   - split: 5
     text: "那……我回苗疆探望姊姊与教主，你可要记得回教中寻我。"
+    translated: "Then... I'll return to Miaojiang to visit my sister and the Sect Master. You must remember to look for me at the sect."
 - raw: "321,1075,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那你可要早些回青萍村寻我，免得我钓上神鱼时，你却不在。,33,3"
   splits:
   - split: 5
     text: "那你可要早些回青萍村寻我，免得我钓上神鱼时，你却不在。"
+    translated: "Then you'd better return to Qingping Village early to find me, so that when I catch a divine fish, you're not missing."
 - raw: "322,1076,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",阿真不熟悉中原，阿真仍回辽东杀鞑子去。,33,3"
   splits:
   - split: 5
     text: "阿真不熟悉中原，阿真仍回辽东杀鞑子去。"
+    translated: "Although Ah Zhen is unfamiliar with Central Plains, they still return to Liaodong to fight the Tartars."
 - raw: "323,1077,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",是，小弟回去后一定日日习练，不致荒废功夫。,33,3"
   splits:
   - split: 5
     text: "是，小弟回去后一定日日习练，不致荒废功夫。"
+    translated: "Yes, I will practice every day when I return to avoid letting my skills deteriorate."
 - raw: "324,1078,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我回大雪山闭关修炼，[兄长||姊姊]若有精进，不妨来试刀。,33,3"
   splits:
   - split: 5
     text: "我回大雪山闭关修炼，"
+    translated: "I will return to Daxue Mountain for seclusion and training."
   - split: 5
     subIndex: 1
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "若有精进，不妨来试刀。"
+    translated: "If you've improved, feel free to try your blade."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -2042,15 +2539,19 @@
   splits:
   - split: 5
     text: "胧暂回东瀛修习秘术，"
+    translated: "Long returned to Dongying to study the Secret Art."
   - split: 5
     subIndex: 1
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "大人若有需要，胧随时待命。"
+    translated: "Lord, if you need anything, Long am always at your service."
   templates:
   - split: 5
     template: "{0}[{1}||{2}]{3}"
@@ -2058,21 +2559,26 @@
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
+    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
 - raw: "327,1081,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",好。夫君若还想相见，便回太和山来罢……,33,3"
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
+    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
 - raw: "328,1082,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",官人，懿瑶且回杭州去了……但愿后会有期。,33,3"
   splits:
   - split: 5
     text: "官人，懿瑶且回杭州去了……但愿后会有期。"
+    translated: "My lord, I, Yiyao, have returned to Hangzhou... but I hope we may meet again in the future."
 - raw: "329,1083,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
     text: "小玥回临川村去……我已惯常孑身一人，"
+    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
   - split: 5
     subIndex: 1
     text: "哥，不妨的。"
+    translated: "Brother, it's fine"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2080,9 +2586,11 @@
   splits:
   - split: 5
     text: "小玥回临川村去……我已惯常孑身一人，"
+    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
   - split: 5
     subIndex: 1
     text: "哥，不妨的。"
+    translated: "Brother, it's fine"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2090,29 +2598,36 @@
   splits:
   - split: 5
     text: "是……衣鹤在文昌镇外，静候夫君大人……"
+    translated: "It is... I have been waiting for my husband, Lord... outside Wenchang Town..."
 - raw: "332,1086,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",好……那丹某便回大理去……等候娘子。,33,3"
   splits:
   - split: 5
     text: "好……那丹某便回大理去……等候娘子。"
+    translated: "Well......then Dan will return to Dali......to wait for my wife."
 - raw: "333,1087,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",……嗯。妾只回桃花坞中探望姊妹。,33,3"
   splits:
   - split: 5
     text: "……嗯。妾只回桃花坞中探望姊妹。"
+    translated: "... Hmm. I only return to Taohua Dock to visit my sisters."
 - raw: "334,1088,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",只盼夫君勿忘昔日之言……梦秋告辞。,33,3"
   splits:
   - split: 5
     text: "只盼夫君勿忘昔日之言……梦秋告辞。"
+    translated: "Only pray that my husband does not forget his words of old...... Dream Autumn takes her leave."
 - raw: "335,1089,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",也罢，也罢……白桐山庄倒是许久未归了，夫人……告辞。,33,3"
   splits:
   - split: 5
     text: "也罢，也罢……白桐山庄倒是许久未归了，夫人……告辞。"
+    translated: "Very well, very well...... I haven't returned to Baitong Manor in a long time, Lady...... Farewell."
 - raw: "336,1090,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",既如此，我且回白桐山庄去……lp郎，有缘再会。,33,3"
   splits:
   - split: 5
     text: "既如此，我且回白桐山庄去……"
+    translated: "Since that's the case, I'll head back to Baitong Manor......"
   - split: 5
     subIndex: 1
     text: "郎，有缘再会。"
+    translated: "Goodbye, may our paths cross again"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2120,9 +2635,11 @@
   splits:
   - split: 5
     text: "小妹暂回白桐山庄打理……"
+    translated: "Little sister will temporarily return to Baitong Manor to manage things......"
   - split: 5
     subIndex: 1
     text: "哥哥，珍重。"
+    translated: "Brother, take care"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2130,9 +2647,11 @@
   splits:
   - split: 5
     text: "这般也好……"
+    translated: "This is for the best......"
   - split: 5
     subIndex: 1
     text: "郎，有朝一日，襄阳再见罢。"
+    translated: "My dear, one day we shall meet again in Xiangyang."
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -2140,21 +2659,26 @@
   splits:
   - split: 5
     text: "……好。襄阳城北，谢某自去待死。"
+    translated: "...... Fine. At the northern part of Xiangyang City, I, Xie, will go to await my death."
 - raw: "340,1094,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",汉人这般容易变心……阿哥儿，你还会来苗疆么？,33,3"
   splits:
   - split: 5
     text: "汉人这般容易变心……阿哥儿，你还会来苗疆么？"
+    translated: "Men are so fickle......Ah Ge, will you come back to Miaojiang?"
 - raw: "341,1095,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",也好。在下自去寻梦……夫人，记得回青萍村来看看。,33,3"
   splits:
   - split: 5
     text: "也好。在下自去寻梦……夫人，记得回青萍村来看看。"
+    translated: "Very well. I shall seek my dreams... Lady, remember to come back and visit Qingping Village."
 - raw: "342,1096,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",阿真回辽东去……lp哥哥，不要阿真了？,33,3"
   splits:
   - split: 5
     text: "阿真回辽东去……"
+    translated: "Ah Zhhen returns to Liaodong..."
   - split: 5
     subIndex: 1
     text: "哥哥，不要阿真了？"
+    translated: "Brother, no more acting serious?"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2162,33 +2686,41 @@
   splits:
   - split: 5
     text: "是……弟只在辽东，等候姊姊相召。"
+    translated: "It's... I only wait in Liaodong for my sister to call."
 - raw: "344,1098,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",刀客本孤身……你既弃我，此生还要再见么。,33,3"
   splits:
   - split: 5
     text: "刀客本孤身……你既弃我，此生还要再见么。"
+    translated: "Blade Master, who was alone... since you have abandoned me, shall we meet again in this life?"
 - raw: "345,1099,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",胧此生为影，既失主公……便无存在之意义。,33,3"
   splits:
   - split: 5
     text: "胧此生为影，既失主公……便无存在之意义。"
+    translated: "I was born to be a shadow; now that I have lost my lord... there is no meaning in my existence."
 - raw: "346,1100,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",……好。我回太和山等候夫君。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和山等候夫君。"
+    translated: "...... Fine. I'll return to Taihe Mountain and wait for my husband."
 - raw: "347,1101,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",……好。我回太和山等候夫君。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和山等候夫君。"
+    translated: "...... Fine. I'll return to Taihe Mountain and wait for my husband."
 - raw: "348,1102,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",那懿瑶便先回杭州探望爹爹，官人若是想我……可回隆顺镖局来。,33,3"
   splits:
   - split: 5
     text: "那懿瑶便先回杭州探望爹爹，官人若是想我……可回隆顺镖局来。"
+    translated: "Then Yi Yao will return to Hangzhou to visit Father. If her husband misses her......he can come to the Longshun Security Bureau."
 - raw: "349,1103,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "哥若要小玥同行，便到临川村来。"
+    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2196,9 +2728,11 @@
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "哥若要小玥同行，便到临川村来。"
+    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2206,13 +2740,16 @@
   splits:
   - split: 5
     text: "是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。"
+    translated: "Yes. Yihe is waiting outside Wenchang Town at all times... Lord Husband, come back soon."
 - raw: "352,1106,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",好……lp若是想念夫君，便到大理昔日同行之地来。,33,3"
   splits:
   - split: 5
     text: "好……"
+    translated: "Good......"
   - split: 5
     subIndex: 1
     text: "若是想念夫君，便到大理昔日同行之地来。"
+    translated: "If you miss your husband, come to the places in Dali where you once traveled together."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2220,18 +2757,22 @@
   splits:
   - split: 5
     text: "妾回桃花坞中探望姊妹，良人早日来唤若烟……"
+    translated: "I'll return to Taohua Dock to visit my sisters; my beloved, come for me early, ..."
 - raw: "354,1108,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",梦秋此生跟定夫君……夫君若是想念梦秋，便回襄阳城来。,33,3"
   splits:
   - split: 5
     text: "梦秋此生跟定夫君……夫君若是想念梦秋，便回襄阳城来。"
+    translated: "Dream Chilly, this lifetime is devoted to my husband... if my husband misses me, come back to Xiangyang City."
 - raw: "355,1109,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",好妹子，风哥哥且回白桐山庄看看，有事就来找我！,33,3"
   splits:
   - split: 5
     text: "好妹子，风哥哥且回白桐山庄看看，有事就来找我！"
+    translated: "Good girl, Brother Feng, go back to Baitong Manor and check on things. If you have any issues, come find me!"
 - raw: "356,1110,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp郎，我回家……回白桐山庄看看，你也早日回来。,33,3"
   splits:
   - split: 5
     text: "郎，我回家……回白桐山庄看看，你也早日回来。"
+    translated: "Liang, I'm going home... to check on Baitong Manor, and hope you return soon too."
   templates:
   - split: 5
     template: "lp{0}"
@@ -2239,9 +2780,11 @@
   splits:
   - split: 5
     text: "那……小妹暂回白桐山庄打理，"
+    translated: "Then... little sister will return to Baitong Manor to handle things."
   - split: 5
     subIndex: 1
     text: "哥哥，早日再会。"
+    translated: "Brother, let's meet again soon"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2249,9 +2792,11 @@
   splits:
   - split: 5
     text: "我暂回府中看望爷爷，"
+    translated: "I will return to the estate to visit my grandfather."
   - split: 5
     subIndex: 1
     text: "郎，咱们襄阳再见呀。"
+    translated: "Liang, see you in Xiangyang again"
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -2259,9 +2804,11 @@
   splits:
   - split: 5
     text: "好……谢正青于襄阳城北，只待"
+    translated: "Good...... Xie Zhengqing awaits in the northern part of Xiangyang City."
   - split: 5
     subIndex: 1
     text: "来唤。"
+    translated: "Come and call"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2269,17 +2816,21 @@
   splits:
   - split: 5
     text: "那……我回苗疆探望姊姊与教主，阿哥儿，你也多回苗疆来嘛。"
+    translated: "Then... I'll return to Miaojiang to visit my sister and the Sect Master. Big Brother, you should come to Miaojiang more often too."
 - raw: "361,1115,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",那夫人可要早些回青萍村来，在下还要请夫人品尝新的炙法呢！,33,3"
   splits:
   - split: 5
     text: "那夫人可要早些回青萍村来，在下还要请夫人品尝新的炙法呢！"
+    translated: "Then, Lady, do come back to Qingping Village early so that I may serve you the new roasting method!"
 - raw: "362,1116,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿真回辽东看望爷爷……lp哥哥哪日来找阿真？,33,3"
   splits:
   - split: 5
     text: "阿真回辽东看望爷爷……"
+    translated: "Ah Zheng returned to Liaodong to visit his grandfather......"
   - split: 5
     subIndex: 1
     text: "哥哥哪日来找阿真？"
+    translated: "When will Brother come to look for Ah Zhen?"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2287,6 +2838,7 @@
   splits:
   - split: 5
     text: "姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
+    translated: "Sister, don't worry. I can take care of myself in Liaodong. You be careful with everything."
   templates:
   - split: 5
     template: "lp{0}"
@@ -2294,29 +2846,36 @@
   splits:
   - split: 5
     text: "我仍会在大雪山练刀，若你归来，我的刀便是你的刀。"
+    translated: "I will still train with the blade on Daxue Mountain; if you return, my blade shall be yours."
 - raw: "365,1119,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",胧就在东瀛，随时等候夫君大人……请夫君大人，莫要忘了胧。,33,3"
   splits:
   - split: 5
     text: "胧就在东瀛，随时等候夫君大人……请夫君大人，莫要忘了胧。"
+    translated: "Lum is in Dongying, waiting for you at all times......Please, Lord Husband, do not forget Lum."
 - raw: "366,1120,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",好。夫君若还想相见，便回太和山来罢……,33,3"
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
+    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
 - raw: "367,1121,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",好。夫君若还想相见，便回太和山来罢……,33,3"
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
+    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
 - raw: "368,1122,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",官人，懿瑶且回杭州去了……但愿后会有期。,33,3"
   splits:
   - split: 5
     text: "官人，懿瑶且回杭州去了……但愿后会有期。"
+    translated: "My lord, I, Yiyao, have returned to Hangzhou... but I hope we may meet again in the future."
 - raw: "369,1123,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
     text: "小玥回临川村去……我已惯常孑身一人，"
+    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
   - split: 5
     subIndex: 1
     text: "哥，不妨的。"
+    translated: "Brother, it's fine"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2324,9 +2883,11 @@
   splits:
   - split: 5
     text: "小玥回临川村去……我已惯常孑身一人，"
+    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
   - split: 5
     subIndex: 1
     text: "哥，不妨的。"
+    translated: "Brother, it's fine"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2334,29 +2895,36 @@
   splits:
   - split: 5
     text: "是……衣鹤在文昌镇外，静候夫君大人……"
+    translated: "It is... I have been waiting for my husband, Lord... outside Wenchang Town..."
 - raw: "372,1126,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",好……那丹某便回大理去……等候娘子。,33,3"
   splits:
   - split: 5
     text: "好……那丹某便回大理去……等候娘子。"
+    translated: "Well......then Dan will return to Dali......to wait for my wife."
 - raw: "373,1127,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",……嗯。妾只回桃花坞中探望姊妹。,33,3"
   splits:
   - split: 5
     text: "……嗯。妾只回桃花坞中探望姊妹。"
+    translated: "... Hmm. I only return to Taohua Dock to visit my sisters."
 - raw: "374,1128,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",只盼夫君勿忘昔日之言……梦秋告辞。,33,3"
   splits:
   - split: 5
     text: "只盼夫君勿忘昔日之言……梦秋告辞。"
+    translated: "Only pray that my husband does not forget his words of old...... Dream Autumn takes her leave."
 - raw: "375,1129,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",也罢，也罢……白桐山庄倒是许久未归了，夫人……告辞。,33,3"
   splits:
   - split: 5
     text: "也罢，也罢……白桐山庄倒是许久未归了，夫人……告辞。"
+    translated: "Very well, very well...... I haven't returned to Baitong Manor in a long time, Lady...... Farewell."
 - raw: "376,1130,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",既如此，我且回白桐山庄去……lp郎，有缘再会。,33,3"
   splits:
   - split: 5
     text: "既如此，我且回白桐山庄去……"
+    translated: "Since that's the case, I'll head back to Baitong Manor......"
   - split: 5
     subIndex: 1
     text: "郎，有缘再会。"
+    translated: "Goodbye, may our paths cross again"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2364,9 +2932,11 @@
   splits:
   - split: 5
     text: "小妹暂回白桐山庄打理……"
+    translated: "Little sister will temporarily return to Baitong Manor to manage things......"
   - split: 5
     subIndex: 1
     text: "哥哥，珍重。"
+    translated: "Brother, take care"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2374,9 +2944,11 @@
   splits:
   - split: 5
     text: "这般也好……"
+    translated: "This is for the best......"
   - split: 5
     subIndex: 1
     text: "郎，有朝一日，襄阳再见罢。"
+    translated: "My dear, one day we shall meet again in Xiangyang."
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -2384,21 +2956,26 @@
   splits:
   - split: 5
     text: "……好。襄阳城北，谢某自去待死。"
+    translated: "...... Fine. At the northern part of Xiangyang City, I, Xie, will go to await my death."
 - raw: "380,1134,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",汉人这般容易变心……阿哥儿，你还会来苗疆么？,33,3"
   splits:
   - split: 5
     text: "汉人这般容易变心……阿哥儿，你还会来苗疆么？"
+    translated: "Men are so fickle......Ah Ge, will you come back to Miaojiang?"
 - raw: "381,1135,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",也好。在下自去寻梦……夫人，记得回青萍村来看看。,33,3"
   splits:
   - split: 5
     text: "也好。在下自去寻梦……夫人，记得回青萍村来看看。"
+    translated: "Very well. I shall seek my dreams... Lady, remember to come back and visit Qingping Village."
 - raw: "382,1136,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",阿真回辽东去……lp哥哥，不要阿真了？,33,3"
   splits:
   - split: 5
     text: "阿真回辽东去……"
+    translated: "Ah Zhhen returns to Liaodong..."
   - split: 5
     subIndex: 1
     text: "哥哥，不要阿真了？"
+    translated: "Brother, no more acting serious?"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2406,33 +2983,41 @@
   splits:
   - split: 5
     text: "是……弟只在辽东，等候姊姊相召。"
+    translated: "It's... I only wait in Liaodong for my sister to call."
 - raw: "384,1138,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",刀客本孤身……你既弃我，此生还要再见么。,33,3"
   splits:
   - split: 5
     text: "刀客本孤身……你既弃我，此生还要再见么。"
+    translated: "Blade Master, who was alone... since you have abandoned me, shall we meet again in this life?"
 - raw: "385,1139,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",胧此生为影，既失主公……便无存在之意义。,33,3"
   splits:
   - split: 5
     text: "胧此生为影，既失主公……便无存在之意义。"
+    translated: "I was born to be a shadow; now that I have lost my lord... there is no meaning in my existence."
 - raw: "386,1140,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",……好。我回太和山等候夫君。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和山等候夫君。"
+    translated: "...... Fine. I'll return to Taihe Mountain and wait for my husband."
 - raw: "387,1141,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",……好。我回太和山等候夫君。,33,3"
   splits:
   - split: 5
     text: "……好。我回太和山等候夫君。"
+    translated: "...... Fine. I'll return to Taihe Mountain and wait for my husband."
 - raw: "388,1142,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",那懿瑶便先回杭州探望爹爹，官人若是想我……可回隆顺镖局来。,33,3"
   splits:
   - split: 5
     text: "那懿瑶便先回杭州探望爹爹，官人若是想我……可回隆顺镖局来。"
+    translated: "Then Yi Yao will return to Hangzhou to visit Father. If her husband misses her......he can come to the Longshun Security Bureau."
 - raw: "389,1143,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "哥若要小玥同行，便到临川村来。"
+    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2440,9 +3025,11 @@
   splits:
   - split: 5
     text: "嗯……"
+    translated: "Hmm......"
   - split: 5
     subIndex: 1
     text: "哥若要小玥同行，便到临川村来。"
+    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2450,13 +3037,16 @@
   splits:
   - split: 5
     text: "是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。"
+    translated: "Yes. Yihe is waiting outside Wenchang Town at all times... Lord Husband, come back soon."
 - raw: "392,1146,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",好……lp若是想念夫君，便到大理昔日同行之地来。,33,3"
   splits:
   - split: 5
     text: "好……"
+    translated: "Good......"
   - split: 5
     subIndex: 1
     text: "若是想念夫君，便到大理昔日同行之地来。"
+    translated: "If you miss your husband, come to the places in Dali where you once traveled together."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2464,18 +3054,22 @@
   splits:
   - split: 5
     text: "妾回桃花坞中探望姊妹，良人早日来唤若烟……"
+    translated: "I'll return to Taohua Dock to visit my sisters; my beloved, come for me early, ..."
 - raw: "394,1148,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",梦秋此生跟定夫君……夫君若是想念梦秋，便回襄阳城来。,33,3"
   splits:
   - split: 5
     text: "梦秋此生跟定夫君……夫君若是想念梦秋，便回襄阳城来。"
+    translated: "Dream Chilly, this lifetime is devoted to my husband... if my husband misses me, come back to Xiangyang City."
 - raw: "395,1149,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",好妹子，风哥哥且回白桐山庄看看，有事就来找我！,33,3"
   splits:
   - split: 5
     text: "好妹子，风哥哥且回白桐山庄看看，有事就来找我！"
+    translated: "Good girl, Brother Feng, go back to Baitong Manor and check on things. If you have any issues, come find me!"
 - raw: "396,1150,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp郎，我回家……回白桐山庄看看，你也早日回来。,33,3"
   splits:
   - split: 5
     text: "郎，我回家……回白桐山庄看看，你也早日回来。"
+    translated: "Liang, I'm going home... to check on Baitong Manor, and hope you return soon too."
   templates:
   - split: 5
     template: "lp{0}"
@@ -2483,9 +3077,11 @@
   splits:
   - split: 5
     text: "那……小妹暂回白桐山庄打理，"
+    translated: "Then... little sister will return to Baitong Manor to handle things."
   - split: 5
     subIndex: 1
     text: "哥哥，早日再会。"
+    translated: "Brother, let's meet again soon"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2493,9 +3089,11 @@
   splits:
   - split: 5
     text: "我暂回府中看望爷爷，"
+    translated: "I will return to the estate to visit my grandfather."
   - split: 5
     subIndex: 1
     text: "郎，咱们襄阳再见呀。"
+    translated: "Liang, see you in Xiangyang again"
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -2503,9 +3101,11 @@
   splits:
   - split: 5
     text: "好……谢正青于襄阳城北，只待"
+    translated: "Good...... Xie Zhengqing awaits in the northern part of Xiangyang City."
   - split: 5
     subIndex: 1
     text: "来唤。"
+    translated: "Come and call"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2513,17 +3113,21 @@
   splits:
   - split: 5
     text: "那……我回苗疆探望姊姊与教主，阿哥儿，你也多回苗疆来嘛。"
+    translated: "Then... I'll return to Miaojiang to visit my sister and the Sect Master. Big Brother, you should come to Miaojiang more often too."
 - raw: "401,1155,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",那夫人可要早些回青萍村来，在下还要请夫人品尝新的炙法呢！,33,3"
   splits:
   - split: 5
     text: "那夫人可要早些回青萍村来，在下还要请夫人品尝新的炙法呢！"
+    translated: "Then, Lady, do come back to Qingping Village early so that I may serve you the new roasting method!"
 - raw: "402,1156,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿真回辽东看望爷爷……lp哥哥哪日来找阿真？,33,3"
   splits:
   - split: 5
     text: "阿真回辽东看望爷爷……"
+    translated: "Ah Zheng returned to Liaodong to visit his grandfather......"
   - split: 5
     subIndex: 1
     text: "哥哥哪日来找阿真？"
+    translated: "When will Brother come to look for Ah Zhen?"
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -2531,6 +3135,7 @@
   splits:
   - split: 5
     text: "姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
+    translated: "Sister, don't worry. I can take care of myself in Liaodong. You be careful with everything."
   templates:
   - split: 5
     template: "lp{0}"
@@ -2538,14 +3143,17 @@
   splits:
   - split: 5
     text: "我仍会在大雪山练刀，若你归来，我的刀便是你的刀。"
+    translated: "I will still train with the blade on Daxue Mountain; if you return, my blade shall be yours."
 - raw: "405,1159,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",胧就在东瀛，随时等候夫君大人……请夫君大人，莫要忘了胧。,33,3"
   splits:
   - split: 5
     text: "胧就在东瀛，随时等候夫君大人……请夫君大人，莫要忘了胧。"
+    translated: "Lum is in Dongying, waiting for you at all times......Please, Lord Husband, do not forget Lum."
 - raw: "406,1200,\"1140007004,30\",\"//,>\",\"touchId,love\",p，你为何……变得这般……,30,2"
   splits:
   - split: 5
     text: "，你为何……变得这般……"
+    translated: ", Why have you become like this..."
   templates:
   - split: 5
     template: "p{0}"
@@ -2553,6 +3161,7 @@
   splits:
   - split: 5
     text: "，你为何……变得这般……"
+    translated: ", Why have you become like this..."
   templates:
   - split: 5
     template: "p{0}"
@@ -2560,12 +3169,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，浪子回头，为时未晚……"
+    translated: ", A prodigal son can still find his way back..."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2573,12 +3185,15 @@
   splits:
   - split: 5
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……无论你是何模样，小玥都……"
+    translated: "...No matter what you look like, Little Yue still..."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2586,12 +3201,15 @@
   splits:
   - split: 5
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……无论你是何模样，小玥都……"
+    translated: "...No matter what you look like, Little Yue still..."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2599,6 +3217,7 @@
   splits:
   - split: 5
     text: "大人……衣鹤惹大人生气了吗？"
+    translated: "Did I annoy you, Lord?"
   templates:
   - split: 5
     template: "p{0}"
@@ -2606,12 +3225,15 @@
   splits:
   - split: 5
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "妹子"
+    translated: "Sis"
   - split: 5
     subIndex: 2
     text: "，人生在世，勿忘本心，勿忘本心。"
+    translated: ", In life, never forget your true self, never forget your true self."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2619,12 +3241,15 @@
   splits:
   - split: 5
     text: "大侠"
+    translated: "Great Hero"
   - split: 5
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 2
     text: "，唤小女子何事？"
+    translated: ", What do you call for this maiden?"
   templates:
   - split: 5
     template: "p[{0}||{1}]{2}"
@@ -2632,12 +3257,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，连你也走入歧途……"
+    translated: ", Even you have strayed from the right path......"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2645,12 +3273,15 @@
   splits:
   - split: 5
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "……酒逢知己，喝起来才有滋味。"
+    translated: "... Drinking with a kindred spirit is what makes the liquor taste good."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2658,12 +3289,15 @@
   splits:
   - split: 5
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 2
     text: "……唉，不想本姑娘竟这般走眼……"
+    translated: "......Sigh, I never thought I would be so mistaken about myself......"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2671,24 +3305,31 @@
   splits:
   - split: 5
     text: "小玉还愿跟着"
+    translated: "Xiaoyu followed as she fulfilled her vow"
   - split: 5
     subIndex: 1
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，只盼"
+    translated: ", Only hope"
   - split: 5
     subIndex: 4
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 5
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 6
     text: "能早日回心转意……"
+    translated: "...so that you may return to your senses sooner..."
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}fp[{4}||{5}]{6}"
@@ -2696,12 +3337,15 @@
   splits:
   - split: 5
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 2
     text: "……你若是不甚自在，倒也不必勉强同行。"
+    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2709,12 +3353,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，在下残躯，但凭驱使。"
+    translated: ", At your service, though I am but a broken body."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2722,6 +3369,7 @@
   splits:
   - split: 5
     text: "，你若是负心，我……"
+    translated: ", If you are unfaithful, I..."
   templates:
   - split: 5
     template: "p{0}"
@@ -2729,12 +3377,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "……可是我哪条鱼炙得不合口味？"
+    translated: "... but which of my grilled fish didn't taste right?"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2742,12 +3393,15 @@
   splits:
   - split: 5
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "，阿真做错了什么……？"
+    translated: ", What did Ah True do wrong......?"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2755,6 +3409,7 @@
   splits:
   - split: 5
     text: "大侠……是小弟何处做得不对么？"
+    translated: "Great Hero......is it something I did wrong?"
   templates:
   - split: 5
     template: "fp{0}"
@@ -2762,6 +3417,7 @@
   splits:
   - split: 5
     text: "……若你心意已改，直说便是。"
+    translated: "...If your intentions have changed, just say so."
   templates:
   - split: 5
     template: "p{0}"
@@ -2769,10 +3425,12 @@
   splits:
   - split: 5
     text: "主公……胧的忍术，可是有不足之处？"
+    translated: "Lord... Are there any weaknesses in Long's ninja techniques?"
 - raw: "426,1220,\"1140007004,29\",\"//,<\",\"touchId,love\",p……你去何处，我便去何处。,30,2"
   splits:
   - split: 5
     text: "……你去何处，我便去何处。"
+    translated: "...Where you go, I will go"
   templates:
   - split: 5
     template: "p{0}"
@@ -2780,6 +3438,7 @@
   splits:
   - split: 5
     text: "……你去何处，我便去何处。"
+    translated: "...Where you go, I will go"
   templates:
   - split: 5
     template: "p{0}"
@@ -2787,12 +3446,15 @@
   splits:
   - split: 5
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
+    translated: ", I am familiar with matters in the Jianghu; if you need Yi Yao's help, just speak up."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2800,12 +3462,15 @@
   splits:
   - split: 5
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……小玥一生相随，此心不改。"
+    translated: "...Little Yue will follow me for life, this heart never changing."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2813,12 +3478,15 @@
   splits:
   - split: 5
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……小玥一生相随，此心不改。"
+    translated: "...Little Yue will follow me for life, this heart never changing."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2826,6 +3494,7 @@
   splits:
   - split: 5
     text: "大人，可有什么要吩咐衣鹤？"
+    translated: "Lord, is there anything you wish for Yige to do?"
   templates:
   - split: 5
     template: "p{0}"
@@ -2833,12 +3502,15 @@
   splits:
   - split: 5
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "妹子"
+    translated: "Sis"
   - split: 5
     subIndex: 2
     text: "，江湖同游，当真畅快！哈哈哈！"
+    translated: ", Traveling through Jianghu together is truly delightful! Ha ha ha!"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2846,12 +3518,15 @@
   splits:
   - split: 5
     text: "大侠"
+    translated: "Great Hero"
   - split: 5
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 2
     text: "，若烟听候吩咐。"
+    translated: ", Ruoyan awaits your orders"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2859,15 +3534,19 @@
   splits:
   - split: 5
     text: "江湖、家国……"
+    translated: "Jianghu, home and country......"
   - split: 5
     subIndex: 1
     text: "公子"
+    translated: "Young Master"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "，我们要去往何方？"
+    translated: ", Where are we headed?"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -2875,12 +3554,17 @@
   splits:
   - split: 5
     text: "兄弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
+    translated: ", The martial world can't do without wine, where are we off to drink today?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Jianghu,江湖,"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2888,15 +3572,19 @@
   splits:
   - split: 5
     text: "我定要赢遍天下赌坊……咳咳，"
+    translated: "I must win at every gambling den in the world......cough cough,"
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 3
     text: "，可有吩咐？"
+    translated: ", Is there anything you need?"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -2904,12 +3592,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，可有事情需小玉帮忙？请尽管吩咐。"
+    translated: ", Is there anything you need Little Jade to help with? Feel free to ask."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2917,15 +3608,19 @@
   splits:
   - split: 5
     text: "外间天地，果然比府上自在许多。"
+    translated: "The world outside is indeed much more carefree than your estate."
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 3
     text: "，咱们走罢！"
+    translated: ", Let's go!"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -2933,12 +3628,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，在下残躯，但凭驱使。"
+    translated: ", At your service, though I am but a broken body."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2946,6 +3644,7 @@
   splits:
   - split: 5
     text: "，说定了带我看遍世间绝景，你可不许食言！"
+    translated: ", You said you'd show me all the world's greatest views; you can't go back on your word!"
   templates:
   - split: 5
     template: "p{0}"
@@ -2953,12 +3652,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，天大地大，咱们接下来去哪座山、哪条河？"
+    translated: ", Heaven and earth are vast; where shall we go next, which mountain, which river?"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2966,12 +3668,15 @@
   splits:
   - split: 5
     text: "大哥"
+    translated: "Big Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "，咱们是要去杀鞑子么？"
+    translated: ", Are we going to kill the Tartars?"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2979,6 +3684,7 @@
   splits:
   - split: 5
     text: "大侠，小弟定会努力习武，不辜负相救之恩！"
+    translated: "Great Hero, little brother will surely work hard to practice martial arts and not disappoint the kindness of your rescue!"
   templates:
   - split: 5
     template: "fp{0}"
@@ -2986,12 +3692,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姑娘"
+    translated: "Miss"
   - split: 5
     subIndex: 2
     text: "，刀锋未钝，前路尚远，咱们启程到何处去？"
+    translated: ", The blade is still sharp, and the road ahead is long. Where shall we set out to go?"
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -2999,16 +3708,20 @@
   splits:
   - split: 5
     text: "主公，胧随时待命，愿为主公扫清前路。"
+    translated: "Lord, Long is always ready, willing to clear the path for you."
 - raw: "446,1240,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，你为何……变得这般……,30,3"
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，你为何……变得这般……"
+    translated: ", Why have you become like this..."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3016,12 +3729,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，你为何……变得这般……"
+    translated: ", Why have you become like this..."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3029,12 +3745,15 @@
   splits:
   - split: 5
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，浪子回头，为时未晚……"
+    translated: ", A prodigal son can still find his way back..."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3042,12 +3761,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……无论你是何模样，小玥都……"
+    translated: "...No matter what you look like, Little Yue still..."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3055,12 +3777,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……无论你是何模样，小玥都……"
+    translated: "...No matter what you look like, Little Yue still..."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3068,12 +3793,15 @@
   splits:
   - split: 5
     text: "兄长大人"
+    translated: "Lord Eldest Brother"
   - split: 5
     subIndex: 1
     text: "姊姊大人"
+    translated: "Lord Sister"
   - split: 5
     subIndex: 2
     text: "……衣鹤惹大人生气了吗？"
+    translated: "...Did Lord Han get angry at someone again?"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3081,12 +3809,15 @@
   splits:
   - split: 5
     text: "弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "妹"
+    translated: "Sis"
   - split: 5
     subIndex: 2
     text: "，人生在世，勿忘本心，勿忘本心。"
+    translated: ", In life, never forget your true self, never forget your true self."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3094,12 +3825,15 @@
   splits:
   - split: 5
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……唤小妹何事？"
+    translated: "...Why call Little Sister?"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3107,12 +3841,15 @@
   splits:
   - split: 5
     text: "哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，连你也走入歧途……"
+    translated: ", Even you have strayed from the right path......"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3120,12 +3857,15 @@
   splits:
   - split: 5
     text: "弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "妹"
+    translated: "Sis"
   - split: 5
     subIndex: 2
     text: "……酒逢知己，喝起来才有滋味。"
+    translated: "... Drinking with a kindred spirit is what makes the liquor taste good."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3133,12 +3873,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……唉，不想妹妹竟这般走眼……"
+    translated: "... Sigh, I didn't realize my sister was so mistaken..."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3146,24 +3889,31 @@
   splits:
   - split: 5
     text: "小妹还愿跟着"
+    translated: "Little sister still wishes to follow"
   - split: 5
     subIndex: 1
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，只盼"
+    translated: ", Only hope"
   - split: 5
     subIndex: 4
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 5
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 6
     text: "能早日回心转意……"
+    translated: "...so that you may return to your senses sooner..."
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}lp[{4}||{5}]{6}"
@@ -3171,12 +3921,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……你若是不甚自在，倒也不必勉强同行。"
+    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3184,12 +3937,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，小弟残躯，有辱声名……"
+    translated: ", My battered body brings shame to my reputation......"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3197,12 +3953,15 @@
   splits:
   - split: 5
     text: "阿哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "阿姐"
+    translated: "Sister Senior"
   - split: 5
     subIndex: 2
     text: "，你若是负心，我……"
+    translated: ", If you are unfaithful, I..."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3210,12 +3969,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……可是我哪条鱼炙得不合口味？"
+    translated: "... but which of my grilled fish didn't taste right?"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3223,12 +3985,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "，阿真做错了什么……？"
+    translated: ", What did Ah True do wrong......?"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3236,12 +4001,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……是小弟何处做得不对么？"
+    translated: "...Is it something little brother did wrong?"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3249,12 +4017,15 @@
   splits:
   - split: 5
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……刀若钝了，人心也难利落。"
+    translated: "... If the blade is dull, the heart is hard to keep sharp as well."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3262,12 +4033,15 @@
   splits:
   - split: 5
     text: "兄长大人"
+    translated: "Lord Eldest Brother"
   - split: 5
     subIndex: 1
     text: "姊姊大人"
+    translated: "Lord Sister"
   - split: 5
     subIndex: 2
     text: "……胧是否让您失望了？"
+    translated: "...Have I disappointed you, Lum?"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3275,12 +4049,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……你去何处，我便去何处。"
+    translated: "...Where you go, I will go"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3288,12 +4065,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……你去何处，我便去何处。"
+    translated: "...Where you go, I will go"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3301,12 +4081,15 @@
   splits:
   - split: 5
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
+    translated: ", I am familiar with matters in the Jianghu; if you need Yi Yao's help, just speak up."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3314,12 +4097,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……小玥一生相随，此心不改。"
+    translated: "...Little Yue will follow me for life, this heart never changing."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3327,12 +4113,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "……小玥一生相随，此心不改。"
+    translated: "...Little Yue will follow me for life, this heart never changing."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3340,12 +4129,15 @@
   splits:
   - split: 5
     text: "兄长大人"
+    translated: "Lord Eldest Brother"
   - split: 5
     subIndex: 1
     text: "姊姊大人"
+    translated: "Lord Sister"
   - split: 5
     subIndex: 2
     text: "，可有什么要吩咐衣鹤？"
+    translated: ", Is there anything you want to tell Yi He?"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3353,12 +4145,15 @@
   splits:
   - split: 5
     text: "弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "妹"
+    translated: "Sis"
   - split: 5
     subIndex: 2
     text: "，江湖同游，当真畅快！哈哈哈！"
+    translated: ", Traveling through Jianghu together is truly delightful! Ha ha ha!"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3366,12 +4161,15 @@
   splits:
   - split: 5
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，若烟听候吩咐。"
+    translated: ", Ruoyan awaits your orders"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3379,15 +4177,19 @@
   splits:
   - split: 5
     text: "江湖、家国……"
+    translated: "Jianghu, home and country......"
   - split: 5
     subIndex: 1
     text: "哥"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，我们要去往何方？"
+    translated: ", Where are we headed?"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -3395,12 +4197,17 @@
   splits:
   - split: 5
     text: "弟"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "妹"
+    translated: "Sis"
   - split: 5
     subIndex: 2
     text: "，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
+    translated: ", The martial world can't do without wine, where are we off to drink today?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Jianghu,江湖,Jianghu,江湖,"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3408,15 +4215,19 @@
   splits:
   - split: 5
     text: "我定要赢遍天下赌坊……咳咳，"
+    translated: "I must win at every gambling den in the world......cough cough,"
   - split: 5
     subIndex: 1
     text: "哥"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，可有吩咐？"
+    translated: ", Is there anything you need?"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -3424,12 +4235,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，可有事情需小妹帮忙？请尽管吩咐。"
+    translated: ", Is there anything you need my help with? Feel free to ask."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3437,15 +4251,19 @@
   splits:
   - split: 5
     text: "外间天地，果然比府上自在许多。"
+    translated: "The world outside is indeed much more carefree than your estate."
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，咱们走罢！"
+    translated: ", Let's go!"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -3453,12 +4271,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，小弟残躯，但凭驱使。"
+    translated: ", My battered body is at your command"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3466,12 +4287,15 @@
   splits:
   - split: 5
     text: "阿哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "阿姐"
+    translated: "Sister Senior"
   - split: 5
     subIndex: 2
     text: "，说定了带妹妹看遍世间绝景，你可不许食言！"
+    translated: ", You promised to show my younger sister the world's most spectacular views; you must not go back on your word!"
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3479,12 +4303,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，天大地大，咱们接下来去哪座山、哪条河？"
+    translated: ", Heaven and earth are vast; where shall we go next, which mountain, which river?"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3492,12 +4319,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "，咱们是要去杀鞑子么？"
+    translated: ", Are we going to kill the Tartars?"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3505,12 +4335,15 @@
   splits:
   - split: 5
     text: "哥哥"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姐姐"
+    translated: "Older Sister"
   - split: 5
     subIndex: 2
     text: "，小弟定会努力习武，不辜负相救之恩！"
+    translated: ", I will work hard to practice martial arts and not fail to live up to the kindness that saved me!"
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -3518,12 +4351,15 @@
   splits:
   - split: 5
     text: "兄长"
+    translated: "Elder Brother"
   - split: 5
     subIndex: 1
     text: "姊姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "，与你切磋刀法，倒也不算虚度光阴。"
+    translated: ", Practicing blade art with you isn't a waste of time."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3531,12 +4367,15 @@
   splits:
   - split: 5
     text: "兄长大人"
+    translated: "Lord Eldest Brother"
   - split: 5
     subIndex: 1
     text: "姊姊大人"
+    translated: "Lord Sister"
   - split: 5
     subIndex: 2
     text: "，胧的性命与忍道，皆托付于您。"
+    translated: ", Luo's life and the path of endurance are entrusted to you."
   templates:
   - split: 5
     template: "[{0}||{1}]{2}"
@@ -3544,18 +4383,22 @@
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
+    translated: "Husband, why have you become like this..."
 - raw: "487,1281,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君，你为何……变得这般……,30,3"
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
+    translated: "Husband, why have you become like this..."
 - raw: "488,1282,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",官人……浪子回头，为时未晚……,30,3"
   splits:
   - split: 5
     text: "官人……浪子回头，为时未晚……"
+    translated: "My lord...... It's never too late for a rogue to reform......"
 - raw: "489,1283,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
     text: "哥……无论你是何模样，小玥都……"
+    translated: "Brother......no matter what you look like, Little Yue still......"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3563,6 +4406,7 @@
   splits:
   - split: 5
     text: "哥……无论你是何模样，小玥都……"
+    translated: "Brother......no matter what you look like, Little Yue still......"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3570,10 +4414,12 @@
   splits:
   - split: 5
     text: "夫君大人……衣鹤惹夫君大人生气了吗？"
+    translated: "My lord husband... Did Lord Yihuo anger you, my lord?"
 - raw: "492,1286,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
     text: "，人生在世，勿忘本心，勿忘本心。"
+    translated: ", In life, never forget your true self, never forget your true self."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3581,18 +4427,22 @@
   splits:
   - split: 5
     text: "夫君……唤若烟何事？"
+    translated: "Husband... why are you calling Ruoyan?"
 - raw: "494,1288,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君，若你也弃梦秋，我……,30,3"
   splits:
   - split: 5
     text: "夫君，若你也弃梦秋，我……"
+    translated: "Husband, if you also abandon Dreamchase, I..."
 - raw: "495,1289,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",娘子……这酒喝着，都快没有滋味了。,30,3"
   splits:
   - split: 5
     text: "娘子……这酒喝着，都快没有滋味了。"
+    translated: "Wife...... This wine tastes like there's no flavor left in it."
 - raw: "496,1290,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp郎……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
     text: "郎……唉，不想妹妹竟这般走眼……"
+    translated: "Liang... Sigh, I didn't expect my sister to be so mistaken..."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3600,12 +4450,15 @@
   splits:
   - split: 5
     text: "小妹已把此生托付给"
+    translated: "Little sister has entrusted this life to"
   - split: 5
     subIndex: 1
     text: "哥哥……只盼"
+    translated: "Brother......I only hope"
   - split: 5
     subIndex: 2
     text: "哥哥早日回心转意……"
+    translated: "Brother, I hope you change your mind soon......"
   templates:
   - split: 5
     template: "{0}lp{1}lp{2}"
@@ -3613,6 +4466,7 @@
   splits:
   - split: 5
     text: "郎……你可是厌弃林灵了？"
+    translated: "Liang... Don't tell me you've grown tired of Lin Ling?"
   templates:
   - split: 5
     template: "fp{0}"
@@ -3620,6 +4474,7 @@
   splits:
   - split: 5
     text: "……谢某残躯，配不上"
+    translated: "......my battered body is unworthy of"
   templates:
   - split: 5
     template: "{0}lp。"
@@ -3627,14 +4482,17 @@
   splits:
   - split: 5
     text: "阿哥儿，昔日山盟海誓……你可是变心了？"
+    translated: "Ah Ge'er, those vows we made by mountain and sea... have you changed your heart?"
 - raw: "501,1295,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫人……可是我哪条鱼炙得不合口味？,30,3"
   splits:
   - split: 5
     text: "夫人……可是我哪条鱼炙得不合口味？"
+    translated: "Lady... but which fish did I prepare poorly?"
 - raw: "502,1296,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥哥……阿真做错了什么……？,30,3"
   splits:
   - split: 5
     text: "哥哥……阿真做错了什么……？"
+    translated: "Brother......What did Ah Zhen do wrong......?"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3642,6 +4500,7 @@
   splits:
   - split: 5
     text: "姊姊……可是我本领低微，不能帮上姊姊？"
+    translated: "Sister...... but my skills are weak, unable to help Sister?"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3649,6 +4508,7 @@
   splits:
   - split: 5
     text: "，你我的刀锋，可是背道而驰了？"
+    translated: ", Are our blade edges moving in opposite directions?"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3656,22 +4516,27 @@
   splits:
   - split: 5
     text: "夫君大人……胧是否不配做您的影？"
+    translated: "My lord husband... Is Long not worthy to be your shadow?"
 - raw: "506,1300,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",夫君，天涯海角，生死相随。,30,3"
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
+    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
 - raw: "507,1301,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",夫君，天涯海角，生死相随。,30,3"
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
+    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
 - raw: "508,1302,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",懿瑶有一趟镖，需运上一辈子……好官人，猜猜是什么？,30,3"
   splits:
   - split: 5
     text: "懿瑶有一趟镖，需运上一辈子……好官人，猜猜是什么？"
+    translated: "Yiyao has a shipment to escort, for a lifetime... Good sir, guess what it is?"
 - raw: "509,1303,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
     text: "哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3679,6 +4544,7 @@
   splits:
   - split: 5
     text: "哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3686,13 +4552,16 @@
   splits:
   - split: 5
     text: "鹤子是夫君的武士、妻子，鹤子永与夫君同在。"
+    translated: "Gezi is my husband's samurai and wife; Gezi will always be by my husband's side."
 - raw: "512,1306,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",此前半生，恍如一梦……lp，此后半生，丹某只付一人。,30,3"
   splits:
   - split: 5
     text: "此前半生，恍如一梦……"
+    translated: "The first half of my life seems like a dream..."
   - split: 5
     subIndex: 1
     text: "，此后半生，丹某只付一人。"
+    translated: ", For the rest of my life, Dan will only belong to one person."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -3700,18 +4569,22 @@
   splits:
   - split: 5
     text: "心似双丝网，中有千千结……不想若烟这般女子，也能觅得良人……"
+    translated: "My heart is like a silken web, with thousands of knots within......I never thought a lady like Ruoyan could find a good man......"
 - raw: "514,1308,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",夫君……梦秋得遇夫君，山无棱、天地合，亦不与君绝。,30,3"
   splits:
   - split: 5
     text: "夫君……梦秋得遇夫君，山无棱、天地合，亦不与君绝。"
+    translated: "My husband... Dreamchill's encounter with you means I would rather die than be parted from you."
 - raw: "515,1309,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我本风流疏狂客，不想也有一日陷在情网……咳，好妹子，我没说什么。,30,3"
   splits:
   - split: 5
     text: "我本风流疏狂客，不想也有一日陷在情网……咳，好妹子，我没说什么。"
+    translated: "I, a carefree and unrestrained soul, never thought I'd find myself entangled in the web of love one day... Ahem, nice lady, I didn't say anything."
 - raw: "516,1310,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp郎，我这一辈子可都赌给你啦，可休想把我甩掉！,30,3"
   splits:
   - split: 5
     text: "郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
+    translated: "Liang, I've staked my whole life on you; don't think you can get rid of me!"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3719,9 +4592,11 @@
   splits:
   - split: 5
     text: "哥哥……小妹眼中，只有"
+    translated: "Brother...... In her eyes, there is only"
   - split: 5
     subIndex: 1
     text: "哥哥一人。哥哥去哪儿，小妹便去哪儿。"
+    translated: "Brother goes alone. Wherever brother goes, I will follow."
   templates:
   - split: 5
     template: "lp{0}lp{1}"
@@ -3729,9 +4604,11 @@
   splits:
   - split: 5
     text: "郎，"
+    translated: "Liang,"
   - split: 5
     subIndex: 1
     text: "郎，嘿嘿，真是怎么也唤不够欸。"
+    translated: "Husband, heh heh, I could never call your name enough."
   templates:
   - split: 5
     template: "fp{0}fp{1}"
@@ -3739,6 +4616,7 @@
   splits:
   - split: 5
     text: "……我此生有愧于你，只盼来世能补偿万一。"
+    translated: "...I feel guilty toward you in this life, only hoping for some compensation in the next."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3746,20 +4624,25 @@
   splits:
   - split: 5
     text: "阿哥儿，中原景致人物万万千，也不及你一人呀。"
+    translated: "Ah Ge, though the Central Plains are full of countless sights and people, none compare to you alone."
 - raw: "521,1315,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",屈鲤当真三生有幸，仙人虽不可寻，良人却就在眼前。,30,3"
   splits:
   - split: 5
     text: "屈鲤当真三生有幸，仙人虽不可寻，良人却就在眼前。"
+    translated: "Qu Li truly has been blessed in his past lives; though immortals cannot be found, his beloved is right before him."
 - raw: "522,1316,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿真愿作lp哥哥的箭，阿真一定保护好lp哥哥！,30,3"
   splits:
   - split: 5
     text: "阿真愿作"
+    translated: "Ah Zhen wishes to do so"
   - split: 5
     subIndex: 1
     text: "哥哥的箭，阿真一定保护好"
+    translated: "Brother's arrow, Ah True will definitely protect it well."
   - split: 5
     subIndex: 2
     text: "哥哥！"
+    translated: "Brother!"
   templates:
   - split: 5
     template: "{0}lp{1}lp{2}"
@@ -3767,6 +4650,7 @@
   splits:
   - split: 5
     text: "姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
+    translated: "Sister, though my skills are weak, I will surely protect you through any peril!"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3774,6 +4658,7 @@
   splits:
   - split: 5
     text: "……刀锋冷，但握刀的手是暖的，这便够了。"
+    translated: "... The blade is cold, but the hand holding it is warm, and that is enough."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3781,22 +4666,27 @@
   splits:
   - split: 5
     text: "夫君大人……胧的刀刃、身心，皆属您一人。"
+    translated: "Husband... Lon's blade and heart belong to you alone."
 - raw: "526,1320,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君，你为何……变得这般……,30,3"
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
+    translated: "Husband, why have you become like this..."
 - raw: "527,1321,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君，你为何……变得这般……,30,3"
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
+    translated: "Husband, why have you become like this..."
 - raw: "528,1322,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",官人……浪子回头，为时未晚……,30,3"
   splits:
   - split: 5
     text: "官人……浪子回头，为时未晚……"
+    translated: "My lord...... It's never too late for a rogue to reform......"
 - raw: "529,1323,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
     text: "哥……无论你是何模样，小玥都……"
+    translated: "Brother......no matter what you look like, Little Yue still......"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3804,6 +4694,7 @@
   splits:
   - split: 5
     text: "哥……无论你是何模样，小玥都……"
+    translated: "Brother......no matter what you look like, Little Yue still......"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3811,10 +4702,12 @@
   splits:
   - split: 5
     text: "夫君大人……衣鹤惹夫君大人生气了吗？"
+    translated: "My lord husband... Did Lord Yihuo anger you, my lord?"
 - raw: "532,1326,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
     text: "，人生在世，勿忘本心，勿忘本心。"
+    translated: ", In life, never forget your true self, never forget your true self."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3822,18 +4715,22 @@
   splits:
   - split: 5
     text: "夫君……唤若烟何事？"
+    translated: "Husband... why are you calling Ruoyan?"
 - raw: "534,1328,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君，若你也弃梦秋，我……,30,3"
   splits:
   - split: 5
     text: "夫君，若你也弃梦秋，我……"
+    translated: "Husband, if you also abandon Dreamchase, I..."
 - raw: "535,1329,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",娘子……这酒喝着，都快没有滋味了。,30,3"
   splits:
   - split: 5
     text: "娘子……这酒喝着，都快没有滋味了。"
+    translated: "Wife...... This wine tastes like there's no flavor left in it."
 - raw: "536,1330,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp郎……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
     text: "郎……唉，不想妹妹竟这般走眼……"
+    translated: "Liang... Sigh, I didn't expect my sister to be so mistaken..."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3841,12 +4738,15 @@
   splits:
   - split: 5
     text: "小妹已把此生托付给"
+    translated: "Little sister has entrusted this life to"
   - split: 5
     subIndex: 1
     text: "哥哥……只盼"
+    translated: "Brother......I only hope"
   - split: 5
     subIndex: 2
     text: "哥哥早日回心转意……"
+    translated: "Brother, I hope you change your mind soon......"
   templates:
   - split: 5
     template: "{0}lp{1}lp{2}"
@@ -3854,6 +4754,7 @@
   splits:
   - split: 5
     text: "郎……你可是厌弃林灵了？"
+    translated: "Liang... Don't tell me you've grown tired of Lin Ling?"
   templates:
   - split: 5
     template: "fp{0}"
@@ -3861,6 +4762,7 @@
   splits:
   - split: 5
     text: "……谢某残躯，配不上"
+    translated: "......my battered body is unworthy of"
   templates:
   - split: 5
     template: "{0}lp。"
@@ -3868,14 +4770,17 @@
   splits:
   - split: 5
     text: "阿哥儿，昔日山盟海誓……你可是变心了？"
+    translated: "Ah Ge'er, those vows we made by mountain and sea... have you changed your heart?"
 - raw: "541,1335,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫人……可是我哪条鱼炙得不合口味？,30,3"
   splits:
   - split: 5
     text: "夫人……可是我哪条鱼炙得不合口味？"
+    translated: "Lady... but which fish did I prepare poorly?"
 - raw: "542,1336,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥哥……阿真做错了什么……？,30,3"
   splits:
   - split: 5
     text: "哥哥……阿真做错了什么……？"
+    translated: "Brother......What did Ah Zhen do wrong......?"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3883,6 +4788,7 @@
   splits:
   - split: 5
     text: "姊姊……可是我本领低微，不能帮上姊姊？"
+    translated: "Sister...... but my skills are weak, unable to help Sister?"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3890,6 +4796,7 @@
   splits:
   - split: 5
     text: "，你我的刀锋，可是背道而驰了？"
+    translated: ", Are our blade edges moving in opposite directions?"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3897,22 +4804,27 @@
   splits:
   - split: 5
     text: "夫君大人……胧是否不配做您的影？"
+    translated: "My lord husband... Is Long not worthy to be your shadow?"
 - raw: "546,1340,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",夫君，天涯海角，生死相随。,30,3"
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
+    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
 - raw: "547,1341,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",夫君，天涯海角，生死相随。,30,3"
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
+    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
 - raw: "548,1342,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",懿瑶有一趟镖，需运上一辈子……好官人，猜猜是什么？,30,3"
   splits:
   - split: 5
     text: "懿瑶有一趟镖，需运上一辈子……好官人，猜猜是什么？"
+    translated: "Yiyao has a shipment to escort, for a lifetime... Good sir, guess what it is?"
 - raw: "549,1343,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
     text: "哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3920,6 +4832,7 @@
   splits:
   - split: 5
     text: "哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3927,13 +4840,16 @@
   splits:
   - split: 5
     text: "鹤子是夫君的武士、妻子，鹤子永与夫君同在。"
+    translated: "Gezi is my husband's samurai and wife; Gezi will always be by my husband's side."
 - raw: "552,1346,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",此前半生，恍如一梦……lp，此后半生，丹某只付一人。,30,3"
   splits:
   - split: 5
     text: "此前半生，恍如一梦……"
+    translated: "The first half of my life seems like a dream..."
   - split: 5
     subIndex: 1
     text: "，此后半生，丹某只付一人。"
+    translated: ", For the rest of my life, Dan will only belong to one person."
   templates:
   - split: 5
     template: "{0}lp{1}"
@@ -3941,18 +4857,22 @@
   splits:
   - split: 5
     text: "心似双丝网，中有千千结……不想若烟这般女子，也能觅得良人……"
+    translated: "My heart is like a silken web, with thousands of knots within......I never thought a lady like Ruoyan could find a good man......"
 - raw: "554,1348,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",夫君……梦秋得遇夫君，山无棱、天地合，亦不与君绝。,30,3"
   splits:
   - split: 5
     text: "夫君……梦秋得遇夫君，山无棱、天地合，亦不与君绝。"
+    translated: "My husband... Dreamchill's encounter with you means I would rather die than be parted from you."
 - raw: "555,1349,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我本风流疏狂客，不想也有一日陷在情网……咳，好妹子，我没说什么。,30,3"
   splits:
   - split: 5
     text: "我本风流疏狂客，不想也有一日陷在情网……咳，好妹子，我没说什么。"
+    translated: "I, a carefree and unrestrained soul, never thought I'd find myself entangled in the web of love one day... Ahem, nice lady, I didn't say anything."
 - raw: "556,1350,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp郎，我这一辈子可都赌给你啦，可休想把我甩掉！,30,3"
   splits:
   - split: 5
     text: "郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
+    translated: "Liang, I've staked my whole life on you; don't think you can get rid of me!"
   templates:
   - split: 5
     template: "lp{0}"
@@ -3960,9 +4880,11 @@
   splits:
   - split: 5
     text: "哥哥……小妹眼中，只有"
+    translated: "Brother...... In her eyes, there is only"
   - split: 5
     subIndex: 1
     text: "哥哥一人。哥哥去哪儿，小妹便去哪儿。"
+    translated: "Brother goes alone. Wherever brother goes, I will follow."
   templates:
   - split: 5
     template: "lp{0}lp{1}"
@@ -3970,9 +4892,11 @@
   splits:
   - split: 5
     text: "郎，"
+    translated: "Liang,"
   - split: 5
     subIndex: 1
     text: "郎，嘿嘿，真是怎么也唤不够欸。"
+    translated: "Husband, heh heh, I could never call your name enough."
   templates:
   - split: 5
     template: "fp{0}fp{1}"
@@ -3980,6 +4904,7 @@
   splits:
   - split: 5
     text: "……我此生有愧于你，只盼来世能补偿万一。"
+    translated: "...I feel guilty toward you in this life, only hoping for some compensation in the next."
   templates:
   - split: 5
     template: "lp{0}"
@@ -3987,20 +4912,25 @@
   splits:
   - split: 5
     text: "阿哥儿，中原景致人物万万千，也不及你一人呀。"
+    translated: "Ah Ge, though the Central Plains are full of countless sights and people, none compare to you alone."
 - raw: "561,1355,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",屈鲤当真三生有幸，仙人虽不可寻，良人却就在眼前。,30,3"
   splits:
   - split: 5
     text: "屈鲤当真三生有幸，仙人虽不可寻，良人却就在眼前。"
+    translated: "Qu Li truly has been blessed in his past lives; though immortals cannot be found, his beloved is right before him."
 - raw: "562,1356,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿真愿作lp哥哥的箭，阿真一定保护好lp哥哥！,30,3"
   splits:
   - split: 5
     text: "阿真愿作"
+    translated: "Ah Zhen wishes to do so"
   - split: 5
     subIndex: 1
     text: "哥哥的箭，阿真一定保护好"
+    translated: "Brother's arrow, Ah True will definitely protect it well."
   - split: 5
     subIndex: 2
     text: "哥哥！"
+    translated: "Brother!"
   templates:
   - split: 5
     template: "{0}lp{1}lp{2}"
@@ -4008,6 +4938,7 @@
   splits:
   - split: 5
     text: "姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
+    translated: "Sister, though my skills are weak, I will surely protect you through any peril!"
   templates:
   - split: 5
     template: "lp{0}"
@@ -4015,6 +4946,7 @@
   splits:
   - split: 5
     text: "……刀锋冷，但握刀的手是暖的，这便够了。"
+    translated: "... The blade is cold, but the hand holding it is warm, and that is enough."
   templates:
   - split: 5
     template: "lp{0}"
@@ -4022,23 +4954,29 @@
   splits:
   - split: 5
     text: "夫君大人……胧的刀刃、身心，皆属您一人。"
+    translated: "Husband... Lon's blade and heart belong to you alone."
 - raw: "566,1360,\"1280100188,30\",\"//,>\",\"touchId,love\",终究还是……，我会在大漠等你。,33,2"
   splits:
   - split: 5
     text: "终究还是……，我会在大漠等你。"
+    translated: "In the end, I will wait for you in the great desert."
 - raw: "567,1361,\"1280100188,29\",\"//,<\",\"touchId,love\",我暂回大漠，fp[少侠||女侠]，咱们大漠再见。,33,2"
   splits:
   - split: 5
     text: "我暂回大漠，"
+    translated: "I'll return to the desert for now"
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 3
     text: "，咱们大漠再见。"
+    translated: ", See you in the Great Desert"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -4046,19 +4984,24 @@
   splits:
   - split: 5
     text: "这般也好……有朝一日，大漠再见罢。"
+    translated: "This will do......One day, we shall meet again in the Great Desert."
 - raw: "569,1363,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我暂回大漠，fp[少侠||女侠]，咱们大漠再见。,33,3"
   splits:
   - split: 5
     text: "我暂回大漠，"
+    translated: "I'll return to the desert for now"
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 3
     text: "，咱们大漠再见。"
+    translated: ", See you in the Great Desert"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -4066,9 +5009,11 @@
   splits:
   - split: 5
     text: "这般也好……"
+    translated: "This is for the best......"
   - split: 5
     subIndex: 1
     text: "郎，有朝一日，大漠再见罢。"
+    translated: "Rong, one day, we shall meet again in the Great Desert."
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -4076,9 +5021,11 @@
   splits:
   - split: 5
     text: "我暂回大漠，"
+    translated: "I'll return to the desert for now"
   - split: 5
     subIndex: 1
     text: "郎，咱们大漠再见呀。"
+    translated: "Liang, see you in the Great Desert again."
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -4086,9 +5033,11 @@
   splits:
   - split: 5
     text: "这般也好……"
+    translated: "This is for the best......"
   - split: 5
     subIndex: 1
     text: "郎，有朝一日，大漠再见罢。"
+    translated: "Rong, one day, we shall meet again in the Great Desert."
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -4096,9 +5045,11 @@
   splits:
   - split: 5
     text: "我暂回大漠，"
+    translated: "I'll return to the desert for now"
   - split: 5
     subIndex: 1
     text: "郎，咱们大漠再见呀。"
+    translated: "Liang, see you in the Great Desert again."
   templates:
   - split: 5
     template: "{0}fp{1}"
@@ -4106,12 +5057,15 @@
   splits:
   - split: 5
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 1
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 2
     text: "……你若是不甚自在，倒也不必勉强同行。"
+    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
   templates:
   - split: 5
     template: "fp[{0}||{1}]{2}"
@@ -4119,15 +5073,19 @@
   splits:
   - split: 5
     text: "果然外间天地比大漠有趣许多。"
+    translated: "Indeed, the world beyond is far more interesting than the desert."
   - split: 5
     subIndex: 1
     text: "少侠"
+    translated: "Young Hero"
   - split: 5
     subIndex: 2
     text: "女侠"
+    translated: "Female Heroine"
   - split: 5
     subIndex: 3
     text: "，咱们走罢！"
+    translated: ", Let's go!"
   templates:
   - split: 5
     template: "{0}fp[{1}||{2}]{3}"
@@ -4135,12 +5093,15 @@
   splits:
   - split: 5
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 1
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 2
     text: "……你若是不甚自在，倒也不必勉强同行。"
+    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
   templates:
   - split: 5
     template: "lp[{0}||{1}]{2}"
@@ -4148,15 +5109,19 @@
   splits:
   - split: 5
     text: "果然外间天地比大漠有趣许多。"
+    translated: "Indeed, the world beyond is far more interesting than the desert."
   - split: 5
     subIndex: 1
     text: "兄"
+    translated: "Brother"
   - split: 5
     subIndex: 2
     text: "姊"
+    translated: "Sister"
   - split: 5
     subIndex: 3
     text: "，咱们走罢！"
+    translated: ", Let's go!"
   templates:
   - split: 5
     template: "{0}lp[{1}||{2}]{3}"
@@ -4164,6 +5129,7 @@
   splits:
   - split: 5
     text: "郎……你可是当做梁君子吗？"
+    translated: "Lan... Are you referring to Liang Junzi?"
   templates:
   - split: 5
     template: "fp{0}"
@@ -4171,9 +5137,11 @@
   splits:
   - split: 5
     text: "郎，这外间天地"
+    translated: "Liang, this world beyond the room"
   - split: 5
     subIndex: 1
     text: "怎么都看不够呢。"
+    translated: "How can I ever get enough of this view."
   templates:
   - split: 5
     template: "fp{0},{1}"
@@ -4181,6 +5149,7 @@
   splits:
   - split: 5
     text: "郎……你可是当做梁君子吗？"
+    translated: "Lan... Are you referring to Liang Junzi?"
   templates:
   - split: 5
     template: "fp{0}"
@@ -4188,9 +5157,11 @@
   splits:
   - split: 5
     text: "郎，这外间天地"
+    translated: "Liang, this world beyond the room"
   - split: 5
     subIndex: 1
     text: "怎么都看不够呢。"
+    translated: "How can I ever get enough of this view."
   templates:
   - split: 5
     template: "fp{0},{1}"

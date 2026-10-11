@@ -36,7 +36,9 @@ strings and 0.83M characters (73% of it).
 - **monster** (names and `角色模组` model names across four near-identical difficulty sheets), **shop / shop2 / shop3**
   (`商品名`), `装备随机掉落配置`, `奖励组`, `RefreshBoss`, `monster_team`: mostly names that exist elsewhere; need a check that the
   code does not compare them to Chinese literals before translating.
-- **Name pools** `姓名库` and `WorldEvolution__name` (random NPC names): need a naming strategy, not line translation.
+- **Name pools** (random NPC names): not translated line by line. English mode loads `WorldEvolution/name2`, a Western pool
+  (Smith, James...), which breaks immersion. `Files/NamePools/GeneratePinyinNames.py` builds a pinyin replacement; see
+  [name-pools.md](name-pools.md). `姓名库` is not read by the game code.
 - **`ECA__Sheet1/2/3`, `skill`, `skill2`, `Data_Skill`**: look like design copies of tables already covered by `SkillBattle`/`ECA`.
 - **`NPC__NPC` names**: the game takes NPC names from `Touch`, not from this sheet; the shipped `NPC_EN` leaves them Chinese.
 - Remaining small sheets (gangs, `GangName` title pools, Cook, Poetry, `Audio`, `角色动作配置`...) were not judged.

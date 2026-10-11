@@ -4,6 +4,7 @@
 
 - raw: "拳掌"
   result: "Fist & Palm"
+  badtrans: false
 - raw: "单手轻刃"
   result: "One-Handed Light Blade"
 - raw: "双手轻刃"
@@ -22,25 +23,31 @@
   result: "Rope Dart"
 - raw: "弓箭"
   result: "Bow"
+  badtrans: false
 - raw: "软鞭"
   result: "Whip"
 - raw: "火器"
   result: "Firearm"
 - raw: "短兵"
   result: "Short Weapon"
+  badtrans: false
 
 # Skill classification
 
 - raw: "武学"
   result: "Martial Art"
+  badtrans: false
 - raw: "武功"
   result: "Martial Skill"
+  badtrans: false
 - raw: "招式"
   result: "Move"
+  badtrans: false
 - raw: "心诀"
   result: "Heart Formula"
 - raw: "心决"
   result: "Heart Formula"
+  badtrans: false
 - raw: "武学总章"
   result: "Martial Manual"
 - raw: "武学注解"
@@ -59,8 +66,10 @@
   result: "Passive Skill"
 - raw: "被动"
   result: "Passive"
+  badtrans: false
 - raw: "架势"
   result: "Stance"
+  badtrans: false
 
 # Three Talents Tome
 

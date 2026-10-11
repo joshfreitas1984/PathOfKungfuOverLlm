@@ -2,46 +2,62 @@
   splits:
   - split: 3
     text: "名称"
+    translated: "Name"
   - split: 9
     text: "经络描述"
+    translated: "Description of Meridians"
   - split: 10
     text: "经络任务描述"
+    translated: "Meridian Task Description"
 - raw: "2,id,type,name,nameEnglish,tip,open,,acupointId,text,taskText,,,"
 - raw: "3,101,1,手太阴经,Lung Meridian,内功防御+5,1,1,10101,肺手太阴之脉，起于中焦，下络大肠，还循胃口，上膈属肺，从肺系横出腋下，下循臑内，行少阴、心主之前，下肘中，循臂内上骨下廉。,前往经脉界面的手太阴经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "手太阴经"
+    translated: "Hand Taiyin Meridian"
   - split: 9
     text: "肺手太阴之脉，起于中焦，下络大肠，还循胃口，上膈属肺，从肺系横出腋下，下循臑内，行少阴、心主之前，下肘中，循臂内上骨下廉。"
+    translated: "The Hand-Taiyin Lung Meridian originates in the middle energizer, descends to connect with the large intestine, then follows the stomach region upward to the diaphragm and connects to the lungs. From there, it extends horizontally across the armpit, descends along the inner part of the upper arm, runs in front of the Heart-Protector Meridian and the Kidney Meridian, continues down to the elbow, and then follows the inner side of the forearm, along the anterior border of the ulna."
   - split: 10
     text: "前往经脉界面的手太阴经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and complete all acupoint breakthroughs on the Hand Taiyin Meridian to connect this meridian."
 - raw: "4,102,1,手阳明经,Large Intestine,外功防御+5,1,2,10201;10202,手阳明之脉，起于大指次指之端，循指上廉，出合谷两骨之间，上入两筋之中，循臂上廉，入肘外廉，上臑外前廉。,前往经脉界面的手阳明经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "手阳明经"
+    translated: "Hand Yangming Meridian"
   - split: 9
     text: "手阳明之脉，起于大指次指之端，循指上廉，出合谷两骨之间，上入两筋之中，循臂上廉，入肘外廉，上臑外前廉。"
+    translated: "The Yang Ming Meridian of the Hand, starting from the tip of the second toe, runs up along the ulnar side of the fingers, exiting between the two bones at the He Gu point, then enters between the two tendons, ascends along the outer front part of the arm, and enters the outer side of the elbow."
   - split: 10
     text: "前往经脉界面的手阳明经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and complete all acupoint breakthroughs on the Hand Yangming Meridian to connect this meridian. Activating this meridian will grant you the ability to use 【Essence Technique】."
 - raw: "5,103,1,足阳明经,Stomach Meridian,外功防御+5,2,2,10301;10302,足阳明之筋，起于中三指，结于跗上，邪外上加于辅骨，上结于膝外廉，直上结于髀枢，上循胁属脊。,前往经脉界面的足阳明经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "足阳明经"
+    translated: "Foot Yangming Meridian"
   - split: 9
     text: "足阳明之筋，起于中三指，结于跗上，邪外上加于辅骨，上结于膝外廉，直上结于髀枢，上循胁属脊。"
+    translated: "The tendon of Foot Yangming originates from the middle three toes, converges at the ankle, runs obliquely upward to attach to the lateral malleolus, then ascends to converge at the outer side of the knee, continues straight up to converge at the hip joint, and then follows along the ribs to connect with the spine."
   - split: 10
     text: "前往经脉界面的足阳明经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Meridians interface and proceed to the Foot Yangming Meridian. After completing all Acupoint Breakthroughs, connect this meridian."
 - raw: "6,104,1,足太阴经,Spleen Meridian,内功防御+5,2,3,10401;10402,其支者，复从胃别，上膈，注心中·脾之大络，名曰大包，出渊腋下三寸，布胸胁。,前往经脉界面的足太阴经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "足太阴经"
+    translated: "Foot Taiyin Meridian"
   - split: 9
     text: "其支者，复从胃别，上膈，注心中"
+    translated: "One of its branches separates from the stomach, ascends through the diaphragm, and connects to the heart."
   - split: 9
     subIndex: 1
     text: "脾之大络，名曰大包，出渊腋下三寸，布胸胁。"
+    translated: "The large collateral of the spleen is called Dabao, which emerges three cun below Yuanye and spreads across the chest and ribs."
   - split: 10
     text: "前往经脉界面的足太阴经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Foot Taiyin Meridian interface in the meridians menu, and after completing all acupoint breakthroughs, connect this meridian."
   templates:
   - split: 9
     template: "{0}·{1}"
@@ -49,130 +65,178 @@
   splits:
   - split: 3
     text: "手少阴经"
+    translated: "Hand Shaoyin Meridian"
   - split: 9
     text: "上接足太阴脾经于心中，下接手太阳小肠经于小指，谓手少阴经，或曰心经。"
+    translated: "It connects to the Foot Taiyin Spleen Meridian at the heart and descends to the Hand Taiyang Small Intestine Meridian at the tip of the little finger; this is the Hand Shaoyin Meridian, also known as the Heart Meridian."
   - split: 10
     text: "前往经脉界面的手少阴经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface for the Hand Shaoyin Meridian, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "8,106,1,手太阳经,Small Intestine,外功防御+5,3,3,10601;10602,手太阳之脉，起于小指之端，循手外侧上腕，出踝中，直上循臂骨下廉，出肘内侧两骨之间，上循臑外后廉。,前往经脉界面的手太阳经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "手太阳经"
+    translated: "Hand Taiyang Meridian"
   - split: 9
     text: "手太阳之脉，起于小指之端，循手外侧上腕，出踝中，直上循臂骨下廉，出肘内侧两骨之间，上循臑外后廉。"
+    translated: "The pulse of the Hand Sun Meridian starts at the tip of the little finger, runs along the outer side of the hand up to the wrist, exits between the bones at the elbow, and ascends along the back outer part of the upper arm."
   - split: 10
     text: "前往经脉界面的手太阳经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface for the Hand Taiyang Meridian, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "9,107,1,足厥阴经,Liver Meridian,内功防御+10,4,3,10701;10702;10703,足厥阴之筋，起于大指之上，上结入内踝之前，上循胫，上结内辅之下，上循阴股，结于阴器，络诸筋。,前往经脉界面的足厥阴经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "足厥阴经"
+    translated: "Foot Jueyin Meridian"
   - split: 9
     text: "足厥阴之筋，起于大指之上，上结入内踝之前，上循胫，上结内辅之下，上循阴股，结于阴器，络诸筋。"
+    translated: "The tendon of the liver channel originates at the top of the big toe, ascends to join in front of the medial malleolus, follows up the shin, ascends to join below the inner thigh, then ascends along the inner thigh, connecting to the genitals, and connects with all the tendons."
   - split: 10
     text: "前往经脉界面的足厥阴经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Foot Jueyin Meridian interface in your meridians, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "10,108,1,足少阳经,Gallbladder,外功防御+10,4,3,10801;10802;10803,出于踝前；支于骨间，上贯膝外廉，出于股外廉，出胁；支之肩髆；其直者，贯腋，出于项、耳、出枕、出目外眦。,前往经脉界面的足少阳经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "足少阳经"
+    translated: "Foot Shaoyang Meridian"
   - split: 9
     text: "出于踝前；支于骨间，上贯膝外廉，出于股外廉，出胁；支之肩髆；其直者，贯腋，出于项、耳、出枕、出目外眦。"
+    translated: "Runs in front of the ankle; supports between the bones, ascends along the outer side of the knee, emerges from the outer thigh, exits at the side of the chest; branches to the shoulder blade; its straight course penetrates the armpit, emerges from the neck, ear, back of the head, and outer corner of the eye."
   - split: 10
     text: "前往经脉界面的足少阳经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Foot Shaoyang Meridian interface in the meridians menu, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "11,109,1,手少阳经,Triple Energizer,外功防御+15,5,3,10901;10902;10903,手少阳经，经络伊始，谓之少阳，其支者上曲牙，循耳前，属目外眦，上乘颔，结于角。,前往经脉界面的手少阳经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "手少阳经"
+    translated: "Hand Shaoyang Meridian"
   - split: 9
     text: "手少阳经，经络伊始，谓之少阳，其支者上曲牙，循耳前，属目外眦，上乘颔，结于角。"
+    translated: "The Hand Shaoyang Meridian, at the beginning of the channel pathways, is called Shaoyang; its branch ascends to the curved tooth, follows in front of the ear, connects to the outer corner of the eye, rises to the jaw, and terminates at the temple."
   - split: 10
     text: "前往经脉界面的手少阳经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and complete all acupoint breakthroughs on the Hand Shaoyang Meridian to connect this meridian. Go to the meridians interface and complete all acupoint breakthroughs on the Hand Shaoyang Meridian to connect this meridian. [Connect this meridian]"
 - raw: "12,110,1,手厥阴经,Pericardium,内功防御+15,5,3,11001;11002;11003,心主手厥阴心包络之脉，起于胸中，出属心包络，下膈，历络三焦；其支者，循胸出胁，下腋三寸，上抵腋下，循臑内，行太阴、少阴之间。,前往经脉界面的手厥阴经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "手厥阴经"
+    translated: "Hand Jueyin Meridian"
   - split: 9
     text: "心主手厥阴心包络之脉，起于胸中，出属心包络，下膈，历络三焦；其支者，循胸出胁，下腋三寸，上抵腋下，循臑内，行太阴、少阴之间。"
+    translated: "The Heart Protector Meridian of the Hand-Jueyin originates in the chest, emerges to connect with the Heart Protector, descends through the diaphragm, and runs through the Triple Burner; one of its branches follows the chest, exits the armpit three inches down, then ascends to the axillary region, running within the upper arm between the Taiyin and Shaoyin meridians."
   - split: 10
     text: "前往经脉界面的手厥阴经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface for the Hand Jueyin Meridian, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "13,111,1,足少阴经,Kidney Meridian,内功防御+26,6,3,11101;11102;11103,足少阴之筋，起于小指之下，并足太阴之筋，邪走内踝之下，结于踵，与太阴之筋合而上结于内辅之下。,前往经脉界面的足少阴经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "足少阴经"
+    translated: "Foot Shaoyin Meridian"
   - split: 9
     text: "足少阴之筋，起于小指之下，并足太阴之筋，邪走内踝之下，结于踵，与太阴之筋合而上结于内辅之下。"
+    translated: "The tendon of the lesser yin starts below the little toe and runs alongside the tendon of the great yin, curving behind the inner ankle, where it joins and ascends to connect below the inner shin."
   - split: 10
     text: "前往经脉界面的足少阴经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Foot Shaoyin Meridian interface in the meridians menu, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "14,112,1,足太阳经,Bladder Meridian,外功防御+26,6,3,11201;11202;11203,膀胱足太阳之脉，起于目内眦，上额，交巅；其支者，从巅至耳上角；其直者，从巅入络脑，还出别下项，循肩髆内，挟脊抵腰中，入循膂，络肾。,前往经脉界面的足太阳经，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "足太阳经"
+    translated: "Foot Taiyang Meridian"
   - split: 9
     text: "膀胱足太阳之脉，起于目内眦，上额，交巅；其支者，从巅至耳上角；其直者，从巅入络脑，还出别下项，循肩髆内，挟脊抵腰中，入循膂，络肾。"
+    translated: "The bladder meridian of the foot-sun originates at the inner corner of the eye, ascends to the forehead, and intersects with the vertex. One of its branches extends from the vertex to the upper angle of the ear; the main channel enters the brain, then exits to descend behind the neck, along the shoulder blade internally, alongside the spine down to the waist, entering and following the lumbar region, connecting to the kidneys."
   - split: 10
     text: "前往经脉界面的足太阳经，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and proceed to the Foot Taiyang Meridian. After completing all acupoint breakthroughs, connect this meridian."
 - raw: "15,201,2,任脉,Conception Vessel,内功防御+41,7,3,20101;20102;20103,任脉者，起于中极之下，以上毛际，循腹里，上关元，至咽喉，上颐，循面入目。,前往经脉界面的任脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "任脉"
+    translated: "Ren Meridian"
   - split: 9
     text: "任脉者，起于中极之下，以上毛际，循腹里，上关元，至咽喉，上颐，循面入目。"
+    translated: "The Ren Meridian originates below the Middle Extreme point, ascends above the pubic region, follows along the abdomen, rises to Guanyuan, reaches the throat, ascends to the chin, follows the face, and enters the eyes."
   - split: 10
     text: "前往经脉界面的任脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Meridians interface and the Ren Meridian, complete all Acupoint Breakthroughs, then connect this meridian."
 - raw: "16,202,2,督脉,Governor Vessel,外功防御+41,7,3,20201;20202;20203,督脉起于会阴，其循行路线，起始于小腹内，从会阴部向后，行并于脊里，上风府，入脑，上巅，循额。,前往经脉界面的督脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "督脉"
+    translated: "Du Meridian"
   - split: 9
     text: "督脉起于会阴，其循行路线，起始于小腹内，从会阴部向后，行并于脊里，上风府，入脑，上巅，循额。"
+    translated: "The Du Meridian originates at Huiyin, its course beginning in the lower abdomen, exiting from the perineum to run along the spine, up to Fengfu, entering the brain, ascending to the crown, and following the forehead."
   - split: 10
     text: "前往经脉界面的督脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Du Meridian interface in the meridians, complete all acupoint breakthroughs, and then connect this meridian."
 - raw: "17,203,2,冲脉,Thoroughfare Vessel,外功防御+59,8,3,20301;20302;20303;20304,冲脉任脉者，皆起于胞中，上循脊里，为经络之海。其浮而外者，循腹上行，会于咽喉，别而络口唇。,前往经脉界面的冲脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "冲脉"
+    translated: "Chong Meridian"
   - split: 9
     text: "冲脉任脉者，皆起于胞中，上循脊里，为经络之海。其浮而外者，循腹上行，会于咽喉，别而络口唇。"
+    translated: "The Chong Meridian and Ren Meridian both originate in the uterus, ascend along the spine, and are known as the Sea of Meridians. Their superficial pathways run externally, following the abdomen upward to meet at the throat, then branch off to connect with the lips."
   - split: 10
     text: "前往经脉界面的冲脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the Chong Meridian interface in the meridians menu, and after completing all acupoint breakthroughs, connect this meridian."
 - raw: "18,204,2,带脉,Belt Vessel,气血恢复+9,8,3,20401;20402;20403;20404,带脉者，起于季胁足厥阴之章门穴，同足少阳循带脉穴，围身一周，如束带然。,前往经脉界面的带脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "带脉"
+    translated: "Dai Meridian"
   - split: 9
     text: "带脉者，起于季胁足厥阴之章门穴，同足少阳循带脉穴，围身一周，如束带然。"
+    translated: "The Dai Meridian originates at the point Zhongmen on the jueyin foot channel at the lower border of the rib cage, and follows the same path as the shaoyang foot channel to the Daimai point, encircling the body like a belt."
   - split: 10
     text: "前往经脉界面的带脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and the Dai Meridian, complete all acupoint breakthroughs, then connect this meridian."
 - raw: "19,205,2,阴跷脉,Yin Heel Vessel,内功防御+59,8,3,20501;20502;20503;20504,交通阴阳之气，若阴蹻为病，阳缓而阴急。,前往经脉界面的阴跷脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "阴跷脉"
+    translated: "Yin Qiao Meridian"
   - split: 9
     text: "交通阴阳之气，若阴蹻为病，阳缓而阴急。"
+    translated: "Regulating the yin and yang energies, if the Yin Qiao Meridian is diseased, the yang energy becomes relaxed while the yin energy becomes tense."
   - split: 10
     text: "前往经脉界面的阴跷脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and proceed to the Yin Qiao Meridian. After completing all acupoint breakthroughs, connect this meridian."
 - raw: "20,206,2,阳跷脉,Yang Heel Vessel,外功防御+95,9,3,20601;20602;20603;20604,阳蹻为病，阴缓而阳急，气盛则目张而不寐。,前往经脉界面的阳跷脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "阳跷脉"
+    translated: "Yang Qiao Meridian"
   - split: 9
     text: "阳蹻为病，阴缓而阳急，气盛则目张而不寐。"
+    translated: "Yang Qiao channel disorder, yin lax and yang urgent, excessive qi causes the eyes to remain wide open and inability to sleep."
   - split: 10
     text: "前往经脉界面的阳跷脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and proceed to the Yang Qiao Meridian. After completing all acupoint breakthroughs, connect this meridian."
 - raw: "21,207,2,阴维脉,Yin Link Vessel,内功防御+95,9,6,20701;20702;20703;20704,刺飞阳之脉，在内踝上五寸，少阴之前，与阴维之会，起于诸阴交也。,前往经脉界面的阴维脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "阴维脉"
+    translated: "Yin Wei Meridian"
   - split: 9
     text: "刺飞阳之脉，在内踝上五寸，少阴之前，与阴维之会，起于诸阴交也。"
+    translated: "Pierces the Feiyang pulse, located five cun above the inner ankle, in front of the Shaoyin, where it meets the Yinwei meridian, starting from the intersection of all yin."
   - split: 10
     text: "前往经脉界面的阴维脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and proceed to the Yin Wei Meridian. After completing all acupoint breakthroughs, connect this meridian."
 - raw: "22,208,2,阳维脉,Yang Link Vessel,气血恢复+14,9,6,20801;20802;20803;20804,阳维之脉，脉与太阳合腨下间，去地一尺所，起于诸阳会也。,前往经脉界面的阳维脉，完成所有冲穴之后，贯通此经脉。,,,"
   splits:
   - split: 3
     text: "阳维脉"
+    translated: "Yang Wei Meridian"
   - split: 9
     text: "阳维之脉，脉与太阳合腨下间，去地一尺所，起于诸阳会也。"
+    translated: "The Yang Wei pulse combines with the Sun pulse below the calf, about one foot from the ground, where all the yang meridians meet."
   - split: 10
     text: "前往经脉界面的阳维脉，完成所有冲穴之后，贯通此经脉。"
+    translated: "Go to the meridians interface and the Yang Wei Meridian, complete all acupoint breakthroughs, then connect this meridian."
 - raw: "23,,,,,,,,,,,,,"
 - raw: "24,,,,,,,,,,,,,"
 - raw: "25,,,,,,,,,,,,,"

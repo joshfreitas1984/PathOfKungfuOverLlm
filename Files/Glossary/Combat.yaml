@@ -6,12 +6,14 @@
   result: "Light Attack"
 - raw: "重击"
   result: "Heavy Attack"
+  badtrans: false
 - raw: "跳击"
   result: "Jump Attack"
 - raw: "格挡"
   result: "Block"
 - raw: "弹反"
   result: "Parry"
+  badtrans: false
 - raw: "爆气"
   result: "Qi Burst"
 - raw: "纵跃"
@@ -20,6 +22,7 @@
   result: "Basic Attack"
 - raw: "打坐"
   result: "Meditate"
+  badtrans: false
 - raw: "木人桩"
   result: "Training Dummy"
 - raw: "召唤"
@@ -31,38 +34,46 @@
 
 - raw: "霸体"
   result: "Super Armor"
+  badtrans: false
 - raw: "减速"
   result: "Slow"
 - raw: "灼烧"
   result: "Burn"
 - raw: "迅捷"
   result: "Swiftness"
+  badtrans: false
 - raw: "无敌"
   result: "Invulnerable"
+  badtrans: false
 - raw: "金钟罩"
   result: "Golden Bell Armor"
 - raw: "致盲"
   result: "Blind"
 - raw: "失明"
   result: "Blindness"
+  badtrans: false
 - raw: "眩晕"
   result: "Stun"
 - raw: "定身"
   result: "Immobilize"
 - raw: "腐蚀"
   result: "Corrosion"
+  badtrans: false
 - raw: "破防"
   result: "Guard Break"
 - raw: "破甲"
   result: "Armor Break"
 - raw: "反噬"
   result: "Backlash"
+  badtrans: false
 - raw: "刀痕"
   result: "Blade Mark"
+  badtrans: false
 - raw: "毒火"
   result: "Poison Fire"
 - raw: "重伤"
   result: "Grievous Injury"
+  badtrans: false
 - raw: "禁用道具"
   result: "Items Disabled"
 - raw: "招式限制"

@@ -120,19 +120,14 @@ Decision: the plugin reads the packaged translation from the BepInEx plugins fol
 (`<Game>\BepInEx\plugins\resources`, next to the plugin DLL), **not** from the game root `Mod/` folder,
 even though the game supports modding there. That keeps the patch self-contained in the installer's
 files, so "Uninstall patch" removes it and it cannot collide with other mods or with the game's own
-mod loader. Step 5 should update the `Mods/English` placeholder in
-`Tests/FileOutputWorkflowTests.cs` (steps 6 and 7) to `BepInEx/plugins/resources`, and
-the plugin should resolve it from its own assembly location rather than a hard-coded path.
+mod loader. Steps 6 and 7 in `Tests/FileOutputWorkflowTests.cs` use `BepInEx/plugins/resources`, and
+the plugin resolves it from its own assembly location rather than a hard-coded path.
 
-## Proposed injection (informational, step 5)
+## Injection (step 5, done)
 
-Replace at load time rather than shipping modified Excel: Harmony postfix on
-`ExcelUtil.GetListOject<T>` / `GetDictionary<TKey,T>` (and `Data_Word`/`LanguageLocal` loaders) that
-looks up `(workbook, sheet, row id, column)` in the packaged `Files/Mod` data and overwrites string
-members on the returned objects. This works regardless of the player's Steam language, as long as
-the patch is applied to the Chinese path and to the English path alike. Alternative (more
-fragile): write translated `_en` workbooks over the originals, which needs an xlsx writer and
-breaks on every game update.
+Implemented as described in [text-injection.md](text-injection.md): a Harmony postfix on `ExcelUtil.GetListOject<T>` and the `Data_Word`,
+`Data_Speak` and `LanguageLocal` loaders overwrite the loaded values from the packaged files in `BepInEx\plugins\resources`, in Chinese
+and English mode alike. The rejected alternative (writing translated `_en` workbooks over the originals) needs an xlsx writer and breaks on every game update.
 
 ## Proposed changes to the plan
 

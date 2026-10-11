@@ -61,6 +61,8 @@
   result: "Liu Shun"
 - raw: "南宫莲"
   result: "Nangong Lian"
+  allowalt:
+  - "Nan Gong Lian"
 - raw: "卜曼成"
   result: "Bu Mancheng"
 - raw: "卢千川"
@@ -91,6 +93,8 @@
   result: "Cui Qingling"
 - raw: "左世宏"
   result: "Zuo Shi Hong"
+  allowalt:
+  - "Zuo Shihong"
 - raw: "左冷"
   result: "Zuo Leng"
 - raw: "应良翰"
@@ -109,6 +113,7 @@
   result: "Zhang Ying"
 - raw: "张铁"
   result: "Zhang Tie"
+  badtrans: false
 - raw: "张鹏山"
   result: "Zhang Pengshan"
 - raw: "徐嵩阳"
@@ -149,6 +154,8 @@
   result: "Li Chongshan"
 - raw: "李常闵"
   result: "Li Chang Min"
+  allowalt:
+  - "Li Changmin"
 - raw: "李庄客"
   result: "Li Zhuangke"
 - raw: "李忠武"
@@ -173,16 +180,22 @@
   result: "Liu Xingyu"
 - raw: "柳茵茵"
   result: "Liu Yin Yin"
+  allowalt:
+  - "Liu Yinyin"
 - raw: "柳蝶"
   result: "Liu Die"
 - raw: "梁三"
   result: "Liang San"
 - raw: "梁三顾"
   result: "Liang San Gu"
+  allowalt:
+  - "Liang Sangu"
 - raw: "梁边云"
   result: "Liang Bianyun"
 - raw: "段孝先"
   result: "Duan Xiao Xian"
+  allowalt:
+  - "Duan Xiaoxian"
 - raw: "段绍裘"
   result: "Duan Shaoqiu"
 - raw: "江云晟"

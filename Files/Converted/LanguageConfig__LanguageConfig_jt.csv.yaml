@@ -4,17 +4,21 @@
   splits:
   - split: 2
     text: "是"
+    translated: "Yes"
 - raw: "5,key2,否"
   splits:
   - split: 2
     text: "否"
+    translated: "No"
 - raw: "6,key3,战斗数据不能少于{0}个"
   splits:
   - split: 2
     text: "战斗数据不能少于"
+    translated: "Combat data cannot be less than"
   - split: 2
     subIndex: 1
     text: "个"
+    translated: "A"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -22,13 +26,16 @@
   splits:
   - split: 2
     text: "提示"
+    translated: "Hint"
 - raw: "8,key5,是否给<color=#FF0B00>{0}</color>使用<color=#00B70F>{1}</color>"
   splits:
   - split: 2
     text: "是否给"
+    translated: "Should I give it?"
   - split: 2
     subIndex: 1
     text: "使用"
+    translated: "Use"
   templates:
   - split: 2
     template: "{0}<color=#FF0B00>⟦0⟧</color>{1}<color=#00B70F>⟦1⟧</color>"
@@ -36,10 +43,12 @@
   splits:
   - split: 2
     text: "精力值已恢复至上限"
+    translated: "Energy has been restored to maximum"
 - raw: "10,key7,精力增加{0}"
   splits:
   - split: 2
     text: "精力增加"
+    translated: "Energy increased"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -47,10 +56,12 @@
   splits:
   - split: 2
     text: "修为不足"
+    translated: "Insufficient Cultivation"
 - raw: "12,key9,修为{0}"
   splits:
   - split: 2
     text: "修为"
+    translated: "Cultivation"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -58,6 +69,7 @@
   splits:
   - split: 2
     text: "修为"
+    translated: "Cultivation"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -65,54 +77,67 @@
   splits:
   - split: 2
     text: "脸"
+    translated: "Face"
 - raw: "17,AvatarPartName_1,前发"
   splits:
   - split: 2
     text: "前发"
+    translated: "Forward throw"
 - raw: "18,AvatarPartName_2,后发"
   splits:
   - split: 2
     text: "后发"
+    translated: "Later move"
 - raw: "19,AvatarPartName_3,眼睛"
   splits:
   - split: 2
     text: "眼睛"
+    translated: "Eyes"
 - raw: "20,AvatarPartName_4,眉毛"
   splits:
   - split: 2
     text: "眉毛"
+    translated: "Eyebrows"
 - raw: "21,AvatarPartName_5,鼻子"
   splits:
   - split: 2
     text: "鼻子"
+    translated: "Nose"
 - raw: "22,AvatarPartName_6,嘴巴"
   splits:
   - split: 2
     text: "嘴巴"
+    translated: "Mouth"
 - raw: "23,AvatarPartName_7,脸饰"
   splits:
   - split: 2
     text: "脸饰"
+    translated: "Face mask"
 - raw: "24,AvatarPartName_8,胡子"
   splits:
   - split: 2
     text: "胡子"
+    translated: "Beard"
 - raw: "25,AvatarPartName_9,衣服"
   splits:
   - split: 2
     text: "衣服"
+    translated: "Clothes"
 - raw: "26,AvatarPartName_10,面具"
   splits:
   - split: 2
     text: "面具"
+    translated: "Mask"
 - raw: "27,AvatarPartName_11,剧情立绘"
   splits:
   - split: 2
     text: "剧情立绘"
+    translated: "Story illustration"
 - raw: "30,FoodEatTip_ZzReset,{0}服下蜕资丹，武学资质重置成功。"
   splits:
   - split: 2
     text: "服下蜕资丹，武学资质重置成功。"
+    translated: "After taking the Molting Aptitude Elixir, martial aptitude reset successfully."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -120,17 +145,21 @@
   splits:
   - split: 2
     text: "隐月楼密探"
+    translated: "Yinyue Tower spy"
 - raw: "34,NPCScout_ToggleTipTitle,追索"
   splits:
   - split: 2
     text: "追索"
+    translated: "Pursue"
 - raw: "35,NPCScout_ToggleTipContent,可委派隐月楼留心查探此人，随后便可在各个城镇酒楼的密探处寻得此人行踪。\\n当前正在追索的人数：{0}/{1}"
   splits:
   - split: 2
     text: "可委派隐月楼留心查探此人，随后便可在各个城镇酒楼的密探处寻得此人行踪。"
+    translated: "You can delegate Yinyue Tower to keep an eye on this person, and then you can find their whereabouts through the spies in the taverns of various towns."
   - split: 2
     subIndex: 1
     text: "当前正在追索的人数"
+    translated: "The number of people currently being sought"
   templates:
   - split: 2
     template: "{0}\\n{1}：⟦0⟧/⟦1⟧"
@@ -138,13 +167,16 @@
   splits:
   - split: 2
     text: "委派数已达上限。"
+    translated: "The number of delegations has reached the limit."
 - raw: "37,NPCScout_Dialog1,此事寻常，{0}文便能办妥。却不知这些阁下留意之人中，是哪位行踪未明？"
   splits:
   - split: 2
     text: "此事寻常，"
+    translated: "This is a routine matter"
   - split: 2
     subIndex: 1
     text: "文便能办妥。却不知这些阁下留意之人中，是哪位行踪未明？"
+    translated: "The matter can be taken care of. But I wonder which of these gentlemen has someone whose whereabouts are unknown?"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -152,9 +184,11 @@
   splits:
   - split: 2
     text: "近时常于"
+    translated: "Recently often at"
   - split: 2
     subIndex: 1
     text: "周遭盘桓，若欲寻之，或需早些动身。"
+    translated: "Surrounding here, if you wish to find them, you may need to set out earlier."
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧(⟦2⟧,⟦3⟧){1}"
@@ -162,50 +196,62 @@
   splits:
   - split: 2
     text: "远在天边，近在眼前，阁下愿破这等冤枉财，我亦无话可说。"
+    translated: "Far away yet near, sir, if you are willing to bear this unjust wealth, I have nothing more to say."
 - raw: "40,NPCScout_Dialog4,斯人已矣，节哀顺变。"
   splits:
   - split: 2
     text: "斯人已矣，节哀顺变。"
+    translated: "Rest in peace, accept the change with dignity."
 - raw: "41,NPCScout_Dialog5,阁下若改换主意，不欲再行委托追索，同我言语一声便是。"
   splits:
   - split: 2
     text: "阁下若改换主意，不欲再行委托追索，同我言语一声便是。"
+    translated: "Sir, if you change your mind and no longer wish to proceed with the commission to track something down, just let me know."
 - raw: "42,NPCScout_Lips1,打探他人行踪"
   splits:
   - split: 2
     text: "打探他人行踪"
+    translated: "Investigate someone's whereabouts"
 - raw: "43,NPCScout_Lips2,不再留意此人行踪"
   splits:
   - split: 2
     text: "不再留意此人行踪"
+    translated: "No longer pay attention to this person's movements."
 - raw: "47,NPCTalk_LipsLimitTimesDesc,【{0}/{1}】"
 - raw: "48,NPCTalk_LipsName_QieCuo,武学切磋"
   splits:
   - split: 2
     text: "武学切磋"
+    translated: "Martial Art sparring"
 - raw: "49,NPCTalk_LipsName_QieCuo_confirm,切磋一番"
   splits:
   - split: 2
     text: "切磋一番"
+    translated: "Have a sparring match"
 - raw: "50,NPCTalk_Dialog_QieCuo,江湖规矩，点到为止。"
   splits:
   - split: 2
     text: "江湖规矩，点到为止。"
+    translated: "The rules of the Jianghu, stop at the limit."
 - raw: "51,NPCTalk_HideAttribute_Tips,此人修为过于高深，如雾中花、水中月，莫能洞彻。"
   splits:
   - split: 2
     text: "此人修为过于高深，如雾中花、水中月，莫能洞彻。"
+    translated: "This person's cultivation is too profound, like flowers in the mist, the moon in the water, beyond comprehension."
 - raw: "52,NPCTalk_LipsName_NextTalk,继续谈话"
   splits:
   - split: 2
     text: "继续谈话"
+    translated: "Continue the conversation"
 - raw: "55,NPCWage_CanAfford,已支出{0}用于同伴与家仆的薪水发放。"
   splits:
   - split: 2
     text: "已支出"
+    translated: "Expenses incurred"
   - split: 2
     subIndex: 1
     text: "用于同伴与家仆的薪水发放。"
+    translated: "For distributing wages to companions and the household servant."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -213,17 +259,21 @@
   splits:
   - split: 2
     text: "当前金额不足以发放全部薪水，部分同伴好感值降低了。"
+    translated: "Current funds are insufficient to pay full salaries; some companions' affection values have decreased."
 - raw: "57,NPCWage_UITipTitle,同伴薪酬"
   splits:
   - split: 2
     text: "同伴薪酬"
+    translated: "Companion Salary"
 - raw: "58,NPCWage_UITipContent,\"每日需支付给该同伴的银两数额,快速旅行时只需付两成。\""
   splits:
   - split: 2
     text: "每日需支付给该同伴的银两数额"
+    translated: "The daily amount of Silver to be paid to this companion."
   - split: 2
     subIndex: 1
     text: "快速旅行时只需付两成。"
+    translated: "You only pay twenty percent for fast travel."
   templates:
   - split: 2
     template: "{0},{1}"
@@ -231,9 +281,11 @@
   splits:
   - split: 2
     text: "已加入队伍，每日需支付其"
+    translated: "Has joined the party, and daily expenses for them are required."
   - split: 2
     subIndex: 1
     text: "文银钱作为报酬。"
+    translated: "Offered literary silver as payment"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -241,18 +293,22 @@
   splits:
   - split: 2
     text: "请选择物品作为礼物"
+    translated: "Please select an item as a gift"
 - raw: "63,NPCGift_HasHate,这批物事中似有此人憎厌之物，故被婉辞璧还。"
   splits:
   - split: 2
     text: "这批物事中似有此人憎厌之物，故被婉辞璧还。"
+    translated: "This batch seems to contain something they detest, hence it was politely declined and returned."
 - raw: "64,NPCGift_AllHate,此人似对这些物事憎厌至极，推辞不受"
   splits:
   - split: 2
     text: "此人似对这些物事憎厌至极，推辞不受"
+    translated: "This person seems to detest these things intensely and declines them."
 - raw: "65,NPCGift_AddLoveTip,预计好感度提升：{0}"
   splits:
   - split: 2
     text: "预计好感度提升"
+    translated: "Expected favorability increase"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -260,29 +316,36 @@
   splits:
   - split: 2
     text: "家书传讯"
+    translated: "Family letter delivers news"
 - raw: "69,Spawn_ChildSexName1,麟儿"
   splits:
   - split: 2
     text: "麟儿"
+    translated: "Linyu"
 - raw: "70,Spawn_ChildSexName2,千金"
   splits:
   - split: 2
     text: "千金"
+    translated: "Thousand Gold"
 - raw: "71,Spawn_ParentSexName1,少侠"
   splits:
   - split: 2
     text: "少侠"
+    translated: "Young Hero"
 - raw: "72,Spawn_ParentSexName2,女侠"
   splits:
   - split: 2
     text: "女侠"
+    translated: "Female Heroine"
 - raw: "73,Spawn_PregnancyMailContent1,近日寻郎中问脉，喜闻{0}已身怀六甲，特家书相告。"
   splits:
   - split: 2
     text: "近日寻郎中问脉，喜闻"
+    translated: "Recently, when seeking a doctor for a pulse diagnosis, I was delighted to hear"
   - split: 2
     subIndex: 1
     text: "已身怀六甲，特家书相告。"
+    translated: "Now pregnant, I am writing to inform you."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -290,16 +353,20 @@
   splits:
   - split: 2
     text: "月时已近，依郎中所测，你应已有孕在身，特家书相告。"
+    translated: "According to the doctor's diagnosis, you should be pregnant by now, as the letter at home informs."
 - raw: "75,Spawn_PregnancyWorldMsg,{0}与{1}情深无限，近日传出{0}已有孕在身。"
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "情深无限，近日传出"
+    translated: "Boundless affection, recent news has it that"
   - split: 2
     subIndex: 2
     text: "已有孕在身。"
+    translated: "She is already pregnant"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}⟦0⟧{2}"
@@ -307,12 +374,15 @@
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "情深无限，"
+    translated: "Boundless Affection"
   - split: 2
     subIndex: 2
     text: "已有孕在身。"
+    translated: "She is already pregnant"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}⟦1⟧{2}"
@@ -320,12 +390,15 @@
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "情深无限，"
+    translated: "Boundless Affection"
   - split: 2
     subIndex: 2
     text: "已有孕在身。"
+    translated: "She is already pregnant"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}⟦0⟧{2}"
@@ -333,6 +406,7 @@
   splits:
   - split: 2
     text: "十月怀胎，一朝分娩，你诞下一名"
+    translated: "Nine months of pregnancy, one moment of delivery, you give birth to a child."
   templates:
   - split: 2
     template: "{0}⟦0⟧。"
@@ -340,9 +414,11 @@
   splits:
   - split: 2
     text: "家信传书，飞鸽报喜，"
+    translated: "Family letters delivered by messenger, pigeons bringing good news,"
   - split: 2
     subIndex: 1
     text: "诞下一名"
+    translated: "Gave birth to a child"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧。"
@@ -350,6 +426,7 @@
   splits:
   - split: 2
     text: "十月怀胎，一朝分娩，诞下一名"
+    translated: "Ten months of pregnancy, one day of labor, and a child is born."
   templates:
   - split: 2
     template: "{0}⟦0⟧。"
@@ -357,9 +434,11 @@
   splits:
   - split: 2
     text: "十月怀胎，一朝分娩，"
+    translated: "Ten months of pregnancy, one moment of childbirth,"
   - split: 2
     subIndex: 1
     text: "喜获"
+    translated: "Rejoice in the good fortune"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧。"
@@ -367,6 +446,7 @@
   splits:
   - split: 2
     text: "改名为"
+    translated: "Change name to"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧"
@@ -374,14 +454,17 @@
   splits:
   - split: 2
     text: "名称修改"
+    translated: "Name Change"
 - raw: "86,Spawn_ChildBornAndNamedTitle,请为子女取名"
   splits:
   - split: 2
     text: "请为子女取名"
+    translated: "Please name your children"
 - raw: "87,Spawn_ChildBornAndNamedTip1,家信传书，飞鸽报喜，少侠喜得{0}！"
   splits:
   - split: 2
     text: "家信传书，飞鸽报喜，少侠喜得"
+    translated: "Family letters bring news, carrier pigeons deliver glad tidings; Young Hero has received great joy."
   templates:
   - split: 2
     template: "{0}⟦0⟧！"
@@ -389,6 +472,7 @@
   splits:
   - split: 2
     text: "十月怀胎，一朝分娩，你诞下一名"
+    translated: "Nine months of pregnancy, one moment of delivery, you give birth to a child."
   templates:
   - split: 2
     template: "{0}⟦0⟧！"
@@ -396,6 +480,7 @@
   splits:
   - split: 2
     text: "取消后，将使用随机名字，是否确定取消"
+    translated: "Canceling will result in the use of a random name. Are you sure you want to cancel?"
   templates:
   - split: 2
     template: "{0}?"
@@ -403,17 +488,21 @@
   splits:
   - split: 2
     text: "该姓名已被使用，请选用其他姓氏或名字。"
+    translated: "This name is already in use; please choose another surname or name."
 - raw: "92,Spawn_ChildGrowMailTile,幼子成材"
   splits:
   - split: 2
     text: "幼子成材"
+    translated: "Rearing a Young Talent"
 - raw: "93,Spawn_ChildGrowMailContent,子女{0}日渐成长，当指点其途，定其方向。"
   splits:
   - split: 2
     text: "子女"
+    translated: "Children"
   - split: 2
     subIndex: 1
     text: "日渐成长，当指点其途，定其方向。"
+    translated: "As they grow, guide their path and set their direction."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -421,9 +510,11 @@
   splits:
   - split: 2
     text: "日月如梭，子女"
+    translated: "Days and months pass like shuttles, children"
   - split: 2
     subIndex: 1
     text: "已成年。"
+    translated: "You have come of age"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -431,16 +522,20 @@
   splits:
   - split: 2
     text: "遣其历练"
+    translated: "Send them to train and gain experience"
 - raw: "97,Spawn_SetDescendantFreeConfirm,龙游四海，历经波澜，方成一代宗师。\\n是否要让{0}孤身闯荡江湖？"
   splits:
   - split: 2
     text: "龙游四海，历经波澜，方成一代宗师。"
+    translated: "A dragon roams the four seas, endures countless waves, and only then becomes a master of their era."
   - split: 2
     subIndex: 1
     text: "是否要让"
+    translated: "Should we let"
   - split: 2
     subIndex: 2
     text: "孤身闯荡江湖？"
+    translated: "Venturing into Jianghu alone?"
   templates:
   - split: 2
     template: "{0}\\n{1}⟦0⟧{2}"
@@ -448,10 +543,12 @@
   splits:
   - split: 2
     text: "婴孩孱弱，尚难自理。"
+    translated: "The infant is weak and still unable to care for themselves."
 - raw: "101,UIWorldTime_SpendTimeTip,将打坐：{0}"
   splits:
   - split: 2
     text: "将打坐"
+    translated: "Meditate"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -459,14 +556,17 @@
   splits:
   - split: 2
     text: "无法时光倒流"
+    translated: "Unable to turn back time"
 - raw: "103,UIWorldTime_SpendTimeLimitTip2,打坐时间不宜过久"
   splits:
   - split: 2
     text: "打坐时间不宜过久"
+    translated: "Meditation should not be too long"
 - raw: "106,UISteal_StateTip_Item,悉心翻找，颇有所获！:{0}"
   splits:
   - split: 2
     text: "悉心翻找，颇有所获！"
+    translated: "Carefully searching, there are some findings!"
   templates:
   - split: 2
     template: "{0}:⟦0⟧"
@@ -474,9 +574,11 @@
   splits:
   - split: 2
     text: "你一番小心翻找，虽一无所获，但所幸未激起"
+    translated: "After searching carefully, though you found nothing, at least you did not stir up"
   - split: 2
     subIndex: 1
     text: "的警惕。"
+    translated: "Of vigilance"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -484,9 +586,11 @@
   splits:
   - split: 2
     text: "引起了"
+    translated: "Aroused"
   - split: 2
     subIndex: 1
     text: "的警惕！"
+    translated: "Be on guard!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -494,9 +598,11 @@
   splits:
   - split: 2
     text: "错过了逃走时机"
+    translated: "Missed the chance to escape"
   - split: 2
     subIndex: 1
     text: "被其发现了！"
+    translated: "They've spotted me!"
   templates:
   - split: 2
     template: "{0},{1}"
@@ -504,17 +610,21 @@
   splits:
   - split: 2
     text: "悄然离开"
+    translated: "Leave quietly"
 - raw: "111,UISteal_StealButton_TimeEnd,放手一搏！"
   splits:
   - split: 2
     text: "放手一搏！"
+    translated: "Go all out!"
 - raw: "114,Gyms_GymsKeep,及时驱赶踢馆者，你保住了{0}的归属权。"
   splits:
   - split: 2
     text: "及时驱赶踢馆者，你保住了"
+    translated: "You managed to drive off the challengers in time and preserved it."
   - split: 2
     subIndex: 1
     text: "的归属权。"
+    translated: "Ownership of"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -522,9 +632,11 @@
   splits:
   - split: 2
     text: "挑战胜利，你获得"
+    translated: "Challenge victory, you obtain"
   - split: 2
     subIndex: 1
     text: "的归属权。"
+    translated: "Ownership of"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -532,13 +644,16 @@
   splits:
   - split: 2
     text: "夺得武馆。"
+    translated: "Claim the Martial Arts Hall"
 - raw: "117,Gyms_GymsOwnTipContent,你已成功夺取武馆{0}，此武馆所售物事皆可免费获取，每日可领取武馆俸禄，不时亦会有挑战者登门踢馆，请及时应战，否则武馆归属将再度易手。"
   splits:
   - split: 2
     text: "你已成功夺取武馆"
+    translated: "You have successfully seized the Martial Arts Hall."
   - split: 2
     subIndex: 1
     text: "，此武馆所售物事皆可免费获取，每日可领取武馆俸禄，不时亦会有挑战者登门踢馆，请及时应战，否则武馆归属将再度易手。"
+    translated: ", Everything sold at this Martial Arts Hall can be obtained for free. You may claim your daily salary from the hall, and from time to time, challengers will come calling to take it over. Please respond promptly to their challenges, or else the hall will change hands again."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -546,17 +661,21 @@
   splits:
   - split: 2
     text: "同伴镇守。"
+    translated: "Comrade holds the position"
 - raw: "119,Gyms_GymsOwnTipContent_GuardSett,是否在此处武馆安置同伴镇守？"
   splits:
   - split: 2
     text: "是否在此处武馆安置同伴镇守？"
+    translated: "Should your companions be stationed here at the Martial Arts Hall?"
 - raw: "121,Gyms_GymsLose,失去{0}归属权。"
   splits:
   - split: 2
     text: "失去"
+    translated: "Losing"
   - split: 2
     subIndex: 1
     text: "归属权。"
+    translated: "Ownership"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -564,10 +683,12 @@
   splits:
   - split: 2
     text: "武馆俸禄通知。"
+    translated: "Martial Arts Hall salary notification"
 - raw: "123,Gyms_MonthlyIncomeMsgContent,{0}近日俸禄已下发。"
   splits:
   - split: 2
     text: "近日俸禄已下发。"
+    translated: "Recent salary has been issued"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -575,13 +696,16 @@
   splits:
   - split: 2
     text: "武馆踢馆通知。"
+    translated: "Martial Arts Hall challenge notice"
 - raw: "125,Gyms_DefierMsgContent,请尽快来{0}接受我的挑战，否则你将失去{1}。"
   splits:
   - split: 2
     text: "请尽快来"
+    translated: "Please come quickly"
   - split: 2
     subIndex: 1
     text: "接受我的挑战，否则你将失去"
+    translated: "Accept my challenge, or you will lose"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧。"
@@ -589,13 +713,16 @@
   splits:
   - split: 2
     text: "武馆失去通知。"
+    translated: "Martial Arts Hall lost notification"
 - raw: "127,Gyms_GymsLose_ByTimeOutMsgContent,未及时迎战踢馆者，你失去了{0}的归属权。"
   splits:
   - split: 2
     text: "未及时迎战踢馆者，你失去了"
+    translated: "By failing to defend in time against the challenger, you lost."
   - split: 2
     subIndex: 1
     text: "的归属权。"
+    translated: "Ownership of"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -603,17 +730,21 @@
   splits:
   - split: 2
     text: "选择此处镇守同伴。"
+    translated: "Choose a companion to defend here"
 - raw: "129,Gyms_GuardRemoveTipTile_LowLove,武馆守卫离开。"
   splits:
   - split: 2
     text: "武馆守卫离开。"
+    translated: "The Martial Arts Hall guard leaves"
 - raw: "130,Gyms_GuardRemoveTipContent_LowLove,{0}与你日渐生隙，决意孤身离去，你名下{1}-{2}已无人镇守。"
   splits:
   - split: 2
     text: "与你日渐生隙，决意孤身离去，你名下"
+    translated: "Growing increasingly distant from you, they decided to leave alone, under your name."
   - split: 2
     subIndex: 1
     text: "已无人镇守。"
+    translated: "It is now unguarded"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧-⟦2⟧{1}"
@@ -621,13 +752,16 @@
   splits:
   - split: 2
     text: "武馆守卫去世。"
+    translated: "The Martial Arts Hall guard has passed away."
 - raw: "132,Gyms_GuardRemoveTipContent_Die,{0}年岁已高，飘然离世，你名下{1}-{2}已无人镇守。"
   splits:
   - split: 2
     text: "年岁已高，飘然离世，你名下"
+    translated: "Having lived a long life, he passed away peacefully, leaving behind his name."
   - split: 2
     subIndex: 1
     text: "已无人镇守。"
+    translated: "It is now unguarded"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧-⟦2⟧{1}"
@@ -635,9 +769,11 @@
   splits:
   - split: 2
     text: "已前往"
+    translated: "Has arrived"
   - split: 2
     subIndex: 1
     text: "进行守卫。"
+    translated: "Stand guard"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧-⟦2⟧{1}"
@@ -645,9 +781,11 @@
   splits:
   - split: 2
     text: "已取消对"
+    translated: "Cancelled for"
   - split: 2
     subIndex: 1
     text: "的守卫。"
+    translated: "Guard"
   templates:
   - split: 2
     template: "{0}⟦1⟧-⟦2⟧{1}"
@@ -655,19 +793,24 @@
   splits:
   - split: 2
     text: "武馆守卫成功。"
+    translated: "Martial Arts Hall guard successful"
 - raw: "136,Gyms_DoGuardSucc_MsgContent,你名下{1}-{2}镇守者{0}成功抵挡了挑战者{3}来犯。"
   splits:
   - split: 2
     text: "你名下"
+    translated: "Your name below"
   - split: 2
     subIndex: 1
     text: "镇守者"
+    translated: "Warden"
   - split: 2
     subIndex: 2
     text: "成功抵挡了挑战者"
+    translated: "Successfully withstood the challenger"
   - split: 2
     subIndex: 3
     text: "来犯。"
+    translated: "Attack"
   templates:
   - split: 2
     template: "{0}⟦1⟧-⟦2⟧{1}⟦0⟧{2}⟦3⟧{3}"
@@ -675,16 +818,20 @@
   splits:
   - split: 2
     text: "武馆守卫失败。"
+    translated: "Martial Arts Hall guard failed"
 - raw: "138,Gyms_DoGuardFail_MsgContent,{1}-{2}镇守者{0}已被挑战者{3}击败，请速归守卫武馆，若逾期未响应他人挑战，则会失去武馆拥有权。"
   splits:
   - split: 2
     text: "镇守者"
+    translated: "Warden"
   - split: 2
     subIndex: 1
     text: "已被挑战者"
+    translated: "Has been challenged by a Challenger"
   - split: 2
     subIndex: 2
     text: "击败，请速归守卫武馆，若逾期未响应他人挑战，则会失去武馆拥有权。"
+    translated: "Defeat your opponent and return quickly to defend the Martial Arts Hall. If you fail to respond to another's challenge within the time limit, you will lose ownership of the Martial Arts Hall."
   templates:
   - split: 2
     template: "⟦1⟧-⟦2⟧{0}⟦0⟧{1}⟦3⟧{2}"
@@ -692,6 +839,7 @@
   splits:
   - split: 2
     text: "境界"
+    translated: "Realm"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -699,6 +847,7 @@
   splits:
   - split: 2
     text: "门派"
+    translated: "Sect"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -706,6 +855,7 @@
   splits:
   - split: 2
     text: "立场"
+    translated: "Alignment"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -713,6 +863,7 @@
   splits:
   - split: 2
     text: "身处"
+    translated: "In the midst of"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -720,29 +871,36 @@
   splits:
   - split: 2
     text: "无门无派"
+    translated: "No Sect"
 - raw: "146,RansomJiaoQingTip_default4,无迹可寻"
   splits:
   - split: 2
     text: "无迹可寻"
+    translated: "No trace to be found"
 - raw: "147,RansomButton_1,索要银两"
   splits:
   - split: 2
     text: "索要银两"
+    translated: "Demand silver"
 - raw: "148,RansomButton_2,索要物品"
   splits:
   - split: 2
     text: "索要物品"
+    translated: "Requesting an item"
 - raw: "149,Ransom_SelectGoldTilte,选择索要数额"
   splits:
   - split: 2
     text: "选择索要数额"
+    translated: "Choose the amount to claim"
 - raw: "150,Ransom_SelectGoldNameStr,银两(文)"
   splits:
   - split: 2
     text: "银两"
+    translated: "Silver"
   - split: 2
     subIndex: 1
     text: "文"
+    translated: "Wen"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -750,49 +908,61 @@
   splits:
   - split: 2
     text: "索要"
+    translated: "Demanding"
 - raw: "152,RansomTip_Capture,深陷密室"
   splits:
   - split: 2
     text: "深陷密室"
+    translated: "Trapped in a Secret Room"
 - raw: "153,RansomTip_Servant,沦为家仆"
   splits:
   - split: 2
     text: "沦为家仆"
+    translated: "Became a household servant"
 - raw: "154,RansomTip_Dead,已去世"
   splits:
   - split: 2
     text: "已去世"
+    translated: "Deceased"
 - raw: "155,RansomDialogContent_default,阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手放我离去。"
   splits:
   - split: 2
     text: "阁下尽管开言，吾之亲朋定当竭力而为，只求阁下高抬贵手放我离去。"
+    translated: "Sir, please speak freely. My kin and I will do our utmost, I only ask that you let me go with leniency."
 - raw: "156,RansomJiaoQingLimitTip,江湖之中此人杳无音讯……"
   splits:
   - split: 2
     text: "江湖之中此人杳无音讯……"
+    translated: "In the Jianghu, this person has been without a trace......"
 - raw: "159,Capture_DailyCostTip1,消耗了些许银两购买食物，豢养俘虏。"
   splits:
   - split: 2
     text: "消耗了些许银两购买食物，豢养俘虏。"
+    translated: "Spent some silver to buy food for the captives."
 - raw: "160,Capture_DailyCostTip2,银两略有不足，喂养俘虏的银财只够再维持片刻……"
   splits:
   - split: 2
     text: "银两略有不足，喂养俘虏的银财只够再维持片刻……"
+    translated: "The silver is slightly insufficient; the funds for feeding the captives will only last for a moment longer......"
 - raw: "161,Capture_DailyCostTip3,囊中羞涩，已然难分食给俘虏所用……"
   splits:
   - split: 2
     text: "囊中羞涩，已然难分食给俘虏所用……"
+    translated: "With meager resources, it's hard to divide what little food there is for the captives..."
 - raw: "162,Capture_DieOfHungerTipTitle,俘虏饿死"
   splits:
   - split: 2
     text: "俘虏饿死"
+    translated: "Captives starved to death"
 - raw: "163,Capture_DieOfHungerTipContent,因银财不足，无力支撑俘虏供给，{0}在今日凌晨活活饿死了。"
   splits:
   - split: 2
     text: "因银财不足，无力支撑俘虏供给，"
+    translated: "Due to insufficient funds, they cannot afford to support the captives' supplies."
   - split: 2
     subIndex: 1
     text: "在今日凌晨活活饿死了。"
+    translated: "Starved to death early this morning"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -800,17 +970,21 @@
   splits:
   - split: 2
     text: "俘虏已安置。"
+    translated: "Captive has been secured"
 - raw: "165,Capture_BagEmptyTip,暂无俘虏在麻袋中。"
   splits:
   - split: 2
     text: "暂无俘虏在麻袋中。"
+    translated: "There are no captives in the sack"
 - raw: "166,Capture_BagEscapeTip,俘虏{0}从麻袋中逃脱了。"
   splits:
   - split: 2
     text: "俘虏"
+    translated: "Captive"
   - split: 2
     subIndex: 1
     text: "从麻袋中逃脱了。"
+    translated: "Escaped from the burlap sack"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -818,14 +992,17 @@
   splits:
   - split: 2
     text: "该地牢已经无法容纳更多俘虏了。"
+    translated: "This dungeon can no longer hold more captives."
 - raw: "168,Capture_GetNewServantTip,一个新的家仆加入了伙伴队伍。"
   splits:
   - split: 2
     text: "一个新的家仆加入了伙伴队伍。"
+    translated: "A new household servant has joined your party."
 - raw: "169,Capture_ServantDeedTitle,{0}之家仆契"
   splits:
   - split: 2
     text: "之家仆契"
+    translated: "-Servant's Contract"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -833,9 +1010,11 @@
   splits:
   - split: 2
     text: "于"
+    translated: "At"
   - split: 2
     subIndex: 1
     text: "合法拥有该家仆之证。"
+    translated: "Proof of legal ownership of the household servant."
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -843,21 +1022,26 @@
   splits:
   - split: 2
     text: "放其自由"
+    translated: "Set them free"
 - raw: "172,Capture_SetServantFreeConfirm,若执行此操作，你将失去该家仆，是否确认？"
   splits:
   - split: 2
     text: "若执行此操作，你将失去该家仆，是否确认？"
+    translated: "If you proceed, you will lose this servant. Are you sure?"
 - raw: "173,Capture_ForbitServantSellTip,本店只做正经买卖，这种……东西，小店不敢要。"
   splits:
   - split: 2
     text: "本店只做正经买卖，这种……东西，小店不敢要。"
+    translated: "Our shop only deals in legitimate transactions. This kind of... stuff, we dare not accept."
 - raw: "174,Capture_BagAbandon,你将手中麻袋推入井中，不消片刻便是沉入井底……<color=red>{0}</color>已被溺沉此处……"
   splits:
   - split: 2
     text: "你将手中麻袋推入井中，不消片刻便是沉入井底……"
+    translated: "You pushed the sack in your hand into the well, and it soon sank to the bottom..."
   - split: 2
     subIndex: 1
     text: "已被溺沉此处……"
+    translated: "Has been drowned here..."
   templates:
   - split: 2
     template: "{0}<color=red>⟦0⟧</color>{1}"
@@ -865,10 +1049,12 @@
   splits:
   - split: 2
     text: "确认与当前伙伴分道扬镳，相忘于江湖？"
+    translated: "Confirm the parting of ways with your current companions, to forget each other in the Jianghu?"
 - raw: "179,key12,{0}加入队伍成功!"
   splits:
   - split: 2
     text: "加入队伍成功"
+    translated: "Successfully joined the team"
   templates:
   - split: 2
     template: "⟦0⟧{0}!"
@@ -876,9 +1062,11 @@
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "仅能通过剧情邀请入队"
+    translated: "Can only join the team through a story invitation"
   templates:
   - split: 2
     template: "{0}Npc{1}"
@@ -886,21 +1074,26 @@
   splits:
   - split: 2
     text: "同时上阵的同伴数量上限将随着玩家境界提升逐步增加，完成特定剧情或提升好感度，都可获取同伴共游江湖！"
+    translated: "The limit on the number of companions that can accompany you will increase gradually as your realm improves. Completing specific story quests or increasing favorability will also grant you companions to travel Jianghu with!"
 - raw: "182,key15,当前上阵同伴已达上限"
   splits:
   - split: 2
     text: "当前上阵同伴已达上限"
+    translated: "Current number of deployed companions has reached the limit."
 - raw: "183,key16,分道扬镳"
   splits:
   - split: 2
     text: "分道扬镳"
+    translated: "Parting ways"
 - raw: "184,UIBattleReady_HeadTip,点击下方【+】按钮上阵同伴，同时上阵的同伴数量上限将随着玩家开局设置而变化，完成特定剧情或提升好感度，都可获取同伴共游江湖!"
   splits:
   - split: 2
     text: "点击下方"
+    translated: "Click below"
   - split: 2
     subIndex: 1
     text: "按钮上阵同伴，同时上阵的同伴数量上限将随着玩家开局设置而变化，完成特定剧情或提升好感度，都可获取同伴共游江湖"
+    translated: "The limit on the number of companions you can deploy at once will vary based on your initial setup. Completing specific story quests or increasing favorability will allow you to gain companions to travel with you in Jianghu."
   templates:
   - split: 2
     template: "{0}【+】{1}!"
@@ -908,25 +1101,31 @@
   splits:
   - split: 2
     text: "同行人数已达上限"
+    translated: "The number of companions has reached the limit."
 - raw: "186,TeamCountToTwoTipTxt,上阵2位同伴获得最佳战斗体验"
   splits:
   - split: 2
     text: "上阵2位同伴获得最佳战斗体验"
+    translated: "Gain the best combat experience by bringing 2 companions into battle."
 - raw: "187,TeamCountToFourTipTxt,上阵4位同伴可能会导致战斗难度较易"
   splits:
   - split: 2
     text: "上阵4位同伴可能会导致战斗难度较易"
+    translated: "Having 4 companions in battle might make the fight easier."
 - raw: "189,SanCaiBookTxtTag,三才书"
   splits:
   - split: 2
     text: "三才书"
+    translated: "Three Talents Tome"
 - raw: "190,BookUnLockWuXinNumTipTxt,是否消耗{0}点悟性值解锁新装配格"
   splits:
   - split: 2
     text: "是否消耗"
+    translated: "Do you want to use it?"
   - split: 2
     subIndex: 1
     text: "点悟性值解锁新装配格"
+    translated: "Increase Comprehension to unlock new equipment slots"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -934,6 +1133,7 @@
   splits:
   - split: 2
     text: "需要解锁"
+    translated: "Need to unlock"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -941,9 +1141,11 @@
   splits:
   - split: 2
     text: "当前残篇"
+    translated: "Current Fragment"
   - split: 2
     subIndex: 1
     text: "篇"
+    translated: "Chapter"
   templates:
   - split: 2
     template: "{0}<color=green>⟦0⟧</color>{1} "
@@ -951,89 +1153,111 @@
   splits:
   - split: 2
     text: "悟性值不足"
+    translated: "Insufficient Comprehension Points"
 - raw: "196,ComCollectTipsTxt,且待半晌"
   splits:
   - split: 2
     text: "且待半晌"
+    translated: "Wait for a moment"
 - raw: "197,CaiJi,采集中"
   splits:
   - split: 2
     text: "采集中"
+    translated: "Collecting..."
 - raw: "198,ChongHoleTipsTxt,冲穴中"
   splits:
   - split: 2
     text: "冲穴中"
+    translated: "Acupoint Breakthrough in progress"
 - raw: "199,EsotericaTipsTxt,研习中"
   splits:
   - split: 2
     text: "研习中"
+    translated: "Studying..."
 - raw: "200,CutThroughTipsTxt,贯通中"
   splits:
   - split: 2
     text: "贯通中"
+    translated: "Penetrate the center"
 - raw: "201,BrokenLensTipsTxt,突破中"
   splits:
   - split: 2
     text: "突破中"
+    translated: "Breaking through..."
 - raw: "202,BecomeSwornTipsTxt,歃血为契"
   splits:
   - split: 2
     text: "歃血为契"
+    translated: "Seal with Blood"
 - raw: "203,BridalChamberTipsTxt,鸳被正暖"
   splits:
   - split: 2
     text: "鸳被正暖"
+    translated: "The brocade quilt is still warm"
 - raw: "204,CoupleTipsTxt,情投意合"
   splits:
   - split: 2
     text: "情投意合"
+    translated: "In tune with each other's hearts"
 - raw: "205,UnCoupleTipsTxt,劳燕飞分"
   splits:
   - split: 2
     text: "劳燕飞分"
+    translated: "Laboring swallows part ways"
 - raw: "206,DekimraneTipsTxt,割袍断义"
   splits:
   - split: 2
     text: "割袍断义"
+    translated: "Cutting the robe to sever ties"
 - raw: "207,GetMarriedTipsTxt,佳偶天成"
   splits:
   - split: 2
     text: "佳偶天成"
+    translated: "Fated Perfect Match"
 - raw: "208,InterflowTipsTxt,风花雪月"
   splits:
   - split: 2
     text: "风花雪月"
+    translated: "Flowers, Moon, Snow, and Spring Dreams"
 - raw: "209,DisarmEnemyTipsTxt,尽释前嫌"
   splits:
   - split: 2
     text: "尽释前嫌"
+    translated: "Put the past behind them"
 - raw: "210,CutThroughFinishTipsTxt,贯通成功"
   splits:
   - split: 2
     text: "贯通成功"
+    translated: "Success!"
 - raw: "211,TipContentTitleTuPoTxt,突破奖励"
   splits:
   - split: 2
     text: "突破奖励"
+    translated: "Breakthrough Reward"
 - raw: "212,TipContentTitleCutThroughTxt,贯通奖励"
   splits:
   - split: 2
     text: "贯通奖励"
+    translated: "Completion Reward"
 - raw: "213,StudyMJTipTxt,该秘籍无法重复修习"
   splits:
   - split: 2
     text: "该秘籍无法重复修习"
+    translated: "This manual cannot be studied again"
 - raw: "214,UIRoleAttributeLockTipTxt,该功能尚未开放"
   splits:
   - split: 2
     text: "该功能尚未开放"
+    translated: "This feature is not yet available"
 - raw: "215,StudyZSTipTxt,是否消耗{0}修为学习{1}"
   splits:
   - split: 2
     text: "是否消耗"
+    translated: "Do you want to use it?"
   - split: 2
     subIndex: 1
     text: "修为学习"
+    translated: "Cultivation study"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧"
@@ -1041,26 +1265,32 @@
   splits:
   - split: 2
     text: "初出茅庐"
+    translated: "Just Starting Out"
 - raw: "217,PrestigeTipTxtContent,亦正亦邪"
   splits:
   - split: 2
     text: "亦正亦邪"
+    translated: "Neither good nor evil"
 - raw: "218,PrestigeTipTxtDes,默默无闻"
   splits:
   - split: 2
     text: "默默无闻"
+    translated: "Unknown and Unsung"
 - raw: "219,AttributeTipTxtTitle,【境界】"
   splits:
   - split: 2
     text: "【境界】"
+    translated: "【[Realm]】"
 - raw: "220,PrestigeTipTxtTitle,【声望】"
   splits:
   - split: 2
     text: "【声望】"
+    translated: "【[Reputation]】"
 - raw: "221,MiJiDesContentTipTxt,(此章残缺)"
   splits:
   - split: 2
     text: "此章残缺"
+    translated: "This chapter is incomplete"
   templates:
   - split: 2
     template: "({0})"
@@ -1068,6 +1298,7 @@
   splits:
   - split: 2
     text: "好感度"
+    translated: "Favorability"
   templates:
   - split: 2
     template: "⟦0⟧{0}+⟦1⟧"
@@ -1075,6 +1306,7 @@
   splits:
   - split: 2
     text: "好感度"
+    translated: "Favorability"
   templates:
   - split: 2
     template: "⟦0⟧{0}-⟦1⟧"
@@ -1082,48 +1314,60 @@
   splits:
   - split: 2
     text: "此人视你为雠寇，并不领情。"
+    translated: "This person regards you as an enemy and does not accept your kindness."
 - raw: "225,OnSelectUpEuipTipTxt,当前版本暂时无法使用火枪技能，请关注后续更新内容！"
   splits:
   - split: 2
     text: "当前版本暂时无法使用火枪技能，请关注后续更新内容！"
+    translated: "The current version does not support the fire spear skill. Please check for updates later!"
 - raw: "226,ItemNameTipTitle,火器"
   splits:
   - split: 2
     text: "火器"
+    translated: "Firearm"
 - raw: "227,MartialArtsBook,武学研本"
   splits:
   - split: 2
     text: "武学研本"
+    translated: "Martial Art Study Manual"
 - raw: "228,ZZMaxNumTipTxt,可分配资质点未分配完"
   splits:
   - split: 2
     text: "可分配资质点未分配完"
+    translated: "Unassigned aptitude points remain available for allocation"
 - raw: "229,AttributeMaxNumTipTxt,可分配属性点未分配完"
   splits:
   - split: 2
     text: "可分配属性点未分配完"
+    translated: "Unassigned attribute points remaining"
 - raw: "230,ItemUseTipTxt,请先完成杜颜白引导剧情后使用"
   splits:
   - split: 2
     text: "请先完成杜颜白引导剧情后使用"
+    translated: "Please use after completing the Du Yanbai story guide."
 - raw: "231,ItemRestAttributeTipTxt,【洗髓丹】不足，无法重置已分配的属性点数"
   splits:
   - split: 2
     text: "【洗髓丹】不足，无法重置已分配的属性点数"
+    translated: "[Marrow-Cleansing Elixir] insufficient, cannot reset allocated attribute points"
 - raw: "232,RestAttributeTipTxt,药力尚存，无需再服用洗髓丹"
   splits:
   - split: 2
     text: "药力尚存，无需再服用洗髓丹"
+    translated: "The medicine is still effective; there's no need to take another Marrow-Cleansing Elixir."
 - raw: "233,SliverTypeOneTipTxt,银两{0}{1}两{2}文"
   splits:
   - split: 2
     text: "银两"
+    translated: "Silver"
   - split: 2
     subIndex: 1
     text: "两"
+    translated: "Two"
   - split: 2
     subIndex: 2
     text: "文"
+    translated: "Wen"
   templates:
   - split: 2
     template: "{0}⟦0⟧⟦1⟧{1}⟦2⟧{2}"
@@ -1131,9 +1375,11 @@
   splits:
   - split: 2
     text: "银两"
+    translated: "Silver"
   - split: 2
     subIndex: 1
     text: "文"
+    translated: "Wen"
   templates:
   - split: 2
     template: "{0}⟦0⟧⟦1⟧{1}"
@@ -1141,9 +1387,11 @@
   splits:
   - split: 2
     text: "银两"
+    translated: "Silver"
   - split: 2
     subIndex: 1
     text: "两"
+    translated: "Two"
   templates:
   - split: 2
     template: "{0}⟦0⟧⟦1⟧{1}"
@@ -1151,6 +1399,7 @@
   splits:
   - split: 2
     text: "饱食度"
+    translated: "Fullness"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -1158,6 +1407,7 @@
   splits:
   - split: 2
     text: "饱食度"
+    translated: "Fullness"
   templates:
   - split: 2
     template: "{0}:"
@@ -1165,25 +1415,31 @@
   splits:
   - split: 2
     text: "行凶作恶"
+    translated: "Committing violent crimes"
 - raw: "239,DoBadToNpcDialog,若无他事便快离去，莫扰我饮酒"
   splits:
   - split: 2
     text: "若无他事便快离去，莫扰我饮酒"
+    translated: "If you have nothing else to do, leave quickly and don't disturb me while I drink."
 - raw: "240,DoBadToKillNpcConfirm,杀了此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
   splits:
   - split: 2
     text: "杀了此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
+    translated: "Killing this person will cause related quests to fail, and the game story may not progress normally. Are you sure?"
 - raw: "241,DoBadToCaptureNpcConfirm,俘获此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
   splits:
   - split: 2
     text: "俘获此人，与之相关的任务将会失败，游戏剧情可能无法继续正常推进下去，是否确定？"
+    translated: "Capturing this person will cause related quests to fail, and the game story may not progress normally. Are you sure?"
 - raw: "244,AcupointAttributeTipTxt,该穴道需境界{0}开启"
   splits:
   - split: 2
     text: "该穴道需境界"
+    translated: "This acupoint requires a Realm"
   - split: 2
     subIndex: 1
     text: "开启"
+    translated: "Begin"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1191,9 +1447,11 @@
   splits:
   - split: 2
     text: "该穴道需"
+    translated: "This acupoint needs to be addressed"
   - split: 2
     subIndex: 1
     text: "冲穴成功开启"
+    translated: "Acupoint Breakthrough successfully initiated"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1201,13 +1459,16 @@
   splits:
   - split: 2
     text: "该穴道已冲穴"
+    translated: "This acupoint has already had an Acupoint Breakthrough."
 - raw: "247,Acupoint_Finish,已冲穴(点击可重新冲穴)"
   splits:
   - split: 2
     text: "已冲穴"
+    translated: "Acupoint Breakthrough completed"
   - split: 2
     subIndex: 1
     text: "点击可重新冲穴"
+    translated: "Click to retry acupoint breakthrough"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -1215,65 +1476,85 @@
   splits:
   - split: 2
     text: "未冲穴"
+    translated: "Not broken through the acupoint"
 - raw: "249,AcupointShowTipTitle,规则说明"
   splits:
   - split: 2
     text: "规则说明"
+    translated: "Rules Explanation"
 - raw: "250,AcupointShowTips,冲穴操作规则：{0}开启脉路：将隐藏的脉路翻开，消耗9修为{1}顺旋脉路：将脉路顺时针旋转，消耗6修为{2}逆旋脉路：将脉路逆时针旋转，消耗6修为{3}更换脉路：随机更换成其他脉路，消耗15修为{4}基础规则：{5}将穴道的起始位置<color=#01a605>【绿色】</color>和终点位置<color=#ff0000>【红色】</color>连成一线即可突破穴道。{6}脉路通过辅穴<color=#FF00E9>【紫色】</color>会额外获得战斗属性的奖励         "
   splits:
   - split: 2
     text: "冲穴操作规则"
+    translated: "Acupoint Breakthrough Operation Rules"
   - split: 2
     subIndex: 1
     text: "开启脉路"
+    translated: "Open Meridian Path"
   - split: 2
     subIndex: 2
     text: "将隐藏的脉路翻开，消耗9修为"
+    translated: "Reveal the hidden meridians, consuming 9 Cultivation"
   - split: 2
     subIndex: 3
     text: "顺旋脉路"
+    translated: "Clockwise Path"
   - split: 2
     subIndex: 4
     text: "将脉路顺时针旋转，消耗6修为"
+    translated: "Rotate the meridian path clockwise, consuming 6 Cultivation."
   - split: 2
     subIndex: 5
     text: "逆旋脉路"
+    translated: "Counterclockwise Path"
   - split: 2
     subIndex: 6
     text: "将脉路逆时针旋转，消耗6修为"
+    translated: "Rotate the meridian path counterclockwise, consuming 6 Cultivation."
   - split: 2
     subIndex: 7
     text: "更换脉路"
+    translated: "Change Path"
   - split: 2
     subIndex: 8
     text: "随机更换成其他脉路，消耗15修为"
+    translated: "Randomly switch to another meridian, consuming 15 Cultivation"
   - split: 2
     subIndex: 9
     text: "基础规则"
+    translated: "Basic Rules"
   - split: 2
     subIndex: 10
     text: "将穴道的起始位置"
+    translated: "The starting position of the acupoint"
   - split: 2
     subIndex: 11
     text: "【绿色】"
+    translated: "【[Green]】"
   - split: 2
     subIndex: 12
     text: "和终点位置"
+    translated: "And the endpoint position"
   - split: 2
     subIndex: 13
     text: "【红色】"
+    translated: "【[Red]】"
   - split: 2
     subIndex: 14
     text: "连成一线即可突破穴道。"
+    translated: "Connecting them in a line can break through the acupoint."
   - split: 2
     subIndex: 15
     text: "脉路通过辅穴"
+    translated: "The meridian passes through the secondary points"
   - split: 2
     subIndex: 16
     text: "【紫色】"
+    translated: "【[Purple]】"
   - split: 2
     subIndex: 17
     text: "会额外获得战斗属性的奖励"
+    translated: "Will also receive rewards for combat attributes"
   templates:
   - split: 2
     template: "{0}：⟦0⟧{1}：{2}⟦1⟧{3}：{4}⟦2⟧{5}：{6}⟦3⟧{7}：{8}⟦4⟧{9}：⟦5⟧{10}<color=#01a605>{11}</color>{12}<color=#ff0000>{13}</color>{14}⟦6⟧{15}<color=#FF00E9>{16}</color>{17}         "
@@ -1281,6 +1562,7 @@
   splits:
   - split: 2
     text: "当前经脉所有穴位未完成"
+    translated: "All acupoints in your meridians are incomplete"
   templates:
   - split: 2
     template: "{0}  "
@@ -1288,6 +1570,7 @@
   splits:
   - split: 2
     text: "当前经脉已贯通"
+    translated: "Meridians are now connected"
   templates:
   - split: 2
     template: "{0} "
@@ -1295,10 +1578,12 @@
   splits:
   - split: 2
     text: "起点位置"
+    translated: "Starting position"
 - raw: "254,EndPosTip,终点位置    "
   splits:
   - split: 2
     text: "终点位置"
+    translated: "End position"
   templates:
   - split: 2
     template: "{0}    "
@@ -1306,6 +1591,7 @@
   splits:
   - split: 2
     text: "如果放弃冲穴，这个穴道的脉路会被重置。之前消耗的修为会进行返还。是否放弃冲穴退回上一级？"
+    translated: "If you give up on the acupoint breakthrough, the meridian path of this acupoint will be reset. The cultivation consumed previously will be refunded. Do you want to abandon the acupoint breakthrough and return to the previous level?"
   templates:
   - split: 2
     template: "{0}      "
@@ -1313,12 +1599,15 @@
   splits:
   - split: 2
     text: "强行冲穴"
+    translated: "Forced Acupoint Breakthrough"
   - split: 2
     subIndex: 1
     text: "需要消耗"
+    translated: "Requires consumption of"
   - split: 2
     subIndex: 2
     text: "修为一键完成冲穴，且自动获得全部辅穴属性"
+    translated: "Cultivation automatically completes acupoint breakthrough and grants all auxiliary acpoint Attributes."
   templates:
   - split: 2
     template: "{0}：{1}<color=green>⟦0⟧</color>{2}"
@@ -1326,9 +1615,11 @@
   splits:
   - split: 2
     text: "手动冲穴"
+    translated: "Manual Acupoint Breakthrough"
   - split: 2
     subIndex: 1
     text: "手动完成冲穴操作，连接辅穴可以获得额外属性"
+    translated: "Manually completing the acupoint breakthrough operation and connecting auxiliary points can grant additional attributes."
   templates:
   - split: 2
     template: "{0}：{1} "
@@ -1336,9 +1627,11 @@
   splits:
   - split: 2
     text: "是否进入"
+    translated: "Do you want to enter?"
   - split: 2
     subIndex: 1
     text: "穴道进行冲穴"
+    translated: "Acupoint breakthrough at the acupoint"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}?  "
@@ -1346,6 +1639,7 @@
   splits:
   - split: 2
     text: "已连通可以冲穴"
+    translated: "Connection established for acupoint breakthrough"
   templates:
   - split: 2
     template: "{0} "
@@ -1353,25 +1647,31 @@
   splits:
   - split: 2
     text: "经脉贯通成功"
+    translated: "Meridian connection successful"
 - raw: "261,MusclesOrVeinsTipTitle,贯通说明"
   splits:
   - split: 2
     text: "贯通说明"
+    translated: "Explanation of Mastery"
 - raw: "262,MusclesOrVeinsShowTipContent,诸穴道冲破后，点击贯通即可打通此条经脉。"
   splits:
   - split: 2
     text: "诸穴道冲破后，点击贯通即可打通此条经脉。"
+    translated: "After all acupoints are broken through, click to connect them and thus open up this meridian."
 - raw: "263,ReChongHoleTipTxt,是否重新冲穴？"
   splits:
   - split: 2
     text: "是否重新冲穴？"
+    translated: "Do you want to perform an acupoint breakthrough again?"
 - raw: "264,AutoChongHoleTip,是否自动贯通经脉（消耗{0}修为）并进行冲关破境？"
   splits:
   - split: 2
     text: "是否自动贯通经脉（消耗"
+    translated: "Do you want to automatically open the meridians (at the cost of"
   - split: 2
     subIndex: 1
     text: "修为）并进行冲关破境？"
+    translated: "Cultivation and attempt to break through a level?)"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1379,23 +1679,29 @@
   splits:
   - split: 2
     text: "冲关等级不能高于主角等级"
+    translated: "The challenge level cannot be higher than your character level."
 - raw: "268,ForceLevelUpFailedTips,经脉尚未贯通完毕，无法使用强行破境功能。"
   splits:
   - split: 2
     text: "经脉尚未贯通完毕，无法使用强行破境功能。"
+    translated: "The meridians are not yet fully connected, so the forced realm breakthrough function cannot be used."
 - raw: "269,ForceLevelUpTips,厚积薄发，消耗大量修为强行冲关破境，此举会跳过原有任务需求，直接抵达下一境界，<color=red>此行为不可逆，突破任务会消失</color>，是否消耗<color=green>{0}</color>修为，强行冲关破境？"
   splits:
   - split: 2
     text: "厚积薄发，消耗大量修为强行冲关破境，此举会跳过原有任务需求，直接抵达下一境界，"
+    translated: "Building up extensively and then making a forceful breakthrough with heavy consumption of cultivation, this action will bypass the original task requirements and directly reach the next realm."
   - split: 2
     subIndex: 1
     text: "此行为不可逆，突破任务会消失"
+    translated: "This action is irreversible; the breakthrough mission will disappear."
   - split: 2
     subIndex: 2
     text: "，是否消耗"
+    translated: ", Do you want to use it?"
   - split: 2
     subIndex: 3
     text: "修为，强行冲关破境？"
+    translated: "Cultivation, forcing a breakthrough?"
   templates:
   - split: 2
     template: "{0}<color=red>{1}</color>{2}<color=green>⟦0⟧</color>{3}"
@@ -1403,30 +1709,37 @@
   splits:
   - split: 2
     text: "暂未开放"
+    translated: "Not available yet"
 - raw: "273,RecommendAttribute,推荐境界"
   splits:
   - split: 2
     text: "推荐境界"
+    translated: "Recommended Realm"
 - raw: "274,EnterDungeon,进入副本"
   splits:
   - split: 2
     text: "进入副本"
+    translated: "Enter the dungeon"
 - raw: "275,InCD,冷却中"
   splits:
   - split: 2
     text: "冷却中"
+    translated: "Cooldown"
 - raw: "276,Tips,提示"
   splits:
   - split: 2
     text: "提示"
+    translated: "Hint"
 - raw: "277,ConfirmEnterDungeon,是否确认进入副本？"
   splits:
   - split: 2
     text: "是否确认进入副本？"
+    translated: "Are you sure you want to enter the instance?"
 - raw: "278,key4,{0}时辰后"
   splits:
   - split: 2
     text: "时辰后"
+    translated: "After the hour"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1434,22 +1747,27 @@
   splits:
   - split: 2
     text: "掉落预览"
+    translated: "Drop Preview"
 - raw: "280,RandomItem,随机道具"
   splits:
   - split: 2
     text: "随机道具"
+    translated: "Random item"
 - raw: "281,RandomEquip,随机装备"
   splits:
   - split: 2
     text: "随机装备"
+    translated: "Random equipment"
 - raw: "282,RandomMiJi,随机秘籍"
   splits:
   - split: 2
     text: "随机秘籍"
+    translated: "Random Manual"
 - raw: "283,DungeonLockTips,进入此副本需求境界:{0}"
   splits:
   - split: 2
     text: "进入此副本需求境界"
+    translated: "Enter this dungeon requires the Realm"
   templates:
   - split: 2
     template: "{0}:⟦0⟧"
@@ -1457,26 +1775,32 @@
   splits:
   - split: 2
     text: "坚实牢靠的练功木人，或可借之锤炼身手。"
+    translated: "A sturdy training dummy that can be used to hone one's skills."
 - raw: "287,PracticeRoomTalkOption0,磨砺武艺"
   splits:
   - split: 2
     text: "磨砺武艺"
+    translated: "Sharpening martial arts skills"
 - raw: "288,PracticeRoomTalkOption1,暂且离去"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "289,PracticeSetting,练习设置"
   splits:
   - split: 2
     text: "练习设置"
+    translated: "Practice settings"
 - raw: "290,WoodenStakeSetting,【木人桩设置】"
   splits:
   - split: 2
     text: "【木人桩设置】"
+    translated: "【[Training Dummy Setup]】"
 - raw: "291,WoodenStakeAttribute,木人桩境界："
   splits:
   - split: 2
     text: "木人桩境界"
+    translated: "Training Dummy Realm"
   templates:
   - split: 2
     template: "{0}："
@@ -1484,6 +1808,7 @@
   splits:
   - split: 2
     text: "霸体"
+    translated: "Super Armor"
   templates:
   - split: 2
     template: "{0}:"
@@ -1491,6 +1816,7 @@
   splits:
   - split: 2
     text: "倒计时"
+    translated: "Countdown"
   templates:
   - split: 2
     template: "{0}:"
@@ -1498,34 +1824,42 @@
   splits:
   - split: 2
     text: "召唤"
+    translated: "Summon"
 - raw: "295,ExitBattle,离开战斗"
   splits:
   - split: 2
     text: "离开战斗"
+    translated: "Leave Combat"
 - raw: "296,None,无"
   splits:
   - split: 2
     text: "无"
+    translated: "None"
 - raw: "297,TotalDamage,伤害量"
   splits:
   - split: 2
     text: "伤害量"
+    translated: "Damage Dealt"
 - raw: "298,ComboCount,连击数"
   splits:
   - split: 2
     text: "连击数"
+    translated: "Combo Count"
 - raw: "301,BatchSell,批量出售"
   splits:
   - split: 2
     text: "批量出售"
+    translated: "Bulk Sell"
 - raw: "302,SellItemList,出售列表"
   splits:
   - split: 2
     text: "出售列表"
+    translated: "Sell list"
 - raw: "303,QualitySelect,品质筛选:"
   splits:
   - split: 2
     text: "品质筛选"
+    translated: "Quality Filter"
   templates:
   - split: 2
     template: "{0}:"
@@ -1533,6 +1867,7 @@
   splits:
   - split: 2
     text: "境界筛选"
+    translated: "Realm Selection"
   templates:
   - split: 2
     template: "{0}:"
@@ -1540,6 +1875,7 @@
   splits:
   - split: 2
     text: "已选择"
+    translated: "Selected"
   templates:
   - split: 2
     template: "{0}:"
@@ -1547,6 +1883,7 @@
   splits:
   - split: 2
     text: "总银两"
+    translated: "Total Silver"
   templates:
   - split: 2
     template: "{0}:"
@@ -1554,10 +1891,12 @@
   splits:
   - split: 2
     text: "出售"
+    translated: "Sell"
 - raw: "308,ItemDesc,物品描述："
   splits:
   - split: 2
     text: "物品描述"
+    translated: "Item description"
   templates:
   - split: 2
     template: "{0}："
@@ -1565,38 +1904,47 @@
   splits:
   - split: 2
     text: "件"
+    translated: "Item"
 - raw: "310,Wen,文"
   splits:
   - split: 2
     text: "文"
+    translated: "Wen"
 - raw: "311,EmptyTips,物品为空"
   splits:
   - split: 2
     text: "物品为空"
+    translated: "Item is empty"
 - raw: "312,SellSuccess,出售成功"
   splits:
   - split: 2
     text: "出售成功"
+    translated: "Sell successful"
 - raw: "313,Quality,品质"
   splits:
   - split: 2
     text: "品质"
+    translated: "Quality"
 - raw: "314,notSellTips,出售物品过多，正在努力加载中..."
   splits:
   - split: 2
     text: "出售物品过多，正在努力加载中..."
+    translated: "Selling too many items, loading effortfully..."
 - raw: "315,notSellTips2,当前暂无物品可以出售"
   splits:
   - split: 2
     text: "当前暂无物品可以出售"
+    translated: "There are currently no items to sell"
 - raw: "318,PlayingComboVideo,正在播放连招视频..."
   splits:
   - split: 2
     text: "正在播放连招视频..."
+    translated: "Playing combo video..."
 - raw: "321,GangLv,总舵等级:"
   splits:
   - split: 2
     text: "总舵等级"
+    translated: "Headquarters Level"
   templates:
   - split: 2
     template: "{0}:"
@@ -1604,6 +1952,7 @@
   splits:
   - split: 2
     text: "帮派资金"
+    translated: "Gang Funds"
   templates:
   - split: 2
     template: "{0}:"
@@ -1611,6 +1960,7 @@
   splits:
   - split: 2
     text: "每日收支"
+    translated: "Daily Income and Expenses"
   templates:
   - split: 2
     template: "{0}:"
@@ -1618,6 +1968,7 @@
   splits:
   - split: 2
     text: "未实装"
+    translated: "Not implemented"
   templates:
   - split: 2
     template: "({0})"
@@ -1625,6 +1976,7 @@
   splits:
   - split: 2
     text: "当前帮派位阶"
+    translated: "Current Gang Rank"
   templates:
   - split: 2
     template: "{0}:"
@@ -1632,6 +1984,7 @@
   splits:
   - split: 2
     text: "累计帮派功勋"
+    translated: "Accumulated Gang Merit"
   templates:
   - split: 2
     template: "{0}:"
@@ -1639,18 +1992,22 @@
   splits:
   - split: 2
     text: "位阶已达最高"
+    translated: "Rank has reached its peak"
 - raw: "328,GetSalary,获取薪俸"
   splits:
   - split: 2
     text: "获取薪俸"
+    translated: "Collect stipend"
 - raw: "329,Enroll,报名考核"
   splits:
   - split: 2
     text: "报名考核"
+    translated: "Sign up for the exam"
 - raw: "330,LookFifthRank,查看{0}"
   splits:
   - split: 2
     text: "查看"
+    translated: "Check"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -1658,37 +2015,46 @@
   splits:
   - split: 2
     text: "离开"
+    translated: "Leave"
 - raw: "332,ReturnBack,返回"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "333,Close,关闭"
   splits:
   - split: 2
     text: "关闭"
+    translated: "Close"
 - raw: "334,Attack,攻占"
   splits:
   - split: 2
     text: "攻占"
+    translated: "Capture"
 - raw: "335,Leave,暂且撤离"
   splits:
   - split: 2
     text: "暂且撤离"
+    translated: "Withdraw for now"
 - raw: "336,GiveUp,束手认命"
   splits:
   - split: 2
     text: "束手认命"
+    translated: "Accept one's fate meekly"
 - raw: "337,UnderstudyGangMember,候补"
   splits:
   - split: 2
     text: "候补"
+    translated: "Substitute"
 - raw: "338,GangShopRankTips,\"当前位阶不足，当前位阶:{0},商品需求位阶:{1}\""
   splits:
   - split: 2
     text: "当前位阶不足，当前位阶"
+    translated: "Current rank insufficient, current rank"
   - split: 2
     subIndex: 1
     text: "商品需求位阶"
+    translated: "Commodity Demand Tier"
   templates:
   - split: 2
     template: "{0}:⟦0⟧,{1}:⟦1⟧"
@@ -1696,18 +2062,22 @@
   splits:
   - split: 2
     text: "【任务描述】"
+    translated: "【[Task Description]】"
 - raw: "340,TaskAward,【任务奖励】"
   splits:
   - split: 2
     text: "【任务奖励】"
+    translated: "【[Task Reward]】"
 - raw: "341,GangCoin,帮派功勋"
   splits:
   - split: 2
     text: "帮派功勋"
+    translated: "Gang Merit"
 - raw: "342,GangCoin2,帮派功勋:"
   splits:
   - split: 2
     text: "帮派功勋"
+    translated: "Gang Merit"
   templates:
   - split: 2
     template: "{0}:"
@@ -1715,14 +2085,17 @@
   splits:
   - split: 2
     text: "帮派功勋不足"
+    translated: "Not enough Gang Merit"
 - raw: "344,GangShopNotJoinLimit,非本帮人士，无法购买"
   splits:
   - split: 2
     text: "非本帮人士，无法购买"
+    translated: "Non-clan members cannot purchase"
 - raw: "345,NeedGangCoin,所需功勋:"
   splits:
   - split: 2
     text: "所需功勋"
+    translated: "Required Merit"
   templates:
   - split: 2
     template: "{0}:"
@@ -1730,6 +2103,7 @@
   splits:
   - split: 2
     text: "我的功勋"
+    translated: "My Merit"
   templates:
   - split: 2
     template: "{0}:"
@@ -1737,21 +2111,26 @@
   splits:
   - split: 2
     text: "距离刷新还有"
+    translated: "Distance to refresh:"
 - raw: "348,RemainFailedTime,距离到期还有"
   splits:
   - split: 2
     text: "距离到期还有"
+    translated: "Time remaining:"
 - raw: "349,RankTask,阶任务"
   splits:
   - split: 2
     text: "阶任务"
+    translated: "Stage Task"
 - raw: "350,GangTaskGotFailed,\"位阶不足，当前位阶:{0},任务所需位阶:{1}\""
   splits:
   - split: 2
     text: "位阶不足，当前位阶"
+    translated: "Insufficient rank, current rank"
   - split: 2
     subIndex: 1
     text: "任务所需位阶"
+    translated: "Required Rank for the Task"
   templates:
   - split: 2
     template: "{0}:⟦0⟧,{1}:⟦1⟧"
@@ -1759,25 +2138,31 @@
   splits:
   - split: 2
     text: "未领取"
+    translated: "Not claimed"
 - raw: "352,TaskGot,进行中"
   splits:
   - split: 2
     text: "进行中"
+    translated: "In progress"
 - raw: "353,TaskSuccess,已完成"
   splits:
   - split: 2
     text: "已完成"
+    translated: "Completed"
 - raw: "354,TaskFailed,任务失败"
   splits:
   - split: 2
     text: "任务失败"
+    translated: "Mission Failed"
 - raw: "355,GetTaskTips,当前位阶最多同时领取{0}个任务，是否领取该任务？"
   splits:
   - split: 2
     text: "当前位阶最多同时领取"
+    translated: "Current rank allows for up to 3 simultaneous claims."
   - split: 2
     subIndex: 1
     text: "个任务，是否领取该任务？"
+    translated: "Do you want to accept this quest?"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1785,34 +2170,42 @@
   splits:
   - split: 2
     text: "任务领取成功"
+    translated: "Task accepted successfully"
 - raw: "357,GetTaskFailedTips,任务领取失败，已达到当前位阶最大可进行任务数"
   splits:
   - split: 2
     text: "任务领取失败，已达到当前位阶最大可进行任务数"
+    translated: "Task acquisition failed; you have reached the maximum number of tasks allowed for your current rank."
 - raw: "358,TaskGotTips,此任务已领取"
   splits:
   - split: 2
     text: "此任务已领取"
+    translated: "Task has been accepted"
 - raw: "359,GangTaskRemoveTips,放弃后任务将以失败结算，并在下个周期刷新，是否确定？"
   splits:
   - split: 2
     text: "放弃后任务将以失败结算，并在下个周期刷新，是否确定？"
+    translated: "Abandoning the mission will result in failure and it will refresh in the next cycle. Are you sure?"
 - raw: "360,Day,天"
   splits:
   - split: 2
     text: "天"
+    translated: "Sky"
 - raw: "361,ShiChen,时辰"
   splits:
   - split: 2
     text: "时辰"
+    translated: "Hour"
 - raw: "362,GangTaskFailedTips,风云变幻，往事难追，帮派任务失败。"
   splits:
   - split: 2
     text: "风云变幻，往事难追，帮派任务失败。"
+    translated: "With changing winds and clouds, the past is hard to reclaim, gang tasks failed."
 - raw: "363,GangTalkDialog,这里是{0}"
   splits:
   - split: 2
     text: "这里是"
+    translated: "Here is"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -1820,59 +2213,52 @@
   splits:
   - split: 2
     text: "帮派管家"
+    translated: "Gang Manager"
 - raw: "365,GangRank,帮派位阶"
   splits:
   - split: 2
     text: "帮派位阶"
+    translated: "Gang Rank"
 - raw: "366,GangShop,帮派商店"
   splits:
   - split: 2
     text: "帮派商店"
+    translated: "Gang Shop"
 - raw: "367,GangTask,帮派任务"
   splits:
   - split: 2
     text: "帮派任务"
+    translated: "Gang mission"
 - raw: "368,JoinGang,加入帮派"
   splits:
   - split: 2
     text: "加入帮派"
+    translated: "Join a gang"
 - raw: "369,ExitGang,退出帮派"
   splits:
   - split: 2
     text: "退出帮派"
+    translated: "Leave the Gang"
 - raw: "370,GetRankUpTask,<兄弟||妹子>近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，<兄弟||妹子>若有意在本帮提升位阶，不妨前往一观。"
   splits:
   - split: 2
-    text: "兄弟"
-  - split: 2
-    subIndex: 1
-    text: "妹子"
-  - split: 2
-    subIndex: 2
-    text: "近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，"
-  - split: 2
-    subIndex: 3
-    text: "兄弟"
-  - split: 2
-    subIndex: 4
-    text: "妹子"
-  - split: 2
-    subIndex: 5
-    text: "若有意在本帮提升位阶，不妨前往一观。"
-  templates:
-  - split: 2
-    template: "<{0}||{1}>{2}<{3}||{4}>{5}"
+    text: "<兄弟||妹子>近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，<兄弟||妹子>若有意在本帮提升位阶，不妨前往一观。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "371,RankUpTask,升阶任务"
   splits:
   - split: 2
     text: "升阶任务"
+    translated: "Level-Up Task"
 - raw: "372,RankUpTips,你在{0}中的位阶已达到{1}"
   splits:
   - split: 2
     text: "你在"
+    translated: "You are"
   - split: 2
     subIndex: 1
     text: "中的位阶已达到"
+    translated: "Your rank has been reached"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧"
@@ -1880,15 +2266,19 @@
   splits:
   - split: 2
     text: "由于本"
+    translated: "Due to this"
   - split: 2
     subIndex: 1
     text: "身亡，经"
+    translated: "Death, karma"
   - split: 2
     subIndex: 2
     text: "中长老商讨，"
+    translated: "Elders are discussing,"
   - split: 2
     subIndex: 3
     text: "德才兼备，接替其位"
+    translated: "Well-rounded and capable, fit to succeed them"
   templates:
   - split: 2
     template: "{0}⟦0⟧⟦1⟧⟦2⟧{1}⟦3⟧{2}⟦4⟧{3}"
@@ -1896,9 +2286,11 @@
   splits:
   - split: 2
     text: "因你横夺其位，"
+    translated: "Because you seized their position,"
   - split: 2
     subIndex: 1
     text: "对你心生怨恨"
+    translated: "Began to harbor resentment towards you"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -1906,14 +2298,17 @@
   splits:
   - split: 2
     text: "操作失败，未加入本帮派"
+    translated: "Operation failed, not added to this gang"
 - raw: "376,RankUpLimitTip,未达到升阶所需的帮派功勋"
   splits:
   - split: 2
     text: "未达到升阶所需的帮派功勋"
+    translated: "Has not reached the required Gang Merit for advancement."
 - raw: "377,ExitGangSuccess,已退出帮派{0}"
   splits:
   - split: 2
     text: "已退出帮派"
+    translated: "Left the gang"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -1921,6 +2316,7 @@
   splits:
   - split: 2
     text: "已加入帮派"
+    translated: "Has joined the Gang"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -1928,22 +2324,27 @@
   splits:
   - split: 2
     text: "加入帮派失败，当前已加入其他帮派，无法重复加入"
+    translated: "Failed to join gang, currently already part of another gang, cannot rejoin."
 - raw: "380,ExitGangFailed,离开帮派失败，未加入该帮派或你已是帮主"
   splits:
   - split: 2
     text: "离开帮派失败，未加入该帮派或你已是帮主"
+    translated: "Failed to leave the gang, not a member or already the Gang Leader"
 - raw: "381,ExitGangFailed_Header,你乃一帮之主，岂能如此？"
   splits:
   - split: 2
     text: "你乃一帮之主，岂能如此？"
+    translated: "As the leader of a faction, how can you be like this?"
 - raw: "382,ExitGangFailed_SubGang,需前往帮派总舵办理"
   splits:
   - split: 2
     text: "需前往帮派总舵办理"
+    translated: "You need to go to the Gang's main headquarters to handle it."
 - raw: "383,GangTaskNpcPos,\"位置：{0}({1},{2})\""
   splits:
   - split: 2
     text: "位置"
+    translated: "Location"
   templates:
   - split: 2
     template: "{0}：⟦0⟧(⟦1⟧,⟦2⟧)"
@@ -1951,22 +2352,27 @@
   splits:
   - split: 2
     text: "暂未加入或创建任何帮派"
+    translated: "Not currently part of or joined any gang."
 - raw: "385,NoMatchGangCreateCondTip,尚未达到在此驻地创立帮派的条件"
   splits:
   - split: 2
     text: "尚未达到在此驻地创立帮派的条件"
+    translated: "You have not yet met the conditions to establish a gang in this outpost."
 - raw: "386,GangCreateNameTip_Length,帮派名字长度不符"
   splits:
   - split: 2
     text: "帮派名字长度不符"
+    translated: "The gang name length does not match"
 - raw: "387,GangCreateNameTip_Same,该名字已被其他帮派占用"
   splits:
   - split: 2
     text: "该名字已被其他帮派占用"
+    translated: "That name is already taken by another gang."
 - raw: "388,GangCreateSuccTip,成功创立了{0}!"
   splits:
   - split: 2
     text: "成功创立了"
+    translated: "Successfully founded"
   templates:
   - split: 2
     template: "{0}⟦0⟧!"
@@ -1974,10 +2380,12 @@
   splits:
   - split: 2
     text: "可在此处创建帮派"
+    translated: "You can create a gang here"
 - raw: "390,GangCreateTouchDialog_CanCreate_PlayOwn,{0}驻地（本人帮派）"
   splits:
   - split: 2
     text: "驻地（本人帮派）"
+    translated: "Headquarters (our Gang)"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -1985,9 +2393,11 @@
   splits:
   - split: 2
     text: "驻地"
+    translated: "Base Camp"
   - split: 2
     subIndex: 1
     text: "别人帮派"
+    translated: "Other gang"
   templates:
   - split: 2
     template: "⟦0⟧{0}({1})"
@@ -1995,6 +2405,7 @@
   splits:
   - split: 2
     text: "驻地（我方帮派）"
+    translated: "Headquarters (our Gang)"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2002,9 +2413,11 @@
   splits:
   - split: 2
     text: "驻地"
+    translated: "Base Camp"
   - split: 2
     subIndex: 1
     text: "别人帮派"
+    translated: "Other gang"
   templates:
   - split: 2
     template: "⟦0⟧{0}({1})"
@@ -2012,15 +2425,19 @@
   splits:
   - split: 2
     text: "曾经"
+    translated: "Once upon a time"
   - split: 2
     subIndex: 1
     text: "的旧驻地"
+    translated: "Old headquarters"
   - split: 2
     subIndex: 2
     text: "现已荒废"
+    translated: "Now in ruins"
   - split: 2
     subIndex: 3
     text: "无法再重建"
+    translated: "Cannot be rebuilt"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1},{2},{3}"
@@ -2028,41 +2445,51 @@
   splits:
   - split: 2
     text: "发动帮派战争"
+    translated: "Declare gang war"
 - raw: "396,GangTypeOnGroup_MainGang,总舵"
   splits:
   - split: 2
     text: "总舵"
+    translated: "Headquarters"
 - raw: "397,GangTypeOnGroup_SubGang,分舵"
   splits:
   - split: 2
     text: "分舵"
+    translated: "Branch"
 - raw: "398,GangTypeOnGroup_SuzerainGang,宗主"
   splits:
   - split: 2
     text: "宗主"
+    translated: "Sect Leader"
 - raw: "399,GangTypeOnGroup_DependcyGang,附属"
   splits:
   - split: 2
     text: "附属"
+    translated: "Affiliate"
 - raw: "400,GangTypeOnGroup_None,竞争"
   splits:
   - split: 2
     text: "竞争"
+    translated: "Competition"
 - raw: "401,GangSwapMemberLimitTip,无法直接变更帮主！"
   splits:
   - split: 2
     text: "无法直接变更帮主！"
+    translated: "Cannot directly change the Gang Leader!"
 - raw: "402,GangSwapMemberRankPosTip,是否确定交换两人位阶？"
   splits:
   - split: 2
     text: "是否确定交换两人位阶？"
+    translated: "Are you sure you want to swap their ranks?"
 - raw: "403,GangSwapMemberToSixRankTip,{0}被列入候补{1}，将无法参与帮派战争"
   splits:
   - split: 2
     text: "被列入候补"
+    translated: "Listed as an alternate candidate"
   - split: 2
     subIndex: 1
     text: "，将无法参与帮派战争"
+    translated: ", Will be unable to participate in gang wars"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2070,14 +2497,17 @@
   splits:
   - split: 2
     text: "创立帮派"
+    translated: "Found a gang"
 - raw: "405,GangDissolve,解散帮派"
   splits:
   - split: 2
     text: "解散帮派"
+    translated: "Disband the gang"
 - raw: "406,GangDissolveConfirmTip,解散后各驻地将被荒废，是否确定解散{0}？"
   splits:
   - split: 2
     text: "解散后各驻地将被荒废，是否确定解散"
+    translated: "Disbanding will leave the outposts abandoned. Are you sure you want to disband?"
   templates:
   - split: 2
     template: "{0}⟦0⟧？"
@@ -2085,6 +2515,7 @@
   splits:
   - split: 2
     text: "已解散"
+    translated: "Has been disbanded"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2092,6 +2523,7 @@
   splits:
   - split: 2
     text: "境界"
+    translated: "Realm"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -2099,6 +2531,7 @@
   splits:
   - split: 2
     text: "俸禄"
+    translated: "Salary"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -2106,6 +2539,7 @@
   splits:
   - split: 2
     text: "好感"
+    translated: "Affinity"
   templates:
   - split: 2
     template: "{0}：               ⟦0⟧"
@@ -2113,6 +2547,7 @@
   splits:
   - split: 2
     text: "正被派遣出征中"
+    translated: "Is being dispatched for battle"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2120,9 +2555,11 @@
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "交换位阶，将失去帮主权力，是否确定"
+    translated: "Exchange ranks and lose Gang Leader privileges? Are you sure?"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}?"
@@ -2130,9 +2567,11 @@
   splits:
   - split: 2
     text: "成为了"
+    translated: "Became"
   - split: 2
     subIndex: 1
     text: "的新帮主"
+    translated: "New Gang Leader"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2140,10 +2579,12 @@
   splits:
   - split: 2
     text: "确认开除该成员？"
+    translated: "Confirm the expulsion of this member?"
 - raw: "415,GangExpelMemberTip,{0}已被逐出帮派"
   splits:
   - split: 2
     text: "已被逐出帮派"
+    translated: "Has been expelled from the Gang"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2151,6 +2592,7 @@
   splits:
   - split: 2
     text: "已被逐出帮派"
+    translated: "Has been expelled from the Gang"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -2158,9 +2600,11 @@
   splits:
   - split: 2
     text: "对"
+    translated: "Yes"
   - split: 2
     subIndex: 1
     text: "下达了追杀令"
+    translated: "Issued the order to hunt them down"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2168,9 +2612,11 @@
   splits:
   - split: 2
     text: "撤销了对"
+    translated: "Cancelled the action on"
   - split: 2
     subIndex: 1
     text: "的追杀令"
+    translated: "Wanted notice"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2178,17 +2624,21 @@
   splits:
   - split: 2
     text: "已对该成员下达了追杀令"
+    translated: "A hunt order has been issued for this member."
 - raw: "420,GangChaseMemberNpcMsgTitle,帮派追杀令"
   splits:
   - split: 2
     text: "帮派追杀令"
+    translated: "Gang Hunt Order"
 - raw: "421,GangChaseMemberNpcMsgContent,{0}的追杀令执行完毕，{1}已成功击杀了{2}。"
   splits:
   - split: 2
     text: "的追杀令执行完毕，"
+    translated: "The warrant for the manhunt has been carried out."
   - split: 2
     subIndex: 1
     text: "已成功击杀了"
+    translated: "Successfully killed"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}⟦2⟧。"
@@ -2196,9 +2646,11 @@
   splits:
   - split: 2
     text: "已对"
+    translated: "Has been processed"
   - split: 2
     subIndex: 1
     text: "下达追杀令"
+    translated: "Issue the order to hunt them down"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2206,9 +2658,11 @@
   splits:
   - split: 2
     text: "已撤销对"
+    translated: "Revoked for"
   - split: 2
     subIndex: 1
     text: "的追杀令"
+    translated: "Wanted notice"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2216,9 +2670,11 @@
   splits:
   - split: 2
     text: "已将"
+    translated: "Has been translated"
   - split: 2
     subIndex: 1
     text: "押入帮派大牢囚禁"
+    translated: "Imprisoned in the Gang's main jail"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2226,6 +2682,7 @@
   splits:
   - split: 2
     text: "拒捕并成功逃脱，帮派已将其开除并下达追杀令"
+    translated: "Refused capture and successfully escaped; the gang has expelled them and issued a death warrant."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2233,13 +2690,16 @@
   splits:
   - split: 2
     text: "该成员囚禁于帮派大牢"
+    translated: "The member is imprisoned in the Gang's dungeon."
 - raw: "427,GangReleaseCaptivityMemberTip,已将{0}从帮派大牢中释放"
   splits:
   - split: 2
     text: "已将"
+    translated: "Has been translated"
   - split: 2
     subIndex: 1
     text: "从帮派大牢中释放"
+    translated: "Released from the Gang's prison"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2247,14 +2707,17 @@
   splits:
   - split: 2
     text: "你并非此帮帮主"
+    translated: "You are not the Gang Leader of this gang."
 - raw: "429,NoMatchGangLvUpCondTip,未满足帮派升级条件"
   splits:
   - split: 2
     text: "未满足帮派升级条件"
+    translated: "Gang level-up conditions not met"
 - raw: "430,GangLvUpReqMemberAttrDesc,{0}个{1}"
   splits:
   - split: 2
     text: "个"
+    translated: "A"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧"
@@ -2262,6 +2725,7 @@
   splits:
   - split: 2
     text: "级"
+    translated: "Level"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2269,18 +2733,22 @@
   splits:
   - split: 2
     text: "帮派等级已达上限"
+    translated: "Gang level has reached the maximum limit"
 - raw: "433,GangLvMaxLimitShortTip,已达上限"
   splits:
   - split: 2
     text: "已达上限"
+    translated: "Already reached the limit"
 - raw: "434,GangLvMaxNoLimitShortTip,未达上限"
   splits:
   - split: 2
     text: "未达上限"
+    translated: "Not reached limit"
 - raw: "435,GangMoneyChangeTip,帮派资金{0}"
   splits:
   - split: 2
     text: "帮派资金"
+    translated: "Gang Funds"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -2288,13 +2756,16 @@
   splits:
   - split: 2
     text: "帮派资金不足"
+    translated: "Insufficient Gang Funds"
 - raw: "437,GangPropertyOwnerDesc,（由{0}提供庇护）"
   splits:
   - split: 2
     text: "（由"
+    translated: "(In"
   - split: 2
     subIndex: 1
     text: "提供庇护）"
+    translated: "Providing shelter)"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2302,10 +2773,12 @@
   splits:
   - split: 2
     text: "商行武师"
+    translated: "Merchant Martial Artist"
 - raw: "439,GangMinePropertyTouchDesc_GangOwn,{0}所拥矿产"
   splits:
   - split: 2
     text: "所拥矿产"
+    translated: "Owned mineral resources"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2313,9 +2786,11 @@
   splits:
   - split: 2
     text: "由于帮派资金不足以支付成员俸禄，"
+    translated: "Due to insufficient gang funds to pay member salaries,"
   - split: 2
     subIndex: 1
     text: "离开了帮派"
+    translated: "Left the gang"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2323,6 +2798,7 @@
   splits:
   - split: 2
     text: "申请加入帮派"
+    translated: "Apply to join a Gang"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2330,6 +2806,7 @@
   splits:
   - split: 2
     text: "境界"
+    translated: "Realm"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -2337,6 +2814,7 @@
   splits:
   - split: 2
     text: "成为"
+    translated: "Become"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧⟦2⟧"
@@ -2344,13 +2822,16 @@
   splits:
   - split: 2
     text: "帮派资金投入，可加快成员招新"
+    translated: "Investing Gang Funds can speed up recruitment of new members."
 - raw: "445,GangRecruitAheadCostDescStr,银两(文)"
   splits:
   - split: 2
     text: "银两"
+    translated: "Silver"
   - split: 2
     subIndex: 1
     text: "文"
+    translated: "Wen"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -2358,13 +2839,16 @@
   splits:
   - split: 2
     text: "投入"
+    translated: "Investment"
 - raw: "447,GangRecruitAheadCostResultStr,预计{0}天后可招募到帮派新成员"
   splits:
   - split: 2
     text: "预计"
+    translated: "Expected"
   - split: 2
     subIndex: 1
     text: "天后可招募到帮派新成员"
+    translated: "The Heavenly Empress can recruit new members for the Gang."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2372,29 +2856,36 @@
   splits:
   - split: 2
     text: "没有合适的帮众人选，无人前来应征"
+    translated: "There were no suitable candidates among the gang members; nobody came forward to apply."
 - raw: "449,GangRecruitFailResultStr_LowMoney,帮派资金无法再支付得起帮众俸禄"
   splits:
   - split: 2
     text: "帮派资金无法再支付得起帮众俸禄"
+    translated: "The Gang Funds can no longer afford the Salary for Gang Members."
 - raw: "450,GangRecruitFailResultStr_MemberLimit,帮众人数已达当前等级上限"
   splits:
   - split: 2
     text: "帮众人数已达当前等级上限"
+    translated: "The number of gang members has reached the current level cap."
 - raw: "451,GangRecruitFailResultStr_SalaryLimit,没有能支付得起其俸禄的帮众人选"
   splits:
   - split: 2
     text: "没有能支付得起其俸禄的帮众人选"
+    translated: "There are no gang members who can afford their salary."
 - raw: "452,GangInvitNpcJoinLipsName,邀请加入帮派"
   splits:
   - split: 2
     text: "邀请加入帮派"
+    translated: "Invite to join the Gang"
 - raw: "453,GangInvitNpcJoinSuccDialog,我早听闻{0}在江湖上行侠仗义，声名远扬。今日承蒙另眼，定当追随帮主，在这江湖之中闯出一番更大的名堂！往后但有差遣，在下赴汤蹈火，绝无二话！"
   splits:
   - split: 2
     text: "我早听闻"
+    translated: "I had heard long ago"
   - split: 2
     subIndex: 1
     text: "在江湖上行侠仗义，声名远扬。今日承蒙另眼，定当追随帮主，在这江湖之中闯出一番更大的名堂！往后但有差遣，在下赴汤蹈火，绝无二话！"
+    translated: "Traveling the Jianghu doing righteous deeds, my reputation has spread far and wide. Today, honored by your regard, I shall surely follow the Gang Leader and carve out an even greater name for myself in this world of martial arts! From now on, whenever you need me, I will face any challenge without hesitation!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2402,9 +2893,11 @@
   splits:
   - split: 2
     text: "帮主，承蒙抬爱，邀我加入"
+    translated: "Gang Leader, honored by your kindness, you invited me to join."
   - split: 2
     subIndex: 1
     text: "。只是在下闯荡江湖习惯无拘无束，恕在下难以从命……你我关系尚浅，来日方长，日后若有机会，再论共行侠义之事。"
+    translated: "Just that I am used to roaming the Jianghu without constraints; I fear I cannot comply... Our relationship is still shallow. There is plenty of time. If there is an opportunity in the future, we can discuss traveling the path of chivalry together."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2412,9 +2905,11 @@
   splits:
   - split: 2
     text: "帮主，承蒙抬爱，只是……以"
+    translated: "Gang Leader, honored by your kindness, but..."
   - split: 2
     subIndex: 1
     text: "目前的实力，在这江湖难有作为，加入贵帮恐怕难以实现我的抱负，只能辜负帮主的美意了。"
+    translated: "With my current strength, it's hard to make a mark in Jianghu. Joining your sect probably cannot achieve my ambition, can only disappoint Gang Leader's kindness."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2422,9 +2917,11 @@
   splits:
   - split: 2
     text: "帮主，承蒙抬爱，实不相瞒，早时我已加入"
+    translated: "Gang Leader, I am honored by your kindness. To be frank, I have already joined earlier."
   - split: 2
     subIndex: 1
     text: "。他们待我不薄，我既已投身其中，自当坚守忠义。且你我关系尚浅，实在抱歉，暂时无法答应你的邀请。"
+    translated: "They have treated me well, and now that I am part of it, I must uphold loyalty and righteousness. Moreover, our relationship is still shallow, and I am truly sorry, but I cannot accept your invitation for now."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2432,9 +2929,11 @@
   splits:
   - split: 2
     text: "帮主，承蒙抬爱，我目前已加入"
+    translated: "Gang Leader, I am honored, and I have now joined."
   - split: 2
     subIndex: 1
     text: "但我也一直在等待一个能与我理想相契合，且实力更雄厚的契机，倘若今后贵帮实力壮大起来了，或许我会好好考虑下加入贵帮。"
+    translated: "But I have also been waiting for an opportunity that aligns with my ideals and has even greater strength. If your faction grows stronger in the future, perhaps I will seriously consider joining you."
   templates:
   - split: 2
     template: "{0}⟦0⟧,{1}"
@@ -2442,12 +2941,15 @@
   splits:
   - split: 2
     text: "承蒙贵帮青眼，邀我加入"
+    translated: "Thanks to your faction's favor, I was invited to join."
   - split: 2
     subIndex: 1
     text: "。但我身为"
+    translated: "But as I am"
   - split: 2
     subIndex: 2
     text: "帮主，自接手帮派那日起，便肩负着兄弟们的信任与期望。多年来，我们同甘共苦，在这江湖上闯出了一片天地。若我此时加入贵帮，不仅是对兄弟的背叛，更有负这一方追随的情义。"
+    translated: "Leader, since taking over the Gang, I have borne the trust and expectations of my brothers. Over the years, we have shared both hardships and joys, carving out a place for ourselves in Jianghu. If I join your gang now, it would not only betray my brothers but also fail the loyalty and feelings of those who have followed us."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧{2}"
@@ -2455,13 +2957,16 @@
   splits:
   - split: 2
     text: "夺取帮派所有权。"
+    translated: "Seize control of the Gang"
 - raw: "460,GangPropertyAttckDialog_Shop_HasGang,阁下可知这是谁的店？这可是{0}的地盘！得罪我们，整个江湖都没你的容身之地！趁现在滚，还来得及！"
   splits:
   - split: 2
     text: "阁下可知这是谁的店？这可是"
+    translated: "Do you know whose shop this is? This is..."
   - split: 2
     subIndex: 1
     text: "的地盘！得罪我们，整个江湖都没你的容身之地！趁现在滚，还来得及！"
+    translated: "Our territory! If you offend us, there will be no place in the Jianghu for you! Scram now while you still can!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2469,29 +2974,36 @@
   splits:
   - split: 2
     text: "本店武师可不是好惹的，现在跪地求饶，或许还能留你一条小命。"
+    translated: "Our martial artist isn't someone to mess with. If you beg for mercy now, I might spare your life."
 - raw: "462,GangPropertyAttckResultDialog_Win,这次被你得逞，但江湖路远，咱们迟早会再碰面。你夺了我们的产业，这笔账，我一定会讨回来。"
   splits:
   - split: 2
     text: "这次被你得逞，但江湖路远，咱们迟早会再碰面。你夺了我们的产业，这笔账，我一定会讨回来。"
+    translated: "This time you got the upper hand, but the Jianghu road is long. We'll meet again sooner or later. You took our property, and I will definitely settle this account."
 - raw: "463,GangPropertyAttckResultDialog_Lose,我当是哪路英雄好汉，敢来我这撒野！原来是徒有虚名的草包。就凭你，也想吞并我的商行？"
   splits:
   - split: 2
     text: "我当是哪路英雄好汉，敢来我这撒野！原来是徒有虚名的草包。就凭你，也想吞并我的商行？"
+    translated: "I thought some hero or rogue would dare to come here and cause trouble! So it's just a pretentious fool. Do you really think you can take over my trading post with your abilities?"
 - raw: "464,GangPropertyAttckResultDialog_Win_TouchNpc,帮主威名，如雷贯耳！之前多有得罪，还望您大人有大量，在您的英明领导下，我商行定能如虎添翼，蓬勃发展。往后，商行定对您唯命是从，不敢有半分懈怠。"
   splits:
   - split: 2
     text: "帮主威名，如雷贯耳！之前多有得罪，还望您大人有大量，在您的英明领导下，我商行定能如虎添翼，蓬勃发展。往后，商行定对您唯命是从，不敢有半分懈怠。"
+    translated: "Leader, your reputation is thunder in the ear! For any offenses in the past, I hope you will be magnanimous. Under your wise leadership, our trading house will surely flourish and grow with wings like a tiger. In the future, our trading house will follow your commands without hesitation or neglect."
 - raw: "465,GangPropertyAttckResultDialog_Lose_TouchNpc,号称一帮之主，结果连我家一个武师都打不过，真是笑掉大牙。今日之事，要是不给出一个满意的交代，你们帮派休想在这一带立足！赶紧把钱交出来，别浪费我时间。"
   splits:
   - split: 2
     text: "号称一帮之主，结果连我家一个武师都打不过，真是笑掉大牙。今日之事，要是不给出一个满意的交代，你们帮派休想在这一带立足！赶紧把钱交出来，别浪费我时间。"
+    translated: "Claiming to be the head of a gang, yet unable to even beat one of my family's martial artists-what a joke. If you don't give me a satisfactory explanation today, your gang won't stand a chance in this area! Hand over the money now and don't waste my time."
 - raw: "466,GangRelationChangeLips,与{0}的关系{1}"
   splits:
   - split: 2
     text: "与"
+    translated: "With"
   - split: 2
     subIndex: 1
     text: "的关系"
+    translated: "Of relation"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧"
@@ -2499,9 +3011,11 @@
   splits:
   - split: 2
     text: "你最近已经发起了一次帮派战争，需要"
+    translated: "You recently initiated a gang war and need to"
   - split: 2
     subIndex: 1
     text: "天整备方可再次发起战争。"
+    translated: "Only by preparing for a full day can war be initiated again."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2509,9 +3023,11 @@
   splits:
   - split: 2
     text: "成功获得"
+    translated: "Successfully obtained"
   - split: 2
     subIndex: 1
     text: "的帮派所有权。"
+    translated: "Of your Gang's ownership"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2519,9 +3035,11 @@
   splits:
   - split: 2
     text: "丢失"
+    translated: "Lost"
   - split: 2
     subIndex: 1
     text: "的帮派所有权。"
+    translated: "Of your Gang's ownership"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2529,9 +3047,11 @@
   splits:
   - split: 2
     text: "占领"
+    translated: "Occupation"
   - split: 2
     subIndex: 1
     text: "的"
+    translated: "Of"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧。"
@@ -2539,6 +3059,7 @@
   splits:
   - split: 2
     text: "进攻我方"
+    translated: "Attack us!"
   templates:
   - split: 2
     template: "⟦0⟧ {0}:⟦1⟧。"
@@ -2546,9 +3067,11 @@
   splits:
   - split: 2
     text: "此产业预计"
+    translated: "This property is expected to"
   - split: 2
     subIndex: 1
     text: "天后被攻陷，点击可派遣帮会成员御敌，时限内帮主可前往产业所在地，亲自迎战。"
+    translated: "The Heavenly City has been breached. Click to dispatch guild members to repel the attack. Within the time limit, the Gang Leader can travel to the location of the Property and face the enemy in person."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2556,9 +3079,11 @@
   splits:
   - split: 2
     text: "此产业预计"
+    translated: "This property is expected to"
   - split: 2
     subIndex: 1
     text: "天后被攻陷，时限内帮主可前往产业所在地，亲自迎战。"
+    translated: "After the Heavenly City falls, within the time limit, the Gang Leader may go to the location of their property to face the enemy personally."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2566,10 +3091,12 @@
   splits:
   - split: 2
     text: "已没有可对外派遣的帮派成员了。"
+    translated: "There are no more gang members available to dispatch."
 - raw: "475,GangAttackAgentViewTip_AttackTime,{0}天后将沦陷"
   splits:
   - split: 2
     text: "天后将沦陷"
+    translated: "Heavenly Queen will fall"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2577,6 +3104,7 @@
   splits:
   - split: 2
     text: "天后结束战斗"
+    translated: "End of battle"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2584,13 +3112,16 @@
   splits:
   - split: 2
     text: "我等即将拿下此地的帮派所有权了！"
+    translated: "We are about to take ownership of this place's Gang!"
 - raw: "478,GangGoOutBattleMemberDialog_dest,\"我等定会击退对方,帮主请放心。\""
   splits:
   - split: 2
     text: "我等定会击退对方"
+    translated: "We will surely repel them"
   - split: 2
     subIndex: 1
     text: "帮主请放心。"
+    translated: "Sect Leader, please rest assured"
   templates:
   - split: 2
     template: "{0},{1}"
@@ -2598,16 +3129,20 @@
   splits:
   - split: 2
     text: "亲自应战"
+    translated: "Accept the challenge personally"
 - raw: "480,GangAttckAgentBattleResultDialog_Win,\"此次是我等轻敌,江湖路远,咱们迟早会再碰面。\""
   splits:
   - split: 2
     text: "此次是我等轻敌"
+    translated: "This was due to our underestimating them"
   - split: 2
     subIndex: 1
     text: "江湖路远"
+    translated: "Jianghu Road is long"
   - split: 2
     subIndex: 2
     text: "咱们迟早会再碰面。"
+    translated: "We'll meet again someday"
   templates:
   - split: 2
     template: "{0},{1},{2}"
@@ -2615,12 +3150,15 @@
   splits:
   - split: 2
     text: "贵帮帮主也不过如此"
+    translated: "Your Gang Leader is no better"
   - split: 2
     subIndex: 1
     text: "那就得罪了"
+    translated: "Then I'll have to offend you"
   - split: 2
     subIndex: 2
     text: "此地以后归我帮所有！"
+    translated: "This place will belong to our gang from now on!"
   templates:
   - split: 2
     template: "{0},{1},{2}"
@@ -2628,16 +3166,20 @@
   splits:
   - split: 2
     text: "帮派产业争夺。"
+    translated: "Gang property dispute"
 - raw: "483,GangAttckAgentBattleResultMsgContent_Win,我方产业{0}的帮派归属权已被{1}夺去。"
   splits:
   - split: 2
     text: "我方产业"
+    translated: "Our property"
   - split: 2
     subIndex: 1
     text: "的帮派归属权已被"
+    translated: "Your gang affiliation has been transferred to"
   - split: 2
     subIndex: 2
     text: "夺去。"
+    translated: "Take away"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧{2}"
@@ -2645,15 +3187,19 @@
   splits:
   - split: 2
     text: "我方抵挡住"
+    translated: "We held our ground"
   - split: 2
     subIndex: 1
     text: "的进攻"
+    translated: "Of the attack"
   - split: 2
     subIndex: 2
     text: "守住产业"
+    translated: "Protect the property"
   - split: 2
     subIndex: 3
     text: "的帮派归属权。"
+    translated: "Of their Gang's affiliation rights"
   templates:
   - split: 2
     template: "{0}⟦1⟧{1},{2}⟦0⟧{3}"
@@ -2661,19 +3207,24 @@
   splits:
   - split: 2
     text: "凭你这点人马也敢来犯！不过是以卵击石罢了，我帮经营多年，高手如云，我劝你趁早退兵，否则定让你有来无回！"
+    translated: "With your meager forces, you dare to attack?! You're just asking for a broken egg against a rock. Our sect has been thriving for years with many skilled experts. I advise you to withdraw your troops early; otherwise, you'll surely find no way out!"
 - raw: "486,GangGroupBattleAidTeamDialog,所谓唇亡齿寒，如今{0}帮太过强盛，{1}前来助{2}，大家同心协力，共御强敌！"
   splits:
   - split: 2
     text: "所谓唇亡齿寒，如今"
+    translated: "As the saying goes, when lips are gone teeth feel the cold, and now"
   - split: 2
     subIndex: 1
     text: "帮太过强盛，"
+    translated: "Bang helps too much, it's too strong"
   - split: 2
     subIndex: 2
     text: "前来助"
+    translated: "Come to help"
   - split: 2
     subIndex: 3
     text: "，大家同心协力，共御强敌！"
+    translated: ", Work together and stand united against the powerful enemy!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧{2}⟦2⟧{3}"
@@ -2681,17 +3232,21 @@
   splits:
   - split: 2
     text: "战胜"
+    translated: "Defeat"
 - raw: "488,GangGroupBattleEndDialog_Lose_Kill,江湖之中，犯吾帮者，未有善终。汝狂悖无知，妄图犯我天威。今杀汝，乃为正江湖纲纪，使诸贼闻风丧胆，不敢再犯吾帮之毫厘！"
   splits:
   - split: 2
     text: "江湖之中，犯吾帮者，未有善终。汝狂悖无知，妄图犯我天威。今杀汝，乃为正江湖纲纪，使诸贼闻风丧胆，不敢再犯吾帮之毫厘！"
+    translated: "In the Jianghu, those who defy our clan meet no good end. You are reckless and ignorant, daring to challenge my authority. Slaying you now serves to uphold justice in the Jianghu, to strike fear into the hearts of all villains, so none dare infringe upon our territory again!"
 - raw: "489,GangGroupBattleEndDialog_Lose_Letgo,念汝亦非大奸大恶，本帮主今日特赦汝命。然{0}恶贯满盈，为祸江湖，此帮必当覆灭，以靖四海！"
   splits:
   - split: 2
     text: "念汝亦非大奸大恶，本帮主今日特赦汝命。然"
+    translated: "Considering you are not a great villain, our Gang Leader spares your life today. However,"
   - split: 2
     subIndex: 1
     text: "恶贯满盈，为祸江湖，此帮必当覆灭，以靖四海！"
+    translated: "Evil deeds piled high, causing chaos in Jianghu, this gang must be destroyed to pacify the four seas!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2699,30 +3254,37 @@
   splits:
   - split: 2
     text: "帮主果然英勇，此番领军来攻，调度有方，我等拼死抵抗，却仍难以招架。今我心服口服，这处驻地归帮主，实至名归。望帮主今后宽宏大量，莫再穷追猛打，容我等在这江湖一隅安身立命。"
+    translated: "The Gang Leader is indeed brave; leading the charge this time, he coordinated well. We fought to our last breath but could not withstand the assault. Now I am convinced and accept that this outpost rightfully belongs to the Gang Leader. I hope that in the future, you will be magnanimous and not pursue us relentlessly, allowing us to find a place to live in this corner of Jianghu."
 - raw: "491,GangGroupBattleEndDialog_Win_MainGang,想我纵横江湖半生，历经无数风雨，却没料到会败在你手里。"
   splits:
   - split: 2
     text: "想我纵横江湖半生，历经无数风雨，却没料到会败在你手里。"
+    translated: "After half a lifetime roaming the Jianghu, enduring countless storms, I never expected to be defeated by you."
 - raw: "492,GangGroupBattleEndDialog_Win_MainGang_Merge,自踏入江湖，我便知有此一劫，只叹时运不济，无力回天，此次战败，实乃我一时疏忽。我帮大势已去，只可惜了这帮兄弟，皆是热血汉子，望你能好生对待。"
   splits:
   - split: 2
     text: "自踏入江湖，我便知有此一劫，只叹时运不济，无力回天，此次战败，实乃我一时疏忽。我帮大势已去，只可惜了这帮兄弟，皆是热血汉子，望你能好生对待。"
+    translated: "Since stepping into Jianghu, I knew such a calamity would come. Alas, my fate is against me, and there's nothing I can do to change it. This defeat is due to my own momentary negligence. My faction's fortunes have already waned; it's a pity for these fellow brothers, all of them passionate men. I hope you will treat them well."
 - raw: "493,GangGroupBattleEndDialog_Win_MainGang_Dependcy_Agree,帮主高瞻远瞩，威名远扬。我帮经此一役，元气大伤，归附贵帮实乃幸事。往后我等定按时纳贡，全力协助帮主拓展霸业，与贵帮携手，共创江湖辉煌。"
   splits:
   - split: 2
     text: "帮主高瞻远瞩，威名远扬。我帮经此一役，元气大伤，归附贵帮实乃幸事。往后我等定按时纳贡，全力协助帮主拓展霸业，与贵帮携手，共创江湖辉煌。"
+    translated: "The Gang Leader has a far-reaching vision and a renowned reputation. Our gang has been severely weakened by this battle, so joining your gang is indeed fortunate for us. From now on, we will pay tribute on time and work wholeheartedly to assist the Gang Leader in expanding our dominance. Together with your gang, we will create glory in Jianghu."
 - raw: "494,GangGroupBattleEndDialog_Win_MainGang_Dependcy_Refuse,帮主威德，震慑江湖，吾虽不才，却难屈膝称臣。然吾帮兄弟，皆忠义良善之辈，为谋生计，随吾闯荡江湖，恳请帮主怜其赤诚，收纳麾下，使彼等有安身立命之所，吾纵捐躯，亦含笑九泉。"
   splits:
   - split: 2
     text: "帮主威德，震慑江湖，吾虽不才，却难屈膝称臣。然吾帮兄弟，皆忠义良善之辈，为谋生计，随吾闯荡江湖，恳请帮主怜其赤诚，收纳麾下，使彼等有安身立命之所，吾纵捐躯，亦含笑九泉。"
+    translated: "Master Wei De, your might commands respect throughout Jianghu. Though I am not worthy, I cannot bend the knee to serve you. Yet my brothers are all loyal and righteous men who follow me to earn a living in Jianghu. I humbly beseech you to take pity on their sincerity and accept them under your banner, giving them a place to stand and live. Even if I should sacrifice myself, I will smile in the afterlife."
 - raw: "495,GangGroupBattleEndDialog_Win_MainGang_Header,手下败将，任凭处置。"
   splits:
   - split: 2
     text: "手下败将，任凭处置。"
+    translated: "Defeated opponent, at your mercy"
 - raw: "496,GangGroupBattleEndWinLips_Merge,吞并{0}"
   splits:
   - split: 2
     text: "吞并"
+    translated: "Annexing"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -2730,6 +3292,7 @@
   splits:
   - split: 2
     text: "处置帮主"
+    translated: "Deal with the Gang Leader"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -2737,9 +3300,11 @@
   splits:
   - split: 2
     text: "吞并"
+    translated: "Annexing"
   - split: 2
     subIndex: 1
     text: "所有地盘和产业，并将其成员纳入纳入麾下"
+    translated: "All territories and property, and bring their members under your command"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2747,9 +3312,11 @@
   splits:
   - split: 2
     text: "要"
+    translated: "To want to"
   - split: 2
     subIndex: 1
     text: "作为附属，对我帮称臣纳贡"
+    translated: "As a vassal, pay tribute to my faction."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2757,22 +3324,27 @@
   splits:
   - split: 2
     text: "成为对方的宗主帮"
+    translated: "Become the Sect Leader's helper for them"
 - raw: "501,GangGroupBattleEndGangHearLips_Kill,斩草除根"
   splits:
   - split: 2
     text: "斩草除根"
+    translated: "Eliminate the root to prevent regrowth"
 - raw: "502,GangGroupBattleEndGangHearLips_Release,流放"
   splits:
   - split: 2
     text: "流放"
+    translated: "Exile"
 - raw: "503,GangGroupBattleEndGangHearLips_Capture,关押到帮会地牢"
   splits:
   - split: 2
     text: "关押到帮会地牢"
+    translated: "Imprisoned in the guild dungeon"
 - raw: "504,GangGroupMergeTip,{0}吞并了{1}"
   splits:
   - split: 2
     text: "吞并了"
+    translated: "Conquered"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧"
@@ -2780,6 +3352,7 @@
   splits:
   - split: 2
     text: "臣服于"
+    translated: "Submit to"
   templates:
   - split: 2
     template: "⟦1⟧{0}⟦0⟧"
@@ -2787,6 +3360,7 @@
   splits:
   - split: 2
     text: "已隐匿于江湖"
+    translated: "Has hidden themselves in the Jianghu"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -2794,14 +3368,17 @@
   splits:
   - split: 2
     text: "打工。"
+    translated: "Working"
 - raw: "508,GangShopWorkLips_Partner,同伴打工。"
   splits:
   - split: 2
     text: "同伴打工。"
+    translated: "Working part-time"
 - raw: "509,GangShopWorkLips_PartnerSet,派出{0}"
   splits:
   - split: 2
     text: "派出"
+    translated: "Dispatched"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -2809,6 +3386,7 @@
   splits:
   - split: 2
     text: "召回"
+    translated: "Recall"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -2816,6 +3394,7 @@
   splits:
   - split: 2
     text: "把钱都拿出来"
+    translated: "Put all the money out"
   templates:
   - split: 2
     template: "{0}(⟦0⟧)。"
@@ -2823,21 +3402,26 @@
   splits:
   - split: 2
     text: "抢劫"
+    translated: "Robbery"
 - raw: "513,GangShopRobDialog_NoGang,帮主恕罪！小的有眼无珠，不识尊颜，但求帮主海量，饶过商行。今愿将近日所得，悉数献上，孝敬帮主。"
   splits:
   - split: 2
     text: "帮主恕罪！小的有眼无珠，不识尊颜，但求帮主海量，饶过商行。今愿将近日所得，悉数献上，孝敬帮主。"
+    translated: "Gang Leader, forgive me! I am blind to your presence, but I beg for your mercy and spare the trading house. Today, I offer all my recent earnings as a tribute to you."
 - raw: "514,GangShopRobDialog_NoGang_NoMoney,帮主在上，小的已然绝境，实在无力供奉，恳望帮主大发恻隐，饶过这商行，留我全家性命。"
   splits:
   - split: 2
     text: "帮主在上，小的已然绝境，实在无力供奉，恳望帮主大发恻隐，饶过这商行，留我全家性命。"
+    translated: "Leader above, I am already in a desperate situation and unable to make offerings. I implore you to show mercy and spare this trading house, saving my family's lives."
 - raw: "515,GangShopRobDialog_HasGang,此乃{0}的地盘！趁现在滚，还来得及！"
   splits:
   - split: 2
     text: "此乃"
+    translated: "This is"
   - split: 2
     subIndex: 1
     text: "的地盘！趁现在滚，还来得及！"
+    translated: "Get out of my territory! Roll over now while you still can!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2845,33 +3429,41 @@
   splits:
   - split: 2
     text: "某甘拜下风……既如此，在下无话可说，只求高抬贵手放过我等一次……"
+    translated: "Somebody concedes defeat... Since that's the case, I have nothing to say, and only ask for your leniency and spare us this once......"
 - raw: "517,GangShopRobBattleDialog_Lose,狂悖之徒，作恶多端，今日终落吾手！吾已雇武师擒汝，即刻押赴官府。狱中暗无天日，恰是汝反思罪孽之所，定要汝饱受牢狱之苦，方解吾恨！"
   splits:
   - split: 2
     text: "狂悖之徒，作恶多端，今日终落吾手！吾已雇武师擒汝，即刻押赴官府。狱中暗无天日，恰是汝反思罪孽之所，定要汝饱受牢狱之苦，方解吾恨！"
+    translated: "Wicked scoundrel, you have committed many evils; today you finally fall into my hands! I have already hired martial artists to capture you, and you will be immediately taken to the authorities. The prison is dark and gloomy, the perfect place for you to reflect on your sins. You will surely suffer in Prison, satisfying my hatred!"
 - raw: "518,GangShopRobImprisonLips,束手就擒"
   splits:
   - split: 2
     text: "束手就擒"
+    translated: "Submit to capture without resistance"
 - raw: "519,GangShopPlayerWorkDialog,既有意来我商行谋事，不妨明言，此处有帮派照拂，运转顺畅。工作时间，短则半日，权当消遣；长至一年，可攒下不菲积蓄。期满结算工钱，侠士不妨一试。"
   splits:
   - split: 2
     text: "既有意来我商行谋事，不妨明言，此处有帮派照拂，运转顺畅。工作时间，短则半日，权当消遣；长至一年，可攒下不菲积蓄。期满结算工钱，侠士不妨一试。"
+    translated: "Since you've come to my trading house with intentions, might as well speak plainly. This place is under the protection of a gang and runs smoothly. Working hours range from half a day for leisure to a full year if you wish to save up some substantial savings. Upon completion, wages are settled. Hero, why don't you give it a try?"
 - raw: "520,GangShopPartnerWorkDialog,贵客临门，承蒙您带来这些人手，实解我商行燃眉之急！往后若需更换人手，提前知会一声便好，工钱每日结算，在下向来公道，您尽可放心。"
   splits:
   - split: 2
     text: "贵客临门，承蒙您带来这些人手，实解我商行燃眉之急！往后若需更换人手，提前知会一声便好，工钱每日结算，在下向来公道，您尽可放心。"
+    translated: "Honored guest, thank you for bringing these workers! It truly relieves my shop of its urgent need. In the future, if you need to replace anyone, just let me know in advance. The wages are settled daily, and I am always fair. You can rest assured."
 - raw: "521,GangShopPartnerWorkDialog_NoPartner,贵客临门！看您器宇不凡特有一事相求，不知阁下能否带来些人手，助我商行运转，以解燃眉之急。"
   splits:
   - split: 2
     text: "贵客临门！看您器宇不凡特有一事相求，不知阁下能否带来些人手，助我商行运转，以解燃眉之急。"
+    translated: "Honored guest, your presence is welcome! Seeing your noble bearing, I have a matter to request of you. Could you bring some assistance to aid my trading house in these pressing times?"
 - raw: "522,GangShopPartnerWorkDialog_Worker,\"在此做工已久，渐入佳境，与众人相处也算融洽,可心中常念与你一同闯荡江湖之事……\""
   splits:
   - split: 2
     text: "在此做工已久，渐入佳境，与众人相处也算融洽"
+    translated: "I have worked here for a long time and am now in my element, getting along well with everyone."
   - split: 2
     subIndex: 1
     text: "可心中常念与你一同闯荡江湖之事……"
+    translated: "But in your heart, you often think of the times you've adventured together in the Jianghu..."
   templates:
   - split: 2
     template: "{0},{1}"
@@ -2879,45 +3471,56 @@
   splits:
   - split: 2
     text: "打半日工"
+    translated: "Work half a day"
 - raw: "524,WorkOneDay,打一日工"
   splits:
   - split: 2
     text: "打一日工"
+    translated: "Work for a day"
 - raw: "525,WorkTwoDay,打两日工"
   splits:
   - split: 2
     text: "打两日工"
+    translated: "Work for two days"
 - raw: "526,WorkFiveDay,打五日工"
   splits:
   - split: 2
     text: "打五日工"
+    translated: "Work for five days"
 - raw: "527,WorkOneMonth,打一月工"
   splits:
   - split: 2
     text: "打一月工"
+    translated: "Work one month"
 - raw: "528,WorkTwoMonth,打两月工"
   splits:
   - split: 2
     text: "打两月工"
+    translated: "Work for two months"
 - raw: "529,WorkHalfYear,打半年工"
   splits:
   - split: 2
     text: "打半年工"
+    translated: "Work for six months"
 - raw: "530,WorkOneYear,打一年工"
   splits:
   - split: 2
     text: "打一年工"
+    translated: "Work for a year"
 - raw: "531,GangShopPlayerWorkResultDialog,君于商行，劳心劳力，功不可没，今付此酬，聊表谢忱。"
   splits:
   - split: 2
     text: "君于商行，劳心劳力，功不可没，今付此酬，聊表谢忱。"
+    translated: "Your efforts in the trading house have not gone unnoticed; this payment is but a small token of our gratitude."
 - raw: "532,GangShopPlayerWorkResultTip,在{0}{1}，获得报酬{2}"
   splits:
   - split: 2
     text: "在"
+    translated: "At"
   - split: 2
     subIndex: 1
     text: "，获得报酬"
+    translated: ", Receive payment"
   templates:
   - split: 2
     template: "{0}⟦0⟧⟦1⟧{1}⟦2⟧"
@@ -2925,9 +3528,11 @@
   splits:
   - split: 2
     text: "开始留在"
+    translated: "Start staying"
   - split: 2
     subIndex: 1
     text: "打工"
+    translated: "Working"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2935,9 +3540,11 @@
   splits:
   - split: 2
     text: "停止在"
+    translated: "Stop"
   - split: 2
     subIndex: 1
     text: "打工并回到队伍"
+    translated: "Work and return to the group"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}"
@@ -2945,6 +3552,7 @@
   splits:
   - split: 2
     text: "伙伴打工入账"
+    translated: "Earnings from part-time jobs by friends"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -2952,13 +3560,16 @@
   splits:
   - split: 2
     text: "（正在打工中）"
+    translated: "(In working)"
 - raw: "537,GangChangeMainStationConfirm,是否确认迁移总舵到该驻地？需花费{0}帮派资金。"
   splits:
   - split: 2
     text: "是否确认迁移总舵到该驻地？需花费"
+    translated: "Are you sure you want to move the main headquarters to this outpost? It will cost [cost]."
   - split: 2
     subIndex: 1
     text: "帮派资金。"
+    translated: "Gang Funds"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2966,21 +3577,26 @@
   splits:
   - split: 2
     text: "帮派资金不足"
+    translated: "Insufficient Gang Funds"
 - raw: "539,GangChangeMainStationTip_alreadyMain,已经是总舵"
   splits:
   - split: 2
     text: "已经是总舵"
+    translated: "It's already the main headquarters"
 - raw: "540,GangChangeMainStationTip,成功完成总舵迁移"
   splits:
   - split: 2
     text: "成功完成总舵迁移"
+    translated: "Successfully completed the relocation of the main headquarters."
 - raw: "542,KillNpcSuccessTips,此人已然毙命，是时候回{0}里复命了……"
   splits:
   - split: 2
     text: "此人已然毙命，是时候回"
+    translated: "This person is already dead; it's time to go back."
   - split: 2
     subIndex: 1
     text: "里复命了……"
+    translated: "Returned with the report......"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2988,9 +3604,11 @@
   splits:
   - split: 2
     text: "切磋过后，此人已然对你心服口服，是时候回"
+    translated: "After the sparring, this person has already been thoroughly convinced by you; it's time to return."
   - split: 2
     subIndex: 1
     text: "里复命了……"
+    translated: "Returned with the report......"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -2998,9 +3616,11 @@
   splits:
   - split: 2
     text: "此人隐秘你已悉数知悉，是时候回"
+    translated: "You now know all the secrets about this person; it's time to return."
   - split: 2
     subIndex: 1
     text: "里复命了……"
+    translated: "Returned with the report......"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3008,9 +3628,11 @@
   splits:
   - split: 2
     text: "一应物事已然筹备妥当，是时候回"
+    translated: "Everything has been prepared; it's time to head back."
   - split: 2
     subIndex: 1
     text: "里复命了……"
+    translated: "Returned with the report......"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3018,9 +3640,11 @@
   splits:
   - split: 2
     text: "已然处理妥当，是时候回"
+    translated: "Already taken care of, it's time to head back."
   - split: 2
     subIndex: 1
     text: "里复命了……"
+    translated: "Returned with the report......"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3028,6 +3652,7 @@
   splits:
   - split: 2
     text: "执事"
+    translated: "Attendant"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3035,6 +3660,7 @@
   splits:
   - split: 2
     text: "总管"
+    translated: "Manager"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3042,6 +3668,7 @@
   splits:
   - split: 2
     text: "师爷"
+    translated: "Elder Tutor"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3049,6 +3676,7 @@
   splits:
   - split: 2
     text: "库房管事"
+    translated: "Warehouse Steward"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3056,6 +3684,7 @@
   splits:
   - split: 2
     text: "护卫"
+    translated: "Guard"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3063,33 +3692,41 @@
   splits:
   - split: 2
     text: "固定"
+    translated: "Fixed"
 - raw: "556,Unfixed,解除固定"
   splits:
   - split: 2
     text: "解除固定"
+    translated: "Release fixed"
 - raw: "557,Lock,锁定"
   splits:
   - split: 2
     text: "锁定"
+    translated: "Lock"
 - raw: "558,Unlock,解锁"
   splits:
   - split: 2
     text: "解锁"
+    translated: "Unlock"
 - raw: "561,AreaPrestige,区域声望"
   splits:
   - split: 2
     text: "区域声望"
+    translated: "Regional Reputation"
 - raw: "562,NotEnough,不足"
   splits:
   - split: 2
     text: "不足"
+    translated: "Insufficiency"
 - raw: "563,AreaPrestigeLv0Tip,当前区域声望为:{0}，无法使用商店服务"
   splits:
   - split: 2
     text: "当前区域声望为"
+    translated: "Current regional reputation:"
   - split: 2
     subIndex: 1
     text: "，无法使用商店服务"
+    translated: ", Unable to use store services"
   templates:
   - split: 2
     template: "{0}:⟦0⟧{1}"
@@ -3097,6 +3734,7 @@
   splits:
   - split: 2
     text: "区域声望要求"
+    translated: "Regional Reputation Requirement"
   templates:
   - split: 2
     template: "{0}:⟦0⟧"
@@ -3104,13 +3742,16 @@
   splits:
   - split: 2
     text: "无购买限制"
+    translated: "No purchase limit"
 - raw: "567,TaskUsderDaoj,此物品仅能在[{0}]地图中使用"
   splits:
   - split: 2
     text: "此物品仅能在"
+    translated: "This item can only be obtained at"
   - split: 2
     subIndex: 1
     text: "地图中使用"
+    translated: "Using the map"
   templates:
   - split: 2
     template: "{0}[⟦0⟧]{1}"
@@ -3118,110 +3759,137 @@
   splits:
   - split: 2
     text: "飞鸽传书"
+    translated: "Carrier Pigeon"
 - raw: "571,AlreadyRead,已读"
   splits:
   - split: 2
     text: "已读"
+    translated: "Read"
 - raw: "572,Unread,未读"
   splits:
   - split: 2
     text: "未读"
+    translated: "Unread"
 - raw: "573,BatchDelete,批量删除"
   splits:
   - split: 2
     text: "批量删除"
+    translated: "Bulk delete"
 - raw: "574,ConfirmDelete,确认删除"
   splits:
   - split: 2
     text: "确认删除"
+    translated: "Confirm deletion"
 - raw: "575,Cancel,取消"
   splits:
   - split: 2
     text: "取消"
+    translated: "Cancel"
 - raw: "576,BatchDeleteTips,确认是否删除所勾选传书？"
   splits:
   - split: 2
     text: "确认是否删除所勾选传书？"
+    translated: "Are you sure you want to delete the selected letter?"
 - raw: "577,Relation,关系"
   splits:
   - split: 2
     text: "关系"
+    translated: "Relationships"
 - raw: "578,Love,好感度"
   splits:
   - split: 2
     text: "好感度"
+    translated: "Favorability"
 - raw: "579,DeleteTips,确认是否删除此条传书？"
   splits:
   - split: 2
     text: "确认是否删除此条传书？"
+    translated: "Are you sure you want to delete this message?"
 - raw: "580,Delete,删除"
   splits:
   - split: 2
     text: "删除"
+    translated: "Delete"
 - raw: "581,GetTask,已领取任务"
   splits:
   - split: 2
     text: "已领取任务"
+    translated: "Task accepted"
 - raw: "582,Got,已领取"
   splits:
   - split: 2
     text: "已领取"
+    translated: "Claimed"
 - raw: "585,EscortAgencyBoss,镖头"
   splits:
   - split: 2
     text: "镖头"
+    translated: "Escort Chief"
 - raw: "586,PlayerRobEscortCartTalk,我是负责押运此趟镖车的镖师"
   splits:
   - split: 2
     text: "我是负责押运此趟镖车的镖师"
+    translated: "I am the escort responsible for this convoy."
 - raw: "587,PlayerRobEscortCartTalkOption0,劫镖"
   splits:
   - split: 2
     text: "劫镖"
+    translated: "Robbery of a convoy"
 - raw: "588,PlayerRobEscortCartTalkOption1,离开"
   splits:
   - split: 2
     text: "离开"
+    translated: "Leave"
 - raw: "589,HandleEscortNpcTalk,生死一念，是否要将诸镖师杀人灭口，以绝后患？"
   splits:
   - split: 2
     text: "生死一念，是否要将诸镖师杀人灭口，以绝后患？"
+    translated: "Life or death, should the security escorts be silenced to eliminate future threats?"
 - raw: "590,HandleEscortNpcTalkOption0,杀人灭口"
   splits:
   - split: 2
     text: "杀人灭口"
+    translated: "Silence the witness by any means necessary"
 - raw: "591,HandleEscortNpcTalkOption1,放其一马"
   splits:
   - split: 2
     text: "放其一马"
+    translated: "Let them off once"
 - raw: "592,AbandonKillEscortNpcTalk,多谢高手饶命"
   splits:
   - split: 2
     text: "多谢高手饶命"
+    translated: "Thank you, expert, for sparing my life"
 - raw: "593,AbandonKillEscortNpcOption0,快滚吧"
   splits:
   - split: 2
     text: "快滚吧"
+    translated: "Scram!"
 - raw: "594,GetEscortTaskTalk,行走江湖，仗艺傍身，何不押护镖车，赚些银两财物？"
   splits:
   - split: 2
     text: "行走江湖，仗艺傍身，何不押护镖车，赚些银两财物？"
+    translated: "Traveling in the Jianghu, relying on one's skills, why not escort a treasure convoy and earn some Silver and valuables?"
 - raw: "595,GetEscortTaskTalkOption0,接受护镖任务"
   splits:
   - split: 2
     text: "接受护镖任务"
+    translated: "Accept the bodyguard mission"
 - raw: "596,GetEscortTaskTalkOption1,离开"
   splits:
   - split: 2
     text: "离开"
+    translated: "Leave"
 - raw: "597,GetEscortTask,已接受护镖任务，开始自动跟随镖车……"
   splits:
   - split: 2
     text: "已接受护镖任务，开始自动跟随镖车……"
+    translated: "Accepted the escort mission; starting to automatically follow the carriage......"
 - raw: "598,GetEscortTaskFailed,{0}处镖路阻塞，可前往一探，或能打通……"
   splits:
   - split: 2
     text: "处镖路阻塞，可前往一探，或能打通……"
+    translated: "The courier route is blocked; you may go to investigate and perhaps clear it......"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3229,14 +3897,17 @@
   splits:
   - split: 2
     text: "镖车路线计算失败，已强制结束护镖任务"
+    translated: "The convoy route calculation failed; the escort mission has been forcibly ended."
 - raw: "600,EscortTaskSuccess,千里押护，运镖成功！"
   splits:
   - split: 2
     text: "千里押护，运镖成功！"
+    translated: "Successful escort over a thousand miles!"
 - raw: "601,NpcRobCartTalk,镖车内物，乃我等所需，若阁下识相的话……早些闪开方是正途！ "
   splits:
   - split: 2
     text: "镖车内物，乃我等所需，若阁下识相的话……早些闪开方是正途！"
+    translated: "The cargo in the escort carriage is what we need. If you know what's good for you......move out of the way now!"
   templates:
   - split: 2
     template: "{0} "
@@ -3244,48 +3915,60 @@
   splits:
   - split: 2
     text: "进入战斗"
+    translated: "Enter battle"
 - raw: "603,HandleRobNpcTalk,技不如人，要杀要剐……悉听尊便！"
   splits:
   - split: 2
     text: "技不如人，要杀要剐……悉听尊便！"
+    translated: "I am inferior in skill; whether you kill or punish me... do as you see fit!"
 - raw: "604,HandleRobNpcTalkOption0,取其性命"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "605,HandleRobNpcTalkOption1,夺取包裹"
   splits:
   - split: 2
     text: "夺取包裹"
+    translated: "Grab the package"
 - raw: "606,HandleRobNpcTalkOption2,暂且离去"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "608,Prestige,声望"
   splits:
   - split: 2
     text: "声望"
+    translated: "Reputation"
 - raw: "609,DisableFlyTips,当前已禁用轻功"
   splits:
   - split: 2
     text: "当前已禁用轻功"
+    translated: "Current lightness skills are disabled"
 - raw: "610,DisableMeditationTips,当前已禁用打坐"
   splits:
   - split: 2
     text: "当前已禁用打坐"
+    translated: "Sitting meditation is currently disabled"
 - raw: "611,DisableSaveArchiveTips,当前已禁用存档"
   splits:
   - split: 2
     text: "当前已禁用存档"
+    translated: "Current save disabled"
 - raw: "614,PlayerImprisonContent,您已被入狱收押，刑期共{0}日{1}时辰……"
   splits:
   - split: 2
     text: "您已被入狱收押，刑期共"
+    translated: "You have been imprisoned for a sentence of"
   - split: 2
     subIndex: 1
     text: "日"
+    translated: "Sun"
   - split: 2
     subIndex: 2
     text: "时辰……"
+    translated: "Time..."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧{2}"
@@ -3293,13 +3976,16 @@
   splits:
   - split: 2
     text: "跳至行刑日"
+    translated: "Jump to Execution Day"
 - raw: "616,PlayerDeathPenaltyContent,罪大恶极，恕无可恕，你被判斩首之刑，{0}日后午时三刻，法场问斩！"
   splits:
   - split: 2
     text: "罪大恶极，恕无可恕，你被判斩首之刑，"
+    translated: "Your crimes are heinous, beyond forgiveness. You have been sentenced to decapitation."
   - split: 2
     subIndex: 1
     text: "日后午时三刻，法场问斩！"
+    translated: "At noon on the third watch of the future date, you will be executed at the execution ground!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3307,21 +3993,26 @@
   splits:
   - split: 2
     text: "你与同伴所有物品已被卸除，置于密室储物箱内，待刑期满时方可返还。"
+    translated: "All of your and your companion's items have been removed and placed in a storage box in the secret room. They will be returned to you once your sentence is complete."
 - raw: "618,CellDoorTalk,阴暗牢房的铁门内，沾染着铁锈与血斑。"
   splits:
   - split: 2
     text: "阴暗牢房的铁门内，沾染着铁锈与血斑。"
+    translated: "Inside the dark cell door, rust and blood stains are evident."
 - raw: "619,CellDoorTalkOption0,呼喊狱卒"
   splits:
   - split: 2
     text: "呼喊狱卒"
+    translated: "Shout for the guard"
 - raw: "620,CallPrisonGuardTips,狱卒{0}听到你的呼喊，正在朝你这里走来"
   splits:
   - split: 2
     text: "狱卒"
+    translated: "Jailkeeper"
   - split: 2
     subIndex: 1
     text: "听到你的呼喊，正在朝你这里走来"
+    translated: "Hearing your call, they are walking over to you."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3329,13 +4020,16 @@
   splits:
   - split: 2
     text: "当前没有狱卒，呼喊失败"
+    translated: "There are no guards around; your shout fails."
 - raw: "622,CellDoorTalkOption1,解锁牢门(需要牢房钥匙)"
   splits:
   - split: 2
     text: "解锁牢门"
+    translated: "Unlock the cell door"
   - split: 2
     subIndex: 1
     text: "需要牢房钥匙"
+    translated: "Need a cell key"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -3343,21 +4037,26 @@
   splits:
   - split: 2
     text: "您已越狱，周遭狱卒已与您进入敌对状态。"
+    translated: "You have escaped, and the guards around you are now hostile toward you."
 - raw: "624,ExitCelFailedTips,狱卒正在前来，此刻勿要轻举妄动…"
   splits:
   - split: 2
     text: "狱卒正在前来，此刻勿要轻举妄动…"
+    translated: "The guard is approaching; do not make any sudden moves..."
 - raw: "625,PrisonGuardTalk,入得此间，俱都警醒着点儿！犯在我等手里，还想有翻身之日么！"
   splits:
   - split: 2
     text: "入得此间，俱都警醒着点儿！犯在我等手里，还想有翻身之日么！"
+    translated: "Enter here, all of you be on your guard! Once caught by us, do you think there's any hope of a comeback?!"
 - raw: "626,PrisonGuardTalkOption0,贿购牢房钥匙(需要{0})"
   splits:
   - split: 2
     text: "贿购牢房钥匙"
+    translated: "Bribe for the cell key"
   - split: 2
     subIndex: 1
     text: "需要"
+    translated: "Needs"
   templates:
   - split: 2
     template: "{0}({1}⟦0⟧)"
@@ -3365,17 +4064,21 @@
   splits:
   - split: 2
     text: "已获取牢房钥匙。"
+    translated: "Obtained the cell key"
 - raw: "628,BuyPrisonKeyTalk,如此..你拿了钥匙，便觅机逃狱去，若有万一，莫将老子供了出来..."
   splits:
   - split: 2
     text: "如此..你拿了钥匙，便觅机逃狱去，若有万一，莫将老子供了出来..."
+    translated: "So... if you take the key, find an opportunity to escape, and if anything goes wrong, don't betray me..."
 - raw: "629,PrisonGuardTalkOption1,购买密室储物箱内的物品(需要{0})"
   splits:
   - split: 2
     text: "购买密室储物箱内的物品"
+    translated: "Buy the items in the secret room storage box."
   - split: 2
     subIndex: 1
     text: "需要"
+    translated: "Needs"
   templates:
   - split: 2
     template: "{0}({1}⟦0⟧)"
@@ -3383,13 +4086,16 @@
   splits:
   - split: 2
     text: "已获得密室储物箱内所有物品。"
+    translated: "All items in the secret room's storage box have been obtained."
 - raw: "631,PrisonGuardTalkOption2,传递消息(贿赂)"
   splits:
   - split: 2
     text: "传递消息"
+    translated: "Deliver the message"
   - split: 2
     subIndex: 1
     text: "贿赂"
+    translated: "Bribery"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -3397,9 +4103,11 @@
   splits:
   - split: 2
     text: "传递消息"
+    translated: "Deliver the message"
   - split: 2
     subIndex: 1
     text: "劫狱"
+    translated: "Rescue from Prison"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -3407,6 +4115,7 @@
   splits:
   - split: 2
     text: "大胆狂徒，竟妄图越狱，若不束手就缚，这便送你去见阎王"
+    translated: "Daredevil, you dare to attempt an escape. If you do not surrender now, I will send you straight to the King of Hell."
   templates:
   - split: 2
     template: "{0}!"
@@ -3414,21 +4123,26 @@
   splits:
   - split: 2
     text: "事已至此，放手一搏！"
+    translated: "Now that it has come to this, let's go all out!"
 - raw: "635,CellDoorOutsideTalk,阴暗牢房的铁门外，沾染着铁锈与血斑。"
   splits:
   - split: 2
     text: "阴暗牢房的铁门外，沾染着铁锈与血斑。"
+    translated: "The iron door of a dark cell is stained with rust and blood spots."
 - raw: "636,CellDoorOutsideTalkOption0,撬解牢门。"
   splits:
   - split: 2
     text: "撬解牢门。"
+    translated: "Unlock the cell door"
 - raw: "637,DestroyCellDoorLockTips,已将{0}成功救出，其已加入同伴队伍。"
   splits:
   - split: 2
     text: "已将"
+    translated: "Has been translated"
   - split: 2
     subIndex: 1
     text: "成功救出，其已加入同伴队伍。"
+    translated: "Successfully rescued, they have joined your party"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3436,41 +4150,51 @@
   splits:
   - split: 2
     text: "暂未开放"
+    translated: "Not available yet"
 - raw: "639,ReleasePlayerContent,刑期已满，重复自由，你与同伴被收之物已返还，入狱同伴已归队。"
   splits:
   - split: 2
     text: "刑期已满，重复自由，你与同伴被收之物已返还，入狱同伴已归队。"
+    translated: "Your sentence has been served, freedom repeats itself; you and your companions have been returned the items that were confiscated, and your imprisoned companion has rejoined the group."
 - raw: "640,LastMealTalk,午时已到，人犯验明，当押至刑场问斩！待阁下吃了这碗断头饭，冤恨两清，且上黄泉路！"
   splits:
   - split: 2
     text: "午时已到，人犯验明，当押至刑场问斩！待阁下吃了这碗断头饭，冤恨两清，且上黄泉路！"
+    translated: "It is noon. The prisoner has been identified and must be escorted to the execution ground for beheading! After you eat this bowl of farewell rice, your grievances will be settled, and you shall take the yellow road to the afterlife!"
 - raw: "641,LastMealOption0,生死而已，如何可怖？且去而已！"
   splits:
   - split: 2
     text: "生死而已，如何可怖？且去而已！"
+    translated: "Life and death are but a matter of course; how can they be terrifying? Just go ahead!"
 - raw: "642,MoveToExecutionGroundTips,正被押往当地法场……"
   splits:
   - split: 2
     text: "正被押往当地法场……"
+    translated: "Is being led to the local execution ground......"
 - raw: "643,BeforeExecutionTalk,犯人已验明正身！此人罪大恶极，按律当诛！午时三刻已到，斩！"
   splits:
   - split: 2
     text: "犯人已验明正身！此人罪大恶极，按律当诛！午时三刻已到，斩！"
+    translated: "The criminal has been identified! This person is guilty of heinous crimes and deserves execution by law! It is now noon, three quarters-Chop! becomes It is now noon, three quarters-Slash!"
 - raw: "644,BeforeExecutionTalkOption0,奋起一搏"
   splits:
   - split: 2
     text: "奋起一搏"
+    translated: "Make a desperate attempt"
 - raw: "645,BeforeExecutionTalkOption1,认命待死"
   splits:
   - split: 2
     text: "认命待死"
+    translated: "Accept one's fate and await death"
 - raw: "646,GiveWeaponToPlayerTips,你已装备{0}，放手一搏！"
   splits:
   - split: 2
     text: "你已装备"
+    translated: "You have equipped"
   - split: 2
     subIndex: 1
     text: "，放手一搏！"
+    translated: ", Go all out!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"
@@ -3478,40 +4202,50 @@
   splits:
   - split: 2
     text: "战斗胜利，逃得升天！"
+    translated: "Victory in battle, escape to heaven!"
 - raw: "648,BeforeExecutionNpcBreakTalk,我来助你！拿上兵刃，我等一起杀出去！"
   splits:
   - split: 2
     text: "我来助你！拿上兵刃，我等一起杀出去！"
+    translated: "I'll help you! Grab your weapons; let's fight our way out together!"
 - raw: "649,BeforeExecutionNpcBreakOption0,接过兵刃！"
   splits:
   - split: 2
     text: "接过兵刃！"
+    translated: "Take up your weapon!"
 - raw: "650,AfterExecutionTalk,你平生知交好友甚少，如今逢此难竟无人相助，寒芒闪烁，你只觉冽风扑面，过往前尘诸事转瞬成空……"
   splits:
   - split: 2
     text: "你平生知交好友甚少，如今逢此难竟无人相助，寒芒闪烁，你只觉冽风扑面，过往前尘诸事转瞬成空……"
+    translated: "You have few confidants in your life, and now in this time of need, no one comes to help. The cold glint of steel flashes before your eyes, and a biting wind assaults your face, leaving all past memories suddenly empty..."
 - raw: "651,AfterExecutionTalkOption0,重新来过"
   splits:
   - split: 2
     text: "重新来过"
+    translated: "Start over"
 - raw: "652,AfterExecutionTalk1,莫要丧志，我们一同杀出去，生死同归！"
   splits:
   - split: 2
     text: "莫要丧志，我们一同杀出去，生死同归！"
+    translated: "Don't lose heart, let's fight our way out together, sharing life and death!"
 - raw: "653,AfterExecutionTalkOption1,接过兵刃！"
   splits:
   - split: 2
     text: "接过兵刃！"
+    translated: "Take up your weapon!"
 - raw: "655,RemainPrisonTerm,剩余关押时间:<color=#CEB44A>{0}</color>日<color=#CEB44A>{1}</color>时辰"
   splits:
   - split: 2
     text: "剩余关押时间"
+    translated: "Remaining detention time"
   - split: 2
     subIndex: 1
     text: "日"
+    translated: "Sun"
   - split: 2
     subIndex: 2
     text: "时辰"
+    translated: "Hour"
   templates:
   - split: 2
     template: "{0}:<color=#CEB44A>⟦0⟧</color>{1}<color=#CEB44A>⟦1⟧</color>{2}"
@@ -3519,20 +4253,25 @@
   splits:
   - split: 2
     text: "一键取出"
+    translated: "One-click retrieve"
 - raw: "658,NpcImprisonPigeonMsgTitle,囹圄求援"
   splits:
   - split: 2
     text: "囹圄求援"
+    translated: "Prison Plea for Help"
 - raw: "659,NpcImprisonPigeonMsgContent,在下事发，被差役抓入{0}，直至{1}方可出狱，若有事相商，可待在下出狱后相会。"
   splits:
   - split: 2
     text: "在下事发，被差役抓入"
+    translated: "I was caught by the constable and brought in."
   - split: 2
     subIndex: 1
     text: "，直至"
+    translated: ", Until"
   - split: 2
     subIndex: 2
     text: "方可出狱，若有事相商，可待在下出狱后相会。"
+    translated: "You may leave prison, but if you have matters to discuss, wait for me outside after I am released."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧{2}"
@@ -3540,16 +4279,20 @@
   splits:
   - split: 2
     text: "囹圄求援"
+    translated: "Prison Plea for Help"
 - raw: "662,NpcExecuteDeathPenaltyPigeonMsgContent,依刑典所判，我恐于{0}午时在{1}法场被斩首示众！特贿赂差役传讯于你，望看在往日情分上速来相救！"
   splits:
   - split: 2
     text: "依刑典所判，我恐于"
+    translated: "According to the penal code, I fear that"
   - split: 2
     subIndex: 1
     text: "午时在"
+    translated: "At noon"
   - split: 2
     subIndex: 2
     text: "法场被斩首示众！特贿赂差役传讯于你，望看在往日情分上速来相救！"
+    translated: "Beheading at the execution ground! I bribed an officer to send word to you. I hope you will come to save me quickly out of our past friendship!"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}⟦1⟧{2}"
@@ -3557,38 +4300,47 @@
   splits:
   - split: 2
     text: "你果真收到讯息！此来可是要救我逃此斩首之刑？"
+    translated: "You really received the message! Have you come to rescue me from this execution?"
 - raw: "665,PlayerBreakExecutionTalkOption0,出手相助，理当如此！"
   splits:
   - split: 2
     text: "出手相助，理当如此！"
+    translated: "Helping out is what one should do!"
 - raw: "666,PlayerBreakExecutionTalkOption1,国法不容……只怕爱莫能助……"
   splits:
   - split: 2
     text: "国法不容……只怕爱莫能助……"
+    translated: "The law will not permit it... I fear I can't help..."
 - raw: "668,PlayerBreakExecutionGiveWeaponTalk,予我把兵刃！你我联手杀出去！"
   splits:
   - split: 2
     text: "予我把兵刃！你我联手杀出去！"
+    translated: "Give me my weapon! Let's fight our way out together!"
 - raw: "669,PlayerBreakExecutionGiveWeaponTalkOption0,正该如此！"
   splits:
   - split: 2
     text: "正该如此！"
+    translated: "That's exactly right!"
 - raw: "670,PlayerBreakExecutionGiveWeaponTalkOption1,手中并无余物，你且空手抵御一二……"
   splits:
   - split: 2
     text: "手中并无余物，你且空手抵御一二……"
+    translated: "You have nothing in hand; defend with empty hands for now......"
 - raw: "671,GiveWeaponToNpcTips,当真好兵刃，你我今日放手一搏！"
   splits:
   - split: 2
     text: "当真好兵刃，你我今日放手一搏！"
+    translated: "A true warrior's weapon, let us fight to the death today!"
 - raw: "672,breakExecutionFailedContent,劫法场失败，触犯国法，被捕入狱……"
   splits:
   - split: 2
     text: "劫法场失败，触犯国法，被捕入狱……"
+    translated: "Failed to disrupt the trial, violated the law, and was arrested..."
 - raw: "674,StoreNpcExitTeamTipsOnImprison,{0}已于入狱前先一步逃脱抓捕"
   splits:
   - split: 2
     text: "已于入狱前先一步逃脱抓捕"
+    translated: "Had escaped capture before being imprisoned"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3596,22 +4348,27 @@
   splits:
   - split: 2
     text: "【捕快】"
+    translated: "【[Marshal]】"
 - raw: "678,ArrestTipWinTitle,缉捕值"
   splits:
   - split: 2
     text: "缉捕值"
+    translated: "Wanted Level"
 - raw: "679,ArrestTipWinDesc,当行凶作恶且周围一定范围内有人发现时可能会向官府举报你，从而增加你的缉捕值，达到一定缉捕值后捕快将会追捕你。"
   splits:
   - split: 2
     text: "当行凶作恶且周围一定范围内有人发现时可能会向官府举报你，从而增加你的缉捕值，达到一定缉捕值后捕快将会追捕你。"
+    translated: "When you commit crimes and are witnessed by someone within a certain range, they may report you to the authorities, increasing your Wanted Level. Once your Wanted Level reaches a certain point, the patrol officers will come after you."
 - raw: "680,ArrestTips,您已被官府海捕通缉，请小心行事。"
   splits:
   - split: 2
     text: "您已被官府海捕通缉，请小心行事。"
+    translated: "You have been widely sought after by the authorities with a warrant. Please be careful with your actions."
 - raw: "681,ExitTeamTipsTxt,{0}离开队伍"
   splits:
   - split: 2
     text: "离开队伍"
+    translated: "Leave the group"
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3619,9 +4376,11 @@
   splits:
   - split: 2
     text: "你之恶行被周遭"
+    translated: "Your wicked deeds have been witnessed by those around you."
   - split: 2
     subIndex: 1
     text: "所窥，已向官府告发，缉捕值"
+    translated: "What was discovered has been reported to the authorities; Wanted Level."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}+⟦1⟧"
@@ -3629,6 +4388,7 @@
   splits:
   - split: 2
     text: "隔墙有耳，你之恶行被周遭行人所窥，已向官府告发，缉捕值"
+    translated: "Walls have ears; your wicked deeds have been witnessed by those around you and reported to the authorities. Your Wanted Level has increased."
   templates:
   - split: 2
     template: "{0}+⟦0⟧"
@@ -3636,6 +4396,7 @@
   splits:
   - split: 2
     text: "缉捕值"
+    translated: "Wanted Level"
   templates:
   - split: 2
     template: "{0}-⟦0⟧"
@@ -3643,78 +4404,97 @@
   splits:
   - split: 2
     text: "月黑风高，你趁夜色行事，周遭无人察觉。"
+    translated: "Under the cover of a dark and windy night, you acted unseen by anyone around."
 - raw: "686,NoAddArrestTipTxt2,你于僻静之处行事，周遭无人察觉。"
   splits:
   - split: 2
     text: "你于僻静之处行事，周遭无人察觉。"
+    translated: "You acted in a secluded spot where no one noticed."
 - raw: "687,ArrestByZeroTipTxt,财可通神，狱能抵罪，现通缉既消，日后行事，恐需慎之又慎"
   splits:
   - split: 2
     text: "财可通神，狱能抵罪，现通缉既消，日后行事，恐需慎之又慎"
+    translated: "Wealth can appease the divine, and prison can atone for sins. Now that the warrant is lifted, one must be even more cautious in future actions."
 - raw: "688,UpdateArrestNumTipTxt,当前缉捕值较低，使用会导致此物品消耗，浪费部分功用，是否确认使用？"
   splits:
   - split: 2
     text: "当前缉捕值较低，使用会导致此物品消耗，浪费部分功用，是否确认使用？"
+    translated: "The current Wanted Level is low; using this item will cause it to be consumed and waste some of its effectiveness. Are you sure you want to use it?"
 - raw: "691,SkinEquipOnUpTips,时装性别不符"
   splits:
   - split: 2
     text: "时装性别不符"
+    translated: "Outfit's gender doesn't match"
 - raw: "694,XiaoHaoSC_1,一"
   splits:
   - split: 2
     text: "一"
+    translated: "\\n"
 - raw: "695,XiaoHaoSC_2,二"
   splits:
   - split: 2
     text: "二"
+    translated: "Two"
 - raw: "696,XiaoHaoSC_3,三"
   splits:
   - split: 2
     text: "三"
+    translated: "Three"
 - raw: "697,XiaoHaoSC_4,四"
   splits:
   - split: 2
     text: "四"
+    translated: "Four"
 - raw: "698,XiaoHaoSC_5,五"
   splits:
   - split: 2
     text: "五"
+    translated: "Five"
 - raw: "699,XiaoHaoSC_6,六"
   splits:
   - split: 2
     text: "六"
+    translated: "Six"
 - raw: "700,XiaoHaoSC_7,七"
   splits:
   - split: 2
     text: "七"
+    translated: "Seven"
 - raw: "701,XiaoHaoSC_8,八"
   splits:
   - split: 2
     text: "八"
+    translated: "Eight"
 - raw: "702,XiaoHaoSC_9,九"
   splits:
   - split: 2
     text: "九"
+    translated: "Nine"
 - raw: "703,XiaoHaoSC_10,十"
   splits:
   - split: 2
     text: "十"
+    translated: "Ten"
 - raw: "704,XiaoHaoSC_11,十一"
   splits:
   - split: 2
     text: "十一"
+    translated: "November"
 - raw: "705,XiaoHaoSC_12,十二"
   splits:
   - split: 2
     text: "十二"
+    translated: "December"
 - raw: "706,XiaoHaoSCX_1,数日后....."
   splits:
   - split: 2
     text: "数日后....."
+    translated: "Several days later....."
 - raw: "707,XiaoHaoSCX_2,{0}时辰后....."
   splits:
   - split: 2
     text: "时辰后....."
+    translated: "Hours later....."
   templates:
   - split: 2
     template: "⟦0⟧{0}"
@@ -3722,14 +4502,17 @@
   splits:
   - split: 2
     text: "一日后....."
+    translated: "One day later....."
 - raw: "709,XiaoHaoSCX_4,两日后....."
   splits:
   - split: 2
     text: "两日后....."
+    translated: "Two days later....."
 - raw: "712,ZZRefreshTipsTxt,目前某个资质为天才，是否要刷新   "
   splits:
   - split: 2
     text: "目前某个资质为天才，是否要刷新"
+    translated: "Currently, the aptitude is a genius. Do you want to refresh it?"
   templates:
   - split: 2
     template: "{0}   "
@@ -3737,6 +4520,7 @@
   splits:
   - split: 2
     text: "所需"
+    translated: "Required"
   templates:
   - split: 2
     template: "{0}⟦0⟧:"
@@ -3744,6 +4528,7 @@
   splits:
   - split: 2
     text: "我的"
+    translated: "I"
   templates:
   - split: 2
     template: "{0}⟦0⟧:"
@@ -3751,14 +4536,17 @@
   splits:
   - split: 2
     text: "限购"
+    translated: "Purchase limit"
 - raw: "718,ShopHelper,商店物品会在指定时辰补货，【限购】商品永远不会补货。"
   splits:
   - split: 2
     text: "商店物品会在指定时辰补货，【限购】商品永远不会补货。"
+    translated: "Store items will restock at designated times; 【Limited Purchase】 items will never restock."
 - raw: "719,Shop_SectCond,需加入门派：{0}"
   splits:
   - split: 2
     text: "需加入门派"
+    translated: "Join a sect"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -3766,27 +4554,33 @@
   splits:
   - split: 2
     text: "未加入本门派无法购买"
+    translated: "Cannot buy without joining this sect"
 - raw: "723,BrothelRoomName,青楼雅阁"
   splits:
   - split: 2
     text: "青楼雅阁"
+    translated: "Pleasure House Private Room"
 - raw: "724,BrothelNpcName,【{0}】"
 - raw: "725,EnterBrothelRoom,欲赴雅阁，需先行前往老鸨处购得凭证"
   splits:
   - split: 2
     text: "欲赴雅阁，需先行前往老鸨处购得凭证"
+    translated: "To go to the Elegant Hall, you need to first purchase a voucher from the madam."
 - raw: "726,BuyEnterBrothelRoom,姑娘正于雅阁静候，且莫于此反复，误了良辰好景"
   splits:
   - split: 2
     text: "姑娘正于雅阁静候，且莫于此反复，误了良辰好景"
+    translated: "Miss is waiting quietly in the study; do not linger here and miss the fine moment."
 - raw: "727,BathTipContentTxt,至此盥洗，擦背拂尘，你感到疲惫之感一扫而空"
   splits:
   - split: 2
     text: "至此盥洗，擦背拂尘，你感到疲惫之感一扫而空"
+    translated: "After washing up and having your back rubbed, you feel all your fatigue vanish."
 - raw: "730,BattleCameraEffect,战斗镜头震动和模糊:"
   splits:
   - split: 2
     text: "战斗镜头震动和模糊"
+    translated: "The battle camera shook and blurred"
   templates:
   - split: 2
     template: "{0}:"
@@ -3794,10 +4588,12 @@
   splits:
   - split: 2
     text: "此按键无法设置为快捷按键"
+    translated: "This button cannot be set as a quick access key."
 - raw: "732,UnsupportedInputKeycode_Keypad,暂未支持将小键盘设置为快捷按键:{0}"
   splits:
   - split: 2
     text: "暂未支持将小键盘设置为快捷按键"
+    translated: "Keyboard shortcut settings for the numpad are not yet supported."
   templates:
   - split: 2
     template: "{0}:⟦0⟧"
@@ -3805,61 +4601,77 @@
   splits:
   - split: 2
     text: "无法将快捷键设置为方向键"
+    translated: "Unable to set the shortcut key to the arrow keys."
 - raw: "736,NextStep,下一步"
   splits:
   - split: 2
     text: "下一步"
+    translated: "Next step"
 - raw: "737,NotInstalled,此功能未实装"
   splits:
   - split: 2
     text: "此功能未实装"
+    translated: "This feature is not implemented"
 - raw: "738,SelectGameLv,选择难度"
   splits:
   - split: 2
     text: "选择难度"
+    translated: "Choose difficulty"
 - raw: "739,EnterGame,进入游戏"
   splits:
   - split: 2
     text: "进入游戏"
+    translated: "Enter the game"
 - raw: "740,GameLv-1,普通"
   splits:
   - split: 2
     text: "普通"
+    translated: "Normal"
 - raw: "741,GameLv0,困难"
   splits:
   - split: 2
     text: "困难"
+    translated: "Hard"
 - raw: "742,GameLv1,极难"
   splits:
   - split: 2
     text: "极难"
+    translated: "Extreme"
 - raw: "743,GameLv2,江湖路"
   splits:
   - split: 2
     text: "江湖路"
+    translated: "Jianghu Road"
 - raw: "745,GameLv-1_Desc1,轻松战斗，方便快速体验剧情。"
   splits:
   - split: 2
     text: "轻松战斗，方便快速体验剧情。"
+    translated: "Easy combat, convenient for quickly experiencing the story."
 - raw: "746,GameLv-1_Desc2,\"玩家有部分免伤,玩家受击硬直时也可进行攻击且附带短暂霸体,玩家可随时闪避（包括角色受击硬直时）,同时最多2个NPC攻击玩家,敌方普通攻击前摇时有红点提示\""
   splits:
   - split: 2
     text: "玩家有部分免伤"
+    translated: "You have partial damage immunity"
   - split: 2
     subIndex: 1
     text: "玩家受击硬直时也可进行攻击且附带短暂霸体"
+    translated: "You can also attack and gain brief super armor during hit stun."
   - split: 2
     subIndex: 2
     text: "玩家可随时闪避（包括角色受击硬直时）"
+    translated: "Players can dodge at any time (including during a hit stun)."
   - split: 2
     subIndex: 3
     text: "同时最多2个"
+    translated: "Up to 2 at once"
   - split: 2
     subIndex: 4
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 2
     subIndex: 5
     text: "敌方普通攻击前摇时有红点提示"
+    translated: "There is a red dot warning before the enemy's normal attack."
   templates:
   - split: 2
     template: "{0},{1},{2},{3}NPC{4},{5}"
@@ -3867,28 +4679,36 @@
   splits:
   - split: 2
     text: "困难战斗，在难度上略有一些挑战。"
+    translated: "The hard battle presents a bit more of a challenge in difficulty."
 - raw: "749,GameLv0_Desc2,\"玩家有少量免伤,<color=#FF0000>玩家受击硬直时无法攻击</color>,玩家可随时闪避（包括角色受击硬直时）,NPC略微增加格挡弹反和闪避的几率,同时最多3个NPC攻击玩家,敌方普通攻击前摇时有红点提示\""
   splits:
   - split: 2
     text: "玩家有少量免伤"
+    translated: "You have some damage immunity"
   - split: 2
     subIndex: 1
     text: "玩家受击硬直时无法攻击"
+    translated: "You cannot attack when stunned from being hit."
   - split: 2
     subIndex: 2
     text: "玩家可随时闪避（包括角色受击硬直时）"
+    translated: "Players can dodge at any time (including during a hit stun)."
   - split: 2
     subIndex: 3
     text: "略微增加格挡弹反和闪避的几率"
+    translated: "Slightly increase the chances of blocking, parrying, and dodging."
   - split: 2
     subIndex: 4
     text: "同时最多3个"
+    translated: "Up to 3 at once"
   - split: 2
     subIndex: 5
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 2
     subIndex: 6
     text: "敌方普通攻击前摇时有红点提示"
+    translated: "There is a red dot warning before the enemy's normal attack."
   templates:
   - split: 2
     template: "{0},<color=#FF0000>{1}</color>,{2},NPC{3},{4}NPC{5},{6}"
@@ -3896,31 +4716,40 @@
   splits:
   - split: 2
     text: "极难战斗，在难度上有较大的挑战。"
+    translated: "Extremely difficult battle, with significant challenges in difficulty."
 - raw: "752,GameLv1_Desc2,\"<color=#FF0000>玩家无免伤</color>,<color=#FF0000>玩家受击硬直时无法攻击</color>,玩家可随时闪避(包括角色受击硬直时),NPC少量增加格挡弹反和闪避的几率,同时最多4个NPC攻击玩家,敌方普通攻击前摇时有红点提示\""
   splits:
   - split: 2
     text: "玩家无免伤"
+    translated: "Player has no damage reduction"
   - split: 2
     subIndex: 1
     text: "玩家受击硬直时无法攻击"
+    translated: "You cannot attack when stunned from being hit."
   - split: 2
     subIndex: 2
     text: "玩家可随时闪避"
+    translated: "You can always dodge at any time"
   - split: 2
     subIndex: 3
     text: "包括角色受击硬直时"
+    translated: "Including when the character is hit and stunned"
   - split: 2
     subIndex: 4
     text: "少量增加格挡弹反和闪避的几率"
+    translated: "Slightly increase the chances of blocking, parrying, and dodging."
   - split: 2
     subIndex: 5
     text: "同时最多4个"
+    translated: "Up to 4 at once"
   - split: 2
     subIndex: 6
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 2
     subIndex: 7
     text: "敌方普通攻击前摇时有红点提示"
+    translated: "There is a red dot warning before the enemy's normal attack."
   templates:
   - split: 2
     template: "<color=#FF0000>{0}</color>,<color=#FF0000>{1}</color>,{2}({3}),NPC{4},{5}NPC{6},{7}"
@@ -3928,28 +4757,36 @@
   splits:
   - split: 2
     text: "非常困难的战斗，在难度上有巨大的挑战。"
+    translated: "A very hard battle, with tremendous challenges in difficulty."
 - raw: "755,GameLv2_Desc2,\"<color=#FF0000>玩家无免伤</color>,<color=#FF0000>玩家受击硬直时无法攻击</color>,<color=#FF0000>玩家受击硬直时如无真气，则无法释放闪避；如有真气可额外消耗1点真气，释放闪避动作</color>,<color=#FF0000>NPC大量提升格挡弹反与闪避的几率</color>,同时最多5个NPC攻击玩家,<color=#FF0000>敌方普通攻击前摇时没有红点提示</color>\""
   splits:
   - split: 2
     text: "玩家无免伤"
+    translated: "Player has no damage reduction"
   - split: 2
     subIndex: 1
     text: "玩家受击硬直时无法攻击"
+    translated: "You cannot attack when stunned from being hit."
   - split: 2
     subIndex: 2
     text: "玩家受击硬直时如无真气，则无法释放闪避；如有真气可额外消耗1点真气，释放闪避动作"
+    translated: "If you are hit and stunned and have no True Qi, you cannot release a Dodge; if you do have True Qi, you may consume an additional 1 points of True Qi to release a Dodge action."
   - split: 2
     subIndex: 3
     text: "大量提升格挡弹反与闪避的几率"
+    translated: "Significantly increase the chances of blocking, parrying, and dodging."
   - split: 2
     subIndex: 4
     text: "同时最多5个"
+    translated: "Up to 5 at once"
   - split: 2
     subIndex: 5
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 2
     subIndex: 6
     text: "敌方普通攻击前摇时没有红点提示"
+    translated: "There's no red dot warning before the enemy's normal attack animation."
   templates:
   - split: 2
     template: "<color=#FF0000>{0}</color>,<color=#FF0000>{1}</color>,<color=#FF0000>{2}</color>,<color=#FF0000>NPC{3}</color>,{4}NPC{5},<color=#FF0000>{6}</color>"
@@ -3957,95 +4794,119 @@
   splits:
   - split: 2
     text: "爆气"
+    translated: "Qi Burst"
 - raw: "761,Task_Tip_1,任务追踪的数量已达上限"
   splits:
   - split: 2
     text: "任务追踪的数量已达上限"
+    translated: "The number of quests in your Quest Tracker has reached the limit."
 - raw: "762,Task_Tip_2,目标在其他地图"
   splits:
   - split: 2
     text: "目标在其他地图"
+    translated: "The target is on another map"
 - raw: "765,SkipGuide,跳过引导"
   splits:
   - split: 2
     text: "跳过引导"
+    translated: "Skip tutorial"
 - raw: "766,EnterGuide,进入引导"
   splits:
   - split: 2
     text: "进入引导"
+    translated: "Begin Tutorial"
 - raw: "767,Next,下一条"
   splits:
   - split: 2
     text: "下一条"
+    translated: "Next one"
 - raw: "768,Prev,上一条"
   splits:
   - split: 2
     text: "上一条"
+    translated: "Previous one"
 - raw: "769,SandBoxBattleGuide,是否进行战斗教学？"
   splits:
   - split: 2
     text: "是否进行战斗教学？"
+    translated: "Do you want to proceed with combat training?"
 - raw: "770,SandBoxBattleGuide_Go,去战斗"
   splits:
   - split: 2
     text: "去战斗"
+    translated: "Go to battle"
 - raw: "771,SandBoxBattleGuide_NoGo,早已掌握"
   splits:
   - split: 2
     text: "早已掌握"
+    translated: "Already mastered"
 - raw: "773,PlayerInfoPanel,角色信息面板"
   splits:
   - split: 2
     text: "角色信息面板"
+    translated: "Character Info Panel"
 - raw: "774,Move,移动"
   splits:
   - split: 2
     text: "移动"
+    translated: "Move"
 - raw: "775,Jump,跳跃"
   splits:
   - split: 2
     text: "跳跃"
+    translated: "Jumping"
 - raw: "776,NormalAttack,轻重击"
   splits:
   - split: 2
     text: "轻重击"
+    translated: "Light and Heavy Attack"
 - raw: "777,JumpAttack,跳击"
   splits:
   - split: 2
     text: "跳击"
+    translated: "Jump Attack"
 - raw: "778,Block,格挡"
   splits:
   - split: 2
     text: "格挡"
+    translated: "Block"
 - raw: "779,Rebound,弹反"
   splits:
   - split: 2
     text: "弹反"
+    translated: "Parry"
 - raw: "780,JumpBack,闪避"
   splits:
   - split: 2
     text: "闪避"
+    translated: "Dodge"
 - raw: "781,ItemSlots,使用道具"
   splits:
   - split: 2
     text: "使用道具"
+    translated: "Use item"
 - raw: "782,SkillSlots,技能栏"
   splits:
   - split: 2
     text: "技能栏"
+    translated: "Skill Bar"
 - raw: "784,PlayerInfoPanelDesc1,气血值：表示角色的生命值，当气血值清零时，角色死亡。|体力：表示角色的体力值，使用特殊动作，会消耗体力。"
   splits:
   - split: 2
     text: "气血值"
+    translated: "Lifeforce"
   - split: 2
     subIndex: 1
     text: "表示角色的生命值，当气血值清零时，角色死亡。"
+    translated: "Indicates the character's health; when lifeforce reaches zero, the character dies."
   - split: 2
     subIndex: 2
     text: "体力"
+    translated: "Stamina"
   - split: 2
     subIndex: 3
     text: "表示角色的体力值，使用特殊动作，会消耗体力。"
+    translated: "Indicates the character's Stamina. Using special actions will consume Stamina."
   templates:
   - split: 2
     template: "{0}：{1}|{2}：{3}"
@@ -4053,15 +4914,19 @@
   splits:
   - split: 2
     text: "内劲"
+    translated: "Inner Force"
   - split: 2
     subIndex: 1
     text: "表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。"
+    translated: "Represents the character's Inner Force value. Accumulate Inner Force through attacks. When the Inner Force value is full, increase True Qi Points by 1."
   - split: 2
     subIndex: 2
     text: "真气点"
+    translated: "True Qi Points"
   - split: 2
     subIndex: 3
     text: "表示角色的真气点，消耗真气点释放技能。"
+    translated: "Indicates the character's True Qi Points, spending True Qi Points to release skills."
   templates:
   - split: 2
     template: "{0}：{1}|{2}：{3}"
@@ -4069,6 +4934,7 @@
   splits:
   - split: 2
     text: "使用方向键，控制角色移动。"
+    translated: "Use the arrow keys to control character movement."
   templates:
   - split: 2
     template: "({0})"
@@ -4076,9 +4942,11 @@
   splits:
   - split: 2
     text: "使用跳跃键，控制角色在场景中跳跃。"
+    translated: "Use the jump key to control the character's jumps in the scene."
   - split: 2
     subIndex: 1
     text: "在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。"
+    translated: "While in the jumping state, pressing the jump key again allows the character to perform a double jump."
   templates:
   - split: 2
     template: "({0}|{1})"
@@ -4086,9 +4954,11 @@
   splits:
   - split: 2
     text: "使用轻击键，控制角色进行一次普通攻击。"
+    translated: "Use the Light Attack key to control the character to perform a normal attack."
   - split: 2
     subIndex: 1
     text: "使用重击键，角色将消耗一定体力，并进行一次强力攻击"
+    translated: "Using the Heavy Attack key, the character will consume some Stamina and perform a powerful attack."
   templates:
   - split: 2
     template: "({0}|{1})"
@@ -4096,9 +4966,11 @@
   splits:
   - split: 2
     text: "在跳跃过程中，按下轻击键"
+    translated: "While jumping, press the light attack key"
   - split: 2
     subIndex: 1
     text: "控制角色进行跳跃攻击。"
+    translated: "Have the character perform a jumping attack"
   templates:
   - split: 2
     template: "({0},{1})"
@@ -4106,6 +4978,7 @@
   splits:
   - split: 2
     text: "按住格挡键，角色将持续消耗体力，进入格挡状态。"
+    translated: "Hold down the block key; your character will continuously consume stamina and enter a blocking state."
   templates:
   - split: 2
     template: "({0})"
@@ -4113,6 +4986,7 @@
   splits:
   - split: 2
     text: "在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。"
+    translated: "Press the block key when about to be attacked by an enemy to interrupt their attack."
   templates:
   - split: 2
     template: "({0})"
@@ -4120,21 +4994,27 @@
   splits:
   - split: 2
     text: "同时按下左"
+    translated: "Press left at the same time"
   - split: 2
     subIndex: 1
     text: "右移动键"
+    translated: "Right arrow key"
   - split: 2
     subIndex: 2
     text: "闪避键，消耗部分体力进行"
+    translated: "Dodge key, consume some Stamina to perform"
   - split: 2
     subIndex: 3
     text: "前闪避"
+    translated: "Forward Dodge"
   - split: 2
     subIndex: 4
     text: "操作，可控制角色朝向左"
+    translated: "Control character to face left"
   - split: 2
     subIndex: 5
     text: "右移动一定距离，规避伤害。"
+    translated: "Move to the right by a certain distance to avoid damage."
   templates:
   - split: 2
     template: "{0}/{1}+{2}\"{3}\"{4}/{5}"
@@ -4142,12 +5022,15 @@
   splits:
   - split: 2
     text: "直接按下闪避键，消耗部分体力进行"
+    translated: "Press the dodge button to use some stamina."
   - split: 2
     subIndex: 1
     text: "后闪避"
+    translated: "Dodge afterwards"
   - split: 2
     subIndex: 2
     text: "操作，可控制角色后退一定距离，规避伤害。"
+    translated: "Action: Control the character to step back a certain distance to avoid damage."
   templates:
   - split: 2
     template: "{0}\"{1}\"{2}"
@@ -4155,6 +5038,7 @@
   splits:
   - split: 2
     text: "按下使用道具键，可在战斗中使用道具。"
+    translated: "Press the use item key to use items during battle."
   templates:
   - split: 2
     template: "({0})"
@@ -4162,15 +5046,19 @@
   splits:
   - split: 2
     text: "武学秘籍"
+    translated: "Martial Art Manual"
   - split: 2
     subIndex: 1
     text: "修习武学秘籍后，可通过消耗真气点释放技能。"
+    translated: "After studying a martial art manual, you can release skills by consuming True Qi Points."
   - split: 2
     subIndex: 2
     text: "江湖通式"
+    translated: "Jianghu Common Form"
   - split: 2
     subIndex: 3
     text: "修习江湖通式后，可通过消耗体力释放技能。"
+    translated: "After learning the Jianghu Common Form, you can release skills by consuming Stamina."
   templates:
   - split: 2
     template: "({0}：{1})|({2}：{3})"
@@ -4178,21 +5066,27 @@
   splits:
   - split: 2
     text: "爆气"
+    translated: "Qi Burst"
   - split: 2
     subIndex: 1
     text: "使用爆气技能可迅速脱离受控状态。"
+    translated: "Using the Qi Burst skill can quickly break free from a controlled state."
   - split: 2
     subIndex: 2
     text: "内功"
+    translated: "Neigong"
   - split: 2
     subIndex: 3
     text: "修习内功秘籍后，可在战斗中释放内功技能。"
+    translated: "After studying the Manual of Neigong, you can unleash Neigong skills in battle."
   - split: 2
     subIndex: 4
     text: "轻功"
+    translated: "Qinggong"
   - split: 2
     subIndex: 5
     text: "修习轻功秘籍后，可在战斗中释放轻功技能。"
+    translated: "After studying the manual for qinggong, you can release qinggong skills in battle."
   templates:
   - split: 2
     template: "({0}：{1})|({2}：{3})|({4}：{5})"
@@ -4200,9 +5094,11 @@
   splits:
   - split: 2
     text: "注意"
+    translated: "Beware"
   - split: 2
     subIndex: 1
     text: "角色使用远程武器时，无法使用格挡。"
+    translated: "When using a ranged weapon, blocking is unavailable."
   templates:
   - split: 2
     template: "({0}：{1})"
@@ -4210,9 +5106,11 @@
   splits:
   - split: 2
     text: "注意"
+    translated: "Beware"
   - split: 2
     subIndex: 1
     text: "角色使用远程武器时，无法使用弹反。"
+    translated: "When using a ranged weapon, you cannot use a parry."
   templates:
   - split: 2
     template: "({0}：{1})"
@@ -4220,9 +5118,11 @@
   splits:
   - split: 2
     text: "注意"
+    translated: "Beware"
   - split: 2
     subIndex: 1
     text: "需在行囊中装备药品，才可在战斗中使用道具。"
+    translated: "You must equip Medicine in your Pack to use items in battle."
   templates:
   - split: 2
     template: "({0}：{1})"
@@ -4230,9 +5130,11 @@
   splits:
   - split: 2
     text: "注意"
+    translated: "Beware"
   - split: 2
     subIndex: 1
     text: "需在武学界面中装备武学，才可在战斗中使用对应技能。"
+    translated: "You must equip your Martial Arts in the Martial Art interface to use their corresponding skills in battle."
   templates:
   - split: 2
     template: "({0}：{1})"
@@ -4240,34 +5142,42 @@
   splits:
   - split: 2
     text: "指引任务"
+    translated: "Guidance Quest"
 - raw: "805,GuideTaskFinish,任务完成"
   splits:
   - split: 2
     text: "任务完成"
+    translated: "Task completed"
 - raw: "807,GuideTask_PlayerInfoPanel,了解角色信息面板"
   splits:
   - split: 2
     text: "了解角色信息面板"
+    translated: "View Character Info Panel"
 - raw: "808,GuideTask_Move,完成移动指令"
   splits:
   - split: 2
     text: "完成移动指令"
+    translated: "Complete move command"
 - raw: "809,GuideTask_MissDamage,躲避伤害"
   splits:
   - split: 2
     text: "躲避伤害"
+    translated: "Avoid damage"
 - raw: "810,GuideTask_ItemSlotsAndSkillSlots,使用道具、技能栏介绍"
   splits:
   - split: 2
     text: "使用道具、技能栏介绍"
+    translated: "Item Usage, Skill Description"
 - raw: "811,GuideTask_BeatEnemy,击败杜颜白"
   splits:
   - split: 2
     text: "击败杜颜白"
+    translated: "Defeat Du Yanbai"
 - raw: "813,GuideTaskTracker_MoveUp,进行一次向上移动操作{0}/1"
   splits:
   - split: 2
     text: "进行一次向上移动操作"
+    translated: "Perform an upward movement operation"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4275,6 +5185,7 @@
   splits:
   - split: 2
     text: "进行一次向下移动操作"
+    translated: "Perform a downward movement operation"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4282,6 +5193,7 @@
   splits:
   - split: 2
     text: "进行一次向左移动操作"
+    translated: "Perform a left movement operation"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4289,6 +5201,7 @@
   splits:
   - split: 2
     text: "进行一次向右移动操作"
+    translated: "Perform a rightward movement"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4296,6 +5209,7 @@
   splits:
   - split: 2
     text: "使用跳跃键，完成两次跳跃操作"
+    translated: "Use the jump key to perform two jumps."
   templates:
   - split: 2
     template: "{0}⟦0⟧/2"
@@ -4303,6 +5217,7 @@
   splits:
   - split: 2
     text: "使用轻击，完成两次轻击操作"
+    translated: "Use Light Attack to perform two Light Attacks"
   templates:
   - split: 2
     template: "{0}⟦0⟧/2"
@@ -4310,6 +5225,7 @@
   splits:
   - split: 2
     text: "使用重击，完成两次重击操作"
+    translated: "Use Heavy Attack to perform two Heavy Attacks"
   templates:
   - split: 2
     template: "{0}⟦0⟧/2"
@@ -4317,6 +5233,7 @@
   splits:
   - split: 2
     text: "使用跳击，完成两次跳击操作"
+    translated: "Use Jump Attack to perform two consecutive jump attacks."
   templates:
   - split: 2
     template: "{0}⟦0⟧/2"
@@ -4324,6 +5241,7 @@
   splits:
   - split: 2
     text: "使用格挡，完成一次格挡操作"
+    translated: "Use Block to perform a blocking maneuver"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4331,6 +5249,7 @@
   splits:
   - split: 2
     text: "使用弹反，完成一次弹反操作"
+    translated: "Use a parry, to perform a parry operation"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4338,6 +5257,7 @@
   splits:
   - split: 2
     text: "使用前闪避成功躲避一次攻击"
+    translated: "Successfully dodged an attack with a forward dodge."
   templates:
   - split: 2
     template: "{0}⟦0⟧/2"
@@ -4345,6 +5265,7 @@
   splits:
   - split: 2
     text: "使用后闪避成功躲避一次攻击"
+    translated: "Using it successfully dodges one attack"
   templates:
   - split: 2
     template: "{0}⟦0⟧/1"
@@ -4352,34 +5273,42 @@
   splits:
   - split: 2
     text: "战场之中一瞬万变，需得时时体察自身状况，切勿鲁莽丢了性命。"
+    translated: "On the battlefield, situations change in an instant; always be aware of your condition and do not act recklessly and lose your life."
 - raw: "827,GuideDialog_Move,且行至标注所在，看你身子康复几分。"
   splits:
   - split: 2
     text: "且行至标注所在，看你身子康复几分。"
+    translated: "And proceed to the marked location to see how much you have recovered."
 - raw: "828,GuideDialog_Jump,以气运劲，腾跃长空，试着在跳跃过程中腾转身形。"
   splits:
   - split: 2
     text: "以气运劲，腾跃长空，试着在跳跃过程中腾转身形。"
+    translated: "Channel your energy to power your movements, leaping into the sky and trying to somersault in mid-air."
 - raw: "829,GuideDialog_NormalAttack,力分轻重，且当如臂驱使，方可称道流转自如。来，用不同力道施展攻击。"
   splits:
   - split: 2
     text: "力分轻重，且当如臂驱使，方可称道流转自如。来，用不同力道施展攻击。"
+    translated: "Strength varies in intensity, and it should be as easy to control as moving your arm, for true mastery. Come, use different levels of strength to perform attacks."
 - raw: "830,GuideDialog_JumpAttack,动若脱兔，跃击长空，试着在空中打出一次攻击。"
   splits:
   - split: 2
     text: "动若脱兔，跃击长空，试着在空中打出一次攻击。"
+    translated: "Move like a rabbit, leap and strike into the sky, trying to make an attack in mid-air."
 - raw: "831,GuideDialog_Block,凡事并非仅有一法，以退为进，亦为妙手。摆出格挡姿势防住我的攻击。"
   splits:
   - split: 2
     text: "凡事并非仅有一法，以退为进，亦为妙手。摆出格挡姿势防住我的攻击。"
+    translated: "There's more than one way to do anything; sometimes retreating to advance is a clever move. Assume a blocking stance to parry my attack."
 - raw: "832,GuideDialog_Rebound,战场胜机往往一瞬，形势逆转，一定乾坤。在我即将攻向你的一瞬，使出格挡将攻击弹反。"
   splits:
   - split: 2
     text: "战场胜机往往一瞬，形势逆转，一定乾坤。在我即将攻向你的一瞬，使出格挡将攻击弹反。"
+    translated: "The tide of battle often shifts in an instant. As I was about to strike you, you blocked my attack and parried it, reversing the situation and settling heaven and earth."
 - raw: "833,GuideDialog_JumpBack,身法以活为要，以明阴阳变化为妙。此剑你可否躲过!"
   splits:
   - split: 2
     text: "身法以活为要，以明阴阳变化为妙。此剑你可否躲过"
+    translated: "Agility prioritizes movement and understanding the changes between yin and yang. Can you dodge this sword?"
   templates:
   - split: 2
     template: "{0}!"
@@ -4387,18 +5316,22 @@
   splits:
   - split: 2
     text: "按住"
+    translated: "Hold down"
 - raw: "836,Click,按下"
   splits:
   - split: 2
     text: "按下"
+    translated: "Press"
 - raw: "837,NextStep,下一步"
   splits:
   - split: 2
     text: "下一步"
+    translated: "Next step"
 - raw: "838,KeymapTips,(如有修改键位，请以实际键位为准)"
   splits:
   - split: 2
     text: "如有修改键位，请以实际键位为准"
+    translated: "Please refer to the actual key bindings if available."
   templates:
   - split: 2
     template: "({0})"
@@ -4406,85 +5339,106 @@
   splits:
   - split: 2
     text: "该区域无法通过快速移动抵达"
+    translated: "This area cannot be reached by quick travel."
 - raw: "842,MapTip_2,需抵达过该区域方能进行快速移动"
   splits:
   - split: 2
     text: "需抵达过该区域方能进行快速移动"
+    translated: "You must have visited this area before to use quick travel."
 - raw: "843,MapTip_3,当前所处区域无法通过快速移动离开"
   splits:
   - split: 2
     text: "当前所处区域无法通过快速移动离开"
+    translated: "You cannot leave this area using quick travel."
 - raw: "844,MapTip_4,当前所处区域无法使用快速移动"
   splits:
   - split: 2
     text: "当前所处区域无法使用快速移动"
+    translated: "You cannot use quick travel in the current area."
 - raw: "845,MapTip_41,当前剧情中传送功能暂不可用"
   splits:
   - split: 2
     text: "当前剧情中传送功能暂不可用"
+    translated: "Teleportation is currently unavailable in the story"
 - raw: "846,MapTip_5,该区域暂时无法通过快速移动抵达"
   splits:
   - split: 2
     text: "该区域暂时无法通过快速移动抵达"
+    translated: "This area cannot be reached by quick travel at the moment."
 - raw: "847,MapTip_6,当前处于该区域"
   splits:
   - split: 2
     text: "当前处于该区域"
+    translated: "You are currently in this area"
 - raw: "848,DisableMapTransfer,当前已禁用区域快速移动"
   splits:
   - split: 2
     text: "当前已禁用区域快速移动"
+    translated: "Quick travel in this area is currently disabled."
 - raw: "849,MapTip_HouseTitle,房屋"
   splits:
   - split: 2
     text: "房屋"
+    translated: "House"
 - raw: "850,MapTip_HouseTip,一处正在出售中的房屋"
   splits:
   - split: 2
     text: "一处正在出售中的房屋"
+    translated: "A house for sale"
 - raw: "851,MapTip_HouseTip_Own,你已拥有此房屋"
   splits:
   - split: 2
     text: "你已拥有此房屋"
+    translated: "You already own this house"
 - raw: "852,MapTip_DungeonTitle,副本"
   splits:
   - split: 2
     text: "副本"
+    translated: "Dungeon"
 - raw: "855,Xing_1,段"
   splits:
   - split: 2
     text: "段"
+    translated: "Section"
 - raw: "858,ShuXing_1,天赋"
   splits:
   - split: 2
     text: "天赋"
+    translated: "Talent"
 - raw: "859,ShuXing_2,特质"
   splits:
   - split: 2
     text: "特质"
+    translated: "Traits"
 - raw: "862,ZaoYi,造诣"
   splits:
   - split: 2
     text: "造诣"
+    translated: "Mastery"
 - raw: "865,BanDepotTips,此物品无法储存"
   splits:
   - split: 2
     text: "此物品无法储存"
+    translated: "This item cannot be stored"
 - raw: "866,BanDepotTaskItemTips,任务道具无法在仓库存放"
   splits:
   - split: 2
     text: "任务道具无法在仓库存放"
+    translated: "Task items cannot be stored in the warehouse."
 - raw: "869,tfTips01,【天煞孤狼】和【天纵之才】只能任选其一"
   splits:
   - split: 2
     text: "【天煞孤狼】和【天纵之才】只能任选其一"
+    translated: "[Choose between Being a Cursed Lone Wolf and Being a Heaven-Sent Talent]"
 - raw: "872,taskTip001,需要在“{0}”使用;"
   splits:
   - split: 2
     text: "需要在"
+    translated: "Needs to be done by"
   - split: 2
     subIndex: 1
     text: "使用"
+    translated: "Use"
   templates:
   - split: 2
     template: "{0}“⟦0⟧”{1};"
@@ -4492,16 +5446,20 @@
   splits:
   - split: 2
     text: "当前状态无法使用此物品。"
+    translated: "This item cannot be used in your current state."
 - raw: "876,buQuanSkillTip1,此按钮只存在于EA版本，正式版本会去掉。\\n可以通过点击此按钮补全之前版本被动已满的武学因为版本迭代增加的新被动。"
   splits:
   - split: 2
     text: "此按钮只存在于"
+    translated: "This button only exists in"
   - split: 2
     subIndex: 1
     text: "版本，正式版本会去掉。"
+    translated: "This line will be removed in the official version."
   - split: 2
     subIndex: 2
     text: "可以通过点击此按钮补全之前版本被动已满的武学因为版本迭代增加的新被动。"
+    translated: "You can click this button to complete the new Passives added for Martial Arts that were previously full due to version updates."
   templates:
   - split: 2
     template: "{0}EA{1}\\n{2}"
@@ -4509,18 +5467,22 @@
   splits:
   - split: 2
     text: "成功领悟了最后一篇注解"
+    translated: "Successfully comprehended the final annotation"
 - raw: "878,buQuanSkillTip3,没有符合条件的注解需要补全"
   splits:
   - split: 2
     text: "没有符合条件的注解需要补全"
+    translated: "No annotations meeting the criteria need to be completed."
 - raw: "881,CookTip_1,物品制造中，无法退出界面"
   splits:
   - split: 2
     text: "物品制造中，无法退出界面"
+    translated: "Item creation in progress, cannot exit interface"
 - raw: "882,CookTip_2,*基础属性、词条效果会依据品质的增强而增强"
   splits:
   - split: 2
     text: "基础属性、词条效果会依据品质的增强而增强"
+    translated: "Base attributes and effect bonuses will increase with improved quality."
   templates:
   - split: 2
     template: "*{0}"
@@ -4528,10 +5490,12 @@
   splits:
   - split: 2
     text: "无需异能书籍，即可掌握钓鱼技能"
+    translated: "You can master fishing skills without needing ability books."
 - raw: "886,betShopTip1,行囊银两:"
   splits:
   - split: 2
     text: "行囊银两"
+    translated: "Pack of Silver"
   templates:
   - split: 2
     template: "{0}:"
@@ -4539,13 +5503,16 @@
   splits:
   - split: 2
     text: "选择下注金额"
+    translated: "Choose your bet amount"
 - raw: "888,betShopTip3,银两(文)"
   splits:
   - split: 2
     text: "银两"
+    translated: "Silver"
   - split: 2
     subIndex: 1
     text: "文"
+    translated: "Wen"
   templates:
   - split: 2
     template: "{0}({1})"
@@ -4553,10 +5520,12 @@
   splits:
   - split: 2
     text: "确定"
+    translated: "Confirm"
 - raw: "890,betShopTip5,投注{0}"
   splits:
   - split: 2
     text: "投注"
+    translated: "Bet"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -4564,6 +5533,7 @@
   splits:
   - split: 2
     text: "押物"
+    translated: "Pledged item"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -4571,21 +5541,26 @@
   splits:
   - split: 2
     text: "已达行囊银两最大值"
+    translated: "Your pack has reached its maximum value in Silver."
 - raw: "893,betShopTip7,已达此区域最大下注总额"
   splits:
   - split: 2
     text: "已达此区域最大下注总额"
+    translated: "You have reached the maximum total bet limit for this area."
 - raw: "894,betShopTip8,投注前请先点击摇骰按钮"
   splits:
   - split: 2
     text: "投注前请先点击摇骰按钮"
+    translated: "Please click the Roll Dice button before placing your bet."
 - raw: "895,betShopTip9,\"银两不足,无法下注\""
   splits:
   - split: 2
     text: "银两不足"
+    translated: "Insufficient silver"
   - split: 2
     subIndex: 1
     text: "无法下注"
+    translated: "Unable to place a bet"
   templates:
   - split: 2
     template: "{0},{1}"
@@ -4593,10 +5568,12 @@
   splits:
   - split: 2
     text: "是否离开赌局？"
+    translated: "Do you want to leave the gambling game?"
 - raw: "897,betShopTip11,{0}    {1}    {2}   {3}点"
   splits:
   - split: 2
     text: "点"
+    translated: "Point"
   templates:
   - split: 2
     template: "⟦0⟧    ⟦1⟧    ⟦2⟧   ⟦3⟧{0}"
@@ -4604,77 +5581,100 @@
   splits:
   - split: 2
     text: "赢"
+    translated: "Win"
 - raw: "899,betShopTip13,输"
   splits:
   - split: 2
     text: "输"
+    translated: "Lose"
 - raw: "900,betShopTip14,不满此桌入场最低本金，点击下方空白区域退出"
   splits:
   - split: 2
     text: "不满此桌入场最低本金，点击下方空白区域退出"
+    translated: "Insufficient minimum stake to enter this table. Click on the blank area below to exit."
 - raw: "901,betShopTip15,点击下方空白区域退出"
   splits:
   - split: 2
     text: "点击下方空白区域退出"
+    translated: "Click below to exit"
 - raw: "902,betShopTip16,请先下注"
   splits:
   - split: 2
     text: "请先下注"
+    translated: "Please place your bet first"
 - raw: "903,betShopTip17,>摇骰阶段\\n摇骰阶段是骰宝游戏的开始，点击“摇骰”按钮，即可进行下注。\\n\\n>下注阶段\\n在任意区域完成下注后，即可点击“开骰！”，点击按钮后，进入“结算阶段”。\\n点击“重置所有投注”按钮后，将所有区域的投注银两数量重置为默认值0。\\n\\n>结算阶段\\n若押注与开骰结果一致，则返回赌本并获得对应的赔率。\\n\\n>下注区域说明\\n1.大/小下注区\\n开骰结果的骰子总点数符合大/小区域对应点数，即可获得对应的赔率银两。\\n\\n2.全围下注区\\n开骰结果的三个骰子相符，即可获得对应的赔率银两。\\n\\n3.围骰下注区\\n开骰结果的三个骰子相符，且三个骰子的总点数符合下注区域值，即可获得对应的赔率银两。\\n\\n4.点数下注区\\n开骰结果的骰子总点数符合下注区域值，即可获得对应的赔率银两。。"
   splits:
   - split: 2
     text: "摇骰阶段"
+    translated: "Roll Dice Phase"
   - split: 2
     subIndex: 1
     text: "摇骰阶段是骰宝游戏的开始，点击“摇骰”按钮，即可进行下注。"
+    translated: "The dice rolling phase marks the beginning of the Sic Bo game; click the Roll Dice button to place your bets."
   - split: 2
     subIndex: 2
     text: "下注阶段"
+    translated: "Betting phase"
   - split: 2
     subIndex: 3
     text: "在任意区域完成下注后，即可点击“开骰！”，点击按钮后，进入“结算阶段”。"
+    translated: "After placing your bet in any area, you can click Roll the Dice! Clicking the button will proceed to the Settlement Phase."
   - split: 2
     subIndex: 4
     text: "点击“重置所有投注”按钮后，将所有区域的投注银两数量重置为默认值0。"
+    translated: "After clicking the Reset All Bets button, reset the bet Silver in all areas to the default value 0."
   - split: 2
     subIndex: 5
     text: "结算阶段"
+    translated: "Settlement phase"
   - split: 2
     subIndex: 6
     text: "若押注与开骰结果一致，则返回赌本并获得对应的赔率。"
+    translated: "If the bet matches the dice roll result, return the stake and receive the corresponding odds."
   - split: 2
     subIndex: 7
     text: "下注区域说明"
+    translated: "Bet area instructions"
   - split: 2
     subIndex: 8
     text: "1.大"
+    translated: "1. Great"
   - split: 2
     subIndex: 9
     text: "小下注区"
+    translated: "Small betting area"
   - split: 2
     subIndex: 10
     text: "开骰结果的骰子总点数符合大"
+    translated: "The total number of dice points matches the requirement for great."
   - split: 2
     subIndex: 11
     text: "小区域对应点数，即可获得对应的赔率银两。"
+    translated: "Small areas correspond to points, and you can obtain the corresponding odds in Silver."
   - split: 2
     subIndex: 12
     text: "2.全围下注区"
+    translated: "2. surround the betting area"
   - split: 2
     subIndex: 13
     text: "开骰结果的三个骰子相符，即可获得对应的赔率银两。"
+    translated: "If the three dice match when opening the results, you will receive the corresponding odds in Silver."
   - split: 2
     subIndex: 14
     text: "3.围骰下注区"
+    translated: "3.betting area"
   - split: 2
     subIndex: 15
     text: "开骰结果的三个骰子相符，且三个骰子的总点数符合下注区域值，即可获得对应的赔率银两。"
+    translated: "If the three dice match the bet result and the total number of dots on the three dice matches the value of the betting area, you will receive the corresponding odds in Silver."
   - split: 2
     subIndex: 16
     text: "4.点数下注区"
+    translated: "4. point betting area"
   - split: 2
     subIndex: 17
     text: "开骰结果的骰子总点数符合下注区域值，即可获得对应的赔率银两。。"
+    translated: "If the total dice roll matches the value of the betting area, you will receive the corresponding odds in Silver."
   templates:
   - split: 2
     template: ">{0}\\n{1}\\n\\n>{2}\\n{3}\\n{4}\\n\\n>{5}\\n{6}\\n\\n>{7}\\n{8}/{9}\\n{10}/{11}\\n\\n{12}\\n{13}\\n\\n{14}\\n{15}\\n\\n{16}\\n{17}"
@@ -4682,111 +5682,140 @@
   splits:
   - split: 2
     text: "押物的数量不能大于15"
+    translated: "The number of pledged items cannot exceed 15."
 - raw: "905,betShopTip19,押物"
   splits:
   - split: 2
     text: "押物"
+    translated: "Pledged item"
 - raw: "906,betShopTip20,查看"
   splits:
   - split: 2
     text: "查看"
+    translated: "Check"
 - raw: "907,betShopTip101,一"
   splits:
   - split: 2
     text: "一"
+    translated: "\\n"
 - raw: "908,betShopTip102,二"
   splits:
   - split: 2
     text: "二"
+    translated: "Two"
 - raw: "909,betShopTip103,三"
   splits:
   - split: 2
     text: "三"
+    translated: "Three"
 - raw: "910,betShopTip104,四"
   splits:
   - split: 2
     text: "四"
+    translated: "Four"
 - raw: "911,betShopTip105,五"
   splits:
   - split: 2
     text: "五"
+    translated: "Five"
 - raw: "912,betShopTip106,六"
   splits:
   - split: 2
     text: "六"
+    translated: "Six"
 - raw: "913,betShopTip107,七"
   splits:
   - split: 2
     text: "七"
+    translated: "Seven"
 - raw: "914,betShopTip108,八"
   splits:
   - split: 2
     text: "八"
+    translated: "Eight"
 - raw: "915,betShopTip109,九"
   splits:
   - split: 2
     text: "九"
+    translated: "Nine"
 - raw: "916,betShopTip110,十"
   splits:
   - split: 2
     text: "十"
+    translated: "Ten"
 - raw: "917,betShopTip111,十一"
   splits:
   - split: 2
     text: "十一"
+    translated: "November"
 - raw: "918,betShopTip112,十二"
   splits:
   - split: 2
     text: "十二"
+    translated: "December"
 - raw: "919,betShopTip113,十三"
   splits:
   - split: 2
     text: "十三"
+    translated: "Thirteen"
 - raw: "920,betShopTip114,十四"
   splits:
   - split: 2
     text: "十四"
+    translated: "Fourteen"
 - raw: "921,betShopTip115,十五"
   splits:
   - split: 2
     text: "十五"
+    translated: "Fifteen"
 - raw: "922,betShopTip116,十六"
   splits:
   - split: 2
     text: "十六"
+    translated: "Sixteen"
 - raw: "923,betShopTip117,十七"
   splits:
   - split: 2
     text: "十七"
+    translated: "Seventeen"
 - raw: "924,betShopTip118,十八"
   splits:
   - split: 2
     text: "十八"
+    translated: "Eighteen"
 - raw: "927,UIFinshingTip_1,1.小游戏开始后，持续按住“鼠标左/右键”，即可控制“指针”持续向左/右进行移动。\\n\\n2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。\\n\\n3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。\\n\\n4.“鱼所在水域”分为“长/中/短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大。"
   splits:
   - split: 2
     text: "1.小游戏开始后，持续按住“鼠标左"
+    translated: "'1.After starting the mini-game, hold down the left mouse button continuously."
   - split: 2
     subIndex: 1
     text: "右键”，即可控制“指针”持续向左"
+    translated: "Right-click, the pointer will continue to move left."
   - split: 2
     subIndex: 2
     text: "右进行移动。"
+    translated: "Move to the right"
   - split: 2
     subIndex: 3
     text: "2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。"
+    translated: "2.When the pointer overlaps with the fishing area, the ring progress will continue to grow. When it reaches 100%, it indicates a successful fishing, earning experience points and item rewards."
   - split: 2
     subIndex: 4
     text: "3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。"
+    translated: "3.When the pointer and the fishing area do not overlap, the ring progress will continue to fade. If it reaches 0%, it means fishing has failed and there will be no reward."
   - split: 2
     subIndex: 5
     text: "4.“鱼所在水域”分为“长"
+    translated: "4.Fish Habitat is divided into Long"
   - split: 2
     subIndex: 6
     text: "中"
+    translated: "Middle"
   - split: 2
     subIndex: 7
     text: "短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大。"
+    translated: "The shorter the Skill Level, the greater the probability of catching rare fish."
   templates:
   - split: 2
     template: "{0}/{1}/{2}\\n\\n{3}\\n\\n{4}\\n\\n{5}/{6}/{7}"
@@ -4794,54 +5823,67 @@
   splits:
   - split: 2
     text: "垂钓失败"
+    translated: "Fishing failed"
 - raw: "931,UIPaiMaiHangTip_1,已达寄售拍卖上限，暂无法继续寄售"
   splits:
   - split: 2
     text: "已达寄售拍卖上限，暂无法继续寄售"
+    translated: "You have reached the limit for consignment auctions and cannot continue to consign items at this time."
 - raw: "932,UIPaiMaiHangTip_2,寄售成功！"
   splits:
   - split: 2
     text: "寄售成功！"
+    translated: "Sale successful!"
 - raw: "933,UIPaiMaiHangTip_3,是否撤回寄售物品？"
   splits:
   - split: 2
     text: "是否撤回寄售物品？"
+    translated: "Do you want to withdraw the item you put up for sale?"
 - raw: "934,UIPaiMaiHangTip_4,暂无货品寄售"
   splits:
   - split: 2
     text: "暂无货品寄售"
+    translated: "No items for sale at the moment"
 - raw: "935,UIPaiMaiHangTip_5,输入单个物品寄售金额"
   splits:
   - split: 2
     text: "输入单个物品寄售金额"
+    translated: "Enter the amount for listing a single item for sale."
 - raw: "936,UIPaiMaiHangTip_6,该物品已退回至行囊"
   splits:
   - split: 2
     text: "该物品已退回至行囊"
+    translated: "The item has been returned to your pack."
 - raw: "937,UIPaiMaiHangMsg_1,货品寄售失败"
   splits:
   - split: 2
     text: "货品寄售失败"
+    translated: "Item consignment failed"
 - raw: "938,UIPaiMaiHangMsg_2,货价不匹，业已流拍，物品已退回行囊……阁下若真心想卖，需得定下合适价码，方显诚意！"
   splits:
   - split: 2
     text: "货价不匹，业已流拍，物品已退回行囊……阁下若真心想卖，需得定下合适价码，方显诚意！"
+    translated: "The items did not sell due to mismatched prices; they have been returned to your pack... If you truly wish to sell them, you must set a reasonable price to show your sincerity!"
 - raw: "939,UIPaiMaiHangMsg_3,货品寄售成功！"
   splits:
   - split: 2
     text: "货品寄售成功！"
+    translated: "Item consignment successful!"
 - raw: "940,UIPaiMaiHangMsg_4,恭贺阁下，售出宝品，再添金银！"
   splits:
   - split: 2
     text: "恭贺阁下，售出宝品，再添金银！"
+    translated: "Congratulations, sir, on selling a treasure item and adding more gold and silver to your wealth!"
 - raw: "943,UISkillNetsWorkTip_1,隐月楼恭贺阁下加入！"
   splits:
   - split: 2
     text: "隐月楼恭贺阁下加入！"
+    translated: "Yinyue Tower welcomes your joining!"
 - raw: "944,UISkillNetsWorkTip_2,击杀此人的价格为：{0}"
   splits:
   - split: 2
     text: "击杀此人的价格为"
+    translated: "The price for killing this person is"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -4849,13 +5891,16 @@
   splits:
   - split: 2
     text: "隐月楼已接下此任务。"
+    translated: "Yinyue Tower has accepted this task"
 - raw: "946,UISkillNetsWorkTip_4,请先输入正确的npc名称"
   splits:
   - split: 2
     text: "请先输入正确的"
+    translated: "Please enter the correct one first"
   - split: 2
     subIndex: 1
     text: "名称"
+    translated: "Name"
   templates:
   - split: 2
     template: "{0}npc{1}"
@@ -4863,12 +5908,15 @@
   splits:
   - split: 2
     text: "找不到该"
+    translated: "Cannot find that"
   - split: 2
     subIndex: 1
     text: "或者该"
+    translated: "Or that"
   - split: 2
     subIndex: 2
     text: "不能被击杀"
+    translated: "Cannot be killed"
   templates:
   - split: 2
     template: "{0}npc{1}npc{2}"
@@ -4876,9 +5924,11 @@
   splits:
   - split: 2
     text: "该"
+    translated: "This"
   - split: 2
     subIndex: 1
     text: "已经死亡！"
+    translated: "Already dead!"
   templates:
   - split: 2
     template: "{0}npc{1}"
@@ -4886,16 +5936,20 @@
   splits:
   - split: 2
     text: "契约既定，隐月楼不日履约。"
+    translated: "With the contract set, Yinyue Tower will fulfill it in due course."
 - raw: "950,UISkillNetsWorkTip_8,\"{0}于{1}地（{2},{3}）被击杀，钱货两讫。\""
   splits:
   - split: 2
     text: "于"
+    translated: "At"
   - split: 2
     subIndex: 1
     text: "地"
+    translated: "Ground"
   - split: 2
     subIndex: 2
     text: "被击杀，钱货两讫。"
+    translated: "Killed, money and goods settled"
   templates:
   - split: 2
     template: "⟦0⟧{0}⟦1⟧{1}（⟦2⟧,⟦3⟧）{2}"
@@ -4903,14 +5957,17 @@
   splits:
   - split: 2
     text: "买凶杀人"
+    translated: "Hire a killer"
 - raw: "952,UISkillNetsWorkTip_10,银两不足！"
   splits:
   - split: 2
     text: "银两不足！"
+    translated: "Not enough Silver!"
 - raw: "953,UISkillNetsWorkTip_11,任务剩余时间{0}"
   splits:
   - split: 2
     text: "任务剩余时间"
+    translated: "Remaining task time"
   templates:
   - split: 2
     template: "{0}⟦0⟧"
@@ -4918,14 +5975,17 @@
   splits:
   - split: 2
     text: "杀手声望不足！"
+    translated: "Killer's reputation is insufficient!"
 - raw: "955,UISkillNetsWorkTip_13,目标意外死亡，杀手任务终止！"
   splits:
   - split: 2
     text: "目标意外死亡，杀手任务终止！"
+    translated: "Target has died unexpectedly; assassin mission terminated!"
 - raw: "956,UISkillNetsWorkTip_14,杀手任务完成!"
   splits:
   - split: 2
     text: "杀手任务完成"
+    translated: "Assassin's mission complete"
   templates:
   - split: 2
     template: "{0}!"
@@ -4933,10 +5993,12 @@
   splits:
   - split: 2
     text: "目标暂时隐匿行踪！"
+    translated: "Target is temporarily hiding their tracks!"
 - raw: "958,UISkillNetsWorkTip_16,目标所在区域：{0}，（{1}，{2}）"
   splits:
   - split: 2
     text: "目标所在区域"
+    translated: "Target area"
   templates:
   - split: 2
     template: "{0}：⟦0⟧，（⟦1⟧，⟦2⟧）"
@@ -4944,6 +6006,7 @@
   splits:
   - split: 2
     text: "杀手等级"
+    translated: "Assassin level"
   templates:
   - split: 2
     template: "{0}：⟦0⟧"
@@ -4951,17 +6014,21 @@
   splits:
   - split: 2
     text: "已达最高等级"
+    translated: "You have reached the highest level"
 - raw: "961,UISkillNetsWorkTip_19,领取杀手任务"
   splits:
   - split: 2
     text: "领取杀手任务"
+    translated: "Accept the assassin's mission"
 - raw: "962,UISkillNetsWorkTip_20,暗杀目标{0}业已被他人所杀，既然买卖不成，相约酬金原数奉还!"
   splits:
   - split: 2
     text: "暗杀目标"
+    translated: "Assassination target"
   - split: 2
     subIndex: 1
     text: "业已被他人所杀，既然买卖不成，相约酬金原数奉还"
+    translated: "Has already been killed by someone else; since the deal didn't go through, I will return the agreed payment in full."
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}!"
@@ -4969,13 +6036,16 @@
   splits:
   - split: 2
     text: "该目标已在暗杀名单。"
+    translated: "This target is already on the assassination list."
 - raw: "964,UISkillNetsWorkTip_22,击杀此人的价格为：{0}，阁下是否愿意接受？如果同意，隐月楼将接下此任务。"
   splits:
   - split: 2
     text: "击杀此人的价格为"
+    translated: "The price for killing this person is"
   - split: 2
     subIndex: 1
     text: "，阁下是否愿意接受？如果同意，隐月楼将接下此任务。"
+    translated: ", Are you willing to accept it? If you agree, Yinyue Tower will take on this task."
   templates:
   - split: 2
     template: "{0}：⟦0⟧{1}"
@@ -4983,17 +6053,21 @@
   splits:
   - split: 2
     text: "挑战成功"
+    translated: "Challenge succeeded"
 - raw: "966,UISkillNetsWorkTip_24,挑战失败"
   splits:
   - split: 2
     text: "挑战失败"
+    translated: "Challenge failed"
 - raw: "967,UISkillNetsWorkTip_25,其间有规诫，入内三思量：\\n若事有闪失，实力低下之辈必遭血光之灾……"
   splits:
   - split: 2
     text: "其间有规诫，入内三思量"
+    translated: "There are warnings in between; enter with three thoughts in mind."
   - split: 2
     subIndex: 1
     text: "若事有闪失，实力低下之辈必遭血光之灾……"
+    translated: "If things go wrong, those with weak abilities will surely suffer a bloody fate..."
   templates:
   - split: 2
     template: "{0}：\\n{1}"
@@ -5001,18 +6075,23 @@
   splits:
   - split: 2
     text: "确认退出"
+    translated: "Confirm Exit"
   - split: 2
     subIndex: 1
     text: "隐月楼"
+    translated: "Yinyue Tower"
   - split: 2
     subIndex: 2
     text: "后，若当前有正在进行的杀手任务，将会被直接中断！"
+    translated: "Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!"
   - split: 2
     subIndex: 3
     text: "确认是否退出"
+    translated: "Confirm if you want to exit"
   - split: 2
     subIndex: 4
     text: "隐月楼"
+    translated: "Yinyue Tower"
   templates:
   - split: 2
     template: "{0}<{1}>{2}\\n{3}<{4}>？"
@@ -5020,50 +6099,62 @@
   splits:
   - split: 2
     text: "配偶"
+    translated: "Spouse"
 - raw: "970,UISkillNetsWorkTipJiaoQing_1,父母"
   splits:
   - split: 2
     text: "父母"
+    translated: "Parents"
 - raw: "971,UISkillNetsWorkTipJiaoQing_2,子女"
   splits:
   - split: 2
     text: "子女"
+    translated: "Children"
 - raw: "972,UISkillNetsWorkTipJiaoQing_3,同怀"
   splits:
   - split: 2
     text: "同怀"
+    translated: "Siblings"
 - raw: "973,UISkillNetsWorkTipJiaoQing_4,义亲"
   splits:
   - split: 2
     text: "义亲"
+    translated: "Sworn Kin"
 - raw: "974,UISkillNetsWorkTipJiaoQing_5,知交"
   splits:
   - split: 2
     text: "知交"
+    translated: "Confidant"
 - raw: "975,UISkillNetsWorkTipJiaoQing_6,金兰"
   splits:
   - split: 2
     text: "金兰"
+    translated: "Sworn Bond"
 - raw: "976,UISkillNetsWorkTipJiaoQing_7,眷侣"
   splits:
   - split: 2
     text: "眷侣"
+    translated: "Lover"
 - raw: "977,UISkillNetsWorkTipJiaoQing_8,师傅"
   splits:
   - split: 2
     text: "师傅"
+    translated: "Master"
 - raw: "978,UISkillNetsWorkTipJiaoQing_9,徒弟"
   splits:
   - split: 2
     text: "徒弟"
+    translated: "Disciple"
 - raw: "979,UISkillNetsWorkTipJiaoQing_10,仇敌"
   splits:
   - split: 2
     text: "仇敌"
+    translated: "Enemy"
 - raw: "982,UISeartTiaoZhanTip_1,你已成功加入<{0}>。"
   splits:
   - split: 2
     text: "你已成功加入"
+    translated: "You have successfully joined"
   templates:
   - split: 2
     template: "{0}<⟦0⟧>。"
@@ -5071,6 +6162,7 @@
   splits:
   - split: 2
     text: "你已退出"
+    translated: "You have logged out"
   templates:
   - split: 2
     template: "{0}<⟦0⟧>。"
@@ -5078,9 +6170,11 @@
   splits:
   - split: 2
     text: "你已是其他门派弟子，是否需要退出该门派，转投"
+    translated: "You are already a disciple of another sect. Do you need to leave that sect and join another?"
   - split: 2
     subIndex: 1
     text: "名下？"
+    translated: "Under my name?"
   templates:
   - split: 2
     template: "{0}<⟦0⟧>{1}"
@@ -5088,3 +6182,4 @@
   splits:
   - split: 2
     text: "小黄"
+    translated: "Little Yellow"

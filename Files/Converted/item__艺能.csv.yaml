@@ -2,55 +2,74 @@
   splits:
   - split: 2
     text: "道具名"
+    translated: "Item name"
 - raw: "2,904001,清汤面烹饪配方,艺能,1001,2,1,0,\"1,100001\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得清汤面的烹饪方法。,习得清汤面烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "清汤面烹饪配方"
+    translated: "Clear Broth Noodles Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得清汤面的烹饪方法。"
+    translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Clear Broth Noodles."
   - split: 21
     text: "习得清汤面烹饪配方"
+    translated: "Learned Clear Broth Noodles Cooking Recipe"
 - raw: "3,904002,馒头烹饪配方,艺能,1001,2,1,0,\"1,100002\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得馒头的烹饪方法。,习得馒头烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "馒头烹饪配方"
+    translated: "Steamed Bun Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得馒头的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; after reading and studying it, you can learn the method for cooking steamed buns."
   - split: 21
     text: "习得馒头烹饪配方"
+    translated: "Learned Steamed Bun Cooking Recipe"
 - raw: "4,904003,咸蛋烹饪配方,艺能,1001,2,1,0,\"1,100003\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得咸蛋的腌制方法。,习得咸蛋烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "咸蛋烹饪配方"
+    translated: "Salted Egg Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得咸蛋的腌制方法。"
+    translated: "Records a culinary technique for a dish; after reading and studying it, you can learn how to cure salted eggs."
   - split: 21
     text: "习得咸蛋烹饪配方"
+    translated: "Learned Salted Egg Cooking Recipe"
 - raw: "5,904004,高粱红烹饪配方,艺能,1001,2,1,0,\"1,100004\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种美酒的酿制配方，阅读研究后可习得高粱红的酿造方法。,习得高粱红烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "高粱红烹饪配方"
+    translated: "Red Sorghum Liquor Cooking Recipe"
   - split: 20
     text: "记载了某种美酒的酿制配方，阅读研究后可习得高粱红的酿造方法。"
+    translated: "Records a recipe for a certain fine wine; after reading and studying it, you can learn the brewing method for Red Sorghum Liquor."
   - split: 21
     text: "习得高粱红烹饪配方"
+    translated: "Learned the Red Sorghum Liquor Cooking Recipe"
 - raw: "6,904011,硬木刀·精锻造配方,艺能,2001,2,1,0,\"2,110001\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了单手轻刃类武器的精制技艺，学习后可以制造【硬木刀·精】。此装备需有粗通皮毛之武境方可运使自如。,习得硬木刀·精锻造配方,item/958000,,1,1,2,1"
   splits:
   - split: 2
     text: "硬木刀"
+    translated: "Hardwood Blade"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以制造【硬木刀"
+    translated: "Records the refined craftsmanship of one-handed light blades, allowing you to craft the Hardwood Blade after learning it."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
   - split: 21
     text: "习得硬木刀"
+    translated: "Learned Hardwood Blade"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -62,19 +81,25 @@
   splits:
   - split: 2
     text: "旧纸扇"
+    translated: "Old Paper Fan"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以锻造【旧纸扇"
+    translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can forge an Old Paper Fan."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
   - split: 21
     text: "习得旧纸扇"
+    translated: "Learn Old Paper Fan"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -86,19 +111,25 @@
   splits:
   - split: 2
     text: "蒲草链"
+    translated: "Rush Necklace"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了项链类装备的精制技艺，学习后可以制作【蒲草链"
+    translated: "Records the refined craftsmanship for making necklace-type equipment. After learning it, you can create the [Rush Necklace]."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可佩戴。"
+    translated: "【Requirement: Minor Success in Martial Arts. This equipment can only be worn by those who have achieved Minor Success in their martial arts realm.】"
   - split: 21
     text: "习得蒲草链"
+    translated: "Learned Rush Necklace"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -110,19 +141,25 @@
   splits:
   - split: 2
     text: "山水画扇"
+    translated: "Landscape Painting Fan"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【山水画扇"
+    translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft a Landscape Painting Fan."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
   - split: 21
     text: "习得山水画扇"
+    translated: "Learned Landscape Painting Fan"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -134,19 +171,25 @@
   splits:
   - split: 2
     text: "素剑"
+    translated: "Plain Sword"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【素剑"
+    translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge a plain sword."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
   - split: 21
     text: "习得素剑"
+    translated: "Learned Plain Sword"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -158,19 +201,25 @@
   splits:
   - split: 2
     text: "锈铁缠手"
+    translated: "Rusted Iron Hand Wraps"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【锈铁缠手"
+    translated: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge the Rusted Iron Hand Wraps."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
   - split: 21
     text: "习得锈铁缠手"
+    translated: "Learned Rusted Iron Hand Wraps"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -182,19 +231,25 @@
   splits:
   - split: 2
     text: "锈红缨"
+    translated: "Rusty Red Tassel"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【锈红缨"
+    translated: "Records the refined techniques for polearms; after learning them, you can forge a Rusty Red Tassel."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有心领神会之武境方可运使自如。"
+    translated: "Proficient. This equipment requires proficiency in martial arts to use skillfully."
   - split: 21
     text: "习得锈红缨"
+    translated: "Learned Rusty Red Tassel"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -206,19 +261,25 @@
   splits:
   - split: 2
     text: "哨棒"
+    translated: "Quarterstaff"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以制造【哨棒"
+    translated: "Records the refined craftsmanship of polearms; after learning it, you can craft the [Whistle Staff]."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
   - split: 21
     text: "习得哨棒"
+    translated: "Learning the Pole Arm Technique"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -230,19 +291,25 @@
   splits:
   - split: 2
     text: "棉布长衫"
+    translated: "Cotton Long Robe"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【棉布长衫"
+    translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew a 【Cotton Long Robe】."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可穿戴。"
+    translated: "【Requirement: Minor Success in Martial Arts. This equipment can only be worn by those who have achieved Minor Success in their martial arts realm.】"
   - split: 21
     text: "习得棉布长衫"
+    translated: "Learned Cotton Long Robe"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -254,19 +321,25 @@
   splits:
   - split: 2
     text: "粗铁护胫"
+    translated: "Rough Iron Shin Guards"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腿类武器的精制技艺，学习后可以锻造【粗铁护腿"
+    translated: "Records the refined techniques for leg guards, allowing you to forge [Rough Iron Leg Guards] after learning them."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有心领神会之武境方可穿戴。"
+    translated: "【Skill】. This equipment requires proficiency in martial arts to wear."
   - split: 21
     text: "习得粗铁护胫"
+    translated: "Learned Rough Iron Shin Guards"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -278,13 +351,17 @@
   splits:
   - split: 2
     text: "墨家连环铳图解"
+    translated: "Mohist Repeating Gun Diagram"
   - split: 2
     subIndex: 1
     text: "壹"
+    translated: "I"
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
+    translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
   - split: 21
     text: "习得墨家连环铳锻造配方"
+    translated: "Learned the formula for forging the Mohist Repeating Gun"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -292,13 +369,17 @@
   splits:
   - split: 2
     text: "墨家连环铳图解"
+    translated: "Mohist Repeating Gun Diagram"
   - split: 2
     subIndex: 1
     text: "贰"
+    translated: "II"
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
+    translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
   - split: 21
     text: "习得墨家连环铳锻造配方"
+    translated: "Learned the formula for forging the Mohist Repeating Gun"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -306,13 +387,17 @@
   splits:
   - split: 2
     text: "墨家连环铳图解"
+    translated: "Mohist Repeating Gun Diagram"
   - split: 2
     subIndex: 1
     text: "叁"
+    translated: "III"
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
+    translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
   - split: 21
     text: "习得墨家连环铳锻造配方"
+    translated: "Learned the formula for forging the Mohist Repeating Gun"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -320,13 +405,17 @@
   splits:
   - split: 2
     text: "墨家连环铳图解"
+    translated: "Mohist Repeating Gun Diagram"
   - split: 2
     subIndex: 1
     text: "肆"
+    translated: "IV"
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
+    translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
   - split: 21
     text: "习得墨家连环铳锻造配方"
+    translated: "Learned the formula for forging the Mohist Repeating Gun"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -334,27 +423,36 @@
   splits:
   - split: 2
     text: "神秘图解"
+    translated: "Mysterious Diagram"
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
+    translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
   - split: 21
     text: "习得钜子锻造配方"
+    translated: "Learned the Forging Formula for the Juzi"
 - raw: "21,904026,九州无量·精锻造配方,艺能,2003,2,0,0,\"2,110016\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了掌套类武器的精制技艺，学习后可以锻造【九州无量·精】。此装备需有炉火纯青之武境方可运使自如。,习得九州无量·精锻造配方,item/958000,,1,1,1,4"
   splits:
   - split: 2
     text: "九州无量"
+    translated: "Nine Provinces, Boundless"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【九州无量"
+    translated: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Nine Provinces, Boundless]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得九州无量"
+    translated: "Learned Nine Provinces, Boundless"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -366,19 +464,25 @@
   splits:
   - split: 2
     text: "小切玉"
+    translated: "Little Jade-Cutter"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【小切玉"
+    translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge the 'Little Jade-Cutter'."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得小切玉"
+    translated: "Learn Little Jade-Cutter"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -390,19 +494,25 @@
   splits:
   - split: 2
     text: "红笺无色"
+    translated: "Red Notepaper, Colorless"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【红笺无色"
+    translated: "Records the refined techniques for polearms; after learning them, you can forge Red Notepaper, Colorless."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得红笺无色"
+    translated: "Learned Red Notepaper, Colorless"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -414,19 +524,25 @@
   splits:
   - split: 2
     text: "修罗"
+    translated: "Asura"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【修罗"
+    translated: "Records the refined techniques for polearms; after learning them, you can forge [Asura]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得修罗"
+    translated: "Mastering the Asura Path"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -438,19 +554,25 @@
   splits:
   - split: 2
     text: "北逐天狼"
+    translated: "Driving Out the Northern Wolf Star"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【北逐天狼"
+    translated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture [Driving Out the Northern Wolf Star]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得北逐天狼"
+    translated: "Learned Driving Out the Northern Wolf Star"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -462,19 +584,25 @@
   splits:
   - split: 2
     text: "清刚"
+    translated: "Pure Steel"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【清刚"
+    translated: "Records the refined techniques for short weapons, allowing you to forge the [Qinggang]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得清刚"
+    translated: "Learned Clear Vigor"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -486,19 +614,25 @@
   splits:
   - split: 2
     text: "烟罗云锦"
+    translated: "Mist Gauze, Cloud Brocade"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【烟罗云锦"
+    translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew Mist Gauze, Cloud Brocade."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
+    translated: "[Skill] Perfected martial arts proficiency is required to wear this equipment."
   - split: 21
     text: "习得烟罗云锦"
+    translated: "Learned Mist Gauze, Cloud Brocade"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -510,19 +644,25 @@
   splits:
   - split: 2
     text: "八方人间"
+    translated: "Eight Directions, the Mortal World"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【八方人间"
+    translated: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew [Eight Directions, the Mortal World]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
+    translated: "[Skill] Perfected martial arts proficiency is required to wear this equipment."
   - split: 21
     text: "习得八方人间"
+    translated: "Learned Eight Directions, the Mortal World"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -534,19 +674,25 @@
   splits:
   - split: 2
     text: "千里烟波"
+    translated: "A Thousand Li of Misty Waves"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【千里烟波"
+    translated: "Records the refined techniques for leg guards equipment; after learning them, you can forge [A Thousand Li of Misty Waves]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
+    translated: "[Skill] Perfected martial arts proficiency is required to wear this equipment."
   - split: 21
     text: "习得千里烟波"
+    translated: "Learned A Thousand Li of Misty Waves"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -558,19 +704,25 @@
   splits:
   - split: 2
     text: "镇西关"
+    translated: "Guarding the Western Pass"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【镇西关"
+    translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Guarding the Western Pass]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
+    translated: "[Skill] Perfected martial arts proficiency is required to wear this equipment."
   - split: 21
     text: "习得镇西关"
+    translated: "Learned Guarding the Western Pass"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -582,19 +734,25 @@
   splits:
   - split: 2
     text: "却邪"
+    translated: "Repel Evil"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【却邪"
+    translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Devil Repelling]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得却邪"
+    translated: "Learned Defeat Evil"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -606,19 +764,25 @@
   splits:
   - split: 2
     text: "古锭"
+    translated: "Ancient Ingot"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【古锭"
+    translated: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Ancient Ingot】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得千里古锭"
+    translated: "Learned Ancient Thousand Mile Rail Technique"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -630,19 +794,25 @@
   splits:
   - split: 2
     text: "秋风悲画"
+    translated: "Autumn Wind Mourns the Painting"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【秋风悲画"
+    translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can create the 'Autumn Wind Mourns the Painting'."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得秋风悲画"
+    translated: "Learned Autumn Wind Mourns the Painting"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -654,19 +824,25 @@
   splits:
   - split: 2
     text: "霜月"
+    translated: "Frost Moon"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【霜月"
+    translated: "Records the refined craftsmanship of hidden weapons; after learning it, you can forge the [Frost Moon]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得霜月"
+    translated: "Learned Frost Moon"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -678,19 +854,25 @@
   splits:
   - split: 2
     text: "五岳三山"
+    translated: "Five Peaks and Three Mountains"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【五岳三山"
+    translated: "Records the refined craftsmanship of boot-head weapons; after learning it, you can forge the Five Peaks and Three Mountains."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得五岳三山"
+    translated: "Learned Five Peaks and Three Mountains"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -702,19 +884,25 @@
   splits:
   - split: 2
     text: "丸锻隼前龙光"
+    translated: "Full-Forged Falcon's Edge Dragon Light"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【丸锻隼前龙光"
+    translated: "Records the refinement techniques for two-handed light blades; after learning them, you can forge the Full-Forged Falcon's Edge Dragon Light."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得丸锻隼前龙光"
+    translated: "Learn Full-Forged Falcon's Edge Dragon Light"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -726,19 +914,25 @@
   splits:
   - split: 2
     text: "玉露"
+    translated: "Jade Dew"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【玉露"
+    translated: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge the 【Jade Dew】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得玉露"
+    translated: "Learn Jade Dew"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -750,19 +944,25 @@
   splits:
   - split: 2
     text: "铸铁铳"
+    translated: "Cast Iron Gun"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【铸铁铳"
+    translated: "Records the refined craftsmanship of firearms, allowing you to forge the Cast Iron Gun after learning it."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
   - split: 21
     text: "习得铸铁铳"
+    translated: "Learned Cast Iron Gun"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -774,19 +974,25 @@
   splits:
   - split: 2
     text: "铁炎"
+    translated: "Iron Flame"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【铁炎"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Iron Flame]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
   - split: 21
     text: "习得铁炎"
+    translated: "Learned Iron Flame"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -798,19 +1004,25 @@
   splits:
   - split: 2
     text: "雷鸟铳"
+    translated: "Thunderbird Gun"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【雷鸟铳"
+    translated: "Records the refined craftsmanship of firearms, allowing you to forge the Thunderbird Gun."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有心领神会之武境方可运使自如。"
+    translated: "Proficient. This equipment requires proficiency in martial arts to use skillfully."
   - split: 21
     text: "习得雷鸟铳"
+    translated: "Learned Thunderbird Gun"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -822,19 +1034,25 @@
   splits:
   - split: 2
     text: "青焰"
+    translated: "Azure Flame"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【青焰"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Green Flame]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有出类拔萃之武境方可运使自如。"
+    translated: "Proficient. This equipment requires an outstanding martial realm to use with ease."
   - split: 21
     text: "习得青焰"
+    translated: "Learned Azure Flame"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -846,19 +1064,25 @@
   splits:
   - split: 2
     text: "燧焰"
+    translated: "Flint Flame"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【燧焰"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Sulphur Flame]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登堂入室之武境方可运使自如。"
+    translated: "[Skill] This equipment requires an accomplished level of martial skill to use freely."
   - split: 21
     text: "习得燧焰"
+    translated: "Mastering Ignis Flame"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -870,19 +1094,25 @@
   splits:
   - split: 2
     text: "电光铳"
+    translated: "Lightning Gun"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【电光铳"
+    translated: "Records the refined craftsmanship of firearms, allowing you to forge the Lightning Gun after learning it."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有融会贯通之武境方可运使自如。"
+    translated: "Proficiency. This equipment requires Martial Arts Mastery to use effectively."
   - split: 21
     text: "习得电光铳"
+    translated: "Learned Lightning Gun"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -894,19 +1124,25 @@
   splits:
   - split: 2
     text: "佛朗机"
+    translated: "Folangji"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【佛朗机"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Folangji]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
+    translated: "Proficient. This equipment requires a masterful level of martial arts to use with ease."
   - split: 21
     text: "习得佛朗机"
+    translated: "Learned Folangji"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -918,19 +1154,25 @@
   splits:
   - split: 2
     text: "机巧铳"
+    translated: "Clockwork Gun"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【机巧铳"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after studying it, you can forge the Clockwork Gun."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得机巧铳"
+    translated: "Learned Clockwork Gun"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -942,19 +1184,25 @@
   splits:
   - split: 2
     text: "墨家千机匣"
+    translated: "Mohist Thousand-Mechanism Case"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【墨家千机匣"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Thousand-Mechanism Case."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得墨家千机匣"
+    translated: "Learned the Mohist Thousand-Mechanism Case"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -966,19 +1214,25 @@
   splits:
   - split: 2
     text: "墨家原型"
+    translated: "Mohist Prototype"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【墨家原型"
+    translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Prototype."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得墨家原型"
+    translated: "Learned Mohist Prototype"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -990,67 +1244,91 @@
   splits:
   - split: 2
     text: "叫花鸡烹饪配方"
+    translated: "Beggar's Chicken Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得叫花鸡的烹饪方法。"
+    translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Beggar's Chicken."
   - split: 21
     text: "习得叫花鸡烹饪配方"
+    translated: "Learned the Beggar's Chicken Cooking Recipe"
 - raw: "49,904054,东坡肉烹饪配方,艺能,2003,2,1,0,\"1,100006\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得东坡肉的烹饪方法。,习得东坡肉烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "东坡肉烹饪配方"
+    translated: "Dongpo Pork Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得东坡肉的烹饪方法。"
+    translated: "Records a culinary technique for a dish; reading and studying it will teach you the method for cooking Dongpo Pork."
   - split: 21
     text: "习得东坡肉烹饪配方"
+    translated: "Learned Dongpo Pork Cooking Recipe"
 - raw: "50,904055,桃花酿烹饪配方,艺能,2003,2,1,0,\"1,100007\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种美酒的酿制配方，阅读研究后可习得桃花酿的酿造方法。,习得桃花酿烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "桃花酿烹饪配方"
+    translated: "Peach Blossom Brew Cooking Recipe"
   - split: 20
     text: "记载了某种美酒的酿制配方，阅读研究后可习得桃花酿的酿造方法。"
+    translated: "Contains the recipe for a certain fine wine; after reading and studying it, you can learn how to brew Peach Blossom Brew."
   - split: 21
     text: "习得桃花酿烹饪配方"
+    translated: "Learned the Peach Blossom Brew Cooking Recipe"
 - raw: "51,904056,蜂蜜麻鸭烹饪配方,艺能,2003,2,1,0,\"1,100008\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蜂蜜麻鸭的烹饪方法。,习得蜂蜜麻鸭烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "蜂蜜麻鸭烹饪配方"
+    translated: "Honey Sesame Duck Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蜂蜜麻鸭的烹饪方法。"
+    translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking Honey Sesame Duck."
   - split: 21
     text: "习得蜂蜜麻鸭烹饪配方"
+    translated: "Learned the Honey Sesame Duck Cooking Recipe"
 - raw: "52,904057,蛋炒饭烹饪配方,艺能,2003,2,1,0,\"1,100009\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蛋炒饭的烹饪方法。,习得蛋炒饭烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "蛋炒饭烹饪配方"
+    translated: "Egg Fried Rice Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蛋炒饭的烹饪方法。"
+    translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking egg fried rice."
   - split: 21
     text: "习得蛋炒饭烹饪配方"
+    translated: "Learned Egg Fried Rice Cooking Recipe"
 - raw: "53,904058,西湖醋鱼烹饪配方,艺能,2003,2,1,0,\"1,100010\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得西湖醋鱼的烹饪方法。,习得西湖醋鱼烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "西湖醋鱼烹饪配方"
+    translated: "West Lake Vinegar Fish Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得西湖醋鱼的烹饪方法。"
+    translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking West Lake Vinegar Fish."
   - split: 21
     text: "习得西湖醋鱼烹饪配方"
+    translated: "Learned the West Lake Vinegar Fish Cooking Recipe"
 - raw: "54,904059,关山月·精锻造配方,艺能,2003,2,0,0,\"2,110043\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了掌套类武器的精制技艺，学习后可以锻造【关山月·精】。此装备需有登峰造极之武境方可运使自如。,习得关山月·精锻造配方,item/958000,,1,1,1,4"
   splits:
   - split: 2
     text: "关山月"
+    translated: "Moon over the Mountain Pass"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【关山月"
+    translated: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge Moon over the Mountain Pass."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得关山月"
+    translated: "Learn Moon over the Mountain Pass"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1062,19 +1340,25 @@
   splits:
   - split: 2
     text: "掌定乾坤"
+    translated: "Palm Settling Heaven and Earth"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【掌定乾坤"
+    translated: "Records the refinement techniques for palm guard weapons; after learning them, you can forge [Palm Settling Heaven and Earth]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得掌定乾坤"
+    translated: "Learned Palm Settling Heaven and Earth"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1086,19 +1370,25 @@
   splits:
   - split: 2
     text: "虚玄"
+    translated: "Void Mystery"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【虚玄"
+    translated: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Xuan]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得虚玄"
+    translated: "Mastering the Void Mysteries"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1110,19 +1400,25 @@
   splits:
   - split: 2
     text: "青璃"
+    translated: "Azure Glaze"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【青璃"
+    translated: "Records the refined craftsmanship of one-handed light blades, allowing you to forge the 【Azure Glass】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得青璃"
+    translated: "Learn Qingli"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1134,19 +1430,25 @@
   splits:
   - split: 2
     text: "纵渊"
+    translated: "Leaping Abyss"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【纵渊"
+    translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Canyon Surge]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得纵渊"
+    translated: "Mastering the Abyssal Gorge"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1158,19 +1460,25 @@
   splits:
   - split: 2
     text: "尘光"
+    translated: "Light of Dust"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【尘光"
+    translated: "Records the refined techniques of one-handed light blades, allowing you to forge the [Dustlight]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得尘光"
+    translated: "Learned Dustlight"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1182,19 +1490,25 @@
   splits:
   - split: 2
     text: "归合"
+    translated: "Return and Unite"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【归合"
+    translated: "Records the refined craftsmanship of one-handed light blades, allowing you to forge [Guhe]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得归合"
+    translated: "Mastering Convergence"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1206,19 +1520,25 @@
   splits:
   - split: 2
     text: "断不平"
+    translated: "Cutting Down Injustice"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【断不平"
+    translated: "Records the refined craftsmanship of one-handed light blades, allowing you to forge [Cutting Down Injustice] after learning it."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得断不平"
+    translated: "Learned Cutting Down Injustice"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1230,19 +1550,25 @@
   splits:
   - split: 2
     text: "不惧"
+    translated: "Fearless"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【不惧"
+    translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Fearless]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得不惧"
+    translated: "Learn to Fear Nothing"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1254,19 +1580,25 @@
   splits:
   - split: 2
     text: "千石沉林"
+    translated: "Thousand Stones Sink the Forest"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【千石沉林"
+    translated: "Records the refined craftsmanship of heavy blades, allowing you to forge Thousand Stones Sink the Forest."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得千石沉林"
+    translated: "Learned Thousand Stones Sink the Forest"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1278,19 +1610,25 @@
   splits:
   - split: 2
     text: "柳絮"
+    translated: "Willow Catkins"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【柳絮"
+    translated: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Willow Fluff】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得柳絮"
+    translated: "Learned Willow Fluff"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1302,19 +1640,25 @@
   splits:
   - split: 2
     text: "圣人无名"
+    translated: "Sage Has No Name"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【圣人无名"
+    translated: "Records the refined craftsmanship of Heavy Blades, allowing you to forge [The Sage Has No Name]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得圣人无名"
+    translated: "Learned The Sage Has No Name"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1326,19 +1670,25 @@
   splits:
   - split: 2
     text: "寒骜"
+    translated: "Cold Arrogance"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【寒骜"
+    translated: "Records the refined techniques for polearms; after learning them, you can forge the [Cold Arrogance]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得寒骜"
+    translated: "Learned Cold Arrogance"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1350,19 +1700,25 @@
   splits:
   - split: 2
     text: "奉天"
+    translated: "By Heaven's Decree"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【奉天"
+    translated: "Records the refined techniques of polearms; after learning them, you can forge [Fengtian"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得奉天"
+    translated: "Learn to Serve Heaven"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1374,19 +1730,25 @@
   splits:
   - split: 2
     text: "迷悟"
+    translated: "Delusion and Awakening"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【迷悟"
+    translated: "Records the refined techniques of polearms; after learning them, you can forge [Enlightenment and Confusion]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得迷悟"
+    translated: "Learned Enlightenment and Confusion"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1398,19 +1760,25 @@
   splits:
   - split: 2
     text: "定规王土"
+    translated: "Establishing Rule over the King's Land"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【定规王土"
+    translated: "Records the refined craftsmanship of polearms; after learning it, you can forge [Establishing Rule over the King's Land]."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得定规王土"
+    translated: "Learned Establishing Rule over the King's Land"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1422,19 +1790,25 @@
   splits:
   - split: 2
     text: "百战死"
+    translated: "Die in a Hundred Battles"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【百战死"
+    translated: "Records the refined craftsmanship of polearms; after learning it, you can forge the Die in a Hundred Battles."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得百战死"
+    translated: "Learn to Die in a Hundred Battles"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1446,19 +1820,25 @@
   splits:
   - split: 2
     text: "镇"
+    translated: "Suppress"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【镇"
+    translated: "Records the refined techniques for polearms; after learning them, you can forge [the legendary]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得镇"
+    translated: "Xi De Town"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1470,19 +1850,25 @@
   splits:
   - split: 2
     text: "饮余生"
+    translated: "Drinking the Rest of Life"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【饮余生"
+    translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft [Drinking the Rest of Life]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得饮余生"
+    translated: "Learned Drinking the Rest of Life"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1494,19 +1880,25 @@
   splits:
   - split: 2
     text: "焚琴煮鹤"
+    translated: "Burning the Zither, Cooking the Crane"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【焚琴煮鹤"
+    translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can create [Burning the Zither, Cooking the Crane]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得焚琴煮鹤"
+    translated: "Learned Burning the Zither, Cooking the Crane"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1518,19 +1910,25 @@
   splits:
   - split: 2
     text: "展颜"
+    translated: "Smile Unfurled"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【展颜"
+    translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft [Show a Smile]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得展颜"
+    translated: "Learn to Smile Gracefully"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1542,19 +1940,25 @@
   splits:
   - split: 2
     text: "离愁"
+    translated: "Parting Sorrow"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【离愁"
+    translated: "Records the refinement techniques for hidden weapons; after learning them, you can forge [Sorrow of Parting]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得离愁"
+    translated: "Learning Parting Sorrow"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1566,19 +1970,25 @@
   splits:
   - split: 2
     text: "红拂"
+    translated: "Red Whisk"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【红拂"
+    translated: "Records the refinement techniques for hidden weapons; after learning them, you can forge the [Red-Fisted]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得红拂"
+    translated: "Learn Red Phoenix Techniques"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1590,19 +2000,25 @@
   splits:
   - split: 2
     text: "楚人赋"
+    translated: "Ode of the Chu Man"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【楚人赋"
+    translated: "Records the refinement techniques for hidden weapons; after learning them, you can forge the Ode of the Chu Man."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得楚人赋"
+    translated: "Learned Ode of the Chu Man"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1614,19 +2030,25 @@
   splits:
   - split: 2
     text: "踏雪"
+    translated: "Snow Treader"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【踏雪"
+    translated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Treading Snow]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得踏雪"
+    translated: "Mastering Treading Snow"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1638,19 +2060,25 @@
   splits:
   - split: 2
     text: "游子"
+    translated: "Wanderer"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【游子"
+    translated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Wandering Scholar]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得游子"
+    translated: "Wandering Scholar's Mastery"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1662,19 +2090,25 @@
   splits:
   - split: 2
     text: "捭阖"
+    translated: "Open and Close"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【捭阖"
+    translated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Opening and Closing"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得捭阖"
+    translated: "Mastering Persuasion and Influence"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1686,19 +2120,25 @@
   splits:
   - split: 2
     text: "绿竹"
+    translated: "Green Bamboo"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【绿竹"
+    translated: "Records the refined craftsmanship of two-handed light blades, allowing you to forge the 【Green Bamboo】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得绿竹"
+    translated: "Learn Green Bamboo Technique"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1710,19 +2150,25 @@
   splits:
   - split: 2
     text: "鬼十刃"
+    translated: "Ghost Ten Blades"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【鬼十刃"
+    translated: "Records the refined craftsmanship of two-handed light blades; after studying it, you can forge the Ghost Ten Blades."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得鬼十刃"
+    translated: "Learned Ghost Ten Blades"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1734,19 +2180,25 @@
   splits:
   - split: 2
     text: "至心"
+    translated: "Utmost Sincerity"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【至心"
+    translated: "Records the refined techniques of two-handed light blades, allowing you to forge [With Sincerity]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得至心"
+    translated: "Learned with all one's heart"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1758,19 +2210,25 @@
   splits:
   - split: 2
     text: "饮风"
+    translated: "Drinking the Wind"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【饮风"
+    translated: "Records the refined techniques of rope dart weapons; after learning them, you can forge [Drinking Wind]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得饮风"
+    translated: "Learn to Drink the Wind"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1782,19 +2240,25 @@
   splits:
   - split: 2
     text: "幽音"
+    translated: "Hidden Sound"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【幽音"
+    translated: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge [Yonyin]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得幽音"
+    translated: "Mastering Muted Tones"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1806,19 +2270,25 @@
   splits:
   - split: 2
     text: "碎幻"
+    translated: "Shattered Illusion"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【碎幻"
+    translated: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge [Shattered Illusion]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得碎幻"
+    translated: "Learn Shattered Illusion"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1830,19 +2300,25 @@
   splits:
   - split: 2
     text: "墨枢"
+    translated: "Ink Pivot"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【墨枢"
+    translated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can craft the 【Moxiu】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得墨枢"
+    translated: "Learned Black Pivot"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1854,19 +2330,25 @@
   splits:
   - split: 2
     text: "寒弦逐月"
+    translated: "Cold String Chases the Moon"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【寒弦逐月"
+    translated: "Records the refined craftsmanship of bow weapons; after learning it, you can craft the Cold String Chases the Moon."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得寒弦逐月"
+    translated: "Learned Cold String Chases the Moon"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1878,19 +2360,25 @@
   splits:
   - split: 2
     text: "青冥羽"
+    translated: "Azure Void Feather"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【青冥羽"
+    translated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture the 【Azure Void Feather】"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得青冥羽"
+    translated: "Learned Azure Void Feather"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1902,19 +2390,25 @@
   splits:
   - split: 2
     text: "相思缠"
+    translated: "Longing's Bind"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了软鞭类武器的精制技艺，学习后可以制造【相思缠"
+    translated: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft the 'Longing's Bind'."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得相思缠"
+    translated: "Learn Longing's Bind"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1926,19 +2420,25 @@
   splits:
   - split: 2
     text: "沧漫"
+    translated: "Boundless Blue"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了软鞭类武器的精制技艺，学习后可以制造【沧漫"
+    translated: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft [Cangman"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得沧漫"
+    translated: "Learn Cangman"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1950,19 +2450,25 @@
   splits:
   - split: 2
     text: "龙蛇"
+    translated: "Dragon and Serpent"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了软鞭类武器的精制技艺，学习后可以制造【龙蛇"
+    translated: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft [Dragon Snake]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得龙蛇"
+    translated: "Learning Dragon and Snake Style"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1974,19 +2480,25 @@
   splits:
   - split: 2
     text: "擘鲤"
+    translated: "Splitting the Carp"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【擘鲤"
+    translated: "Records the refined techniques for short weapons, allowing you to forge [Prying Carp]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得擘鲤"
+    translated: "Learned Carp Dissection"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1998,19 +2510,25 @@
   splits:
   - split: 2
     text: "环月吟"
+    translated: "Ring-Moon Chant"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【环月吟"
+    translated: "Records the refinement techniques for short weapons; after learning them, you can forge the Ring-Moon Chant."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得环月吟"
+    translated: "Learned Ring-Moon Chant"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2022,19 +2540,25 @@
   splits:
   - split: 2
     text: "双影依身"
+    translated: "Twin Shadows Cling to the Body"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【双影依身"
+    translated: "Records the refinement techniques for short weapons; after learning them, you can forge Twin Shadows Cling to the Body."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
+    translated: "Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
   - split: 21
     text: "习得双影依身"
+    translated: "Learned Twin Shadows Cling to the Body"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2046,19 +2570,25 @@
   splits:
   - split: 2
     text: "羽罗披"
+    translated: "Feather-Gauze Cloak"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【羽罗披"
+    translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew a Feather-Gauze Cloak."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得羽罗披"
+    translated: "Learned Feather-Gauze Cloak"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2070,19 +2600,25 @@
   splits:
   - split: 2
     text: "露华"
+    translated: "Dew Splendor"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【露华"
+    translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew the [Luhua]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得露华"
+    translated: "Learn Lu Hua"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2094,19 +2630,25 @@
   splits:
   - split: 2
     text: "天衢"
+    translated: "Heavenly Thoroughfare"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【天衢"
+    translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew [Tianqu"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得天衢"
+    translated: "Learned Skyway Technique"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2118,19 +2660,25 @@
   splits:
   - split: 2
     text: "刑天臂"
+    translated: "Xingtian's Arm"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【刑天臂"
+    translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge Xingtian's Arm."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得刑天臂"
+    translated: "Learned Xingtian's Arm"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2142,19 +2690,25 @@
   splits:
   - split: 2
     text: "敛骨"
+    translated: "Gathering Bones"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【敛骨"
+    translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Bone Gathering]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得敛骨"
+    translated: "Learning to Gather Bones"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2166,19 +2720,25 @@
   splits:
   - split: 2
     text: "归一"
+    translated: "Return to One"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【归一"
+    translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Unification]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得归一"
+    translated: "Master Unity"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2190,19 +2750,25 @@
   splits:
   - split: 2
     text: "飞琼"
+    translated: "Flying Gem"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【飞琼"
+    translated: "Records the refined craftsmanship of leg guard equipment; after learning it, you can forge [Fei Qiong]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得飞琼"
+    translated: "Learn Feiqiong"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2214,19 +2780,25 @@
   splits:
   - split: 2
     text: "玉城"
+    translated: "Jade City"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【玉城"
+    translated: "Records the refined techniques for leg guards equipment; after learning them, you can forge [Jade City"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得玉城"
+    translated: "Learn Jade City"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2238,19 +2810,25 @@
   splits:
   - split: 2
     text: "孤鹜"
+    translated: "Lone Duck"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【孤鹜"
+    translated: "Records the refined craftsmanship of leg guard equipment; after learning it, you can forge [Solitary Wild Goose]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得孤鹜"
+    translated: "Learn Lone Wild Goose"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2262,19 +2840,25 @@
   splits:
   - split: 2
     text: "浩然意"
+    translated: "Haoran Spirit"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【浩然意"
+    translated: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew the Haoran Spirit."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得浩然意"
+    translated: "Learned Haoran Spirit"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2286,19 +2870,25 @@
   splits:
   - split: 2
     text: "逢龙"
+    translated: "Meeting the Dragon"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【逢龙"
+    translated: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew [Feng Long]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得逢龙"
+    translated: "Learning to Encounter Dragons"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2310,19 +2900,25 @@
   splits:
   - split: 2
     text: "缚海"
+    translated: "Binding the Sea"
   - split: 2
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【缚海"
+    translated: "Records the refined craftsmanship of waist guard equipment. After learning it, you can sew the [Seafarer's Binding]"
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
+    translated: "This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 21
     text: "习得缚海"
+    translated: "Learning to Bind the Sea"
   - split: 21
     subIndex: 1
     text: "精锻造配方"
+    translated: "Refined Forging Recipe"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -2334,191 +2930,263 @@
   splits:
   - split: 2
     text: "还复膏药方"
+    translated: "Restoration Ointment Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得还复膏的制药方法。"
+    translated: "Contains a recipe for some medicinal herb, reading it will teach you the method to make the Restoration Ointment."
   - split: 21
     text: "习得还复膏配方"
+    translated: "Learned the recipe for Restoration Ointment"
 - raw: "109,904114,理气丸药方,艺能,3002,2,1,0,\"3,120002\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得理气丸的制药方法。,习得理气丸配方,item/958000,,1,1,1,1"
   splits:
   - split: 2
     text: "理气丸药方"
+    translated: "Qi-Regulating Pill Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得理气丸的制药方法。"
+    translated: "Contains a recipe for a certain herb formula; reading it will teach you how to make Qi-Regulating Pills."
   - split: 21
     text: "习得理气丸配方"
+    translated: "Learned the recipe for Qi-Regulating Pills"
 - raw: "110,904115,白霞散药方,艺能,3003,2,1,0,\"3,120003\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得白霞散的制药方法。,习得白霞散配方,item/958000,,1,1,1,2"
   splits:
   - split: 2
     text: "白霞散药方"
+    translated: "White Glow Powder Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得白霞散的制药方法。"
+    translated: "Contains a recipe for some medicinal herb. Reading it will teach you how to make White Glow Powder."
   - split: 21
     text: "习得白霞散配方"
+    translated: "Learned the recipe for White Glow Powder"
 - raw: "111,904116,玉髓膏药方,艺能,3004,2,1,0,\"3,120004\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得玉髓膏的制药方法。,习得玉髓膏配方,item/958000,,1,1,1,3"
   splits:
   - split: 2
     text: "玉髓膏药方"
+    translated: "Jade Marrow Ointment Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得玉髓膏的制药方法。"
+    translated: "Contains a recipe for a medicinal formula; reading it will teach you how to make the Jade Marrow Ointment."
   - split: 21
     text: "习得玉髓膏配方"
+    translated: "Learned the recipe for Jade Marrow Ointment"
 - raw: "112,904117,止血草药方,艺能,3005,2,1,0,\"3,120005\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得止血草的制药方法。,习得止血草配方,item/958000,,1,1,1,1"
   splits:
   - split: 2
     text: "止血草药方"
+    translated: "Styptic Herb Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得止血草的制药方法。"
+    translated: "Contains a prescription for some medicinal herb; reading it will teach you the method to prepare Styptic Herb."
   - split: 21
     text: "习得止血草配方"
+    translated: "Learned Styptic Herb recipe"
 - raw: "113,904118,金创散药方,艺能,3006,2,1,0,\"3,120006\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得金创散的制药方法。,习得金创散配方,item/958000,,1,1,1,1"
   splits:
   - split: 2
     text: "金创散药方"
+    translated: "Wound-Mending Powder Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得金创散的制药方法。"
+    translated: "Contains a recipe for a medicinal formula; reading it will teach you how to make Wound-Mending Powder."
   - split: 21
     text: "习得金创散配方"
+    translated: "Learned the recipe for Wound-Mending Powder"
 - raw: "114,904119,净血丸药方,艺能,3007,2,1,0,\"3,120007\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得净血丸的制药方法。,习得净血丸配方,item/958000,,1,1,1,2"
   splits:
   - split: 2
     text: "净血丸药方"
+    translated: "Blood-Purifying Pill Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得净血丸的制药方法。"
+    translated: "Contains a recipe for a certain herb formula; reading it will teach you how to make the Blood-Purifying Pill."
   - split: 21
     text: "习得净血丸配方"
+    translated: "Learned the recipe for Blood-Purifying Pill"
 - raw: "115,904120,雪蟾膏药方,艺能,3008,2,1,0,\"3,120008\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得雪蟾膏的制药方法。,习得雪蟾膏配方,item/958000,,1,1,1,3"
   splits:
   - split: 2
     text: "雪蟾膏药方"
+    translated: "Snow Toad Ointment Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得雪蟾膏的制药方法。"
+    translated: "Contains a recipe for some medicinal ingredient; reading it will teach you how to make Snow Toad Ointment."
   - split: 21
     text: "习得雪蟾膏配方"
+    translated: "Learned the recipe for Snow Toad Ointment"
 - raw: "116,904121,蕴灵散药方,艺能,3009,2,1,0,\"3,120009\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得蕴灵散的制药方法。,习得蕴灵散配方,item/958000,,1,1,4,1"
   splits:
   - split: 2
     text: "蕴灵散药方"
+    translated: "Spirit-Nourishing Powder Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得蕴灵散的制药方法。"
+    translated: "Contains a recipe for some herb, reading it will teach you the method to make Spirit-Nourishing Powder."
   - split: 21
     text: "习得蕴灵散配方"
+    translated: "Learned the Spirit-Nourishing Powder recipe"
 - raw: "117,904122,归元散药方,艺能,3010,2,1,0,\"3,120010\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得归元散的制药方法。,习得归元散配方,item/958000,,1,1,2,1"
   splits:
   - split: 2
     text: "归元散药方"
+    translated: "Origin-Returning Powder Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得归元散的制药方法。"
+    translated: "Contains a recipe for a certain herb formula; reading it will teach you how to make Origin-Returning Powder."
   - split: 21
     text: "习得归元散配方"
+    translated: "Learned the recipe for Origin-Returning Powder"
 - raw: "118,904123,葱花鱼汤烹饪配方,艺能,2002,2,1,0,\"1,100011\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。,习得葱花鱼汤配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "葱花鱼汤烹饪配方"
+    translated: "Scallion Fish Soup Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。"
+    translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking scallion fish soup."
   - split: 21
     text: "习得葱花鱼汤配方"
+    translated: "Learned the recipe for Scallion Fish Soup"
 - raw: "119,904124,清蒸银刀鱼烹饪配方,艺能,2003,2,1,0,\"1,100012\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得清蒸银刀鱼的烹饪方法。,习得清蒸银刀鱼配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "清蒸银刀鱼烹饪配方"
+    translated: "Steamed Silver Knife Fish Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得清蒸银刀鱼的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for steamed Silver Knife Fish."
   - split: 21
     text: "习得清蒸银刀鱼配方"
+    translated: "Learned the recipe for Steamed Silver Knife Fish"
 - raw: "120,904125,醉仙鱼烹饪配方,艺能,2004,2,1,0,\"1,100013\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得醉仙鱼的烹饪方法。,习得醉仙鱼配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "醉仙鱼烹饪配方"
+    translated: "Drunken Immortal Fish Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得醉仙鱼的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Drunken Immortal Fish."
   - split: 21
     text: "习得醉仙鱼配方"
+    translated: "Learned Drunken Immortal Fish recipe"
 - raw: "121,904126,盐焗虾烹饪配方,艺能,2002,2,1,0,\"1,100014\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得盐焗虾的烹饪方法。,习得盐焗虾配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "盐焗虾烹饪配方"
+    translated: "Salt-Baked Shrimp Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得盐焗虾的烹饪方法。"
+    translated: "Records a culinary technique for a dish; reading and studying it will allow you to learn the method for cooking salt-baked shrimp."
   - split: 21
     text: "习得盐焗虾配方"
+    translated: "Learned the recipe for Salt-Baked Shrimp"
 - raw: "122,904127,椒爆鲜虾段烹饪配方,艺能,2003,2,1,0,\"1,100015\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得椒爆鲜虾段的烹饪方法。,习得椒爆鲜虾段配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "椒爆鲜虾段烹饪配方"
+    translated: "Pepper-Fried Fresh Shrimp Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得椒爆鲜虾段的烹饪方法。"
+    translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Pepper-Fried Fresh Shrimp."
   - split: 21
     text: "习得椒爆鲜虾段配方"
+    translated: "Learned the recipe for Pepper-Fried Fresh Shrimp"
 - raw: "123,904128,血玉虾羹烹饪配方,艺能,2004,2,1,0,\"1,100016\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得血玉虾羹的烹饪方法。,习得血玉虾羹配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "血玉虾羹烹饪配方"
+    translated: "Blood-Jade Shrimp Soup Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得血玉虾羹的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Blood-Jade Shrimp Soup."
   - split: 21
     text: "习得血玉虾羹配方"
+    translated: "Learned the recipe for Blood-Jade Shrimp Soup"
 - raw: "124,904129,蟹肉豆腐煲烹饪配方,艺能,2002,2,1,0,\"1,100017\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蟹肉豆腐煲的烹饪方法。,习得蟹肉豆腐煲配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "蟹肉豆腐煲烹饪配方"
+    translated: "Crab Meat Tofu Pot Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蟹肉豆腐煲的烹饪方法。"
+    translated: "Records a cooking technique for a certain dish. After reading and studying it, you can learn the method for Cooking Crab Meat Tofu Pot."
   - split: 21
     text: "习得蟹肉豆腐煲配方"
+    translated: "Learned the recipe for Crab Meat Tofu Pot"
 - raw: "125,904130,蟹脂蛋羹烹饪配方,艺能,2003,2,1,0,\"1,100018\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蟹脂蛋羹的烹饪方法。,习得蟹脂蛋羹配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "蟹脂蛋羹烹饪配方"
+    translated: "Crab Roe Steamed Egg Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蟹脂蛋羹的烹饪方法。"
+    translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Crab Roe Steamed Egg."
   - split: 21
     text: "习得蟹脂蛋羹配方"
+    translated: "Learned the recipe for Crab Roe Steamed Egg"
 - raw: "126,904131,蓝田玉蟹酿烹饪配方,艺能,2004,2,1,0,\"1,100019\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蓝田玉蟹酿的烹饪方法。,习得蓝田玉蟹酿配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "蓝田玉蟹酿烹饪配方"
+    translated: "Lantian Jade Stuffed Crab Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蓝田玉蟹酿的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Lantian Jade Stuffed Crab."
   - split: 21
     text: "习得蓝田玉蟹酿配方"
+    translated: "Learned the recipe for Lantian Jade Stuffed Crab"
 - raw: "127,904132,草螺羹烹饪配方,艺能,2002,2,1,0,\"1,100020\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得草螺羹的烹饪方法。,习得草螺羹配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "草螺羹烹饪配方"
+    translated: "Grass Snail Soup Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得草螺羹的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Grass Snail Soup."
   - split: 21
     text: "习得草螺羹配方"
+    translated: "Learned the recipe for Grass Snail Soup"
 - raw: "128,904133,翡翠煨白螺烹饪配方,艺能,2003,2,1,0,\"1,100021\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得翡翠煨白螺的烹饪方法。,习得翡翠煨白螺配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "翡翠煨白螺烹饪配方"
+    translated: "Jade-Simmered White Snail Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得翡翠煨白螺的烹饪方法。"
+    translated: "Records a culinary technique for a dish; reading and studying it will allow you to learn the method for cooking Jade-Simmered White Snail."
   - split: 21
     text: "习得翡翠煨白螺配方"
+    translated: "Learned the recipe for Jade-Simmered White Snail"
 - raw: "129,904134,彩云螺肉烧烹饪配方,艺能,2004,2,1,0,\"1,100022\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得彩云螺肉烧的烹饪方法。,习得彩云螺肉烧配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "彩云螺肉烧烹饪配方"
+    translated: "Colorful Cloud Snail Braise Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得彩云螺肉烧的烹饪方法。"
+    translated: "Records a certain dish's culinary technique; reading and studying it allows you to learn the method for Cooking Colorful Cloud Snail Braise."
   - split: 21
     text: "习得彩云螺肉烧配方"
+    translated: "Learned the recipe for Colorful Cloud Snail Braise"
 - raw: "130,904135,乾坤一锅炖食补药方,艺能,3011,2,1,0,\"3,100023\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得乾坤一锅烩的食补方法。,习得乾坤一锅烩配方,item/958000,,1,1,2,3"
   splits:
   - split: 2
     text: "乾坤一锅炖食补药方"
+    translated: "One Pot of Heaven and Earth Nourishing Stew Formula"
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得乾坤一锅烩的食补方法。"
+    translated: "Contains a prescription for a medicinal herb. Reading it will teach you the method for making One Pot of Heaven and Earth for nourishment."
   - split: 21
     text: "习得乾坤一锅烩配方"
+    translated: "Learned the recipe for One Pot of Heaven and Earth"
 - raw: "131,904136,沙枣酥烹饪配方,艺能,1001,2,1,0,\"1,100024\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。,习得沙枣酥烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "沙枣酥烹饪配方"
+    translated: "Oleaster Pastry Cooking Recipe"
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。"
+    translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking scallion fish soup."
   - split: 21
     text: "习得沙枣酥烹饪配方"
+    translated: "Learned the Oleaster Pastry Cooking Recipe"

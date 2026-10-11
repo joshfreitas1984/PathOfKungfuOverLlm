@@ -1,0 +1,172 @@
+# Overrides of LlmKit preset glossary lines for this game. A workspace entry replaces the preset entry with the same raw, so each block repeats the
+# preset line and only adds `badtrans: false` (kept in the prompt, never flags a fluent translation) or extra `allowalt` values.
+
+- raw: 兄弟
+  result: Brother
+  allowalt:
+  - fellow
+  - young men
+  literal: Xiong Di
+  context: A term that can refer to literal brothers by birth or metaphorically to close friends or comrades who share a bond similar to familial ties.
+  badtrans: false
+- raw: 小兄弟
+  result: Little Brother
+  literal: Xiao Xiong Di
+  context: Used to address a younger male peer in a friendly, respectful manner.
+  allowalt:
+    - young men
+  badtrans: false
+- raw: 弟弟
+  result: Younger Brother
+  allowalt:
+  - Little Brother
+  - Brother
+  literal: Di Di
+  context: Refers to one's younger brother.
+  badtrans: false
+- raw: 姐姐
+  result: Older Sister
+  allowalt:
+  - Sister
+  literal: Jie Jie
+  context: Refers to one's older sister.
+  badtrans: false
+- raw: 妹妹
+  result: Younger Sister
+  allowalt:
+  - Sister
+  literal: Mei Mei
+  context: Refers to one's younger sister.
+  badtrans: false
+- raw: 婆婆
+  result: Grandma
+  allowalt:
+  - Fussing
+  - Fussy
+  literal: Po Po
+  context: Conflicts with idiom moms and grandmas (fussing around)
+  badtrans: false
+- raw: 将军
+  rawSimplified: 将军
+  rawTraditional: 將軍
+  result: General
+  direct: general
+  literal: jiangjun
+  allowalt:
+    - military
+    - arms
+  badtrans: false
+- raw: 庄主
+  rawSimplified: 庄主
+  rawTraditional: 莊主
+  result: Manor Master
+  allowalt:
+    - Master
+  badtrans: false
+- raw: 剑
+  rawSimplified: 剑
+  rawTraditional: 劍
+  result: Sword
+  allowalt:
+  - Jian
+  - scabbard
+  - sharp  
+  context: Sometimes gets translated inccorectly
+  badtrans: false
+- raw: 修养
+  rawSimplified: 修养
+  rawTraditional: 修養
+  result: Cultivation
+  allowalt:
+  - Cultivate
+  badtrans: false
+- raw: 双击
+  rawSimplified: 双击
+  rawTraditional: 雙擊
+  result: Double tap
+  direct: Double-click
+  literal: Shuangji
+  badtrans: false
+- raw: 南宮
+  rawSimplified: 南宫
+  rawTraditional: 南宮
+  result: Nangong
+  direct: Southern Palace
+  literal: Nangong
+  badtrans: false
+- raw: 侠士
+  result: "Hero"
+  literal: xia shi
+  badtrans: false
+- raw: 流民
+  result: Refugee
+  direct: Displaced people
+  literal: Liu min
+  badtrans: false
+- raw: 掌柜
+  rawSimplified: 掌柜
+  rawTraditional: 掌櫃
+  result: Shopkeeper
+  badtrans: false
+- raw: 幫主
+  rawSimplified: 帮主
+  rawTraditional: 幫主
+  result: Gang Leader
+  allowalt:
+  - Sect Leader
+  - Sect Master
+  - Gang Master
+  - Leader
+  direct: bang zhu
+  literal: gang/master
+  badtrans: false
+- raw: 掌門
+  rawSimplified: 掌门
+  rawTraditional: 掌門
+  result: Sect Leader
+  allowalt:
+  - Palm Leader
+  - Palm Master
+  - Sect Master
+  - Master
+  - Leader
+  direct: zhang men
+  literal: palm/leader of the sect
+  badtrans: false
+- raw: 大师兄
+  rawSimplified: 大师兄
+  rawTraditional: 大師兄
+  result: Big Senior Brother
+  direct: Big Senior Brother
+  literal: Da Shixiong
+  allowalt:
+    - Senior Brother
+    - Big Brother 
+  badtrans: false
+- raw: 暗器
+  result: Hidden Weapon
+  allowalt:
+  - "Throwing"
+- raw: 码头
+  rawSimplified: 码头
+  rawTraditional: 碼頭
+  result: Port
+  allowalt:
+  - "Dock"
+  - "Pier"
+  - "Wharf"
+- raw: 酒楼
+  rawSimplified: 酒楼
+  rawTraditional: 酒樓
+  result: Tavern
+  allowalt:
+  - "Inn"
+  - "Restaurant"
+- raw: 农田
+  rawSimplified: 农田
+  rawTraditional: 農田
+  result: Crop Field
+  allowalt:
+  - "Farmland"
+  - "Field"
+  - "Farm"

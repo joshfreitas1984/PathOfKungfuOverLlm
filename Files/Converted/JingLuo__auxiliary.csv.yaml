@@ -2,462 +2,576 @@
   splits:
   - split: 2
     text: "穴道名"
+    translated: "Acupoint name"
 - raw: "2,id,name,pos,tip,close,,,"
 - raw: "3,1010101,关冲,G5,内功攻击+1,0,,,"
   splits:
   - split: 2
     text: "关冲"
+    translated: "Guanchong"
 - raw: "4,1020101,隐白,F5,外功攻击+1,0,,,"
   splits:
   - split: 2
     text: "隐白"
+    translated: "Yinbai"
 - raw: "5,1020201,大包,H3,气血上限+12,0,,,"
   splits:
   - split: 2
     text: "大包"
+    translated: "Dabao"
 - raw: "6,1030101,攒竹,I3,外功攻击+1,0,,,"
   splits:
   - split: 2
     text: "攒竹"
+    translated: "Zanzhu"
 - raw: "7,1030102,扶突,G6,外功防御+1,0,,,"
   splits:
   - split: 2
     text: "扶突"
+    translated: "Support and rush"
 - raw: "8,1030201,曲池,H3,气血上限+12,0,,,"
   splits:
   - split: 2
     text: "曲池"
+    translated: "Quchi"
 - raw: "9,1030202,商阳,F5,气血上限+12,0,,,"
   splits:
   - split: 2
     text: "商阳"
+    translated: "Shangyang"
 - raw: "10,1040101,听会,I4,内功攻击+1,0,,,"
   splits:
   - split: 2
     text: "听会"
+    translated: "Tinghui"
 - raw: "11,1040102,天冲,F7,内功防御+1,0,,,"
   splits:
   - split: 2
     text: "天冲"
+    translated: "Tianchong"
 - raw: "12,1040201,四白,G5,气血上限+12,0,,,"
   splits:
   - split: 2
     text: "四白"
+    translated: "Four Whites"
 - raw: "13,1040202,承灵,I6,气血上限+12,0,,,"
   splits:
   - split: 2
     text: "承灵"
+    translated: "Cheng Ling"
 - raw: "14,1040301,,G3,气血恢复+1,0,,,"
 - raw: "15,1040302,,G6,气血恢复+1,0,,,"
 - raw: "16,1050101,后溪,G3,内功攻击+1,0,,,"
   splits:
   - split: 2
     text: "后溪"
+    translated: "Houxi"
 - raw: "17,1050102,少泽,G6,内功防御+1,0,,,"
   splits:
   - split: 2
     text: "少泽"
+    translated: "Shaoze"
 - raw: "18,1050201,风池,I5,气血上限+24,0,,,"
   splits:
   - split: 2
     text: "风池"
+    translated: "Fengchi"
 - raw: "19,1050202,腕谷,M5,气血恢复+1,0,,,"
   splits:
   - split: 2
     text: "腕谷"
+    translated: "Wrist Valley"
 - raw: "20,1050301,,F5,气血恢复+1,0,,,"
 - raw: "21,1050302,,H3,气血恢复+1,0,,,"
 - raw: "22,1060101,天府,F5,外功攻击+1,0,,,"
   splits:
   - split: 2
     text: "天府"
+    translated: "Tianfu"
 - raw: "23,1060102,中府,H3,外功防御+1,0,,,"
   splits:
   - split: 2
     text: "中府"
+    translated: "Zhongfu"
 - raw: "24,1060201,侠白,G4,气血上限+24,0,,,"
   splits:
   - split: 2
     text: "侠白"
+    translated: "Xiaobai"
 - raw: "25,1060202,尺泽,G7,气血恢复+1,0,,,"
   splits:
   - split: 2
     text: "尺泽"
+    translated: "Chize"
 - raw: "26,1070101,鱼际,C5,内功攻击+6,0,,,"
   splits:
   - split: 2
     text: "鱼际"
+    translated: "Yuji"
 - raw: "27,1070102,少商,G5,内功防御+2,0,,,"
   splits:
   - split: 2
     text: "少商"
+    translated: "Shaoshang"
 - raw: "28,1070201,灵道,J4,气血上限+48,0,,,"
   splits:
   - split: 2
     text: "灵道"
+    translated: "Lingdao"
 - raw: "29,1070202,关元,F6,气血恢复+1,0,,,"
   splits:
   - split: 2
     text: "关元"
+    translated: "Guanyuan"
 - raw: "30,1070301,合谷,E4,气血上限+48,0,,,"
   splits:
   - split: 2
     text: "合谷"
+    translated: "He Gu"
 - raw: "31,1070302,温溜,I6,气血恢复+1,0,,,"
   splits:
   - split: 2
     text: "温溜"
+    translated: "Wen Liu"
 - raw: "32,1080101,1,G2,外功攻击+9,,,,"
 - raw: "33,1080102,2,H7,外功防御+3,,,,"
 - raw: "34,1080201,偏历,I4,气血上限+48,,,,"
   splits:
   - split: 2
     text: "偏历"
+    translated: "Pianli"
 - raw: "35,1080202,丘墟,K8,气血恢复+1,,,,"
   splits:
   - split: 2
     text: "丘墟"
+    translated: "Qiuxu"
 - raw: "36,1080301,外丘,L4,气血上限+48,,,,"
   splits:
   - split: 2
     text: "外丘"
+    translated: "Waiqiu"
 - raw: "37,1080302,曲垣,I7,气血恢复+1,,,,"
   splits:
   - split: 2
     text: "曲垣"
+    translated: "Quyuan"
 - raw: "38,1090101,阳陵泉,D6,外功攻击+9,,,,"
   splits:
   - split: 2
     text: "阳陵泉"
+    translated: "Yanglingquan"
 - raw: "39,1090102,养老,G9,外功防御+3,,,,"
   splits:
   - split: 2
     text: "养老"
+    translated: "Yanglao"
 - raw: "40,1090201,支正,C5,气血上限+72,,,,"
   splits:
   - split: 2
     text: "支正"
+    translated: "Support Yang Zheng"
 - raw: "41,1090202,孔最,G7,气血恢复+1,,,,"
   splits:
   - split: 2
     text: "孔最"
+    translated: "Kong Zui"
 - raw: "42,1090301,列缺,G4,气血上限+72,,,,"
   splits:
   - split: 2
     text: "列缺"
+    translated: "Lieque"
 - raw: "43,1090302,阴郄,G6,气血恢复+1,,,,"
   splits:
   - split: 2
     text: "阴郄"
+    translated: "Yinxi"
 - raw: "44,1100101,神门,I5,内功攻击+9,,,,"
   splits:
   - split: 2
     text: "神门"
+    translated: "Shenmen"
 - raw: "45,1100102,通里,L7,内功防御+3,,,,"
   splits:
   - split: 2
     text: "通里"
+    translated: "Tongli"
 - raw: "46,1100201,大赫,K3,气血上限+72,,,,"
   splits:
   - split: 2
     text: "大赫"
+    translated: "Great Hero Wan"
 - raw: "47,1100202,横骨,K8,气血恢复+1,,,,"
   splits:
   - split: 2
     text: "横骨"
+    translated: "Crossbone"
 - raw: "48,1100301,中渚,J3,气血上限+72,,,,"
   splits:
   - split: 2
     text: "中渚"
+    translated: "Zhongzhu"
 - raw: "49,1100302,大都,D7,气血恢复+1,,,,"
   splits:
   - split: 2
     text: "大都"
+    translated: "Dadu"
 - raw: "50,1110101,侠溪,D2,内功攻击+15,,,,"
   splits:
   - split: 2
     text: "侠溪"
+    translated: "Xiaxi River"
 - raw: "51,1110102,小海,D8,内功防御+6,,,,"
   splits:
   - split: 2
     text: "小海"
+    translated: "Xiaohai"
 - raw: "52,1110201,京门,E5,气血上限+120,,,,"
   splits:
   - split: 2
     text: "京门"
+    translated: "Jingmen"
 - raw: "53,1110202,经渠,G8,气血恢复+2,,,,"
   splits:
   - split: 2
     text: "经渠"
+    translated: "Jingqiu"
 - raw: "54,1110301,玉环,I2,气血上限+120,,,,"
   splits:
   - split: 2
     text: "玉环"
+    translated: "Yuhuan"
 - raw: "55,1110302,地枢,M6,气血恢复+2,,,,"
   splits:
   - split: 2
     text: "地枢"
+    translated: "Earth Pivot"
 - raw: "56,1120101,玉房,L5,外功攻击+15,,,,"
   splits:
   - split: 2
     text: "玉房"
+    translated: "Jade Chamber"
 - raw: "57,1120102,天枢,I8,外功防御+6,,,,"
   splits:
   - split: 2
     text: "天枢"
+    translated: "Tianshu"
 - raw: "58,1120201,日维,E8,气血上限+120,,,,"
   splits:
   - split: 2
     text: "日维"
+    translated: "Riwei"
 - raw: "59,1120202,人枢,J8,气血恢复+2,,,,"
   splits:
   - split: 2
     text: "人枢"
+    translated: "Renshu"
 - raw: "60,1120301,月维,L3,气血上限+120,,,,"
   splits:
   - split: 2
     text: "月维"
+    translated: "August"
 - raw: "61,1120302,星维,H8,气血恢复+2,,,,"
   splits:
   - split: 2
     text: "星维"
+    translated: "Xingwei"
 - raw: "62,2010101,青灵,K2,内功攻击+24,,,,"
   splits:
   - split: 2
     text: "青灵"
+    translated: "Qing Ling"
 - raw: "63,2010102,幽门,M7,内功防御+10,,,,"
   splits:
   - split: 2
     text: "幽门"
+    translated: "Youmen"
 - raw: "64,2010201,行间,C8,气血上限+192,,,,"
   splits:
   - split: 2
     text: "行间"
+    translated: "Hangjian"
 - raw: "65,2010202,太冲,K8,气血恢复+3,,,,"
   splits:
   - split: 2
     text: "太冲"
+    translated: "Taichong"
 - raw: "66,2010301,百虫,I2,气血上限+192,,,,"
   splits:
   - split: 2
     text: "百虫"
+    translated: "Hundred Insects"
 - raw: "67,2010302,内关,L6,气血恢复+3,,,,"
   splits:
   - split: 2
     text: "内关"
+    translated: "Neiguan"
 - raw: "68,2020101,劳宫,M3,外功攻击+24,,,,"
   splits:
   - split: 2
     text: "劳宫"
+    translated: "Laogong"
 - raw: "69,2020102,公孙,K8,外功防御+10,,,,"
   splits:
   - split: 2
     text: "公孙"
+    translated: "Gongsun"
 - raw: "70,2020201,命门,L2,气血上限+192,,,,"
   splits:
   - split: 2
     text: "命门"
+    translated: "Mingmen"
 - raw: "71,2020202,外关,C8,气血恢复+3,,,,"
   splits:
   - split: 2
     text: "外关"
+    translated: "Waiguan"
 - raw: "72,2020301,水道,G2,气血上限+192,,,,"
   splits:
   - split: 2
     text: "水道"
+    translated: "Shuidao"
 - raw: "73,2020302,归来,L6,气血恢复+3,,,,"
   splits:
   - split: 2
     text: "归来"
+    translated: "Guilai"
 - raw: "74,2030101,阴都,D2,外功攻击+29,,,,"
   splits:
   - split: 2
     text: "阴都"
+    translated: "Netherworld"
 - raw: "75,2030102,清冷渊,L2,外功防御+12,,,,"
   splits:
   - split: 2
     text: "清冷渊"
+    translated: "Cold Spring Grotto"
 - raw: "76,2030201,神藏,B7,气血上限+312,,,,"
   splits:
   - split: 2
     text: "神藏"
+    translated: "Divine Treasury"
 - raw: "77,2030202,彧中,J8,气血恢复+3,,,,"
   splits:
   - split: 2
     text: "彧中"
+    translated: "Yuzhong"
 - raw: "78,2030301,俞府,L2,外功攻击+29,,,,"
   splits:
   - split: 2
     text: "俞府"
+    translated: "Yu Mansion"
 - raw: "79,2030302,天泉,K5,外功防御+12,,,,"
   splits:
   - split: 2
     text: "天泉"
+    translated: "Tianquan"
 - raw: "80,2030401,郄门,D2,气血上限+312,,,,"
   splits:
   - split: 2
     text: "郄门"
+    translated: "Qixuan Gate"
 - raw: "81,2030402,间使,J6,气血恢复+3,,,,"
   splits:
   - split: 2
     text: "间使"
+    translated: "Jianshi"
 - raw: "82,2040101,大陵,L2,气血上限+312,,,,"
   splits:
   - split: 2
     text: "大陵"
+    translated: "Daling"
 - raw: "83,2040102,大敦,B7,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "大敦"
+    translated: "Da Dun"
 - raw: "84,2040201,二间,H2,气血上限+312,,,,"
   splits:
   - split: 2
     text: "二间"
+    translated: "Erjian"
 - raw: "85,2040202,涌泉,D6,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "涌泉"
+    translated: "Yongquan"
 - raw: "86,2040301,然谷,E2,暴击+3,,,,"
   splits:
   - split: 2
     text: "然谷"
+    translated: "Ran Gu"
 - raw: "87,2040302,液门,C8,免暴+3,,,,"
   splits:
   - split: 2
     text: "液门"
+    translated: "Yemen"
 - raw: "88,2040401,长强,F7,暴击伤害+5,,,,"
   splits:
   - split: 2
     text: "长强"
+    translated: "Chang Qiang"
 - raw: "89,2040402,球后,M7,暴击减免+6,,,,"
   splits:
   - split: 2
     text: "球后"
+    translated: "Qiuhou"
 - raw: "90,2050101,委阳,L3,内功攻击+29,,,,"
   splits:
   - split: 2
     text: "委阳"
+    translated: "Weiyang"
 - raw: "91,2050102,天井,L6,内功防御+12,,,,"
   splits:
   - split: 2
     text: "天井"
+    translated: "Tianjing"
 - raw: "92,2050201,委中,D7,气血上限+312,,,,"
   splits:
   - split: 2
     text: "委中"
+    translated: "Weizhong"
 - raw: "93,2050202,殷门,K8,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "殷门"
+    translated: "Yin Clan"
 - raw: "94,2050301,膈关,K3,内功攻击+29,,,,"
   splits:
   - split: 2
     text: "膈关"
+    translated: "Geguan"
 - raw: "95,2050302,神堂,C5,内功防御+12,,,,"
   splits:
   - split: 2
     text: "神堂"
+    translated: "Shentang"
 - raw: "96,2050401,魄户,C2,气血上限+312,,,,"
   splits:
   - split: 2
     text: "魄户"
+    translated: "Soul Dwelling"
 - raw: "97,2050402,胃仓,J2,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "胃仓"
+    translated: "Weicang"
 - raw: "98,2060101,阳纲,L7,外功攻击+47,,,,"
   splits:
   - split: 2
     text: "阳纲"
+    translated: "Yanggang"
 - raw: "99,2060102,风府,D8,外功防御+20,,,,"
   splits:
   - split: 2
     text: "风府"
+    translated: "Fengfu"
 - raw: "100,2060201,太阳,C3,气血上限+504,,,,"
   splits:
   - split: 2
     text: "太阳"
+    translated: "Sun"
 - raw: "101,2060202,肺俞,E8,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "肺俞"
+    translated: "Fei Yu"
 - raw: "102,2060301,肝俞,C5,外功攻击+47,,,,"
   splits:
   - split: 2
     text: "肝俞"
+    translated: "Gan Yu"
 - raw: "103,2060302,脾俞,L5,外功防御+20,,,,"
   splits:
   - split: 2
     text: "脾俞"
+    translated: "Spleen Yu Point"
 - raw: "104,2060401,肾俞,D8,气血上限+504,,,,"
   splits:
   - split: 2
     text: "肾俞"
+    translated: "Kidney Yu point"
 - raw: "105,2060402,胃俞,K9,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "胃俞"
+    translated: "Stomach Yu"
 - raw: "106,2070101,肩髃,H4,内功攻击+47,,,,"
   splits:
   - split: 2
     text: "肩髃"
+    translated: "Shoulder Yu Jianyu"
 - raw: "107,2070102,四渎,L8,气血上限+504,,,,"
   splits:
   - split: 2
     text: "四渎"
+    translated: "Sidu"
 - raw: "108,2070201,仆参,L4,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "仆参"
+    translated: "Servant: I attend"
 - raw: "109,2070202,跗阳,I7,内功攻击+47,,,,"
   splits:
   - split: 2
     text: "跗阳"
+    translated: "Fuyang"
 - raw: "110,2070301,飞扬,G4,气血上限+504,,,,"
   splits:
   - split: 2
     text: "飞扬"
+    translated: "Feiyang"
 - raw: "111,2070302,束骨,G7,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "束骨"
+    translated: "Shugu"
 - raw: "112,2070401,胞肓,C3,暴击+3,,,,"
   splits:
   - split: 2
     text: "胞肓"
+    translated: "Psoas Major Muscle"
 - raw: "113,2070402,意舍,C7,免暴+3,,,,"
   splits:
   - split: 2
     text: "意舍"
+    translated: "Intent Inn"
 - raw: "114,2080101,合阳,G2,气血上限+504,,,,"
   splits:
   - split: 2
     text: "合阳"
+    translated: "Heyan"
 - raw: "115,2080102,秩边,L8,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "秩边"
+    translated: "Zhibian"
 - raw: "116,2080201,申脉,H2,气血上限+504,,,,"
   splits:
   - split: 2
     text: "申脉"
+    translated: "Shenmai"
 - raw: "117,2080202,金门,H5,气血恢复+4,,,,"
   splits:
   - split: 2
     text: "金门"
+    translated: "Jinmen"
 - raw: "118,2080301,急脉,M2,暴击+3,,,,"
   splits:
   - split: 2
     text: "急脉"
+    translated: "Rapid pulse"
 - raw: "119,2080302,步廊,L6,免暴+3,,,,"
   splits:
   - split: 2
     text: "步廊"
+    translated: "Bulang"
 - raw: "120,2080401,鸠尾,J1,暴击伤害+10,,,,"
   splits:
   - split: 2
     text: "鸠尾"
+    translated: "Jiuwei"
 - raw: "121,2080402,支沟,G9,暴击减免+9,,,,"
   splits:
   - split: 2
     text: "支沟"
+    translated: "Zhibei Channel"

@@ -13,6 +13,7 @@
   result: "Fake Taihe Disciple"
 - raw: "太和"
   result: "Taihe"
+  badtrans: false
 - raw: "天涯海阁"
   result: "Tianya Haige"
 - raw: "天涯海阁弟子"
@@ -37,8 +38,12 @@
   result: "Daqi Disciple"
 - raw: "大雪山"
   result: "Daxue Mountain"
+  allowalt:
+  - "Daxue"
 - raw: "大雪山弟子"
   result: "Daxue Mountain Disciple"
+  allowalt:
+  - "Daxue"
 - raw: "隐月楼"
   result: "Yinyue Tower"
 - raw: "隐月楼弟子"
@@ -49,6 +54,7 @@
   result: "Outer Disciple"
 - raw: "弟子"
   result: "Disciple"
+  badtrans: false
 - raw: "无门无派"
   result: "No Sect"
 - raw: "武林大会"

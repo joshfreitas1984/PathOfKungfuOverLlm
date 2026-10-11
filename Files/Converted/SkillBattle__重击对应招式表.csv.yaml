@@ -2,18 +2,23 @@
   splits:
   - split: 2
     text: "武学名"
+    translated: "Martial Art name"
   - split: 5
     text: "武学描述"
+    translated: "Martial Art description"
 - raw: "2,Id,name,type,Skill,des,icon"
 - raw: "3,502010,重击·拳掌,1,9010005;9010006;,江湖中流转的拳法之重击，招式如奔马飞瀑，势不可挡。,tricks/9010005"
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "拳掌"
+    translated: "Fist & Palm"
   - split: 5
     text: "江湖中流转的拳法之重击，招式如奔马飞瀑，势不可挡。"
+    translated: "The heavy attack of the martial arts circulating in the Jianghu, moves like galloping horses and rushing waterfalls, unstoppable."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -21,11 +26,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
   - split: 5
     text: "江湖中流转的单手轻刃之重击，招式轻灵潇洒，迅疾无形。"
+    translated: "The Heavy Attack of the One-Handed Light Blade circulating in the Jianghu is light and graceful, swift and intangible.swift and intangible."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -33,11 +41,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "重刃"
+    translated: "Heavy Blade"
   - split: 5
     text: "江湖中流转的重刃之重击，招式如封似闭，重若千钧。"
+    translated: "The heavy blade's heavy attack in the Jianghu, moves sealing and closing, weighty as a thousand catties."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -45,11 +56,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "长兵"
+    translated: "Polearm"
   - split: 5
     text: "江湖中流转的长兵之重击，招式大开大合，威势惊人，令人闻之生畏。"
+    translated: "The heavy attacks of polearms circulating in the Jianghu, with moves that are grand and sweeping, are awe-inspiring and strike fear into the hearts of those who hear of them."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -57,11 +71,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "扇法"
+    translated: "Fan Art"
   - split: 5
     text: "江湖中流转的扇法之重击，招式潇洒灵动，却亦暗藏杀机。"
+    translated: "The Heavy Attack circulating in the Jianghu among the Fan Art is graceful and fluid, yet it harbors hidden danger."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -69,11 +86,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "暗器"
+    translated: "Hidden Weapon"
   - split: 5
     text: "江湖中流转的暗器之重击，其内杀机隐现，至阴至险。"
+    translated: "The heavy attack of hidden weapons circulating in Jianghu reveals latent killing intent, deeply sinister and perilous."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -81,11 +101,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "腿脚"
+    translated: "Legwork"
   - split: 5
     text: "江湖中流转的腿法之重击，刚猛无匹。"
+    translated: "The heavy attack of leg techniques circulating in the Jianghu is unmatched in its raw power."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -93,11 +116,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
   - split: 5
     text: "江湖中流转的双手轻刃之重击，其招式与中原武学迥异。"
+    translated: "The Heavy Attack of the Two-Handed Light Blade circulating in the Jianghu is vastly different from the martial arts of Central Plains."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -105,11 +131,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "绳镖"
+    translated: "Rope Dart"
   - split: 5
     text: "江湖中流转的绳镖之重击，多为诡门所习，令人防不胜防。"
+    translated: "The heavy attack of the rope dart circulating in the Jianghu is often practiced by the Shadow Sect, catching opponents off guard."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -117,11 +146,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "弓箭"
+    translated: "Bow"
   - split: 5
     text: "江湖中流转的弓箭之重击，多为军阵所传。"
+    translated: "The heavy attacks of bows and arrows circulating in the Jianghu are mostly derived from military formations."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -129,11 +161,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "软鞭"
+    translated: "Whip"
   - split: 5
     text: "江湖中流转的软鞭武学，多为南疆武学，招式刚柔并济，招式诡谲令人防不胜防。"
+    translated: "The whips used in Jianghu are mostly from the martial arts of southern frontier regions, with moves that blend hardness and softness, their mysterious nature making them unpredictable and hard to guard against. The unpredictable and hard to guard against situation has arrived."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -141,11 +176,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "火器"
+    translated: "Firearm"
   - split: 5
     text: "江湖中流传的火器操持之法，为火器填装弹药。"
+    translated: "The firearm handling techniques circulating in the Jianghu, for loading ammunition into firearms."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -153,11 +191,14 @@
   splits:
   - split: 2
     text: "重击"
+    translated: "Heavy Attack"
   - split: 2
     subIndex: 1
     text: "短兵"
+    translated: "Short Weapon"
   - split: 5
     text: "江湖中流转的短兵之重击，轻灵迅疾，千变万化。"
+    translated: "The heavy attacks of short weapons in the Jianghu are swift and agile, ever-changing."
   templates:
   - split: 2
     template: "{0}·{1}"

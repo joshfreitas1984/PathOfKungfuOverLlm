@@ -4,18 +4,22 @@
   splits:
   - split: 3
     text: "创意工坊"
+    translated: "Workshop"
 - raw: "4,2,默认界面,历史更新"
   splits:
   - split: 3
     text: "历史更新"
+    translated: "History updated"
 - raw: "5,3,默认界面,更新计划"
   splits:
   - split: 3
     text: "更新计划"
+    translated: "Update Plan"
 - raw: "6,4,默认界面,攻略和WIKI"
   splits:
   - split: 3
     text: "攻略和"
+    translated: "Strategy and..."
   templates:
   - split: 3
     template: "{0}WIKI"
@@ -23,265 +27,331 @@
   splits:
   - split: 3
     text: "问题反馈"
+    translated: "Issue Report"
 - raw: "8,6,默认界面,初入江湖"
   splits:
   - split: 3
     text: "初入江湖"
+    translated: "Enter Jianghu"
 - raw: "9,7,默认界面,江湖往事"
   splits:
   - split: 3
     text: "江湖往事"
+    translated: "Jianghu past events"
 - raw: "10,8,默认界面,系统设置"
   splits:
   - split: 3
     text: "系统设置"
+    translated: "System Settings"
 - raw: "11,9,默认界面,金盆洗手"
   splits:
   - split: 3
     text: "金盆洗手"
+    translated: "Retire"
 - raw: "12,10,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "13,11,默认界面,创建角色"
   splits:
   - split: 3
     text: "创建角色"
+    translated: "Create Character"
 - raw: "14,12,默认界面,姓"
   splits:
   - split: 3
     text: "姓"
+    translated: "Surname"
 - raw: "15,13,默认界面,名"
   splits:
   - split: 3
     text: "名"
+    translated: "Name"
 - raw: "16,14,默认界面,随机"
   splits:
   - split: 3
     text: "随机"
+    translated: "Random"
 - raw: "17,15,默认界面,保存模组"
   splits:
   - split: 3
     text: "保存模组"
+    translated: "Save module"
 - raw: "18,16,默认界面,读取模组"
   splits:
   - split: 3
     text: "读取模组"
+    translated: "Load mod"
 - raw: "19,17,默认界面,性别选择"
   splits:
   - split: 3
     text: "性别选择"
+    translated: "Gender Selection"
 - raw: "20,18,默认界面,脸"
   splits:
   - split: 3
     text: "脸"
+    translated: "Face"
 - raw: "21,19,默认界面,前发"
   splits:
   - split: 3
     text: "前发"
+    translated: "Forward throw"
 - raw: "22,20,默认界面,后发"
   splits:
   - split: 3
     text: "后发"
+    translated: "Later move"
 - raw: "23,21,默认界面,眼睛"
   splits:
   - split: 3
     text: "眼睛"
+    translated: "Eyes"
 - raw: "24,22,默认界面,眉毛"
   splits:
   - split: 3
     text: "眉毛"
+    translated: "Eyebrows"
 - raw: "25,23,默认界面,鼻子"
   splits:
   - split: 3
     text: "鼻子"
+    translated: "Nose"
 - raw: "26,24,默认界面,嘴巴"
   splits:
   - split: 3
     text: "嘴巴"
+    translated: "Mouth"
 - raw: "27,25,默认界面,脸饰"
   splits:
   - split: 3
     text: "脸饰"
+    translated: "Face mask"
 - raw: "28,26,默认界面,衣服"
   splits:
   - split: 3
     text: "衣服"
+    translated: "Clothes"
 - raw: "29,27,默认界面,面具"
   splits:
   - split: 3
     text: "面具"
+    translated: "Mask"
 - raw: "30,28,默认界面,剧情立绘"
   splits:
   - split: 3
     text: "剧情立绘"
+    translated: "Story illustration"
 - raw: "31,29,默认界面,随机"
   splits:
   - split: 3
     text: "随机"
+    translated: "Random"
 - raw: "32,30,默认界面,下一步"
   splits:
   - split: 3
     text: "下一步"
+    translated: "Next step"
 - raw: "33,31,默认界面,男"
   splits:
   - split: 3
     text: "男"
+    translated: "He"
 - raw: "34,32,默认界面,女"
   splits:
   - split: 3
     text: "女"
+    translated: "She"
 - raw: "35,33,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "36,34,默认界面,天赋"
   splits:
   - split: 3
     text: "天赋"
+    translated: "Talent"
 - raw: "37,35,默认界面,剩余天赋点"
   splits:
   - split: 3
     text: "剩余天赋点"
+    translated: "Remaining Talent Points"
 - raw: "38,36,默认界面,下一步"
   splits:
   - split: 3
     text: "下一步"
+    translated: "Next step"
 - raw: "39,37,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "40,38,默认界面,初始属性"
   splits:
   - split: 3
     text: "初始属性"
+    translated: "Starting Attributes"
 - raw: "41,39,默认界面,武侠资质"
   splits:
   - split: 3
     text: "武侠资质"
+    translated: "Martial Aptitude"
 - raw: "42,40,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "43,41,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "44,42,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "45,43,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "46,44,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "47,45,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "48,46,默认界面,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "49,47,默认界面,轻功"
   splits:
   - split: 3
     text: "轻功"
+    translated: "Qinggong"
 - raw: "50,48,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "51,49,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "52,50,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "53,51,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "54,52,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "55,53,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "56,54,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "57,55,默认界面,随机重选"
   splits:
   - split: 3
     text: "随机重选"
+    translated: "Re-roll randomly"
 - raw: "58,56,默认界面,可分配资质点"
   splits:
   - split: 3
     text: "可分配资质点"
+    translated: "Available aptitude points"
 - raw: "59,57,默认界面,初始属性分配"
   splits:
   - split: 3
     text: "初始属性分配"
+    translated: "Starting Attribute Allocation"
 - raw: "60,58,默认界面,武力"
   splits:
   - split: 3
     text: "武力"
+    translated: "Might"
 - raw: "61,59,默认界面,筋骨"
   splits:
   - split: 3
     text: "筋骨"
+    translated: "Physique"
 - raw: "62,60,默认界面,身法"
   splits:
   - split: 3
     text: "身法"
+    translated: "Agility"
 - raw: "63,61,默认界面,内息"
   splits:
   - split: 3
     text: "内息"
+    translated: "Inner Qi"
 - raw: "64,62,默认界面,悟性"
   splits:
   - split: 3
     text: "悟性"
+    translated: "Comprehension"
 - raw: "65,63,默认界面,可分配属性点"
   splits:
   - split: 3
     text: "可分配属性点"
+    translated: "Allocatable attribute points"
 - raw: "66,64,默认界面,重置"
   splits:
   - split: 3
     text: "重置"
+    translated: "Reset"
 - raw: "67,65,默认界面,下一步"
   splits:
   - split: 3
     text: "下一步"
+    translated: "Next step"
 - raw: "68,66,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "69,67,默认界面,游戏环境设置"
   splits:
   - split: 3
     text: "游戏环境设置"
+    translated: "Game Settings Environment"
 - raw: "70,68,默认界面,每月天数"
   splits:
   - split: 3
     text: "每月天数"
+    translated: "Number of days per month"
 - raw: "71,69,默认界面,随机NPC自然死亡"
   splits:
   - split: 3
     text: "随机"
+    translated: "Random"
   - split: 3
     subIndex: 1
     text: "自然死亡"
+    translated: "Natural death"
   templates:
   - split: 3
     template: "{0}NPC{1}"
@@ -289,9 +359,11 @@
   splits:
   - split: 3
     text: "剧情"
+    translated: "Story"
   - split: 3
     subIndex: 1
     text: "自然死亡"
+    translated: "Natural death"
   templates:
   - split: 3
     template: "{0}NPC{1}"
@@ -299,12 +371,15 @@
   splits:
   - split: 3
     text: "剧情"
+    translated: "Story"
   - split: 3
     subIndex: 1
     text: "允许被杀"
+    translated: "Allow being killed"
   - split: 3
     subIndex: 2
     text: "被俘虏"
+    translated: "Captured"
   templates:
   - split: 3
     template: "{0}NPC{1}/{2}"
@@ -312,14 +387,17 @@
   splits:
   - split: 3
     text: "角色数量"
+    translated: "Number of characters"
 - raw: "75,73,默认界面,怀孕时长"
   splits:
   - split: 3
     text: "怀孕时长"
+    translated: "Pregnancy duration"
 - raw: "76,74,默认界面,NPC上阵数量"
   splits:
   - split: 3
     text: "上阵数量"
+    translated: "Number of units in battle"
   templates:
   - split: 3
     template: "NPC{0}"
@@ -327,169 +405,211 @@
   splits:
   - split: 3
     text: "孩童成长时长"
+    translated: "Child growth duration"
 - raw: "78,76,默认界面,下一步"
   splits:
   - split: 3
     text: "下一步"
+    translated: "Next step"
 - raw: "79,77,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "80,78,默认界面,选择难度"
   splits:
   - split: 3
     text: "选择难度"
+    translated: "Choose difficulty"
 - raw: "81,79,默认界面,普通"
   splits:
   - split: 3
     text: "普通"
+    translated: "Normal"
 - raw: "82,80,默认界面,困难"
   splits:
   - split: 3
     text: "困难"
+    translated: "Hard"
 - raw: "83,81,默认界面,极难"
   splits:
   - split: 3
     text: "极难"
+    translated: "Extreme"
 - raw: "84,82,默认界面,江湖路"
   splits:
   - split: 3
     text: "江湖路"
+    translated: "Jianghu Road"
 - raw: "85,83,默认界面,进入游戏"
   splits:
   - split: 3
     text: "进入游戏"
+    translated: "Enter the game"
 - raw: "86,84,默认界面,读取存档"
   splits:
   - split: 3
     text: "读取存档"
+    translated: "Load Save"
 - raw: "87,85,默认界面,节点存档"
   splits:
   - split: 3
     text: "节点存档"
+    translated: "Checkpoint Save"
 - raw: "88,86,默认界面,自动存档"
   splits:
   - split: 3
     text: "自动存档"
+    translated: "Autosave"
 - raw: "89,87,默认界面,存档"
   splits:
   - split: 3
     text: "存档"
+    translated: "Save game"
 - raw: "90,88,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "91,89,默认界面,系统设置"
   splits:
   - split: 3
     text: "系统设置"
+    translated: "System Settings"
 - raw: "92,90,默认界面,显示设置"
   splits:
   - split: 3
     text: "显示设置"
+    translated: "Display Settings"
 - raw: "93,91,默认界面,分辨率"
   splits:
   - split: 3
     text: "分辨率"
+    translated: "Resolution"
 - raw: "94,92,默认界面,模式"
   splits:
   - split: 3
     text: "模式"
+    translated: "Mode"
 - raw: "95,93,默认界面,全屏"
   splits:
   - split: 3
     text: "全屏"
+    translated: "Fullscreen"
 - raw: "96,94,默认界面,窗口"
   splits:
   - split: 3
     text: "窗口"
+    translated: "Window"
 - raw: "97,95,默认界面,显示地图网格"
   splits:
   - split: 3
     text: "显示地图网格"
+    translated: "Show map grid"
 - raw: "98,96,默认界面,战斗镜头震动和模糊"
   splits:
   - split: 3
     text: "战斗镜头震动和模糊"
+    translated: "The battle camera shakes and blurs"
 - raw: "99,97,默认界面,恢复预设"
   splits:
   - split: 3
     text: "恢复预设"
+    translated: "Restore preset"
 - raw: "100,98,默认界面,声音设置"
   splits:
   - split: 3
     text: "声音设置"
+    translated: "Sound Settings"
 - raw: "101,99,默认界面,音乐"
   splits:
   - split: 3
     text: "音乐"
+    translated: "Music"
 - raw: "102,100,默认界面,音效"
   splits:
   - split: 3
     text: "音效"
+    translated: "Sound effect"
 - raw: "103,101,默认界面,恢复预设"
   splits:
   - split: 3
     text: "恢复预设"
+    translated: "Restore preset"
 - raw: "104,102,默认界面,自定义设置"
   splits:
   - split: 3
     text: "自定义设置"
+    translated: "Custom Settings"
 - raw: "105,103,默认界面,自动存档时间"
   splits:
   - split: 3
     text: "自动存档时间"
+    translated: "Autosave time"
 - raw: "106,104,默认界面,恢复预设"
   splits:
   - split: 3
     text: "恢复预设"
+    translated: "Restore preset"
 - raw: "107,105,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "108,106,默认界面,默认操作配置（键鼠）"
   splits:
   - split: 3
     text: "默认操作配置（键鼠）"
+    translated: "Default Operation Setup (Keyboard and Mouse)"
 - raw: "109,107,默认界面,默认操作配置（键盘）"
   splits:
   - split: 3
     text: "默认操作配置（键盘）"
+    translated: "Default Operation Setup (Keyboard)"
 - raw: "110,108,默认界面,默认操作配置（手柄）"
   splits:
   - split: 3
     text: "默认操作配置（手柄）"
+    translated: "Default Control Configuration (Controller)"
 - raw: "111,109,默认界面,招式1"
   splits:
   - split: 3
     text: "招式1"
+    translated: "Move 1"
 - raw: "112,110,默认界面,招式2"
   splits:
   - split: 3
     text: "招式2"
+    translated: "Move 2"
 - raw: "113,111,默认界面,招式3"
   splits:
   - split: 3
     text: "招式3"
+    translated: "Move 3"
 - raw: "114,112,默认界面,招式4"
   splits:
   - split: 3
     text: "招式4"
+    translated: "Move 4"
 - raw: "115,113,默认界面,招式5"
   splits:
   - split: 3
     text: "招式5"
+    translated: "Move 5"
 - raw: "116,114,默认界面,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "117,115,默认界面,战斗中轻功/大地图轻功"
   splits:
   - split: 3
     text: "战斗中轻功"
+    translated: "Qinggong in battle"
   - split: 3
     subIndex: 1
     text: "大地图轻功"
+    translated: "Large Map Qinggong"
   templates:
   - split: 3
     template: "{0}/{1}"
@@ -497,29 +617,36 @@
   splits:
   - split: 3
     text: "道具1"
+    translated: "Item 1"
 - raw: "119,117,默认界面,道具2"
   splits:
   - split: 3
     text: "道具2"
+    translated: "Item 2"
 - raw: "120,118,默认界面,格挡"
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "121,119,默认界面,爆气"
   splits:
   - split: 3
     text: "爆气"
+    translated: "Qi Burst"
 - raw: "122,120,默认界面,闪避"
   splits:
   - split: 3
     text: "闪避"
+    translated: "Dodge"
 - raw: "123,121,默认界面,大地图交互/战斗中纵跃"
   splits:
   - split: 3
     text: "大地图交互"
+    translated: "World map interaction"
   - split: 3
     subIndex: 1
     text: "战斗中纵跃"
+    translated: "Leaping in battle"
   templates:
   - split: 3
     template: "{0}/{1}"
@@ -527,13 +654,16 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
 - raw: "125,123,默认界面,重击/装弹"
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "装弹"
+    translated: "Reload"
   templates:
   - split: 3
     template: "{0}/{1}"
@@ -541,869 +671,1086 @@
   splits:
   - split: 3
     text: "上"
+    translated: "Upstairs"
 - raw: "127,125,默认界面,下"
   splits:
   - split: 3
     text: "下"
+    translated: "Down"
 - raw: "128,126,默认界面,左"
   splits:
   - split: 3
     text: "左"
+    translated: "Left"
 - raw: "129,127,默认界面,右"
   splits:
   - split: 3
     text: "右"
+    translated: "Right"
 - raw: "130,128,默认界面,恢复预设"
   splits:
   - split: 3
     text: "恢复预设"
+    translated: "Restore preset"
 - raw: "131,129,默认界面,恢复预设"
   splits:
   - split: 3
     text: "恢复预设"
+    translated: "Restore preset"
 - raw: "132,130,默认界面,属性"
   splits:
   - split: 3
     text: "属性"
+    translated: "Attributes"
 - raw: "133,131,默认界面,保存"
   splits:
   - split: 3
     text: "保存"
+    translated: "Save"
 - raw: "134,132,默认界面,打坐"
   splits:
   - split: 3
     text: "打坐"
+    translated: "Meditate"
 - raw: "135,133,默认界面,飞鸽传书"
   splits:
   - split: 3
     text: "飞鸽传书"
+    translated: "Carrier Pigeon"
 - raw: "136,134,默认界面,精力"
   splits:
   - split: 3
     text: "精力"
+    translated: "Energy"
 - raw: "137,135,默认界面,任务追踪"
   splits:
   - split: 3
     text: "任务追踪"
+    translated: "Quest Tracker"
 - raw: "138,136,默认界面,世界地图"
   splits:
   - split: 3
     text: "世界地图"
+    translated: "World Map"
 - raw: "139,137,默认界面,退出"
   splits:
   - split: 3
     text: "退出"
+    translated: "Log out"
 - raw: "140,138,默认界面,属性"
   splits:
   - split: 3
     text: "属性"
+    translated: "Attributes"
 - raw: "141,139,默认界面,行囊"
   splits:
   - split: 3
     text: "行囊"
+    translated: "Pack"
 - raw: "142,140,默认界面,交情"
   splits:
   - split: 3
     text: "交情"
+    translated: "Friendship"
 - raw: "143,141,默认界面,武学"
   splits:
   - split: 3
     text: "武学"
+    translated: "Martial Art"
 - raw: "144,142,默认界面,三才书"
   splits:
   - split: 3
     text: "三才书"
+    translated: "Three Talents Tome"
 - raw: "145,143,默认界面,内功境界"
   splits:
   - split: 3
     text: "内功境界"
+    translated: "Neigong Realm"
 - raw: "146,144,默认界面,经脉"
   splits:
   - split: 3
     text: "经脉"
+    translated: "Meridians"
 - raw: "147,145,默认界面,任务"
   splits:
   - split: 3
     text: "任务"
+    translated: "Task"
 - raw: "148,146,默认界面,区域声望"
   splits:
   - split: 3
     text: "区域声望"
+    translated: "Regional Reputation"
 - raw: "149,147,默认界面,生活技能"
   splits:
   - split: 3
     text: "生活技能"
+    translated: "Life Skills"
 - raw: "150,148,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "151,149,默认界面,同行"
   splits:
   - split: 3
     text: "同行"
+    translated: "Companions"
 - raw: "152,150,默认界面,动态立绘"
   splits:
   - split: 3
     text: "动态立绘"
+    translated: "Dynamic portrait art"
 - raw: "153,151,默认界面,剧情立绘"
   splits:
   - split: 3
     text: "剧情立绘"
+    translated: "Story illustration"
 - raw: "154,152,默认界面,人物信息"
   splits:
   - split: 3
     text: "人物信息"
+    translated: "Character Info"
 - raw: "155,153,默认界面,境界"
   splits:
   - split: 3
     text: "境界"
+    translated: "Realm"
 - raw: "156,154,默认界面,门派"
   splits:
   - split: 3
     text: "门派"
+    translated: "Sect"
 - raw: "157,155,默认界面,帮派"
   splits:
   - split: 3
     text: "帮派"
+    translated: "Gang"
 - raw: "158,156,默认界面,精力"
   splits:
   - split: 3
     text: "精力"
+    translated: "Energy"
 - raw: "159,157,默认界面,门派位阶"
   splits:
   - split: 3
     text: "门派位阶"
+    translated: "Sect Rank"
 - raw: "160,158,默认界面,帮派位阶"
   splits:
   - split: 3
     text: "帮派位阶"
+    translated: "Gang Rank"
 - raw: "161,159,默认界面,帮派功勋"
   splits:
   - split: 3
     text: "帮派功勋"
+    translated: "Gang Merit"
 - raw: "162,160,默认界面,缉捕值"
   splits:
   - split: 3
     text: "缉捕值"
+    translated: "Wanted Level"
 - raw: "163,161,默认界面,武学资质"
   splits:
   - split: 3
     text: "武学资质"
+    translated: "Martial Aptitude"
 - raw: "164,162,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "165,163,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "166,164,默认界面,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "167,165,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "168,166,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "169,167,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "170,168,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "171,169,默认界面,轻功"
   splits:
   - split: 3
     text: "轻功"
+    translated: "Qinggong"
 - raw: "172,170,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "173,171,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "174,172,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "175,173,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "176,174,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "177,175,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "178,176,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "179,177,默认界面,天赋"
   splits:
   - split: 3
     text: "天赋"
+    translated: "Talent"
 - raw: "180,178,默认界面,属性"
   splits:
   - split: 3
     text: "属性"
+    translated: "Attributes"
 - raw: "181,179,默认界面,外功攻击力"
   splits:
   - split: 3
     text: "外功攻击力"
+    translated: "External Attack Power"
 - raw: "182,180,默认界面,外功防御力"
   splits:
   - split: 3
     text: "外功防御力"
+    translated: "External Defense"
 - raw: "183,181,默认界面,气血上限"
   splits:
   - split: 3
     text: "气血上限"
+    translated: "Max Lifeforce"
 - raw: "184,182,默认界面,体力上限"
   splits:
   - split: 3
     text: "体力上限"
+    translated: "Max Stamina"
 - raw: "185,183,默认界面,真气上限"
   splits:
   - split: 3
     text: "真气上限"
+    translated: "Max True Qi"
 - raw: "186,184,默认界面,速度"
   splits:
   - split: 3
     text: "速度"
+    translated: "Speed"
 - raw: "187,185,默认界面,吸血"
   splits:
   - split: 3
     text: "吸血"
+    translated: "Lifesteal"
 - raw: "188,186,默认界面,暴击"
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
 - raw: "189,187,默认界面,暴击伤害"
   splits:
   - split: 3
     text: "暴击伤害"
+    translated: "Crit Damage"
 - raw: "190,188,默认界面,内功攻击力"
   splits:
   - split: 3
     text: "内功攻击力"
+    translated: "Internal Attack Power"
 - raw: "191,189,默认界面,内功防御力"
   splits:
   - split: 3
     text: "内功防御力"
+    translated: "Internal Defense"
 - raw: "192,190,默认界面,气血恢复"
   splits:
   - split: 3
     text: "气血恢复"
+    translated: "Lifeforce Recovery"
 - raw: "193,191,默认界面,体力恢复"
   splits:
   - split: 3
     text: "体力恢复"
+    translated: "Stamina Recovery"
 - raw: "194,192,默认界面,初始真气"
   splits:
   - split: 3
     text: "初始真气"
+    translated: "Initial True Qi"
 - raw: "195,193,默认界面,内劲增长"
   splits:
   - split: 3
     text: "内劲增长"
+    translated: "Inner Force Gain"
 - raw: "196,194,默认界面,反伤"
   splits:
   - split: 3
     text: "反伤"
+    translated: "Damage Reflection"
 - raw: "197,195,默认界面,免暴"
   splits:
   - split: 3
     text: "免暴"
+    translated: "Crit Immunity"
 - raw: "198,196,默认界面,暴击减免"
   splits:
   - split: 3
     text: "暴击减免"
+    translated: "Crit Reduction"
 - raw: "199,197,默认界面,武学造诣"
   splits:
   - split: 3
     text: "武学造诣"
+    translated: "Martial Mastery"
 - raw: "200,198,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "201,199,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "202,200,默认界面,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "203,201,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "204,202,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "205,203,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "206,204,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "207,205,默认界面,轻功"
   splits:
   - split: 3
     text: "轻功"
+    translated: "Qinggong"
 - raw: "208,206,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "209,207,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "210,208,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "211,209,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "212,210,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "213,211,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "214,212,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "215,213,默认界面,基本属性"
   splits:
   - split: 3
     text: "基本属性"
+    translated: "Basic Attributes"
 - raw: "216,214,默认界面,武力"
   splits:
   - split: 3
     text: "武力"
+    translated: "Might"
 - raw: "217,215,默认界面,筋骨"
   splits:
   - split: 3
     text: "筋骨"
+    translated: "Physique"
 - raw: "218,216,默认界面,身法"
   splits:
   - split: 3
     text: "身法"
+    translated: "Agility"
 - raw: "219,217,默认界面,可分配属性点"
   splits:
   - split: 3
     text: "可分配属性点"
+    translated: "Allocatable attribute points"
 - raw: "220,218,默认界面,内息"
   splits:
   - split: 3
     text: "内息"
+    translated: "Inner Qi"
 - raw: "221,219,默认界面,悟性"
   splits:
   - split: 3
     text: "悟性"
+    translated: "Comprehension"
 - raw: "222,220,默认界面,重置"
   splits:
   - split: 3
     text: "重置"
+    translated: "Reset"
 - raw: "223,221,默认界面,确定"
   splits:
   - split: 3
     text: "确定"
+    translated: "Confirm"
 - raw: "224,222,默认界面,项链"
   splits:
   - split: 3
     text: "项链"
+    translated: "Necklace"
 - raw: "225,223,默认界面,武器"
   splits:
   - split: 3
     text: "武器"
+    translated: "Weapon"
 - raw: "226,224,默认界面,护臂"
   splits:
   - split: 3
     text: "护臂"
+    translated: "Bracers"
 - raw: "227,225,默认界面,坠饰"
   splits:
   - split: 3
     text: "坠饰"
+    translated: "Pendant"
 - raw: "228,226,默认界面,外装"
   splits:
   - split: 3
     text: "外装"
+    translated: "Outfit"
 - raw: "229,227,默认界面,戒指"
   splits:
   - split: 3
     text: "戒指"
+    translated: "Ring"
 - raw: "230,228,默认界面,护甲"
   splits:
   - split: 3
     text: "护甲"
+    translated: "Armor"
 - raw: "231,229,默认界面,护腰"
   splits:
   - split: 3
     text: "护腰"
+    translated: "Waist Guard"
 - raw: "232,230,默认界面,护腿"
   splits:
   - split: 3
     text: "护腿"
+    translated: "Leg Guards"
 - raw: "233,231,默认界面,行囊"
   splits:
   - split: 3
     text: "行囊"
+    translated: "Pack"
 - raw: "234,232,默认界面,装备"
   splits:
   - split: 3
     text: "装备"
+    translated: "Equipment"
 - raw: "235,233,默认界面,药品"
   splits:
   - split: 3
     text: "药品"
+    translated: "Medicine"
 - raw: "236,234,默认界面,食物"
   splits:
   - split: 3
     text: "食物"
+    translated: "Food"
 - raw: "237,235,默认界面,艺能"
   splits:
   - split: 3
     text: "艺能"
+    translated: "Crafts"
 - raw: "238,236,默认界面,秘籍"
   splits:
   - split: 3
     text: "秘籍"
+    translated: "Manual"
 - raw: "239,237,默认界面,材料"
   splits:
   - split: 3
     text: "材料"
+    translated: "Materials"
 - raw: "240,238,默认界面,任务"
   splits:
   - split: 3
     text: "任务"
+    translated: "Task"
 - raw: "241,239,默认界面,其他"
   splits:
   - split: 3
     text: "其他"
+    translated: "Other"
 - raw: "242,240,默认界面,境界筛选"
   splits:
   - split: 3
     text: "境界筛选"
+    translated: "Realm Selection"
 - raw: "243,241,默认界面,整理"
   splits:
   - split: 3
     text: "整理"
+    translated: "Organize"
 - raw: "244,242,默认界面,银两"
   splits:
   - split: 3
     text: "银两"
+    translated: "Silver"
 - raw: "245,243,默认界面,境界"
   splits:
   - split: 3
     text: "境界"
+    translated: "Realm"
 - raw: "246,244,默认界面,粗通皮毛"
   splits:
   - split: 3
     text: "粗通皮毛"
+    translated: "Novice"
 - raw: "247,245,默认界面,略有小成"
   splits:
   - split: 3
     text: "略有小成"
+    translated: "Minor Success"
 - raw: "248,246,默认界面,心领神会"
   splits:
   - split: 3
     text: "心领神会"
+    translated: "Proficient"
 - raw: "249,247,默认界面,出类拔萃"
   splits:
   - split: 3
     text: "出类拔萃"
+    translated: "Outstanding"
 - raw: "250,248,默认界面,登堂入室"
   splits:
   - split: 3
     text: "登堂入室"
+    translated: "Accomplished"
 - raw: "251,249,默认界面,融会贯通"
   splits:
   - split: 3
     text: "融会贯通"
+    translated: "Mastery"
 - raw: "252,250,默认界面,炉火纯青"
   splits:
   - split: 3
     text: "炉火纯青"
+    translated: "Perfected"
 - raw: "253,251,默认界面,登峰造极"
   splits:
   - split: 3
     text: "登峰造极"
+    translated: "Pinnacle"
 - raw: "254,252,默认界面,震古烁今"
   splits:
   - split: 3
     text: "震古烁今"
+    translated: "Peerless"
 - raw: "255,253,默认界面,返璞归真"
   splits:
   - split: 3
     text: "返璞归真"
+    translated: "Transcendence"
 - raw: "256,254,默认界面,类型筛选"
   splits:
   - split: 3
     text: "类型筛选"
+    translated: "Type filter"
 - raw: "257,255,默认界面,类型"
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
 - raw: "258,256,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "259,257,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "260,258,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "261,259,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "262,260,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "263,261,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "264,262,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "265,263,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "266,264,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "267,265,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "268,266,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "269,267,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "270,268,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "271,269,默认界面,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "272,270,默认界面,轻功"
   splits:
   - split: 3
     text: "轻功"
+    translated: "Qinggong"
 - raw: "273,271,默认界面,心决"
   splits:
   - split: 3
     text: "心决"
+    translated: "Heart Formula"
 - raw: "274,272,默认界面,三才书"
   splits:
   - split: 3
     text: "三才书"
+    translated: "Three Talents Tome"
 - raw: "275,273,默认界面,父母"
   splits:
   - split: 3
     text: "父母"
+    translated: "Parents"
 - raw: "276,274,默认界面,同怀"
   splits:
   - split: 3
     text: "同怀"
+    translated: "Siblings"
 - raw: "277,275,默认界面,义亲"
   splits:
   - split: 3
     text: "义亲"
+    translated: "Sworn Kin"
 - raw: "278,276,默认界面,知交"
   splits:
   - split: 3
     text: "知交"
+    translated: "Confidant"
 - raw: "279,277,默认界面,金兰"
   splits:
   - split: 3
     text: "金兰"
+    translated: "Sworn Bond"
 - raw: "280,278,默认界面,眷侣"
   splits:
   - split: 3
     text: "眷侣"
+    translated: "Lover"
 - raw: "281,279,默认界面,配偶"
   splits:
   - split: 3
     text: "配偶"
+    translated: "Spouse"
 - raw: "282,280,默认界面,子女"
   splits:
   - split: 3
     text: "子女"
+    translated: "Children"
 - raw: "283,281,默认界面,师傅"
   splits:
   - split: 3
     text: "师傅"
+    translated: "Master"
 - raw: "284,282,默认界面,徒弟"
   splits:
   - split: 3
     text: "徒弟"
+    translated: "Disciple"
 - raw: "285,283,默认界面,仇敌"
   splits:
   - split: 3
     text: "仇敌"
+    translated: "Enemy"
 - raw: "286,284,默认界面,当前武器"
   splits:
   - split: 3
     text: "当前武器"
+    translated: "Current weapon"
 - raw: "287,285,默认界面,武学"
   splits:
   - split: 3
     text: "武学"
+    translated: "Martial Art"
 - raw: "288,286,默认界面,补全被动"
   splits:
   - split: 3
     text: "补全被动"
+    translated: "Complete passive skills"
 - raw: "289,287,默认界面,江湖散学"
   splits:
   - split: 3
     text: "江湖散学"
+    translated: "Jianghu Miscellaneous Art"
 - raw: "290,288,默认界面,格挡"
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "291,289,默认界面,闪避"
   splits:
   - split: 3
     text: "闪避"
+    translated: "Dodge"
 - raw: "292,290,默认界面,纵跃"
   splits:
   - split: 3
     text: "纵跃"
+    translated: "Leap"
 - raw: "293,291,默认界面,轻击"
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
 - raw: "294,292,默认界面,重击"
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
 - raw: "295,293,默认界面,江湖通式"
   splits:
   - split: 3
     text: "江湖通式"
+    translated: "Jianghu Common Form"
 - raw: "296,294,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "297,295,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "298,296,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "299,297,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "300,298,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "301,299,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "302,300,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "303,301,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "304,302,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "305,303,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "306,304,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "307,305,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "308,306,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "309,307,默认界面,武学研本"
   splits:
   - split: 3
     text: "武学研本"
+    translated: "Martial Art Study Manual"
 - raw: "310,308,默认界面,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "311,309,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "312,310,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "313,311,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "314,312,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "315,313,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "316,314,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "317,315,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "318,316,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "319,317,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "320,318,默认界面,轻功"
   splits:
   - split: 3
     text: "轻功"
+    translated: "Qinggong"
 - raw: "321,319,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "322,320,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "323,321,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "324,322,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "325,323,默认界面,当前散学"
   splits:
   - split: 3
     text: "当前散学"
+    translated: "Current Miscellaneous Art"
 - raw: "326,324,默认界面,轻击"
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
 - raw: "327,325,默认界面,重击"
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
 - raw: "328,326,默认界面,格挡"
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "329,327,默认界面,闪避"
   splits:
   - split: 3
     text: "闪避"
+    translated: "Dodge"
 - raw: "330,328,默认界面,跳跃"
   splits:
   - split: 3
     text: "跳跃"
+    translated: "Jumping"
 - raw: "331,329,默认界面,当前通式"
   splits:
   - split: 3
     text: "当前通式"
+    translated: "Current Common Form"
 - raw: "332,330,默认界面,当前武功"
   splits:
   - split: 3
     text: "当前武功"
+    translated: "Current Martial Skill"
 - raw: "333,331,默认界面,武学混用"
   splits:
   - split: 3
     text: "武学混用"
+    translated: "Martial Art Hybridization"
 - raw: "334,332,默认界面,当前内功"
   splits:
   - split: 3
     text: "当前内功"
+    translated: "Current Neigong"
 - raw: "335,333,默认界面,当前轻功"
   splits:
   - split: 3
     text: "当前轻功"
+    translated: "Current qinggong"
 - raw: "336,334,默认界面,散学"
   splits:
   - split: 3
     text: "散学"
+    translated: "Miscellaneous Art"
 - raw: "337,335,默认界面,格挡"
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "338,336,默认界面,闪避"
   splits:
   - split: 3
     text: "闪避"
+    translated: "Dodge"
 - raw: "339,337,默认界面,纵跃"
   splits:
   - split: 3
     text: "纵跃"
+    translated: "Leap"
 - raw: "340,338,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "341,339,默认界面,轻击·拳掌"
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "拳掌"
+    translated: "Fist & Palm"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1411,9 +1758,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1421,9 +1770,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "重刃"
+    translated: "Heavy Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1431,9 +1782,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "长兵"
+    translated: "Polearm"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1441,9 +1794,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "扇法"
+    translated: "Fan Art"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1451,9 +1806,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "暗器"
+    translated: "Hidden Weapon"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1461,9 +1818,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "腿脚"
+    translated: "Legwork"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1471,9 +1830,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1481,9 +1842,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "绳镖"
+    translated: "Rope Dart"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1491,9 +1854,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "弓箭"
+    translated: "Bow"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1501,9 +1866,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "软鞭"
+    translated: "Whip"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1511,9 +1878,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "火器"
+    translated: "Firearm"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1521,9 +1890,11 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
   - split: 3
     subIndex: 1
     text: "短兵"
+    translated: "Short Weapon"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1531,13 +1902,16 @@
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "355,353,默认界面,重击·拳掌"
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "拳掌"
+    translated: "Fist & Palm"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1545,9 +1919,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1555,9 +1931,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "重刃"
+    translated: "Heavy Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1565,9 +1943,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "长兵"
+    translated: "Polearm"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1575,9 +1955,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "扇法"
+    translated: "Fan Art"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1585,9 +1967,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "暗器"
+    translated: "Hidden Weapon"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1595,9 +1979,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "腿脚"
+    translated: "Legwork"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1605,9 +1991,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1615,9 +2003,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "绳镖"
+    translated: "Rope Dart"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1625,9 +2015,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "弓箭"
+    translated: "Bow"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1635,9 +2027,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "软鞭"
+    translated: "Whip"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1645,9 +2039,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "火器"
+    translated: "Firearm"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1655,9 +2051,11 @@
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "短兵"
+    translated: "Short Weapon"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -1665,685 +2063,856 @@
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "369,367,默认界面,通用"
   splits:
   - split: 3
     text: "通用"
+    translated: "General"
 - raw: "370,368,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "371,369,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "372,370,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "373,371,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "374,372,默认界面,扇法"
   splits:
   - split: 3
     text: "扇法"
+    translated: "Fan Art"
 - raw: "375,373,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "376,374,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "377,375,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "378,376,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "379,377,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "380,378,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "381,379,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "382,380,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "383,381,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "384,382,默认界面,查看武学"
   splits:
   - split: 3
     text: "查看武学"
+    translated: "View Martial Art"
 - raw: "385,383,默认界面,切换武学"
   splits:
   - split: 3
     text: "切换武学"
+    translated: "Switch Martial Art"
 - raw: "386,384,默认界面,查看内功"
   splits:
   - split: 3
     text: "查看内功"
+    translated: "View Neigong"
 - raw: "387,385,默认界面,切换内功"
   splits:
   - split: 3
     text: "切换内功"
+    translated: "Switch Internal Skill"
 - raw: "388,386,默认界面,查看轻功"
   splits:
   - split: 3
     text: "查看轻功"
+    translated: "View Lightness Skills"
 - raw: "389,387,默认界面,切换轻功"
   splits:
   - split: 3
     text: "切换轻功"
+    translated: "Switch to qinggong"
 - raw: "390,388,默认界面,内功境界"
   splits:
   - split: 3
     text: "内功境界"
+    translated: "Neigong Realm"
 - raw: "391,389,默认界面,破境需满足"
   splits:
   - split: 3
     text: "破境需满足"
+    translated: "Realm Breakthrough requires satisfying"
 - raw: "392,390,默认界面,跳转经脉"
   splits:
   - split: 3
     text: "跳转经脉"
+    translated: "Jump to meridians"
 - raw: "393,391,默认界面,冲关破境"
   splits:
   - split: 3
     text: "冲关破境"
+    translated: "Breakthrough"
 - raw: "394,392,默认界面,破境可提升"
   splits:
   - split: 3
     text: "破境可提升"
+    translated: "Realm Breakthrough can be achieved"
 - raw: "395,393,默认界面,经脉"
   splits:
   - split: 3
     text: "经脉"
+    translated: "Meridians"
 - raw: "396,394,默认界面,十二正经"
   splits:
   - split: 3
     text: "十二正经"
+    translated: "Twelve Primary Meridians"
 - raw: "397,395,默认界面,手太阴经"
   splits:
   - split: 3
     text: "手太阴经"
+    translated: "Hand Taiyin Meridian"
 - raw: "398,396,默认界面,足阳明经"
   splits:
   - split: 3
     text: "足阳明经"
+    translated: "Foot Yangming Meridian"
 - raw: "399,397,默认界面,手少阴经"
   splits:
   - split: 3
     text: "手少阴经"
+    translated: "Hand Shaoyin Meridian"
 - raw: "400,398,默认界面,足厥阴经"
   splits:
   - split: 3
     text: "足厥阴经"
+    translated: "Foot Jueyin Meridian"
 - raw: "401,399,默认界面,手少阳经"
   splits:
   - split: 3
     text: "手少阳经"
+    translated: "Hand Shaoyang Meridian"
 - raw: "402,400,默认界面,足少阴经"
   splits:
   - split: 3
     text: "足少阴经"
+    translated: "Foot Shaoyin Meridian"
 - raw: "403,401,默认界面,奇经八脉"
   splits:
   - split: 3
     text: "奇经八脉"
+    translated: "Eight Extraordinary Meridians"
 - raw: "404,402,默认界面,手阳明经"
   splits:
   - split: 3
     text: "手阳明经"
+    translated: "Hand Yangming Meridian"
 - raw: "405,403,默认界面,足太阴经"
   splits:
   - split: 3
     text: "足太阴经"
+    translated: "Foot Taiyin Meridian"
 - raw: "406,404,默认界面,手太阳经"
   splits:
   - split: 3
     text: "手太阳经"
+    translated: "Hand Taiyang Meridian"
 - raw: "407,405,默认界面,足少阳经"
   splits:
   - split: 3
     text: "足少阳经"
+    translated: "Foot Shaoyang Meridian"
 - raw: "408,406,默认界面,手厥阴经"
   splits:
   - split: 3
     text: "手厥阴经"
+    translated: "Hand Jueyin Meridian"
 - raw: "409,407,默认界面,足太阳经"
   splits:
   - split: 3
     text: "足太阳经"
+    translated: "Foot Taiyang Meridian"
 - raw: "410,408,默认界面,修为池剩余"
   splits:
   - split: 3
     text: "修为池剩余"
+    translated: "Remaining in the Cultivation Pool"
 - raw: "411,409,默认界面,任脉"
   splits:
   - split: 3
     text: "任脉"
+    translated: "Ren Meridian"
 - raw: "412,410,默认界面,冲脉"
   splits:
   - split: 3
     text: "冲脉"
+    translated: "Chong Meridian"
 - raw: "413,411,默认界面,阴跷脉"
   splits:
   - split: 3
     text: "阴跷脉"
+    translated: "Yin Qiao Meridian"
 - raw: "414,412,默认界面,阴维脉"
   splits:
   - split: 3
     text: "阴维脉"
+    translated: "Yin Wei Meridian"
 - raw: "415,413,默认界面,督脉"
   splits:
   - split: 3
     text: "督脉"
+    translated: "Du Meridian"
 - raw: "416,414,默认界面,带脉"
   splits:
   - split: 3
     text: "带脉"
+    translated: "Dai Meridian"
 - raw: "417,415,默认界面,阳跷脉"
   splits:
   - split: 3
     text: "阳跷脉"
+    translated: "Yang Qiao Meridian"
 - raw: "418,416,默认界面,阳维脉"
   splits:
   - split: 3
     text: "阳维脉"
+    translated: "Yang Wei Meridian"
 - raw: "419,417,默认界面,进行中"
   splits:
   - split: 3
     text: "进行中"
+    translated: "In progress"
 - raw: "420,418,默认界面,已完成"
   splits:
   - split: 3
     text: "已完成"
+    translated: "Completed"
 - raw: "421,419,默认界面,青萍村"
   splits:
   - split: 3
     text: "青萍村"
+    translated: "Qingping Village"
 - raw: "422,420,默认界面,承安镇"
   splits:
   - split: 3
     text: "承安镇"
+    translated: "Cheng'an Town"
 - raw: "423,421,默认界面,太和山"
   splits:
   - split: 3
     text: "太和山"
+    translated: "Taihe Mountain"
 - raw: "424,422,默认界面,天涯海阁"
   splits:
   - split: 3
     text: "天涯海阁"
+    translated: "Tianya Haige"
 - raw: "425,423,默认界面,杭州城"
   splits:
   - split: 3
     text: "杭州城"
+    translated: "Hangzhou City"
 - raw: "426,424,默认界面,大理"
   splits:
   - split: 3
     text: "大理"
+    translated: "Dali"
 - raw: "427,425,默认界面,五圣教"
   splits:
   - split: 3
     text: "五圣教"
+    translated: "Wusheng Sect"
 - raw: "428,426,默认界面,桃花坞"
   splits:
   - split: 3
     text: "桃花坞"
+    translated: "Taohua Dock"
 - raw: "429,427,默认界面,襄阳"
   splits:
   - split: 3
     text: "襄阳"
+    translated: "Xiangyang"
 - raw: "430,428,默认界面,长安"
   splits:
   - split: 3
     text: "长安"
+    translated: "Chang'an"
 - raw: "431,429,默认界面,隋东关"
   splits:
   - split: 3
     text: "隋东关"
+    translated: "Suidong Pass"
 - raw: "432,430,默认界面,烹饪"
   splits:
   - split: 3
     text: "烹饪"
+    translated: "Cooking"
 - raw: "433,431,默认界面,锻造"
   splits:
   - split: 3
     text: "锻造"
+    translated: "Forging"
 - raw: "434,432,默认界面,炼丹"
   splits:
   - split: 3
     text: "炼丹"
+    translated: "Alchemy"
 - raw: "435,433,默认界面,类型"
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
 - raw: "436,434,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "437,435,默认界面,已习得"
   splits:
   - split: 3
     text: "已习得"
+    translated: "Learned"
 - raw: "438,436,默认界面,未习得"
   splits:
   - split: 3
     text: "未习得"
+    translated: "Not learned yet"
 - raw: "439,437,默认界面,烹饪等级"
   splits:
   - split: 3
     text: "烹饪等级"
+    translated: "Cooking Level"
 - raw: "440,438,默认界面,烹饪"
   splits:
   - split: 3
     text: "烹饪"
+    translated: "Cooking"
 - raw: "441,439,默认界面,锻造"
   splits:
   - split: 3
     text: "锻造"
+    translated: "Forging"
 - raw: "442,440,默认界面,炼丹"
   splits:
   - split: 3
     text: "炼丹"
+    translated: "Alchemy"
 - raw: "443,441,默认界面,类型"
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
 - raw: "444,442,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "445,443,默认界面,已习得"
   splits:
   - split: 3
     text: "已习得"
+    translated: "Learned"
 - raw: "446,444,默认界面,未习得"
   splits:
   - split: 3
     text: "未习得"
+    translated: "Not learned yet"
 - raw: "447,445,默认界面,烹饪等级"
   splits:
   - split: 3
     text: "烹饪等级"
+    translated: "Cooking Level"
 - raw: "448,446,默认界面,烹饪"
   splits:
   - split: 3
     text: "烹饪"
+    translated: "Cooking"
 - raw: "449,447,默认界面,锻造"
   splits:
   - split: 3
     text: "锻造"
+    translated: "Forging"
 - raw: "450,448,默认界面,炼丹"
   splits:
   - split: 3
     text: "炼丹"
+    translated: "Alchemy"
 - raw: "451,449,默认界面,类型"
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
 - raw: "452,450,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "453,451,默认界面,已习得"
   splits:
   - split: 3
     text: "已习得"
+    translated: "Learned"
 - raw: "454,452,默认界面,未习得"
   splits:
   - split: 3
     text: "未习得"
+    translated: "Not learned yet"
 - raw: "455,453,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "456,454,默认界面,拳掌"
   splits:
   - split: 3
     text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "457,455,默认界面,单手轻刃"
   splits:
   - split: 3
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "458,456,默认界面,重刃"
   splits:
   - split: 3
     text: "重刃"
+    translated: "Heavy Blade"
 - raw: "459,457,默认界面,长兵"
   splits:
   - split: 3
     text: "长兵"
+    translated: "Polearm"
 - raw: "460,458,默认界面,扇子"
   splits:
   - split: 3
     text: "扇子"
+    translated: "Fan"
 - raw: "461,459,默认界面,暗器"
   splits:
   - split: 3
     text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "462,460,默认界面,腿脚"
   splits:
   - split: 3
     text: "腿脚"
+    translated: "Legwork"
 - raw: "463,461,默认界面,双手轻刃"
   splits:
   - split: 3
     text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "464,462,默认界面,绳镖"
   splits:
   - split: 3
     text: "绳镖"
+    translated: "Rope Dart"
 - raw: "465,463,默认界面,弓箭"
   splits:
   - split: 3
     text: "弓箭"
+    translated: "Bow"
 - raw: "466,464,默认界面,软鞭"
   splits:
   - split: 3
     text: "软鞭"
+    translated: "Whip"
 - raw: "467,465,默认界面,火器"
   splits:
   - split: 3
     text: "火器"
+    translated: "Firearm"
 - raw: "468,466,默认界面,短兵"
   splits:
   - split: 3
     text: "短兵"
+    translated: "Short Weapon"
 - raw: "469,467,默认界面,防具"
   splits:
   - split: 3
     text: "防具"
+    translated: "Armor Gear"
 - raw: "470,468,默认界面,锻造等级"
   splits:
   - split: 3
     text: "锻造等级"
+    translated: "Forging Level"
 - raw: "471,469,默认界面,烹饪"
   splits:
   - split: 3
     text: "烹饪"
+    translated: "Cooking"
 - raw: "472,470,默认界面,锻造"
   splits:
   - split: 3
     text: "锻造"
+    translated: "Forging"
 - raw: "473,471,默认界面,炼丹"
   splits:
   - split: 3
     text: "炼丹"
+    translated: "Alchemy"
 - raw: "474,472,默认界面,类型"
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
 - raw: "475,473,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "476,474,默认界面,已习得"
   splits:
   - split: 3
     text: "已习得"
+    translated: "Learned"
 - raw: "477,475,默认界面,未习得"
   splits:
   - split: 3
     text: "未习得"
+    translated: "Not learned yet"
 - raw: "478,476,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "479,477,默认界面,血量"
   splits:
   - split: 3
     text: "血量"
+    translated: "Health"
 - raw: "480,478,默认界面,真气"
   splits:
   - split: 3
     text: "真气"
+    translated: "True Qi"
 - raw: "481,479,默认界面,毒药"
   splits:
   - split: 3
     text: "毒药"
+    translated: "Poison"
 - raw: "482,480,默认界面,其他"
   splits:
   - split: 3
     text: "其他"
+    translated: "Other"
 - raw: "483,481,默认界面,炼丹等级"
   splits:
   - split: 3
     text: "炼丹等级"
+    translated: "Alchemy Level"
 - raw: "484,482,默认界面,返回"
   splits:
   - split: 3
     text: "返回"
+    translated: "Return"
 - raw: "485,483,默认界面,冲穴属性"
   splits:
   - split: 3
     text: "冲穴属性"
+    translated: "Acupoint Breakthrough Attribute"
 - raw: "486,484,默认界面,规则说明"
   splits:
   - split: 3
     text: "规则说明"
+    translated: "Rules Explanation"
 - raw: "487,485,默认界面,修为池剩余"
   splits:
   - split: 3
     text: "修为池剩余"
+    translated: "Remaining in the Cultivation Pool"
 - raw: "488,486,默认界面,冲穴"
   splits:
   - split: 3
     text: "冲穴"
+    translated: "Acupoint Breakthrough"
 - raw: "489,487,默认界面,开启脉路"
   splits:
   - split: 3
     text: "开启脉路"
+    translated: "Open Meridian Path"
 - raw: "490,488,默认界面,顺旋脉路"
   splits:
   - split: 3
     text: "顺旋脉路"
+    translated: "Clockwise Path"
 - raw: "491,489,默认界面,逆旋脉路"
   splits:
   - split: 3
     text: "逆旋脉路"
+    translated: "Counterclockwise Path"
 - raw: "492,490,默认界面,更换脉路"
   splits:
   - split: 3
     text: "更换脉路"
+    translated: "Change Path"
 - raw: "493,491,默认界面,返回游戏"
   splits:
   - split: 3
     text: "返回游戏"
+    translated: "Return to game"
 - raw: "494,492,默认界面,存储档案"
   splits:
   - split: 3
     text: "存储档案"
+    translated: "Save Archive"
 - raw: "495,493,默认界面,读取档案"
   splits:
   - split: 3
     text: "读取档案"
+    translated: "Load archive"
 - raw: "496,494,默认界面,系统设置"
   splits:
   - split: 3
     text: "系统设置"
+    translated: "System Settings"
 - raw: "497,495,默认界面,退出游戏"
   splits:
   - split: 3
     text: "退出游戏"
+    translated: "Log out of game"
 - raw: "498,496,默认界面,购买"
   splits:
   - split: 3
     text: "购买"
+    translated: "Buy"
 - raw: "499,497,默认界面,出售"
   splits:
   - split: 3
     text: "出售"
+    translated: "Sell"
 - raw: "500,498,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "501,499,默认界面,商品进货时辰"
   splits:
   - split: 3
     text: "商品进货时辰"
+    translated: "The hour to stock up on goods"
 - raw: "502,500,默认界面,所需银两"
   splits:
   - split: 3
     text: "所需银两"
+    translated: "Required Silver"
 - raw: "503,501,默认界面,我的银两"
   splits:
   - split: 3
     text: "我的银两"
+    translated: "My Silver"
 - raw: "504,502,默认界面,购买"
   splits:
   - split: 3
     text: "购买"
+    translated: "Buy"
 - raw: "505,503,默认界面,物品描述"
   splits:
   - split: 3
     text: "物品描述"
+    translated: "Item description"
 - raw: "506,504,默认界面,出售银两"
   splits:
   - split: 3
     text: "出售银两"
+    translated: "Sell Silver"
 - raw: "507,505,默认界面,批量出售"
   splits:
   - split: 3
     text: "批量出售"
+    translated: "Bulk Sell"
 - raw: "508,506,默认界面,出售银两"
   splits:
   - split: 3
     text: "出售银两"
+    translated: "Sell Silver"
 - raw: "509,507,默认界面,我的银两"
   splits:
   - split: 3
     text: "我的银两"
+    translated: "My Silver"
 - raw: "510,508,默认界面,批量出售"
   splits:
   - split: 3
     text: "批量出售"
+    translated: "Bulk Sell"
 - raw: "511,509,默认界面,物品描述"
   splits:
   - split: 3
     text: "物品描述"
+    translated: "Item description"
 - raw: "512,510,默认界面,境界筛选"
   splits:
   - split: 3
     text: "境界筛选"
+    translated: "Realm Selection"
 - raw: "513,511,默认界面,品质筛选"
   splits:
   - split: 3
     text: "品质筛选"
+    translated: "Quality Filter"
 - raw: "514,512,默认界面,已选择"
   splits:
   - split: 3
     text: "已选择"
+    translated: "Selected"
 - raw: "515,513,默认界面,总银两"
   splits:
   - split: 3
     text: "总银两"
+    translated: "Total Silver"
 - raw: "516,514,默认界面,出售"
   splits:
   - split: 3
     text: "出售"
+    translated: "Sell"
 - raw: "517,515,默认界面,粗通皮毛"
   splits:
   - split: 3
     text: "粗通皮毛"
+    translated: "Novice"
 - raw: "518,516,默认界面,略有小成"
   splits:
   - split: 3
     text: "略有小成"
+    translated: "Minor Success"
 - raw: "519,517,默认界面,心领神会"
   splits:
   - split: 3
     text: "心领神会"
+    translated: "Proficient"
 - raw: "520,518,默认界面,出类拔萃"
   splits:
   - split: 3
     text: "出类拔萃"
+    translated: "Outstanding"
 - raw: "521,519,默认界面,登堂入室"
   splits:
   - split: 3
     text: "登堂入室"
+    translated: "Accomplished"
 - raw: "522,520,默认界面,融会贯通"
   splits:
   - split: 3
     text: "融会贯通"
+    translated: "Mastery"
 - raw: "523,521,默认界面,炉火纯青"
   splits:
   - split: 3
     text: "炉火纯青"
+    translated: "Perfected"
 - raw: "524,522,默认界面,登峰造极"
   splits:
   - split: 3
     text: "登峰造极"
+    translated: "Pinnacle"
 - raw: "525,523,默认界面,震古烁今"
   splits:
   - split: 3
     text: "震古烁今"
+    translated: "Peerless"
 - raw: "526,524,默认界面,返璞归真"
   splits:
   - split: 3
     text: "返璞归真"
+    translated: "Transcendence"
 - raw: "527,525,默认界面,练习设置"
   splits:
   - split: 3
     text: "练习设置"
+    translated: "Practice settings"
 - raw: "528,526,默认界面,木人桩设置"
   splits:
   - split: 3
     text: "木人桩设置"
+    translated: "Training Dummy Setup"
 - raw: "529,527,默认界面,木人桩境界"
   splits:
   - split: 3
     text: "木人桩境界"
+    translated: "Training Dummy Realm"
 - raw: "530,528,默认界面,霸体"
   splits:
   - split: 3
     text: "霸体"
+    translated: "Super Armor"
 - raw: "531,529,默认界面,倒计时"
   splits:
   - split: 3
     text: "倒计时"
+    translated: "Countdown"
 - raw: "532,530,默认界面,召唤"
   splits:
   - split: 3
     text: "召唤"
+    translated: "Summon"
 - raw: "533,531,默认界面,离开战斗"
   splits:
   - split: 3
     text: "离开战斗"
+    translated: "Leave Combat"
 - raw: "534,532,默认界面,伤害量"
   splits:
   - split: 3
     text: "伤害量"
+    translated: "Damage Dealt"
 - raw: "535,533,默认界面,连击数"
   splits:
   - split: 3
     text: "连击数"
+    translated: "Combo Count"
 - raw: "536,534,默认界面,普攻"
   splits:
   - split: 3
     text: "普攻"
+    translated: "Basic Attack"
 - raw: "537,535,默认界面,重击/装弹"
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
   - split: 3
     subIndex: 1
     text: "装弹"
+    translated: "Reload"
   templates:
   - split: 3
     template: "{0}/{1}"
@@ -2351,354 +2920,442 @@
   splits:
   - split: 3
     text: "闪避"
+    translated: "Dodge"
 - raw: "539,537,默认界面,格挡"
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "540,538,默认界面,跳跃"
   splits:
   - split: 3
     text: "跳跃"
+    translated: "Jumping"
 - raw: "541,539,默认界面,爆气"
   splits:
   - split: 3
     text: "爆气"
+    translated: "Qi Burst"
 - raw: "542,540,默认界面,炼丹等级"
   splits:
   - split: 3
     text: "炼丹等级"
+    translated: "Alchemy Level"
 - raw: "543,541,默认界面,制作"
   splits:
   - split: 3
     text: "制作"
+    translated: "Crafting"
 - raw: "544,542,默认界面,消耗"
   splits:
   - split: 3
     text: "消耗"
+    translated: "Spending"
 - raw: "545,543,默认界面,当前拥有"
   splits:
   - split: 3
     text: "当前拥有"
+    translated: "Currently have"
 - raw: "546,544,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "547,545,默认界面,锻造等级"
   splits:
   - split: 3
     text: "锻造等级"
+    translated: "Forging Level"
 - raw: "548,546,默认界面,制作"
   splits:
   - split: 3
     text: "制作"
+    translated: "Crafting"
 - raw: "549,547,默认界面,消耗"
   splits:
   - split: 3
     text: "消耗"
+    translated: "Spending"
 - raw: "550,548,默认界面,当前拥有"
   splits:
   - split: 3
     text: "当前拥有"
+    translated: "Currently have"
 - raw: "551,549,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "552,550,默认界面,烹饪地图"
   splits:
   - split: 3
     text: "烹饪地图"
+    translated: "Cooking Map"
 - raw: "553,551,默认界面,制作"
   splits:
   - split: 3
     text: "制作"
+    translated: "Crafting"
 - raw: "554,552,默认界面,消耗"
   splits:
   - split: 3
     text: "消耗"
+    translated: "Spending"
 - raw: "555,553,默认界面,当前拥有"
   splits:
   - split: 3
     text: "当前拥有"
+    translated: "Currently have"
 - raw: "556,554,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "557,555,默认界面,父母"
   splits:
   - split: 3
     text: "父母"
+    translated: "Parents"
 - raw: "558,556,默认界面,同怀"
   splits:
   - split: 3
     text: "同怀"
+    translated: "Siblings"
 - raw: "559,557,默认界面,金兰"
   splits:
   - split: 3
     text: "金兰"
+    translated: "Sworn Bond"
 - raw: "560,558,默认界面,配偶"
   splits:
   - split: 3
     text: "配偶"
+    translated: "Spouse"
 - raw: "561,559,默认界面,子女"
   splits:
   - split: 3
     text: "子女"
+    translated: "Children"
 - raw: "562,560,默认界面,境界"
   splits:
   - split: 3
     text: "境界"
+    translated: "Realm"
 - raw: "563,561,默认界面,门派"
   splits:
   - split: 3
     text: "门派"
+    translated: "Sect"
 - raw: "564,562,默认界面,索要银两"
   splits:
   - split: 3
     text: "索要银两"
+    translated: "Demand silver"
 - raw: "565,563,默认界面,索要物品"
   splits:
   - split: 3
     text: "索要物品"
+    translated: "Requesting an item"
 - raw: "566,564,默认界面,未读"
   splits:
   - split: 3
     text: "未读"
+    translated: "Unread"
 - raw: "567,565,默认界面,已读"
   splits:
   - split: 3
     text: "已读"
+    translated: "Read"
 - raw: "568,566,默认界面,批量删除"
   splits:
   - split: 3
     text: "批量删除"
+    translated: "Bulk delete"
 - raw: "569,567,默认界面,关系"
   splits:
   - split: 3
     text: "关系"
+    translated: "Relationships"
 - raw: "570,568,默认界面,好感度"
   splits:
   - split: 3
     text: "好感度"
+    translated: "Favorability"
 - raw: "571,569,默认界面,江湖信息"
   splits:
   - split: 3
     text: "江湖信息"
+    translated: "Jianghu Intel"
 - raw: "572,570,默认界面,确定"
   splits:
   - split: 3
     text: "确定"
+    translated: "Confirm"
 - raw: "573,571,默认界面,仓库"
   splits:
   - split: 3
     text: "仓库"
+    translated: "Warehouse"
 - raw: "574,572,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "575,573,默认界面,装备"
   splits:
   - split: 3
     text: "装备"
+    translated: "Equipment"
 - raw: "576,574,默认界面,药品"
   splits:
   - split: 3
     text: "药品"
+    translated: "Medicine"
 - raw: "577,575,默认界面,食物"
   splits:
   - split: 3
     text: "食物"
+    translated: "Food"
 - raw: "578,576,默认界面,艺能"
   splits:
   - split: 3
     text: "艺能"
+    translated: "Crafts"
 - raw: "579,577,默认界面,秘籍"
   splits:
   - split: 3
     text: "秘籍"
+    translated: "Manual"
 - raw: "580,578,默认界面,材料"
   splits:
   - split: 3
     text: "材料"
+    translated: "Materials"
 - raw: "581,579,默认界面,任务"
   splits:
   - split: 3
     text: "任务"
+    translated: "Task"
 - raw: "582,580,默认界面,其他"
   splits:
   - split: 3
     text: "其他"
+    translated: "Other"
 - raw: "583,581,默认界面,一键取出"
   splits:
   - split: 3
     text: "一键取出"
+    translated: "One-click retrieve"
 - raw: "584,582,默认界面,境界筛选"
   splits:
   - split: 3
     text: "境界筛选"
+    translated: "Realm Selection"
 - raw: "585,583,默认界面,行囊"
   splits:
   - split: 3
     text: "行囊"
+    translated: "Pack"
 - raw: "586,584,默认界面,全部"
   splits:
   - split: 3
     text: "全部"
+    translated: "All"
 - raw: "587,585,默认界面,装备"
   splits:
   - split: 3
     text: "装备"
+    translated: "Equipment"
 - raw: "588,586,默认界面,药品"
   splits:
   - split: 3
     text: "药品"
+    translated: "Medicine"
 - raw: "589,587,默认界面,食物"
   splits:
   - split: 3
     text: "食物"
+    translated: "Food"
 - raw: "590,588,默认界面,艺能"
   splits:
   - split: 3
     text: "艺能"
+    translated: "Crafts"
 - raw: "591,589,默认界面,秘籍"
   splits:
   - split: 3
     text: "秘籍"
+    translated: "Manual"
 - raw: "592,590,默认界面,材料"
   splits:
   - split: 3
     text: "材料"
+    translated: "Materials"
 - raw: "593,591,默认界面,任务"
   splits:
   - split: 3
     text: "任务"
+    translated: "Task"
 - raw: "594,592,默认界面,其他"
   splits:
   - split: 3
     text: "其他"
+    translated: "Other"
 - raw: "595,593,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "596,594,默认界面,行囊银两"
   splits:
   - split: 3
     text: "行囊银两"
+    translated: "Pack of Silver"
 - raw: "597,595,默认界面,摇骰"
   splits:
   - split: 3
     text: "摇骰"
+    translated: "Roll Dice"
 - raw: "598,596,默认界面,选择下注金额"
   splits:
   - split: 3
     text: "选择下注金额"
+    translated: "Choose your bet amount"
 - raw: "599,597,默认界面,银两"
   splits:
   - split: 3
     text: "银两"
+    translated: "Silver"
 - raw: "600,598,默认界面,确定"
   splits:
   - split: 3
     text: "确定"
+    translated: "Confirm"
 - raw: "601,599,默认界面,帮派等级"
   splits:
   - split: 3
     text: "帮派等级"
+    translated: "Gang rank"
 - raw: "602,600,默认界面,帮派资金"
   splits:
   - split: 3
     text: "帮派资金"
+    translated: "Gang Funds"
 - raw: "603,601,默认界面,产业收入"
   splits:
   - split: 3
     text: "产业收入"
+    translated: "Property income"
 - raw: "604,602,默认界面,当前帮派位阶"
   splits:
   - split: 3
     text: "当前帮派位阶"
+    translated: "Current Gang Rank"
 - raw: "605,603,默认界面,累计帮派功勋"
   splits:
   - split: 3
     text: "累计帮派功勋"
+    translated: "Accumulated Gang Merit"
 - raw: "606,604,默认界面,获取薪俸"
   splits:
   - split: 3
     text: "获取薪俸"
+    translated: "Collect stipend"
 - raw: "607,605,默认界面,报名考核"
   splits:
   - split: 3
     text: "报名考核"
+    translated: "Sign up for the exam"
 - raw: "608,606,默认界面,查看教众"
   splits:
   - split: 3
     text: "查看教众"
+    translated: "View Followers"
 - raw: "609,607,默认界面,离开"
   splits:
   - split: 3
     text: "离开"
+    translated: "Leave"
 - raw: "610,608,默认界面,购买"
   splits:
   - split: 3
     text: "购买"
+    translated: "Buy"
 - raw: "611,609,默认界面,出售"
   splits:
   - split: 3
     text: "出售"
+    translated: "Sell"
 - raw: "612,610,默认界面,帮派商店"
   splits:
   - split: 3
     text: "帮派商店"
+    translated: "Gang Shop"
 - raw: "613,611,默认界面,所需功勋"
   splits:
   - split: 3
     text: "所需功勋"
+    translated: "Required Merit"
 - raw: "614,612,默认界面,我的功勋"
   splits:
   - split: 3
     text: "我的功勋"
+    translated: "My Merit"
 - raw: "615,613,默认界面,购买"
   splits:
   - split: 3
     text: "购买"
+    translated: "Buy"
 - raw: "616,614,默认界面,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "617,615,默认界面,推荐境界"
   splits:
   - split: 3
     text: "推荐境界"
+    translated: "Recommended Realm"
 - raw: "618,616,默认界面,进入副本"
   splits:
   - split: 3
     text: "进入副本"
+    translated: "Enter the dungeon"
 - raw: "619,617,默认界面,历时"
   splits:
   - split: 3
     text: "历时"
+    translated: "Over time"
 - raw: "620,618,默认界面,获得"
   splits:
   - split: 3
     text: "获得"
+    translated: "Gain"
 - raw: "621,619,默认界面,修为"
   splits:
   - split: 3
     text: "修为"
+    translated: "Cultivation"
 - raw: "622,620,默认界面,银两"
   splits:
   - split: 3
     text: "银两"
+    translated: "Silver"
 - raw: "623,621,默认界面,造诣"
   splits:
   - split: 3
     text: "造诣"
+    translated: "Mastery"
 - raw: "624,622,默认界面,离开战斗"
   splits:
   - split: 3
     text: "离开战斗"
+    translated: "Leave Combat"
 - raw: "625,623,创角-天赋,还有剩余天赋点没有使用，是否继续?"
   splits:
   - split: 3
     text: "还有剩余天赋点没有使用，是否继续"
+    translated: "Do you have unused Talent Points left? Continue?"
   templates:
   - split: 3
     template: "{0}?"
@@ -2706,137 +3363,173 @@
   splits:
   - split: 3
     text: "取消"
+    translated: "Cancel"
 - raw: "627,625,创角-天赋,剩余天赋点不足"
   splits:
   - split: 3
     text: "剩余天赋点不足"
+    translated: "Not enough Talent Points remaining"
 - raw: "628,626,创角-初始属性,点击资质文字可锁定该项资质，至多可同时锁定两项资质。"
   splits:
   - split: 3
     text: "点击资质文字可锁定该项资质，至多可同时锁定两项资质。"
+    translated: "Clicking on the aptitude text will lock that aptitude; you may lock up to two aptitudes at a time."
 - raw: "629,627,创角-初始属性,资质决定了角色获取该项造诣的上限值，后续使用该项武器或武学时将获得造诣，造诣越高，对应获取的攻击，防御等加成就越高。"
   splits:
   - split: 3
     text: "资质决定了角色获取该项造诣的上限值，后续使用该项武器或武学时将获得造诣，造诣越高，对应获取的攻击，防御等加成就越高。"
+    translated: "Aptitude determines the maximum Mastery a character can achieve for that skill. Using the Weapon or Martial Art subsequently will grant Mastery, and the higher the Mastery, the greater the bonuses to attack, defense, and other stats."
 - raw: "630,628,创角-初始属性,影响外功攻击力，武学伤害。"
   splits:
   - split: 3
     text: "影响外功攻击力，武学伤害。"
+    translated: "Affects External Attack Power, Martial Art Damage"
 - raw: "631,629,创角-初始属性,影响外功防御力，气血上限，免暴，武学伤害。"
   splits:
   - split: 3
     text: "影响外功防御力，气血上限，免暴，武学伤害。"
+    translated: "Affects External Defense, Max Lifeforce, Crit Immunity, and Martial Art Damage."
 - raw: "632,630,创角-初始属性,影响移动速度，暴击几率，暴击伤害，武学伤害。"
   splits:
   - split: 3
     text: "影响移动速度，暴击几率，暴击伤害，武学伤害。"
+    translated: "Affects Movement Speed, Critical Hit Chance, Crit Damage, and Martial Art Damage."
 - raw: "633,631,创角-初始属性,影响内功攻击力，内功防御力，武学伤害。"
   splits:
   - split: 3
     text: "影响内功攻击力，内功防御力，武学伤害。"
+    translated: "Affects Internal Attack Power, Internal Defense, and Martial Art Damage."
 - raw: "634,632,创角-初始属性,影响偷学与请教武学的成功率，试探对方境界增加修为获取速度，开启三才书槽位。"
   splits:
   - split: 3
     text: "影响偷学与请教武学的成功率，试探对方境界增加修为获取速度，开启三才书槽位。"
+    translated: "Affects the success rate of secretly learning and seeking guidance in martial arts, increases Cultivation gain Speed by probing the other's Realm, unlocks slots for the Three Talents Tome."
 - raw: "635,633,创角-初始属性,可分配属性点未分配完"
   splits:
   - split: 3
     text: "可分配属性点未分配完"
+    translated: "Unassigned attribute points remaining"
 - raw: "636,634,创角-初始属性,可分配资质点未分配完"
   splits:
   - split: 3
     text: "可分配资质点未分配完"
+    translated: "Unassigned aptitude points remain available for allocation"
 - raw: "637,635,游戏环境设置,游戏模式"
   splits:
   - split: 3
     text: "游戏模式"
+    translated: "Game Mode"
 - raw: "638,636,游戏环境设置,剧情"
   splits:
   - split: 3
     text: "剧情"
+    translated: "Story"
 - raw: "639,637,游戏环境设置,沙盒"
   splits:
   - split: 3
     text: "沙盒"
+    translated: "Sandbox"
 - raw: "640,638,游戏环境设置,5天"
   splits:
   - split: 3
     text: "5天"
+    translated: "5 days"
 - raw: "641,639,游戏环境设置,15天"
   splits:
   - split: 3
     text: "15天"
+    translated: "15 days"
 - raw: "642,640,游戏环境设置,30天"
   splits:
   - split: 3
     text: "30天"
+    translated: "30 days"
 - raw: "643,641,游戏环境设置,是"
   splits:
   - split: 3
     text: "是"
+    translated: "Yes"
 - raw: "644,642,游戏环境设置,否"
   splits:
   - split: 3
     text: "否"
+    translated: "No"
 - raw: "645,643,游戏环境设置,是"
   splits:
   - split: 3
     text: "是"
+    translated: "Yes"
 - raw: "646,644,游戏环境设置,否"
   splits:
   - split: 3
     text: "否"
+    translated: "No"
 - raw: "647,645,游戏环境设置,少量"
   splits:
   - split: 3
     text: "少量"
+    translated: "A small amount"
 - raw: "648,646,游戏环境设置,普通"
   splits:
   - split: 3
     text: "普通"
+    translated: "Normal"
 - raw: "649,647,游戏环境设置,大量"
   splits:
   - split: 3
     text: "大量"
+    translated: "A large amount of"
 - raw: "650,648,游戏环境设置,3月"
   splits:
   - split: 3
     text: "3月"
+    translated: "3 month"
 - raw: "651,649,游戏环境设置,5月"
   splits:
   - split: 3
     text: "5月"
+    translated: "5 month"
 - raw: "652,650,游戏环境设置,10月"
   splits:
   - split: 3
     text: "10月"
+    translated: "10 month"
 - raw: "653,651,游戏环境设置,2个"
   splits:
   - split: 3
     text: "2个"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "654,652,游戏环境设置,4个"
   splits:
   - split: 3
     text: "4个"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "655,653,游戏环境设置,7年"
   splits:
   - split: 3
     text: "7年"
+    translated: "7 years"
 - raw: "656,654,游戏环境设置,14年"
   splits:
   - split: 3
     text: "14年"
+    translated: "14 years"
 - raw: "657,655,游戏环境设置,此选项决定创建的游戏世界模式。沙盒模式屏蔽了剧情，专注于开放世界与帮派之争，更自由更江湖的模式。"
   splits:
   - split: 3
     text: "此选项决定创建的游戏世界模式。沙盒模式屏蔽了剧情，专注于开放世界与帮派之争，更自由更江湖的模式。"
+    translated: "This option determines the mode of the game world that will be created. Sandbox mode blocks the story and focuses on open-world exploration and gang conflicts, offering a more free and Jianghu-style experience."
 - raw: "658,656,游戏环境设置,每月的天数越少，游戏时间过越快，游戏中的NPC衰老速度也越快。"
   splits:
   - split: 3
     text: "每月的天数越少，游戏时间过越快，游戏中的"
+    translated: "The fewer the days in a month, the faster time passes in the game, in the game's timeline,"
   - split: 3
     subIndex: 1
     text: "衰老速度也越快。"
+    translated: "The rate of aging is also faster"
   templates:
   - split: 3
     template: "{0}NPC{1}"
@@ -2844,9 +3537,11 @@
   splits:
   - split: 3
     text: "此选项决定随机"
+    translated: "This option decides randomly"
   - split: 3
     subIndex: 1
     text: "是否会因为年龄而自然死亡。但不影响游戏剧情的体验。"
+    translated: "Whether they will die of old age naturally. But this does not affect the story experience of the game."
   templates:
   - split: 3
     template: "{0}NPC{1}"
@@ -2854,12 +3549,15 @@
   splits:
   - split: 3
     text: "剧情"
+    translated: "Story"
   - split: 3
     subIndex: 1
     text: "若被杀死，会导致与其相关的任务无法完成，喜欢体验"
+    translated: "If killed, it will prevent related quests from being completed. Enjoy the experience."
   - split: 3
     subIndex: 2
     text: "剧情的玩家建议关闭，请慎重选择。"
+    translated: "The player suggestion to close the story is being displayed; please choose carefully."
   templates:
   - split: 3
     template: "{0}NPC{1}RPG{2}"
@@ -2867,9 +3565,11 @@
   splits:
   - split: 3
     text: "此选项决定随机"
+    translated: "This option decides randomly"
   - split: 3
     subIndex: 1
     text: "生成的数量，数量越多则数据运算量越大对电脑性能要求越高。"
+    translated: "The more generated items, the greater the data processing volume and the higher the requirements for computer performance."
   templates:
   - split: 3
     template: "{0}NPC{1}"
@@ -2877,9 +3577,11 @@
   splits:
   - split: 3
     text: "此选项决定"
+    translated: "This option decides"
   - split: 3
     subIndex: 1
     text: "和角色怀孕所需的游戏世界时间"
+    translated: "The in-game world time required for the character to be pregnant"
   templates:
   - split: 3
     template: "{0}NPC{1}"
@@ -2887,48 +3589,61 @@
   splits:
   - split: 3
     text: "玩家最多同时上阵的同伴数量，推荐选择2位以获得最佳战斗体验，4位上阵同伴可能会导致战斗难度较易"
+    translated: "The maximum number of companions you can have in battle at the same time is recommended to be 2 for the best combat experience. Having 4 companions in battle might result in easier combat difficulty."
 - raw: "664,662,游戏环境设置,孩童自诞生到成年所需经历游戏世界时间"
   splits:
   - split: 3
     text: "孩童自诞生到成年所需经历游戏世界时间"
+    translated: "The game world time required for a child to grow from birth to adulthood"
 - raw: "665,663,游戏环境设置,轻松战斗，方便快速体验剧情。"
   splits:
   - split: 3
     text: "轻松战斗，方便快速体验剧情。"
+    translated: "Easy combat, convenient for quickly experiencing the story."
 - raw: "666,664,创角-选择难度,困难战斗，在难度上略有一些挑战。"
   splits:
   - split: 3
     text: "困难战斗，在难度上略有一些挑战。"
+    translated: "The hard battle presents a bit more of a challenge in difficulty."
 - raw: "667,665,创角-选择难度,极难战斗，在难度上有较大的挑战。"
   splits:
   - split: 3
     text: "极难战斗，在难度上有较大的挑战。"
+    translated: "Extremely difficult battle, with significant challenges in difficulty."
 - raw: "668,666,创角-选择难度,非常困难的战斗，在难度上有巨大的挑战。"
   splits:
   - split: 3
     text: "非常困难的战斗，在难度上有巨大的挑战。"
+    translated: "A very hard battle, with tremendous challenges in difficulty."
 - raw: "669,667,创角-选择难度,玩家有部分免伤\\n玩家受击硬直时也可进行攻击且附带短暂霸体\\n玩家可随时闪避(包括角色受击硬直时)\\n同时最多2个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
   splits:
   - split: 3
     text: "玩家有部分免伤"
+    translated: "You have partial damage immunity"
   - split: 3
     subIndex: 1
     text: "玩家受击硬直时也可进行攻击且附带短暂霸体"
+    translated: "You can also attack and gain brief super armor during hit stun."
   - split: 3
     subIndex: 2
     text: "玩家可随时闪避"
+    translated: "Players can dodge at any time"
   - split: 3
     subIndex: 3
     text: "包括角色受击硬直时"
+    translated: "Including when the character is hit and stunned"
   - split: 3
     subIndex: 4
     text: "同时最多2个"
+    translated: "Up to 2 at once"
   - split: 3
     subIndex: 5
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 3
     subIndex: 6
     text: "敌方普通攻击前摇时有红点提示"
+    translated: "There is a red dot warning before the enemy's normal attack."
   templates:
   - split: 3
     template: "{0}\\n{1}\\n{2}({3})\\n{4}NPC{5}\\n{6}"
@@ -2936,24 +3651,31 @@
   splits:
   - split: 3
     text: "玩家有少量免伤"
+    translated: "You have some damage immunity"
   - split: 3
     subIndex: 1
     text: "玩家受击硬直时无法攻击"
+    translated: "You cannot attack when you are stunned from being hit."
   - split: 3
     subIndex: 2
     text: "玩家可随时闪避"
+    translated: "Players can dodge at any time"
   - split: 3
     subIndex: 3
     text: "包括角色受击硬直时"
+    translated: "Including when the character is hit and stunned"
   - split: 3
     subIndex: 4
     text: "略微增加格挡弹反和闪避的几率同时最多3个"
+    translated: "Slightly increase the chances of blocking, parrying, and dodging, up to 3 times."
   - split: 3
     subIndex: 5
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 3
     subIndex: 6
     text: "敌方普通攻击前摇时有红点提示"
+    translated: "There is a red dot warning before the enemy's normal attack."
   templates:
   - split: 3
     template: "{0}\\n{1}\\n{2}({3})\\nNPC{4}NPC{5}\\n{6}"
@@ -2961,24 +3683,31 @@
   splits:
   - split: 3
     text: "玩家无免伤"
+    translated: "Player has no damage reduction"
   - split: 3
     subIndex: 1
     text: "玩家受击硬直时无法攻击玩家"
+    translated: "The player cannot attack when they are stunned from being hit."
   - split: 3
     subIndex: 2
     text: "可随时闪避"
+    translated: "Can dodge at any time"
   - split: 3
     subIndex: 3
     text: "包括角色受击硬直时"
+    translated: "Including when the character is hit and stunned"
   - split: 3
     subIndex: 4
     text: "少量增加格挡弹反和闪避的几率同时最多4个"
+    translated: "Slightly increase the chances of blocking, parrying, and dodging, up to a maximum of 4."
   - split: 3
     subIndex: 5
     text: "攻击玩家"
+    translated: "Attack player"
   - split: 3
     subIndex: 6
     text: "敌方普通攻击前摇时有红点提示"
+    translated: "There is a red dot warning before the enemy's normal attack."
   templates:
   - split: 3
     template: "{0}\\n{1}\\n{2}({3})\\nNPC{4}NPC{5}\\n{6}"
@@ -2986,18 +3715,23 @@
   splits:
   - split: 3
     text: "玩家无免伤玩家受击硬直时无法攻击玩家受击硬直时如无真气，则无法释放闪避"
+    translated: "When you are vulnerable to attacks and staggered upon being hit, you cannot attack. If you do not have True Qi when staggered from being hit, you cannot use Dodge."
   - split: 3
     subIndex: 1
     text: "如有真气可额外消耗1点真气，释放闪避动作"
+    translated: "If you have True Qi to spare, you may consume 1 points of True Qi to perform a Dodge action."
   - split: 3
     subIndex: 2
     text: "大量提升格挡弹反与闪避的几率"
+    translated: "Greatly increase the chances of blocking, parrying, and dodging."
   - split: 3
     subIndex: 3
     text: "同时最多5个"
+    translated: "Up to 5 at the same time"
   - split: 3
     subIndex: 4
     text: "攻击玩家"
+    translated: "Attack player"
   templates:
   - split: 3
     template: "{0};{1}NPC{2}\\n{3}NPC{4}"
@@ -3005,9 +3739,11 @@
   splits:
   - split: 3
     text: "【按"
+    translated: "[Press]"
   - split: 3
     subIndex: 1
     text: "跳过当前动画】"
+    translated: "[Skip current animation]"
   templates:
   - split: 3
     template: "{0}ESC{1}"
@@ -3015,122 +3751,152 @@
   splits:
   - split: 3
     text: "心意明达"
+    translated: "Lucid Mind"
 - raw: "675,673,天赋界面,气海充盈"
   splits:
   - split: 3
     text: "气海充盈"
+    translated: "Abundant Qi Sea"
 - raw: "676,674,天赋界面,牛磐虎健"
   splits:
   - split: 3
     text: "牛磐虎健"
+    translated: "Ox-Boulder Tiger-Vigor"
 - raw: "677,675,天赋界面,抱御守元"
   splits:
   - split: 3
     text: "抱御守元"
+    translated: "Guarded Origin"
 - raw: "678,676,天赋界面,踏雪鸿泥"
   splits:
   - split: 3
     text: "踏雪鸿泥"
+    translated: "Swan on Snow"
 - raw: "679,677,天赋界面,蕴纳柔劲"
   splits:
   - split: 3
     text: "蕴纳柔劲"
+    translated: "Gathered Gentle Force"
 - raw: "680,678,天赋界面,破锋锐劲"
   splits:
   - split: 3
     text: "破锋锐劲"
+    translated: "Piercing Edge"
 - raw: "681,679,天赋界面,丹心碧血"
   splits:
   - split: 3
     text: "丹心碧血"
+    translated: "Loyal Heart, Verdant Blood"
 - raw: "682,680,天赋界面,妙手生花"
   splits:
   - split: 3
     text: "妙手生花"
+    translated: "Blossoming Hands"
 - raw: "683,681,天赋界面,天纵之才"
   splits:
   - split: 3
     text: "天纵之才"
+    translated: "Heaven-Sent Talent"
 - raw: "684,682,天赋界面,神完气足"
   splits:
   - split: 3
     text: "神完气足"
+    translated: "Full Spirit, Full Qi"
 - raw: "685,683,天赋界面,梵金刚体"
   splits:
   - split: 3
     text: "梵金刚体"
+    translated: "Brahma Vajra Body"
 - raw: "686,684,天赋界面,栖身奉道"
   splits:
   - split: 3
     text: "栖身奉道"
+    translated: "Devoted to the Way"
 - raw: "687,685,天赋界面,崧生岳降"
   splits:
   - split: 3
     text: "崧生岳降"
+    translated: "Born of Mountains"
 - raw: "688,686,天赋界面,秋尽而藏"
   splits:
   - split: 3
     text: "秋尽而藏"
+    translated: "Autumn Store"
 - raw: "689,687,天赋界面,气止神闲"
   splits:
   - split: 3
     text: "气止神闲"
+    translated: "Calm Qi, Easy Spirit"
 - raw: "690,688,天赋界面,洞隐烛微"
   splits:
   - split: 3
     text: "洞隐烛微"
+    translated: "Penetrating Insight"
 - raw: "691,689,天赋界面,攻敌必救"
   splits:
   - split: 3
     text: "攻敌必救"
+    translated: "Strike the Vital Point"
 - raw: "692,690,天赋界面,灵犀一点"
   splits:
   - split: 3
     text: "灵犀一点"
+    translated: "Spark of Insight"
 - raw: "693,691,天赋界面,道法自然"
   splits:
   - split: 3
     text: "道法自然"
+    translated: "Dao Follows Nature"
 - raw: "694,692,天赋界面,明镜止水"
   splits:
   - split: 3
     text: "明镜止水"
+    translated: "Still Water"
 - raw: "695,693,天赋界面,渊渟岳峙"
   splits:
   - split: 3
     text: "渊渟岳峙"
+    translated: "Deep Pool, Standing Peak"
 - raw: "696,694,天赋界面,昏昭智愚"
   splits:
   - split: 3
     text: "昏昭智愚"
+    translated: "Wise Fool"
 - raw: "697,695,天赋界面,天生财贵"
   splits:
   - split: 3
     text: "天生财贵"
+    translated: "Born to Wealth"
 - raw: "698,696,天赋界面,若愚之智"
   splits:
   - split: 3
     text: "若愚之智"
+    translated: "Wisdom of the Seeming Fool"
 - raw: "699,697,天赋界面,真贯之体"
   splits:
   - split: 3
     text: "真贯之体"
+    translated: "True Piercing Body"
 - raw: "700,698,天赋界面,天狼孤煞"
   splits:
   - split: 3
     text: "天狼孤煞"
+    translated: "Lone Sirius Star"
 - raw: "701,699,天赋界面,镇军之材"
   splits:
   - split: 3
     text: "镇军之材"
+    translated: "Army-Commander Talent"
 - raw: "702,700,天赋界面,明心见性，方可念头通达，一心起时，万念如臂使指，气血回复提升10%，内劲获取速率提升10%。"
   splits:
   - split: 3
     text: "明心见性，方可念头通达，一心起时，万念如臂使指，气血回复提升10%，内劲获取速率提升10%。"
+    translated: "Clear the mind and see the nature, only then can thoughts flow freely; when one thought arises, myriad thoughts obey like fingers to command, Lifeforce recovery increases by 10%, and Inner Force acquisition rate increases by 10%."
 - raw: "703,701,天赋界面,气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人，内息属性+1"
   splits:
   - split: 3
     text: "气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人，内息属性"
+    translated: "Abundant Qi Sea, vast and broad, can accommodate the aura of origin, ingest and circulate true essence, far surpassing ordinary people, [Inner Qi Attributes]"
   templates:
   - split: 3
     template: "{0}+1"
@@ -3138,6 +3904,7 @@
   splits:
   - split: 3
     text: "架若牛磐，势如虎健，乃为罕见之材，修习外家功法，造诣定一日千里，筋骨属性"
+    translated: "Steady as an ox, strong as a tiger, it is a rare material, suitable for practicing external martial arts, with mastery surely advancing by leaps and bounds, physique attributes"
   templates:
   - split: 3
     template: "{0}+1."
@@ -3145,41 +3912,51 @@
   splits:
   - split: 3
     text: "真元抱守，御心见性，神思不乱，可抵内劲侵袭，内功防御提升3%。"
+    translated: "True Essence Embrace, Discipline Reveals Nature, Mind Untroubled, can ward off Inner Force attacks, increasing Internal Defense by 3%."
 - raw: "706,704,天赋界面,踏雪无痕，若惊鸿穿纵，翩翩佳人公子，游花间不染片叶，移动速度提升10%。"
   splits:
   - split: 3
     text: "踏雪无痕，若惊鸿穿纵，翩翩佳人公子，游花间不染片叶，移动速度提升10%。"
+    translated: "Snow leaves no trace, like a startled goose darting through the air, an elegant young lord moves among the flowers untouched by even a leaf, increasing Movement Speed by 10%."
 - raw: "707,705,天赋界面,筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师，内功攻击提升2%。"
   splits:
   - split: 3
     text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师，内功攻击提升2%。"
+    translated: "Superb Physique, matching the ancient Hundred Aspects diagram; those with this Talent will inevitably become Internal Kung Fu Masters, increasing Internal Attack by 2%."
 - raw: "708,706,天赋界面,筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师，外功攻击提升3%。"
   splits:
   - split: 3
     text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师，外功攻击提升3%。"
+    translated: "Superb Physique, matching the ancient Hundred Aspects diagram; those with this Talent are destined to become masters of external martial arts, increasing External Attack by 3%."
 - raw: "709,707,天赋界面,饮冰难凉，碧血难消，你性格坚韧顽强，纵被击倒亦能快速恢复，体力值恢复速率额外提升5%。"
   splits:
   - split: 3
     text: "饮冰难凉，碧血难消，你性格坚韧顽强，纵被击倒亦能快速恢复，体力值恢复速率额外提升5%。"
+    translated: "Quenching rage with ice is hard, and purging bloodied wounds is difficult. Your tenacious nature allows you to quickly recover even when struck down, increasing your Stamina regeneration rate by an additional 5%."
 - raw: "710,708,天赋界面,其技奇巧，转触回春，你秉性与医道暗合，自身体力上限提升10%，气血回复速率提升10%。"
   splits:
   - split: 3
     text: "其技奇巧，转触回春，你秉性与医道暗合，自身体力上限提升10%，气血回复速率提升10%。"
+    translated: "Their technique is ingenious, reviving upon touch; your nature aligns with the healing arts, increasing your max stamina by 10% and lifeforce recovery rate by 10%."
 - raw: "711,709,天赋界面,人杰之表，万中无一，天资聪颖，可提前解锁比当前武学境界高一级的装备类物品，无视其境界需求。"
   splits:
   - split: 3
     text: "人杰之表，万中无一，天资聪颖，可提前解锁比当前武学境界高一级的装备类物品，无视其境界需求。"
+    translated: "A paragon among men, one in a million, with exceptional talent, can unlock equipment items of a rank higher than their current martial art realm, ignoring the realm requirements."
 - raw: "712,710,天赋界面,神足无倦，气足无眠，你天生精气充沛，体力上限提升20%。"
   splits:
   - split: 3
     text: "神足无倦，气足无眠，你天生精气充沛，体力上限提升20%。"
+    translated: "With divine legs untired and spirit unslumbering, your natural essence and energy abundant increases your Max Stamina by 20%."
 - raw: "713,711,天赋界面,\"体健刚强，若伽蓝之身，天生佛缘，武学至深，机缘起时，或可为不垢不灭,气血最大值额外提升10%。\""
   splits:
   - split: 3
     text: "体健刚强，若伽蓝之身，天生佛缘，武学至深，机缘起时，或可为不垢不灭"
+    translated: "Physically strong and robust, like a celestial guardian, with a natural affinity for Buddhism, profound in martial arts, when the time is right, one might become beyond defilement and impermanence."
   - split: 3
     subIndex: 1
     text: "气血最大值额外提升10%。"
+    translated: "Maximum Lifeforce increased by an additional 10%"
   templates:
   - split: 3
     template: "{0},{1}"
@@ -3187,80 +3964,100 @@
   splits:
   - split: 3
     text: "以武栖身，以身奉道，你无法拥有子嗣，但所有武学招式的伤害额外获得3%的加成。"
+    translated: "By relying on martial arts for survival and dedicating your life to the Way, you cannot have offspring, but all Martial Art Moves deal an additional 3% Damage."
 - raw: "715,713,天赋界面,崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
   splits:
   - split: 3
     text: "崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
+    translated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
 - raw: "716,714,天赋界面,时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。"
   splits:
   - split: 3
     text: "时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。"
+    translated: "In autumn, harvest comes; in winter, all is stored. Your steady nature allows you to act at the right time and conserve strength, increasing your Stamina maximum by 5%."
 - raw: "717,715,天赋界面,举重若轻，神静气止，你的真气上限额外增加（1），但移动速度降低3%。"
   splits:
   - split: 3
     text: "举重若轻，神静气止，你的真气上限额外增加（1），但移动速度降低3%。"
+    translated: "With ease and composure, your Max True Qi increases by (1), but your Movement Speed decreases by 3%."
 - raw: "718,716,天赋界面,洞微知著，观叶知秋，你所见深刻透彻，直指招式破绽间隔之处，暴击率提升3%。"
   splits:
   - split: 3
     text: "洞微知著，观叶知秋，你所见深刻透彻，直指招式破绽间隔之处，暴击率提升3%。"
+    translated: "Seeing the subtle in the vast, observing the autumn in a single leaf, what you see is profound and penetrating, directly pointing out the gaps in the opponent's moves, increasing your Crit Rate by 3%."
 - raw: "719,717,天赋界面,攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群，颇擅拆解他人招式，暴击伤害额外提升5%。"
   splits:
   - split: 3
     text: "攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群，颇擅拆解他人招式，暴击伤害额外提升5%。"
+    translated: "Attack where the enemy must defend, strike at their weaknesses and vulnerabilities. Your martial aptitude is exceptional, and you excel at countering others' moves, increasing your crit damage by an additional 5%."
 - raw: "720,718,天赋界面,犹自灵犀，一点即通，你天生灵慧，常有异想，每次提升境界时，会随机解锁已修习的武学之下的一种招式。"
   splits:
   - split: 3
     text: "犹自灵犀，一点即通，你天生灵慧，常有异想，每次提升境界时，会随机解锁已修习的武学之下的一种招式。"
+    translated: "With innate wisdom, a spark ignites understanding; you are naturally clever and often have unique insights. Each time you advance in your Realm, you randomly unlock one Move from the Martial Arts you have practiced."
 - raw: "721,719,天赋界面,寻释问道，你曾梦黄粱，其间一道者含笑而行，自醒再不复相见，你使用【太和】武学时威力大增。"
   splits:
   - split: 3
     text: "寻释问道，你曾梦黄粱，其间一道者含笑而行，自醒再不复相见，你使用【太和】武学时威力大增。"
+    translated: "Seeking enlightenment, you once dreamed of a bowl of millet, in which an old Taoist walked with a smile, and after waking, you never saw him again. When you use Taihe Martial Art, its power greatly increases."
 - raw: "722,720,天赋界面,心如明镜，所为皆无不可，造成的内功伤害额外提升2%。"
   splits:
   - split: 3
     text: "心如明镜，所为皆无不可，造成的内功伤害额外提升2%。"
+    translated: "Heart like a mirror, all actions are without fault, increasing internal damage by an additional 2%."
 - raw: "723,721,天赋界面,如渊仰止，似岳驻峙，你自喜清静，尤擅架势，外功防御和内功防御力提升2%。"
   splits:
   - split: 3
     text: "如渊仰止，似岳驻峙，你自喜清静，尤擅架势，外功防御和内功防御力提升2%。"
+    translated: "Like a deep abyss that draws one in, like a towering mountain that stands firm, you cherish tranquility and excel in stance, enhancing your external defense and internal defense by 2%."
 - raw: "724,722,天赋界面,大智若愚，昭昏实巧，获得一个三才书人卷槽位。"
   splits:
   - split: 3
     text: "大智若愚，昭昏实巧，获得一个三才书人卷槽位。"
+    translated: "Great wisdom appears foolish, clarity in confusion is true skill; obtained a slot for a Human Scroll of the Three Talents Tome."
 - raw: "725,723,天赋界面,财可通神，钱能使权，创建角色时额外获得20两银钱。"
   splits:
   - split: 3
     text: "财可通神，钱能使权，创建角色时额外获得20两银钱。"
+    translated: "Wealth can commune with the divine, and money wields power; when creating a character, you receive an additional 20 taels of silver."
 - raw: "726,724,天赋界面,昏昏昭昭，可为大智，愚者行与世，或反能得本心？你额外获得（3）点悟性。"
   splits:
   - split: 3
     text: "昏昏昭昭，可为大智，愚者行与世，或反能得本心？你额外获得（3）点悟性。"
+    translated: "Foggy clarity, can one achieve great wisdom? Perhaps a fool walking in the world may find their true self? You gain an additional (3) point of Comprehension."
 - raw: "727,725,天赋界面,气窍通明，可称慧体，你天生七脉通达，内功攻击提升2%。"
   splits:
   - split: 3
     text: "气窍通明，可称慧体，你天生七脉通达，内功攻击提升2%。"
+    translated: "With your chakra channels clear, you can be called a wise body. You are naturally attuned with seven energy pathways, increasing your Internal Attack by 2%."
 - raw: "728,726,天赋界面,命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，额外获得20%的伤害提升和防御加成。"
   splits:
   - split: 3
     text: "命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，额外获得20%的伤害提升和防御加成。"
+    translated: "With an unusual destiny, the malevolent star Wolf enters your fate, making you a Heaven-Cursed Lone Star. When you fight without companions, you gain an additional 20% damage boost and defense bonus."
 - raw: "729,727,天赋界面,天生军阵之材，气血值上限提升10%，造成的外功伤害提升3%，造成的内功伤害降低3%。"
   splits:
   - split: 3
     text: "天生军阵之材，气血值上限提升10%，造成的外功伤害提升3%，造成的内功伤害降低3%。"
+    translated: "Born with natural military array talent, Lifeforce maximum increased by 10%, External Damage dealt increased by 3%, Internal Damage dealt decreased by 3%."
 - raw: "730,728,飞鸽传书界面,飞鸽传书"
   splits:
   - split: 3
     text: "飞鸽传书"
+    translated: "Carrier Pigeon"
 - raw: "731,729,武学界面-问号,江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。\\n当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。\\n可以在各地武馆购买学习。"
   splits:
   - split: 3
     text: "江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。"
+    translated: "Jianghu Miscellaneous Art includes normal attacks, heavy attacks, blocks, jumps, parries, and more for various weapons."
   - split: 3
     subIndex: 1
     text: "当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。"
+    translated: "When you switch weapon types, it will automatically change to the corresponding Jianghu Miscellaneous Art for that weapon category."
   - split: 3
     subIndex: 2
     text: "可以在各地武馆购买学习。"
+    translated: "You can buy lessons at martial arts halls in various places."
   templates:
   - split: 3
     template: "{0}\\n{1}\\n{2}"
@@ -3268,12 +4065,15 @@
   splits:
   - split: 3
     text: "江湖通式是各类武器的通用技能，不消耗真气而是消耗体力使用的技能一般是浮空技或者位移技，可以强制中断当前的普通攻击释放。"
+    translated: "The Jianghu Common Form is a universal skill for various weapons. It does not consume True Qi but instead uses Stamina. These skills are typically aerial techniques or movement skills that can forcibly interrupt current normal attacks to be released."
   - split: 3
     subIndex: 1
     text: "当你切换武器类型的时候，会自动切换到对应武器种类的江湖通式。"
+    translated: "When you switch weapon types, it will automatically change to the corresponding Jianghu Common Form for that weapon."
   - split: 3
     subIndex: 2
     text: "可以在各地武馆购买学习。"
+    translated: "You can buy lessons at martial arts halls in various places."
   templates:
   - split: 3
     template: "{0}\\n{1}\\n{2}"
@@ -3281,18 +4081,25 @@
   splits:
   - split: 3
     text: "武学研本是各类武器的高级技能以及内功轻功，需要消耗真气使用的技能可以强制中断当前的普通攻击释放。"
+    translated: "Martial Arts techniques are advanced skills for various weapons and internal and lightness skills. Skills that consume True Qi can forcibly interrupt current normal attacks to be released."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Neigong,内功,Neigong,内功,"
   - split: 3
     subIndex: 1
     text: "当你切换武器类型的时候，需要手动切换武学研本的技能"
+    translated: "When you switch weapon types, you need to manually switch the skills on your martial art research tome."
   - split: 3
     subIndex: 2
     text: "点击当前武学的书本图标切换"
+    translated: "Click the book icon of the current martial art to switch"
   - split: 3
     subIndex: 3
     text: "通过任务获取，或者从"
+    translated: "Through completing tasks, or from"
   - split: 3
     subIndex: 4
     text: "身上获取。"
+    translated: "Obtained from the body"
   templates:
   - split: 3
     template: "{0}\\n{1}({2})。\\n{3}NPC{4}"
@@ -3300,47 +4107,59 @@
   splits:
   - split: 3
     text: "【指引任务】"
+    translated: "【[Guidance Quest]】"
 - raw: "735,733,新手教程,了解角色信息面板"
   splits:
   - split: 3
     text: "了解角色信息面板"
+    translated: "View Character Info Panel"
 - raw: "736,734,新手教程,跳过引导"
   splits:
   - split: 3
     text: "跳过引导"
+    translated: "Skip tutorial"
 - raw: "737,735,新手教程,进入引导"
   splits:
   - split: 3
     text: "进入引导"
+    translated: "Begin Tutorial"
 - raw: "738,736,新手教程-跳过,击败杜颜白"
   splits:
   - split: 3
     text: "击败杜颜白"
+    translated: "Defeat Du Yanbai"
 - raw: "739,737,新手教程-跳过,下一步"
   splits:
   - split: 3
     text: "下一步"
+    translated: "Next step"
 - raw: "740,738,大世界界面-左下,武林大会"
   splits:
   - split: 3
     text: "武林大会"
+    translated: "Wulin Tournament"
 - raw: "741,739,新手教程-进入,【角色信息面板】"
   splits:
   - split: 3
     text: "【角色信息面板】"
+    translated: "【[Character Information Panel]】"
 - raw: "742,740,新手教程-进入,气血值:表示角色的生命值，当气血值清零时，角色死亡。\\n体力:表示角色的体力值，使用特殊动作，会消耗体力。"
   splits:
   - split: 3
     text: "气血值"
+    translated: "Lifeforce"
   - split: 3
     subIndex: 1
     text: "表示角色的生命值，当气血值清零时，角色死亡。"
+    translated: "Indicates the character's health; when lifeforce reaches zero, the character dies."
   - split: 3
     subIndex: 2
     text: "体力"
+    translated: "Stamina"
   - split: 3
     subIndex: 3
     text: "表示角色的体力值，使用特殊动作，会消耗体力。"
+    translated: "Indicates the character's stamina, which is consumed when using special actions."
   templates:
   - split: 3
     template: "{0}:{1}\\n{2}:{3}"
@@ -3348,27 +4167,34 @@
   splits:
   - split: 3
     text: "气血值"
+    translated: "Lifeforce"
 - raw: "744,742,新手教程-进入,体力"
   splits:
   - split: 3
     text: "体力"
+    translated: "Stamina"
 - raw: "745,743,新手教程-进入,下一条"
   splits:
   - split: 3
     text: "下一条"
+    translated: "Next one"
 - raw: "746,744,新手教程-进入,内劲:表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。\\n真气点:表示角色的真气点，消耗真气点释放技能。"
   splits:
   - split: 3
     text: "内劲"
+    translated: "Inner Force"
   - split: 3
     subIndex: 1
     text: "表示角色的内劲值，通过攻击积攒内劲值。当内劲值满时，增加1点真气点。"
+    translated: "Represents the character's Inner Force value. Accumulate Inner Force through attacks. When the Inner Force value is full, increase True Qi Points by 1."
   - split: 3
     subIndex: 2
     text: "真气点"
+    translated: "True Qi Points"
   - split: 3
     subIndex: 3
     text: "表示角色的真气点，消耗真气点释放技能。"
+    translated: "Indicates the character's True Qi Points, consume True Qi Points to release skills."
   templates:
   - split: 3
     template: "{0}:{1}\\n{2}:{3}"
@@ -3376,34 +4202,42 @@
   splits:
   - split: 3
     text: "真气点"
+    translated: "True Qi Points"
 - raw: "748,746,新手教程-进入,内劲"
   splits:
   - split: 3
     text: "内劲"
+    translated: "Inner Force"
 - raw: "749,747,新手教程-进入,上一条"
   splits:
   - split: 3
     text: "上一条"
+    translated: "Previous one"
 - raw: "750,748,新手教程-进入,关闭"
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "751,749,新手教程-进入,【任务完成】"
   splits:
   - split: 3
     text: "【任务完成】"
+    translated: "【[Task Completed]】"
 - raw: "752,750,新手教程-进入,完成移动指令"
   splits:
   - split: 3
     text: "完成移动指令"
+    translated: "Complete move command"
 - raw: "753,751,新手教程-进入,【移动】"
   splits:
   - split: 3
     text: "【移动】"
+    translated: "【Move】"
 - raw: "754,752,新手教程-进入,(使用方向键，控制角色移动）。"
   splits:
   - split: 3
     text: "使用方向键，控制角色移动）。"
+    translated: "Use the arrow keys to control character movement.)"
   templates:
   - split: 3
     template: "({0}"
@@ -3411,22 +4245,27 @@
   splits:
   - split: 3
     text: "上移"
+    translated: "Move up"
 - raw: "756,754,新手教程-进入,下移"
   splits:
   - split: 3
     text: "下移"
+    translated: "Move down"
 - raw: "757,755,新手教程-进入,左移"
   splits:
   - split: 3
     text: "左移"
+    translated: "Move left"
 - raw: "758,756,新手教程-进入,右移"
   splits:
   - split: 3
     text: "右移"
+    translated: "Right shift"
 - raw: "759,757,新手教程-进入,进行一次向上移动操作0/1"
   splits:
   - split: 3
     text: "进行一次向上移动操作0"
+    translated: "Perform an upward movement operation 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3434,6 +4273,7 @@
   splits:
   - split: 3
     text: "进行一次向下移动操作0"
+    translated: "Perform a downward movement operation 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3441,6 +4281,7 @@
   splits:
   - split: 3
     text: "进行一次向左移动操作0"
+    translated: "Perform a leftward movement operation 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3448,6 +4289,7 @@
   splits:
   - split: 3
     text: "进行一次向右移动操作0"
+    translated: "Perform a rightward movement operation 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3455,14 +4297,17 @@
   splits:
   - split: 3
     text: "跳跃"
+    translated: "Jumping"
 - raw: "764,762,新手教程-进入,【跳跃】"
   splits:
   - split: 3
     text: "【跳跃】"
+    translated: "【[Jump]】"
 - raw: "765,763,新手教程-进入,(使用跳跃键，控制角色在场景中跳跃。在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。)"
   splits:
   - split: 3
     text: "使用跳跃键，控制角色在场景中跳跃。在跳跃状态下，再次使用跳跃键时，可控制角色进行二段跳。"
+    translated: "Use the jump key to make the character jump in the scene. While in the air, press the jump key again to perform a double jump."
   templates:
   - split: 3
     template: "({0})"
@@ -3470,10 +4315,12 @@
   splits:
   - split: 3
     text: "跳跃"
+    translated: "Jumping"
 - raw: "767,765,新手教程-进入,使用跳跃键，完成两次跳跃操作0/2"
   splits:
   - split: 3
     text: "使用跳跃键，完成两次跳跃操作0"
+    translated: "Use the jump key to perform two jump actions 0"
   templates:
   - split: 3
     template: "{0}/2"
@@ -3481,14 +4328,17 @@
   splits:
   - split: 3
     text: "轻重击"
+    translated: "Light and Heavy Attack"
 - raw: "769,767,新手教程-进入,【轻重击】"
   splits:
   - split: 3
     text: "【轻重击】"
+    translated: "【[Light and Heavy Attacks]】"
 - raw: "770,768,新手教程-进入,(使用轻击键，控制角色进行一次普通攻击。使用重击键，角色将消耗一定体力，并进行一次强力攻击)"
   splits:
   - split: 3
     text: "使用轻击键，控制角色进行一次普通攻击。使用重击键，角色将消耗一定体力，并进行一次强力攻击"
+    translated: "Use the Light Attack key to control your character to perform a normal attack. Use the Heavy Attack key, and your character will consume some Stamina and perform a powerful attack."
   templates:
   - split: 3
     template: "({0})"
@@ -3496,14 +4346,17 @@
   splits:
   - split: 3
     text: "轻击"
+    translated: "Light Attack"
 - raw: "772,770,新手教程-进入,重击"
   splits:
   - split: 3
     text: "重击"
+    translated: "Heavy Attack"
 - raw: "773,771,新手教程-进入,使用轻击，完成两次轻击操作0/2"
   splits:
   - split: 3
     text: "使用轻击，完成两次轻击操作0"
+    translated: "Use Light Attack to perform two Light Attacks on 0"
   templates:
   - split: 3
     template: "{0}/2"
@@ -3511,6 +4364,7 @@
   splits:
   - split: 3
     text: "使用重击，完成两次重击操作0"
+    translated: "Use Heavy Attack to perform two Heavy Attacks on 0"
   templates:
   - split: 3
     template: "{0}/2"
@@ -3518,17 +4372,21 @@
   splits:
   - split: 3
     text: "跳击"
+    translated: "Jump Attack"
 - raw: "776,774,新手教程-进入,【跳击】"
   splits:
   - split: 3
     text: "【跳击】"
+    translated: "【Jump Attack】"
 - raw: "777,775,新手教程-进入,\"(在跳跃过程中，按下轻击键,控制角色进行跳跃攻击。)\""
   splits:
   - split: 3
     text: "在跳跃过程中，按下轻击键"
+    translated: "While jumping, press the Light Attack key"
   - split: 3
     subIndex: 1
     text: "控制角色进行跳跃攻击。"
+    translated: "Control the character to perform a jumping attack."
   templates:
   - split: 3
     template: "({0},{1})"
@@ -3536,6 +4394,7 @@
   splits:
   - split: 3
     text: "使用跳击，完成两次跳击操作0"
+    translated: "Use Jump Attack to perform two jump attacks on 0"
   templates:
   - split: 3
     template: "{0}/2"
@@ -3543,14 +4402,17 @@
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "780,778,新手教程-进入,【格挡】"
   splits:
   - split: 3
     text: "【格挡】"
+    translated: "【Block】"
 - raw: "781,779,新手教程-进入,(按住格挡健，角色将持续消耗体力，进入格挡状态。)"
   splits:
   - split: 3
     text: "按住格挡健，角色将持续消耗体力，进入格挡状态。"
+    translated: "Hold down the block button, and your character will continuously consume stamina, entering a blocking state."
   templates:
   - split: 3
     template: "({0})"
@@ -3558,13 +4420,16 @@
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "783,781,新手教程-进入,(注意:角色使用远程武器时，无法使用格挡。)"
   splits:
   - split: 3
     text: "注意"
+    translated: "Be careful"
   - split: 3
     subIndex: 1
     text: "角色使用远程武器时，无法使用格挡。"
+    translated: "When using a ranged weapon, blocking is unavailable."
   templates:
   - split: 3
     template: "({0}:{1})"
@@ -3572,6 +4437,7 @@
   splits:
   - split: 3
     text: "使用格挡，完成一次格挡操作0"
+    translated: "Use Block to perform a blocking maneuver 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3579,18 +4445,22 @@
   splits:
   - split: 3
     text: "按住"
+    translated: "Hold down"
 - raw: "786,784,新手教程-进入,弹反"
   splits:
   - split: 3
     text: "弹反"
+    translated: "Parry"
 - raw: "787,785,新手教程-进入,【弹反】"
   splits:
   - split: 3
     text: "【弹反】"
+    translated: "【Parry】"
 - raw: "788,786,新手教程-进入,(在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。)"
   splits:
   - split: 3
     text: "在即将受到敌人攻击时，按下格挡键，可打断敌人此次攻击。"
+    translated: "Press the block key when about to be attacked by an enemy to interrupt their attack."
   templates:
   - split: 3
     template: "({0})"
@@ -3598,13 +4468,16 @@
   splits:
   - split: 3
     text: "格挡"
+    translated: "Block"
 - raw: "790,788,新手教程-进入,(注意:角色使用远程武器时，无法使用弹反。）"
   splits:
   - split: 3
     text: "注意"
+    translated: "Be careful"
   - split: 3
     subIndex: 1
     text: "角色使用远程武器时，无法使用弹反。）"
+    translated: "When using a ranged weapon, you cannot use a parry.)"
   templates:
   - split: 3
     template: "({0}:{1}"
@@ -3612,10 +4485,12 @@
   splits:
   - split: 3
     text: "关闭"
+    translated: "Close"
 - raw: "792,790,新手教程-进入,使用弹反，完成一次弹反操作0/1"
   splits:
   - split: 3
     text: "使用弹反，完成一次弹反操作0"
+    translated: "Use a parry to perform a parry action 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3623,27 +4498,34 @@
   splits:
   - split: 3
     text: "按下"
+    translated: "Press"
 - raw: "794,792,新手教程-进入,躲避伤害"
   splits:
   - split: 3
     text: "躲避伤害"
+    translated: "Avoid damage"
 - raw: "795,793,新手教程-进入,【闪避】"
   splits:
   - split: 3
     text: "【闪避】"
+    translated: "【[Dodge]】"
 - raw: "796,794,新手教程-进入,同时按下左/右移动键+闪避键，消耗部分体力进行“前闪避”操作，可控制角色朝向左/右移动一定距离，规避伤害。"
   splits:
   - split: 3
     text: "同时按下左"
+    translated: "Press left at the same time"
   - split: 3
     subIndex: 1
     text: "右移动键"
+    translated: "Right arrow key"
   - split: 3
     subIndex: 2
     text: "闪避键，消耗部分体力进行“前闪避”操作，可控制角色朝向左"
+    translated: "Dodge key, consume some Stamina to perform a Forward Dodge, which can control the character to move left."
   - split: 3
     subIndex: 3
     text: "右移动一定距离，规避伤害。"
+    translated: "Move to the right by a certain distance to avoid damage."
   templates:
   - split: 3
     template: "{0}/{1}+{2}/{3}"
@@ -3651,24 +4533,30 @@
   splits:
   - split: 3
     text: "闪避"
+    translated: "Dodge"
 - raw: "798,796,,空格"
   splits:
   - split: 3
     text: "空格"
+    translated: "Space"
 - raw: "799,797,,【闪避】"
   splits:
   - split: 3
     text: "【闪避】"
+    translated: "【[Dodge]】"
 - raw: "800,798,,\"直接按下闪避键，消耗部分体力进行\"\"后闪避\"\"操作，可控制角色后退一定距离，规避伤害。\""
   splits:
   - split: 3
     text: "直接按下闪避键，消耗部分体力进行"
+    translated: "Press the dodge button to use some stamina."
   - split: 3
     subIndex: 1
     text: "后闪避"
+    translated: "Dodge afterwards"
   - split: 3
     subIndex: 2
     text: "操作，可控制角色后退一定距离，规避伤害。"
+    translated: "Action: Control the character to step back a certain distance to avoid damage."
   templates:
   - split: 3
     template: "{0}\"{1}\"{2}"
@@ -3676,6 +4564,7 @@
   splits:
   - split: 3
     text: "使用前闪避成功躲避一次攻击0"
+    translated: "Successfully used Forward Dodge to avoid an attack 0"
   templates:
   - split: 3
     template: "{0}/2"
@@ -3683,6 +4572,7 @@
   splits:
   - split: 3
     text: "使用后闪避成功躲避一次攻击0"
+    translated: "Using it successfully dodges one attack 0"
   templates:
   - split: 3
     template: "{0}/1"
@@ -3690,14 +4580,17 @@
   splits:
   - split: 3
     text: "使用道具、技能栏介绍"
+    translated: "Item Usage, Skill Description"
 - raw: "804,802,,【使用道具】"
   splits:
   - split: 3
     text: "【使用道具】"
+    translated: "【[Use Item]】"
 - raw: "805,803,,(按下使用道具键，可在战斗中使用道具。)"
   splits:
   - split: 3
     text: "按下使用道具键，可在战斗中使用道具。"
+    translated: "Press the use item key to use items during battle."
   templates:
   - split: 3
     template: "({0})"
@@ -3705,17 +4598,21 @@
   splits:
   - split: 3
     text: "道具1"
+    translated: "Item 1"
 - raw: "807,805,,道具2"
   splits:
   - split: 3
     text: "道具2"
+    translated: "Item 2"
 - raw: "808,806,,(注意:需在行囊中装备药品，才可在战斗中使用道具。)"
   splits:
   - split: 3
     text: "注意"
+    translated: "Be careful"
   - split: 3
     subIndex: 1
     text: "需在行囊中装备药品，才可在战斗中使用道具。"
+    translated: "You must equip Medicine in your Pack to use items in battle."
   templates:
   - split: 3
     template: "({0}:{1})"
@@ -3723,19 +4620,24 @@
   splits:
   - split: 3
     text: "【技能栏】"
+    translated: "【[Skill Bar]】"
 - raw: "810,808,,(武学秘籍:修习武学秘籍后，可通过消耗真气点释放技能。)/n(江湖通式:修习江湖通式后，可通过消耗体力释放技能。)"
   splits:
   - split: 3
     text: "武学秘籍"
+    translated: "Martial Art Manual"
   - split: 3
     subIndex: 1
     text: "修习武学秘籍后，可通过消耗真气点释放技能。"
+    translated: "After studying a martial art manual, you can release skills by consuming True Qi Points."
   - split: 3
     subIndex: 2
     text: "江湖通式"
+    translated: "Jianghu Common Form"
   - split: 3
     subIndex: 3
     text: "修习江湖通式后，可通过消耗体力释放技能。"
+    translated: "After learning the Jianghu Common Form, you can release skills by consuming Stamina."
   templates:
   - split: 3
     template: "({0}:{1})/n({2}:{3})"
@@ -3743,29 +4645,36 @@
   splits:
   - split: 3
     text: "技能1"
+    translated: "Skill 1"
 - raw: "812,810,,技能2"
   splits:
   - split: 3
     text: "技能2"
+    translated: "Skill 2"
 - raw: "813,811,,技能3"
   splits:
   - split: 3
     text: "技能3"
+    translated: "Skill 3"
 - raw: "814,812,,技能4"
   splits:
   - split: 3
     text: "技能4"
+    translated: "Skill 4"
 - raw: "815,813,,技能5"
   splits:
   - split: 3
     text: "技能5"
+    translated: "Skill 5"
 - raw: "816,814,,(注意:需在武学界面中装备武学，才可在战斗中使用对应技能。)"
   splits:
   - split: 3
     text: "注意"
+    translated: "Be careful"
   - split: 3
     subIndex: 1
     text: "需在武学界面中装备武学，才可在战斗中使用对应技能。"
+    translated: "You must equip your Martial Art in the Martial Art interface to use its corresponding skills in battle."
   templates:
   - split: 3
     template: "({0}:{1})"
@@ -3773,25 +4682,32 @@
   splits:
   - split: 3
     text: "【技能栏】"
+    translated: "【[Skill Bar]】"
 - raw: "818,816,,(爆气:使用爆气技能可迅速脱离受控状态。)/n(内功:修习内功秘籍后，可在战斗中释放内功技能。)/n(轻功:修习轻功秘籍后，可在战斗中释放轻功技能。)"
   splits:
   - split: 3
     text: "爆气"
+    translated: "Qi Burst"
   - split: 3
     subIndex: 1
     text: "使用爆气技能可迅速脱离受控状态。"
+    translated: "Using the Qi Burst skill can quickly break free from a controlled state."
   - split: 3
     subIndex: 2
     text: "内功"
+    translated: "Neigong"
   - split: 3
     subIndex: 3
     text: "修习内功秘籍后，可在战斗中释放内功技能。"
+    translated: "After studying the Manual of Neigong, you can unleash Neigong skills in battle."
   - split: 3
     subIndex: 4
     text: "轻功"
+    translated: "Qinggong"
   - split: 3
     subIndex: 5
     text: "修习轻功秘籍后，可在战斗中释放轻功技能。"
+    translated: "After studying the manual for qinggong, you can release qinggong skills in battle."
   templates:
   - split: 3
     template: "({0}:{1})/n({2}:{3})/n({4}:{5})"
@@ -3799,21 +4715,26 @@
   splits:
   - split: 3
     text: "爆气"
+    translated: "Qi Burst"
 - raw: "820,818,,内功"
   splits:
   - split: 3
     text: "内功"
+    translated: "Neigong"
 - raw: "821,819,,轻功"
   splits:
   - split: 3
     text: "轻功"
+    translated: "Qinggong"
 - raw: "822,820,,(注意:需在武学界面中装备武学，才可在战斗中使用对应技能。)"
   splits:
   - split: 3
     text: "注意"
+    translated: "Be careful"
   - split: 3
     subIndex: 1
     text: "需在武学界面中装备武学，才可在战斗中使用对应技能。"
+    translated: "You must equip your Martial Art in the Martial Art interface to use its corresponding skills in battle."
   templates:
   - split: 3
     template: "({0}:{1})"
@@ -3821,54 +4742,68 @@
   splits:
   - split: 3
     text: "击败杜颜白"
+    translated: "Defeat Du Yanbai"
 - raw: "824,822,武林大会,即刻参赛"
   splits:
   - split: 3
     text: "即刻参赛"
+    translated: "Enter the competition immediately"
 - raw: "825,823,武林大会,上届结束"
   splits:
   - split: 3
     text: "上届结束"
+    translated: "Previous round has ended"
 - raw: "826,824,武林大会,首次武林大会尚未举办，无法查看。"
   splits:
   - split: 3
     text: "首次武林大会尚未举办，无法查看。"
+    translated: "The first Wulin Tournament has not yet taken place; it cannot be viewed."
 - raw: "827,825,武林大会,尚未抵达过京城，无法传送至报名处。"
   splits:
   - split: 3
     text: "尚未抵达过京城，无法传送至报名处。"
+    translated: "You have not yet arrived in the Capital City, so you cannot be teleported to the registration area."
 - raw: "828,826,武林大会,玩法说明"
   splits:
   - split: 3
     text: "玩法说明"
+    translated: "Gameplay Instructions"
 - raw: "829,827,武林大会,1.举办时间段"
   splits:
   - split: 3
     text: "1.举办时间段"
+    translated: "1. event period"
 - raw: "830,828,武林大会,每年1月初-3月底"
   splits:
   - split: 3
     text: "每年1月初-3月底"
+    translated: "From early '1' to late '-3' every year"
 - raw: "831,829,武林大会,2.比赛轮次"
   splits:
   - split: 3
     text: "2.比赛轮次"
+    translated: "2. tournament round"
 - raw: "832,830,武林大会,共五轮，依次角逐出十六强-八强-四强-半区魁首-武林盟主!"
   splits:
   - split: 3
     text: "共五轮，依次角逐出十六强"
+    translated: "Five rounds in total, successively determining the top sixteen."
   - split: 3
     subIndex: 1
     text: "八强"
+    translated: "Top Eight"
   - split: 3
     subIndex: 2
     text: "四强"
+    translated: "Four Strong Ones"
   - split: 3
     subIndex: 3
     text: "半区魁首"
+    translated: "Champion of Half the Arena"
   - split: 3
     subIndex: 4
     text: "武林盟主"
+    translated: "Wulin Alliance Leader"
   templates:
   - split: 3
     template: "{0}-{1}-{2}-{3}-{4}!"
@@ -3876,25 +4811,32 @@
   splits:
   - split: 3
     text: "3.武斗排名奖励"
+    translated: "3.Wushu Combat Ranking Rewards"
 - raw: "834,832,武林大会,\"武林盟主/n奖励:\"\"武斗桂冠\"\"*1+珍稀道具*3+声望+银两\""
   splits:
   - split: 3
     text: "武林盟主"
+    translated: "Wulin Alliance Leader"
   - split: 3
     subIndex: 1
     text: "奖励"
+    translated: "Reward"
   - split: 3
     subIndex: 2
     text: "武斗桂冠"
+    translated: "Martial Combat Laurels"
   - split: 3
     subIndex: 3
     text: "珍稀道具"
+    translated: "Rare item"
   - split: 3
     subIndex: 4
     text: "声望"
+    translated: "Reputation"
   - split: 3
     subIndex: 5
     text: "银两"
+    translated: "Silver"
   templates:
   - split: 3
     template: "{0}/n{1}:\"{2}\"*1+{3}*3+{4}+{5}"
@@ -3902,21 +4844,27 @@
   splits:
   - split: 3
     text: "半区魁首"
+    translated: "Champion of Half the Arena"
   - split: 3
     subIndex: 1
     text: "奖励"
+    translated: "Reward"
   - split: 3
     subIndex: 2
     text: "武斗之魂"
+    translated: "Soul of Martial Combat"
   - split: 3
     subIndex: 3
     text: "珍稀道具"
+    translated: "Rare item"
   - split: 3
     subIndex: 4
     text: "声望"
+    translated: "Reputation"
   - split: 3
     subIndex: 5
     text: "银两"
+    translated: "Silver"
   templates:
   - split: 3
     template: "{0}/n{1}:\"{2}\"*1+{3}*2+{4}+{5}"
@@ -3924,21 +4872,27 @@
   splits:
   - split: 3
     text: "四强"
+    translated: "Four Strong Ones"
   - split: 3
     subIndex: 1
     text: "奖励"
+    translated: "Reward"
   - split: 3
     subIndex: 2
     text: "武斗精意"
+    translated: "Martial Combat Essence"
   - split: 3
     subIndex: 3
     text: "珍稀道具"
+    translated: "Rare item"
   - split: 3
     subIndex: 4
     text: "声望"
+    translated: "Reputation"
   - split: 3
     subIndex: 5
     text: "银两"
+    translated: "Silver"
   templates:
   - split: 3
     template: "{0}/n{1}:\"{2}\"*1+{3}*1+{4}+{5}"
@@ -3946,18 +4900,23 @@
   splits:
   - split: 3
     text: "八强"
+    translated: "Top Eight"
   - split: 3
     subIndex: 1
     text: "奖励"
+    translated: "Reward"
   - split: 3
     subIndex: 2
     text: "武斗印记"
+    translated: "Martial Combat Mark"
   - split: 3
     subIndex: 3
     text: "声望"
+    translated: "Reputation"
   - split: 3
     subIndex: 4
     text: "银两"
+    translated: "Silver"
   templates:
   - split: 3
     template: "{0}/n{1}:\"{2}\"*1+{3}+{4}"
@@ -3965,15 +4924,19 @@
   splits:
   - split: 3
     text: "十六强"
+    translated: "Top Sixteen"
   - split: 3
     subIndex: 1
     text: "奖励"
+    translated: "Reward"
   - split: 3
     subIndex: 2
     text: "声望"
+    translated: "Reputation"
   - split: 3
     subIndex: 3
     text: "银两"
+    translated: "Silver"
   templates:
   - split: 3
     template: "{0}/n{1}:{2}+{3}"
@@ -3981,12 +4944,15 @@
   splits:
   - split: 3
     text: "未入围"
+    translated: "Did not advance"
   - split: 3
     subIndex: 1
     text: "未参赛"
+    translated: "Did not participate"
   - split: 3
     subIndex: 2
     text: "无奖励"
+    translated: "No reward"
   templates:
   - split: 3
     template: "{0}&{1}/n{2}"
@@ -3994,12 +4960,15 @@
   splits:
   - split: 3
     text: "1.小游戏开始后，持续按住“鼠标左"
+    translated: "'1.After starting the mini-game, hold down the left mouse button continuously."
   - split: 3
     subIndex: 1
     text: "右键”，即可控制“指针”持续向左"
+    translated: "Right-click, the pointer will continue to move left."
   - split: 3
     subIndex: 2
     text: "右进行移动。"
+    translated: "Move to the right"
   templates:
   - split: 3
     template: "{0}/{1}/{2}"
@@ -4007,20 +4976,25 @@
   splits:
   - split: 3
     text: "2.当“指针”与“鱼所在水域”有重合时，则圆环进度会持续增长，当达到100%时，表示钓鱼成功，获得经验值及道具奖励。"
+    translated: "2.When the pointer overlaps with the fishing area, the ring progress will continue to grow. When it reaches 100%, it indicates a successful fishing, earning experience points and item rewards."
 - raw: "842,840,钓鱼玩法,3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。"
   splits:
   - split: 3
     text: "3.当“指针”与“鱼所在水域”未重合时，则圆环进度会持续消退，若达到0%时，则意味则钓鱼失败，无任何奖励。"
+    translated: "3.When the pointer and the fishing area do not overlap, the ring progress will continue to fade. If it reaches 0%, it means fishing has failed and there will be no reward."
 - raw: "843,841,钓鱼玩法,4.“鱼所在水域”分为“长/中/短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大，"
   splits:
   - split: 3
     text: "4.“鱼所在水域”分为“长"
+    translated: "4.Fish Habitat is divided into Long"
   - split: 3
     subIndex: 1
     text: "中"
+    translated: "Middle"
   - split: 3
     subIndex: 2
     text: "短”三档，“鱼所在水域”越短则获取稀有渔获的概率越大，"
+    translated: "The shorter the Skill Level, the greater the probability of obtaining rare catches."
   templates:
   - split: 3
     template: "{0}/{1}/{2}"
@@ -4028,6 +5002,7 @@
   splits:
   - split: 3
     text: "此处可得鱼获"
+    translated: "You can catch fish here"
   templates:
   - split: 3
     template: "{0}:"
@@ -4035,28 +5010,35 @@
   splits:
   - split: 3
     text: "甩杆"
+    translated: "Reel in the line"
 - raw: "846,844,钓鱼玩法,离开"
   splits:
   - split: 3
     text: "离开"
+    translated: "Leave"
 - raw: "847,845,天赋,【天煞孤狼】和【天纵之才】只能任选其一"
   splits:
   - split: 3
     text: "【天煞孤狼】和【天纵之才】只能任选其一"
+    translated: "[Choose between Being a Cursed Lone Wolf and Being a Heaven-Sent Talent]"
 - raw: "848,846,创建角色,数据还在加载中"
   splits:
   - split: 3
     text: "数据还在加载中"
+    translated: "Data is still loading"
 - raw: "849,847,创建角色,外功攻击=武力*武力攻击"
   splits:
   - split: 3
     text: "外功攻击"
+    translated: "External Attack"
   - split: 3
     subIndex: 1
     text: "武力"
+    translated: "Might"
   - split: 3
     subIndex: 2
     text: "武力攻击"
+    translated: "Might attack"
   templates:
   - split: 3
     template: "{0}={1}*{2}"
@@ -4064,12 +5046,15 @@
   splits:
   - split: 3
     text: "外功防御"
+    translated: "External Defense"
   - split: 3
     subIndex: 1
     text: "筋骨"
+    translated: "Physique"
   - split: 3
     subIndex: 2
     text: "筋骨防御境界"
+    translated: "Physique Defense Realm"
   templates:
   - split: 3
     template: "{0}={1}*{2}"
@@ -4077,9 +5062,11 @@
   splits:
   - split: 3
     text: "移动速度"
+    translated: "Movement Speed"
   - split: 3
     subIndex: 1
     text: "身法"
+    translated: "Agility"
   templates:
   - split: 3
     template: "{0}={1}*5"
@@ -4087,12 +5074,15 @@
   splits:
   - split: 3
     text: "内功攻击"
+    translated: "Internal Attack"
   - split: 3
     subIndex: 1
     text: "内息"
+    translated: "Inner Qi"
   - split: 3
     subIndex: 2
     text: "内息攻击境界"
+    translated: "Inner Qi attack on Realm"
   templates:
   - split: 3
     template: "{0}={1}*{2}"
@@ -4100,12 +5090,15 @@
   splits:
   - split: 3
     text: "悟性值"
+    translated: "Comprehension value"
   - split: 3
     subIndex: 1
     text: "悟性"
+    translated: "Comprehension"
   - split: 3
     subIndex: 2
     text: "修为悟性境界"
+    translated: "Cultivation Comprehension Realm"
   templates:
   - split: 3
     template: "{0}={1}*{2}"
@@ -4113,182 +5106,227 @@
   splits:
   - split: 3
     text: "武林大会"
+    translated: "Wulin Tournament"
 - raw: "855,853,消耗天赋点,消耗天赋点"
   splits:
   - split: 3
     text: "消耗天赋点"
+    translated: "Spend Talent Points"
 - raw: "856,854,开始界面,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "857,855,开始界面,历史版本更新"
   splits:
   - split: 3
     text: "历史版本更新"
+    translated: "Historical update version"
 - raw: "858,856,版本更新,自定义模组"
   splits:
   - split: 3
     text: "自定义模组"
+    translated: "Custom Mod"
 - raw: "859,857,版本更新,本地模组"
   splits:
   - split: 3
     text: "本地模组"
+    translated: "Local mod"
 - raw: "860,858,版本更新,获取模组"
   splits:
   - split: 3
     text: "获取模组"
+    translated: "Get the mod"
 - raw: "861,859,版本更新,是否读取该存档"
   splits:
   - split: 3
     text: "是否读取该存档"
+    translated: "Do you want to load this save?"
 - raw: "862,860,版本更新,确定"
   splits:
   - split: 3
     text: "确定"
+    translated: "Confirm"
 - raw: "863,861,版本更新,取消"
   splits:
   - split: 3
     text: "取消"
+    translated: "Cancel"
 - raw: "864,862,版本更新,是否读取该存档"
   splits:
   - split: 3
     text: "是否读取该存档"
+    translated: "Do you want to load this save?"
 - raw: "865,863,版本更新,键值重复是否继续"
   splits:
   - split: 3
     text: "键值重复是否继续"
+    translated: "Do you want to continue with the duplicate key?"
 - raw: "866,864,版本更新,此按键无法被设置成快捷键"
   splits:
   - split: 3
     text: "此按键无法被设置成快捷键"
+    translated: "This button cannot be set as a hotkey"
 - raw: "867,865,版本更新,是否保存修改"
   splits:
   - split: 3
     text: "是否保存修改"
+    translated: "Do you want to save the changes?"
 - raw: "868,866,默认界面,境界"
   splits:
   - split: 3
     text: "境界"
+    translated: "Realm"
 - raw: "869,867,默认界面,门派"
   splits:
   - split: 3
     text: "门派"
+    translated: "Sect"
 - raw: "870,868,版本更新,5分钟"
   splits:
   - split: 3
     text: "5分钟"
+    translated: "5 minutes"
 - raw: "871,869,版本更新,10分钟"
   splits:
   - split: 3
     text: "10分钟"
+    translated: "10 minutes"
 - raw: "872,870,版本更新,15分钟"
   splits:
   - split: 3
     text: "15分钟"
+    translated: "15 minutes"
 - raw: "873,871,版本更新,项链"
   splits:
   - split: 3
     text: "项链"
+    translated: "Necklace"
 - raw: "874,872,版本更新,戒指"
   splits:
   - split: 3
     text: "戒指"
+    translated: "Ring"
 - raw: "875,873,版本更新,武器"
   splits:
   - split: 3
     text: "武器"
+    translated: "Weapon"
 - raw: "876,874,版本更新,护甲"
   splits:
   - split: 3
     text: "护甲"
+    translated: "Armor"
 - raw: "877,875,版本更新,护臂"
   splits:
   - split: 3
     text: "护臂"
+    translated: "Bracers"
 - raw: "878,876,版本更新,护腰"
   splits:
   - split: 3
     text: "护腰"
+    translated: "Waist Guard"
 - raw: "879,877,版本更新,坠饰"
   splits:
   - split: 3
     text: "坠饰"
+    translated: "Pendant"
 - raw: "880,878,版本更新,护腿"
   splits:
   - split: 3
     text: "护腿"
+    translated: "Leg Guards"
 - raw: "881,879,版本更新,外装"
   splits:
   - split: 3
     text: "外装"
+    translated: "Outfit"
 - raw: "882,880,版本更新,天才书"
   splits:
   - split: 3
     text: "天才书"
+    translated: "Talented Book"
 - raw: "883,881,版本更新,天行书，曰君子自强，虽百屈而不饶者，方可领会其真意，若天赋寰宇，其势不可挡，不可转，不可折，不可逆，不可滞，至刚至强，乃为天道。"
   splits:
   - split: 3
     text: "天行书，曰君子自强，虽百屈而不饶者，方可领会其真意，若天赋寰宇，其势不可挡，不可转，不可折，不可逆，不可滞，至刚至强，乃为天道。"
+    translated: "Heavenly path, it says, the gentleman strives on his own, even bending a hundred times, he will not yield. Only then can one grasp its true meaning. If endowed with talent that spans the universe, its force is unstoppable, unturnable, unbreakable, irreversible, utmost in strength and might-it is the Heavenly path."
 - raw: "884,882,版本更新,地行书，曰厚德载物，夫万载不朽，唯不争之胜可为广博，如岳如渊，垂黄土以化众生，其势固，无可灭者，其形博，以养众生，此为地之道。"
   splits:
   - split: 3
     text: "地行书，曰厚德载物，夫万载不朽，唯不争之胜可为广博，如岳如渊，垂黄土以化众生，其势固，无可灭者，其形博，以养众生，此为地之道。"
+    translated: "The Way of the Earth Scripture states: Virtue bears all things. Only through non-contention can one achieve greatness and longevity, like a mountain or a deep abyss, nurturing all beings with the yellow earth. Its power is unbreakable, and its form vast, sustaining all life. This is the path of the earth."
 - raw: "885,883,版本更新,人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
   splits:
   - split: 3
     text: "人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
+    translated: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Daoists endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
 - raw: "886,884,版本更新,物品为空"
   splits:
   - split: 3
     text: "物品为空"
+    translated: "Item is empty"
 - raw: "887,885,版本更新,长按空格跳过"
   splits:
   - split: 3
     text: "长按空格跳过"
+    translated: "Long press space to skip"
 - raw: "888,886,版本更新,【附加属性】"
   splits:
   - split: 3
     text: "【附加属性】"
+    translated: "【[Bonus Attributes]】"
 - raw: "889,887,版本更新,装备"
   splits:
   - split: 3
     text: "装备"
+    translated: "Equipment"
 - raw: "890,888,版本更新,卸下"
   splits:
   - split: 3
     text: "卸下"
+    translated: "Remove"
 - raw: "891,889,版本更新,丢弃"
   splits:
   - split: 3
     text: "丢弃"
+    translated: "Discard"
 - raw: "892,890,版本更新,拆分"
   splits:
   - split: 3
     text: "拆分"
+    translated: "Split up"
 - raw: "893,891,版本更新,锁定"
   splits:
   - split: 3
     text: "锁定"
+    translated: "Lock"
 - raw: "894,892,版本更新,品阶"
   splits:
   - split: 3
     text: "品阶"
+    translated: "Grade"
 - raw: "895,893,版本更新,类型"
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
 - raw: "896,894,版本更新,境界需求"
   splits:
   - split: 3
     text: "境界需求"
+    translated: "Realm Requirement"
 - raw: "897,895,版本更新,学习需求"
   splits:
   - split: 3
     text: "学习需求"
+    translated: "Learning requirements"
 - raw: "898,896,版本更新,所属武学："
   splits:
   - split: 3
     text: "所属武学"
+    translated: "Affiliated Martial Art"
   templates:
   - split: 3
     template: "{0}："
@@ -4296,6 +5334,7 @@
   splits:
   - split: 3
     text: "类型"
+    translated: "Type"
   templates:
   - split: 3
     template: "{0}："
@@ -4303,26 +5342,32 @@
   splits:
   - split: 3
     text: "未习得"
+    translated: "Not learned yet"
 - raw: "901,899,版本更新,武学总章"
   splits:
   - split: 3
     text: "武学总章"
+    translated: "Martial Manual"
 - raw: "902,900,版本更新,武学注解"
   splits:
   - split: 3
     text: "武学注解"
+    translated: "Martial Annotation"
 - raw: "903,901,界面,删除"
   splits:
   - split: 3
     text: "删除"
+    translated: "Delete"
 - raw: "904,902,版本更新,心决"
   splits:
   - split: 3
     text: "心决"
+    translated: "Heart Formula"
 - raw: "905,903,版本更新,当前修为："
   splits:
   - split: 3
     text: "当前修为"
+    translated: "Current Cultivation"
   templates:
   - split: 3
     template: "{0}："
@@ -4330,38 +5375,47 @@
   splits:
   - split: 3
     text: "冲穴，贯通经络"
+    translated: "Acupoint Breakthrough, connecting the meridians"
 - raw: "907,905,版本更新,提升内功境界"
   splits:
   - split: 3
     text: "提升内功境界"
+    translated: "Advance the Neigong Realm"
 - raw: "908,906,版本更新,修习并使用武学"
   splits:
   - split: 3
     text: "修习并使用武学"
+    translated: "Study and use martial arts"
 - raw: "909,907,版本更新,更换更强的装备"
   splits:
   - split: 3
     text: "更换更强的装备"
+    translated: "Upgrade to stronger equipment"
 - raw: "910,908,版本更新,可通过以下方式提升实力"
   splits:
   - split: 3
     text: "可通过以下方式提升实力"
+    translated: "You can enhance your strength through the following methods."
 - raw: "911,909,版本更新,世事无常重新来过"
   splits:
   - split: 3
     text: "世事无常重新来过"
+    translated: "Life is unpredictable; start anew"
 - raw: "912,910,版本更新,亡"
   splits:
   - split: 3
     text: "亡"
+    translated: "Death"
 - raw: "913,911,版本更新,已使用"
   splits:
   - split: 3
     text: "已使用"
+    translated: "Already used"
 - raw: "914,912,版本更新,当前武学累计附加："
   splits:
   - split: 3
     text: "当前武学累计附加"
+    translated: "Current cumulative bonus from Martial Art"
   templates:
   - split: 3
     template: "{0}："
@@ -4369,6 +5423,7 @@
   splits:
   - split: 3
     text: "当前修为"
+    translated: "Current Cultivation"
   templates:
   - split: 3
     template: "{0}:"
@@ -4376,18 +5431,22 @@
   splits:
   - split: 3
     text: "主属性"
+    translated: "Primary Attribute"
 - raw: "917,915,版本更新,副属性"
   splits:
   - split: 3
     text: "副属性"
+    translated: "Secondary Attribute"
 - raw: "918,916,版本更新,副属性"
   splits:
   - split: 3
     text: "副属性"
+    translated: "Secondary Attribute"
 - raw: "919,917,版本更新,分舵数量："
   splits:
   - split: 3
     text: "分舵数量"
+    translated: "Number of branches"
   templates:
   - split: 3
     template: "{0}："
@@ -4395,6 +5454,7 @@
   splits:
   - split: 3
     text: "宗主"
+    translated: "Sect Leader"
   templates:
   - split: 3
     template: "{0}："
@@ -4402,6 +5462,7 @@
   splits:
   - split: 3
     text: "附属数量"
+    translated: "Affiliate Quantity"
   templates:
   - split: 3
     template: "{0}："
@@ -4409,18 +5470,22 @@
   splits:
   - split: 3
     text: "成员"
+    translated: "Member"
 - raw: "923,921,版本更新,产业"
   splits:
   - split: 3
     text: "产业"
+    translated: "Property"
 - raw: "924,922,版本更新,关系"
   splits:
   - split: 3
     text: "关系"
+    translated: "Relationships"
 - raw: "925,923,版本更新,每日俸禄总支出："
   splits:
   - split: 3
     text: "每日俸禄总支出"
+    translated: "Daily salary expenses total"
   templates:
   - split: 3
     template: "{0}："
@@ -4428,299 +5493,374 @@
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "927,925,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "928,926,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "929,927,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "930,928,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "931,929,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "932,930,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "933,931,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "934,932,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "935,933,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "936,934,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "937,935,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "938,936,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "939,937,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "940,938,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "941,939,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "942,940,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "943,941,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "944,942,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "945,943,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "946,944,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "947,945,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "948,946,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "949,947,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "950,948,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "951,949,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "952,950,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "953,951,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "954,952,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "955,953,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "956,954,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "957,955,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "958,956,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "959,957,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "960,958,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "961,959,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "962,960,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "963,961,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "964,962,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "965,963,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "966,964,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "967,965,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "968,966,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "969,967,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "970,968,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "971,969,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "972,970,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "973,971,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "974,972,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "975,973,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "976,974,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "977,975,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "978,976,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "979,977,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "980,978,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "981,979,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "982,980,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "983,981,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "984,982,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "985,983,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "986,984,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "987,985,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "988,986,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "989,987,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "990,988,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "991,989,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "992,990,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "993,991,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "994,992,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "995,993,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "996,994,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "997,995,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "998,996,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "999,997,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"
 - raw: "1000,998,版本更新,版本更新"
   splits:
   - split: 3
     text: "版本更新"
+    translated: "Version update"

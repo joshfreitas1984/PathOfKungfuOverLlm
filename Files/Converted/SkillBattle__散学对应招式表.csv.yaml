@@ -2,15 +2,19 @@
   splits:
   - split: 2
     text: "武学名"
+    translated: "Martial Art name"
   - split: 4
     text: "武学描述"
+    translated: "Martial Art description"
 - raw: "2,Id,name,AutoSkill,des,"
 - raw: "3,900001,格挡,9000001,江湖中的架招格挡手法，借体力而卸力。持续按住格挡操作，可以正面抵挡大部分敌人攻击。在敌方攻击前摇的时如果能及时格挡，可以触发弹反效果，让敌人露出较大的破绽。 ,"
   splits:
   - split: 2
     text: "格挡"
+    translated: "Block"
   - split: 4
     text: "江湖中的架招格挡手法，借体力而卸力。持续按住格挡操作，可以正面抵挡大部分敌人攻击。在敌方攻击前摇的时如果能及时格挡，可以触发弹反效果，让敌人露出较大的破绽。"
+    translated: "Blocking techniques in the Jianghu use stamina to deflect force. By holding down the block input, you can defend against most enemy attacks head-on. If you block just before an enemy's attack wind-up, you can trigger a parry, exposing larger openings for counterattacks."
   templates:
   - split: 4
     template: "{0} "
@@ -18,17 +22,25 @@
   splits:
   - split: 2
     text: "闪避"
+    translated: "Dodge"
   - split: 4
     text: "江湖中的闪避架势，身轻如鸿，向后闪躲。在任何时候（包括受击状态，普通攻击中）都可施展闪避，和敌人拉开距离并躲避对方的攻击。"
+    translated: "The dodge stance in the Jianghu, light as a swallow, steps back to evade. It can be performed at any time (including while being attacked or during a normal attack) to create distance from an enemy and avoid their strikes."
 - raw: "5,900003,纵跃,9000003,江湖中的纵跃法，双足鼎力，向上纵跃。纵跃滞空时可以再次施展二段纵跃。,"
   splits:
   - split: 2
     text: "纵跃"
+    translated: "Leap"
   - split: 4
     text: "江湖中的纵跃法，双足鼎力，向上纵跃。纵跃滞空时可以再次施展二段纵跃。"
+    translated: "The leaping technique in the Jianghu, using both feet to leap upward. While airborne, you can perform a second leap."
 - raw: "6,900004,爆气,9000004,江湖中的脱身之技，在任何时候（包括受击状态，浮空状态，普通攻击中）都可消耗气血施展，脱离当前的硬直状态。,"
   splits:
   - split: 2
     text: "爆气"
+    translated: "Qi Burst"
   - split: 4
     text: "江湖中的脱身之技，在任何时候（包括受击状态，浮空状态，普通攻击中）都可消耗气血施展，脱离当前的硬直状态。"
+    translated: "The evasion techniques of Jianghu can be used at any time, including while being attacked, in mid-air, or during a normal attack, to consume lifeforce and escape from the current stun state."
+    flaggedForRetranslation: true
+    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."

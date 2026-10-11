@@ -2,18 +2,23 @@
   splits:
   - split: 3
     text: "名称"
+    translated: "Name"
   - split: 4
     text: "描述"
+    translated: "Description"
 - raw: "2,id,Type,name,txt,,buffId,type,typeNum,qxsx,wgfy,ngfy,wg,ng,sd,wlInt,nxInt,sfInt,jgInt,wxInt,bj,mb,bjsh,bjjm,tlsx,tlhf,nj,xx,fs,zs,zyjc"
 - raw: "3,1001,1,孔武有力,身量孔武，臂膂有力，堪称武学之材。\\n[人物气血上限提升5%，外功攻击力提升2%],拥有此特质的人物气血上限提升5%，外功攻击力提升2%,,0,0,0.05,,,0.02,,,,,,,,,,,,,,,,,,"
   splits:
   - split: 3
     text: "孔武有力"
+    translated: "Strong and Vigorous"
   - split: 4
     text: "身量孔武，臂膂有力，堪称武学之材。"
+    translated: "He is tall and strong, with powerful arms and shoulders, making him a fine candidate for martial arts."
   - split: 4
     subIndex: 1
     text: "人物气血上限提升5%，外功攻击力提升2%"
+    translated: "Character Max Lifeforce increased by 5%, External Attack Power increased by 2%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -21,11 +26,14 @@
   splits:
   - split: 3
     text: "肌柔力稳"
+    translated: "Smooth and firm muscles"
   - split: 4
     text: "身骨薄弱，缺乏筋骨之力，天生不足，膂臂不彰。"
+    translated: "Weak physique, lacking physical strength, naturally deficient, with underdeveloped arms and shoulders."
   - split: 4
     subIndex: 1
     text: "人物气血上限降低2%，外功攻击力降低1%"
+    translated: "Character Max Lifeforce reduced by 2%, External Attack Power reduced by 1%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -33,11 +41,14 @@
   splits:
   - split: 3
     text: "龙神马壮"
+    translated: "Dragon Spirit Stallion, Strong and Robust"
   - split: 4
     text: "身骨强健，行若龙马之仕，实为人中栋梁。"
+    translated: "With a sturdy build and bearing like that of a dragon-horse, they are truly a pillar among men."
   - split: 4
     subIndex: 1
     text: "人物外功防御提升5%，外功攻击力提升1%"
+    translated: "Character's External Defense increased by 5%, External Attack Power increased by 1%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -45,11 +56,14 @@
   splits:
   - split: 3
     text: "牛磐虎健"
+    translated: "Ox-Boulder Tiger-Vigor"
   - split: 4
     text: "架若牛磐，势如虎健，乃为罕见之材，修习外家功法，造诣定一日千里。"
+    translated: "Steady as a bull, strong as a tiger, it is a rare material, suitable for practicing external martial arts, with mastery surely advancing by leaps and bounds."
   - split: 4
     subIndex: 1
     text: "人物外功防御提升3%，内功防御提升2%，造成的外功伤害提升1%"
+    translated: "Character's External Defense increased by 3%, Internal Defense increased by 2%, and External Damage dealt increased by 1%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -57,11 +71,14 @@
   splits:
   - split: 3
     text: "如柳扶风"
+    translated: "As Graceful as Willows in the Breeze"
   - split: 4
     text: "身薄体弱，宛若扶柳，却也因身量轻巧，行止敏捷。"
+    translated: "Though frail and delicate, they move with surprising agility due to their light frame."
   - split: 4
     subIndex: 1
     text: "人物外功防御降低2%，内功防御降低1%，移动速度提升2%"
+    translated: "Character's External Defense decreases by 2%, Internal Defense decreases by 1%, and Movement Speed increases by 2%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -69,11 +86,14 @@
   splits:
   - split: 3
     text: "巧体敏行"
+    translated: "Quick in mind and swift in action"
   - split: 4
     text: "身巧敏捷，行止若风。"
+    translated: "Lithe and agile, moving like the wind"
   - split: 4
     subIndex: 1
     text: "人物额外提升1点身法属性，移动速度提升1%"
+    translated: "Characters gain an additional 1 points in Agility Attributes and a 1% increase in Movement Speed."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -81,11 +101,14 @@
   splits:
   - split: 3
     text: "眼疾手快"
+    translated: "Quick-eyed and quick-handed"
   - split: 4
     text: "观常人所难观之破绽，巧取应对，便应取利。"
+    translated: "Observe the weaknesses that others cannot see, and skillfully take advantage of them to gain an edge."
   - split: 4
     subIndex: 1
     text: "人物暴击率额外提升1%，暴击伤害额外提升2%"
+    translated: "Increases Crit Rate by an additional 1%, and Crit Damage by an additional 2%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -93,11 +116,14 @@
   splits:
   - split: 3
     text: "动若脱兔"
+    translated: "As agile as a rabbit"
   - split: 4
     text: "此人迅捷若脱兔临止，尤擅出其不意，攻敌必救。"
+    translated: "This person is swift like a hare at rest, excelling in catching enemies off guard and striking the vital point."
   - split: 4
     subIndex: 1
     text: "人物移动速度提升3%"
+    translated: "Character movement speed increased by 3%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -105,11 +131,14 @@
   splits:
   - split: 3
     text: "奔逸绝尘"
+    translated: "Racing ahead beyond the dust"
   - split: 4
     text: "步若绝尘，身形奔逸，乃天纵大材，万中无一。"
+    translated: "He moves as if dusted by the wind, his form swift and unrestrained, a peerless talent, one in ten thousand."
   - split: 4
     subIndex: 1
     text: "人物移动速度提升2%，招式调息时间额外缩短10%"
+    translated: "Character movement speed increased by 2%, and move cooldowns are additionally reduced by 10%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -117,11 +146,14 @@
   splits:
   - split: 3
     text: "大巧若拙"
+    translated: "Great wisdom appears as simplicity"
   - split: 4
     text: "身手笨拙，此人夯足笨脚，虽势猛而沉，不得中身，亦属无用。"
+    translated: "Clumsy in movement, this person is heavy-footed and slow, though their attack may be fierce, it misses the mark and is useless."
   - split: 4
     subIndex: 1
     text: "人物移动速度降低3%"
+    translated: "Character movement speed reduced by 3%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -129,11 +161,14 @@
   splits:
   - split: 3
     text: "四平八稳"
+    translated: "Steady and unremarkable"
   - split: 4
     text: "身躯坚硬，骨骼密硬，虽辗转腾挪受限，却能抵重击重伤。"
+    translated: "With a tough body and dense bones, though their movements are restricted, they can withstand heavy attacks and grievous injuries."
   - split: 4
     subIndex: 1
     text: "人物筋骨属性提升1点，外功防御提升1%，内功防御提升2%"
+    translated: "Character Physique Attributes increased by 1, External Defense increased by 1%, Internal Defense increased by 2%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -141,11 +176,14 @@
   splits:
   - split: 3
     text: "内劲延绵"
+    translated: "Continuous Inner Force"
   - split: 4
     text: "内劲充盈，延绵不绝，暗合内家修为，若水之上善，源源不绝。"
+    translated: "Inner Force surges abundantly, continuous and uninterrupted, in harmony with one's internal cultivation, like water at its best, ceaselessly flowing."
   - split: 4
     subIndex: 1
     text: "人物内劲增长速度提升20%"
+    translated: "Character's Inner Force Gain Speed Increased by 20%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -153,11 +191,14 @@
   splits:
   - split: 3
     text: "气海充盈"
+    translated: "Abundant Qi Sea"
   - split: 4
     text: "气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人。"
+    translated: "An abundant and vast Qi Sea, capable of accepting the aura of origin, absorbing and emitting true essence, far surpassing that of ordinary people. To accommodate the aura of the Way, to ingest and circulate true essence. An abundant Qi Sea, capable of accommodating the true essence of the universe, absorbing and emitting true energy, far surpassing that of ordinary people."
   - split: 4
     subIndex: 1
     text: "人物战斗开始前额外获得1点初始真气"
+    translated: "Gains an additional 1 points of Initial True Qi before combat begins."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -165,11 +206,14 @@
   splits:
   - split: 3
     text: "心意明达"
+    translated: "Lucid Mind"
   - split: 4
     text: "明心见性，方可念头通达，一心起时，万念如臂使指。"
+    translated: "Only by seeing one's true nature can thoughts flow freely; when the mind arises, myriad thoughts obey like fingers do."
   - split: 4
     subIndex: 1
     text: "人物招式调息时间额外缩短10%"
+    translated: "Reduces the cooldown time for character moves by an additional 10%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -177,11 +221,14 @@
   splits:
   - split: 3
     text: "形清气明"
+    translated: "Clear Form, Bright Spirit"
   - split: 4
     text: "神轻而气轻，形明而气明，飘飘乎若仙人之姿也。"
+    translated: "Light in body and spirit, clear in form and aura, graceful like the form of an immortal."
   - split: 4
     subIndex: 1
     text: "人物造成的内功伤害提升5%"
+    translated: "Increases internal damage caused by characters by 5%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -189,11 +236,14 @@
   splits:
   - split: 3
     text: "磐体不移"
+    translated: "Unshakable resolve"
   - split: 4
     text: "气脉积淤，经络塞阻，非大毅力者难勘此关"
+    translated: "Obstructed qi and blood, blocked meridians; only those with great resolve can overcome this hurdle."
   - split: 4
     subIndex: 1
     text: "人物冲脉所需的修为消耗提升20%"
+    translated: "The Cultivation consumption required for a person's Chong Meridian activation increases by 20%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -201,11 +251,14 @@
   splits:
   - split: 3
     text: "石心顽玉"
+    translated: "Stubborn Jade Heart"
   - split: 4
     text: "七窍暗晦，杂脉从生，此生于武学一道无望，非大机缘，无可能为。"
+    translated: "The seven apertures are darkened, and strange pulses arise. This person has no hope in the path of martial arts; without a great stroke of fortune, it is impossible to change."
   - split: 4
     subIndex: 1
     text: "人物造成的内功伤害降低40%"
+    translated: "Reduces internal damage caused by characters by 40%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -213,11 +266,14 @@
   splits:
   - split: 3
     text: "天资聪颖"
+    translated: "Gifted and intelligent"
   - split: 4
     text: "此人天资过人，少时便有聪慧之名，悟性出众。"
+    translated: "This person was exceptionally talented from a young age, renowned for their wisdom and outstanding comprehension."
   - split: 4
     subIndex: 1
     text: "人物悟性属性额外"
+    translated: "Character Comprehension Attributes additionally"
   templates:
   - split: 4
     template: "{0}\\n[{1}+3]"
@@ -225,11 +281,14 @@
   splits:
   - split: 3
     text: "耳聪目明"
+    translated: "Sharp-eyed and keen-eared"
   - split: 4
     text: "此人耳目清明，善辨各项。"
+    translated: "This person has sharp senses and is skilled at discerning various things."
   - split: 4
     subIndex: 1
     text: "人物身法+1，悟性"
+    translated: "Character's agility +1, comprehension"
   templates:
   - split: 4
     template: "{0}\\n[{1}+1]"
@@ -237,11 +296,14 @@
   splits:
   - split: 3
     text: "闻一知十"
+    translated: "Learn ten from hearing one"
   - split: 4
     text: "闻其一而料其十，知其十，而推其百，才智出众，如锥处囊中。"
+    translated: "From one, infer ten; from ten, deduce a hundred. Such outstanding intelligence pierces through like a needle in a bag."
   - split: 4
     subIndex: 1
     text: "人物学习武学时，有25%概率领悟一式此套武学中未学习的篇章"
+    translated: "There is a 25% chance that the character will gain insight into an unlearned chapter of this martial art when studying."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -249,11 +311,14 @@
   splits:
   - split: 3
     text: "七窍玲珑"
+    translated: "Seven Openings Crystal Clear"
   - split: 4
     text: "昔有比干七窍玲珑之心，贯古今之学，衍大道之理，才为天妒。"
+    translated: "In olden times, Bi Gan had a translucent heart with seven apertures, mastering knowledge across all ages and elucidating the great principles of the Tao, thus earning the envy of the heavens."
   - split: 4
     subIndex: 1
     text: "人物造成的所有伤害额外提升1%，受到的所有伤害额外降低2%，全属性提升1点，气血上限额外降低10%"
+    translated: "Increases all damage dealt by 1%, reduces all damage received by 2%, and boosts all Attributes by 1 points. Max Lifeforce is additionally reduced by 10%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -261,11 +326,14 @@
   splits:
   - split: 3
     text: "淳诚朴拙"
+    translated: "Simple and honest sincerity"
   - split: 4
     text: "四时不辨，方向难分，愚笨蒙昧，或亦可成大器？"
+    translated: "Seasons indistinguishable, directions unclear, foolish and ignorant, might one still become a great talent?"
   - split: 4
     subIndex: 1
     text: "人物内功伤害降低10%"
+    translated: "Reduces Internal Damage from characters by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -273,11 +341,14 @@
   splits:
   - split: 3
     text: "缄口少言"
+    translated: "Be brief and speak little"
   - split: 4
     text: "言辞于口而讷，心意混沌而拙，常为人所蔽，不辨实情。"
+    translated: "Words are slow to come, thoughts are muddled and clumsy, often blinded by others, unable to discern the truth."
   - split: 4
     subIndex: 1
     text: "人物的武学招式冷却时间延长10%"
+    translated: "The cooldown time for the character's martial art moves has increased by 10%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -285,11 +356,14 @@
   splits:
   - split: 3
     text: "刚毅隐忍"
+    translated: "Resolute and Enduring"
   - split: 4
     text: "为刚毅之宏，隐忍之韧，方可为大器重任。"
+    translated: "Only with firm resolve and patience can one bear great responsibilities."
   - split: 4
     subIndex: 1
     text: "人物受到的所有伤害额外降低5%"
+    translated: "All damage received by the character is additionally reduced by 5%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -297,11 +371,14 @@
   splits:
   - split: 3
     text: "久默寡言"
+    translated: "Silent and reticent"
   - split: 4
     text: "沉久以默，藏身寡言，个中惊涛骇浪，可与人言者几何？"
+    translated: "In silence and solitude, hiding behind few words, how many can share the tumultuous waves within?"
   - split: 4
     subIndex: 1
     text: "人物受到的治疗效果降低10%"
+    translated: "The healing effect on the character is reduced by 10%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -309,11 +386,14 @@
   splits:
   - split: 3
     text: "处变不惊"
+    translated: "Stay calm in times of change"
   - split: 4
     text: "山崩于眼前不可改其色，骤变之下，面若平湖，方为大丈夫也。"
+    translated: "A true man remains unperturbed by an avalanche before him, maintaining composure in sudden change, his face as calm as a still lake."
   - split: 4
     subIndex: 1
     text: "人物受到的暴击伤害额外降低20%"
+    translated: "Reduces additional Crit Damage taken by 20%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -321,11 +401,14 @@
   splits:
   - split: 3
     text: "千思万虑"
+    translated: "Endless thoughts and considerations"
   - split: 4
     text: "此人心活思飘，难以久持一处，但亦常因此而勘获意外之喜。"
+    translated: "This person's mind wanders and drifts, unable to stay focused for long, but often it is precisely this that leads to unexpected joys."
   - split: 4
     subIndex: 1
     text: "人物受到的暴击伤害额外提升10%，移动速度提升1%"
+    translated: "The character's Crit Damage is increased by 10%, and Movement Speed is increased by 1%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -333,11 +416,14 @@
   splits:
   - split: 3
     text: "闲逸安然"
+    translated: "Leisure and Ease"
   - split: 4
     text: "闲散之适，远眺生之逆旅，散淡度日，岂非暗合天人之道？"
+    translated: "The leisure of ease, gazing upon life's journey from afar, and passing days in carefree simplicity-could this not be in harmony with the way of heaven and humanity?"
   - split: 4
     subIndex: 1
     text: "人物不会受到暴击伤害"
+    translated: "Characters cannot receive crit damage"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -345,11 +431,14 @@
   splits:
   - split: 3
     text: "天妒奇才"
+    translated: "Heaven Favors the Talented"
   - split: 4
     text: "天之骄子，通经纬，晓变化，文武皆精，为不世之奇才。"
+    translated: "Heaven's favored son, skilled in governance and strategy, understanding change and adaptation, proficient in both literature and martial arts, a peerless genius."
   - split: 4
     subIndex: 1
     text: "人物造成的所有伤害额外提升1%，受到的所有伤害额外降低2%，全属性提升1点，气血上限额外降低10%"
+    translated: "Increases all damage dealt by 1%, reduces all damage received by 2%, and boosts all Attributes by 1 points. Max Lifeforce is additionally reduced by 10%."
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -357,11 +446,14 @@
   splits:
   - split: 3
     text: "洞若观火"
+    translated: "As clear as looking at fire"
   - split: 4
     text: "法观之一字，通晓万事运行之理，所习所悟，进境皆一日千里。"
+    translated: "The character of the Law Master encompasses the understanding of all things in the world, and whatever they study or comprehend, their progress is swift, advancing by leaps and bounds."
   - split: 4
     subIndex: 1
     text: "人物所有武器的武学造诣提升"
+    translated: "All characters' Martial Mastery with their weapons has improved."
   templates:
   - split: 4
     template: "{0}\\n[{1}+5%]"
@@ -369,11 +461,14 @@
   splits:
   - split: 3
     text: "踏雪鸿泥"
+    translated: "Swan on Snow"
   - split: 4
     text: "身量奇异，根骨轻健，若奔鸿踏月而逐，常人难望其项背。"
+    translated: "With an unusual build, light and agile potential, like a wild goose chasing the moon, surpassing ordinary people by far."
   - split: 4
     subIndex: 1
     text: "人物轻功造诣提升5%"
+    translated: "Character's Qinggong Mastery has increased by 5%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -381,11 +476,14 @@
   splits:
   - split: 3
     text: "体健力强"
+    translated: "Fit and strong"
   - split: 4
     text: "身强而体健，力强而步稳，实为习武之材。"
+    translated: "Strong and healthy, powerful yet steady on their feet, they are indeed suited for martial arts."
   - split: 4
     subIndex: 1
     text: "人物体力上限增加20%"
+    translated: "Character Max Stamina increased by 20%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -393,11 +491,14 @@
   splits:
   - split: 3
     text: "神足不溃"
+    translated: "Divine feet unscathed"
   - split: 4
     text: "神气完足，稍作休憩便可重整旗鼓。"
+    translated: "Fully replenished, a brief rest will allow us to regroup and fight again."
   - split: 4
     subIndex: 1
     text: "人物体力回复增加20%"
+    translated: "Increase Stamina Recovery by 20%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -405,11 +506,14 @@
   splits:
   - split: 3
     text: "蹊径通幽"
+    translated: "Hidden Path Leads to Seclusion"
   - split: 4
     text: "善用旁门之道，独有暗习之法。"
+    translated: "Mastering the ways of secret techniques and hidden practices."
   - split: 4
     subIndex: 1
     text: "人物吸血效果增加5%"
+    translated: "Increases lifesteal effect by 5%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -417,11 +521,14 @@
   splits:
   - split: 3
     text: "铜头铁臂"
+    translated: "Tin Head and Iron Arms"
   - split: 4
     text: "筋骨坚硬，反打冲撞间不容小觑。"
+    translated: "Their physique is tough, and their counterattacks are formidable and cannot be underestimated."
   - split: 4
     subIndex: 1
     text: "人物反伤效果增加5%"
+    translated: "Increase Damage Reflection effect by 5%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -429,11 +536,14 @@
   splits:
   - split: 3
     text: "化蟠悟灵"
+    translated: "Transform and Awaken Spirit"
   - split: 4
     text: "天生蟠龙外劲，世所罕见，为诸英杰之相。"
+    translated: "An innate dragon coiled around the body is extremely rare and a mark of great heroes."
   - split: 4
     subIndex: 1
     text: "人物暴击率增加10%"
+    translated: "Character Crit Rate increases by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -441,11 +551,14 @@
   splits:
   - split: 3
     text: "破锋锐劲"
+    translated: "Piercing Edge"
   - split: 4
     text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师。"
+    translated: "Extraordinary physique, matching the ancient chart of a hundred figures; those with this talent invariably become masters of external martial arts."
   - split: 4
     subIndex: 1
     text: "人物外功攻击力增加10%"
+    translated: "Character's External Attack Power increases by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -453,11 +566,14 @@
   splits:
   - split: 3
     text: "蕴纳柔劲"
+    translated: "Gathered Gentle Force"
   - split: 4
     text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师。"
+    translated: "Extraordinary physique, matching the ancient Hundred Aspects diagram; those with this talent invariably become masters of internal martial arts."
   - split: 4
     subIndex: 1
     text: "人物内功攻击力增加10%"
+    translated: "Increases character's Internal Attack Power by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -465,11 +581,14 @@
   splits:
   - split: 3
     text: "锻体铸心"
+    translated: "Tempering the Body, Forging the Heart"
   - split: 4
     text: "筋骨皮肉，灵性血心，有若千锤百炼，铁桥硬马。"
+    translated: "Physique, spirit, blood, and heart, as if tempered by a thousand hammer blows, iron bridge and sturdy horse."
   - split: 4
     subIndex: 1
     text: "人物外功防御力增加10%"
+    translated: "Character's External Defense increases by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -477,11 +596,14 @@
   splits:
   - split: 3
     text: "抱御守元"
+    translated: "Guarded Origin"
   - split: 4
     text: "真元抱守，御心见性，神思不乱，可抵内劲侵袭。"
+    translated: "True Essence Embrace, Discipline Reveals Nature, Divine Thought Untroubled, can withstand Inner Force invasion."
   - split: 4
     subIndex: 1
     text: "人物内功防御力增加10%"
+    translated: "Character's Internal Defense increases by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -489,11 +611,14 @@
   splits:
   - split: 3
     text: "气贯血神"
+    translated: "Qi surges through blood and spirit"
   - split: 4
     text: "气血完足，生就不破之身，神势冲天。"
+    translated: "Lifeforce complete, born with an unbreakable body, divine aura reaching the heavens."
   - split: 4
     subIndex: 1
     text: "人物气血上限增加10%"
+    translated: "Increases Max Lifeforce by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -501,11 +626,14 @@
   splits:
   - split: 3
     text: "悬壶济世"
+    translated: "Hanging the Gourd to Heal"
   - split: 4
     text: "悬壶济世者，医悯而悲人，仁术相济，或可复太平。"
+    translated: "Healers who compassionately pity the suffering of others, combining benevolence with medical skill, may restore peace and prosperity."
   - split: 4
     subIndex: 1
     text: "人物治疗效果增加10%"
+    translated: "Increase in character healing effect by 10%"
   templates:
   - split: 4
     template: "{0}\\n[{1}]"
@@ -513,32 +641,42 @@
   splits:
   - split: 3
     text: "背信弃义"
+    translated: "Betrayal and dishonor"
   - split: 4
     text: "肆意违诺，决然弃德，其心不正，其行不端，为人所不耻。"
+    translated: "Disregarding promises at will, abandoning virtue resolutely, with an unrighteous heart and improper conduct, they are despised by all."
 - raw: "46,3002,3,不仁不义,违背仁德，丧失义理，有违人道伦常，为人所唾。,,,0,0,,,,,,,,,,,,,,,,,,,,,,"
   splits:
   - split: 3
     text: "不仁不义"
+    translated: "Unrighteous and unkind"
   - split: 4
     text: "违背仁德，丧失义理，有违人道伦常，为人所唾。"
+    translated: "Going against benevolence, forsaking righteousness, violating human ethics and morality, to be spat upon by all."
 - raw: "47,3003,3,行侠好义,怀仁心而仗正道，扶危济困，侠之所在。,,,0,0,,,,,,,,,,,,,,,,,,,,,,"
   splits:
   - split: 3
     text: "行侠好义"
+    translated: "Chivalrous and righteous"
   - split: 4
     text: "怀仁心而仗正道，扶危济困，侠之所在。"
+    translated: "With a benevolent heart and righteous path, aiding those in distress, where there is need, there is the Hero."
 - raw: "48,3004,3,豪侠尚义,具英勇之姿，存正义之心，扶弱惩恶，德耀五湖。,,,0,0,,,,,,,,,,,,,,,,,,,,,,"
   splits:
   - split: 3
     text: "豪侠尚义"
+    translated: "Chivalrous heroes uphold righteousness"
   - split: 4
     text: "具英勇之姿，存正义之心，扶弱惩恶，德耀五湖。"
+    translated: "With heroic bearing, a heart of justice, aiding the weak and punishing evil, virtue shining across the five lakes."
 - raw: "49,3005,3,高义薄云,心怀大义，气吞山河，侠胆豪肝，名存万古。,,,0,0,,,,,,,,,,,,,,,,,,,,,,"
   splits:
   - split: 3
     text: "高义薄云"
+    translated: "High righteousness surpasses the clouds"
   - split: 4
     text: "心怀大义，气吞山河，侠胆豪肝，名存万古。"
+    translated: "With great righteousness in heart, swallowing mountains and rivers with spirit, a heroic liver and gallbladder of chivalry, renowned for eternity."
 - raw: "50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
 - raw: "51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
 - raw: "52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"

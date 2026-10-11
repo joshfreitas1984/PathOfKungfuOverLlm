@@ -18,8 +18,8 @@ public class FileOutputWorkflowTests
 
         var sourceDirectory = $"{GameFileHandling.WorkingDirectory}/Mod/";
 
-        // TODO: confirm the folder the plugin reads translations from once injection is written.
-        var modDirectory = $"{GameFileHandling.GameFolder}/Mods/English/";
+        // The plugin reads the translation from a "resources" folder next to its own DLL (not the game's Mod/ folder).
+        var modDirectory = $"{GameFileHandling.GameFolder}/BepInEx/plugins/resources/";
 
         if (Directory.Exists(modDirectory))
             Directory.Delete(modDirectory, true);
@@ -54,12 +54,12 @@ public class FileOutputWorkflowTests
             SteamAppId = installer.SteamAppId,
             Mappings =
             [
-                new($"{workingDirectory}/Mod", "Mods/English"),
+                new($"{workingDirectory}/Mod", "BepInEx/plugins/resources"),
                 // Tailored per game, so it comes from the release files: seed-only, so players' edits survive updates.
                 new($"{PackagingInputsFolder}/BepInEx.cfg", "BepInEx/config/BepInEx.cfg"),
             ],
             // The config folder is owned too, so stale configs left in the staging folder (like UIEditor.cfg) never ship.
-            OwnedFolders = ["Mods/English", "BepInEx/config"],
+            OwnedFolders = ["BepInEx/plugins/resources", "BepInEx/config"],
             SeedOnly = ["BepInEx/config/**"],
         });
 

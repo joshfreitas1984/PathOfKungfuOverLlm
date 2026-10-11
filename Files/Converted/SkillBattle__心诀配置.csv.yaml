@@ -2,30 +2,39 @@
   splits:
   - split: 2
     text: "心诀名"
+    translated: "Name of the Heart Formula"
   - split: 8
     text: "描述"
+    translated: "Description"
 - raw: "2,ID,name,belong,skill,effectType,effect,,des,Icon,,,"
 - raw: "3,8020201,长雁,102001,1020203,对应招式,追踪敌人距离提升:0.3,,招式【物衍天行】施展时获得【霸体】效果,tricks/8020201,凌鸿剑势,,"
   splits:
   - split: 2
     text: "长雁"
+    translated: "Long Goose"
   - split: 8
     text: "招式【物衍天行】施展时获得【霸体】效果"
+    translated: "The Move 【All Things Follow Heaven's Course】 grants Super Armor effect when performed."
 - raw: "4,8020202,返鸾,102001,1020203,对应招式,使用后无敌:1,8020203,暴击概率额外提升5%,tricks/8020202,凌鸿剑势,,"
   splits:
   - split: 2
     text: "返鸾"
+    translated: "Returning Phoenix"
   - split: 8
     text: "暴击概率额外提升5%"
+    translated: "Critical hit probability increased by an additional 5%."
 - raw: "5,8020203,鸳折,102001,1020203,对应招式,使用时无敌,8020202,施展招式【孤鸿照影】时，将获得【返鸾】效果：不受任何伤害和控制效果的影响,tricks/8020203,凌鸿剑势,,"
   splits:
   - split: 2
     text: "鸳折"
+    translated: "Broken Mandarin Ducks"
   - split: 8
     text: "施展招式【孤鸿照影】时，将获得【返鸾】效果"
+    translated: "When performing the Move 【Lone Swan Beholds Its Shadow】, you will obtain the 【Return Phoenix】 effect."
   - split: 8
     subIndex: 1
     text: "不受任何伤害和控制效果的影响"
+    translated: "Not affected by any damage or control effects"
   templates:
   - split: 8
     template: "{0}：{1}"
@@ -33,173 +42,231 @@
   splits:
   - split: 2
     text: "悲鸣"
+    translated: "Sorrowful Cry"
   - split: 8
     text: "招式【纵起惊鸿】在空中时无敌2秒"
+    translated: "The Move 【Startled Swan Rises】 is invulnerable for 2 seconds in the air"
 - raw: "7,8020301,随风,102002,1020301,对应招式,CD时间:-1,,招式【风潇雨晦】调息时间减少1秒,tricks/8020301,清风剑法,,"
   splits:
   - split: 2
     text: "随风"
+    translated: "Follow the Wind"
   - split: 8
     text: "招式【风潇雨晦】调息时间减少1秒"
+    translated: "The cooldown for the Move 【Gale and Gloom of Rain】 is reduced by 1 seconds."
 - raw: "8,8020302,飘零,102002,1020303,对应招式,CD时间:-1,,招式【秋风落尽】调息时间减少1秒,tricks/8020302,清风剑法,,"
   splits:
   - split: 2
     text: "飘零"
+    translated: "Adrift"
   - split: 8
     text: "招式【秋风落尽】调息时间减少1秒"
+    translated: "Move 【Autumn Wind Has Fallen】 reduced cooldown by 1 seconds"
 - raw: "9,8020303,罡破,102002,1020303,对应招式,使用时霸体,,招式【秋风落尽】释放时霸体,tricks/8020303,清风剑法,,"
   splits:
   - split: 2
     text: "罡破"
+    translated: "Gale Breaker"
   - split: 8
     text: "招式【秋风落尽】释放时霸体"
+    translated: "Super Armor during the release of the Move 【Autumn Wind Has Fallen】"
 - raw: "10,8020304,栖隙,102002,1020305,对应招式,使用时无敌,,招式【朔风厉松】能释放时无敌,tricks/8020304,清风剑法,,"
   splits:
   - split: 2
     text: "栖隙"
+    translated: "Perch in the Crevice"
   - split: 8
     text: "招式【朔风厉松】能释放时无敌"
+    translated: "The Move 【North Wind Scourges the Pines】 grants Invulnerability when used"
 - raw: "11,8020401,无涯,102003,1020401,对应招式,CD时间:-1,,招式【焚沧断海】调息时间减少1秒,tricks/8020401,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "无涯"
+    translated: "Boundless"
   - split: 8
     text: "招式【焚沧断海】调息时间减少1秒"
+    translated: "The cooldown for the Move [Scorch the Vast Sea, Sever the Ocean] is reduced by 1 seconds."
 - raw: "12,8020402,壁岩,102003,1020403,对应招式,CD时间:-1,,招式【临碣寒】调息时间减少1秒,tricks/8020402,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "壁岩"
+    translated: "Wall of Rock"
   - split: 8
     text: "招式【临碣寒】调息时间减少1秒"
+    translated: "The cooldown for Move [Cold Overlooking the Stele-Rock] is reduced by 1 seconds."
 - raw: "13,8020403,赤心,102003,1020403,对应招式,真气消耗:-1,,施展招式【临碣寒】真气消耗减1,tricks/8020403,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "赤心"
+    translated: "Loyal Heart"
   - split: 8
     text: "施展招式【临碣寒】真气消耗减1"
+    translated: "Using Move [Cold Overlooking the Stele-Rock] reduces True Qi consumption by 1"
 - raw: "14,8020404,万凿,102003,1020405,对应招式,真气消耗:-1,,施展招式【骇浪惊涛】真气消耗减1,tricks/8020404,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "万凿"
+    translated: "Ten Thousand Chisels"
   - split: 8
     text: "施展招式【骇浪惊涛】真气消耗减1"
+    translated: "Reduce True Qi consumption for the Move 【Terrifying Waves, Startling Billows】 by 1"
 - raw: "15,8020503,气清,102005,1020501,对应招式,,,招式【分阴阳】真气消耗降低1点,tricks/8020503,两仪剑法,,"
   splits:
   - split: 2
     text: "气清"
+    translated: "Clear Qi"
   - split: 8
     text: "招式【分阴阳】真气消耗降低1点"
+    translated: "The Move [Dividing Yin and Yang] reduces True Qi consumption by 1 points."
 - raw: "16,8020504,万化,102005,1020503,对应招式,,,招式【割昏晓】真气消耗降低1点,tricks/8020504,两仪剑法,,"
   splits:
   - split: 2
     text: "万化"
+    translated: "Ten Thousand Changes"
   - split: 8
     text: "招式【割昏晓】真气消耗降低1点"
+    translated: "Move [Cleaving Dusk and Dawn] reduces True Qi consumption by 1 points"
 - raw: "17,8020505,凌虚,102005,1020505,对应招式,,,招式【荡寰宇】减少调息时间1秒,tricks/8020505,两仪剑法,,"
   splits:
   - split: 2
     text: "凌虚"
+    translated: "Void-Soaring"
   - split: 8
     text: "招式【荡寰宇】减少调息时间1秒"
+    translated: "Move [Sweeping the Universe] reduces meditation time by 1 seconds"
 - raw: "18,8020506,魅身,102006,1020601,对应招式,,,招式【掠青川】施展后获得【霸体】效果,tricks/8020506,浮萍剑诀,,"
   splits:
   - split: 2
     text: "魅身"
+    translated: "Enchanting Body"
   - split: 8
     text: "招式【掠青川】施展后获得【霸体】效果"
+    translated: "After performing the Move [Skimming Green Rivers], you gain the Super Armor effect."
 - raw: "19,8020701,敛英,102007,1020703,全局有效,,,提升气血回复属性10%,tricks/8020701,槎枒寻梅,,"
   splits:
   - split: 2
     text: "敛英"
+    translated: "Gathered Brilliance"
   - split: 8
     text: "提升气血回复属性10%"
+    translated: "Increase Lifeforce recovery and restore Attributes by 10%"
 - raw: "20,8020702,銮客,102007,1020705,全局有效,,,提升5％的移动速度,tricks/8020702,槎枒寻梅,,"
   splits:
   - split: 2
     text: "銮客"
+    translated: "Royal Guest"
   - split: 8
     text: "提升5％的移动速度"
+    translated: "Increase movement speed by 5%"
 - raw: "21,8050101,放词,105001,1050103,对应招式,飞行道具替换:7050102,,招式【归去来】的伤害提升10%,tricks/8050101,悲遮扇法,,"
   splits:
   - split: 2
     text: "放词"
+    translated: "Words Unleashed"
   - split: 8
     text: "招式【归去来】的伤害提升10%"
+    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 10%"
 - raw: "22,8050102,凌散,105001,1050105,对应招式,伤害设置:0;至盲:5,,招式【柔云绕指】释放时对敌方的造成【致盲】效果，有概率无法命中自身，效果持续3秒,tricks/8050102,悲遮扇法,,"
   splits:
   - split: 2
     text: "凌散"
+    translated: "Scatter and Soar"
   - split: 8
     text: "招式【柔云绕指】释放时对敌方的造成【致盲】效果，有概率无法命中自身，效果持续3秒"
+    translated: "The Move 【Soft Clouds Wrap the Fingers】 blinds the enemy upon release and has a chance to miss the user, with the effect lasting 3 seconds."
 - raw: "23,8050103,风骨,105001,1050106,对应招式,清除CD:1050002,,【穷途】触发时，立即重置招式【复重楼】调息时间，每隔20秒触发1次,tricks/8050103,悲遮扇法,,"
   splits:
   - split: 2
     text: "风骨"
+    translated: "Spirited Bearing"
   - split: 8
     text: "【穷途】触发时，立即重置招式【复重楼】调息时间，每隔20秒触发1次"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
 - raw: "24,8050104,肆宴,105001,1050102,对应招式,伤害提升:0.5;真气消耗:1,,招式【归去来】的伤害提升5%，额外消耗（1）点真气,tricks/8050104,悲遮扇法,,"
   splits:
   - split: 2
     text: "肆宴"
+    translated: "Grand Banquet"
   - split: 8
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
+    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
 - raw: "25,8050105,知秋,105001,1050104,对应招式,清除CD:1050101,,每次获得【难觅】效果时，将立即刷新【问秋风】的时间,tricks/8050105,悲遮扇法,,"
   splits:
   - split: 2
     text: "知秋"
+    translated: "Sensing Autumn"
   - split: 8
     text: "每次获得【难觅】效果时，将立即刷新【问秋风】的时间"
+    translated: "Each time you obtain the [Rare] effect, immediately refresh the duration of [Asking the Autumn Wind]."
 - raw: "26,8050106,复始,105002,1050201,全局有效,,,移动速度增加50,tricks/8050106,小周天扇法,,"
   splits:
   - split: 2
     text: "复始"
+    translated: "Begin Anew"
   - split: 8
     text: "移动速度增加50"
+    translated: "Movement Speed increased by 50"
 - raw: "27,8050201,不息,105002,1050201,对应招式,,,额外增加【经合夜昼】扇子击中目标所造成的伤害,tricks/8050201,小周天扇法,,"
   splits:
   - split: 2
     text: "不息"
+    translated: "Unceasing"
   - split: 8
     text: "额外增加【经合夜昼】扇子击中目标所造成的伤害"
+    translated: "Additional Increase: Damage caused by the Day and Night in Union Fan hitting the target"
 - raw: "28,8050202,注化,105002,1050201,对应招式,,,招式【化气贯神】施展时，获得霸体效果,tricks/8050202,小周天扇法,,"
   splits:
   - split: 2
     text: "注化"
+    translated: "Infusing Transformation"
   - split: 8
     text: "招式【化气贯神】施展时，获得霸体效果"
+    translated: "When using the Move 【Transform Qi, Pierce the Spirit】, gain Super Armor effect."
 - raw: "29,8050107,破云,109002,1090201,对应招式,,,招式【梭云回日】施展后获得【霸体】效果,tricks/8050107,踪影孤鸿,,"
   splits:
   - split: 2
     text: "破云"
+    translated: "Cloud-Piercing"
   - split: 8
     text: "招式【梭云回日】施展后获得【霸体】效果"
+    translated: "After performing the Move [Shuttling Clouds, Returning Sun], you gain the Super Armor effect."
 - raw: "30,8040101,摧岳,104001,1040105,对应招式,,,招式【钧北顾】暴击率提升5%,tricks/8040101,北顾枪法,,"
   splits:
   - split: 2
     text: "摧岳"
+    translated: "Mountain-Crushing"
   - split: 8
     text: "招式【钧北顾】暴击率提升5%"
+    translated: "Move [Weight of the Northward Gaze] Crit Rate +5%"
 - raw: "31,8040102,百炼,104001,1040101,全局有效,,,暴击概率额外提升5%,tricks/8040102,北顾枪法,,"
   splits:
   - split: 2
     text: "百炼"
+    translated: "Hundredfold Tempering"
   - split: 8
     text: "暴击概率额外提升5%"
+    translated: "Critical hit probability increased by an additional 5%."
 - raw: "32,8040103,昭烈,104001,1040105,对应招式,,,招式【钧北顾】施展时增加20%暴击伤害,tricks/8040103,北顾枪法,,"
   splits:
   - split: 2
     text: "昭烈"
+    translated: "Blazing Valor"
   - split: 8
     text: "招式【钧北顾】施展时增加20%暴击伤害"
+    translated: "Using Move [Weight of the Northward Gaze] increases Crit Damage by 20%"
 - raw: "33,8040104,飞将,104001,1040108,对应招式,,,招式【横叠嶂】在飞跃时，自身免受任何伤害/控制效果,tricks/8040104,北顾枪法,,"
   splits:
   - split: 2
     text: "飞将"
+    translated: "Flying General"
   - split: 8
     text: "招式【横叠嶂】在飞跃时，自身免受任何伤害"
+    translated: "The Move 【Crossing Folded Ridges】 allows you to avoid any Damage when performing a leap."
   - split: 8
     subIndex: 1
     text: "控制效果"
+    translated: "Control effect"
   templates:
   - split: 8
     template: "{0}/{1}"
@@ -207,77 +274,102 @@
   splits:
   - split: 2
     text: "痴缠"
+    translated: "Lovesick Entanglement"
   - split: 8
     text: "造成伤害时，附加【痴缠】效果，使目标每秒损失1%血量，持续5秒"
+    translated: "When dealing damage, apply the [Obsessive] effect, causing the target to lose 1% of their health per second for 5 seconds."
 - raw: "35,8060102,雨绻,106001,1060101,全局有效,,,造成伤害时，附加【雨绻】效果，使目标每5秒损失1真气，持续10秒,tricks/8060102,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "雨绻"
+    translated: "Tender Rain"
   - split: 8
     text: "造成伤害时，附加【雨绻】效果，使目标每5秒损失1真气，持续10秒"
+    translated: "When dealing damage, apply the 【Rainbound】 effect, causing the target to lose 1 True Qi every 5 seconds for 10 seconds."
 - raw: "36,8060103,绸缪,106001,1060101,全局有效,,,造成伤害时，附加【绸缪】效果，使目标每秒损失1%体力，持续5秒,tricks/8060103,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "绸缪"
+    translated: "Tightly Bound"
   - split: 8
     text: "造成伤害时，附加【绸缪】效果，使目标每秒损失1%体力，持续5秒"
+    translated: "When dealing damage, apply the [Forethought] effect, causing the target to lose 1% Stamina per second for 5 seconds."
 - raw: "37,8060104,梅雨,106001,1060110,全局有效,,,体力恢复每秒额外恢复2点,tricks/8060104,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "梅雨"
+    translated: "Plum Rains"
   - split: 8
     text: "体力恢复每秒额外恢复2点"
+    translated: "Stamina Recovery restores an additional 2 points per second"
 - raw: "38,8060105,漫堤,106001,1060110,全局有效,,,体力上限额外增加10点,tricks/8060105,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "漫堤"
+    translated: "Overflowing Embankment"
   - split: 8
     text: "体力上限额外增加10点"
+    translated: "Max Stamina increased by an additional 10 points."
 - raw: "39,8060201,炼血,106002,1060205,全局有效,,,进入战斗时，提升5％的移动速度,tricks/8060201,羁离谱,,"
   splits:
   - split: 2
     text: "炼血"
+    translated: "Blood Refining"
   - split: 8
     text: "进入战斗时，提升5％的移动速度"
+    translated: "Increases movement speed by 5% when entering combat."
 - raw: "40,8060202,残筋,106002,1060205,对应招式,,,降低【碎灯花】调息时间1秒,tricks/8060202,羁离谱,,"
   splits:
   - split: 2
     text: "残筋"
+    translated: "Ruined Sinews"
   - split: 8
     text: "降低【碎灯花】调息时间1秒"
+    translated: "Reduce Shattered Lamp Blossoms cooldown by 1 seconds"
 - raw: "41,8010201,昭赤,101002,1010205,对应招式,,,招式【伏邪诛阳】伤害提升5%,tricks/8010201,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "昭赤"
+    translated: "Radiant Crimson"
   - split: 8
     text: "招式【伏邪诛阳】伤害提升5%"
+    translated: "Move [Subdue Evil, Slay Yang] Damage Increase by 5%"
 - raw: "42,8010202,镇晷,101002,1010203,对应招式,,,招式【镇残碑】减少调息时间1秒,tricks/8010202,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "镇晷"
+    translated: "Sundial-Quelling"
   - split: 8
     text: "招式【镇残碑】减少调息时间1秒"
+    translated: "Move 【Quell the Broken Stele】 reduces meditation time by 1 seconds"
 - raw: "43,8010203,旱临,101002,1010205,对应招式,,,招式【伏邪诛阳】减少调息时间1秒,tricks/8010203,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "旱临"
+    translated: "Drought Descends"
   - split: 8
     text: "招式【伏邪诛阳】减少调息时间1秒"
+    translated: "Move [Subdue Evil, Slay Yang] reduces meditation time by 1 seconds"
 - raw: "44,8010204,烈轮,101002,1010205,对应招式,,,招式【伏邪诛阳】真气消耗降低1点,tricks/8010204,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "烈轮"
+    translated: "Fierce Wheel"
   - split: 8
     text: "招式【伏邪诛阳】真气消耗降低1点"
+    translated: "Move [Subdue Evil, Slay Yang] True Qi consumption reduced by 1 points"
 - raw: "45,8010205,至旭,101002,1010205,对应招式,,,招式【镇残碑】施展后，下一次施展【伏邪诛阳】时必造成破防效果：防御力降低10%，持续5秒,tricks/8010205,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "至旭"
+    translated: "Utmost Dawn"
   - split: 8
     text: "招式【镇残碑】施展后，下一次施展【伏邪诛阳】时必造成破防效果"
+    translated: "After using the Move [Quell the Broken Stele], the next use of [Subdue Evil, Slay Yang] will definitely cause a Guard Break."
   - split: 8
     subIndex: 1
     text: "防御力降低10%，持续5秒"
+    translated: "Defense reduced by 10%, lasting 5 seconds"
   templates:
   - split: 8
     template: "{0}：{1}"
@@ -285,14 +377,18 @@
   splits:
   - split: 2
     text: "矢志"
+    translated: "Sworn Resolve"
   - split: 8
     text: "招式【古锤"
+    translated: "Move【Ancient Hammer"
   - split: 8
     subIndex: 1
     text: "贯体式】，【古锤"
+    translated: "['Guan Tixi'], ['Ancient Hammer']"
   - split: 8
     subIndex: 2
     text: "锻终式】在释放过程中具有短暂霸体效果"
+    translated: "【Final Forging Style】Has temporary Super Armor during release"
   templates:
   - split: 8
     template: "{0}-{1}-{2}"
@@ -300,11 +396,14 @@
   splits:
   - split: 2
     text: "复烬"
+    translated: "Embers Revived"
   - split: 8
     text: "招式【古锤"
+    translated: "Move【Ancient Hammer"
   - split: 8
     subIndex: 1
     text: "锻终式】减少调息时间1秒"
+    translated: "【Finishing Touch】Reduce meditation time by 1 seconds"
   templates:
   - split: 8
     template: "{0}-{1}"
@@ -312,11 +411,14 @@
   splits:
   - split: 2
     text: "浑旋"
+    translated: "Total Whirl"
   - split: 8
     text: "招式【古锤"
+    translated: "Move【Ancient Hammer"
   - split: 8
     subIndex: 1
     text: "贯体式】减少调息时间1秒"
+    translated: "【Stance Style】Reduce meditation time by 1 seconds"
   templates:
   - split: 8
     template: "{0}-{1}"
@@ -324,35 +426,46 @@
   splits:
   - split: 2
     text: "化始"
+    translated: "Origin of Transformation"
   - split: 8
     text: "招式【大道始分】调息时间减少1秒"
+    translated: "Move 【The Great Way Begins to Divide】 reduces cooldown by 1 seconds"
 - raw: "50,8010302,转寰,101003,1010305,对应招式,,,招式【开太极】调息时间减少1秒,tricks/8010302,太极拳,,"
   splits:
   - split: 2
     text: "转寰"
+    translated: "World-Turning"
   - split: 8
     text: "招式【开太极】调息时间减少1秒"
+    translated: "The cooldown for the Move 【Open Taiji】 is reduced by 1 seconds."
 - raw: "51,8010303,朝闻,101003,1010301,对应招式,,,招式【大道始分】真气消耗减1,tricks/8010303,太极拳,,"
   splits:
   - split: 2
     text: "朝闻"
+    translated: "Morning Hearing"
   - split: 8
     text: "招式【大道始分】真气消耗减1"
+    translated: "Move [The Great Way Begins to Divide] reduces True Qi consumption by 1"
 - raw: "52,8010304,无我,101003,1010303,对应招式,,,招式【合太极】真气消耗减1,tricks/8010304,太极拳,,"
   splits:
   - split: 2
     text: "无我"
+    translated: "No-Self"
   - split: 8
     text: "招式【合太极】真气消耗减1"
+    translated: "Move 【Unite Taiji】 True Qi consumption reduced by 1"
 - raw: "53,8010305,苍,110002,1100205,对应招式,,,招式【密·归寂】施展后获得【霸体】效果,tricks/8010305,密剑·山中石响,,"
   splits:
   - split: 2
     text: "苍"
+    translated: "Azure"
   - split: 8
     text: "招式【密"
+    translated: "Move [Secret]"
   - split: 8
     subIndex: 1
     text: "归寂】施展后获得【霸体】效果"
+    translated: "[Silence] grants the Super Armor effect upon activation."
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -360,188 +473,252 @@
   splits:
   - split: 2
     text: "斗转"
+    translated: "Dipper Turning"
   - split: 8
     text: "招式【合太极】释放后，招式【开太极】减少调息时间1秒"
+    translated: "Using the Move 【Unite Taiji】 reduces the meditation time for the Move 【Open Taiji】 by 1 seconds."
 - raw: "55,8010307,红月,115002,1150201,全局有效,,,吸血属性额外提升10%,tricks/8010307,月残经,,"
   splits:
   - split: 2
     text: "红月"
+    translated: "Red Moon"
   - split: 8
     text: "吸血属性额外提升10%"
+    translated: "Lifesteal attribute increased by an additional 10%"
 - raw: "56,8010401,寥落,101004,1010403,对应招式,,,招式【摘星寥】调息降低1秒,tricks/8010401,神通剑指,,"
   splits:
   - split: 2
     text: "寥落"
+    translated: "Desolation"
   - split: 8
     text: "招式【摘星寥】调息降低1秒"
+    translated: "Move [Plucking Stars in Solitude] reduces meditation time by 1 seconds"
 - raw: "57,8010402,束发,101004,1010401,对应招式,,,招式【引星穹】真气消耗降低1点,tricks/8010402,神通剑指,,"
   splits:
   - split: 2
     text: "束发"
+    translated: "Hair Bound"
   - split: 8
     text: "招式【引星穹】真气消耗降低1点"
+    translated: "Move [Drawing Down the Starry Vault] reduces True Qi consumption by 1 points"
 - raw: "58,8020501,长虹,102005,1020501,对应招式,,,招式【分阴阳】减少调息时间1秒,tricks/8020501,两仪剑法,,"
   splits:
   - split: 2
     text: "长虹"
+    translated: "Long Rainbow"
   - split: 8
     text: "招式【分阴阳】减少调息时间1秒"
+    translated: "The Move 【Dividing Yin and Yang】 reduces meditation time by 1 seconds."
 - raw: "59,8020502,盈亏,102005,1020503,对应招式,,,招式【割昏晓】减少调息时间1秒,tricks/8020502,两仪剑法,,"
   splits:
   - split: 2
     text: "盈亏"
+    translated: "Waxing and Waning"
   - split: 8
     text: "招式【割昏晓】减少调息时间1秒"
+    translated: "Move [Cleaving Dusk and Dawn] reduces meditation time by 1 seconds"
 - raw: "60,8100101,里剑术,110001,1100103,对应招式,,,招式【拔刀术.里切】真气消耗降低1点,tricks/8100101,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "里剑术"
+    translated: "Inner Sword Art"
   - split: 8
     text: "招式【拔刀术.里切】真气消耗降低1点"
+    translated: "Move [Blade-Drawing Art · Inner Cut] True Qi consumption reduced by 1 points"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Blade Art · Inner Cut,刀术.里切,Blade Art · Inner Cut,刀术.里切,"
 - raw: "61,8100102,断空流,110001,1100103,对应招式,,,招式【刀术.里返】施展时产生霸体,tricks/8100102,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "断空流"
+    translated: "Void-Severing School"
   - split: 8
     text: "招式【刀术.里返】施展时产生霸体"
+    translated: "The Move 【Blade Art · Inner Return】 grants Super Armor while performing it."
 - raw: "62,8100103,逆袈裟,110001,1100101,对应招式,,,招式【拔刀术.居合】真气消耗降低1点,tricks/8100103,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "逆袈裟"
+    translated: "Reverse Diagonal Cut"
   - split: 8
     text: "招式【拔刀术.居合】真气消耗降低1点"
+    translated: "Move [Blade-Drawing Art. Iai] True Qi consumption reduced by 1 points"
 - raw: "63,8100104,落樱花,110001,1100101,对应招式,,,招式【拔刀术.居合】减少调息时间1秒,tricks/8100104,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "落樱花"
+    translated: "Falling Cherry Blossoms"
   - split: 8
     text: "招式【拔刀术.居合】减少调息时间1秒"
+    translated: "The Move 【Blade-Drawing Art. Iai】 reduces meditation time by 1 seconds"
 - raw: "64,8040201,刑天,104002,1040210,对应招式,,,招式【九州纵横】施展时，外功攻击提升10%,tricks/8040201,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "刑天"
+    translated: "Xingtian"
   - split: 8
     text: "招式【九州纵横】施展时，外功攻击提升10%"
+    translated: "The Move 【Across the Nine Provinces】 increases External Attack by 10%."
 - raw: "65,8040202,风后,104002,1040203,对应招式,,,招式【十方共主】减少调息时间1秒,tricks/8040202,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "风后"
+    translated: "Feng Hou"
   - split: 8
     text: "招式【十方共主】减少调息时间1秒"
+    translated: "Move 【Sovereign of the Ten Directions】 reduces meditation time by 1 seconds"
 - raw: "66,8040203,分野,104002,1040205,对应招式,,,招式【八荒尽取】减少调息时间1秒,tricks/8040203,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "分野"
+    translated: "Divided Domains"
   - split: 8
     text: "招式【八荒尽取】减少调息时间1秒"
+    translated: "Move [Seizing the Eight Wastes] reduces meditation time by 1 seconds"
 - raw: "67,8040204,鼎湖,104002,1040210,对应招式,,,招式【八荒尽取】施展时，外功攻击提升10%,tricks/8040204,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "鼎湖"
+    translated: "Dinghu Lake"
   - split: 8
     text: "招式【八荒尽取】施展时，外功攻击提升10%"
+    translated: "The Move 【Seizing the Eight Wastes】 increases External Attack by 10%."
 - raw: "68,8030101,搦战,103001,1030105,对应招式,,,招式【夜斩石虎】调息时间减1秒,tricks/8030101,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "搦战"
+    translated: "Challenge to Battle"
   - split: 8
     text: "招式【夜斩石虎】调息时间减1秒"
+    translated: "Move [Slaying the Stone Tiger by Night] reduces cooldown by 1 seconds"
 - raw: "69,8030102,孤胆,103001,1030105,对应招式,使用时霸体,,招式【夜斩石虎】施展时产生2秒霸体,tricks/8030102,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "孤胆"
+    translated: "Lone Courage"
   - split: 8
     text: "招式【夜斩石虎】施展时产生2秒霸体"
+    translated: "The Move 【Slaying the Stone Tiger by Night】 grants Super Armor for 2 seconds when performed."
 - raw: "70,8030103,不破,103001,1030105,对应招式,使用时霸体1,,重击释放完毕后，自身将处于霸体状态，持续1秒,tricks/8030103,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "不破"
+    translated: "Unbroken"
   - split: 8
     text: "重击释放完毕后，自身将处于霸体状态，持续1秒"
+    translated: "After the Heavy Attack is released, you will be in Super Armor state for 1 seconds."
 - raw: "71,8030104,众覆,103001,1030103,对应招式,,,招式【覆压千钧】调息时间减1秒,tricks/8030104,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "众覆"
+    translated: "Crowd-Overturning"
   - split: 8
     text: "招式【覆压千钧】调息时间减1秒"
+    translated: "Move 【Crushing Weight of a Thousand Jun】 reduced cooldown by 1 seconds"
 - raw: "72,8030105,杀势,103001,1030101,对应招式,,,招式【锋卷破浪】调息时间减1秒,tricks/8030105,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "杀势"
+    translated: "Killing Stance"
   - split: 8
     text: "招式【锋卷破浪】调息时间减1秒"
+    translated: "Move 【Edge Rolling, Breaking Waves】 cooldown reduced by 1 seconds"
 - raw: "73,8030201,沙横,103002,1030201,对应招式,,,当学习【七煞铁衣功】的【阴山月】内功注释后，施展【醉横沙场】招式后霸体效果延续2秒,tricks/8030201,醉君侯刀铭,,"
   splits:
   - split: 2
     text: "沙横"
+    translated: "Sand Cross-Cut"
   - split: 8
     text: "当学习【七煞铁衣功】的【阴山月】内功注释后，施展【醉横沙场】招式后霸体效果延续2秒"
+    translated: "When studying the 【Seven Killers Iron Garment Art】's 【Moon over Yin Mountain】 Neigong annotation, the Super Armor effect after performing the 【Drunk upon the Battlefield】 Move lasts for 2 seconds."
 - raw: "74,8030202,陷阵,103002,1030203,全局有效,,,当自身气血降低至50%后，额外增加8%的伤害,tricks/8030202,醉君侯刀铭,,"
   splits:
   - split: 2
     text: "陷阵"
+    translated: "Formation Breaker"
   - split: 8
     text: "当自身气血降低至50%后，额外增加8%的伤害"
+    translated: "When your Lifeforce drops to 50%, you deal an additional 8% Damage."
 - raw: "75,8030203,冲阵,103002,1030205,全局有效,,,当自身受击时获得【坚守】效果，体力回复增加15%，该效果持续5秒,tricks/8030203,醉君侯刀铭,,"
   splits:
   - split: 2
     text: "冲阵"
+    translated: "Formation Charge"
   - split: 8
     text: "当自身受击时获得【坚守】效果，体力回复增加15%，该效果持续5秒"
+    translated: "When struck, gain the 【Perseverance】 effect, increasing Stamina recovery by 15%, lasting for 5 seconds."
 - raw: "76,8040301,独觉,104003,1040303,对应招式,,,招式【一苇横江】不消耗真气,tricks/8040301,众相菩提杖,,"
   splits:
   - split: 2
     text: "独觉"
+    translated: "Solitary Realization"
   - split: 8
     text: "招式【一苇横江】不消耗真气"
+    translated: "The Move 【A Single Reed Across the River】 does not consume True Qi"
 - raw: "77,8040302,尘劫,104003,1040303,对应招式,,,招式【无我无相】施展时获得【霸体】效果,tricks/8040302,众相菩提杖,,"
   splits:
   - split: 2
     text: "尘劫"
+    translated: "Dust Kalpa"
   - split: 8
     text: "招式【无我无相】施展时获得【霸体】效果"
+    translated: "Using the Move [No Self, No Form] grants you the [Super Armor] effect."
 - raw: "78,8040303,三生,104003,1040305,对应招式,,,招式【拈花掷象】减少调息时间1秒,tricks/8040303,众相菩提杖,,"
   splits:
   - split: 2
     text: "三生"
+    translated: "Three Lifetimes"
   - split: 8
     text: "招式【拈花掷象】减少调息时间1秒"
+    translated: "Move [Holding a Flower, Hurling an Elephant] reduces meditation time by 1 seconds"
 - raw: "79,8040304,破障,104003,1040310,对应招式,,,招式【无我无相】减少调息时间1秒,tricks/8040304,众相菩提杖,,"
   splits:
   - split: 2
     text: "破障"
+    translated: "Obstacle-Breaking"
   - split: 8
     text: "招式【无我无相】减少调息时间1秒"
+    translated: "Move 【No Self, No Form】 reduces meditation time by 1 seconds"
 - raw: "80,8040305,不垢,104003,1040302,对应招式,,,【不动】效果持续10秒,tricks/8040305,众相菩提杖,,"
   splits:
   - split: 2
     text: "不垢"
+    translated: "Undefiled"
   - split: 8
     text: "【不动】效果持续10秒"
+    translated: "[Stasis] effect lasts for 10 seconds"
 - raw: "81,8040401,将谪,104004,1040401,对应招式,,,招式【秦王入阵】对目标造成伤害后，获得1层【将星】效果，该效果持续3秒，该效果叠加至5层后，获得【无敌】，无敌效果持续2秒,tricks/8040401,镇国抵岳枪,,"
   splits:
   - split: 2
     text: "将谪"
+    translated: "About to Be Banished"
   - split: 8
     text: "招式【秦王入阵】对目标造成伤害后，获得1层【将星】效果，该效果持续3秒，该效果叠加至5层后，获得【无敌】，无敌效果持续2秒"
+    translated: "The Move [King of Qin Enters the Formation] deals Damage to the target and grants 1 layers of the [General's Star] effect. This effect lasts for 3 seconds. When the effect stacks to 5 layers, it grants Invulnerable for 2 seconds."
 - raw: "82,8040402,陷曲,104004,1040403,全局有效,,,当自身气血降低至50%后，气血恢复属性增加25%,tricks/8040402,镇国抵岳枪,,"
   splits:
   - split: 2
     text: "陷曲"
+    translated: "Sunken Bend"
   - split: 8
     text: "当自身气血降低至50%后，气血恢复属性增加25%"
+    translated: "When your Lifeforce drops to 50%, your Lifeforce Recovery Attributes increase by 25%."
 - raw: "83,8040403,独横,104004,1040405,全局有效,,,\"当施展【虎贲阵】的【漠玉鞍】招式后,获得【独横】效果，效果持续期间每秒恢复30体力,该效果持续8秒\",tricks/8040403,镇国抵岳枪,,"
   splits:
   - split: 2
     text: "独横"
+    translated: "Lone Sweep"
   - split: 8
     text: "当施展【虎贲阵】的【漠玉鞍】招式后"
+    translated: "After performing the Move Desert Jade Saddle of the Tiger Guard Formation"
   - split: 8
     subIndex: 1
     text: "获得【独横】效果，效果持续期间每秒恢复30体力"
+    translated: "Gain the [Duheng] effect. While this effect lasts, restore 30 Stamina per second."
   - split: 8
     subIndex: 2
     text: "该效果持续8秒"
+    translated: "This effect lasts for 8 seconds"
   templates:
   - split: 8
     template: "{0},{1},{2}"
@@ -549,59 +726,78 @@
   splits:
   - split: 2
     text: "御"
+    translated: "Guard"
   - split: 8
     text: "招式【刀术.里切】获得【霸体】效果"
+    translated: "Move [Blade Art · Inner Cut] gains the [Super Armor] effect"
 - raw: "85,8090101,腾龙,109001,1090103,对应招式,,,招式【龙游天地】真气消耗降低1点,tricks/8090101,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "腾龙"
+    translated: "Rising Dragon"
   - split: 8
     text: "招式【龙游天地】真气消耗降低1点"
+    translated: "The Move 【Dragon Roams Heaven and Earth】 reduces True Qi consumption by 1 points"
 - raw: "86,8090102,降世,109001,1090105,对应招式,,,招式【神龙摆尾】真气消耗降低1点,tricks/8090102,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "降世"
+    translated: "Descent to the World"
   - split: 8
     text: "招式【神龙摆尾】真气消耗降低1点"
+    translated: "The Move 【Divine Dragon Swings Its Tail】 reduces True Qi consumption by 1 points"
 - raw: "87,8090103,鸿渐,109001,1090103,对应招式,,,招式【龙游天地】减少调息时间1秒,tricks/8090103,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "鸿渐"
+    translated: "Swan Advances"
   - split: 8
     text: "招式【龙游天地】减少调息时间1秒"
+    translated: "Move [Dragon Roams Heaven and Earth] reduces meditation time by 1 seconds"
 - raw: "88,8090104,时乘,109001,1090105,对应招式,,,招式【神龙摆尾】减少调息时间1秒,tricks/8090104,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "时乘"
+    translated: "Riding the Times"
   - split: 8
     text: "招式【神龙摆尾】减少调息时间1秒"
+    translated: "Move [Divine Dragon Swings Its Tail] reduces meditation time by 1 seconds"
 - raw: "89,8090105,不息,109001,1090101,对应招式,,,招式【飞龙在天】减少调息时间1秒,tricks/8090105,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "不息"
+    translated: "Unceasing"
   - split: 8
     text: "招式【飞龙在天】减少调息时间1秒"
+    translated: "Move [Flying Dragon in the Sky] reduces meditation time by 1 seconds"
 - raw: "90,8090201,返日,109002,1090201,对应招式,,,招式【梭云回日】施展后降低【纵九霄】当前调息时间1秒,tricks/8090201,踪影孤鸿,,"
   splits:
   - split: 2
     text: "返日"
+    translated: "Returning Sun"
   - split: 8
     text: "招式【梭云回日】施展后降低【纵九霄】当前调息时间1秒"
+    translated: "Using the Move Shuttling Clouds, Returning Sun reduces the current cooldown of Leaping to the Ninth Heaven by 1 seconds."
 - raw: "91,8090202,掠风,109002,1090203,对应招式,,,招式【梭云回日】施展后对受到伤害的目标附加【风阻】效果，移动速度降低30%，效果持续5秒,tricks/8090202,踪影孤鸿,,"
   splits:
   - split: 2
     text: "掠风"
+    translated: "Wind-Skimming"
   - split: 8
     text: "招式【梭云回日】施展后对受到伤害的目标附加【风阻】效果，移动速度降低30%，效果持续5秒"
+    translated: "The Move 【Shuttling Clouds, Returning Sun】 applies a 【Wind Resistance】 effect to damaged targets, reducing Movement Speed by 30%, for 5 seconds."
 - raw: "92,8100201,势,110002,1100201,对应招式,,,额外增加【斩·断石】招式剑气伤害,tricks/8100201,密剑·山中石响,,"
   splits:
   - split: 2
     text: "势"
+    translated: "Stance"
   - split: 8
     text: "额外增加【斩"
+    translated: "Extra addition 【Slash"
   - split: 8
     subIndex: 1
     text: "断石】招式剑气伤害"
+    translated: "Stone Breaker】Move: Sword Qi Damage"
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -609,14 +805,18 @@
   splits:
   - split: 2
     text: "返"
+    translated: "Return"
   - split: 8
     text: "招式【裟"
+    translated: "Move【Sha"
   - split: 8
     subIndex: 1
     text: "破林】施展后减少【斩"
+    translated: "[Breaking Forest] reduces the cooldown of [Slash] after activation."
   - split: 8
     subIndex: 2
     text: "断石】招式的当前调息时间1秒"
+    translated: "【Broken Stone】 move's current cooldown is 1 seconds."
   templates:
   - split: 8
     template: "{0}·{1}·{2}"
@@ -624,11 +824,14 @@
   splits:
   - split: 2
     text: "断绳"
+    translated: "Rope-Cutting"
   - split: 8
     text: "降低【初取"
+    translated: "Lower 【First Acquisition"
   - split: 8
     subIndex: 1
     text: "攻伐】调息时间1秒"
+    translated: "【Attack】Recovery time 1 seconds"
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -636,35 +839,46 @@
   splits:
   - split: 2
     text: "刀取"
+    translated: "Blade Seizure"
   - split: 8
     text: "进入战斗时，提升最终伤害5%"
+    translated: "Increases final damage by 5% when entering combat."
 - raw: "96,8100401,守土,110004,1100401,全局有效,,,自身防御提升3%，进入战斗后反伤属性提升10%,tricks/8100401,天威军阵刀术,,"
   splits:
   - split: 2
     text: "守土"
+    translated: "Guarding the Land"
   - split: 8
     text: "自身防御提升3%，进入战斗后反伤属性提升10%"
+    translated: "Self-defense increases by 3%, and damage reflection attributes increase by 10% upon entering combat."
 - raw: "97,8100402,开疆,110004,1100403,全局有效,,,提升3%最终伤害，50点移动速度,tricks/8100402,天威军阵刀术,,"
   splits:
   - split: 2
     text: "开疆"
+    translated: "Border-Opening"
   - split: 8
     text: "提升3%最终伤害，50点移动速度"
+    translated: "Increase final damage by 3%, and gain 50 Movement Speed"
 - raw: "98,8110101,激灼,111001,1110101,对应招式,,,招式【扫岳荡丘】攻击附加【灼烧】目标的敌人时减少【草蛇金线】招式的当前调息时间1秒,tricks/8110101,流缶金绳镖,,"
   splits:
   - split: 2
     text: "激灼"
+    translated: "Fierce Scorch"
   - split: 8
     text: "招式【扫岳荡丘】攻击附加【灼烧】目标的敌人时减少【草蛇金线】招式的当前调息时间1秒"
+    translated: "Using the Move 【Sweeping Peaks, Razing Hills】 to attack enemies with an additional Burn effect reduces the current cooldown of the Move 【Grass Snake, Golden Thread】 by 1 seconds."
 - raw: "99,8110102,扬尘,111001,1110103,对应招式,,,\"招式【草蛇金线】攻击附加【灼烧】目标的敌人时减少获得【扬尘】效果，该效果持续8秒,效果持续期间施展【扫岳荡丘】所需消耗的真气降低1点\",tricks/8110102,流缶金绳镖,,"
   splits:
   - split: 2
     text: "扬尘"
+    translated: "Raised Dust"
   - split: 8
     text: "招式【草蛇金线】攻击附加【灼烧】目标的敌人时减少获得【扬尘】效果，该效果持续8秒"
+    translated: "Using the Move [Grass Snake, Golden Thread] to attack enemies with an additional Burn effect reduces the Dust Storm effect gained; this effect lasts 8 seconds."
   - split: 8
     subIndex: 1
     text: "效果持续期间施展【扫岳荡丘】所需消耗的真气降低1点"
+    translated: "During the duration of the effect, the True Qi required to cast 【Sweeping Peaks, Razing Hills】 is reduced by 1 points."
   templates:
   - split: 8
     template: "{0},{1}"
@@ -672,65 +886,86 @@
   splits:
   - split: 2
     text: "散星"
+    translated: "Scattered Stars"
   - split: 8
     text: "招式【流星奔散】施展时获得霸体效果"
+    translated: "Using the Move [Meteors Scattering in Flight] grants Super Armor effect."
 - raw: "101,8120101,转瞬,112001,1120101,对应招式,,,【招式矢雨晴】施展后，增加自身的移动速度100,tricks/8120101,锋狩控弦决,,7008100"
   splits:
   - split: 2
     text: "转瞬"
+    translated: "In a Blink"
   - split: 8
     text: "【招式矢雨晴】施展后，增加自身的移动速度100"
+    translated: "【Move Arrow Rain Clears】Upon casting, increases your Movement Speed by 100"
 - raw: "102,8120102,须臾,112001,1120103,对应招式,,,招式【寒猎晓镝】施展时，拿箭刺击时获得霸体效果,tricks/8120102,锋狩控弦决,,"
   splits:
   - split: 2
     text: "须臾"
+    translated: "A Moment"
   - split: 8
     text: "招式【寒猎晓镝】施展时，拿箭刺击时获得霸体效果"
+    translated: "When performing the Move [Cold Hunt, Dawn Arrow], you gain Super Armor when thrusting the arrow."
 - raw: "103,8120103,游散,112001,1120105,全局有效,,,当自身被击飞时，获得1秒的无敌效果,tricks/8120103,锋狩控弦决,,"
   splits:
   - split: 2
     text: "游散"
+    translated: "Free Wandering"
   - split: 8
     text: "当自身被击飞时，获得1秒的无敌效果"
+    translated: "Gains an invulnerable effect for 1 seconds when knocked away."
 - raw: "104,8130101,晦朔,113001,1130101,对应招式,,,招式【澜沧凌栈】真气消耗降低1点,tricks/8130101,鳞五净蛊鞭,,"
   splits:
   - split: 2
     text: "晦朔"
+    translated: "Waning to New Moon"
   - split: 8
     text: "招式【澜沧凌栈】真气消耗降低1点"
+    translated: "Move [Lancang Soaring Plank Road] True Qi consumption reduced by 1 points"
 - raw: "105,8130102,蛇影,113001,1130103,对应招式,,,招式【灵蛇刁蛊】减少调息时间1秒,tricks/8130102,鳞五净蛊鞭,,"
   splits:
   - split: 2
     text: "蛇影"
+    translated: "Serpent Shadow"
   - split: 8
     text: "招式【灵蛇刁蛊】减少调息时间1秒"
+    translated: "Move [Spirit Serpent's Cunning Gu] reduces meditation time by 1 seconds"
 - raw: "106,8130103,星居,113001,1130105,对应招式,,,招式【天龙佑躯】施展后对造成伤害的目标附加【眩晕】效果,tricks/8130103,鳞五净蛊鞭,,"
   splits:
   - split: 2
     text: "星居"
+    translated: "Dwelling of Stars"
   - split: 8
     text: "招式【天龙佑躯】施展后对造成伤害的目标附加【眩晕】效果"
+    translated: "The Move 【Heavenly Dragon Shields the Body】 adds a Stun effect to targets that are dealt Damage."
 - raw: "107,8130201,渺渺然,113002,1130203,全局有效,,,自身移动速度提升50点，每30秒获得1点真气,tricks/8130201,掣骨金虹决,,"
   splits:
   - split: 2
     text: "渺渺然"
+    translated: "Vast and Faint"
   - split: 8
     text: "自身移动速度提升50点，每30秒获得1点真气"
+    translated: "Increases your Movement Speed by 50 points and gains 1 points of True Qi every 30 seconds."
 - raw: "108,8130202,归骨地,113002,1130205,全局有效,,,提升自身3%外功攻击,tricks/8130202,掣骨金虹决,,"
   splits:
   - split: 2
     text: "归骨地"
+    translated: "Burial Ground"
   - split: 8
     text: "提升自身3%外功攻击"
+    translated: "Increase your own External Attack by 3%"
 - raw: "109,8140101,蓄机,114001,1140101,全局有效,,,\"进入战斗后,默认额外增加1颗初始子弹数量\",tricks/8140101,西域火器·珠,,7008100"
   splits:
   - split: 2
     text: "蓄机"
+    translated: "Storing Momentum"
   - split: 8
     text: "进入战斗后"
+    translated: "After entering combat"
   - split: 8
     subIndex: 1
     text: "默认额外增加1颗初始子弹数量"
+    translated: "By default, add 1 extra initial bullets"
   templates:
   - split: 8
     template: "{0},{1}"
@@ -738,11 +973,14 @@
   splits:
   - split: 2
     text: "流构"
+    translated: "Flowing Structure"
   - split: 8
     text: "招式【散珠"
+    translated: "Move 【Scattered Pearls"
   - split: 8
     subIndex: 1
     text: "蓄】施展后，增加自身的移动速度100"
+    translated: "Upon casting, increases your Movement Speed by 100"
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -750,35 +988,47 @@
   splits:
   - split: 2
     text: "扩匣"
+    translated: "Expanding Case"
   - split: 8
     text: "弹容量增加1发"
+    translated: "Increase magazine capacity by 1 rounds"
 - raw: "112,8150101,灵犀,115001,1150101,对应招式,,,招式【绕蛊缠身】施展时获得【霸体】效果,tricks/8150101,七情缠蛊匕,,"
   splits:
   - split: 2
     text: "灵犀"
+    translated: "Telepathic Link"
   - split: 8
     text: "招式【绕蛊缠身】施展时获得【霸体】效果"
+    translated: "The Move [Gu Coils Around the Body] grants [Super Armor] effect when performed."
 - raw: "113,8150102,祭礼,115001,1150103,对应招式,,,招式【残空凌】减少调息时间1秒,tricks/8150102,七情缠蛊匕,,"
   splits:
   - split: 2
     text: "祭礼"
+    translated: "Rite of Offering"
   - split: 8
     text: "招式【残空凌】减少调息时间1秒"
+    translated: "Move [Remnant Sky Soaring] reduces meditation time by 1 seconds"
 - raw: "114,8150103,百足,115001,1150105,对应招式,,,招式【青丝缠蛇法】减少调息时间1秒,tricks/8150103,七情缠蛊匕,,"
   splits:
   - split: 2
     text: "百足"
+    translated: "Hundred-Legged"
   - split: 8
     text: "招式【青丝缠蛇法】减少调息时间1秒"
+    translated: "Move 【Azure Thread Snake-Binding Method】 reduces meditation time by 1 seconds"
 - raw: "115,8150201,清辉,115002,1150203,对应招式,,,额外增加轻击5%的伤害,tricks/8150201,月残经,,"
   splits:
   - split: 2
     text: "清辉"
+    translated: "Clear Radiance"
   - split: 8
     text: "额外增加轻击5%的伤害"
+    translated: "Increase Light Attack damage by 5%"
 - raw: "116,8150202,寒玉,115002,1150205,对应招式,,,招式【谪玉盘】施展后，获得2秒的霸体效果,tricks/8150202,月残经,,"
   splits:
   - split: 2
     text: "寒玉"
+    translated: "Cold Jade"
   - split: 8
     text: "招式【谪玉盘】施展后，获得2秒的霸体效果"
+    translated: "After performing the Move [Banished Jade Disc], gain Super Armor for 2 seconds."

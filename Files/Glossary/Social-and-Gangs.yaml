@@ -4,10 +4,12 @@
 
 - raw: "交情"
   result: "Friendship"
+  badtrans: false
 - raw: "好感度"
   result: "Favorability"
 - raw: "父母"
   result: "Parents"
+  badtrans: false
 - raw: "同怀"
   result: "Siblings"
 - raw: "义亲"
@@ -16,8 +18,10 @@
   result: "Confidant"
 - raw: "金兰"
   result: "Sworn Bond"
+  badtrans: false
 - raw: "眷侣"
   result: "Lover"
+  badtrans: false
 - raw: "配偶"
   result: "Spouse"
 - raw: "子女"
@@ -28,15 +32,19 @@
   result: "Disciple"
 - raw: "仇敌"
   result: "Enemy"
+  badtrans: false
 - raw: "同行"
   result: "Companions"
+  badtrans: false
 
 # Reputation and alignment
 
 - raw: "立场"
   result: "Alignment"
+  badtrans: false
 - raw: "声望"
   result: "Reputation"
+  badtrans: false
 - raw: "区域声望"
   result: "Regional Reputation"
 - raw: "缉捕值"
@@ -50,12 +58,14 @@
 
 - raw: "帮派"
   result: "Gang"
+  badtrans: false
 - raw: "帮派位阶"
   result: "Gang Rank"
 - raw: "帮派功勋"
   result: "Gang Merit"
 - raw: "功勋"
   result: "Merit"
+  badtrans: false
 - raw: "帮派资金"
   result: "Gang Funds"
 - raw: "产业"
@@ -64,8 +74,10 @@
   result: "Branch"
 - raw: "教众"
   result: "Followers"
+  badtrans: false
 - raw: "俸禄"
   result: "Salary"
+  badtrans: false
 - raw: "薪俸"
   result: "Stipend"
 - raw: "门派位阶"
@@ -74,5 +86,7 @@
   result: "Gang Shop"
 - raw: "头领"
   result: "Chieftain"
+  badtrans: false
 - raw: "帮众"
   result: "Gang Member"
+  badtrans: false

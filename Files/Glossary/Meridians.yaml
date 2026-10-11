@@ -4,8 +4,10 @@
 
 - raw: "经脉"
   result: "Meridians"
+  badtrans: false
 - raw: "冲穴"
   result: "Acupoint Breakthrough"
+  badtrans: false
 - raw: "冲穴属性"
   result: "Acupoint Breakthrough Attribute"
 - raw: "开启脉路"

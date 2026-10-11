@@ -140,10 +140,7 @@
 - raw: "8,1110001003,10,[0].talks{json}[1].talk,<fName>大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
   splits:
   - split: 4
-    text: "大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
-  templates:
-  - split: 4
-    template: "<fName>{0}"
+    text: "<fName>大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
 - raw: "8,1110001003,10,[0].talks{json}[2].name,小钰"
   splits:
   - split: 4
@@ -151,10 +148,7 @@
 - raw: "8,1110001003,10,[0].talks{json}[2].talk,<fName>姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
   splits:
   - split: 4
-    text: "姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
-  templates:
-  - split: 4
-    template: "<fName>{0}"
+    text: "<fName>姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
 - raw: "8,1110001003,10,[1].talks{json}[1].name,小钰"
   splits:
   - split: 4
@@ -162,13 +156,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[1].talk,呀，这草编花环真好看，没想到<fName>大哥如此手巧。"
   splits:
   - split: 4
-    text: "呀，这草编花环真好看，没想到"
-  - split: 4
-    subIndex: 1
-    text: "大哥如此手巧。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "呀，这草编花环真好看，没想到<fName>大哥如此手巧。"
 - raw: "8,1110001003,10,[1].talks{json}[1].options{json}[0].name,将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
@@ -184,13 +172,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[2].talk,呀，这草编花环真好看，没想到<fName>姐姐如此手巧。"
   splits:
   - split: 4
-    text: "呀，这草编花环真好看，没想到"
-  - split: 4
-    subIndex: 1
-    text: "姐姐如此手巧。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "呀，这草编花环真好看，没想到<fName>姐姐如此手巧。"
 - raw: "8,1110001003,10,[1].talks{json}[2].options{json}[0].name,将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
@@ -206,19 +188,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[3].talk,那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
   splits:
   - split: 4
-    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "相助，否则也不知道果果会多伤心......"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
 - raw: "8,1110001003,10,[1].talks{json}[4].name,小钰"
   splits:
   - split: 4
@@ -226,13 +196,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[4].talk,没想到<fName>大哥还有这般心思细腻的一面。"
   splits:
   - split: 4
-    text: "没想到"
-  - split: 4
-    subIndex: 1
-    text: "大哥还有这般心思细腻的一面。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "没想到<fName>大哥还有这般心思细腻的一面。"
 - raw: "8,1110001003,10,[1].talks{json}[5].name,小钰"
   splits:
   - split: 4
@@ -240,10 +204,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[5].talk,<fName>姐姐竟如此手巧。"
   splits:
   - split: 4
-    text: "姐姐竟如此手巧。"
-  templates:
-  - split: 4
-    template: "<fName>{0}"
+    text: "<fName>姐姐竟如此手巧。"
 - raw: "8,1110001003,10,[1].talks{json}[6].name,小钰"
   splits:
   - split: 4
@@ -251,13 +212,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[6].talk,若是<fName>大哥得空，能否教教我如何这花环的制法。"
   splits:
   - split: 4
-    text: "若是"
-  - split: 4
-    subIndex: 1
-    text: "大哥得空，能否教教我如何这花环的制法。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "若是<fName>大哥得空，能否教教我如何这花环的制法。"
 - raw: "8,1110001003,10,[1].talks{json}[6].options{json}[0].name,称仍有急事尚待处理，羞红着脸离去。"
   splits:
   - split: 4
@@ -273,13 +228,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[7].talk,若是<fName>姐姐得空，能否教教我如何这花环的制法。"
   splits:
   - split: 4
-    text: "若是"
-  - split: 4
-    subIndex: 1
-    text: "姐姐得空，能否教教我如何这花环的制法。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "若是<fName>姐姐得空，能否教教我如何这花环的制法。"
 - raw: "8,1110001003,10,[1].talks{json}[7].options{json}[0].name,称仍有急事尚待处理，羞红着脸离去。"
   splits:
   - split: 4
@@ -315,19 +264,7 @@
 - raw: "8,1110001003,10,[1].talks{json}[11].talk,那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
   splits:
   - split: 4
-    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "相助，否则也不知道果果会多伤心......"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
 - raw: "8,1110001003,10,[2].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -335,16 +272,7 @@
 - raw: "8,1110001003,10,[2].talks{json}[0].talk,<少侠||女侠>，你是？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，你是？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，你是？"
 - raw: "8,1110001003,10,[3].talks{json}[1].name,小钰"
   splits:
   - split: 4
@@ -352,13 +280,7 @@
 - raw: "8,1110001003,10,[3].talks{json}[1].talk,……可惜，我却不识得什么武学功法，不然，真的也想随<fName>大哥一道去看看江湖之间……"
   splits:
   - split: 4
-    text: "……可惜，我却不识得什么武学功法，不然，真的也想随"
-  - split: 4
-    subIndex: 1
-    text: "大哥一道去看看江湖之间……"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "……可惜，我却不识得什么武学功法，不然，真的也想随<fName>大哥一道去看看江湖之间……"
 - raw: "8,1110001003,10,[3].talks{json}[2].name,小钰"
   splits:
   - split: 4
@@ -366,13 +288,7 @@
 - raw: "8,1110001003,10,[3].talks{json}[2].talk,……可惜，我却不识得什么武学功法，不然，真的也想随<fName>姐姐一道去看看江湖之间……"
   splits:
   - split: 4
-    text: "……可惜，我却不识得什么武学功法，不然，真的也想随"
-  - split: 4
-    subIndex: 1
-    text: "姐姐一道去看看江湖之间……"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "……可惜，我却不识得什么武学功法，不然，真的也想随<fName>姐姐一道去看看江湖之间……"
 - raw: "8,1110001003,10,[4].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -380,16 +296,7 @@
 - raw: "8,1110001003,10,[4].talks{json}[0].talk,<fName><兄||姐姐>，你来啦！"
   splits:
   - split: 4
-    text: "兄"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，你来啦！"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄||姐姐>，你来啦！"
 - raw: "8,1110001003,10,[5].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -397,19 +304,7 @@
 - raw: "8,1110001003,10,[5].talks{json}[0].talk,小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
   splits:
   - split: 4
-    text: "小钰还需在此处照顾爹爹，"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "行走江湖若是念及小钰，常来此处瞧瞧便好……"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
 - raw: "9,1110002002,10,[1].talks{json}[0].name,柳星雨"
   splits:
   - split: 4
@@ -433,16 +328,7 @@
 - raw: "11,1110003001,10,[0].talks{json}[0].talk,……<fName><少侠||女侠>，此间逢变，已再非安居之处，还是速离此地罢……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，此间逢变，已再非安居之处，还是速离此地罢……"
-  templates:
-  - split: 4
-    template: "……<fName><{0}||{1}>{2}"
+    text: "……<fName><少侠||女侠>，此间逢变，已再非安居之处，还是速离此地罢……"
 - raw: "11,1110003001,10,[0].talks{json}[0].options{json}[0].name,关于青萍真相。"
   splits:
   - split: 4
@@ -454,19 +340,7 @@
 - raw: "11,1110003001,10,[0].talks{json}[1].talk,还请<少侠||女侠>听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
   splits:
   - split: 4
-    text: "还请"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "还请<少侠||女侠>听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
 - raw: "11,1110003001,10,[0].talks{json}[2].name,孙猎户"
   splits:
   - split: 4
@@ -474,19 +348,7 @@
 - raw: "11,1110003001,10,[0].talks{json}[2].talk,我只想看果果那孩子平安长大，过往之事，<少侠||女侠>……莫要再提。"
   splits:
   - split: 4
-    text: "我只想看果果那孩子平安长大，过往之事，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "……莫要再提。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "我只想看果果那孩子平安长大，过往之事，<少侠||女侠>……莫要再提。"
 - raw: "11,1110003001,10,[1].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
@@ -494,19 +356,7 @@
 - raw: "11,1110003001,10,[1].talks{json}[0].talk,驱散狼群一事风险颇高，<少侠||女侠>需得多加小心啊！"
   splits:
   - split: 4
-    text: "驱散狼群一事风险颇高，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "需得多加小心啊！"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "驱散狼群一事风险颇高，<少侠||女侠>需得多加小心啊！"
 - raw: "11,1110003001,10,[2].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
@@ -514,19 +364,7 @@
 - raw: "11,1110003001,10,[2].talks{json}[0].talk,虽说白毫已去，但狼群仍旧虎视眈眈，<少侠||女侠>还需多加小心。"
   splits:
   - split: 4
-    text: "虽说白毫已去，但狼群仍旧虎视眈眈，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "还需多加小心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "虽说白毫已去，但狼群仍旧虎视眈眈，<少侠||女侠>还需多加小心。"
 - raw: "11,1110003001,10,[3].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
@@ -534,19 +372,7 @@
 - raw: "11,1110003001,10,[3].talks{json}[0].talk,多谢<少侠||女侠>相助果果，见到果果回家，我便安心了。"
   splits:
   - split: 4
-    text: "多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "相助果果，见到果果回家，我便安心了。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "多谢<少侠||女侠>相助果果，见到果果回家，我便安心了。"
 - raw: "11,1110003001,10,[3].talks{json}[0].options{json}[0].name,果果仅在村中玩耍，并无野兽在村庄内侵袭，孙叔伯多虑了"
   splits:
   - split: 4
@@ -558,16 +384,7 @@
 - raw: "11,1110003001,10,[3].talks{json}[1].talk,<少侠||女侠>，听我一言，远离此间，安身自保罢。"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，听我一言，远离此间，安身自保罢。"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，听我一言，远离此间，安身自保罢。"
 - raw: "11,1110003001,10,[3].talks{json}[2].name,孙猎户"
   splits:
   - split: 4
@@ -575,19 +392,7 @@
 - raw: "11,1110003001,10,[3].talks{json}[2].talk,言尽于此，<少侠||女侠>聪慧，自能明悟。"
   splits:
   - split: 4
-    text: "言尽于此，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "聪慧，自能明悟。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "言尽于此，<少侠||女侠>聪慧，自能明悟。"
 - raw: "11,1110003001,10,[3].talks{json}[3].talk,无论如何询问，孙猎户不再理会你，只是愣愣往后山方向望去。"
   splits:
   - split: 4
@@ -599,19 +404,7 @@
 - raw: "12,1120001010,10,[0].talks{json}[0].talk,在下此刻心乱如麻，<fName><兄||姑娘>可否容我为先兄扫墓之后，你我再行商议？"
   splits:
   - split: 4
-    text: "在下此刻心乱如麻，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可否容我为先兄扫墓之后，你我再行商议？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "在下此刻心乱如麻，<fName><兄||姑娘>可否容我为先兄扫墓之后，你我再行商议？"
 - raw: "12,1120001010,10,[1].talks{json}[0].name,西门仲"
   splits:
   - split: 4
@@ -651,16 +444,7 @@
 - raw: "13,1120002073,10,[3].talks{json}[0].talk,<fName><少侠||姑娘>，自承安一别，咱们可许久未见了。"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，自承安一别，咱们可许久未见了。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><少侠||姑娘>，自承安一别，咱们可许久未见了。"
 - raw: "13,1120002073,10,[4].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
@@ -684,19 +468,7 @@
 - raw: "14,1120001024,10,[0].talks{json}[0].talk,此庙已荒废多年，无甚特别之处，<少侠||女侠>尽快离去罢......"
   splits:
   - split: 4
-    text: "此庙已荒废多年，无甚特别之处，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "尽快离去罢......"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此庙已荒废多年，无甚特别之处，<少侠||女侠>尽快离去罢......"
 - raw: "15,1120002044,10,[0].talks{json}[0].talk,李青山低垂着头沉默不语......"
   splits:
   - split: 4
@@ -728,16 +500,7 @@
 - raw: "17,1120002083,10,[0].talks{json}[0].talk,<公子||姑娘>，还有何事？"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，还有何事？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>，还有何事？"
 - raw: "17,1120002083,10,[1].talks{json}[0].name,邓红婵"
   splits:
   - split: 4
@@ -769,19 +532,7 @@
 - raw: "18,1120002076,10,[0].talks{json}[0].talk,……多谢<少侠||姑娘>相救之恩……"
   splits:
   - split: 4
-    text: "……多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "相救之恩……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "……多谢<少侠||姑娘>相救之恩……"
 - raw: "19,1120001006,10,[0].talks{json}[0].name,小包袱"
   splits:
   - split: 4
@@ -797,19 +548,7 @@
 - raw: "19,1120001006,10,[1].talks{json}[0].talk,要是天下间能再多些大<哥哥||姐姐>这般的人，那便好了……"
   splits:
   - split: 4
-    text: "要是天下间能再多些大"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "这般的人，那便好了……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "要是天下间能再多些大<哥哥||姐姐>这般的人，那便好了……"
 - raw: "20,1120001007,10,[0].talks{json}[0].name,狗剩儿"
   splits:
   - split: 4
@@ -841,16 +580,7 @@
 - raw: "21,1120001008,10,[1].talks{json}[0].talk,<fName><哥哥||姐姐>，可寻见了燕大侠么？"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，可寻见了燕大侠么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><哥哥||姐姐>，可寻见了燕大侠么？"
 - raw: "21,1120001008,10,[2].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -858,19 +588,7 @@
 - raw: "21,1120001008,10,[2].talks{json}[0].talk,可惜小七本领低微，若能助<fName><哥哥||姐姐>手刃连天明，那才解气！"
   splits:
   - split: 4
-    text: "可惜小七本领低微，若能助"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "手刃连天明，那才解气！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "可惜小七本领低微，若能助<fName><哥哥||姐姐>手刃连天明，那才解气！"
 - raw: "21,1120001008,10,[3].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -878,19 +596,7 @@
 - raw: "21,1120001008,10,[3].talks{json}[0].talk,咦？<fName><哥哥||姐姐>，你当真来京城找我跟莲花姐姐啦！"
   splits:
   - split: 4
-    text: "咦？"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "，你当真来京城找我跟莲花姐姐啦！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "咦？<fName><哥哥||姐姐>，你当真来京城找我跟莲花姐姐啦！"
 - raw: "21,1120001008,10,[4].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -898,19 +604,7 @@
 - raw: "21,1120001008,10,[4].talks{json}[0].talk,如今想来，还是同<fName><哥哥||姐姐>闯荡江湖更有趣些。"
   splits:
   - split: 4
-    text: "如今想来，还是同"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "闯荡江湖更有趣些。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "如今想来，还是同<fName><哥哥||姐姐>闯荡江湖更有趣些。"
 - raw: "21,1120001008,10,[4].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
@@ -926,28 +620,7 @@
 - raw: "22,1120001004,10,[0].talks{json}[0].talk,前番之事多谢<少侠||女侠>，不知<少侠||女侠>可还有何事相询？"
   splits:
   - split: 4
-    text: "前番之事多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "，不知"
-  - split: 4
-    subIndex: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 5
-    text: "女侠"
-  - split: 4
-    subIndex: 6
-    text: "可还有何事相询？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}<{4}||{5}>{6}"
+    text: "前番之事多谢<少侠||女侠>，不知<少侠||女侠>可还有何事相询？"
 - raw: "22,1120001004,10,[0].talks{json}[0].options{json}[0].name,“姑娘之前谈到祖父，不知是何事由”。"
   splits:
   - split: 4
@@ -967,16 +640,7 @@
 - raw: "22,1120001004,10,[0].talks{json}[1].talk,……<少侠||女侠>如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
-  templates:
-  - split: 4
-    template: "……<{0}||{1}>{2}"
+    text: "……<少侠||女侠>如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
 - raw: "22,1120001004,10,[0].talks{json}[2].name,楚林灵"
   splits:
   - split: 4
@@ -1228,16 +892,7 @@
 - raw: "38,1140005016,10,[1].talks{json}[0].talk,纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
   splits:
   - split: 4
-    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>……"
+    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
 - raw: "38,1140005016,10,[1].talks{json}[0].options{json}[0].name,欣然同意。"
   splits:
   - split: 4
@@ -1253,19 +908,7 @@
 - raw: "38,1140005016,10,[1].talks{json}[2].talk,无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "若能转念，我便在此处相候。"
-  templates:
-  - split: 4
-    template: "{0}<name><{1}||{2}>{3}"
+    text: "无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
 - raw: "38,1140005016,10,[2].talks{json}[0].name,黄小玥"
   splits:
   - split: 4
@@ -1285,13 +928,7 @@
 - raw: "41,1140005079,10,[0].talks{json}[0].talk,需要衣鹤跟随<name>大人左右吗？"
   splits:
   - split: 4
-    text: "需要衣鹤跟随"
-  - split: 4
-    subIndex: 1
-    text: "大人左右吗？"
-  templates:
-  - split: 4
-    template: "{0}<name>{1}"
+    text: "需要衣鹤跟随<name>大人左右吗？"
 - raw: "41,1140005079,10,[0].talks{json}[0].options{json}[0].name,同意入队。"
   splits:
   - split: 4
@@ -1307,13 +944,7 @@
 - raw: "41,1140005079,10,[0].talks{json}[1].talk,衣鹤定会保护好<name>大人！"
   splits:
   - split: 4
-    text: "衣鹤定会保护好"
-  - split: 4
-    subIndex: 1
-    text: "大人！"
-  templates:
-  - split: 4
-    template: "{0}<name>{1}"
+    text: "衣鹤定会保护好<name>大人！"
 - raw: "41,1140005079,10,[0].talks{json}[2].name,法月衣鹤"
   splits:
   - split: 4
@@ -1345,19 +976,7 @@
 - raw: "44,1140001008,10,[0].talks{json}[0].talk,哪来的<小子||丫头>，打扮的如此土气……"
   splits:
   - split: 4
-    text: "哪来的"
-  - split: 4
-    subIndex: 1
-    text: "小子"
-  - split: 4
-    subIndex: 2
-    text: "丫头"
-  - split: 4
-    subIndex: 3
-    text: "，打扮的如此土气……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "哪来的<小子||丫头>，打扮的如此土气……"
 - raw: "44,1140001008,10,[1].talks{json}[0].name,吕绮萝"
   splits:
   - split: 4
@@ -1385,16 +1004,7 @@
 - raw: "45,1140001009,10,[0].talks{json}[0].talk,见过<公子||姑娘>。"
   splits:
   - split: 4
-    text: "见过"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>。"
+    text: "见过<公子||姑娘>。"
 - raw: "45,1140001009,10,[0].talks{json}[1].talk,第五青衫眉目清隽冷淡，向你微微点头见礼。"
   splits:
   - split: 4
@@ -1446,19 +1056,7 @@
 - raw: "48,1150001001,10,[1].talks{json}[0].talk,张铁兄此处有我看顾，<兄弟||姑娘>不必挂心。"
   splits:
   - split: 4
-    text: "张铁兄此处有我看顾，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "不必挂心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "张铁兄此处有我看顾，<兄弟||姑娘>不必挂心。"
 - raw: "48,1150001001,10,[2].talks{json}[0].name,燕南归"
   splits:
   - split: 4
@@ -1466,19 +1064,7 @@
 - raw: "48,1150001001,10,[2].talks{json}[0].talk,张铁兄有我照看，<fName><兄弟||姑娘>一切放心。"
   splits:
   - split: 4
-    text: "张铁兄有我照看，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "一切放心。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "张铁兄有我照看，<fName><兄弟||姑娘>一切放心。"
 - raw: "48,1150001001,10,[3].talks{json}[0].name,燕南归"
   splits:
   - split: 4
@@ -1494,19 +1080,7 @@
 - raw: "48,1150001001,10,[4].talks{json}[0].talk,张铁兄此处有我看顾，<小兄弟||姑娘>不必挂心。"
   splits:
   - split: 4
-    text: "张铁兄此处有我看顾，"
-  - split: 4
-    subIndex: 1
-    text: "小兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "不必挂心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "张铁兄此处有我看顾，<小兄弟||姑娘>不必挂心。"
 - raw: "48,1150001001,10,[5].talks{json}[0].name,燕南归"
   splits:
   - split: 4
@@ -1514,19 +1088,7 @@
 - raw: "48,1150001001,10,[5].talks{json}[0].talk,此处有燕某盯着，<小兄弟||姑娘>自可前往桃花坞内探听消息。"
   splits:
   - split: 4
-    text: "此处有燕某盯着，"
-  - split: 4
-    subIndex: 1
-    text: "小兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "自可前往桃花坞内探听消息。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此处有燕某盯着，<小兄弟||姑娘>自可前往桃花坞内探听消息。"
 - raw: "49,1140001004,10,[0].talks{json}[0].name,鲁志"
   splits:
   - split: 4
@@ -1570,19 +1132,7 @@
 - raw: "54,1400001017,10,[0].talks{json}[0].talk,在下京中游捕戚定远，随队护行，前方乃是京使车马，还望<少侠||女侠>止步。"
   splits:
   - split: 4
-    text: "在下京中游捕戚定远，随队护行，前方乃是京使车马，还望"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "止步。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "在下京中游捕戚定远，随队护行，前方乃是京使车马，还望<少侠||女侠>止步。"
 - raw: "54,1400001017,10,[1].talks{json}[0].talk,定远兄已沉醉如泥，暂且不去管他。"
   splits:
   - split: 4
@@ -1602,19 +1152,7 @@
 - raw: "55,1150001004,10,[1].talks{json}[0].talk,此事……有劳<公子||姑娘>了，洛公子之事，我会再多劝劝黄莺姐姐……"
   splits:
   - split: 4
-    text: "此事……有劳"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "了，洛公子之事，我会再多劝劝黄莺姐姐……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此事……有劳<公子||姑娘>了，洛公子之事，我会再多劝劝黄莺姐姐……"
 - raw: "56,1150001005,10,[0].talks{json}[0].name,黄莺"
   splits:
   - split: 4
@@ -1622,16 +1160,7 @@
 - raw: "56,1150001005,10,[0].talks{json}[0].talk,多，多谢<少侠||女侠>……"
   splits:
   - split: 4
-    text: "多，多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>……"
+    text: "多，多谢<少侠||女侠>……"
 - raw: "56,1150001005,10,[1].talks{json}[0].name,黄莺"
   splits:
   - split: 4
@@ -1647,16 +1176,7 @@
 - raw: "56,1150001005,10,[2].talks{json}[0].talk,多，多谢<少侠||女侠>……"
   splits:
   - split: 4
-    text: "多，多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>……"
+    text: "多，多谢<少侠||女侠>……"
 - raw: "57,1150003003,10,[0].talks{json}[0].name,玉玲珑"
   splits:
   - split: 4
@@ -1711,16 +1231,7 @@
 - raw: "58,1160001066,10,[0].talks{json}[1].talk,<fName><公子||姑娘>，好俊身手。"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，好俊身手。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><公子||姑娘>，好俊身手。"
 - raw: "58,1160001066,10,[1].talks{json}[0].name,秦懿瑶"
   splits:
   - split: 4
@@ -1764,19 +1275,7 @@
 - raw: "59,1120001017,10,[1].talks{json}[0].talk,我即刻前去采买米粮，<少侠||姑娘>与乔兄去探查便是……"
   splits:
   - split: 4
-    text: "我即刻前去采买米粮，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "与乔兄去探查便是……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "我即刻前去采买米粮，<少侠||姑娘>与乔兄去探查便是……"
 - raw: "59,1120001017,10,[2].talks{json}[0].name,马俊才"
   splits:
   - split: 4
@@ -1784,19 +1283,7 @@
 - raw: "59,1120001017,10,[2].talks{json}[0].talk,近来书院学习，在下诗文颇有长进，<少侠||姑娘>可愿倾听？"
   splits:
   - split: 4
-    text: "近来书院学习，在下诗文颇有长进，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可愿倾听？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "近来书院学习，在下诗文颇有长进，<少侠||姑娘>可愿倾听？"
 - raw: "60,1120001018,10,[0].talks{json}[0].name,乔应珠"
   splits:
   - split: 4
@@ -1804,19 +1291,7 @@
 - raw: "60,1120001018,10,[0].talks{json}[0].talk,家父外出行商，此刻并未归家，<少侠||姑娘>光临寒舍所为何事？"
   splits:
   - split: 4
-    text: "家父外出行商，此刻并未归家，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "光临寒舍所为何事？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "家父外出行商，此刻并未归家，<少侠||姑娘>光临寒舍所为何事？"
 - raw: "60,1120001018,10,[1].talks{json}[0].name,乔应珠"
   splits:
   - split: 4
@@ -1868,19 +1343,7 @@
 - raw: "63,1120001023,10,[3].talks{json}[0].talk,总舵有吴长老操持着，我亦放心得很。如何？<fName><兄弟||姑娘>若是不弃，收拾好行李，咱们便一同上路罢？"
   splits:
   - split: 4
-    text: "总舵有吴长老操持着，我亦放心得很。如何？"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "若是不弃，收拾好行李，咱们便一同上路罢？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "总舵有吴长老操持着，我亦放心得很。如何？<fName><兄弟||姑娘>若是不弃，收拾好行李，咱们便一同上路罢？"
 - raw: "63,1120001023,10,[3].talks{json}[0].options{json}[0].name,求之不得。"
   splits:
   - split: 4
@@ -1904,19 +1367,7 @@
 - raw: "63,1120001023,10,[3].talks{json}[2].talk,不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，<fName><兄弟||姑娘>且忙去！"
   splits:
   - split: 4
-    text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "且忙去！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，<fName><兄弟||姑娘>且忙去！"
 - raw: "65,1160101006,10,[0].talks{json}[0].name,花相"
   splits:
   - split: 4
@@ -1924,16 +1375,7 @@
 - raw: "65,1160101006,10,[0].talks{json}[0].talk,<少侠||姑娘>可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||姑娘>可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
 - raw: "65,1160101006,10,[1].talks{json}[0].name,花相"
   splits:
   - split: 4
@@ -1965,16 +1407,7 @@
 - raw: "67,1210000009,10,[0].talks{json}[0].talk,<大哥哥||大姐姐>，你真不吃烤鼠干么？"
   splits:
   - split: 4
-    text: "大哥哥"
-  - split: 4
-    subIndex: 1
-    text: "大姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，你真不吃烤鼠干么？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<大哥哥||大姐姐>，你真不吃烤鼠干么？"
 - raw: "67,1210000009,10,[1].talks{json}[0].name,菜娃"
   splits:
   - split: 4
@@ -1982,16 +1415,7 @@
 - raw: "67,1210000009,10,[1].talks{json}[0].talk,<大哥哥||大姐姐>是大好人！"
   splits:
   - split: 4
-    text: "大哥哥"
-  - split: 4
-    subIndex: 1
-    text: "大姐姐"
-  - split: 4
-    subIndex: 2
-    text: "是大好人！"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<大哥哥||大姐姐>是大好人！"
 - raw: "68,1210000010,10,[0].talks{json}[1].talk,此人面色焦黄，下腹鼓胀，躺在破榻上喘息沉重，腰下却有半条裤管空空如也。"
   splits:
   - split: 4
@@ -2027,19 +1451,7 @@
 - raw: "69,1210000017,10,[0].talks{json}[2].talk,似<哥儿||姑娘>这般善人，菩萨定会保佑……"
   splits:
   - split: 4
-    text: "似"
-  - split: 4
-    subIndex: 1
-    text: "哥儿"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "这般善人，菩萨定会保佑……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "似<哥儿||姑娘>这般善人，菩萨定会保佑……"
 - raw: "69,1210000017,10,[1].talks{json}[0].name,刘老太"
   splits:
   - split: 4
@@ -2063,16 +1475,7 @@
 - raw: "70,1210000029,10,[1].talks{json}[0].talk,<大侠||女侠>，此间之事我已料理妥当，咱们这便走么？"
   splits:
   - split: 4
-    text: "大侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，此间之事我已料理妥当，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<大侠||女侠>，此间之事我已料理妥当，咱们这便走么？"
 - raw: "70,1210000029,10,[1].talks{json}[0].options{json}[0].name,启程上路。"
   splits:
   - split: 4
@@ -2108,19 +1511,7 @@
 - raw: "75,1240001091,10,[0].talks{json}[0].talk,我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳<fName><少侠||姑娘>多多照拂了。"
   splits:
   - split: 4
-    text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "多多照拂了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳<fName><少侠||姑娘>多多照拂了。"
 - raw: "77,1240001009,10,[1].talks{json}[0].name,李崇山"
   splits:
   - split: 4
@@ -2144,19 +1535,7 @@
 - raw: "78,1240001072,10,[0].talks{json}[0].talk,此事，便有劳<fName><少侠||姑娘>了。"
   splits:
   - split: 4
-    text: "此事，便有劳"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "此事，便有劳<fName><少侠||姑娘>了。"
 - raw: "78,1240001072,10,[1].talks{json}[0].name,沈无瑕"
   splits:
   - split: 4
@@ -2264,19 +1643,7 @@
 - raw: "108,1220001002,10,[0].talks{json}[0].talk,我留于此处探查周遭，<fName><兄弟||姑娘>，你将此间之事禀与门主，且看他作何想法。"
   splits:
   - split: 4
-    text: "我留于此处探查周遭，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "，你将此间之事禀与门主，且看他作何想法。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "我留于此处探查周遭，<fName><兄弟||姑娘>，你将此间之事禀与门主，且看他作何想法。"
 - raw: "108,1220001002,10,[1].talks{json}[0].name,祁语山"
   splits:
   - split: 4
@@ -2284,16 +1651,7 @@
 - raw: "108,1220001002,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，往后若有何需，径来寻我便是。"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，往后若有何需，径来寻我便是。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，往后若有何需，径来寻我便是。"
 - raw: "109,1220001003,10,[0].talks{json}[0].name,魏山"
   splits:
   - split: 4
@@ -2317,16 +1675,7 @@
 - raw: "110,1220001004,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，你之大名，如今可是已然传遍本门了。"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，你之大名，如今可是已然传遍本门了。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，你之大名，如今可是已然传遍本门了。"
 - raw: "110,1220001004,10,[2].talks{json}[0].name,褚玉书"
   splits:
   - split: 4
@@ -2334,19 +1683,7 @@
 - raw: "110,1220001004,10,[2].talks{json}[0].talk,大旗门能得今日安宁，<fName><兄弟||姑娘>当居首功。"
   splits:
   - split: 4
-    text: "大旗门能得今日安宁，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "当居首功。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "大旗门能得今日安宁，<fName><兄弟||姑娘>当居首功。"
 - raw: "111,1220001007,10,[0].talks{json}[0].name,李麒"
   splits:
   - split: 4
@@ -2382,19 +1719,7 @@
 - raw: "111,1220001007,10,[4].talks{json}[0].talk,既有此言，无论今日胜负，李某皆认你这个<兄弟||妹子>，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
   splits:
   - split: 4
-    text: "既有此言，无论今日胜负，李某皆认你这个"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "既有此言，无论今日胜负，李某皆认你这个<兄弟||妹子>，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
 - raw: "111,1220001007,10,[5].talks{json}[0].name,李麒"
   splits:
   - split: 4
@@ -2410,16 +1735,7 @@
 - raw: "111,1220001007,10,[6].talks{json}[0].talk,<fName><兄弟||姑娘>，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
 - raw: "112,1220001008,10,[1].talks{json}[0].name,仇千秋"
   splits:
   - split: 4
@@ -2443,19 +1759,7 @@
 - raw: "116,1220001029,10,[0].talks{json}[0].talk,早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
   splits:
   - split: 4
-    text: "早晚有一日，我要似爷爷和"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "这般杀鞑子，将他们赶出北疆！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
 - raw: "116,1220001029,10,[1].talks{json}[0].name,丁蕴真"
   splits:
   - split: 4
@@ -2463,19 +1767,7 @@
 - raw: "116,1220001029,10,[1].talks{json}[0].talk,早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
   splits:
   - split: 4
-    text: "早晚有一日，我要似爷爷和"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "这般杀鞑子，将他们赶出北疆！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
 - raw: "116,1220001029,10,[1].talks{json}[0].options{json}[0].name,邀其同行。"
   splits:
   - split: 4
@@ -2551,16 +1843,7 @@
 - raw: "122,1230001016,10,[2].talks{json}[0].talk,<fName><兄弟||姑娘>，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
 - raw: "123,1230001022,10,[1].talks{json}[0].name,济德"
   splits:
   - split: 4
@@ -2592,19 +1875,7 @@
 - raw: "124,1230001023,10,[1].talks{json}[0].talk,痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，<fName><兄弟||姑娘>瞧见没？"
   splits:
   - split: 4
-    text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "瞧见没？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，<fName><兄弟||姑娘>瞧见没？"
 - raw: "126,1140002002,10,[0].talks{json}[0].name,项天奉"
   splits:
   - split: 4
@@ -2680,19 +1951,7 @@
 - raw: "130,1170001076,10,[3].talks{json}[0].talk,花山节？甚好……届时，小老儿必不会负了<少侠||女侠>这番厚意……"
   splits:
   - split: 4
-    text: "花山节？甚好……届时，小老儿必不会负了"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "这番厚意……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "花山节？甚好……届时，小老儿必不会负了<少侠||女侠>这番厚意……"
 - raw: "130,1170001076,10,[4].talks{json}[0].name,胡郎中"
   splits:
   - split: 4
@@ -2700,19 +1959,7 @@
 - raw: "130,1170001076,10,[4].talks{json}[0].talk,多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
   splits:
   - split: 4
-    text: "多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "相邀，今日可算是大开眼界了……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
 - raw: "131,1170001080,10,[0].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
@@ -2728,19 +1975,7 @@
 - raw: "131,1170001080,10,[1].talks{json}[0].talk,有劳<兄弟||妹子>相告，然我二人实有不便，这花山节……便不去了。"
   splits:
   - split: 4
-    text: "有劳"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "相告，然我二人实有不便，这花山节……便不去了。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "有劳<兄弟||妹子>相告，然我二人实有不便，这花山节……便不去了。"
 - raw: "131,1170001080,10,[2].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
@@ -2824,16 +2059,7 @@
 - raw: "135,1170001024,10,[0].talks{json}[0].talk,竟是、竟是圣女亲临……此番还要多谢汉家<阿哥||阿姐>！"
   splits:
   - split: 4
-    text: "竟是、竟是圣女亲临……此番还要多谢汉家"
-  - split: 4
-    subIndex: 1
-    text: "阿哥"
-  - split: 4
-    subIndex: 2
-    text: "阿姐"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>！"
+    text: "竟是、竟是圣女亲临……此番还要多谢汉家<阿哥||阿姐>！"
 - raw: "135,1170001024,10,[1].talks{json}[0].name,荆蒙"
   splits:
   - split: 4
@@ -2857,19 +2083,7 @@
 - raw: "136,1170001025,10,[0].talks{json}[0].talk,爹爹，孩儿无事……此番多亏了<少侠||女侠>，否则孩儿只怕是回不来了……"
   splits:
   - split: 4
-    text: "爹爹，孩儿无事……此番多亏了"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "，否则孩儿只怕是回不来了……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "爹爹，孩儿无事……此番多亏了<少侠||女侠>，否则孩儿只怕是回不来了……"
 - raw: "136,1170001025,10,[1].talks{json}[0].name,杭儿"
   splits:
   - split: 4
@@ -2877,19 +2091,7 @@
 - raw: "136,1170001025,10,[1].talks{json}[0].talk,那便拜托<少侠哥哥||女侠姐姐>了，一定要将此印信归还圣女姐姐！"
   splits:
   - split: 4
-    text: "那便拜托"
-  - split: 4
-    subIndex: 1
-    text: "少侠哥哥"
-  - split: 4
-    subIndex: 2
-    text: "女侠姐姐"
-  - split: 4
-    subIndex: 3
-    text: "了，一定要将此印信归还圣女姐姐！"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "那便拜托<少侠哥哥||女侠姐姐>了，一定要将此印信归还圣女姐姐！"
 - raw: "136,1170001025,10,[2].talks{json}[0].name,杭儿"
   splits:
   - split: 4
@@ -2917,16 +2119,7 @@
 - raw: "138,1170001055,10,[0].talks{json}[0].talk,<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
 - raw: "138,1170001055,10,[2].talks{json}[0].name,阿藤"
   splits:
   - split: 4
@@ -2934,16 +2127,7 @@
 - raw: "138,1170001055,10,[2].talks{json}[0].talk,<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "好生厉害，此番大闹竟让鄙店三日不得开张……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
 - raw: "138,1170001055,10,[3].talks{json}[0].name,阿藤"
   splits:
   - split: 4
@@ -2983,19 +2167,7 @@
 - raw: "140,1180000309,10,[1].talks{json}[0].talk,……此事卯雅尚需仔细思量，<fName><公子||妹子>，多谢了。"
   splits:
   - split: 4
-    text: "……此事卯雅尚需仔细思量，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "，多谢了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "……此事卯雅尚需仔细思量，<fName><公子||妹子>，多谢了。"
 - raw: "140,1180000309,10,[2].talks{json}[0].name,卯雅"
   splits:
   - split: 4
@@ -3027,19 +2199,7 @@
 - raw: "140,1180000309,10,[5].talks{json}[0].talk,先前平定教中内乱，<公子||妹子>居功至伟……"
   splits:
   - split: 4
-    text: "先前平定教中内乱，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "居功至伟……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "先前平定教中内乱，<公子||妹子>居功至伟……"
 - raw: "140,1180000309,10,[6].talks{json}[0].name,卯雅"
   splits:
   - split: 4
@@ -3063,19 +2223,7 @@
 - raw: "140,1180000309,10,[8].talks{json}[0].talk,卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
   splits:
   - split: 4
-    text: "卯雅教务繁忙，若此后想再同"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "说话儿，自会托人相请。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
 - raw: "140,1180000309,10,[9].talks{json}[0].name,卯雅"
   splits:
   - split: 4
@@ -3083,19 +2231,7 @@
 - raw: "140,1180000309,10,[9].talks{json}[0].talk,卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
   splits:
   - split: 4
-    text: "卯雅教务繁忙，若此后想再同"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "说话儿，自会托人相请。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
 - raw: "141,1180000310,10,[0].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -3103,25 +2239,7 @@
 - raw: "141,1180000310,10,[0].talks{json}[0].talk,<fName><哥哥||姐姐>，芸儿还没求过人，但不知<哥哥||姐姐>能否帮芸儿……阻住爹爹？"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，芸儿还没求过人，但不知"
-  - split: 4
-    subIndex: 3
-    text: "哥哥"
-  - split: 4
-    subIndex: 4
-    text: "姐姐"
-  - split: 4
-    subIndex: 5
-    text: "能否帮芸儿……阻住爹爹？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}<{3}||{4}>{5}"
+    text: "<fName><哥哥||姐姐>，芸儿还没求过人，但不知<哥哥||姐姐>能否帮芸儿……阻住爹爹？"
 - raw: "141,1180000310,10,[0].talks{json}[1].name,蒙芸"
   splits:
   - split: 4
@@ -3137,19 +2255,7 @@
 - raw: "141,1180000310,10,[1].talks{json}[0].talk,爹爹不让芸儿出谷，<哥哥||姐姐>还是之后再来寻我吧……"
   splits:
   - split: 4
-    text: "爹爹不让芸儿出谷，"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "还是之后再来寻我吧……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "爹爹不让芸儿出谷，<哥哥||姐姐>还是之后再来寻我吧……"
 - raw: "141,1180000310,10,[2].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -3157,19 +2263,7 @@
 - raw: "141,1180000310,10,[2].talks{json}[0].talk,谢谢<fName><哥哥||姐姐>……芸儿……知晓该怎么做了。"
   splits:
   - split: 4
-    text: "谢谢"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-  - split: 4
-    subIndex: 3
-    text: "……芸儿……知晓该怎么做了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "谢谢<fName><哥哥||姐姐>……芸儿……知晓该怎么做了。"
 - raw: "141,1180000310,10,[3].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -3177,16 +2271,7 @@
 - raw: "141,1180000310,10,[3].talks{json}[0].talk,<fName><哥哥||姐姐>，你来啦。"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，你来啦。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><哥哥||姐姐>，你来啦。"
 - raw: "141,1180000310,10,[4].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -3194,16 +2279,7 @@
 - raw: "141,1180000310,10,[4].talks{json}[0].talk,<fName><哥哥||姐姐>，花山节之事，多亏你啦！"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，花山节之事，多亏你啦！"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><哥哥||姐姐>，花山节之事，多亏你啦！"
 - raw: "142,1180000311,10,[0].talks{json}[0].name,蒙巳"
   splits:
   - split: 4
@@ -3255,19 +2331,7 @@
 - raw: "143,1180000312,10,[4].talks{json}[0].talk,先前之事，多谢<公子||姑娘>相助。"
   splits:
   - split: 4
-    text: "先前之事，多谢"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "相助。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "先前之事，多谢<公子||姑娘>相助。"
 - raw: "143,1180000312,10,[5].talks{json}[0].talk,此人无暇开口……"
   splits:
   - split: 4
@@ -3279,16 +2343,7 @@
 - raw: "143,1180000312,10,[6].talks{json}[0].talk,<fName><公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，别来无恙。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><公子||姑娘>，别来无恙。"
 - raw: "143,1180000312,10,[7].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
@@ -3296,19 +2351,7 @@
 - raw: "143,1180000312,10,[7].talks{json}[0].talk,花山节虽小，然于苗地，功在千秋……<fName><公子||姑娘>，多谢了。"
   splits:
   - split: 4
-    text: "花山节虽小，然于苗地，功在千秋……"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "，多谢了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "花山节虽小，然于苗地，功在千秋……<fName><公子||姑娘>，多谢了。"
 - raw: "144,1180000313,10,[0].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
@@ -3386,19 +2429,7 @@
 - raw: "144,1180000313,10,[5].talks{json}[0].talk,千蛛一族难离半步，<fName><公子||姑娘>，可否同我说说……这花山节……当真有他们说的那般好玩么？"
   splits:
   - split: 4
-    text: "千蛛一族难离半步，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "，可否同我说说……这花山节……当真有他们说的那般好玩么？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "千蛛一族难离半步，<fName><公子||姑娘>，可否同我说说……这花山节……当真有他们说的那般好玩么？"
 - raw: "145,1180000315,10,[0].talks{json}[0].name,百目君"
   splits:
   - split: 4
@@ -3446,16 +2477,7 @@
 - raw: "147,1180000322,10,[2].talks{json}[0].talk,<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，我这妹妹之后便托付给你了……"
-  templates:
-  - split: 4
-    template: "<lName><{0}||{1}>{2}"
+    text: "<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
 - raw: "147,1180000322,10,[3].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
@@ -3463,16 +2485,7 @@
 - raw: "147,1180000322,10,[3].talks{json}[0].talk,<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，日后若是得空，可带凝紫再回教中探望……"
-  templates:
-  - split: 4
-    template: "<lName><{0}||{1}>{2}"
+    text: "<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
 - raw: "148,1180000325,10,[0].talks{json}[0].name,蒙托"
   splits:
   - split: 4
@@ -3496,19 +2509,7 @@
 - raw: "148,1180000325,10,[2].talks{json}[0].talk,净蛊天池要紧，<少侠||姑娘>速去彼处阻止长兄……"
   splits:
   - split: 4
-    text: "净蛊天池要紧，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "速去彼处阻止长兄……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "净蛊天池要紧，<少侠||姑娘>速去彼处阻止长兄……"
 - raw: "148,1180000325,10,[3].talks{json}[0].name,蒙托"
   splits:
   - split: 4
@@ -3572,34 +2573,7 @@
 - raw: "151,1190001018,10,[0].talks{json}[0].talk,见过<公子||姑娘>。可有想听的曲儿？<公子||姑娘>只管说，茵茵都可唱给<公子||姑娘>。"
   splits:
   - split: 4
-    text: "见过"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "。可有想听的曲儿？"
-  - split: 4
-    subIndex: 4
-    text: "公子"
-  - split: 4
-    subIndex: 5
-    text: "姑娘"
-  - split: 4
-    subIndex: 6
-    text: "只管说，茵茵都可唱给"
-  - split: 4
-    subIndex: 7
-    text: "公子"
-  - split: 4
-    subIndex: 8
-    text: "姑娘"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}<{4}||{5}>{6}<{7}||{8}>。"
+    text: "见过<公子||姑娘>。可有想听的曲儿？<公子||姑娘>只管说，茵茵都可唱给<公子||姑娘>。"
 - raw: "151,1190001018,10,[1].talks{json}[0].name,柳茵茵"
   splits:
   - split: 4
@@ -3611,19 +2585,7 @@
 - raw: "152,1190001026,10,[0].talks{json}[0].talk,曼珠代桃花坞中姊妹，谢过<公子||姑娘>……二十年……"
   splits:
   - split: 4
-    text: "曼珠代桃花坞中姊妹，谢过"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "……二十年……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "曼珠代桃花坞中姊妹，谢过<公子||姑娘>……二十年……"
 - raw: "153,1190000060,10,[0].talks{json}[0].name,杜鹃"
   splits:
   - split: 4
@@ -3631,19 +2593,7 @@
 - raw: "153,1190000060,10,[0].talks{json}[0].talk,宝船一战，有赖<公子||姑娘>助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
   splits:
   - split: 4
-    text: "宝船一战，有赖"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "宝船一战，有赖<公子||姑娘>助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
 - raw: "153,1190000060,10,[0].talks{json}[1].talk,杜鹃说着，掩口吃吃一笑。"
   splits:
   - split: 4
@@ -3655,19 +2605,7 @@
 - raw: "153,1190000060,10,[0].talks{json}[2].talk,如今<公子||姑娘>可是桃花坞风云人物，可要姊妹们服侍？"
   splits:
   - split: 4
-    text: "如今"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可是桃花坞风云人物，可要姊妹们服侍？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "如今<公子||姑娘>可是桃花坞风云人物，可要姊妹们服侍？"
 - raw: "153,1190000060,10,[1].talks{json}[0].name,杜鹃"
   splits:
   - split: 4
@@ -3691,19 +2629,7 @@
 - raw: "155,1190000064,10,[0].talks{json}[0].talk,这份密文，解之还需稍许时日……<公子||姑娘>如有要事，且先忙罢。"
   splits:
   - split: 4
-    text: "这份密文，解之还需稍许时日……"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如有要事，且先忙罢。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "这份密文，解之还需稍许时日……<公子||姑娘>如有要事，且先忙罢。"
 - raw: "155,1190000064,10,[1].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
@@ -3711,19 +2637,7 @@
 - raw: "155,1190000064,10,[1].talks{json}[0].talk,发船之期未至，还请<公子||姑娘>稍待些时日。"
   splits:
   - split: 4
-    text: "发船之期未至，还请"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "稍待些时日。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "发船之期未至，还请<公子||姑娘>稍待些时日。"
 - raw: "155,1190000064,10,[2].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
@@ -3731,19 +2645,7 @@
 - raw: "155,1190000064,10,[2].talks{json}[0].talk,此事事关重大，还需从长计议，待<公子||姑娘>了却自身事务，再来寻我……"
   splits:
   - split: 4
-    text: "此事事关重大，还需从长计议，待"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "了却自身事务，再来寻我……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此事事关重大，还需从长计议，待<公子||姑娘>了却自身事务，再来寻我……"
 - raw: "155,1190000064,10,[3].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
@@ -3751,16 +2653,7 @@
 - raw: "155,1190000064,10,[3].talks{json}[0].talk,<公子||姑娘>可在舫内留心一二，或可寻得更多助力之人……"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "可在舫内留心一二，或可寻得更多助力之人……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>可在舫内留心一二，或可寻得更多助力之人……"
 - raw: "156,1200009902,10,[0].talks{json}[0].name,谢正青"
   splits:
   - split: 4
@@ -3776,19 +2669,7 @@
 - raw: "156,1200009902,10,[1].talks{json}[0].talk,日后若是<兄弟||小妹>再来襄阳，可要在家中住上几日不可！"
   splits:
   - split: 4
-    text: "日后若是"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "小妹"
-  - split: 4
-    subIndex: 3
-    text: "再来襄阳，可要在家中住上几日不可！"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "日后若是<兄弟||小妹>再来襄阳，可要在家中住上几日不可！"
 - raw: "157,1200009912,10,[0].talks{json}[0].name,顾瑶"
   splits:
   - split: 4
@@ -3820,16 +2701,7 @@
 - raw: "159,1200001024,10,[0].talks{json}[0].talk,<公子||姑娘>，这第一件事，可办完了？"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，这第一件事，可办完了？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>，这第一件事，可办完了？"
 - raw: "159,1200001024,10,[1].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
@@ -3845,16 +2717,7 @@
 - raw: "159,1200001024,10,[2].talks{json}[0].talk,<公子||姑娘>，江湖险恶，且自珍重。"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，江湖险恶，且自珍重。"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>，江湖险恶，且自珍重。"
 - raw: "162,1200000226,10,[0].talks{json}[0].name,王阿生"
   splits:
   - split: 4
@@ -3878,16 +2741,7 @@
 - raw: "163,1200000246,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，咱们这便走么？"
 - raw: "163,1200000246,10,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
@@ -3903,19 +2757,7 @@
 - raw: "163,1200000246,10,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
 - raw: "164,1200000247,10,[1].talks{json}[0].name,风凌"
   splits:
   - split: 4
@@ -3923,16 +2765,7 @@
 - raw: "164,1200000247,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，咱们这便走么？"
 - raw: "164,1200000247,10,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
@@ -3948,19 +2781,7 @@
 - raw: "164,1200000247,10,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
 - raw: "165,1200000249,10,[1].talks{json}[0].name,玉先生"
   splits:
   - split: 4
@@ -3968,16 +2789,7 @@
 - raw: "165,1200000249,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，咱们这便走么？"
 - raw: "165,1200000249,10,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
@@ -3993,16 +2805,4 @@
 - raw: "165,1200000249,10,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"

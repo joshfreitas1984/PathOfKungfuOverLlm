@@ -5,6 +5,7 @@
 
 - raw: "大理"
   result: "Dali"
+  badtrans: false
 - raw: "洛阳"
   result: "Luoyang"
 - raw: "襄阳"
@@ -42,18 +43,29 @@
   result: "Wangyue Village"
 - raw: "东瀛"
   result: "Dongying"
+  allowalt:
+  - "Japan"
+  - "Japanese"
 - raw: "朝鲜"
   result: "Joseon"
+  allowalt:
+  - "Korea"
+  - "Korean"
 - raw: "楼兰"
   result: "Loulan"
 - raw: "女真"
   result: "Jurchen"
 - raw: "倭寇"
   result: "Wokou"
+  allowalt:
+  - "Japanese pirates"
+  - "pirates"
+  badtrans: false
 - raw: "西湖"
   result: "West Lake"
 - raw: "西湖深处"
   result: "Deep West Lake"
+  badtrans: false
 - raw: "西湖小屋"
   result: "West Lake Cabin"
 - raw: "荒废小村"

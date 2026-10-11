@@ -13,13 +13,13 @@
     translated: "Restoration Ointment"
   - split: 23
     text: "立即回复气血值780点"
-    translated: "Immediately reply with Lifeforce 780 points"
+    translated: "Immediate reply: Lifeforce 780 points"
   - split: 24
     text: "已使用【还复膏】"
-    translated: "Used 【Restoration Ointment】"
+    translated: "Already used [Restoration Ointment]"
   - split: 27
     text: "精研草本制成的丸药，能够活血化瘀，回复一定气血。"
-    translated: "Carefully studying herbs to make pills that can invigorate the blood, dispel stasis, and restore some lifeforce."
+    translated: "Carefully studying herbs to make pills that can invigorate the blood and dissipate stasis, restoring some lifeforce."
 - raw: "3,901001,理气丸,药品,9002,2,1,27,气血回复,气血:1160,999,9,True,10,150,200,\"use,1\",1,境界≥2,2,10,0,0,立即回复气血值1160点,已使用【理气丸】,item/901004,Using.wav,气血行之经脉，流转百骸，可自愈疾也。,1,1"
   splits:
   - split: 2
@@ -27,10 +27,10 @@
     translated: "Qi-Regulating Pill"
   - split: 23
     text: "立即回复气血值1160点"
-    translated: "Immediately reply with Lifeforce 1160 points"
+    translated: "Immediate reply: Lifeforce 1160 points"
   - split: 24
     text: "已使用【理气丸】"
-    translated: "Already used [Qi-Regulating Pill]"
+    translated: "Used [Qi-Regulating Pill]"
   - split: 27
     text: "气血行之经脉，流转百骸，可自愈疾也。"
     translated: "Lifeforce flows through the meridians, circulating throughout the body to heal ailments."
@@ -44,7 +44,7 @@
     translated: "Immediate reply: Lifeforce 4440 points"
   - split: 24
     text: "已使用【八宝花丸】"
-    translated: "Already used 【Eight Treasures Flower Pill】"
+    translated: "You have used the 【Eight Treasures Flower Pill】"
   - split: 27
     text: "羚角、珍珠磨粉，佐以牛黄、麝香、三七等材，有活血化瘀之效。"
     translated: "Antelope horn, powdered pearl, paired with buffalo gallbladder, musk, and sanqi, has the effect of promoting blood circulation and removing blood stasis."
@@ -58,10 +58,10 @@
     translated: "Immediately reply with Lifeforce 6400 points"
   - split: 24
     text: "已使用【白霞散】"
-    translated: "You have used 【White Glow Powder】"
+    translated: "Already used 【White Glow Powder】"
   - split: 27
     text: "色若银晶，嗅如沉香，敷可续肌，服可养血。"
-    translated: "It shines like silver crystals, smells like agarwood, can heal the skin, and nourishes the blood when taken internally."
+    translated: "As white as silver crystals, with the scent of agarwood, it can heal the skin and nourish the blood."
 - raw: "6,901004,生脉丹,药品,9005,5,1,27,气血回复,气血:8840,999,9,True,25,375,500,\"use,1\",1,境界≥5,5,25,0,0,立即回复气血值8840点,已使用【生脉丹】,item/901004,Using.wav,数十种名贵药材煎煮凝成，其味苦辛，药性颇烈。,1,1"
   splits:
   - split: 2
@@ -75,7 +75,7 @@
     translated: "You have used the Pulse-Reviving Elixir"
   - split: 27
     text: "数十种名贵药材煎煮凝成，其味苦辛，药性颇烈。"
-    translated: "Made from dozens of precious medicinal herbs, it is bitter and pungent, with a strong potency."
+    translated: "Made by boiling dozens of precious medicinal herbs, it is bitter and pungent with a strong potency."
 - raw: "7,901005,玉髓膏,药品,9006,6,1,27,气血回复,气血:10240,999,9,True,30,450,600,\"use,1\",1,境界≥6,6,30,0,0,立即回复气血值10240点,已使用【玉髓膏】,item/901003,Using.wav,甘香扑鼻，药气浓郁，服之可生新血、破旧瘀、续白骨。,1,1"
   splits:
   - split: 2
@@ -83,7 +83,7 @@
     translated: "Jade Marrow Ointment"
   - split: 23
     text: "立即回复气血值10240点"
-    translated: "Immediate reply: Lifeforce 10240 points"
+    translated: "Immediately reply with Lifeforce 10240 points"
   - split: 24
     text: "已使用【玉髓膏】"
     translated: "You have used the Jade Marrow Ointment"
@@ -114,7 +114,7 @@
     translated: "Immediately reply with Lifeforce 20080 points"
   - split: 24
     text: "已使用【还神丹】"
-    translated: "Already used the Spirit-Restoring Elixir"
+    translated: "You have used the Spirit-Restoring Elixir"
   - split: 27
     text: "采千年首乌之精，万年灵芝之华，方可炼就。"
     translated: "It must be refined with the essence of ginseng that has grown for a thousand years and the radiance of lingzhi that has thrived for ten thousand."
@@ -131,7 +131,7 @@
     translated: "Already used [Styptic Herb]"
   - split: 27
     text: "最简易的外敷药草，上至刀剑伤势，下至指尖小创皆不妨一试。"
-    translated: "The simplest external herbal remedy, effective for wounds from blades and swords as well as minor cuts on the fingertips."
+    translated: "The simplest topical herbs, useful for wounds from blades and swords as well as minor cuts on the fingertips."
 - raw: "11,901101,金创散,药品,8002,2,1,27,气血回复,\"添加buff:气血恢复,255,5\",999,9,True,10,150,200,\"use,1\",1,境界≥2,2,10,0,0,气血值每秒回复255，共持续5秒,已使用【金创散】,item/950002,Using.wav,江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出血。,1,1"
   splits:
   - split: 2
@@ -145,6 +145,7 @@
     translated: "Already used [Wound-Mending Powder]"
   - split: 27
     text: "江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出血。"
+    translated: "A Jianghu peddler's powder, made by grinding copper, stones, and herbs, can be applied externally to heal external injuries and stop bleeding."
 - raw: "12,901102,续命散,药品,8003,3,1,27,气血回复,\"添加buff:气血恢复,976,5\",999,9,True,15,225,300,\"use,1\",1,境界≥3,3,15,0,0,气血值每秒回复976，共持续5秒,已使用【续命散】,item/901403,Using.wav,色赤而味辛，江湖常见的止血消痛之药。,1,1"
   splits:
   - split: 2
@@ -155,7 +156,7 @@
     translated: "Lifeforce regenerates by 976 per second for a total of 5 seconds."
   - split: 24
     text: "已使用【续命散】"
-    translated: "Has used [Life-Prolonging Powder]"
+    translated: "Already used [Life-Prolonging Powder]"
   - split: 27
     text: "色赤而味辛，江湖常见的止血消痛之药。"
     translated: "Red and pungent, a common Jianghu medicine for stopping bleeding and relieving pain."
@@ -169,7 +170,7 @@
     translated: "Lifeforce regenerates by 1408 per second for a total of 5 seconds."
   - split: 24
     text: "已使用【净血丸】"
-    translated: "Already used the Blood-Purifying Pill"
+    translated: "Already used [Blood-Purifying Pill]"
   - split: 27
     text: "药香浓郁，其色赤红，服之可安神定气，补精益元。"
     translated: "The scent is strong and medicinal, its color a deep red. Consuming it can calm the mind and stabilize the breath, replenishing essence and restoring vitality."
@@ -186,7 +187,7 @@
     translated: "You have used the Spirit Dew Pill"
   - split: 27
     text: "解表化湿，理气和中，气芳香，味甘、微苦。"
-    translated: "Dispels exterior symptoms and dries dampness, regulates qi and harmonizes the middle burner. Its aroma is fragrant, with a slightly bitter and sweet taste."
+    translated: "Dispels exterior symptoms and dries dampness, regulates qi and harmonizes the middle burner. Its aroma is pronounced, with a slightly sweet and bitter taste."
 - raw: "15,901105,雪蟾膏,药品,8006,6,1,27,气血回复,\"添加buff:气血恢复,2252,5\",999,9,True,30,450,600,\"use,1\",1,境界≥6,6,30,0,0,气血值每秒回复2252，共持续5秒,已使用【雪蟾膏】,item/901003,Using.wav,性味咸平，不燥不火，补气益中，兴髓生血。,1,1"
   splits:
   - split: 2
@@ -200,7 +201,7 @@
     translated: "You have used the Snow Toad Ointment"
   - split: 27
     text: "性味咸平，不燥不火，补气益中，兴髓生血。"
-    translated: "Has a salty and neutral taste, neither drying nor heating. It replenishes qi and benefits the middle burner, promoting bone marrow and generating blood."
+    translated: "Has a salty and neutral taste, neither drying nor heating, replenishes qi and benefits the middle burner, boosts bone marrow and generates blood."
 - raw: "16,901106,凝华丹,药品,8007,7,1,27,气血回复,\"添加buff:气血恢复,2877,5\",999,9,True,35,525,700,\"use,1\",1,境界≥7,7,35,0,0,气血值每秒回复2877，共持续5秒,已使用【凝华丹】,item/901004,Using.wav,壮元阳，强筋骨，暖丹田，益精神。,1,1"
   splits:
   - split: 2
@@ -214,7 +215,7 @@
     translated: "Already used 【Essence-Condensing Elixir】"
   - split: 27
     text: "壮元阳，强筋骨，暖丹田，益精神。"
-    translated: "Boost Yang, strengthen physique, warm the dantian, enhance spirit."
+    translated: "Boost Yang, strengthen physique, warm the dantian, enhance willpower."
 - raw: "17,901107,冰魄膏,药品,8008,7,1,27,气血回复,\"添加buff:气血恢复,4417,5\",999,9,True,40,600,800,\"use,1\",1,境界≥8,8,40,0,0,气血值每秒回复4417，共持续5秒,已使用【冰魄膏】,item/902038,Using.wav,取天山雪莲为引，以龙涎香为材，集百花之蜜调制而成，可续骨生肌，极具灵效。,1,1"
   splits:
   - split: 2
@@ -242,7 +243,7 @@
     translated: "You have used the Spirit-Nourishing Powder"
   - split: 27
     text: "甘霖起于枯朽，蕴草筛之可入药。"
-    translated: "A healing spring arises from decay, filtering through grass that can be used as medicine."
+    translated: "Life springs from decay, and the filtered grass can be used as medicine."
 - raw: "19,901200,固本丸,药品,6001,2,0,27,体力不减,\"添加buff:不消耗体力,3\",999,9,True,35,525,700,\"use,1\",1,境界≥1,1,30,0,0,体力在3秒内不会消耗,已使用【固本丸】,item/901004,Using.wav,传闻日中有踆乌，固体而行，可至千里。,1,1"
   splits:
   - split: 2
@@ -253,7 +254,7 @@
     translated: "Stamina will not be consumed for 3 seconds."
   - split: 24
     text: "已使用【固本丸】"
-    translated: "You have used the Root-Securing Pill"
+    translated: "Already used 【Root-Securing Pill】"
   - split: 27
     text: "传闻日中有踆乌，固体而行，可至千里。"
     translated: "It is said that there is a solar bird called the Jinwu in the sun, solid and able to travel thousands of miles."
@@ -264,7 +265,7 @@
     translated: "Origin-Returning Powder"
   - split: 23
     text: "获得真气1点"
-    translated: "Gained True Qi 1 points"
+    translated: "Gain True Qi 1 points"
   - split: 24
     text: "使用【归元散】"
     translated: "Use the Origin-Returning Powder"
@@ -295,7 +296,7 @@
     translated: "Gained True Qi 4 points"
   - split: 24
     text: "使用【乾坤一锅】"
-    translated: "Using [One Pot of Heaven and Earth]"
+    translated: "Use [One Pot of Heaven and Earth]"
   - split: 27
     text: "记载于《四海食记》食谱中的玄妙菜肴，可食补自身，补精益元。"
-    translated: "The mysterious dishes recorded in the cookbook Four Seas Culinary Chronicles can nourish and replenish one's own essence and energy."
+    translated: "A mysterious dish recorded in the cookbook Four Seas Culinary Chronicles, which can nourish and replenish one's own essence and energy."

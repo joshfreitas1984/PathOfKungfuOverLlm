@@ -47,6 +47,7 @@
   result: "Fine Copper Longsword"
 - raw: "万里同悲"
   result: "Shared Sorrow Across Ten Thousand Li"
+  badtrans: false
 - raw: "子规啼"
   result: "Cuckoo's Cry"
 - raw: "太岳凌霄"
@@ -117,6 +118,7 @@
   result: "Drinking the Rest of Life"
 - raw: "焚琴煮鹤"
   result: "Burning the Zither, Cooking the Crane"
+  badtrans: false
 - raw: "铜骨折扇"
   result: "Copper-Ribbed Folding Fan"
 - raw: "秋江意"
@@ -657,6 +659,7 @@
   result: "Lament of the Inner Chamber"
 - raw: "夺昆仑"
   result: "Seizing Kunlun"
+  badtrans: false
 - raw: "觅太清"
   result: "Seeking the Supreme Clarity"
 - raw: "天纵所成"
@@ -1533,6 +1536,8 @@
   result: "Breath-Holding Elixir"
 - raw: "残损的竹简"
   result: "Damaged Bamboo Slips"
+  allowalt:
+  - "damaged bamboo slip"
 - raw: "青萍真相"
   result: "The Truth of Qingping"
 - raw: "黑市名帖"
@@ -1644,7 +1649,7 @@
 - raw: "西门遗信"
   result: "Ximen's Last Letter"
 - raw: "小沙弥的疗伤药"
-  result: "Young Monk's Healing Medicine"
+  result: "Junior Monk's Healing Medicine"
 - raw: "赵云灵的玉佩"
   result: "Zhao Yunling's Jade Pendant"
 - raw: "囚车钥匙"
@@ -1658,7 +1663,7 @@
 - raw: "一包毽子"
   result: "A Bundle of Shuttlecocks"
 - raw: "胡郎中的药囊"
-  result: "Physician Hu's Medicine Pouch"
+  result: "Doctor Hu's Medicine Pouch"
 - raw: "河图洛书残篇"
   result: "Fragments of the Hetu and Luoshu"
 - raw: "一封家信"
@@ -1677,6 +1682,8 @@
   result: "Voyage Ship Ledger"
 - raw: "潦草笺记"
   result: "Scrawled Notes"
+  allowalt:
+  - "scrawled note"
 - raw: "舱门钥匙"
   result: "Cabin Door Key"
 - raw: "闯阵口诀"

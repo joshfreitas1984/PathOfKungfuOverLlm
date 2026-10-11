@@ -6,12 +6,15 @@
   result: "Necklace"
 - raw: "武器"
   result: "Weapon"
+  badtrans: false
 - raw: "护臂"
   result: "Bracers"
+  badtrans: false
 - raw: "坠饰"
   result: "Pendant"
 - raw: "外装"
   result: "Outfit"
+  badtrans: false
 - raw: "戒指"
   result: "Ring"
 - raw: "护甲"
@@ -20,6 +23,7 @@
   result: "Waist Guard"
 - raw: "护腿"
   result: "Leg Guards"
+  badtrans: false
 - raw: "防具"
   result: "Armor Gear"
 
@@ -27,6 +31,7 @@
 
 - raw: "装备"
   result: "Equipment"
+  badtrans: false
 - raw: "药品"
   result: "Medicine"
 - raw: "食物"
@@ -37,8 +42,10 @@
   result: "Manual"
 - raw: "材料"
   result: "Materials"
+  badtrans: false
 - raw: "毒药"
   result: "Poison"
+  badtrans: false
 - raw: "行囊"
   result: "Pack"
 - raw: "仓库"
@@ -48,11 +55,15 @@
 
 - raw: "银两"
   result: "Silver"
+  badtrans: false
 - raw: "银钱"
   result: "Silver"
+  badtrans: false
 - raw: "购买"
   result: "Buy"
+  badtrans: false
 - raw: "出售"
   result: "Sell"
+  badtrans: false
 - raw: "批量出售"
   result: "Bulk Sell"

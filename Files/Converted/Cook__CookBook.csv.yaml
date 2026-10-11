@@ -2,78 +2,103 @@
   splits:
   - split: 2
     text: "图纸名称"
+    translated: "Drawing name"
   - split: 7
     text: "描述"
+    translated: "Description"
 - raw: "2,id,name,type,mats,cost,produceId,des,lvLimit"
 - raw: "3,100001,清汤面,1,\"907031,1;907034,2;907030,1\",\"1002,0\",902001,寻常的阳春小面，汤头清澈，面条劲道滑爽。,1"
   splits:
   - split: 2
     text: "清汤面"
+    translated: "Clear Broth Noodles"
   - split: 7
     text: "寻常的阳春小面，汤头清澈，面条劲道滑爽。"
+    translated: "A typical spring sunshine noodles soup, clear and flavorful, with firm and slippery noodles."
 - raw: "4,100002,馒头,1,\"907031,1;907030,1\",\"1002,0\",902002,寻常碱面所制的馒头，虽难言可口，却是饱腹充饥之首选。,1"
   splits:
   - split: 2
     text: "馒头"
+    translated: "Steamed Bun"
   - split: 7
     text: "寻常碱面所制的馒头，虽难言可口，却是饱腹充饥之首选。"
+    translated: "Though far from delicious, steamed buns made with plain alkaline dough are the top choice for filling one's stomach and staving off hunger."
 - raw: "5,100003,咸蛋,1,\"907041,1;907038,1\",\"1002,0\",902003,乡下农家腌制的咸蛋，流黄清香，滋味鲜美。,1"
   splits:
   - split: 2
     text: "咸蛋"
+    translated: "Salted Egg"
   - split: 7
     text: "乡下农家腌制的咸蛋，流黄清香，滋味鲜美。"
+    translated: "Country-style preserved salted eggs, with fragrant yolk oozing out, are deliciously fresh and savory."
 - raw: "6,100004,高粱红,1,\"907027,1;907034,1;907010,1\",\"1002,0\",902006,高粱入曲所酿，其性烈，干辣入喉。,1"
   splits:
   - split: 2
     text: "高粱红"
+    translated: "Red Sorghum Liquor"
   - split: 7
     text: "高粱入曲所酿，其性烈，干辣入喉。"
+    translated: "Made with sorghum, its nature is fierce, dry and fiery down the throat."
 - raw: "7,100005,叫花鸡,1,\"907029,1;907028,1;907030,1\",\"1002,0\",902026,色泽枣红明亮，芳香扑鼻，板酥肉嫩，入口酥烂肥嫩，风味独特。,1"
   splits:
   - split: 2
     text: "叫花鸡"
+    translated: "Beggar's Chicken"
   - split: 7
     text: "色泽枣红明亮，芳香扑鼻，板酥肉嫩，入口酥烂肥嫩，风味独特。"
+    translated: "With a rich reddish-brown sheen and a bright appearance, its fragrance is intoxicating. The crust is crispy while the meat is tender, melting in your mouth with a unique flavor."
 - raw: "8,100006,东坡肉,1,\"907040,1;907038,1;907022,1;907030,1\",\"1002,0\",902027,半肥半瘦的猪肉，加入配料焖制而成，色如玛瑙，入口软而不烂，肥而不腻。,1"
   splits:
   - split: 2
     text: "东坡肉"
+    translated: "Dongpo Pork"
   - split: 7
     text: "半肥半瘦的猪肉，加入配料焖制而成，色如玛瑙，入口软而不烂，肥而不腻。"
+    translated: "Made with half-fat, half-lean pork and seasonings, it has a color like carnelian, is tender without being tough, and fatty without being greasy."
 - raw: "9,100007,桃花酿,1,\"907036,1;907034,1;907010,1\",\"1002,0\",902025,以桃花细瓣入酒，清酿而成，花香酒香交映，甘甜清洌。,1"
   splits:
   - split: 2
     text: "桃花酿"
+    translated: "Peach Blossom Brew"
   - split: 7
     text: "以桃花细瓣入酒，清酿而成，花香酒香交映，甘甜清洌。"
+    translated: "Made with delicate peach blossom petals in the wine, the clear brew blends floral and alcoholic aromas, sweet yet crisp."
 - raw: "10,100008,蜂蜜麻鸭,1,\"907037,1;907022,1;907030,1\",\"1002,0\",902028,野蜂蜜所烤制的鸭子，出炉后复以蜂蜜渣缀之，口味独具特色。,1"
   splits:
   - split: 2
     text: "蜂蜜麻鸭"
+    translated: "Honey Sesame Duck"
   - split: 7
     text: "野蜂蜜所烤制的鸭子，出炉后复以蜂蜜渣缀之，口味独具特色。"
+    translated: "Duck roasted with wild honey, then garnished with honey residue upon serving, has a uniquely distinctive flavor."
 - raw: "11,100009,蛋炒饭,1,\"907039,1;907041,1;907030,1\",\"1002,0\",902029,又名碎金饭，天下之人无不会烧制，至于各种口感却是大异了。,1"
   splits:
   - split: 2
     text: "蛋炒饭"
+    translated: "Egg Fried Rice"
   - split: 7
     text: "又名碎金饭，天下之人无不会烧制，至于各种口感却是大异了。"
+    translated: "Also known as Suigold Rice, it is something everyone can cook, but the taste varies greatly."
 - raw: "12,100010,西湖醋鱼,1,\"907047,1;907026,1;907030,1\",\"1002,0\",902013,色泽红亮，肉质鲜嫩，酸甜清香，口感软嫩。,1"
   splits:
   - split: 2
     text: "西湖醋鱼"
+    translated: "West Lake Vinegar Fish"
   - split: 7
     text: "色泽红亮，肉质鲜嫩，酸甜清香，口感软嫩。"
+    translated: "Bright red in color, with tender meat that is sweet and sour yet fragrant, offering a soft and delicate texture."
 - raw: "13,110001,硬木刀·精,2,\"907011,4;907032,1;907030,5;\",\"1002,0\",102201,初学者腕力不足，需用此刀。,1"
   splits:
   - split: 2
     text: "硬木刀"
+    translated: "Hardwood Blade"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "初学者腕力不足，需用此刀。"
+    translated: "Beginners don't have enough strength in their wrists, so they need this blade."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -81,11 +106,14 @@
   splits:
   - split: 2
     text: "旧纸扇"
+    translated: "Old Paper Fan"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "普通人家常见之物。"
+    translated: "Common items found in ordinary households"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -93,11 +121,14 @@
   splits:
   - split: 2
     text: "蒲草链"
+    translated: "Rush Necklace"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "乡野常见的蒲草编织而成，虽用料粗陋，然做工却颇为细致。"
+    translated: "Made from the common rush grass found in rural areas, though the materials are rough, the craftsmanship is quite meticulous."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -105,11 +136,14 @@
   splits:
   - split: 2
     text: "山水画扇"
+    translated: "Landscape Painting Fan"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "扇面绘有竹枝，颇显清雅。"
+    translated: "The fan is painted with bamboo branches, appearing quite elegant."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -117,11 +151,14 @@
   splits:
   - split: 2
     text: "素剑"
+    translated: "Plain Sword"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "江湖常见制式，不甚锋锐，却经久耐用。"
+    translated: "Standard Jianghu designs, not particularly sharp but durable over time."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -129,11 +166,14 @@
   splits:
   - split: 2
     text: "锈铁缠手"
+    translated: "Rusted Iron Hand Wraps"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "粗布条缠以锈铁片，深受街头无赖的喜爱。"
+    translated: "Rough cloth strips wrapped with rusted iron pieces are a favorite among street thugs."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -141,11 +181,14 @@
   splits:
   - split: 2
     text: "绣红缨"
+    translated: "Embroidered Red Tassel"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "军制长枪，枪尖略有锈蚀，然仍坚实锋锐，能堪一用。"
+    translated: "A military long spear, with its tip slightly rusted, yet still sturdy and sharp, capable of being put to use."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -153,14 +196,18 @@
   splits:
   - split: 2
     text: "哨棒"
+    translated: "Quarterstaff"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "直木削去枝桠"
+    translated: "Straightened wood has its branches trimmed"
   - split: 7
     subIndex: 1
     text: "便成此棒，亦称“齐眉棍”。"
+    translated: "Thus it became this staff, also known as the Eyebrow-Level Staff."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -170,11 +217,14 @@
   splits:
   - split: 2
     text: "棉布长衫"
+    translated: "Cotton Long Robe"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "寻常衣料，儒生风范。"
+    translated: "Ordinary cloth, the air of a scholar"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -182,11 +232,14 @@
   splits:
   - split: 2
     text: "粗铁护胫"
+    translated: "Rough Iron Shin Guards"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "棉布绑腿饰以铁片，聊胜于无。"
+    translated: "Cotton leg wraps adorned with iron pieces, better than nothing."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -194,41 +247,54 @@
   splits:
   - split: 2
     text: "墨家连环铳"
+    translated: "Mohist Repeating Gun"
   - split: 7
     text: "此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。"
+    translated: "This musket has been improved by the Mohists, though its power is slightly reduced, its reloading speed has been greatly increased. This musket, after being improved by the Mohists, though its power is slightly reduced, has its reloading speed greatly increased."
 - raw: "24,110012,墨家连环铳,2,\"907042,5;907043,5;907044,5\",\"1002,0\",114307,此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。,4"
   splits:
   - split: 2
     text: "墨家连环铳"
+    translated: "Mohist Repeating Gun"
   - split: 7
     text: "此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。"
+    translated: "This musket has been improved by the Mohists, though its power is slightly reduced, its reloading speed has been greatly increased. This musket, after being improved by the Mohists, though its power is slightly reduced, has its reloading speed greatly increased."
 - raw: "25,110013,墨家连环铳,2,\"907042,7;907043,7;907044,7\",\"1002,0\",114308,此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。,4"
   splits:
   - split: 2
     text: "墨家连环铳"
+    translated: "Mohist Repeating Gun"
   - split: 7
     text: "此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。"
+    translated: "This musket has been improved by the Mohists, though its power is slightly reduced, its reloading speed has been greatly increased. This musket, after being improved by the Mohists, though its power is slightly reduced, has its reloading speed greatly increased."
 - raw: "26,110014,墨家连环铳,2,\"907042,10;907043,10;907044,10\",\"1002,0\",114309,此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。,4"
   splits:
   - split: 2
     text: "墨家连环铳"
+    translated: "Mohist Repeating Gun"
   - split: 7
     text: "此铳形制经墨家改良，虽威力略逊，然其填药之速却被大大缩短。"
+    translated: "This musket has been improved by the Mohists, though its power is slightly reduced, its reloading speed has been greatly increased. This musket, after being improved by the Mohists, though its power is slightly reduced, has its reloading speed greatly increased."
 - raw: "27,110015,钜子,2,\"909095,1;909096,1;909097,1;909098,1\",\"1002,0\",114210,兼爱、非攻。,4"
   splits:
   - split: 2
     text: "钜子"
+    translated: "Mohist Juzi"
   - split: 7
     text: "兼爱、非攻。"
+    translated: "Universal love, non-aggression"
 - raw: "28,110016,九州无量·精,2,\"907016,15;907033,15;907035,15;907030,35;\",\"1002,0\",101307,经流入民间的行伍重铠改制而成，虽略显旧，却仍坚固至极。,4"
   splits:
   - split: 2
     text: "九州无量"
+    translated: "Nine Provinces, Boundless"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "经流入民间的行伍重铠改制而成，虽略显旧，却仍坚固至极。"
+    translated: "Based on military armor that had spread to the common folk, though slightly outdated, it remains incredibly sturdy."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -236,11 +302,14 @@
   splits:
   - split: 2
     text: "小切玉"
+    translated: "Little Jade-Cutter"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "裂石断玉，切雾撕风。"
+    translated: "Splitting stones and shattering jade, slicing through mist and tearing the wind."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -248,11 +317,14 @@
   splits:
   - split: 2
     text: "红笺无色"
+    translated: "Red Notepaper, Colorless"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "降邪不党邪，见面略无愧真武；护法如违法，回头何以见观音。"
+    translated: "Defeating evil does not ally with it; meeting True Martial feels no shame. Protecting the law without upholding it-how could one face Guanyin?"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -260,11 +332,14 @@
   splits:
   - split: 2
     text: "修罗"
+    translated: "Asura"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "万里横互羽林枪，外道修罗惊缩项。"
+    translated: "A spear stretches across ten thousand miles, and even the demons of the outer path shrink in fear."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -272,11 +347,14 @@
   splits:
   - split: 2
     text: "北逐天狼"
+    translated: "Driving Out the Northern Wolf Star"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "玉靶角弓珠勒马，汉家将赐霍嫖姚。"
+    translated: "Jade-tipped arrows, horn bows, and pearl-adorned steeds-The Han court will bestow them upon Huo Piao Yao."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -284,11 +362,14 @@
   splits:
   - split: 2
     text: "清刚"
+    translated: "Pure Steel"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "珠袍曳锦带，匕首插吴鸿。"
+    translated: "Jade robes trail silk sashes, daggers sheathed in eagle quills."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -296,14 +377,18 @@
   splits:
   - split: 2
     text: "烟罗云锦"
+    translated: "Mist Gauze, Cloud Brocade"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "袍新宫锦千人目"
+    translated: "A new brocade palace robe catches a thousand eyes."
   - split: 7
     subIndex: 1
     text: "马骏桃花一巷香。"
+    translated: "Magnificent Hua Street is filled with the scent of peach blossoms."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -313,11 +398,14 @@
   splits:
   - split: 2
     text: "八方人间"
+    translated: "Eight Directions, the Mortal World"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "俯仰逆旅，八方人间。"
+    translated: "Bowing to life's journey, Eight Directions, the Mortal World."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -325,11 +413,14 @@
   splits:
   - split: 2
     text: "千里烟波"
+    translated: "A Thousand Li of Misty Waves"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "奇峰三百倒悬水，青枫碧树摇玲珑。"
+    translated: "Three hundred strange peaks hang over the water, green maples and blue trees sway gracefully."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -337,11 +428,14 @@
   splits:
   - split: 2
     text: "镇西关"
+    translated: "Guarding the Western Pass"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "军中精锐所佩重铠，因战乱流入江湖，强弓劲弩皆不能伤。"
+    translated: "The elite armor from the military, which flowed into the Jianghu during times of war, cannot be damaged by powerful bows and crossbows."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -349,11 +443,14 @@
   splits:
   - split: 2
     text: "却邪"
+    translated: "Repel Evil"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "古剑寒黯黯，铸来几千秋。"
+    translated: "An ancient sword cold and dim, forged through thousands of years."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -361,11 +458,14 @@
   splits:
   - split: 2
     text: "古锭"
+    translated: "Ancient Ingot"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "仿古之名，重逾千钧，血刃到处，衣甲平过。"
+    translated: "The name of an ancient lineage carries weight beyond measure; where its bloodied blade falls, armor and clothing part before it."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -373,11 +473,14 @@
   splits:
   - split: 2
     text: "秋风悲画"
+    translated: "Autumn Wind Mourns the Painting"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "扇骨藏锋，旋如蝶舞，振之隐有风吟。"
+    translated: "The fan bones conceal their sharpness; spinning like a butterfly's dance, they whisper to the wind."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -385,11 +488,14 @@
   splits:
   - split: 2
     text: "霜月"
+    translated: "Frost Moon"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "寒铁雕成，形如春兰，撕风裂骨，寂静无声。"
+    translated: "Cold Iron carved into the shape of spring orchids, slicing through the wind to shatter bones in silent silence."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -397,11 +503,14 @@
   splits:
   - split: 2
     text: "五岳三山"
+    translated: "Five Peaks and Three Mountains"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "内嵌百锻利刃，吹毛断发，锐不可当。"
+    translated: "Sharpened to perfection, the blade can cut through hair and is unstoppable."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -409,11 +518,14 @@
   splits:
   - split: 2
     text: "丸锻隼前龙光"
+    translated: "Full-Forged Falcon's Edge Dragon Light"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "刀镡镌有“隼前竜光”四字，刃纹精美，匠工极精，锋利轻盈，切金断玉不在话下。"
+    translated: "The guard is engraved with the characters Falcon Before Dragon Light, the blade patterns are exquisite, the craftsmanship is superb, and it is sharp and light, capable of slicing through gold and severing jade with ease."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -421,11 +533,14 @@
   splits:
   - split: 2
     text: "玉露"
+    translated: "Jade Dew"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "由来碧落银河畔，可要金风玉露时。"
+    translated: "From the banks of the Milky Way, where all begins, at the time of golden wind and jade dew."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -433,11 +548,14 @@
   splits:
   - split: 2
     text: "铸铁铳"
+    translated: "Cast Iron Gun"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "铸铁浇成，厚实粗重。"
+    translated: "Cast from iron, thick and heavy"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -445,11 +563,14 @@
   splits:
   - split: 2
     text: "铁炎"
+    translated: "Iron Flame"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "铸铁浇成，操持简便，可破寻常衣铠。"
+    translated: "Forged from iron, it's easy to handle and can pierce ordinary armor and clothing."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -457,11 +578,14 @@
   splits:
   - split: 2
     text: "雷鸟铳"
+    translated: "Thunderbird Gun"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "硬木为柄，铜管为身，准头不佳，可用之猎些飞禽小兽。"
+    translated: "Made with a hardwood handle and a copper tube body, it's not very accurate, but it can be used to hunt small birds and animals."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -469,11 +593,14 @@
   splits:
   - split: 2
     text: "青焰"
+    translated: "Azure Flame"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "此虽仅是神光营列装火器的粗陋仿品，却仍颇为难得。"
+    translated: "Though this is merely a crude imitation of the firearms equipped by the Divine Light Brigade, it is still quite rare."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -481,11 +608,14 @@
   splits:
   - split: 2
     text: "燧焰"
+    translated: "Flint Flame"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "西域传入，燧发骑枪，装填迅捷，极为轻便，奈何威力远逊列装火器。"
+    translated: "Introduced from the West, flintlock cavalry spears are quick to reload and extremely portable, but their power falls far short of line infantry firearms."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -493,11 +623,14 @@
   splits:
   - split: 2
     text: "电光铳"
+    translated: "Lightning Gun"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "神光营列装火器制法随朝纲动乱流入江湖后，唯有技艺精湛、门徒众多的匠造坊有仿制之能，此物精工细作，与军阵列装火器几已一般无二。"
+    translated: "After the methods for manufacturing firearms, which were part of the Divine Light Battalion's arsenal, leaked into the Jianghu due to the turmoil in the imperial court, only the skilled and well-established Craftsmanship Workshop had the ability to replicate them. These replicas are meticulously crafted, nearly indistinguishable from the firearms used in military formations."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -505,11 +638,14 @@
   splits:
   - split: 2
     text: "佛朗机"
+    translated: "Folangji"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "西域传入，精美华贵，纵于京中达官显贵之间，此物亦是有价无市。"
+    translated: "Imported from the Western Regions, this exquisite and luxurious item is so precious that even in the capital's circles of high officials and nobility, it is priceless. There is value but no market. It has been translated as priceless to convey this meaning more naturally in English.)"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -517,11 +653,14 @@
   splits:
   - split: 2
     text: "机巧铳"
+    translated: "Clockwork Gun"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "机巧精妙，勾连紧密，非匠造宗师不可窥其技。"
+    translated: "Subtle and ingenious, intricately connected; only a master craftsman can fathom its technique."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -529,11 +668,14 @@
   splits:
   - split: 2
     text: "墨家千机匣"
+    translated: "Mohist Thousand-Mechanism Case"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "墨家所制至高之物，其机巧若天工所出，非人力所能及。"
+    translated: "The pinnacle creation of the Mohist school, its craftsmanship surpasses that of human hands, as if forged by divine artisans."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -541,11 +683,14 @@
   splits:
   - split: 2
     text: "墨家原型"
+    translated: "Mohist Prototype"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "据传为世间第一支原型机巧，但其中复杂难明，纵墨家钜子复生，亦是难为。"
+    translated: "Legend has it that it is the world's first prototype of ingenious craftsmanship, but its complexity is daunting. Even if Mohist Juzi were to be reborn, it would still be a challenge."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -553,11 +698,14 @@
   splits:
   - split: 2
     text: "关山月"
+    translated: "Moon over the Mountain Pass"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "万里赴戎机，关山度若飞。"
+    translated: "Traveling ten thousand miles to the battlefield, crossing mountains and passes as if flying."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -565,11 +713,14 @@
   splits:
   - split: 2
     text: "掌定乾坤"
+    translated: "Palm Settling Heaven and Earth"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "力破万法，众生如见，乾坤玄机，覆掌可定。"
+    translated: "Break through myriad laws, all beings shall see, the mysteries of heaven and earth, determined with a flip of the hand."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -577,11 +728,14 @@
   splits:
   - split: 2
     text: "虚玄"
+    translated: "Void Mystery"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "七字天书人不辨，定知玄女手中符。"
+    translated: "Seven-character Heavenly Scripture man cannot discern, surely the symbol in Nuwa's hand."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -589,11 +743,14 @@
   splits:
   - split: 2
     text: "青璃"
+    translated: "Azure Glaze"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "第六桥头香十里，桃花风起叠琉璃。"
+    translated: "Sixth Bridge Head's Fragrance Spreads for Ten Li, Peach Blossom Breeze Stacks Like Glass."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -601,11 +758,14 @@
   splits:
   - split: 2
     text: "纵渊"
+    translated: "Leaping Abyss"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "侠之一道，唯不平则鸣，便千万险阻，如临渊在前，孤身可纵。"
+    translated: "The path of the martial hero is one of speaking out against injustice; even if a thousand dangers lie ahead, alone, one can leap forward."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -613,11 +773,14 @@
   splits:
   - split: 2
     text: "尘光"
+    translated: "Light of Dust"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "剑分浊世，无辨尘光。"
+    translated: "Sword divides the mundane world, undistinguished by the light of the secular world."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -625,11 +788,14 @@
   splits:
   - split: 2
     text: "归合"
+    translated: "Return and Unite"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "无鞘之刀，为大凶者，归合之际，谓之仁之锋。"
+    translated: "A blade without a scabbard is a great calamity; when it finds its mate, it is called the edge of righteousness."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -637,11 +803,14 @@
   splits:
   - split: 2
     text: "断不平"
+    translated: "Cutting Down Injustice"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "逢不平之事，当饮刀断之，二十年曾有人持此刀恣意江湖。"
+    translated: "When faced with injustice, one should drink and wield the blade to sever it; twenty years ago, someone once roamed Jianghu at will with this very blade."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -649,11 +818,14 @@
   splits:
   - split: 2
     text: "不惧"
+    translated: "Fearless"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "习武者，无愧于心，无惧于世，豪杰无言，应当如是。"
+    translated: "A martial artist should have a clear conscience, fear nothing in the world, and great heroes speak little. That is how it should be."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -661,11 +833,14 @@
   splits:
   - split: 2
     text: "千石沉林"
+    translated: "Thousand Stones Sink the Forest"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "土德者，当持此刃，扫荡群邪。"
+    translated: "Those of Earth Virtue shall wield this blade and sweep away the wicked horde."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -673,11 +848,14 @@
   splits:
   - split: 2
     text: "柳絮"
+    translated: "Willow Catkins"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "刀身古朴，重逾百斤，非人力所能持，唯刀柄处，篆有柳絮二字。"
+    translated: "The blade is ancient and rustic, weighing over a hundred pounds, beyond the strength of any human to wield. Only at the hilt are the characters for willow fluff carved in script."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -685,11 +863,14 @@
   splits:
   - split: 2
     text: "圣人无名"
+    translated: "Sage Has No Name"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "神人无功，圣人无名，无锋之锋，或为圆满。"
+    translated: "The divine have no merit, the sage has no name, the edgeless blade may be perfect."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -697,11 +878,14 @@
   splits:
   - split: 2
     text: "寒骜"
+    translated: "Cold Arrogance"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "来历难考，材质难辨，据传为大雪山所遗之物。"
+    translated: "Of unknown origin and difficult to identify, it is said to be an artifact left by Daxue Mountain."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -709,11 +893,14 @@
   splits:
   - split: 2
     text: "奉天"
+    translated: "By Heaven's Decree"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "四海以内，罔不臣服，此岂人力，实乃天授。"
+    translated: "Within the four seas, none do not submit; this is not by human effort, but by divine bestowal."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -721,11 +908,14 @@
   splits:
   - split: 2
     text: "迷悟"
+    translated: "Delusion and Awakening"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "两禅寺分立之时流落至江湖之物，据传其中暗合经文佛理，现已难言真伪。"
+    translated: "The items that fell into the Jianghu when Liangchan Temple split, according to legend contain Buddhist teachings, but now it is hard to say whether they are genuine or not."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -733,11 +923,14 @@
   splits:
   - split: 2
     text: "定规王土"
+    translated: "Establishing Rule over the King's Land"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "普天之下，莫非王土，率土之滨，莫非王臣。"
+    translated: "Under heaven, all land belongs to the king; at the borders of his domain, all subjects serve the king."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -745,11 +938,14 @@
   splits:
   - split: 2
     text: "百战死"
+    translated: "Die in a Hundred Battles"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "马革裹尸，军武之荣，唯勇临战，沙场豪情，可纵横天下，死犹不悔。"
+    translated: "Dying in battle, a warrior's glory; only the brave who face combat on the battlefield can feel the passion of sweeping across the land, unrepentant even in death."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -757,11 +953,14 @@
   splits:
   - split: 2
     text: "镇"
+    translated: "Suppress"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "镇国卫遗物，据传为镇国公亲持，而今镇国卫已散，再无人可辨其真伪。"
+    translated: "The remnants of the State Guard are said to have been held by the Duke of the State himself. Now that the State Guard has disbanded, no one can verify their authenticity."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -769,11 +968,14 @@
   splits:
   - split: 2
     text: "饮余生"
+    translated: "Drinking the Rest of Life"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "余生漫漫，唯饮者矣，余生转瞬，唯饮者矣。"
+    translated: "Life is long for the drinker, life is but a fleeting moment for the drinker."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -781,11 +983,14 @@
   splits:
   - split: 2
     text: "焚琴煮鹤"
+    translated: "Burning the Zither, Cooking the Crane"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "知音难觅，雅乐难寻，焚琴煮鹤，聊以自解。"
+    translated: "Finding a kindred spirit is hard, rare is refined music; burning the zither, cooking the crane, to ease one's own heart."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -793,11 +998,14 @@
   splits:
   - split: 2
     text: "展颜"
+    translated: "Smile Unfurled"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "江山千里，人世千年，若展颜初见，一别两宽。"
+    translated: "A thousand miles of rivers and mountains, a thousand years of human life; if we first smile upon meeting, parting will come with ease."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -805,11 +1013,14 @@
   splits:
   - split: 2
     text: "离愁"
+    translated: "Parting Sorrow"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "雨滴落尽，离愁千绪，可对影者何？"
+    translated: "Raindrops have ceased, leaving a thousand threads of parting sorrow, but who is there to share the shadows with?"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -817,11 +1028,14 @@
   splits:
   - split: 2
     text: "红拂"
+    translated: "Red Whisk"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "红拂萧稍紫麟尾，夜半蒙羞见君子。"
+    translated: "Red sleeves, Xiao Siao's purple fin tail, at midnight, shamed to meet a gentleman."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -829,11 +1043,14 @@
   splits:
   - split: 2
     text: "楚人赋"
+    translated: "Ode of the Chu Man"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "无名楚墓所得，千年不朽，刚锐如新。"
+    translated: "An unnamed Chu tomb discovery, a thousand years unspoiled, sharp and pristine as new."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -841,11 +1058,14 @@
   splits:
   - split: 2
     text: "踏雪"
+    translated: "Snow Treader"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "踏雪寻梅，晴时馨，落时寞。"
+    translated: "Seeking plum blossoms in the snow, fragrant on clear days, lonely when they fall."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -853,11 +1073,14 @@
   splits:
   - split: 2
     text: "游子"
+    translated: "Wanderer"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "人世逆旅，远行之人，皆为他乡客。"
+    translated: "In this world, those who travel far are all strangers in foreign lands."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -865,11 +1088,14 @@
   splits:
   - split: 2
     text: "捭阖"
+    translated: "Open and Close"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "纵横捭阖，天地虽大，任人去得，愁绪离索，何足挂碍。"
+    translated: "With all the world to traverse and manipulate, wherever one wishes to go is within reach; worries and solitude, what do they matter?"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -877,11 +1103,14 @@
   splits:
   - split: 2
     text: "绿竹"
+    translated: "Green Bamboo"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "东瀛所遗至中土之物，锋锐轻灵，远非寻常。"
+    translated: "The sharp and agile weapons left by Dongying in the Central Lands are far beyond ordinary."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -889,11 +1118,14 @@
   splits:
   - split: 2
     text: "鬼十刃"
+    translated: "Ghost Ten Blades"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "据传此刃为天涯海阁掌门左三思与东瀛来人激战所得，然弃之不用，后流传至此。"
+    translated: "It is said that this blade was obtained by Sect Leader Zuo Sansi of Tianya Haige during a fierce battle with an incoming person from Dongying. However, he discarded it and never used it, and it later made its way here."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -901,11 +1133,14 @@
   splits:
   - split: 2
     text: "至心"
+    translated: "Utmost Sincerity"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "来历不可考，据传诸多东瀛人士愿以高价寻求此刃的下落。"
+    translated: "Its origins are unknown; it is said that many people from Dongying are willing to pay a high price to seek out the whereabouts of this blade."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -913,11 +1148,14 @@
   splits:
   - split: 2
     text: "饮风"
+    translated: "Drinking the Wind"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "姑射神人饮风灵，淮南鸡犬依丹灶。"
+    translated: "Immortals of Guo She sipping divine breezes, chickens and dogs of Huainan by the elixir cauldrons."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -925,11 +1163,14 @@
   splits:
   - split: 2
     text: "幽音"
+    translated: "Hidden Sound"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "迢迢万里隔，托此传幽音。"
+    translated: "Though miles apart across ten thousand li, entrust this message to carry whispers of longing."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -937,11 +1178,14 @@
   splits:
   - split: 2
     text: "碎幻"
+    translated: "Shattered Illusion"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "割肠痛连心，心碎骨亦伤。"
+    translated: "Gut-wrenching pain that sears the heart, a shattered soul that wounds even the bones."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -949,11 +1193,14 @@
   splits:
   - split: 2
     text: "墨枢"
+    translated: "Ink Pivot"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "玉堂金马隔青云，墨客儒生皆白首。"
+    translated: "Jade halls and golden horses are separated by the azure clouds, scholar-officials all turn gray-haired."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -961,11 +1208,14 @@
   splits:
   - split: 2
     text: "寒弦逐月"
+    translated: "Cold String Chases the Moon"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "有天将军名太白，尝配明月逐月魄。"
+    translated: "There was a general named Taibai who once paired with the bright moon to chase the essence of the moon."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -973,11 +1223,14 @@
   splits:
   - split: 2
     text: "青冥羽"
+    translated: "Azure Void Feather"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "洞拆三叉盘空曲，壁立万仞穿青冥。"
+    translated: "Cave splits into three forks, spiraling up; cliffs rise ten thousand feet, piercing the azure heavens."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -985,11 +1238,14 @@
   splits:
   - split: 2
     text: "相思缠"
+    translated: "Longing's Bind"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "料得年年肠断处，明月夜，短松冈。"
+    translated: "Year after year, the moonlit night and the short pine hill will witness my heartbreak."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -997,11 +1253,14 @@
   splits:
   - split: 2
     text: "沧漫"
+    translated: "Boundless Blue"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "气夺沧浪色，风欺汗漫流。"
+    translated: "The air steals the color of the vast sea, and the wind mocks the endless stream."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1009,11 +1268,14 @@
   splits:
   - split: 2
     text: "龙蛇"
+    translated: "Dragon and Serpent"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "龙蛇寒下蛰，雾露昼多阴。"
+    translated: "Dragon snakes hibernate in the cold, mist and dew bring many cloudy days."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1021,11 +1283,14 @@
   splits:
   - split: 2
     text: "擘鲤"
+    translated: "Splitting the Carp"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "相思望淮水，双鲤不应稀。"
+    translated: "Yearning for the Huai River, twin carps should not be rare."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1033,11 +1298,14 @@
   splits:
   - split: 2
     text: "环月吟"
+    translated: "Ring-Moon Chant"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "新月上，薄云收，映帘悬玉钩。"
+    translated: "New moon out, thin clouds recede, casting a jade hook's reflection upon the curtain."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1045,11 +1313,14 @@
   splits:
   - split: 2
     text: "双影依身"
+    translated: "Twin Shadows Cling to the Body"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "双影今夕何处，唯余孤身尚行。"
+    translated: "Where are Twin Shadows tonight, only I continue alone."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1057,11 +1328,14 @@
   splits:
   - split: 2
     text: "羽罗披"
+    translated: "Feather-Gauze Cloak"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "相思杳如梦，珠泪湿罗衣。"
+    translated: "Yearning like a dream, dewy tears wet her silk robe."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1069,11 +1343,14 @@
   splits:
   - split: 2
     text: "露华"
+    translated: "Dew Splendor"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "念归林叶换，愁坐露华生。"
+    translated: "As leaves change in the returning forest, sorrow arises with the dew."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1081,11 +1358,14 @@
   splits:
   - split: 2
     text: "天衢"
+    translated: "Heavenly Thoroughfare"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "拂衣舍之去，矫步升天衢。"
+    translated: "He strode away, quickening his pace to ascend the main street."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1093,11 +1373,14 @@
   splits:
   - split: 2
     text: "刑天臂"
+    translated: "Xingtian's Arm"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "神威慑邻国，何劳逞战功。"
+    translated: "The divine might deters neighboring countries; why bother with military achievements?"
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1105,11 +1388,14 @@
   splits:
   - split: 2
     text: "敛骨"
+    translated: "Gathering Bones"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "白骨横千霜，嵯峨蔽榛莽。"
+    translated: "White bones lie in the frost, towering over the bramble and thicket."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1117,11 +1403,14 @@
   splits:
   - split: 2
     text: "归一"
+    translated: "Return to One"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "万境全归一瞬中，山河日月尽含容。"
+    translated: "All realms converge in an instant, mountains and rivers, sun and moon, all contained within."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1129,11 +1418,14 @@
   splits:
   - split: 2
     text: "飞琼"
+    translated: "Flying Gem"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "昨夜梦回天上去，琼楼玉关不胜寒。"
+    translated: "Last night in my dream, I soared to the heavens, where the jade pavilions and jade gates were too cold to bear."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1141,11 +1433,14 @@
   splits:
   - split: 2
     text: "玉城"
+    translated: "Jade City"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "玉霄九重闭，金锁夜不开。"
+    translated: "Nine Heavens sealed tight, golden locks never open at night."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1153,11 +1448,14 @@
   splits:
   - split: 2
     text: "孤鹜"
+    translated: "Lone Duck"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "孤鹜掠霞去，映来满江红。"
+    translated: "A solitary wild goose sweeps away as the clouds reflect a full river of red."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1165,11 +1463,14 @@
   splits:
   - split: 2
     text: "浩然意"
+    translated: "Haoran Spirit"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "一点浩然气，千里快哉风。"
+    translated: "A righteous spirit fills the air, a breeze of delight for a thousand miles."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1177,11 +1478,14 @@
   splits:
   - split: 2
     text: "逢龙"
+    translated: "Meeting the Dragon"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "长驱直踏老上庭，手拔干将斩狂虏。"
+    translated: "Ride straight to the old hall, draw Kengo and slay the mad invaders."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1189,11 +1493,14 @@
   splits:
   - split: 2
     text: "缚海"
+    translated: "Binding the Sea"
   - split: 2
     subIndex: 1
     text: "精"
+    translated: "Refined"
   - split: 7
     text: "秦川公子谪仙人，布袍落魄余一身。"
+    translated: "Qin Chuan, the Exiled Immortal Young Lord, now clad in a tattered robe with nothing but his own being left."
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -1201,143 +1508,191 @@
   splits:
   - split: 2
     text: "还复膏"
+    translated: "Restoration Ointment"
   - split: 7
     text: "精研草本制成的丸药，能够活血化瘀，回复一定气血。"
+    translated: "Carefully studying herbs to make pills that can invigorate the blood and dissipate stasis, restoring some lifeforce."
 - raw: "110,120002,理气丸,3,\"907045,2;907046,3;907030,10;\",\"1002,0\",901001,气血行之经脉，流转百骸，可自愈疾也。,1"
   splits:
   - split: 2
     text: "理气丸"
+    translated: "Qi-Regulating Pill"
   - split: 7
     text: "气血行之经脉，流转百骸，可自愈疾也。"
+    translated: "Lifeforce flows through the meridians, circulating throughout the body to heal ailments."
 - raw: "111,120003,白霞散,3,\"907045,4;907046,5;907030,15;\",\"1002,0\",901003,色若银晶，嗅如沉香，敷可续肌，服可养血。,2"
   splits:
   - split: 2
     text: "白霞散"
+    translated: "White Glow Powder"
   - split: 7
     text: "色若银晶，嗅如沉香，敷可续肌，服可养血。"
+    translated: "As white as silver crystals, with the scent of agarwood, it can heal the skin and nourish the blood."
 - raw: "112,120004,玉髓膏,3,\"907045,7;907046,9;907034,1;907030,20;\",\"1002,0\",901005,甘香扑鼻，药气浓郁，服之可生新血、破旧瘀、续白骨。,3"
   splits:
   - split: 2
     text: "玉髓膏"
+    translated: "Jade Marrow Ointment"
   - split: 7
     text: "甘香扑鼻，药气浓郁，服之可生新血、破旧瘀、续白骨。"
+    translated: "The sweet fragrance is intoxicating, the medicinal power rich and potent, capable of generating new blood, dispelling old stagnation, and mending white bones."
 - raw: "113,120005,止血草,3,\"907045,2;907046,1;907030,5;\",\"1002,0\",901100,最简易的外敷药草，上至刀剑伤势，下至指尖小创皆不妨一试。,1"
   splits:
   - split: 2
     text: "止血草"
+    translated: "Styptic Herb"
   - split: 7
     text: "最简易的外敷药草，上至刀剑伤势，下至指尖小创皆不妨一试。"
+    translated: "The simplest topical herbs, useful for wounds from blades and swords as well as minor cuts on the fingertips."
 - raw: "114,120006,金创散,3,\"907045,3;907046,2;907030,10;\",\"1002,0\",901101,江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出血。,1"
   splits:
   - split: 2
     text: "金创散"
+    translated: "Wound-Mending Powder"
   - split: 7
     text: "江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出血。"
+    translated: "A Jianghu peddler's powder, made by grinding copper, stones, and herbs, can be applied externally to heal external injuries and stop bleeding."
 - raw: "115,120007,净血丸,3,\"907045,5;907046,4;907030,15;\",\"1002,0\",901103,药香浓郁，其色赤红，服之可安神定气，补精益元。,2"
   splits:
   - split: 2
     text: "净血丸"
+    translated: "Blood-Purifying Pill"
   - split: 7
     text: "药香浓郁，其色赤红，服之可安神定气，补精益元。"
+    translated: "The scent is strong and medicinal, its color a deep red. Consuming it can calm the mind and stabilize the breath, replenishing essence and restoring vitality."
 - raw: "116,120008,雪蟾膏,3,\"907045,9;907046,7;907034,1;907030,20;\",\"1002,0\",901105,性味咸平，不燥不火，补气益中，兴髓生血。,3"
   splits:
   - split: 2
     text: "雪蟾膏"
+    translated: "Snow Toad Ointment"
   - split: 7
     text: "性味咸平，不燥不火，补气益中，兴髓生血。"
+    translated: "Has a salty and neutral taste, neither drying nor heating, replenishes qi and benefits the middle burner, boosts bone marrow and generates blood."
 - raw: "117,120009,蕴灵散,3,\"907045,3;907046,3;907018,1;907030,15;\",\"1002,0\",901400,甘霖起于枯朽，蕴草筛之可入药。,1"
   splits:
   - split: 2
     text: "蕴灵散"
+    translated: "Spirit-Nourishing Powder"
   - split: 7
     text: "甘霖起于枯朽，蕴草筛之可入药。"
+    translated: "Life springs from decay, and the filtered grass can be used as medicine."
 - raw: "118,120010,归元散,3,\"907045,5;907046,5;907031,1;907030,15;\",\"1002,0\",901300,草药粗灰所制，药性温，服之可固本培元。,1"
   splits:
   - split: 2
     text: "归元散"
+    translated: "Origin-Returning Powder"
   - split: 7
     text: "草药粗灰所制，药性温，服之可固本培元。"
+    translated: "Made from coarse ash, this medicine has a warm nature and can strengthen the body's foundation."
 - raw: "119,100011,葱花鱼汤,1,\"907047,2;907034,2;907030,2\",\"1002,0\",902061,入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量体力与精力。,1"
   splits:
   - split: 2
     text: "葱花鱼汤"
+    translated: "Scallion Fish Soup"
   - split: 7
     text: "入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量体力与精力。"
+    translated: "The meat is tender and soft, with a rich and slightly sweet broth. Though it is a simple meal, it can restore a small amount of stamina and energy."
 - raw: "120,100012,清蒸银刀鱼,1,\"907048,1;907026,1;907030,5\",\"1002,0\",902062,入口鱼肉细腻似雪，咸鲜间藏淡淡回甘，食用后恢复中等量体力精力。,2"
   splits:
   - split: 2
     text: "清蒸银刀鱼"
+    translated: "Steamed Silver Knife Fish"
   - split: 7
     text: "入口鱼肉细腻似雪，咸鲜间藏淡淡回甘，食用后恢复中等量体力精力。"
+    translated: "The entrance fish has a delicate texture like snow, with a salty-sweet flavor that leaves a subtle aftertaste. Eating it restores a moderate amount of stamina and energy."
 - raw: "121,100013,醉仙鱼,1,\"907049,1;902043,2;907030,10\",\"1002,0\",902063,浓郁鱼鲜裹酒香袭来，鱼肉绵滑细腻，鲜香在口中层层散开，回味悠长，食用后恢复大量体力精力，一扫周身倦怠。,3"
   splits:
   - split: 2
     text: "醉仙鱼"
+    translated: "Drunken Immortal Fish"
   - split: 7
     text: "浓郁鱼鲜裹酒香袭来，鱼肉绵滑细腻，鲜香在口中层层散开，回味悠长，食用后恢复大量体力精力，一扫周身倦怠。"
+    translated: "The rich aroma of fish and wine envelops you. The tender, delicate fish meat melts in your mouth, releasing a lingering savory flavor. Eating it restores a great deal of stamina and energy, banishing all fatigue from your body."
 - raw: "122,100014,盐焗虾,1,\"907050,2;907038,5;907030,2\",\"1002,0\",902064,咸鲜之味唤醒味蕾，食用后可恢复少量体力与精力。,1"
   splits:
   - split: 2
     text: "盐焗虾"
+    translated: "Salt-Baked Shrimp"
   - split: 7
     text: "咸鲜之味唤醒味蕾，食用后可恢复少量体力与精力。"
+    translated: "The salty freshness awakens the taste buds; eating it restores a small amount of Stamina and Energy."
 - raw: "123,100015,椒爆鲜虾段,1,\"907051,2;907030,5\",\"1002,0\",902065,鲜虾焦香混青椒辛香扑鼻，虾肉弹牙、青椒爽脆，香辣滋味刺激舌尖，吃下可恢复中等量体力精力。,2"
   splits:
   - split: 2
     text: "椒爆鲜虾段"
+    translated: "Pepper-Fried Fresh Shrimp"
   - split: 7
     text: "鲜虾焦香混青椒辛香扑鼻，虾肉弹牙、青椒爽脆，香辣滋味刺激舌尖，吃下可恢复中等量体力精力。"
+    translated: "The fragrant shrimp and spicy green peppers are irresistibly aromatic, with the shrimp meat tender and bouncy, and the green peppers crisp and refreshing. The spicy flavor tantalizes your taste buds, restoring a moderate amount of stamina and energy when eaten."
 - raw: "124,100016,血玉虾羹,1,\"907052,1;907034,2;907030,10\",\"1002,0\",902066,色泽瑰丽夺目，香气浓郁，虾肉软糯弹牙，食材口感丰富，鲜香醇厚直达心底，食之恢复大量体力精力，一扫周身倦怠。,3"
   splits:
   - split: 2
     text: "血玉虾羹"
+    translated: "Blood-Jade Shrimp Soup"
   - split: 7
     text: "色泽瑰丽夺目，香气浓郁，虾肉软糯弹牙，食材口感丰富，鲜香醇厚直达心底，食之恢复大量体力精力，一扫周身倦怠。"
+    translated: "Its color is stunningly beautiful, its aroma rich and intoxicating. The shrimp meat is tender yet bouncy, offering a variety of textures. Its flavor is fresh, savory, and deeply satisfying, restoring large amounts of stamina and energy, banishing all fatigue from your body."
 - raw: "125,100017,蟹肉豆腐煲,1,\"907053,2;907034,2;907030,2\",\"1002,0\",902067,蟹肉紧实、豆腐吸饱鲜汁，咸香入味，下肚后虽恢复体力精力有限，却能解一时饥乏。,1"
   splits:
   - split: 2
     text: "蟹肉豆腐煲"
+    translated: "Crab Meat Tofu Pot"
   - split: 7
     text: "蟹肉紧实、豆腐吸饱鲜汁，咸香入味，下肚后虽恢复体力精力有限，却能解一时饥乏。"
+    translated: "The crab meat is firm, the tofu soaked in savory broth, salty and flavorful. Though it restores stamina and energy only slightly, it satisfies hunger for a time."
 - raw: "126,100018,蟹脂蛋羹,1,\"907054,1;907041,2;907030,5\",\"1002,0\",902068,蛋羹绵密、蟹肉鲜甜，咸香适口，食用后恢复中等量体力精力。,2"
   splits:
   - split: 2
     text: "蟹脂蛋羹"
+    translated: "Crab Roe Steamed Egg"
   - split: 7
     text: "蛋羹绵密、蟹肉鲜甜，咸香适口，食用后恢复中等量体力精力。"
+    translated: "The egg custard is smooth and creamy, the crab meat is fresh and sweet, with a perfectly balanced salty flavor. Eating it restores a moderate amount of stamina and energy."
 - raw: "127,100019,蓝田玉蟹酿,1,\"907055,1;907041,2;907030,10\",\"1002,0\",902069,蟹肉酿入饱满花菇，蟹肉鲜甜、花菇饱吸鲜味，口感醇厚深邃，食用后恢复大量体力精力，一扫周身倦怠。,3"
   splits:
   - split: 2
     text: "蓝田玉蟹酿"
+    translated: "Lantian Jade Stuffed Crab"
   - split: 7
     text: "蟹肉酿入饱满花菇，蟹肉鲜甜、花菇饱吸鲜味，口感醇厚深邃，食用后恢复大量体力精力，一扫周身倦怠。"
+    translated: "Stuffed crab meat in plump mushroom caps, the crab meat is sweet and fresh, while the mushrooms absorb the flavors, offering a rich and deep taste. Eating them restores a large amount of stamina and energy, dispelling all fatigue from your body."
 - raw: "128,100020,草螺羹,1,\"907056,2;907014,2;907030,2\",\"1002,0\",902070,入口汤头鲜醇，螺肉嚼劲十足，食之能恢复少量体力精力。,1"
   splits:
   - split: 2
     text: "草螺羹"
+    translated: "Grass Snail Soup"
   - split: 7
     text: "入口汤头鲜醇，螺肉嚼劲十足，食之能恢复少量体力精力。"
+    translated: "The entrance soup is fresh and flavorful, with succulent snail meat that restores a small amount of stamina and energy."
 - raw: "129,100021,翡翠煨白螺,1,\"907057,1;907028,2;907030,5\",\"1002,0\",902071,莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心清甜交织，螺肉软嫩、菜心脆爽，汤鲜味美，食用后恢复中等量体力精力。,2"
   splits:
   - split: 2
     text: "翡翠煨白螺"
+    translated: "Jade-Simmered White Snail"
   - split: 7
     text: "莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心清甜交织，螺肉软嫩、菜心脆爽，汤鲜味美，食用后恢复中等量体力精力。"
+    translated: "The pale snail meat paired with emerald broccoli hearts creates a clear, amber-colored broth. The fresh fragrance of the snail meat intertwines with the crisp sweetness of the broccoli hearts, the snail meat tender and soft, the broccoli hearts crunchy and refreshing. The soup is deliciously savory, restoring a moderate amount of stamina and energy after consumption."
 - raw: "130,100022,彩云螺肉烧,1,\"907058,1;907036,3;907030,10\",\"1002,0\",902072,红亮酱汁裹螺肉如彩纹缀云，咸香微甜，吃下恢复大量体力精力，一扫周身倦怠。,3"
   splits:
   - split: 2
     text: "彩云螺肉烧"
+    translated: "Colorful Cloud Snail Braise"
   - split: 7
     text: "红亮酱汁裹螺肉如彩纹缀云，咸香微甜，吃下恢复大量体力精力，一扫周身倦怠。"
+    translated: "The bright red sauce coats the snail meat like colorful patterns on clouds, salty yet slightly sweet. Eating it restores a large amount of stamina and energy, dispelling all fatigue from your body."
 - raw: "131,100023,乾坤一锅,3,\"907045,10;907046,7;908056,5;907030,5;\",\"1002,0\",901302,记载于《四海食记》食谱中的玄妙菜肴，可食补自身，补精益元。,1"
   splits:
   - split: 2
     text: "乾坤一锅"
+    translated: "One Pot of Heaven and Earth"
   - split: 7
     text: "记载于《四海食记》食谱中的玄妙菜肴，可食补自身，补精益元。"
+    translated: "A mysterious dish recorded in the cookbook Four Seas Culinary Chronicles, which can nourish and replenish one's own essence and energy."
 - raw: "132,100024,沙枣酥,1,\"907022,1;907031,1;907059,1\",\"1002,0\",902073,西北戈壁常见灌木，枝叶柔韧，结满清甜沙枣。,1"
   splits:
   - split: 2
     text: "沙枣酥"
+    translated: "Oleaster Pastry"
   - split: 7
     text: "西北戈壁常见灌木，枝叶柔韧，结满清甜沙枣。"
+    translated: "The common shrubs of the northwest desert have flexible branches and leaves, bearing sweet wolfberries."

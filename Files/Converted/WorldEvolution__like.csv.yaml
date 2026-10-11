@@ -2,140 +2,175 @@
   splits:
   - split: 2
     text: "喜好类别"
+    translated: "Category Preferences"
 - raw: "2,id,like,likeStyle"
 - raw: "3,1,食物,1"
   splits:
   - split: 2
     text: "食物"
+    translated: "Food"
 - raw: "4,2,首饰,2"
   splits:
   - split: 2
     text: "首饰"
+    translated: "Jewelry"
 - raw: "5,3,武器,3"
   splits:
   - split: 2
     text: "武器"
+    translated: "Weapon"
 - raw: "6,4,服装,1"
   splits:
   - split: 2
     text: "服装"
+    translated: "Clothing"
 - raw: "7,5,酒水,2"
   splits:
   - split: 2
     text: "酒水"
+    translated: "Alcohol and drinks"
 - raw: "8,6,药材,3"
   splits:
   - split: 2
     text: "药材"
+    translated: "Medicinal herbs"
 - raw: "9,7,矿石,1"
   splits:
   - split: 2
     text: "矿石"
+    translated: "Ore"
 - raw: "10,8,木材,2"
   splits:
   - split: 2
     text: "木材"
+    translated: "Wood"
 - raw: "11,9,书法,1"
   splits:
   - split: 2
     text: "书法"
+    translated: "Calligraphy"
 - raw: "12,10,文具,2"
   splits:
   - split: 2
     text: "文具"
+    translated: "Stationery"
 - raw: "13,11,丹青,2"
   splits:
   - split: 2
     text: "丹青"
+    translated: "Danqing"
 - raw: "14,12,琴谱,1"
   splits:
   - split: 2
     text: "琴谱"
+    translated: "Sheet music"
 - raw: "15,13,乐器,2"
   splits:
   - split: 2
     text: "乐器"
+    translated: "Instrument"
 - raw: "16,14,扇子,3"
   splits:
   - split: 2
     text: "扇子"
+    translated: "Fan"
 - raw: "17,15,雨伞,1"
   splits:
   - split: 2
     text: "雨伞"
+    translated: "Umbrella"
 - raw: "18,16,弈棋,2"
   splits:
   - split: 2
     text: "弈棋"
+    translated: "Playing chess"
 - raw: "19,17,茶道,3"
   splits:
   - split: 2
     text: "茶道"
+    translated: "Tea Ceremony"
 - raw: "20,18,财宝,1"
   splits:
   - split: 2
     text: "财宝"
+    translated: "Treasure"
 - raw: "21,19,茶具,2"
   splits:
   - split: 2
     text: "茶具"
+    translated: "Tea set"
 - raw: "22,20,佛经,1"
   splits:
   - split: 2
     text: "佛经"
+    translated: "Buddhist scriptures"
 - raw: "23,21,道藏,2"
   splits:
   - split: 2
     text: "道藏"
+    translated: "Daoist Canon"
 - raw: "24,22,儒典,2"
   splits:
   - split: 2
     text: "儒典"
+    translated: "Confucian Canon"
 - raw: "25,23,小说,1"
   splits:
   - split: 2
     text: "小说"
+    translated: "Novel"
 - raw: "26,24,水果,2"
   splits:
   - split: 2
     text: "水果"
+    translated: "Fruit"
 - raw: "27,25,蜜饯,3"
   splits:
   - split: 2
     text: "蜜饯"
+    translated: "Preserved fruit"
 - raw: "28,26,布匹,1"
   splits:
   - split: 2
     text: "布匹"
+    translated: "Cloth"
 - raw: "29,27,丹药,2"
   splits:
   - split: 2
     text: "丹药"
+    translated: "Pill medicine"
 - raw: "30,28,毒物,3"
   splits:
   - split: 2
     text: "毒物"
+    translated: "Poison"
 - raw: "31,29,香物,1"
   splits:
   - split: 2
     text: "香物"
+    translated: "Incense objects"
 - raw: "32,30,点心,2"
   splits:
   - split: 2
     text: "点心"
+    translated: "Snack"
 - raw: "33,31,古董,1"
   splits:
   - split: 2
     text: "古董"
+    translated: "Antique"
 - raw: "34,32,花卉,2"
   splits:
   - split: 2
     text: "花卉"
+    translated: "Flowers"
 - raw: "35,33,工具,2"
   splits:
   - split: 2
     text: "工具"
+    translated: "Toolkit"
 - raw: "36,34,秘籍,1"
   splits:
   - split: 2
     text: "秘籍"
+    translated: "Manual"

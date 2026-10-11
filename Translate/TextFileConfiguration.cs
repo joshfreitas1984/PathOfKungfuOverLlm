@@ -22,10 +22,10 @@ public static class TextFileConfiguration
 
     public static readonly TextFileToSplit[] TextFilesToSplit = [
             // Dialogue (flattened JSON from Touch / SandBox_Touch / TaskProcess cells)
-            new() { Path = "SandBox_NpcFromTouch__Touch.json.csv", SkipColumns = TranslateOnly(5, 4) },
-            new() { Path = "SandBox_Touch__Touch.json.csv", SkipColumns = TranslateOnly(5, 4) },
-            new() { Path = "TaskProcess__TaskProcess.json.csv", SkipColumns = TranslateOnly(5, 4) },
-            new() { Path = "Touch__Touch.json.csv", SkipColumns = TranslateOnly(5, 4) },
+            new() { Path = "SandBox_NpcFromTouch__Touch.json.csv", IgnoreHtmlTagsInText = true, AdditionalPromptName = "PlayerTokenPrompt", SkipColumns = TranslateOnly(5, 4) },
+            new() { Path = "SandBox_Touch__Touch.json.csv", IgnoreHtmlTagsInText = true, AdditionalPromptName = "PlayerTokenPrompt", SkipColumns = TranslateOnly(5, 4) },
+            new() { Path = "TaskProcess__TaskProcess.json.csv", IgnoreHtmlTagsInText = true, AdditionalPromptName = "PlayerTokenPrompt", SkipColumns = TranslateOnly(5, 4) },
+            new() { Path = "Touch__Touch.json.csv", IgnoreHtmlTagsInText = true, AdditionalPromptName = "PlayerTokenPrompt", SkipColumns = TranslateOnly(5, 4) },
 
             // UI strings and battle barks
             new() { Path = "LanguageConfig__LanguageConfig_jt.csv", SkipColumns = TranslateOnly(3, 2) },

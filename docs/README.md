@@ -67,10 +67,12 @@ instead of duplicating their implementation details here.
 | Task | Start here |
 | --- | --- |
 | See what is left to do after scaffolding | [`plans/initial-setup-next-steps.md`](plans/initial-setup-next-steps.md) |
+| Plan the extra context for token lines | [`plans/token-context-hints.md`](plans/token-context-hints.md) |
 | Work on the extraction → LLM translation → repackaging pipeline | [`Translate/TextFileConfiguration.cs`](../Translate/TextFileConfiguration.cs), [`Translate/TranslationExport.cs`](../Translate/TranslationExport.cs), [`Translate/TranslationPackaging.cs`](../Translate/TranslationPackaging.cs) |
 | Understand the `Files/` raw/converted/mod data layout | [`Files/`](../Files/) and the [`Translate/`](../Translate/) source above |
 | Change model, QC or batching settings | [`Files/Config.yaml`](../Files/Config.yaml) |
 | Write the runtime dump/injection patches | [`PathOfKungfuPlugin/Plugin.cs`](../PathOfKungfuPlugin/Plugin.cs) |
+| Understand or change how translated text is injected into the game | [`features/text-injection.md`](features/text-injection.md), [`PathOfKungfuPlugin/Injection.cs`](../PathOfKungfuPlugin/Injection.cs) |
 | Package or publish a release | [`Tests/FileOutputWorkflowTests.cs`](../Tests/FileOutputWorkflowTests.cs), [`Installer/installer.json`](../Installer/installer.json), [`Files/Packaging/`](../Files/Packaging/) |
 | Investigate a known issue | [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) |
 | Work on the QC (quality control) pass | [`quality-control-pass.md`](../../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-control-pass.md) (**sibling repo** — the actual `QualityControlWorkflow` implementation lives there, not in this repo) |

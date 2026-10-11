@@ -4,6 +4,7 @@
 
 - raw: "修为"
   result: "Cultivation"
+  badtrans: false
 - raw: "修为池"
   result: "Cultivation Pool"
 - raw: "阅历"
@@ -18,8 +19,10 @@
   result: "Neigong Realm"
 - raw: "破境"
   result: "Realm Breakthrough"
+  badtrans: false
 - raw: "冲关破境"
   result: "Breakthrough"
+  badtrans: false
 - raw: "品阶"
   result: "Grade"
 - raw: "品质"
@@ -33,20 +36,25 @@
   result: "Minor Success"
 - raw: "心领神会"
   result: "Proficient"
+  badtrans: false
 - raw: "出类拔萃"
   result: "Outstanding"
+  badtrans: false
 - raw: "登堂入室"
   result: "Accomplished"
 - raw: "融会贯通"
   result: "Mastery"
 - raw: "炉火纯青"
   result: "Perfected"
+  badtrans: false
 - raw: "登峰造极"
   result: "Pinnacle"
+  badtrans: false
 - raw: "震古烁今"
   result: "Peerless"
 - raw: "返璞归真"
   result: "Transcendence"
+  badtrans: false
 
 # Talents
 
@@ -92,14 +100,17 @@
   result: "Penetrating Insight"
 - raw: "攻敌必救"
   result: "Strike the Vital Point"
+  badtrans: false
 - raw: "灵犀一点"
   result: "Spark of Insight"
 - raw: "道法自然"
   result: "The Dao Follows Nature"
+  badtrans: false
 - raw: "明镜止水"
   result: "Still Water"
 - raw: "渊渟岳峙"
   result: "Deep Pool, Standing Peak"
+  badtrans: false
 - raw: "昏昭智愚"
   result: "Wise Fool"
 - raw: "天生财贵"
@@ -119,12 +130,16 @@
   result: "Life Skills"
 - raw: "烹饪"
   result: "Cooking"
+  badtrans: false
 - raw: "锻造"
   result: "Forging"
+  badtrans: false
 - raw: "炼丹"
   result: "Alchemy"
+  badtrans: false
 - raw: "钓鱼"
   result: "Fishing"
+  badtrans: false
 - raw: "烹饪等级"
   result: "Cooking Level"
 - raw: "锻造等级"

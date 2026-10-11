@@ -2,183 +2,243 @@
   splits:
   - split: 2
     text: "道具名"
+    translated: "Item name"
 - raw: "2,907009,陶罐,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,寻常的陶制容器，并没有什么特别的地方。,0,item/907009,0,1,1"
   splits:
   - split: 2
     text: "陶罐"
+    translated: "Clay Jar"
   - split: 20
     text: "寻常的陶制容器，并没有什么特别的地方。"
+    translated: "A common earthenware container, with nothing special about it."
 - raw: "3,907010,空酒坛,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,空荡荡的酒坛，除了盛酒以外似乎亦能盛放其他东西......,0,item/907010,0,1,1"
   splits:
   - split: 2
     text: "空酒坛"
+    translated: "Empty Wine Jar"
   - split: 20
     text: "空荡荡的酒坛，除了盛酒以外似乎亦能盛放其他东西......"
+    translated: "An empty wine jar, besides holding wine, seems capable of holding other things as well......"
 - raw: "4,907011,碎木,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,纵是鲁班再世亦难将此物复原，不过这堆碎木似乎尚能另做他用......,0,item/907011,0,1,1"
   splits:
   - split: 2
     text: "碎木"
+    translated: "Splintered Wood"
   - split: 20
     text: "纵是鲁班再世亦难将此物复原，不过这堆碎木似乎尚能另做他用......"
+    translated: "Even if Lu Ban were reincarnated, he would find it difficult to restore this object, but this pile of wood scraps seems to still have other uses......"
 - raw: "5,907012,野花,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,不知名的山间野花，隐约间透有丝丝香气。,0,item/907012,0,1,1"
   splits:
   - split: 2
     text: "野花"
+    translated: "Wildflowers"
   - split: 20
     text: "不知名的山间野花，隐约间透有丝丝香气。"
+    translated: "Unknown mountain wildflowers, faintly hinting at a delicate fragrance."
 - raw: "6,907013,有毒的野果,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,含有毒性的野果，贸然服用恐怕不是什么明智的选择，似乎别有用途。,0,item/907013,0,1,1"
   splits:
   - split: 2
     text: "有毒的野果"
+    translated: "Poisonous Wild Fruit"
   - split: 20
     text: "含有毒性的野果，贸然服用恐怕不是什么明智的选择，似乎别有用途。"
+    translated: "Poisonous wild fruit; consuming them recklessly doesn't seem like a wise choice, but they might have another use."
 - raw: "7,907014,野蘑菇,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,可以食用的野蘑菇，在潮湿处十分常见。,0,item/907014,0,1,1"
   splits:
   - split: 2
     text: "野蘑菇"
+    translated: "Wild Mushrooms"
   - split: 20
     text: "可以食用的野蘑菇，在潮湿处十分常见。"
+    translated: "Edible wild mushrooms are very common in damp areas."
 - raw: "8,907015,有毒的蘑菇,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,虽说不能食用，但颜色如此鲜艳的蘑菇似乎另有用途。,0,item/907015,0,1,1"
   splits:
   - split: 2
     text: "有毒的蘑菇"
+    translated: "Poisonous Mushrooms"
   - split: 20
     text: "虽说不能食用，但颜色如此鲜艳的蘑菇似乎另有用途。"
+    translated: "Though they can't be eaten, mushrooms this vivid in color seem to have another use."
 - raw: "9,907016,矿石,材料,1001,2,1,7,0,999,True,2,4,6,0,0,,0,0,0,品色十分低劣的矿石，想用它来进行冶炼恐怕颇为不易。,0,item/907016,0,1,1"
   splits:
   - split: 2
     text: "矿石"
+    translated: "Ore"
   - split: 20
     text: "品色十分低劣的矿石，想用它来进行冶炼恐怕颇为不易。"
+    translated: "The ore has very poor quality; it will likely be quite difficult to smelt."
 - raw: "10,907017,碎石,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,随处可见的碎石头。,0,item/907017,0,1,1"
   splits:
   - split: 2
     text: "碎石"
+    translated: "Crushed Stone"
   - split: 20
     text: "随处可见的碎石头。"
+    translated: "Scattered fragments of stone everywhere"
 - raw: "11,907018,骨粉,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,从骨头身上得来的粉末，似乎能用来制药。,0,item/907018,0,1,1"
   splits:
   - split: 2
     text: "骨粉"
+    translated: "Bone Meal"
   - split: 20
     text: "从骨头身上得来的粉末，似乎能用来制药。"
+    translated: "The powder obtained from Bone can be used to make medicine."
 - raw: "12,907019,铁矿石,材料,1001,2,1,7,0,999,True,2,4,6,0,0,,0,0,0,形如黑炭，或为红锈，其质固且坚，锻而生铁。,0,item/907019,0,1,1"
   splits:
   - split: 2
     text: "铁矿石"
+    translated: "Iron Ore"
   - split: 20
     text: "形如黑炭，或为红锈，其质固且坚，锻而生铁。"
+    translated: "Like black charcoal, or red rust, its substance is solid and hard, forged into iron."
 - raw: "13,907020,铜矿石,材料,1001,2,1,7,0,999,True,2,4,6,0,0,,0,0,0,状如姜石而有铜星，味酸且寒，熔之取铜，亦可为药。,0,item/907020,0,1,1"
   splits:
   - split: 2
     text: "铜矿石"
+    translated: "Copper Ore"
   - split: 20
     text: "状如姜石而有铜星，味酸且寒，熔之取铜，亦可为药。"
+    translated: "It resembles ginger stone but has copper stars; it is sour and cold. Melting it yields copper, and it can also be used as medicine."
 - raw: "14,907021,蜂蛹,材料,1001,2,0,0,0,999,True,1,2,3,0,0,,0,0,0,山间野蜂的蛹，营养丰富，炒制后风味独特。,0,item/907021,0,1,1"
   splits:
   - split: 2
     text: "蜂蛹"
+    translated: "Bee Pupae"
   - split: 20
     text: "山间野蜂的蛹，营养丰富，炒制后风味独特。"
+    translated: "The pupae of mountain wild bees are nutrient-rich, and when stir-fried, they have a unique flavor."
 - raw: "15,907022,蜂蜜,材料,1001,2,0,0,0,999,True,1,2,3,0,0,,0,0,0,可从山间蜂巢中取得，甜蜜清爽，亦是制取良品丹食的必需材料。,0,item/907022,0,1,1"
   splits:
   - split: 2
     text: "蜂蜜"
+    translated: "Honey"
   - split: 20
     text: "可从山间蜂巢中取得，甜蜜清爽，亦是制取良品丹食的必需材料。"
+    translated: "Can be obtained from mountain bee nests, it's sweet and refreshing, and is also a necessary material for making fine medicinal foods."
 - raw: "16,907023,天麻草,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,气味辛辣，后味绵密浓郁，使人头昏脑涨，乃是制备迷药所需的上佳材料。,0,item/907023,0,1,1"
   splits:
   - split: 2
     text: "天麻草"
+    translated: "Gastrodia Herb"
   - split: 20
     text: "气味辛辣，后味绵密浓郁，使人头昏脑涨，乃是制备迷药所需的上佳材料。"
+    translated: "The scent is pungent, with a lingering sweetness that makes one's head spin, making it excellent material for preparing sedatives."
 - raw: "17,907024,迷香草,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,气味香甜，后味迷人心智，乃是制备迷药所需的上佳材料。,0,item/907024,0,1,1"
   splits:
   - split: 2
     text: "迷香草"
+    translated: "Intoxicating Incense Herb"
   - split: 20
     text: "气味香甜，后味迷人心智，乃是制备迷药所需的上佳材料。"
+    translated: "Sweet and fragrant, with a mind-altering aftertaste-it's excellent material for making sedatives."
 - raw: "18,907025,草鱼,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,因其主食水草，故名。刺少肉多，肉质鲜美，是炖鱼汤首选材料。,0,item/907025,0,1,1"
   splits:
   - split: 2
     text: "草鱼"
+    translated: "Grass Carp"
   - split: 20
     text: "因其主食水草，故名。刺少肉多，肉质鲜美，是炖鱼汤首选材料。"
+    translated: "It is named so because it feeds on aquatic plants. With few spines and plenty of meat, its flesh is delicious and is the preferred material for making fish soup."
 - raw: "19,907026,醋,材料,1001,2,1,0,0,999,True,1,2,3,0,0,1,0,0,0,用来调制酸味的调味品。,0,item/907026,0,1,1"
   splits:
   - split: 2
     text: "醋"
+    translated: "Vinegar"
   - split: 20
     text: "用来调制酸味的调味品。"
+    translated: "Seasoning used to add sourness"
 - raw: "20,907027,粗粮,材料,1001,2,1,0,0,999,True,1,2,3,0,0,1,0,0,0,相对于米面来说未进行过再加工的五谷杂粮。是蛮夷羌狄之地的主要食粮。,0,item/907027,0,1,1"
   splits:
   - split: 2
     text: "粗粮"
+    translated: "Coarse Grain"
   - split: 20
     text: "相对于米面来说未进行过再加工的五谷杂粮。是蛮夷羌狄之地的主要食粮。"
+    translated: "Unprocessed grains and legumes, compared to rice and flour, are the main staples in the regions inhabited by the barbarian tribes."
 - raw: "21,907028,荷叶,材料,1001,2,1,0,0,999,True,1,2,3,0,0,1,0,0,0,荷花的叶子，散发着淡淡清新香气，有清凉解暑，止渴生津，治泻痢，解火热之功效。,0,item/907028,0,1,1"
   splits:
   - split: 2
     text: "荷叶"
+    translated: "Lotus Leaf"
   - split: 20
     text: "荷花的叶子，散发着淡淡清新香气，有清凉解暑，止渴生津，治泻痢，解火热之功效。"
+    translated: "The leaves of the lotus flower emit a faintly refreshing fragrance, with properties to cool and relieve heatstroke, quench thirst, generate saliva, stop diarrhea, and alleviate internal heat."
 - raw: "22,907029,鸡肉,材料,1001,2,1,0,0,999,True,5,10,15,0,0,1,0,0,0,鸡身上的肉。适于热炒、炖汤、烧烤、凉拌的肉类。,0,item/907029,0,1,1"
   splits:
   - split: 2
     text: "鸡肉"
+    translated: "Chicken"
   - split: 20
     text: "鸡身上的肉。适于热炒、炖汤、烧烤、凉拌的肉类。"
+    translated: "Chicken meat. Suitable for hot stir-fry, stewing in soup, barbecuing, and cold salads."
 - raw: "23,907030,煤炭,材料,1001,2,1,0,0,999,True,2,4,6,0,0,1,0,0,0,用来生火的燃料。,0,item/907030,0,1,1"
   splits:
   - split: 2
     text: "煤炭"
+    translated: "Coal"
   - split: 20
     text: "用来生火的燃料。"
+    translated: "Fuel for starting a fire"
 - raw: "24,907031,面粉,材料,1001,2,1,0,0,999,True,2,4,6,0,0,1,0,0,0,以小麦磨成的粉状物，以水调和可以做成各种面点。是长江以北百姓的主要食粮。,0,item/907031,0,1,1"
   splits:
   - split: 2
     text: "面粉"
+    translated: "Flour"
   - split: 20
     text: "以小麦磨成的粉状物，以水调和可以做成各种面点。是长江以北百姓的主要食粮。"
+    translated: "Powder made from wheat flour can be mixed with water to make various pastries and breads. It is the main staple food for people north of the Yangtze River."
 - raw: "25,907032,普通木材,材料,1001,2,1,8,0,999,True,1,2,3,0,0,1,0,0,0,随出可以见的树枝树干，可用来引火烧柴。,0,item/907032,0,1,1"
   splits:
   - split: 2
     text: "普通木材"
+    translated: "Common Wood"
   - split: 20
     text: "随出可以见的树枝树干，可用来引火烧柴。"
+    translated: "Visible branches and tree trunks can be used to start a fire."
 - raw: "26,907033,兽骨,材料,1001,2,1,0,0,999,True,2,4,6,0,0,1,0,0,0,野兽的骨头，上面带着些许筋肉。,0,item/907033,0,1,1"
   splits:
   - split: 2
     text: "兽骨"
+    translated: "Animal Bone"
   - split: 20
     text: "野兽的骨头，上面带着些许筋肉。"
+    translated: "The bones of a beast, still attached with bits of sinew and flesh."
 - raw: "27,907034,水,材料,1001,2,1,0,0,999,True,1,2,3,0,0,1,0,0,0,用来煮米，和面的必备之物。,0,item/907034,0,1,1"
   splits:
   - split: 2
     text: "水"
+    translated: "Water"
   - split: 20
     text: "用来煮米，和面的必备之物。"
+    translated: "An essential item for cooking rice and kneading dough."
 - raw: "28,907035,丝线,材料,1001,2,1,0,0,999,True,3,6,9,0,0,1,0,0,0,用蚕丝搓纺而成的线。,0,item/907035,0,1,1"
   splits:
   - split: 2
     text: "丝线"
+    translated: "Silk Thread"
   - split: 20
     text: "用蚕丝搓纺而成的线。"
+    translated: "Thread spun from silk"
 - raw: "29,907036,桃花,材料,1001,2,1,0,0,999,True,2,4,6,0,0,1,0,0,0,性味甘，平无毒，可消食顺气,0,item/907036,0,1,1"
   splits:
   - split: 2
     text: "桃花"
+    translated: "Peach Blossoms"
   - split: 20
     text: "性味甘，平无毒，可消食顺气"
+    translated: "Sweet and neutral, non-toxic, aids digestion and smooths the flow of qi"
 - raw: "30,907037,鸭肉,材料,1001,2,1,0,0,999,True,8,16,24,0,0,1,0,0,0,肉质层次感分明：鸭皮酥脆利口，瘦肉细腻香嫩，肥肉则油而不腻。,0,item/907037,0,1,1"
   splits:
   - split: 2
     text: "鸭肉"
+    translated: "Duck"
   - split: 20
     text: "肉质层次感分明"
+    translated: "The meat has a clear distinction in texture layers."
   - split: 20
     subIndex: 1
     text: "鸭皮酥脆利口，瘦肉细腻香嫩，肥肉则油而不腻。"
+    translated: "The crispy duck skin is deliciously savory, the lean meat is tender and fragrant, while the fatty meat is rich yet not greasy."
   templates:
   - split: 20
     template: "{0}：{1}"
@@ -186,317 +246,423 @@
   splits:
   - split: 2
     text: "盐巴"
+    translated: "Salt"
   - split: 20
     text: "用来调制咸味的调味品。"
+    translated: "Seasonings used to add saltiness"
 - raw: "32,907039,米,材料,1001,2,1,0,0,999,True,1,2,3,0,0,1,0,0,0,水稻经碾压脱壳后的种仁，是长江以南百姓的主要食粮。,0,item/907039,0,1,1"
   splits:
   - split: 2
     text: "米"
+    translated: "Rice"
   - split: 20
     text: "水稻经碾压脱壳后的种仁，是长江以南百姓的主要食粮。"
+    translated: "The dehulled grain of rice is the main staple food for people south of the Yangtze River."
 - raw: "33,907040,猪肉,材料,1001,2,1,0,0,999,True,2,4,6,0,0,1,0,0,0,农户平日饲养的猪，在年关将近用来取肉而食，骨细筋少肉多。,0,item/907040,0,1,1"
   splits:
   - split: 2
     text: "猪肉"
+    translated: "Pork"
   - split: 20
     text: "农户平日饲养的猪，在年关将近用来取肉而食，骨细筋少肉多。"
+    translated: "The farmer raised pigs during the year to be slaughtered and eaten near the New Year, as they had tender bones, little sinew, and plenty of meat."
 - raw: "34,907041,鸡蛋,材料,1001,2,1,0,0,999,True,3,6,9,0,0,1,0,0,0,家禽下的蛋，百姓家中常见的食材。,0,item/907041,0,1,1"
   splits:
   - split: 2
     text: "鸡蛋"
+    translated: "Eggs"
   - split: 20
     text: "家禽下的蛋，百姓家中常见的食材。"
+    translated: "Eggs laid by poultry, a common ingredient in households."
 - raw: "35,907042,火绳锤,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,锻制火铳的必备部件，视工艺、匠力等因，损量不一而足。,0,item/901010,0,0,0"
   splits:
   - split: 2
     text: "火绳锤"
+    translated: "Matchlock Hammer"
   - split: 20
     text: "锻制火铳的必备部件，视工艺、匠力等因，损量不一而足。"
+    translated: "Components essential for forging fire lances vary in loss rate depending on craftsmanship and strength of the artisan."
 - raw: "36,907043,底火盘,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,锻制火铳的必备部件，视工艺、匠力等因，损量不一而足。,0,item/901010,0,0,0"
   splits:
   - split: 2
     text: "底火盘"
+    translated: "Priming Pan"
   - split: 20
     text: "锻制火铳的必备部件，视工艺、匠力等因，损量不一而足。"
+    translated: "Components essential for forging fire lances vary in loss rate depending on craftsmanship and strength of the artisan."
 - raw: "37,907044,击锤簧,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,锻制火铳的必备部件，视工艺、匠力等因，损量不一而足。,0,item/901010,0,0,0"
   splits:
   - split: 2
     text: "击锤簧"
+    translated: "Hammer Spring"
   - split: 20
     text: "锻制火铳的必备部件，视工艺、匠力等因，损量不一而足。"
+    translated: "Components essential for forging fire lances vary in loss rate depending on craftsmanship and strength of the artisan."
 - raw: "38,908002,宣纸,材料,1001,2,0,0,0,999,True,-1,-2,-3,\"use,1\",0,1,0,0,使用,优质宣纸，是书法丹青之术必须的材料。,0,item/908002,0,1,1"
   splits:
   - split: 2
     text: "宣纸"
+    translated: "Xuan Paper"
   - split: 20
     text: "优质宣纸，是书法丹青之术必须的材料。"
+    translated: "High-quality Xuan paper is essential for calligraphy and painting."
 - raw: "39,908017,砚墨,材料,1001,2,0,0,0,999,True,-1,-2,-3,\"use,1\",0,1,0,0,使用,优质松烟墨，是书法丹青之术必须的材料。,0,item/908017,0,1,1"
   splits:
   - split: 2
     text: "砚墨"
+    translated: "Inkstone and Ink"
   - split: 20
     text: "优质松烟墨，是书法丹青之术必须的材料。"
+    translated: "High-quality pine soot ink is essential for calligraphy and painting."
 - raw: "40,908031,酒坛,材料,1001,2,0,0,0,999,True,10,20,30,0,0,1,0,0,0,此物虽忘忧，却也是伤身至极。,0,item/908031,0,1,1"
   splits:
   - split: 2
     text: "酒坛"
+    translated: "Wine Jar"
   - split: 20
     text: "此物虽忘忧，却也是伤身至极。"
+    translated: "Though this item may ease worries, it is also extremely harmful to the body."
 - raw: "41,908034,破损的鞭子,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,鞭子之主若不是武功高强，那便是狠毒至极！,0,item/908034,0,0,1"
   splits:
   - split: 2
     text: "破损的鞭子"
+    translated: "Broken Whip"
   - split: 20
     text: "鞭子之主若不是武功高强，那便是狠毒至极！"
+    translated: "The master of the whip is either highly skilled in martial arts or incredibly ruthless!"
 - raw: "42,908035,破布娃娃,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,虽说有些破损，但表面上却未沾上多少污痕，可见娃娃主人对其爱护有加。可娃娃的主人，如今又在何处呢？,0,item/908035,0,0,1"
   splits:
   - split: 2
     text: "破布娃娃"
+    translated: "Rag Doll"
   - split: 20
     text: "虽说有些破损，但表面上却未沾上多少污痕，可见娃娃主人对其爱护有加。可娃娃的主人，如今又在何处呢？"
+    translated: "Though somewhat damaged, it bears little dirt, showing how well its owner cared for it. But where could the doll's owner be now?"
 - raw: "43,908036,被摔碎的玉镯,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,原先寄托着祝福的手镯，此时却已散作一地。,0,item/908036,0,0,1"
   splits:
   - split: 2
     text: "被摔碎的玉镯"
+    translated: "Smashed Jade Bracelet"
   - split: 20
     text: "原先寄托着祝福的手镯，此时却已散作一地。"
+    translated: "The bracelet that once held blessings now lies scattered on the ground."
 - raw: "44,908043,毒药,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,蛊毒千品，种种不同，或攻心肠，或乱神志，君子慎而远之。,0,item/908043,0,1,1"
   splits:
   - split: 2
     text: "毒药"
+    translated: "Poison"
   - split: 20
     text: "蛊毒千品，种种不同，或攻心肠，或乱神志，君子慎而远之。"
+    translated: "Geeze poison comes in thousands of varieties, each different, some attacking the heart, others clouding the mind. Gentlemen should be cautious and keep their distance."
 - raw: "45,908044,铁镐,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,寻常铁镐，可用之挖掘土木金石。,0,item/908044,0,1,1"
   splits:
   - split: 2
     text: "铁镐"
+    translated: "Iron Pickaxe"
   - split: 20
     text: "寻常铁镐，可用之挖掘土木金石。"
+    translated: "A common iron pickaxe, usable for digging into earth, wood, metal, and stone."
 - raw: "46,908048,竹篮,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,由竹干编织而成的篮子，底部孔洞细密，提梁上还刻着某些花纹，兼有桐油漆底，纵是用来盛水，亦不会撒漏半分。,0,item/908048,0,1,1"
   splits:
   - split: 2
     text: "竹篮"
+    translated: "Bamboo Basket"
   - split: 20
     text: "由竹干编织而成的篮子，底部孔洞细密，提梁上还刻着某些花纹，兼有桐油漆底，纵是用来盛水，亦不会撒漏半分。"
+    translated: "A basket woven from bamboo stalks, with tiny holes at the bottom and intricate patterns carved into the handle. It's also coated with tung oil to ensure that not a drop of water will leak out, even when used to hold liquid."
 - raw: "47,908049,铲子,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,斗宽而柄细，赖之以掘土。,0,item/908049,0,1,1"
   splits:
   - split: 2
     text: "铲子"
+    translated: "Shovel"
   - split: 20
     text: "斗宽而柄细，赖之以掘土。"
+    translated: "Wide at the blade and narrow at the handle, relying on it to dig soil."
 - raw: "48,908050,木桶,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,由寻常木材制成的圆桶，平平无奇。,0,item/908050,0,1,1"
   splits:
   - split: 2
     text: "木桶"
+    translated: "Wooden Barrel"
   - split: 20
     text: "由寻常木材制成的圆桶，平平无奇。"
+    translated: "A plain barrel made from ordinary wood, unremarkable."
 - raw: "49,908056,生肉,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,从飞禽走兽身上得来的肉，未经加工，尚不可吃食。,0,item/908056,0,1,1"
   splits:
   - split: 2
     text: "生肉"
+    translated: "Raw Meat"
   - split: 20
     text: "从飞禽走兽身上得来的肉，未经加工，尚不可吃食。"
+    translated: "Meat from birds and beasts, unprocessed, is still not edible."
 - raw: "50,908057,弹弓,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,由细木枝制成的弹弓，做工十分粗糙。,0,item/908057,0,1,1"
   splits:
   - split: 2
     text: "弹弓"
+    translated: "Slingshot"
   - split: 20
     text: "由细木枝制成的弹弓，做工十分粗糙。"
+    translated: "A slingshot made from thin branches, the craftsmanship is quite rough."
 - raw: "51,908058,断刃,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,锈迹斑斑的断刃，不过巴掌大小，边缘处刻有极细的血槽。,0,item/908058,0,1,1"
   splits:
   - split: 2
     text: "断刃"
+    translated: "Broken Blade"
   - split: 20
     text: "锈迹斑斑的断刃，不过巴掌大小，边缘处刻有极细的血槽。"
+    translated: "A rust-stained broken blade, no larger than a palm, with extremely fine blood grooves along its edge."
 - raw: "52,908059,柘木弓,材料,1001,2,0,0,0,999,True,1,2,3,0,0,1,0,0,0,由柘木制成的角弓，此弓弓片宽大，弓梢细小，两端挂弦处有钩状的延伸，是专门为马上作战设计的弓种。,0,item/908059,0,1,1"
   splits:
   - split: 2
     text: "柘木弓"
+    translated: "Mulberry Wood Bow"
   - split: 20
     text: "由柘木制成的角弓，此弓弓片宽大，弓梢细小，两端挂弦处有钩状的延伸，是专门为马上作战设计的弓种。"
+    translated: "A horn bow made from locust wood, this bow has wide limbs and a slender tip, with hook-like extensions where the string is attached at both ends. It is specifically designed for mounted combat."
 - raw: "53,908060,挂画,材料,1001,2,0,0,0,999,True,20,40,60,0,0,1,0,0,0,其上画着一副女子肖像，栩栩如生。,0,item/908060,0,1,1"
   splits:
   - split: 2
     text: "挂画"
+    translated: "Hanging Painting"
   - split: 20
     text: "其上画着一副女子肖像，栩栩如生。"
+    translated: "It features a lifelike portrait of a woman."
 - raw: "54,908061,御守,材料,1001,2,0,0,0,999,True,5,10,15,0,0,1,0,0,0,绣有桔梗花纹的深蓝色布袋中装着刻有祝福或所奉神明名讳的木片，据闻乃是东瀛人用作祈福破灾的物品。,0,item/908061,0,0,1"
   splits:
   - split: 2
     text: "御守"
+    translated: "Protective Charm"
   - split: 20
     text: "绣有桔梗花纹的深蓝色布袋中装着刻有祝福或所奉神明名讳的木片，据闻乃是东瀛人用作祈福破灾的物品。"
+    translated: "A dark blue cloth bag embroidered with bellflower patterns contains wooden slips inscribed with blessings or the names of the deities they honor, said to be used by the people of Dongying for seeking good fortune and warding off disasters [seeking blessings and dispelling calamities]."
 - raw: "55,908062,雁翎刀,材料,1001,2,0,0,0,999,True,600,1200,1800,0,0,1,0,0,0,此刀形如大雁翎毛，杀气甚重，即使收入鞘中，仍能感到一阵寒光透来。,0,item/908062,0,0,1"
   splits:
   - split: 2
     text: "雁翎刀"
+    translated: "Goose-Quill Blade"
   - split: 20
     text: "此刀形如大雁翎毛，杀气甚重，即使收入鞘中，仍能感到一阵寒光透来。"
+    translated: "This blade resembles the feathers of a wild goose, heavy with killing intent; even sheathed, one can still feel a chill emanating from it."
 - raw: "56,908178,酥骨销魂散,材料,1001,5,0,28,0,999,True,100,200,300,0,0,1,0,0,0,以十余种迷草异花混调而成，遇水即溶，无色无味，服之骨软筋麻，如坠云端。,0,item/901102,0,1,1"
   splits:
   - split: 2
     text: "酥骨销魂散"
+    translated: "Bone-Softening Soul-Melting Powder"
   - split: 20
     text: "以十余种迷草异花混调而成，遇水即溶，无色无味，服之骨软筋麻，如坠云端。"
+    translated: "Made from a blend of over ten types of strange herbs and flowers, it dissolves in water, is odorless and tasteless, and upon consumption, causes the bones to weaken and the limbs to tingle, as if one were floating in the clouds."
 - raw: "57,908179,绵意七情香,材料,1001,5,0,28,0,999,True,100,200,300,0,0,1,0,0,0,以肉豆蔻、淫羊藿等材混以檀香制成，香气甜郁，燃起后不论男女，嗅之生情。,0,item/908001,0,1,1"
   splits:
   - split: 2
     text: "绵意七情香"
+    translated: "Languid Seven-Emotions Incense"
   - split: 20
     text: "以肉豆蔻、淫羊藿等材混以檀香制成，香气甜郁，燃起后不论男女，嗅之生情。"
+    translated: "Made with spices like nutmeg and epimedium mixed with sandalwood, its sweet and rich fragrance can stir desire in anyone, regardless of gender, upon inhalation."
 - raw: "58,908180,仙蜜合欢露,材料,1001,5,0,28,0,999,True,100,200,300,0,0,1,0,0,0,将巴戟天、鹿茸、红膻等数十种奇淫药石，浸于桃花酿中蕴养多年而成，清冽馥郁，极尽滋阴补阳之能事。,0,item/902031,0,1,1"
   splits:
   - split: 2
     text: "仙蜜合欢露"
+    translated: "Immortal Honey Union Dew"
   - split: 20
     text: "将巴戟天、鹿茸、红膻等数十种奇淫药石，浸于桃花酿中蕴养多年而成，清冽馥郁，极尽滋阴补阳之能事。"
+    translated: "Infused with dozens of exotic and potent ingredients like Morinda officinalis, deer antler, and red musk, and aged in Peach Blossom Brew for many years, it is refreshingly crisp and richly fragrant, excelling in its ability to nourish yin and tonify yang."
 - raw: "59,908181,龙涎壮元丹,材料,1001,5,0,28,0,999,True,100,200,300,0,0,1,0,0,0,紫河车为主材，辅以仙茅、阳起石制成，药性极阳极烈，久服者难有幸终。,0,item/902041,0,1,1"
   splits:
   - split: 2
     text: "龙涎壮元丹"
+    translated: "Ambergris Vitality Elixir"
   - split: 20
     text: "紫河车为主材，辅以仙茅、阳起石制成，药性极阳极烈，久服者难有幸终。"
+    translated: "Made primarily from purple river cartilage, supplemented with immortality orchid and yang-activating stone, its nature is extremely yang and intense. Those who take it for a long time find it hard to have a peaceful end."
 - raw: "60,908182,痴梦膏,材料,1001,5,0,28,0,999,True,100,200,300,0,0,1,0,0,0,天竺秘药，据传将其涂于神阙穴上，行事时便能动欲生春，长乐无央。,0,item/907022,0,1,1"
   splits:
   - split: 2
     text: "痴梦膏"
+    translated: "Besotted Dream Ointment"
   - split: 20
     text: "天竺秘药，据传将其涂于神阙穴上，行事时便能动欲生春，长乐无央。"
+    translated: "The secret medicine of Tianzhu, when applied to the Shenzque acupoint, can bring desire and vitality during intimate moments, ensuring endless joy and pleasure."
 - raw: "61,908183,鎏金宝盏,材料,1001,5,0,31,0,999,True,100,200,300,0,0,1,0,0,0,通体简制，典雅光素，似是古朝遗物。,0,item/908183,0,1,1"
   splits:
   - split: 2
     text: "鎏金宝盏"
+    translated: "Gilded Treasure Cup"
   - split: 20
     text: "通体简制，典雅光素，似是古朝遗物。"
+    translated: "Simple in design and elegant in appearance, it seems to be an artifact from ancient times."
 - raw: "62,908184,松纹银槎,材料,1001,5,0,31,0,999,True,100,200,300,0,0,1,0,0,0,白银铸成，造型繁复，接处了然无痕，匠工极精，价值不菲。,0,item/908184,0,1,1"
   splits:
   - split: 2
     text: "松纹银槎"
+    translated: "Silver Raft Cup with Pine Pattern"
   - split: 20
     text: "白银铸成，造型繁复，接处了然无痕，匠工极精，价值不菲。"
+    translated: "It is made of silver, with intricate designs that blend seamlessly together, showcasing exquisite craftsmanship and is quite valuable. The value is not cheap."
 - raw: "63,908185,掐丝珐琅樽,材料,1001,5,0,31,0,999,True,100,200,300,0,0,1,0,0,0,冲耳鼓腹，柱呈足型，如玉如石，莹润邃美。,0,item/908185,0,1,1"
   splits:
   - split: 2
     text: "掐丝珐琅樽"
+    translated: "Cloisonne Wine Vessel"
   - split: 20
     text: "冲耳鼓腹，柱呈足型，如玉如石，莹润邃美。"
+    translated: "The ears are flared and round, the belly bulges, the legs are pillar-like and foot-shaped, as jade-like yet also stone-like, translucent and profoundly beautiful."
 - raw: "64,908186,不动明王像,材料,1001,5,0,31,0,999,True,100,200,300,0,0,1,0,0,0,大日如来为一切诸尊之总体，为自性轮身，不动明王为一切诸佛教令轮身，称诸明王之王，五大明王之主尊，显愤怒像。,0,item/908186,0,1,1"
   splits:
   - split: 2
     text: "不动明王像"
+    translated: "Statue of Acala, the Immovable Wisdom King"
   - split: 20
     text: "大日如来为一切诸尊之总体，为自性轮身，不动明王为一切诸佛教令轮身，称诸明王之王，五大明王之主尊，显愤怒像。"
+    translated: "The Great Sun Buddha is the totality of all the honored ones, the Dharmakaya Body of Self-Nature. The Immoveable Wisdom King is the Command Wheel Body of all the Buddhas, known as the King of all Wisdom Kings and the principal deity among the Five Great Wisdom Kings, manifesting in an angry form."
 - raw: "65,908215,销骨散,材料,1001,4,0,28,0,999,True,100,200,300,0,0,1,0,0,0,此毒于江湖旁门左道之中多有流传，炼法简易，中毒者纵使修为再高，亦难免骨软筋麻，任人摆布。,0,item/907038,0,1,1"
   splits:
   - split: 2
     text: "销骨散"
+    translated: "Bone-Dissolving Powder"
   - split: 20
     text: "此毒于江湖旁门左道之中多有流传，炼法简易，中毒者纵使修为再高，亦难免骨软筋麻，任人摆布。"
+    translated: "This poison is widely circulated among the shady factions of Jianghu, with a simple brewing method. Even those with high cultivation will inevitably become weak and numb, at the mercy of others."
 - raw: "66,908216,失魂丹,材料,1001,4,0,28,0,999,True,100,200,300,0,0,1,0,0,0,此毒于江湖旁门左道之中多有流传，炼法简易，中毒者纵使修为再高，亦难免神昏智消，任人摆布。,0,item/901004,0,1,1"
   splits:
   - split: 2
     text: "失魂丹"
+    translated: "Soul-Losing Elixir"
   - split: 20
     text: "此毒于江湖旁门左道之中多有流传，炼法简易，中毒者纵使修为再高，亦难免神昏智消，任人摆布。"
+    translated: "This poison is widely circulated among the shady factions of Jianghu, with a simple method of preparation. Even those with high cultivation will inevitably fall into a state of mental confusion, at the mercy of others."
 - raw: "67,908217,败腑饮,材料,1001,4,0,28,0,999,True,100,200,300,0,0,1,0,0,0,此毒无色无味，清透若水，毒性阴寒，中毒者初无异样，然若日久持服，侵肠破腑，必是神仙难救。,0,item/901203,0,1,1"
   splits:
   - split: 2
     text: "败腑饮"
+    translated: "Organ-Rotting Draught"
   - split: 20
     text: "此毒无色无味，清透若水，毒性阴寒，中毒者初无异样，然若日久持服，侵肠破腑，必是神仙难救。"
+    translated: "This poison is colorless and tasteless, clear as water. Its toxicity is cold and sinister; those who are poisoned show no initial symptoms. Yet if it persists over time, it will invade the intestines and rupture the organs, leaving even divine intervention powerless to save them."
 - raw: "68,908177,灵蜈蛊,材料,1001,7,0,28,0,999,False,-1,-2,-3,0,0,1,0,0,0,百目君身死之后，此蛊炼法亦随之绝迹。,0,item/901027,0,1,1"
   splits:
   - split: 2
     text: "灵蜈蛊"
+    translated: "Spirit Centipede Gu"
   - split: 20
     text: "百目君身死之后，此蛊炼法亦随之绝迹。"
+    translated: "After Lord Hundred Eyes died, this method of refining the curse also disappeared."
 - raw: "69,907045,补血药材,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,些许未经加工的药材。可以补血行血，归身主守，补固有功。,0,item/907045,0,1,1"
   splits:
   - split: 2
     text: "补血药材"
+    translated: "Blood-Nourishing Herbs"
   - split: 20
     text: "些许未经加工的药材。可以补血行血，归身主守，补固有功。"
+    translated: "Some unprocessed medicinal herbs. They can replenish blood and promote its circulation, stabilize the body, and have a restorative effect."
 - raw: "70,907046,理气药材,材料,1001,2,1,0,0,999,True,1,2,3,0,0,,0,0,0,些许未经加工的药材。适宜理气补气、除滞降逆、活机顺脉。,0,item/907046,0,1,1"
   splits:
   - split: 2
     text: "理气药材"
+    translated: "Qi-Regulating Herbs"
   - split: 20
     text: "些许未经加工的药材。适宜理气补气、除滞降逆、活机顺脉。"
+    translated: "Some unprocessed medicinal herbs. Suitable for regulating and replenishing qi, removing stagnation, descending rebellious qi, activating the vital energy, and smoothing the meridians."
 - raw: "71,907047,草鱼,材料,1001,2,1,0,0,999,True,5,8,10,0,0,1,0,0,0,身形修长，灰棕色鳞片泛着淡淡草泽光泽，常群栖于水草丰茂的池塘、湖泊浅水区，生性较贪食，易钓获。,0,item/907047,0,1,1"
   splits:
   - split: 2
     text: "草鱼"
+    translated: "Grass Carp"
   - split: 20
     text: "身形修长，灰棕色鳞片泛着淡淡草泽光泽，常群栖于水草丰茂的池塘、湖泊浅水区，生性较贪食，易钓获。"
+    translated: "Slender in build, with gray-brown scales that shimmer with a faint greenish sheen, they often live in groups in ponds and shallow areas of lakes where aquatic plants are abundant. They are quite greedy and easy to catch."
 - raw: "72,907048,银刀鱼,材料,1001,4,1,0,0,999,True,10,15,20,0,0,1,0,0,0,鱼身银白如刀，游动迅疾，多穿梭于水流湍急的之处，较难钓获。,0,item/907048,0,1,1"
   splits:
   - split: 2
     text: "银刀鱼"
+    translated: "Silver Knife Fish"
   - split: 20
     text: "鱼身银白如刀，游动迅疾，多穿梭于水流湍急的之处，较难钓获。"
+    translated: "The fish's body is silvery white like a blade, moving swiftly, often darting through areas with rapid currents, making it difficult to catch."
 - raw: "73,907049,金线鱼,材料,1001,6,1,0,0,999,True,30,40,50,0,0,1,0,0,0,鳞片嵌金色细纹，在水中折射微光，栖于深水暗流处，生性机敏，难以钓获。,0,item/907049,0,1,1"
   splits:
   - split: 2
     text: "金线鱼"
+    translated: "Golden Thread Fish"
   - split: 20
     text: "鳞片嵌金色细纹，在水中折射微光，栖于深水暗流处，生性机敏，难以钓获。"
+    translated: "Its scales are embedded with golden fine patterns that refract light in the water. It dwells in the dark currents of deep waters, is inherently wary, and is difficult to catch."
 - raw: "74,907050,草虾,材料,1001,2,1,0,0,999,True,5,8,10,0,0,1,0,0,0,通体修长呈灰色，触须细长灵活，多活跃于山间溪流的浅滩石缝间，易钓获。,0,item/907050,0,1,1"
   splits:
   - split: 2
     text: "草虾"
+    translated: "Grass Shrimp"
   - split: 20
     text: "通体修长呈灰色，触须细长灵活，多活跃于山间溪流的浅滩石缝间，易钓获。"
+    translated: "Slender and gray in appearance, with long, flexible antennae, it is commonly found in the shallow waters and rocky crevices of mountain streams, making it easy to catch."
 - raw: "75,907051,虎头虾,材料,1001,4,1,0,0,999,True,10,15,20,0,0,1,0,0,0,外壳生有虎纹般的深色斑纹，栖息于深潭底部泥沙处，较难钓获。,0,item/907051,0,1,1"
   splits:
   - split: 2
     text: "虎头虾"
+    translated: "Tiger-Head Shrimp"
   - split: 20
     text: "外壳生有虎纹般的深色斑纹，栖息于深潭底部泥沙处，较难钓获。"
+    translated: "Its shell is marked with dark stripes like a tiger's, and it dwells in the muddy bottom of deep pools, making it difficult to catch."
 - raw: "76,907052,血玉虾,材料,1001,6,1,0,0,999,True,30,40,50,0,0,1,0,0,0,虾身赤红如古玉，触须泛血色光泽，喜暖水，常藏身于地热石窟之中，难以钓获。,0,item/907052,0,1,1"
   splits:
   - split: 2
     text: "血玉虾"
+    translated: "Blood-Jade Shrimp"
   - split: 20
     text: "虾身赤红如古玉，触须泛血色光泽，喜暖水，常藏身于地热石窟之中，难以钓获。"
+    translated: "Its body is crimson like ancient jade, with antennae that shimmer with a blood-red sheen. It prefers warm waters and often hides in geothermally heated caverns, making it difficult to catch."
 - raw: "77,907053,草蟹,材料,1001,2,1,0,0,999,True,5,8,10,0,0,1,0,0,0,外壳青褐坚硬，双钳短小有力，偏爱于河湾的石块夹缝中栖息，易钓获。,0,item/907053,0,1,1"
   splits:
   - split: 2
     text: "草蟹"
+    translated: "Grass Crab"
   - split: 20
     text: "外壳青褐坚硬，双钳短小有力，偏爱于河湾的石块夹缝中栖息，易钓获。"
+    translated: "Its shell is dark greenish-brown and hard, with short but powerful pincers. It prefers to dwell in the cracks between rocks at river bends, making it easy to catch."
 - raw: "78,907054,三眼蟹,材料,1001,4,1,0,0,999,True,10,15,20,0,0,1,0,0,0,背甲生有三只暗红色眼状斑纹，活跃于礁石缝隙间，较难钓获。,0,item/907054,0,1,1"
   splits:
   - split: 2
     text: "三眼蟹"
+    translated: "Three-Eyed Crab"
   - split: 20
     text: "背甲生有三只暗红色眼状斑纹，活跃于礁石缝隙间，较难钓获。"
+    translated: "The back plate has three dark red eye-like markings and is active in the crevices of the reefs, making it difficult to catch."
 - raw: "79,907055,蓝田蟹,材料,1001,6,1,0,0,999,True,30,40,50,0,0,1,0,0,0,外壳呈青蓝色泽，质地似玉石，穴居于湖底深处，难以钓获。,0,item/907055,0,1,1"
   splits:
   - split: 2
     text: "蓝田蟹"
+    translated: "Lantian Crab"
   - split: 20
     text: "外壳呈青蓝色泽，质地似玉石，穴居于湖底深处，难以钓获。"
+    translated: "Its shell is a blue-green color, its substance like jade. It dwells in the depths of lakes, making it hard to catch."
 - raw: "80,907056,草螺,材料,1001,2,1,0,0,999,True,5,8,10,0,0,1,0,0,0,背壳呈灰褐色螺旋状，常吸附于静水水域的水草或石块表面，易钓获。,0,item/907056,0,1,1"
   splits:
   - split: 2
     text: "草螺"
+    translated: "Grass Snail"
   - split: 20
     text: "背壳呈灰褐色螺旋状，常吸附于静水水域的水草或石块表面，易钓获。"
+    translated: "The shell is gray-brown and spiral-shaped, often attaching to water plants or rocks in still waters, making it easy to catch."
 - raw: "81,907057,白沙螺,材料,1001,4,1,0,0,999,True,10,15,20,0,0,1,0,0,0,螺壳莹白如雪，表面光滑，多藏于细软泥沙之中，较难钓获。,0,item/907057,0,1,1"
   splits:
   - split: 2
     text: "白沙螺"
+    translated: "White Sand Snail"
   - split: 20
     text: "螺壳莹白如雪，表面光滑，多藏于细软泥沙之中，较难钓获。"
+    translated: "The conch shells are as white as snow, with smooth surfaces, often buried in fine soft mud and sand, making them difficult to catch."
 - raw: "82,907058,斑斓螺,材料,1001,6,1,0,0,999,True,30,40,50,0,0,1,0,0,0,螺壳布满绚丽彩纹，栖息于暗礁遍布的危险水域，难以钓获。,0,item/907058,0,1,1"
   splits:
   - split: 2
     text: "斑斓螺"
+    translated: "Brilliant Snail"
   - split: 20
     text: "螺壳布满绚丽彩纹，栖息于暗礁遍布的危险水域，难以钓获。"
+    translated: "The conch is covered in vibrant patterns and dwells in dangerous waters filled with reefs, making it hard to catch."
 - raw: "83,907059,沙枣,材料,1001,2,1,0,0,999,True,1,2,3,0,0,1,0,0,0,西北戈壁常见灌木，枝叶柔韧，结满清甜沙枣。,0,item/901001,0,1,1"
   splits:
   - split: 2
     text: "沙枣"
+    translated: "Oleaster"
   - split: 20
     text: "西北戈壁常见灌木，枝叶柔韧，结满清甜沙枣。"
+    translated: "The common shrubs of the northwest desert have flexible branches and leaves, bearing sweet wolfberries."

@@ -9,10 +9,13 @@
   result: "Retire"
 - raw: "江湖路"
   result: "Jianghu Road"
+  badtrans: false
 - raw: "初入江湖"
   result: "Enter Jianghu"
+  badtrans: false
 - raw: "创建角色"
   result: "Create Character"
+  badtrans: false
 - raw: "读取存档"
   result: "Load Save"
 - raw: "自动存档"
@@ -44,7 +47,9 @@
 
 - raw: "普通"
   result: "Normal"
+  badtrans: false
 - raw: "困难"
   result: "Hard"
+  badtrans: false
 - raw: "极难"
   result: "Extreme"

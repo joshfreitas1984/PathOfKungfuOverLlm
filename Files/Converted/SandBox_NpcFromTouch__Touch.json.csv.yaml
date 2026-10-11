@@ -8,7 +8,7 @@
   splits:
   - split: 4
     text: "小子胡闹......山野间野兽横行，还不速速归去。"
-    translated: "Youngster, you're causing trouble... There are wild beasts roaming the mountains and fields. You should hurry back."
+    translated: "Youngster, stop causing trouble... Wild beasts roam these mountains. You should return home at once."
 - raw: "2,1110001010,10,[0].talks{json}[2].name,杜颜白"
   splits:
   - split: 4
@@ -18,7 +18,7 @@
   splits:
   - split: 4
     text: "丫头胡闹......山野间野兽横行，还不速速归去。"
-    translated: "You're causing trouble... There are wild beasts roaming about in the mountains. You should hurry back."
+    translated: "You're being naughty... There are wild beasts roaming about in the mountains. You should hurry back."
 - raw: "2,1110001010,10,[1].talks{json}[0].name,杜颜白"
   splits:
   - split: 4
@@ -28,7 +28,7 @@
   splits:
   - split: 4
     text: "尘缘散尽，让他们……入土为安罢，待你准备好了，我会送你离去。"
-    translated: "With all worldly ties severed, let them... rest in peace. When you are ready, I will see you off."
+    translated: "With all worldly ties severed, let them rest in peace... When you are ready, I will see you off."
 - raw: "2,1110001010,10,[2].talks{json}[0].name,杜颜白"
   splits:
   - split: 4
@@ -43,7 +43,7 @@
   splits:
   - split: 4
     text: "小钰爹"
-    translated: "Little Yu's father"
+    translated: "Xiaoyu's Father"
 - raw: "3,1110001004,10,[0].talks{json}[0].talk,若无他事便快离去，莫扰我饮酒。"
   splits:
   - split: 4
@@ -58,7 +58,7 @@
   splits:
   - split: 4
     text: "客官，咱店里可有上好的女儿红"
-    translated: "Customer, we have some fine Nv Hong wine in our store."
+    translated: "Customer, we have some fine Nu Hong here."
   - split: 4
     subIndex: 1
     text: "您看需要点啥..."
@@ -80,7 +80,7 @@
   splits:
   - split: 4
     text: "垂钓翁"
-    translated: "Fishing Old Man"
+    translated: "Old Fisherman"
 - raw: "5,1110003003,10,[0].talks{json}[0].talk,子非鱼，我亦非鱼……"
   splits:
   - split: 4
@@ -90,67 +90,67 @@
   splits:
   - split: 4
     text: "关于青萍真相。"
-    translated: "Regarding the truth of Qingping"
+    translated: "About the truth of Qingping"
 - raw: "5,1110003003,10,[0].talks{json}[1].name,垂钓翁"
   splits:
   - split: 4
     text: "垂钓翁"
-    translated: "Fishing Old Man"
+    translated: "Old Fisherman"
 - raw: "5,1110003003,10,[0].talks{json}[1].talk,子非鱼，我非鱼……不，你是鱼！我亦是鱼！是鱼！"
   splits:
   - split: 4
     text: "子非鱼，我非鱼……不，你是鱼！我亦是鱼！是鱼！"
-    translated: "You are not a fish, I am not a fish......No, you are a fish! I am also a fish! We are fish!"
+    translated: "You are not a fish, I am not a fish......No, you are a fish! I am also a fish! We are both fish!"
 - raw: "5,1110003003,10,[1].talks{json}[0].name,垂钓翁"
   splits:
   - split: 4
     text: "垂钓翁"
-    translated: "Fishing Old Man"
+    translated: "Old Fisherman"
 - raw: "5,1110003003,10,[1].talks{json}[0].talk,附骨之蛆，杀我之人如附骨之蛆！未曾再犯，老朽未曾再犯，何不放我一条生路？"
   splits:
   - split: 4
     text: "附骨之蛆，杀我之人如附骨之蛆！未曾再犯，老朽未曾再犯，何不放我一条生路？"
-    translated: "Like maggots to bones, those who killed me are like maggots to bones! I have not offended again, old man that I am, I have not offended again. Why not let me live?"
+    translated: "Like a maggot attached to bone, those who killed me are like maggots attached to bone! I have not offended again, I have not offended again, why not let me live?"
 - raw: "5,1110003003,10,[1].talks{json}[1].name,垂钓翁"
   splits:
   - split: 4
     text: "垂钓翁"
-    translated: "Fishing Old Man"
+    translated: "Old Fisherman"
 - raw: "5,1110003003,10,[1].talks{json}[1].talk,生路……生路，既无法独善其身，那便自保，将那知情之人翦除便好，嘿嘿嘿，善哉，善哉！"
   splits:
   - split: 4
     text: "生路……生路，既无法独善其身，那便自保，将那知情之人翦除便好，嘿嘿嘿，善哉，善哉！"
-    translated: "A way to survive... to survive, if I cannot remain uninvolved, then I must protect myself and eliminate the person who knows, heh heh heh, good, very good!"
+    translated: "A way to survive... to survive, if I cannot remain uninvolved, then I must protect myself and eliminate the person who knows, heh heh heh, good, good!"
 - raw: "5,1110003003,10,[2].talks{json}[0].talk,垂钓翁发抖如筛糠，掩面蜷身，不敢应答与你。"
   splits:
   - split: 4
     text: "垂钓翁发抖如筛糠，掩面蜷身，不敢应答与你。"
-    translated: "The old man fishing trembled like a sieve, covering his face and curling up, daring not to respond to you."
+    translated: "The Old Fisherman trembled like a sieve, covering his face and curling up, daring not to respond to you."
 - raw: "5,1110003003,10,[3].talks{json}[0].name,垂钓翁"
   splits:
   - split: 4
     text: "垂钓翁"
-    translated: "Fishing Old Man"
+    translated: "Old Fisherman"
 - raw: "5,1110003003,10,[3].talks{json}[0].talk,妙极，妙极。有那沉香郁芷，不愁那小厮不死！善哉，平安可保，可保啊！"
   splits:
   - split: 4
     text: "妙极，妙极。有那沉香郁芷，不愁那小厮不死！善哉，平安可保，可保啊！"
-    translated: "Wonderful, wonderful. With the agarwood and lush angelica, there's no fear that the servant won't die! Good, peace can be assured, assured!"
+    translated: "Wonderful, wonderful. With the agarwood and lush angelica, there's no fear of that servant boy not dying! Good, peace can be assured, assured!"
 - raw: "6,1110002009,10,[0].talks{json}[0].name,糖人张"
   splits:
   - split: 4
     text: "糖人张"
-    translated: "Tangren Zhang"
+    translated: "Candy Figurine Zhang"
 - raw: "6,1110002009,10,[0].talks{json}[0].talk,我老张的糖人儿呀，十里八乡独一份。"
   splits:
   - split: 4
     text: "我老张的糖人儿呀，十里八乡独一份。"
-    translated: "My candy figurines, unique within a hundred miles."
+    translated: "My candy figurines, Zhang Laoshi's candy figurines, are one of a kind for miles around."
 - raw: "6,1110002009,10,[0].talks{json}[0].options{json}[0].name,且瞧上一瞧。"
   splits:
   - split: 4
     text: "且瞧上一瞧。"
-    translated: "Take a look"
+    translated: "Take a look then"
 - raw: "6,1110002009,10,[0].talks{json}[0].options{json}[1].name,离开。"
   splits:
   - split: 4
@@ -170,1600 +170,1337 @@
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[0].talks{json}[1].talk,<fName>大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
   splits:
   - split: 4
-    text: "大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
-    translated: "Big Brother......don't worry, there will be a way to learn martial arts. When Father returns, I'll talk to him properly......"
-  templates:
-  - split: 4
-    template: "<fName>{0}"
+    text: "<fName>大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
+    translated: "<fName>Big Brother......don't worry, there will be a way to learn martial arts. When Father returns, I will talk to him properly......"
 - raw: "8,1110001003,10,[0].talks{json}[2].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[0].talks{json}[2].talk,<fName>姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
   splits:
   - split: 4
-    text: "姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
-    translated: "Older Sister......don't worry. There will be a way to learn martial arts. When Father returns, I'll talk to him properly......"
-  templates:
-  - split: 4
-    template: "<fName>{0}"
+    text: "<fName>姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
+    translated: "<fName>Sister......don't worry, there will be a way to learn martial arts. When Father returns, I'll talk to him properly......"
 - raw: "8,1110001003,10,[1].talks{json}[1].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[1].talk,呀，这草编花环真好看，没想到<fName>大哥如此手巧。"
   splits:
   - split: 4
-    text: "呀，这草编花环真好看，没想到"
-    translated: "Wow, this grass wreath is really pretty; I never would have thought to make one."
-  - split: 4
-    subIndex: 1
-    text: "大哥如此手巧。"
-    translated: "Big Brother is so skilled with your hands."
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "呀，这草编花环真好看，没想到<fName>大哥如此手巧。"
+    translated: "Oh, this woven flower crown is so pretty. I never would have thought Big Brother <fName> was so skilled."
 - raw: "8,1110001003,10,[1].talks{json}[1].options{json}[0].name,将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
     text: "将帮助果果获赠花环一事道出。"
-    translated: "Tell her about helping Guoguo receive a wreath."
+    translated: "Tell her about helping Guoguo get the flower wreath."
 - raw: "8,1110001003,10,[1].talks{json}[1].options{json}[1].name,谎称是自己所做。"
   splits:
   - split: 4
     text: "谎称是自己所做。"
-    translated: "Lied and said it was their own doing."
+    translated: "Lied and said they did it themselves"
 - raw: "8,1110001003,10,[1].talks{json}[2].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[2].talk,呀，这草编花环真好看，没想到<fName>姐姐如此手巧。"
   splits:
   - split: 4
-    text: "呀，这草编花环真好看，没想到"
-    translated: "Wow, this grass wreath is really pretty; I never would have thought to make one."
-  - split: 4
-    subIndex: 1
-    text: "姐姐如此手巧。"
-    translated: "Older Sister is so skilled with your hands."
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "呀，这草编花环真好看，没想到<fName>姐姐如此手巧。"
+    translated: "Oh, this woven flower crown is so pretty. I never would have thought <fName> Older Sister was so skilled with her hands."
 - raw: "8,1110001003,10,[1].talks{json}[2].options{json}[0].name,将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
     text: "将帮助果果获赠花环一事道出。"
-    translated: "Tell her about helping Guoguo receive a wreath."
+    translated: "Tell her about helping Guoguo get the flower wreath."
 - raw: "8,1110001003,10,[1].talks{json}[2].options{json}[1].name,谎称是自己所做。"
   splits:
   - split: 4
     text: "谎称是自己所做。"
-    translated: "Lied and said it was their own doing."
+    translated: "Lied and said they did it themselves"
 - raw: "8,1110001003,10,[1].talks{json}[3].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[3].talk,那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
   splits:
   - split: 4
-    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有"
-    translated: "Those three children are so naughty, bullying Guoguo again! Fortunately, there was someone to help."
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "相助，否则也不知道果果会多伤心......"
-    translated: "Help her, or else you wouldn't know how sad Guoguo would be......"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
+    translated: "Those three children are so naughty, bullying Guoguo again! Thanks to <fName><Big Brother||Big Sister>'s help, otherwise who knows how sad Guoguo would be......"
 - raw: "8,1110001003,10,[1].talks{json}[4].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[4].talk,没想到<fName>大哥还有这般心思细腻的一面。"
   splits:
   - split: 4
-    text: "没想到"
-    translated: "Unexpectedly"
-  - split: 4
-    subIndex: 1
-    text: "大哥还有这般心思细腻的一面。"
-    translated: "Big Brother has such a thoughtful side"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "没想到<fName>大哥还有这般心思细腻的一面。"
+    translated: "I didn't realize Big Brother <fName> had such a thoughtful side."
 - raw: "8,1110001003,10,[1].talks{json}[5].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[5].talk,<fName>姐姐竟如此手巧。"
   splits:
   - split: 4
-    text: "姐姐竟如此手巧。"
-  templates:
-  - split: 4
-    template: "<fName>{0}"
+    text: "<fName>姐姐竟如此手巧。"
+    translated: "<fName>Sister is so skilled"
 - raw: "8,1110001003,10,[1].talks{json}[6].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[6].talk,若是<fName>大哥得空，能否教教我如何这花环的制法。"
   splits:
   - split: 4
-    text: "若是"
-  - split: 4
-    subIndex: 1
-    text: "大哥得空，能否教教我如何这花环的制法。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "若是<fName>大哥得空，能否教教我如何这花环的制法。"
+    translated: "If Big Brother <fName> has the time, could you teach me how to make these flower wreaths?"
 - raw: "8,1110001003,10,[1].talks{json}[6].options{json}[0].name,称仍有急事尚待处理，羞红着脸离去。"
   splits:
   - split: 4
     text: "称仍有急事尚待处理，羞红着脸离去。"
+    translated: "Blushing, they excused themselves with urgent matters to attend to and left."
 - raw: "8,1110001003,10,[1].talks{json}[6].options{json}[1].name,承认并非自己所做花环，并将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
     text: "承认并非自己所做花环，并将帮助果果获赠花环一事道出。"
+    translated: "Admitting that the wreath was not her work, she explained how she would help Guoguo receive the wreath."
 - raw: "8,1110001003,10,[1].talks{json}[7].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[7].talk,若是<fName>姐姐得空，能否教教我如何这花环的制法。"
   splits:
   - split: 4
-    text: "若是"
-  - split: 4
-    subIndex: 1
-    text: "姐姐得空，能否教教我如何这花环的制法。"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "若是<fName>姐姐得空，能否教教我如何这花环的制法。"
+    translated: "If Older Sister <fName> has the time, could you teach me how to make these flower wreaths?"
 - raw: "8,1110001003,10,[1].talks{json}[7].options{json}[0].name,称仍有急事尚待处理，羞红着脸离去。"
   splits:
   - split: 4
     text: "称仍有急事尚待处理，羞红着脸离去。"
+    translated: "Blushing, they excused themselves with urgent matters to attend to and left."
 - raw: "8,1110001003,10,[1].talks{json}[7].options{json}[1].name,承认并非自己所做花环，并将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
     text: "承认并非自己所做花环，并将帮助果果获赠花环一事道出。"
+    translated: "Admitting that the wreath was not her work, she explained how she would help Guoguo receive the wreath."
 - raw: "8,1110001003,10,[1].talks{json}[8].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[8].talk,小钰羞涩一笑，晶莹的耳梢处微微泛红，随后露出一副原来如此的神情。"
   splits:
   - split: 4
     text: "小钰羞涩一笑，晶莹的耳梢处微微泛红，随后露出一副原来如此的神情。"
+    translated: "Xiao Yu blushed and smiled shyly, her delicate earlobes turning slightly red, before she wore an expression of realization."
 - raw: "8,1110001003,10,[1].talks{json}[9].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[9].talk,这花环，果果也曾赠与小钰......那孩子真是......"
   splits:
   - split: 4
     text: "这花环，果果也曾赠与小钰......那孩子真是......"
+    translated: "This flower crown, Guoguo once gave to Xiaoyu... that child really..."
 - raw: "8,1110001003,10,[1].talks{json}[10].talk,随后小钰又微微鼓嘴，眉头稍皱，露出一副不满的表情。"
   splits:
   - split: 4
     text: "随后小钰又微微鼓嘴，眉头稍皱，露出一副不满的表情。"
+    translated: "Then Xiaoyu pouted slightly and frowned, showing an unhappy expression."
 - raw: "8,1110001003,10,[1].talks{json}[11].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[1].talks{json}[11].talk,那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
   splits:
   - split: 4
-    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有"
-    translated: "Those three children are so naughty, bullying Guoguo again! Fortunately, there was someone to help."
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "相助，否则也不知道果果会多伤心......"
-    translated: "Help her, or else you wouldn't know how sad Guoguo would be......"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
+    translated: "Those three children are so naughty, bullying Guoguo again! Thanks to <fName><Big Brother||Big Sister>'s help, otherwise who knows how sad Guoguo would be......"
 - raw: "8,1110001003,10,[2].talks{json}[0].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[2].talks{json}[0].talk,<少侠||女侠>，你是？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，你是？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，你是？"
+    translated: "<Young Hero||Heroine>, who are you?"
 - raw: "8,1110001003,10,[3].talks{json}[1].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[3].talks{json}[1].talk,……可惜，我却不识得什么武学功法，不然，真的也想随<fName>大哥一道去看看江湖之间……"
   splits:
   - split: 4
-    text: "……可惜，我却不识得什么武学功法，不然，真的也想随"
-  - split: 4
-    subIndex: 1
-    text: "大哥一道去看看江湖之间……"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "……可惜，我却不识得什么武学功法，不然，真的也想随<fName>大哥一道去看看江湖之间……"
+    translated: "...Unfortunately, I don't know any martial arts techniques. Otherwise, I really would like to go with Big Brother <fName> and see the Jianghu..."
 - raw: "8,1110001003,10,[3].talks{json}[2].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[3].talks{json}[2].talk,……可惜，我却不识得什么武学功法，不然，真的也想随<fName>姐姐一道去看看江湖之间……"
   splits:
   - split: 4
-    text: "……可惜，我却不识得什么武学功法，不然，真的也想随"
-  - split: 4
-    subIndex: 1
-    text: "姐姐一道去看看江湖之间……"
-  templates:
-  - split: 4
-    template: "{0}<fName>{1}"
+    text: "……可惜，我却不识得什么武学功法，不然，真的也想随<fName>姐姐一道去看看江湖之间……"
+    translated: "...Unfortunately, I don't know any martial arts techniques. Otherwise, I really would like to go with Older Sister <fName> and see the Jianghu..."
 - raw: "8,1110001003,10,[4].talks{json}[0].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[4].talks{json}[0].talk,<fName><兄||姐姐>，你来啦！"
   splits:
   - split: 4
-    text: "兄"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 2
-    text: "，你来啦！"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄||姐姐>，你来啦！"
+    translated: "<fName><Brother||Sister>, you're here!"
 - raw: "8,1110001003,10,[5].talks{json}[0].name,小钰"
   splits:
   - split: 4
     text: "小钰"
-    translated: "Xiao Yu"
+    translated: "Xiaoyu"
 - raw: "8,1110001003,10,[5].talks{json}[0].talk,小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
   splits:
   - split: 4
-    text: "小钰还需在此处照顾爹爹，"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "行走江湖若是念及小钰，常来此处瞧瞧便好……"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
+    translated: "Little Yu still needs to take care of Father here, <fName><Big Brother||Big Sister>. If you think of Little Yu while wandering Jianghu, come and visit this place from time to time..."
 - raw: "9,1110002002,10,[1].talks{json}[0].name,柳星雨"
   splits:
   - split: 4
     text: "柳星雨"
+    translated: "Liu Xingyu"
 - raw: "9,1110002002,10,[1].talks{json}[0].talk,先前还真瞧不出，这木头除了武功，农事也有两下子。"
   splits:
   - split: 4
     text: "先前还真瞧不出，这木头除了武功，农事也有两下子。"
+    translated: "Actually, I hadn't noticed before that this guy is pretty handy with farming as well as martial skills."
 - raw: "10,1110002007,10,[0].talks{json}[0].name,肖婆婆"
   splits:
   - split: 4
     text: "肖婆婆"
+    translated: "Granny Xiao"
 - raw: "10,1110002007,10,[0].talks{json}[0].talk,（悄声）王扫庭，看老身不......你这娃娃来此作甚？"
   splits:
   - split: 4
     text: "（悄声）王扫庭，看老身不......你这娃娃来此作甚？"
+    translated: "(In a whisper) Wang Saoting, do not think I won't... What are you up to, young one?"
 - raw: "11,1110003001,10,[0].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[0].talks{json}[0].talk,……<fName><少侠||女侠>，此间逢变，已再非安居之处，还是速离此地罢……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，此间逢变，已再非安居之处，还是速离此地罢……"
-  templates:
-  - split: 4
-    template: "……<fName><{0}||{1}>{2}"
+    text: "……<fName><少侠||女侠>，此间逢变，已再非安居之处，还是速离此地罢……"
+    translated: "......<fName><Young Hero||Heroine>, with changes afoot, this place is no longer safe. We should leave quickly......"
 - raw: "11,1110003001,10,[0].talks{json}[0].options{json}[0].name,关于青萍真相。"
   splits:
   - split: 4
     text: "关于青萍真相。"
-    translated: "Regarding the truth of Qingping"
+    translated: "About the truth of Qingping"
 - raw: "11,1110003001,10,[0].talks{json}[1].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[0].talks{json}[1].talk,还请<少侠||女侠>听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
   splits:
   - split: 4
-    text: "还请"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "还请<少侠||女侠>听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
+    translated: "Please listen to me for a moment, <Young Hero||Heroine>. Past wrongs should not be dwelled upon. Whether they were evil or good, they are but wisps of smoke that fade away... do not ask about them anymore......"
 - raw: "11,1110003001,10,[0].talks{json}[2].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[0].talks{json}[2].talk,我只想看果果那孩子平安长大，过往之事，<少侠||女侠>……莫要再提。"
   splits:
   - split: 4
-    text: "我只想看果果那孩子平安长大，过往之事，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "……莫要再提。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "我只想看果果那孩子平安长大，过往之事，<少侠||女侠>……莫要再提。"
+    translated: "I only want to see Guoguo grow up safe and sound; as for the past, <Young Hero||Heroine>, let's not mention it again."
 - raw: "11,1110003001,10,[1].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[1].talks{json}[0].talk,驱散狼群一事风险颇高，<少侠||女侠>需得多加小心啊！"
   splits:
   - split: 4
-    text: "驱散狼群一事风险颇高，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "需得多加小心啊！"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "驱散狼群一事风险颇高，<少侠||女侠>需得多加小心啊！"
+    translated: "Dealing with the wolf pack is quite risky, <Young Hero||Heroine> must be extra careful!"
 - raw: "11,1110003001,10,[2].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[2].talks{json}[0].talk,虽说白毫已去，但狼群仍旧虎视眈眈，<少侠||女侠>还需多加小心。"
   splits:
   - split: 4
-    text: "虽说白毫已去，但狼群仍旧虎视眈眈，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "还需多加小心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "虽说白毫已去，但狼群仍旧虎视眈眈，<少侠||女侠>还需多加小心。"
+    translated: "Though the white feather has gone, the wolf pack still watches with a predator's gaze; <Young Hero||Heroine>, you must remain cautious."
 - raw: "11,1110003001,10,[3].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[3].talks{json}[0].talk,多谢<少侠||女侠>相助果果，见到果果回家，我便安心了。"
   splits:
   - split: 4
-    text: "多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "相助果果，见到果果回家，我便安心了。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "多谢<少侠||女侠>相助果果，见到果果回家，我便安心了。"
+    translated: "Thank you for helping Guoguo, <Young Hero||Heroine>. Knowing that Guoguo has returned home, I am at ease."
 - raw: "11,1110003001,10,[3].talks{json}[0].options{json}[0].name,果果仅在村中玩耍，并无野兽在村庄内侵袭，孙叔伯多虑了"
   splits:
   - split: 4
     text: "果果仅在村中玩耍，并无野兽在村庄内侵袭，孙叔伯多虑了"
+    translated: "Guoguo has only been playing in the village, and there have been no beasts attacking within the village. Uncle Sun was worrying unnecessarily."
 - raw: "11,1110003001,10,[3].talks{json}[1].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[3].talks{json}[1].talk,<少侠||女侠>，听我一言，远离此间，安身自保罢。"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，听我一言，远离此间，安身自保罢。"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，听我一言，远离此间，安身自保罢。"
+    translated: "<Young Hero||Heroine>, listen to me. Stay away from here and keep yourself safe."
 - raw: "11,1110003001,10,[3].talks{json}[2].name,孙猎户"
   splits:
   - split: 4
     text: "孙猎户"
+    translated: "Hunter Sun"
 - raw: "11,1110003001,10,[3].talks{json}[2].talk,言尽于此，<少侠||女侠>聪慧，自能明悟。"
   splits:
   - split: 4
-    text: "言尽于此，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "聪慧，自能明悟。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "言尽于此，<少侠||女侠>聪慧，自能明悟。"
+    translated: "I have said enough, <Young Hero||Heroine>. You are wise and can understand the rest on your own."
 - raw: "11,1110003001,10,[3].talks{json}[3].talk,无论如何询问，孙猎户不再理会你，只是愣愣往后山方向望去。"
   splits:
   - split: 4
     text: "无论如何询问，孙猎户不再理会你，只是愣愣往后山方向望去。"
+    translated: "No matter how you ask, Hunter Sun ignores you and just stares blankly in the direction of the back mountain."
 - raw: "12,1120001010,10,[0].talks{json}[0].name,西门仲"
   splits:
   - split: 4
     text: "西门仲"
+    translated: "Ximen Zhong"
 - raw: "12,1120001010,10,[0].talks{json}[0].talk,在下此刻心乱如麻，<fName><兄||姑娘>可否容我为先兄扫墓之后，你我再行商议？"
   splits:
   - split: 4
-    text: "在下此刻心乱如麻，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可否容我为先兄扫墓之后，你我再行商议？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "在下此刻心乱如麻，<fName><兄||姑娘>可否容我为先兄扫墓之后，你我再行商议？"
+    translated: "My mind is in turmoil at the moment; might I have your permission, <fName><Brother||Miss>, to pay my respects to my elder brother first, and then discuss this with you?"
 - raw: "12,1120001010,10,[1].talks{json}[0].name,西门仲"
   splits:
   - split: 4
     text: "西门仲"
+    translated: "Ximen Zhong"
 - raw: "12,1120001010,10,[1].talks{json}[0].talk,那小贼平时就藏在陋巷，那处南宫家耳目众多，待我点齐护院家仆，你我径去相会。"
   splits:
   - split: 4
     text: "那小贼平时就藏在陋巷，那处南宫家耳目众多，待我点齐护院家仆，你我径去相会。"
+    translated: "That thief usually hides in the alley; there are many of Nangong's eyes and ears there. Once I gather the guards and servants, let's go straight to meet him."
 - raw: "13,1120002073,10,[0].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
     text: "南宫莲"
+    translated: "Nangong Lian"
 - raw: "13,1120002073,10,[0].talks{json}[0].talk,阁下此后若有何事需南宫家相助，还望不吝相告。"
   splits:
   - split: 4
     text: "阁下此后若有何事需南宫家相助，还望不吝相告。"
+    translated: "Sir, if you ever need the Nangong family's assistance in the future, I hope you will not hesitate to inform us."
 - raw: "13,1120002073,10,[1].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
     text: "南宫莲"
+    translated: "Nangong Lian"
 - raw: "13,1120002073,10,[1].talks{json}[0].talk,历经西门家之事，承安时局更是乱上加乱，只愿东市那些人莫要借机生事，否则……"
   splits:
   - split: 4
     text: "历经西门家之事，承安时局更是乱上加乱，只愿东市那些人莫要借机生事，否则……"
+    translated: "After the incident at the Western Gate family, the political situation in Cheng'an has become even more chaotic. I only hope that those people in the East Market do not take advantage of the situation to cause trouble, or else..."
 - raw: "13,1120002073,10,[2].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
     text: "南宫莲"
+    translated: "Nangong Lian"
 - raw: "13,1120002073,10,[2].talks{json}[0].talk,阁下此后若有何事需南宫家相助，还望不吝相告。"
   splits:
   - split: 4
     text: "阁下此后若有何事需南宫家相助，还望不吝相告。"
+    translated: "Sir, if you ever need the Nangong family's assistance in the future, I hope you will not hesitate to inform us."
 - raw: "13,1120002073,10,[3].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
     text: "南宫莲"
+    translated: "Nangong Lian"
 - raw: "13,1120002073,10,[3].talks{json}[0].talk,<fName><少侠||姑娘>，自承安一别，咱们可许久未见了。"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，自承安一别，咱们可许久未见了。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><少侠||姑娘>，自承安一别，咱们可许久未见了。"
+    translated: "<fName><Young Hero||Miss>, since parting at Zichan, we haven't seen each other in a long while."
 - raw: "13,1120002073,10,[4].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
     text: "南宫莲"
+    translated: "Nangong Lian"
 - raw: "13,1120002073,10,[4].talks{json}[0].talk,也不知离开许久，承安镇现下如何了。"
   splits:
   - split: 4
     text: "也不知离开许久，承安镇现下如何了。"
+    translated: "I wonder how Cheng'an Town is now, after being away for so long."
 - raw: "13,1120002073,10,[4].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
     text: "江湖同游。"
+    translated: "Jianghu journey together"
 - raw: "13,1120002073,10,[4].talks{json}[0].options{json}[1].name,暂且离去。"
   splits:
   - split: 4
     text: "暂且离去。"
+    translated: "Take a temporary leave"
 - raw: "14,1120001024,10,[0].talks{json}[0].name,孟阳伯"
   splits:
   - split: 4
     text: "孟阳伯"
+    translated: "Meng Yang Bo"
 - raw: "14,1120001024,10,[0].talks{json}[0].talk,此庙已荒废多年，无甚特别之处，<少侠||女侠>尽快离去罢......"
   splits:
   - split: 4
-    text: "此庙已荒废多年，无甚特别之处，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "尽快离去罢......"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此庙已荒废多年，无甚特别之处，<少侠||女侠>尽快离去罢......"
+    translated: "This temple has been abandoned for many years; there is nothing special here. <Young Hero||Heroine>, leave quickly..."
 - raw: "15,1120002044,10,[0].talks{json}[0].talk,李青山低垂着头沉默不语......"
   splits:
   - split: 4
     text: "李青山低垂着头沉默不语......"
+    translated: "Li Qingshan hung his head and said nothing......"
 - raw: "15,1120002044,10,[1].talks{json}[0].name,李青山"
   splits:
   - split: 4
     text: "李青山"
+    translated: "Li Qingshan"
 - raw: "15,1120002044,10,[1].talks{json}[0].talk,好一个……快活……"
   splits:
   - split: 4
     text: "好一个……快活……"
+    translated: "Well then......carefree......"
 - raw: "16,1120002048,10,[0].talks{json}[0].name,赵云灵"
   splits:
   - split: 4
     text: "赵云灵"
+    translated: "Zhao Yunling"
 - raw: "16,1120002048,10,[0].talks{json}[0].talk,此地尚好，妾身已然认命，与你无甚可言。"
   splits:
   - split: 4
     text: "此地尚好，妾身已然认命，与你无甚可言。"
+    translated: "This place is fine, I have accepted my fate, and there is little left to say between us."
 - raw: "16,1120002048,10,[0].talks{json}[1].talk,她所言似有深意，或可等子时之后再来……"
   splits:
   - split: 4
     text: "她所言似有深意，或可等子时之后再来……"
+    translated: "What she said seemed to have deeper meaning; perhaps you should return after midnight..."
 - raw: "17,1120002083,10,[0].talks{json}[0].name,邓红婵"
   splits:
   - split: 4
     text: "邓红婵"
+    translated: "Deng Hongchan"
 - raw: "17,1120002083,10,[0].talks{json}[0].talk,<公子||姑娘>，还有何事？"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，还有何事？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>，还有何事？"
+    translated: "<Young Master||Miss>, is there anything else?"
 - raw: "17,1120002083,10,[1].talks{json}[0].name,邓红婵"
   splits:
   - split: 4
     text: "邓红婵"
+    translated: "Deng Hongchan"
 - raw: "17,1120002083,10,[1].talks{json}[0].talk,不单刺杀东天霸，更将连环寨剿灭……究竟是何等样人？"
   splits:
   - split: 4
     text: "不单刺杀东天霸，更将连环寨剿灭……究竟是何等样人？"
+    translated: "Not only did they assassinate Dong Tianba, but they also wiped out Lianhuan Stronghold... Who could be capable of such deeds?"
 - raw: "17,1120002083,10,[1].talks{json}[1].name,邓红婵"
   splits:
   - split: 4
     text: "邓红婵"
+    translated: "Deng Hongchan"
 - raw: "17,1120002083,10,[1].talks{json}[1].talk,可真想……见上一见。"
   splits:
   - split: 4
     text: "可真想……见上一见。"
+    translated: "I really want to... see them once."
 - raw: "17,1120002083,10,[2].talks{json}[0].name,邓红婵"
   splits:
   - split: 4
     text: "邓红婵"
+    translated: "Deng Hongchan"
 - raw: "17,1120002083,10,[2].talks{json}[0].talk,全安武馆传承百年，未曾想竟有今日之祸……"
   splits:
   - split: 4
     text: "全安武馆传承百年，未曾想竟有今日之祸……"
+    translated: "The Quan'an Martial Arts Hall has a hundred-year legacy, never imagining such calamity would befall it today......"
 - raw: "18,1120002076,10,[0].talks{json}[0].name,许绣娘"
   splits:
   - split: 4
     text: "许绣娘"
+    translated: "Seamstress Xu"
 - raw: "18,1120002076,10,[0].talks{json}[0].talk,……多谢<少侠||姑娘>相救之恩……"
   splits:
   - split: 4
-    text: "……多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "相救之恩……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "……多谢<少侠||姑娘>相救之恩……"
+    translated: "......Thank you for your rescue, <Young Hero||Miss>......"
 - raw: "19,1120001006,10,[0].talks{json}[0].name,小包袱"
   splits:
   - split: 4
     text: "小包袱"
+    translated: "Little Bundle"
 - raw: "19,1120001006,10,[0].talks{json}[0].talk,不许欺负小七姐姐！"
   splits:
   - split: 4
     text: "不许欺负小七姐姐！"
+    translated: "Don't bully Older Sister Xiaoqi!"
 - raw: "19,1120001006,10,[1].talks{json}[0].name,小包袱"
   splits:
   - split: 4
     text: "小包袱"
+    translated: "Little Bundle"
 - raw: "19,1120001006,10,[1].talks{json}[0].talk,要是天下间能再多些大<哥哥||姐姐>这般的人，那便好了……"
   splits:
   - split: 4
-    text: "要是天下间能再多些大"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "这般的人，那便好了……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "要是天下间能再多些大<哥哥||姐姐>这般的人，那便好了……"
+    translated: "If there were more people like this <Big Brother||Big Sister> in the world, that would be wonderful......"
 - raw: "20,1120001007,10,[0].talks{json}[0].name,狗剩儿"
   splits:
   - split: 4
     text: "狗剩儿"
+    translated: "Gousheng'er"
 - raw: "20,1120001007,10,[0].talks{json}[0].talk,你……你要是敢欺……欺负小七姐姐，我的黑……黑虎拳，可不是吃素的！"
   splits:
   - split: 4
     text: "你……你要是敢欺……欺负小七姐姐，我的黑……黑虎拳，可不是吃素的！"
+    translated: "You... you try to bully my Older Sister Qiaoqi, and my Black Tiger Fist won't be easy to handle!"
 - raw: "20,1120001007,10,[1].talks{json}[0].name,狗剩儿"
   splits:
   - split: 4
     text: "狗剩儿"
+    translated: "Gousheng'er"
 - raw: "20,1120001007,10,[1].talks{json}[0].talk,我日后要苦练我的黑虎拳，也去当惩恶扬善的大侠！"
   splits:
   - split: 4
     text: "我日后要苦练我的黑虎拳，也去当惩恶扬善的大侠！"
+    translated: "I will train hard in my Black Tiger Fist and become a great hero who fights for justice!"
 - raw: "21,1120001008,10,[0].talks{json}[0].name,小七"
   splits:
   - split: 4
     text: "小七"
+    translated: "Xiaoqi"
 - raw: "21,1120001008,10,[0].talks{json}[0].talk,嗯……只是借你，记得还我钗子......"
   splits:
   - split: 4
     text: "嗯……只是借你，记得还我钗子......"
+    translated: "Hmm... I'm just borrowing this from you, remember to return my hairpin..."
 - raw: "21,1120001008,10,[1].talks{json}[0].name,小七"
   splits:
   - split: 4
     text: "小七"
+    translated: "Xiaoqi"
 - raw: "21,1120001008,10,[1].talks{json}[0].talk,<fName><哥哥||姐姐>，可寻见了燕大侠么？"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 2
-    text: "，可寻见了燕大侠么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><哥哥||姐姐>，可寻见了燕大侠么？"
+    translated: "<fName><Big Brother||Big Sister>, have you found Great Hero Yan?"
 - raw: "21,1120001008,10,[2].talks{json}[0].name,小七"
   splits:
   - split: 4
     text: "小七"
+    translated: "Xiaoqi"
 - raw: "21,1120001008,10,[2].talks{json}[0].talk,可惜小七本领低微，若能助<fName><哥哥||姐姐>手刃连天明，那才解气！"
   splits:
   - split: 4
-    text: "可惜小七本领低微，若能助"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "手刃连天明，那才解气！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "可惜小七本领低微，若能助<fName><哥哥||姐姐>手刃连天明，那才解气！"
+    translated: "Unfortunately, Xiaoqi's skills are weak. If only I could help <fName><Big Brother||Big Sister> defeat Lian Tianming personally, that would be satisfying!"
 - raw: "21,1120001008,10,[3].talks{json}[0].name,小七"
   splits:
   - split: 4
     text: "小七"
+    translated: "Xiaoqi"
 - raw: "21,1120001008,10,[3].talks{json}[0].talk,咦？<fName><哥哥||姐姐>，你当真来京城找我跟莲花姐姐啦！"
   splits:
   - split: 4
-    text: "咦？"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "，你当真来京城找我跟莲花姐姐啦！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "咦？<fName><哥哥||姐姐>，你当真来京城找我跟莲花姐姐啦！"
+    translated: "Hey, <fName><Big Brother||Big Sister>! You really came to the Capital City to find me and Lotus Sister!"
 - raw: "21,1120001008,10,[4].talks{json}[0].name,小七"
   splits:
   - split: 4
     text: "小七"
+    translated: "Xiaoqi"
 - raw: "21,1120001008,10,[4].talks{json}[0].talk,如今想来，还是同<fName><哥哥||姐姐>闯荡江湖更有趣些。"
   splits:
   - split: 4
-    text: "如今想来，还是同"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "闯荡江湖更有趣些。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "如今想来，还是同<fName><哥哥||姐姐>闯荡江湖更有趣些。"
+    translated: "Now that I think about it, it's still more fun to wander the Jianghu with <fName><Big Brother||Big Sister>."
 - raw: "21,1120001008,10,[4].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
     text: "江湖同游。"
+    translated: "Jianghu journey together"
 - raw: "21,1120001008,10,[4].talks{json}[0].options{json}[1].name,暂且离去。"
   splits:
   - split: 4
     text: "暂且离去。"
+    translated: "Take a temporary leave"
 - raw: "22,1120001004,10,[0].talks{json}[0].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[0].talk,前番之事多谢<少侠||女侠>，不知<少侠||女侠>可还有何事相询？"
   splits:
   - split: 4
-    text: "前番之事多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "，不知"
-  - split: 4
-    subIndex: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 5
-    text: "女侠"
-  - split: 4
-    subIndex: 6
-    text: "可还有何事相询？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}<{4}||{5}>{6}"
+    text: "前番之事多谢<少侠||女侠>，不知<少侠||女侠>可还有何事相询？"
+    translated: "Thank you for your help last time, <Young Hero||Heroine>. Do you have anything else you wish to ask, <Young Hero||Heroine>?"
 - raw: "22,1120001004,10,[0].talks{json}[0].options{json}[0].name,“姑娘之前谈到祖父，不知是何事由”。"
   splits:
   - split: 4
     text: "“姑娘之前谈到祖父，不知是何事由”。"
+    translated: "Miss, you mentioned your grandfather earlier. What was that about?"
 - raw: "22,1120001004,10,[0].talks{json}[0].options{json}[1].name,“姑娘之前说是夺了连环寨信使的名帖，却不知姑娘欲去黑市做何？”。"
   splits:
   - split: 4
     text: "“姑娘之前说是夺了连环寨信使的名帖，却不知姑娘欲去黑市做何？”。"
+    translated: "Miss, you said earlier that you took the name card of Lianhuan Stronghold's messenger, but you didn't say what you wanted to do at the Black Market?"
 - raw: "22,1120001004,10,[0].talks{json}[0].options{json}[2].name,无事相询，告辞。"
   splits:
   - split: 4
     text: "无事相询，告辞。"
+    translated: "I have nothing to ask, farewell"
 - raw: "22,1120001004,10,[0].talks{json}[1].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[1].talk,……<少侠||女侠>如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
-  templates:
-  - split: 4
-    template: "……<{0}||{1}>{2}"
+    text: "……<少侠||女侠>如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
+    translated: "......<Young Hero||Heroine>, since you are so straightforward, if Chu Linling were to hide anything, it would be my fault. I might as well speak plainly."
 - raw: "22,1120001004,10,[0].talks{json}[2].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[2].talk,在下出身姑苏楚家，祖父曾为行伍中人，军效镇国卫，待镇国卫军解伍散军之后便安居家中养老，奈何性如烈火，之前见连环寨贼人夺人财物，便出手教训。"
   splits:
   - split: 4
     text: "在下出身姑苏楚家，祖父曾为行伍中人，军效镇国卫，待镇国卫军解伍散军之后便安居家中养老，奈何性如烈火，之前见连环寨贼人夺人财物，便出手教训。"
+    translated: "I come from the Chu family of Gusu. My grandfather used to be in the military, serving in the Imperial Guard. After he retired and settled down at home to Yanglao, his fiery nature could not bear seeing the bandits of Lianhuan Stronghold plundering others' possessions, so he intervened to teach them a lesson."
 - raw: "22,1120001004,10,[0].talks{json}[2].options{json}[0].name,“老先生可是因此负伤？”。"
   splits:
   - split: 4
     text: "“老先生可是因此负伤？”。"
+    translated: "Is the old master injured because of this?"
 - raw: "22,1120001004,10,[0].talks{json}[3].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[3].talk,我祖父怎会被这些宵小所伤？只是那些小人当真无耻，待祖父出手教训后便一直怀恨于心，终于被他们得了机会。"
   splits:
   - split: 4
     text: "我祖父怎会被这些宵小所伤？只是那些小人当真无耻，待祖父出手教训后便一直怀恨于心，终于被他们得了机会。"
+    translated: "How could my grandfather be hurt by such scoundrels? Those cowards were truly shameless; after my grandfather taught them a lesson, they harbored resentment and finally had their chance."
 - raw: "22,1120001004,10,[0].talks{json}[4].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[4].talk,十几日后，连环寨贼人窥得家中众人不在，突入家中，暗害祖父，祖父虽将诸多小人击退，却亦被他们夺去了家传之剑，祖父气火攻心，卧病在床，我又怎能不出手来寻这连环寨讨个公道！"
   splits:
   - split: 4
     text: "十几日后，连环寨贼人窥得家中众人不在，突入家中，暗害祖父，祖父虽将诸多小人击退，却亦被他们夺去了家传之剑，祖父气火攻心，卧病在床，我又怎能不出手来寻这连环寨讨个公道！"
+    translated: "A few days later, the bandits from Lianhuan Stronghold learned that everyone was away and suddenly entered our home, secretly harming my grandfather. Although he drove many of them back, they still managed to take our family sword. Overwhelmed with anger and grief, my grandfather fell ill in bed. How could I not act to seek justice from Lianhuan Stronghold?"
 - raw: "22,1120001004,10,[0].talks{json}[5].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[5].talk,近来数月，我一直在追索连环寨的踪迹，查到那连环寨曾取得一批火油柴薪，此时还未至寒冬冷月，取此物除了杀人放火，又是何故？"
   splits:
   - split: 4
     text: "近来数月，我一直在追索连环寨的踪迹，查到那连环寨曾取得一批火油柴薪，此时还未至寒冬冷月，取此物除了杀人放火，又是何故？"
+    translated: "In recent months, I have been tracking the whereabouts of Lianhuan Stronghold. I found out that they acquired a supply of oil and kindling, but it is not yet winter. If not for murder and arson, what other reason could there be for such an acquisition?"
 - raw: "22,1120001004,10,[0].talks{json}[6].name,楚林灵"
   splits:
   - split: 4
     text: "楚林灵"
+    translated: "Chu Linling"
 - raw: "22,1120001004,10,[0].talks{json}[6].talk,有能力聚集诸多物事的，恐怕便是承安黑市，若我所料不错，承安黑市背后的南宫家早已投效了那连环寨，说不得要将他们与连环寨一网打尽！"
   splits:
   - split: 4
     text: "有能力聚集诸多物事的，恐怕便是承安黑市，若我所料不错，承安黑市背后的南宫家早已投效了那连环寨，说不得要将他们与连环寨一网打尽！"
+    translated: "The one capable of gathering so many items is likely the Cheng'an Black Market. If my guess is correct, the Nangong family behind the Cheng'an Black Market has already pledged allegiance to the Lianhuan Stronghold. We may have to take them down along with the Lianhuan Stronghold!"
 - raw: "22,1120001004,10,[1].talks{json}[0].talk,适才于客栈见过的楚林灵正站在此处，焦急地寻觅着何物，还是不要打扰为好。"
   splits:
   - split: 4
     text: "适才于客栈见过的楚林灵正站在此处，焦急地寻觅着何物，还是不要打扰为好。"
+    translated: "Chu Linling, whom you met at the Inn earlier, is standing here searching for something urgently. It's best not to disturb her."
 - raw: "23,1120003013,10,[1].talks{json}[0].name,葛有方"
   splits:
   - split: 4
     text: "葛有方"
+    translated: "Ge Youfang"
 - raw: "23,1120003013,10,[1].talks{json}[0].talk,识时务者为俊杰，你仔细思量罢！"
   splits:
   - split: 4
     text: "识时务者为俊杰，你仔细思量罢！"
+    translated: "Those who are wise act according to the times; consider this carefully!"
 - raw: "26,1400001127,10,[0].talks{json}[0].talk,此人正望着太虚池屈指默算，还是莫要打扰了。"
   splits:
   - split: 4
     text: "此人正望着太虚池屈指默算，还是莫要打扰了。"
+    translated: "This person is gazing at the Tai Xu Pond, counting on their fingers in silence. Let's not disturb them."
 - raw: "27,1400001002,10,[0].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[0].talks{json}[0].talk,太和山门，所修全真守性，静己澈明，不拘教条所束，依循天理道心。"
   splits:
   - split: 4
     text: "太和山门，所修全真守性，静己澈明，不拘教条所束，依循天理道心。"
+    translated: "At Taihe Mountain Gate, they cultivate Complete Truth by maintaining their nature, purifying themselves to clarity, unbound by doctrine, following the natural way and the heart of the Dao."
 - raw: "27,1400001002,10,[1].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[1].talks{json}[0].talk,眼下你可先去拜见紫霄，玉龙两脉道主，以尽后辈之礼，我便于此处，等你回返。"
   splits:
   - split: 4
     text: "眼下你可先去拜见紫霄，玉龙两脉道主，以尽后辈之礼，我便于此处，等你回返。"
+    translated: "For now, you may go to pay your respects to the Dao Masters of the Purple Firmament and Jade Dragon lineages as a junior. I will wait here for your return."
 - raw: "27,1400001002,10,[2].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[2].talks{json}[0].talk,掌门真人相请，你便遂他意，前往真武殿一叙。"
   splits:
   - split: 4
     text: "掌门真人相请，你便遂他意，前往真武殿一叙。"
+    translated: "The Sect Master invited you, so you went along with his wishes and headed to Zhenwu Hall for a meeting."
 - raw: "27,1400001002,10,[3].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[3].talks{json}[0].talk,太和山门，所修全真守性，静己澈明，不拘教条所束，依循天理道心。"
   splits:
   - split: 4
     text: "太和山门，所修全真守性，静己澈明，不拘教条所束，依循天理道心。"
+    translated: "At Taihe Mountain Gate, they cultivate Complete Truth by maintaining their nature, purifying themselves to clarity, unbound by doctrine, following the natural way and the heart of the Dao."
 - raw: "27,1400001002,10,[4].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[4].talks{json}[0].talk,你于太和所重可有明悟？"
   splits:
   - split: 4
     text: "你于太和所重可有明悟？"
+    translated: "Have you gained any insight into what matters to Taihe?"
 - raw: "27,1400001002,10,[5].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[5].talks{json}[0].talk,前番之事，有劳了。"
   splits:
   - split: 4
     text: "前番之事，有劳了。"
+    translated: "Thank you for your help with the previous matter."
 - raw: "27,1400001002,10,[6].talks{json}[0].name,端木清"
   splits:
   - split: 4
     text: "端木清"
+    translated: "Duanmu Qing"
 - raw: "27,1400001002,10,[6].talks{json}[0].talk,没想到太平一脉，竞潜藏如此之深……"
   splits:
   - split: 4
     text: "没想到太平一脉，竞潜藏如此之深……"
+    translated: "I never would have thought that the Peaceful Plains lineage hides so deeply......"
 - raw: "28,1400001003,10,[0].talks{json}[0].name,叶伯应"
   splits:
   - split: 4
     text: "叶伯应"
+    translated: "Ye Bo Ying"
 - raw: "28,1400001003,10,[0].talks{json}[0].talk,挫其锐，解其纷，和其光，同其尘……"
   splits:
   - split: 4
     text: "挫其锐，解其纷，和其光，同其尘……"
+    translated: "Diminish their sharpness, resolve their confusion, harmonize their brightness, blend with their dust......"
 - raw: "28,1400001003,10,[1].talks{json}[0].name,叶伯应"
   splits:
   - split: 4
     text: "叶伯应"
+    translated: "Ye Bo Ying"
 - raw: "28,1400001003,10,[1].talks{json}[0].talk,你既已是本门弟子，此后需谨记拘束本心，克己奉礼，有所能为，有所不为……"
   splits:
   - split: 4
     text: "你既已是本门弟子，此后需谨记拘束本心，克己奉礼，有所能为，有所不为……"
+    translated: "Since you are now a disciple of this sect, henceforth you must remember to restrain your heart, practice self-discipline and propriety, know what to do and what not to do......"
 - raw: "29,1400001004,10,[0].talks{json}[0].name,邓克礼"
   splits:
   - split: 4
     text: "邓克礼"
+    translated: "Deng Keli"
 - raw: "29,1400001004,10,[0].talks{json}[0].talk,精进武学，不负侠名，方为太和正道……"
   splits:
   - split: 4
     text: "精进武学，不负侠名，方为太和正道……"
+    translated: "To advance in martial arts, live up to one's reputation as a hero, and follow the righteous path of Taihe......"
 - raw: "29,1400001004,10,[1].talks{json}[0].name,邓克礼"
   splits:
   - split: 4
     text: "邓克礼"
+    translated: "Deng Keli"
 - raw: "29,1400001004,10,[1].talks{json}[0].talk,太和门下，侠义为先，你既已是太和弟子，今后便需匡正除恶，谨守正途。"
   splits:
   - split: 4
     text: "太和门下，侠义为先，你既已是太和弟子，今后便需匡正除恶，谨守正途。"
+    translated: "As disciples of Taihe, righteousness comes first. Since you are now a Taihe Disciple, you must henceforth uphold justice and eliminate evil, adhering to the righteous path."
 - raw: "29,1400001004,10,[2].talks{json}[0].name,邓克礼"
   splits:
   - split: 4
     text: "邓克礼"
+    translated: "Deng Keli"
 - raw: "29,1400001004,10,[2].talks{json}[0].talk,精进武学，不负侠名，方为太和正道……"
   splits:
   - split: 4
     text: "精进武学，不负侠名，方为太和正道……"
+    translated: "To advance in martial arts, live up to one's reputation as a hero, and follow the righteous path of Taihe......"
 - raw: "30,1400001005,10,[0].talks{json}[0].name,李映心"
   splits:
   - split: 4
     text: "李映心"
+    translated: "Li Yingxin"
 - raw: "30,1400001005,10,[0].talks{json}[0].talk,苍虬浮萍并无高下，万物同存于道，同归太虚，是故，道为万物，无美丑善恶之别，高下对错之分，曰为大道无形，道法自然。"
   splits:
   - split: 4
     text: "苍虬浮萍并无高下，万物同存于道，同归太虚，是故，道为万物，无美丑善恶之别，高下对错之分，曰为大道无形，道法自然。"
+    translated: "Blue dragons and duckweed have no superiority or inferiority; all things coexist within the Dao, returning to the void together. Therefore, the Dao encompasses all things without distinction of beauty or ugliness, goodness or evil, high or low, right or wrong. It is said that the Great Dao has no form, and the Dao follows nature."
 - raw: "30,1400001005,10,[1].talks{json}[0].name,李映心"
   splits:
   - split: 4
     text: "李映心"
+    translated: "Li Yingxin"
 - raw: "30,1400001005,10,[1].talks{json}[0].talk,你既为太和弟子，太和之道，当用心领悟，去见你师门同辈吧。"
   splits:
   - split: 4
     text: "你既为太和弟子，太和之道，当用心领悟，去见你师门同辈吧。"
+    translated: "Since you are a Taihe Disciple, you must use your heart to comprehend the Way of Taihe. Go and meet your fellow disciples from your sect."
 - raw: "30,1400001005,10,[2].talks{json}[0].name,李映心"
   splits:
   - split: 4
     text: "李映心"
+    translated: "Li Yingxin"
 - raw: "30,1400001005,10,[2].talks{json}[0].talk,若然道无形，法自然，我辈修道，苦追求索，是否乃是逆潮而为……"
   splits:
   - split: 4
     text: "若然道无形，法自然，我辈修道，苦追求索，是否乃是逆潮而为……"
+    translated: "If the Tao has no form and its laws follow nature, do we who cultivate the Tao struggle against the current in our pursuit..."
 - raw: "31,1400001006,10,[0].talks{json}[0].name,嬴不凡"
   splits:
   - split: 4
     text: "嬴不凡"
+    translated: "Ying Bufan"
 - raw: "31,1400001006,10,[0].talks{json}[0].talk,历经百年人世，若不能一展胸中之志……"
   splits:
   - split: 4
     text: "历经百年人世，若不能一展胸中之志……"
+    translated: "After a hundred years in this world, if one cannot fulfill their ambitions..."
 - raw: "32,1400001009,10,[0].talks{json}[0].name,李何苦"
   splits:
   - split: 4
     text: "李何苦"
+    translated: "Li Heku"
 - raw: "32,1400001009,10,[0].talks{json}[0].talk,修行一途，千险万难，凡事需得力争上游。"
   splits:
   - split: 4
     text: "修行一途，千险万难，凡事需得力争上游。"
+    translated: "The path of cultivation is fraught with countless perils; one must strive to rise above all challenges."
 - raw: "32,1400001009,10,[1].talks{json}[0].name,李何苦"
   splits:
   - split: 4
     text: "李何苦"
+    translated: "Li Heku"
 - raw: "32,1400001009,10,[1].talks{json}[0].talk,什么阳变阴，阴变阳，吴平安他，到底……"
   splits:
   - split: 4
     text: "什么阳变阴，阴变阳，吴平安他，到底……"
+    translated: "What is this about yang turning to yin, and yin to yang? Wu Ping'an, what exactly...?"
 - raw: "32,1400001009,10,[2].talks{json}[0].name,李何苦"
   splits:
   - split: 4
     text: "李何苦"
+    translated: "Li Heku"
 - raw: "32,1400001009,10,[2].talks{json}[0].talk,修道一事……莫非当真如师父所言，炼己为末，修心为上？"
   splits:
   - split: 4
     text: "修道一事……莫非当真如师父所言，炼己为末，修心为上？"
+    translated: "Practicing Dao......is it truly, as my master said, about self-discipline being secondary and cultivating the mind being primary?"
 - raw: "33,1400001010,10,[0].talks{json}[0].talk,吴平安斜倚墙角，面色平和，胸膛随着呼吸上下起伏，俨然已入梦乡。"
   splits:
   - split: 4
     text: "吴平安斜倚墙角，面色平和，胸膛随着呼吸上下起伏，俨然已入梦乡。"
+    translated: "Wu Ping'an leaned against the wall corner, his expression calm, his chest rising and falling with his breath as he seemed to have already fallen asleep."
 - raw: "33,1400001010,10,[1].talks{json}[0].name,吴平安"
   splits:
   - split: 4
     text: "吴平安"
+    translated: "Wu Ping'an"
 - raw: "33,1400001010,10,[1].talks{json}[0].talk,修行一事强求不得，凡事讲究不争强不好勇，平安……平安就好。"
   splits:
   - split: 4
     text: "修行一事强求不得，凡事讲究不争强不好勇，平安……平安就好。"
+    translated: "One cannot force their cultivation; everything should be done without striving or being overly bold. Peace... peace is best."
 - raw: "33,1400001010,10,[2].talks{json}[0].name,吴平安"
   splits:
   - split: 4
     text: "吴平安"
+    translated: "Wu Ping'an"
 - raw: "33,1400001010,10,[2].talks{json}[0].talk,天地之性，阳好阴，阴好阳。故阳当为阴，阴……当为阳？"
   splits:
   - split: 4
     text: "天地之性，阳好阴，阴好阳。故阳当为阴，阴……当为阳？"
+    translated: "The nature of heaven and earth, yang seeks yin, yin seeks yang. So yang should be for yin, and yin... should be for yang?"
 - raw: "36,1150003102,10,[0].talks{json}[0].talk,此人端坐椅上，手端酒樽，眸光深邃，似是城府极深……"
   splits:
   - split: 4
     text: "此人端坐椅上，手端酒樽，眸光深邃，似是城府极深……"
+    translated: "This person sat upright in a chair, holding a wine cup, their gaze deep and penetrating, as if they were extremely shrewd..."
 - raw: "38,1140005016,10,[0].talks{json}[0].name,黄小玥"
   splits:
   - split: 4
     text: "黄小玥"
+    translated: "Huang Xiaoyue"
 - raw: "38,1140005016,10,[0].talks{json}[0].talk,言之有理，咱们这便依计而行。"
   splits:
   - split: 4
     text: "言之有理，咱们这便依计而行。"
+    translated: "That makes sense, let's proceed according to the plan."
 - raw: "38,1140005016,10,[1].talks{json}[0].name,黄小玥"
   splits:
   - split: 4
     text: "黄小玥"
+    translated: "Huang Xiaoyue"
 - raw: "38,1140005016,10,[1].talks{json}[0].talk,纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
   splits:
   - split: 4
-    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>……"
+    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
+    translated: "Even though my cultivation is lacking, over the years I've traveled alone in the Jianghu and learned some healing skills that might help you, <fName><Big Brother||Big Sister>..."
 - raw: "38,1140005016,10,[1].talks{json}[0].options{json}[0].name,欣然同意。"
   splits:
   - split: 4
     text: "欣然同意。"
+    translated: "Agreed gladly"
 - raw: "38,1140005016,10,[1].talks{json}[0].options{json}[1].name,暂无此念……"
   splits:
   - split: 4
     text: "暂无此念……"
+    translated: "I have no such thought......"
 - raw: "38,1140005016,10,[1].talks{json}[2].name,黄小玥"
   splits:
   - split: 4
     text: "黄小玥"
+    translated: "Huang Xiaoyue"
 - raw: "38,1140005016,10,[1].talks{json}[2].talk,无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "若能转念，我便在此处相候。"
-  templates:
-  - split: 4
-    template: "{0}<name><{1}||{2}>{3}"
+    text: "无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
+    translated: "It's fine, <name>, if <Big Brother||Big Sister> can change their mind, I will wait for them here."
 - raw: "38,1140005016,10,[2].talks{json}[0].name,黄小玥"
   splits:
   - split: 4
     text: "黄小玥"
+    translated: "Huang Xiaoyue"
 - raw: "38,1140005016,10,[2].talks{json}[0].talk,总之……此番多谢。"
   splits:
   - split: 4
     text: "总之……此番多谢。"
+    translated: "In any case......I thank you for this."
 - raw: "38,1140005016,10,[3].talks{json}[0].talk,黄小玥眼神示意你在外头等她。"
   splits:
   - split: 4
     text: "黄小玥眼神示意你在外头等她。"
+    translated: "Huang Xiaoyue signaled with her eyes for you to wait for her outside."
 - raw: "41,1140005079,10,[0].talks{json}[0].name,法月衣鹤"
   splits:
   - split: 4
     text: "法月衣鹤"
+    translated: "Fayue Yihe"
 - raw: "41,1140005079,10,[0].talks{json}[0].talk,需要衣鹤跟随<name>大人左右吗？"
   splits:
   - split: 4
-    text: "需要衣鹤跟随"
-  - split: 4
-    subIndex: 1
-    text: "大人左右吗？"
-  templates:
-  - split: 4
-    template: "{0}<name>{1}"
+    text: "需要衣鹤跟随<name>大人左右吗？"
+    translated: "Do you need Yihe to follow Lord <name> around?"
 - raw: "41,1140005079,10,[0].talks{json}[0].options{json}[0].name,同意入队。"
   splits:
   - split: 4
     text: "同意入队。"
+    translated: "Agree to join the team"
 - raw: "41,1140005079,10,[0].talks{json}[0].options{json}[1].name,暂不需要。"
   splits:
   - split: 4
     text: "暂不需要。"
+    translated: "Not needed for now"
 - raw: "41,1140005079,10,[0].talks{json}[1].name,法月衣鹤"
   splits:
   - split: 4
     text: "法月衣鹤"
+    translated: "Fayue Yihe"
 - raw: "41,1140005079,10,[0].talks{json}[1].talk,衣鹤定会保护好<name>大人！"
   splits:
   - split: 4
-    text: "衣鹤定会保护好"
-  - split: 4
-    subIndex: 1
-    text: "大人！"
-  templates:
-  - split: 4
-    template: "{0}<name>{1}"
+    text: "衣鹤定会保护好<name>大人！"
+    translated: "I will definitely protect Lord <name>!"
 - raw: "41,1140005079,10,[0].talks{json}[2].name,法月衣鹤"
   splits:
   - split: 4
     text: "法月衣鹤"
+    translated: "Fayue Yihe"
 - raw: "41,1140005079,10,[0].talks{json}[2].talk,那……衣鹤就在此间等候。"
   splits:
   - split: 4
     text: "那……衣鹤就在此间等候。"
+    translated: "Then... I will wait for you here."
 - raw: "42,1140001006,10,[0].talks{json}[0].name,左三思"
   splits:
   - split: 4
     text: "左三思"
+    translated: "Zuo Sansi"
 - raw: "42,1140001006,10,[0].talks{json}[0].talk,吟雪酌新酒，长笑听晚风，桃园浮生，不过醉梦……"
   splits:
   - split: 4
     text: "吟雪酌新酒，长笑听晚风，桃园浮生，不过醉梦……"
+    translated: "Singing in the snow, pouring new wine, laughing long into the evening breeze, the fleeting life in the peach garden is but a drunken dream......"
 - raw: "43,1140001007,10,[0].talks{json}[0].name,柳先生"
   splits:
   - split: 4
     text: "柳先生"
+    translated: "Master Liu"
 - raw: "43,1140001007,10,[0].talks{json}[0].talk,悠游自乐，闲然望山，此中真意，欲辩忘言……"
   splits:
   - split: 4
     text: "悠游自乐，闲然望山，此中真意，欲辩忘言……"
+    translated: "Wandering with joy, leisurely gazing at the mountains, the true meaning here, when sought, defies words..."
 - raw: "44,1140001008,10,[0].talks{json}[0].name,吕绮萝"
   splits:
   - split: 4
     text: "吕绮萝"
+    translated: "Lyu Qiluo"
 - raw: "44,1140001008,10,[0].talks{json}[0].talk,哪来的<小子||丫头>，打扮的如此土气……"
   splits:
   - split: 4
-    text: "哪来的"
-  - split: 4
-    subIndex: 1
-    text: "小子"
-  - split: 4
-    subIndex: 2
-    text: "丫头"
-  - split: 4
-    subIndex: 3
-    text: "，打扮的如此土气……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "哪来的<小子||丫头>，打扮的如此土气……"
+    translated: "What a <Lad||Lass>, dressed so plainly..."
 - raw: "44,1140001008,10,[1].talks{json}[0].name,吕绮萝"
   splits:
   - split: 4
     text: "吕绮萝"
+    translated: "Lyu Qiluo"
 - raw: "44,1140001008,10,[1].talks{json}[0].talk,此番大雪山袭扰之事，你做得还算不错……"
   splits:
   - split: 4
     text: "此番大雪山袭扰之事，你做得还算不错……"
+    translated: "In this matter of the disturbance at Daxue Mountain, you did quite well......"
 - raw: "44,1140001008,10,[1].talks{json}[1].talk,红衣少女略一迟疑，别过头去，小声嘟囔了一句。"
   splits:
   - split: 4
     text: "红衣少女略一迟疑，别过头去，小声嘟囔了一句。"
+    translated: "The red-clothed girl hesitated slightly, turned her head away, and mumbled to herself."
 - raw: "44,1140001008,10,[1].talks{json}[2].name,吕绮萝"
   splits:
   - split: 4
     text: "吕绮萝"
+    translated: "Lyu Qiluo"
 - raw: "44,1140001008,10,[1].talks{json}[2].talk,……多谢。"
   splits:
   - split: 4
     text: "……多谢。"
+    translated: "......Thank you."
 - raw: "45,1140001009,10,[0].talks{json}[0].name,第五青衫"
   splits:
   - split: 4
     text: "第五青衫"
+    translated: "Diwu Qingshan"
 - raw: "45,1140001009,10,[0].talks{json}[0].talk,见过<公子||姑娘>。"
   splits:
   - split: 4
-    text: "见过"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>。"
+    text: "见过<公子||姑娘>。"
+    translated: "Met <Young Master||Miss>"
 - raw: "45,1140001009,10,[0].talks{json}[1].talk,第五青衫眉目清隽冷淡，向你微微点头见礼。"
   splits:
   - split: 4
     text: "第五青衫眉目清隽冷淡，向你微微点头见礼。"
+    translated: "Diwu Qingshan, with clear and reserved features, nodded slightly to you in greeting."
 - raw: "45,1140001009,10,[1].talks{json}[0].name,第五青衫"
   splits:
   - split: 4
     text: "第五青衫"
+    translated: "Diwu Qingshan"
 - raw: "45,1140001009,10,[1].talks{json}[0].talk,此事……多谢相助。我……"
   splits:
   - split: 4
     text: "此事……多谢相助。我……"
+    translated: "This matter......thank you for your help. I......"
 - raw: "45,1140001009,10,[1].talks{json}[1].talk,第五青衫秀眉微蹙，神情罕见地不复清冷。看来此事真相，她还需些许时日接受。"
   splits:
   - split: 4
     text: "第五青衫秀眉微蹙，神情罕见地不复清冷。看来此事真相，她还需些许时日接受。"
+    translated: "Diwu Qingshan frowned slightly, her expression unusually lacking its usual cool composure. It seems she still needs some time to accept the truth of this matter."
 - raw: "45,1140001009,10,[2].talks{json}[0].talk,此人颜色散淡，向你微微颔首。"
   splits:
   - split: 4
     text: "此人颜色散淡，向你微微颔首。"
+    translated: "This person, with a pale complexion, nodded slightly at you."
 - raw: "46,1140001010,10,[0].talks{json}[0].name,方子振"
   splits:
   - split: 4
     text: "方子振"
+    translated: "Fang Zi Zhen"
 - raw: "46,1140001010,10,[0].talks{json}[0].talk,此局堪破，此局堪破……然此局……何故？"
   splits:
   - split: 4
     text: "此局堪破，此局堪破……然此局……何故？"
+    translated: "This move is seen through, this move is seen through......but this move......why?"
 - raw: "47,1140001011,10,[0].talks{json}[0].name,黄小小"
   splits:
   - split: 4
     text: "黄小小"
+    translated: "Huang Xiao Xiao"
 - raw: "47,1140001011,10,[0].talks{json}[0].talk,说不定哪日天涯海阁真会多出一位“庖厨客卿”！到了那时，我天天做好吃的给你！"
   splits:
   - split: 4
     text: "说不定哪日天涯海阁真会多出一位“庖厨客卿”！到了那时，我天天做好吃的给你！"
+    translated: "Maybe one day Tianya Haige will really have a Guest Chef! From then on, I'll make delicious food for you every day!"
 - raw: "48,1150001001,10,[0].talks{json}[0].name,燕南归"
   splits:
   - split: 4
     text: "燕南归"
+    translated: "Yan Nan Gui"
 - raw: "48,1150001001,10,[0].talks{json}[0].talk,哼，连环寨……"
   splits:
   - split: 4
     text: "哼，连环寨……"
+    translated: "Humph, Lianhuan Stronghold..."
 - raw: "48,1150001001,10,[1].talks{json}[0].name,燕南归"
   splits:
   - split: 4
     text: "燕南归"
+    translated: "Yan Nan Gui"
 - raw: "48,1150001001,10,[1].talks{json}[0].talk,张铁兄此处有我看顾，<兄弟||姑娘>不必挂心。"
   splits:
   - split: 4
-    text: "张铁兄此处有我看顾，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "不必挂心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "张铁兄此处有我看顾，<兄弟||姑娘>不必挂心。"
+    translated: "Brother Zhang Tie, rest assured that I will look after this place. <Brother||Miss> need not worry."
 - raw: "48,1150001001,10,[2].talks{json}[0].name,燕南归"
   splits:
   - split: 4
     text: "燕南归"
+    translated: "Yan Nan Gui"
 - raw: "48,1150001001,10,[2].talks{json}[0].talk,张铁兄有我照看，<fName><兄弟||姑娘>一切放心。"
   splits:
   - split: 4
-    text: "张铁兄有我照看，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "一切放心。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "张铁兄有我照看，<fName><兄弟||姑娘>一切放心。"
+    translated: "Brother Zhang Tie, with me watching over you, <fName><Brother||Miss> can rest assured."
 - raw: "48,1150001001,10,[3].talks{json}[0].name,燕南归"
   splits:
   - split: 4
     text: "燕南归"
+    translated: "Yan Nan Gui"
 - raw: "48,1150001001,10,[3].talks{json}[0].talk,朝廷此举，究竟是何用意……？"
   splits:
   - split: 4
     text: "朝廷此举，究竟是何用意……？"
+    translated: "What is the purpose of the court's actions......?"
 - raw: "48,1150001001,10,[4].talks{json}[0].name,燕南归"
   splits:
   - split: 4
     text: "燕南归"
+    translated: "Yan Nan Gui"
 - raw: "48,1150001001,10,[4].talks{json}[0].talk,张铁兄此处有我看顾，<小兄弟||姑娘>不必挂心。"
   splits:
   - split: 4
-    text: "张铁兄此处有我看顾，"
-  - split: 4
-    subIndex: 1
-    text: "小兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "不必挂心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "张铁兄此处有我看顾，<小兄弟||姑娘>不必挂心。"
+    translated: "Brother Zhang Tie, I have this under my watch, <Young Brother||Miss> need not worry."
 - raw: "48,1150001001,10,[5].talks{json}[0].name,燕南归"
   splits:
   - split: 4
     text: "燕南归"
+    translated: "Yan Nan Gui"
 - raw: "48,1150001001,10,[5].talks{json}[0].talk,此处有燕某盯着，<小兄弟||姑娘>自可前往桃花坞内探听消息。"
   splits:
   - split: 4
-    text: "此处有燕某盯着，"
-  - split: 4
-    subIndex: 1
-    text: "小兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "自可前往桃花坞内探听消息。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此处有燕某盯着，<小兄弟||姑娘>自可前往桃花坞内探听消息。"
+    translated: "With Yan watching here, <Young Brother||Miss> may go to Taohua Dock to gather information."
 - raw: "49,1140001004,10,[0].talks{json}[0].name,鲁志"
   splits:
   - split: 4
     text: "鲁志"
+    translated: "Lu Zhi"
 - raw: "49,1140001004,10,[0].talks{json}[0].talk,好琴……用料古朴，技艺绝伦……"
   splits:
   - split: 4
     text: "好琴……用料古朴，技艺绝伦……"
+    translated: "A fine zither... the materials are ancient yet refined, and the craftsmanship is unparalleled..."
 - raw: "50,1140001005,10,[0].talks{json}[0].name,东壁先生"
   splits:
   - split: 4
     text: "东壁先生"
+    translated: "Master Dongbi"
 - raw: "50,1140001005,10,[0].talks{json}[0].talk,奇经凡八脉，不拘制于十二正经，无表里配合，故谓之奇……"
   splits:
   - split: 4
     text: "奇经凡八脉，不拘制于十二正经，无表里配合，故谓之奇……"
+    translated: "The Eight Extra Vessels are not bound by the Twelve Primary Meridians, have no yin-yang pairings, and thus are called the Extraordinary..."
 - raw: "52,1400001027,10,[0].talks{json}[0].name,朱丹阳"
   splits:
   - split: 4
     text: "朱丹阳"
+    translated: "Zhu Danyang"
 - raw: "52,1400001027,10,[0].talks{json}[0].talk,山间明月，清风朗日，何不长居，何必复醒……"
   splits:
   - split: 4
     text: "山间明月，清风朗日，何不长居，何必复醒……"
+    translated: "Mountain moon, clear breeze, bright sun-why not dwell here forever, why wake again..."
 - raw: "53,1120001001,10,[0].talks{json}[0].talk,此人长衫打扮正立于一侧，双目紧闭。"
   splits:
   - split: 4
     text: "此人长衫打扮正立于一侧，双目紧闭。"
+    translated: "This person was standing on one side in a long robe, eyes closed."
 - raw: "53,1120001001,10,[1].talks{json}[0].name,孙茶"
   splits:
   - split: 4
     text: "孙茶"
+    translated: "Sun Cha"
 - raw: "53,1120001001,10,[1].talks{json}[0].talk,此事太大，阁下当处处留神，以免生变。"
   splits:
   - split: 4
     text: "此事太大，阁下当处处留神，以免生变。"
+    translated: "This matter is too serious; you must be cautious at all times to avoid any unexpected complications."
 - raw: "54,1400001017,10,[0].talks{json}[0].name,戚定远"
   splits:
   - split: 4
     text: "戚定远"
+    translated: "Qi Dingyuan"
 - raw: "54,1400001017,10,[0].talks{json}[0].talk,在下京中游捕戚定远，随队护行，前方乃是京使车马，还望<少侠||女侠>止步。"
   splits:
   - split: 4
-    text: "在下京中游捕戚定远，随队护行，前方乃是京使车马，还望"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "止步。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "在下京中游捕戚定远，随队护行，前方乃是京使车马，还望<少侠||女侠>止步。"
+    translated: "I am Qi Dingyuan, a patrol officer in the capital. I am accompanying the convoy; ahead is an official carriage from the capital. I hope you will stop, <Young Hero||Heroine>."
 - raw: "54,1400001017,10,[1].talks{json}[0].talk,定远兄已沉醉如泥，暂且不去管他。"
   splits:
   - split: 4
     text: "定远兄已沉醉如泥，暂且不去管他。"
+    translated: "Brother Dingyuan is already dead drunk; we'll leave him be for now."
 - raw: "55,1150001004,10,[0].talks{json}[0].name,紫晴"
   splits:
   - split: 4
     text: "紫晴"
+    translated: "Ziqing"
 - raw: "55,1150001004,10,[0].talks{json}[0].talk,燕大侠惶惶然，颇为失落，与之前饮酒时慷慨言笑截然不同，嘴里不断念叨甚么……青萍村……"
   splits:
   - split: 4
     text: "燕大侠惶惶然，颇为失落，与之前饮酒时慷慨言笑截然不同，嘴里不断念叨甚么……青萍村……"
+    translated: "Great Hero Yan seems anxious and rather downcast, quite different from his generous laughter and talk over drinks earlier. He keeps muttering something about... Qingping Village..."
 - raw: "55,1150001004,10,[1].talks{json}[0].name,紫晴"
   splits:
   - split: 4
     text: "紫晴"
+    translated: "Ziqing"
 - raw: "55,1150001004,10,[1].talks{json}[0].talk,此事……有劳<公子||姑娘>了，洛公子之事，我会再多劝劝黄莺姐姐……"
   splits:
   - split: 4
-    text: "此事……有劳"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "了，洛公子之事，我会再多劝劝黄莺姐姐……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此事……有劳<公子||姑娘>了，洛公子之事，我会再多劝劝黄莺姐姐……"
+    translated: "This matter......I will trouble you, <Young Master||Miss>. As for Lord Luo's affair, I will try to persuade Sister Huang Ying some more......"
 - raw: "56,1150001005,10,[0].talks{json}[0].name,黄莺"
   splits:
   - split: 4
     text: "黄莺"
+    translated: "Huang Ying"
 - raw: "56,1150001005,10,[0].talks{json}[0].talk,多，多谢<少侠||女侠>……"
   splits:
   - split: 4
-    text: "多，多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>……"
+    text: "多，多谢<少侠||女侠>……"
+    translated: "Thank you so much, <Young Hero||Heroine>......"
 - raw: "56,1150001005,10,[1].talks{json}[0].name,黄莺"
   splits:
   - split: 4
     text: "黄莺"
+    translated: "Huang Ying"
 - raw: "56,1150001005,10,[1].talks{json}[0].talk,燕大侠曾回来过，那时他已酒醒大半，将一包银两交于我二人……"
   splits:
   - split: 4
     text: "燕大侠曾回来过，那时他已酒醒大半，将一包银两交于我二人……"
+    translated: "Great Hero Yan had returned then; he was mostly sober and handed a pouch of silver to the two of us......"
 - raw: "56,1150001005,10,[2].talks{json}[0].name,黄莺"
   splits:
   - split: 4
     text: "黄莺"
+    translated: "Huang Ying"
 - raw: "56,1150001005,10,[2].talks{json}[0].talk,多，多谢<少侠||女侠>……"
   splits:
   - split: 4
-    text: "多，多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>……"
+    text: "多，多谢<少侠||女侠>……"
+    translated: "Thank you so much, <Young Hero||Heroine>......"
 - raw: "57,1150003003,10,[0].talks{json}[0].name,玉玲珑"
   splits:
   - split: 4
     text: "玉玲珑"
+    translated: "Yu Linglong"
 - raw: "57,1150003003,10,[0].talks{json}[0].talk,阁下若欲寻欢，可算来对地方了。"
   splits:
   - split: 4
     text: "阁下若欲寻欢，可算来对地方了。"
+    translated: "Sir, if you're looking to have fun, you've come to the right place."
 - raw: "57,1150003003,10,[1].talks{json}[0].name,玉玲珑"
   splits:
   - split: 4
     text: "玉玲珑"
+    translated: "Yu Linglong"
 - raw: "57,1150003003,10,[1].talks{json}[0].talk,哎，她们若似阁下这般识时务，哪来此事？"
   splits:
   - split: 4
     text: "哎，她们若似阁下这般识时务，哪来此事？"
+    translated: "Ah, if they were as sensible as you, this wouldn't have happened."
 - raw: "57,1150003003,10,[2].talks{json}[0].name,玉玲珑"
   splits:
   - split: 4
     text: "玉玲珑"
+    translated: "Yu Linglong"
 - raw: "57,1150003003,10,[2].talks{json}[0].talk,公子若有兴致，我这儿琴棋书画，多雅致的姑娘都有~"
   splits:
   - split: 4
     text: "公子若有兴致，我这儿琴棋书画，多雅致的姑娘都有"
+    translated: "If you are interested, Young Lord, I have many refined young ladies here who excel in music, chess, calligraphy, and painting."
   templates:
   - split: 4
     template: "{0}~"
@@ -1771,955 +1508,877 @@
   splits:
   - split: 4
     text: "玉玲珑"
+    translated: "Yu Linglong"
 - raw: "57,1150003003,10,[3].talks{json}[0].talk,望阁下高抬贵手，我也只是……一时糊涂……"
   splits:
   - split: 4
     text: "望阁下高抬贵手，我也只是……一时糊涂……"
+    translated: "I implore you to be lenient; I was merely... momentarily foolish..."
 - raw: "57,1150003003,10,[3].talks{json}[0].options{json}[0].name,杀死玉玲珑。"
   splits:
   - split: 4
     text: "杀死玉玲珑。"
+    translated: "Kill Yu Linglong"
 - raw: "57,1150003003,10,[3].talks{json}[0].options{json}[1].name,就此离去。"
   splits:
   - split: 4
     text: "就此离去。"
+    translated: "Leave like this"
 - raw: "58,1160001066,10,[0].talks{json}[0].talk,秦懿瑶冲你微微一笑。"
   splits:
   - split: 4
     text: "秦懿瑶冲你微微一笑。"
+    translated: "Qin Yi Yao gave you a slight smile."
 - raw: "58,1160001066,10,[0].talks{json}[1].name,秦懿瑶"
   splits:
   - split: 4
     text: "秦懿瑶"
+    translated: "Qin Yi Yao"
 - raw: "58,1160001066,10,[0].talks{json}[1].talk,<fName><公子||姑娘>，好俊身手。"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，好俊身手。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><公子||姑娘>，好俊身手。"
+    translated: "<fName><Young Master||Miss>, you have fine skills"
 - raw: "58,1160001066,10,[1].talks{json}[0].name,秦懿瑶"
   splits:
   - split: 4
     text: "秦懿瑶"
+    translated: "Qin Yi Yao"
 - raw: "58,1160001066,10,[1].talks{json}[0].talk,“总镖头”既要浪迹江湖，镖局自然是关张歇业了，亦正好避避风头……如何？"
   splits:
   - split: 4
     text: "“总镖头”既要浪迹江湖，镖局自然是关张歇业了，亦正好避避风头……如何？"
+    translated: "Master Bao has to wander the Jianghu, so the security firm naturally closes down for a while..."
 - raw: "58,1160001066,10,[1].talks{json}[0].options{json}[0].name,有何不可？"
   splits:
   - split: 4
     text: "有何不可？"
+    translated: "What's impossible about it?"
 - raw: "58,1160001066,10,[1].talks{json}[0].options{json}[1].name,尚需考虑。"
   splits:
   - split: 4
     text: "尚需考虑。"
+    translated: "Still needs to be considered"
 - raw: "58,1160001066,10,[1].talks{json}[2].name,秦懿瑶"
   splits:
   - split: 4
     text: "秦懿瑶"
+    translated: "Qin Yi Yao"
 - raw: "58,1160001066,10,[1].talks{json}[2].talk,无妨，若是回心转意，我便在此处，等你回转。"
   splits:
   - split: 4
     text: "无妨，若是回心转意，我便在此处，等你回转。"
+    translated: "It's fine. If you change your mind, I'll be here waiting for you to return."
 - raw: "59,1120001017,10,[0].talks{json}[0].name,马俊才"
   splits:
   - split: 4
     text: "马俊才"
+    translated: "Ma Juncai"
 - raw: "59,1120001017,10,[0].talks{json}[0].talk,（摇头晃脑）犬吠一声尾一摇，犬吠两声尾两摇......"
   splits:
   - split: 4
     text: "（摇头晃脑）犬吠一声尾一摇，犬吠两声尾两摇......"
+    translated: "(Shaking head and wagging tail) A bark, a wag... two barks, two wags..."
 - raw: "59,1120001017,10,[0].talks{json}[1].talk,说罢，马俊才又作摇头苦思状，浑然不知有人到访，还是不要打扰为好。"
   splits:
   - split: 4
     text: "说罢，马俊才又作摇头苦思状，浑然不知有人到访，还是不要打扰为好。"
+    translated: "After speaking, Ma Juncai shook his head as if deep in thought, completely unaware of the visitor. It's best not to disturb him."
 - raw: "59,1120001017,10,[1].talks{json}[0].name,马俊才"
   splits:
   - split: 4
     text: "马俊才"
+    translated: "Ma Juncai"
 - raw: "59,1120001017,10,[1].talks{json}[0].talk,我即刻前去采买米粮，<少侠||姑娘>与乔兄去探查便是……"
   splits:
   - split: 4
-    text: "我即刻前去采买米粮，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "与乔兄去探查便是……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "我即刻前去采买米粮，<少侠||姑娘>与乔兄去探查便是……"
+    translated: "I will go to buy rice and grain immediately, <Young Hero||Miss>, you and Qiao Brother should investigate..."
 - raw: "59,1120001017,10,[2].talks{json}[0].name,马俊才"
   splits:
   - split: 4
     text: "马俊才"
+    translated: "Ma Juncai"
 - raw: "59,1120001017,10,[2].talks{json}[0].talk,近来书院学习，在下诗文颇有长进，<少侠||姑娘>可愿倾听？"
   splits:
   - split: 4
-    text: "近来书院学习，在下诗文颇有长进，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可愿倾听？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "近来书院学习，在下诗文颇有长进，<少侠||姑娘>可愿倾听？"
+    translated: "Lately, I've been studying at the academy and have made some progress in poetry and prose. Would you like to hear it, <Young Hero||Miss>?"
 - raw: "60,1120001018,10,[0].talks{json}[0].name,乔应珠"
   splits:
   - split: 4
     text: "乔应珠"
+    translated: "Qiao Yingzhu"
 - raw: "60,1120001018,10,[0].talks{json}[0].talk,家父外出行商，此刻并未归家，<少侠||姑娘>光临寒舍所为何事？"
   splits:
   - split: 4
-    text: "家父外出行商，此刻并未归家，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "光临寒舍所为何事？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "家父外出行商，此刻并未归家，<少侠||姑娘>光临寒舍所为何事？"
+    translated: "My father is away on business and has not returned yet. What brings you to my humble home, <Young Hero||Miss>?"
 - raw: "60,1120001018,10,[1].talks{json}[0].name,乔应珠"
   splits:
   - split: 4
     text: "乔应珠"
+    translated: "Qiao Yingzhu"
 - raw: "60,1120001018,10,[1].talks{json}[0].talk,这梁三既有胆气写信，为何不敢直面于我……"
   splits:
   - split: 4
     text: "这梁三既有胆气写信，为何不敢直面于我……"
+    translated: "If Liang San has the courage to write me a letter, why doesn't he have the guts to face me..."
 - raw: "62,1240001002,10,[1].talks{json}[0].name,卢千川"
   splits:
   - split: 4
     text: "卢千川"
+    translated: "Lu Qianchuan"
 - raw: "62,1240001002,10,[1].talks{json}[0].talk,阁下但去无妨，此间交予老朽便是。"
   splits:
   - split: 4
     text: "阁下但去无妨，此间交予老朽便是。"
+    translated: "Sir, feel free to go, I will handle things here."
 - raw: "62,1240001002,10,[2].talks{json}[0].name,卢千川"
   splits:
   - split: 4
     text: "卢千川"
+    translated: "Lu Qianchuan"
 - raw: "62,1240001002,10,[2].talks{json}[0].talk,陛下究竟……在图谋些什么？"
   splits:
   - split: 4
     text: "陛下究竟……在图谋些什么？"
+    translated: "What exactly is the emperor plotting?"
 - raw: "63,1120001023,10,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
     text: "洪四海"
+    translated: "Hong Sihai"
 - raw: "63,1120001023,10,[0].talks{json}[0].talk,也罢，你若打定主意要寻连环寨晦气，四海届时定然亲至。"
   splits:
   - split: 4
     text: "也罢，你若打定主意要寻连环寨晦气，四海届时定然亲至。"
+    translated: "Very well, if you are set on seeking out Lianhuan Stronghold's misfortune, Sihai will surely come in person."
 - raw: "63,1120001023,10,[1].talks{json}[0].talk,此人斜倚亭中，鼾声渐起，似已沉沉睡去。"
   splits:
   - split: 4
     text: "此人斜倚亭中，鼾声渐起，似已沉沉睡去。"
+    translated: "This person leaned against the pavilion, snoring increasingly loudly, seeming to have fallen into a deep sleep."
 - raw: "63,1120001023,10,[2].talks{json}[0].name,洪四海"
   splits:
   - split: 4
     text: "洪四海"
+    translated: "Hong Sihai"
 - raw: "63,1120001023,10,[2].talks{json}[0].talk,燕南归便在杭州灵隐寺左近，若你有要事欲寻，还是速去为妙，免得他四处乱走，再失了踪迹。"
   splits:
   - split: 4
     text: "燕南归便在杭州灵隐寺左近，若你有要事欲寻，还是速去为妙，免得他四处乱走，再失了踪迹。"
+    translated: "Yan Nan Gui is near Lingyin Temple in Hangzhou. If you have important matters to discuss, it's best to hurry there; otherwise, he might wander around and disappear again."
 - raw: "63,1120001023,10,[3].talks{json}[0].name,洪四海"
   splits:
   - split: 4
     text: "洪四海"
+    translated: "Hong Sihai"
 - raw: "63,1120001023,10,[3].talks{json}[0].talk,总舵有吴长老操持着，我亦放心得很。如何？<fName><兄弟||姑娘>若是不弃，收拾好行李，咱们便一同上路罢？"
   splits:
   - split: 4
-    text: "总舵有吴长老操持着，我亦放心得很。如何？"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "若是不弃，收拾好行李，咱们便一同上路罢？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "总舵有吴长老操持着，我亦放心得很。如何？<fName><兄弟||姑娘>若是不弃，收拾好行李，咱们便一同上路罢？"
+    translated: "With Elder Wu in charge at the main headquarters, I feel very reassured. How about it, <fName>? If you, <Brother||Miss>, are not opposed, pack your things, and let's set off together?"
 - raw: "63,1120001023,10,[3].talks{json}[0].options{json}[0].name,求之不得。"
   splits:
   - split: 4
     text: "求之不得。"
+    translated: "Unable to obtain what they seek"
 - raw: "63,1120001023,10,[3].talks{json}[0].options{json}[1].name,暂且准备。"
   splits:
   - split: 4
     text: "暂且准备。"
+    translated: "Prepare for now"
 - raw: "63,1120001023,10,[3].talks{json}[1].name,洪四海"
   splits:
   - split: 4
     text: "洪四海"
+    translated: "Hong Sihai"
 - raw: "63,1120001023,10,[3].talks{json}[1].talk,哈哈！好！常听帮里老人说，我爹年少时周游天下，今日，也轮到四海了！"
   splits:
   - split: 4
     text: "哈哈！好！常听帮里老人说，我爹年少时周游天下，今日，也轮到四海了！"
+    translated: "Ha ha! Fine! I often hear the elders in the guild say that my father traveled around the world when he was young. Today, it's my turn to see the four seas!"
 - raw: "63,1120001023,10,[3].talks{json}[2].name,洪四海"
   splits:
   - split: 4
     text: "洪四海"
+    translated: "Hong Sihai"
 - raw: "63,1120001023,10,[3].talks{json}[2].talk,不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，<fName><兄弟||姑娘>且忙去！"
   splits:
   - split: 4
-    text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "且忙去！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，<fName><兄弟||姑娘>且忙去！"
+    translated: "Come on, since Four Seas is a lazybones who can wait anywhere-just sleeping for a few nights-<fName><Brother||Miss> go ahead and get busy!"
 - raw: "65,1160101006,10,[0].talks{json}[0].name,花相"
   splits:
   - split: 4
     text: "花相"
+    translated: "Hua Xiang"
 - raw: "65,1160101006,10,[0].talks{json}[0].talk,<少侠||姑娘>可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||姑娘>可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
+    translated: "<Young Hero||Miss> can go to the north of the river, find a ferry to Taohua Dock, and upon arriving there, deliver this letter to a person named Xiaoxiangzi..."
 - raw: "65,1160101006,10,[1].talks{json}[0].name,花相"
   splits:
   - split: 4
     text: "花相"
+    translated: "Hua Xiang"
 - raw: "65,1160101006,10,[1].talks{json}[0].talk,张大侠近日脉大而有力，此为来盛去衰，祛毒体缓之象，想来假以时日，必当痊愈……"
   splits:
   - split: 4
     text: "张大侠近日脉大而有力，此为来盛去衰，祛毒体缓之象，想来假以时日，必当痊愈……"
+    translated: "Great Hero Zhang's pulse is large and strong recently, this indicates a condition of excess leading to decline, a sign of the poison leaving his body slowly... he should recover in due time......"
 - raw: "66,1210000008,10,[0].talks{json}[0].name,老衙役"
   splits:
   - split: 4
     text: "老衙役"
+    translated: "Old Yamen Runner"
 - raw: "66,1210000008,10,[0].talks{json}[0].talk,那两户人家，一个在东，一个偏东南些。有劳、有劳……"
   splits:
   - split: 4
     text: "那两户人家，一个在东，一个偏东南些。有劳、有劳……"
+    translated: "The two households are one to the east and the other a bit southeast. Please help, please help..."
 - raw: "66,1210000008,10,[1].talks{json}[0].name,老衙役"
   splits:
   - split: 4
     text: "老衙役"
+    translated: "Old Yamen Runner"
 - raw: "66,1210000008,10,[1].talks{json}[0].talk,俺替满城乡亲，拜谢大侠！"
   splits:
   - split: 4
     text: "俺替满城乡亲，拜谢大侠！"
+    translated: "I bow in gratitude on behalf of all the people of Manxi Town, Great Hero!"
 - raw: "67,1210000009,10,[0].talks{json}[0].name,菜娃"
   splits:
   - split: 4
     text: "菜娃"
+    translated: "Vegetable Boy"
 - raw: "67,1210000009,10,[0].talks{json}[0].talk,<大哥哥||大姐姐>，你真不吃烤鼠干么？"
   splits:
   - split: 4
-    text: "大哥哥"
-  - split: 4
-    subIndex: 1
-    text: "大姐姐"
-  - split: 4
-    subIndex: 2
-    text: "，你真不吃烤鼠干么？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<大哥哥||大姐姐>，你真不吃烤鼠干么？"
+    translated: "<Big Brother||Big Sister>, why don't you eat the roasted jerky?"
 - raw: "67,1210000009,10,[1].talks{json}[0].name,菜娃"
   splits:
   - split: 4
     text: "菜娃"
+    translated: "Vegetable Boy"
 - raw: "67,1210000009,10,[1].talks{json}[0].talk,<大哥哥||大姐姐>是大好人！"
   splits:
   - split: 4
-    text: "大哥哥"
-  - split: 4
-    subIndex: 1
-    text: "大姐姐"
-  - split: 4
-    subIndex: 2
-    text: "是大好人！"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<大哥哥||大姐姐>是大好人！"
+    translated: "<Big Brother||Big Sister> is a great person!"
 - raw: "68,1210000010,10,[0].talks{json}[1].talk,此人面色焦黄，下腹鼓胀，躺在破榻上喘息沉重，腰下却有半条裤管空空如也。"
   splits:
   - split: 4
     text: "此人面色焦黄，下腹鼓胀，躺在破榻上喘息沉重，腰下却有半条裤管空空如也。"
+    translated: "This person had a sallow complexion, with a swollen lower abdomen. Lying on a dilapidated bed, they panted heavily, but there was an empty half of a trouser leg beneath them."
 - raw: "68,1210000010,10,[0].talks{json}[2].name,虞阳"
   splits:
   - split: 4
     text: "虞阳"
+    translated: "Yu Yang"
 - raw: "68,1210000010,10,[0].talks{json}[2].talk,多谢大侠，只恨虞某残躯无用，无以为报……"
   splits:
   - split: 4
     text: "多谢大侠，只恨虞某残躯无用，无以为报……"
+    translated: "Thank you, Great Hero. I regret that my crippled body is of no use and I have nothing to offer in return......"
 - raw: "68,1210000010,10,[1].talks{json}[0].name,虞阳"
   splits:
   - split: 4
     text: "虞阳"
+    translated: "Yu Yang"
 - raw: "68,1210000010,10,[1].talks{json}[0].talk,阁下赠粮之事我已听闻，我等将死之人能遇这般善举，当真，当真是……"
   splits:
   - split: 4
     text: "阁下赠粮之事我已听闻，我等将死之人能遇这般善举，当真，当真是……"
+    translated: "I have heard of your generous donation of grain. For us, who are on the brink of death, to encounter such kindness... it truly is... truly..."
 - raw: "69,1210000017,10,[0].talks{json}[1].name,刘老太"
   splits:
   - split: 4
     text: "刘老太"
+    translated: "Old Madam Liu"
 - raw: "69,1210000017,10,[0].talks{json}[1].talk,这般旱日，何时是头啊……"
   splits:
   - split: 4
     text: "这般旱日，何时是头啊……"
+    translated: "Such dry days, when will they end......"
 - raw: "69,1210000017,10,[0].talks{json}[2].name,刘老太"
   splits:
   - split: 4
     text: "刘老太"
+    translated: "Old Madam Liu"
 - raw: "69,1210000017,10,[0].talks{json}[2].talk,似<哥儿||姑娘>这般善人，菩萨定会保佑……"
   splits:
   - split: 4
-    text: "似"
-  - split: 4
-    subIndex: 1
-    text: "哥儿"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "这般善人，菩萨定会保佑……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "似<哥儿||姑娘>这般善人，菩萨定会保佑……"
+    translated: "Surely the Buddha will protect a virtuous person like <Young Brother||Miss>......"
 - raw: "69,1210000017,10,[1].talks{json}[0].name,刘老太"
   splits:
   - split: 4
     text: "刘老太"
+    translated: "Old Madam Liu"
 - raw: "69,1210000017,10,[1].talks{json}[0].talk,当真……当真是活菩萨降世救难……"
   splits:
   - split: 4
     text: "当真……当真是活菩萨降世救难……"
+    translated: "Truly... truly, you are a living bodhisattva come to save us from our plight..."
 - raw: "70,1210000029,10,[0].talks{json}[0].name,崔青菱"
   splits:
   - split: 4
     text: "崔青菱"
+    translated: "Cui Qingling"
 - raw: "70,1210000029,10,[0].talks{json}[0].talk,可……可不许骗我！若是你不来，我……我可要生气的！"
   splits:
   - split: 4
     text: "可……可不许骗我！若是你不来，我……我可要生气的！"
+    translated: "Y-You can't trick me! If you don't come, I-I'll get angry!"
 - raw: "70,1210000029,10,[1].talks{json}[0].name,崔青菱"
   splits:
   - split: 4
     text: "崔青菱"
+    translated: "Cui Qingling"
 - raw: "70,1210000029,10,[1].talks{json}[0].talk,<大侠||女侠>，此间之事我已料理妥当，咱们这便走么？"
   splits:
   - split: 4
-    text: "大侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，此间之事我已料理妥当，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<大侠||女侠>，此间之事我已料理妥当，咱们这便走么？"
+    translated: "<Great Hero||Heroine>, I have taken care of everything here. Shall we leave now?"
 - raw: "70,1210000029,10,[1].talks{json}[0].options{json}[0].name,启程上路。"
   splits:
   - split: 4
     text: "启程上路。"
+    translated: "Set out on the journey"
 - raw: "70,1210000029,10,[1].talks{json}[0].options{json}[1].name,暂且离去。"
   splits:
   - split: 4
     text: "暂且离去。"
+    translated: "Take a temporary leave"
 - raw: "72,1210000025,10,[0].talks{json}[0].name,探花六"
   splits:
   - split: 4
     text: "探花六"
+    translated: "Tanhua Liu"
 - raw: "72,1210000025,10,[0].talks{json}[0].talk,如何？"
   splits:
   - split: 4
     text: "如何？"
+    translated: "How about it?"
 - raw: "72,1210000025,10,[1].talks{json}[0].name,探花六"
   splits:
   - split: 4
     text: "探花六"
+    translated: "Tanhua Liu"
 - raw: "72,1210000025,10,[1].talks{json}[0].talk,不错，多谢。"
   splits:
   - split: 4
     text: "不错，多谢。"
+    translated: "Thanks, that's good"
 - raw: "73,1120001029,10,[0].talks{json}[0].talk,此人伫立于林间阴影中，双目于面具之后沉默地注视着你。"
   splits:
   - split: 4
     text: "此人伫立于林间阴影中，双目于面具之后沉默地注视着你。"
+    translated: "This person stood in the shadows of the woods, silently watching you behind a mask."
 - raw: "75,1240001091,10,[0].talks{json}[0].name,王巨"
   splits:
   - split: 4
     text: "王巨"
+    translated: "Wang Ju"
 - raw: "75,1240001091,10,[0].talks{json}[0].talk,我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳<fName><少侠||姑娘>多多照拂了。"
   splits:
   - split: 4
-    text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "多多照拂了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳<fName><少侠||姑娘>多多照拂了。"
+    translated: "My grandson is though clever and outwardly gentle, inwardly fiery. If he is to venture into Jianghu, I entrust him to your care, <fName><Young Hero||Miss>."
 - raw: "77,1240001009,10,[1].talks{json}[0].name,李崇山"
   splits:
   - split: 4
     text: "李崇山"
+    translated: "Li Chongshan"
 - raw: "77,1240001009,10,[1].talks{json}[0].talk,当真……别无他法了？"
   splits:
   - split: 4
     text: "当真……别无他法了？"
+    translated: "In all seriousness......is there no other way?"
 - raw: "77,1240001009,10,[2].talks{json}[0].name,李崇山"
   splits:
   - split: 4
     text: "李崇山"
+    translated: "Li Chongshan"
 - raw: "77,1240001009,10,[2].talks{json}[0].talk,唉，不知这场大乱，要多少人头落地……"
   splits:
   - split: 4
     text: "唉，不知这场大乱，要多少人头落地……"
+    translated: "Alas, who knows how many lives will be lost in this great upheaval..."
 - raw: "78,1240001072,10,[0].talks{json}[0].name,沈无瑕"
   splits:
   - split: 4
     text: "沈无瑕"
+    translated: "Shen Wuxia"
 - raw: "78,1240001072,10,[0].talks{json}[0].talk,此事，便有劳<fName><少侠||姑娘>了。"
   splits:
   - split: 4
-    text: "此事，便有劳"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "此事，便有劳<fName><少侠||姑娘>了。"
+    translated: "This matter, I entrust to you, <fName><Young Hero||Miss>."
 - raw: "78,1240001072,10,[1].talks{json}[0].name,沈无瑕"
   splits:
   - split: 4
     text: "沈无瑕"
+    translated: "Shen Wuxia"
 - raw: "78,1240001072,10,[1].talks{json}[0].talk,先前之事，多谢了。"
   splits:
   - split: 4
     text: "先前之事，多谢了。"
+    translated: "Thanks for what you did earlier"
 - raw: "79,1240001064,10,[0].talks{json}[0].name,商会十七"
   splits:
   - split: 4
     text: "商会十七"
+    translated: "Guild Member Seventeen"
 - raw: "79,1240001064,10,[0].talks{json}[0].talk,你是何人！至此作甚？"
   splits:
   - split: 4
     text: "你是何人！至此作甚？"
+    translated: "Who are you! What are you doing here?"
 - raw: "87,1260001037,10,[0].talks{json}[0].name,封天洪"
   splits:
   - split: 4
     text: "封天洪"
+    translated: "Feng Tianhong"
 - raw: "87,1260001037,10,[0].talks{json}[0].talk,倒是稀奇，我这地方，许久没人来了。"
   splits:
   - split: 4
     text: "倒是稀奇，我这地方，许久没人来了。"
+    translated: "That's unusual; I haven't had anyone visit in a long time."
 - raw: "88,1260001038,10,[0].talks{json}[0].name,萧存威"
   splits:
   - split: 4
     text: "萧存威"
+    translated: "Xiao Cunwei"
 - raw: "88,1260001038,10,[0].talks{json}[0].talk,此事若成，萧某另有他谢！"
   splits:
   - split: 4
     text: "此事若成，萧某另有他谢！"
+    translated: "If this succeeds, Xiao will have another way to show his gratitude!"
 - raw: "89,1260001030,10,[0].talks{json}[0].name,冯焕远"
   splits:
   - split: 4
     text: "冯焕远"
+    translated: "Feng Huan Yuan"
 - raw: "89,1260001030,10,[0].talks{json}[0].talk,待冯某找到他刀法破绽之日，你若是大雪山弟子，劝你躲得越远越好……"
   splits:
   - split: 4
     text: "待冯某找到他刀法破绽之日，你若是大雪山弟子，劝你躲得越远越好……"
+    translated: "When Feng finds the flaw in your Blade Art, if you are a Daxue Mountain Disciple, I advise you to stay as far away as possible......"
 - raw: "93,1250001004,10,[0].talks{json}[0].name,陈锦程"
   splits:
   - split: 4
     text: "陈锦程"
+    translated: "Chen Jincheng"
 - raw: "93,1250001004,10,[0].talks{json}[0].talk,功夫再好也拦不住本寨水师，劝你此去好生打算，否则……哼。"
   splits:
   - split: 4
     text: "功夫再好也拦不住本寨水师，劝你此去好生打算，否则……哼。"
+    translated: "No matter how good your skills are, you can't stop our village's naval forces. I advise you to think carefully about your next move, or else... hmph."
 - raw: "94,1250001005,10,[0].talks{json}[0].name,刘烁"
   splits:
   - split: 4
     text: "刘烁"
+    translated: "Liu Shuo"
 - raw: "94,1250001005,10,[0].talks{json}[0].talk,纵使你手上功夫不错，得罪了壁城水寨，也是难逃一死！"
   splits:
   - split: 4
     text: "纵使你手上功夫不错，得罪了壁城水寨，也是难逃一死！"
+    translated: "Even if your skills are good, offending the Bicheng Water Stronghold means a certain death!"
 - raw: "97,1160001078,10,[0].talks{json}[0].name,看客"
   splits:
   - split: 4
     text: "看客"
+    translated: "Onlooker"
 - raw: "97,1160001078,10,[0].talks{json}[0].talk,不知欲入聚峰武馆，需银钱几何……"
   splits:
   - split: 4
     text: "不知欲入聚峰武馆，需银钱几何……"
+    translated: "Wondering how much Silver is needed to join the Jufeng Martial Arts Hall......"
 - raw: "104,1270001032,10,[0].talks{json}[0].name,黑羽胧"
   splits:
   - split: 4
     text: "黑羽胧"
+    translated: "Heiyu Long"
 - raw: "104,1270001032,10,[0].talks{json}[0].talk,若你所说确有其事，那我便愿从此为你所用，纵使令我去杀你口中的倭寇，也决不反悔。"
   splits:
   - split: 4
     text: "若你所说确有其事，那我便愿从此为你所用，纵使令我去杀你口中的倭寇，也决不反悔。"
+    translated: "If what you say is true, then I will be at your service from now on, even if it means killing the Wokou you speak of; I shall never go back on my word."
 - raw: "104,1270001032,10,[0].talks{json}[1].name,黑羽胧"
   splits:
   - split: 4
     text: "黑羽胧"
+    translated: "Heiyu Long"
 - raw: "104,1270001032,10,[0].talks{json}[1].talk,若你骗我，我胜不过你，请你……允我一死。"
   splits:
   - split: 4
     text: "若你骗我，我胜不过你，请你……允我一死。"
+    translated: "If you deceive me, I cannot defeat you; please... allow me to die."
 - raw: "104,1270001032,10,[0].talks{json}[1].options{json}[0].name,自无不可，带其同行。"
   splits:
   - split: 4
     text: "自无不可，带其同行。"
+    translated: "As long as it's not inconvenient, I'll bring them along as companions."
 - raw: "104,1270001032,10,[0].talks{json}[1].options{json}[1].name,暂有他事。"
   splits:
   - split: 4
     text: "暂有他事。"
+    translated: "I have other matters to attend to"
 - raw: "105,1270001051,10,[0].talks{json}[0].talk,此人所讲乃是倭国佛理，声洪音亮，气度非凡。"
   splits:
   - split: 4
     text: "此人所讲乃是倭国佛理，声洪音亮，气度非凡。"
+    translated: "This person spoke of Buddhist teachings from Japan, their voice loud and clear, with an extraordinary presence."
 - raw: "105,1270001051,10,[1].talks{json}[0].name,明忍禅师"
   splits:
   - split: 4
     text: "明忍禅师"
+    translated: "Zen Master Mingren"
 - raw: "105,1270001051,10,[1].talks{json}[0].talk,佛法……本无分别。"
   splits:
   - split: 4
     text: "佛法……本无分别。"
+    translated: "Buddhism... inherently has no distinctions."
 - raw: "108,1220001002,10,[0].talks{json}[0].name,祁语山"
   splits:
   - split: 4
     text: "祁语山"
+    translated: "Qi Yushan"
 - raw: "108,1220001002,10,[0].talks{json}[0].talk,我留于此处探查周遭，<fName><兄弟||姑娘>，你将此间之事禀与门主，且看他作何想法。"
   splits:
   - split: 4
-    text: "我留于此处探查周遭，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "，你将此间之事禀与门主，且看他作何想法。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "我留于此处探查周遭，<fName><兄弟||姑娘>，你将此间之事禀与门主，且看他作何想法。"
+    translated: "I will stay here to investigate the surroundings, <fName><Brother||Miss>, you report this to the Sect Leader and see what he thinks."
 - raw: "108,1220001002,10,[1].talks{json}[0].name,祁语山"
   splits:
   - split: 4
     text: "祁语山"
+    translated: "Qi Yushan"
 - raw: "108,1220001002,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，往后若有何需，径来寻我便是。"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，往后若有何需，径来寻我便是。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，往后若有何需，径来寻我便是。"
+    translated: "<fName><Brother||Miss>, if you ever need anything in the future, come and find me directly."
 - raw: "109,1220001003,10,[0].talks{json}[0].name,魏山"
   splits:
   - split: 4
     text: "魏山"
+    translated: "Wei Shan"
 - raw: "109,1220001003,10,[0].talks{json}[0].talk,近年来鞑子频频来犯，细作频出，守门也是件紧要差事，万不能出差错。"
   splits:
   - split: 4
     text: "近年来鞑子频频来犯，细作频出，守门也是件紧要差事，万不能出差错。"
+    translated: "In recent years, Tartar invasions have been frequent, and spies are everywhere. Guarding the gate is a crucial duty; one cannot afford to make any mistakes."
 - raw: "110,1220001004,10,[0].talks{json}[0].name,褚玉书"
   splits:
   - split: 4
     text: "褚玉书"
+    translated: "Chu Yushu"
 - raw: "110,1220001004,10,[0].talks{json}[0].talk,此间乃大旗门操练士卒之处，若无他事，还请阁下暂去。"
   splits:
   - split: 4
     text: "此间乃大旗门操练士卒之处，若无他事，还请阁下暂去。"
+    translated: "This is where the Daqi Sect trains its soldiers; if you have no other business, please leave for now."
 - raw: "110,1220001004,10,[1].talks{json}[0].name,褚玉书"
   splits:
   - split: 4
     text: "褚玉书"
+    translated: "Chu Yushu"
 - raw: "110,1220001004,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，你之大名，如今可是已然传遍本门了。"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，你之大名，如今可是已然传遍本门了。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，你之大名，如今可是已然传遍本门了。"
+    translated: "<fName><Brother||Miss>, your great name has now spread throughout our sect."
 - raw: "110,1220001004,10,[2].talks{json}[0].name,褚玉书"
   splits:
   - split: 4
     text: "褚玉书"
+    translated: "Chu Yushu"
 - raw: "110,1220001004,10,[2].talks{json}[0].talk,大旗门能得今日安宁，<fName><兄弟||姑娘>当居首功。"
   splits:
   - split: 4
-    text: "大旗门能得今日安宁，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "当居首功。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "大旗门能得今日安宁，<fName><兄弟||姑娘>当居首功。"
+    translated: "The peace of the Daqi Sect today is largely due to your efforts, <fName><Brother||Miss>."
 - raw: "111,1220001007,10,[0].talks{json}[0].name,李麒"
   splits:
   - split: 4
     text: "李麒"
+    translated: "Li Qi"
 - raw: "111,1220001007,10,[0].talks{json}[0].talk,你远途颠簸不易，且先去歇息罢，若营中有何要事，我自会遣人寻你。"
   splits:
   - split: 4
     text: "你远途颠簸不易，且先去歇息罢，若营中有何要事，我自会遣人寻你。"
+    translated: "You have traveled far and suffered much; rest now. If there is anything urgent at the camp, I will send someone to find you."
 - raw: "111,1220001007,10,[1].talks{json}[0].name,李麒"
   splits:
   - split: 4
     text: "李麒"
+    translated: "Li Qi"
 - raw: "111,1220001007,10,[1].talks{json}[0].talk,你见解倒合我心意，且先去罢，若逢他事，李某或需再听听你心中所想。"
   splits:
   - split: 4
     text: "你见解倒合我心意，且先去罢，若逢他事，李某或需再听听你心中所想。"
+    translated: "Your insights align with my thoughts; you may leave for now. If anything else comes up, Li Mou might need to hear your ideas again."
 - raw: "111,1220001007,10,[2].talks{json}[0].name,李麒"
   splits:
   - split: 4
     text: "李麒"
+    translated: "Li Qi"
 - raw: "111,1220001007,10,[2].talks{json}[0].talk,此事我已让语山去办，你且先去歇息，若无意外，此事很快便见分晓。"
   splits:
   - split: 4
     text: "此事我已让语山去办，你且先去歇息，若无意外，此事很快便见分晓。"
+    translated: "I have sent Yu Shan to handle this. You should rest for now. If there are no complications, we will soon see the outcome."
 - raw: "111,1220001007,10,[3].talks{json}[0].talk,李麒望着中央沙盘，临危未乱，一言不发。"
   splits:
   - split: 4
     text: "李麒望着中央沙盘，临危未乱，一言不发。"
+    translated: "Li Qi gazed at the central sand table, calm in the face of danger, saying nothing."
 - raw: "111,1220001007,10,[4].talks{json}[0].name,李麒"
   splits:
   - split: 4
     text: "李麒"
+    translated: "Li Qi"
 - raw: "111,1220001007,10,[4].talks{json}[0].talk,既有此言，无论今日胜负，李某皆认你这个<兄弟||妹子>，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
   splits:
   - split: 4
-    text: "既有此言，无论今日胜负，李某皆认你这个"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "既有此言，无论今日胜负，李某皆认你这个<兄弟||妹子>，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
+    translated: "Having said this, regardless of today's outcome, Li will acknowledge you as my <Brother||Little Sister>. Should there be any need in the future, all of Daqi Sect will face any challenge without hesitation."
 - raw: "111,1220001007,10,[5].talks{json}[0].name,李麒"
   splits:
   - split: 4
     text: "李麒"
+    translated: "Li Qi"
 - raw: "111,1220001007,10,[5].talks{json}[0].talk,此事既毕，诸位且先去歇息，明日开宴，为尔等庆功！"
   splits:
   - split: 4
     text: "此事既毕，诸位且先去歇息，明日开宴，为尔等庆功！"
+    translated: "Now that this matter is settled, all of you should rest for now. Tomorrow, we will hold a feast to celebrate your accomplishments!"
 - raw: "111,1220001007,10,[6].talks{json}[0].name,李麒"
   splits:
   - split: 4
     text: "李麒"
+    translated: "Li Qi"
 - raw: "111,1220001007,10,[6].talks{json}[0].talk,<fName><兄弟||姑娘>，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
+    translated: "<fName><Brother||Miss>, Li Mou has always been a man of my word. If you need anything in the future, all of Daqi Sect will be at your service."
 - raw: "112,1220001008,10,[1].talks{json}[0].name,仇千秋"
   splits:
   - split: 4
     text: "仇千秋"
+    translated: "Qiu Qianqiu"
 - raw: "112,1220001008,10,[1].talks{json}[0].talk,门主所言不错，若无你的河图洛书，只靠咱们二人，只怕……哈哈，你这首功，当之无愧！"
   splits:
   - split: 4
     text: "门主所言不错，若无你的河图洛书，只靠咱们二人，只怕……哈哈，你这首功，当之无愧！"
+    translated: "The Sect Leader is right; without your Hetu and Luoshu, relying on just the two of us, we likely wouldn't have succeeded... Ha ha, you deserve this first credit!"
 - raw: "112,1220001008,10,[2].talks{json}[0].name,仇千秋"
   splits:
   - split: 4
     text: "仇千秋"
+    translated: "Qiu Qianqiu"
 - raw: "112,1220001008,10,[2].talks{json}[0].talk,再逢他机，咱们可要再好生并肩杀上一场，先前将女真大营杀了个对穿，当真痛快！"
   splits:
   - split: 4
     text: "再逢他机，咱们可要再好生并肩杀上一场，先前将女真大营杀了个对穿，当真痛快！"
+    translated: "The next time we have the chance, we must fight side by side again and cut through the Jurchen camp once more-it was truly exhilarating!"
 - raw: "116,1220001029,10,[0].talks{json}[0].name,丁蕴真"
   splits:
   - split: 4
     text: "丁蕴真"
+    translated: "Ding Yunzhen"
 - raw: "116,1220001029,10,[0].talks{json}[0].talk,早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
   splits:
   - split: 4
-    text: "早晚有一日，我要似爷爷和"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "这般杀鞑子，将他们赶出北疆！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
+    translated: "One day, I will kill the Tartars like Grandfather and <fName><Big Brother||Big Sister> did, driving them out of the northern frontier!"
 - raw: "116,1220001029,10,[1].talks{json}[0].name,丁蕴真"
   splits:
   - split: 4
     text: "丁蕴真"
+    translated: "Ding Yunzhen"
 - raw: "116,1220001029,10,[1].talks{json}[0].talk,早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
   splits:
   - split: 4
-    text: "早晚有一日，我要似爷爷和"
-  - split: 4
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "这般杀鞑子，将他们赶出北疆！"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
+    translated: "One day, I will kill the Tartars like Grandfather and <fName><Big Brother||Big Sister> did, driving them out of the northern frontier!"
 - raw: "116,1220001029,10,[1].talks{json}[0].options{json}[0].name,邀其同行。"
   splits:
   - split: 4
     text: "邀其同行。"
+    translated: "Invite them to accompany you"
 - raw: "116,1220001029,10,[1].talks{json}[0].options{json}[1].name,暂且离去。"
   splits:
   - split: 4
     text: "暂且离去。"
+    translated: "Take a temporary leave"
 - raw: "119,1230001001,10,[0].talks{json}[0].name,慈弘"
   splits:
   - split: 4
     text: "慈弘"
+    translated: "Cihong"
 - raw: "119,1230001001,10,[0].talks{json}[0].talk,入世弘法，为民祈福，乃是菩萨宏愿，众生福祉。"
   splits:
   - split: 4
     text: "入世弘法，为民祈福，乃是菩萨宏愿，众生福祉。"
+    translated: "Preaching in the world and praying for the welfare of the people is the great vow of a Bodhisattva, bringing blessings to all beings."
 - raw: "120,1230001006,10,[0].talks{json}[0].talk,女子并未关注于你，她微微蹙着眉，正盯着参礼的百姓。"
   splits:
   - split: 4
     text: "女子并未关注于你，她微微蹙着眉，正盯着参礼的百姓。"
+    translated: "The woman did not pay attention to you; she frowned slightly, staring at the citizens paying their respects."
 - raw: "121,1230001013,10,[0].talks{json}[0].name,济明"
   splits:
   - split: 4
     text: "济明"
+    translated: "Jiming"
 - raw: "121,1230001013,10,[0].talks{json}[0].talk,如此行事，岂不恶了佛祖？偌大佛寺，竟无几人真心向佛……罪过，罪过。"
   splits:
   - split: 4
     text: "如此行事，岂不恶了佛祖？偌大佛寺，竟无几人真心向佛……罪过，罪过。"
+    translated: "To act this way would offend the Buddha. Such a large temple, yet so few truly devote themselves to the Buddha... Sin, sin."
 - raw: "121,1230001013,10,[1].talks{json}[0].name,济明"
   splits:
   - split: 4
     text: "济明"
+    translated: "Jiming"
 - raw: "121,1230001013,10,[1].talks{json}[0].talk,施主可先取信于慈弘，或可套出账本所在。"
   splits:
   - split: 4
     text: "施主可先取信于慈弘，或可套出账本所在。"
+    translated: "Benefactor, you may first gain the trust of Ci Hong, or you may be able to find out where the ledger is hidden."
 - raw: "121,1230001013,10,[2].talks{json}[0].name,济明"
   splits:
   - split: 4
     text: "济明"
+    translated: "Jiming"
 - raw: "121,1230001013,10,[2].talks{json}[0].talk,慈弘当真草菅人命……这白马寺，唉……"
   splits:
   - split: 4
     text: "慈弘当真草菅人命……这白马寺，唉……"
+    translated: "Cihong really treats human life as worthless... this White Horse Temple, sigh..."
 - raw: "121,1230001013,10,[3].talks{json}[0].name,济明"
   splits:
   - split: 4
     text: "济明"
+    translated: "Jiming"
 - raw: "121,1230001013,10,[3].talks{json}[0].talk,龙门石窟守卫重重，施主此行须万般谨慎。"
   splits:
   - split: 4
     text: "龙门石窟守卫重重，施主此行须万般谨慎。"
+    translated: "The Longmen Grottoes are heavily guarded; you must be extremely cautious on this journey."
 - raw: "122,1230001016,10,[0].talks{json}[0].name,成达"
   splits:
   - split: 4
     text: "成达"
+    translated: "Cheng Da"
 - raw: "122,1230001016,10,[0].talks{json}[0].talk,成某所言是真是假，请阁下到冯兄弟家中，一问便知。"
   splits:
   - split: 4
     text: "成某所言是真是假，请阁下到冯兄弟家中，一问便知。"
+    translated: "Whether Cheng Mou speaks the truth or not, please go to Brother Feng's house and ask him directly."
 - raw: "122,1230001016,10,[1].talks{json}[0].name,成达"
   splits:
   - split: 4
     text: "成达"
+    translated: "Cheng Da"
 - raw: "122,1230001016,10,[1].talks{json}[0].talk,能得阁下相助，当真是天佑我等！天佑洛阳！"
   splits:
   - split: 4
     text: "能得阁下相助，当真是天佑我等！天佑洛阳！"
+    translated: "To have your help, truly is a blessing from heaven for us all! A blessing for Luoyang!"
 - raw: "122,1230001016,10,[2].talks{json}[0].name,成达"
   splits:
   - split: 4
     text: "成达"
+    translated: "Cheng Da"
 - raw: "122,1230001016,10,[2].talks{json}[0].talk,<fName><兄弟||姑娘>，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
+    translated: "<fName><Brother||Miss>, thanks to your help with the matter in Luoyang, we truly could not have overthrown Cihong alone... Fortunately, our mission was successful. When you have time, come to Luoyang and let's meet up!"
 - raw: "123,1230001022,10,[1].talks{json}[0].name,济德"
   splits:
   - split: 4
     text: "济德"
+    translated: "Jide"
 - raw: "123,1230001022,10,[1].talks{json}[0].talk,我、我尽量应付后来者……就怕慈弘那厮万一察觉，大侠，你们可要快些。"
   splits:
   - split: 4
     text: "我、我尽量应付后来者……就怕慈弘那厮万一察觉，大侠，你们可要快些。"
+    translated: "I will do my best to deal with those who come later... I just hope Great Hero Cihong doesn't notice; you all must hurry."
 - raw: "123,1230001022,10,[2].talks{json}[0].name,济德"
   splits:
   - split: 4
     text: "济德"
+    translated: "Jide"
 - raw: "123,1230001022,10,[2].talks{json}[0].talk,大、大侠……小僧已改恶从善，改恶从善！陈大人临行前，要我代白马寺向民赎罪，小僧一定尽力、尽力！"
   splits:
   - split: 4
     text: "大、大侠……小僧已改恶从善，改恶从善！陈大人临行前，要我代白马寺向民赎罪，小僧一定尽力、尽力！"
+    translated: "Great, Great Hero... I have turned from evil to virtue, turned from evil to virtue! Before leaving, Lord Chen asked me to represent White Horse Temple in atoning for our sins to the people. I will do my best, do my best!"
 - raw: "124,1230001023,10,[0].talks{json}[0].name,王福生"
   splits:
   - split: 4
     text: "王福生"
+    translated: "Wang Fusheng"
 - raw: "124,1230001023,10,[0].talks{json}[0].talk,成大哥早便夸过大侠身手不凡，果真不假！"
   splits:
   - split: 4
     text: "成大哥早便夸过大侠身手不凡，果真不假！"
+    translated: "Big Brother Cheng has long praised your extraordinary skills-indeed, it's no lie!"
 - raw: "124,1230001023,10,[1].talks{json}[0].name,王福生"
   splits:
   - split: 4
     text: "王福生"
+    translated: "Wang Fusheng"
 - raw: "124,1230001023,10,[1].talks{json}[0].talk,痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，<fName><兄弟||姑娘>瞧见没？"
   splits:
   - split: 4
-    text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "瞧见没？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，<fName><兄弟||姑娘>瞧见没？"
+    translated: "Great, great! What was that word again... dispel, dispel the clouds and see the sun! Under the big Buddha in town, there's a new stele. <fName><Brother||Miss>, did you see it?"
 - raw: "126,1140002002,10,[0].talks{json}[0].name,项天奉"
   splits:
   - split: 4
     text: "项天奉"
+    translated: "Xiang Tianfeng"
 - raw: "126,1140002002,10,[0].talks{json}[0].talk,哼！天涯海阁，不过如此......"
   splits:
   - split: 4
     text: "哼！天涯海阁，不过如此......"
+    translated: "Hmph! Tianya Haige, not so impressive......"
 - raw: "127,1230001085,10,[0].talks{json}[0].talk,小沙弥正哭丧着脸，抄写经卷。"
   splits:
   - split: 4
     text: "小沙弥正哭丧着脸，抄写经卷。"
+    translated: "The Junior Monk is frowning miserably, copying scriptures."
 - raw: "128,1230001086,10,[0].talks{json}[0].name,慧寂"
   splits:
   - split: 4
     text: "慧寂"
+    translated: "Huiji"
 - raw: "128,1230001086,10,[0].talks{json}[0].talk,人在世间爱欲之中，独生独死，独去独来……"
   splits:
   - split: 4
     text: "人在世间爱欲之中，独生独死，独去独来……"
+    translated: "In the world of desires, one is born and dies alone, departs and returns alone......"
 - raw: "130,1170001076,10,[0].talks{json}[0].name,胡郎中"
   splits:
   - split: 4
     text: "胡郎中"
+    translated: "Doctor Hu"
 - raw: "130,1170001076,10,[0].talks{json}[0].talk,木香二钱、甘草一钱……此方竟有如此功效，甚妙，甚妙……"
   splits:
   - split: 4
     text: "木香二钱、甘草一钱……此方竟有如此功效，甚妙，甚妙……"
+    translated: "Two qians of Magnolia bark, one qian of licorice......This prescription has such effects, truly wonderful, truly wonderful......"
 - raw: "130,1170001076,10,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -2734,10 +2393,12 @@
   splits:
   - split: 4
     text: "胡郎中"
+    translated: "Doctor Hu"
 - raw: "130,1170001076,10,[1].talks{json}[0].talk,听说不久前五圣教中大大乱套，不知是真是假……"
   splits:
   - split: 4
     text: "听说不久前五圣教中大大乱套，不知是真是假……"
+    translated: "I heard that not long ago, the Wusheng Sect was in great turmoil... I wonder if it's true or not......"
 - raw: "130,1170001076,10,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -2752,10 +2413,12 @@
   splits:
   - split: 4
     text: "胡郎中"
+    translated: "Doctor Hu"
 - raw: "130,1170001076,10,[2].talks{json}[0].talk,花山节……呵呵，老夫可有数十年没瞧过这般热闹了。"
   splits:
   - split: 4
     text: "花山节……呵呵，老夫可有数十年没瞧过这般热闹了。"
+    translated: "Flower Mountain Festival...... Heh heh, Old Man here hasn't seen such a lively scene in decades."
 - raw: "130,1170001076,10,[2].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -2770,679 +2433,554 @@
   splits:
   - split: 4
     text: "胡郎中"
+    translated: "Doctor Hu"
 - raw: "130,1170001076,10,[3].talks{json}[0].talk,花山节？甚好……届时，小老儿必不会负了<少侠||女侠>这番厚意……"
   splits:
   - split: 4
-    text: "花山节？甚好……届时，小老儿必不会负了"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "这番厚意……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "花山节？甚好……届时，小老儿必不会负了<少侠||女侠>这番厚意……"
 - raw: "130,1170001076,10,[4].talks{json}[0].name,胡郎中"
   splits:
   - split: 4
     text: "胡郎中"
+    translated: "Doctor Hu"
 - raw: "130,1170001076,10,[4].talks{json}[0].talk,多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
   splits:
   - split: 4
-    text: "多谢"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "相邀，今日可算是大开眼界了……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
+    translated: "Thank you for the invitation, <Young Hero||Heroine>. Today has truly been an eye-opening experience......"
 - raw: "131,1170001080,10,[0].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
     text: "穷酸书生"
+    translated: "Impoverished Scholar"
 - raw: "131,1170001080,10,[0].talks{json}[0].talk,我夫妻再不涉足天下之事……江湖路远，万望珍重。"
   splits:
   - split: 4
     text: "我夫妻再不涉足天下之事……江湖路远，万望珍重。"
+    translated: "We will no longer involve ourselves in the affairs of the world... The Jianghu Road is long, take care."
 - raw: "131,1170001080,10,[1].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
     text: "穷酸书生"
+    translated: "Impoverished Scholar"
 - raw: "131,1170001080,10,[1].talks{json}[0].talk,有劳<兄弟||妹子>相告，然我二人实有不便，这花山节……便不去了。"
   splits:
   - split: 4
-    text: "有劳"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "相告，然我二人实有不便，这花山节……便不去了。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "有劳<兄弟||妹子>相告，然我二人实有不便，这花山节……便不去了。"
+    translated: "It's a bother, but <Brother||Little Sister>, my companion and I have some difficulties, so we won't be attending the Huashan Festival..."
 - raw: "131,1170001080,10,[2].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
     text: "穷酸书生"
+    translated: "Impoverished Scholar"
 - raw: "131,1170001080,10,[2].talks{json}[0].talk,我夫妻再不涉足天下之事……江湖路远，万望珍重。"
   splits:
   - split: 4
     text: "我夫妻再不涉足天下之事……江湖路远，万望珍重。"
+    translated: "We will no longer involve ourselves in the affairs of the world... The Jianghu Road is long, take care."
 - raw: "132,1170001081,10,[0].talks{json}[0].name,浣衣娘"
   splits:
   - split: 4
     text: "浣衣娘"
+    translated: "Washerwoman"
 - raw: "132,1170001081,10,[0].talks{json}[0].talk,我与夫君决意在此隐居，了却此生……胡郎中亦在大理，也算有个照应。"
   splits:
   - split: 4
     text: "我与夫君决意在此隐居，了却此生……胡郎中亦在大理，也算有个照应。"
+    translated: "My husband and I have decided to live in seclusion here for the rest of our lives... Doctor Hu is also in Dali, so we have someone to rely on."
 - raw: "132,1170001081,10,[1].talks{json}[0].name,浣衣娘"
   splits:
   - split: 4
     text: "浣衣娘"
+    translated: "Washerwoman"
 - raw: "132,1170001081,10,[1].talks{json}[0].talk,花山节……？"
   splits:
   - split: 4
     text: "花山节……？"
+    translated: "Hua Mountain Festival......?"
 - raw: "132,1170001081,10,[1].talks{json}[1].talk,浣衣娘摇了摇头。"
   splits:
   - split: 4
     text: "浣衣娘摇了摇头。"
+    translated: "Washerwoman shook her head"
 - raw: "132,1170001081,10,[2].talks{json}[0].name,浣衣娘"
   splits:
   - split: 4
     text: "浣衣娘"
+    translated: "Washerwoman"
 - raw: "132,1170001081,10,[2].talks{json}[0].talk,我与夫君决意在此隐居，了却此生……胡郎中亦在大理，也算有个照应。"
   splits:
   - split: 4
     text: "我与夫君决意在此隐居，了却此生……胡郎中亦在大理，也算有个照应。"
+    translated: "My husband and I have decided to live in seclusion here for the rest of our lives... Doctor Hu is also in Dali, so we have someone to rely on."
 - raw: "133,1170001011,10,[0].talks{json}[0].talk,老族长经受不住丧子之痛打击，竟一时失语……"
   splits:
   - split: 4
     text: "老族长经受不住丧子之痛打击，竟一时失语……"
+    translated: "The old patriarch couldn't bear the pain of losing his son and was left speechless for a moment......"
 - raw: "133,1170001011,10,[1].talks{json}[0].name,段罔顾"
   splits:
   - split: 4
     text: "段罔顾"
+    translated: "Duan Wanggu"
 - raw: "133,1170001011,10,[1].talks{json}[0].talk,花山节……不想竟真能再开。"
   splits:
   - split: 4
     text: "花山节……不想竟真能再开。"
+    translated: "The Flower Mountain Festival... I never thought it would actually happen again."
 - raw: "133,1170001011,10,[2].talks{json}[0].name,段罔顾"
   splits:
   - split: 4
     text: "段罔顾"
+    translated: "Duan Wanggu"
 - raw: "133,1170001011,10,[2].talks{json}[0].talk,如此看来，苗汉和睦……似非无解……"
   splits:
   - split: 4
     text: "如此看来，苗汉和睦……似非无解……"
+    translated: "Considering this, the harmony between the Miao and Han peoples... seems not unsolvable..."
 - raw: "133,1170001011,10,[3].talks{json}[0].name,段罔顾"
   splits:
   - split: 4
     text: "段罔顾"
+    translated: "Duan Wanggu"
 - raw: "133,1170001011,10,[3].talks{json}[0].talk,经此一役，族中青壮几已十不存一，此后却要如何……哎……"
   splits:
   - split: 4
     text: "经此一役，族中青壮几已十不存一，此后却要如何……哎……"
+    translated: "After this battle, barely one in ten of our tribe's able-bodied young men remain. What shall we do from here on...? Sigh..."
 - raw: "134,1170001004,10,[0].talks{json}[0].name,段绍裘"
   splits:
   - split: 4
     text: "段绍裘"
+    translated: "Duan Shaoqiu"
 - raw: "134,1170001004,10,[0].talks{json}[0].talk,阁下遍访教中高层，可曾探得消息，谁人可助我段氏？"
   splits:
   - split: 4
     text: "阁下遍访教中高层，可曾探得消息，谁人可助我段氏？"
+    translated: "Have you visited the high-ranking members of the sect and found out who can help my clan, the Duan family?"
 - raw: "134,1170001004,10,[0].talks{json}[0].options{json}[0].name,还未全员访问完毕。"
   splits:
   - split: 4
     text: "还未全员访问完毕。"
+    translated: "Not all members have been visited yet"
 - raw: "135,1170001024,10,[0].talks{json}[0].name,荆蒙"
   splits:
   - split: 4
     text: "荆蒙"
+    translated: "Jing Meng"
 - raw: "135,1170001024,10,[0].talks{json}[0].talk,竟是、竟是圣女亲临……此番还要多谢汉家<阿哥||阿姐>！"
   splits:
   - split: 4
-    text: "竟是、竟是圣女亲临……此番还要多谢汉家"
-  - split: 4
-    subIndex: 1
-    text: "阿哥"
-  - split: 4
-    subIndex: 2
-    text: "阿姐"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>！"
+    text: "竟是、竟是圣女亲临……此番还要多谢汉家<阿哥||阿姐>！"
 - raw: "135,1170001024,10,[1].talks{json}[0].name,荆蒙"
   splits:
   - split: 4
     text: "荆蒙"
+    translated: "Jing Meng"
 - raw: "135,1170001024,10,[1].talks{json}[0].talk,花山节终于又再开了……"
   splits:
   - split: 4
     text: "花山节终于又再开了……"
+    translated: "The Flower Mountain Festival has finally come around again......"
 - raw: "135,1170001024,10,[2].talks{json}[0].name,荆蒙"
   splits:
   - split: 4
     text: "荆蒙"
+    translated: "Jing Meng"
 - raw: "135,1170001024,10,[2].talks{json}[0].talk,若连圣女都这般说……想来止戈罢斗，多少亦有其道理……"
   splits:
   - split: 4
     text: "若连圣女都这般说……想来止戈罢斗，多少亦有其道理……"
+    translated: "If even the Holy Maiden speaks this way......it seems there must be some reason to seek peace and end the fighting......"
 - raw: "136,1170001025,10,[0].talks{json}[0].name,杭儿"
   splits:
   - split: 4
     text: "杭儿"
+    translated: "Hang'er"
 - raw: "136,1170001025,10,[0].talks{json}[0].talk,爹爹，孩儿无事……此番多亏了<少侠||女侠>，否则孩儿只怕是回不来了……"
   splits:
   - split: 4
-    text: "爹爹，孩儿无事……此番多亏了"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "女侠"
-  - split: 4
-    subIndex: 3
-    text: "，否则孩儿只怕是回不来了……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "爹爹，孩儿无事……此番多亏了<少侠||女侠>，否则孩儿只怕是回不来了……"
+    translated: "Father, I am fine......This time, it was all thanks to <Young Hero||Heroine>, otherwise I fear I would not have returned......"
 - raw: "136,1170001025,10,[1].talks{json}[0].name,杭儿"
   splits:
   - split: 4
     text: "杭儿"
+    translated: "Hang'er"
 - raw: "136,1170001025,10,[1].talks{json}[0].talk,那便拜托<少侠哥哥||女侠姐姐>了，一定要将此印信归还圣女姐姐！"
   splits:
   - split: 4
-    text: "那便拜托"
-  - split: 4
-    subIndex: 1
-    text: "少侠哥哥"
-  - split: 4
-    subIndex: 2
-    text: "女侠姐姐"
-  - split: 4
-    subIndex: 3
-    text: "了，一定要将此印信归还圣女姐姐！"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "那便拜托<少侠哥哥||女侠姐姐>了，一定要将此印信归还圣女姐姐！"
+    translated: "Then I must rely on <Young Hero Brother||Heroine Sister> to return this token to Sister Holy Maiden!"
 - raw: "136,1170001025,10,[2].talks{json}[0].name,杭儿"
   splits:
   - split: 4
     text: "杭儿"
+    translated: "Hang'er"
 - raw: "136,1170001025,10,[2].talks{json}[0].talk,苗家人奏的什么乐器？这般好听……"
   splits:
   - split: 4
     text: "苗家人奏的什么乐器？这般好听……"
+    translated: "What instrument are the Miao people playing? It sounds so beautiful......"
 - raw: "136,1170001025,10,[3].talks{json}[0].name,杭儿"
   splits:
   - split: 4
     text: "杭儿"
+    translated: "Hang'er"
 - raw: "136,1170001025,10,[3].talks{json}[0].talk,五圣教圣女，可当真是个美人儿……"
   splits:
   - split: 4
     text: "五圣教圣女，可当真是个美人儿……"
+    translated: "Wusheng Sect's Holy Maiden, she truly is a beauty......"
 - raw: "137,1170001049,10,[0].talks{json}[0].talk,此人正为武馆学徒演示剑法，暂且莫要打扰罢。"
   splits:
   - split: 4
     text: "此人正为武馆学徒演示剑法，暂且莫要打扰罢。"
+    translated: "This person is demonstrating Swordsmanship for the Martial Hall Apprentice, so let's not disturb them."
 - raw: "138,1170001055,10,[0].talks{json}[0].name,阿藤"
   splits:
   - split: 4
     text: "阿藤"
+    translated: "Ateng"
 - raw: "138,1170001055,10,[0].talks{json}[0].talk,<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
+    translated: "<Young Hero||Miss>, rest assured. The Gambling Den sees much traffic; I will personally relay the message, and Great Hero Lin will soon know..."
 - raw: "138,1170001055,10,[2].talks{json}[0].name,阿藤"
   splits:
   - split: 4
     text: "阿藤"
+    translated: "Ateng"
 - raw: "138,1170001055,10,[2].talks{json}[0].talk,<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "好生厉害，此番大闹竟让鄙店三日不得开张……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
+    translated: "<Young Hero||Miss> you are truly formidable; this time causing such a ruckus that our shop cannot open for three days......"
 - raw: "138,1170001055,10,[3].talks{json}[0].name,阿藤"
   splits:
   - split: 4
     text: "阿藤"
+    translated: "Ateng"
 - raw: "138,1170001055,10,[3].talks{json}[0].talk,那冤家不知何时能归……"
   splits:
   - split: 4
     text: "那冤家不知何时能归……"
+    translated: "When will that rival return..."
 - raw: "139,1170001056,10,[0].talks{json}[0].name,丹左膳"
   splits:
   - split: 4
     text: "丹左膳"
+    translated: "Tange Sazen"
 - raw: "139,1170001056,10,[0].talks{json}[0].talk,藤娘离别之意，皆在其中，且借此曲壮我胸怀，天下偌大，无我不可去者！"
   splits:
   - split: 4
     text: "藤娘离别之意，皆在其中，且借此曲壮我胸怀，天下偌大，无我不可去者！"
+    translated: "Fengniang's parting feelings are all conveyed in this melody, and through it, I strengthen my resolve. The world is vast, and there is no place where I cannot go!"
 - raw: "139,1170001056,10,[0].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
     text: "江湖同游。"
+    translated: "Jianghu journey together"
 - raw: "139,1170001056,10,[0].talks{json}[0].options{json}[1].name,暂且离去。"
   splits:
   - split: 4
     text: "暂且离去。"
+    translated: "Take a temporary leave"
 - raw: "140,1180000309,10,[0].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[0].talks{json}[0].talk,螣蛇谷近年来所行所为愈发偏激，若是坐视不理……"
   splits:
   - split: 4
     text: "螣蛇谷近年来所行所为愈发偏激，若是坐视不理……"
+    translated: "In recent years, Tengshe Valley has become increasingly radical in their actions. If we turn a blind eye to it......"
 - raw: "140,1180000309,10,[1].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[1].talks{json}[0].talk,……此事卯雅尚需仔细思量，<fName><公子||妹子>，多谢了。"
   splits:
   - split: 4
-    text: "……此事卯雅尚需仔细思量，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "，多谢了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "……此事卯雅尚需仔细思量，<fName><公子||妹子>，多谢了。"
+    translated: "...I still need to think carefully about this, <fName><Young Master||Little Sister>, thank you."
 - raw: "140,1180000309,10,[2].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[2].talks{json}[0].talk,圣女此时正在蛊塔之上，你若有心便去看看她吧……"
   splits:
   - split: 4
     text: "圣女此时正在蛊塔之上，你若有心便去看看她吧……"
+    translated: "The Holy Maiden is currently on the Gu Tower. If you wish, you may go and see her......"
 - raw: "140,1180000309,10,[3].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[3].talks{json}[0].talk,今她姊妹团聚，亦是一桩美事……"
   splits:
   - split: 4
     text: "今她姊妹团聚，亦是一桩美事……"
+    translated: "Now that her sisters are reunited, it is also a fine thing......"
 - raw: "140,1180000309,10,[4].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[4].talks{json}[1].talk,此人秀眉紧蹙，正在闭目运功，全力驱毒，还是莫要打扰了。"
   splits:
   - split: 4
     text: "此人秀眉紧蹙，正在闭目运功，全力驱毒，还是莫要打扰了。"
+    translated: "This person had furrowed brows, concentrating with closed eyes, using all their strength to expel the poison. Best not to disturb them."
 - raw: "140,1180000309,10,[5].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[5].talks{json}[0].talk,先前平定教中内乱，<公子||妹子>居功至伟……"
   splits:
   - split: 4
-    text: "先前平定教中内乱，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "妹子"
-  - split: 4
-    subIndex: 3
-    text: "居功至伟……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "先前平定教中内乱，<公子||妹子>居功至伟……"
+    translated: "Previously, in quelling the internal strife within the sect, <Young Master||Little Sister> was instrumental..."
 - raw: "140,1180000309,10,[6].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[6].talks{json}[0].talk,凝紫孩儿未曾有过远行，从今往后，你要好生照料她，否则我绝不饶你！"
   splits:
   - split: 4
     text: "凝紫孩儿未曾有过远行，从今往后，你要好生照料她，否则我绝不饶你！"
+    translated: "Ningzi has never traveled far before; from now on, you must take good care of her, or else I will not spare you!"
 - raw: "140,1180000309,10,[7].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[7].talks{json}[0].talk,凝紫孩儿可好？你要好生照料她，否则我绝不饶你！"
   splits:
   - split: 4
     text: "凝紫孩儿可好？你要好生照料她，否则我绝不饶你！"
+    translated: "How is Little Purple doing? You must take good care of her, or else I won't spare you!"
 - raw: "140,1180000309,10,[8].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[8].talks{json}[0].talk,卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
   splits:
   - split: 4
-    text: "卯雅教务繁忙，若此后想再同"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "说话儿，自会托人相请。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
+    translated: "Mao Ya is busy with her duties. If she wishes to speak with you, <fName><Young Master||Miss>, again in the future, she will have someone invite you."
 - raw: "140,1180000309,10,[9].talks{json}[0].name,卯雅"
   splits:
   - split: 4
     text: "卯雅"
+    translated: "Mao Ya"
 - raw: "140,1180000309,10,[9].talks{json}[0].talk,卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
   splits:
   - split: 4
-    text: "卯雅教务繁忙，若此后想再同"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "说话儿，自会托人相请。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
+    translated: "Mao Ya is busy with her duties. If she wishes to speak with you, <fName><Young Master||Miss>, again in the future, she will have someone invite you."
 - raw: "141,1180000310,10,[0].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
     text: "蒙芸"
+    translated: "Meng Yun"
 - raw: "141,1180000310,10,[0].talks{json}[0].talk,<fName><哥哥||姐姐>，芸儿还没求过人，但不知<哥哥||姐姐>能否帮芸儿……阻住爹爹？"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 2
-    text: "，芸儿还没求过人，但不知"
-  - split: 4
-    subIndex: 3
-    text: "哥哥"
-  - split: 4
-    subIndex: 4
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 5
-    text: "能否帮芸儿……阻住爹爹？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}<{3}||{4}>{5}"
+    text: "<fName><哥哥||姐姐>，芸儿还没求过人，但不知<哥哥||姐姐>能否帮芸儿……阻住爹爹？"
+    translated: "<fName><Big Brother||Big Sister>, Yun'er hasn't asked for help before, but I wonder if <Big Brother||Big Sister> could help me... stop Father?"
 - raw: "141,1180000310,10,[0].talks{json}[1].name,蒙芸"
   splits:
   - split: 4
     text: "蒙芸"
+    translated: "Meng Yun"
 - raw: "141,1180000310,10,[0].talks{json}[1].talk,爹爹杀了好多好多人，拿到净蛊天池的东西后，还会杀更多更多的人……芸儿……不想让他这般下去了。"
   splits:
   - split: 4
     text: "爹爹杀了好多好多人，拿到净蛊天池的东西后，还会杀更多更多的人……芸儿……不想让他这般下去了。"
+    translated: "Daddy killed so many people... After getting the things from Jinggu Tianchi, he will kill even more... Yun'er... I don't want him to continue like this anymore."
 - raw: "141,1180000310,10,[1].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
     text: "蒙芸"
+    translated: "Meng Yun"
 - raw: "141,1180000310,10,[1].talks{json}[0].talk,爹爹不让芸儿出谷，<哥哥||姐姐>还是之后再来寻我吧……"
   splits:
   - split: 4
-    text: "爹爹不让芸儿出谷，"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "还是之后再来寻我吧……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "爹爹不让芸儿出谷，<哥哥||姐姐>还是之后再来寻我吧……"
+    translated: "Father doesn't allow Yun'er to leave the valley, <Big Brother||Big Sister>, let's meet again later.......\\n"
 - raw: "141,1180000310,10,[2].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
     text: "蒙芸"
+    translated: "Meng Yun"
 - raw: "141,1180000310,10,[2].talks{json}[0].talk,谢谢<fName><哥哥||姐姐>……芸儿……知晓该怎么做了。"
   splits:
   - split: 4
-    text: "谢谢"
-  - split: 4
-    subIndex: 1
-    text: "哥哥"
-  - split: 4
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 3
-    text: "……芸儿……知晓该怎么做了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "谢谢<fName><哥哥||姐姐>……芸儿……知晓该怎么做了。"
+    translated: "Thank you, <fName><Big Brother||Big Sister>......Yun'er......I know what to do now."
 - raw: "141,1180000310,10,[3].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
     text: "蒙芸"
+    translated: "Meng Yun"
 - raw: "141,1180000310,10,[3].talks{json}[0].talk,<fName><哥哥||姐姐>，你来啦。"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 2
-    text: "，你来啦。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><哥哥||姐姐>，你来啦。"
+    translated: "<fName><Big Brother||Big Sister>, you're here"
 - raw: "141,1180000310,10,[4].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
     text: "蒙芸"
+    translated: "Meng Yun"
 - raw: "141,1180000310,10,[4].talks{json}[0].talk,<fName><哥哥||姐姐>，花山节之事，多亏你啦！"
   splits:
   - split: 4
-    text: "哥哥"
-  - split: 4
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 4
-    subIndex: 2
-    text: "，花山节之事，多亏你啦！"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><哥哥||姐姐>，花山节之事，多亏你啦！"
+    translated: "<fName><Big Brother||Big Sister>, thanks to you, the Huashan Festival was a success!"
 - raw: "142,1180000311,10,[0].talks{json}[0].name,蒙巳"
   splits:
   - split: 4
     text: "蒙巳"
+    translated: "Meng Si"
 - raw: "142,1180000311,10,[1].talks{json}[0].name,蒙巳"
   splits:
   - split: 4
     text: "蒙巳"
+    translated: "Meng Si"
 - raw: "142,1180000311,10,[1].talks{json}[0].talk,此后我若有事要你去办，自会遣人知会于你。"
   splits:
   - split: 4
     text: "此后我若有事要你去办，自会遣人知会于你。"
+    translated: "If I have any tasks for you in the future, I will send someone to inform you."
 - raw: "143,1180000312,10,[0].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[0].talks{json}[0].talk,你既亦是中原之人，我此后自会照拂着些。"
   splits:
   - split: 4
     text: "你既亦是中原之人，我此后自会照拂着些。"
+    translated: "Since you are also from Central Plains, I will look after you from now on."
 - raw: "143,1180000312,10,[1].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[1].talks{json}[0].talk,……先前之事我已听乌玄说过，至于后续，我自会处理。"
   splits:
   - split: 4
     text: "……先前之事我已听乌玄说过，至于后续，我自会处理。"
+    translated: "...I've already heard from Wu Xuan about what happened earlier. As for what comes next, I will handle it myself."
 - raw: "143,1180000312,10,[2].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[2].talks{json}[0].talk,近年来田亩减产，竟与控蛊之术有关……"
   splits:
   - split: 4
     text: "近年来田亩减产，竟与控蛊之术有关……"
+    translated: "In recent years, the decline in crop yields has been linked to the art of controlling pests..."
 - raw: "143,1180000312,10,[3].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[3].talks{json}[0].talk,教中诸处，恐还需你多施援手，此地已然暂安，勿需挂怀。"
   splits:
   - split: 4
     text: "教中诸处，恐还需你多施援手，此地已然暂安，勿需挂怀。"
+    translated: "In various places within the sect, I fear we still need your help. This place is now temporarily secure; you need not worry."
 - raw: "143,1180000312,10,[4].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[4].talks{json}[0].talk,先前之事，多谢<公子||姑娘>相助。"
   splits:
   - split: 4
-    text: "先前之事，多谢"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "相助。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "先前之事，多谢<公子||姑娘>相助。"
+    translated: "Thank you for your help earlier, <Young Master||Miss>."
 - raw: "143,1180000312,10,[5].talks{json}[0].talk,此人无暇开口……"
   splits:
   - split: 4
     text: "此人无暇开口……"
+    translated: "They had no time to speak..."
 - raw: "143,1180000312,10,[6].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[6].talks{json}[0].talk,<fName><公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，别来无恙。"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><公子||姑娘>，别来无恙。"
+    translated: "<fName><Young Master||Miss>, how have you been?"
 - raw: "143,1180000312,10,[7].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
     text: "巫凝蝶"
+    translated: "Wu Ningdie"
 - raw: "143,1180000312,10,[7].talks{json}[0].talk,花山节虽小，然于苗地，功在千秋……<fName><公子||姑娘>，多谢了。"
   splits:
   - split: 4
-    text: "花山节虽小，然于苗地，功在千秋……"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "，多谢了。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "花山节虽小，然于苗地，功在千秋……<fName><公子||姑娘>，多谢了。"
+    translated: "Though Huashan Festival is small, it holds great significance for the Miao people... Thank you, <fName><Young Master||Miss>."
 - raw: "144,1180000313,10,[0].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[0].talks{json}[0].talk,教主安危尽系千蛛塔，容不得半点疏漏。"
   splits:
   - split: 4
     text: "教主安危尽系千蛛塔，容不得半点疏漏。"
+    translated: "The safety of the sect master depends on the Qianzhu Pagoda; there can be no mistakes."
 - raw: "144,1180000313,10,[1].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[2].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[2].talks{json}[0].talk,此事……便有劳阁下了。"
   splits:
   - split: 4
     text: "此事……便有劳阁下了。"
+    translated: "This matter... I entrust to you."
 - raw: "144,1180000313,10,[3].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[3].talks{json}[0].talk,圣女正于千蛛塔内闭门思过，除教主之外，无人可以打扰！"
   splits:
   - split: 4
     text: "圣女正于千蛛塔内闭门思过，除教主之外，无人可以打扰！"
+    translated: "The Holy Maiden is meditating in seclusion within the Qianzhu Pagoda; no one may disturb her except the Sect Master!"
 - raw: "144,1180000313,10,[3].talks{json}[0].options{json}[0].name,出示“圣女印信”。（需[圣女印信]）"
   splits:
   - split: 4
     text: "出示“圣女印信”。（需"
+    translated: "Show the Saintess's Seal. (required"
   - split: 4
     subIndex: 1
     text: "圣女印信"
+    translated: "Saintess's Seal"
   templates:
   - split: 4
     template: "{0}[{1}]）"
@@ -3450,658 +2988,519 @@
   splits:
   - split: 4
     text: "问及圣蛊下落。"
+    translated: "Ask about the whereabouts of the Sacred Venom."
 - raw: "144,1180000313,10,[3].talks{json}[0].options{json}[2].name,不发一言离去。"
   splits:
   - split: 4
     text: "不发一言离去。"
+    translated: "Left without a word"
 - raw: "144,1180000313,10,[3].talks{json}[1].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[3].talks{json}[1].talk,教主娘娘谕旨特别指出，持“圣女印信”者更不可入内！"
   splits:
   - split: 4
     text: "教主娘娘谕旨特别指出，持“圣女印信”者更不可入内！"
+    translated: "The Lady Supreme Master's edict specifically states that those holding the Saintess's Seal may not enter!"
 - raw: "144,1180000313,10,[3].talks{json}[2].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[3].talks{json}[2].talk,圣蛊也在塔内静养……两姐妹分别多年，终于团聚一场……"
   splits:
   - split: 4
     text: "圣蛊也在塔内静养……两姐妹分别多年，终于团聚一场……"
+    translated: "The sacred insect is also resting quietly inside the tower......The two sisters, after years apart, have finally reunited......"
 - raw: "144,1180000313,10,[4].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[4].talks{json}[0].talk,前番教中之事多仗阁下相助，凤瑶感念在心。"
   splits:
   - split: 4
     text: "前番教中之事多仗阁下相助，凤瑶感念在心。"
+    translated: "For the matters in the sect recently, I relied heavily on your assistance. Fengyao is deeply grateful."
 - raw: "144,1180000313,10,[5].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
     text: "刀凤瑶"
+    translated: "Dao Fengyao"
 - raw: "144,1180000313,10,[5].talks{json}[0].talk,千蛛一族难离半步，<fName><公子||姑娘>，可否同我说说……这花山节……当真有他们说的那般好玩么？"
   splits:
   - split: 4
-    text: "千蛛一族难离半步，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "，可否同我说说……这花山节……当真有他们说的那般好玩么？"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "千蛛一族难离半步，<fName><公子||姑娘>，可否同我说说……这花山节……当真有他们说的那般好玩么？"
+    translated: "The Spider Clan is hard to leave even for a moment, <fName><Young Master||Miss>. Could you tell me about... the Flower Mountain Festival... Is it really as fun as they say?"
 - raw: "145,1180000315,10,[0].talks{json}[0].name,百目君"
   splits:
   - split: 4
     text: "百目君"
+    translated: "Lord Hundred Eyes"
 - raw: "145,1180000315,10,[0].talks{json}[0].talk,此乃万毒汇……聚之地，于你……不利，还请……回……转……"
   splits:
   - split: 4
     text: "此乃万毒汇……聚之地，于你……不利，还请……回……转……"
+    translated: "This is the gathering place of the Ten Thousand Poison Clan... it is not good for you... please turn back..."
 - raw: "145,1180000315,10,[1].talks{json}[0].name,百目君"
   splits:
   - split: 4
     text: "百目君"
+    translated: "Lord Hundred Eyes"
 - raw: "145,1180000315,10,[1].talks{json}[0].talk,“圣蛊”之事……乃是教主……与诸位族长商议决定……无人能够质疑……"
   splits:
   - split: 4
     text: "“圣蛊”之事……乃是教主……与诸位族长商议决定……无人能够质疑……"
+    translated: "The Holy Worm matter......was decided by the Sect Master......after discussing with the tribal elders......no one can question it......"
 - raw: "146,1180000317,10,[0].talks{json}[0].name,乌玄"
   splits:
   - split: 4
     text: "乌玄"
+    translated: "Wu Xuan"
 - raw: "146,1180000317,10,[0].talks{json}[0].talk,这十年间教中只有巫宫主这一位汉人，知你至此，宫主明面不露辞色，心中想必欢喜得紧。"
   splits:
   - split: 4
     text: "这十年间教中只有巫宫主这一位汉人，知你至此，宫主明面不露辞色，心中想必欢喜得紧。"
+    translated: "In these past ten years, only Master Wu, the Han Chinese, has been in the sect. Knowing you are here, though he shows no outward sign, I'm sure he is overjoyed within."
 - raw: "146,1180000317,10,[1].talks{json}[0].talk,此人无暇开口……"
   splits:
   - split: 4
     text: "此人无暇开口……"
+    translated: "They had no time to speak..."
 - raw: "147,1180000322,10,[0].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
     text: "穆妮曼"
+    translated: "Mu Niman"
 - raw: "147,1180000322,10,[1].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
     text: "穆妮曼"
+    translated: "Mu Niman"
 - raw: "147,1180000322,10,[1].talks{json}[0].talk,数年未见，妹妹成熟不少……"
   splits:
   - split: 4
     text: "数年未见，妹妹成熟不少……"
+    translated: "It's been years since we last met; you've grown so much, younger sister......"
 - raw: "147,1180000322,10,[2].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
     text: "穆妮曼"
+    translated: "Mu Niman"
 - raw: "147,1180000322,10,[2].talks{json}[0].talk,<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，我这妹妹之后便托付给你了……"
-  templates:
-  - split: 4
-    template: "<lName><{0}||{1}>{2}"
+    text: "<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
+    translated: "<lName><Young Master||Miss>, I entrust my younger sister to you from now on......"
 - raw: "147,1180000322,10,[3].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
     text: "穆妮曼"
+    translated: "Mu Niman"
 - raw: "147,1180000322,10,[3].talks{json}[0].talk,<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，日后若是得空，可带凝紫再回教中探望……"
-  templates:
-  - split: 4
-    template: "<lName><{0}||{1}>{2}"
+    text: "<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
+    translated: "<lName><Young Master||Miss>, if you ever have the time, you can bring Ningzi back to the sect to visit..."
 - raw: "148,1180000325,10,[0].talks{json}[0].name,蒙托"
   splits:
   - split: 4
     text: "蒙托"
+    translated: "Meng Tuo"
 - raw: "148,1180000325,10,[0].talks{json}[0].talk,阿兄向来不喜中原人，你还是速离此间罢，免得多讨无趣。"
   splits:
   - split: 4
     text: "阿兄向来不喜中原人，你还是速离此间罢，免得多讨无趣。"
+    translated: "Elder Brother never likes people from Central Plains; you'd better leave quickly, or you'll just invite boredom."
 - raw: "148,1180000325,10,[1].talks{json}[0].name,蒙托"
   splits:
   - split: 4
     text: "蒙托"
+    translated: "Meng Tuo"
 - raw: "148,1180000325,10,[1].talks{json}[0].talk,芸儿先前回来，可没少同阿兄说你的好。"
   splits:
   - split: 4
     text: "芸儿先前回来，可没少同阿兄说你的好。"
+    translated: "Yun'er came back earlier and didn't stop talking about your good qualities to Elder Brother."
 - raw: "148,1180000325,10,[2].talks{json}[0].name,蒙托"
   splits:
   - split: 4
     text: "蒙托"
+    translated: "Meng Tuo"
 - raw: "148,1180000325,10,[2].talks{json}[0].talk,净蛊天池要紧，<少侠||姑娘>速去彼处阻止长兄……"
   splits:
   - split: 4
-    text: "净蛊天池要紧，"
-  - split: 4
-    subIndex: 1
-    text: "少侠"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "速去彼处阻止长兄……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "净蛊天池要紧，<少侠||姑娘>速去彼处阻止长兄……"
+    translated: "Hurry to stop my elder brother at the Pure Poison Heaven Pool, <Young Hero||Miss>..."
 - raw: "148,1180000325,10,[3].talks{json}[0].name,蒙托"
   splits:
   - split: 4
     text: "蒙托"
+    translated: "Meng Tuo"
 - raw: "148,1180000325,10,[4].talks{json}[0].name,蒙托"
   splits:
   - split: 4
     text: "蒙托"
+    translated: "Meng Tuo"
 - raw: "148,1180000325,10,[4].talks{json}[0].talk,花山节上，几无苗汉之隙，长兄……当真错了么……"
   splits:
   - split: 4
     text: "花山节上，几无苗汉之隙，长兄……当真错了么……"
+    translated: "At the Huashan Festival, there was hardly any rift between the Miao and Han... Eldest brother...... did I really make a mistake......"
 - raw: "149,1180000338,10,[0].talks{json}[0].name,穆凝紫"
   splits:
   - split: 4
     text: "穆凝紫"
+    translated: "Mu Ningzi"
 - raw: "149,1180000338,10,[0].talks{json}[0].talk,姊姊……"
   splits:
   - split: 4
     text: "姊姊……"
+    translated: "Sister......"
 - raw: "149,1180000338,10,[1].talks{json}[0].name,穆凝紫"
   splits:
   - split: 4
     text: "穆凝紫"
+    translated: "Mu Ningzi"
 - raw: "149,1180000338,10,[1].talks{json}[0].talk,姐姐若不去修炼那至高功法该有多好……"
   splits:
   - split: 4
     text: "姐姐若不去修炼那至高功法该有多好……"
+    translated: "Sister, if only you hadn't gone to cultivate that supreme technique......"
 - raw: "149,1180000338,10,[2].talks{json}[0].name,穆凝紫"
   splits:
   - split: 4
     text: "穆凝紫"
+    translated: "Mu Ningzi"
 - raw: "149,1180000338,10,[2].talks{json}[0].talk,都是你多事，害我圣女也当不成了……你此后要好生待我，否则定要让你尝尝万蛊加身之痛！"
   splits:
   - split: 4
     text: "都是你多事，害我圣女也当不成了……你此后要好生待我，否则定要让你尝尝万蛊加身之痛！"
+    translated: "It's all your fault for getting me demoted... You'd better treat me well from now on, or I'll make you taste the agony of being infested with ten thousand venomous insects!"
 - raw: "149,1180000338,10,[2].talks{json}[1].name,穆凝紫"
   splits:
   - split: 4
     text: "穆凝紫"
+    translated: "Mu Ningzi"
 - raw: "149,1180000338,10,[2].talks{json}[1].talk,我自幼研习医术，此后不必担心伤无所医，我自当悉心照料……"
   splits:
   - split: 4
     text: "我自幼研习医术，此后不必担心伤无所医，我自当悉心照料……"
+    translated: "I have studied medicine since childhood, so you need not worry about injuries going untreated. I will take care of you with all my heart...."
 - raw: "149,1180000338,10,[2].talks{json}[1].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
     text: "江湖同游。"
+    translated: "Jianghu journey together"
 - raw: "149,1180000338,10,[2].talks{json}[1].options{json}[1].name,暂且离去。"
   splits:
   - split: 4
     text: "暂且离去。"
+    translated: "Take a temporary leave"
 - raw: "150,1190001017,10,[0].talks{json}[0].name,若烟"
   splits:
   - split: 4
     text: "若烟"
+    translated: "Ruoyan"
 - raw: "151,1190001018,10,[0].talks{json}[0].name,柳茵茵"
   splits:
   - split: 4
     text: "柳茵茵"
+    translated: "Liu Yin Yin"
 - raw: "151,1190001018,10,[0].talks{json}[0].talk,见过<公子||姑娘>。可有想听的曲儿？<公子||姑娘>只管说，茵茵都可唱给<公子||姑娘>。"
   splits:
   - split: 4
-    text: "见过"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "。可有想听的曲儿？"
-  - split: 4
-    subIndex: 4
-    text: "公子"
-  - split: 4
-    subIndex: 5
-    text: "姑娘"
-  - split: 4
-    subIndex: 6
-    text: "只管说，茵茵都可唱给"
-  - split: 4
-    subIndex: 7
-    text: "公子"
-  - split: 4
-    subIndex: 8
-    text: "姑娘"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}<{4}||{5}>{6}<{7}||{8}>。"
+    text: "见过<公子||姑娘>。可有想听的曲儿？<公子||姑娘>只管说，茵茵都可唱给<公子||姑娘>。"
+    translated: "I've seen you, <Young Master||Miss>. Do you have a song you'd like to hear? Just tell me, <Young Master||Miss>, and I'll sing it for you, <Young Master||Miss>."
 - raw: "151,1190001018,10,[1].talks{json}[0].name,柳茵茵"
   splits:
   - split: 4
     text: "柳茵茵"
+    translated: "Liu Yin Yin"
 - raw: "152,1190001026,10,[0].talks{json}[0].name,曼珠"
   splits:
   - split: 4
     text: "曼珠"
+    translated: "Manzhu"
 - raw: "152,1190001026,10,[0].talks{json}[0].talk,曼珠代桃花坞中姊妹，谢过<公子||姑娘>……二十年……"
   splits:
   - split: 4
-    text: "曼珠代桃花坞中姊妹，谢过"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "……二十年……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "曼珠代桃花坞中姊妹，谢过<公子||姑娘>……二十年……"
+    translated: "Manju represents the sisters at Taohua Dock, thanking <Young Master||Miss> on their behalf......for twenty years......"
 - raw: "153,1190000060,10,[0].talks{json}[0].name,杜鹃"
   splits:
   - split: 4
     text: "杜鹃"
+    translated: "Du Juan"
 - raw: "153,1190000060,10,[0].talks{json}[0].talk,宝船一战，有赖<公子||姑娘>助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
   splits:
   - split: 4
-    text: "宝船一战，有赖"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "宝船一战，有赖<公子||姑娘>助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
+    translated: "The battle on the treasure ship was made possible with <Young Master||Miss>'s help in slaying Xiaoxiangzi. This favor, Dujuan will forever remember in heart."
 - raw: "153,1190000060,10,[0].talks{json}[1].talk,杜鹃说着，掩口吃吃一笑。"
   splits:
   - split: 4
     text: "杜鹃说着，掩口吃吃一笑。"
+    translated: "Dujuan giggled, covering her mouth"
 - raw: "153,1190000060,10,[0].talks{json}[2].name,杜鹃"
   splits:
   - split: 4
     text: "杜鹃"
+    translated: "Du Juan"
 - raw: "153,1190000060,10,[0].talks{json}[2].talk,如今<公子||姑娘>可是桃花坞风云人物，可要姊妹们服侍？"
   splits:
   - split: 4
-    text: "如今"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可是桃花坞风云人物，可要姊妹们服侍？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "如今<公子||姑娘>可是桃花坞风云人物，可要姊妹们服侍？"
+    translated: "Now that you are a prominent figure in Taohua Dock, <Young Master||Miss>, do you want the sisters to serve you?"
 - raw: "153,1190000060,10,[1].talks{json}[0].name,杜鹃"
   splits:
   - split: 4
     text: "杜鹃"
+    translated: "Du Juan"
 - raw: "153,1190000060,10,[1].talks{json}[0].talk,事已至此，如箭在弦，我等各自尽力便是……锦瑟，你可莫要让我失望……"
   splits:
   - split: 4
     text: "事已至此，如箭在弦，我等各自尽力便是……锦瑟，你可莫要让我失望……"
+    translated: "At this point, there's no turning back; we must each do our best... Jinshe, don't let me down..."
 - raw: "153,1190000060,10,[2].talks{json}[0].name,杜鹃"
   splits:
   - split: 4
     text: "杜鹃"
+    translated: "Du Juan"
 - raw: "153,1190000060,10,[2].talks{json}[0].talk,未曾想会有一日，我会与锦瑟精诚合作……"
   splits:
   - split: 4
     text: "未曾想会有一日，我会与锦瑟精诚合作……"
+    translated: "Never did I think there would come a day when I would work closely with Jinse..."
 - raw: "155,1190000064,10,[0].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
     text: "锦瑟"
+    translated: "Jinse"
 - raw: "155,1190000064,10,[0].talks{json}[0].talk,这份密文，解之还需稍许时日……<公子||姑娘>如有要事，且先忙罢。"
   splits:
   - split: 4
-    text: "这份密文，解之还需稍许时日……"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如有要事，且先忙罢。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "这份密文，解之还需稍许时日……<公子||姑娘>如有要事，且先忙罢。"
+    translated: "This cipher still requires a bit more time to decode......If you have urgent matters, <Young Master||Miss>, please attend to them first."
 - raw: "155,1190000064,10,[1].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
     text: "锦瑟"
+    translated: "Jinse"
 - raw: "155,1190000064,10,[1].talks{json}[0].talk,发船之期未至，还请<公子||姑娘>稍待些时日。"
   splits:
   - split: 4
-    text: "发船之期未至，还请"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "稍待些时日。"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "发船之期未至，还请<公子||姑娘>稍待些时日。"
+    translated: "The departure date has not arrived yet; please wait a few more days, <Young Master||Miss>."
 - raw: "155,1190000064,10,[2].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
     text: "锦瑟"
+    translated: "Jinse"
 - raw: "155,1190000064,10,[2].talks{json}[0].talk,此事事关重大，还需从长计议，待<公子||姑娘>了却自身事务，再来寻我……"
   splits:
   - split: 4
-    text: "此事事关重大，还需从长计议，待"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "了却自身事务，再来寻我……"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "此事事关重大，还需从长计议，待<公子||姑娘>了却自身事务，再来寻我……"
+    translated: "This matter is of great importance; we must deliberate further. Once <Young Master||Miss> has concluded your affairs, come and find me again......"
 - raw: "155,1190000064,10,[3].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
     text: "锦瑟"
+    translated: "Jinse"
 - raw: "155,1190000064,10,[3].talks{json}[0].talk,<公子||姑娘>可在舫内留心一二，或可寻得更多助力之人……"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "可在舫内留心一二，或可寻得更多助力之人……"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>可在舫内留心一二，或可寻得更多助力之人……"
+    translated: "<Young Master||Miss> may pay attention to opportunities within the boat; you might find more helpful allies......"
 - raw: "156,1200009902,10,[0].talks{json}[0].name,谢正青"
   splits:
   - split: 4
     text: "谢正青"
+    translated: "Xie Zhengqing"
 - raw: "156,1200009902,10,[0].talks{json}[0].talk,瑶儿，你暂且忍受片刻，我一定会去救你！"
   splits:
   - split: 4
     text: "瑶儿，你暂且忍受片刻，我一定会去救你！"
+    translated: "Yaoer, you must endure for a moment; I will definitely come to rescue you!"
 - raw: "156,1200009902,10,[1].talks{json}[0].name,谢正青"
   splits:
   - split: 4
     text: "谢正青"
+    translated: "Xie Zhengqing"
 - raw: "156,1200009902,10,[1].talks{json}[0].talk,日后若是<兄弟||小妹>再来襄阳，可要在家中住上几日不可！"
   splits:
   - split: 4
-    text: "日后若是"
-  - split: 4
-    subIndex: 1
-    text: "兄弟"
-  - split: 4
-    subIndex: 2
-    text: "小妹"
-  - split: 4
-    subIndex: 3
-    text: "再来襄阳，可要在家中住上几日不可！"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "日后若是<兄弟||小妹>再来襄阳，可要在家中住上几日不可！"
+    translated: "If <Brother||Little Sister> comes to Xiangyang again in the future, you must stay at home for several days!"
 - raw: "157,1200009912,10,[0].talks{json}[0].name,顾瑶"
   splits:
   - split: 4
     text: "顾瑶"
+    translated: "Gu Yao"
 - raw: "157,1200009912,10,[0].talks{json}[0].talk,江湖路远，多多保重，日后多来襄阳看看……"
   splits:
   - split: 4
     text: "江湖路远，多多保重，日后多来襄阳看看……"
+    translated: "The Jianghu road is long, take care of yourself, and come to Xiangyang more often in the future..."
 - raw: "158,1200009905,10,[0].talks{json}[0].name,顾二叔"
   splits:
   - split: 4
     text: "顾二叔"
+    translated: "Second Uncle Gu"
 - raw: "158,1200009905,10,[0].talks{json}[0].talk,我顾氏一门皆是良善之人，如何得罪江湖中人，此事定是因那赘婿而起！"
   splits:
   - split: 4
     text: "我顾氏一门皆是良善之人，如何得罪江湖中人，此事定是因那赘婿而起！"
+    translated: "Our Gu family are all good people; how did we offend those in the Jianghu? This matter must be because of that in-law son-in-law!"
 - raw: "158,1200009905,10,[1].talks{json}[0].name,顾二叔"
   splits:
   - split: 4
     text: "顾二叔"
+    translated: "Second Uncle Gu"
 - raw: "158,1200009905,10,[1].talks{json}[0].talk,哼……"
   splits:
   - split: 4
     text: "哼……"
+    translated: "Hmph......"
 - raw: "159,1200001024,10,[0].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
     text: "诸葛复"
+    translated: "Zhuge Fu"
 - raw: "159,1200001024,10,[0].talks{json}[0].talk,<公子||姑娘>，这第一件事，可办完了？"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，这第一件事，可办完了？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>，这第一件事，可办完了？"
+    translated: "<Young Master||Miss>, the first task, is it done?"
 - raw: "159,1200001024,10,[1].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
     text: "诸葛复"
+    translated: "Zhuge Fu"
 - raw: "159,1200001024,10,[1].talks{json}[0].talk,此后之路该如何走，便看你了。"
   splits:
   - split: 4
     text: "此后之路该如何走，便看你了。"
+    translated: "The path forward is up to you"
 - raw: "159,1200001024,10,[2].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
     text: "诸葛复"
+    translated: "Zhuge Fu"
 - raw: "159,1200001024,10,[2].talks{json}[0].talk,<公子||姑娘>，江湖险恶，且自珍重。"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，江湖险恶，且自珍重。"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>，江湖险恶，且自珍重。"
+    translated: "<Young Master||Miss>, the Jianghu is perilous; take care of yourself."
 - raw: "162,1200000226,10,[0].talks{json}[0].name,王阿生"
   splits:
   - split: 4
     text: "王阿生"
+    translated: "Wang Asheng"
 - raw: "162,1200000226,10,[0].talks{json}[0].talk,我已有决意，定要似展伯伯那般，以手中剑，诛尽天下恶人！"
   splits:
   - split: 4
     text: "我已有决意，定要似展伯伯那般，以手中剑，诛尽天下恶人！"
+    translated: "I have made up my mind; I must be like Uncle Zhan, wielding my sword to eliminate all the wicked people in the world!"
 - raw: "163,1200000246,10,[0].talks{json}[0].name,白文和"
   splits:
   - split: 4
     text: "白文和"
+    translated: "Bai Wenhe"
 - raw: "163,1200000246,10,[0].talks{json}[0].talk,风大哥整日没个正行，你可要瞧觑着些……"
   splits:
   - split: 4
     text: "风大哥整日没个正行，你可要瞧觑着些……"
+    translated: "Brother Feng is always up to no good; you have to keep an eye on him......"
 - raw: "163,1200000246,10,[1].talks{json}[0].name,白文和"
   splits:
   - split: 4
     text: "白文和"
+    translated: "Bai Wenhe"
 - raw: "163,1200000246,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，咱们这便走么？"
+    translated: "<fName><Brother||Miss>, shall we be off then?"
 - raw: "163,1200000246,10,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
     text: "这便动身。"
+    translated: "Let's set out"
 - raw: "163,1200000246,10,[1].talks{json}[0].options{json}[1].name,暂且稍待。"
   splits:
   - split: 4
     text: "暂且稍待。"
+    translated: "Wait a moment"
 - raw: "163,1200000246,10,[1].talks{json}[2].name,白文和"
   splits:
   - split: 4
     text: "白文和"
+    translated: "Bai Wenhe"
 - raw: "163,1200000246,10,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    translated: "No problem, <fName><Brother||Miss>. If you are free, we will stay here. If you need anything, feel free to come at any time."
 - raw: "164,1200000247,10,[1].talks{json}[0].name,风凌"
   splits:
   - split: 4
     text: "风凌"
+    translated: "Feng Ling"
 - raw: "164,1200000247,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，咱们这便走么？"
+    translated: "<fName><Brother||Miss>, shall we be off then?"
 - raw: "164,1200000247,10,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
     text: "这便动身。"
+    translated: "Let's set out"
 - raw: "164,1200000247,10,[1].talks{json}[0].options{json}[1].name,暂且稍待。"
   splits:
   - split: 4
     text: "暂且稍待。"
+    translated: "Wait a moment"
 - raw: "164,1200000247,10,[1].talks{json}[2].name,风凌"
   splits:
   - split: 4
     text: "风凌"
+    translated: "Feng Ling"
 - raw: "164,1200000247,10,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    translated: "No problem, <fName><Brother||Miss>. If you are free, we will stay here. If you need anything, feel free to come at any time."
 - raw: "165,1200000249,10,[1].talks{json}[0].name,玉先生"
   splits:
   - split: 4
     text: "玉先生"
+    translated: "Master Yu"
 - raw: "165,1200000249,10,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "兄弟"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "，咱们这便走么？"
-  templates:
-  - split: 4
-    template: "<fName><{0}||{1}>{2}"
+    text: "<fName><兄弟||姑娘>，咱们这便走么？"
+    translated: "<fName><Brother||Miss>, shall we be off then?"
 - raw: "165,1200000249,10,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
     text: "这便动身。"
+    translated: "Let's set out"
 - raw: "165,1200000249,10,[1].talks{json}[0].options{json}[1].name,暂且稍待。"
   splits:
   - split: 4
     text: "暂且稍待。"
+    translated: "Wait a moment"
 - raw: "165,1200000249,10,[1].talks{json}[2].name,玉先生"
   splits:
   - split: 4
     text: "玉先生"
+    translated: "Master Yu"
 - raw: "165,1200000249,10,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，"
-  - split: 4
-    subIndex: 1
-    text: "兄"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
-  templates:
-  - split: 4
-    template: "{0}<fName><{1}||{2}>{3}"
+    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    translated: "No problem, <fName><Brother||Miss>. If you are free, we will stay here. If you need anything, feel free to come at any time."

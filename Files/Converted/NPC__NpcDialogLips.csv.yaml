@@ -2,93 +2,118 @@
   splits:
   - split: 2
     text: "名称"
+    translated: "Name"
   - split: 9
     text: "不满足提示"
+    translated: "Unsatisfied prompt"
   - split: 25
     text: "受限提示"
+    translated: "Restricted prompt"
   - split: 27
     text: "成功提示"
+    translated: "Success Prompt"
   - split: 28
     text: "失败提示"
+    translated: "Failure message"
 - raw: "2,id,name,param,term,value,eParam,eTerm,eValue,lipsTips,fun,mathP,mathN,battle,cdTime,succParam,succValue,failParam,failValue,succDialog,failDialog,succAttackDialog,failAttackDialog,count,regainTime,RestrictTips,tsParam,succTips,failTips"
 - raw: "3,30,浏览货品,touchId,//,1110003002,,,,,Shop12001,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "浏览货品"
+    translated: "Browse items"
 - raw: "4,31,浏览货品,touchId,//,1110002005,,,,,Shop12002,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "浏览货品"
+    translated: "Browse items"
 - raw: "5,32,浏览货品,touchId,//,1110003006,,,,,Shop12003,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "浏览货品"
+    translated: "Browse items"
 - raw: "6,33,浏览货品,touchId,//,1110003007,,,,,Shop12004,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "浏览货品"
+    translated: "Browse items"
 - raw: "7,34,浏览货品,touchId,//,1110002009,,,,,Shop12005,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "浏览货品"
+    translated: "Browse items"
 - raw: "8,36,浏览货品,,,,,,,,Shop12002,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "浏览货品"
+    translated: "Browse items"
 - raw: "9,37,睡到某时,,,,,,,,Sleep,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "睡到某时"
+    translated: "Sleep until a certain time"
 - raw: "10,38,睡到天亮,,,,,,,,SleepDawn,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "睡到天亮"
+    translated: "Slept until dawn"
 - raw: "11,39,武馆交易,,,,,,,,\"GymsShop,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "武馆交易"
+    translated: "Martial Arts Hall Trading"
 - raw: "12,40,上门踢馆,,,,,,,,,100,,,0,,,,,112,,,,1,7200,阁下近日已挑战过此处，且待五日后再来为好。,,,"
   splits:
   - split: 2
     text: "上门踢馆"
+    translated: "Challenge the dojo"
   - split: 25
     text: "阁下近日已挑战过此处，且待五日后再来为好。"
+    translated: "Sir, you have recently challenged here. Please wait five days before attempting again."
 - raw: "13,41,开始挑战,,,,,,,,GymsBattle3,100,,,0,,,,,,,113,116,1000,,,,,"
   splits:
   - split: 2
     text: "开始挑战"
+    translated: "Start the challenge"
 - raw: "14,42,开始挑战,,,,,,,,GymsBattle2,100,,,0,,,,,,,114,116,1000,,,,,"
   splits:
   - split: 2
     text: "开始挑战"
+    translated: "Start the challenge"
 - raw: "15,43,开始挑战,,,,,,,,GymsBattle1,100,,,0,,,,,,,115,116,1000,,,,,"
   splits:
   - split: 2
     text: "开始挑战"
+    translated: "Start the challenge"
 - raw: "16,44,夺取武馆,,,,,,,,GymsOwn,100,,,0,,,,,119,,,,1000,,,,,"
   splits:
   - split: 2
     text: "夺取武馆"
+    translated: "Seize the Martial Arts Hall"
 - raw: "17,45,礼貌离开,,,,,,,,,100,,,0,\"PlayerLove(),1000+\",\"30+,sliver\",,,120,,,,1000,,,,,"
   splits:
   - split: 2
     text: "礼貌离开"
+    translated: "Leave politely"
 - raw: "18,46,接受挑战,,,,,,,,GymsBattle4,100,,,0,,,,,,,117,118,1000,,,,,"
   splits:
   - split: 2
     text: "接受挑战"
+    translated: "Accept the challenge"
 - raw: "19,47,无奈离开,,,,,,,,\"GymsLose,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "无奈离开"
+    translated: "Reluctantly leaving"
 - raw: "20,48,赶走挑战者,,,,,,,,\"GymsKeep,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "赶走挑战者"
+    translated: "Drive away the challenger"
 - raw: "21,49, 武馆交易（免费）,gymsOwnerId,//,1,,,,,\"GymsShop,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "武馆交易（免费）"
+    translated: "Martial Arts Hall Trading (Free)"
   templates:
   - split: 2
     template: " {0}"
@@ -96,26 +121,33 @@
   splits:
   - split: 2
     text: "调整武馆镇守"
+    translated: "Adjust the guard at the Martial Arts Hall"
   - split: 9
     text: "正有挑战者来犯"
+    translated: "A challenger is attacking"
 - raw: "23,51,召回同伴,,,,,,,,\"GymsGuardRemove,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "召回同伴"
+    translated: "Call for allies"
 - raw: "24,60,打探行踪,,,,,,,,NpcSrcout,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "打探行踪"
+    translated: "Investigate movements"
 - raw: "25,61,取消委托,,,,,,,,NpcSrcoutRemove,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取消委托"
+    translated: "Cancel commission"
 - raw: "26,100,随心畅谈,\"age,state\",\">,!/\",\"9,2\",love,>,-31,需好感度≥-30,,100,,,0,,,,,1001,,,,1000,,,,,"
   splits:
   - split: 2
     text: "随心畅谈"
+    translated: "Free-flow conversation"
   - split: 9
     text: "需好感度≥"
+    translated: "Requires Favorability ≥"
   templates:
   - split: 9
     template: "{0}-30"
@@ -123,8 +155,10 @@
   splits:
   - split: 2
     text: "礼尚往来"
+    translated: "Reciprocal courtesy"
   - split: 9
     text: "需好感度≥"
+    translated: "Requires Favorability ≥"
   templates:
   - split: 9
     template: "{0}-30"
@@ -132,73 +166,96 @@
   splits:
   - split: 2
     text: "图谋不轨"
+    translated: "Plotting underhandedly"
 - raw: "29,400,江湖结缘,\"age,state,JiaoQing<FuMu>\",\">,!/,!/\",\"9,2,1\",,,,,,100,,,0,,,,,4001,,,,1000,,,,,"
   splits:
   - split: 2
     text: "江湖结缘"
+    translated: "Jianghu Connections"
 - raw: "30,700,技艺武学,\"age,state\",\">,!/\",\"13,2\",,,,,,100,,,0,,,,,7001,,,,1000,,,,,"
   splits:
   - split: 2
     text: "技艺武学"
+    translated: "Skill and Martial Art"
 - raw: "31,500,暂且离去,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "32,600,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "33,601,返回,,,,,,,,ReturnBack,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "34,110,简单问候,love,<,20,4,<,SP,精力值不足,CutTo你二人简问互答，诉近日之见闻，相谈甚欢……,100,,,0,\"PlayerLove(),5-\",\"1+,LessenSP()\",,,1101,,,,1,1440,今日已经问候过此人，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "简单问候"
+    translated: "Simple greeting"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "今日已经问候过此人，不妨十二时辰之后再来。"
+    translated: "You've already greeted this person today; perhaps you should come back twelve hours later."
 - raw: "35,111,简单问候,love,<,0,,,,,CutTo你二人简问互答，诉近日之见闻，相谈甚欢……,100,,,0,\"PlayerLove(),10-\",\"3+,LessenSP()\",,,1101,,,,1,1440,今日已经问候过此人，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "简单问候"
+    translated: "Simple greeting"
   - split: 25
     text: "今日已经问候过此人，不妨十二时辰之后再来。"
+    translated: "You've already greeted this person today; perhaps you should come back twelve hours later."
 - raw: "36,120,畅谈心事,love,>,19,9,<,SP,精力值不足,CutTo你与其言语互诉，置腹畅谈，言语酣畅，不觉内心大慰。,80,,,0,\"PlayerLove(),10-\",\"2+,LessenSP()\",10-,LessenSP(),1201,1202,,,2,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "畅谈心事"
+    translated: "Confide Heartfelt Concerns"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our long talk today, they are quite tired. Come back in twelve hours."
 - raw: "37,121,畅谈心事,,,,,,,,,50,,,0,\"PlayerLove(),10-\",\"1+,LessenSP()\",10-,LessenSP(),1201,1202,,,2,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "畅谈心事"
+    translated: "Confide Heartfelt Concerns"
   - split: 25
     text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our long talk today, they are quite tired. Come back in twelve hours."
 - raw: "38,130,探讨武学,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,attribute,attribute,,0,\"PlayerLove(),10-,xiuWei,10+\",\"5+,LessenSP(),10+,xiuWei\",10-,LessenSP(),1301,1302,,,1,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "探讨武学"
+    translated: "Discussing Martial Arts"
   - split: 9
     text: "境界需至少与对方相当"
+    translated: "Your realm must be at least equivalent to theirs."
   - split: 25
     text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our long talk today, they are quite tired. Come back in twelve hours."
 - raw: "39,131,探讨武学,attribute,<,attribute,\"love,9\",\">,<\",\"29,SP\",\"需好感度≥30,精力值不足\",CutTo你与其言语互诉，摹武假演，为其讲述此招武学之精意……,attribute,attribute,,0,\"PlayerLove(),10-,xiuWei,10+\",\"5+,LessenSP(),10+,xiuWei\",10-,LessenSP(),1301,1302,,,1,1440,今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "探讨武学"
+    translated: "Discussing Martial Arts"
   - split: 9
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our long talk today, they are quite tired. Come back in twelve hours."
   templates:
   - split: 9
     template: "{0},{1}"
@@ -206,13 +263,17 @@
   splits:
   - split: 2
     text: "探讨武学"
+    translated: "Discussing Martial Arts"
   - split: 9
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "今日一番长谈后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our long talk today, they are quite tired. Come back in twelve hours."
   templates:
   - split: 9
     template: "{0},{1}"
@@ -220,23 +281,30 @@
   splits:
   - split: 2
     text: "赠送道具（每5日可赠一次）"
+    translated: "Gift item (can be given once every 5 days)"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "礼尚往来不宜多，莫以钱财论知音。"
+    translated: "Politeness in reciprocity should not be excessive; do not measure a true friend by money."
 - raw: "42,10003,择物相赠,,,,,,,,,100,,,0,\"30-,1+\",\"LessenSP(),friendsSan\",30-,LessenSP(),2101,2102,,,1000,,,,,"
   splits:
   - split: 2
     text: "择物相赠"
+    translated: "Choose an item to give as a gift"
 - raw: "43,220,求取物品,,,,\"love,9\",\">,<\",\"24,SP\",\"需好感度≥25,精力值不足\",ShowItem,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求取物品"
+    translated: "Retrieve Item"
   - split: 9
     text: "需好感度≥25"
+    translated: "Requires Favorability ≥ 25"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -244,19 +312,24 @@
   splits:
   - split: 2
     text: "求取物品"
+    translated: "Retrieve Item"
 - raw: "45,10002,求取成功后判断,,,,,,,,,50,,,0,10-,LessenSP(),10-,LessenSP(),2201,2202,,,1000,,,\"1,5,8,10,20,40,80\",,"
   splits:
   - split: 2
     text: "求取成功后判断"
+    translated: "Check after success determination"
 - raw: "46,230,求取银两,,,,\"love,9\",\">,<\",\"39,SP\",\"需好感度≥40,精力值不足\",,100,,,0,,,,,2301,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求取银两"
+    translated: "Seeking Silver"
   - split: 9
     text: "需好感度≥40"
+    translated: "Requires Favorability ≥ 40"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -264,17 +337,22 @@
   splits:
   - split: 2
     text: "求取银两"
+    translated: "Seeking Silver"
   - split: 9
     text: "好感度不足"
+    translated: "Favorability insufficient"
 - raw: "48,231,求取纹银1两,,,,\"9,goldCoin\",\"<,>\",\"SP,999\",\"精力值不足,对方金钱不足\",,70,,,0,\"PlayerLove(),goldCoin,1000+,10-\",\"10-,1000-,sliver,LessenSP()\",10-,LessenSP(),2311,2312,,,1000,,,,,"
   splits:
   - split: 2
     text: "求取纹银1两"
+    translated: "Request 1 taels of silver"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 1
     text: "对方金钱不足"
+    translated: "The other party does not have enough money."
   templates:
   - split: 9
     template: "{0},{1}"
@@ -282,11 +360,14 @@
   splits:
   - split: 2
     text: "求取纹银5两"
+    translated: "Request 5 taels of silver"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 1
     text: "对方金钱不足"
+    translated: "The other party does not have enough money."
   templates:
   - split: 9
     template: "{0},{1}"
@@ -294,11 +375,14 @@
   splits:
   - split: 2
     text: "求取纹银10两"
+    translated: "Request 10 taels of silver"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 1
     text: "对方金钱不足"
+    translated: "The other party does not have enough money."
   templates:
   - split: 9
     template: "{0},{1}"
@@ -306,57 +390,73 @@
   splits:
   - split: 2
     text: "切磋演练"
+    translated: "Sparring practice"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "今日一番切磋后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our sparring session today, he is quite tired. How about we try again twelve hours from now?"
 - raw: "52,244,切磋演练,,,,,,,,,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "切磋演练"
+    translated: "Sparring practice"
 - raw: "53,241,望请指教,,,,,,,,RebelBattle,100,,,0,,,,,,,2403,2404,1000,,,,,"
   splits:
   - split: 2
     text: "望请指教"
+    translated: "I look forward to your guidance"
 - raw: "54,242,承让,,,,,,,,CloseUI,100,,,0,\"PlayerLove(),xiuWei,10+\",\"5+,10+,xiuWei\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "承让"
+    translated: "I yield"
 - raw: "55,243,多谢赐教,,,,,,,,CloseUI,100,,,0,\"PlayerLove(),xiuWei,5+\",\"3+,5+,xiuWei\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "多谢赐教"
+    translated: "Thank you for your guidance"
 - raw: "56,310,挑衅讥讽,state,!/,2,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),10-,3-,1-,ResetState()\",\"2-,LessenSP(),friendsEr,lichang,5\",\"10-,ResetState()\",\"LessenSP(),5\",3101,3102,,,1000,,,,,"
   splits:
   - split: 2
     text: "挑衅讥讽"
+    translated: "Provocative mockery"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "57,313,再度言语相讥,,,,,,,,,100,,,0,\"PlayerLove(),5-,3-\",\"10-,friendsEr,lichang\",,,3105,,,,1000,,,,,"
   splits:
   - split: 2
     text: "再度言语相讥"
+    translated: "Tease each other with words again"
 - raw: "58,312,出手攻袭,,,,,,,,Battle,100,,,0,,,,,,,3103,3104,1000,,,,,"
   splits:
   - split: 2
     text: "出手攻袭"
+    translated: "Attack with force"
 - raw: "59,311,肆意羞辱,,,,,,,,,100,,,0,\"PlayerLove(),10-,SetChouDiLoveAtPlayer(),7-\",\"50-,friendsEr,10+,lichang\",,,3111,,,,1000,,,,,"
   splits:
   - split: 2
     text: "肆意羞辱"
+    translated: "Arbitrarily humiliate"
 - raw: "60,320,偷窃财物,,,,29,<,SP,精力值不足,StartSteal,100,,,0,\"30-,10-,3-,ResetState()\",\"LessenSP(),friendsEr,lichang,5\",\"PlayerLove(),30-,5-,3-,ResetState()\",\"20-,LessenSP(),friendsEr,lichang,5\",3201,,3203,3204,1000,,,,,"
   splits:
   - split: 2
     text: "偷窃财物"
+    translated: "Steal wealth"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "61,10102,特殊-偷窃财物,,,,,,,,,,,attributeSf,0,\"30-,ResetState()\",\"LessenSP(),5\",\"PlayerLove(),10-,5-,3-,ResetState()\",\"10-,LessenSP(),friendsEr,lichang,5\",,,,,1000,,,,,"
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "偷窃财物"
+    translated: "Steal items\\n"
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -365,9 +465,11 @@
   splits:
   - split: 27
     text: "你身法鬼魅，从"
+    translated: "Your agility is ghostly, moving from"
   - split: 27
     subIndex: 1
     text: "怀中窃走物品，神鬼莫觉。"
+    translated: "Steal an item from their robes, undetected by gods and ghosts."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -375,92 +477,117 @@
   splits:
   - split: 2
     text: "事已至此，放手一搏！"
+    translated: "Now that it has come to this, let's go all out!"
 - raw: "65,330,劫其财物,,,,19,<,SP,精力值不足,RecordItem10103,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "劫其财物"
+    translated: "Rob their wealth and possessions"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "66,10103,抢劫财物,,,,,,,,,100,,,0,\"PlayerLove(),10-,5-,SetLoveAtPlayer(),ResetState()\",\"20-,LessenSP(),friendsEr,3-,5\",,,3307,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢劫财物"
+    translated: "These actions are strictly prohibited"
 - raw: "67,331,既是不允，那便强抢过来！,,,,,,,,Battle,100,,,0,AddPlayerArrestNum(),10+,,,,,3303,3304,1000,,,,,"
   splits:
   - split: 2
     text: "既是不允，那便强抢过来！"
+    translated: "Since you won't allow it, then I'll take it by force!"
 - raw: "68,332,早该如此！这便收下此物！,,,,,,,,GetRecordItem,100,,,0,AddPlayerArrestNum(),10+,,,3308,,,,1000,,,,,"
   splits:
   - split: 2
     text: "早该如此！这便收下此物！"
+    translated: "About time too! Here, take this!"
 - raw: "69,340,蓄意袭击,,,,9,<,SP,精力值不足,,100,,,0,,,,,3401,,,,1000,,,,,"
   splits:
   - split: 2
     text: "蓄意袭击"
+    translated: "Premeditated attack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "70,342,出手攻袭,,,,,,,,Battle,100,,,0,\"PlayerLove(),10-,SetLoveAtPlayer(),5-,AddPlayerArrestNum()\",\"20-,LessenSP(),5-,SetPlayerAreaPrestige(),5+\",,,,,3403,3404,1000,,,,,"
   splits:
   - split: 2
     text: "出手攻袭"
+    translated: "Attack with force"
 - raw: "71,341,取其性命,touchId,//,0,,,,,,100,,,0,,,,,3412,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "72,3410,取其性命,isJuQing,//,1,,,,,,100,,,0,,,,,3412,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "73,343,吾意已决，取其性命！,,,,,,,,TryKill,100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddPlayerArrestNum()\",\"100-,friendsEr,30-,30+,SetPlayerAreaPrestige(),20+\",,,3411,3414,,,1000,,,,,"
   splits:
   - split: 2
     text: "吾意已决，取其性命！"
+    translated: "My decision is made, take their life!"
 - raw: "74,344,求饶无用，纳命来！,,,,,,,,Kill,100,,,0,\"PlayerLove(),5-,SetLoveAtPlayer(),SetChouDiLoveAtPlayer(),15-,20-,AddPlayerArrestNum()\",\"100-,friendsEr,100-,30+,lichang,SetPlayerAreaPrestige(),20+\",,,3411,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求饶无用，纳命来！"
+    translated: "Pleading is useless, give me your life!"
 - raw: "75,345,取其性命,,,,,,,,CloseUI,100,,,0,30+,SetPlayerAreaPrestige(),,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "76,346,取其性命,,,,,,,,\"Kill,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "77,349,吾意已决，放其离开。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "吾意已决，放其离开。"
+    translated: "I have made up my mind, let them leave."
 - raw: "78,350,放其一马,,,,,,,,,100,,,0,,,,,3413,,,,1000,,,,,"
   splits:
   - split: 2
     text: "放其一马"
+    translated: "Let them off once"
 - raw: "79,351,破财免灾，乞求饶恕,,,,299,<,sliver,所需银两不足,ClearRecordItem,60,,,0,\"PlayerLove(),goldCoin,300-\",\"5-,300+,sliver\",,,3510,3511,,,1000,,,,,"
   splits:
   - split: 2
     text: "破财免灾，乞求饶恕"
+    translated: "Spend money to avoid misfortune, begging for forgiveness"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "80,352,诚心悔过，发誓不再逞强斗狠,,,,,,,,ClearRecordItem,40,,,0,\"PlayerLove(),8-\",\"5-,lichang\",,,3520,3511,,,1000,,,,,"
   splits:
   - split: 2
     text: "诚心悔过，发誓不再逞强斗狠"
+    translated: "Sincerely repenting, swearing not to be aggressive or fight recklessly again"
 - raw: "81,353,技不如人，认命待宰,,,,,,,,ClearRecordItem,100,,,0,,,,,3530,,,,1000,,,,,"
   splits:
   - split: 2
     text: "技不如人，认命待宰"
+    translated: "Acknowledge one's fate when outmatched"
 - raw: "82,370,俘获,touchId,//,0,\"29,0,0\",\"<,<,//\",\"SP,listMyItemData<908175>,CaptureOnBagLimited\",\"精力值不足,需要空麻袋,麻袋太多背不动了\",,100,,,0,,,,,3704,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 1
     text: "需要空麻袋"
+    translated: "Needs an empty gunny sack"
   - split: 9
     subIndex: 2
     text: "麻袋太多背不动了"
+    translated: "I can't carry all the sacks anymore"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -468,14 +595,18 @@
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 1
     text: "需要空麻袋"
+    translated: "Needs an empty gunny sack"
   - split: 9
     subIndex: 2
     text: "麻袋太多背不动了"
+    translated: "I can't carry all the sacks anymore"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -483,18 +614,23 @@
   splits:
   - split: 2
     text: "执意不退，逞凶作恶"
+    translated: "Insistently refusing to back down, acting recklessly and doing evil deeds"
 - raw: "85,3700,俘获,isJuQing,//,1,\"29,0,0\",\"<,<,//\",\"SP,listMyItemData<908175>,CaptureOnBagLimited\",\"精力值不足,需要空麻袋,麻袋太多背不动了\",,100,,,0,,,,,3704,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 1
     text: "需要空麻袋"
+    translated: "Needs an empty gunny sack"
   - split: 9
     subIndex: 2
     text: "麻袋太多背不动了"
+    translated: "I can't carry all the sacks anymore"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -502,57 +638,72 @@
   splits:
   - split: 2
     text: "击昏此人，且装入麻袋。"
+    translated: "Knock out this person and put them in the sack."
 - raw: "87,378,身上恰好没有空麻袋，只好放任而去。,1,>,listMyItemData<908175>,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "身上恰好没有空麻袋，只好放任而去。"
+    translated: "Since I didn't have an empty gunny sack on hand, I had to let it go."
 - raw: "88,379,此刻难明，且任其逃走，日后再算！,,,,,,,,\"Release,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此刻难明，且任其逃走，日后再算！"
+    translated: "For now, I'll let them go, but I'll settle the score later!"
 - raw: "89,380,起身直追！,,,,,,,,RebelBattle,100,,,0,,,,,,,3418,3419,1000,,,,,"
   splits:
   - split: 2
     text: "起身直追！"
+    translated: "Get up and chase after them!"
 - raw: "90,381,暂饶过此人，以观后效！,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂饶过此人，以观后效！"
+    translated: "Spare this person for now, to see their future actions!"
 - raw: "91,382,对方技高一筹，暂且离去，来日再报！,,,,,,,,\"Release,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "对方技高一筹，暂且离去，来日再报！"
+    translated: "The opponent is more skilled; they withdraw for now, to return another day for revenge!"
 - raw: "92,383,击昏此人，且装入麻袋。,,,,,,,,\"UseItemCount908175,CloseUI\",100,,,0,\"Kidnap(),PlayerLove(),10+\",\"1,60-,SetPlayerAreaPrestige()\",,,,,,,1000,,,,你出手俘获此间恶徒，本地称颂之声不绝……,"
   splits:
   - split: 2
     text: "击昏此人，且装入麻袋。"
+    translated: "Knock out this person and put them in the sack."
   - split: 27
     text: "你出手俘获此间恶徒，本地称颂之声不绝……"
+    translated: "Your capture of the local villains has earned you much praise..."
 - raw: "93,372,强行掳掠,,,,,,,,Battle,100,,,0,\"AddPlayerArrestNum(), 15-\",\"20+,SetPlayerAreaPrestige()\",,,,,3701,3703,1000,,,,,"
   splits:
   - split: 2
     text: "强行掳掠"
+    translated: "Forcibly abducting and plundering"
 - raw: "94,373,求饶逃走,, ,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求饶逃走"
+    translated: "Begging for mercy and fleeing"
 - raw: "95,374,将其释放,,,,,,,,,100,,,0,,,,,3741,,,,1000,,,,,"
   splits:
   - split: 2
     text: "将其释放"
+    translated: "Release it"
 - raw: "96,375,将其释放,,,,,,,,\"Release,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "将其释放"
+    translated: "Release it"
 - raw: "97,376,俘获,touchId,//,0,\"0,0\",\"<,//\",\"listMyItemData<908175>,CaptureOnBagLimited\",\"需要空麻袋,麻袋太多背不动了\",,100,,,0,\"30-,15-,7-,PlayerLove(),15-,AddPlayerArrestNum()\",\"LessenSP(),friendsEr,lichang,60-,SetPlayerAreaPrestige(),20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
   - split: 9
     text: "需要空麻袋"
+    translated: "Needs an empty gunny sack"
   - split: 9
     subIndex: 1
     text: "麻袋太多背不动了"
+    translated: "I can't carry all the sacks anymore"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -560,11 +711,14 @@
   splits:
   - split: 2
     text: "俘获此人"
+    translated: "Capture this person"
   - split: 9
     text: "需要空麻袋"
+    translated: "Needs an empty gunny sack"
   - split: 9
     subIndex: 1
     text: "麻袋太多背不动了"
+    translated: "I can't carry all the sacks anymore"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -572,11 +726,14 @@
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
   - split: 9
     text: "需要空麻袋"
+    translated: "Needs an empty gunny sack"
   - split: 9
     subIndex: 1
     text: "麻袋太多背不动了"
+    translated: "I can't carry all the sacks anymore"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -584,16 +741,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -603,16 +765,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -622,16 +789,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -641,16 +813,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -660,16 +837,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -679,16 +861,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -698,16 +885,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -717,16 +909,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -736,16 +933,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -755,16 +957,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -774,16 +981,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -793,16 +1005,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -812,16 +1029,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -831,16 +1053,21 @@
   splits:
   - split: 2
     text: "义结金兰"
+    translated: "Sworn Bond Brothers"
   - split: 9
     text: "需先结为知交"
+    translated: "You need to first become confidants"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -850,8 +1077,10 @@
   splits:
   - split: 2
     text: "割袍断义"
+    translated: "Cutting the robe to sever ties"
   - split: 27
     text: "与你二人割袍断义，再非金兰挚交！"
+    translated: "I am no longer your Sworn Bond by cutting ties with both of you!"
   templates:
   - split: 27
     template: "⟦0⟧{0}"
@@ -859,11 +1088,14 @@
   splits:
   - split: 2
     text: "把酒言欢"
+    translated: "Toast and laugh with wine"
   - split: 9
     text: "需好感度≥0"
+    translated: "Requires Favorability ≥ 0"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -871,16 +1103,21 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "需为异性"
+    translated: "Must be of the opposite gender"
   - split: 9
     subIndex: 1
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -890,13 +1127,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "需为异性"
+    translated: "Must be of the opposite gender"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -904,13 +1145,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -918,13 +1163,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -932,13 +1181,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -946,13 +1199,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -960,13 +1217,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -974,13 +1235,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -988,13 +1253,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1002,13 +1271,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1016,13 +1289,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1030,13 +1307,17 @@
   splits:
   - split: 2
     text: "倾诉爱慕"
+    translated: "Confess Affection"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1044,11 +1325,14 @@
   splits:
   - split: 2
     text: "风花雪月"
+    translated: "Flowers, Moon, Snow, and Spring Dreams"
   - split: 9
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1056,11 +1340,14 @@
   splits:
   - split: 2
     text: "风花雪月"
+    translated: "Flowers, Moon, Snow, and Spring Dreams"
   - split: 9
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1068,10 +1355,13 @@
   splits:
   - split: 2
     text: "劳燕分飞"
+    translated: "Parting like busy swallows"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "与你情丝牵斩，破镜难圆，再非江湖眷侣了。"
+    translated: "Our ties are severed, and what's broken cannot be mended; we are no longer lovers in the Jianghu."
   templates:
   - split: 27
     template: "⟦0⟧{0}"
@@ -1079,20 +1369,26 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "需为异性"
+    translated: "Must be of the opposite gender"
   - split: 9
     subIndex: 1
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 2
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 3
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 4
     text: "需好感度≥70"
+    translated: "Requires Favorability ≥ 70"
   templates:
   - split: 9
     template: "{0},{1},{2},{3},{4}"
@@ -1100,26 +1396,34 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "需为异性"
+    translated: "Must be of the opposite gender"
 - raw: "133,4322,共结连理,\"kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,<\",\"1,1,70\",\"sex,JiaoQing<JuanLv>,1,JiaoQing<PeiOu>,love\",\"!/,//,>,<,>\",\"sex,1,JiaoQing<PeiOu>,1,69\",\"需为异性,需先结为眷侣,你已婚许,对方已婚许,需好感度≥70\",,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "需为异性"
+    translated: "Must be of the opposite gender"
   - split: 9
     subIndex: 1
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 2
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 3
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 4
     text: "需好感度≥70"
+    translated: "Requires Favorability ≥ 70"
   templates:
   - split: 9
     template: "{0},{1},{2},{3},{4}"
@@ -1127,23 +1431,30 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "需为异性"
+    translated: "Must be of the opposite gender"
 - raw: "135,4300,共结连理,\"JiaoQing<JuanLv>,JiaoQing<ChouDi>,sex,love,love\",\"//,!/,!/,>,<\",\"1,1,sex,69,75\",\"JiaoQing<PeiOu>,1,JiaoQing<JuanLv>,19\",\"<,>,//,<\",\"1,JiaoQing<PeiOu>,1,SP\",\"对方已婚许,你已婚许,需先结为眷侣,精力值不足\",,50,,,0,\"relationship,RemoveJiaoQing(),JuanLv;id\",\"0,JuanLv;1,RemoveJiaoQing()\",\"PlayerLove(),15-\",\"5-,LessenSP()\",4301,4302,,,1000,,,,,"
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1151,17 +1462,22 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1169,17 +1485,22 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1187,17 +1508,22 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1205,17 +1531,22 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1223,17 +1554,22 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1241,17 +1577,22 @@
   splits:
   - split: 2
     text: "共结连理"
+    translated: "Tie the knot together"
   - split: 9
     text: "对方已婚许"
+    translated: "The other party is already married"
   - split: 9
     subIndex: 1
     text: "你已婚许"
+    translated: "You are already married"
   - split: 9
     subIndex: 2
     text: "需先结为眷侣"
+    translated: "You need to be lovers first"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1259,34 +1600,45 @@
   splits:
   - split: 2
     text: "推朋荐友"
+    translated: "Recommend friends"
   - split: 9
     text: "暂未开放"
+    translated: "Not available yet"
 - raw: "143,4500,化仇解怨（消耗同袍酒*1）,love,<,1,\"JiaoQing<ChouDi>,0,9\",\"//,<,<\",\"1,listMyItemData<902060>,SP\",\"并无仇怨，无须化解,缺少：同袍酒,精力值不足\",UseItemCount902060,100,,,0,\"relationship,RemoveJiaoQing(),ChouDi;id,10-,love,ShowUIAnim()\",\"0,ChouDi;1,RemoveJiaoQing(),LessenSP(),0,16\",,,4501,,,,1000,,,,[同袍酒]数量 - 1_恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与{0}二人再非仇敌关系。,"
   splits:
   - split: 2
     text: "化仇解怨（消耗同袍酒"
+    translated: "Reconcile Rivalries (Consume Comrades' Wine"
   - split: 9
     text: "并无仇怨，无须化解"
+    translated: "There is no grudge between us; there is no need to counter."
   - split: 9
     subIndex: 1
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 2
     text: "同袍酒"
+    translated: "Comrades' Wine"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "同袍酒"
+    translated: "Comrades' Wine"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   - split: 27
     subIndex: 2
     text: "恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与"
+    translated: "Grudges and grievances, hatred and partings all resolved, laughing and drinking, singing and freeing oneself of enmity, you and"
   - split: 27
     subIndex: 3
     text: "二人再非仇敌关系。"
+    translated: "The two are no longer enemies"
   templates:
   - split: 2
     template: "{0}*1）"
@@ -1298,28 +1650,37 @@
   splits:
   - split: 2
     text: "化仇解怨（消耗同袍酒"
+    translated: "Reconcile Rivalries (Consume Comrades' Wine"
   - split: 9
     text: "并无仇怨，无须化解"
+    translated: "There is no grudge between us; there is no need to counter."
   - split: 9
     subIndex: 1
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 2
     text: "同袍酒"
+    translated: "Comrades' Wine"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "同袍酒"
+    translated: "Comrades' Wine"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   - split: 27
     subIndex: 2
     text: "恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与"
+    translated: "Grudges and grievances, hatred and partings all resolved, laughing and drinking, singing and freeing oneself of enmity, you and"
   - split: 27
     subIndex: 3
     text: "二人再非仇敌关系。"
+    translated: "The two are no longer enemies"
   templates:
   - split: 2
     template: "{0}*1）"
@@ -1331,28 +1692,37 @@
   splits:
   - split: 2
     text: "化仇解怨（消耗同袍酒"
+    translated: "Reconcile Rivalries (Consume Comrades' Wine"
   - split: 9
     text: "并无仇怨，无须化解"
+    translated: "There is no grudge between us; there is no need to counter."
   - split: 9
     subIndex: 1
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 2
     text: "同袍酒"
+    translated: "Comrades' Wine"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "同袍酒"
+    translated: "Comrades' Wine"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   - split: 27
     subIndex: 2
     text: "恩怨生死，恨别了了，笑饮高歌，恩仇尽销，你与"
+    translated: "Grudges and grievances, hatred and partings all resolved, laughing and drinking, singing and freeing oneself of enmity, you and"
   - split: 27
     subIndex: 3
     text: "二人再非仇敌关系。"
+    translated: "The two are no longer enemies"
   templates:
   - split: 2
     template: "{0}*1）"
@@ -1364,34 +1734,44 @@
   splits:
   - split: 2
     text: "邀为同伴"
+    translated: "Invite as companion"
   - split: 9
     text: "需好感度≥50"
+    translated: "Requires Favorability ≥ 50"
 - raw: "147,4601,结伴同行！,,,,,,,,PartnerJoinTeam,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "结伴同行！"
+    translated: "Travel together!"
 - raw: "148,4602,邀为同伴,\"isPartner,JiaoQing<FuMu>\",\"//,//\",\"0,1\",love,>,49,需好感度≥50,,100,,,0,,,,,4402,,,,1000,,,,,"
   splits:
   - split: 2
     text: "邀为同伴"
+    translated: "Invite as companion"
   - split: 9
     text: "需好感度≥50"
+    translated: "Requires Favorability ≥ 50"
 - raw: "149,4603,结伴同行！,,,,,,,,PartnerJoinTeam,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "结伴同行！"
+    translated: "Travel together!"
 - raw: "150,433,结为夫妻,,,,,,,,,100,,,0,\"relationship,AddJiaoQing(),PeiOu;id,SetLoveAtPlayer(),3,ShowUIAnim()\",\"3,PeiOu;1,AddJiaoQing(),5+,relationship,13\",,,4313,,,,1000,,,,执子之手，与子偕老，你与{0}二人结为夫妻!决意生死不离。,"
   splits:
   - split: 2
     text: "结为夫妻"
+    translated: "Become husband and wife"
   - split: 27
     text: "执子之手，与子偕老，你与"
+    translated: "Holding your hand, growing old with you, you and"
   - split: 27
     subIndex: 1
     text: "二人结为夫妻"
+    translated: "They became husband and wife"
   - split: 27
     subIndex: 2
     text: "决意生死不离。"
+    translated: "Sworn to live and die together"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}!{2}"
@@ -1399,17 +1779,22 @@
   splits:
   - split: 2
     text: "共度良宵"
+    translated: "Spending a pleasant night together"
   - split: 9
     text: "对方已阉割"
+    translated: "Opponent has been castrated"
   - split: 9
     subIndex: 1
     text: "已阉割"
+    translated: "Already castrated"
   - split: 9
     subIndex: 2
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1417,11 +1802,14 @@
   splits:
   - split: 2
     text: "一纸休书"
+    translated: "A divorce decree"
   - split: 27
     text: "千年缘散，情空恨虚，"
+    translated: "A thousand years of fate scattered, love empty, regrets hollow,"
   - split: 27
     subIndex: 1
     text: "与你分道扬镳，再非夫妻了。"
+    translated: "From now on, we part ways and are no longer husband and wife."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1429,17 +1817,22 @@
   splits:
   - split: 2
     text: "共度良宵"
+    translated: "Spending a pleasant night together"
   - split: 9
     text: "对方已阉割"
+    translated: "Opponent has been castrated"
   - split: 9
     subIndex: 1
     text: "已阉割"
+    translated: "Already castrated"
   - split: 9
     subIndex: 2
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1447,17 +1840,22 @@
   splits:
   - split: 2
     text: "共度良宵"
+    translated: "Spending a pleasant night together"
   - split: 9
     text: "对方已阉割"
+    translated: "Opponent has been castrated"
   - split: 9
     subIndex: 1
     text: "已阉割"
+    translated: "Already castrated"
   - split: 9
     subIndex: 2
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1465,17 +1863,22 @@
   splits:
   - split: 2
     text: "共度良宵"
+    translated: "Spending a pleasant night together"
   - split: 9
     text: "对方已阉割"
+    translated: "Opponent has been castrated"
   - split: 9
     subIndex: 1
     text: "已阉割"
+    translated: "Already castrated"
   - split: 9
     subIndex: 2
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 9
     subIndex: 3
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1},{2},{3}"
@@ -1483,16 +1886,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "需好感度≥60"
+    translated: "Requires Favorability ≥ 60"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1502,16 +1910,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1521,16 +1934,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1540,16 +1958,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1559,16 +1982,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1578,16 +2006,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1597,16 +2030,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1616,16 +2054,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1635,16 +2078,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1654,16 +2102,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1673,16 +2126,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1692,16 +2150,21 @@
   splits:
   - split: 2
     text: "拜入门下"
+    translated: "Become an apprentice"
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你拜入"
+    translated: "You joined"
   - split: 27
     subIndex: 1
     text: "门下，以师事之。"
+    translated: "Treat them as your teacher"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -1711,19 +2174,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1733,19 +2202,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1755,19 +2230,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1777,19 +2258,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1799,19 +2286,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1821,19 +2314,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1843,19 +2342,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1865,19 +2370,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1887,19 +2398,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1909,19 +2426,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1931,19 +2454,25 @@
   splits:
   - split: 2
     text: "纳徒授艺"
+    translated: "Take on disciples and impart skills"
   - split: 9
     text: "对方已有师门"
+    translated: "The other party already has a sect"
   - split: 9
     subIndex: 1
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "收为弟子，壮大师门。"
+    translated: "Take them as a disciple to strengthen the sect."
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -1953,13 +2482,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "需好感度≥30"
+    translated: "Requires Favorability ≥ 30"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1967,13 +2500,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1981,13 +2518,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -1995,13 +2536,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2009,13 +2554,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2023,13 +2572,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2037,13 +2590,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2051,13 +2608,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2065,13 +2626,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2079,13 +2644,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2093,13 +2662,17 @@
   splits:
   - split: 2
     text: "知心相交"
+    translated: "Close Friendship"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "道同情厚，引为知交。"
+    translated: "Showed sympathy and kindness, drawing them as a confidant."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2107,11 +2680,14 @@
   splits:
   - split: 2
     text: "叛离师门"
+    translated: "Defecting from the Sect"
   - split: 27
     text: "你离开"
+    translated: "You leave"
   - split: 27
     subIndex: 1
     text: "门下，不复有师徒之名。"
+    translated: "From now on, there will be no master and disciple relationship between us."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2119,13 +2695,17 @@
   splits:
   - split: 2
     text: "问道解惑"
+    translated: "Seeking Enlightenment and Answers"
   - split: 9
     text: "需好感度≥0"
+    translated: "Requires Favorability ≥ 0"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 25
     text: "今日一番问道后，其人甚为疲倦，不妨十二时辰之后再来。"
+    translated: "After our conversation today, he seems very tired. It's best to come back twelve hours later."
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2133,11 +2713,14 @@
   splits:
   - split: 2
     text: "逐出门墙"
+    translated: "Expelled from the family estate"
   - split: 27
     text: "你将"
+    translated: "You will"
   - split: 27
     subIndex: 1
     text: "逐出门下，不复有师徒之名。"
+    translated: "Expelled from the sect, there is no longer any master-disciple relationship."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2145,11 +2728,14 @@
   splits:
   - split: 2
     text: "指点关要"
+    translated: "Guide the Key Points"
   - split: 9
     text: "需好感度≥0"
+    translated: "Requires Favorability ≥ 0"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2157,11 +2743,14 @@
   splits:
   - split: 2
     text: "陌路两绝"
+    translated: "Strangers Forever Apart"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "割袍断义，陌路扬镳。"
+    translated: "Parting ways with a severed bond, going separate paths."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2169,11 +2758,14 @@
   splits:
   - split: 2
     text: "对酌同乐"
+    translated: "Enjoy a Toast Together"
   - split: 9
     text: "需好感度≥0"
+    translated: "Requires Favorability ≥ 0"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2181,19 +2773,24 @@
   splits:
   - split: 2
     text: "切磋武学"
+    translated: "Sparring in martial arts"
 - raw: "197,702,切磋武学,,,,,,,,,100,,,0,,,,,7104,,,,1000,,,,,"
   splits:
   - split: 2
     text: "切磋武学"
+    translated: "Sparring in martial arts"
 - raw: "198,710,请教技艺,,,,\"love,14\",\">,<\",\"49,SP\",\"需好感度≥50,精力值不足\",GetJiYi10200,100,,,0,15-,LessenSP(),15-,LessenSP(),,,,,1000,,,,,"
   splits:
   - split: 2
     text: "请教技艺"
+    translated: "Seeking to learn a skill"
   - split: 9
     text: "需好感度≥50"
+    translated: "Requires Favorability ≥ 50"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2201,18 +2798,23 @@
   splits:
   - split: 2
     text: "请教技艺"
+    translated: "Seeking to learn a skill"
 - raw: "200,10200,特殊-请教技艺,love,>,49,,,,,,,,attributeWx,0,,,,,7102,7103,,,1000,,,,你悟性超凡，兼有{0}悉心传授，尽得其法真传。,"
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "请教技艺"
+    translated: "Seeking to learn a skill"
   - split: 27
     text: "你悟性超凡，兼有"
+    translated: "You have extraordinary Comprehension, along with"
   - split: 27
     subIndex: 1
     text: "悉心传授，尽得其法真传。"
+    translated: "Cared for instruction, fully mastering the true essence of the teachings."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -2222,26 +2824,34 @@
   splits:
   - split: 2
     text: "偷学技艺"
+    translated: "Steal Learning Techniques"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "202,721,偷学技艺,\"isServant,isPartner\",\"//,//\",\"1,0\",14,<,SP,精力值不足,StealJiYi10202,100,,,0,,,\"PlayerLove(),15-,10-\",\"50-,LessenSP(),lichang\",,7211,,,1000,,,,,"
   splits:
   - split: 2
     text: "偷学技艺"
+    translated: "Steal Learning Techniques"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "203,10201,特殊-偷学技艺,,,,,,,,,,,attributeWx,0,\"15-,8-,3-\",\"LessenSP(),friendsEr,lichang\",\"15-,PlayerLove(),4-,3-\",\"LessenSP(),20-,friendsEr,lichang\",7212,7202,,,1000,,,,你悟性超绝，仅凭窥视{0}技艺，便勘破此方玄妙。,"
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "偷学技艺"
+    translated: "Steal Learning Techniques"
   - split: 27
     text: "你悟性超绝，仅凭窥视"
+    translated: "Your comprehension is extraordinary; you grasp it simply by observing."
   - split: 27
     subIndex: 1
     text: "技艺，便勘破此方玄妙。"
+    translated: "With skill, one can unravel the mysteries of this technique."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -2251,14 +2861,18 @@
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "偷学技艺"
+    translated: "Steal Learning Techniques"
   - split: 27
     text: "你悟性超绝，仅凭窥视"
+    translated: "Your comprehension is extraordinary; you grasp it simply by observing."
   - split: 27
     subIndex: 1
     text: "技艺，便勘破此方玄妙。"
+    translated: "With skill, one can unravel the mysteries of this technique."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -2268,15 +2882,19 @@
   splits:
   - split: 2
     text: "避无可避"
+    translated: "There is no place to hide"
 - raw: "206,250,请教武学,,,,\"love,19\",\">,<\",\"49,SP\",\"需好感度≥50,精力值不足\",GetWuXue10100,100,,,0,20-,LessenSP(),20-,LessenSP(),,2501,,,1000,,,,,"
   splits:
   - split: 2
     text: "请教武学"
+    translated: "Ask about Martial Arts"
   - split: 9
     text: "需好感度≥50"
+    translated: "Requires Favorability ≥ 50"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2284,18 +2902,23 @@
   splits:
   - split: 2
     text: "请教武学"
+    translated: "Ask about Martial Arts"
 - raw: "208,10100,特殊-请教武学,,,,,,,,,,,attributeWx,0,,,,,2502,2503,,,1000,,,,你悟性超凡，兼有{0}倾囊相授，方才悟透其间玄妙。,"
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "请教武学"
+    translated: "Ask about Martial Arts"
   - split: 27
     text: "你悟性超凡，兼有"
+    translated: "You have extraordinary Comprehension, along with"
   - split: 27
     subIndex: 1
     text: "倾囊相授，方才悟透其间玄妙。"
+    translated: "By bestowing all their knowledge, they finally grasped the profound mysteries."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -2305,23 +2928,30 @@
   splits:
   - split: 2
     text: "偷学武学"
+    translated: "Steal martial art studies"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "210,363,偷学武学,\"isServant,isPartner\",\"//,//\",\"1,0\",14,<,SP,精力值不足,StealWuXue10104,100,,,0,,,\"PlayerLove(),15-,10-\",\"50-,LessenSP(),lichang\",,3601,,,1000,,,,,"
   splits:
   - split: 2
     text: "偷学武学"
+    translated: "Steal martial art studies"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "211,361,尝试逃跑,,,,,,,,Battle,,,attributeSf,0,,,,,3611,3612,,,1000,,,,你身法灵动，如燕掠空，躲过{0}狠辣一击，从险境中脱身。,"
   splits:
   - split: 2
     text: "尝试逃跑"
+    translated: "Try to escape"
   - split: 27
     text: "你身法灵动，如燕掠空，躲过"
+    translated: "Your agility is nimble, like a swallow gliding through the air, dodging"
   - split: 27
     subIndex: 1
     text: "狠辣一击，从险境中脱身。"
+    translated: "A ruthless strike, escaping from the perilous situation."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2329,22 +2959,28 @@
   splits:
   - split: 2
     text: "避无可避"
+    translated: "There is no place to hide"
 - raw: "213,364,重入江湖,,,,,,,,ExitGame,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "重入江湖"
+    translated: "Return to Jianghu"
 - raw: "214,10101,特殊-偷学武学,,,,,,,,,,,attributeWx,0,\"15-,12-,5-\",\"LessenSP(),friendsEr,lichang\",\"15-,PlayerLove(),8-,5-\",\"LessenSP(),40-,friendsEr,lichang\",3602,3603,,,1000,,,,你悟性超绝，仅凭窥探{0}修习架势，便勘破此武奥妙。,"
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "偷学武学"
+    translated: "Steal martial art studies"
   - split: 27
     text: "你悟性超绝，仅凭窥探"
+    translated: "Your comprehension is extraordinary; you gain insight just by observing."
   - split: 27
     subIndex: 1
     text: "修习架势，便勘破此武奥妙。"
+    translated: "By practicing the stance, one penetrates the essence of this martial art."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -2354,14 +2990,18 @@
   splits:
   - split: 2
     text: "特殊"
+    translated: "Special"
   - split: 2
     subIndex: 1
     text: "偷学武学"
+    translated: "Steal martial art studies"
   - split: 27
     text: "你悟性超绝，仅凭窥探"
+    translated: "Your comprehension is extraordinary; you gain insight just by observing."
   - split: 27
     subIndex: 1
     text: "修习架势，便勘破此武奥妙。"
+    translated: "By practicing the stance, one penetrates the essence of this martial art."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -2371,19 +3011,24 @@
   splits:
   - split: 2
     text: "求取银两"
+    translated: "Seeking Silver"
 - raw: "217,10004,夺走财物,,,,,,,,TakeAll,100,,,0,AddPlayerArrestNum(),5+,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "夺走财物"
+    translated: "Steal the belongings"
 - raw: "218,10005,仇敌,\"love,JiaoQing<ChouDi>\",\"<,!/\",\"29-,1\",,,,,,,,,0,\"relationship,AddJiaoQing(),ChouDi;id\",\"5,ChouDi;1,AddJiaoQing()\",,,,,,,1000,,,,善因恶果，一念恩仇，{0}已将你视为仇敌，来日之事，却不可知……,"
   splits:
   - split: 2
     text: "仇敌"
+    translated: "Enemy"
   - split: 27
     text: "善因恶果，一念恩仇，"
+    translated: "Good deeds bear evil fruit, a moment's kindness breeds enmity."
   - split: 27
     subIndex: 1
     text: "已将你视为仇敌，来日之事，却不可知……"
+    translated: "Already regards you as an enemy, the future, however, remains unknown......"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2391,11 +3036,14 @@
   splits:
   - split: 2
     text: "仇敌"
+    translated: "Enemy"
   - split: 27
     text: "善因恶果，一念恩仇，"
+    translated: "Good deeds bear evil fruit, a moment's kindness breeds enmity."
   - split: 27
     subIndex: 1
     text: "已将你视为仇敌，来日之事，却不可知……"
+    translated: "Already regards you as an enemy, the future, however, remains unknown......"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -2403,11 +3051,14 @@
   splits:
   - split: 2
     text: "盗扒其身"
+    translated: "Steal from their body"
   - split: 9
     text: "对方身无长物"
+    translated: "The other person had nothing of value"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2415,11 +3066,14 @@
   splits:
   - split: 2
     text: "盗扒其身"
+    translated: "Steal from their body"
   - split: 9
     text: "对方身无长物"
+    translated: "The other person had nothing of value"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -2427,247 +3081,330 @@
   splits:
   - split: 2
     text: "盗扒其身"
+    translated: "Steal from their body"
 - raw: "223,172,拾捡行囊,\"allStealble<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "拾捡行囊"
+    translated: "Pick up the pack"
   - split: 9
     text: "对方行囊空空"
+    translated: "The other person's pack was empty"
 - raw: "224,173,拾捡行囊,\"allStealble<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "拾捡行囊"
+    translated: "Pick up the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "225,174,拾捡行囊,\"allStealble<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "拾捡行囊"
+    translated: "Pick up the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "226,175,拾捡行囊,\"allStealble<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-\",\"40-,LessenSP(),lichang,friendsEr\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "拾捡行囊"
+    translated: "Pick up the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "227,176,抢夺行囊,\"allStealble<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "对方行囊空空"
+    translated: "The other person's pack was empty"
 - raw: "228,177,抢夺行囊,\"allStealble<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "229,178,抢夺行囊,\"allStealble<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "230,179,抢夺行囊,\"allStealble<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddPlayerArrestNum()\",\"40-,LessenSP(),lichang,friendsEr,5+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "231,385,逼问隐秘,,,,9,<,SP,精力值不足,,100,,,0,,,,,7225,,,,1000,,,,,"
   splits:
   - split: 2
     text: "逼问隐秘"
+    translated: "Press for secrets"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "232,386,施刑拷打,,,,,,,,,100,,,0,,,,,7229,,,,1000,,,,,"
   splits:
   - split: 2
     text: "施刑拷打"
+    translated: "Torture and interrogation"
 - raw: "233,387,敷药治疗,,,,,,,,,100,,,0,,,,,7232,,,,1000,,,,,"
   splits:
   - split: 2
     text: "敷药治疗"
+    translated: "Apply medicine to treat it"
 - raw: "234,388,残废其身,,,,,,,,,100,,,0,,,,,7230,,,,1000,,,,,"
   splits:
   - split: 2
     text: "残废其身"
+    translated: "Disable their body"
 - raw: "235,389,取其性命,,,,,,,,TryKill,100,,,0,\"PlayerLoveToValue(),10-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),5-,kidnapState,15-,AddPlayerArrestNum()\",\"100-,friendsEr,30-,30+,lichang,0,SetPlayerAreaPrestige(),20+\",,,3411,3414,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "236,390,鞭笞,health,>,0,9,<,SP,精力值不足,CutTo你将其逼入角落，不顾对方哀求叫骂，肆意羞辱，直至对方无力言语。,100,,,0,\"PlayerLove(),5-,5-,5+,health\",\"15-,friendsEr,lichang,LessenSP(),10-\",,,7234,,,,1000,,,,,"
   splits:
   - split: 2
     text: "鞭笞"
+    translated: "Whipping"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "237,391,鞭笞,health,<,1,9,<,SP,精力值不足,CutTo你将其逼入角落，不顾对方哀求叫骂，肆意羞辱，直至对方无力言语……对方身虚体弱，无力再受，待被你鞭答过后，已无声息……,100,,,0,\"NoActive(),kidnapState,PlayerLove(),5-,5-,5+,health\",\"1,0,15-,friendsEr,lichang,LessenSP(),10-\",,,7235,,,,1000,,,,,"
   splits:
   - split: 2
     text: "鞭笞"
+    translated: "Whipping"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "238,392,索要,,,,1,<,SP,精力值不足,Ransom,100,,,0,,,,,200,201,,,1000,,,,,"
   splits:
   - split: 2
     text: "索要"
+    translated: "Demanding"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "239,393,收为家仆,,,,,,,,Servant,100,,,0,5-,SetPlayerAreaPrestige(),,,3415,,,,1000,,,,,"
   splits:
   - split: 2
     text: "收为家仆"
+    translated: "Take as a household servant"
 - raw: "240,394,收为家仆,kidnapState,//,2,obey,>,99,不够服从,TryServant,100,,,1440,5-,SetPlayerAreaPrestige(),,,3415,3416,,,1000,,,,,"
   splits:
   - split: 2
     text: "收为家仆"
+    translated: "Take as a household servant"
   - split: 9
     text: "不够服从"
+    translated: "Not obedient enough"
 - raw: "241,20399,逼问武学,lichang,<,16,,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "242,20400,逼问武学,\"lichang,lichang\",\">,<\",\"15,31\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "243,20401,逼问武学,\"lichang,lichang\",\">,<\",\"30,46\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "244,20402,逼问武学,\"lichang,lichang\",\">,<\",\"45,56\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "245,20403,逼问武学,\"lichang,lichang\",\">,<\",\"55,71\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "246,20404,逼问武学,\"lichang,lichang\",\">,<\",\"70,86\",,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "247,20405,逼问武学,lichang,>,85,,,,,StealWuXue20406,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏武学精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问武学"
+    translated: "Press for information about the Martial Art"
   - split: 27
     text: "一番逼问下，你终得知其秘藏武学精要。"
+    translated: "After relentless questioning, you finally learned the essence of their hidden martial art."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "248,20406,（逼问武学成功）,,,,,,,,,100,,,,,,,,7226,,,,1000,,,,,"
   splits:
   - split: 2
     text: "（逼问武学成功）"
+    translated: "(Successfully Intimidated Martial Art)"
 - raw: "249,20407,（逼问武学失败）,,,,,,,,,100,,,,,,,,7227,,,,1000,,,,,"
   splits:
   - split: 2
     text: "（逼问武学失败）"
+    translated: "(Failed to interrogate about Martial Art)"
 - raw: "250,20408,逼问技艺,lichang,<,16,,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "251,20409,逼问技艺,\"lichang,lichang\",\">,<\",\"15,31\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "252,20410,逼问技艺,\"lichang,lichang\",\">,<\",\"30,46\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "253,20411,逼问技艺,\"lichang,lichang\",\">,<\",\"45,56\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "254,20412,逼问技艺,\"lichang,lichang\",\">,<\",\"55,71\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "255,20413,逼问技艺,\"lichang,lichang\",\">,<\",\"70,86\",,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "256,20414,逼问技艺,lichang,>,85,,,,,StealJiYi20415,30,,,0,\"PlayerLove(),5-,5-,10-\",\"5-,friendsEr,lichang,LessenSP()\",\"PlayerLove(),5-,5-\",\"5-,friendsEr,lichang\",7219,7218,,,1000,,,,一番逼问下，你终得知其秘藏技艺精要。,此人颇为顽固，宁死不吐露半字。"
   splits:
   - split: 2
     text: "逼问技艺"
+    translated: "Interrogating skills"
   - split: 27
     text: "一番逼问下，你终得知其秘藏技艺精要。"
+    translated: "After relentless questioning, you finally learned the essence of their secret skills."
   - split: 28
     text: "此人颇为顽固，宁死不吐露半字。"
+    translated: "This person is quite stubborn and refuses to say a word, even unto death."
 - raw: "257,20415,（逼问技艺成功）,,,,,,,,,100,,,,,,,,7226,,,,1000,,,,,"
   splits:
   - split: 2
     text: "（逼问技艺成功）"
+    translated: "(Intimidation of skills successful)"
 - raw: "258,20416,（逼问技艺失败）,,,,,,,,,100,,,,,,,,7227,,,,1000,,,,,"
   splits:
   - split: 2
     text: "（逼问技艺失败）"
+    translated: "(Intimidation of skills failed)"
 - raw: "259,20417,使用刑具：浸水皮鞭,health,>,0,\"0,9\",\"<,<\",\"listMyItemData<908092>,SP\",\"缺少：浸水皮鞭,精力值不足\",UseItemCount908092,100,,,0,\"PlayerLove(),5-,10-,health,10-,SetObey()\",\"15-,lichang,friendsEr,10-,LessenSP(),+10\",,,7228,,,,1000,,,,,"
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "浸水皮鞭"
+    translated: "Water-Soaked Leather Whip"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "浸水皮鞭"
+    translated: "Water-Soaked Leather Whip"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2677,17 +3414,22 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "烙铁"
+    translated: "Branding Iron"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "烙铁"
+    translated: "Branding Iron"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2697,17 +3439,22 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "虎形钳"
+    translated: "Tiger-Shaped Pincers"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "虎形钳"
+    translated: "Tiger-Shaped Pincers"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2717,17 +3464,22 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "蜡烛"
+    translated: "Candle"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "蜡烛"
+    translated: "Candle"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2737,17 +3489,22 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "短羽毛"
+    translated: "Short Feather"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "短羽毛"
+    translated: "Short Feather"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2757,17 +3514,22 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "剜肉小刀"
+    translated: "Flesh-Gouging Knife"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "剜肉小刀"
+    translated: "Flesh-Gouging Knife"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2777,14 +3539,18 @@
   splits:
   - split: 2
     text: "废除武学"
+    translated: "Abolish Martial Art"
   - split: 9
     text: "修为不足，需消耗修为"
+    translated: "Insufficient cultivation, must consume cultivation"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "此人身负武学俱已废除，无需再运功废除。"
+    translated: "This person's martial art techniques have already been abolished, there is no need to use energy to abolish them again."
   templates:
   - split: 9
     template: "{0}：100,{1},{2}"
@@ -2792,14 +3558,18 @@
   splits:
   - split: 2
     text: "废除穴位"
+    translated: "Abolish acupoint"
   - split: 9
     text: "修为不足，需消耗修为"
+    translated: "Insufficient cultivation, must consume cultivation"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "此人穴道俱被废除损毁，无需再运功废除。"
+    translated: "This person's acupoints have already been disabled and damaged; there is no need to disable them again."
   templates:
   - split: 9
     template: "{0}：200,{1},{2}"
@@ -2807,19 +3577,25 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "浸水皮鞭"
+    translated: "Water-Soaked Leather Whip"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "浸水皮鞭"
+    translated: "Water-Soaked Leather Whip"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2829,19 +3605,25 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "烙铁"
+    translated: "Branding Iron"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "烙铁"
+    translated: "Branding Iron"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2851,19 +3633,25 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "虎形钳"
+    translated: "Tiger-Shaped Pincers"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "虎形钳"
+    translated: "Tiger-Shaped Pincers"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2873,19 +3661,25 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "蜡烛"
+    translated: "Candle"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "蜡烛"
+    translated: "Candle"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2895,19 +3689,25 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "短羽毛"
+    translated: "Short Feather"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "短羽毛"
+    translated: "Short Feather"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2917,19 +3717,25 @@
   splits:
   - split: 2
     text: "使用刑具"
+    translated: "Use restraints"
   - split: 2
     subIndex: 1
     text: "剜肉小刀"
+    translated: "Flesh-Gouging Knife"
   - split: 9
     text: "缺少"
+    translated: "Missing"
   - split: 9
     subIndex: 1
     text: "剜肉小刀"
+    translated: "Flesh-Gouging Knife"
   - split: 9
     subIndex: 2
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 2
     template: "{0}：{1}"
@@ -2939,16 +3745,21 @@
   splits:
   - split: 2
     text: "废除武学"
+    translated: "Abolish Martial Art"
   - split: 9
     text: "修为不足，需消耗修为"
+    translated: "Insufficient cultivation, must consume cultivation"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "此人身负武学俱已废除，无需再运功废除。"
+    translated: "This person's martial art techniques have already been abolished, there is no need to use energy to abolish them again."
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 9
     template: "{0}：100,{1},{2}"
@@ -2956,16 +3767,21 @@
   splits:
   - split: 2
     text: "废除穴位"
+    translated: "Abolish acupoint"
   - split: 9
     text: "修为不足，需消耗修为"
+    translated: "Insufficient cultivation, must consume cultivation"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "此人穴道俱被废除损毁，无需再运功废除。"
+    translated: "This person's acupoints have already been disabled and damaged; there is no need to disable them again."
   - split: 27
     text: "此人无力再承拷打折磨，头颅歪斜，已然被折磨致死……"
+    translated: "This person could no longer endure the torture and torment, their head tilted to one side, already dead from the suffering..."
   templates:
   - split: 9
     template: "{0}：200,{1},{2}"
@@ -2973,19 +3789,25 @@
   splits:
   - split: 2
     text: "使用还复膏"
+    translated: "Use the Restoration Ointment"
   - split: 9
     text: "缺少对应药品"
+    translated: "Lacking the corresponding medicine"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "已恢复健康"
+    translated: "Has recovered health"
   - split: 27
     text: "还复膏"
+    translated: "Restoration Ointment"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -2995,19 +3817,25 @@
   splits:
   - split: 2
     text: "使用续命散"
+    translated: "Use the Life-Prolonging Powder"
   - split: 9
     text: "缺少对应药品"
+    translated: "Lacking the corresponding medicine"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "已恢复健康"
+    translated: "Has recovered health"
   - split: 27
     text: "续命散"
+    translated: "Life-Prolonging Powder"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -3017,19 +3845,25 @@
   splits:
   - split: 2
     text: "使用净血丸"
+    translated: "Use the Blood-Purifying Pill"
   - split: 9
     text: "缺少对应药品"
+    translated: "Lacking the corresponding medicine"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "已恢复健康"
+    translated: "Has recovered health"
   - split: 27
     text: "净血丸"
+    translated: "Blood-Purifying Pill"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -3039,19 +3873,25 @@
   splits:
   - split: 2
     text: "使用还复膏"
+    translated: "Use the Restoration Ointment"
   - split: 9
     text: "缺少对应药品"
+    translated: "Lacking the corresponding medicine"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "已恢复健康"
+    translated: "Has recovered health"
   - split: 27
     text: "还复膏"
+    translated: "Restoration Ointment"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -3061,19 +3901,25 @@
   splits:
   - split: 2
     text: "使用续命散"
+    translated: "Use the Life-Prolonging Powder"
   - split: 9
     text: "缺少对应药品"
+    translated: "Lacking the corresponding medicine"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "已恢复健康"
+    translated: "Has recovered health"
   - split: 27
     text: "续命散"
+    translated: "Life-Prolonging Powder"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -3083,19 +3929,25 @@
   splits:
   - split: 2
     text: "使用净血丸"
+    translated: "Use the Blood-Purifying Pill"
   - split: 9
     text: "缺少对应药品"
+    translated: "Lacking the corresponding medicine"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   - split: 9
     subIndex: 2
     text: "已恢复健康"
+    translated: "Has recovered health"
   - split: 27
     text: "净血丸"
+    translated: "Blood-Purifying Pill"
   - split: 27
     subIndex: 1
     text: "数量"
+    translated: "Quantity"
   templates:
   - split: 9
     template: "{0},{1},{2}"
@@ -3105,47 +3957,62 @@
   splits:
   - split: 2
     text: "闸斩足脚"
+    translated: "Gate Slash Foot Lock"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "282,20437,残断掌指,\"bufferList<>,health\",\"!/,>\",\"10019,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,8-,16-,health,SetObey(),5-,PlayerLove()\",\"10019,LessenSP(),lichang,friendsEr,20-,50+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
   splits:
   - split: 2
     text: "残断掌指"
+    translated: "Broken palm and finger bones"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "283,20438,戳瞎渺目,\"bufferList<>,health\",\"!/,>\",\"10020,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,12-,20-,health,SetObey(),5-,PlayerLove()\",\"10020,LessenSP(),lichang,friendsEr,20-,50+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
   splits:
   - split: 2
     text: "戳瞎渺目"
+    translated: "Poke out their eyes"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "284,20439,损毁其容,\"bufferList<>,health\",\"!/,>\",\"10021,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,10-,18-,health,SetObey(),5-,PlayerLove()\",\"10021,LessenSP(),lichang,friendsEr,15-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
   splits:
   - split: 2
     text: "损毁其容"
+    translated: "Disfigure their appearance"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "285,20440,铜汁灌耳,\"bufferList<>,health\",\"!/,>\",\"10022,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,16-,24-,health,SetObey(),5-,PlayerLove()\",\"10022,LessenSP(),lichang,friendsEr,20-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
   splits:
   - split: 2
     text: "铜汁灌耳"
+    translated: "Poured molten copper in the ears"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "286,20441,焚肌烧肤,\"bufferList<>,health\",\"!/,>\",\"10023,0\",9,<,SP,精力值不足,,100,,,,\"SetBuffer(),10-,18-,26-,health,SetObey(),5-,PlayerLove()\",\"10023,LessenSP(),lichang,friendsEr,25-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
   splits:
   - split: 2
     text: "焚肌烧肤"
+    translated: "Burn the flesh and sear the skin"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "287,20442,阉阳去势,\"bufferList<>,health\",\"!/,>\",\"10024,0\",\"sex,9\",\"//,<\",\"1,SP\",\"囚犯需为男性,精力值不足\",,100,,,,\"SetBuffer(),10-,20-,28-,health,SetObey(),5-,PlayerLove()\",\"10024,LessenSP(),lichang,friendsEr,35-,10+,SetPlayerAreaPrestige(),30-\",,,7231,,,,1000,,,,,"
   splits:
   - split: 2
     text: "阉阳去势"
+    translated: "Castration"
   - split: 9
     text: "囚犯需为男性"
+    translated: "Prisoner must be male"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -3153,53 +4020,70 @@
   splits:
   - split: 2
     text: "剜阴割脔"
+    translated: "Castrate and Sever the Testicles"
   - split: 9
     text: "囚犯需为女性"
+    translated: "Prisoner must be female"
 - raw: "289,20444,闸斩足脚,\"bufferList<>,health\",\"!/,<\",\"10018,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,14-,22-,5-,PlayerLove()\",\"0,10018,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "闸斩足脚"
+    translated: "Gate Slash Foot Lock"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "290,20445,残断掌指,\"bufferList<>,health\",\"!/,<\",\"10019,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,8-,16-,5-,PlayerLove()\",\"0,10019,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "残断掌指"
+    translated: "Broken palm and finger bones"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "291,20446,戳瞎渺目,\"bufferList<>,health\",\"!/,<\",\"10020,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,12-,20-,5-,PlayerLove()\",\"0,10020,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "戳瞎渺目"
+    translated: "Poke out their eyes"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "292,20447,损毁其容,\"bufferList<>,health\",\"!/,<\",\"10021,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,10-,18-,5-,PlayerLove()\",\"0,10021,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "损毁其容"
+    translated: "Disfigure their appearance"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "293,20448,铜汁灌耳,\"bufferList<>,health\",\"!/,<\",\"10022,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,16-,24-,5-,PlayerLove()\",\"0,10022,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "铜汁灌耳"
+    translated: "Poured molten copper in the ears"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "294,20449,焚肌烧肤,\"bufferList<>,health\",\"!/,<\",\"10023,1\",9,<,SP,精力值不足,\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,18-,26-,5-,PlayerLove()\",\"0,10023,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "焚肌烧肤"
+    translated: "Burn the flesh and sear the skin"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "295,20450,阉阳去势,\"bufferList<>,health\",\"!/,<\",\"10024,1\",\"sex,9\",\"//,<\",\"1,SP\",\"囚犯需为男性,精力值不足\",\"Kill5,CloseUI\",100,,,,\"kidnapState,SetBuffer(),10-,20-,28-,5-,PlayerLove()\",\"0,10024,LessenSP(),lichang,friendsEr,SetPlayerAreaPrestige(),30-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "阉阳去势"
+    translated: "Castration"
   - split: 9
     text: "囚犯需为男性"
+    translated: "Prisoner must be male"
   - split: 9
     subIndex: 1
     text: "精力值不足"
+    translated: "Energy level insufficient"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -3207,141 +4091,177 @@
   splits:
   - split: 2
     text: "剜阴割脔"
+    translated: "Castrate and Sever the Testicles"
   - split: 9
     text: "囚犯需为女性"
+    translated: "Prisoner must be female"
 - raw: "297,1111,旧人相逢，怎能不热情相对，且与其相谈！,,,,,,,,,100,,,0,\"PlayerLove(),1+,2+,10-\",\"5+,friendsSan,lichang,LessenSP()\",,,1411,,,,1000,,,,,"
   splits:
   - split: 2
     text: "旧人相逢，怎能不热情相对，且与其相谈！"
+    translated: "Reuniting with old acquaintances, how could one not warmly welcome and chat with them!"
 - raw: "298,1112,佯装不知，且转身离去。,,,,,,,,,100,,,0,\"PlayerLove(),5-\",\"3-,LessenSP()\",,,1412,,,,1000,,,,,"
   splits:
   - split: 2
     text: "佯装不知，且转身离去。"
+    translated: "Feign ignorance and turn to leave"
 - raw: "299,1121,仇人相见，唯有挺身迎战！,,,,,,,,,100,,,0,\"PlayerLove(),energy,10-\",\"10-,10-,LessenSP()\",,,1421,,,,1000,,,,,"
   splits:
   - split: 2
     text: "仇人相见，唯有挺身迎战！"
+    translated: "Foes meeting, there's only one way: stand and face them!"
 - raw: "300,1122,事有不谐，且走为上计！,,,,,,,,,100,,,0,\"energy,5-\",\"5-,LessenSP()\",,,1422,,,,1000,,,,,"
   splits:
   - split: 2
     text: "事有不谐，且走为上计！"
+    translated: "Things are not going well, let's retreat while we still can!"
 - raw: "301,1123,狭路相逢，且战！,,,,,,,,Battle,100,,,0,,,,,,,1423,1424,1000,,,,,"
   splits:
   - split: 2
     text: "狭路相逢，且战！"
+    translated: "Let's fight on this narrow path!"
 - raw: "302,1131,以德报怨，以理服人，与其慢慢讲来，或能化解仇怨。,,,,,,,,,100,,,0,\"PlayerLove(),energy,1+,2+,10-\",\"5+,5-,friendsSan,lichang,LessenSP()\",,,1431,,,,1000,,,,,"
   splits:
   - split: 2
     text: "以德报怨，以理服人，与其慢慢讲来，或能化解仇怨。"
+    translated: "Return kindness for grievances, use reason to persuade others; rather than slowly explaining things, one might be able to counter enmity."
 - raw: "303,1132,此人着实狂妄，且出手教训一二！,,,,,,,,Battle,100,,,0,\"PlayerLove(),energy,10-\",\"10-,10-,LessenSP()\",,,,,1423,1424,1000,,,,,"
   splits:
   - split: 2
     text: "此人着实狂妄，且出手教训一二！"
+    translated: "This person is truly arrogant; teach them a lesson!"
 - raw: "304,1133,唾面自干，不予其计较。,,,,,,,,,100,,,0,\"energy,5-\",\"5-,LessenSP()\",,,1432,,,,1000,,,,,"
   splits:
   - split: 2
     text: "唾面自干，不予其计较。"
+    translated: "Spit on my face and let it dry; I won't bother with such trivialities."
 - raw: "305,1141,且出手擒之，断不能让其逃了！,,,,,,,,Battle,100,,,0,\"PlayerLove(),energy,10-\",\"10-,10-,LessenSP()\",,,,,1423,1424,1000,,,,,"
   splits:
   - split: 2
     text: "且出手擒之，断不能让其逃了！"
+    translated: "And seize him; there's no way he can escape!"
 - raw: "306,1142,此人品行低劣，却是落到做蟊贼的样子，不需与其计较。,,,,,,,,,100,,,0,\"energy,5-\",\"5-,LessenSP()\",,,1441,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人品行低劣，却是落到做蟊贼的样子，不需与其计较。"
+    translated: "This person, despite their poor character, has ended up as a petty thief; there's no need to bother with them."
 - raw: "307,1151,金兰相逢，情谊深厚，且与其相谈！,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5+,5-\",,,1451,,,,1000,,,,,"
   splits:
   - split: 2
     text: "金兰相逢，情谊深厚，且与其相谈！"
+    translated: "Meet your sworn brother or sister, whose bond is deep, and converse with them!"
 - raw: "308,1152,虽金兰情谊深厚，但手上尚有要事，且先离去。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5-,5-\",,,1452,,,,1000,,,,,"
   splits:
   - split: 2
     text: "虽金兰情谊深厚，但手上尚有要事，且先离去。"
+    translated: "Though our Sworn Bond is deep, I have urgent matters to attend to and must leave for now."
 - raw: "309,1161,情深义重，怎能相负，且与其相谈，驻足片刻何妨。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5+,5-\",,,1461,,,,1000,,,,,"
   splits:
   - split: 2
     text: "情深义重，怎能相负，且与其相谈，驻足片刻何妨。"
+    translated: "Deep feelings and heavy bonds, how can I let them down? Stay for a moment and speak with them."
 - raw: "310,1162,儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5-,5-\",,,1462,,,,1000,,,,,"
   splits:
   - split: 2
     text: "儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。"
+    translated: "Where are the tender feelings of children? Let us attend to other matters for now and discuss this another time."
 - raw: "311,1171,我夫妻情深义重，怎能相负，且与其相谈，驻足片刻何妨。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5+,5-\",,,1471,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我夫妻情深义重，怎能相负，且与其相谈，驻足片刻何妨。"
+    translated: "Our marital bond is deep and strong; how could I bear to go against him? Let me stay and talk with him for a moment."
 - raw: "312,1172,儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"5-,5-\",,,1472,,,,1000,,,,,"
   splits:
   - split: 2
     text: "儿女情长何在片刻朝暮，且先忙别事，日后再谈不迟。"
+    translated: "Where are the tender feelings of children? Let us attend to other matters for now and discuss this another time."
 - raw: "313,1181,行差踏错也属在所难免，且息事宁人罢了。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "行差踏错也属在所难免，且息事宁人罢了。"
+    translated: "Mistakes are inevitable, so let's just keep the peace."
 - raw: "314,1182,此等窃贼，定要出手惩治一番！,,,,,,,,Battle,100,,,0,,,,,,,1900,1901,1000,,,,,"
   splits:
   - split: 2
     text: "此等窃贼，定要出手惩治一番！"
+    translated: "Such thieves must be dealt with!"
 - raw: "315,1191,行差踏错也属在所难免，且息事宁人罢了。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "行差踏错也属在所难免，且息事宁人罢了。"
+    translated: "Mistakes are inevitable, so let's just keep the peace."
 - raw: "316,1192,此等窃贼，定要出手惩治一番！,,,,,,,,Battle,100,,,0,,,,,,,1902,1901,1000,,,,,"
   splits:
   - split: 2
     text: "此等窃贼，定要出手惩治一番！"
+    translated: "Such thieves must be dealt with!"
 - raw: "317,1193,取回被窃银两,,,,,,,,,100,,,0,\"goldCoin,100+,1+\",\"100-,sliver,friendsSan\",,,1909,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取回被窃银两"
+    translated: "Retrieve the stolen silver"
 - raw: "318,1201,此事甚好，何妨与豪士结识一番。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"10+,5-\",,,1903,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此事甚好，何妨与豪士结识一番。"
+    translated: "This is excellent. Let's meet the hero and make his acquaintance."
 - raw: "319,1202,哪来的白送钱的憨子，趁其尚在施礼，速速离去。,,,,,,,,,100,,,0,\"PlayerLove(),energy\",\"10-,5-\",,,1904,,,,1000,,,,,"
   splits:
   - split: 2
     text: "哪来的白送钱的憨子，趁其尚在施礼，速速离去。"
+    translated: "Which kind soul offers free money? Take it and leave quickly while they are still bowing."
 - raw: "320,1211,此等窃贼，定要出手惩治一番！,,,,,,,,Battle,100,,,0,,,,,,,1905,1906,1000,,,,,"
   splits:
   - split: 2
     text: "此等窃贼，定要出手惩治一番！"
+    translated: "Such thieves must be dealt with!"
 - raw: "321,1212,行差踏错也属在所难免，且息事宁人罢了。,,,,,,,,CloseUI,100,,,0,,,, ,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "行差踏错也属在所难免，且息事宁人罢了。"
+    translated: "Mistakes are inevitable, so let's just keep the peace."
 - raw: "322,1213,取回被窃物什,,,,,,,,,100,,,0,\"ReturnItematPlayer(),1+\",\"1,friendsSan\",,,1909,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取回被窃物什"
+    translated: "Retrieve the stolen items"
 - raw: "323,1221,以武会友，实乃乐事，便试试他的武学！,,,,,,,,Battle,100,,,0,,,,,,,1907,1908,1000,,,,,"
   splits:
   - split: 2
     text: "以武会友，实乃乐事，便试试他的武学！"
+    translated: "Meeting friends through martial arts is indeed a pleasure; let's try his martial art!"
 - raw: "324,1222,纷争扰扰，何苦节外生枝，且婉拒之，息事宁人。,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "纷争扰扰，何苦节外生枝，且婉拒之，息事宁人。"
+    translated: "With disputes and disturbances, why add fuel to the fire? Let's politely decline and seek peace."
 - raw: "325,501,事有不谐，且先走为上！,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "事有不谐，且先走为上！"
+    translated: "Things aren't going well, let's retreat while we still can!"
 - raw: "326,1231,海内江湖客皆为一家，既阁下抬举，在下又岂有推脱之礼？,,,,,,,,,100,,,0,\"AddJiaoQing(),ZhiJiao;id,PlayerLove(),2+,AddLife()\",\"ZhiJiao;1,AddJiaoQing(),15+,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，二人相谈甚欢，对<color=#E64D00>p</color>有了数分钦佩之意。\",,,210011,,,,1000,,,,,"
   splits:
   - split: 2
     text: "海内江湖客皆为一家，既阁下抬举，在下又岂有推脱之礼？"
+    translated: "Travelers in the Jianghu are all one family; since you honor me, how could I refuse such courtesy?"
 - raw: "327,1232,尔乃何人，欲要与我结交，只怕……,,,,,,,,,100,,,0,\"PlayerLove(),2-,AddLife()\",\"8-,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，却是言锋不合，对<color=#E64D00>p</color>心生嫌恶。\",,,210012,,,,1000,,,,,"
   splits:
   - split: 2
     text: "尔乃何人，欲要与我结交，只怕……"
+    translated: "Who are you to want to befriend me? I doubt..."
 - raw: "328,1241,既如此，乃是在下之幸！愿你我今日共结金兰，快慰平生，纵马江湖！,,,,,,,,CutTo你与n性情相近，志趣相投，相约结为八拜之交，皇天厚土于此见证，有违此誓，人神共灭之！,100,,,0,\"RemoveJiaoQing(),ZhiJiao;id,AddJiaoQing(),JinLan;id,SetLoveAtPlayer(),2+,PlayerLove(),AddLife()\",\"ZhiJiao;1,RemoveJiaoQing(),JinLan;1,AddJiaoQing(),5+,lichang,10+,<color=#E64D00>a</color>与<color=#E64D00>p</color>义结金兰，交情愈加深厚！\",,,210021,,,,1000,,,,你与{0}二人交情深厚，义结金兰！,"
   splits:
   - split: 2
     text: "既如此，乃是在下之幸！愿你我今日共结金兰，快慰平生，纵马江湖！"
+    translated: "As such, it is my good fortune! May we form a Sworn Bond today, find satisfaction in our lives, and gallop through Jianghu together!"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "二人交情深厚，义结金兰！"
+    translated: "Their friendship is deep, and they have formed a sworn bond!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3349,31 +4269,39 @@
   splits:
   - split: 2
     text: "你我虽情谊深厚，只是……义结金兰之事，恐强求不得。"
+    translated: "Although our bond is deep, ... forcing a Sworn Bond might not be possible."
 - raw: "330,1251,既得大人抬爱，在下岂有推脱之理？愿侍奉膝下，陪伴左右。,,,,,,,,,100,,,0,\"AddJiaoQing(),YiQin;id,SetLoveAtPlayer(),2+,PlayerLove(),AddLife()\",\"YiQin;1,AddJiaoQing(),5+,lichang,10+,<color=#E64D00>a</color>观<color=#E64D00>p</color>孤苦无依，秉性又恰与自己相合，当即将<color=#E64D00>p</color>收为义[子||女]，日后江湖之中再不复伶仃之影。\",,,210031,,,,1000,,,,,"
   splits:
   - split: 2
     text: "既得大人抬爱，在下岂有推脱之理？愿侍奉膝下，陪伴左右。"
+    translated: "Having received your Lord's favor, how could I refuse? I wish to serve at your side, by your knees and beside you."
 - raw: "331,1252,阁下多有照拂，在下感念于心，只是义亲一事，实非我所愿……,,,,,,,,,100,,,0,\"SetLoveAtPlayer(),PlayerLove(),AddLife()\",\"5-,15-,<color=#E64D00>a</color>观<color=#E64D00>p</color>孤苦无依，秉性又恰与自己相合，欲将<color=#E64D00>p</color>收为义[子||女]，却被婉言相拒，一时失望而返……\",,,210032,,,,1000,,,,,"
   splits:
   - split: 2
     text: "阁下多有照拂，在下感念于心，只是义亲一事，实非我所愿……"
+    translated: "Sir, your kindness towards me is deeply appreciated. It's just that the matter of Sworn Kin is not what I desire......"
 - raw: "332,1261,数日不见，你却是与我日思夜想的一般无二……,,,,,,,,,100,,,0,\"2+,PlayerLove(),AddLife()\",\"lichang,15+,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……\",,,210041,,,,1000,,,,,"
   splits:
   - split: 2
     text: "数日不见，你却是与我日思夜想的一般无二……"
+    translated: "Several days without seeing you, you are just as I have longed for night and day..."
 - raw: "333,1262,我自为我，有何不同？,,,,,,,,,100,,,0,\"2-,PlayerLove(),AddLife()\",\"lichang,15-,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许，只叹<color=#E64D00>p</color>似是不知此情……\",,,210042,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我自为我，有何不同？"
+    translated: "I am myself; what difference does it make?"
 - raw: "334,1271,天下之大，如你我心意相通者，尚有几何？我亦倾心你许久……,,,,,,,,CutTo红尘漫漫，n与你结为红颜眷侣，此情此誓，虽海枯石烂，亦不悔也。,100,,,0,\"AddJiaoQing(),JuanLv;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,AddJiaoQing(),3+,10+,lichang,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，不想<color=#E64D00>p</color>亦倾心于其多时，二人结为眷侣，柔情无限。\",,,210051,,,,1000,,,,你与{0}情投意合，结为眷侣！,"
   splits:
   - split: 2
     text: "天下之大，如你我心意相通者，尚有几何？我亦倾心你许久……"
+    translated: "In this vast world, how many are there who share our understanding and affection? I have admired you for a long time......"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3381,18 +4309,23 @@
   splits:
   - split: 2
     text: "承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……"
+    translated: "Thanks for your kindness, but I am used to traveling alone in the Jianghu. I fear I might fail to live up to your deep intentions, so I dare not respond......"
 - raw: "336,1281,执子之手与子偕老，你我二人，将来便是夫妇了！,,,,,,,,CutTo你与n相约三生，夫妻结发，百年共白头，千年共此修。,100,,,0,\"RemoveJiaoQing(),JuanLv;id,AddJiaoQing(),PeiOu;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,RemoveJiaoQing(),PeiOu;1,AddJiaoQing(),3+,10+,lichang,痴情缠绵多时的<color=#E64D00>a</color>与<color=#E64D00>p</color>二位眷侣，决意成婚，执子之手与子偕老，永不违约。\",,,210061,,,,1000,,,,执子之手，与子偕老，你与{0}二人结为夫妻!决意生死不离。,"
   splits:
   - split: 2
     text: "执子之手与子偕老，你我二人，将来便是夫妇了！"
+    translated: "Holding your hand, I shall grow old with you; we are to be husband and wife!"
   - split: 27
     text: "执子之手，与子偕老，你与"
+    translated: "Holding your hand, growing old with you, you and"
   - split: 27
     subIndex: 1
     text: "二人结为夫妻"
+    translated: "They became husband and wife"
   - split: 27
     subIndex: 2
     text: "决意生死不离。"
+    translated: "Sworn to live and die together"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}!{2}"
@@ -3400,15 +4333,19 @@
   splits:
   - split: 2
     text: "……你我只做眷侣不亦是美事？何必为了一纸婚约那等虚名？"
+    translated: "...Isn't it beautiful for us to be lovers? Why bother with the empty title of a marriage contract?"
 - raw: "338,1291,情淡意薄，顺其心意。,,,,,,,,,100,,,0,\"RemoveJiaoQing(),PeiOu;id,2+,AddLife()\",\"PeiOu;1,RemoveJiaoQing(),lichang,恩怨几许，痴燕纷飞，破镜再难圆， <color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘，此后再无夫妻之情。\",,,210071,,,,1000,,,,千年缘散，情空恨虚，{0}与你分道扬镳，再非夫妻了。,"
   splits:
   - split: 2
     text: "情淡意薄，顺其心意。"
+    translated: "Indifferent affection, follow their wishes"
   - split: 27
     text: "千年缘散，情空恨虚，"
+    translated: "A thousand years of fate scattered, love empty, regrets hollow,"
   - split: 27
     subIndex: 1
     text: "与你分道扬镳，再非夫妻了。"
+    translated: "From now on, we part ways and are no longer husband and wife."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3416,15 +4353,19 @@
   splits:
   - split: 2
     text: "恼羞成怒，出手泄愤！"
+    translated: "Angered and humiliated, they strike out in vengeance!"
 - raw: "340,1293,暂且离去,,,,,,,,CloseUI,100,,,0,\"RemoveJiaoQing(),PeiOu;id,AddLife()\",\"PeiOu;1,RemoveJiaoQing(),<color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘，<color=#E64D00>p</color>恼羞成怒将<color=#E64D00>a</color>打伤，此后二人分道扬镳，再无夫妻之情。\",,,,,,,1000,,,,千年缘散，情空恨虚，{0}与你分道扬镳，再非夫妻了。,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
   - split: 27
     text: "千年缘散，情空恨虚，"
+    translated: "A thousand years of fate scattered, love empty, regrets hollow,"
   - split: 27
     subIndex: 1
     text: "与你分道扬镳，再非夫妻了。"
+    translated: "From now on, we part ways and are no longer husband and wife."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3432,11 +4373,14 @@
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
   - split: 27
     text: "千年缘散，情空恨虚，"
+    translated: "A thousand years of fate scattered, love empty, regrets hollow,"
   - split: 27
     subIndex: 1
     text: "与你分道扬镳，再非夫妻了。"
+    translated: "From now on, we part ways and are no longer husband and wife."
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3444,172 +4388,219 @@
   splits:
   - split: 2
     text: "拿钱消灾。"
+    translated: "Use money to avoid misfortune"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "343,1302,言语转圜。,,,,,,,,,,,attributeWx,0,,,,,210083,210084,,,1000,,,,,"
   splits:
   - split: 2
     text: "言语转圜。"
+    translated: "Speak diplomatically"
 - raw: "344,1303,惩戒凶徒。,,,,,,,,,100,,,0,,,,,210085,,,,1000,,,,,"
   splits:
   - split: 2
     text: "惩戒凶徒。"
+    translated: "Punish the villains"
 - raw: "345,1304,包裹碎石，伪装成财宝递出。,,,,,,,,,40,,,0,,,PlayerLove(),40-,210086,210087,,,1000,,,,,"
   splits:
   - split: 2
     text: "包裹碎石，伪装成财宝递出。"
+    translated: "Pack the pebbles and disguise them as treasure to pass out."
 - raw: "346,1305,加快脚步离开。,,,,,,,,,100,,,0,,,,,210088,,,,1000,,,,,"
   splits:
   - split: 2
     text: "加快脚步离开。"
+    translated: "Hasten to leave"
 - raw: "347,1306,事已至此，放手一搏！,,,,,,,,Battle,100,,,0,,,,,,,210091,210092,1000,,,,,"
   splits:
   - split: 2
     text: "事已至此，放手一搏！"
+    translated: "Now that it has come to this, let's go all out!"
 - raw: "348,1307,快步离去。,,,,,,,,,100,,,0,,,,,210089,,,,1000,,,,,"
   splits:
   - split: 2
     text: "快步离去。"
+    translated: "Hastened away"
 - raw: "349,1308,快步离去。,,,,,,,,,100,,,0,,,,,210090,,,,1000,,,,,"
   splits:
   - split: 2
     text: "快步离去。"
+    translated: "Hastened away"
 - raw: "350,1311,给予少许钱财，免其饥寒之苦。,,,,299,<,sliver,所需银两不足,,100,,,0,\"300-,PlayerLove(),20+\",\"sliver,10+,SetPlayerAreaPrestige()\",,,210101,,,,1000,,,,,"
   splits:
   - split: 2
     text: "给予少许钱财，免其饥寒之苦。"
+    translated: "Give them a small amount of money to spare them from hunger and cold."
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "351,1312,给予大量钱财，助其东山再起。,,,,1999,<,sliver,所需银两不足,,100,,,0,\"2000-,PlayerLove(),200+\",\"sliver,40+,SetPlayerAreaPrestige()\",,,210102,,,,1000,,,,,"
   splits:
   - split: 2
     text: "给予大量钱财，助其东山再起。"
+    translated: "Give them a large sum of money to help them rise again."
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "352,1313,言语打发。,,,,,,,,,100,,,0,,,,,210103,,,,1000,,,,,"
   splits:
   - split: 2
     text: "言语打发。"
+    translated: "Talk them away"
 - raw: "353,1314,默然不理。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210104,,,,1000,,,,,"
   splits:
   - split: 2
     text: "默然不理。"
+    translated: "Silently ignore"
 - raw: "354,1315,不为所动，转身欲走。,,,,,,,,,100,,,0,PlayerLove(),10-,,,210105,,,,1000,,,,,"
   splits:
   - split: 2
     text: "不为所动，转身欲走。"
+    translated: "Unmoved, they turned to leave"
 - raw: "355,1316,快步离去。,,,,,,,,,100,,,0,,,,,210106,,,,1000,,,,,"
   splits:
   - split: 2
     text: "快步离去。"
+    translated: "Hastened away"
 - raw: "356,1321,好一嚣张狂徒，定要出手教训一番！,,,,,,,,Battle,100,,,0,,,,,,,210091,210092,1000,,,,,"
   splits:
   - split: 2
     text: "好一嚣张狂徒，定要出手教训一番！"
+    translated: "So bold and arrogant, I must teach you a lesson!"
 - raw: "357,1322,出言规劝。,,,,,,,,,,,attributeWx,0,20+,SetPlayerAreaPrestige(),PlayerLove(),40-,210111,210112,,,1000,,,,,"
   splits:
   - split: 2
     text: "出言规劝。"
+    translated: "Speak to advise"
 - raw: "358,1323,警告威胁。,,,,,,,,,attribute,attribute,,0,20+,SetPlayerAreaPrestige(),PlayerLove(),40-,210113,210114,,,1000,,,,,"
   splits:
   - split: 2
     text: "警告威胁。"
+    translated: "Warning and threat"
 - raw: "359,1324,默然不理。,,,,,,,,,,,attributeSf,0,,,PlayerAddBuffer(),10010,210115,210119,,,1000,,,,,"
   splits:
   - split: 2
     text: "默然不理。"
+    translated: "Silently ignore"
 - raw: "360,1325,缓步离开。,,,,,,,,,100,,,0,,,,,210116,,,,1000,,,,,"
   splits:
   - split: 2
     text: "缓步离开。"
+    translated: "Leave slowly"
 - raw: "361,1326,运功起势，出手教训一番！,,,,,,,,,100,,,,,,,,210117,,,,1000,,,,,"
   splits:
   - split: 2
     text: "运功起势，出手教训一番！"
+    translated: "Channel your energy and teach them a lesson!"
 - raw: "362,1327,宵小之辈，不值一提，转身离去。,,,,,,,,,100,,,,,,,,210118,,,,1000,,,,,"
   splits:
   - split: 2
     text: "宵小之辈，不值一提，转身离去。"
+    translated: "Riffraff, not worth mentioning; turn and leave"
 - raw: "363,1328,宵小之辈，不值一提，转身离去。,,,,,,,,,100,,,,,,,,210120,,,,1000,,,,,"
   splits:
   - split: 2
     text: "宵小之辈，不值一提，转身离去。"
+    translated: "Riffraff, not worth mentioning; turn and leave"
 - raw: "364,1329,速速离去。,,,,,,,,,100,,,,20-,SetPlayerAreaPrestige(),,,210121,,,,1000,,,,,"
   splits:
   - split: 2
     text: "速速离去。"
+    translated: "Hurry and leave"
 - raw: "365,1341,递交银两，购置神功。,,,,499,<,sliver,所需银两不足,,100,,,,\"500-,GiveItem2Player()\",\"sliver,95901001_1#95901002_1#95902001_1#95902002_1#95903001_1#95903002_1#95904002_1#95904001_1#95905002_1#95905001_1#95906001_1#95906002_1#95909001_1#95909002_1#95910001_1#95910002_1#95911001_1#95911002_1#95912001_1#95912002_1#95913001_1#95913002_1#95914001_1#95914002_1#95915001_1#95915002_1\",,,210131,,,,1000,,,,,"
   splits:
   - split: 2
     text: "递交银两，购置神功。"
+    translated: "Submit Silver, purchase divine skills"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "366,1342,要求其展露几式，以辨真假。,,,,,,,,,100,,,,,,,,210133,,,,1000,,,,,"
   splits:
   - split: 2
     text: "要求其展露几式，以辨真假。"
+    translated: "Asked him to display a few moves to test his authenticity."
 - raw: "367,1343,此事蹊跷，断然拒绝。,,,,,,,,,100,,,,,,,,210132,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此事蹊跷，断然拒绝。"
+    translated: "This is suspicious; I firmly refuse"
 - raw: "368,1344,上前交手！,,,,,,,,Battle,100,,,,,,,,,,210134,210135,1000,,,,,"
   splits:
   - split: 2
     text: "上前交手！"
+    translated: "Engage and fight!"
 - raw: "369,1345,不再试探，直接购置神功。,,,,499,<,sliver,所需银两不足,,100,,,,\"500-,GiveItem2Player()\",\"sliver,95901001_1#95901002_1#95902001_1#95902002_1#95903001_1#95903002_1#95904002_1#95904001_1#95905002_1#95905001_1#95906001_1#95906002_1#95909001_1#95909002_1#95910001_1#95910002_1#95911001_1#95911002_1#95912001_1#95912002_1#95913001_1#95913002_1#95914001_1#95914002_1#95915001_1#95915002_1\",,,210136,,,,1000,,,,,"
   splits:
   - split: 2
     text: "不再试探，直接购置神功。"
+    translated: "No more testing the waters; buy the divine skill directly."
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "370,1346,断然拒绝。,,,,,,,,,100,,,,,,,,210137,,,,1000,,,,,"
   splits:
   - split: 2
     text: "断然拒绝。"
+    translated: "Firmly refuse"
 - raw: "371,1347,递交银两，服用丹药。,,,,499,<,sliver,所需银两不足,,100,,,,500-,sliver,,,210138,,,,1000,,,,,"
   splits:
   - split: 2
     text: "递交银两，服用丹药。"
+    translated: "Submit the Silver, then take the elixir"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "372,1348,断然拒绝。,,,,,,,,,100,,,,PlayerAddBuffer(),10042,,,210139,,,,1000,,,,,"
   splits:
   - split: 2
     text: "断然拒绝。"
+    translated: "Firmly refuse"
 - raw: "373,1349,缓步离去。,,,,,,,,CloseUI,100,,,,GiveItem2Player(),95901001_1#95901002_1#95902001_1#95902002_1#95903001_1#95903002_1#95904002_1#95904001_1#95905002_1#95905001_1#95906001_1#95906002_1#95909001_1#95909002_1#95910001_1#95910002_1#95911001_1#95911002_1#95912001_1#95912002_1#95913001_1#95913002_1#95914001_1#95914002_1#95915001_1#95915002_1,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "缓步离去。"
+    translated: "Strolled away"
 - raw: "374,1351,求取神丹妙药！,,,,799,<,sliver,所需银两不足,,100,,,,\"800-,GiveItem2Player()\",\"sliver,901002_3|901003_2|901004_1#901102_3|901103_2|901104_1#901400_2|901200_2|901300_2\",,,210141,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求取神丹妙药！"
+    translated: "Seek divine elixirs and miraculous medicines!"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "375,1352,求取神功秘籍！,,,,999,<,sliver,所需银两不足,,100,,,,\"800-,GiveItem2Player()\",\"sliver,95101018_1#95101019_1#95101028_1#95101029_1#95102018_1#95102019_1#95102028_1#95102029_1#95103018_1#95103019_1#95104018_1#95104019_1#95104028_1#95104029_1#95104038_1#95104039_1#95106018_1#95106019_1#95109018_1#95109019_1#95110018_1#95110019_1#95110028_1#95110029_1#95111018_1#95111019_1#95120018_1#95120019_1#95140018_1#95140019_1#95150028_1#95150029_1#95201038_1#95201039_1#95201108_1#95201109_1#95201118_1#95201119_1#95201158_1#95201159_1#95201168_1#95201169_1#95201188_1#95201189_1#95301028_1#95301029_1#95301048_1#95301049_1#95301058_1#95301059_1#95301068_1#95301069_1#95301098_1#95301099_1#95301138_1#95301139_1#95301148_1#95301149_1#95301158_1#95301159_1\",,,210142,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求取神功秘籍！"
+    translated: "Seek the divine Manual of martial arts!"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "376,1353,求取神兵利器！,,,,799,<,sliver,所需银两不足,,100,,,,\"800-,GiveItem2Player()\",\"sliver,101004_1#101005_1#102004_1#102005_1#102104_1#102105_1#103004_1#103005_1#104001_1#104002_1#104003_1#104004_1#104005_1#104006_1#104007_1#104008_1#104101_1#104102_1#104103_1#104104_1#104105_1#104106_1#104107_1#104108_1#105001_1#105002_1#105003_1#105004_1#105005_1#105006_1#105007_1#105008_1#106004_1#106005_1#109004_1#109005_1#110004_1#110005_1#111004_1#111005_1#112004_1#112005_1#113004_1#113005_1#114004_1#114005_1#115004_1#115005_1\",,,210143,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求取神兵利器！"
+    translated: "Seek divine weapons and fine arms!"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "377,1354,无欲无求。,,,,,,,,,100,,,,PlayerAddBuffer(),10043,,,210144,,,,1000,,,,,"
   splits:
   - split: 2
     text: "无欲无求。"
+    translated: "Without desire, without need"
 - raw: "378,1355,此事蹊跷，不必理会。,,,,,,,,,100,,,,,,,,210145,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此事蹊跷，不必理会。"
+    translated: "This matter is suspicious, but there's no need to concern yourself with it."
 - raw: "379,1361,[待补充],,,,,,,,,100,,,,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "待补充"
+    translated: "To be added later"
   templates:
   - split: 2
     template: "[{0}]"
@@ -3617,6 +4608,7 @@
   splits:
   - split: 2
     text: "待补充"
+    translated: "To be added later"
   templates:
   - split: 2
     template: "[{0}]"
@@ -3624,6 +4616,7 @@
   splits:
   - split: 2
     text: "待补充"
+    translated: "To be added later"
   templates:
   - split: 2
     template: "[{0}]"
@@ -3631,53 +4624,67 @@
   splits:
   - split: 2
     text: "既然你这般心诚，那我便收你为徒。从今往后，你需勤勉好学，不可懈怠。"
+    translated: "Since you are so sincere, I will take you as my disciple. From now on, you must study diligently and not slack off."
 - raw: "383,1372,我且自认才疏学浅，这事莫要再提……,,,,,,,,,100,,,,,,,,210162,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我且自认才疏学浅，这事莫要再提……"
+    translated: "I'll admit my own lack of talent and learning; let's not mention this matter anymore......"
 - raw: "384,1381,承蒙师父看重，我亦愿拜您为师。,,,,1,>,JiaoQing<ShiFu>,你已有师门,CutTo幸承青睐，得入门墙，你向师父n执弟子礼!,100,,,,\"AddJiaoQing(),ShiFu;id,SetLoveAtPlayer(),PlayerLove()\",\"TuDi;1,AddJiaoQing(),5+,40+\",,,210171,,,,1000,,,,,"
   splits:
   - split: 2
     text: "承蒙师父看重，我亦愿拜您为师。"
+    translated: "Thanks to my master's regard, I am also willing to become your disciple."
   - split: 9
     text: "你已有师门"
+    translated: "You already have a sect"
 - raw: "385,1382,承蒙错爱，我且暂无拜师之意。,,,,,,,,,100,,,,,,,,210172,,,,1000,,,,,"
   splits:
   - split: 2
     text: "承蒙错爱，我且暂无拜师之意。"
+    translated: "Thank you for your kindness, but I have no intention of becoming your disciple yet."
 - raw: "386,1391,我自是满心欢喜，求之不得！,,,,,,,,CutTo你与n情谊深厚，义结金兰！,100,,,,\"RemoveJiaoQing(),ZhiJiao;id,relationship,AddJiaoQing(),JinLan;id,SetLoveAtPlayer()\",\"ZhiJiao;1,RemoveJiaoQing(),1,JinLan;1,AddJiaoQing(),5+\",,,210181,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我自是满心欢喜，求之不得！"
+    translated: "I am overjoyed, more than pleased!"
 - raw: "387,1392,你我情谊深厚，何须这结拜之名分？,,,,,,,,,100,,,,,,,,210182,,,,1000,,,,,"
   splits:
   - split: 2
     text: "你我情谊深厚，何须这结拜之名分？"
+    translated: "Our bond is already so deep, why do we need the formalities of sworn siblings?"
 - raw: "388,1401,我愿与你结为知交好友，笑谈这世间云起云落。,,,,,,,,CutTo你与n相识良久，志趣相投，相约结为知交好友，互诉衷肠！,100,,,0,\"AddJiaoQing(),ZhiJiao;id,PlayerLove(),2+,AddLife()\",\"ZhiJiao;1,AddJiaoQing(),15+,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，二人相谈甚欢，对<color=#E64D00>p</color>有了数分钦佩之意。\",,,210191,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我愿与你结为知交好友，笑谈这世间云起云落。"
+    translated: "I wish to be your confidant and laugh together at the rise and fall of this world."
 - raw: "389,1402,我孤身为伴，不喜与人深交，恐负你一番美意。,,,,,,,,,100,,,0,\"PlayerLove(),2-,AddLife()\",\"8-,lichang,<color=#E64D00>a</color>主动寻到<color=#E64D00>p</color>攀谈，却是言锋不合，对<color=#E64D00>p</color>心生嫌恶。\",,,210192,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我孤身为伴，不喜与人深交，恐负你一番美意。"
+    translated: "I travel alone and do not enjoy deepening relations with others, lest I disappoint your kind intentions."
 - raw: "390,1411,相伴同游！,,,,,,,,CutTo你二人结伴同游，诉近日之见闻，相谈甚欢……,100,,,0,PlayerLove(),15+,,,210201,,,,1000,,,,,"
   splits:
   - split: 2
     text: "相伴同游！"
+    translated: "Travel together!"
 - raw: "391,1412,暂无此意，还望海涵，莫要怪罪。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210202,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂无此意，还望海涵，莫要怪罪。"
+    translated: "I have no such intention; I hope you can forgive me and not blame me."
 - raw: "392,1421,我亦倾心你许久……,,,,,,,,CutTo红尘漫漫，n与你结为红颜眷侣，此情此誓，虽海枯石烂，亦不悔也。,100,,,0,\"AddJiaoQing(),JuanLv;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,AddJiaoQing(),3+,10+,lichang,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，不想<color=#E64D00>p</color>亦倾心于其多时，二人结为眷侣，柔情无限。\",,,210211,,,,1000,,,,你与{0}情投意合，结为眷侣！,"
   splits:
   - split: 2
     text: "我亦倾心你许久……"
+    translated: "I have long been smitten with you as well......"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3685,23 +4692,29 @@
   splits:
   - split: 2
     text: "承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……"
+    translated: "Thanks for your kindness, but I am used to traveling alone in the Jianghu. I fear I might fail to live up to your deep intentions, so I dare not respond......"
 - raw: "394,1431,相伴同游！,,,,,,,,CutTo你二人结伴同游，诉近日之见闻，相谈甚欢……,100,,,0,PlayerLove(),15+,,,210221,,,,1000,,,,,"
   splits:
   - split: 2
     text: "相伴同游！"
+    translated: "Travel together!"
 - raw: "395,1432,暂无此意，还望海涵，莫要怪罪。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210222,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂无此意，还望海涵，莫要怪罪。"
+    translated: "I have no such intention; I hope you can forgive me and not blame me."
 - raw: "396,1441,我亦倾心你许久……,,,,,,,,CutTo红尘漫漫，n与你结为红颜眷侣，此情此誓，虽海枯石烂，亦不悔也。,100,,,0,\"AddJiaoQing(),JuanLv;id,SetLoveAtPlayer(),PlayerLove(),2+,AddLife()\",\"JuanLv;1,AddJiaoQing(),3+,10+,lichang,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹，不想<color=#E64D00>p</color>亦倾心于其多时，二人结为眷侣，柔情无限。\",,,210231,,,,1000,,,,你与{0}情投意合，结为眷侣！,"
   splits:
   - split: 2
     text: "我亦倾心你许久……"
+    translated: "I have long been smitten with you as well......"
   - split: 27
     text: "你与"
+    translated: "You and"
   - split: 27
     subIndex: 1
     text: "情投意合，结为眷侣！"
+    translated: "In love and harmony, they became lovers!"
   templates:
   - split: 27
     template: "{0}⟦0⟧{1}"
@@ -3709,390 +4722,507 @@
   splits:
   - split: 2
     text: "承蒙抬爱，然在下孑然一身行走江湖惯了，只怕辜负深意，故不敢相应……"
+    translated: "Thanks for your kindness, but I am used to traveling alone in the Jianghu. I fear I might fail to live up to your deep intentions, so I dare not respond......"
 - raw: "398,1451,有此真心，为师甚慰。,,,,,,,,,100,,,0,\"PlayerLove(),10+,xiuWei\",\"8+,SetPlayerAreaPrestige(),100+\",,,210241,,,,1000,,,,,"
   splits:
   - split: 2
     text: "有此真心，为师甚慰。"
+    translated: "Having such sincerity, my disciple brings me great comfort."
 - raw: "399,1452,莫要打扰为师，为师之事，小辈无需多嘴。,,,,,,,,,100,,,0,\"PlayerLove(),10-\",\"5-,SetPlayerAreaPrestige()\",,,210242,,,,1000,,,,,"
   splits:
   - split: 2
     text: "莫要打扰为师，为师之事，小辈无需多嘴。"
+    translated: "Do not disturb me, my disciple. Matters concerning me need not concern you."
 - raw: "400,1461,诉说心中困惑。,,,,,,,,,100,,,0,\"PlayerLove(),100+\",\"5+,xiuWei\",,,210251,,,,1000,,,,,"
   splits:
   - split: 2
     text: "诉说心中困惑。"
+    translated: "Confess your inner doubts"
 - raw: "401,1462,徒儿自会解决，不劳师父费心。,,,,,,,,,100,,,0,PlayerLove(),5-,,,210252,,,,1000,,,,,"
   splits:
   - split: 2
     text: "徒儿自会解决，不劳师父费心。"
+    translated: "I will handle it myself, Master, no need for you to worry."
 - raw: "402,1471,知无不言，言无不尽。,,,,,,,,,100,,,0,\"PlayerLove(),10+,xiuWei\",\"8+,SetPlayerAreaPrestige(),50+\",,,210261,,,,1000,,,,,"
   splits:
   - split: 2
     text: "知无不言，言无不尽。"
+    translated: "Speak freely, with nothing held back"
 - raw: "403,1472,无暇顾及，冷厉拒绝。,,,,,,,,,100,,,0,\"PlayerLove(),10-\",\"5-,SetPlayerAreaPrestige()\",,,210262,,,,1000,,,,,"
   splits:
   - split: 2
     text: "无暇顾及，冷厉拒绝。"
+    translated: "Without hesitation, they coldly refused"
 - raw: "404,1481,你我知心而交，同行江湖，何必多言？,,,,,,,,PartnerJoinTeam,100,,,0,PlayerLove(),10+,,,210271,,,,1000,,,,,"
   splits:
   - split: 2
     text: "你我知心而交，同行江湖，何必多言？"
+    translated: "You and I understand each other without words; as companions in the Jianghu, what need is there for more talk?"
 - raw: "405,1482,阁下多有照拂，在下感念于心，只是同历江湖一事，万万不可轻下决意……,,,,,,,,,100,,,0,PlayerLove(),5-,,,210272,,,,1000,,,,,"
   splits:
   - split: 2
     text: "阁下多有照拂，在下感念于心，只是同历江湖一事，万万不可轻下决意……"
+    translated: "Sir, your kindness is deeply appreciated, but regarding our shared journey in the Jianghu, one must not make a hasty decision..."
 - raw: "406,110011,出言相劝，断不能再让此人胡言多语。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),1+,2+,10-,ResetState(),StopAction()\",\"5-,friendsSan,lichang,LessenSP(),5,1\",,,110011,,,,1000,,,,,"
   splits:
   - split: 2
     text: "出言相劝，断不能再让此人胡言多语。"
+    translated: "Speak up and stop this person from speaking nonsense."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "407,110012,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"1-,ResetState()\",\"lichang,5\",,,110012,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "408,110021,因果循环，该有此劫，且袖手观之。,,,,,,,,,100,,,0,\"energy,PlayerLove(),1-,2-,ResetState()\",\"25-,5-,friendsEr,lichang,5\",,,110021,,,,1000,,,,,"
   splits:
   - split: 2
     text: "因果循环，该有此劫，且袖手观之。"
+    translated: "Reap what you sow, this trial was destined. Just watch from the sidelines."
 - raw: "409,110022,救危扶难，仁义所在，且运功助之解毒。,,,,14,<,SP,精力值不足,,100,,,0,\"energy,PlayerLove(),3+,4+,15-,ResetState(),StopAction()\",\"10-,10+,friendsSan,lichang,LessenSP(),5,1\",,,110022,,,,1000,,,,,"
   splits:
   - split: 2
     text: "救危扶难，仁义所在，且运功助之解毒。"
+    translated: "Rescue the endangered and help those in distress; it is where benevolence and righteousness lie. And use your skills to aid in detoxifying them."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "410,110023,此人身负剧毒，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110023,110024,1000,,,,,"
   splits:
   - split: 2
     text: "此人身负剧毒，何不趁此机会，于其身上得些利……"
+    translated: "This person is poisoned; why not take advantage of the situation to gain some profit from them..."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "411,110031,何妨闲坐片刻，且于此围观听书。,,,,,,,,,100,,,0,\"goldCoin,ResetState()\",\"100+,5\",,,110031,,,,1000,,,,,"
   splits:
   - split: 2
     text: "何妨闲坐片刻，且于此围观听书。"
+    translated: "Why not sit and rest for a while, and listen to the stories being told here."
 - raw: "412,110032,此人所讲妙趣横生，为其捧场助势！,,,,9,<,SP,精力值不足,,100,,,0,\"goldCoin,PlayerLove(),80+,3+,4+,10-,ResetState()\",\"120+,10+,sliver,friendsSan,lichang,LessenSP(),5\",,,110032,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人所讲妙趣横生，为其捧场助势！"
+    translated: "This person's speech is delightful; cheer them on and support them!"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "413,110033,此人言谈与我之前所见全然不同，此等胡说八道之语，定当教训一番！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState(),StopAction()\",\"40-,friendsEr,lichang,LessenSP(),5,1\",,,,,110033,110034,1000,,,,,"
   splits:
   - split: 2
     text: "此人言谈与我之前所见全然不同，此等胡说八道之语，定当教训一番！"
+    translated: "This person's speech is completely different from what I saw before; such nonsense must be taught a lesson!"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "414,110041,因果循环，该有此劫，且袖手观之。,,,,,,,,,100,,,0,\"energy,PlayerLove(),1-,2-,ResetState()\",\"25-,5-,friendsEr,lichang,5\",,,110041,,,,1000,,,,,"
   splits:
   - split: 2
     text: "因果循环，该有此劫，且袖手观之。"
+    translated: "Reap what you sow, this trial was destined. Just watch from the sidelines."
 - raw: "415,110042,救危扶难，仁义所在，且运功助之恢复精神。,,,,9,<,SP,精力值不足,,100,,,0,\"energy,PlayerLove(),5+,3+,10-,ResetState(),StopAction()\",\"5+,10+,friendsSan,lichang,LessenSP(),5,1\",,,110042,,,,1000,,,,,"
   splits:
   - split: 2
     text: "救危扶难，仁义所在，且运功助之恢复精神。"
+    translated: "Rescue the distressed and aid those in danger; it is where righteousness lies. Plus, use your skills to help restore their willpower."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "416,110043,此人身负异伤，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110043,110044,1000,,,,,"
   splits:
   - split: 2
     text: "此人身负异伤，何不趁此机会，于其身上得些利……"
+    translated: "This person has strange wounds; why not take this opportunity to gain some advantage from them..."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "417,110051,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110051,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "418,110052,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110052,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
   - split: 9
     text: "境界需至少与对方相当"
+    translated: "Your realm must be at least equivalent to theirs."
 - raw: "419,110053,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110052,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "420,110054,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110052,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "421,110055,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110053,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "422,110056,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110053,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
 - raw: "423,110057,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110053,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "424,110058,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110054,110055,1000,,,,,"
   splits:
   - split: 2
     text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+    translated: "Strike while their mind is focused and guard is down, attacking them at the root!"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "425,110061,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110061,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "426,110062,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110062,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
   - split: 9
     text: "境界需至少与对方相当"
+    translated: "Your realm must be at least equivalent to theirs."
 - raw: "427,110063,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110062,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "428,110064,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110062,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "429,110065,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110063,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "430,110066,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110063,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
 - raw: "431,110067,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110063,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "432,110068,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110064,110065,1000,,,,,"
   splits:
   - split: 2
     text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+    translated: "Strike while their mind is focused and guard is down, attacking them at the root!"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "433,110071,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110071,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "434,110072,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110072,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
   - split: 9
     text: "境界需至少与对方相当"
+    translated: "Your realm must be at least equivalent to theirs."
 - raw: "435,110073,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110072,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "436,110074,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110072,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "437,110075,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110073,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "438,110076,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110073,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
 - raw: "439,110077,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110073,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "440,110078,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110074,110075,1000,,,,,"
   splits:
   - split: 2
     text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+    translated: "Strike while their mind is focused and guard is down, attacking them at the root!"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "441,110081,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"xiuWei,energy,ResetState()\",\"20+,20-,5\",,,110081,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "442,110082,一时技痒，且与此人搭手陪练片刻。,attribute,>,attribute,attribute,<,attribute,境界需至少与对方相当,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110082,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
   - split: 9
     text: "境界需至少与对方相当"
+    translated: "Your realm must be at least equivalent to theirs."
 - raw: "443,110083,一时技痒，且与此人搭手陪练片刻。,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110082,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "444,110084,一时技痒，且与此人搭手陪练片刻。,attribute,//,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),10+,3+,2+,ResetState(),StopAction()\",\"30+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110082,,,,1000,,,,,"
   splits:
   - split: 2
     text: "一时技痒，且与此人搭手陪练片刻。"
+    translated: "Felt the urge to practice, so I'll spar with this person for a while."
 - raw: "445,110085,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,>,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110083,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "446,110086,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,<,attribute,,,,,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110083,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
 - raw: "447,110087,此人招式严谨却也亦有些不足，何妨出言指正……,attribute,//,attribute,attribute,<,attribute,境界需高于对方,,100,,,0,\"xiuWei,energy,PlayerLove(),15+,3+,2+,ResetState(),StopAction()\",\"40+,10-,10+,xiuWei,friendsSan,lichang,5,1\",,,110083,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人招式严谨却也亦有些不足，何妨出言指正……"
+    translated: "This person's moves are meticulous but have some flaws; perhaps I should point them out......"
   - split: 9
     text: "境界需高于对方"
+    translated: "Your realm must be higher than theirs"
 - raw: "448,110088,趁其心神合一，不备外袭，且暗中出手伤其根本！,,,,14,<,SP,精力值不足,Battle,100,,,0,\"energy,PlayerLove(),8-,4-,15-,ResetState(),StopAction()\",\"40-,10-,friendsEr,lichang,LessenSP(),5,1\",,,,,110084,110085,1000,,,,,"
   splits:
   - split: 2
     text: "趁其心神合一，不备外袭，且暗中出手伤其根本！"
+    translated: "Strike while their mind is focused and guard is down, attacking them at the root!"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "449,110091,此事与我何干，且袖手观之。,,,,,,,,,100,,,0,\"energy,ResetState()\",\"30+,5\",,,110091,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此事与我何干，且袖手观之。"
+    translated: "What does this have to do with me? I'll just watch from the sidelines."
 - raw: "450,110092,救危扶难，仁义所在，出手相助。,,,,149,<,sliver,所需银两不足,,100,,,0,\"energy,PlayerLove(),3+,2+,150-,ResetState(),StopAction()\",\"10-,35+,friendsSan,lichang,sliver,5,1\",,,110092,,,,1000,,,,,"
   splits:
   - split: 2
     text: "救危扶难，仁义所在，出手相助。"
+    translated: "Helping those in peril is where righteousness lies; lend a hand to assist."
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "451,110093,此人身疲神惫，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110093,110094,1000,,,,,"
   splits:
   - split: 2
     text: "此人身疲神惫，何不趁此机会，于其身上得些利……"
+    translated: "This person is exhausted, why not take this opportunity to gain some advantage from them..."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "452,110101,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"energy,lichang,evil,ResetState()\",\"15-,2-,4-,5\",,,110101,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "453,110102,此人甚为可怜，且慷慨解囊，为其出资。,,,,199,<,sliver,所需银两不足,,100,,,0,\"energy,PlayerLove(),3+,2+,200-,30+,ResetState(),StopAction()\",\"10-,15+,friendsSan,lichang,sliver,xiuWei,5,1\",,,110102,,,,1000,,,,,"
   splits:
   - split: 2
     text: "此人甚为可怜，且慷慨解囊，为其出资。"
+    translated: "This person is very pitiful, and they generously opened their purse to fund them."
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "454,110111,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"PlayerLove(),1-,ResetState()\",\"15-,lichang,5\",,,110111,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "455,110112,求成心切，于武学之道南辕北辙，且为其细细讲来才是。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),5+,2+,xiuWei,10-,ResetState(),StopAction()\",\"15+,friendsSan,lichang,15+,LessenSP(),5,1\",,,110112,,,,1000,,,,,"
   splits:
   - split: 2
     text: "求成心切，于武学之道南辕北辙，且为其细细讲来才是。"
+    translated: "Eager for success, they have strayed from the path of martial arts; I must explain it to them in detail."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "456,110113,救危扶难，仁义所在，且运功助之恢复精神。,,,,19,<,SP,精力值不足,,100,,,0,\"PlayerLove(),energy,8+,4+,xiuWei,20-,ResetState(),StopAction()\",\"25+,20+,friendsSan,lichang,15+,LessenSP(),5,1\",,,110113,,,,1000,,,,,"
   splits:
   - split: 2
     text: "救危扶难，仁义所在，且运功助之恢复精神。"
+    translated: "Rescue the distressed and aid those in danger; it is where righteousness lies. Plus, use your skills to help restore their willpower."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "457,110114,此人身疲神惫，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110114,110115,1000,,,,,"
   splits:
   - split: 2
     text: "此人身疲神惫，何不趁此机会，于其身上得些利……"
+    translated: "This person is exhausted, why not take this opportunity to gain some advantage from them..."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "458,110121,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"PlayerLove(),1-,ResetState()\",\"15-,lichang,5\",,,110121,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "459,110122,出手相助，帮其暂作调息。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),energy,8+,4+,10-,ResetState(),StopAction()\",\"25+,20+,friendsSan,lichang,LessenSP(),5,1\",,,110122,,,,1000,,,,,"
   splits:
   - split: 2
     text: "出手相助，帮其暂作调息。"
+    translated: "Helped them take a moment to catch their breath."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "460,110123,此人身疲神惫，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110123,110124,1000,,,,,"
   splits:
   - split: 2
     text: "此人身疲神惫，何不趁此机会，于其身上得些利……"
+    translated: "This person is exhausted, why not take this opportunity to gain some advantage from them..."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "461,110131,他人之事，与我何干？且莫去理会。,,,,,,,,,100,,,0,\"energy,ResetState()\",\"25-,5\",,,110131,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人之事，与我何干？且莫去理会。"
+    translated: "What do other people's affairs have to do with me? Mind your own business."
 - raw: "462,110132,且一同参详，若然能够得利，也属意外之喜。,,,,9,<,SP,精力值不足,,100,,,0,\"energy,PlayerLove(),10-,ResetState(),StopAction()\",\"25-,10+,LessenSP(),5,1\",,,110132,,,,1000,,,,,"
   splits:
   - split: 2
     text: "且一同参详，若然能够得利，也属意外之喜。"
+    translated: "And let's examine it together; if we can benefit from it, that would be a pleasant surprise."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "463,110133,全然无私，尽心苦思，助其参详。,,,,4,<,Wx,悟性不足,,100,,,0,\"xiuWei,PlayerLove(),30+,ResetState(),StopAction()\",\"30+,10+,xiuWei,5,1\",,,110133,,,,1000,,,,,"
   splits:
   - split: 2
     text: "全然无私，尽心苦思，助其参详。"
+    translated: "Completely selfless, they devotedly pondered and helped them explore the details."
   - split: 9
     text: "悟性不足"
+    translated: "Insufficient comprehension"
 - raw: "464,110141,他人死活与我何干，且袖手观之。,,,,,,,,,100,,,0,\"energy,2-,ResetState()\",\"20-,lichang,5\",,,110141,,,,1000,,,,,"
   splits:
   - split: 2
     text: "他人死活与我何干，且袖手观之。"
+    translated: "What do I care about the life or death of others? I'll watch from the sidelines."
 - raw: "465,110142,胡乱寻些药材与他，也算是尽力。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),4+,2+,10-,ResetState()\",\"10+,friendsSan,lichang,LessenSP(),5\",,,110142,,,,1000,,,,,"
   splits:
   - split: 2
     text: "胡乱寻些药材与他，也算是尽力。"
+    translated: "Randomly gathering some herbs for him, that's about all I can do."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "466,110143,救危扶难，仁义所在，且运功施药，全力助之解毒。,,,,14,<,SP,精力值不足,,100,,,0,\"PlayerLove(),6+,3+,15-,ResetState(),StopAction()\",\"20+,friendsSan,lichang,LessenSP(),5,1\",,,110143,,,,1000,,,,,"
   splits:
   - split: 2
     text: "救危扶难，仁义所在，且运功施药，全力助之解毒。"
+    translated: "Rescue the endangered and aid those in distress; it is where benevolence and righteousness lie. Moreover, I will use my skills and medicine to help them detoxify with all my might."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "467,110151,因果循环，该有此劫，且袖手观之。,,,,,,,,,100,,,0,\"energy,2-,ResetState()\",\"20-,lichang,5\",,,110151,,,,1000,,,,,"
   splits:
   - split: 2
     text: "因果循环，该有此劫，且袖手观之。"
+    translated: "Reap what you sow, this trial was destined. Just watch from the sidelines."
 - raw: "468,110152,救危扶难，仁义所在，出手相助。,,,,9,<,SP,精力值不足,,100,,,0,\"PlayerLove(),energy,5+,2+,10-,ResetState(),StopAction()\",\"10+,10-,friendsSan,lichang,LessenSP(),5,1\",,,110152,,,,1000,,,,,"
   splits:
   - split: 2
     text: "救危扶难，仁义所在，出手相助。"
+    translated: "Helping those in peril is where righteousness lies; lend a hand to assist."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "469,110153,此人神魂不清，何不趁此机会，于其身上得些利……,,,,14,<,SP,精力值不足,Battle,100,,,0,\"PlayerLove(),10-,5-,15-,ResetState()\",\"40-,friendsEr,lichang,LessenSP(),5\",,,,,110153,110154,1000,,,,,"
   splits:
   - split: 2
     text: "此人神魂不清，何不趁此机会，于其身上得些利……"
+    translated: "This person's spirit is unhinged; why not take advantage of the opportunity to gain some benefit from them..."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "470,310011,冤仇相报，也属常理，且袖手旁观。,,,,,,,,\"OtherP310015,OtherN310019\",100,,,0,\"energy,AddLife(),ResetState()\",\"25-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，a心中对b的仇怨也更加深了几分。,5\",,,310011,,,,1000,,,,,"
   splits:
   - split: 2
     text: "冤仇相报，也属常理，且袖手旁观。"
+    translated: "Revenge is understandable, but one should not stand idly by."
 - raw: "471,310012,行走江湖，以和为贵，且出言相劝二者罢手。,,,,14,<,SP,精力值不足,\"OtherP310016,OtherN310019\",100,,,0,\"PlayerLove(),4+,2+,15-,AddLife(),ResetState()\",\"10-,friendsSan,lichang,LessenSP(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。,5\",,,310012,,,,1000,,,,,"
   splits:
   - split: 2
     text: "行走江湖，以和为贵，且出言相劝二者罢手。"
+    translated: "Jianghu"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "472,310013,思索片刻，终决意为前者助战。,,,,14,<,SP,精力值不足,\"OtherP310017,OtherN310019\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20+,friendsEr,lichang,LessenSP(),5\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "思索片刻，终决意为前者助战。"
+    translated: "After pondering for a moment, they finally decided to assist the first one in battle."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "473,310014,思索片刻，终决意为后者助战。,,,,14,<,SP,精力值不足,\"OtherP310018,OtherN310019,Battle\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20-,friendsEr,lichang,LessenSP(),5\",,,,,310015,310016,1000,,,,,"
   splits:
   - split: 2
     text: "思索片刻，终决意为后者助战。"
+    translated: "After pondering for a moment, they finally decided to aid the latter in battle."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "474,310015,,,,,,,,,,100,,,0,\"energy,AddLife()\",\"25-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，b心中对a的仇怨也更加深了几分。\",,,,,,,1000,,,,,"
 - raw: "475,310016,,,,,,,,,,100,,,0,\"PlayerLove(),AddLife()\",\"10-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，b和a双方决定暂时罢手，相约他日再做了断。\",,,,,,,1000,,,,,"
 - raw: "476,310017,,,,,,,,,Battle,100,,,0,PlayerLove(),20-,,,,,310013,310017,1000,,,,,"
@@ -4102,98 +5232,125 @@
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "480,310021,暂且离去,,,,,,,,OtherP310023,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "481,310022,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
 - raw: "482,310023,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。,,,,,,,1000,,,,,"
 - raw: "483,310024,肆意羞辱,,,,,,,,OtherP310034,100,,,0,\"PlayerLove(),10-,SetChouDiLoveAtPlayer(),7-,AddLife(),AddPlayerArrestNum() \",\"50-,friendsEr,10+,lichang,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,1+\",,,3111,,,,1000,,,,,"
   splits:
   - split: 2
     text: "肆意羞辱"
+    translated: "Arbitrarily humiliate"
 - raw: "484,310025,抢夺行囊,\"itemList<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "对方行囊空空"
+    translated: "The other person's pack was empty"
 - raw: "485,310026,抢夺行囊,\"itemList<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "486,310027,抢夺行囊,\"itemList<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "487,310028,抢夺行囊,\"itemList<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP310034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() \",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "488,310029,取其性命,touchId,//,0,,,,,\"OtherP310034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum() \",\"100-,friendsEr,30-,30+,lichang,20-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,3411,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "489,310030,取其性命,isJuQing,//,1,,,,,\"OtherP310034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum() \",\"100-,friendsEr,30-,30+,lichang,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,7+\",,,3411,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "490,310031,俘获,touchId,//,0,,,,,OtherP310034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum() \",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
 - raw: "491,310032,俘获,isJuQing,//,1,,,,,OtherP310034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum() \",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,20+\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
 - raw: "492,310033,暂且离去,,,,,,,,\"OtherP310034,CloseUI\",100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "493,310034,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
 - raw: "494,310035,破财免灾，乞求饶恕,,,,299,<,sliver,所需银两不足,\"OtherP310038,ClearRecordItem\",60,,,0,\"PlayerLove(),goldCoin,300-,AddLife()\",\"5-,300+,sliver,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。\",,,3510,3511,,,1000,,,,,"
   splits:
   - split: 2
     text: "破财免灾，乞求饶恕"
+    translated: "Spend money to avoid misfortune, begging for forgiveness"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "495,310036,诚心悔过，发誓不再逞强斗狠,,,,,,,,\"OtherP310038,ClearRecordItem\",40,,,0,\"PlayerLove(),8-,AddLife()\",\"5-,lichang,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。\",,,3520,3511,,,1000,,,,,"
   splits:
   - split: 2
     text: "诚心悔过，发誓不再逞强斗狠"
+    translated: "Sincerely repenting, swearing not to be aggressive or fight recklessly again"
 - raw: "496,310037,技不如人，认命待宰,,,,,,,,ClearRecordItem,100,,,0,,,,,3530,,,,1000,,,,,"
   splits:
   - split: 2
     text: "技不如人，认命待宰"
+    translated: "Acknowledge one's fate when outmatched"
 - raw: "497,310038,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。,,,,,,,1000,,,,,"
 - raw: "498,410011,冤仇相报，也属常理，且袖手旁观。,,,,,,,,\"OtherP410015,OtherN410019\",100,,,0,\"energy,AddLife(),ResetState()\",\"25-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，b心中对a的仇怨也更加深了几分。,5\",,,410011,,,,1000,,,,,"
   splits:
   - split: 2
     text: "冤仇相报，也属常理，且袖手旁观。"
+    translated: "Revenge is understandable, but one should not stand idly by."
 - raw: "499,410012,行走江湖，以和为贵，且出言相劝二者罢手。,,,,14,<,SP,精力值不足,\"OtherP410016,OtherN410019\",100,,,0,\"PlayerLove(),4+,2+,15-,AddLife(),ResetState()\",\"10-,friendsSan,lichang,LessenSP(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，b和a双方决定暂时罢手，相约他日再做了断。,5\",,,410012,,,,1000,,,,,"
   splits:
   - split: 2
     text: "行走江湖，以和为贵，且出言相劝二者罢手。"
+    translated: "Jianghu"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "500,410013,思索片刻，终决意为前者助战。,,,,14,<,SP,精力值不足,\"OtherP410017,OtherN410019\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20+,friendsEr,lichang,LessenSP(),5\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "思索片刻，终决意为前者助战。"
+    translated: "After pondering for a moment, they finally decided to assist the first one in battle."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "501,410014,思索片刻，终决意为后者助战。,,,,14,<,SP,精力值不足,\"OtherP410018,OtherN410019,Battle\",100,,,0,\"PlayerLove(),4-,2-,15-,ResetState()\",\"20-,friendsEr,lichang,LessenSP(),5\",,,,,410015,410016,1000,,,,,"
   splits:
   - split: 2
     text: "思索片刻，终决意为后者助战。"
+    translated: "After pondering for a moment, they finally decided to aid the latter in battle."
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "502,410015,,,,,,,,,,100,,,0,\"energy,AddLife()\",\"25-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。在几十个回合后两败俱伤，无力再斗下去，a心中对b的仇怨也更加深了几分。\",,,,,,,1000,,,,,"
 - raw: "503,410016,,,,,,,,,,100,,,0,\"PlayerLove(),AddLife()\",\"10-,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。因忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。\",,,,,,,1000,,,,,"
 - raw: "504,410017,,,,,,,,,Battle,100,,,0,PlayerLove(),20-,,,,,410013,410017,1000,,,,,"
@@ -4203,163 +5360,211 @@
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "508,410021,暂且离去,,,,,,,,OtherP410023,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "509,410022,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b得p出手相助之后，a即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
 - raw: "510,410023,,,,,,,,,,,,,,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。b虽得p出手相助，但a于绝境中使用秘技反败为胜，b与p负伤败走。,,,,,,,1000,,,,,"
 - raw: "511,410024,肆意羞辱,,,,,,,,OtherP410034,100,,,0,\"PlayerLove(),10-,SetChouDiLoveAtPlayer(),7-,AddLife(),AddPlayerArrestNum() \",\"50-,friendsEr,10+,lichang,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,1+\",,,3111,,,,1000,,,,,"
   splits:
   - split: 2
     text: "肆意羞辱"
+    translated: "Arbitrarily humiliate"
 - raw: "512,410025,抢夺行囊,\"itemList<>,goldCoin\",\"//,//\",\"0,0\",3000,<,SP,对方行囊空空,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum() ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "对方行囊空空"
+    translated: "The other person's pack was empty"
 - raw: "513,410026,抢夺行囊,\"itemList<>,goldCoin\",\"!/,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "514,410027,抢夺行囊,\"itemList<>,goldCoin\",\"!/,//\",\"0,0\",9,<,SP,精力值不足,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "515,410028,抢夺行囊,\"itemList<>,goldCoin\",\"//,>\",\"0,0\",9,<,SP,精力值不足,\"OtherP410034,TakeAll,CloseUI\",100,,,0,\"PlayerLove(),10-,8-,12-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"40-,LessenSP(),lichang,friendsEr,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,7+,5-\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "抢夺行囊"
+    translated: "Steal the pack"
   - split: 9
     text: "精力值不足"
+    translated: "Energy level insufficient"
 - raw: "516,410029,取其性命,touchId,//,0,,,,,\"OtherP410034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"100-,friendsEr,30-,30+,lichang,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",,,3411,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "517,410030,取其性命,isJuQing,//,1,,,,,\"OtherP410034,Kill\",100,,,0,\"PlayerLoveToValue(),5-,SetLoveAtPlayerToValue(),SetChouDiLoveAtPlayerToValue(),15-,AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"100-,friendsEr,30-,30+,lichang,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",,,3411,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "518,410031,俘获,touchId,//,0,,,,,OtherP410034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
 - raw: "519,410032,俘获,isJuQing,//,1,,,,,OtherP410034,100,,,0,\"PlayerLove(),30-,15-,7-,SetLoveAtPlayer(),AddLife(),AddPlayerArrestNum()  ,SetPlayerAreaPrestige()\",\"70-,LessenSP(),friendsEr,lichang,30-,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,20+,10-\",\"PlayerLove(),30-,15-,7-\",\"50-,LessenSP(),friendsEr,lichang\",3701,,,,1000,,,,,"
   splits:
   - split: 2
     text: "俘获"
+    translated: "Capture"
 - raw: "520,410033,暂且离去,,,,,,,,\"OtherP410034,CloseUI\",100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "521,410034,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。a得p出手相助之后，b即刻难以支撑，数招之后负伤逃走。,,,,,,,1000,,,,,"
 - raw: "522,410035,破财免灾，乞求饶恕,,,,299,<,sliver,所需银两不足,\"OtherP410038,ClearRecordItem\",60,,,0,\"PlayerLove(),goldCoin,300-,AddLife()\",\"5-,300+,sliver,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。\",,,3510,3511,,,1000,,,,,"
   splits:
   - split: 2
     text: "破财免灾，乞求饶恕"
+    translated: "Spend money to avoid misfortune, begging for forgiveness"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "523,410036,诚心悔过，发誓不再逞强斗狠,,,,,,,,\"OtherP410038,ClearRecordItem\",40,,,0,\"PlayerLove(),8-,AddLife()\",\"5-,300+,sliver,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。\",,,3520,3511,,,1000,,,,,"
   splits:
   - split: 2
     text: "诚心悔过，发誓不再逞强斗狠"
+    translated: "Sincerely repenting, swearing not to be aggressive or fight recklessly again"
 - raw: "524,410037,技不如人，认命待宰,,,,,,,,ClearRecordItem,100,,,0,,,,,3530,,,,1000,,,,,"
   splits:
   - split: 2
     text: "技不如人，认命待宰"
+    translated: "Acknowledge one's fate when outmatched"
 - raw: "525,410038,,,,,,,,,,100,,,0,AddLife(),冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。a虽得p出手相助，但b于绝境中使用秘技反败为胜，a与p负伤败走。,,,,,,,1000,,,,,"
 - raw: "526,666,银两贿赂,,,,PlayerArrestNum*200,<,sliver,所需银两不足,,100,,,0,,,,,302,,,,1000,,,,,"
   splits:
   - split: 2
     text: "银两贿赂"
+    translated: "Silver bribe"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "527,667,银两贿赂,,,,PlayerArrestNum*200,<,sliver,所需银两不足,CaptorsBribe,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "银两贿赂"
+    translated: "Silver bribe"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "528,668,束手就缚,,,,,,,,BeImprisoned,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "束手就缚"
+    translated: "Submit to being bound"
 - raw: "529,669,放手一搏,,,,,,,,CaptorsBattle,100,,,0,,,,,,,304,,1000,,,,,"
   splits:
   - split: 2
     text: "放手一搏"
+    translated: "Go all out"
 - raw: "530,670,银两贿赂,lichang,<,61,PlayerArrestNum*200,<,sliver,所需银两不足,CaptorsBribe,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "银两贿赂"
+    translated: "Silver bribe"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "531,671,银两贿赂,,,,PlayerArrestNum*200,<,sliver,所需银两不足,CaptorsBribe,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "银两贿赂"
+    translated: "Silver bribe"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "532,672,取其性命,,,,,,,,KillCaptors,100,,,0,AddPlayerArrestNum_Certain(),20+,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "取其性命"
+    translated: "Take their life"
 - raw: "533,673,暂且离去,,,,,,,,StartRunPath,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "534,674,欲赴雅阁（需银钱五百文）,,,,499,<,sliver,所需银两不足,ListenToMusic,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "欲赴雅阁（需银钱五百文）"
+    translated: "To visit the Elegant Pavilion (requires 500 Silver)"
   - split: 9
     text: "所需银两不足"
+    translated: "Insufficient silver required"
 - raw: "535,675,唱和吟诗,,,,9,<,SP,精力不足,,100,,,0,,,,,403,,,,1000,,,,,"
   splits:
   - split: 2
     text: "唱和吟诗"
+    translated: "Singing and reciting poetry"
   - split: 9
     text: "精力不足"
+    translated: "Low on Energy"
 - raw: "536,676,舒络推拿,,,,,,,,CutTo按摩梳络，推背通筋，你感到疲倦尽消，神完气足……,100,,,0,\"PlayerAddBuffer(),20+,PlayerLove()\",\"10027,LessenSP(),5+\",,,,,,,1,1440,推宫活血之术不宜频繁施为，不妨十二时辰之后再与此人约行此事。,,,"
   splits:
   - split: 2
     text: "舒络推拿"
+    translated: "Relaxing Massage"
   - split: 25
     text: "推宫活血之术不宜频繁施为，不妨十二时辰之后再与此人约行此事。"
+    translated: "The technique for promoting blood circulation should not be performed frequently; let's wait until twelve hours have passed before scheduling this again with them."
 - raw: "537,677,划拳取乐,,,,9,<,SP,精力不足,,100,,,0,10-,LessenSP(),,,406,,,,3,1440,今日你二人已分出胜负，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "划拳取乐"
+    translated: "Play drinking games for fun"
   - split: 9
     text: "精力不足"
+    translated: "Low on Energy"
   - split: 25
     text: "今日你二人已分出胜负，不妨十二时辰之后再来。"
+    translated: "Today you two have already determined the winner; how about coming back twelve hours later."
 - raw: "538,678,沐浴洗尘,,,,,,,,Bath ,100,,,0,,,,,,,,,1,1440,其人今日已颇为劳累，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "沐浴洗尘"
+    translated: "Bathe to wash away the dust"
   - split: 25
     text: "其人今日已颇为劳累，不妨十二时辰之后再来。"
+    translated: "The person is quite tired today; you may come back twelve hours later."
 - raw: "539,679,休憩小驻,,,,,,,,CutTo室内小憩，微风和煦，此景此时不觉自醉……,100,,,0,\"PlayerAddBuffer(),30+,PlayerLove()\",\"10029,LessenSP(),10+\",,,,,,,1,1440,精神尚足，不妨十二时辰之后再来。,,,"
   splits:
   - split: 2
     text: "休憩小驻"
+    translated: "Take a brief rest"
   - split: 25
     text: "精神尚足，不妨十二时辰之后再来。"
+    translated: "Your willpower is still sufficient; feel free to return after twelve hours."
 - raw: "540,680,为其赎身,,,,\"love,9999\",\">,<\",\"89,sliver\",\"需好感度≥90,所需银两不足\",,100,,,0,10000-,sliver,,,410,,,,1000,,,,,"
   splits:
   - split: 2
     text: "为其赎身"
+    translated: "Redeem their freedom"
   - split: 9
     text: "需好感度≥90"
+    translated: "Requires Favorability ≥ 90"
   - split: 9
     subIndex: 1
     text: "所需银两不足"
+    translated: "Insufficient silver required"
   templates:
   - split: 9
     template: "{0},{1}"
@@ -4367,83 +5572,104 @@
   splits:
   - split: 2
     text: "既如此，还请姑娘吟诵前句"
+    translated: "Since that is the case, please recite the previous line, Miss."
   - split: 25
     text: "此人今日文思已然枯竭，不妨十二时辰后再来。"
+    translated: "This person's inspiration is dry today; perhaps try again after twelve hours."
 - raw: "542,682,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "543,683,暂且离去,,,,,,,,GoOnDance,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "544,684,石头,,,,,,,,,60,,,0,PlayerLove(),1+,,,408,409,,,1000,,,,,"
   splits:
   - split: 2
     text: "石头"
+    translated: "Stone"
 - raw: "545,685,剪刀,,,,,,,,,60,,,0,PlayerLove(),1+,,,408,409,,,1000,,,,,"
   splits:
   - split: 2
     text: "剪刀"
+    translated: "Scissors"
 - raw: "546,686,布,,,,,,,,,60,,,0,PlayerLove(),1+,,,408,409,,,1000,,,,,"
   splits:
   - split: 2
     text: "布"
+    translated: "Cloth"
 - raw: "547,687,再来一局,,,,,,,,,100,,,0,,,,,406,,,,1000,,,,,"
   splits:
   - split: 2
     text: "再来一局"
+    translated: "One more game"
 - raw: "548,688,还请姑娘多多指教了……,,,,,,,,BuyBackOneIsFreedom,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "还请姑娘多多指教了……"
+    translated: "Please give me your guidance, Miss......"
 - raw: "549,689,返回,,,,,,,,ReturnTopDialog,100,,,0,PlayerLove(),3+,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "550,690,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "551,691,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "552,692,返回,,,,,,,,ReturnTopDialog,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "返回"
+    translated: "Return"
 - raw: "553,693,闭眼小憩,,,,,,,,EndBathEvent,100,,,0,\"PlayerAddBuffer(),30+,PlayerLove()\",\"10028,LessenSP(),5+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "闭眼小憩"
+    translated: "Rest with eyes closed"
 - raw: "554,694,暂且离去,,,,,,,,EndBathEvent,100,,,0,\"30+,PlayerLove()\",\"LessenSP(),5+\",,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "暂且离去"
+    translated: "Take a break for now"
 - raw: "555,695,承接护镖,,,,,,,,\"EscortCart_GetTask,CloseUI\",100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "承接护镖"
+    translated: "Accept Escort Mission"
 - raw: "556,696,……世态炎凉至此，多言无益。,,,,,,,,ExitTeam,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "……世态炎凉至此，多言无益。"
+    translated: "...The world is cold like this; words are useless."
 - raw: "557,697,……此等无情无义之辈，且先处置此间，再作清算！,,,,,,,,ExitTeam,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "……此等无情无义之辈，且先处置此间，再作清算！"
+    translated: "...Such heartless scum... Deal with them here first, then settle the score!"
 - raw: "558,750,尚需考虑,,,,,,,,,100,,,0,,,,,432,,,,1000,,,,,"
   splits:
   - split: 2
     text: "尚需考虑"
+    translated: "Still need to consider"
 - raw: "559,751,\"我欲退出gangName,不知有何规程？\",,,,,,,,,100,,,0,,,,,435,,,,1000,,,,,"
   splits:
   - split: 2
     text: "我欲退出"
+    translated: "I want to quit"
   - split: 2
     subIndex: 1
     text: "不知有何规程？"
+    translated: "What are the rules?"
   templates:
   - split: 2
     template: "{0}gangName,{1}"
@@ -4451,11 +5677,14 @@
   splits:
   - split: 2
     text: "确认退出"
+    translated: "Confirm Exit"
   - split: 9
     text: "还需等待"
+    translated: "Still waiting"
   - split: 9
     subIndex: 1
     text: "天"
+    translated: "Sky"
   templates:
   - split: 9
     template: "{0}gangJoinCDRemain{1}"
@@ -4463,22 +5692,27 @@
   splits:
   - split: 2
     text: "尚需考虑"
+    translated: "Still need to consider"
 - raw: "562,754,查看帮派任务,,,,,,,,Gang_Task,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "查看帮派任务"
+    translated: "Check Gang Quests"
 - raw: "563,755,查看帮派名册,,,,,,,,Gang_Rank,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "查看帮派名册"
+    translated: "View the gang roster"
 - raw: "564,756,帮派商店,,,,,,,,Gang_Shop,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
     text: "帮派商店"
+    translated: "Gang Shop"
 - raw: "565,757,加入gangName,,,,,,,,Gang_Join,100,,,0,,,,,431,,,,1000,,,,,"
   splits:
   - split: 2
     text: "加入"
+    translated: "Join"
   templates:
   - split: 2
     template: "{0}gangName"

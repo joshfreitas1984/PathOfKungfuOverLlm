@@ -17848,16 +17848,7 @@
 - raw: "1801,1120002001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来上点吃食？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来上点吃食？"
 - raw: "1801,1120002001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -17877,16 +17868,7 @@
 - raw: "1801,1120002001,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，打尖儿还是住店？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，打尖儿还是住店？"
 - raw: "1801,1120002001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -17906,16 +17888,7 @@
 - raw: "1801,1120002001,15,[1].talks{json}[0].talk,<少侠||女侠>，可要来份宵夜，打打牙祭？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来份宵夜，打打牙祭？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来份宵夜，打打牙祭？"
 - raw: "1801,1120002001,15,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -17935,16 +17908,7 @@
 - raw: "1801,1120002001,15,[1].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，打尖儿还是住店？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，打尖儿还是住店？"
 - raw: "1801,1120002001,15,[1].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -18456,16 +18420,7 @@
 - raw: "1846,1150002001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来上点吃食？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来上点吃食？"
 - raw: "1846,1150002001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -18485,16 +18440,7 @@
 - raw: "1846,1150002001,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，打尖儿还是住店？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，打尖儿还是住店？"
 - raw: "1846,1150002001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -19060,16 +19006,7 @@
 - raw: "1891,1160009990,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来上点吃食？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来上点吃食？"
 - raw: "1891,1160009990,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -19089,16 +19026,7 @@
 - raw: "1891,1160009990,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，打尖儿还是住店？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，打尖儿还是住店？"
 - raw: "1891,1160009990,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -19530,16 +19458,7 @@
 - raw: "1938,1170709001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来上点吃食？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来上点吃食？"
 - raw: "1938,1170709001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -19559,16 +19478,7 @@
 - raw: "1938,1170709001,15,[0].talks{json}[3].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来上点吃食？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来上点吃食？"
 - raw: "1938,1170709001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -21308,19 +21218,7 @@
 - raw: "2076,1180000434,15,[0].talks{json}[0].talk,兀那汉家<哥儿||姐儿>，买兵刃么？"
   splits:
   - split: 4
-    text: "兀那汉家"
-  - split: 4
-    subIndex: 1
-    text: "哥儿"
-  - split: 4
-    subIndex: 2
-    text: "姐儿"
-  - split: 4
-    subIndex: 3
-    text: "，买兵刃么？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "兀那汉家<哥儿||姐儿>，买兵刃么？"
 - raw: "2076,1180000434,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -21460,19 +21358,7 @@
 - raw: "2090,1190000050,15,[0].talks{json}[0].talk,如何？<公子||姑娘>可是要去桃花坞？"
   splits:
   - split: 4
-    text: "如何？"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可是要去桃花坞？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "如何？<公子||姑娘>可是要去桃花坞？"
 - raw: "2090,1190000050,15,[0].talks{json}[0].options{json}[0].name,前往桃花坞。"
   splits:
   - split: 4
@@ -21516,19 +21402,7 @@
 - raw: "2094,1190009001,15,[0].talks{json}[0].talk,健身益气，治伤疗病，乃至“滋阴补阳”，<公子||姑娘>……也需要么？"
   splits:
   - split: 4
-    text: "健身益气，治伤疗病，乃至“滋阴补阳”，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "……也需要么？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "健身益气，治伤疗病，乃至“滋阴补阳”，<公子||姑娘>……也需要么？"
 - raw: "2094,1190009001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -21544,19 +21418,7 @@
 - raw: "2095,1190009002,15,[0].talks{json}[0].talk,本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，<公子||姑娘>可有心仪之物？"
   splits:
   - split: 4
-    text: "本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，"
-  - split: 4
-    subIndex: 1
-    text: "公子"
-  - split: 4
-    subIndex: 2
-    text: "姑娘"
-  - split: 4
-    subIndex: 3
-    text: "可有心仪之物？"
-  templates:
-  - split: 4
-    template: "{0}<{1}||{2}>{3}"
+    text: "本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，<公子||姑娘>可有心仪之物？"
 - raw: "2095,1190009002,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -21616,16 +21478,10 @@
 - raw: "2100,1200000182,15,[0].talks{json}[0].talk,<少侠||女侠>可是要前往白桐山庄?"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "可是要前往白桐山庄"
+    text: "<少侠||女侠>可是要前往白桐山庄"
   templates:
   - split: 4
-    template: "<{0}||{1}>{2}?"
+    template: "{0}?"
 - raw: "2100,1200000182,15,[0].talks{json}[0].options{json}[0].name,“正欲前去，劳烦阁下引路。”"
   splits:
   - split: 4
@@ -22589,16 +22445,7 @@
 - raw: "2212,1240001092,15,[0].talks{json}[0].talk,<公子||姑娘>可是要去东瀛？"
   splits:
   - split: 4
-    text: "公子"
-  - split: 4
-    subIndex: 1
-    text: "姑娘"
-  - split: 4
-    subIndex: 2
-    text: "可是要去东瀛？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<公子||姑娘>可是要去东瀛？"
 - raw: "2212,1240001092,15,[0].talks{json}[0].options{json}[0].name,前往东瀛。"
   splits:
   - split: 4
@@ -24974,16 +24821,7 @@
 - raw: "2392,1280100014,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来上点吃食？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来上点吃食？"
 - raw: "2392,1280100014,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -25003,16 +24841,7 @@
 - raw: "2392,1280100014,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，打尖儿还是住店？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，打尖儿还是住店？"
 - raw: "2392,1280100014,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -25032,16 +24861,7 @@
 - raw: "2392,1280100014,15,[1].talks{json}[0].talk,<少侠||女侠>，可要来份宵夜，打打牙祭？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，可要来份宵夜，打打牙祭？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，可要来份宵夜，打打牙祭？"
 - raw: "2392,1280100014,15,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -25061,16 +24881,7 @@
 - raw: "2392,1280100014,15,[1].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "少侠"
-  - split: 4
-    subIndex: 1
-    text: "女侠"
-  - split: 4
-    subIndex: 2
-    text: "，打尖儿还是住店？"
-  templates:
-  - split: 4
-    template: "<{0}||{1}>{2}"
+    text: "<少侠||女侠>，打尖儿还是住店？"
 - raw: "2392,1280100014,15,[1].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4

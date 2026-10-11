@@ -2,11 +2,13 @@
   splits:
   - split: 18
     text: "文本说明"
+    translated: "Text description"
 - raw: "2,id,param,term,value,prob,place,mapReq,time,minNum,maxNum,numMap,changeParam,changeValue,map,point,occupy,nextAction,explain,stopAnim,dialog,dialogID,totalTime,cdTime,weight,weightGroup,addLife,msgTypeParam,,"
 - raw: "3,1,energy,<,60,100,0,12000_12014,\"6,9\",0,12,12014,SetSP(),30+,12014,\"2,5;3,6;2,7;1,6;4,4;5,5;4,6;3,5;6,6;7,7;6,8;5,7;8,5;9,6;8,7;7,6;7,2;8,3;7,4;6,3;8,0;9,1;8,2;7,1;4,0;5,1;4,2;3,1\",1,2_100|3_100|4_100|0_20,<color=#E64D00>a</color>颇感饥饿，决意去饭馆先弄些吃食。,daditu/30001,chifan,,40,50,40,1,0,\"4,3\",,"
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -14,6 +16,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -21,6 +24,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -28,9 +32,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -38,9 +44,11 @@
   splits:
   - split: 18
     text: "酒足饭饱的"
+    translated: "After a hearty meal and drink,"
   - split: 18
     subIndex: 1
     text: "蹒跚回到家中倒头酣睡。"
+    translated: "Staggered back home and slept soundly"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -48,6 +56,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -55,9 +64,11 @@
   splits:
   - split: 18
     text: "筋疲力尽的"
+    translated: "Exhausted"
   - split: 18
     subIndex: 1
     text: "蹒跚回到家中倒头酣睡。"
+    translated: "Staggered back home and slept soundly"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -65,9 +76,11 @@
   splits:
   - split: 18
     text: "趁夜而动，于村内盗取了1"
+    translated: "Moved by night to steal 1 within the village."
   - split: 18
     subIndex: 1
     text: "文银钱，未曾漏了踪迹。"
+    translated: "I kept my whereabouts secret, never letting my silver slip a trace."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}xx{1}"
@@ -75,9 +88,11 @@
   splits:
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
+    translated: "Moved by night, stealing items within the village"
   - split: 18
     subIndex: 1
     text: "，引得村中诸人的恶感。"
+    translated: ", Drawing the ill will of the villagers"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}<color=#B08200>i*1</color>{1}"
@@ -85,9 +100,11 @@
   splits:
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
+    translated: "Moved by night, stealing items within the village"
   - split: 18
     subIndex: 1
     text: "，引得村中诸人的恶感。"
+    translated: ", Drawing the ill will of the villagers"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}<color=#B08200>i*2</color>{1}"
@@ -95,9 +112,11 @@
   splits:
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
+    translated: "Moved by night, stealing items within the village"
   - split: 18
     subIndex: 1
     text: "，引得村中诸人的恶感。"
+    translated: ", Drawing the ill will of the villagers"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}<color=#B08200>i*2</color>{1}"
@@ -105,9 +124,11 @@
   splits:
   - split: 18
     text: "入夜时分，"
+    translated: "At nightfall,"
   - split: 18
     subIndex: 1
     text: "偷偷潜入了某人的房内，一夜未离……"
+    translated: "Sneaked into someone's room and stayed the night......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -115,6 +136,7 @@
   splits:
   - split: 18
     text: "身负隐疾，特避开他人，独身前往药铺欲以重金求取药品……"
+    translated: "Suffering from a hidden illness, they deliberately avoided others and went alone to the pharmacy to seek medicine at a high price......"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -122,9 +144,11 @@
   splits:
   - split: 18
     text: "惯盗"
+    translated: "Frequent Thief"
   - split: 18
     subIndex: 1
     text: "寻了一僻静隐秘所在，欲将诸多赃物掩埋隐藏……"
+    translated: "Searched for a secluded and hidden spot to bury and hide all the stolen goods..."
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -132,9 +156,11 @@
   splits:
   - split: 18
     text: "偷窃了流民的"
+    translated: "Stole from the refugees'"
   - split: 18
     subIndex: 1
     text: "，令诸人颇为鄙夷。"
+    translated: ", Causing everyone to look down on him"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}<color=#B08200>i</color>{1}"
@@ -142,9 +168,11 @@
   splits:
   - split: 18
     text: "偷窃了流民的"
+    translated: "Stole from the refugees'"
   - split: 18
     subIndex: 1
     text: "，令诸人颇为鄙夷。"
+    translated: ", Causing everyone to look down on him"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}<color=#B08200>i</color>{1}"
@@ -152,9 +180,11 @@
   splits:
   - split: 18
     text: "整日劳顿"
+    translated: "Endless toil day and night"
   - split: 18
     subIndex: 1
     text: "回返住所，小憩休息。"
+    translated: "Return to your residence and take a short rest."
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -162,6 +192,7 @@
   splits:
   - split: 18
     text: "疲惫不堪，回到家中沉沉睡下。"
+    translated: "Exhausted, they returned home and fell into a deep sleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -169,6 +200,7 @@
   splits:
   - split: 18
     text: "疲惫不堪，回到家中沉沉睡下。"
+    translated: "Exhausted, they returned home and fell into a deep sleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -176,6 +208,7 @@
   splits:
   - split: 18
     text: "偶然寻到一无主破屋，进入休息……"
+    translated: "Found an abandoned, dilapidated house by chance and went in to rest......"
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -183,6 +216,7 @@
   splits:
   - split: 18
     text: "全身疲惫，进入路边一无主破屋，归入梦乡。"
+    translated: "Exhausted all over, entered an abandoned dilapidated house by the roadside and fell into a dreamless sleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -190,6 +224,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -197,6 +232,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -204,6 +240,7 @@
   splits:
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
+    translated: "Escaping from the fire at Qingping Village still left them shaken."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -211,6 +248,7 @@
   splits:
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
+    translated: "Escaping from the fire at Qingping Village still left them shaken."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -218,6 +256,7 @@
   splits:
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
+    translated: "Escaping from the fire at Qingping Village still left them shaken."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -225,6 +264,7 @@
   splits:
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
+    translated: "Escaping from the fire at Qingping Village still left them shaken."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -232,6 +272,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -239,6 +280,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -246,6 +288,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -253,9 +296,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -263,6 +308,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -270,6 +316,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -277,6 +324,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -284,6 +332,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -291,6 +340,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -298,9 +348,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -308,6 +360,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -315,6 +368,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -322,6 +376,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -329,6 +384,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -336,6 +392,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -343,9 +400,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -353,6 +412,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -360,6 +420,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -367,6 +428,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -374,6 +436,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -381,6 +444,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -388,9 +452,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -398,6 +464,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -405,6 +472,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -412,6 +480,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -419,6 +488,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -426,6 +496,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -433,9 +504,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -443,6 +516,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -450,6 +524,7 @@
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
+    translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -457,6 +532,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -464,6 +540,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -471,6 +548,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -478,6 +556,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -485,6 +564,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -492,6 +572,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -499,6 +580,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -506,6 +588,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -513,6 +596,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -520,6 +604,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -527,6 +612,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -534,6 +620,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -541,6 +628,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -548,6 +636,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -555,9 +644,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -565,6 +656,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -572,6 +664,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -579,6 +672,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -586,6 +680,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -593,6 +688,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -600,6 +696,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -607,6 +704,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -614,6 +712,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -621,6 +720,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -628,6 +728,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -635,9 +736,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -645,6 +748,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -652,6 +756,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -659,6 +764,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -666,6 +772,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -673,6 +780,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -680,6 +788,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -687,6 +796,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -694,9 +804,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -704,6 +816,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -711,6 +824,7 @@
   splits:
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
+    translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -718,6 +832,7 @@
   splits:
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -725,6 +840,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -732,9 +848,11 @@
   splits:
   - split: 18
     text: "天寒地冻，"
+    translated: "It's freezing cold"
   - split: 18
     subIndex: 1
     text: "疲惫不堪，决意前往酒馆稍作休息。"
+    translated: "Worn out, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -742,9 +860,11 @@
   splits:
   - split: 18
     text: "天寒地冻，"
+    translated: "It's freezing cold"
   - split: 18
     subIndex: 1
     text: "疲惫不堪，决意前往酒馆稍作休息。"
+    translated: "Worn out, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -752,6 +872,7 @@
   splits:
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
+    translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -759,9 +880,11 @@
   splits:
   - split: 18
     text: "酒鬼"
+    translated: "Drunkard"
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
+    translated: "Head to the tavern to buy some drinks, planning to get utterly drunk......"
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -769,6 +892,7 @@
   splits:
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
+    translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"
@@ -776,9 +900,11 @@
   splits:
   - split: 18
     text: "天寒地冻，"
+    translated: "It's freezing cold"
   - split: 18
     subIndex: 1
     text: "疲惫不堪，决意前往酒馆稍作休息。"
+    translated: "Worn out, they decided to head to the tavern for a brief rest."
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -786,9 +912,11 @@
   splits:
   - split: 18
     text: "天寒地冻，"
+    translated: "It's freezing cold"
   - split: 18
     subIndex: 1
     text: "心力俱疲，随意寻了一处，归入梦乡。"
+    translated: "Exhausted, they found a place to rest and fell asleep."
   templates:
   - split: 18
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -796,6 +924,7 @@
   splits:
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
+    translated: "Lie down somewhere and rest to regain your strength."
   templates:
   - split: 18
     template: "<color=#E64D00>a</color>{0}"

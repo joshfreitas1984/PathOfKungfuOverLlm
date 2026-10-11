@@ -2,14 +2,18 @@
   splits:
   - split: 13
     text: "文字说明"
+    translated: "Text description"
 - raw: "2,id,selfParam,term,sideParam,prob,place,time,weather,changeParam,changeValue,playerParam,playerValue,explain,dialogID,duration,cdTime,weight,weightGroup,msgTypeParam"
 - raw: "3,1,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"//,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
   splits:
   - split: 13
     text: "趁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
+    translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -17,9 +21,12 @@
   splits:
   - split: 13
     text: "趁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
+    translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -27,9 +34,12 @@
   splits:
   - split: 13
     text: "趁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
+    translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -37,9 +47,11 @@
   splits:
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
+    translated: "Search left and right, but ultimately failed to steal successfully."
   - split: 13
     subIndex: 1
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -47,9 +59,11 @@
   splits:
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
+    translated: "Search left and right, but ultimately failed to steal successfully."
   - split: 13
     subIndex: 1
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -57,9 +71,11 @@
   splits:
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
+    translated: "Search left and right, but ultimately failed to steal successfully."
   - split: 13
     subIndex: 1
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -67,9 +83,12 @@
   splits:
   - split: 13
     text: "趁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
+    translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -77,9 +96,12 @@
   splits:
   - split: 13
     text: "趁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
+    translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -87,9 +109,12 @@
   splits:
   - split: 13
     text: "趁"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
+    translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -97,9 +122,11 @@
   splits:
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
+    translated: "Search left and right, but ultimately failed to steal successfully."
   - split: 13
     subIndex: 1
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -107,9 +134,11 @@
   splits:
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
+    translated: "Search left and right, but ultimately failed to steal successfully."
   - split: 13
     subIndex: 1
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -117,9 +146,11 @@
   splits:
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
+    translated: "Search left and right, but ultimately failed to steal successfully."
   - split: 13
     subIndex: 1
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -127,15 +158,19 @@
   splits:
   - split: 13
     text: "听闻与"
+    translated: "Hearing that with"
   - split: 13
     subIndex: 1
     text: "立场相近，特来相谈，一番攀谈之下，只觉与"
+    translated: "Alignment is similar, so I came to discuss, and after a round of conversation, I felt a kinship with"
   - split: 13
     subIndex: 2
     text: "言锋相合，特赠予了"
+    translated: "In response to his words, he specially presented [the item]."
   - split: 13
     subIndex: 3
     text: "些许银两。"
+    translated: "A little silver"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>{3}"
@@ -143,12 +178,15 @@
   splits:
   - split: 13
     text: "心怀不轨的"
+    translated: "With ill intentions"
   - split: 13
     subIndex: 1
     text: "暗中下手，窃取了"
+    translated: "Acted in secret, stealing away"
   - split: 13
     subIndex: 2
     text: "囊中物什……"
+    translated: "Contents of the pouch..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -156,12 +194,15 @@
   splits:
   - split: 13
     text: "心怀不轨的"
+    translated: "With ill intentions"
   - split: 13
     subIndex: 1
     text: "暗中下手，窃取了"
+    translated: "Acted in secret, stealing away"
   - split: 13
     subIndex: 2
     text: "囊中物什……"
+    translated: "Contents of the pouch..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -169,12 +210,15 @@
   splits:
   - split: 13
     text: "心怀不轨的"
+    translated: "With ill intentions"
   - split: 13
     subIndex: 1
     text: "暗中下手，窃取了"
+    translated: "Acted in secret, stealing away"
   - split: 13
     subIndex: 2
     text: "囊中物什……"
+    translated: "Contents of the pouch..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -182,9 +226,11 @@
   splits:
   - split: 13
     text: "行走江湖，当以武会友，"
+    translated: "Wandering the Jianghu, one should make friends through martial arts."
   - split: 13
     subIndex: 1
     text: "发起挑战，望请赐教，切莫避战。"
+    translated: "Issue a challenge; I hope you will teach me, do not avoid the battle."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -192,12 +238,15 @@
   splits:
   - split: 13
     text: "从远处遥望见昔日好友"
+    translated: "Gazing afar at an old friend of days past"
   - split: 13
     subIndex: 1
     text: "，片刻间飞奔而至，滔滔不绝之下，与"
+    translated: ", In moments, they rushed over, and without stopping, they spoke to"
   - split: 13
     subIndex: 2
     text: "相谈甚欢。"
+    translated: "Talked very happily"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
@@ -205,15 +254,19 @@
   splits:
   - split: 13
     text: "发现了仇家"
+    translated: "Found the enemy clan"
   - split: 13
     subIndex: 1
     text: "的行踪，从远处拔出刀冲向"
+    translated: "Their whereabouts, drawing a blade from afar and charging towards"
   - split: 13
     subIndex: 2
     text: "，与"
+    translated: ", With"
   - split: 13
     subIndex: 3
     text: "死命相搏。"
+    translated: "Fought with all their might"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>{3}"
@@ -221,18 +274,23 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "素有仇怨的"
+    translated: "With longstanding enmity"
   - split: 13
     subIndex: 2
     text: "当街横在"
+    translated: "Blocking the street across"
   - split: 13
     subIndex: 3
     text: "面前，指着"
+    translated: "Pointing in front of you, pointing in front of you,"
   - split: 13
     subIndex: 4
     text: "向街坊邻居大肆辱骂了起来。"
+    translated: "Began to verbally abuse the neighbors and passersby."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}<color=#E64D00>p</color>{4}"
@@ -240,21 +298,29 @@
   splits:
   - split: 13
     text: "对"
+    translated: "Yes"
   - split: 13
     subIndex: 1
     text: "怀恨在心的"
+    translated: "Holding grudges in their heart"
   - split: 13
     subIndex: 2
     text: "暗中跟踪"
+    translated: "Following in secret"
   - split: 13
     subIndex: 3
     text: "，趁"
+    translated: ","
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Source begins with comma; fragment continues previous sentence/cell. Translate starting with \", \" (comma + space) as first characters. Do not relocate comma to sentence middle."
   - split: 13
     subIndex: 4
     text: "不备，悄然偷窃了"
+    translated: "Unprepared, they quietly stole"
   - split: 13
     subIndex: 5
     text: "钱财。"
+    translated: "Money"
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}<color=#E64D00>p</color>{4}<color=#E64D00>p</color>{5}"
@@ -262,12 +328,15 @@
   splits:
   - split: 13
     text: "听闻金兰好友"
+    translated: "Hearing of sworn friends"
   - split: 13
     subIndex: 1
     text: "在此地行走，特意赶来与"
+    translated: "Walking here intentionally to meet with"
   - split: 13
     subIndex: 2
     text: "相聚，将附近江湖之事尽数告知于"
+    translated: "Gather and tell them everything about the nearby Jianghu."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>。"
@@ -275,12 +344,15 @@
   splits:
   - split: 13
     text: "听闻红颜眷侣"
+    translated: "Hearing of a beloved lover"
   - split: 13
     subIndex: 1
     text: "在此处，思念甚厚，特来寻"
+    translated: "Here, my thoughts are deep, so I came to seek you."
   - split: 13
     subIndex: 2
     text: "相聚片刻。"
+    translated: "Spent a short while together"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
@@ -288,15 +360,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "万分恩爱的"
+    translated: "Extremely loving and affectionate"
   - split: 13
     subIndex: 2
     text: "倍感思念，特来寻"
+    translated: "Missing you terribly, I came to look for you."
   - split: 13
     subIndex: 3
     text: "相聚片刻。"
+    translated: "Spent a short while together"
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -304,9 +380,11 @@
   splits:
   - split: 13
     text: "听闻与"
+    translated: "Hearing that with"
   - split: 13
     subIndex: 1
     text: "立场相近，特来相谈。"
+    translated: "Alignment is similar, so I came to discuss."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -314,9 +392,11 @@
   splits:
   - split: 13
     text: "从远处遥望见知交老友"
+    translated: "Gazing from afar at an old confidant friend"
   - split: 13
     subIndex: 1
     text: "，片刻间飞奔而至。"
+    translated: ", Moments later, they arrived at a sprint"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -324,9 +404,11 @@
   splits:
   - split: 13
     text: "听闻相交许久的后生晚辈"
+    translated: "Hearing of a young successor with whom they had been acquainted for many years"
   - split: 13
     subIndex: 1
     text: "于此地走动，特来相谈。"
+    translated: "I came here to speak with you"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -334,9 +416,11 @@
   splits:
   - split: 13
     text: "对"
+    translated: "Yes"
   - split: 13
     subIndex: 1
     text: "暗生情愫，心下暗许……"
+    translated: "Fell in love secretly, silently promising oneself..."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -344,9 +428,11 @@
   splits:
   - split: 13
     text: "对"
+    translated: "Yes"
   - split: 13
     subIndex: 1
     text: "暗生情愫，心下暗许……"
+    translated: "Fell in love secretly, silently promising oneself..."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -354,9 +440,11 @@
   splits:
   - split: 13
     text: "对"
+    translated: "Yes"
   - split: 13
     subIndex: 1
     text: "暗生情愫，心下暗许……"
+    translated: "Fell in love secretly, silently promising oneself..."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
@@ -364,15 +452,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "互有好感多时的"
+    translated: "Who have had mutual affection for some time"
   - split: 13
     subIndex: 2
     text: "决意向"
+    translated: "Determined resolve"
   - split: 13
     subIndex: 3
     text: "表明心迹……"
+    translated: "Declare one's feelings..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -380,15 +472,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "互有好感多时的"
+    translated: "Who have had mutual affection for some time"
   - split: 13
     subIndex: 2
     text: "决意向"
+    translated: "Determined resolve"
   - split: 13
     subIndex: 3
     text: "表明心迹……"
+    translated: "Declare one's feelings..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -396,15 +492,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "互有好感多时的"
+    translated: "Who have had mutual affection for some time"
   - split: 13
     subIndex: 2
     text: "决意向"
+    translated: "Determined resolve"
   - split: 13
     subIndex: 3
     text: "表明心迹……"
+    translated: "Declare one's feelings..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -412,12 +512,15 @@
   splits:
   - split: 13
     text: "柔情无限之际，"
+    translated: "At the moment of infinite tenderness,"
   - split: 13
     subIndex: 1
     text: "向"
+    translated: "Towards"
   - split: 13
     subIndex: 2
     text: "提出成婚之意……"
+    translated: "Propose marriage..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -425,12 +528,15 @@
   splits:
   - split: 13
     text: "柔情无限之际，"
+    translated: "At the moment of infinite tenderness,"
   - split: 13
     subIndex: 1
     text: "向"
+    translated: "Towards"
   - split: 13
     subIndex: 2
     text: "提出成婚之意……"
+    translated: "Propose marriage..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -438,12 +544,15 @@
   splits:
   - split: 13
     text: "柔情无限之际，"
+    translated: "At the moment of infinite tenderness,"
   - split: 13
     subIndex: 1
     text: "向"
+    translated: "Towards"
   - split: 13
     subIndex: 2
     text: "提出成婚之意……"
+    translated: "Propose marriage..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -451,12 +560,15 @@
   splits:
   - split: 13
     text: "恩怨几许，痴燕纷飞，"
+    translated: "Fond regrets, swallows in disarray,"
   - split: 13
     subIndex: 1
     text: "心怀不满，决意断绝与"
+    translated: "Fuming with resentment, determined to cut ties with"
   - split: 13
     subIndex: 2
     text: "之姻缘。"
+    translated: "Fate's arrangement"
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
@@ -464,39 +576,49 @@
   splits:
   - split: 13
     text: "一行踪诡异之人拦路而出，欲行不轨之事……"
+    translated: "A suspicious figure stepped forward to block the way, intent on some underhanded deed......"
 - raw: "41,39,\"love,id,kithKin<>,goldCoin,JiaoQing<ChouDi>,999\",\">,!/,!/,<,!/,<\",\"-1,kithKin<>,1,100,1,sliver\",100,0,\"3,11\",0,,,,,本地一憔悴旅者，听闻本地有声望兴隆的大侠客，特来寻求施舍帮助……,210100,80,2880,40,1,2"
   splits:
   - split: 13
     text: "本地一憔悴旅者，听闻本地有声望兴隆的大侠客，特来寻求施舍帮助……"
+    translated: "A local weary traveler, hearing of a renowned Hero in the area, came seeking charity and help......"
 - raw: "42,40,\"love,id,kithKin<>,3600\",\"<,!/,!/,<\",\"1,kithKin<>,1,gameTime\",100,0,\"3,11\",0,,,,,路旁偶有狂妄骄纵之徒，四处叫嚣，寻衅滋事……,210110,80,2880,40,1,2"
   splits:
   - split: 13
     text: "路旁偶有狂妄骄纵之徒，四处叫嚣，寻衅滋事……"
+    translated: "Occasionally along the roadside, there are arrogant troublemakers causing a ruckus and looking for fights......"
 - raw: "43,41,\"id,kithKin<>,JiaoQing<ChouDi>\",\"!/,!/,!/\",\"kithKin<>,1,1\",100,0,\"3,11\",0,,,,,有消息称，有一神秘人物惊现街头，兜售江湖失传多载的神功秘籍……,210130,80,4320,40,2,2"
   splits:
   - split: 13
     text: "有消息称，有一神秘人物惊现街头，兜售江湖失传多载的神功秘籍……"
+    translated: "There are reports of a mysterious figure appearing on the streets, selling long-lost divine martial arts manuals from the Jianghu..."
 - raw: "44,42,\"id,kithKin<>,JiaoQing<ChouDi>,attribute\",\"!/,!/,!/,>\",\"kithKin<>,1,1,5\",100,0,\"3,11\",0,,,,,闻听有一古怪之人在此地驻足……,210140,80,4320,40,2,2"
   splits:
   - split: 13
     text: "闻听有一古怪之人在此地驻足……"
+    translated: "Hearing of a strange person who has stopped here......"
 - raw: "45,43,\"id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,//\",\"kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,传闻此处有人贩卖神丹妙药……,210150,80,4320,0,1,2"
   splits:
   - split: 13
     text: "传闻此处有人贩卖神丹妙药……"
+    translated: "Rumors say that someone here sells divine elixirs and miraculous medicines..."
 - raw: "46,44,\"JiaoQing<ShiFu>,kithKin<>,JiaoQing<ChouDi>,attribute\",\"<,!/,!/,<\",\"1,1,1,attribute\",100,0,\"3,11\",0,,,,,对<color=#E64D00>p</color>之才学钦佩已久的<color=#E64D00>a</color>决定拜<color=#E64D00>p</color>为师。,210160,80,7200,40,2,2"
   splits:
   - split: 13
     text: "对"
+    translated: "Yes"
   - split: 13
     subIndex: 1
     text: "之才学钦佩已久的"
+    translated: "Who I have long admired for their talent"
   - split: 13
     subIndex: 2
     text: "决定拜"
+    translated: "Decide to pay respects to"
   - split: 13
     subIndex: 3
     text: "为师。"
+    translated: "Master"
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -504,9 +626,11 @@
   splits:
   - split: 13
     text: "武学宗师"
+    translated: "Martial Art Master"
   - split: 13
     subIndex: 1
     text: "欲要收徒……"
+    translated: "Wants to take on an apprentice......"
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -514,15 +638,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "情谊日深的"
+    translated: "Deepening in affection over time's"
   - split: 13
     subIndex: 2
     text: "决意向"
+    translated: "Determined resolve"
   - split: 13
     subIndex: 3
     text: "表明结交金兰之意……"
+    translated: "Expressing the intention to form a Sworn Bond..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -530,15 +658,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "相识已久的"
+    translated: "Long-acquainted"
   - split: 13
     subIndex: 2
     text: "决意向"
+    translated: "Determined resolve"
   - split: 13
     subIndex: 3
     text: "表明结为知交之意……"
+    translated: "Indicating the intention to become confidants......"
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -546,6 +678,7 @@
   splits:
   - split: 13
     text: "偶遇才子，心向往之，欲与之结交相识……"
+    translated: "Met a scholar and felt drawn to them, wishing to befriend and get to know them..."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}"
@@ -553,9 +686,11 @@
   splits:
   - split: 13
     text: "与才子相识已久的"
+    translated: "Having known the scholar for a long time"
   - split: 13
     subIndex: 1
     text: "决意向其表明心迹……"
+    translated: "Determined to declare his feelings..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -563,6 +698,7 @@
   splits:
   - split: 13
     text: "偶遇佳人，心向往之，欲与之结交相识……"
+    translated: "Met a lovely lady, my heart yearns for her, wishing to be acquainted and know her..."
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}"
@@ -570,9 +706,11 @@
   splits:
   - split: 13
     text: "与佳人相识已久的"
+    translated: "Having known the fair lady for a long time"
   - split: 13
     subIndex: 1
     text: "决意向其表明心迹……"
+    translated: "Determined to declare his feelings..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>a</color>{1}"
@@ -580,12 +718,15 @@
   splits:
   - split: 13
     text: "听闻师父"
+    translated: "Hearing of Master,"
   - split: 13
     subIndex: 1
     text: "在此处，思念甚厚，特来寻"
+    translated: "Here, my thoughts are deep, so I came to seek you."
   - split: 13
     subIndex: 2
     text: "相聚片刻。"
+    translated: "Spent a short while together"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
@@ -593,12 +734,15 @@
   splits:
   - split: 13
     text: "听闻徒弟"
+    translated: "Hearing of the disciple"
   - split: 13
     subIndex: 1
     text: "在此处，担心徒儿修行险阻，特来寻"
+    translated: "Here, worried about my disciple's dangerous path of cultivation, I came to look for them."
   - split: 13
     subIndex: 2
     text: "为其排忧解难。"
+    translated: "Help solve their problems"
   templates:
   - split: 13
     template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
@@ -606,15 +750,19 @@
   splits:
   - split: 13
     text: "崇拜"
+    translated: "Admiration"
   - split: 13
     subIndex: 1
     text: "许久的后生晚辈"
+    translated: "Long-time junior disciple's descendant"
   - split: 13
     subIndex: 2
     text: "，闻听"
+    translated: ", Hearing this"
   - split: 13
     subIndex: 3
     text: "在此处，特来拜访……"
+    translated: "Here to pay a visit..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
@@ -622,15 +770,19 @@
   splits:
   - split: 13
     text: "与"
+    translated: "With"
   - split: 13
     subIndex: 1
     text: "情谊日深的"
+    translated: "Deepening in affection over time's"
   - split: 13
     subIndex: 2
     text: "决意向"
+    translated: "Determined resolve"
   - split: 13
     subIndex: 3
     text: "提出结伴同行江湖之意……"
+    translated: "Expressing the wish to travel together in the Jianghu..."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"

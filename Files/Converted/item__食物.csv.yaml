@@ -7,13 +7,13 @@
   splits:
   - split: 2
     text: "清汤面"
-    translated: "Clear soup noodles"
+    translated: "Clear Broth Noodles"
   - split: 22
     text: "寻常的阳春小面，汤头清澈，面条劲道滑爽。"
-    translated: "A typical spring sunshine noodles, with a clear broth and firm, slippery noodles."
+    translated: "A typical spring sunshine noodles soup, clear and flavorful, with firm and slippery noodles."
   - split: 23
     text: "食用清汤面，精力"
-    translated: "Eat clear soup noodles, regain Energy"
+    translated: "Eating clear broth noodles, Energy"
   templates:
   - split: 23
     template: "{0}+5"
@@ -24,7 +24,7 @@
     translated: "Steamed Bun"
   - split: 22
     text: "寻常碱面所制的馒头，虽难言可口，却是饱腹充饥之首选。"
-    translated: "Though far from delicious, steamed buns made from plain alkaline dough are the top choice for filling one's stomach and staving off hunger."
+    translated: "Though far from delicious, steamed buns made with plain alkaline dough are the top choice for filling one's stomach and staving off hunger."
   - split: 23
     text: "食用馒头，精力"
     translated: "Eat steamed buns, regain Energy"
@@ -52,7 +52,7 @@
     translated: "Qingtian Fish Soup"
   - split: 22
     text: "青田有鱼，煮之清甜，汤色奶白，肉质嫩滑鲜香。"
-    translated: "In Qingtian, there are fish that are sweet when cooked, with a milky-white broth and tender, fragrant meat."
+    translated: "Qingtian has fish, which when cooked are sweet and clear, with milky soup and tender, fragrant meat."
   - split: 23
     text: "食用青田鱼汤，精力"
     translated: "Eating Qingtian Fish Soup, Energy"
@@ -66,7 +66,7 @@
     translated: "Greens and Tofu"
   - split: 22
     text: "青菜炖豆腐，虽无半点荤腥，却亦为众人日常饮食之选。"
-    translated: "Though devoid of any meat or fish, stir-fried greens with tofu remains a common choice for daily meals."
+    translated: "Although it lacks any meat or fish, stir-fried greens with tofu is still a common choice for everyone's daily diet."
   - split: 23
     text: "食用青菜豆腐，精力"
     translated: "Eating greens and tofu, Energy"
@@ -127,7 +127,7 @@
   - split: 22
     subIndex: 2
     text: "回味无穷。"
-    translated: "Endless flavor, savoring endlessly"
+    translated: "Endless flavor"
   - split: 23
     text: "牛油豆腐面"
     translated: "Beef Tallow Tofu Noodles"
@@ -152,7 +152,7 @@
     translated: "Yiyi Coiled Eel"
   - split: 22
     text: "肉嫩味鲜，香酥可口。"
-    translated: "Tender and fresh, crispy and delicious"
+    translated: "Tender and delicious, crispy and savory"
   - split: 23
     text: "夷邑盘鳝"
     translated: "Yiyi Coiled Eel"
@@ -185,7 +185,7 @@
     translated: "West Lake Vinegar Fish"
   - split: 22
     text: "色泽红亮，肉质鲜嫩，酸甜清香，口感软嫩。"
-    translated: "Brightly red in color, the meat is tender and fresh, with a sour-sweet fragrance and a soft, delicate texture."
+    translated: "Bright red in color, with tender meat that is sweet and sour yet fragrant, offering a soft and delicate texture."
   - split: 23
     text: "西湖醋鱼"
     translated: "West Lake Vinegar Fish"
@@ -196,7 +196,7 @@
     translated: "Longjing Shrimp"
   - split: 22
     text: "清新软嫩，虾仁玉嫩，色泽雅丽，清口开胃。"
-    translated: "Fresh and tender, the shrimp is delicate and white, with an elegant appearance and a refreshing taste that invigorates the palate."
+    translated: "Fresh and tender, the shrimp is delicate and white, with an elegant appearance and a refreshing taste that whets the appetite."
   - split: 23
     text: "龙井虾仁"
     translated: "Longjing Shrimp"
@@ -262,7 +262,7 @@
     translated: "Yongping Cured Goose"
   - split: 22
     text: "皮色金黄，肉质芳香，肥而不腻，鲜美难言。"
-    translated: "The skin is golden yellow, the meat fragrant, rich yet not greasy, delicious beyond words."
+    translated: "Golden-skinned, fragrant in texture, rich without being greasy, delicious beyond words."
   - split: 23
     text: "永平腊鹅"
     translated: "Yongping Cured Goose"
@@ -273,7 +273,7 @@
     translated: "Cherishing Jade, Pitying Fragrance"
   - split: 22
     text: "咸淡适口，细嫩鲜美，有补精益气之效。"
-    translated: "It has the right balance of saltiness and freshness, is tender and delicious, with nourishing effects that replenish essence and vital energy."
+    translated: "The taste is just right, neither too salty nor too bland, with a delicate tenderness and a fresh flavor, providing nourishment to the body and replenishing energy."
   - split: 23
     text: "惜玉怜香"
     translated: "Cherishing Jade, Pitying Fragrance"
@@ -284,7 +284,7 @@
     translated: "Deep Love, Honeyed Affection"
   - split: 22
     text: "取新鲜花蜜制成，甜酥可口，润肺通络。"
-    translated: "Made with fresh nectar, it is sweet, crunchy, and delicious, soothing the lungs and promoting circulation."
+    translated: "Made with fresh nectar, it is sweet, crispy, and delicious, soothing the lungs and promoting circulation."
   - split: 23
     text: "浓情蜜意"
     translated: "Deep Love, Honeyed Affection"
@@ -321,7 +321,7 @@
     translated: "Among Flowers, Beneath the Moon"
   - split: 22
     text: "鲜桃花摘瓣去蒂，拌以蜜糖做馅，再经烘炉烤制，香甜可口，有滋阴养颜之效。"
-    translated: "Fresh peach blossoms are plucked, the petals separated from the stems, and mixed with honey for the filling. After baking in an oven, they become sweet and fragrant, with nourishing properties that beautify the complexion."
+    translated: "Fresh peach blossoms are plucked, the petals separated from the stems, mixed with honey for the filling, and then baked in an oven. The result is sweet and fragrant, with nourishing properties that beautify the skin."
   - split: 23
     text: "花前月下"
     translated: "Among Flowers, Beneath the Moon"
@@ -343,7 +343,7 @@
     translated: "Beggar's Chicken"
   - split: 22
     text: "色泽枣红明亮，芳香扑鼻，板酥肉嫩，入口酥烂肥嫩，风味独特。"
-    translated: "The color is a bright reddish-brown, the aroma is intoxicating, the crust is crisp, and the meat is tender. Upon taking a bite, it melts in your mouth, with a unique flavor."
+    translated: "With a rich reddish-brown sheen and a bright appearance, its fragrance is intoxicating. The crust is crispy while the meat is tender, melting in your mouth with a unique flavor."
   - split: 23
     text: "叫花鸡"
     translated: "Beggar's Chicken"
@@ -354,7 +354,7 @@
     translated: "Dongpo Pork"
   - split: 22
     text: "半肥半瘦的猪肉，加入配料焖制而成，色如玛瑙，入口软而不烂，肥而不腻。"
-    translated: "Made with half-fat, half-lean pork and seasonings, it has a color like carnelian, is tender yet not falling apart, and fatty yet not greasy."
+    translated: "Made with half-fat, half-lean pork and seasonings, it has a color like carnelian, is tender without being tough, and fatty without being greasy."
   - split: 23
     text: "东坡肉"
     translated: "Dongpo Pork"
@@ -376,7 +376,7 @@
     translated: "Egg Fried Rice"
   - split: 22
     text: "又名碎金饭，天下之人无不会烧制，至于各种口感却是大异了。"
-    translated: "Also known as Suigold Rice, it is something everyone in the world can cook, though the taste varies greatly."
+    translated: "Also known as Suigold Rice, it is something everyone can cook, but the taste varies greatly."
   - split: 23
     text: "蛋炒饭"
     translated: "Egg Fried Rice"
@@ -387,7 +387,7 @@
     translated: "Unpalatable Wild Fruit"
   - split: 22
     text: "虽说可以食用，但味道寡淡酸涩，加工后或能有所改变。"
-    translated: "Though edible, the taste is bland and sour; processing it might improve it."
+    translated: "Though edible, the taste is bland and sour; processing it might improve its flavor."
   - split: 23
     text: "食用口感不佳的野果，精力"
     translated: "Eating unpalatable wild fruit, Energy"
@@ -401,7 +401,7 @@
     translated: "Tasty Wild Fruit"
   - split: 22
     text: "寻常的山间野果，饱满多汁，味道尚可，若经过加工，想必会变得更为美味。"
-    translated: "Common mountain berries, plump and juicy, taste decent enough. With some processing, they would surely become even more delicious."
+    translated: "Common mountain berries, plump and juicy, taste quite good. With some processing, they would surely become even more delicious."
   - split: 23
     text: "食用口感不错的野果，精力"
     translated: "Eating tasty wild fruit, restoring Energy"
@@ -418,7 +418,7 @@
     translated: "Jam made from mountain berries may not be particularly special, but it's enough to satisfy hunger."
   - split: 23
     text: "食用果酱，精力"
-    translated: "Eat jam, Energy"
+    translated: "Jam, Energy"
   templates:
   - split: 23
     template: "{0}+4"
@@ -432,7 +432,7 @@
     translated: "Soft, sticky, and incredibly sweet"
   - split: 23
     text: "食用糖人，精力"
-    translated: "Eating Sugared Figurines, Energy"
+    translated: "Eating Sugarperson, Energy"
   templates:
   - split: 23
     template: "{0}+1"
@@ -446,7 +446,7 @@
     translated: "Heavenly Clear Fruit Powder, crushed chenxiang wood, mixed with hundred flower honey wine extract, and a suitable amount of honey to form sweet, fragrant pills, which are most beloved by children."
   - split: 23
     text: "食用百花丸，精力"
-    translated: "Eat the Hundred Flowers Pill for Energy"
+    translated: "Eat the Hundred Flowers Pill to regain Energy."
   templates:
   - split: 23
     template: "{0}+50"
@@ -457,7 +457,7 @@
     translated: "Autumn Dew White"
   - split: 22
     text: "日华煎露成真液，泉脉穿岩咽细流。"
-    translated: "Sunlit dew condensed into true essence, spring veins pierce rocks to swallow fine streams."
+    translated: "Sunlit dew condensed into true essence, spring veins piercing rocks to swallow fine streams."
   - split: 23
     text: "秋露白"
     translated: "Autumn Dew White"
@@ -479,7 +479,7 @@
     translated: "Bamboo Leaf Green Liquor"
   - split: 22
     text: "胜赏须倾竹叶青，此花元自圣之清。"
-    translated: "Enjoy the Bamboo Leaf Green Liquor to its last drop; this flower is inherently pure like a sage."
+    translated: "To enjoy the victory, one must pour Bamboo Leaf Green Liquor; this flower is originally as pure as a sage."
   - split: 23
     text: "竹叶青"
     translated: "Bamboo Leaf Green Liquor"
@@ -512,7 +512,7 @@
     translated: "Dried Sweet Potato"
   - split: 22
     text: "简易晒制的薯干，香甜可口。"
-    translated: "Simple sun-dried sweet potatoes, deliciously sweet and savory."
+    translated: "Simple sun-dried sweet potatoes, delicious and sweet"
   - split: 23
     text: "薯干"
     translated: "Dried Sweet Potato"
@@ -545,7 +545,7 @@
     translated: "Yunnan Xiaoqu Liquor"
   - split: 22
     text: "大理独有佳酿。整粒发酵，佐以少量草药。风味清雅，甘冽爽净，与中原大曲迥异。"
-    translated: "Dali has its own unique fine wine. It is fermented whole and paired with a small amount of herbs. The flavor is elegant, sweet yet crisp, and distinctly different from the large qupai wines of Central Plains."
+    translated: "Dali has its own unique fine liquor. It is fermented whole and seasoned with a small amount of herbs. The flavor is delicate and refreshing, quite different from the large qu alcohol of Central Plains."
   - split: 23
     text: "云滇小曲"
     translated: "Yunnan Xiaoqu Liquor"
@@ -556,7 +556,7 @@
     translated: "Comrades' Wine"
   - split: 22
     text: "岂曰无衣，与子同袍，止戈为武，尽解前尘。"
-    translated: "How can we say we have no clothes? We share our armor with you. To stop the sword is to be a warrior; let us lay past grievances to rest."
+    translated: "How can we say we have no clothes? We share our armor with you. To stop the sword is true martial valor; let us lay past grievances to rest."
   - split: 23
     text: "同袍酒"
     translated: "Comrades' Wine"
@@ -581,7 +581,7 @@
     translated: "Nine Yang Elixir"
   - split: 22
     text: "据传此丹需于丹鼎中炼制七七四十九天方成，其方更是不传之秘，纵使毫无资质根骨之人，服之亦能内察丹田，滋生内息，永久增加内息1点。"
-    translated: "It is said that this pill must be refined in a cauldron for forty-nine days to be completed. Its recipe is a closely guarded secret; even those with no aptitude or potential can, upon taking it, sense their dantian and cultivate inner qi, permanently increasing their inner qi by 1 points."
+    translated: "It is said that this pill must be refined in a cauldron for forty-nine days to be completed, and its formula is a closely guarded secret. Even those with no aptitude or potential can, upon ingesting it, sense their dantian and cultivate inner qi, permanently increasing their inner qi by 1 points."
   - split: 23
     text: "内息"
     translated: "Inner Qi"
@@ -599,7 +599,7 @@
   - split: 22
     subIndex: 1
     text: "林氏国有珍兽，大若虎，五采毕具，尾长于身，名曰驺吾，乘之日行千里，永久增加身法1点。"
-    translated: "The Lin Kingdom has a rare beast as large as a tiger, with all five colors complete, its tail longer than its body. It is called Zouwu. Riding it allows one to travel a thousand miles in a day, permanently increasing Agility by 1 points."
+    translated: "The Lin family nation has a rare beast as large as a tiger, with all five colors complete, its tail longer than its body. It is called Zouwu. Riding it allows one to travel a thousand miles in a day, permanently increasing Agility by 1 points."
   - split: 23
     text: "身法"
     translated: "Agility"
@@ -615,7 +615,7 @@
     translated: "Dust-Forgetting Elixir"
   - split: 22
     text: "天材灵宝炼成，服之能通寸关之脉，理心水二气，明沉浮、悟玄机，永久增加悟性1点。"
-    translated: "When the divine treasure is refined and consumed, it can open the pulse of the inch and pass gates, regulate the two energies of heart water, clarify the rise and fall, understand the mysteries, and permanently increase Comprehension by 1 points."
+    translated: "When the Heaven-endowed spiritual treasure is refined and consumed, it can open the pulse pathways, regulate the two energies of heart and water, clarify the rising and falling, understand the mysteries, and permanently increase Comprehension by 1 points."
   - split: 23
     text: "悟性"
     translated: "Comprehension"
@@ -643,6 +643,7 @@
     translated: "Purple Fragrance Pill"
   - split: 22
     text: "东壁先生得意之方，其色赤紫，其香清郁，服之可增筋骨肌力，价值连城，永久增加内息1点。"
+    translated: "Master Dongbi's Favored Method, its color crimson purple, its scent clear and rich, taking it can enhance physique and muscle strength, priceless, permanently increasing Inner Qi by 1 points."
   - split: 23
     text: "内息"
     translated: "Inner Qi"
@@ -656,7 +657,7 @@
     translated: "Wind-Roasted Elixir"
   - split: 22
     text: "从阴引阳，从阳引阴，使气血灌注，周流不息，服之可通经络，足轻捷，永久增加身法1点。"
-    translated: "Draw the yin to the yang, and the yang to the yin, allowing lifeforce to flow continuously, connecting the meridians, making one's movements light and agile, permanently increasing agility by 1 points."
+    translated: "Draw yin from yang, draw yang from yin, to circulate lifeforce continuously, connecting the meridians, making one's steps light and nimble, permanently increasing agility by 1 points."
   - split: 23
     text: "身法"
     translated: "Agility"
@@ -670,7 +671,7 @@
     translated: "Autumn Ice Formula"
   - split: 22
     text: "海阁一脉独有奇方，能培补先天、后天，使脑髓得充，化源得滋，永久增加悟性1点。"
-    translated: "The Hai Ge lineage has a unique remedy that can nurture both innate and acquired qualities, allowing the brain marrow to replenish and the source of energy to be nourished, permanently increasing Comprehension by 1 points."
+    translated: "The Hai Ge lineage has a unique remedy that can nourish both innate and acquired qualities, allowing the brain marrow to be replenished and the source of energy to be enriched, permanently increasing Comprehension by 1 points."
   - split: 23
     text: "悟性"
     translated: "Comprehension"
@@ -684,7 +685,7 @@
     translated: "Yin-Nourishing Pill"
   - split: 22
     text: "味苦难言，其中毒性相冲相克，反得滋养灵效，永久增加武力1点。"
-    translated: "The taste is indescribable; the poisons within nourish the spiritual efficacy on the contrary, permanently increasing your Might by 1 points."
+    translated: "The taste is indescribable; the poisons within instead nourish the spiritual efficacy, permanently increasing your Might by 1 points."
   - split: 23
     text: "武力"
     translated: "Might"
@@ -712,7 +713,7 @@
     translated: "Heavenly Dragon Draught"
   - split: 22
     text: "以“七宝蜈蚣”为材制而成，极其难得，服之如生百足，步履如风，永久增加身法1点。"
-    translated: "Made from Seven Treasures Centipede materials, it is extremely rare. Consuming it grants the agility of a hundred legs, making one's steps as swift as the wind, permanently increasing Agility by 1 points."
+    translated: "Made from Seven Treasures Centipede material, it is extremely rare. Upon consumption, one feels as if a hundred legs have grown, walking with the speed of the wind, permanently increasing Agility by 1 points."
   - split: 23
     text: "身法"
     translated: "Agility"
@@ -726,7 +727,7 @@
     translated: "Illusory Lost Immortal"
   - split: 22
     text: "集百种苗地异草灵菇炼制而成，据传一经服下，便可得窥天机，永久增加悟性1点。"
-    translated: "Made by brewing a hundred varieties of rare herbs and spirit mushrooms, it is said that once consumed, one can glimpse the divine will, permanently increasing Comprehension by 1 points."
+    translated: "Made from a hundred varieties of rare herbs and divine mushrooms, it is said that once consumed, one may glimpse the divine will, permanently increasing Comprehension by 1 points."
   - split: 23
     text: "悟性"
     translated: "Comprehension"
@@ -751,7 +752,7 @@
     translated: "Scallion Fish Soup"
   - split: 22
     text: "入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量体力与精力。"
-    translated: "The meat is tender and the broth is thick and slightly sweet. Though it is a simple dish, it can restore a small amount of stamina and energy."
+    translated: "The meat is tender and soft, with a rich and slightly sweet broth. Though it is a simple meal, it can restore a small amount of stamina and energy."
   - split: 23
     text: "葱花鱼汤"
     translated: "Scallion Fish Soup"
@@ -762,7 +763,7 @@
     translated: "Steamed Silver Knife Fish"
   - split: 22
     text: "入口鱼肉细腻似雪，咸鲜间藏淡淡回甘，食用后恢复中等量体力精力。"
-    translated: "The entrance fish has a tender texture like snow, with a salty-sweet flavor that leaves a subtle aftertaste. Eating it restores a moderate amount of stamina and energy."
+    translated: "The entrance fish has a delicate texture like snow, with a salty-sweet flavor that leaves a subtle aftertaste. Eating it restores a moderate amount of stamina and energy."
   - split: 23
     text: "清蒸银刀鱼"
     translated: "Steamed Silver Knife Fish"
@@ -773,7 +774,7 @@
     translated: "Drunken Immortal Fish"
   - split: 22
     text: "浓郁鱼鲜裹酒香袭来，鱼肉绵滑细腻，鲜香在口中层层散开，回味悠长，食用后恢复大量体力精力，一扫周身倦怠。"
-    translated: "The rich aroma of fish and wine envelops you. The tender, delicate fish meat melts in your mouth, releasing waves of flavor that linger long after the first bite. Eating it restores a great deal of stamina and energy, banishing all fatigue from your body."
+    translated: "The rich aroma of fish and wine envelops you. The tender, delicate fish meat melts in your mouth, releasing waves of flavor that linger on your palate. Eating it restores a great deal of stamina and energy, banishing all fatigue from your body."
   - split: 23
     text: "醉仙鱼"
     translated: "Drunken Immortal Fish"
@@ -784,7 +785,7 @@
     translated: "Salt-Baked Shrimp"
   - split: 22
     text: "咸鲜之味唤醒味蕾，食用后可恢复少量体力与精力。"
-    translated: "The savory flavor awakens the taste buds, restoring a small amount of stamina and energy upon consumption."
+    translated: "The salty freshness awakens the taste buds; eating it restores a small amount of Stamina and Energy."
   - split: 23
     text: "盐焗虾"
     translated: "Salt-Baked Shrimp"
@@ -817,7 +818,7 @@
     translated: "Crab Meat Tofu Pot"
   - split: 22
     text: "蟹肉紧实、豆腐吸饱鲜汁，咸香入味，下肚后虽恢复体力精力有限，却能解一时饥乏。"
-    translated: "The crab meat is firm, the tofu soaked in savory broth, salty and flavorful. Though it only restores a little stamina and energy, it satisfies hunger for the moment."
+    translated: "The crab meat is firm, the tofu soaked in savory broth, salty and flavorful. Though it restores stamina and energy only slightly, it satisfies hunger for a time."
   - split: 23
     text: "蟹肉豆腐煲"
     translated: "Crab Meat Tofu Pot"
@@ -828,7 +829,7 @@
     translated: "Crab Roe Steamed Egg"
   - split: 22
     text: "蛋羹绵密、蟹肉鲜甜，咸香适口，食用后恢复中等量体力精力。"
-    translated: "The egg custard is smooth and dense, the crab meat is fresh and sweet, with a perfectly balanced savory flavor. Eating it restores a moderate amount of stamina and energy."
+    translated: "The egg custard is smooth and creamy, the crab meat is fresh and sweet, with a perfectly balanced salty flavor. Eating it restores a moderate amount of stamina and energy."
   - split: 23
     text: "蟹脂蛋羹"
     translated: "Crab Roe Steamed Egg"
@@ -839,7 +840,7 @@
     translated: "Lantian Jade Stuffed Crab"
   - split: 22
     text: "蟹肉酿入饱满花菇，蟹肉鲜甜、花菇饱吸鲜味，口感醇厚深邃，食用后恢复大量体力精力，一扫周身倦怠。"
-    translated: "Stuffed crab meat in plump mushroom caps, the crab meat is sweet and fresh, while the mushrooms absorb the flavors, offering a rich and deep taste. Eating it restores a large amount of stamina and energy, dispelling all fatigue from your body."
+    translated: "Stuffed crab meat in plump mushroom caps, the crab meat is sweet and fresh, while the mushrooms absorb the flavors, offering a rich and deep taste. Eating them restores a large amount of stamina and energy, dispelling all fatigue from your body."
   - split: 23
     text: "蓝田玉蟹酿"
     translated: "Lantian Jade Stuffed Crab"
@@ -861,7 +862,7 @@
     translated: "Jade-Simmered White Snail"
   - split: 22
     text: "莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心清甜交织，螺肉软嫩、菜心脆爽，汤鲜味美，食用后恢复中等量体力精力。"
-    translated: "The pale snail meat paired with emerald broccoli hearts creates a clear, amber-colored broth. The fresh fragrance of the snail meat intertwines with the crisp sweetness of the broccoli hearts, the snail meat tender and soft, the broccoli hearts crisp and refreshing. The soup is deliciously savory, restoring a moderate amount of stamina and energy after eating."
+    translated: "The pale snail meat paired with emerald broccoli hearts creates a clear, amber-colored broth. The fresh fragrance of the snail meat and the crisp sweetness of the broccoli hearts blend together beautifully. The snail meat is tender, while the broccoli hearts are crunchy and refreshing. This dish restores a moderate amount of stamina and energy."
   - split: 23
     text: "翡翠煨白螺"
     translated: "Jade-Simmered White Snail"
@@ -872,7 +873,7 @@
     translated: "Colorful Cloud Snail Braise"
   - split: 22
     text: "红亮酱汁裹螺肉如彩纹缀云，咸香微甜，吃下恢复大量体力精力，一扫周身倦怠。"
-    translated: "The bright red sauce coats the snail meat like colorful patterns on clouds, salty and sweet. Eating it restores a large amount of stamina and energy, dispelling all fatigue from your body."
+    translated: "The bright red sauce coats the snail meat like colorful patterns on clouds, salty yet slightly sweet. Eating it restores a large amount of stamina and energy, dispelling all fatigue from your body."
   - split: 23
     text: "彩云螺肉烧"
     translated: "Colorful Cloud Snail Braise"
@@ -883,7 +884,7 @@
     translated: "Oleaster Pastry"
   - split: 22
     text: "糕点酥皮粗糙纹理、枣馅油润通透。"
-    translated: "The pastry has a rough and crumbly crust, with sweet red bean paste that is rich and translucent."
+    translated: "The pastry had a rough and crumbly crust, with a date filling that was rich and translucent."
   - split: 23
     text: "沙枣酥"
     translated: "Oleaster Pastry"

@@ -18,7 +18,7 @@ glossaryPreset:
   usePresetChineseGlossary: true
 
 useContinuousWorkerPool: true
-maxConcurrency: 2
+maxConcurrency: 4
 retryCount: 3
 # escalationModelName: Translator-Standard
 # escalationRetryCount: 1
@@ -59,3 +59,84 @@ qualityControl:
   # overruled and the quotes guide the repair (2026-10-03: flagged 2-3 -> 1 of 28, same call count).
   # The pre-verification gate is on by default in LlmKit (preVerificationGateEnabled).
   verificationEvidenceEnabled: true
+
+# Runtime tokens the model reads under a name instead of the game's <...> syntax, put back exactly after translation
+# (LlmKit NamedTokenReplacer). A gender alternative is swapped for its Player-Gender-Tokens.yaml result, so the model never
+# writes it and cannot guess a gender from the pair. Pronoun alternatives (<他||她>) and sentence-length ones stay visible:
+# the model has to pick he/him/his itself.
+namedTokenReplacers:
+  - literal: "<fName>"
+    name: firstName
+    description: the player's first name. Copy it exactly as written.
+  - literal: "<lName>"
+    name: lastName
+    description: the player's family name. Copy it exactly as written.
+  - literal: "<name>"
+    name: fullName
+    description: a character's name, filled in by the game. Copy it exactly as written.
+  - literal: "<faction>"
+    name: faction
+    description: a faction name, filled in by the game. Copy it exactly as written.
+  - pattern: '<(?!他\|\|她>)[^<>|]{1,8}\|\|[^<>|]{1,8}>'
+    name: playerTitle
+    restoreFromGlossary: true
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written.
+
+  # NPC dialogue and action text: the game replaces these bare words and letters itself, and in English mode only recognises them
+  # written ///token/// (as in its own NPC_EN workbook), so they come back wrapped. See docs/investigations/runtime-tokens.md.
+  - literal: gangName
+    name: gangName
+    restoreAs: "///gangName///"
+    description: the name of the gang in this area. Copy it exactly as written.
+  - literal: mapName
+    name: mapName
+    restoreAs: "///mapName///"
+    description: the name of the current region. Copy it exactly as written.
+  - literal: gangWuxue
+    name: gangMartialArts
+    restoreAs: "///gangWuxue///"
+    description: a phrase listing the martial arts this gang is known for, added by the game. Copy it exactly as written.
+  - literal: lastRandomAttributeName
+    name: attributeName
+    restoreAs: "///lastRandomAttributeName///"
+    description: the name of an attribute, filled in by the game. Copy it exactly as written.
+  - literal: gangJoinCDRemain
+    name: cooldownRemaining
+    restoreAs: "///gangJoinCDRemain///"
+    description: a number of days, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)fp(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: playerFirstName
+    restoreAs: "///fp///"
+    description: "the player's first name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)lp(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: playerLastName
+    restoreAs: "///lp///"
+    description: "the player's family name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)p(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: playerName
+    restoreAs: "///p///"
+    description: "the player's full name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)a(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: npcName
+    restoreAs: "///a///"
+    description: the name of the character in this scene, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)b(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: otherNpcName
+    restoreAs: "///b///"
+    description: the name of a second character in this scene, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i1(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: randomItemOne
+    restoreAs: "///i1///"
+    description: the name of an item, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i2(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: randomItemTwo
+    restoreAs: "///i2///"
+    description: the name of a second item, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: randomItem
+    restoreAs: "///i///"
+    description: the name of an item, filled in by the game. Copy it exactly as written.
+  - pattern: '\[[^\[\]|]{1,8}\|\|[^\[\]|]{1,8}\]'
+    name: playerTitle
+    restoreFromGlossary: true
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written.

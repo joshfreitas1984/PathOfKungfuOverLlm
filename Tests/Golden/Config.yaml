@@ -1,0 +1,142 @@
+# Same model choices as DragonHierOverLlm (Qwen2.5 14B Instruct translator, Qwen3.8 27B IQ4_XS for every QC role).
+# The FIRST entry in `models` is the main translator
+# model (see FanslationStudio.LlmKit's LlmHelpers.CalculateModelConfig). Shape: LlmKit
+# docs/architecture/downstream-project-structure/downstream-config-shape.md
+models:
+  - name: Qwen25-Standard
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    customPromptsPath:              # blank = LlmKit's embedded defaults (or point at the Prompts folder)
+    apiKeyPath:
+    model: qwen2.5:14b-instruct
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
+
+glossaryPreset:
+  usePresetChineseGlossary: true
+
+useContinuousWorkerPool: true
+maxConcurrency: 4
+retryCount: 3
+# escalationModelName: Translator-Standard
+# escalationRetryCount: 1
+batchSize: 20
+skipLineValidation: false
+correctionPromptsEnabled: true
+translateFlagged: true
+
+# Adds per-line context from the game to the prompt: a line naming a character from CharacterGenders.yaml is told their gender.
+lineContextEnabled: true
+
+# QC settings copied from DragonHierOverLlm (same models). autoAcceptDefectCategories and minAcceptableScore came from
+# that game's own hand-triage; re-check them against this game's QC output (plan step 6).
+qualityControl:
+  enabled: true
+  # Single model for every QC role (detection/verification/correction/repair) - see
+  # ../FanslationStudio.LlmKit/docs/investigations/qc-evaluator-model-selection.md for why, and why a faster/cheaper
+  # corrector model was tried and rejected.
+  modelName: Qwen38Qc-IQ4XS
+  minAcceptableScore: 60
+  maxConcurrency: 2
+  inlineRuleCheckRetries: 2
+  autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
+  # Switched off 2026-09-20 to prioritize detection-phase throughput: measured against the current
+  # production quant, doubled detection costs ~15h across the full corpus for a thin recall lift
+  # (1/18 in-scope defect rows in the original measurement) - see
+  # ../FanslationStudio.LlmKit/docs/investigations/qc-evaluator-model-selection.md's "Process variants" section. Revert
+  # to true (or remove this line) if speed stops being the priority.
+  doubledDetectionEnabled: false
+  # Detection-only temperature (corrections keep Qwen38's 0.15): makes QC verdicts and gold-set
+  # runs repeatable - at 0.15 the identical request was seen to return NONE then DROPPED_CONTENT.
+  detectionTemperature: 0
+  # One verify->repair round instead of the default two (2026-10-03): on a defect-heavy batch the
+  # second repair round was accepted 0 of 10 times (13 of 21 repairs returned the candidate
+  # unchanged), so it only added ~17% more calls per flagged column. Raise back to 2 to restore it.
+  maxScoreRepairIterations: 1
+  # Verifier must quote the text each rejection is about; rejections quoting nothing real are
+  # overruled and the quotes guide the repair (2026-10-03: flagged 2-3 -> 1 of 28, same call count).
+  # The pre-verification gate is on by default in LlmKit (preVerificationGateEnabled).
+  verificationEvidenceEnabled: true
+
+# Runtime tokens the model reads under a name instead of the game's <...> syntax, put back exactly after translation
+# (LlmKit NamedTokenReplacer). A gender alternative is swapped for its Player-Gender-Tokens.yaml result, so the model never
+# writes it and cannot guess a gender from the pair. Pronoun alternatives (<他||她>) and sentence-length ones stay visible:
+# the model has to pick he/him/his itself.
+namedTokenReplacers:
+  - literal: "<fName>"
+    name: firstName
+    description: the player's first name. Copy it exactly as written.
+  - literal: "<lName>"
+    name: lastName
+    description: the player's family name. Copy it exactly as written.
+  - literal: "<name>"
+    name: fullName
+    description: a character's name, filled in by the game. Copy it exactly as written.
+  - literal: "<faction>"
+    name: faction
+    description: a faction name, filled in by the game. Copy it exactly as written.
+  - pattern: '<(?!他\|\|她>)[^<>|]{1,8}\|\|[^<>|]{1,8}>'
+    name: playerTitle
+    restoreFromGlossary: true
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written.
+
+  # NPC dialogue and action text: the game replaces these bare words and letters itself, and in English mode only recognises them
+  # written ///token/// (as in its own NPC_EN workbook), so they come back wrapped. See docs/investigations/runtime-tokens.md.
+  - literal: gangName
+    name: gangName
+    restoreAs: "///gangName///"
+    description: the name of the gang in this area. Copy it exactly as written.
+  - literal: mapName
+    name: mapName
+    restoreAs: "///mapName///"
+    description: the name of the current region. Copy it exactly as written.
+  - literal: gangWuxue
+    name: gangMartialArts
+    restoreAs: "///gangWuxue///"
+    description: a phrase listing the martial arts this gang is known for, added by the game. Copy it exactly as written.
+  - literal: lastRandomAttributeName
+    name: attributeName
+    restoreAs: "///lastRandomAttributeName///"
+    description: the name of an attribute, filled in by the game. Copy it exactly as written.
+  - literal: gangJoinCDRemain
+    name: cooldownRemaining
+    restoreAs: "///gangJoinCDRemain///"
+    description: a number of days, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)fp(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: playerFirstName
+    restoreAs: "///fp///"
+    description: "the player's first name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)lp(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: playerLastName
+    restoreAs: "///lp///"
+    description: "the player's family name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)p(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: playerName
+    restoreAs: "///p///"
+    description: "the player's full name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)a(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: npcName
+    restoreAs: "///a///"
+    description: the name of the character in this scene, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)b(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: otherNpcName
+    restoreAs: "///b///"
+    description: the name of a second character in this scene, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i1(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: randomItemOne
+    restoreAs: "///i1///"
+    description: the name of an item, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i2(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: randomItemTwo
+    restoreAs: "///i2///"
+    description: the name of a second item, filled in by the game. Copy it exactly as written.
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+    name: randomItem
+    restoreAs: "///i///"
+    description: the name of an item, filled in by the game. Copy it exactly as written.
+  - pattern: '\[[^\[\]|]{1,8}\|\|[^\[\]|]{1,8}\]'
+    name: playerTitle
+    restoreFromGlossary: true
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written.
