@@ -3,15 +3,27 @@
   - split: 2
     text: "武学名"
     translated: "Martial Art name"
+    qcReviewedText: "Martial Art name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "武学描述"
     translated: "Martial Art description"
+    qcReviewedText: "Martial Art description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,Id,name,type,Skill,des,icon"
 - raw: "3,502000,轻击·单手轻刃,2,9020001;9020002;9020003,江湖中流转的单手轻刃武学，招式轻灵潇洒，迅疾无形。连续按键会使出连续轻击动作。,tricks/9020000"
   splits:
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·One-Handed Light Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "单手轻刃"
@@ -19,6 +31,13 @@
   - split: 5
     text: "江湖中流转的单手轻刃武学，招式轻灵潇洒，迅疾无形。连续按键会使出连续轻击动作。"
     translated: "The one-handed light blade martial art that circulates in the Jianghu features swift and graceful moves that are quick and formless.\\n\\nContinuous button presses will execute a series of light attacks. Continuous button presses will execute a series of light attacks."
+    qcReviewedText: "The one-handed light blade martial art that circulates in the Jianghu features swift and graceful moves that are quick and formless.\\n\\nContinuous button presses will execute a series of light attacks. Continuous button presses will execute a series of light attacks."
+    qcTranslated: "The One-Handed Light Blade Martial Art that circulates in the Jianghu features swift and graceful Moves that are quick and formless.\\n\\nContinuous button presses will execute a series of Light Attacks."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -27,6 +46,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Heavy Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "重刃"
@@ -34,6 +57,10 @@
   - split: 5
     text: "江湖中流转的重刃武学，招式如封似闭，重若千钧。连续按键会使出连续轻击动作。"
     translated: "The Heavy Blade martial art circulating in the Jianghu, with moves as sealed and closed as a vault, heavy as a thousand catties. Continuous button presses will perform a series of Light Attack actions."
+    qcReviewedText: "The Heavy Blade martial art circulating in the Jianghu, with moves as sealed and closed as a vault, heavy as a thousand catties. Continuous button presses will perform a series of Light Attack actions."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -42,6 +69,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Polearm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "长兵"
@@ -49,6 +80,10 @@
   - split: 5
     text: "江湖中流转的长兵武学，招式大开大合，威势惊人，令人闻之生畏。连续按键会使出连续轻击动作。"
     translated: "The polearm martial arts circulating in the Jianghu feature expansive and powerful moves that are truly awe-inspiring. Rapidly pressing buttons will execute a series of light attacks."
+    qcReviewedText: "The polearm martial arts circulating in the Jianghu feature expansive and powerful moves that are truly awe-inspiring. Rapidly pressing buttons will execute a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -57,6 +92,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Fan Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "扇法"
@@ -64,6 +103,10 @@
   - split: 5
     text: "江湖中流转的扇法武学，招式潇洒灵动，却亦暗藏杀机。连续按键会使出连续轻击动作。"
     translated: "The fan art martial arts circulating in the Jianghu feature graceful and agile moves, yet they also conceal deadly intentions. Pressing keys consecutively will perform a series of light attacks."
+    qcReviewedText: "The fan art martial arts circulating in the Jianghu feature graceful and agile moves, yet they also conceal deadly intentions. Pressing keys consecutively will perform a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -72,6 +115,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Fist & Palm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "拳掌"
@@ -79,6 +126,10 @@
   - split: 5
     text: "江湖中流转的拳法武学，招式如奔马飞瀑，势不可挡。连续按键会使出连续轻击动作。"
     translated: "The martial arts boxing techniques circulating in the Jianghu, with moves like galloping horses and cascading waterfalls, are unstoppable. Pressing keys continuously will perform a series of light attacks."
+    qcReviewedText: "The martial arts boxing techniques circulating in the Jianghu, with moves like galloping horses and cascading waterfalls, are unstoppable. Pressing keys continuously will perform a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -87,6 +138,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "暗器"
@@ -94,6 +149,10 @@
   - split: 5
     text: "江湖中流转的暗器武学，其内杀机隐现，至阴至险。连续按键会使出连续轻击动作。"
     translated: "The hidden weapons and martial arts that circulate in Jianghu conceal inner malevolence, deeply sinister and treacherous. Continuous button presses will perform a series of light attacks."
+    qcReviewedText: "The hidden weapons and martial arts that circulate in Jianghu conceal inner malevolence, deeply sinister and treacherous. Continuous button presses will perform a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -102,6 +161,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Legwork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "腿脚"
@@ -109,6 +172,10 @@
   - split: 5
     text: "江湖中流转的腿法武学，刚猛无匹。连续按键会使出连续轻击动作。"
     translated: "The leg techniques circulating in the Jianghu are incredibly powerful. Continuous button presses will perform a series of light attacks."
+    qcReviewedText: "The leg techniques circulating in the Jianghu are incredibly powerful. Continuous button presses will perform a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -117,6 +184,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Two-Handed Light Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "双手轻刃"
@@ -124,6 +195,10 @@
   - split: 5
     text: "江湖中流转的双手轻刃武学，其招式与中原武学迥异。连续按键会使出连续轻击动作。"
     translated: "The Two-Handed Light Blade martial arts that circulate in the Jianghu have moves that differ greatly from those of Central Plains martial arts. Pressing buttons consecutively will perform a series of Light Attacks."
+    qcReviewedText: "The Two-Handed Light Blade martial arts that circulate in the Jianghu have moves that differ greatly from those of Central Plains martial arts. Pressing buttons consecutively will perform a series of Light Attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -132,6 +207,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Rope Dart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "绳镖"
@@ -139,6 +218,10 @@
   - split: 5
     text: "江湖中流转的绳镖武学，多为诡门所习，令人防不胜防。连续按键会使出连续轻击动作。"
     translated: "The Rope Dart martial arts circulating in the Jianghu are mostly practiced by the Guimen, making it hard for others to guard against. Continuous button presses will perform a series of Light Attacks."
+    qcReviewedText: "The Rope Dart martial arts circulating in the Jianghu are mostly practiced by the Guimen, making it hard for others to guard against. Continuous button presses will perform a series of Light Attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -147,6 +230,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Bow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "弓箭"
@@ -154,6 +241,10 @@
   - split: 5
     text: "江湖中流转的弓箭操持之法，多为军阵所传，连续按键会使出连续轻击动作。"
     translated: "The methods of handling a bow in the Jianghu are mostly passed down from military formations, and rapid button presses will execute a series of light attacks."
+    qcReviewedText: "The methods of handling a bow in the Jianghu are mostly passed down from military formations, and rapid button presses will execute a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -162,6 +253,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Whip"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "软鞭"
@@ -169,6 +264,14 @@
   - split: 5
     text: "江湖中流转的软鞭武学，多为南疆武学，招式刚柔并济，招式诡谲令人防不胜防。"
     translated: "The whips used in Jianghu are mostly from the martial arts of southern frontier regions, with moves that blend hardness and softness, their mysterious nature making them unpredictable and hard to guard against. The unpredictable and hard to guard against situation has arrived."
+    qcReviewedText: "The whips used in Jianghu are mostly from the martial arts of southern frontier regions, with moves that blend hardness and softness, their mysterious nature making them unpredictable and hard to guard against. The unpredictable and hard to guard against situation has arrived."
+    qcTranslated: "The Whip Martial Arts circulating in Jianghu are mostly from the southern frontier regions, with Moves that blend hardness and softness, their mysterious nature making them unpredictable and hard to guard against."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - HardToParseSeam
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -177,6 +280,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Firearm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "火器"
@@ -184,6 +291,10 @@
   - split: 5
     text: "江湖中流传的火器操持之法，势如霹雳，动若惊雷，连续按键会使出连击轻击动作"
     translated: "The methods of handling firearms in the Jianghu are like thunderbolts, swift as lightning. Pressing buttons consecutively will perform a series of light attacks."
+    qcReviewedText: "The methods of handling firearms in the Jianghu are like thunderbolts, swift as lightning. Pressing buttons consecutively will perform a series of light attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -192,6 +303,10 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
+    qcReviewedText: "Light Attack·Short Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "短兵"
@@ -199,6 +314,10 @@
   - split: 5
     text: "江湖中流转的短兵武学，轻灵迅疾，千变万化。连续按键会使出连续轻击动作。"
     translated: "The short weapons martial arts circulating in the Jianghu are light, swift, and ever-changing. Pressing buttons consecutively will perform a series of Light Attacks."
+    qcReviewedText: "The short weapons martial arts circulating in the Jianghu are light, swift, and ever-changing. Pressing buttons consecutively will perform a series of Light Attacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"

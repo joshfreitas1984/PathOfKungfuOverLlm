@@ -3,26 +3,50 @@
   - split: 2
     text: "武学名"
     translated: "Martial Art name"
+    qcReviewedText: "Martial Art name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "武学描述"
     translated: "Martial Art description"
+    qcReviewedText: "Martial Art description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,Id,name,tipType,tipSect,attackType,DefatultState,Skill,NomalSkill,lockSkill,weapon,des,icon,AIName,open_would,,,AI,AI2,"
 - raw: "3,101000,拳掌通式,拳掌,江湖武学,1,quan/Idle3,1010001;1010002,,,1,江湖中流转的拳法武学通用招式。,skill/101000,\"AI_quan3_1,AI_quan3_2,AI_quan3_3\",1,101000,拳掌通式,,,"
   splits:
   - split: 2
     text: "拳掌通式"
     translated: "Fist & Palm Common Form"
+    qcReviewedText: "Fist & Palm Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的拳法武学通用招式。"
     translated: "The common moves of fist techniques and martial arts circulating in the Jianghu."
+    qcReviewedText: "The common moves of fist techniques and martial arts circulating in the Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,101001,千锻拳势,拳掌,江湖武学,1,quan/Idle3,1010101_1;1010102;1010103_1;1010104;1010105;1010106;1010107;1010108;1010109;1010110;1010111;1010112;1010113,1010001;1010002,,1,拳势如锤，于转折伸缩之间刚柔并济，拆打八方。（影响属性：武力）,skill/101001,\"AI_quan3_1,AI_quan3_2,AI_quan3_3\",1,101001,千锻拳势,87,121,"
   splits:
   - split: 2
     text: "千锻拳势"
     translated: "Thousand-Forged Fist Stance"
+    qcReviewedText: "Thousand-Forged Fist Stance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "拳势如锤，于转折伸缩之间刚柔并济，拆打八方。（影响属性"
     translated: "The fist movements are like a hammer, combining hardness and flexibility as they extend and retract, attacking from all directions. (Affects Attributes"
+    qcReviewedText: "The fist movements are like a hammer, combining hardness and flexibility as they extend and retract, attacking from all directions. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -35,9 +59,17 @@
   - split: 2
     text: "伏阳开碑拳"
     translated: "Yang-Subduing Stele-Splitting Fist"
+    qcReviewedText: "Yang-Subduing Stele-Splitting Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "至阳至刚，至横至猛，劲力迅强，有崩铠裂石之威。（影响属性"
     translated: "Extremely yang and rigid, extremely fierce and powerful, with swift and strong force, capable of shattering armor and splitting rocks. (Affects Attributes"
+    qcReviewedText: "Extremely yang and rigid, extremely fierce and powerful, with swift and strong force, capable of shattering armor and splitting rocks. (Affects Attributes：Balance)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "均衡）"
@@ -50,9 +82,17 @@
   - split: 2
     text: "太极拳"
     translated: "Taiji Fist"
+    qcReviewedText: "Taiji Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "太和正法，真武太极，此拳法不拘门户之见，人人皆可修习，太极拳法自浅入深，以柔克刚，若然悟性心性不够，纵拳法天才亦难全尽其威。（影响属性"
     translated: "Taihe Doctrine, True Martial Taiji, this boxing style transcends sectarian boundaries, open to all who wish to practice it. Taiji Fist progresses from shallow to deep, using flexibility to overcome rigidity. If one's Comprehension and nature are not sufficient, even a genius of the art cannot fully realize its power. (Affects Attributes"
+    qcReviewedText: "Taihe Doctrine, True Martial Taiji, this boxing style transcends sectarian boundaries, open to all who wish to practice it. Taiji Fist progresses from shallow to deep, using flexibility to overcome rigidity. If one's Comprehension and nature are not sufficient, even a genius of the art cannot fully realize its power. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -65,9 +105,17 @@
   - split: 2
     text: "神通剑指"
     translated: "Divine Sword Fingers"
+    qcReviewedText: "Divine Sword Fingers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "据传为前朝靖南王所创的神妙武学，非内力盖世者断难修习，倘若练至大成，出手则剑气纵横，能杀人于百步之外。（影响属性"
     translated: "This divine martial art, said to have been created by the Prince Jingnan of the previous dynasty, is beyond the reach of those without extraordinary Inner Power. If mastered, one's sword techniques would be devastating, capable of killing from a hundred paces away. (Affects Attributes"
+    qcReviewedText: "This divine martial art, said to have been created by the Prince Jingnan of the previous dynasty, is beyond the reach of those without extraordinary Inner Power. If mastered, one's sword techniques would be devastating, capable of killing from a hundred paces away. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -80,17 +128,33 @@
   - split: 2
     text: "单手轻刃通式"
     translated: "One-Handed Light Blade Common Form"
+    qcReviewedText: "One-Handed Light Blade Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的单手轻刃武学通用招式。"
     translated: "The common moves of the one-handed light blade martial art circulating in the Jianghu."
+    qcReviewedText: "The common moves of the one-handed light blade martial art circulating in the Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,102001,凌鸿剑势,单手轻刃,江湖武学,1,jian/Idle,1020201_1;1020202;1020203;1020204;1020205;1020206;1020207;1020208;1020209;1020210;1020211;1020212;1020213,1020001;1020002,1020201_2;1020201_3;1020201_2_2,2,惊鸿翩然，飞巧凌击，孤鸿之悲，何问归途，恩仇两别处，破甲三千里。（影响属性：身法）,skill/102001,\"AI_Jian1_1,AI_Jian1_2,AI_Jian1_3\",1,102001,凌鸿剑势,82,120,"
   splits:
   - split: 2
     text: "凌鸿剑势"
     translated: "Soaring Swan Sword Stance"
+    qcReviewedText: "Soaring Swan Sword Stance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "惊鸿翩然，飞巧凌击，孤鸿之悲，何问归途，恩仇两别处，破甲三千里。（影响属性"
     translated: "Swift Swallow, Dextrous Strike, Lament of the Solitary Wild Goose, Where Lies the Path Home, Vows of Love and Hate Part Ways, Armor Break for a Thousand Li. (Affects Attributes"
+    qcReviewedText: "Swift Swallow, Dextrous Strike, Lament of the Solitary Wild Goose, Where Lies the Path Home, Vows of Love and Hate Part Ways, Armor Break for a Thousand Li. (Affects Attributes：Agility)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "身法）"
@@ -103,9 +167,17 @@
   - split: 2
     text: "清风剑法"
     translated: "Clear Wind Sword Art"
+    qcReviewedText: "Clear Wind Sword Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "清风快剑，迅疾无形，其势轻灵潇洒，据传由江湖前客江怀楚所创，后江怀楚身死于镇国卫，功法下落不明。（影响属性"
     translated: "Swift Sword of Clear Wind, quick and formless, its movements light and graceful. It is said to have been created by the former Jianghu wanderer Jiang Huichu, who later died at the hands of the State Guard, leaving the fate of the technique unknown. (Affects Attributes"
+    qcReviewedText: "Swift Sword of Clear Wind, quick and formless, its movements light and graceful. It is said to have been created by the former Jianghu wanderer Jiang Huichu, who later died at the hands of the State Guard, leaving the fate of the technique unknown. (Affects Attributes：Agility)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "身法）"
@@ -118,9 +190,17 @@
   - split: 2
     text: "沧海观澜刀法"
     translated: "Vast Sea Wave-Watching Blade Art"
+    qcReviewedText: "Vast Sea Wave-Watching Blade Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "天涯海阁所传刀法，为天涯海阁门主左三思凭海观澜所创，其势骤烈，似沧海浪涛。（影响属性"
     translated: "The Blade Art passed down by Tianya Haige was created by the sect leader Zuo Sansi while gazing at the sea. Its movements are sudden and intense, like the waves of the vast ocean. (Affects Attributes"
+    qcReviewedText: "The Blade Art passed down by Tianya Haige was created by the sect leader Zuo Sansi while gazing at the sea. Its movements are sudden and intense, like the waves of the vast ocean. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -133,9 +213,17 @@
   - split: 2
     text: "两仪剑法"
     translated: "Twin Polarity Sword Art"
+    qcReviewedText: "Twin Polarity Sword Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "太和剑法，谓阴阳之初分，定化两仪，囊含四宇，至真至纯，为道家剑法真传，其广博精妙，远非寻常江湖招式可比，但若然心性不诚，悟性不足，纵学其剑法之形亦是枉然。（影响属性"
     translated: "Taihe Swordsmanship, which marks the initial differentiation of yin and yang, defines Transforming the Two Forms, encompassing the four realms, pure and true, it is the genuine transmission of Daoist Sword Technique. Its vastness and profundity far surpass ordinary Jianghu moves, but if one's sincerity is lacking or Comprehension insufficient, even learning its form would be in vain. (Affects Attributes"
+    qcReviewedText: "Taihe Swordsmanship, which marks the initial differentiation of yin and yang, defines Transforming the Two Forms, encompassing the four realms, pure and true, it is the genuine transmission of Daoist Sword Technique. Its vastness and profundity far surpass ordinary Jianghu moves, but if one's sincerity is lacking or Comprehension insufficient, even learning its form would be in vain. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -148,9 +236,17 @@
   - split: 2
     text: "浮萍剑诀"
     translated: "Drifting Duckweed Sword Formula"
+    qcReviewedText: "Drifting Duckweed Sword Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "聚散如浮萍，死生犹幻沫，此剑法据传乃前朝一无名宫宦所创，诡迅凌厉，进退如风。（影响属性"
     translated: "Gatherings and partings are like floating algae; life and death are but illusory foam. This sword technique is said to have been created by an unnamed palace official from the previous dynasty, with its elusive swiftness and fierce ferocity, advancing and retreating like the wind. (Affects Attributes"
+    qcReviewedText: "Gatherings and partings are like floating algae; life and death are but illusory foam. This sword technique is said to have been created by an unnamed palace official from the previous dynasty, with its elusive swiftness and fierce ferocity, advancing and retreating like the wind. (Affects Attributes：Agility)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "身法）"
@@ -163,9 +259,21 @@
   - split: 2
     text: "槎枒寻梅"
     translated: "Gnarled Branches Seek Plum Blossoms"
+    qcReviewedText: "Gnarled Branches Seek Plum Blossoms"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "于红梅合天山、少林两派之长创出的刀法，煞气腾腾中不失高妙意境，但其中杀意过重，心志不坚者倘若妄加习练，难免堕入魔道。（影响属性"
     translated: "The Sword Art Yu Hongmei created in conjunction with the strengths of Tianshan and Shaolin is brimming with malevolent energy but retains a profound elegance. The Sword Art Yu Hongmei created in conjunction with the strengths of Tianshan and Shaolin is brimming with malevolent energy but retains a profound elegance. However, its intense killing intent could lead those with weak resolve down the path of evil if they attempt to practice it. (Affects Attributes"
+    qcReviewedText: "The Sword Art Yu Hongmei created in conjunction with the strengths of Tianshan and Shaolin is brimming with malevolent energy but retains a profound elegance. The Sword Art Yu Hongmei created in conjunction with the strengths of Tianshan and Shaolin is brimming with malevolent energy but retains a profound elegance. However, its intense killing intent could lead those with weak resolve down the path of evil if they attempt to practice it. (Affects Attributes：Inner Qi)"
+    qcTranslated: "The Blade Art Yu Hongmei created in conjunction with the strengths of Tianshan and Shaolin is brimming with malevolent energy but retains a profound elegance. However, its intense killing intent could lead those with weak resolve down the path of evil if they attempt to practice it. (Affects Attributes：Inner Qi)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - OtherNamedDefect
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -178,17 +286,37 @@
   - split: 2
     text: "重刃通式"
     translated: "Heavy Blade Common Form"
+    qcReviewedText: "Heavy Blade Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的重刃武学，招式如封似闭，重若千钧。"
     translated: "The Heavy Blade Martial Arts circulating in the Jianghu, with moves as sealed and closed as a fortress, weighing heavily like a thousand catties."
+    qcReviewedText: "The Heavy Blade Martial Arts circulating in the Jianghu, with moves as sealed and closed as a fortress, weighing heavily like a thousand catties."
+    qcTranslated: "The Heavy Blade Martial Art circulating in the Jianghu, with Moves that are sealed and closed, heavy as a thousand catties."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "16,103001,斩铁无锋卷,重刃,江湖武学,1,zhongren/Idle,1030101;1030102;1030103;1030104;1030105;1030106;1030107;1030108;1030109;1030110;1030111;1030112;1030113,1030001;1030002,,3,重刃无锋，大巧不工，时名斩铁，以拙胜巧，何须奇技于侧，人剑为一，此身即斩。（影响属性：武力）,skill/103001,\"AI_zhongren_1,AI_zhongren_2,AI_zhongren_3\",1,103001,斩铁无锋卷,89,123,"
   splits:
   - split: 2
     text: "斩铁无锋卷"
     translated: "Edgeless Iron-Cleaving Scroll"
+    qcReviewedText: "Edgeless Iron-Cleaving Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "重刃无锋，大巧不工，时名斩铁，以拙胜巧，何须奇技于侧，人剑为一，此身即斩。（影响属性"
     translated: "A heavy blade has no edge; true skill is not in craftsmanship. Known as the Iron-Cleaver, it uses clumsiness to overcome dexterity. Why seek strange techniques? The wielder and sword become one, this form is the cleaver. (Affects Attributes"
+    qcReviewedText: "A heavy blade has no edge; true skill is not in craftsmanship. Known as the Iron-Cleaver, it uses clumsiness to overcome dexterity. Why seek strange techniques? The wielder and sword become one, this form is the cleaver. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -201,9 +329,17 @@
   - split: 2
     text: "醉君侯刀铭"
     translated: "Drunken Marquis Blade Inscription"
+    qcReviewedText: "Drunken Marquis Blade Inscription"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "大旗门所传军阵刀法，运如电掣，势如虎跃龙腾，极尽刚猛，锋刃所向，万敌俯首。（影响属性"
     translated: "The military formation blade art passed down by the Daqi Sect, swift as lightning, fierce as a tiger leaping and a dragon soaring, is extremely powerful. Wherever its sharp edge points, ten thousand enemies bow their heads. (Affects Attributes"
+    qcReviewedText: "The military formation blade art passed down by the Daqi Sect, swift as lightning, fierce as a tiger leaping and a dragon soaring, is extremely powerful. Wherever its sharp edge points, ten thousand enemies bow their heads. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -216,17 +352,33 @@
   - split: 2
     text: "长兵通式"
     translated: "Polearm Common Form"
+    qcReviewedText: "Polearm Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的长兵武学，招式大开大合，威势惊人，令人闻之生畏。"
     translated: "The polearm martial arts circulating in the Jianghu feature grand and sweeping moves that are awe-inspiring and fearsome to hear of."
+    qcReviewedText: "The polearm martial arts circulating in the Jianghu feature grand and sweeping moves that are awe-inspiring and fearsome to hear of."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,104001,北顾枪法,长兵,江湖武学,1,qiangfa/Idle,1040101;1040102;1040103;1040104;1040105;1040106;1040107;1040108;1040109;1040110;1040111;1040112;1040113,1040001;1040002,,4,军阵所传枪法，拦扎扫打，有进无退，招式大开大阖，雄浑质朴。（影响属性：身法）,skill/104001,\"AI_qiangfa2_1,AI_qiangfa2_2,AI_qiangfa2_3\",1,104001,北顾枪法,90,122,"
   splits:
   - split: 2
     text: "北顾枪法"
     translated: "Northward Gaze Spear Art"
+    qcReviewedText: "Northward Gaze Spear Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "军阵所传枪法，拦扎扫打，有进无退，招式大开大阖，雄浑质朴。（影响属性"
     translated: "The spear techniques passed down in military formations involve blocking, advancing, sweeping, and striking. There is no retreat; the moves are grand and expansive, powerful yet straightforward. (Affects Attributes"
+    qcReviewedText: "The spear techniques passed down in military formations involve blocking, advancing, sweeping, and striking. There is no retreat; the moves are grand and expansive, powerful yet straightforward. (Affects Attributes：Agility)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "身法）"
@@ -239,9 +391,17 @@
   - split: 2
     text: "玄黄入阵旌"
     translated: "Heaven-and-Earth Formation Banner"
+    qcReviewedText: "Heaven-and-Earth Formation Banner"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "有轩辕氏，玄血入阵，巡视四方，踏八荒而定九州，此为十方拜服之旌。（影响属性"
     translated: "There was the Yellow Emperor, with his dark blood in the array, surveying all directions, treading upon the eight wildernesses to stabilize the Nine Provinces. This is the banner under which all bow down. (Affects Attributes"
+    qcReviewedText: "There was the Yellow Emperor, with his dark blood in the array, surveying all directions, treading upon the eight wildernesses to stabilize the Nine Provinces. This is the banner under which all bow down. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -254,9 +414,21 @@
   - split: 2
     text: "众相菩提杖"
     translated: "Bodhi Staff of All Forms"
+    qcReviewedText: "Bodhi Staff of All Forms"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "勾栏挂靠，伸缩圈点，明心释性，佛念昭然。（影响属性"
     translated: "Hooked lattice reliance, stretching circle pointing, clarifying heart and nature, Buddha's teachings revealed. (Affects Attributes"
+    qcReviewedText: "Hooked lattice reliance, stretching circle pointing, clarifying heart and nature, Buddha's teachings revealed. (Affects Attributes：Physique)"
+    qcTranslated: "Lattice hooks and brackets, flexible circles and dots, clarifying the mind and nature, Buddha's teachings made manifest. (Affects Attributes: Physique)"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 11
     subIndex: 1
     text: "筋骨）"
@@ -269,9 +441,17 @@
   - split: 2
     text: "镇国抵岳枪"
     translated: "Nation-Guarding Mountain-Resisting Spear"
+    qcReviewedText: "Nation-Guarding Mountain-Resisting Spear"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "据传乃镇国公所创，威凌八方，枪影蔽日，势如蛟龙出渊，层层叠叠，又如银蛇乱舞，泼水难入。（影响属性"
     translated: "Legend has it that it was created by the Duke of the Nation, with a power that overawes all directions. Spear shadows block out the sun, its momentum like a dragon emerging from the depths, layer upon layer, also like silver snakes dancing wildly, making it impervious to water. (Affects Attributes"
+    qcReviewedText: "Legend has it that it was created by the Duke of the Nation, with a power that overawes all directions. Spear shadows block out the sun, its momentum like a dragon emerging from the depths, layer upon layer, also like silver snakes dancing wildly, making it impervious to water. (Affects Attributes：Agility)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "身法）"
@@ -284,17 +464,33 @@
   - split: 2
     text: "扇法通式"
     translated: "Fan Art Common Form"
+    qcReviewedText: "Fan Art Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的扇法武学，招式潇洒灵动，却亦暗藏杀机。"
     translated: "The fan art martial arts circulating in the Jianghu are graceful and agile moves, yet they also conceal deadly intentions."
+    qcReviewedText: "The fan art martial arts circulating in the Jianghu are graceful and agile moves, yet they also conceal deadly intentions."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "24,105001,悲遮扇法,扇子,天涯海阁,2,shanzi/Idle,1050101;1050102;1050103;1050104;1050105;1050106;1050107;1050108;1050109;1050110;1050111;1050112;1050113,1050001;1050002,,5,遗响而悲风，遮拦迷眼，文人风骨轻赋，此扇法出自天涯海阁，集百家之长，其式亦隐隐有文章凤姿所在。（影响属性：内息）,skill/105001,\"AI_Shanzi1_1,AI_Shanzi1_2,AI_Shanzi1_3\",0,105001,悲遮扇法,93,126,"
   splits:
   - split: 2
     text: "悲遮扇法"
     translated: "Sorrow-Veiled Fan Art"
+    qcReviewedText: "Sorrow-Veiled Fan Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "遗响而悲风，遮拦迷眼，文人风骨轻赋，此扇法出自天涯海阁，集百家之长，其式亦隐隐有文章凤姿所在。（影响属性"
     translated: "Echoing with mournful winds, obstructing and blinding, the scholar's spirit lightly endows this fan art, which originates from Tianya Haige, drawing on the strengths of many schools, its form subtly bearing the grace of literary elegance. (Affects Attributes"
+    qcReviewedText: "Echoing with mournful winds, obstructing and blinding, the scholar's spirit lightly endows this fan art, which originates from Tianya Haige, drawing on the strengths of many schools, its form subtly bearing the grace of literary elegance. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -307,9 +503,17 @@
   - split: 2
     text: "小周天扇法"
     translated: "Microcosmic Orbit Fan Art"
+    qcReviewedText: "Microcosmic Orbit Fan Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "日月两周天，一纸滞途次。此法扇势轻柔，暗藏内劲。身形辗转，飘影绰绰。（影响属性"
     translated: "Day and night, two cycles of heaven, one paper stuck on the path. This technique has a gentle fan motion, concealing inner force within. The figure moves gracefully, a faint shadow shifting. (Affects Attributes"
+    qcReviewedText: "Day and night, two cycles of heaven, one paper stuck on the path. This technique has a gentle fan motion, concealing inner force within. The figure moves gracefully, a faint shadow shifting. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -322,17 +526,33 @@
   - split: 2
     text: "暗器通式"
     translated: "Hidden Weapon Common Form"
+    qcReviewedText: "Hidden Weapon Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的暗器武学，其内杀机隐现，至阴至险。"
     translated: "The hidden weapons and martial arts circulating in Jianghu conceal inner malevolence, being deeply sinister and treacherous."
+    qcReviewedText: "The hidden weapons and martial arts circulating in Jianghu conceal inner malevolence, being deeply sinister and treacherous."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "27,106001,暴雨梨花刀,暗器,江湖武学,2,anqi/Idle,1060101;1060102;1060103;1060104;1060105;1060106;1060107;1060108;1060109;1060110;1060111;1060112;1060113,1060001;1060002,,6,江湖中流转的暗器武学，其内杀机隐现，至阴至险。（影响属性：内息）,skill/106001,\"AI_anqi_1,AI_anqi_2,AI_anqi_3\",1,106001,暴雨梨花刀,94,127,"
   splits:
   - split: 2
     text: "暴雨梨花刀"
     translated: "Rainstorm Pear Blossoms Blade"
+    qcReviewedText: "Rainstorm Pear Blossoms Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的暗器武学，其内杀机隐现，至阴至险。（影响属性"
     translated: "The hidden weapons and martial arts circulating in Jianghu conceal inner malevolence, deeply sinister and treacherous. (Affects Attributes"
+    qcReviewedText: "The hidden weapons and martial arts circulating in Jianghu conceal inner malevolence, deeply sinister and treacherous. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -345,9 +565,17 @@
   - split: 2
     text: "羁离谱"
     translated: "Wanderer's Parting Score"
+    qcReviewedText: "Wanderer's Parting Score"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "于红梅开辟大雪山门后，观天池落雪所创，手法如羚羊挂角不拘一格，暗器去路极尽刁钻飘忽，防不胜防。（影响属性"
     translated: "After Yu Hongmei founded the Daxue Sect, he observed snowfall over the Heavenly Pool and created his techniques. His methods are as elusive as a gazelle hanging from a horn, unpredictable and unconventional. His hidden weapons follow erratic and elusive paths, making them impossible to guard against. (Affects Attributes"
+    qcReviewedText: "After Yu Hongmei founded the Daxue Sect, he observed snowfall over the Heavenly Pool and created his techniques. His methods are as elusive as a gazelle hanging from a horn, unpredictable and unconventional. His hidden weapons follow erratic and elusive paths, making them impossible to guard against. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -360,17 +588,33 @@
   - split: 2
     text: "腿脚通式"
     translated: "Legwork Common Form"
+    qcReviewedText: "Legwork Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的腿法武学通用招式，其势刚劲阳猛。"
     translated: "The leg techniques and common moves of martial arts circulating in the Jianghu are powerful and fierce."
+    qcReviewedText: "The leg techniques and common moves of martial arts circulating in the Jianghu are powerful and fierce."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "30,109001,醉饮降龙无双式,腿脚,江湖武学,1,tui/Idle,1090101;1090102;1090103;1090104;1090105;1090106;1090107;1090108;1090109;1090110;1090111;1090112;1090113,1090001;1090002,,9,半梦半醒，破灭颠倒梦想，人笑饮醉狂歌，岂知人世知音，无双降龙，国士之疏狂，当如是也！（影响属性：武力）,skill/109001,\"AI_tui_1,AI_tui_2,AI_tui_3\",1,109001,醉饮降龙无双式,95,125,"
   splits:
   - split: 2
     text: "醉饮降龙无双式"
     translated: "Drunken Dragon-Subduing Peerless Form"
+    qcReviewedText: "Drunken Dragon-Subduing Peerless Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "半梦半醒，破灭颠倒梦想，人笑饮醉狂歌，岂知人世知音，无双降龙，国士之疏狂，当如是也！（影响属性"
     translated: "Half-dreaming, half-awake, shattering illusions, laughing and drinking in drunken revelry, who knows of true understanding in this world? Unparalleled dragon-subduing, the carefree spirit of a national hero-such is the way! (Affects Attributes"
+    qcReviewedText: "Half-dreaming, half-awake, shattering illusions, laughing and drinking in drunken revelry, who knows of true understanding in this world? Unparalleled dragon-subduing, the carefree spirit of a national hero-such is the way! (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -383,9 +627,17 @@
   - split: 2
     text: "踪影孤鸿"
     translated: "Shadow of the Lone Swan"
+    qcReviewedText: "Shadow of the Lone Swan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江上双飞鸿，饮啄行相随。迅瞬飘忽，似鸿掠苍穹，无影无形，难觅其迹。（影响属性"
     translated: "Swans flying in pairs on the river, feeding and moving together. Swift and elusive, like swans gliding across the sky, unseen and unfound. (Affecting Attributes"
+    qcReviewedText: "Swans flying in pairs on the river, feeding and moving together. Swift and elusive, like swans gliding across the sky, unseen and unfound. (Affecting Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -398,14 +650,26 @@
   - split: 2
     text: "双手轻刃通式"
     translated: "Two-Handed Light Blade Common Form"
+    qcReviewedText: "Two-Handed Light Blade Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流转的双手轻刃武学通用招式，与中原武学迥异。"
     translated: "The common moves of the Two-Handed Light Blade martial art circulating in Jianghu are vastly different from those of Central Plains martial arts."
+    qcReviewedText: "The common moves of the Two-Handed Light Blade martial art circulating in Jianghu are vastly different from those of Central Plains martial arts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "33,110001,无心流·拔刀术,双手轻刃,江湖武学,1,shuangshouqingren/Idle,1100101;1100102;1100103;1100104;1100105;1100106;1100107;1100108;1100109;1100110;1100111;1100112;1100113,1100001;1100002,,10,记载了无心流拔刀术的技巧，其与中原武学迥然不同，除此以外，再无此招式的来历可考。（影响属性：武力）,skill/110001,\"AI_shuangshouqingren_1,AI_shuangshouqingren_2,AI_shuangshouqingren_3\",1,110001,无心流·拔刀术,96,124,"
   splits:
   - split: 2
     text: "无心流"
     translated: "Mindless School"
+    qcReviewedText: "Mindless School·Blade-Drawing Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "拔刀术"
@@ -413,6 +677,10 @@
   - split: 11
     text: "记载了无心流拔刀术的技巧，其与中原武学迥然不同，除此以外，再无此招式的来历可考。（影响属性"
     translated: "Records the techniques of the Mindless School's Blade-Drawing Art, which are vastly different from Central Plains Martial Arts. Beyond this, there is no trace of the origin of this move. (Affects Attributes"
+    qcReviewedText: "Records the techniques of the Mindless School's Blade-Drawing Art, which are vastly different from Central Plains Martial Arts. Beyond this, there is no trace of the origin of this move. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -427,6 +695,10 @@
   - split: 2
     text: "密剑"
     translated: "Secret Sword"
+    qcReviewedText: "Secret Sword·Stones Ringing in the Mountains"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "山中石响"
@@ -434,6 +706,10 @@
   - split: 11
     text: "本属东瀛剑术，随倭乱传入中原后多经口耳相授，真义渐易，自得异妙。（影响属性"
     translated: "This belongs to the swordsmanship of Dongying, which was transmitted to the Central Plains during the Japanese invasions and passed down largely through oral instruction. The true essence gradually changed, leading to unique variations. (Affects Attributes"
+    qcReviewedText: "This belongs to the swordsmanship of Dongying, which was transmitted to the Central Plains during the Japanese invasions and passed down largely through oral instruction. The true essence gradually changed, leading to unique variations. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -448,6 +724,10 @@
   - split: 2
     text: "弑流"
     translated: "Slayer School"
+    qcReviewedText: "Slayer School·Sword-Felling Strike"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "伐剑取"
@@ -455,6 +735,10 @@
   - split: 11
     text: "自东瀛道场流出的剑术秘本，攻敌所必救、击敌所必破，招数煞气腾腾，迅捷明简。（影响属性"
     translated: "A secret sword manual from the dojo of Dongying, attacking where the enemy must defend and striking where the enemy must break; its techniques are menacingly swift and clear. (Affects Attributes"
+    qcReviewedText: "A secret sword manual from the dojo of Dongying, attacking where the enemy must defend and striking where the enemy must break; its techniques are menacingly swift and clear. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -469,9 +753,17 @@
   - split: 2
     text: "天威军阵刀术"
     translated: "Heaven's Might Army Formation Blade Art"
+    qcReviewedText: "Heaven's Might Army Formation Blade Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "自沿海抗倭官军中流传出的军阵刀法，暗含分进合击之法，工正严整，大巧不工。（影响属性"
     translated: "A military formation blade art that emerged from the coastal anti-Wokou forces, containing strategies of dividing and attacking together, is meticulously structured and subtly ingenious. (Affects Attributes"
+    qcReviewedText: "A military formation blade art that emerged from the coastal anti-Wokou forces, containing strategies of dividing and attacking together, is meticulously structured and subtly ingenious. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -484,17 +776,33 @@
   - split: 2
     text: "绳镖通式"
     translated: "Rope Dart Common Form"
+    qcReviewedText: "Rope Dart Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中广为流传的绳镖武学招式，收缚隐蔽，来去自如，令人猝不及防。"
     translated: "The Rope Dart martial art moves widely circulated in the Jianghu are known for their concealment and ease of use, catching opponents off guard."
+    qcReviewedText: "The Rope Dart martial art moves widely circulated in the Jianghu are known for their concealment and ease of use, catching opponents off guard."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "38,111001,流缶金绳镖,绳镖,江湖武学,1,shengbiao/Idle,1110101;1110102;1110103;1110104;1110105;1110106;1110107;1110108;1110109;1110110;1110111;1110112;1110113,1110001;1110002,,11,流火玄金，破缶裂甲，挥扫崩锤，柔中带刚。（影响属性：武力）,skill/111001,\"AI_shengbiao_1,AI_shengbiao_2,AI_shengbiao_3\",1,111001,流缶金绳镖,97,130,"
   splits:
   - split: 2
     text: "流缶金绳镖"
     translated: "Flowing Urn Golden Rope Dart"
+    qcReviewedText: "Flowing Urn Golden Rope Dart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "流火玄金，破缶裂甲，挥扫崩锤，柔中带刚。（影响属性"
     translated: "Flowing fire and dark gold, shattering pots and splitting armor, sweeping and crumbling hammers, soft yet firm. (Affects Attributes"
+    qcReviewedText: "Flowing fire and dark gold, shattering pots and splitting armor, sweeping and crumbling hammers, soft yet firm. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -507,17 +815,33 @@
   - split: 2
     text: "弓箭通式"
     translated: "Bow Common Form"
+    qcReviewedText: "Bow Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "自行伍中传出的弓箭之术，举止皆蕴肃杀之气。"
     translated: "The archery techniques he learned in the military exude a deadly aura in every move."
+    qcReviewedText: "The archery techniques he learned in the military exude a deadly aura in every move."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "40,112001,锋狩控弦决,弓箭,江湖武学,1,gongjian/Idle,1120101;1120102;1120103;1120104;1120105;1120106;1120107;1120108;1120109;1120110;1120111;1120112;1120113,1120001;1120002,,12,尽载军阵所传弓弩操持之法，心体之术分而习练，方能百步穿杨，透石没簇。（影响属性：武力）,skill/112001,\"AI_gongjian_1,AI_gongjian_2,AI_gongjian_3\",1,112001,锋狩控弦决,99,128,"
   splits:
   - split: 2
     text: "锋狩控弦决"
     translated: "Keen Hunter's Bowstring Formula"
+    qcReviewedText: "Keen Hunter's Bowstring Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "尽载军阵所传弓弩操持之法，心体之术分而习练，方能百步穿杨，透石没簇。（影响属性"
     translated: "Master the methods of handling bows and crossbows as taught in military formations, and practice the mind-body techniques separately. Only then can you shoot through the leaves at a hundred paces and pierce stones with your arrows. (Affects Attributes"
+    qcReviewedText: "Master the methods of handling bows and crossbows as taught in military formations, and practice the mind-body techniques separately. Only then can you shoot through the leaves at a hundred paces and pierce stones with your arrows. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -530,17 +854,33 @@
   - split: 2
     text: "软鞭通式"
     translated: "Whip Common Form"
+    qcReviewedText: "Whip Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "鞭法形刁，诡谲奇异，罕于江湖之中，所习软鞭者无不属天资聪颖之辈。"
     translated: "Whip techniques are cunning and bizarre, rare in the Jianghu, and those who practice the whip are invariably of exceptional intelligence."
+    qcReviewedText: "Whip techniques are cunning and bizarre, rare in the Jianghu, and those who practice the whip are invariably of exceptional intelligence."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "42,113001,鳞五净蛊鞭,软鞭,五圣教,1,ruanbian/Idle,1130101;1130102;1130103;1130104;1130105;1130106;1130107;1130108;1130109;1130110;1130111;1130112;1130113,1130001;1130002,,13,蛇，蝎，蟾，蜈，蛛为五圣鳞之灵，辅净蛊锻体，乃五圣教内秘传鞭法。（影响属性：武力）,skill/113001,\"AI_huoqiang_1,AI_huoqiang_2,AI_huoqiang_3\",0,113001,鳞五净蛊鞭,4118,4118,"
   splits:
   - split: 2
     text: "鳞五净蛊鞭"
     translated: "Five-Scale Purifying Gu Whip"
+    qcReviewedText: "Five-Scale Purifying Gu Whip"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "蛇，蝎，蟾，蜈，蛛为五圣鳞之灵，辅净蛊锻体，乃五圣教内秘传鞭法。（影响属性"
     translated: "The snake, scorpion, toad, centipede, and spider are the spirits of the Five Holy Scales, aiding in the purification and strengthening of the body through venom training. This is a secret whip technique within the Wusheng Sect. (Affects Attributes"
+    qcReviewedText: "The snake, scorpion, toad, centipede, and spider are the spirits of the Five Holy Scales, aiding in the purification and strengthening of the body through venom training. This is a secret whip technique within the Wusheng Sect. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -553,9 +893,17 @@
   - split: 2
     text: "掣骨金虹决"
     translated: "Bone-Wrenching Golden Rainbow Formula"
+    qcReviewedText: "Bone-Wrenching Golden Rainbow Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "百年前江湖奇人所创，招式凌厉翩然，劲力如雷，但若内力不济者强行修习，恐伤己身。（影响属性"
     translated: "Created by a Jianghu Eccentric a century ago, this move is sharp and graceful, with power like thunder. However, if someone with insufficient Inner Power attempts to practice it, they may harm themselves. (Affects Attributes"
+    qcReviewedText: "Created by a Jianghu Eccentric a century ago, this move is sharp and graceful, with power like thunder. However, if someone with insufficient Inner Power attempts to practice it, they may harm themselves. (Affects Attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -568,14 +916,26 @@
   - split: 2
     text: "火器通式"
     translated: "Firearm Common Form"
+    qcReviewedText: "Firearm Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "自行伍中传出的火器操练之术，动如雷震。"
     translated: "The firearm drill techniques coming from the military unit moved like thunder."
+    qcReviewedText: "The firearm drill techniques coming from the military unit moved like thunder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "45,114001,西域火器·珠,火器,江湖武学,1,huoqiang/Idle,1140101;1140102;1140103;1140104;1140105;1140106;1140107;1140108;1140109;1140110;1140111;1140112;1140113,1140001;1140002,,14,西域传入的火器机关详解，内含火器养护、击发、拆解等诸多法门，精奥晦杂，难以言述。（影响属性：武力）,skill/114001,\"AI_huoqiang_1,AI_huoqiang_2,AI_huoqiang_3\",1,114001,西域火器·珠,98,131,"
   splits:
   - split: 2
     text: "西域火器"
     translated: "Western Regions Firearm"
+    qcReviewedText: "Western Regions Firearm·Pearl"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "珠"
@@ -583,6 +943,10 @@
   - split: 11
     text: "西域传入的火器机关详解，内含火器养护、击发、拆解等诸多法门，精奥晦杂，难以言述。（影响属性"
     translated: "Detailed explanation of firearms mechanisms introduced from the West, including maintenance, firing, disassembly, and other methods. It is intricate and obscure, difficult to describe. (Affects attributes"
+    qcReviewedText: "Detailed explanation of firearms mechanisms introduced from the West, including maintenance, firing, disassembly, and other methods. It is intricate and obscure, difficult to describe. (Affects attributes：Might)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "武力）"
@@ -597,17 +961,33 @@
   - split: 2
     text: "短兵通式"
     translated: "Short Weapon Common Form"
+    qcReviewedText: "Short Weapon Common Form"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中流传的短兵通式，最擅贴身短打，险中求胜。"
     translated: "The Short Weapon Common Form circulating in the Jianghu excels in close-quarters combat, seeking victory in peril."
+    qcReviewedText: "The Short Weapon Common Form circulating in the Jianghu excels in close-quarters combat, seeking victory in peril."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "47,115001,七情缠蛊匕,短兵,五圣教,2,duanbing/Idle,1150101;1150102;1150103;1150104;1150105;1150106;1150107;1150108;1150109;1150110;1150111;1150112;1150113,1150001;1150002,,15,五圣教秘传，专擅贴身短打，近斗搏杀，观势如情人悱恻，诡雅难明，然却阴狠莫辨，凶毒至极。（影响属性：内息）,skill/115001,\"AI_duanbing_1,AI_duanbing_2,AI_duanbing_3\",1,115001,七情缠蛊匕,100,129,"
   splits:
   - split: 2
     text: "七情缠蛊匕"
     translated: "Seven Emotions Entangling Gu Dagger"
+    qcReviewedText: "Seven Emotions Entangling Gu Dagger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "五圣教秘传，专擅贴身短打，近斗搏杀，观势如情人悱恻，诡雅难明，然却阴狠莫辨，凶毒至极。（影响属性"
     translated: "Wusheng Sect's secret teachings, specializing in close combat, grappling, and fighting at close range. They observe the situation with a lover's tender longing, yet their tactics are mysterious and elusive, harboring hidden viciousness and extreme malevolence. (Affects Attributes"
+    qcReviewedText: "Wusheng Sect's secret teachings, specializing in close combat, grappling, and fighting at close range. They observe the situation with a lover's tender longing, yet their tactics are mysterious and elusive, harboring hidden viciousness and extreme malevolence. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -620,9 +1000,17 @@
   - split: 2
     text: "月残经"
     translated: "Waning Moon Classic"
+    qcReviewedText: "Waning Moon Classic"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "残月出门时，美人和泪辞。如月隐云，如云遮月，势如天华骤现，令敌骨血彻寒。（影响属性"
     translated: "When the crescent moon appears at her departure, the beauty bids farewell with tears. Like moon hidden by clouds, like clouds concealing the moon, it's as if a sudden burst of celestial splendor, chilling the enemy to the bone. (Affects Attributes"
+    qcReviewedText: "When the crescent moon appears at her departure, the beauty bids farewell with tears. Like moon hidden by clouds, like clouds concealing the moon, it's as if a sudden burst of celestial splendor, chilling the enemy to the bone. (Affects Attributes：Inner Qi)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "内息）"
@@ -635,9 +1023,17 @@
   - split: 2
     text: "混合武学"
     translated: "Hybrid Martial Art"
+    qcReviewedText: "Hybrid Martial Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "混合武学"
     translated: "Hybrid Martial Art"
+    qcReviewedText: "Hybrid Martial Art,Free combination"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     subIndex: 1
     text: "自由搭配"
@@ -650,41 +1046,84 @@
   - split: 2
     text: "天涯月明章"
     translated: "Horizon Moonlight Chapter"
+    qcReviewedText: "Horizon Moonlight Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "天涯海阁所传内功，据传为百十年前，一无名老者路途径三生石处所遗，其内招式浩然广博，深妙无穷。"
     translated: "The Neigong passed down by Tianya Haige is said to have been left behind by an anonymous old man a hundred years ago at the Samsara Stone. Its moves are vast and profound, with depths beyond measure."
+    qcReviewedText: "The Neigong passed down by Tianya Haige is said to have been left behind by an anonymous old man a hundred years ago at the Samsara Stone. Its moves are vast and profound, with depths beyond measure."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "51,201002,嗤魔祭血真经,内功,江湖武学,,,2010201;2010202;2010203;2010204;2010205;2010206;2010207;2010208;2010209;2010210;2010211,,,7,自河图洛书残篇之上衍化而出，奇诡怪诞，更兼残暴嗜虐，修习此术者无一善终。,skill/201002,,0,201002,嗤魔祭血真经,,,"
   splits:
   - split: 2
     text: "嗤魔祭血真经"
     translated: "Demon-Mocking Blood-Offering True Scripture"
+    qcReviewedText: "Demon-Mocking Blood-Offering True Scripture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "自河图洛书残篇之上衍化而出，奇诡怪诞，更兼残暴嗜虐，修习此术者无一善终。"
     translated: "Derived from the Fragments of the Hetu and Luoshu, it is bizarre and grotesque, and its practitioners are known for their cruelty and brutality; none have met a good end."
+    qcReviewedText: "Derived from the Fragments of the Hetu and Luoshu, it is bizarre and grotesque, and its practitioners are known for their cruelty and brutality; none have met a good end."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "52,201003,连珏天璧法,内功,江湖武学,,,2010301;2010302;2010303;2010304;2010305;2010306;2010307;2010308;2010309;2010310;2010311,,,7,暇璧珠碎，连珏不破，其中所载心法至刚若柔，妙用无穷。,skill/201003,,1,201003,连珏天璧法,,,"
   splits:
   - split: 2
     text: "连珏天璧法"
     translated: "Linked Jade Celestial Disc Method"
+    qcReviewedText: "Linked Jade Celestial Disc Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "暇璧珠碎，连珏不破，其中所载心法至刚若柔，妙用无穷。"
     translated: "The shattered Hua Bi beads remain unbroken in connection, the Heart Method they contain as soft yet unbendingly firm, with endless wondrous applications."
+    qcReviewedText: "The shattered Hua Bi beads remain unbroken in connection, the Heart Method they contain as soft yet unbendingly firm, with endless wondrous applications."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "53,201004,玄黎蛊瘴,内功,五圣教,,,2010401;2010402;2010403;2010404;2010405;2010406;2010407;2010408;2010409;2010410;2010411,,,7,据传是先古时期苗祖所创修习之法，其内法门多反其中原之道而行之，颇为玄异。,skill/201004,,0,201004,玄黎蛊瘴,,,"
   splits:
   - split: 2
     text: "玄黎蛊瘴"
     translated: "Xuanli Gu Miasma"
+    qcReviewedText: "Xuanli Gu Miasma"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "据传是先古时期苗祖所创修习之法，其内法门多反其中原之道而行之，颇为玄异。"
     translated: "It is said to be a cultivation method created by the Miao ancestors in ancient times. Its internal practices often go against the ways of Central China, making it quite mysterious and unusual."
+    qcReviewedText: "It is said to be a cultivation method created by the Miao ancestors in ancient times. Its internal practices often go against the ways of Central China, making it quite mysterious and unusual."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "54,201005,三昧阿修罗道,内功,江湖武学,,,2010501;2010502;2010503;2010504;2010505;2010506;2010507;2010508;2010509;2010510;2010511,,,7,神狩四年，刀祖于红梅叛出少林后独创此法：有德而性骄慢，受教而不改执，闻法而不能悟，是为修罗。,skill/201005,,0,201005,三昧阿修罗道,,,"
   splits:
   - split: 2
     text: "三昧阿修罗道"
     translated: "Samadhi Asura Path"
+    qcReviewedText: "Samadhi Asura Path"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "神狩四年，刀祖于红梅叛出少林后独创此法"
     translated: "In the fourth year of Shenshou, after the Ancestor of Knives, Yu Hongmei, left Shaolin, he created this technique on his own."
+    qcReviewedText: "In the fourth year of Shenshou, after the Ancestor of Knives, Yu Hongmei, left Shaolin, he created this technique on his own.：One with virtue but prideful and arrogant, who receives instruction yet does not change their ways, who hears the law yet cannot understand it, is called an Asura."
+    qcTranslated: "In the fourth year of Shenshou, after the Ancestor of Knives, Yu Hongmei, left Shaolin, he created this technique on his own. One with virtue but prideful and arrogant, who receives instruction yet does not change their ways, who hears the law yet cannot understand it, is called an Asura."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 11
     subIndex: 1
     text: "有德而性骄慢，受教而不改执，闻法而不能悟，是为修罗。"
@@ -697,298 +1136,594 @@
   - split: 2
     text: "太素灵枢篇"
     translated: "Taisu Spiritual Pivot Chapter"
+    qcReviewedText: "Taisu Spiritual Pivot Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "太素之问无觅，医者之道独行，此灵枢一篇，悬壶济世，仅此便足。"
     translated: "The Way of the Healer Walks Alone, Unmatched, for this chapter of Spirit Pivot, Hanging the Gourd to Heal, is enough in itself."
+    qcReviewedText: "The Way of the Healer Walks Alone, Unmatched, for this chapter of Spirit Pivot, Hanging the Gourd to Heal, is enough in itself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "56,201007,太玄混元经,内功,太和,,,2010701;2010702;2010703;2010704;2010705;2010706;2010707;2010708;2010709;2010710;2010711,,,7,太和山秘传真法，位析乾坤，朴分呈瑞，法门由浅入深，实乃玄门正宗。,skill/201007,,0,201007,太玄混元经,,,"
   splits:
   - split: 2
     text: "太玄混元经"
     translated: "Supreme Mystery Primordial Classic"
+    qcReviewedText: "Supreme Mystery Primordial Classic"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "太和山秘传真法，位析乾坤，朴分呈瑞，法门由浅入深，实乃玄门正宗。"
     translated: "The secret transmission of Taihe Mountain's true law, analyzing the universe, distinguishing auspicious signs, with methods progressing from shallow to deep, is truly the orthodox path of the mystic school."
+    qcReviewedText: "The secret transmission of Taihe Mountain's true law, analyzing the universe, distinguishing auspicious signs, with methods progressing from shallow to deep, is truly the orthodox path of the mystic school."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "57,201008,悟玄参契,内功,江湖武学,,,2010801;2010802;2010803;2010804;2010805;2010806;2010807;2010808;2010809;2010810;2010811,,,7,悟玄可通明，悟理方参契，此上心决古朴难明，似与昆仑天池隐有关联。,skill/201008,,0,201008,悟玄参契,,,"
   splits:
   - split: 2
     text: "悟玄参契"
     translated: "Mystery-Realizing Concordance"
+    qcReviewedText: "Mystery-Realizing Concordance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "悟玄可通明，悟理方参契，此上心决古朴难明，似与昆仑天池隐有关联。"
     translated: "Understanding the profound leads to clarity; understanding the principles allows one to participate in the covenant. This ancient Heart Formula is obscure and difficult to comprehend, seemingly related to the hidden Kunlun Heavenly Pool."
+    qcReviewedText: "Understanding the profound leads to clarity; understanding the principles allows one to participate in the covenant. This ancient Heart Formula is obscure and difficult to comprehend, seemingly related to the hidden Kunlun Heavenly Pool."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "58,201009,吸星噬寰图,内功,江湖武学,,,2010901;2010902;2010903;2010904;2010905;2010906;2010907;2010908;2010909;2010910;2010911,,,7,吸星而吞宇，噬寰而堙尘，此式霸道冠绝天下，远非寻常武学可比，但因其威势过烈，非大毅力之人难习至巅峰。,skill/201009,,0,201009,吸星噬寰图,,,"
   splits:
   - split: 2
     text: "吸星噬寰图"
     translated: "Star-Absorbing World-Devouring Diagram"
+    qcReviewedText: "Star-Absorbing World-Devouring Diagram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "吸星而吞宇，噬寰而堙尘，此式霸道冠绝天下，远非寻常武学可比，但因其威势过烈，非大毅力之人难习至巅峰。"
     translated: "Absorbing stars and devouring the universe, swallowing the world and burying the dust, this technique is unrivaled in its domineering power, far beyond ordinary martial arts, but due to its overwhelming might, only those with great resolve can master it at the peak."
+    qcReviewedText: "Absorbing stars and devouring the universe, swallowing the world and burying the dust, this technique is unrivaled in its domineering power, far beyond ordinary martial arts, but due to its overwhelming might, only those with great resolve can master it at the peak."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "59,201010,湘竹葬兰书,内功,江湖武学,,,2011001;2011002;2011003;2011004;2011005;2011006;2011007;2011008;2011009;2011010;2011011,,,7,湘妃洒泪成竹，流水无心葬兰，此书所载，既为武学，又似诗篇，其中悲切之意，难堪再语。,skill/201010,,0,201010,湘竹葬兰书,,,"
   splits:
   - split: 2
     text: "湘竹葬兰书"
     translated: "Xiang Bamboo Orchid-Burial Book"
+    qcReviewedText: "Xiang Bamboo Orchid-Burial Book"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "湘妃洒泪成竹，流水无心葬兰，此书所载，既为武学，又似诗篇，其中悲切之意，难堪再语。"
     translated: "Xiangfei's tears formed bamboo, flowing water indifferent to the burial of orchids; this book contains both martial arts and poetry, its sorrowful meaning too painful to speak of."
+    qcReviewedText: "Xiangfei's tears formed bamboo, flowing water indifferent to the burial of orchids; this book contains both martial arts and poetry, its sorrowful meaning too painful to speak of."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "60,201011,昭霞别册,内功,江湖武学,,,2011101;2011102;2011103;2011104;2011105;2011106;2011107;2011108;2011109;2011110;2011111,,,7,世所罕见的内功心法，运使若朝霞漫天，云野四盖，紫气至处，万化皆消。,skill/201011,,1,201011,昭霞别册,,,"
   splits:
   - split: 2
     text: "昭霞别册"
     translated: "Radiant Glow Supplement"
+    qcReviewedText: "Radiant Glow Supplement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "世所罕见的内功心法，运使若朝霞漫天，云野四盖，紫气至处，万化皆消。"
     translated: "A rare internal skill and heart method, wielded like a sky full of morning clouds, covering the wilderness, where the purple aura reaches, all transformations fade."
+    qcReviewedText: "A rare internal skill and heart method, wielded like a sky full of morning clouds, covering the wilderness, where the purple aura reaches, all transformations fade."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "61,201012,禅音狮子吼,内功,江湖武学,,,2011201;2011202;2011203;2011204;2011205;2011206;2011207;2011208;2011209;2011210;2011211,,,7,佛门正宗，浩瀚磅礴，倘若发功呼啸，雷音滚滚，令敌肝胆俱裂，不战而溃。,skill/201012,,0,201012,禅音狮子吼,,,"
   splits:
   - split: 2
     text: "禅音狮子吼"
     translated: "Zen-Sound Lion's Roar"
+    qcReviewedText: "Zen-Sound Lion's Roar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "佛门正宗，浩瀚磅礴，倘若发功呼啸，雷音滚滚，令敌肝胆俱裂，不战而溃。"
     translated: "The orthodox Buddhist school is vast and profound; if they unleash their powers with a mighty cry, thunderous sounds roll out, striking fear into the hearts of enemies and causing them to flee without a fight."
+    qcReviewedText: "The orthodox Buddhist school is vast and profound; if they unleash their powers with a mighty cry, thunderous sounds roll out, striking fear into the hearts of enemies and causing them to flee without a fight."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "62,201013,金钟护体罩,内功,江湖武学,,,2011301;2011302;2011303;2011304;2011305;2011306;2011307;2011308;2011309;2011310;2011311,,,7,两禅寺新立，诸式流出，此心法亦是在少林分立之乱中传至江湖，后不知所踪，终不为人知。,skill/201013,,0,201013,金钟护体罩,,,"
   splits:
   - split: 2
     text: "金钟护体罩"
     translated: "Golden Bell Body Shield"
+    qcReviewedText: "Golden Bell Body Shield"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "两禅寺新立，诸式流出，此心法亦是在少林分立之乱中传至江湖，后不知所踪，终不为人知。"
     translated: "Liangchan Temple was newly established, and various styles emerged. This Heart Method was also passed to Jianghu during the chaos of the split at Shaolin, and was eventually lost, its whereabouts unknown."
+    qcReviewedText: "Liangchan Temple was newly established, and various styles emerged. This Heart Method was also passed to Jianghu during the chaos of the split at Shaolin, and was eventually lost, its whereabouts unknown."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "63,201014,太虚无极劲,内功,太和,,,2011401;2011402;2011403;2011404;2011405;2011406;2011407;2011408;2011409;2011410;2011411,,,7,梦冷通仙阙，神融合太虚，据传乃太和道祖羽化所遗，与诸多修习之法迥异，讲求清净自然，顿悟登仙，唯悟性奇高者方可修习。,skill/201014,,0,201014,太虚无极劲,,,"
   splits:
   - split: 2
     text: "太虚无极劲"
     translated: "Great Void Wuji Force"
+    qcReviewedText: "Great Void Wuji Force"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "梦冷通仙阙，神融合太虚，据传乃太和道祖羽化所遗，与诸多修习之法迥异，讲求清净自然，顿悟登仙，唯悟性奇高者方可修习。"
     translated: "Dream Cold to Immortal Pinnacle, Divine Fusion with the Vast Void; it is said to be left behind by the Taoist Ancestor of Taihe upon his transcension. It differs greatly from many cultivation methods, emphasizing purity and nature, sudden enlightenment for immortality. Only those with extraordinary Comprehension may practice it."
+    qcReviewedText: "Dream Cold to Immortal Pinnacle, Divine Fusion with the Vast Void; it is said to be left behind by the Taoist Ancestor of Taihe upon his transcension. It differs greatly from many cultivation methods, emphasizing purity and nature, sudden enlightenment for immortality. Only those with extraordinary Comprehension may practice it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "64,201015,霸王卸甲,内功,江湖武学,,,2011501;2011502;2011503;2011504;2011505;2011506;2011507;2011508;2011509;2011510;2011511,,,7,刚猛横练，锻骨炼血，大成者真气沛然雄浑游走周身，断骨而不痛，浴血而不死，无惧者，无敌也。,skill/201015,,1,201015,霸王卸甲,,,"
   splits:
   - split: 2
     text: "霸王卸甲"
     translated: "Overlord Doffs His Armor"
+    qcReviewedText: "Overlord Doffs His Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "刚猛横练，锻骨炼血，大成者真气沛然雄浑游走周身，断骨而不痛，浴血而不死，无惧者，无敌也。"
     translated: "Fierce and robust training, strengthening bones and refining blood; upon mastery, one's True Qi flows powerfully throughout the body, breaking bones without pain, bathing in blood without dying, fearless and invulnerable."
+    qcReviewedText: "Fierce and robust training, strengthening bones and refining blood; upon mastery, one's True Qi flows powerfully throughout the body, breaking bones without pain, bathing in blood without dying, fearless and invulnerable."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "65,201016,青囊宝钞,内功,江湖武学,,,2011601;2011602;2011603;2011604;2011605;2011606;2011607;2011608;2011609;2011610;2011611,,,7,据传此法乃前朝医道圣手所遗，其间所载经脉医理高深晦涩，以之入武，亦有独到之处。,skill/201016,,1,201016,青囊宝钞,,,"
   splits:
   - split: 2
     text: "青囊宝钞"
     translated: "Green Satchel Treasured Transcript"
+    qcReviewedText: "Green Satchel Treasured Transcript"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "据传此法乃前朝医道圣手所遗，其间所载经脉医理高深晦涩，以之入武，亦有独到之处。"
     translated: "It is said that this method was left by a holy hand of medicine from the previous dynasty. The meridians and medical principles it contains are profound and obscure; using them to practice martial arts also has its unique merits."
+    qcReviewedText: "It is said that this method was left by a holy hand of medicine from the previous dynasty. The meridians and medical principles it contains are profound and obscure; using them to practice martial arts also has its unique merits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "66,201017,饮情蛊,内功,五圣教,,,2011701;2011702;2011703;2011704;2011705;2011706;2011707;2011708;2011709;2011710;2011711,,,7,苗疆独有心法，大成者顾盼生魅，不施刀兵便能乱人心神，是正是邪，犹未可知。,skill/201017,,0,201017,饮情蛊,,,"
   splits:
   - split: 2
     text: "饮情蛊"
     translated: "Love-Drinking Gu"
+    qcReviewedText: "Love-Drinking Gu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "苗疆独有心法，大成者顾盼生魅，不施刀兵便能乱人心神，是正是邪，犹未可知。"
     translated: "A unique heart method from Miaojiang, those who master it can bewitch with a glance, able to unsettle one's mind without even drawing a blade, making it hard to say if it is right or wrong."
+    qcReviewedText: "A unique heart method from Miaojiang, those who master it can bewitch with a glance, able to unsettle one's mind without even drawing a blade, making it hard to say if it is right or wrong."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "67,201018,支山祁,内功,江湖武学,,,2011801;2011802;2011803;2011804;2011805;2011806;2011807;2011808;2011809;2011810;2011811,,,7,尧九年支祈为孽，应龙驱之淮阳山足下，其怨动山荡海。,skill/201018,,1,201018,支山祁,,,"
   splits:
   - split: 2
     text: "支山祁"
     translated: "Zhishan Qi"
+    qcReviewedText: "Zhishan Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "尧九年支祈为孽，应龙驱之淮阳山足下，其怨动山荡海。"
     translated: "In the ninth year of Emperor Yao, Zhiwei caused trouble, and Yinglong drove him to the foot of Mount Huaiyang, where his resentment stirred mountains and shook seas."
+    qcReviewedText: "In the ninth year of Emperor Yao, Zhiwei caused trouble, and Yinglong drove him to the foot of Mount Huaiyang, where his resentment stirred mountains and shook seas."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "68,201019,七煞铁衣功,内功,大旗门,,,2011901;2011902;2011903;2011904;2011905;2011906;2011907;2011908;2011909;2011910;2011911,,,7,借七脉之煞铸金铁之躯，大旗门外家功法，大成者筋骨凝实，刀枪难伤，有万夫莫敌之威。,skill/201019,,0,201019,七煞铁衣功,,,"
   splits:
   - split: 2
     text: "七煞铁衣功"
     translated: "Seven Killers Iron Garment Art"
+    qcReviewedText: "Seven Killers Iron Garment Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "借七脉之煞铸金铁之躯，大旗门外家功法，大成者筋骨凝实，刀枪难伤，有万夫莫敌之威。"
     translated: "By harnessing the malevolent energies of the Seven Pulses to forge an ironclad body, the Daqi Sect's external cultivation method reaches its peak when one's physique becomes solid and impervious to blades and spears, granting invincibility against thousands."
+    qcReviewedText: "By harnessing the malevolent energies of the Seven Pulses to forge an ironclad body, the Daqi Sect's external cultivation method reaches its peak when one's physique becomes solid and impervious to blades and spears, granting invincibility against thousands."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "69,201020,不仁经,内功,大雪山,,,2012001;2012002;2012003;2012004;2012005;2012006;2012007;2012008;2012009;2012010;2012011,,,7,于红梅集少林、天山两派内功之长所创，虽霸道绝伦，威力无穷，但其中暗藏无穷杀意，非心如明镜者难窥其中真意。,skill/201020,,0,201019,七煞铁衣功,,,"
   splits:
   - split: 2
     text: "不仁经"
     translated: "Ruthless Classic"
+    qcReviewedText: "Ruthless Classic"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "于红梅集少林、天山两派内功之长所创，虽霸道绝伦，威力无穷，但其中暗藏无穷杀意，非心如明镜者难窥其中真意。"
     translated: "Yu Hongmei combined the strengths of Shaolin and Tianshan's Neigong to create this technique. Though it is immensely powerful and ruthless, it harbors endless killing intent, making it difficult for those without a pure heart to grasp its true essence."
+    qcReviewedText: "Yu Hongmei combined the strengths of Shaolin and Tianshan's Neigong to create this technique. Though it is immensely powerful and ruthless, it harbors endless killing intent, making it difficult for those without a pure heart to grasp its true essence."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "70,301001,步海阁,轻功,天涯海阁,,,3010101;3010102;3010103;3010104;3010105;3010106;3010107;3010108;3010109;3010110;3010111,,,8,踏阁而步海，卧行而凌空，天涯海阁所传步法，潇洒灵动，独有文生气象。,skill/301001,,0,301001,步海阁,,,"
   splits:
   - split: 2
     text: "步海阁"
     translated: "Sea-Treading Pavilion"
+    qcReviewedText: "Sea-Treading Pavilion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "踏阁而步海，卧行而凌空，天涯海阁所传步法，潇洒灵动，独有文生气象。"
     translated: "Stepping on the pavilion and walking over the sea, moving alone and soaring through the air, the gait passed down by Tianya Haige is graceful and agile, uniquely embodying the scholarly aura."
+    qcReviewedText: "Stepping on the pavilion and walking over the sea, moving alone and soaring through the air, the gait passed down by Tianya Haige is graceful and agile, uniquely embodying the scholarly aura."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "71,301002,赶蝉游身环,轻功,江湖武学,,,3010201;3010202;3010203;3010204;3010205;3010206;3010207;3010208;3010209;3010210;3010211,,,8,出自八卦的步法，行如游身，又谓游身八卦形，据传可八步黏蝉，不落身形。,skill/301002,,1,301002,赶蝉游身环,,,"
   splits:
   - split: 2
     text: "赶蝉游身环"
     translated: "Cicada-Chasing Circling Body"
+    qcReviewedText: "Cicada-Chasing Circling Body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "出自八卦的步法，行如游身，又谓游身八卦形，据传可八步黏蝉，不落身形。"
     translated: "A stepping method derived from Bagua, moving as if swimming, also known as Swimming Body Bagua Form. It is said to be able to catch cicadas in eight steps without losing balance."
+    qcReviewedText: "A stepping method derived from Bagua, moving as if swimming, also known as Swimming Body Bagua Form. It is said to be able to catch cicadas in eight steps without losing balance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "72,301003,洄流身法,轻功,江湖武学,,,3010301;3010302;3010303;3010304;3010305;3010306;3010307;3010308;3010309;3010310;3010311,,,8,如水如势，无常无行，其身法似洄流奔水，反复莫测，其所创之出处已不可考。,skill/301003,,0,301003,洄流身法,,,"
   splits:
   - split: 2
     text: "洄流身法"
     translated: "Eddying Current Agility"
+    qcReviewedText: "Eddying Current Agility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "如水如势，无常无行，其身法似洄流奔水，反复莫测，其所创之出处已不可考。"
     translated: "Like water, like force, without constant form or path, their agility is like swirling and rushing waters, unpredictable and ever-changing. The origin of what they created is no longer traceable."
+    qcReviewedText: "Like water, like force, without constant form or path, their agility is like swirling and rushing waters, unpredictable and ever-changing. The origin of what they created is no longer traceable."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "73,301004,洛神踏雪步,轻功,江湖武学,,,3010401;3010402;3010403;3010404;3010405;3010406;3010407;3010408;3010409;3010410;3010411,,,8,传闻有神女，轻移莲步，其姿轻盈，其法玄妙。,skill/301004,,1,301004,洛神踏雪步,,,"
   splits:
   - split: 2
     text: "洛神踏雪步"
     translated: "Goddess of Luo Snow-Treading Step"
+    qcReviewedText: "Goddess of Luo Snow-Treading Step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "传闻有神女，轻移莲步，其姿轻盈，其法玄妙。"
     translated: "It is said that a divine maiden, with graceful steps, moves lightly and mysteriously."
+    qcReviewedText: "It is said that a divine maiden, with graceful steps, moves lightly and mysteriously."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "74,301005,晴梅花步,轻功,江湖武学,,,3010501;3010502;3010503;3010504;3010505;3010506;3010507;3010508;3010509;3010510;3010511,,,8,步伐取自梅花寒香之意，独寒独蕴，实为江湖内不可多见之运步巧术。,skill/301005,,1,301005,晴梅花步,,,"
   splits:
   - split: 2
     text: "晴梅花步"
     translated: "Clear-Sky Plum Blossom Step"
+    qcReviewedText: "Clear-Sky Plum Blossom Step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "步伐取自梅花寒香之意，独寒独蕴，实为江湖内不可多见之运步巧术。"
     translated: "The steps are inspired by the cold fragrance of plum blossoms, solitary and unique, truly a rare and ingenious footwork technique within the Jianghu."
+    qcReviewedText: "The steps are inspired by the cold fragrance of plum blossoms, solitary and unique, truly a rare and ingenious footwork technique within the Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "75,301006,犰狳穿滚术,轻功,江湖武学,,,3010601;3010602;3010603;3010604;3010605;3010606;3010607;3010608;3010609;3010610;3010611,,,8,此术来源已不可追，其以犰狳之形入武，穿纵滚翻，攻敌之不备，避寻常招式所不可避。,skill/301006,,0,301006,犰狳穿滚术,,,"
   splits:
   - split: 2
     text: "犰狳穿滚术"
     translated: "Armadillo Rolling Technique"
+    qcReviewedText: "Armadillo Rolling Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "此术来源已不可追，其以犰狳之形入武，穿纵滚翻，攻敌之不备，避寻常招式所不可避。"
     translated: "This technique's origin is now unknown; it takes the form of an armadillo in combat, rolling and dodging to attack enemies when they are least prepared, evading moves that others cannot avoid."
+    qcReviewedText: "This technique's origin is now unknown; it takes the form of an armadillo in combat, rolling and dodging to attack enemies when they are least prepared, evading moves that others cannot avoid."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "76,301007,梯云纵,轻功,太和,,,3010701;3010702;3010703;3010704;3010705;3010706;3010707;3010708;3010709;3010710;3010711,,,8,梯云而登青天，渺目浮云，可望得道之一字？,skill/301007,,0,301007,梯云纵,,,"
   splits:
   - split: 2
     text: "梯云纵"
     translated: "Cloud-Ladder Leap"
+    qcReviewedText: "Cloud-Ladder Leap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "梯云而登青天，渺目浮云，可望得道之一字？"
     translated: "Climb on the clouds to reach the blue sky, gaze into the floating clouds, can one glimpse the essence of enlightenment?"
+    qcReviewedText: "Climb on the clouds to reach the blue sky, gaze into the floating clouds, can one glimpse the essence of enlightenment?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "77,301008,魍魉诡步,轻功,五圣教,,,3010801;3010802;3010803;3010804;3010805;3010806;3010807;3010808;3010809;3010810;3010811,,,8,十步杀一人，千里不留行，魍魉魑魅，步诡踏血。,skill/301008,,0,301008,魍魉诡步,,,"
   splits:
   - split: 2
     text: "魍魉诡步"
     translated: "Specter's Eerie Step"
+    qcReviewedText: "Specter's Eerie Step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "十步杀一人，千里不留行，魍魉魑魅，步诡踏血。"
     translated: "Kill one with ten steps, leave no trace for a thousand miles, ghosts and monsters fear me, I walk on shadows and blood."
+    qcReviewedText: "Kill one with ten steps, leave no trace for a thousand miles, ghosts and monsters fear me, I walk on shadows and blood."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "78,301009,燕纵步,轻功,江湖武学,,,3010901;3010902;3010903;3010904;3010905;3010906;3010907;3010908;3010909;3010910;3010911,,,8,穿纵之燕，步身合一，纤巧破云，另有诸般变化寓中。,skill/301009,,1,301009,燕纵步,,,"
   splits:
   - split: 2
     text: "燕纵步"
     translated: "Swallow Leap Step"
+    qcReviewedText: "Swallow Leap Step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "穿纵之燕，步身合一，纤巧破云，另有诸般变化寓中。"
     translated: "With swift movements like a swallow, body and mind in perfect harmony, nimble and cloud-piercing techniques, there are also various transformations hidden within."
+    qcReviewedText: "With swift movements like a swallow, body and mind in perfect harmony, nimble and cloud-piercing techniques, there are also various transformations hidden within."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "79,301010,长亭远寄,轻功,江湖武学,,,3011001;3011002;3011003;3011004;3011005;3011006;3011007;3011008;3011009;3011010;3011011,,,8,长亭古道，故乡月明俱远寄，人无归还，此情何书？,skill/301010,,0,301010,长亭远寄,,,"
   splits:
   - split: 2
     text: "长亭远寄"
     translated: "Parting Pavilion's Faraway Word"
+    qcReviewedText: "Parting Pavilion's Faraway Word"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "长亭古道，故乡月明俱远寄，人无归还，此情何书？"
     translated: "At the ancient road and long pavilion, hometown moon bright as distant letters, no one returns, in what book shall this sentiment be recorded?"
+    qcReviewedText: "At the ancient road and long pavilion, hometown moon bright as distant letters, no one returns, in what book shall this sentiment be recorded?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "80,301011,凌波微步,轻功,江湖武学,,,3011201;3011202;3011203;3011204;3011205;3011206;3011207;3011208;3011209;3011210;3011211,,,8,凌波微步，罗袜生尘，飘摇若雪，舞如仙骥。,skill/301011,,0,301011,凌波微步,,,"
   splits:
   - split: 2
     text: "凌波微步"
     translated: "Lingbo Weibu"
+    qcReviewedText: "Lingbo Weibu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "凌波微步，罗袜生尘，飘摇若雪，舞如仙骥。"
     translated: "Lingbo Weibu, dust rises from the silk stockings, swirling like snow, dancing like a celestial steed."
+    qcReviewedText: "Lingbo Weibu, dust rises from the silk stockings, swirling like snow, dancing like a celestial steed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "81,301012,巫蟒堕月,轻功,江湖武学,,,3011101;3011102;3011103;3011104;3011105;3011106;3011107;3011108;3011109;3011110;3011111,,,8,静若银蛟拦山，动如金蟒断江，五圣教独有腾挪身法，与中原武学迥异。,skill/301012,,0,301012,巫蟒堕月,,,"
   splits:
   - split: 2
     text: "巫蟒堕月"
     translated: "Shaman Python Drops the Moon"
+    qcReviewedText: "Shaman Python Drops the Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "静若银蛟拦山，动如金蟒断江，五圣教独有腾挪身法，与中原武学迥异。"
     translated: "Still as a silver dragon coiling around a mountain, moving like a golden python severing a river, the Wusheng Sect's unique agility is distinct from Central Plains martial arts."
+    qcReviewedText: "Still as a silver dragon coiling around a mountain, moving like a golden python severing a river, the Wusheng Sect's unique agility is distinct from Central Plains martial arts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "82,301013,紫乌啸凤图,轻功,江湖武学,,,3011301;3011302;3011303;3011304;3011305;3011306;3011307;3011308;3011309;3011310;3011311,,,8,玄鸟初归去，宾鸿属仲秋，此法腾挪如风，矫若鹏腾，飘逸灵动之间，不失潇洒。,skill/301013,,1,301013,紫乌啸凤图,,,"
   splits:
   - split: 2
     text: "紫乌啸凤图"
     translated: "Purple Crow Phoenix-Howl Diagram"
+    qcReviewedText: "Purple Crow Phoenix-Howl Diagram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "玄鸟初归去，宾鸿属仲秋，此法腾挪如风，矫若鹏腾，飘逸灵动之间，不失潇洒。"
     translated: "The oriole has just departed, and the guest crane belongs to mid-autumn; this technique moves like the wind, soaring like a great roc, graceful and agile yet never loses its elegance."
+    qcReviewedText: "The oriole has just departed, and the guest crane belongs to mid-autumn; this technique moves like the wind, soaring like a great roc, graceful and agile yet never loses its elegance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "83,301014,撼山步,轻功,江湖武学,,,3011401;3011402;3011403;3011404;3011405;3011406;3011407;3011408;3011409;3011410;3011411,,,8,硬桥硬马的外门身法，取步履撼山，震震有声之意。,skill/301014,,1,301014,撼山步,,,"
   splits:
   - split: 2
     text: "撼山步"
     translated: "Mountain-Shaking Step"
+    qcReviewedText: "Mountain-Shaking Step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "硬桥硬马的外门身法，取步履撼山，震震有声之意。"
     translated: "A rigid and powerful outer school agility technique, implying steps that shake mountains and resound with each movement."
+    qcReviewedText: "A rigid and powerful outer school agility technique, implying steps that shake mountains and resound with each movement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "84,301015,逆流十二身,轻功,江湖武学,,,3011501;3011502;3011503;3011504;3011505;3011506;3011507;3011508;3011509;3011510;3011511,,,8,习武修身，若逆水而行，此身既至，何不逆流击水？,skill/301015,,1,301015,逆流十二身,,,"
   splits:
   - split: 2
     text: "逆流十二身"
     translated: "Twelve Forms Against the Current"
+    qcReviewedText: "Twelve Forms Against the Current"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "习武修身，若逆水而行，此身既至，何不逆流击水？"
     translated: "Practicing martial arts is like swimming against the current; now that you are here, why not strike against the flow?"
+    qcReviewedText: "Practicing martial arts is like swimming against the current; now that you are here, why not strike against the flow?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "85,301016,虎贲阵,轻功,大旗门,,,3011601;3011602;3011603;3011604;3011605;3011606;3011607;3011608;3011609;3011610;3011611,,,8,轻盈若疾风掠影，雄浑若恶虎踱山，稳中多变，硬桥硬马，可于方寸之地辗转腾挪，又可快逾奔马，星驰电掣。,skill/301016,,0,301016,虎贲阵,,,"
   splits:
   - split: 2
     text: "虎贲阵"
     translated: "Tiger Guard Formation"
+    qcReviewedText: "Tiger Guard Formation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "轻盈若疾风掠影，雄浑若恶虎踱山，稳中多变，硬桥硬马，可于方寸之地辗转腾挪，又可快逾奔马，星驰电掣。"
     translated: "Light as a gust of wind, powerful as a prowling tiger, steady yet versatile, direct and forceful, capable of agile movements in tight spaces, yet also swift as galloping horses, lightning-fast."
+    qcReviewedText: "Light as a gust of wind, powerful as a prowling tiger, steady yet versatile, direct and forceful, capable of agile movements in tight spaces, yet also swift as galloping horses, lightning-fast."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "86,301017,影血秘典,轻功,大雪山,,,3011701;3011702;3011703;3011704;3011705;3011706;3011707;3011708;3011709;3011710;3011711,,,8,于红梅独创身法，诡谲难测，踏雪无痕，过水无波。,skill/301017,,0,301016,虎贲阵,,,"
   splits:
   - split: 2
     text: "影血秘典"
     translated: "Shadow Blood Secret Codex"
+    qcReviewedText: "Shadow Blood Secret Codex"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "于红梅独创身法，诡谲难测，踏雪无痕，过水无波。"
     translated: "Yu Hongmei's unique agility is elusive and unpredictable, leaving no trace on snow, no ripple on water."
+    qcReviewedText: "Yu Hongmei's unique agility is elusive and unpredictable, leaving no trace on snow, no ripple on water."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "87,501001,狼,拳掌,江湖武学,,lang/Idle,5210001;5210002,,,1,狼牙撕咬，虽钻心刻骨，却并无技巧可言。,skill/501001,\"AI_lang_1,AI_lang_2,AI_lang_3\",0,501001,狼,,,"
   splits:
   - split: 2
     text: "狼"
     translated: "Wolf"
+    qcReviewedText: "Wolf"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "狼牙撕咬，虽钻心刻骨，却并无技巧可言。"
     translated: "Wolf teeth tearing, though excruciatingly painful, lack any element of skill."
+    qcReviewedText: "Wolf teeth tearing, though excruciatingly painful, lack any element of skill."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "88,501002,蛇,拳掌,江湖武学,,she/Idle,5310001,,,1,毒牙撕咬，内含剧毒，虽钻心刻骨，却并无技巧可言。,skill/501002,\"AI_she_1,AI_she_2,AI_she_3\",0,501002,蛇,,,"
   splits:
   - split: 2
     text: "蛇"
     translated: "Snake"
+    qcReviewedText: "Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "毒牙撕咬，内含剧毒，虽钻心刻骨，却并无技巧可言。"
     translated: "Poison Fang Bite, highly toxic, though excruciatingly painful, it lacks any finesse."
+    qcReviewedText: "Poison Fang Bite, highly toxic, though excruciatingly painful, it lacks any finesse."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "89,501003,动物内功,内功,江湖武学,,,,,,,,,,0,501003,动物内功,,,"
   splits:
   - split: 2
     text: "动物内功"
     translated: "Animal Neigong"
+    qcReviewedText: "Animal Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "90,501004,动物轻功,轻功,江湖武学,,,,,,,,,,0,501004,动物轻功,,,"
   splits:
   - split: 2
     text: "动物轻功"
     translated: "Animal Qinggong"
+    qcReviewedText: "Animal Qinggong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "91,501005,蛊人攻击,拳掌,江湖武学,,guren/Idle,9610002,,,1,,skill/501005,\"AI_she_1,AI_she_2,AI_she_3\",0,501005,蛊人攻击,,,"
   splits:
   - split: 2
     text: "蛊人攻击"
     translated: "Gu Man Attacks"
+    qcReviewedText: "Gu Man Attacks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "92,501006,熊,拳掌,江湖武学,,xiong/Idle,9410002,,,999,,skill/501001,\"AI_xiong_1,AI_xiong_2,AI_xiong_3\",0,501006,熊,,,"
   splits:
   - split: 2
     text: "熊"
     translated: "Bear"
+    qcReviewedText: "Bear"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "93,501007,墨家甲卫_近战,拳掌,江湖武学,,mojiajiawei jinzhan/Idle,9410001,,,999,,skill/501001,,0,501007,墨家甲卫_近战,,,"
   splits:
   - split: 2
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
+    qcRejectedCorrection: "Mohist Armored Guard Melee"
+    qcFailureReason: "Glossary term '墨家甲卫_近战' (expected 'Mohist Armored Guard (Melee)') is missing."
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Close combat"
   - split: 2
     subIndex: 1
     text: "近战"
@@ -1001,41 +1736,80 @@
   - split: 2
     text: "大蛇"
     translated: "Great Serpent"
+    qcReviewedText: "Great Serpent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "95,501009,蟾蜍,拳掌,江湖武学,,canchu/Idle,9510002,,,999,,skill/501001,,0,501009,蟾蜍,,,"
   splits:
   - split: 2
     text: "蟾蜍"
     translated: "Giant Toad"
+    qcReviewedText: "Giant Toad"
+    qcTranslated: "Toad"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "96,501010,黄狗,拳掌,江湖武学,,baigou/Idle,10010002,,,999,,skill/501001,,0,501010,黄狗,,,"
   splits:
   - split: 2
     text: "黄狗"
     translated: "Yellow Dog"
+    qcReviewedText: "Yellow Dog"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "97,501011,蜘蛛,拳掌,江湖武学,,zhizhu/Idle,9810002,,,999,,skill/501001,,0,501011,蜘蛛,,,"
   splits:
   - split: 2
     text: "蜘蛛"
     translated: "Spider"
+    qcReviewedText: "Spider"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "98,501012,老虎,拳掌,江湖武学,,laohu/Idle,9710002,,,999,,skill/501001,,0,501012,老虎,,,"
   splits:
   - split: 2
     text: "老虎"
     translated: "Tiger"
+    qcReviewedText: "Tiger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "99,501013,蝎子,拳掌,江湖武学,,xiezi/Idle,9910002,,,999,,skill/501001,,0,501013,蝎子,,,"
   splits:
   - split: 2
     text: "蝎子"
     translated: "Scorpion"
+    qcReviewedText: "Scorpion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "100,501014,蜈蚣,拳掌,江湖武学,,wugong/Idle,10110002,,,999,,skill/501001,,0,501014,蜈蚣,,,"
   splits:
   - split: 2
     text: "蜈蚣"
     translated: "Centipede"
+    qcReviewedText: "Centipede"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "101,501015,墨家甲卫_远程,拳掌,江湖武学,,mojiajiawei _yuancheng/Idle,10310003,,,999,,skill/501001,,0,501015,墨家甲卫_远程,,,"
   splits:
   - split: 2
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
+    qcRejectedCorrection: "Mohist Armored Guard_Ranged"
+    qcFailureReason: "Glossary term '墨家甲卫_远程' (expected 'Mohist Armored Guard (Ranged)') is missing."
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Remote"
   - split: 2
     subIndex: 1
     text: "远程"
@@ -1048,6 +1822,14 @@
   - split: 2
     text: "纵跃"
     translated: "Leap"
+    qcReviewedText: "Leap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 11
     text: "江湖中的纵跃法，双足鼎力，向上纵跃。"
     translated: "The leaping technique in the Jianghu, using both feet to leap upward with great force."
+    qcReviewedText: "The leaping technique in the Jianghu, using both feet to leap upward with great force."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

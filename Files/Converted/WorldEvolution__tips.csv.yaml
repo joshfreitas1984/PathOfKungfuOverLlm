@@ -3,317 +3,657 @@
   - split: 2
     text: "名称"
     translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "提示"
     translated: "Hint"
+    qcReviewedText: "Hint"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,tip,"
 - raw: "3,1,武力,影响外功攻击力，武学伤害。,"
   splits:
   - split: 2
     text: "武力"
     translated: "Might"
+    qcReviewedText: "Might"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "影响外功攻击力，武学伤害。"
     translated: "Affects External Attack Power, Martial Art Damage"
+    qcReviewedText: "Affects External Attack Power, Martial Art Damage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,2,筋骨,影响外功防御力，气血上限，免暴，武学伤害。,"
   splits:
   - split: 2
     text: "筋骨"
     translated: "Physique"
+    qcReviewedText: "Physique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "影响外功防御力，气血上限，免暴，武学伤害。"
     translated: "Affects External Defense, Max Lifeforce, Crit Immunity, and Martial Art Damage."
+    qcReviewedText: "Affects External Defense, Max Lifeforce, Crit Immunity, and Martial Art Damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,3,身法,影响移动速度，暴击几率，暴击伤害，武学伤害。,"
   splits:
   - split: 2
     text: "身法"
     translated: "Agility"
+    qcReviewedText: "Agility"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "影响移动速度，暴击几率，暴击伤害，武学伤害。"
     translated: "Affects Movement Speed, Critical Hit Chance, Crit Damage, and Martial Art Damage."
+    qcReviewedText: "Affects Movement Speed, Critical Hit Chance, Crit Damage, and Martial Art Damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,4,内息,影响内功攻击力，内功防御力，武学伤害。,"
   splits:
   - split: 2
     text: "内息"
     translated: "Inner Qi"
+    qcReviewedText: "Inner Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "影响内功攻击力，内功防御力，武学伤害。"
     translated: "Affects Internal Attack Power, Internal Defense, and Martial Art Damage."
+    qcReviewedText: "Affects Internal Attack Power, Internal Defense, and Martial Art Damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,5,悟性,影响偷学与请教武学的成功率，试探对方境界，增加修为获取速度，开启三才书槽位。,"
   splits:
   - split: 2
     text: "悟性"
     translated: "Comprehension"
+    qcReviewedText: "Comprehension"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "影响偷学与请教武学的成功率，试探对方境界，增加修为获取速度，开启三才书槽位。"
     translated: "Affects the success rate of secretly learning and seeking guidance in martial arts, tests the other party's realm, increases the speed of cultivation gain, and unlocks slots for the Three Talents Tome."
+    qcReviewedText: "Affects the success rate of secretly learning and seeking guidance in martial arts, tests the other party's realm, increases the speed of cultivation gain, and unlocks slots for the Three Talents Tome."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,6,正,0,"
   splits:
   - split: 2
     text: "正"
     translated: "Just as"
+    qcReviewedText: "Just as"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,7,贰,0,"
   splits:
   - split: 2
     text: "贰"
     translated: "II"
+    qcReviewedText: "II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,8,叁,0,"
   splits:
   - split: 2
     text: "叁"
     translated: "III"
+    qcReviewedText: "III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,9,肆,0,"
   splits:
   - split: 2
     text: "肆"
     translated: "IV"
+    qcReviewedText: "IV"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,10,伍,0,"
   splits:
   - split: 2
     text: "伍"
     translated: "V"
+    qcReviewedText: "V"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,11,陆,0,"
   splits:
   - split: 2
     text: "陆"
     translated: "VI"
+    qcReviewedText: "VI"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,12,柒,0,"
   splits:
   - split: 2
     text: "柒"
     translated: "VII"
+    qcReviewedText: "VII"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "15,13,捌,0,"
   splits:
   - split: 2
     text: "捌"
     translated: "VIII"
+    qcReviewedText: "VIII"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,14,玖,0,"
   splits:
   - split: 2
     text: "玖"
     translated: "Nine"
+    qcReviewedText: "Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "17,15,拾,0,"
   splits:
   - split: 2
     text: "拾"
     translated: "Pick up"
+    qcReviewedText: "Pick up"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "18,16,冬,0,"
   splits:
   - split: 2
     text: "冬"
     translated: "Winter"
+    qcReviewedText: "Winter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,17,腊,0,"
   splits:
   - split: 2
     text: "腊"
     translated: "December"
+    qcReviewedText: "December"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "20,18,初一,0,"
   splits:
   - split: 2
     text: "初一"
     translated: "January 1st"
+    qcReviewedText: "January 1st"
+    qcTranslated: "First day"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "21,19,初二,0,"
   splits:
   - split: 2
     text: "初二"
     translated: "Eighth grade"
+    qcReviewedText: "Eighth grade"
+    qcTranslated: "Second day"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "22,20,初三,0,"
   splits:
   - split: 2
     text: "初三"
     translated: "September"
+    qcReviewedText: "September"
+    qcTranslated: "The third day"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "23,21,初四,0,"
   splits:
   - split: 2
     text: "初四"
     translated: "January 4th"
+    qcReviewedText: "January 4th"
+    qcTranslated: "The 4th"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 55
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "24,22,初五,0,"
   splits:
   - split: 2
     text: "初五"
     translated: "January 5th"
+    qcReviewedText: "January 5th"
+    qcTranslated: "The fifth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "25,23,初六,0,"
   splits:
   - split: 2
     text: "初六"
     translated: "January 6th"
+    qcReviewedText: "January 6th"
+    qcTranslated: "The sixth day"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "26,24,初七,0,"
   splits:
   - split: 2
     text: "初七"
     translated: "Seventh Day of the New Year"
+    qcReviewedText: "Seventh Day of the New Year"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "27,25,初八,0,"
   splits:
   - split: 2
     text: "初八"
     translated: "January 8th"
+    qcReviewedText: "January 8th"
+    qcTranslated: "The eighth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "28,26,初九,0,"
   splits:
   - split: 2
     text: "初九"
     translated: "January 9th"
+    qcReviewedText: "January 9th"
+    qcTranslated: "The Ninth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "29,27,初十,0,"
   splits:
   - split: 2
     text: "初十"
     translated: "January 10th"
+    qcReviewedText: "January 10th"
+    qcTranslated: "Tenth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "30,28,十一,0,"
   splits:
   - split: 2
     text: "十一"
     translated: "November"
+    qcReviewedText: "November"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "31,29,十二,0,"
   splits:
   - split: 2
     text: "十二"
     translated: "December"
+    qcReviewedText: "December"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "32,30,十三,0,"
   splits:
   - split: 2
     text: "十三"
     translated: "Thirteen"
+    qcReviewedText: "Thirteen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "33,31,十四,0,"
   splits:
   - split: 2
     text: "十四"
     translated: "Fourteen"
+    qcReviewedText: "Fourteen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "34,32,十五,0,"
   splits:
   - split: 2
     text: "十五"
     translated: "Fifteen"
+    qcReviewedText: "Fifteen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "35,33,十六,0,"
   splits:
   - split: 2
     text: "十六"
     translated: "Sixteen"
+    qcReviewedText: "Sixteen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "36,34,十七,0,"
   splits:
   - split: 2
     text: "十七"
     translated: "Seventeen"
+    qcReviewedText: "Seventeen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "37,35,十八,0,"
   splits:
   - split: 2
     text: "十八"
     translated: "Eighteen"
+    qcReviewedText: "Eighteen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "38,36,十九,0,"
   splits:
   - split: 2
     text: "十九"
     translated: "Nineteen"
+    qcReviewedText: "Nineteen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "39,37,二十,0,"
   splits:
   - split: 2
     text: "二十"
     translated: "Twenty"
+    qcReviewedText: "Twenty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "40,38,廿一,0,"
   splits:
   - split: 2
     text: "廿一"
     translated: "February 21st"
+    qcReviewedText: "February 21st"
+    qcTranslated: "Twenty-one"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "41,39,廿二,0,"
   splits:
   - split: 2
     text: "廿二"
     translated: "February 22nd"
+    qcReviewedText: "February 22nd"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "42,40,廿三,0,"
   splits:
   - split: 2
     text: "廿三"
     translated: "February 23rd"
+    qcReviewedText: "February 23rd"
+    qcTranslated: "The twenty-third"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "43,41,廿四,0,"
   splits:
   - split: 2
     text: "廿四"
     translated: "February 24th"
+    qcReviewedText: "February 24th"
+    qcTranslated: "The Twenty-Fourth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "44,42,廿五,0,"
   splits:
   - split: 2
     text: "廿五"
     translated: "February 25th"
+    qcReviewedText: "February 25th"
+    qcTranslated: "The twenty-fifth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "45,43,廿六,0,"
   splits:
   - split: 2
     text: "廿六"
     translated: "February 26th"
+    qcReviewedText: "February 26th"
+    qcTranslated: "The twenty-sixth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "46,44,廿七,0,"
   splits:
   - split: 2
     text: "廿七"
     translated: "February 27th"
+    qcReviewedText: "February 27th"
+    qcTranslated: "The 27th"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 50
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "47,45,廿八,0,"
   splits:
   - split: 2
     text: "廿八"
     translated: "February 28th"
+    qcReviewedText: "February 28th"
+    qcTranslated: "The Twenty-Eighth"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "48,46,廿九,0,"
   splits:
   - split: 2
     text: "廿九"
     translated: "February 29th"
+    qcReviewedText: "February 29th"
+    qcTranslated: "The 29th"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "49,47,三十,0,"
   splits:
   - split: 2
     text: "三十"
     translated: "Thirty"
+    qcReviewedText: "Thirty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "50,48,子,1,"
   splits:
   - split: 2
     text: "子"
     translated: "Child"
+    qcReviewedText: "Child"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "51,49,丑,2,"
   splits:
   - split: 2
     text: "丑"
     translated: "Ugly"
+    qcReviewedText: "Ugly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "52,50,寅,3,"
   splits:
   - split: 2
     text: "寅"
     translated: "January"
+    qcReviewedText: "January"
+    qcStatus: Passed
+    flaggedForQcReview: true
+    qcDefectCategory: Uncertain
+    qcDefectCategories:
+    - Uncertain
 - raw: "53,51,卯,4,"
   splits:
   - split: 2
     text: "卯"
     translated: "February"
+    qcReviewedText: "February"
+    qcTranslated: "Mao"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "54,52,辰,5,"
   splits:
   - split: 2
     text: "辰"
     translated: "Dawn"
+    qcReviewedText: "Dawn"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "55,53,巳,6,"
   splits:
   - split: 2
     text: "巳"
     translated: "Snake"
+    qcReviewedText: "Snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "56,54,午,7,"
   splits:
   - split: 2
     text: "午"
     translated: "Noon"
+    qcReviewedText: "Noon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "57,55,未,8,"
   splits:
   - split: 2
     text: "未"
     translated: "Not yet"
+    qcReviewedText: "Not yet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "58,56,申,9,"
   splits:
   - split: 2
     text: "申"
     translated: "Shen"
+    qcReviewedText: "Shen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "59,57,酉,10,"
   splits:
   - split: 2
     text: "酉"
     translated: "Dusk"
+    qcReviewedText: "Dusk"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "60,58,戌,11,"
   splits:
   - split: 2
     text: "戌"
     translated: "Brave one"
+    qcReviewedText: "Brave one"
+    qcTranslated: "Xu"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "61,59,亥,12,"
   splits:
   - split: 2
     text: "亥"
     translated: "Nine o'clock"
+    qcReviewedText: "Nine o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

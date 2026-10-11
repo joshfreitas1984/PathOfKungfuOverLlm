@@ -3,21 +3,44 @@
   - split: 2
     text: "名称"
     translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质描述"
     translated: "Aptitude description"
+    qcReviewedText: "Aptitude description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     text: "造诣描述"
     translated: "Mastery description"
+    qcReviewedText: "Mastery description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,sx,min,dmax,max,suiji,gaiLi,chengWei,chengWei2,color,zzTip,zyTip"
 - raw: "3,1,拳掌:,攻击力=0.2*武学造诣,3,30,183,\"25,30;15,24;3,14\",20;30;50,天才;奇才;一般,Top;Ace;Normal,#FF0000;#FF6500;0,资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。\\n【造诣上限=资质*100*10】,角色在拳掌类武学中修习程度的体现，使用拳掌战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
   splits:
   - split: 2
     text: "拳掌"
     translated: "Fist & Palm"
+    qcReviewedText: "Fist & Palm:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -29,6 +52,10 @@
   - split: 13
     text: "角色在拳掌类武学中修习程度的体现，使用拳掌战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in Fist & Palm martial arts is demonstrated by the frequency of using them in combat; the more times they engage in fist and palm battles, the higher their Mastery becomes, resulting in greater attack and defense stats."
+    qcReviewedText: "The character's proficiency in Fist & Palm martial arts is demonstrated by the frequency of using them in combat; the more times they engage in fist and palm battles, the higher their Mastery becomes, resulting in greater attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -39,9 +66,20 @@
   - split: 2
     text: "单手轻刃"
     translated: "One-Handed Light Blade"
+    qcReviewedText: "One-Handed Light Blade:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -53,6 +91,10 @@
   - split: 13
     text: "角色在单手轻刃类武学中修习程度的体现，使用单手轻刃战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in one-handed light blade martial arts is demonstrated by the extent of their practice. The more times they engage in combat using a one-handed light blade, the higher their mastery, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in one-handed light blade martial arts is demonstrated by the extent of their practice. The more times they engage in combat using a one-handed light blade, the higher their mastery, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -63,9 +105,20 @@
   - split: 2
     text: "重刃"
     translated: "Heavy Blade"
+    qcReviewedText: "Heavy Blade:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -77,6 +130,10 @@
   - split: 13
     text: "角色在重刃类武学中修习程度的体现，使用重刃战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in Heavy Blade martial arts is demonstrated by the extent of their practice. The more times they engage in combat using Heavy Blade techniques, the higher their Mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in Heavy Blade martial arts is demonstrated by the extent of their practice. The more times they engage in combat using Heavy Blade techniques, the higher their Mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -87,9 +144,20 @@
   - split: 2
     text: "长兵"
     translated: "Polearm"
+    qcReviewedText: "Polearm:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -101,6 +169,10 @@
   - split: 13
     text: "角色在长兵类武学中修习程度的体现，使用长兵战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the category of polearm martial arts is demonstrated; the more times they engage in combat using a polearm, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in the category of polearm martial arts is demonstrated; the more times they engage in combat using a polearm, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -111,9 +183,20 @@
   - split: 2
     text: "扇法"
     translated: "Fan Art"
+    qcReviewedText: "Fan Art:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -125,6 +208,10 @@
   - split: 13
     text: "角色在扇法类武学中修习程度的体现，使用扇法战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in fan art martial arts is demonstrated by their level of practice. The more times they use fan art in combat, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in fan art martial arts is demonstrated by their level of practice. The more times they use fan art in combat, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -135,9 +222,20 @@
   - split: 2
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -149,6 +247,10 @@
   - split: 13
     text: "角色在暗器类武学中修习程度的体现，使用暗器战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the category of hidden weapons is demonstrated; the more times they use hidden weapons in combat, the higher their mastery becomes, resulting in greater attack and defense stats."
+    qcReviewedText: "The character's proficiency in the category of hidden weapons is demonstrated; the more times they use hidden weapons in combat, the higher their mastery becomes, resulting in greater attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -159,9 +261,20 @@
   - split: 2
     text: "内功"
     translated: "Neigong"
+    qcReviewedText: "Neigong:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -173,6 +286,10 @@
   - split: 13
     text: "角色在内功类武学中修习程度的体现，使用内功战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's level of practice in the category of Neigong Martial Arts is reflected here; the more times they use Neigong in combat, the higher their Mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's level of practice in the category of Neigong Martial Arts is reflected here; the more times they use Neigong in combat, the higher their Mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -183,9 +300,20 @@
   - split: 2
     text: "轻功"
     translated: "Qinggong"
+    qcReviewedText: "Qinggong:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -197,6 +325,10 @@
   - split: 13
     text: "角色在轻功类武学中修习程度的体现，使用轻功战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the category of qinggong martial arts is demonstrated; the more times they use qinggong in combat, the higher their mastery, and thus the greater their attack and defense stats."
+    qcReviewedText: "The character's proficiency in the category of qinggong martial arts is demonstrated; the more times they use qinggong in combat, the higher their mastery, and thus the greater their attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -207,9 +339,20 @@
   - split: 2
     text: "腿脚"
     translated: "Legwork"
+    qcReviewedText: "Legwork:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -221,6 +364,10 @@
   - split: 13
     text: "角色在腿脚类武学中修习程度的体现，使用腿脚战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in legwork martial arts is demonstrated by the extent of their practice. The more times they use leg techniques in combat, the higher their mastery becomes, resulting in greater attack and defense stats."
+    qcReviewedText: "The character's proficiency in legwork martial arts is demonstrated by the extent of their practice. The more times they use leg techniques in combat, the higher their mastery becomes, resulting in greater attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -231,9 +378,20 @@
   - split: 2
     text: "双手轻刃"
     translated: "Two-Handed Light Blade"
+    qcReviewedText: "Two-Handed Light Blade:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -245,6 +403,10 @@
   - split: 13
     text: "角色在双手轻刃类武学中修习程度的体现，使用双手轻刃战斗的场次越多，造诣就越高。"
     translated: "The character's proficiency in two-handed light blade martial arts is demonstrated by the number of times they engage in combat using a two-handed light blade; the more they fight with it, the higher their mastery."
+    qcReviewedText: "The character's proficiency in two-handed light blade martial arts is demonstrated by the number of times they engage in combat using a two-handed light blade; the more they fight with it, the higher their mastery."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -255,9 +417,20 @@
   - split: 2
     text: "绳镖"
     translated: "Rope Dart"
+    qcReviewedText: "Rope Dart:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -269,6 +442,10 @@
   - split: 13
     text: "角色在绳镖类武学中修习程度的体现，使用绳镖战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the category of Rope Dart martial arts is demonstrated; the more times they use a Rope Dart in combat, the higher their mastery, and thus the greater their attack, defense, and other attributes."
+    qcReviewedText: "The character's proficiency in the category of Rope Dart martial arts is demonstrated; the more times they use a Rope Dart in combat, the higher their mastery, and thus the greater their attack, defense, and other attributes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -279,9 +456,20 @@
   - split: 2
     text: "弓箭"
     translated: "Bow"
+    qcReviewedText: "Bow:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -293,6 +481,10 @@
   - split: 13
     text: "角色在弓箭类武学中修习程度的体现，使用弓箭战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the category of Bow Martial Arts is demonstrated; the more times they fight using a bow, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in the category of Bow Martial Arts is demonstrated; the more times they fight using a bow, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -303,9 +495,20 @@
   - split: 2
     text: "软鞭"
     translated: "Whip"
+    qcReviewedText: "Whip:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -317,6 +520,10 @@
   - split: 13
     text: "角色在软鞭类武学中修习程度的体现，使用软鞭战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the Whip category of Martial Arts is demonstrated; the more times they fight using a whip, the higher their Mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in the Whip category of Martial Arts is demonstrated; the more times they fight using a whip, the higher their Mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -327,9 +534,20 @@
   - split: 2
     text: "火器"
     translated: "Firearm"
+    qcReviewedText: "Firearm:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -341,6 +559,10 @@
   - split: 13
     text: "角色在火器类武学中修习程度的体现，使用火器战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in the category of firearm martial arts is demonstrated by their level of study. The more times they engage in combat using firearms, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcReviewedText: "The character's proficiency in the category of firearm martial arts is demonstrated by their level of study. The more times they engage in combat using firearms, the higher their mastery becomes, resulting in increased attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"
@@ -351,9 +573,20 @@
   - split: 2
     text: "短兵"
     translated: "Short Weapon"
+    qcReviewedText: "Short Weapon:"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     text: "资质影响造诣上限，使用该项武器时将获得造诣，造诣越高，对应获取的攻击，防御等就越高。"
     translated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain."
+    qcReviewedText: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit】=Aptitude*100*10】"
+    qcTranslated: "Aptitude affects the mastery limit; using this weapon will grant you mastery. The higher your mastery, the greater the attack, defense, and other stats you will gain.\\n【Mastery Limit=Aptitude*100*10】"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "【造诣上限"
@@ -365,6 +598,10 @@
   - split: 13
     text: "角色在短兵类武学中修习程度的体现，使用短兵战斗的场次越多，造诣就越高，对应获取的攻击，防御等就越高。"
     translated: "The character's proficiency in short weapon martial arts is demonstrated; the more times they engage in combat with short weapons, the higher their mastery, resulting in greater attack and defense stats."
+    qcReviewedText: "The character's proficiency in short weapon martial arts is demonstrated; the more times they engage in combat with short weapons, the higher their mastery, resulting in greater attack and defense stats."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}:"

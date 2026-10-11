@@ -3,12 +3,24 @@
   - split: 13
     text: "文字说明"
     translated: "Text description"
+    qcReviewedText: "Text description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,selfParam,term,sideParam,prob,place,time,weather,changeParam,changeValue,playerParam,playerValue,explain,dialogID,duration,cdTime,weight,weightGroup,msgTypeParam"
 - raw: "3,1,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"//,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
   splits:
   - split: 13
     text: "趁"
     translated: "While"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole some money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> took advantage of <color=#E64D00>{playerName}</color>'s inattention and quietly stole some money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
@@ -26,6 +38,14 @@
   - split: 13
     text: "趁"
     translated: "While"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole some money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> took advantage of <color=#E64D00>{playerName}</color>'s inattention and quietly stole some money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
@@ -43,6 +63,14 @@
   - split: 13
     text: "趁"
     translated: "While"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole some money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> took advantage of <color=#E64D00>{playerName}</color>'s inattention and quietly stole some money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
@@ -60,6 +88,14 @@
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
     translated: "Search left and right, but ultimately failed to steal successfully."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Search left and right, but ultimately failed to steal successfully.<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> searched left and right, but ultimately failed to successfully steal <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "钱财。"
@@ -77,6 +113,14 @@
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
     translated: "Search left and right, but ultimately failed to steal successfully."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Search left and right, but ultimately failed to steal successfully.<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> searched left and right, but ultimately failed to successfully steal <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "钱财。"
@@ -94,6 +138,14 @@
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
     translated: "Search left and right, but ultimately failed to steal successfully."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Search left and right, but ultimately failed to steal successfully.<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> searched left and right, but ultimately failed to successfully steal <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "钱财。"
@@ -111,6 +163,14 @@
   - split: 13
     text: "趁"
     translated: "While"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole some money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> took advantage of <color=#E64D00>{playerName}</color>'s inattention and quietly stole some money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
@@ -128,6 +188,14 @@
   - split: 13
     text: "趁"
     translated: "While"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole some money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> took advantage of <color=#E64D00>{playerName}</color>'s inattention and quietly stole some money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
@@ -145,6 +213,14 @@
   - split: 13
     text: "趁"
     translated: "While"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole some money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> took advantage of <color=#E64D00>{playerName}</color>'s inattention and quietly stole some money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
@@ -162,6 +238,14 @@
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
     translated: "Search left and right, but ultimately failed to steal successfully."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Search left and right, but ultimately failed to steal successfully.<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> searched left and right, but ultimately failed to successfully steal <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "钱财。"
@@ -179,6 +263,14 @@
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
     translated: "Search left and right, but ultimately failed to steal successfully."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Search left and right, but ultimately failed to steal successfully.<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> searched left and right, but ultimately failed to successfully steal <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "钱财。"
@@ -196,6 +288,14 @@
   - split: 13
     text: "左寻右觅，但终未能成功窃取"
     translated: "Search left and right, but ultimately failed to steal successfully."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Search left and right, but ultimately failed to steal successfully.<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "<color=#E64D00>{npcName}</color> searched left and right, but ultimately failed to successfully steal <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "钱财。"
@@ -213,6 +313,14 @@
   - split: 13
     text: "听闻与"
     translated: "Hearing that with"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing that with<color=#E64D00>{playerName}</color>Alignment is similar, so I came to discuss, and after a round of conversation, I felt a kinship with<color=#E64D00>{playerName}</color>In response to his words, he specially presented [the item].<color=#E64D00>{playerName}</color>A little silver"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Hearing that his Alignment is similar to<color=#E64D00>{playerName}</color>'s, he came to discuss. After a round of conversation, he felt their words were in harmony and specially presented<color=#E64D00>{playerName}</color> with some Silver.<color=#E64D00>{playerName}</color>"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 13
     subIndex: 1
     text: "立场相近，特来相谈，一番攀谈之下，只觉与"
@@ -238,6 +346,14 @@
   - split: 13
     text: "心怀不轨的"
     translated: "With ill intentions"
+    qcReviewedText: "With ill intentions<color=#E64D00>{npcName}</color>Acted in secret, stealing away<color=#E64D00>{playerName}</color>Contents of the pouch..."
+    qcTranslated: "With ill intentions, <color=#E64D00>{npcName}</color> acted in secret, stealing away the contents of <color=#E64D00>{playerName}</color>'s pouch..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "暗中下手，窃取了"
@@ -259,6 +375,14 @@
   - split: 13
     text: "心怀不轨的"
     translated: "With ill intentions"
+    qcReviewedText: "With ill intentions<color=#E64D00>{npcName}</color>Acted in secret, stealing away<color=#E64D00>{playerName}</color>Contents of the pouch..."
+    qcTranslated: "With ill intentions, <color=#E64D00>{npcName}</color> acted in secret, stealing away the contents of <color=#E64D00>{playerName}</color>'s pouch..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "暗中下手，窃取了"
@@ -280,6 +404,14 @@
   - split: 13
     text: "心怀不轨的"
     translated: "With ill intentions"
+    qcReviewedText: "With ill intentions<color=#E64D00>{npcName}</color>Acted in secret, stealing away<color=#E64D00>{playerName}</color>Contents of the pouch..."
+    qcTranslated: "With ill intentions, <color=#E64D00>{npcName}</color> acted in secret, stealing away the contents of <color=#E64D00>{playerName}</color>'s pouch..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "暗中下手，窃取了"
@@ -301,6 +433,14 @@
   - split: 13
     text: "行走江湖，当以武会友，"
     translated: "Wandering the Jianghu, one should make friends through martial arts."
+    qcReviewedText: "Wandering the Jianghu, one should make friends through martial arts.<color=#E64D00>{npcName}</color>Issue a challenge; I hope you will teach me, do not avoid the battle."
+    qcTranslated: "Wandering the Jianghu, one should make friends through martial arts.<color=#E64D00>{npcName}</color> has issued a challenge; please teach me, do not avoid the battle."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 13
     subIndex: 1
     text: "发起挑战，望请赐教，切莫避战。"
@@ -316,6 +456,13 @@
   - split: 13
     text: "从远处遥望见昔日好友"
     translated: "Gazing afar at an old friend of days past"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Gazing afar at an old friend of days past<color=#E64D00>{playerName}</color>, In moments, they rushed over, and without stopping, they spoke to<color=#E64D00>{playerName}</color>Talked very happily"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Gazing afar at an old friend of days past<color=#E64D00>{playerName}</color>, in moments, they rushed over and, speaking without pause, talked very happily with<color=#E64D00>{playerName}</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 13
     subIndex: 1
     text: "，片刻间飞奔而至，滔滔不绝之下，与"
@@ -337,6 +484,14 @@
   - split: 13
     text: "发现了仇家"
     translated: "Found the enemy clan"
+    qcRejectedCorrection: "<color=#E64D00>{npcName}</color> found the whereabouts of the enemy clan, <color=#E64D00>{playerName}</color>, drew a blade from afar and charged towards <color=#E64D00>{playerName}</color>, fighting with all their might."
+    qcFailureReason: "Missing required token '{playerName}'."
+    qcQualityScore: 0
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "<color=#E64D00>{npcName}</color>Found the enemy clan<color=#E64D00>{playerName}</color>Their whereabouts, drawing a blade from afar and charging towards<color=#E64D00>{playerName}</color>, With<color=#E64D00>{playerName}</color>Fought with all their might"
   - split: 13
     subIndex: 1
     text: "的行踪，从远处拔出刀冲向"
@@ -362,6 +517,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>With longstanding enmity<color=#E64D00>{npcName}</color>Blocking the street across<color=#E64D00>{playerName}</color>Pointing in front of you, pointing in front of you,<color=#E64D00>{playerName}</color>Began to verbally abuse the neighbors and passersby."
+    qcTranslated: "<color=#E64D00>{npcName}</color>, who has long held a grudge against<color=#E64D00>{playerName}</color>, blocked the street in front of<color=#E64D00>{playerName}</color> and pointed at<color=#E64D00>{playerName}</color>, loudly cursing out<color=#E64D00>{playerName}</color> to the neighbors and passersby."
+    qcStatus: Corrected
+    qcQualityScore: 65
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - split: 13
     subIndex: 1
     text: "素有仇怨的"
@@ -391,6 +554,14 @@
   - split: 13
     text: "对"
     translated: "Yes"
+    qcReviewedText: "Yes<color=#E64D00>{playerName}</color>Holding grudges in their heart<color=#E64D00>{npcName}</color>Following in secret<color=#E64D00>{playerName}</color>, While<color=#E64D00>{playerName}</color>Unprepared, they quietly stole<color=#E64D00>{playerName}</color>Money"
+    qcTranslated: "Yes, <color=#E64D00>{playerName}</color>, holding a grudge in their heart, <color=#E64D00>{npcName}</color> secretly followed <color=#E64D00>{playerName}</color>. While <color=#E64D00>{playerName}</color> was unprepared, they quietly stole <color=#E64D00>{playerName}</color>'s money."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "怀恨在心的"
@@ -424,6 +595,14 @@
   - split: 13
     text: "听闻金兰好友"
     translated: "Hearing of sworn friends"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing of sworn friends<color=#E64D00>{playerName}</color>Walking here intentionally to meet with<color=#E64D00>{playerName}</color>Gather and tell them everything about the nearby Jianghu.<color=#E64D00>{playerName}</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Having heard that their Sworn Bond friend, <color=#E64D00>{playerName}</color>, is traveling in this area, they came specifically to reunite with <color=#E64D00>{playerName}</color> and share all the recent happenings of the local Jianghu with <color=#E64D00>{playerName}</color>."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "在此地行走，特意赶来与"
@@ -445,6 +624,14 @@
   - split: 13
     text: "听闻红颜眷侣"
     translated: "Hearing of a beloved lover"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing of a beloved lover<color=#E64D00>{playerName}</color>Here, my thoughts are deep, so I came to seek you.<color=#E64D00>{playerName}</color>Spent a short while together"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Hearing that the beloved Lover<color=#E64D00>{playerName}</color>is here, my longing is deep, so I have come to seek you out for a brief reunion.<color=#E64D00>{playerName}</color>"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "在此处，思念甚厚，特来寻"
@@ -466,6 +653,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Extremely loving and affectionate<color=#E64D00>{npcName}</color>Missing you terribly, I came to look for you.<color=#E64D00>{playerName}</color>Spent a short while together"
+    qcTranslated: "<color=#E64D00>{npcName}</color>, who is deeply in love with<color=#E64D00>{playerName}</color> and misses them terribly, has come to spend a brief moment together with<color=#E64D00>{playerName}</color>."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 13
     subIndex: 1
     text: "万分恩爱的"
@@ -491,6 +686,13 @@
   - split: 13
     text: "听闻与"
     translated: "Hearing that with"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing that with<color=#E64D00>{playerName}</color>Alignment is similar, so I came to discuss."
+    qcTranslated: "<color=#E64D00>{npcName}</color> Hearing that <color=#E64D00>{playerName}</color>'s Alignment is similar to mine, I have come to discuss."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "立场相近，特来相谈。"
@@ -508,6 +710,13 @@
   - split: 13
     text: "从远处遥望见知交老友"
     translated: "Gazing from afar at an old confidant friend"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Gazing from afar at an old confidant friend<color=#E64D00>{playerName}</color>, Moments later, they arrived at a sprint"
+    qcTranslated: "<color=#E64D00>{npcName}</color>, gazing from afar at their old confidant<color=#E64D00>{playerName}</color>, sprinted over in moments."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "，片刻间飞奔而至。"
@@ -525,6 +734,13 @@
   - split: 13
     text: "听闻相交许久的后生晚辈"
     translated: "Hearing of a young successor with whom they had been acquainted for many years"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing of a young successor with whom they had been acquainted for many years<color=#E64D00>{playerName}</color>I came here to speak with you"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Hearing that a young successor with whom they had been acquainted for many years, <color=#E64D00>{playerName}</color>, has been in this area, I came here to speak with you."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 13
     subIndex: 1
     text: "于此地走动，特来相谈。"
@@ -542,6 +758,14 @@
   - split: 13
     text: "对"
     translated: "Yes"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Yes<color=#E64D00>{playerName}</color>Fell in love secretly, silently promising oneself..."
+    qcTranslated: "<color=#E64D00>{npcName}</color> quietly developed feelings for <color=#E64D00>{playerName}</color>, silently making a vow in their heart..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "暗生情愫，心下暗许……"
@@ -559,6 +783,14 @@
   - split: 13
     text: "对"
     translated: "Yes"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Yes<color=#E64D00>{playerName}</color>Fell in love secretly, silently promising oneself..."
+    qcTranslated: "<color=#E64D00>{npcName}</color> quietly developed feelings for <color=#E64D00>{playerName}</color>, silently making a vow in their heart..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "暗生情愫，心下暗许……"
@@ -576,6 +808,14 @@
   - split: 13
     text: "对"
     translated: "Yes"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Yes<color=#E64D00>{playerName}</color>Fell in love secretly, silently promising oneself..."
+    qcTranslated: "<color=#E64D00>{npcName}</color> quietly developed feelings for <color=#E64D00>{playerName}</color>, silently making a vow in their heart..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "暗生情愫，心下暗许……"
@@ -593,6 +833,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Who have had mutual affection for some time<color=#E64D00>{npcName}</color>Determined resolve<color=#E64D00>{playerName}</color>Declare one's feelings..."
+    qcTranslated: "<color=#E64D00>{npcName}</color>, who has shared mutual affection with<color=#E64D00>{playerName}</color> for a long time, is determined to declare their feelings to<color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "互有好感多时的"
@@ -618,6 +866,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Who have had mutual affection for some time<color=#E64D00>{npcName}</color>Determined resolve<color=#E64D00>{playerName}</color>Declare one's feelings..."
+    qcTranslated: "<color=#E64D00>{npcName}</color>, who has shared mutual affection with<color=#E64D00>{playerName}</color> for a long time, is determined to declare their feelings to<color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "互有好感多时的"
@@ -643,6 +899,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Who have had mutual affection for some time<color=#E64D00>{npcName}</color>Determined resolve<color=#E64D00>{playerName}</color>Declare one's feelings..."
+    qcTranslated: "<color=#E64D00>{npcName}</color>, who has shared mutual affection with<color=#E64D00>{playerName}</color> for a long time, is determined to declare their feelings to<color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "互有好感多时的"
@@ -668,6 +932,14 @@
   - split: 13
     text: "柔情无限之际，"
     translated: "At the moment of infinite tenderness,"
+    qcReviewedText: "At the moment of infinite tenderness,<color=#E64D00>{npcName}</color>Towards<color=#E64D00>{playerName}</color>Propose marriage..."
+    qcTranslated: "At the moment of infinite tenderness, <color=#E64D00>{npcName}</color> expresses the intention to marry <color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "向"
@@ -689,6 +961,14 @@
   - split: 13
     text: "柔情无限之际，"
     translated: "At the moment of infinite tenderness,"
+    qcReviewedText: "At the moment of infinite tenderness,<color=#E64D00>{npcName}</color>Towards<color=#E64D00>{playerName}</color>Propose marriage..."
+    qcTranslated: "At the moment of infinite tenderness, <color=#E64D00>{npcName}</color> expresses the intention to marry <color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "向"
@@ -710,6 +990,14 @@
   - split: 13
     text: "柔情无限之际，"
     translated: "At the moment of infinite tenderness,"
+    qcReviewedText: "At the moment of infinite tenderness,<color=#E64D00>{npcName}</color>Towards<color=#E64D00>{playerName}</color>Propose marriage..."
+    qcTranslated: "At the moment of infinite tenderness, <color=#E64D00>{npcName}</color> expresses the intention to marry <color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "向"
@@ -731,6 +1019,13 @@
   - split: 13
     text: "恩怨几许，痴燕纷飞，"
     translated: "Fond regrets, swallows in disarray,"
+    qcReviewedText: "Fond regrets, swallows in disarray,<color=#E64D00>{npcName}</color>Fuming with resentment, determined to cut ties with<color=#E64D00>{playerName}</color>Fate's arrangement"
+    qcTranslated: "Fond regrets, swallows in disarray,<color=#E64D00>{npcName}</color> is fuming with resentment, determined to sever the marital bond with<color=#E64D00>{playerName}</color>."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 13
     subIndex: 1
     text: "心怀不满，决意断绝与"
@@ -752,36 +1047,72 @@
   - split: 13
     text: "一行踪诡异之人拦路而出，欲行不轨之事……"
     translated: "A suspicious figure stepped forward to block the way, intent on some underhanded deed......"
+    qcReviewedText: "A suspicious figure stepped forward to block the way, intent on some underhanded deed......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "41,39,\"love,id,kithKin<>,goldCoin,JiaoQing<ChouDi>,999\",\">,!/,!/,<,!/,<\",\"-1,kithKin<>,1,100,1,sliver\",100,0,\"3,11\",0,,,,,本地一憔悴旅者，听闻本地有声望兴隆的大侠客，特来寻求施舍帮助……,210100,80,2880,40,1,2"
   splits:
   - split: 13
     text: "本地一憔悴旅者，听闻本地有声望兴隆的大侠客，特来寻求施舍帮助……"
     translated: "A local weary traveler, hearing of a renowned Hero in the area, came seeking charity and help......"
+    qcReviewedText: "A local weary traveler, hearing of a renowned Hero in the area, came seeking charity and help......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "42,40,\"love,id,kithKin<>,3600\",\"<,!/,!/,<\",\"1,kithKin<>,1,gameTime\",100,0,\"3,11\",0,,,,,路旁偶有狂妄骄纵之徒，四处叫嚣，寻衅滋事……,210110,80,2880,40,1,2"
   splits:
   - split: 13
     text: "路旁偶有狂妄骄纵之徒，四处叫嚣，寻衅滋事……"
     translated: "Occasionally along the roadside, there are arrogant troublemakers causing a ruckus and looking for fights......"
+    qcReviewedText: "Occasionally along the roadside, there are arrogant troublemakers causing a ruckus and looking for fights......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "43,41,\"id,kithKin<>,JiaoQing<ChouDi>\",\"!/,!/,!/\",\"kithKin<>,1,1\",100,0,\"3,11\",0,,,,,有消息称，有一神秘人物惊现街头，兜售江湖失传多载的神功秘籍……,210130,80,4320,40,2,2"
   splits:
   - split: 13
     text: "有消息称，有一神秘人物惊现街头，兜售江湖失传多载的神功秘籍……"
     translated: "There are reports of a mysterious figure appearing on the streets, selling long-lost divine martial arts manuals from the Jianghu..."
+    qcReviewedText: "There are reports of a mysterious figure appearing on the streets, selling long-lost divine martial arts manuals from the Jianghu..."
+    qcTranslated: "There are reports of a Mysterious Stranger appearing on the streets, selling divine martial arts manuals lost from the Jianghu for many years..."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "44,42,\"id,kithKin<>,JiaoQing<ChouDi>,attribute\",\"!/,!/,!/,>\",\"kithKin<>,1,1,5\",100,0,\"3,11\",0,,,,,闻听有一古怪之人在此地驻足……,210140,80,4320,40,2,2"
   splits:
   - split: 13
     text: "闻听有一古怪之人在此地驻足……"
     translated: "Hearing of a strange person who has stopped here......"
+    qcReviewedText: "Hearing of a strange person who has stopped here......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "45,43,\"id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,//\",\"kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,传闻此处有人贩卖神丹妙药……,210150,80,4320,0,1,2"
   splits:
   - split: 13
     text: "传闻此处有人贩卖神丹妙药……"
     translated: "Rumors say that someone here sells divine elixirs and miraculous medicines..."
+    qcReviewedText: "Rumors say that someone here sells divine elixirs and miraculous medicines..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "46,44,\"JiaoQing<ShiFu>,kithKin<>,JiaoQing<ChouDi>,attribute\",\"<,!/,!/,<\",\"1,1,1,attribute\",100,0,\"3,11\",0,,,,,对<color=#E64D00>p</color>之才学钦佩已久的<color=#E64D00>a</color>决定拜<color=#E64D00>p</color>为师。,210160,80,7200,40,2,2"
   splits:
   - split: 13
     text: "对"
     translated: "Yes"
+    qcReviewedText: "Yes<color=#E64D00>{playerName}</color>Who I have long admired for their talent<color=#E64D00>{npcName}</color>Decide to pay respects to<color=#E64D00>{playerName}</color>Master"
+    qcTranslated: "Yes, <color=#E64D00>{playerName}</color>, whom <color=#E64D00>{npcName}</color> has long admired for their talent, decides to become <color=#E64D00>{playerName}</color>'s disciple."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "之才学钦佩已久的"
@@ -807,6 +1138,10 @@
   - split: 13
     text: "武学宗师"
     translated: "Martial Art Master"
+    qcReviewedText: "Martial Art Master<color=#E64D00>{npcName}</color>Wants to take on an apprentice......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     subIndex: 1
     text: "欲要收徒……"
@@ -822,6 +1157,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Deepening in affection over time's<color=#E64D00>{npcName}</color>Determined resolve<color=#E64D00>{playerName}</color>Expressing the intention to form a Sworn Bond..."
+    qcTranslated: "As the bond with<color=#E64D00>{playerName}</color>deepens day by day, <color=#E64D00>{npcName}</color>resolves to express their intention to form a Sworn Bond with<color=#E64D00>{playerName}</color>..."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "情谊日深的"
@@ -847,6 +1190,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Long-acquainted<color=#E64D00>{npcName}</color>Determined resolve<color=#E64D00>{playerName}</color>Indicating the intention to become confidants......"
+    qcTranslated: "Having known <color=#E64D00>{playerName}</color> for a long time, <color=#E64D00>{npcName}</color> is determined to express their intention to become Confidants with <color=#E64D00>{playerName}</color>......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "相识已久的"
@@ -872,6 +1223,10 @@
   - split: 13
     text: "偶遇才子，心向往之，欲与之结交相识……"
     translated: "Met a scholar and felt drawn to them, wishing to befriend and get to know them..."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Met a scholar and felt drawn to them, wishing to befriend and get to know them..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 13
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -883,6 +1238,13 @@
   - split: 13
     text: "与才子相识已久的"
     translated: "Having known the scholar for a long time"
+    qcReviewedText: "Having known the scholar for a long time<color=#E64D00>{npcName}</color>Determined to declare his feelings..."
+    qcTranslated: "Having known the scholar for a long time, <color=#E64D00>{npcName}</color> is determined to declare his feelings..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 13
     subIndex: 1
     text: "决意向其表明心迹……"
@@ -898,6 +1260,10 @@
   - split: 13
     text: "偶遇佳人，心向往之，欲与之结交相识……"
     translated: "Met a lovely lady, my heart yearns for her, wishing to be acquainted and know her..."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Met a lovely lady, my heart yearns for her, wishing to be acquainted and know her..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 13
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -909,6 +1275,13 @@
   - split: 13
     text: "与佳人相识已久的"
     translated: "Having known the fair lady for a long time"
+    qcReviewedText: "Having known the fair lady for a long time<color=#E64D00>{npcName}</color>Determined to declare his feelings..."
+    qcTranslated: "Having known the fair lady for a long time, <color=#E64D00>{npcName}</color> is determined to declare his feelings..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 13
     subIndex: 1
     text: "决意向其表明心迹……"
@@ -924,6 +1297,14 @@
   - split: 13
     text: "听闻师父"
     translated: "Hearing of Master,"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing of Master,<color=#E64D00>{playerName}</color>Here, my thoughts are deep, so I came to seek you.<color=#E64D00>{playerName}</color>Spent a short while together"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Hearing that Master<color=#E64D00>{playerName}</color> is here, I miss you deeply and have come to spend a short while together.<color=#E64D00>{playerName}</color>"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "在此处，思念甚厚，特来寻"
@@ -945,6 +1326,14 @@
   - split: 13
     text: "听闻徒弟"
     translated: "Hearing of the disciple"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Hearing of the disciple<color=#E64D00>{playerName}</color>Here, worried about my disciple's dangerous path of cultivation, I came to look for them.<color=#E64D00>{playerName}</color>Help solve their problems"
+    qcTranslated: "<color=#E64D00>{npcName}</color>Hearing that my disciple<color=#E64D00>{playerName}</color> is here, I am worried about the dangers on their path of cultivation and have come to find<color=#E64D00>{playerName}</color> to help resolve their troubles."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "在此处，担心徒儿修行险阻，特来寻"
@@ -966,6 +1355,14 @@
   - split: 13
     text: "崇拜"
     translated: "Admiration"
+    qcReviewedText: "Admiration<color=#E64D00>{playerName}</color>Long-time junior disciple's descendant<color=#E64D00>{npcName}</color>, Hearing this<color=#E64D00>{playerName}</color>Here to pay a visit..."
+    qcTranslated: "A junior disciple who has long admired <color=#E64D00>{playerName}</color>, <color=#E64D00>{npcName}</color>, heard that <color=#E64D00>{playerName}</color> is here and has come to pay a visit..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 13
     subIndex: 1
     text: "许久的后生晚辈"
@@ -991,6 +1388,14 @@
   - split: 13
     text: "与"
     translated: "With"
+    qcReviewedText: "With<color=#E64D00>{playerName}</color>Deepening in affection over time's<color=#E64D00>{npcName}</color>Determined resolve<color=#E64D00>{playerName}</color>Expressing the wish to travel together in the Jianghu..."
+    qcTranslated: "As the bond between<color=#E64D00>{playerName}</color> and<color=#E64D00>{npcName}</color> deepens day by day,<color=#E64D00>{npcName}</color> is determined to propose to<color=#E64D00>{playerName}</color> becoming Companions in the Jianghu..."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 13
     subIndex: 1
     text: "情谊日深的"

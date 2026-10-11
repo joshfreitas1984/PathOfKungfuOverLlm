@@ -3,12 +3,20 @@
   - split: 18
     text: "文本说明"
     translated: "Text description"
+    qcReviewedText: "Text description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,param,term,value,prob,place,mapReq,time,minNum,maxNum,numMap,changeParam,changeValue,map,point,occupy,nextAction,explain,stopAnim,dialog,dialogID,totalTime,cdTime,weight,weightGroup,addLife,msgTypeParam,,"
 - raw: "3,1,energy,<,60,100,0,12000_12014,\"6,9\",0,12,12014,SetSP(),30+,12014,\"2,5;3,6;2,7;1,6;4,4;5,5;4,6;3,5;6,6;7,7;6,8;5,7;8,5;9,6;8,7;7,6;7,2;8,3;7,4;6,3;8,0;9,1;8,2;7,1;4,0;5,1;4,2;3,1\",1,2_100|3_100|4_100|0_20,<color=#E64D00>a</color>颇感饥饿，决意去饭馆先弄些吃食。,daditu/30001,chifan,,40,50,40,1,0,\"4,3\",,"
   splits:
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -20,6 +28,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -31,6 +43,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -42,6 +58,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -57,6 +80,13 @@
   - split: 18
     text: "酒足饭饱的"
     translated: "After a hearty meal and drink,"
+    qcReviewedText: "After a hearty meal and drink,<color=#E64D00>{npcName}</color>Staggered back home and slept soundly"
+    qcTranslated: "After a hearty meal and drink, <color=#E64D00>{npcName}</color> staggered back home and slept soundly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "蹒跚回到家中倒头酣睡。"
@@ -72,6 +102,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -83,6 +117,13 @@
   - split: 18
     text: "筋疲力尽的"
     translated: "Exhausted"
+    qcReviewedText: "Exhausted<color=#E64D00>{npcName}</color>Staggered back home and slept soundly"
+    qcTranslated: "Exhausted, <color=#E64D00>{npcName}</color> staggered back home and slept soundly"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "蹒跚回到家中倒头酣睡。"
@@ -98,6 +139,14 @@
   - split: 18
     text: "趁夜而动，于村内盗取了1"
     translated: "Moved by night to steal 1 within the village."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night to steal 1 within the village.xx I kept my whereabouts secret, never letting my silver slip a trace."
+    qcTranslated: "<color=#E64D00>{npcName}</color> moved by night to steal 1 xx wen of Silver within the village, leaving no trace."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - split: 18
     subIndex: 1
     text: "文银钱，未曾漏了踪迹。"
@@ -113,6 +162,10 @@
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
     translated: "Moved by night, stealing items within the village"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200> i*1</color>, Drawing the ill will of the villagers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 18
     subIndex: 1
     text: "，引得村中诸人的恶感。"
@@ -128,6 +181,10 @@
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
     translated: "Moved by night, stealing items within the village"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200> i*2</color>, Drawing the ill will of the villagers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 18
     subIndex: 1
     text: "，引得村中诸人的恶感。"
@@ -143,6 +200,10 @@
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
     translated: "Moved by night, stealing items within the village"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200> i*2</color>, Drawing the ill will of the villagers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 18
     subIndex: 1
     text: "，引得村中诸人的恶感。"
@@ -158,6 +219,10 @@
   - split: 18
     text: "入夜时分，"
     translated: "At nightfall,"
+    qcReviewedText: "At nightfall,<color=#E64D00>{npcName}</color>Sneaked into someone's room and stayed the night......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 18
     subIndex: 1
     text: "偷偷潜入了某人的房内，一夜未离……"
@@ -173,6 +238,10 @@
   - split: 18
     text: "身负隐疾，特避开他人，独身前往药铺欲以重金求取药品……"
     translated: "Suffering from a hidden illness, they deliberately avoided others and went alone to the pharmacy to seek medicine at a high price......"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Suffering from a hidden illness, they deliberately avoided others and went alone to the pharmacy to seek medicine at a high price......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -184,6 +253,13 @@
   - split: 18
     text: "惯盗"
     translated: "Frequent Thief"
+    qcReviewedText: "Frequent Thief<color=#E64D00>{npcName}</color>Searched for a secluded and hidden spot to bury and hide all the stolen goods..."
+    qcTranslated: "Frequent Thief <color=#E64D00>{npcName}</color> searched for a secluded and hidden spot to bury and hide all the stolen goods..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "寻了一僻静隐秘所在，欲将诸多赃物掩埋隐藏……"
@@ -199,6 +275,10 @@
   - split: 18
     text: "偷窃了流民的"
     translated: "Stole from the refugees'"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Stole from the refugees'<color=#B08200>{randomItem}</color>, Causing everyone to look down on him"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 18
     subIndex: 1
     text: "，令诸人颇为鄙夷。"
@@ -216,6 +296,10 @@
   - split: 18
     text: "偷窃了流民的"
     translated: "Stole from the refugees'"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Stole from the refugees'<color=#B08200>{randomItem}</color>, Causing everyone to look down on him"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 18
     subIndex: 1
     text: "，令诸人颇为鄙夷。"
@@ -233,6 +317,13 @@
   - split: 18
     text: "整日劳顿"
     translated: "Endless toil day and night"
+    qcReviewedText: "Endless toil day and night<color=#E64D00>{npcName}</color>Return to your residence and take a short rest."
+    qcTranslated: "After a day of toil, <color=#E64D00>{npcName}</color> returns to their residence for a brief rest."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 18
     subIndex: 1
     text: "回返住所，小憩休息。"
@@ -248,6 +339,10 @@
   - split: 18
     text: "疲惫不堪，回到家中沉沉睡下。"
     translated: "Exhausted, they returned home and fell into a deep sleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they returned home and fell into a deep sleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -259,6 +354,10 @@
   - split: 18
     text: "疲惫不堪，回到家中沉沉睡下。"
     translated: "Exhausted, they returned home and fell into a deep sleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they returned home and fell into a deep sleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -270,6 +369,10 @@
   - split: 18
     text: "偶然寻到一无主破屋，进入休息……"
     translated: "Found an abandoned, dilapidated house by chance and went in to rest......"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Found an abandoned, dilapidated house by chance and went in to rest......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -281,6 +384,13 @@
   - split: 18
     text: "全身疲惫，进入路边一无主破屋，归入梦乡。"
     translated: "Exhausted all over, entered an abandoned dilapidated house by the roadside and fell into a dreamless sleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted all over, entered an abandoned dilapidated house by the roadside and fell into a dreamless sleep."
+    qcTranslated: "<color=#E64D00>{npcName}</color>, exhausted all over, entered an abandoned dilapidated house by the roadside and fell into a deep slumber."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -292,6 +402,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -303,6 +417,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -314,6 +432,10 @@
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
     translated: "Escaping from the fire at Qingping Village still left them shaken."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Escaping from the fire at Qingping Village still left them shaken."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -325,6 +447,10 @@
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
     translated: "Escaping from the fire at Qingping Village still left them shaken."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Escaping from the fire at Qingping Village still left them shaken."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -336,6 +462,10 @@
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
     translated: "Escaping from the fire at Qingping Village still left them shaken."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Escaping from the fire at Qingping Village still left them shaken."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -347,6 +477,10 @@
   - split: 18
     text: "于青萍村火场内逃出，仍是心有余悸。"
     translated: "Escaping from the fire at Qingping Village still left them shaken."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Escaping from the fire at Qingping Village still left them shaken."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -358,6 +492,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -369,6 +507,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -380,6 +522,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -391,6 +537,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -406,6 +559,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -417,6 +574,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -428,6 +589,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -439,6 +604,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -450,6 +619,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -461,6 +634,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -476,6 +656,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -487,6 +671,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -498,6 +686,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -509,6 +701,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -520,6 +716,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -531,6 +731,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -546,6 +753,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -557,6 +768,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -568,6 +783,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -579,6 +798,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -590,6 +813,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -601,6 +828,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -616,6 +850,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -627,6 +865,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -638,6 +880,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -649,6 +895,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -660,6 +910,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -671,6 +925,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -686,6 +947,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -697,6 +962,10 @@
   - split: 18
     text: "颇感饥饿，决意去饭馆先弄些吃食。"
     translated: "Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Feeling quite hungry, they decided to head to a restaurant for some food."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -708,6 +977,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -719,6 +992,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -730,6 +1007,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -741,6 +1022,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -752,6 +1037,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -763,6 +1052,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -774,6 +1067,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -785,6 +1082,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -796,6 +1097,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -807,6 +1112,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -818,6 +1127,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -829,6 +1142,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -840,6 +1157,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -851,6 +1172,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -862,6 +1187,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -877,6 +1209,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -888,6 +1224,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -899,6 +1239,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -910,6 +1254,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -921,6 +1269,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -932,6 +1284,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -943,6 +1299,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -954,6 +1314,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -965,6 +1329,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -976,6 +1344,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -987,6 +1359,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -1002,6 +1381,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1013,6 +1396,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1024,6 +1411,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1035,6 +1426,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1046,6 +1441,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1057,6 +1456,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1068,6 +1471,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1079,6 +1486,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -1094,6 +1508,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1105,6 +1523,10 @@
   - split: 18
     text: "心神俱疲，决意前往酒馆稍作休息。"
     translated: "Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Worn out in body and mind, they decided to head to the tavern for a brief rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1116,6 +1538,10 @@
   - split: 18
     text: "心力俱疲，随意寻了一处，归入梦乡。"
     translated: "Exhausted, they found a place to rest and fell asleep."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1127,6 +1553,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1138,6 +1568,13 @@
   - split: 18
     text: "天寒地冻，"
     translated: "It's freezing cold"
+    qcReviewedText: "It's freezing cold<color=#E64D00>{npcName}</color>Worn out, they decided to head to the tavern for a brief rest."
+    qcTranslated: "It's freezing cold<color=#E64D00>{npcName}</color>, worn out, they decided to head to the Tavern for a brief rest."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "疲惫不堪，决意前往酒馆稍作休息。"
@@ -1153,6 +1590,13 @@
   - split: 18
     text: "天寒地冻，"
     translated: "It's freezing cold"
+    qcReviewedText: "It's freezing cold<color=#E64D00>{npcName}</color>Worn out, they decided to head to the tavern for a brief rest."
+    qcTranslated: "It's freezing cold<color=#E64D00>{npcName}</color>, worn out, they decided to head to the Tavern for a brief rest."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "疲惫不堪，决意前往酒馆稍作休息。"
@@ -1168,6 +1612,10 @@
   - split: 18
     text: "听得酒馆中热闹非凡便索性挑帘入内，小坐休憩。"
     translated: "He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>He heard the tavern was bustling with activity and decided to go in for a rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1179,6 +1627,13 @@
   - split: 18
     text: "酒鬼"
     translated: "Drunkard"
+    qcReviewedText: "Drunkard<color=#E64D00>{npcName}</color>Head to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcTranslated: "Drunkard<color=#E64D00>{npcName}</color> heads to the tavern to buy some drinks, planning to get utterly drunk......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "前往酒馆寻买酒水，打算一醉方休……"
@@ -1194,6 +1649,10 @@
   - split: 18
     text: "觅一处清静所在，敛神静气，打坐调息，稍事休息。"
     translated: "Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Find a quiet place, calm your mind and breath, meditate to rest for a while."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"
@@ -1205,6 +1664,13 @@
   - split: 18
     text: "天寒地冻，"
     translated: "It's freezing cold"
+    qcReviewedText: "It's freezing cold<color=#E64D00>{npcName}</color>Worn out, they decided to head to the tavern for a brief rest."
+    qcTranslated: "It's freezing cold<color=#E64D00>{npcName}</color>, worn out, they decided to head to the Tavern for a brief rest."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "疲惫不堪，决意前往酒馆稍作休息。"
@@ -1220,6 +1686,13 @@
   - split: 18
     text: "天寒地冻，"
     translated: "It's freezing cold"
+    qcReviewedText: "It's freezing cold<color=#E64D00>{npcName}</color>Exhausted, they found a place to rest and fell asleep."
+    qcTranslated: "It's freezing cold<color=#E64D00>{npcName}</color>, exhausted in body and spirit, they found a place to rest and fell asleep."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 18
     subIndex: 1
     text: "心力俱疲，随意寻了一处，归入梦乡。"
@@ -1235,6 +1708,10 @@
   - split: 18
     text: "随便找个地方躺卧下来，养精蓄锐。"
     translated: "Lie down somewhere and rest to regain your strength."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Lie down somewhere and rest to regain your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 18
     template: "<color=#E64D00>{npcName}</color>{0}"

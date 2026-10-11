@@ -3,55 +3,111 @@
   - split: 2
     text: "道具名"
     translated: "Item name"
+    qcReviewedText: "Item name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,904001,清汤面烹饪配方,艺能,1001,2,1,0,\"1,100001\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得清汤面的烹饪方法。,习得清汤面烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "清汤面烹饪配方"
     translated: "Clear Broth Noodles Cooking Recipe"
+    qcReviewedText: "Clear Broth Noodles Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得清汤面的烹饪方法。"
     translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Clear Broth Noodles."
+    qcReviewedText: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Clear Broth Noodles."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得清汤面烹饪配方"
     translated: "Learned Clear Broth Noodles Cooking Recipe"
+    qcReviewedText: "Learned Clear Broth Noodles Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3,904002,馒头烹饪配方,艺能,1001,2,1,0,\"1,100002\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得馒头的烹饪方法。,习得馒头烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "馒头烹饪配方"
     translated: "Steamed Bun Cooking Recipe"
+    qcReviewedText: "Steamed Bun Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得馒头的烹饪方法。"
     translated: "Records a certain dish's culinary technique; after reading and studying it, you can learn the method for cooking steamed buns."
+    qcReviewedText: "Records a certain dish's culinary technique; after reading and studying it, you can learn the method for cooking steamed buns."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得馒头烹饪配方"
     translated: "Learned Steamed Bun Cooking Recipe"
+    qcReviewedText: "Learned Steamed Bun Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,904003,咸蛋烹饪配方,艺能,1001,2,1,0,\"1,100003\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得咸蛋的腌制方法。,习得咸蛋烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "咸蛋烹饪配方"
     translated: "Salted Egg Cooking Recipe"
+    qcReviewedText: "Salted Egg Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得咸蛋的腌制方法。"
     translated: "Records a culinary technique for a dish; after reading and studying it, you can learn how to cure salted eggs."
+    qcReviewedText: "Records a culinary technique for a dish; after reading and studying it, you can learn how to cure salted eggs."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得咸蛋烹饪配方"
     translated: "Learned Salted Egg Cooking Recipe"
+    qcReviewedText: "Learned Salted Egg Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,904004,高粱红烹饪配方,艺能,1001,2,1,0,\"1,100004\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种美酒的酿制配方，阅读研究后可习得高粱红的酿造方法。,习得高粱红烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "高粱红烹饪配方"
     translated: "Red Sorghum Liquor Cooking Recipe"
+    qcReviewedText: "Red Sorghum Liquor Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种美酒的酿制配方，阅读研究后可习得高粱红的酿造方法。"
     translated: "Records a recipe for a certain fine wine; after reading and studying it, you can learn the brewing method for Red Sorghum Liquor."
+    qcReviewedText: "Records a recipe for a certain fine wine; after reading and studying it, you can learn the brewing method for Red Sorghum Liquor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得高粱红烹饪配方"
     translated: "Learned the Red Sorghum Liquor Cooking Recipe"
+    qcReviewedText: "Learned the Red Sorghum Liquor Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,904011,硬木刀·精锻造配方,艺能,2001,2,1,0,\"2,110001\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了单手轻刃类武器的精制技艺，学习后可以制造【硬木刀·精】。此装备需有粗通皮毛之武境方可运使自如。,习得硬木刀·精锻造配方,item/958000,,1,1,2,1"
   splits:
   - split: 2
     text: "硬木刀"
     translated: "Hardwood Blade"
+    qcReviewedText: "Hardwood Blade·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -59,6 +115,14 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以制造【硬木刀"
     translated: "Records the refined craftsmanship of one-handed light blades, allowing you to craft the Hardwood Blade after learning it."
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades, allowing you to craft the Hardwood Blade after learning it.·Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
+    qcTranslated: "Records the refined craftsmanship of One-Handed Light Blades, allowing you to craft the Hardwood Blade Refined after learning it. This Equipment requires Novice level martial arts proficiency to use skillfully."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
@@ -66,6 +130,10 @@
   - split: 21
     text: "习得硬木刀"
     translated: "Learned Hardwood Blade"
+    qcReviewedText: "Learned Hardwood Blade·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -82,6 +150,10 @@
   - split: 2
     text: "旧纸扇"
     translated: "Old Paper Fan"
+    qcReviewedText: "Old Paper Fan·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -89,6 +161,15 @@
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以锻造【旧纸扇"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can forge an Old Paper Fan."
+    qcRejectedCorrection: "Records the refined craftsmanship of Fan-type weapons; after learning it, you can forge an Old Paper Fan (Refined). This Equipment requires a Novice level of martial arts proficiency to use skillfully."
+    qcFailureReason: " The translation put text in parentheses, but the original has no parentheses there. Remove the parentheses you added and write that text plainly in the sentence, e.g. \"Little Brother is brave\" and not \"(Little Brother) is brave\"."
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Records the refined craftsmanship of fan-type weapons; after learning it, you can forge an Old Paper Fan.·Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
@@ -96,6 +177,10 @@
   - split: 21
     text: "习得旧纸扇"
     translated: "Learn Old Paper Fan"
+    qcReviewedText: "Learn Old Paper Fan·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -112,6 +197,10 @@
   - split: 2
     text: "蒲草链"
     translated: "Rush Necklace"
+    qcReviewedText: "Rush Necklace·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -119,6 +208,13 @@
   - split: 20
     text: "记载了项链类装备的精制技艺，学习后可以制作【蒲草链"
     translated: "Records the refined craftsmanship for making necklace-type equipment. After learning it, you can create the [Rush Necklace]."
+    qcReviewedText: "Records the refined craftsmanship for making necklace-type equipment. After learning it, you can create the [Rush Necklace].·【Requirement: Minor Success in Martial Arts. This equipment can only be worn by those who have achieved Minor Success in their martial arts realm.】"
+    qcTranslated: "Records the refined craftsmanship for making necklace-type equipment. After learning it, you can create the [Rush Necklace]. Requirement: Minor Success in Martial Arts. This equipment can only be worn by those who have achieved Minor Success in their martial arts realm."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可佩戴。"
@@ -126,6 +222,10 @@
   - split: 21
     text: "习得蒲草链"
     translated: "Learned Rush Necklace"
+    qcReviewedText: "Learned Rush Necklace·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -142,6 +242,10 @@
   - split: 2
     text: "山水画扇"
     translated: "Landscape Painting Fan"
+    qcReviewedText: "Landscape Painting Fan·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -149,6 +253,13 @@
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【山水画扇"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft a Landscape Painting Fan."
+    qcReviewedText: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft a Landscape Painting Fan.·Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
+    qcTranslated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft a Landscape Painting Fan Refined. This equipment requires a Minor Success in Martial Realm to use effectively."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
@@ -156,6 +267,10 @@
   - split: 21
     text: "习得山水画扇"
     translated: "Learned Landscape Painting Fan"
+    qcReviewedText: "Learned Landscape Painting Fan·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -172,6 +287,10 @@
   - split: 2
     text: "素剑"
     translated: "Plain Sword"
+    qcReviewedText: "Plain Sword·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -179,6 +298,13 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【素剑"
     translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge a plain sword."
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge a plain sword.·Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
+    qcTranslated: "Records the refined craftsmanship of One-Handed Light Blade weapons; after learning it, you can forge a Plain Sword · Proficient. This Equipment requires a Minor Success in Martial Realm to use effectively."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
@@ -186,6 +312,10 @@
   - split: 21
     text: "习得素剑"
     translated: "Learned Plain Sword"
+    qcReviewedText: "Learned Plain Sword·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -202,6 +332,10 @@
   - split: 2
     text: "锈铁缠手"
     translated: "Rusted Iron Hand Wraps"
+    qcReviewedText: "Rusted Iron Hand Wraps·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -209,6 +343,14 @@
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【锈铁缠手"
     translated: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge the Rusted Iron Hand Wraps."
+    qcRejectedCorrection: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge the Rusted Iron Hand Wraps (Refined). This equipment requires a Minor Success in Martial Realm to use effectively."
+    qcFailureReason: " The translation put text in parentheses, but the original has no parentheses there. Remove the parentheses you added and write that text plainly in the sentence, e.g. \"Little Brother is brave\" and not \"(Little Brother) is brave\"."
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge the Rusted Iron Hand Wraps.·Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
@@ -216,6 +358,10 @@
   - split: 21
     text: "习得锈铁缠手"
     translated: "Learned Rusted Iron Hand Wraps"
+    qcReviewedText: "Learned Rusted Iron Hand Wraps·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -232,6 +378,10 @@
   - split: 2
     text: "锈红缨"
     translated: "Rusty Red Tassel"
+    qcReviewedText: "Rusty Red Tassel·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -239,6 +389,15 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【锈红缨"
     translated: "Records the refined techniques for polearms; after learning them, you can forge a Rusty Red Tassel."
+    qcReviewedText: "Records the refined techniques for polearms; after learning them, you can forge a Rusty Red Tassel.·Proficient. This equipment requires proficiency in martial arts to use skillfully."
+    qcTranslated: "Records the refined techniques for Polearms; after learning them, you can forge Rusty Red Tassel·Proficient. This Equipment requires Proficient martial arts to use skillfully."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有心领神会之武境方可运使自如。"
@@ -246,6 +405,10 @@
   - split: 21
     text: "习得锈红缨"
     translated: "Learned Rusty Red Tassel"
+    qcReviewedText: "Learned Rusty Red Tassel·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -262,6 +425,10 @@
   - split: 2
     text: "哨棒"
     translated: "Quarterstaff"
+    qcReviewedText: "Quarterstaff·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -269,6 +436,13 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以制造【哨棒"
     translated: "Records the refined craftsmanship of polearms; after learning it, you can craft the [Whistle Staff]."
+    qcReviewedText: "Records the refined craftsmanship of polearms; after learning it, you can craft the [Whistle Staff].·Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
+    qcTranslated: "Records the refined craftsmanship of Polearms; after learning it, you can craft the [Whistle Staff · Proficient]. This Equipment requires a Novice level of martial arts proficiency to use skillfully."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
@@ -276,6 +450,10 @@
   - split: 21
     text: "习得哨棒"
     translated: "Learning the Pole Arm Technique"
+    qcReviewedText: "Learning the Pole Arm Technique·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -292,6 +470,10 @@
   - split: 2
     text: "棉布长衫"
     translated: "Cotton Long Robe"
+    qcReviewedText: "Cotton Long Robe·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -299,6 +481,13 @@
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【棉布长衫"
     translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew a 【Cotton Long Robe】."
+    qcReviewedText: "Records the refined craftsmanship of armor equipment; after learning it, you can sew a 【Cotton Long Robe】.·【Requirement: Minor Success in Martial Arts. This equipment can only be worn by those who have achieved Minor Success in their martial arts realm.】"
+    qcTranslated: "Records the refined craftsmanship of Armor equipment; after learning it, you can sew a 【Cotton Long Robe · Refined】. This Equipment requires a Minor Success in Martial Arts realm to be worn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可穿戴。"
@@ -306,6 +495,10 @@
   - split: 21
     text: "习得棉布长衫"
     translated: "Learned Cotton Long Robe"
+    qcReviewedText: "Learned Cotton Long Robe·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -322,6 +515,10 @@
   - split: 2
     text: "粗铁护胫"
     translated: "Rough Iron Shin Guards"
+    qcReviewedText: "Rough Iron Shin Guards·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -329,6 +526,14 @@
   - split: 20
     text: "记载了护腿类武器的精制技艺，学习后可以锻造【粗铁护腿"
     translated: "Records the refined techniques for leg guards, allowing you to forge [Rough Iron Leg Guards] after learning them."
+    qcReviewedText: "Records the refined techniques for leg guards, allowing you to forge [Rough Iron Leg Guards] after learning them.·【Skill】. This equipment requires proficiency in martial arts to wear."
+    qcTranslated: "Records the refined techniques for Leg Guards, allowing you to forge [Rough Iron Leg Guards · Refined] after learning them. This Equipment requires Proficient martial arts to wear."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有心领神会之武境方可穿戴。"
@@ -336,6 +541,10 @@
   - split: 21
     text: "习得粗铁护胫"
     translated: "Learned Rough Iron Shin Guards"
+    qcReviewedText: "Learned Rough Iron Shin Guards·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -352,6 +561,10 @@
   - split: 2
     text: "墨家连环铳图解"
     translated: "Mohist Repeating Gun Diagram"
+    qcReviewedText: "Mohist Repeating Gun Diagram·I"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "壹"
@@ -359,9 +572,17 @@
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
     translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcReviewedText: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得墨家连环铳锻造配方"
     translated: "Learned the formula for forging the Mohist Repeating Gun"
+    qcReviewedText: "Learned the formula for forging the Mohist Repeating Gun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -370,6 +591,10 @@
   - split: 2
     text: "墨家连环铳图解"
     translated: "Mohist Repeating Gun Diagram"
+    qcReviewedText: "Mohist Repeating Gun Diagram·II"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "贰"
@@ -377,9 +602,17 @@
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
     translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcReviewedText: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得墨家连环铳锻造配方"
     translated: "Learned the formula for forging the Mohist Repeating Gun"
+    qcReviewedText: "Learned the formula for forging the Mohist Repeating Gun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -388,6 +621,10 @@
   - split: 2
     text: "墨家连环铳图解"
     translated: "Mohist Repeating Gun Diagram"
+    qcReviewedText: "Mohist Repeating Gun Diagram·III"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "叁"
@@ -395,9 +632,17 @@
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
     translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcReviewedText: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得墨家连环铳锻造配方"
     translated: "Learned the formula for forging the Mohist Repeating Gun"
+    qcReviewedText: "Learned the formula for forging the Mohist Repeating Gun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -406,6 +651,10 @@
   - split: 2
     text: "墨家连环铳图解"
     translated: "Mohist Repeating Gun Diagram"
+    qcReviewedText: "Mohist Repeating Gun Diagram·IV"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "肆"
@@ -413,9 +662,17 @@
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
     translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcReviewedText: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得墨家连环铳锻造配方"
     translated: "Learned the formula for forging the Mohist Repeating Gun"
+    qcReviewedText: "Learned the formula for forging the Mohist Repeating Gun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}·{1}"
@@ -424,17 +681,33 @@
   - split: 2
     text: "神秘图解"
     translated: "Mysterious Diagram"
+    qcReviewedText: "Mysterious Diagram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "其上所载之火器制法极尽巧思，精雕细缕，令人叹为观止……"
     translated: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcReviewedText: "The methods for making firearms described therein are incredibly ingenious, exquisitely detailed, leaving one in awe......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得钜子锻造配方"
     translated: "Learned the Forging Formula for the Juzi"
+    qcReviewedText: "Learned the Forging Formula for the Juzi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "21,904026,九州无量·精锻造配方,艺能,2003,2,0,0,\"2,110016\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了掌套类武器的精制技艺，学习后可以锻造【九州无量·精】。此装备需有炉火纯青之武境方可运使自如。,习得九州无量·精锻造配方,item/958000,,1,1,1,4"
   splits:
   - split: 2
     text: "九州无量"
     translated: "Nine Provinces, Boundless"
+    qcReviewedText: "Nine Provinces, Boundless·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -442,6 +715,13 @@
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【九州无量"
     translated: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Nine Provinces, Boundless]"
+    qcReviewedText: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Nine Provinces, Boundless]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Nine Provinces, Boundless]·Proficient. This equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -449,6 +729,10 @@
   - split: 21
     text: "习得九州无量"
     translated: "Learned Nine Provinces, Boundless"
+    qcReviewedText: "Learned Nine Provinces, Boundless·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -465,6 +749,10 @@
   - split: 2
     text: "小切玉"
     translated: "Little Jade-Cutter"
+    qcReviewedText: "Little Jade-Cutter·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -472,6 +760,14 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【小切玉"
     translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge the 'Little Jade-Cutter'."
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge the 'Little Jade-Cutter'.·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of One-Handed Light Blade weapons; after learning it, you can forge the 'Little Jade-Cutter · Perfected'. This Equipment requires a masterful level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -479,6 +775,10 @@
   - split: 21
     text: "习得小切玉"
     translated: "Learn Little Jade-Cutter"
+    qcReviewedText: "Learn Little Jade-Cutter·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -495,6 +795,10 @@
   - split: 2
     text: "红笺无色"
     translated: "Red Notepaper, Colorless"
+    qcReviewedText: "Red Notepaper, Colorless·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -502,6 +806,14 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【红笺无色"
     translated: "Records the refined techniques for polearms; after learning them, you can forge Red Notepaper, Colorless."
+    qcReviewedText: "Records the refined techniques for polearms; after learning them, you can forge Red Notepaper, Colorless.·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques for Polearms; after learning them, you can forge Red Notepaper, Colorless·Proficient. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -509,6 +821,10 @@
   - split: 21
     text: "习得红笺无色"
     translated: "Learned Red Notepaper, Colorless"
+    qcReviewedText: "Learned Red Notepaper, Colorless·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -525,6 +841,10 @@
   - split: 2
     text: "修罗"
     translated: "Asura"
+    qcReviewedText: "Asura·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -532,6 +852,13 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【修罗"
     translated: "Records the refined techniques for polearms; after learning them, you can forge [Asura]"
+    qcReviewedText: "Records the refined techniques for polearms; after learning them, you can forge [Asura]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques for Polearms; after learning them, you can forge [Asura]·Proficient. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -539,6 +866,10 @@
   - split: 21
     text: "习得修罗"
     translated: "Mastering the Asura Path"
+    qcReviewedText: "Mastering the Asura Path·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -555,6 +886,10 @@
   - split: 2
     text: "北逐天狼"
     translated: "Driving Out the Northern Wolf Star"
+    qcReviewedText: "Driving Out the Northern Wolf Star·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -562,6 +897,13 @@
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【北逐天狼"
     translated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture [Driving Out the Northern Wolf Star]"
+    qcReviewedText: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture [Driving Out the Northern Wolf Star]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture [Driving Out the Northern Wolf Star]·Refined. This equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -569,6 +911,10 @@
   - split: 21
     text: "习得北逐天狼"
     translated: "Learned Driving Out the Northern Wolf Star"
+    qcReviewedText: "Learned Driving Out the Northern Wolf Star·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -585,6 +931,10 @@
   - split: 2
     text: "清刚"
     translated: "Pure Steel"
+    qcReviewedText: "Pure Steel·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -592,6 +942,13 @@
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【清刚"
     translated: "Records the refined techniques for short weapons, allowing you to forge the [Qinggang]"
+    qcReviewedText: "Records the refined techniques for short weapons, allowing you to forge the [Qinggang]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques for Short Weapons, allowing you to forge the [Qinggang]·Proficient. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -599,6 +956,10 @@
   - split: 21
     text: "习得清刚"
     translated: "Learned Clear Vigor"
+    qcReviewedText: "Learned Clear Vigor·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -615,6 +976,10 @@
   - split: 2
     text: "烟罗云锦"
     translated: "Mist Gauze, Cloud Brocade"
+    qcReviewedText: "Mist Gauze, Cloud Brocade·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -622,6 +987,14 @@
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【烟罗云锦"
     translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew Mist Gauze, Cloud Brocade."
+    qcReviewedText: "Records the refined craftsmanship of armor equipment; after learning it, you can sew Mist Gauze, Cloud Brocade.·[Skill] Perfected martial arts proficiency is required to wear this equipment."
+    qcTranslated: "Records the refined craftsmanship of Armor equipment; after learning it, you can sew [Mist Gauze, Cloud Brocade · Perfected]. This Equipment requires Perfected martial arts proficiency to wear."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
@@ -629,6 +1002,10 @@
   - split: 21
     text: "习得烟罗云锦"
     translated: "Learned Mist Gauze, Cloud Brocade"
+    qcReviewedText: "Learned Mist Gauze, Cloud Brocade·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -645,6 +1022,10 @@
   - split: 2
     text: "八方人间"
     translated: "Eight Directions, the Mortal World"
+    qcReviewedText: "Eight Directions, the Mortal World·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -652,6 +1033,14 @@
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【八方人间"
     translated: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew [Eight Directions, the Mortal World]"
+    qcReviewedText: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew [Eight Directions, the Mortal World]·[Skill] Perfected martial arts proficiency is required to wear this equipment."
+    qcTranslated: "Records the refined craftsmanship of Waist Guard equipment; after learning it, you can sew [Eight Directions, the Mortal World]·[Skill]. This equipment requires Perfected martial arts proficiency to be worn."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
@@ -659,6 +1048,10 @@
   - split: 21
     text: "习得八方人间"
     translated: "Learned Eight Directions, the Mortal World"
+    qcReviewedText: "Learned Eight Directions, the Mortal World·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -675,6 +1068,10 @@
   - split: 2
     text: "千里烟波"
     translated: "A Thousand Li of Misty Waves"
+    qcReviewedText: "A Thousand Li of Misty Waves·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -682,6 +1079,14 @@
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【千里烟波"
     translated: "Records the refined techniques for leg guards equipment; after learning them, you can forge [A Thousand Li of Misty Waves]"
+    qcReviewedText: "Records the refined techniques for leg guards equipment; after learning them, you can forge [A Thousand Li of Misty Waves]·[Skill] Perfected martial arts proficiency is required to wear this equipment."
+    qcTranslated: "Records the refined techniques for Leg Guards equipment; after learning them, you can forge [A Thousand Li of Misty Waves]·[Skill]. This equipment requires Perfected martial arts proficiency to wear."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
@@ -689,6 +1094,10 @@
   - split: 21
     text: "习得千里烟波"
     translated: "Learned A Thousand Li of Misty Waves"
+    qcReviewedText: "Learned A Thousand Li of Misty Waves·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -705,6 +1114,10 @@
   - split: 2
     text: "镇西关"
     translated: "Guarding the Western Pass"
+    qcReviewedText: "Guarding the Western Pass·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -712,6 +1125,14 @@
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【镇西关"
     translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Guarding the Western Pass]"
+    qcReviewedText: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Guarding the Western Pass]·[Skill] Perfected martial arts proficiency is required to wear this equipment."
+    qcTranslated: "Records the refined craftsmanship of Bracers; after learning it, you can forge [Guarding the Western Pass]·[Skill]. This equipment requires Perfected martial arts proficiency to be worn."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可穿戴。"
@@ -719,6 +1140,10 @@
   - split: 21
     text: "习得镇西关"
     translated: "Learned Guarding the Western Pass"
+    qcReviewedText: "Learned Guarding the Western Pass·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -735,6 +1160,10 @@
   - split: 2
     text: "却邪"
     translated: "Repel Evil"
+    qcReviewedText: "Repel Evil·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -742,6 +1171,13 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【却邪"
     translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Devil Repelling]"
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Devil Repelling]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of One-Handed Light Blade weapons; after learning it, you can forge [Devil Repelling]·Proficient. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -749,6 +1185,10 @@
   - split: 21
     text: "习得却邪"
     translated: "Learned Defeat Evil"
+    qcReviewedText: "Learned Defeat Evil·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -765,6 +1205,10 @@
   - split: 2
     text: "古锭"
     translated: "Ancient Ingot"
+    qcReviewedText: "Ancient Ingot·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -772,6 +1216,14 @@
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【古锭"
     translated: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Ancient Ingot】"
+    qcReviewedText: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Ancient Ingot】·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Ancient Ingot】·Refined. This equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -779,6 +1231,13 @@
   - split: 21
     text: "习得千里古锭"
     translated: "Learned Ancient Thousand Mile Rail Technique"
+    qcReviewedText: "Learned Ancient Thousand Mile Rail Technique·Refined Forging Recipe"
+    qcTranslated: "Learned Ancient Thousand Mile Ingot·Refined Forging Recipe"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -795,6 +1254,10 @@
   - split: 2
     text: "秋风悲画"
     translated: "Autumn Wind Mourns the Painting"
+    qcReviewedText: "Autumn Wind Mourns the Painting·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -802,6 +1265,14 @@
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【秋风悲画"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can create the 'Autumn Wind Mourns the Painting'."
+    qcReviewedText: "Records the refined craftsmanship of fan-type weapons; after learning it, you can create the 'Autumn Wind Mourns the Painting'.·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Fan-type weapons; after learning it, you can create Autumn Wind Mourns the Painting Perfected. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -809,6 +1280,10 @@
   - split: 21
     text: "习得秋风悲画"
     translated: "Learned Autumn Wind Mourns the Painting"
+    qcReviewedText: "Learned Autumn Wind Mourns the Painting·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -825,6 +1300,10 @@
   - split: 2
     text: "霜月"
     translated: "Frost Moon"
+    qcReviewedText: "Frost Moon·Refined"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精"
@@ -832,6 +1311,13 @@
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【霜月"
     translated: "Records the refined craftsmanship of hidden weapons; after learning it, you can forge the [Frost Moon]"
+    qcReviewedText: "Records the refined craftsmanship of hidden weapons; after learning it, you can forge the [Frost Moon]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Hidden Weapons; after learning it, you can forge the [Frost Moon]·Proficient. This equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -839,6 +1325,10 @@
   - split: 21
     text: "习得霜月"
     translated: "Learned Frost Moon"
+    qcReviewedText: "Learned Frost Moon·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -855,6 +1345,10 @@
   - split: 2
     text: "五岳三山"
     translated: "Five Peaks and Three Mountains"
+    qcReviewedText: "Five Peaks and Three Mountains·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -862,6 +1356,13 @@
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【五岳三山"
     translated: "Records the refined craftsmanship of boot-head weapons; after learning it, you can forge the Five Peaks and Three Mountains."
+    qcReviewedText: "Records the refined craftsmanship of boot-head weapons; after learning it, you can forge the Five Peaks and Three Mountains.·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of boot-head weapons; after learning it, you can forge [Five Peaks and Three Mountains · Perfected]. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -869,6 +1370,10 @@
   - split: 21
     text: "习得五岳三山"
     translated: "Learned Five Peaks and Three Mountains"
+    qcReviewedText: "Learned Five Peaks and Three Mountains·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -885,6 +1390,10 @@
   - split: 2
     text: "丸锻隼前龙光"
     translated: "Full-Forged Falcon's Edge Dragon Light"
+    qcReviewedText: "Full-Forged Falcon's Edge Dragon Light·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -892,6 +1401,14 @@
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【丸锻隼前龙光"
     translated: "Records the refinement techniques for two-handed light blades; after learning them, you can forge the Full-Forged Falcon's Edge Dragon Light."
+    qcReviewedText: "Records the refinement techniques for two-handed light blades; after learning them, you can forge the Full-Forged Falcon's Edge Dragon Light.·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refinement techniques for Two-Handed Light Blade weapons; after learning them, you can Forging the Full-Forged Falcon's Edge Dragon Light.·Proficient. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -899,6 +1416,10 @@
   - split: 21
     text: "习得丸锻隼前龙光"
     translated: "Learn Full-Forged Falcon's Edge Dragon Light"
+    qcReviewedText: "Learn Full-Forged Falcon's Edge Dragon Light·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -915,6 +1436,10 @@
   - split: 2
     text: "玉露"
     translated: "Jade Dew"
+    qcReviewedText: "Jade Dew·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -922,6 +1447,14 @@
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【玉露"
     translated: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge the 【Jade Dew】"
+    qcReviewedText: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge the 【Jade Dew】·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Rope Dart weapons; after learning it, you can Forging the 【Jade Dew】·Proficient. This Equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -929,6 +1462,10 @@
   - split: 21
     text: "习得玉露"
     translated: "Learn Jade Dew"
+    qcReviewedText: "Learn Jade Dew·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -945,6 +1482,10 @@
   - split: 2
     text: "铸铁铳"
     translated: "Cast Iron Gun"
+    qcReviewedText: "Cast Iron Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -952,6 +1493,14 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【铸铁铳"
     translated: "Records the refined craftsmanship of firearms, allowing you to forge the Cast Iron Gun after learning it."
+    qcReviewedText: "Records the refined craftsmanship of firearms, allowing you to forge the Cast Iron Gun after learning it.·Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
+    qcTranslated: "Records the refined craftsmanship of firearms, allowing you to forge the Cast Iron Gun·Proficient after learning it. This equipment requires a Novice level of martial realm to use skillfully."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"
@@ -959,6 +1508,10 @@
   - split: 21
     text: "习得铸铁铳"
     translated: "Learned Cast Iron Gun"
+    qcReviewedText: "Learned Cast Iron Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -975,6 +1528,10 @@
   - split: 2
     text: "铁炎"
     translated: "Iron Flame"
+    qcReviewedText: "Iron Flame·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -982,6 +1539,10 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【铁炎"
     translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Iron Flame]"
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Iron Flame]·Proficient. This equipment requires a Minor Success in Martial Realm to use effectively."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有略有小成之武境方可运使自如。"
@@ -989,6 +1550,10 @@
   - split: 21
     text: "习得铁炎"
     translated: "Learned Iron Flame"
+    qcReviewedText: "Learned Iron Flame·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1005,6 +1570,10 @@
   - split: 2
     text: "雷鸟铳"
     translated: "Thunderbird Gun"
+    qcReviewedText: "Thunderbird Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1012,6 +1581,15 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【雷鸟铳"
     translated: "Records the refined craftsmanship of firearms, allowing you to forge the Thunderbird Gun."
+    qcReviewedText: "Records the refined craftsmanship of firearms, allowing you to forge the Thunderbird Gun.·Proficient. This equipment requires proficiency in martial arts to use skillfully."
+    qcTranslated: "Records the refined craftsmanship of firearms, allowing you to forge the Thunderbird Gun Proficient. This equipment requires a Proficient martial realm to use skillfully."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有心领神会之武境方可运使自如。"
@@ -1019,6 +1597,10 @@
   - split: 21
     text: "习得雷鸟铳"
     translated: "Learned Thunderbird Gun"
+    qcReviewedText: "Learned Thunderbird Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1035,6 +1617,10 @@
   - split: 2
     text: "青焰"
     translated: "Azure Flame"
+    qcReviewedText: "Azure Flame·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1042,6 +1628,10 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【青焰"
     translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Green Flame]"
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Green Flame]·Proficient. This equipment requires an outstanding martial realm to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有出类拔萃之武境方可运使自如。"
@@ -1049,6 +1639,10 @@
   - split: 21
     text: "习得青焰"
     translated: "Learned Azure Flame"
+    qcReviewedText: "Learned Azure Flame·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1065,6 +1659,10 @@
   - split: 2
     text: "燧焰"
     translated: "Flint Flame"
+    qcReviewedText: "Flint Flame·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1072,6 +1670,14 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【燧焰"
     translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Sulphur Flame]"
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Sulphur Flame]·[Skill] This equipment requires an accomplished level of martial skill to use freely."
+    qcTranslated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Sulphur Flame]·[Refined]. This equipment requires an accomplished level of martial skill to use freely."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登堂入室之武境方可运使自如。"
@@ -1079,6 +1685,10 @@
   - split: 21
     text: "习得燧焰"
     translated: "Mastering Ignis Flame"
+    qcReviewedText: "Mastering Ignis Flame·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1095,6 +1705,10 @@
   - split: 2
     text: "电光铳"
     translated: "Lightning Gun"
+    qcReviewedText: "Lightning Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1102,6 +1716,14 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【电光铳"
     translated: "Records the refined craftsmanship of firearms, allowing you to forge the Lightning Gun after learning it."
+    qcReviewedText: "Records the refined craftsmanship of firearms, allowing you to forge the Lightning Gun after learning it.·Proficiency. This equipment requires Martial Arts Mastery to use effectively."
+    qcTranslated: "Records the refined craftsmanship of firearms, allowing you to forge the Lightning Gun · Proficiency after learning it. This equipment requires Mastery to use effectively."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有融会贯通之武境方可运使自如。"
@@ -1109,6 +1731,10 @@
   - split: 21
     text: "习得电光铳"
     translated: "Learned Lightning Gun"
+    qcReviewedText: "Learned Lightning Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1125,6 +1751,10 @@
   - split: 2
     text: "佛朗机"
     translated: "Folangji"
+    qcReviewedText: "Folangji·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1132,6 +1762,13 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【佛朗机"
     translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Folangji]"
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Folangji]·Proficient. This equipment requires a masterful level of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge [Folangji]·Refined. This equipment requires a Perfected level of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 20
     subIndex: 1
     text: "精】。此装备需有炉火纯青之武境方可运使自如。"
@@ -1139,6 +1776,10 @@
   - split: 21
     text: "习得佛朗机"
     translated: "Learned Folangji"
+    qcReviewedText: "Learned Folangji·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1155,6 +1796,10 @@
   - split: 2
     text: "机巧铳"
     translated: "Clockwork Gun"
+    qcReviewedText: "Clockwork Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1162,6 +1807,14 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【机巧铳"
     translated: "Records the refined craftsmanship of firearm-type weapons; after studying it, you can forge the Clockwork Gun."
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after studying it, you can forge the Clockwork Gun.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Firearm-type Weapons; after studying it, you can Forging the Clockwork Gun·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1169,6 +1822,10 @@
   - split: 21
     text: "习得机巧铳"
     translated: "Learned Clockwork Gun"
+    qcReviewedText: "Learned Clockwork Gun·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1185,6 +1842,10 @@
   - split: 2
     text: "墨家千机匣"
     translated: "Mohist Thousand-Mechanism Case"
+    qcReviewedText: "Mohist Thousand-Mechanism Case·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1192,6 +1853,13 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【墨家千机匣"
     translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Thousand-Mechanism Case."
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Thousand-Mechanism Case.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Thousand-Mechanism Case Refined. This equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1199,6 +1867,10 @@
   - split: 21
     text: "习得墨家千机匣"
     translated: "Learned the Mohist Thousand-Mechanism Case"
+    qcReviewedText: "Learned the Mohist Thousand-Mechanism Case·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1215,6 +1887,10 @@
   - split: 2
     text: "墨家原型"
     translated: "Mohist Prototype"
+    qcReviewedText: "Mohist Prototype·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1222,6 +1898,14 @@
   - split: 20
     text: "记载了火器类武器的精制技艺，学习后可以锻造【墨家原型"
     translated: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Prototype."
+    qcReviewedText: "Records the refined craftsmanship of firearm-type weapons; after learning it, you can forge the Mohist Prototype.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Firearm-type Weapons; after learning it, you can Forging the Mohist Prototype.·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1229,6 +1913,10 @@
   - split: 21
     text: "习得墨家原型"
     translated: "Learned Mohist Prototype"
+    qcReviewedText: "Learned Mohist Prototype·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1245,72 +1933,148 @@
   - split: 2
     text: "叫花鸡烹饪配方"
     translated: "Beggar's Chicken Cooking Recipe"
+    qcReviewedText: "Beggar's Chicken Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得叫花鸡的烹饪方法。"
     translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Beggar's Chicken."
+    qcReviewedText: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Beggar's Chicken."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得叫花鸡烹饪配方"
     translated: "Learned the Beggar's Chicken Cooking Recipe"
+    qcReviewedText: "Learned the Beggar's Chicken Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "49,904054,东坡肉烹饪配方,艺能,2003,2,1,0,\"1,100006\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得东坡肉的烹饪方法。,习得东坡肉烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "东坡肉烹饪配方"
     translated: "Dongpo Pork Cooking Recipe"
+    qcReviewedText: "Dongpo Pork Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得东坡肉的烹饪方法。"
     translated: "Records a culinary technique for a dish; reading and studying it will teach you the method for cooking Dongpo Pork."
+    qcReviewedText: "Records a culinary technique for a dish; reading and studying it will teach you the method for cooking Dongpo Pork."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得东坡肉烹饪配方"
     translated: "Learned Dongpo Pork Cooking Recipe"
+    qcReviewedText: "Learned Dongpo Pork Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "50,904055,桃花酿烹饪配方,艺能,2003,2,1,0,\"1,100007\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种美酒的酿制配方，阅读研究后可习得桃花酿的酿造方法。,习得桃花酿烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "桃花酿烹饪配方"
     translated: "Peach Blossom Brew Cooking Recipe"
+    qcReviewedText: "Peach Blossom Brew Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种美酒的酿制配方，阅读研究后可习得桃花酿的酿造方法。"
     translated: "Contains the recipe for a certain fine wine; after reading and studying it, you can learn how to brew Peach Blossom Brew."
+    qcReviewedText: "Contains the recipe for a certain fine wine; after reading and studying it, you can learn how to brew Peach Blossom Brew."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得桃花酿烹饪配方"
     translated: "Learned the Peach Blossom Brew Cooking Recipe"
+    qcReviewedText: "Learned the Peach Blossom Brew Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "51,904056,蜂蜜麻鸭烹饪配方,艺能,2003,2,1,0,\"1,100008\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蜂蜜麻鸭的烹饪方法。,习得蜂蜜麻鸭烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "蜂蜜麻鸭烹饪配方"
     translated: "Honey Sesame Duck Cooking Recipe"
+    qcReviewedText: "Honey Sesame Duck Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蜂蜜麻鸭的烹饪方法。"
     translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking Honey Sesame Duck."
+    qcReviewedText: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking Honey Sesame Duck."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得蜂蜜麻鸭烹饪配方"
     translated: "Learned the Honey Sesame Duck Cooking Recipe"
+    qcReviewedText: "Learned the Honey Sesame Duck Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "52,904057,蛋炒饭烹饪配方,艺能,2003,2,1,0,\"1,100009\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蛋炒饭的烹饪方法。,习得蛋炒饭烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "蛋炒饭烹饪配方"
     translated: "Egg Fried Rice Cooking Recipe"
+    qcReviewedText: "Egg Fried Rice Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蛋炒饭的烹饪方法。"
     translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking egg fried rice."
+    qcReviewedText: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking egg fried rice."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得蛋炒饭烹饪配方"
     translated: "Learned Egg Fried Rice Cooking Recipe"
+    qcReviewedText: "Learned Egg Fried Rice Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "53,904058,西湖醋鱼烹饪配方,艺能,2003,2,1,0,\"1,100010\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得西湖醋鱼的烹饪方法。,习得西湖醋鱼烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "西湖醋鱼烹饪配方"
     translated: "West Lake Vinegar Fish Cooking Recipe"
+    qcReviewedText: "West Lake Vinegar Fish Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得西湖醋鱼的烹饪方法。"
     translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking West Lake Vinegar Fish."
+    qcReviewedText: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking West Lake Vinegar Fish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得西湖醋鱼烹饪配方"
     translated: "Learned the West Lake Vinegar Fish Cooking Recipe"
+    qcReviewedText: "Learned the West Lake Vinegar Fish Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "54,904059,关山月·精锻造配方,艺能,2003,2,0,0,\"2,110043\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了掌套类武器的精制技艺，学习后可以锻造【关山月·精】。此装备需有登峰造极之武境方可运使自如。,习得关山月·精锻造配方,item/958000,,1,1,1,4"
   splits:
   - split: 2
     text: "关山月"
     translated: "Moon over the Mountain Pass"
+    qcReviewedText: "Moon over the Mountain Pass·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1318,6 +2082,13 @@
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【关山月"
     translated: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge Moon over the Mountain Pass."
+    qcReviewedText: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge Moon over the Mountain Pass.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of gauntlet-type weapons; after learning it, you can forge Moon over the Mountain Pass·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1325,6 +2096,10 @@
   - split: 21
     text: "习得关山月"
     translated: "Learn Moon over the Mountain Pass"
+    qcReviewedText: "Learn Moon over the Mountain Pass·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1341,6 +2116,10 @@
   - split: 2
     text: "掌定乾坤"
     translated: "Palm Settling Heaven and Earth"
+    qcReviewedText: "Palm Settling Heaven and Earth·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1348,6 +2127,10 @@
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【掌定乾坤"
     translated: "Records the refinement techniques for palm guard weapons; after learning them, you can forge [Palm Settling Heaven and Earth]"
+    qcReviewedText: "Records the refinement techniques for palm guard weapons; after learning them, you can forge [Palm Settling Heaven and Earth]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1355,6 +2138,10 @@
   - split: 21
     text: "习得掌定乾坤"
     translated: "Learned Palm Settling Heaven and Earth"
+    qcReviewedText: "Learned Palm Settling Heaven and Earth·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1371,6 +2158,10 @@
   - split: 2
     text: "虚玄"
     translated: "Void Mystery"
+    qcReviewedText: "Void Mystery·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1378,6 +2169,13 @@
   - split: 20
     text: "记载了掌套类武器的精制技艺，学习后可以锻造【虚玄"
     translated: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Xuan]"
+    qcReviewedText: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Xuan]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of palm guard weapons; after learning it, you can forge [Xuan]·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1385,6 +2183,10 @@
   - split: 21
     text: "习得虚玄"
     translated: "Mastering the Void Mysteries"
+    qcReviewedText: "Mastering the Void Mysteries·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1401,6 +2203,10 @@
   - split: 2
     text: "青璃"
     translated: "Azure Glaze"
+    qcReviewedText: "Azure Glaze·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1408,6 +2214,10 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【青璃"
     translated: "Records the refined craftsmanship of one-handed light blades, allowing you to forge the 【Azure Glass】"
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades, allowing you to forge the 【Azure Glass】·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1415,6 +2225,10 @@
   - split: 21
     text: "习得青璃"
     translated: "Learn Qingli"
+    qcReviewedText: "Learn Qingli·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1431,6 +2245,10 @@
   - split: 2
     text: "纵渊"
     translated: "Leaping Abyss"
+    qcReviewedText: "Leaping Abyss·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1438,6 +2256,10 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【纵渊"
     translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Canyon Surge]"
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Canyon Surge]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1445,6 +2267,10 @@
   - split: 21
     text: "习得纵渊"
     translated: "Mastering the Abyssal Gorge"
+    qcReviewedText: "Mastering the Abyssal Gorge·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1461,6 +2287,10 @@
   - split: 2
     text: "尘光"
     translated: "Light of Dust"
+    qcReviewedText: "Light of Dust·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1468,6 +2298,10 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【尘光"
     translated: "Records the refined techniques of one-handed light blades, allowing you to forge the [Dustlight]"
+    qcReviewedText: "Records the refined techniques of one-handed light blades, allowing you to forge the [Dustlight]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1475,6 +2309,10 @@
   - split: 21
     text: "习得尘光"
     translated: "Learned Dustlight"
+    qcReviewedText: "Learned Dustlight·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1491,6 +2329,10 @@
   - split: 2
     text: "归合"
     translated: "Return and Unite"
+    qcReviewedText: "Return and Unite·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1498,6 +2340,10 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【归合"
     translated: "Records the refined craftsmanship of one-handed light blades, allowing you to forge [Guhe]"
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades, allowing you to forge [Guhe]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1505,6 +2351,10 @@
   - split: 21
     text: "习得归合"
     translated: "Mastering Convergence"
+    qcReviewedText: "Mastering Convergence·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1521,6 +2371,10 @@
   - split: 2
     text: "断不平"
     translated: "Cutting Down Injustice"
+    qcReviewedText: "Cutting Down Injustice·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1528,6 +2382,13 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【断不平"
     translated: "Records the refined craftsmanship of one-handed light blades, allowing you to forge [Cutting Down Injustice] after learning it."
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades, allowing you to forge [Cutting Down Injustice] after learning it.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of One-Handed Light Blade weapons, allowing you to forge [Cutting Down Injustice]·Proficient after learning it. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1535,6 +2396,10 @@
   - split: 21
     text: "习得断不平"
     translated: "Learned Cutting Down Injustice"
+    qcReviewedText: "Learned Cutting Down Injustice·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1551,6 +2416,10 @@
   - split: 2
     text: "不惧"
     translated: "Fearless"
+    qcReviewedText: "Fearless·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1558,6 +2427,10 @@
   - split: 20
     text: "记载了单手轻刃类武器的精制技艺，学习后可以锻造【不惧"
     translated: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Fearless]"
+    qcReviewedText: "Records the refined craftsmanship of one-handed light blades; after learning it, you can forge [Fearless]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1565,6 +2438,10 @@
   - split: 21
     text: "习得不惧"
     translated: "Learn to Fear Nothing"
+    qcReviewedText: "Learn to Fear Nothing·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1581,6 +2458,10 @@
   - split: 2
     text: "千石沉林"
     translated: "Thousand Stones Sink the Forest"
+    qcReviewedText: "Thousand Stones Sink the Forest·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1588,6 +2469,15 @@
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【千石沉林"
     translated: "Records the refined craftsmanship of heavy blades, allowing you to forge Thousand Stones Sink the Forest."
+    qcReviewedText: "Records the refined craftsmanship of heavy blades, allowing you to forge Thousand Stones Sink the Forest.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Heavy Blades, allowing you to Forging Thousand Stones Sink the Forest·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - GarbledNumber
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1595,6 +2485,10 @@
   - split: 21
     text: "习得千石沉林"
     translated: "Learned Thousand Stones Sink the Forest"
+    qcReviewedText: "Learned Thousand Stones Sink the Forest·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1611,6 +2505,10 @@
   - split: 2
     text: "柳絮"
     translated: "Willow Catkins"
+    qcReviewedText: "Willow Catkins·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1618,6 +2516,10 @@
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【柳絮"
     translated: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Willow Fluff】"
+    qcReviewedText: "Records the refined techniques of Heavy Blade weapons; after learning them, you can forge the 【Willow Fluff】·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1625,6 +2527,10 @@
   - split: 21
     text: "习得柳絮"
     translated: "Learned Willow Fluff"
+    qcReviewedText: "Learned Willow Fluff·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1641,6 +2547,10 @@
   - split: 2
     text: "圣人无名"
     translated: "Sage Has No Name"
+    qcReviewedText: "Sage Has No Name·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1648,6 +2558,10 @@
   - split: 20
     text: "记载了重刃类武器的精制技艺，学习后可以锻造【圣人无名"
     translated: "Records the refined craftsmanship of Heavy Blades, allowing you to forge [The Sage Has No Name]"
+    qcReviewedText: "Records the refined craftsmanship of Heavy Blades, allowing you to forge [The Sage Has No Name]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1655,6 +2569,10 @@
   - split: 21
     text: "习得圣人无名"
     translated: "Learned The Sage Has No Name"
+    qcReviewedText: "Learned The Sage Has No Name·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1671,6 +2589,10 @@
   - split: 2
     text: "寒骜"
     translated: "Cold Arrogance"
+    qcReviewedText: "Cold Arrogance·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1678,6 +2600,10 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【寒骜"
     translated: "Records the refined techniques for polearms; after learning them, you can forge the [Cold Arrogance]"
+    qcReviewedText: "Records the refined techniques for polearms; after learning them, you can forge the [Cold Arrogance]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1685,6 +2611,10 @@
   - split: 21
     text: "习得寒骜"
     translated: "Learned Cold Arrogance"
+    qcReviewedText: "Learned Cold Arrogance·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1701,6 +2631,10 @@
   - split: 2
     text: "奉天"
     translated: "By Heaven's Decree"
+    qcReviewedText: "By Heaven's Decree·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1708,6 +2642,14 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【奉天"
     translated: "Records the refined techniques of polearms; after learning them, you can forge [Fengtian"
+    qcReviewedText: "Records the refined techniques of polearms; after learning them, you can forge [Fengtian·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques of Polearms; after learning them, you can Forging [Fengtian·Proficient]. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1715,6 +2657,10 @@
   - split: 21
     text: "习得奉天"
     translated: "Learn to Serve Heaven"
+    qcReviewedText: "Learn to Serve Heaven·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1731,6 +2677,10 @@
   - split: 2
     text: "迷悟"
     translated: "Delusion and Awakening"
+    qcReviewedText: "Delusion and Awakening·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1738,6 +2688,13 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【迷悟"
     translated: "Records the refined techniques of polearms; after learning them, you can forge [Enlightenment and Confusion]"
+    qcReviewedText: "Records the refined techniques of polearms; after learning them, you can forge [Enlightenment and Confusion]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques of Polearms; after learning them, you can forge [Enlightenment and Confusion]·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1745,6 +2702,10 @@
   - split: 21
     text: "习得迷悟"
     translated: "Learned Enlightenment and Confusion"
+    qcReviewedText: "Learned Enlightenment and Confusion·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1761,6 +2722,10 @@
   - split: 2
     text: "定规王土"
     translated: "Establishing Rule over the King's Land"
+    qcReviewedText: "Establishing Rule over the King's Land·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1768,6 +2733,13 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【定规王土"
     translated: "Records the refined craftsmanship of polearms; after learning it, you can forge [Establishing Rule over the King's Land]."
+    qcReviewedText: "Records the refined craftsmanship of polearms; after learning it, you can forge [Establishing Rule over the King's Land].·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Polearms; after learning it, you can forge [Establishing Rule over the King's Land · Proficient]. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1775,6 +2747,10 @@
   - split: 21
     text: "习得定规王土"
     translated: "Learned Establishing Rule over the King's Land"
+    qcReviewedText: "Learned Establishing Rule over the King's Land·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1791,6 +2767,10 @@
   - split: 2
     text: "百战死"
     translated: "Die in a Hundred Battles"
+    qcReviewedText: "Die in a Hundred Battles·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1798,6 +2778,14 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【百战死"
     translated: "Records the refined craftsmanship of polearms; after learning it, you can forge the Die in a Hundred Battles."
+    qcReviewedText: "Records the refined craftsmanship of polearms; after learning it, you can forge the Die in a Hundred Battles.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Polearms; after learning it, you can Forging the Die in a Hundred Battles·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1805,6 +2793,10 @@
   - split: 21
     text: "习得百战死"
     translated: "Learn to Die in a Hundred Battles"
+    qcReviewedText: "Learn to Die in a Hundred Battles·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1821,6 +2813,10 @@
   - split: 2
     text: "镇"
     translated: "Suppress"
+    qcReviewedText: "Suppress·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1828,6 +2824,13 @@
   - split: 20
     text: "记载了长兵类武器的精制技艺，学习后可以锻造【镇"
     translated: "Records the refined techniques for polearms; after learning them, you can forge [the legendary]"
+    qcReviewedText: "Records the refined techniques for polearms; after learning them, you can forge [the legendary]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques for polearms; after learning them, you can forge [the legendary]·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1835,6 +2838,10 @@
   - split: 21
     text: "习得镇"
     translated: "Xi De Town"
+    qcReviewedText: "Xi De Town·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1851,6 +2858,10 @@
   - split: 2
     text: "饮余生"
     translated: "Drinking the Rest of Life"
+    qcReviewedText: "Drinking the Rest of Life·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1858,6 +2869,10 @@
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【饮余生"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft [Drinking the Rest of Life]"
+    qcReviewedText: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft [Drinking the Rest of Life]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1865,6 +2880,10 @@
   - split: 21
     text: "习得饮余生"
     translated: "Learned Drinking the Rest of Life"
+    qcReviewedText: "Learned Drinking the Rest of Life·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1881,6 +2900,10 @@
   - split: 2
     text: "焚琴煮鹤"
     translated: "Burning the Zither, Cooking the Crane"
+    qcReviewedText: "Burning the Zither, Cooking the Crane·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1888,6 +2911,10 @@
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【焚琴煮鹤"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can create [Burning the Zither, Cooking the Crane]"
+    qcReviewedText: "Records the refined craftsmanship of fan-type weapons; after learning it, you can create [Burning the Zither, Cooking the Crane]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1895,6 +2922,10 @@
   - split: 21
     text: "习得焚琴煮鹤"
     translated: "Learned Burning the Zither, Cooking the Crane"
+    qcReviewedText: "Learned Burning the Zither, Cooking the Crane·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1911,6 +2942,10 @@
   - split: 2
     text: "展颜"
     translated: "Smile Unfurled"
+    qcReviewedText: "Smile Unfurled·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1918,6 +2953,10 @@
   - split: 20
     text: "记载了扇子类武器的精制技艺，学习后可以制造【展颜"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft [Show a Smile]"
+    qcReviewedText: "Records the refined craftsmanship of fan-type weapons; after learning it, you can craft [Show a Smile]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1925,6 +2964,10 @@
   - split: 21
     text: "习得展颜"
     translated: "Learn to Smile Gracefully"
+    qcReviewedText: "Learn to Smile Gracefully·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1941,6 +2984,10 @@
   - split: 2
     text: "离愁"
     translated: "Parting Sorrow"
+    qcReviewedText: "Parting Sorrow·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1948,6 +2995,10 @@
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【离愁"
     translated: "Records the refinement techniques for hidden weapons; after learning them, you can forge [Sorrow of Parting]"
+    qcReviewedText: "Records the refinement techniques for hidden weapons; after learning them, you can forge [Sorrow of Parting]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1955,6 +3006,10 @@
   - split: 21
     text: "习得离愁"
     translated: "Learning Parting Sorrow"
+    qcReviewedText: "Learning Parting Sorrow·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -1971,6 +3026,10 @@
   - split: 2
     text: "红拂"
     translated: "Red Whisk"
+    qcReviewedText: "Red Whisk·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -1978,6 +3037,13 @@
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【红拂"
     translated: "Records the refinement techniques for hidden weapons; after learning them, you can forge the [Red-Fisted]"
+    qcReviewedText: "Records the refinement techniques for hidden weapons; after learning them, you can forge the [Red-Fisted]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refinement techniques for Hidden Weapons; after learning them, you can forge [Red-Fisted]·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -1985,6 +3051,10 @@
   - split: 21
     text: "习得红拂"
     translated: "Learn Red Phoenix Techniques"
+    qcReviewedText: "Learn Red Phoenix Techniques·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2001,6 +3071,10 @@
   - split: 2
     text: "楚人赋"
     translated: "Ode of the Chu Man"
+    qcReviewedText: "Ode of the Chu Man·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2008,6 +3082,13 @@
   - split: 20
     text: "记载了暗器类武器的精制技艺，学习后可以锻造【楚人赋"
     translated: "Records the refinement techniques for hidden weapons; after learning them, you can forge the Ode of the Chu Man."
+    qcReviewedText: "Records the refinement techniques for hidden weapons; after learning them, you can forge the Ode of the Chu Man.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refinement techniques for Hidden Weapon; after learning them, you can forge the Ode of the Chu Man·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2015,6 +3096,10 @@
   - split: 21
     text: "习得楚人赋"
     translated: "Learned Ode of the Chu Man"
+    qcReviewedText: "Learned Ode of the Chu Man·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2031,6 +3116,10 @@
   - split: 2
     text: "踏雪"
     translated: "Snow Treader"
+    qcReviewedText: "Snow Treader·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2038,6 +3127,10 @@
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【踏雪"
     translated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Treading Snow]"
+    qcReviewedText: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Treading Snow]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2045,6 +3138,10 @@
   - split: 21
     text: "习得踏雪"
     translated: "Mastering Treading Snow"
+    qcReviewedText: "Mastering Treading Snow·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2061,6 +3158,10 @@
   - split: 2
     text: "游子"
     translated: "Wanderer"
+    qcReviewedText: "Wanderer·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2068,6 +3169,10 @@
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【游子"
     translated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Wandering Scholar]"
+    qcReviewedText: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Wandering Scholar]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2075,6 +3180,10 @@
   - split: 21
     text: "习得游子"
     translated: "Wandering Scholar's Mastery"
+    qcReviewedText: "Wandering Scholar's Mastery·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2091,6 +3200,10 @@
   - split: 2
     text: "捭阖"
     translated: "Open and Close"
+    qcReviewedText: "Open and Close·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2098,6 +3211,13 @@
   - split: 20
     text: "记载了靴头类武器的精制技艺，学习后可以锻造【捭阖"
     translated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Opening and Closing"
+    qcReviewedText: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Opening and Closing·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques for boot-head weapons; after learning them, you can forge [Opening and Closing·Proficient]. This equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2105,6 +3225,10 @@
   - split: 21
     text: "习得捭阖"
     translated: "Mastering Persuasion and Influence"
+    qcReviewedText: "Mastering Persuasion and Influence·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2121,6 +3245,10 @@
   - split: 2
     text: "绿竹"
     translated: "Green Bamboo"
+    qcReviewedText: "Green Bamboo·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2128,6 +3256,10 @@
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【绿竹"
     translated: "Records the refined craftsmanship of two-handed light blades, allowing you to forge the 【Green Bamboo】"
+    qcReviewedText: "Records the refined craftsmanship of two-handed light blades, allowing you to forge the 【Green Bamboo】·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2135,6 +3267,10 @@
   - split: 21
     text: "习得绿竹"
     translated: "Learn Green Bamboo Technique"
+    qcReviewedText: "Learn Green Bamboo Technique·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2151,6 +3287,10 @@
   - split: 2
     text: "鬼十刃"
     translated: "Ghost Ten Blades"
+    qcReviewedText: "Ghost Ten Blades·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2158,6 +3298,13 @@
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【鬼十刃"
     translated: "Records the refined craftsmanship of two-handed light blades; after studying it, you can forge the Ghost Ten Blades."
+    qcReviewedText: "Records the refined craftsmanship of two-handed light blades; after studying it, you can forge the Ghost Ten Blades.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Two-Handed Light Blade weapons; after studying it, you can forge [Ghost Ten Blades · Proficient]. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2165,6 +3312,10 @@
   - split: 21
     text: "习得鬼十刃"
     translated: "Learned Ghost Ten Blades"
+    qcReviewedText: "Learned Ghost Ten Blades·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2181,6 +3332,10 @@
   - split: 2
     text: "至心"
     translated: "Utmost Sincerity"
+    qcReviewedText: "Utmost Sincerity·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2188,6 +3343,10 @@
   - split: 20
     text: "记载了双手轻刃类武器的精制技艺，学习后可以锻造【至心"
     translated: "Records the refined techniques of two-handed light blades, allowing you to forge [With Sincerity]"
+    qcReviewedText: "Records the refined techniques of two-handed light blades, allowing you to forge [With Sincerity]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2195,6 +3354,10 @@
   - split: 21
     text: "习得至心"
     translated: "Learned with all one's heart"
+    qcReviewedText: "Learned with all one's heart·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2211,6 +3374,10 @@
   - split: 2
     text: "饮风"
     translated: "Drinking the Wind"
+    qcReviewedText: "Drinking the Wind·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2218,6 +3385,10 @@
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【饮风"
     translated: "Records the refined techniques of rope dart weapons; after learning them, you can forge [Drinking Wind]"
+    qcReviewedText: "Records the refined techniques of rope dart weapons; after learning them, you can forge [Drinking Wind]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2225,6 +3396,10 @@
   - split: 21
     text: "习得饮风"
     translated: "Learn to Drink the Wind"
+    qcReviewedText: "Learn to Drink the Wind·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2241,6 +3416,10 @@
   - split: 2
     text: "幽音"
     translated: "Hidden Sound"
+    qcReviewedText: "Hidden Sound·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2248,6 +3427,13 @@
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【幽音"
     translated: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge [Yonyin]"
+    qcReviewedText: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge [Yonyin]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Rope Dart weapons; after learning it, you can forge [Yonyin]·Refined. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2255,6 +3441,10 @@
   - split: 21
     text: "习得幽音"
     translated: "Mastering Muted Tones"
+    qcReviewedText: "Mastering Muted Tones·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2271,6 +3461,10 @@
   - split: 2
     text: "碎幻"
     translated: "Shattered Illusion"
+    qcReviewedText: "Shattered Illusion·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2278,6 +3472,10 @@
   - split: 20
     text: "记载了绳镖类武器的精制技艺，学习后可以锻造【碎幻"
     translated: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge [Shattered Illusion]"
+    qcReviewedText: "Records the refined craftsmanship of rope dart weapons; after learning it, you can forge [Shattered Illusion]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2285,6 +3483,10 @@
   - split: 21
     text: "习得碎幻"
     translated: "Learn Shattered Illusion"
+    qcReviewedText: "Learn Shattered Illusion·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2301,6 +3503,10 @@
   - split: 2
     text: "墨枢"
     translated: "Ink Pivot"
+    qcReviewedText: "Ink Pivot·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2308,6 +3514,13 @@
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【墨枢"
     translated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can craft the 【Moxiu】"
+    qcReviewedText: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can craft the 【Moxiu】·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Bow weapons; after learning it, you can craft the 【Moxiu】·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2315,6 +3528,10 @@
   - split: 21
     text: "习得墨枢"
     translated: "Learned Black Pivot"
+    qcReviewedText: "Learned Black Pivot·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2331,6 +3548,10 @@
   - split: 2
     text: "寒弦逐月"
     translated: "Cold String Chases the Moon"
+    qcReviewedText: "Cold String Chases the Moon·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2338,6 +3559,13 @@
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【寒弦逐月"
     translated: "Records the refined craftsmanship of bow weapons; after learning it, you can craft the Cold String Chases the Moon."
+    qcReviewedText: "Records the refined craftsmanship of bow weapons; after learning it, you can craft the Cold String Chases the Moon.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of bow weapons; after learning it, you can craft Cold String Chases the Moon Refined. This equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2345,6 +3573,10 @@
   - split: 21
     text: "习得寒弦逐月"
     translated: "Learned Cold String Chases the Moon"
+    qcReviewedText: "Learned Cold String Chases the Moon·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2361,6 +3593,10 @@
   - split: 2
     text: "青冥羽"
     translated: "Azure Void Feather"
+    qcReviewedText: "Azure Void Feather·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2368,6 +3604,10 @@
   - split: 20
     text: "记载了弓箭类武器的精制技艺，学习后可以制造【青冥羽"
     translated: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture the 【Azure Void Feather】"
+    qcReviewedText: "Records the refined craftsmanship of bow and arrow weapons; after learning it, you can manufacture the 【Azure Void Feather】·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2375,6 +3615,10 @@
   - split: 21
     text: "习得青冥羽"
     translated: "Learned Azure Void Feather"
+    qcReviewedText: "Learned Azure Void Feather·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2391,6 +3635,10 @@
   - split: 2
     text: "相思缠"
     translated: "Longing's Bind"
+    qcReviewedText: "Longing's Bind·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2398,6 +3646,13 @@
   - split: 20
     text: "记载了软鞭类武器的精制技艺，学习后可以制造【相思缠"
     translated: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft the 'Longing's Bind'."
+    qcReviewedText: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft the 'Longing's Bind'.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Whip-type weapons; after learning it, you can craft [Longing's Bind · Proficient]. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2405,6 +3660,10 @@
   - split: 21
     text: "习得相思缠"
     translated: "Learn Longing's Bind"
+    qcReviewedText: "Learn Longing's Bind·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2421,6 +3680,10 @@
   - split: 2
     text: "沧漫"
     translated: "Boundless Blue"
+    qcReviewedText: "Boundless Blue·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2428,6 +3691,13 @@
   - split: 20
     text: "记载了软鞭类武器的精制技艺，学习后可以制造【沧漫"
     translated: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft [Cangman"
+    qcReviewedText: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft [Cangman·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined craftsmanship of Whip-type weapons; after learning it, you can craft [Cangman·Proficient]. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2435,6 +3705,10 @@
   - split: 21
     text: "习得沧漫"
     translated: "Learn Cangman"
+    qcReviewedText: "Learn Cangman·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2451,6 +3725,10 @@
   - split: 2
     text: "龙蛇"
     translated: "Dragon and Serpent"
+    qcReviewedText: "Dragon and Serpent·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2458,6 +3736,10 @@
   - split: 20
     text: "记载了软鞭类武器的精制技艺，学习后可以制造【龙蛇"
     translated: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft [Dragon Snake]"
+    qcReviewedText: "Records the refined craftsmanship of whip-type weapons; after learning it, you can craft [Dragon Snake]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2465,6 +3747,10 @@
   - split: 21
     text: "习得龙蛇"
     translated: "Learning Dragon and Snake Style"
+    qcReviewedText: "Learning Dragon and Snake Style·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2481,6 +3767,10 @@
   - split: 2
     text: "擘鲤"
     translated: "Splitting the Carp"
+    qcReviewedText: "Splitting the Carp·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2488,6 +3778,14 @@
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【擘鲤"
     translated: "Records the refined techniques for short weapons, allowing you to forge [Prying Carp]"
+    qcReviewedText: "Records the refined techniques for short weapons, allowing you to forge [Prying Carp]·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refined techniques for Short Weapons, allowing you to Forging [Prying Carp]·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2495,6 +3793,10 @@
   - split: 21
     text: "习得擘鲤"
     translated: "Learned Carp Dissection"
+    qcReviewedText: "Learned Carp Dissection·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2511,6 +3813,10 @@
   - split: 2
     text: "环月吟"
     translated: "Ring-Moon Chant"
+    qcReviewedText: "Ring-Moon Chant·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2518,6 +3824,13 @@
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【环月吟"
     translated: "Records the refinement techniques for short weapons; after learning them, you can forge the Ring-Moon Chant."
+    qcReviewedText: "Records the refinement techniques for short weapons; after learning them, you can forge the Ring-Moon Chant.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refinement techniques for Short Weapons; after learning them, you can forge Ring-Moon Chant·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2525,6 +3838,10 @@
   - split: 21
     text: "习得环月吟"
     translated: "Learned Ring-Moon Chant"
+    qcReviewedText: "Learned Ring-Moon Chant·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2541,6 +3858,10 @@
   - split: 2
     text: "双影依身"
     translated: "Twin Shadows Cling to the Body"
+    qcReviewedText: "Twin Shadows Cling to the Body·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2548,6 +3869,14 @@
   - split: 20
     text: "记载了短兵类武器的精制技艺，学习后可以锻造【双影依身"
     translated: "Records the refinement techniques for short weapons; after learning them, you can forge Twin Shadows Cling to the Body."
+    qcReviewedText: "Records the refinement techniques for short weapons; after learning them, you can forge Twin Shadows Cling to the Body.·Proficient. This equipment requires reaching the pinnacle of martial arts to use with ease."
+    qcTranslated: "Records the refinement techniques for Short Weapon; after learning them, you can Forging Twin Shadows Cling to the Body·Proficient. This Equipment requires reaching the Pinnacle of martial arts to use with ease."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可运使自如。"
@@ -2555,6 +3884,10 @@
   - split: 21
     text: "习得双影依身"
     translated: "Learned Twin Shadows Cling to the Body"
+    qcReviewedText: "Learned Twin Shadows Cling to the Body·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2571,6 +3904,10 @@
   - split: 2
     text: "羽罗披"
     translated: "Feather-Gauze Cloak"
+    qcReviewedText: "Feather-Gauze Cloak·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2578,6 +3915,13 @@
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【羽罗披"
     translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew a Feather-Gauze Cloak."
+    qcReviewedText: "Records the refined craftsmanship of armor equipment; after learning it, you can sew a Feather-Gauze Cloak.·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Armor equipment; after learning it, you can sew a Feather-Gauze Cloak·Refined. This Equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2585,6 +3929,10 @@
   - split: 21
     text: "习得羽罗披"
     translated: "Learned Feather-Gauze Cloak"
+    qcReviewedText: "Learned Feather-Gauze Cloak·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2601,6 +3949,10 @@
   - split: 2
     text: "露华"
     translated: "Dew Splendor"
+    qcReviewedText: "Dew Splendor·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2608,6 +3960,14 @@
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【露华"
     translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew the [Luhua]"
+    qcReviewedText: "Records the refined craftsmanship of armor equipment; after learning it, you can sew the [Luhua]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Armor equipment; after learning it, you can sew [Luhua · Refined]. This Equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - HardToParseSeam
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2615,6 +3975,10 @@
   - split: 21
     text: "习得露华"
     translated: "Learn Lu Hua"
+    qcReviewedText: "Learn Lu Hua·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2631,6 +3995,10 @@
   - split: 2
     text: "天衢"
     translated: "Heavenly Thoroughfare"
+    qcReviewedText: "Heavenly Thoroughfare·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2638,6 +4006,14 @@
   - split: 20
     text: "记载了护甲类装备的精制技艺，学习后可以缝制【天衢"
     translated: "Records the refined craftsmanship of armor equipment; after learning it, you can sew [Tianqu"
+    qcReviewedText: "Records the refined craftsmanship of armor equipment; after learning it, you can sew [Tianqu·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Armor Equipment; after learning it, you can sew [Tianqu·Fine]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2645,6 +4021,10 @@
   - split: 21
     text: "习得天衢"
     translated: "Learned Skyway Technique"
+    qcReviewedText: "Learned Skyway Technique·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2661,6 +4041,10 @@
   - split: 2
     text: "刑天臂"
     translated: "Xingtian's Arm"
+    qcReviewedText: "Xingtian's Arm·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2668,6 +4052,14 @@
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【刑天臂"
     translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge Xingtian's Arm."
+    qcRejectedCorrection: "Records the refined craftsmanship of Bracers equipment; after learning it, you can forge Xingtian's Arm (Refined). This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcFailureReason: " The translation put text in parentheses, but the original has no parentheses there. Remove the parentheses you added and write that text plainly in the sentence, e.g. \"Little Brother is brave\" and not \"(Little Brother) is brave\"."
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge Xingtian's Arm.·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2675,6 +4067,10 @@
   - split: 21
     text: "习得刑天臂"
     translated: "Learned Xingtian's Arm"
+    qcReviewedText: "Learned Xingtian's Arm·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2691,6 +4087,10 @@
   - split: 2
     text: "敛骨"
     translated: "Gathering Bones"
+    qcReviewedText: "Gathering Bones·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2698,6 +4098,14 @@
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【敛骨"
     translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Bone Gathering]"
+    qcReviewedText: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Bone Gathering]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Bracers Equipment; after learning it, you can forge [Bone Gathering · Refined]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - HardToParseSeam
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2705,6 +4113,10 @@
   - split: 21
     text: "习得敛骨"
     translated: "Learning to Gather Bones"
+    qcReviewedText: "Learning to Gather Bones·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2721,6 +4133,10 @@
   - split: 2
     text: "归一"
     translated: "Return to One"
+    qcReviewedText: "Return to One·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2728,6 +4144,14 @@
   - split: 20
     text: "记载了护臂类装备的精制技艺，学习后可以锻造【归一"
     translated: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Unification]"
+    qcReviewedText: "Records the refined craftsmanship of bracer equipment; after learning it, you can forge [Unification]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Bracers equipment; after learning it, you can forge [Unification · Refined]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2735,6 +4159,10 @@
   - split: 21
     text: "习得归一"
     translated: "Master Unity"
+    qcReviewedText: "Master Unity·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2751,6 +4179,10 @@
   - split: 2
     text: "飞琼"
     translated: "Flying Gem"
+    qcReviewedText: "Flying Gem·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2758,6 +4190,14 @@
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【飞琼"
     translated: "Records the refined craftsmanship of leg guard equipment; after learning it, you can forge [Fei Qiong]"
+    qcReviewedText: "Records the refined craftsmanship of leg guard equipment; after learning it, you can forge [Fei Qiong]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Leg Guards equipment; after learning it, you can forge [Fei Qiong · Refined]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2765,6 +4205,10 @@
   - split: 21
     text: "习得飞琼"
     translated: "Learn Feiqiong"
+    qcReviewedText: "Learn Feiqiong·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2781,6 +4225,10 @@
   - split: 2
     text: "玉城"
     translated: "Jade City"
+    qcReviewedText: "Jade City·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2788,6 +4236,14 @@
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【玉城"
     translated: "Records the refined techniques for leg guards equipment; after learning them, you can forge [Jade City"
+    qcReviewedText: "Records the refined techniques for leg guards equipment; after learning them, you can forge [Jade City·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined techniques for Leg Guards equipment; after learning them, you can forge [Jade City·Refined]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2795,6 +4251,10 @@
   - split: 21
     text: "习得玉城"
     translated: "Learn Jade City"
+    qcReviewedText: "Learn Jade City·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2811,6 +4271,10 @@
   - split: 2
     text: "孤鹜"
     translated: "Lone Duck"
+    qcReviewedText: "Lone Duck·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2818,6 +4282,14 @@
   - split: 20
     text: "记载了护腿类装备的精制技艺，学习后可以锻造【孤鹜"
     translated: "Records the refined craftsmanship of leg guard equipment; after learning it, you can forge [Solitary Wild Goose]"
+    qcReviewedText: "Records the refined craftsmanship of leg guard equipment; after learning it, you can forge [Solitary Wild Goose]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Leg Guards; after learning it, you can forge [Solitary Wild Goose]·Refined. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - HardToParseSeam
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2825,6 +4297,10 @@
   - split: 21
     text: "习得孤鹜"
     translated: "Learn Lone Wild Goose"
+    qcReviewedText: "Learn Lone Wild Goose·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2841,6 +4317,10 @@
   - split: 2
     text: "浩然意"
     translated: "Haoran Spirit"
+    qcReviewedText: "Haoran Spirit·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2848,6 +4328,13 @@
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【浩然意"
     translated: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew the Haoran Spirit."
+    qcReviewedText: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew the Haoran Spirit.·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Waist Guard equipment; after learning it, you can sew the Haoran Spirit · Refined. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2855,6 +4342,10 @@
   - split: 21
     text: "习得浩然意"
     translated: "Learned Haoran Spirit"
+    qcReviewedText: "Learned Haoran Spirit·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2871,6 +4362,10 @@
   - split: 2
     text: "逢龙"
     translated: "Meeting the Dragon"
+    qcReviewedText: "Meeting the Dragon·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2878,6 +4373,14 @@
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【逢龙"
     translated: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew [Feng Long]"
+    qcReviewedText: "Records the refined craftsmanship of waist guard equipment; after learning it, you can sew [Feng Long]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Waist Guard equipment; after learning it, you can sew [Feng Long · Refined]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - HardToParseSeam
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2885,6 +4388,10 @@
   - split: 21
     text: "习得逢龙"
     translated: "Learning to Encounter Dragons"
+    qcReviewedText: "Learning to Encounter Dragons·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2901,6 +4408,10 @@
   - split: 2
     text: "缚海"
     translated: "Binding the Sea"
+    qcReviewedText: "Binding the Sea·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "精锻造配方"
@@ -2908,6 +4419,14 @@
   - split: 20
     text: "记载了护腰类装备的精制技艺，学习后可以缝制【缚海"
     translated: "Records the refined craftsmanship of waist guard equipment. After learning it, you can sew the [Seafarer's Binding]"
+    qcReviewedText: "Records the refined craftsmanship of waist guard equipment. After learning it, you can sew the [Seafarer's Binding]·This equipment requires you to have reached the pinnacle of martial prowess to wear it."
+    qcTranslated: "Records the refined craftsmanship of Waist Guard equipment. After learning it, you can sew [Seafarer's Binding · Refined]. This equipment requires you to have reached the Pinnacle of martial prowess to wear it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有登峰造极之武境方可穿戴。"
@@ -2915,6 +4434,10 @@
   - split: 21
     text: "习得缚海"
     translated: "Learning to Bind the Sea"
+    qcReviewedText: "Learning to Bind the Sea·Refined Forging Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     subIndex: 1
     text: "精锻造配方"
@@ -2931,262 +4454,550 @@
   - split: 2
     text: "还复膏药方"
     translated: "Restoration Ointment Formula"
+    qcReviewedText: "Restoration Ointment Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得还复膏的制药方法。"
     translated: "Contains a recipe for some medicinal herb, reading it will teach you the method to make the Restoration Ointment."
+    qcReviewedText: "Contains a recipe for some medicinal herb, reading it will teach you the method to make the Restoration Ointment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得还复膏配方"
     translated: "Learned the recipe for Restoration Ointment"
+    qcReviewedText: "Learned the recipe for Restoration Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "109,904114,理气丸药方,艺能,3002,2,1,0,\"3,120002\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得理气丸的制药方法。,习得理气丸配方,item/958000,,1,1,1,1"
   splits:
   - split: 2
     text: "理气丸药方"
     translated: "Qi-Regulating Pill Formula"
+    qcReviewedText: "Qi-Regulating Pill Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得理气丸的制药方法。"
     translated: "Contains a recipe for a certain herb formula; reading it will teach you how to make Qi-Regulating Pills."
+    qcReviewedText: "Contains a recipe for a certain herb formula; reading it will teach you how to make Qi-Regulating Pills."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得理气丸配方"
     translated: "Learned the recipe for Qi-Regulating Pills"
+    qcReviewedText: "Learned the recipe for Qi-Regulating Pills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "110,904115,白霞散药方,艺能,3003,2,1,0,\"3,120003\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得白霞散的制药方法。,习得白霞散配方,item/958000,,1,1,1,2"
   splits:
   - split: 2
     text: "白霞散药方"
     translated: "White Glow Powder Formula"
+    qcReviewedText: "White Glow Powder Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得白霞散的制药方法。"
     translated: "Contains a recipe for some medicinal herb. Reading it will teach you how to make White Glow Powder."
+    qcReviewedText: "Contains a recipe for some medicinal herb. Reading it will teach you how to make White Glow Powder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得白霞散配方"
     translated: "Learned the recipe for White Glow Powder"
+    qcReviewedText: "Learned the recipe for White Glow Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "111,904116,玉髓膏药方,艺能,3004,2,1,0,\"3,120004\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得玉髓膏的制药方法。,习得玉髓膏配方,item/958000,,1,1,1,3"
   splits:
   - split: 2
     text: "玉髓膏药方"
     translated: "Jade Marrow Ointment Formula"
+    qcReviewedText: "Jade Marrow Ointment Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得玉髓膏的制药方法。"
     translated: "Contains a recipe for a medicinal formula; reading it will teach you how to make the Jade Marrow Ointment."
+    qcReviewedText: "Contains a recipe for a medicinal formula; reading it will teach you how to make the Jade Marrow Ointment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得玉髓膏配方"
     translated: "Learned the recipe for Jade Marrow Ointment"
+    qcReviewedText: "Learned the recipe for Jade Marrow Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "112,904117,止血草药方,艺能,3005,2,1,0,\"3,120005\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得止血草的制药方法。,习得止血草配方,item/958000,,1,1,1,1"
   splits:
   - split: 2
     text: "止血草药方"
     translated: "Styptic Herb Formula"
+    qcReviewedText: "Styptic Herb Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得止血草的制药方法。"
     translated: "Contains a prescription for some medicinal herb; reading it will teach you the method to prepare Styptic Herb."
+    qcReviewedText: "Contains a prescription for some medicinal herb; reading it will teach you the method to prepare Styptic Herb."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得止血草配方"
     translated: "Learned Styptic Herb recipe"
+    qcReviewedText: "Learned Styptic Herb recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "113,904118,金创散药方,艺能,3006,2,1,0,\"3,120006\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得金创散的制药方法。,习得金创散配方,item/958000,,1,1,1,1"
   splits:
   - split: 2
     text: "金创散药方"
     translated: "Wound-Mending Powder Formula"
+    qcReviewedText: "Wound-Mending Powder Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得金创散的制药方法。"
     translated: "Contains a recipe for a medicinal formula; reading it will teach you how to make Wound-Mending Powder."
+    qcReviewedText: "Contains a recipe for a medicinal formula; reading it will teach you how to make Wound-Mending Powder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得金创散配方"
     translated: "Learned the recipe for Wound-Mending Powder"
+    qcReviewedText: "Learned the recipe for Wound-Mending Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "114,904119,净血丸药方,艺能,3007,2,1,0,\"3,120007\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得净血丸的制药方法。,习得净血丸配方,item/958000,,1,1,1,2"
   splits:
   - split: 2
     text: "净血丸药方"
     translated: "Blood-Purifying Pill Formula"
+    qcReviewedText: "Blood-Purifying Pill Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得净血丸的制药方法。"
     translated: "Contains a recipe for a certain herb formula; reading it will teach you how to make the Blood-Purifying Pill."
+    qcReviewedText: "Contains a recipe for a certain herb formula; reading it will teach you how to make the Blood-Purifying Pill."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得净血丸配方"
     translated: "Learned the recipe for Blood-Purifying Pill"
+    qcReviewedText: "Learned the recipe for Blood-Purifying Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "115,904120,雪蟾膏药方,艺能,3008,2,1,0,\"3,120008\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得雪蟾膏的制药方法。,习得雪蟾膏配方,item/958000,,1,1,1,3"
   splits:
   - split: 2
     text: "雪蟾膏药方"
     translated: "Snow Toad Ointment Formula"
+    qcReviewedText: "Snow Toad Ointment Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得雪蟾膏的制药方法。"
     translated: "Contains a recipe for some medicinal ingredient; reading it will teach you how to make Snow Toad Ointment."
+    qcReviewedText: "Contains a recipe for some medicinal ingredient; reading it will teach you how to make Snow Toad Ointment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得雪蟾膏配方"
     translated: "Learned the recipe for Snow Toad Ointment"
+    qcReviewedText: "Learned the recipe for Snow Toad Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "116,904121,蕴灵散药方,艺能,3009,2,1,0,\"3,120009\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得蕴灵散的制药方法。,习得蕴灵散配方,item/958000,,1,1,4,1"
   splits:
   - split: 2
     text: "蕴灵散药方"
     translated: "Spirit-Nourishing Powder Formula"
+    qcReviewedText: "Spirit-Nourishing Powder Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得蕴灵散的制药方法。"
     translated: "Contains a recipe for some herb, reading it will teach you the method to make Spirit-Nourishing Powder."
+    qcReviewedText: "Contains a recipe for some herb, reading it will teach you the method to make Spirit-Nourishing Powder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得蕴灵散配方"
     translated: "Learned the Spirit-Nourishing Powder recipe"
+    qcReviewedText: "Learned the Spirit-Nourishing Powder recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "117,904122,归元散药方,艺能,3010,2,1,0,\"3,120010\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得归元散的制药方法。,习得归元散配方,item/958000,,1,1,2,1"
   splits:
   - split: 2
     text: "归元散药方"
     translated: "Origin-Returning Powder Formula"
+    qcReviewedText: "Origin-Returning Powder Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得归元散的制药方法。"
     translated: "Contains a recipe for a certain herb formula; reading it will teach you how to make Origin-Returning Powder."
+    qcReviewedText: "Contains a recipe for a certain herb formula; reading it will teach you how to make Origin-Returning Powder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得归元散配方"
     translated: "Learned the recipe for Origin-Returning Powder"
+    qcReviewedText: "Learned the recipe for Origin-Returning Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "118,904123,葱花鱼汤烹饪配方,艺能,2002,2,1,0,\"1,100011\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。,习得葱花鱼汤配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "葱花鱼汤烹饪配方"
     translated: "Scallion Fish Soup Cooking Recipe"
+    qcReviewedText: "Scallion Fish Soup Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。"
     translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking scallion fish soup."
+    qcReviewedText: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking scallion fish soup."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得葱花鱼汤配方"
     translated: "Learned the recipe for Scallion Fish Soup"
+    qcReviewedText: "Learned the recipe for Scallion Fish Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "119,904124,清蒸银刀鱼烹饪配方,艺能,2003,2,1,0,\"1,100012\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得清蒸银刀鱼的烹饪方法。,习得清蒸银刀鱼配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "清蒸银刀鱼烹饪配方"
     translated: "Steamed Silver Knife Fish Cooking Recipe"
+    qcReviewedText: "Steamed Silver Knife Fish Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得清蒸银刀鱼的烹饪方法。"
     translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for steamed Silver Knife Fish."
+    qcReviewedText: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for steamed Silver Knife Fish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得清蒸银刀鱼配方"
     translated: "Learned the recipe for Steamed Silver Knife Fish"
+    qcReviewedText: "Learned the recipe for Steamed Silver Knife Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "120,904125,醉仙鱼烹饪配方,艺能,2004,2,1,0,\"1,100013\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得醉仙鱼的烹饪方法。,习得醉仙鱼配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "醉仙鱼烹饪配方"
     translated: "Drunken Immortal Fish Cooking Recipe"
+    qcReviewedText: "Drunken Immortal Fish Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得醉仙鱼的烹饪方法。"
     translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Drunken Immortal Fish."
+    qcReviewedText: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Drunken Immortal Fish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得醉仙鱼配方"
     translated: "Learned Drunken Immortal Fish recipe"
+    qcReviewedText: "Learned Drunken Immortal Fish recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "121,904126,盐焗虾烹饪配方,艺能,2002,2,1,0,\"1,100014\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得盐焗虾的烹饪方法。,习得盐焗虾配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "盐焗虾烹饪配方"
     translated: "Salt-Baked Shrimp Cooking Recipe"
+    qcReviewedText: "Salt-Baked Shrimp Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得盐焗虾的烹饪方法。"
     translated: "Records a culinary technique for a dish; reading and studying it will allow you to learn the method for cooking salt-baked shrimp."
+    qcReviewedText: "Records a culinary technique for a dish; reading and studying it will allow you to learn the method for cooking salt-baked shrimp."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得盐焗虾配方"
     translated: "Learned the recipe for Salt-Baked Shrimp"
+    qcReviewedText: "Learned the recipe for Salt-Baked Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "122,904127,椒爆鲜虾段烹饪配方,艺能,2003,2,1,0,\"1,100015\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得椒爆鲜虾段的烹饪方法。,习得椒爆鲜虾段配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "椒爆鲜虾段烹饪配方"
     translated: "Pepper-Fried Fresh Shrimp Cooking Recipe"
+    qcReviewedText: "Pepper-Fried Fresh Shrimp Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得椒爆鲜虾段的烹饪方法。"
     translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Pepper-Fried Fresh Shrimp."
+    qcReviewedText: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Pepper-Fried Fresh Shrimp."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得椒爆鲜虾段配方"
     translated: "Learned the recipe for Pepper-Fried Fresh Shrimp"
+    qcReviewedText: "Learned the recipe for Pepper-Fried Fresh Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "123,904128,血玉虾羹烹饪配方,艺能,2004,2,1,0,\"1,100016\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得血玉虾羹的烹饪方法。,习得血玉虾羹配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "血玉虾羹烹饪配方"
     translated: "Blood-Jade Shrimp Soup Cooking Recipe"
+    qcReviewedText: "Blood-Jade Shrimp Soup Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得血玉虾羹的烹饪方法。"
     translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Blood-Jade Shrimp Soup."
+    qcReviewedText: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Blood-Jade Shrimp Soup."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得血玉虾羹配方"
     translated: "Learned the recipe for Blood-Jade Shrimp Soup"
+    qcReviewedText: "Learned the recipe for Blood-Jade Shrimp Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "124,904129,蟹肉豆腐煲烹饪配方,艺能,2002,2,1,0,\"1,100017\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蟹肉豆腐煲的烹饪方法。,习得蟹肉豆腐煲配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "蟹肉豆腐煲烹饪配方"
     translated: "Crab Meat Tofu Pot Cooking Recipe"
+    qcReviewedText: "Crab Meat Tofu Pot Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蟹肉豆腐煲的烹饪方法。"
     translated: "Records a cooking technique for a certain dish. After reading and studying it, you can learn the method for Cooking Crab Meat Tofu Pot."
+    qcReviewedText: "Records a cooking technique for a certain dish. After reading and studying it, you can learn the method for Cooking Crab Meat Tofu Pot."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得蟹肉豆腐煲配方"
     translated: "Learned the recipe for Crab Meat Tofu Pot"
+    qcReviewedText: "Learned the recipe for Crab Meat Tofu Pot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "125,904130,蟹脂蛋羹烹饪配方,艺能,2003,2,1,0,\"1,100018\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蟹脂蛋羹的烹饪方法。,习得蟹脂蛋羹配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "蟹脂蛋羹烹饪配方"
     translated: "Crab Roe Steamed Egg Cooking Recipe"
+    qcReviewedText: "Crab Roe Steamed Egg Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蟹脂蛋羹的烹饪方法。"
     translated: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Crab Roe Steamed Egg."
+    qcReviewedText: "Records a culinary technique for a dish. After reading and studying it, you can learn the method for cooking Crab Roe Steamed Egg."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得蟹脂蛋羹配方"
     translated: "Learned the recipe for Crab Roe Steamed Egg"
+    qcReviewedText: "Learned the recipe for Crab Roe Steamed Egg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "126,904131,蓝田玉蟹酿烹饪配方,艺能,2004,2,1,0,\"1,100019\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得蓝田玉蟹酿的烹饪方法。,习得蓝田玉蟹酿配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "蓝田玉蟹酿烹饪配方"
     translated: "Lantian Jade Stuffed Crab Cooking Recipe"
+    qcReviewedText: "Lantian Jade Stuffed Crab Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得蓝田玉蟹酿的烹饪方法。"
     translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Lantian Jade Stuffed Crab."
+    qcReviewedText: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Lantian Jade Stuffed Crab."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得蓝田玉蟹酿配方"
     translated: "Learned the recipe for Lantian Jade Stuffed Crab"
+    qcReviewedText: "Learned the recipe for Lantian Jade Stuffed Crab"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "127,904132,草螺羹烹饪配方,艺能,2002,2,1,0,\"1,100020\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得草螺羹的烹饪方法。,习得草螺羹配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "草螺羹烹饪配方"
     translated: "Grass Snail Soup Cooking Recipe"
+    qcReviewedText: "Grass Snail Soup Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得草螺羹的烹饪方法。"
     translated: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Grass Snail Soup."
+    qcReviewedText: "Records a certain dish's culinary technique; reading and studying it will allow you to learn the method for Cooking Grass Snail Soup."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得草螺羹配方"
     translated: "Learned the recipe for Grass Snail Soup"
+    qcReviewedText: "Learned the recipe for Grass Snail Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "128,904133,翡翠煨白螺烹饪配方,艺能,2003,2,1,0,\"1,100021\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得翡翠煨白螺的烹饪方法。,习得翡翠煨白螺配方,item/958000,,1,1,0,2"
   splits:
   - split: 2
     text: "翡翠煨白螺烹饪配方"
     translated: "Jade-Simmered White Snail Cooking Recipe"
+    qcReviewedText: "Jade-Simmered White Snail Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得翡翠煨白螺的烹饪方法。"
     translated: "Records a culinary technique for a dish; reading and studying it will allow you to learn the method for cooking Jade-Simmered White Snail."
+    qcReviewedText: "Records a culinary technique for a dish; reading and studying it will allow you to learn the method for cooking Jade-Simmered White Snail."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得翡翠煨白螺配方"
     translated: "Learned the recipe for Jade-Simmered White Snail"
+    qcReviewedText: "Learned the recipe for Jade-Simmered White Snail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "129,904134,彩云螺肉烧烹饪配方,艺能,2004,2,1,0,\"1,100022\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得彩云螺肉烧的烹饪方法。,习得彩云螺肉烧配方,item/958000,,1,1,0,3"
   splits:
   - split: 2
     text: "彩云螺肉烧烹饪配方"
     translated: "Colorful Cloud Snail Braise Cooking Recipe"
+    qcReviewedText: "Colorful Cloud Snail Braise Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得彩云螺肉烧的烹饪方法。"
     translated: "Records a certain dish's culinary technique; reading and studying it allows you to learn the method for Cooking Colorful Cloud Snail Braise."
+    qcReviewedText: "Records a certain dish's culinary technique; reading and studying it allows you to learn the method for Cooking Colorful Cloud Snail Braise."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得彩云螺肉烧配方"
     translated: "Learned the recipe for Colorful Cloud Snail Braise"
+    qcReviewedText: "Learned the recipe for Colorful Cloud Snail Braise"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "130,904135,乾坤一锅炖食补药方,艺能,3011,2,1,0,\"3,100023\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种药材的配制单方，阅读后可习得乾坤一锅烩的食补方法。,习得乾坤一锅烩配方,item/958000,,1,1,2,3"
   splits:
   - split: 2
     text: "乾坤一锅炖食补药方"
     translated: "One Pot of Heaven and Earth Nourishing Stew Formula"
+    qcReviewedText: "One Pot of Heaven and Earth Nourishing Stew Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种药材的配制单方，阅读后可习得乾坤一锅烩的食补方法。"
     translated: "Contains a prescription for a medicinal herb. Reading it will teach you the method for making One Pot of Heaven and Earth for nourishment."
+    qcReviewedText: "Contains a prescription for a medicinal herb. Reading it will teach you the method for making One Pot of Heaven and Earth for nourishment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得乾坤一锅烩配方"
     translated: "Learned the recipe for One Pot of Heaven and Earth"
+    qcReviewedText: "Learned the recipe for One Pot of Heaven and Earth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "131,904136,沙枣酥烹饪配方,艺能,1001,2,1,0,\"1,100024\",999,True,15,225,300,\"use,1\",,1,,0,学习,记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。,习得沙枣酥烹饪配方,item/958000,,1,1,0,1"
   splits:
   - split: 2
     text: "沙枣酥烹饪配方"
     translated: "Oleaster Pastry Cooking Recipe"
+    qcReviewedText: "Oleaster Pastry Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 20
     text: "记载了某种食肴的料理手艺，阅读研究后可习得葱花鱼汤的烹饪方法。"
     translated: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking scallion fish soup."
+    qcReviewedText: "Records a culinary technique for a dish; after reading and studying it, you can learn the method for cooking scallion fish soup."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 21
     text: "习得沙枣酥烹饪配方"
     translated: "Learned the Oleaster Pastry Cooking Recipe"
+    qcReviewedText: "Learned the Oleaster Pastry Cooking Recipe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

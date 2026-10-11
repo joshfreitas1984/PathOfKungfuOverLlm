@@ -3,300 +3,656 @@
   - split: 2
     text: "道具名"
     translated: "Item name"
+    qcReviewedText: "Item name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "道具说明"
     translated: "Item description"
+    qcReviewedText: "Item description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,901000,还复膏,药品,9001,1,1,27,气血回复,气血:780,999,9,True,5,75,100,\"use,1\",1,境界≥1,1,5,0,0,立即回复气血值780点,已使用【还复膏】,item/901003,Using.wav,精研草本制成的丸药，能够活血化瘀，回复一定气血。,1,1"
   splits:
   - split: 2
     text: "还复膏"
     translated: "Restoration Ointment"
+    qcReviewedText: "Restoration Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值780点"
     translated: "Immediate reply: Lifeforce 780 points"
+    qcReviewedText: "Immediate reply: Lifeforce 780 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【还复膏】"
     translated: "Already used [Restoration Ointment]"
+    qcReviewedText: "Already used [Restoration Ointment]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "精研草本制成的丸药，能够活血化瘀，回复一定气血。"
     translated: "Carefully studying herbs to make pills that can invigorate the blood and dissipate stasis, restoring some lifeforce."
+    qcReviewedText: "Carefully studying herbs to make pills that can invigorate the blood and dissipate stasis, restoring some lifeforce."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3,901001,理气丸,药品,9002,2,1,27,气血回复,气血:1160,999,9,True,10,150,200,\"use,1\",1,境界≥2,2,10,0,0,立即回复气血值1160点,已使用【理气丸】,item/901004,Using.wav,气血行之经脉，流转百骸，可自愈疾也。,1,1"
   splits:
   - split: 2
     text: "理气丸"
     translated: "Qi-Regulating Pill"
+    qcReviewedText: "Qi-Regulating Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值1160点"
     translated: "Immediate reply: Lifeforce 1160 points"
+    qcReviewedText: "Immediate reply: Lifeforce 1160 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【理气丸】"
     translated: "Used [Qi-Regulating Pill]"
+    qcReviewedText: "Used [Qi-Regulating Pill]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "气血行之经脉，流转百骸，可自愈疾也。"
     translated: "Lifeforce flows through the meridians, circulating throughout the body to heal ailments."
+    qcReviewedText: "Lifeforce flows through the meridians, circulating throughout the body to heal ailments."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,901002,八宝花丸,药品,9003,3,1,27,气血回复,气血:4440,999,9,True,15,225,300,\"use,1\",1,境界≥3,3,15,0,0,立即回复气血值4440点,已使用【八宝花丸】,item/950001,Using.wav,羚角、珍珠磨粉，佐以牛黄、麝香、三七等材，有活血化瘀之效。,1,1"
   splits:
   - split: 2
     text: "八宝花丸"
     translated: "Eight Treasures Flower Pill"
+    qcReviewedText: "Eight Treasures Flower Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值4440点"
     translated: "Immediate reply: Lifeforce 4440 points"
+    qcReviewedText: "Immediate reply: Lifeforce 4440 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【八宝花丸】"
     translated: "You have used the 【Eight Treasures Flower Pill】"
+    qcReviewedText: "You have used the 【Eight Treasures Flower Pill】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "羚角、珍珠磨粉，佐以牛黄、麝香、三七等材，有活血化瘀之效。"
     translated: "Antelope horn, powdered pearl, paired with buffalo gallbladder, musk, and sanqi, has the effect of promoting blood circulation and removing blood stasis."
+    qcReviewedText: "Antelope horn, powdered pearl, paired with buffalo gallbladder, musk, and sanqi, has the effect of promoting blood circulation and removing blood stasis."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,901003,白霞散,药品,9004,4,1,27,气血回复,气血:6400,999,9,True,20,300,400,\"use,1\",1,境界≥4,4,20,0,0,立即回复气血值6400点,已使用【白霞散】,item/901403,Using.wav,色若银晶，嗅如沉香，敷可续肌，服可养血。,1,1"
   splits:
   - split: 2
     text: "白霞散"
     translated: "White Glow Powder"
+    qcReviewedText: "White Glow Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值6400点"
     translated: "Immediately reply with Lifeforce 6400 points"
+    qcReviewedText: "Immediately reply with Lifeforce 6400 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【白霞散】"
     translated: "Already used 【White Glow Powder】"
+    qcReviewedText: "Already used 【White Glow Powder】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "色若银晶，嗅如沉香，敷可续肌，服可养血。"
     translated: "As white as silver crystals, with the scent of agarwood, it can heal the skin and nourish the blood."
+    qcReviewedText: "As white as silver crystals, with the scent of agarwood, it can heal the skin and nourish the blood."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,901004,生脉丹,药品,9005,5,1,27,气血回复,气血:8840,999,9,True,25,375,500,\"use,1\",1,境界≥5,5,25,0,0,立即回复气血值8840点,已使用【生脉丹】,item/901004,Using.wav,数十种名贵药材煎煮凝成，其味苦辛，药性颇烈。,1,1"
   splits:
   - split: 2
     text: "生脉丹"
     translated: "Pulse-Reviving Elixir"
+    qcReviewedText: "Pulse-Reviving Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值8840点"
     translated: "Immediately reply with Lifeforce 8840 points"
+    qcReviewedText: "Immediately reply with Lifeforce 8840 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【生脉丹】"
     translated: "You have used the Pulse-Reviving Elixir"
+    qcReviewedText: "You have used the Pulse-Reviving Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "数十种名贵药材煎煮凝成，其味苦辛，药性颇烈。"
     translated: "Made by boiling dozens of precious medicinal herbs, it is bitter and pungent with a strong potency."
+    qcReviewedText: "Made by boiling dozens of precious medicinal herbs, it is bitter and pungent with a strong potency."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,901005,玉髓膏,药品,9006,6,1,27,气血回复,气血:10240,999,9,True,30,450,600,\"use,1\",1,境界≥6,6,30,0,0,立即回复气血值10240点,已使用【玉髓膏】,item/901003,Using.wav,甘香扑鼻，药气浓郁，服之可生新血、破旧瘀、续白骨。,1,1"
   splits:
   - split: 2
     text: "玉髓膏"
     translated: "Jade Marrow Ointment"
+    qcReviewedText: "Jade Marrow Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值10240点"
     translated: "Immediately reply with Lifeforce 10240 points"
+    qcReviewedText: "Immediately reply with Lifeforce 10240 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【玉髓膏】"
     translated: "You have used the Jade Marrow Ointment"
+    qcReviewedText: "You have used the Jade Marrow Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "甘香扑鼻，药气浓郁，服之可生新血、破旧瘀、续白骨。"
     translated: "The sweet fragrance is intoxicating, the medicinal power rich and potent, capable of generating new blood, dispelling old stagnation, and mending white bones."
+    qcReviewedText: "The sweet fragrance is intoxicating, the medicinal power rich and potent, capable of generating new blood, dispelling old stagnation, and mending white bones."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,901006,回天露,药品,9007,7,1,27,气血回复,气血:13080,999,9,True,35,525,700,\"use,1\",1,境界≥7,7,35,0,0,立即回复气血值13080点,已使用【回天露】,item/901303,Using.wav,取无源之水三钱，秘植数十，熬煎取液，至蒸水取露，可酿此药。,1,1"
   splits:
   - split: 2
     text: "回天露"
     translated: "Heaven-Restoring Dew"
+    qcReviewedText: "Heaven-Restoring Dew"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值13080点"
     translated: "Immediately reply with Lifeforce 13080 points"
+    qcReviewedText: "Immediately reply with Lifeforce 13080 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【回天露】"
     translated: "Already used 【Heaven-Restoring Dew】"
+    qcReviewedText: "Already used 【Heaven-Restoring Dew】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "取无源之水三钱，秘植数十，熬煎取液，至蒸水取露，可酿此药。"
     translated: "Take three coins' worth of water from a sourceless spring, secretly plant dozens of herbs, boil and extract the liquid, then distill to collect the dew, and you can brew this medicine."
+    qcReviewedText: "Take three coins' worth of water from a sourceless spring, secretly plant dozens of herbs, boil and extract the liquid, then distill to collect the dew, and you can brew this medicine."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,901007,还神丹,药品,9008,7,1,27,气血回复,气血:20080,999,9,True,40,600,800,\"use,1\",1,境界≥8,8,40,0,0,立即回复气血值20080点,已使用【还神丹】,item/901301,Using.wav,采千年首乌之精，万年灵芝之华，方可炼就。,1,1"
   splits:
   - split: 2
     text: "还神丹"
     translated: "Spirit-Restoring Elixir"
+    qcReviewedText: "Spirit-Restoring Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "立即回复气血值20080点"
     translated: "Immediately reply with Lifeforce 20080 points"
+    qcReviewedText: "Immediately reply with Lifeforce 20080 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【还神丹】"
     translated: "You have used the Spirit-Restoring Elixir"
+    qcReviewedText: "You have used the Spirit-Restoring Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "采千年首乌之精，万年灵芝之华，方可炼就。"
     translated: "It must be refined with the essence of ginseng that has grown for a thousand years and the radiance of lingzhi that has thrived for ten thousand."
+    qcReviewedText: "It must be refined with the essence of ginseng that has grown for a thousand years and the radiance of lingzhi that has thrived for ten thousand."
+    qcTranslated: "It must be refined with the essence of the thousand-year-old fo-ti and the radiance of the ten-thousand-year-old lingzhi."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "10,901100,止血草,药品,8001,1,1,27,气血回复,\"添加buff:气血恢复,171,5\",999,9,True,5,75,100,\"use,1\",1,境界≥1,1,5,0,0,气血值每秒回复171，共持续5秒,已使用【止血草】,item/901001,Using.wav,最简易的外敷药草，上至刀剑伤势，下至指尖小创皆不妨一试。,1,1"
   splits:
   - split: 2
     text: "止血草"
     translated: "Styptic Herb"
+    qcReviewedText: "Styptic Herb"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复171，共持续5秒"
     translated: "Lifeforce regenerates by 171 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 171 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【止血草】"
     translated: "Already used [Styptic Herb]"
+    qcReviewedText: "Already used [Styptic Herb]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "最简易的外敷药草，上至刀剑伤势，下至指尖小创皆不妨一试。"
     translated: "The simplest topical herbs, useful for wounds from blades and swords as well as minor cuts on the fingertips."
+    qcReviewedText: "The simplest topical herbs, useful for wounds from blades and swords as well as minor cuts on the fingertips."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,901101,金创散,药品,8002,2,1,27,气血回复,\"添加buff:气血恢复,255,5\",999,9,True,10,150,200,\"use,1\",1,境界≥2,2,10,0,0,气血值每秒回复255，共持续5秒,已使用【金创散】,item/950002,Using.wav,江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出血。,1,1"
   splits:
   - split: 2
     text: "金创散"
     translated: "Wound-Mending Powder"
+    qcReviewedText: "Wound-Mending Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复255，共持续5秒"
     translated: "Lifeforce regenerates by 255 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 255 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【金创散】"
     translated: "Already used [Wound-Mending Powder]"
+    qcReviewedText: "Already used [Wound-Mending Powder]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "江湖郎中以铜石草药研磨而成的粉，外敷，可疗愈外伤出血。"
     translated: "A Jianghu peddler's powder, made by grinding copper, stones, and herbs, can be applied externally to heal external injuries and stop bleeding."
+    qcReviewedText: "A Jianghu peddler's powder, made by grinding copper, stones, and herbs, can be applied externally to heal external injuries and stop bleeding."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,901102,续命散,药品,8003,3,1,27,气血回复,\"添加buff:气血恢复,976,5\",999,9,True,15,225,300,\"use,1\",1,境界≥3,3,15,0,0,气血值每秒回复976，共持续5秒,已使用【续命散】,item/901403,Using.wav,色赤而味辛，江湖常见的止血消痛之药。,1,1"
   splits:
   - split: 2
     text: "续命散"
     translated: "Life-Prolonging Powder"
+    qcReviewedText: "Life-Prolonging Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复976，共持续5秒"
     translated: "Lifeforce regenerates by 976 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 976 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【续命散】"
     translated: "Already used [Life-Prolonging Powder]"
+    qcReviewedText: "Already used [Life-Prolonging Powder]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "色赤而味辛，江湖常见的止血消痛之药。"
     translated: "Red and pungent, a common Jianghu medicine for stopping bleeding and relieving pain."
+    qcReviewedText: "Red and pungent, a common Jianghu medicine for stopping bleeding and relieving pain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,901103,净血丸,药品,8004,4,1,27,气血回复,\"添加buff:气血恢复,1408,5\",999,9,True,20,300,400,\"use,1\",1,境界≥4,4,20,0,0,气血值每秒回复1408，共持续5秒,已使用【净血丸】,item/901004,Using.wav,药香浓郁，其色赤红，服之可安神定气，补精益元。,1,1"
   splits:
   - split: 2
     text: "净血丸"
     translated: "Blood-Purifying Pill"
+    qcReviewedText: "Blood-Purifying Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复1408，共持续5秒"
     translated: "Lifeforce regenerates by 1408 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 1408 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【净血丸】"
     translated: "Already used [Blood-Purifying Pill]"
+    qcReviewedText: "Already used [Blood-Purifying Pill]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "药香浓郁，其色赤红，服之可安神定气，补精益元。"
     translated: "The scent is strong and medicinal, its color a deep red. Consuming it can calm the mind and stabilize the breath, replenishing essence and restoring vitality."
+    qcReviewedText: "The scent is strong and medicinal, its color a deep red. Consuming it can calm the mind and stabilize the breath, replenishing essence and restoring vitality."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,901104,灵露丸,药品,8005,5,1,27,气血回复,\"添加buff:气血恢复,1944,5\",999,9,True,25,375,500,\"use,1\",1,境界≥5,5,25,0,0,气血值每秒回复1944，共持续5秒,已使用【灵露丸】,item/901004,Using.wav,解表化湿，理气和中，气芳香，味甘、微苦。,1,1"
   splits:
   - split: 2
     text: "灵露丸"
     translated: "Spirit Dew Pill"
+    qcReviewedText: "Spirit Dew Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复1944，共持续5秒"
     translated: "Lifeforce regenerates by 1944 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 1944 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【灵露丸】"
     translated: "You have used the Spirit Dew Pill"
+    qcReviewedText: "You have used the Spirit Dew Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "解表化湿，理气和中，气芳香，味甘、微苦。"
     translated: "Dispels exterior symptoms and dries dampness, regulates qi and harmonizes the middle burner. Its aroma is pronounced, with a slightly sweet and bitter taste."
+    qcReviewedText: "Dispels exterior symptoms and dries dampness, regulates qi and harmonizes the middle burner. Its aroma is pronounced, with a slightly sweet and bitter taste."
+    qcTranslated: "Dispels exterior symptoms and dries dampness, regulates qi and harmonizes the middle burner. Its qi is aromatic, with a sweet and slightly bitter taste."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "15,901105,雪蟾膏,药品,8006,6,1,27,气血回复,\"添加buff:气血恢复,2252,5\",999,9,True,30,450,600,\"use,1\",1,境界≥6,6,30,0,0,气血值每秒回复2252，共持续5秒,已使用【雪蟾膏】,item/901003,Using.wav,性味咸平，不燥不火，补气益中，兴髓生血。,1,1"
   splits:
   - split: 2
     text: "雪蟾膏"
     translated: "Snow Toad Ointment"
+    qcReviewedText: "Snow Toad Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复2252，共持续5秒"
     translated: "Lifeforce regenerates by 2252 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 2252 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【雪蟾膏】"
     translated: "You have used the Snow Toad Ointment"
+    qcReviewedText: "You have used the Snow Toad Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "性味咸平，不燥不火，补气益中，兴髓生血。"
     translated: "Has a salty and neutral taste, neither drying nor heating, replenishes qi and benefits the middle burner, boosts bone marrow and generates blood."
+    qcReviewedText: "Has a salty and neutral taste, neither drying nor heating, replenishes qi and benefits the middle burner, boosts bone marrow and generates blood."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,901106,凝华丹,药品,8007,7,1,27,气血回复,\"添加buff:气血恢复,2877,5\",999,9,True,35,525,700,\"use,1\",1,境界≥7,7,35,0,0,气血值每秒回复2877，共持续5秒,已使用【凝华丹】,item/901004,Using.wav,壮元阳，强筋骨，暖丹田，益精神。,1,1"
   splits:
   - split: 2
     text: "凝华丹"
     translated: "Essence-Condensing Elixir"
+    qcReviewedText: "Essence-Condensing Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复2877，共持续5秒"
     translated: "Lifeforce regenerates by 2877 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 2877 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【凝华丹】"
     translated: "Already used 【Essence-Condensing Elixir】"
+    qcReviewedText: "Already used 【Essence-Condensing Elixir】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "壮元阳，强筋骨，暖丹田，益精神。"
     translated: "Boost Yang, strengthen physique, warm the dantian, enhance willpower."
+    qcReviewedText: "Boost Yang, strengthen physique, warm the dantian, enhance willpower."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "17,901107,冰魄膏,药品,8008,7,1,27,气血回复,\"添加buff:气血恢复,4417,5\",999,9,True,40,600,800,\"use,1\",1,境界≥8,8,40,0,0,气血值每秒回复4417，共持续5秒,已使用【冰魄膏】,item/902038,Using.wav,取天山雪莲为引，以龙涎香为材，集百花之蜜调制而成，可续骨生肌，极具灵效。,1,1"
   splits:
   - split: 2
     text: "冰魄膏"
     translated: "Ice Soul Ointment"
+    qcReviewedText: "Ice Soul Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "气血值每秒回复4417，共持续5秒"
     translated: "Lifeforce regenerates by 4417 per second for a total of 5 seconds."
+    qcReviewedText: "Lifeforce regenerates by 4417 per second for a total of 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【冰魄膏】"
     translated: "Already used [Ice Soul Ointment]"
+    qcReviewedText: "Already used [Ice Soul Ointment]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "取天山雪莲为引，以龙涎香为材，集百花之蜜调制而成，可续骨生肌，极具灵效。"
     translated: "Using Tianshan snow lotus as the base, with dragon's saliva fragrance as the ingredient, and blended with honey from a hundred flowers, it can mend bones and regenerate flesh, highly efficacious and full of spiritual effects."
+    qcReviewedText: "Using Tianshan snow lotus as the base, with dragon's saliva fragrance as the ingredient, and blended with honey from a hundred flowers, it can mend bones and regenerate flesh, highly efficacious and full of spiritual effects."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "18,901400,蕴灵散,药品,5001,3,0,27,内劲增长,\"添加buff:内劲增加比例,0.3,10\",999,9,True,35,525,700,\"use,1\",1,境界≥1,1,5,0,0,内劲获得增加30%，共持续10秒,已使用【蕴灵散】,item/901403,Using.wav,甘霖起于枯朽，蕴草筛之可入药。,1,1"
   splits:
   - split: 2
     text: "蕴灵散"
     translated: "Spirit-Nourishing Powder"
+    qcReviewedText: "Spirit-Nourishing Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "内劲获得增加30%，共持续10秒"
     translated: "Inner Force gain increased by 30%, lasting for 10 seconds"
+    qcReviewedText: "Inner Force gain increased by 30%, lasting for 10 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【蕴灵散】"
     translated: "You have used the Spirit-Nourishing Powder"
+    qcReviewedText: "You have used the Spirit-Nourishing Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "甘霖起于枯朽，蕴草筛之可入药。"
     translated: "Life springs from decay, and the filtered grass can be used as medicine."
+    qcReviewedText: "Life springs from decay, and the filtered grass can be used as medicine."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,901200,固本丸,药品,6001,2,0,27,体力不减,\"添加buff:不消耗体力,3\",999,9,True,35,525,700,\"use,1\",1,境界≥1,1,30,0,0,体力在3秒内不会消耗,已使用【固本丸】,item/901004,Using.wav,传闻日中有踆乌，固体而行，可至千里。,1,1"
   splits:
   - split: 2
     text: "固本丸"
     translated: "Root-Securing Pill"
+    qcReviewedText: "Root-Securing Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "体力在3秒内不会消耗"
     translated: "Stamina will not be consumed for 3 seconds."
+    qcReviewedText: "Stamina will not be consumed for 3 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "已使用【固本丸】"
     translated: "Already used 【Root-Securing Pill】"
+    qcReviewedText: "Already used 【Root-Securing Pill】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "传闻日中有踆乌，固体而行，可至千里。"
     translated: "It is said that there is a solar bird called the Jinwu in the sun, solid and able to travel thousands of miles."
+    qcReviewedText: "It is said that there is a solar bird called the Jinwu in the sun, solid and able to travel thousands of miles."
+    qcTranslated: "It is said that there is a solar bird called the Jinwu in the sun, solid and able to travel a thousand miles."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "20,901300,归元散,药品,7001,2,0,27,真气增长,真气:1,999,9,True,20,300,400,\"use,1\",1,境界≥1,1,10,0,0,获得真气1点,使用【归元散】,item/901002,Using.wav,草药粗灰所制，药性温，服之可固本培元。,0,0"
   splits:
   - split: 2
     text: "归元散"
     translated: "Origin-Returning Powder"
+    qcReviewedText: "Origin-Returning Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "获得真气1点"
     translated: "Gain True Qi 1 points"
+    qcReviewedText: "Gain True Qi 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "使用【归元散】"
     translated: "Use the Origin-Returning Powder"
+    qcReviewedText: "Use the Origin-Returning Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "草药粗灰所制，药性温，服之可固本培元。"
     translated: "Made from coarse ash, this medicine has a warm nature and can strengthen the body's foundation."
+    qcReviewedText: "Made from coarse ash, this medicine has a warm nature and can strengthen the body's foundation."
+    qcTranslated: "Made from medicinal herbs and coarse ash, this medicine has a warm nature and can strengthen the body's foundation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "21,901301,凝神露,药品,7002,3,0,27,真气增长,真气:2,999,9,True,25,375,500,\"use,1\",1,境界≥2,2,15,0,0,获得真气2点,使用【凝神露】,item/901104,Using.wav,藏阴之窟，有藓暗生，刮之以清泉服送，可顺气凝神。,0,0"
   splits:
   - split: 2
     text: "凝神露"
     translated: "Spirit-Focusing Dew"
+    qcReviewedText: "Spirit-Focusing Dew"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "获得真气2点"
     translated: "Gained True Qi 2 points"
+    qcReviewedText: "Gained True Qi 2 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "使用【凝神露】"
     translated: "Use [Spirit-Focusing Dew]"
+    qcReviewedText: "Use [Spirit-Focusing Dew]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "藏阴之窟，有藓暗生，刮之以清泉服送，可顺气凝神。"
     translated: "The Cavern of Concealed Shadows has moss growing in the darkness. Scraping it and washing it with clear spring water can help regulate one's breath and calm the mind."
+    qcReviewedText: "The Cavern of Concealed Shadows has moss growing in the darkness. Scraping it and washing it with clear spring water can help regulate one's breath and calm the mind."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "22,901302,乾坤一锅,药品,7002,5,0,27,真气增长,真气:4,999,9,True,35,525,700,\"use,1\",1,境界≥5,5,35,0,0,获得真气4点,使用【乾坤一锅】,item/902029,Using.wav,记载于《四海食记》食谱中的玄妙菜肴，可食补自身，补精益元。,1,1"
   splits:
   - split: 2
     text: "乾坤一锅"
     translated: "One Pot of Heaven and Earth"
+    qcReviewedText: "One Pot of Heaven and Earth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "获得真气4点"
     translated: "Gained True Qi 4 points"
+    qcReviewedText: "Gained True Qi 4 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     text: "使用【乾坤一锅】"
     translated: "Use [One Pot of Heaven and Earth]"
+    qcReviewedText: "Use [One Pot of Heaven and Earth]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 27
     text: "记载于《四海食记》食谱中的玄妙菜肴，可食补自身，补精益元。"
     translated: "A mysterious dish recorded in the cookbook Four Seas Culinary Chronicles, which can nourish and replenish one's own essence and energy."
+    qcReviewedText: "A mysterious dish recorded in the cookbook Four Seas Culinary Chronicles, which can nourish and replenish one's own essence and energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

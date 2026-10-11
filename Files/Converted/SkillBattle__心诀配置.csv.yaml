@@ -3,34 +3,72 @@
   - split: 2
     text: "心诀名"
     translated: "Name of the Heart Formula"
+    qcReviewedText: "Name of the Heart Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "描述"
     translated: "Description"
+    qcReviewedText: "Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,ID,name,belong,skill,effectType,effect,,des,Icon,,,"
 - raw: "3,8020201,长雁,102001,1020203,对应招式,追踪敌人距离提升:0.3,,招式【物衍天行】施展时获得【霸体】效果,tricks/8020201,凌鸿剑势,,"
   splits:
   - split: 2
     text: "长雁"
     translated: "Long Goose"
+    qcReviewedText: "Long Goose"
+    qcTranslated: "Chang Yan"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【物衍天行】施展时获得【霸体】效果"
     translated: "The Move 【All Things Follow Heaven's Course】 grants Super Armor effect when performed."
+    qcReviewedText: "The Move 【All Things Follow Heaven's Course】 grants Super Armor effect when performed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,8020202,返鸾,102001,1020203,对应招式,使用后无敌:1,8020203,暴击概率额外提升5%,tricks/8020202,凌鸿剑势,,"
   splits:
   - split: 2
     text: "返鸾"
     translated: "Returning Phoenix"
+    qcReviewedText: "Returning Phoenix"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "暴击概率额外提升5%"
     translated: "Critical hit probability increased by an additional 5%."
+    qcReviewedText: "Critical hit probability increased by an additional 5%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,8020203,鸳折,102001,1020203,对应招式,使用时无敌,8020202,施展招式【孤鸿照影】时，将获得【返鸾】效果：不受任何伤害和控制效果的影响,tricks/8020203,凌鸿剑势,,"
   splits:
   - split: 2
     text: "鸳折"
     translated: "Broken Mandarin Ducks"
+    qcReviewedText: "Broken Mandarin Ducks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "施展招式【孤鸿照影】时，将获得【返鸾】效果"
     translated: "When performing the Move 【Lone Swan Beholds Its Shadow】, you will obtain the 【Return Phoenix】 effect."
+    qcReviewedText: "When performing the Move 【Lone Swan Beholds Its Shadow】, you will obtain the 【Return Phoenix】 effect.：Not affected by any damage or control effects"
+    qcTranslated: "When performing the Move 【Lone Swan Beholds Its Shadow】, you will obtain the 【Return Phoenix】 effect: Not affected by any Damage or control effects"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "不受任何伤害和控制效果的影响"
@@ -43,225 +81,476 @@
   - split: 2
     text: "悲鸣"
     translated: "Sorrowful Cry"
+    qcReviewedText: "Sorrowful Cry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【纵起惊鸿】在空中时无敌2秒"
     translated: "The Move 【Startled Swan Rises】 is invulnerable for 2 seconds in the air"
+    qcReviewedText: "The Move 【Startled Swan Rises】 is invulnerable for 2 seconds in the air"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,8020301,随风,102002,1020301,对应招式,CD时间:-1,,招式【风潇雨晦】调息时间减少1秒,tricks/8020301,清风剑法,,"
   splits:
   - split: 2
     text: "随风"
     translated: "Follow the Wind"
+    qcReviewedText: "Follow the Wind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【风潇雨晦】调息时间减少1秒"
     translated: "The cooldown for the Move 【Gale and Gloom of Rain】 is reduced by 1 seconds."
+    qcReviewedText: "The cooldown for the Move 【Gale and Gloom of Rain】 is reduced by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,8020302,飘零,102002,1020303,对应招式,CD时间:-1,,招式【秋风落尽】调息时间减少1秒,tricks/8020302,清风剑法,,"
   splits:
   - split: 2
     text: "飘零"
     translated: "Adrift"
+    qcReviewedText: "Adrift"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【秋风落尽】调息时间减少1秒"
     translated: "Move 【Autumn Wind Has Fallen】 reduced cooldown by 1 seconds"
+    qcReviewedText: "Move 【Autumn Wind Has Fallen】 reduced cooldown by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,8020303,罡破,102002,1020303,对应招式,使用时霸体,,招式【秋风落尽】释放时霸体,tricks/8020303,清风剑法,,"
   splits:
   - split: 2
     text: "罡破"
     translated: "Gale Breaker"
+    qcReviewedText: "Gale Breaker"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【秋风落尽】释放时霸体"
     translated: "Super Armor during the release of the Move 【Autumn Wind Has Fallen】"
+    qcReviewedText: "Super Armor during the release of the Move 【Autumn Wind Has Fallen】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,8020304,栖隙,102002,1020305,对应招式,使用时无敌,,招式【朔风厉松】能释放时无敌,tricks/8020304,清风剑法,,"
   splits:
   - split: 2
     text: "栖隙"
     translated: "Perch in the Crevice"
+    qcReviewedText: "Perch in the Crevice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【朔风厉松】能释放时无敌"
     translated: "The Move 【North Wind Scourges the Pines】 grants Invulnerability when used"
+    qcReviewedText: "The Move 【North Wind Scourges the Pines】 grants Invulnerability when used"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,8020401,无涯,102003,1020401,对应招式,CD时间:-1,,招式【焚沧断海】调息时间减少1秒,tricks/8020401,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "无涯"
     translated: "Boundless"
+    qcReviewedText: "Boundless"
+    qcTranslated: "Wuya"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【焚沧断海】调息时间减少1秒"
     translated: "The cooldown for the Move [Scorch the Vast Sea, Sever the Ocean] is reduced by 1 seconds."
+    qcReviewedText: "The cooldown for the Move [Scorch the Vast Sea, Sever the Ocean] is reduced by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,8020402,壁岩,102003,1020403,对应招式,CD时间:-1,,招式【临碣寒】调息时间减少1秒,tricks/8020402,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "壁岩"
     translated: "Wall of Rock"
+    qcReviewedText: "Wall of Rock"
+    qcTranslated: "Cliff Rock"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【临碣寒】调息时间减少1秒"
     translated: "The cooldown for Move [Cold Overlooking the Stele-Rock] is reduced by 1 seconds."
+    qcReviewedText: "The cooldown for Move [Cold Overlooking the Stele-Rock] is reduced by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,8020403,赤心,102003,1020403,对应招式,真气消耗:-1,,施展招式【临碣寒】真气消耗减1,tricks/8020403,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "赤心"
     translated: "Loyal Heart"
+    qcReviewedText: "Loyal Heart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "施展招式【临碣寒】真气消耗减1"
     translated: "Using Move [Cold Overlooking the Stele-Rock] reduces True Qi consumption by 1"
+    qcReviewedText: "Using Move [Cold Overlooking the Stele-Rock] reduces True Qi consumption by 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,8020404,万凿,102003,1020405,对应招式,真气消耗:-1,,施展招式【骇浪惊涛】真气消耗减1,tricks/8020404,沧海观澜刀法,,"
   splits:
   - split: 2
     text: "万凿"
     translated: "Ten Thousand Chisels"
+    qcReviewedText: "Ten Thousand Chisels"
+    qcTranslated: "Myriad Chisels"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "施展招式【骇浪惊涛】真气消耗减1"
     translated: "Reduce True Qi consumption for the Move 【Terrifying Waves, Startling Billows】 by 1"
+    qcReviewedText: "Reduce True Qi consumption for the Move 【Terrifying Waves, Startling Billows】 by 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "15,8020503,气清,102005,1020501,对应招式,,,招式【分阴阳】真气消耗降低1点,tricks/8020503,两仪剑法,,"
   splits:
   - split: 2
     text: "气清"
     translated: "Clear Qi"
+    qcReviewedText: "Clear Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【分阴阳】真气消耗降低1点"
     translated: "The Move [Dividing Yin and Yang] reduces True Qi consumption by 1 points."
+    qcReviewedText: "The Move [Dividing Yin and Yang] reduces True Qi consumption by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,8020504,万化,102005,1020503,对应招式,,,招式【割昏晓】真气消耗降低1点,tricks/8020504,两仪剑法,,"
   splits:
   - split: 2
     text: "万化"
     translated: "Ten Thousand Changes"
+    qcReviewedText: "Ten Thousand Changes"
+    qcTranslated: "Myriad Transformations"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【割昏晓】真气消耗降低1点"
     translated: "Move [Cleaving Dusk and Dawn] reduces True Qi consumption by 1 points"
+    qcReviewedText: "Move [Cleaving Dusk and Dawn] reduces True Qi consumption by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "17,8020505,凌虚,102005,1020505,对应招式,,,招式【荡寰宇】减少调息时间1秒,tricks/8020505,两仪剑法,,"
   splits:
   - split: 2
     text: "凌虚"
     translated: "Void-Soaring"
+    qcReviewedText: "Void-Soaring"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【荡寰宇】减少调息时间1秒"
     translated: "Move [Sweeping the Universe] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Sweeping the Universe] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "18,8020506,魅身,102006,1020601,对应招式,,,招式【掠青川】施展后获得【霸体】效果,tricks/8020506,浮萍剑诀,,"
   splits:
   - split: 2
     text: "魅身"
     translated: "Enchanting Body"
+    qcReviewedText: "Enchanting Body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【掠青川】施展后获得【霸体】效果"
     translated: "After performing the Move [Skimming Green Rivers], you gain the Super Armor effect."
+    qcReviewedText: "After performing the Move [Skimming Green Rivers], you gain the Super Armor effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,8020701,敛英,102007,1020703,全局有效,,,提升气血回复属性10%,tricks/8020701,槎枒寻梅,,"
   splits:
   - split: 2
     text: "敛英"
     translated: "Gathered Brilliance"
+    qcReviewedText: "Gathered Brilliance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "提升气血回复属性10%"
     translated: "Increase Lifeforce recovery and restore Attributes by 10%"
+    qcReviewedText: "Increase Lifeforce recovery and restore Attributes by 10%"
+    qcTranslated: "Increase Lifeforce recovery Attributes by 10%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "20,8020702,銮客,102007,1020705,全局有效,,,提升5％的移动速度,tricks/8020702,槎枒寻梅,,"
   splits:
   - split: 2
     text: "銮客"
     translated: "Royal Guest"
+    qcReviewedText: "Royal Guest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "提升5％的移动速度"
     translated: "Increase movement speed by 5%"
+    qcReviewedText: "Increase movement speed by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "21,8050101,放词,105001,1050103,对应招式,飞行道具替换:7050102,,招式【归去来】的伤害提升10%,tricks/8050101,悲遮扇法,,"
   splits:
   - split: 2
     text: "放词"
     translated: "Words Unleashed"
+    qcReviewedText: "Words Unleashed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【归去来】的伤害提升10%"
     translated: "Damage of the Move [Let Us Return Home] increased by 10%"
+    qcReviewedText: "Damage of the Move [Let Us Return Home] increased by 10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "22,8050102,凌散,105001,1050105,对应招式,伤害设置:0;至盲:5,,招式【柔云绕指】释放时对敌方的造成【致盲】效果，有概率无法命中自身，效果持续3秒,tricks/8050102,悲遮扇法,,"
   splits:
   - split: 2
     text: "凌散"
     translated: "Scatter and Soar"
+    qcReviewedText: "Scatter and Soar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【柔云绕指】释放时对敌方的造成【致盲】效果，有概率无法命中自身，效果持续3秒"
     translated: "The Move 【Soft Clouds Wrap the Fingers】 blinds the enemy upon release and has a chance to miss the user, with the effect lasting 3 seconds."
+    qcReviewedText: "The Move 【Soft Clouds Wrap the Fingers】 blinds the enemy upon release and has a chance to miss the user, with the effect lasting 3 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "23,8050103,风骨,105001,1050106,对应招式,清除CD:1050002,,【穷途】触发时，立即重置招式【复重楼】调息时间，每隔20秒触发1次,tricks/8050103,悲遮扇法,,"
   splits:
   - split: 2
     text: "风骨"
     translated: "Spirited Bearing"
+    qcReviewedText: "Spirited Bearing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "【穷途】触发时，立即重置招式【复重楼】调息时间，每隔20秒触发1次"
     translated: "【Dead End】When triggered, immediately resets the cooldown of the Move 【Layer upon Layer】, triggering 1 times every 20 seconds"
+    qcReviewedText: "【Dead End】When triggered, immediately resets the cooldown of the Move 【Layer upon Layer】, triggering 1 times every 20 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "24,8050104,肆宴,105001,1050102,对应招式,伤害提升:0.5;真气消耗:1,,招式【归去来】的伤害提升5%，额外消耗（1）点真气,tricks/8050104,悲遮扇法,,"
   splits:
   - split: 2
     text: "肆宴"
     translated: "Grand Banquet"
+    qcReviewedText: "Grand Banquet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
     translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
+    qcReviewedText: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "25,8050105,知秋,105001,1050104,对应招式,清除CD:1050101,,每次获得【难觅】效果时，将立即刷新【问秋风】的时间,tricks/8050105,悲遮扇法,,"
   splits:
   - split: 2
     text: "知秋"
     translated: "Sensing Autumn"
+    qcReviewedText: "Sensing Autumn"
+    qcTranslated: "Zhiqiu"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "每次获得【难觅】效果时，将立即刷新【问秋风】的时间"
     translated: "Each time you obtain the [Rare] effect, immediately refresh the duration of [Asking the Autumn Wind]."
+    qcReviewedText: "Each time you obtain the [Rare] effect, immediately refresh the duration of [Asking the Autumn Wind]."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "26,8050106,复始,105002,1050201,全局有效,,,移动速度增加50,tricks/8050106,小周天扇法,,"
   splits:
   - split: 2
     text: "复始"
     translated: "Begin Anew"
+    qcReviewedText: "Begin Anew"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "移动速度增加50"
     translated: "Movement Speed increased by 50"
+    qcReviewedText: "Movement Speed increased by 50"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "27,8050201,不息,105002,1050201,对应招式,,,额外增加【经合夜昼】扇子击中目标所造成的伤害,tricks/8050201,小周天扇法,,"
   splits:
   - split: 2
     text: "不息"
     translated: "Unceasing"
+    qcReviewedText: "Unceasing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "额外增加【经合夜昼】扇子击中目标所造成的伤害"
     translated: "Additional Increase: Damage caused by the Day and Night in Union Fan hitting the target"
+    qcReviewedText: "Additional Increase: Damage caused by the Day and Night in Union Fan hitting the target"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "28,8050202,注化,105002,1050201,对应招式,,,招式【化气贯神】施展时，获得霸体效果,tricks/8050202,小周天扇法,,"
   splits:
   - split: 2
     text: "注化"
     translated: "Infusing Transformation"
+    qcReviewedText: "Infusing Transformation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【化气贯神】施展时，获得霸体效果"
     translated: "When using the Move 【Transform Qi, Pierce the Spirit】, gain Super Armor effect."
+    qcReviewedText: "When using the Move 【Transform Qi, Pierce the Spirit】, gain Super Armor effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "29,8050107,破云,109002,1090201,对应招式,,,招式【梭云回日】施展后获得【霸体】效果,tricks/8050107,踪影孤鸿,,"
   splits:
   - split: 2
     text: "破云"
     translated: "Cloud-Piercing"
+    qcReviewedText: "Cloud-Piercing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【梭云回日】施展后获得【霸体】效果"
     translated: "After performing the Move [Shuttling Clouds, Returning Sun], you gain the Super Armor effect."
+    qcReviewedText: "After performing the Move [Shuttling Clouds, Returning Sun], you gain the Super Armor effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "30,8040101,摧岳,104001,1040105,对应招式,,,招式【钧北顾】暴击率提升5%,tricks/8040101,北顾枪法,,"
   splits:
   - split: 2
     text: "摧岳"
     translated: "Mountain-Crushing"
+    qcReviewedText: "Mountain-Crushing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【钧北顾】暴击率提升5%"
     translated: "Move [Weight of the Northward Gaze] Crit Rate +5%"
+    qcReviewedText: "Move [Weight of the Northward Gaze] Crit Rate +5%"
+    qcTranslated: "Move [Weight of the Northward Gaze] Crit Rate increased by +5%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "31,8040102,百炼,104001,1040101,全局有效,,,暴击概率额外提升5%,tricks/8040102,北顾枪法,,"
   splits:
   - split: 2
     text: "百炼"
     translated: "Hundredfold Tempering"
+    qcReviewedText: "Hundredfold Tempering"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "暴击概率额外提升5%"
     translated: "Critical hit probability increased by an additional 5%."
+    qcReviewedText: "Critical hit probability increased by an additional 5%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "32,8040103,昭烈,104001,1040105,对应招式,,,招式【钧北顾】施展时增加20%暴击伤害,tricks/8040103,北顾枪法,,"
   splits:
   - split: 2
     text: "昭烈"
     translated: "Blazing Valor"
+    qcReviewedText: "Blazing Valor"
+    qcTranslated: "Zhaolie"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【钧北顾】施展时增加20%暴击伤害"
     translated: "Using Move [Weight of the Northward Gaze] increases Crit Damage by 20%"
+    qcReviewedText: "Using Move [Weight of the Northward Gaze] increases Crit Damage by 20%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "33,8040104,飞将,104001,1040108,对应招式,,,招式【横叠嶂】在飞跃时，自身免受任何伤害/控制效果,tricks/8040104,北顾枪法,,"
   splits:
   - split: 2
     text: "飞将"
     translated: "Flying General"
+    qcReviewedText: "Flying General"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【横叠嶂】在飞跃时，自身免受任何伤害"
     translated: "The Move 【Crossing Folded Ridges】 allows you to avoid any Damage when performing a leap."
+    qcReviewedText: "The Move 【Crossing Folded Ridges】 allows you to avoid any Damage when performing a leap./Control effect"
+    qcTranslated: "The Move 【Crossing Folded Ridges】 allows you to avoid any Damage/Control effect when performing a leap."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 8
     subIndex: 1
     text: "控制效果"
@@ -274,97 +563,211 @@
   - split: 2
     text: "痴缠"
     translated: "Lovesick Entanglement"
+    qcReviewedText: "Lovesick Entanglement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "造成伤害时，附加【痴缠】效果，使目标每秒损失1%血量，持续5秒"
     translated: "When dealing damage, apply the [Obsessive] effect, causing the target to lose 1% of their health per second for 5 seconds."
+    qcReviewedText: "When dealing damage, apply the [Obsessive] effect, causing the target to lose 1% of their health per second for 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "35,8060102,雨绻,106001,1060101,全局有效,,,造成伤害时，附加【雨绻】效果，使目标每5秒损失1真气，持续10秒,tricks/8060102,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "雨绻"
     translated: "Tender Rain"
+    qcReviewedText: "Tender Rain"
+    qcTranslated: "Yu Quan"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "造成伤害时，附加【雨绻】效果，使目标每5秒损失1真气，持续10秒"
     translated: "When dealing damage, apply the 【Rainbound】 effect, causing the target to lose 1 True Qi every 5 seconds for 10 seconds."
+    qcReviewedText: "When dealing damage, apply the 【Rainbound】 effect, causing the target to lose 1 True Qi every 5 seconds for 10 seconds."
+    qcTranslated: "When dealing damage, apply the 【Rainbound】 effect, causing the target to lose 5 True Qi every 1 seconds for 10 seconds."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "36,8060103,绸缪,106001,1060101,全局有效,,,造成伤害时，附加【绸缪】效果，使目标每秒损失1%体力，持续5秒,tricks/8060103,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "绸缪"
     translated: "Tightly Bound"
+    qcReviewedText: "Tightly Bound"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "造成伤害时，附加【绸缪】效果，使目标每秒损失1%体力，持续5秒"
     translated: "When dealing damage, apply the [Forethought] effect, causing the target to lose 1% Stamina per second for 5 seconds."
+    qcReviewedText: "When dealing damage, apply the [Forethought] effect, causing the target to lose 1% Stamina per second for 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "37,8060104,梅雨,106001,1060110,全局有效,,,体力恢复每秒额外恢复2点,tricks/8060104,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "梅雨"
     translated: "Plum Rains"
+    qcReviewedText: "Plum Rains"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "体力恢复每秒额外恢复2点"
     translated: "Stamina Recovery restores an additional 2 points per second"
+    qcReviewedText: "Stamina Recovery restores an additional 2 points per second"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "38,8060105,漫堤,106001,1060110,全局有效,,,体力上限额外增加10点,tricks/8060105,暴雨梨花刀,,"
   splits:
   - split: 2
     text: "漫堤"
     translated: "Overflowing Embankment"
+    qcReviewedText: "Overflowing Embankment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "体力上限额外增加10点"
     translated: "Max Stamina increased by an additional 10 points."
+    qcReviewedText: "Max Stamina increased by an additional 10 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "39,8060201,炼血,106002,1060205,全局有效,,,进入战斗时，提升5％的移动速度,tricks/8060201,羁离谱,,"
   splits:
   - split: 2
     text: "炼血"
     translated: "Blood Refining"
+    qcReviewedText: "Blood Refining"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "进入战斗时，提升5％的移动速度"
     translated: "Increases movement speed by 5% when entering combat."
+    qcReviewedText: "Increases movement speed by 5% when entering combat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "40,8060202,残筋,106002,1060205,对应招式,,,降低【碎灯花】调息时间1秒,tricks/8060202,羁离谱,,"
   splits:
   - split: 2
     text: "残筋"
     translated: "Ruined Sinews"
+    qcReviewedText: "Ruined Sinews"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "降低【碎灯花】调息时间1秒"
     translated: "Reduce Shattered Lamp Blossoms cooldown by 1 seconds"
+    qcReviewedText: "Reduce Shattered Lamp Blossoms cooldown by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "41,8010201,昭赤,101002,1010205,对应招式,,,招式【伏邪诛阳】伤害提升5%,tricks/8010201,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "昭赤"
     translated: "Radiant Crimson"
+    qcReviewedText: "Radiant Crimson"
+    qcTranslated: "Zhao Chi"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【伏邪诛阳】伤害提升5%"
     translated: "Move [Subdue Evil, Slay Yang] Damage Increase by 5%"
+    qcReviewedText: "Move [Subdue Evil, Slay Yang] Damage Increase by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "42,8010202,镇晷,101002,1010203,对应招式,,,招式【镇残碑】减少调息时间1秒,tricks/8010202,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "镇晷"
     translated: "Sundial-Quelling"
+    qcReviewedText: "Sundial-Quelling"
+    qcTranslated: "Time-Quelling"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 8
     text: "招式【镇残碑】减少调息时间1秒"
     translated: "Move 【Quell the Broken Stele】 reduces meditation time by 1 seconds"
+    qcReviewedText: "Move 【Quell the Broken Stele】 reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "43,8010203,旱临,101002,1010205,对应招式,,,招式【伏邪诛阳】减少调息时间1秒,tricks/8010203,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "旱临"
     translated: "Drought Descends"
+    qcReviewedText: "Drought Descends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【伏邪诛阳】减少调息时间1秒"
     translated: "Move [Subdue Evil, Slay Yang] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Subdue Evil, Slay Yang] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "44,8010204,烈轮,101002,1010205,对应招式,,,招式【伏邪诛阳】真气消耗降低1点,tricks/8010204,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "烈轮"
     translated: "Fierce Wheel"
+    qcReviewedText: "Fierce Wheel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【伏邪诛阳】真气消耗降低1点"
     translated: "Move [Subdue Evil, Slay Yang] True Qi consumption reduced by 1 points"
+    qcReviewedText: "Move [Subdue Evil, Slay Yang] True Qi consumption reduced by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "45,8010205,至旭,101002,1010205,对应招式,,,招式【镇残碑】施展后，下一次施展【伏邪诛阳】时必造成破防效果：防御力降低10%，持续5秒,tricks/8010205,伏阳开碑拳,,"
   splits:
   - split: 2
     text: "至旭"
     translated: "Utmost Dawn"
+    qcReviewedText: "Utmost Dawn"
+    qcTranslated: "Zhixu"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【镇残碑】施展后，下一次施展【伏邪诛阳】时必造成破防效果"
     translated: "After using the Move [Quell the Broken Stele], the next use of [Subdue Evil, Slay Yang] will definitely cause a Guard Break."
+    qcReviewedText: "After using the Move [Quell the Broken Stele], the next use of [Subdue Evil, Slay Yang] will definitely cause a Guard Break.：Defense reduced by 10%, lasting 5 seconds"
+    qcTranslated: "After using the Move [Quell the Broken Stele], the next use of [Subdue Evil, Slay Yang] will definitely cause a Guard Break: Defense reduced by 10%, lasting 5 seconds"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "防御力降低10%，持续5秒"
@@ -377,9 +780,21 @@
   - split: 2
     text: "矢志"
     translated: "Sworn Resolve"
+    qcReviewedText: "Sworn Resolve"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【古锤"
     translated: "Move【Ancient Hammer"
+    qcReviewedText: "Move【Ancient Hammer-['Guan Tixi'], ['Ancient Hammer']-【Final Forging Style】Has temporary Super Armor during release"
+    qcTranslated: "Move【Ancient Hammer: Body-Piercing】, 【Ancient Hammer: Final Forging】has temporary Super Armor during release"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 8
     subIndex: 1
     text: "贯体式】，【古锤"
@@ -396,9 +811,20 @@
   - split: 2
     text: "复烬"
     translated: "Embers Revived"
+    qcReviewedText: "Embers Revived"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【古锤"
     translated: "Move【Ancient Hammer"
+    qcReviewedText: "Move【Ancient Hammer-【Finishing Touch】Reduce meditation time by 1 seconds"
+    qcTranslated: "Move【Ancient Hammer: Final Forging】Reduce meditation time by 1 seconds"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 8
     subIndex: 1
     text: "锻终式】减少调息时间1秒"
@@ -411,9 +837,20 @@
   - split: 2
     text: "浑旋"
     translated: "Total Whirl"
+    qcReviewedText: "Total Whirl"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【古锤"
     translated: "Move【Ancient Hammer"
+    qcReviewedText: "Move【Ancient Hammer-【Stance Style】Reduce meditation time by 1 seconds"
+    qcTranslated: "Move【Ancient Hammer: Body-Piercing】Reduce meditation time by 1 seconds"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "贯体式】减少调息时间1秒"
@@ -426,41 +863,84 @@
   - split: 2
     text: "化始"
     translated: "Origin of Transformation"
+    qcReviewedText: "Origin of Transformation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【大道始分】调息时间减少1秒"
     translated: "Move 【The Great Way Begins to Divide】 reduces cooldown by 1 seconds"
+    qcReviewedText: "Move 【The Great Way Begins to Divide】 reduces cooldown by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "50,8010302,转寰,101003,1010305,对应招式,,,招式【开太极】调息时间减少1秒,tricks/8010302,太极拳,,"
   splits:
   - split: 2
     text: "转寰"
     translated: "World-Turning"
+    qcReviewedText: "World-Turning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【开太极】调息时间减少1秒"
     translated: "The cooldown for the Move 【Open Taiji】 is reduced by 1 seconds."
+    qcReviewedText: "The cooldown for the Move 【Open Taiji】 is reduced by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "51,8010303,朝闻,101003,1010301,对应招式,,,招式【大道始分】真气消耗减1,tricks/8010303,太极拳,,"
   splits:
   - split: 2
     text: "朝闻"
     translated: "Morning Hearing"
+    qcReviewedText: "Morning Hearing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【大道始分】真气消耗减1"
     translated: "Move [The Great Way Begins to Divide] reduces True Qi consumption by 1"
+    qcReviewedText: "Move [The Great Way Begins to Divide] reduces True Qi consumption by 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "52,8010304,无我,101003,1010303,对应招式,,,招式【合太极】真气消耗减1,tricks/8010304,太极拳,,"
   splits:
   - split: 2
     text: "无我"
     translated: "No-Self"
+    qcReviewedText: "No-Self"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【合太极】真气消耗减1"
     translated: "Move 【Unite Taiji】 True Qi consumption reduced by 1"
+    qcReviewedText: "Move 【Unite Taiji】 True Qi consumption reduced by 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "53,8010305,苍,110002,1100205,对应招式,,,招式【密·归寂】施展后获得【霸体】效果,tricks/8010305,密剑·山中石响,,"
   splits:
   - split: 2
     text: "苍"
     translated: "Azure"
+    qcReviewedText: "Azure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【密"
     translated: "Move [Secret]"
+    qcReviewedText: "Move [Secret]·[Silence] grants the Super Armor effect upon activation."
+    qcTranslated: "Move [Secret · Return to Stillness] grants the Super Armor effect upon activation."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 8
     subIndex: 1
     text: "归寂】施展后获得【霸体】效果"
@@ -473,241 +953,490 @@
   - split: 2
     text: "斗转"
     translated: "Dipper Turning"
+    qcReviewedText: "Dipper Turning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【合太极】释放后，招式【开太极】减少调息时间1秒"
     translated: "Using the Move 【Unite Taiji】 reduces the meditation time for the Move 【Open Taiji】 by 1 seconds."
+    qcReviewedText: "Using the Move 【Unite Taiji】 reduces the meditation time for the Move 【Open Taiji】 by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "55,8010307,红月,115002,1150201,全局有效,,,吸血属性额外提升10%,tricks/8010307,月残经,,"
   splits:
   - split: 2
     text: "红月"
     translated: "Red Moon"
+    qcReviewedText: "Red Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "吸血属性额外提升10%"
     translated: "Lifesteal attribute increased by an additional 10%"
+    qcReviewedText: "Lifesteal attribute increased by an additional 10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "56,8010401,寥落,101004,1010403,对应招式,,,招式【摘星寥】调息降低1秒,tricks/8010401,神通剑指,,"
   splits:
   - split: 2
     text: "寥落"
     translated: "Desolation"
+    qcReviewedText: "Desolation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【摘星寥】调息降低1秒"
     translated: "Move [Plucking Stars in Solitude] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Plucking Stars in Solitude] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "57,8010402,束发,101004,1010401,对应招式,,,招式【引星穹】真气消耗降低1点,tricks/8010402,神通剑指,,"
   splits:
   - split: 2
     text: "束发"
     translated: "Hair Bound"
+    qcReviewedText: "Hair Bound"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【引星穹】真气消耗降低1点"
     translated: "Move [Drawing Down the Starry Vault] reduces True Qi consumption by 1 points"
+    qcReviewedText: "Move [Drawing Down the Starry Vault] reduces True Qi consumption by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "58,8020501,长虹,102005,1020501,对应招式,,,招式【分阴阳】减少调息时间1秒,tricks/8020501,两仪剑法,,"
   splits:
   - split: 2
     text: "长虹"
     translated: "Long Rainbow"
+    qcReviewedText: "Long Rainbow"
+    qcTranslated: "Changhong"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【分阴阳】减少调息时间1秒"
     translated: "The Move 【Dividing Yin and Yang】 reduces meditation time by 1 seconds."
+    qcReviewedText: "The Move 【Dividing Yin and Yang】 reduces meditation time by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "59,8020502,盈亏,102005,1020503,对应招式,,,招式【割昏晓】减少调息时间1秒,tricks/8020502,两仪剑法,,"
   splits:
   - split: 2
     text: "盈亏"
     translated: "Waxing and Waning"
+    qcReviewedText: "Waxing and Waning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【割昏晓】减少调息时间1秒"
     translated: "Move [Cleaving Dusk and Dawn] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Cleaving Dusk and Dawn] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "60,8100101,里剑术,110001,1100103,对应招式,,,招式【拔刀术.里切】真气消耗降低1点,tricks/8100101,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "里剑术"
     translated: "Inner Sword Art"
+    qcReviewedText: "Inner Sword Art"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【拔刀术.里切】真气消耗降低1点"
     translated: "Move [Blade-Drawing Art · Inner Cut] True Qi consumption reduced by 1 points"
+    qcReviewedText: "Move [Blade-Drawing Art · Inner Cut] True Qi consumption reduced by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "61,8100102,断空流,110001,1100103,对应招式,,,招式【刀术.里返】施展时产生霸体,tricks/8100102,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "断空流"
     translated: "Void-Severing School"
+    qcReviewedText: "Void-Severing School"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【刀术.里返】施展时产生霸体"
     translated: "The Move 【Blade Art · Inner Return】 grants Super Armor while performing it."
+    qcReviewedText: "The Move 【Blade Art · Inner Return】 grants Super Armor while performing it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "62,8100103,逆袈裟,110001,1100101,对应招式,,,招式【拔刀术.居合】真气消耗降低1点,tricks/8100103,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "逆袈裟"
     translated: "Reverse Diagonal Cut"
+    qcReviewedText: "Reverse Diagonal Cut"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【拔刀术.居合】真气消耗降低1点"
     translated: "Move [Blade-Drawing Art. Iai] True Qi consumption reduced by 1 points"
+    qcReviewedText: "Move [Blade-Drawing Art. Iai] True Qi consumption reduced by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "63,8100104,落樱花,110001,1100101,对应招式,,,招式【拔刀术.居合】减少调息时间1秒,tricks/8100104,无心流·拔刀术,,"
   splits:
   - split: 2
     text: "落樱花"
     translated: "Falling Cherry Blossoms"
+    qcReviewedText: "Falling Cherry Blossoms"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【拔刀术.居合】减少调息时间1秒"
     translated: "The Move 【Blade-Drawing Art. Iai】 reduces meditation time by 1 seconds"
+    qcReviewedText: "The Move 【Blade-Drawing Art. Iai】 reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "64,8040201,刑天,104002,1040210,对应招式,,,招式【九州纵横】施展时，外功攻击提升10%,tricks/8040201,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "刑天"
     translated: "Xingtian"
+    qcReviewedText: "Xingtian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【九州纵横】施展时，外功攻击提升10%"
     translated: "The Move 【Across the Nine Provinces】 increases External Attack by 10%."
+    qcReviewedText: "The Move 【Across the Nine Provinces】 increases External Attack by 10%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "65,8040202,风后,104002,1040203,对应招式,,,招式【十方共主】减少调息时间1秒,tricks/8040202,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "风后"
     translated: "Feng Hou"
+    qcReviewedText: "Feng Hou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【十方共主】减少调息时间1秒"
     translated: "Move 【Sovereign of the Ten Directions】 reduces meditation time by 1 seconds"
+    qcReviewedText: "Move 【Sovereign of the Ten Directions】 reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "66,8040203,分野,104002,1040205,对应招式,,,招式【八荒尽取】减少调息时间1秒,tricks/8040203,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "分野"
     translated: "Divided Domains"
+    qcReviewedText: "Divided Domains"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【八荒尽取】减少调息时间1秒"
     translated: "Move [Seizing the Eight Wastes] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Seizing the Eight Wastes] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "67,8040204,鼎湖,104002,1040210,对应招式,,,招式【八荒尽取】施展时，外功攻击提升10%,tricks/8040204,玄黄入阵旌,,"
   splits:
   - split: 2
     text: "鼎湖"
     translated: "Dinghu Lake"
+    qcReviewedText: "Dinghu Lake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【八荒尽取】施展时，外功攻击提升10%"
     translated: "The Move 【Seizing the Eight Wastes】 increases External Attack by 10%."
+    qcReviewedText: "The Move 【Seizing the Eight Wastes】 increases External Attack by 10%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "68,8030101,搦战,103001,1030105,对应招式,,,招式【夜斩石虎】调息时间减1秒,tricks/8030101,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "搦战"
     translated: "Challenge to Battle"
+    qcReviewedText: "Challenge to Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【夜斩石虎】调息时间减1秒"
     translated: "Move [Slaying the Stone Tiger by Night] reduces cooldown by 1 seconds"
+    qcReviewedText: "Move [Slaying the Stone Tiger by Night] reduces cooldown by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "69,8030102,孤胆,103001,1030105,对应招式,使用时霸体,,招式【夜斩石虎】施展时产生2秒霸体,tricks/8030102,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "孤胆"
     translated: "Lone Courage"
+    qcReviewedText: "Lone Courage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【夜斩石虎】施展时产生2秒霸体"
     translated: "The Move 【Slaying the Stone Tiger by Night】 grants Super Armor for 2 seconds when performed."
+    qcReviewedText: "The Move 【Slaying the Stone Tiger by Night】 grants Super Armor for 2 seconds when performed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "70,8030103,不破,103001,1030105,对应招式,使用时霸体1,,重击释放完毕后，自身将处于霸体状态，持续1秒,tricks/8030103,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "不破"
     translated: "Unbroken"
+    qcReviewedText: "Unbroken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "重击释放完毕后，自身将处于霸体状态，持续1秒"
     translated: "After the Heavy Attack is released, you will be in Super Armor state for 1 seconds."
+    qcReviewedText: "After the Heavy Attack is released, you will be in Super Armor state for 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "71,8030104,众覆,103001,1030103,对应招式,,,招式【覆压千钧】调息时间减1秒,tricks/8030104,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "众覆"
     translated: "Crowd-Overturning"
+    qcReviewedText: "Crowd-Overturning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【覆压千钧】调息时间减1秒"
     translated: "Move 【Crushing Weight of a Thousand Jun】 reduced cooldown by 1 seconds"
+    qcReviewedText: "Move 【Crushing Weight of a Thousand Jun】 reduced cooldown by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "72,8030105,杀势,103001,1030101,对应招式,,,招式【锋卷破浪】调息时间减1秒,tricks/8030105,斩铁无锋卷,,"
   splits:
   - split: 2
     text: "杀势"
     translated: "Killing Stance"
+    qcReviewedText: "Killing Stance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【锋卷破浪】调息时间减1秒"
     translated: "Move 【Edge Rolling, Breaking Waves】 cooldown reduced by 1 seconds"
+    qcReviewedText: "Move 【Edge Rolling, Breaking Waves】 cooldown reduced by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "73,8030201,沙横,103002,1030201,对应招式,,,当学习【七煞铁衣功】的【阴山月】内功注释后，施展【醉横沙场】招式后霸体效果延续2秒,tricks/8030201,醉君侯刀铭,,"
   splits:
   - split: 2
     text: "沙横"
     translated: "Sand Cross-Cut"
+    qcReviewedText: "Sand Cross-Cut"
+    qcTranslated: "Sha Heng"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "当学习【七煞铁衣功】的【阴山月】内功注释后，施展【醉横沙场】招式后霸体效果延续2秒"
     translated: "When studying the 【Seven Killers Iron Garment Art】's 【Moon over Yin Mountain】 Neigong annotation, the Super Armor effect after performing the 【Drunk upon the Battlefield】 Move lasts for 2 seconds."
+    qcReviewedText: "When studying the 【Seven Killers Iron Garment Art】's 【Moon over Yin Mountain】 Neigong annotation, the Super Armor effect after performing the 【Drunk upon the Battlefield】 Move lasts for 2 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "74,8030202,陷阵,103002,1030203,全局有效,,,当自身气血降低至50%后，额外增加8%的伤害,tricks/8030202,醉君侯刀铭,,"
   splits:
   - split: 2
     text: "陷阵"
     translated: "Formation Breaker"
+    qcReviewedText: "Formation Breaker"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "当自身气血降低至50%后，额外增加8%的伤害"
     translated: "When your Lifeforce drops to 50%, you deal an additional 8% Damage."
+    qcReviewedText: "When your Lifeforce drops to 50%, you deal an additional 8% Damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "75,8030203,冲阵,103002,1030205,全局有效,,,当自身受击时获得【坚守】效果，体力回复增加15%，该效果持续5秒,tricks/8030203,醉君侯刀铭,,"
   splits:
   - split: 2
     text: "冲阵"
     translated: "Formation Charge"
+    qcReviewedText: "Formation Charge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "当自身受击时获得【坚守】效果，体力回复增加15%，该效果持续5秒"
     translated: "When struck, gain the 【Perseverance】 effect, increasing Stamina recovery by 15%, lasting for 5 seconds."
+    qcReviewedText: "When struck, gain the 【Perseverance】 effect, increasing Stamina recovery by 15%, lasting for 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "76,8040301,独觉,104003,1040303,对应招式,,,招式【一苇横江】不消耗真气,tricks/8040301,众相菩提杖,,"
   splits:
   - split: 2
     text: "独觉"
     translated: "Solitary Realization"
+    qcReviewedText: "Solitary Realization"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【一苇横江】不消耗真气"
     translated: "The Move 【A Single Reed Across the River】 does not consume True Qi"
+    qcReviewedText: "The Move 【A Single Reed Across the River】 does not consume True Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "77,8040302,尘劫,104003,1040303,对应招式,,,招式【无我无相】施展时获得【霸体】效果,tricks/8040302,众相菩提杖,,"
   splits:
   - split: 2
     text: "尘劫"
     translated: "Dust Kalpa"
+    qcReviewedText: "Dust Kalpa"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【无我无相】施展时获得【霸体】效果"
     translated: "Using the Move [No Self, No Form] grants you the [Super Armor] effect."
+    qcReviewedText: "Using the Move [No Self, No Form] grants you the [Super Armor] effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "78,8040303,三生,104003,1040305,对应招式,,,招式【拈花掷象】减少调息时间1秒,tricks/8040303,众相菩提杖,,"
   splits:
   - split: 2
     text: "三生"
     translated: "Three Lifetimes"
+    qcReviewedText: "Three Lifetimes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【拈花掷象】减少调息时间1秒"
     translated: "Move [Holding a Flower, Hurling an Elephant] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Holding a Flower, Hurling an Elephant] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "79,8040304,破障,104003,1040310,对应招式,,,招式【无我无相】减少调息时间1秒,tricks/8040304,众相菩提杖,,"
   splits:
   - split: 2
     text: "破障"
     translated: "Obstacle-Breaking"
+    qcReviewedText: "Obstacle-Breaking"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【无我无相】减少调息时间1秒"
     translated: "Move 【No Self, No Form】 reduces meditation time by 1 seconds"
+    qcReviewedText: "Move 【No Self, No Form】 reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "80,8040305,不垢,104003,1040302,对应招式,,,【不动】效果持续10秒,tricks/8040305,众相菩提杖,,"
   splits:
   - split: 2
     text: "不垢"
     translated: "Undefiled"
+    qcReviewedText: "Undefiled"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "【不动】效果持续10秒"
     translated: "[Stasis] effect lasts for 10 seconds"
+    qcReviewedText: "[Stasis] effect lasts for 10 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "81,8040401,将谪,104004,1040401,对应招式,,,招式【秦王入阵】对目标造成伤害后，获得1层【将星】效果，该效果持续3秒，该效果叠加至5层后，获得【无敌】，无敌效果持续2秒,tricks/8040401,镇国抵岳枪,,"
   splits:
   - split: 2
     text: "将谪"
     translated: "About to Be Banished"
+    qcReviewedText: "About to Be Banished"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【秦王入阵】对目标造成伤害后，获得1层【将星】效果，该效果持续3秒，该效果叠加至5层后，获得【无敌】，无敌效果持续2秒"
     translated: "The Move [King of Qin Enters the Formation] deals Damage to the target and grants 1 layers of the [General's Star] effect. This effect lasts for 3 seconds. When the effect stacks to 5 layers, it grants Invulnerable for 2 seconds."
+    qcReviewedText: "The Move [King of Qin Enters the Formation] deals Damage to the target and grants 1 layers of the [General's Star] effect. This effect lasts for 3 seconds. When the effect stacks to 5 layers, it grants Invulnerable for 2 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "82,8040402,陷曲,104004,1040403,全局有效,,,当自身气血降低至50%后，气血恢复属性增加25%,tricks/8040402,镇国抵岳枪,,"
   splits:
   - split: 2
     text: "陷曲"
     translated: "Sunken Bend"
+    qcReviewedText: "Sunken Bend"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "当自身气血降低至50%后，气血恢复属性增加25%"
     translated: "When your Lifeforce drops to 50%, your Lifeforce Recovery Attributes increase by 25%."
+    qcReviewedText: "When your Lifeforce drops to 50%, your Lifeforce Recovery Attributes increase by 25%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "83,8040403,独横,104004,1040405,全局有效,,,\"当施展【虎贲阵】的【漠玉鞍】招式后,获得【独横】效果，效果持续期间每秒恢复30体力,该效果持续8秒\",tricks/8040403,镇国抵岳枪,,"
   splits:
   - split: 2
     text: "独横"
     translated: "Lone Sweep"
+    qcReviewedText: "Lone Sweep"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "当施展【虎贲阵】的【漠玉鞍】招式后"
     translated: "After performing the Move Desert Jade Saddle of the Tiger Guard Formation"
+    qcReviewedText: "After performing the Move Desert Jade Saddle of the Tiger Guard Formation,Gain the [Duheng] effect. While this effect lasts, restore 30 Stamina per second.,This effect lasts for 8 seconds"
+    qcTranslated: "After performing the Move Desert Jade Saddle of the Tiger Guard Formation, gain the [Duheng] effect. While this effect lasts, restore 30 Stamina per second. This effect lasts for 8 seconds"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "获得【独横】效果，效果持续期间每秒恢复30体力"
@@ -724,73 +1453,151 @@
   - split: 2
     text: "御"
     translated: "Guard"
+    qcReviewedText: "Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【刀术.里切】获得【霸体】效果"
     translated: "Move [Blade Art · Inner Cut] gains the [Super Armor] effect"
+    qcReviewedText: "Move [Blade Art · Inner Cut] gains the [Super Armor] effect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "85,8090101,腾龙,109001,1090103,对应招式,,,招式【龙游天地】真气消耗降低1点,tricks/8090101,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "腾龙"
     translated: "Rising Dragon"
+    qcReviewedText: "Rising Dragon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【龙游天地】真气消耗降低1点"
     translated: "The Move 【Dragon Roams Heaven and Earth】 reduces True Qi consumption by 1 points"
+    qcReviewedText: "The Move 【Dragon Roams Heaven and Earth】 reduces True Qi consumption by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "86,8090102,降世,109001,1090105,对应招式,,,招式【神龙摆尾】真气消耗降低1点,tricks/8090102,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "降世"
     translated: "Descent to the World"
+    qcReviewedText: "Descent to the World"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【神龙摆尾】真气消耗降低1点"
     translated: "The Move 【Divine Dragon Swings Its Tail】 reduces True Qi consumption by 1 points"
+    qcReviewedText: "The Move 【Divine Dragon Swings Its Tail】 reduces True Qi consumption by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "87,8090103,鸿渐,109001,1090103,对应招式,,,招式【龙游天地】减少调息时间1秒,tricks/8090103,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "鸿渐"
     translated: "Swan Advances"
+    qcReviewedText: "Swan Advances"
+    qcTranslated: "Hongjian"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【龙游天地】减少调息时间1秒"
     translated: "Move [Dragon Roams Heaven and Earth] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Dragon Roams Heaven and Earth] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "88,8090104,时乘,109001,1090105,对应招式,,,招式【神龙摆尾】减少调息时间1秒,tricks/8090104,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "时乘"
     translated: "Riding the Times"
+    qcReviewedText: "Riding the Times"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【神龙摆尾】减少调息时间1秒"
     translated: "Move [Divine Dragon Swings Its Tail] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Divine Dragon Swings Its Tail] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "89,8090105,不息,109001,1090101,对应招式,,,招式【飞龙在天】减少调息时间1秒,tricks/8090105,醉饮降龙无双式,,"
   splits:
   - split: 2
     text: "不息"
     translated: "Unceasing"
+    qcReviewedText: "Unceasing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【飞龙在天】减少调息时间1秒"
     translated: "Move [Flying Dragon in the Sky] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Flying Dragon in the Sky] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "90,8090201,返日,109002,1090201,对应招式,,,招式【梭云回日】施展后降低【纵九霄】当前调息时间1秒,tricks/8090201,踪影孤鸿,,"
   splits:
   - split: 2
     text: "返日"
     translated: "Returning Sun"
+    qcReviewedText: "Returning Sun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【梭云回日】施展后降低【纵九霄】当前调息时间1秒"
     translated: "Using the Move Shuttling Clouds, Returning Sun reduces the current cooldown of Leaping to the Ninth Heaven by 1 seconds."
+    qcReviewedText: "Using the Move Shuttling Clouds, Returning Sun reduces the current cooldown of Leaping to the Ninth Heaven by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "91,8090202,掠风,109002,1090203,对应招式,,,招式【梭云回日】施展后对受到伤害的目标附加【风阻】效果，移动速度降低30%，效果持续5秒,tricks/8090202,踪影孤鸿,,"
   splits:
   - split: 2
     text: "掠风"
     translated: "Wind-Skimming"
+    qcReviewedText: "Wind-Skimming"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【梭云回日】施展后对受到伤害的目标附加【风阻】效果，移动速度降低30%，效果持续5秒"
     translated: "The Move 【Shuttling Clouds, Returning Sun】 applies a 【Wind Resistance】 effect to damaged targets, reducing Movement Speed by 30%, for 5 seconds."
+    qcReviewedText: "The Move 【Shuttling Clouds, Returning Sun】 applies a 【Wind Resistance】 effect to damaged targets, reducing Movement Speed by 30%, for 5 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "92,8100201,势,110002,1100201,对应招式,,,额外增加【斩·断石】招式剑气伤害,tricks/8100201,密剑·山中石响,,"
   splits:
   - split: 2
     text: "势"
     translated: "Stance"
+    qcReviewedText: "Stance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "额外增加【斩"
     translated: "Extra addition 【Slash"
+    qcReviewedText: "Extra addition 【Slash·Stone Breaker】Move: Sword Qi Damage"
+    qcTranslated: "Extra addition 【Slash · Stone-Cutting】Move: Sword Qi Damage"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 8
     subIndex: 1
     text: "断石】招式剑气伤害"
@@ -803,9 +1610,21 @@
   - split: 2
     text: "返"
     translated: "Return"
+    qcReviewedText: "Return"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【裟"
     translated: "Move【Sha"
+    qcReviewedText: "Move【Sha·[Breaking Forest] reduces the cooldown of [Slash] after activation.·【Broken Stone】 move's current cooldown is 1 seconds."
+    qcTranslated: "Move【Kesa · Forest-Breaking】 reduces the current cooldown of Move【Slash · Stone-Cutting】 by 1 seconds after activation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DomainTerm
   - split: 8
     subIndex: 1
     text: "破林】施展后减少【斩"
@@ -822,9 +1641,21 @@
   - split: 2
     text: "断绳"
     translated: "Rope-Cutting"
+    qcReviewedText: "Rope-Cutting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "降低【初取"
     translated: "Lower 【First Acquisition"
+    qcReviewedText: "Lower 【First Acquisition·【Attack】Recovery time 1 seconds"
+    qcTranslated: "Lower 【First Take · Assault】breathing adjustment time 1 seconds"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "攻伐】调息时间1秒"
@@ -837,41 +1668,84 @@
   - split: 2
     text: "刀取"
     translated: "Blade Seizure"
+    qcReviewedText: "Blade Seizure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "进入战斗时，提升最终伤害5%"
     translated: "Increases final damage by 5% when entering combat."
+    qcReviewedText: "Increases final damage by 5% when entering combat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "96,8100401,守土,110004,1100401,全局有效,,,自身防御提升3%，进入战斗后反伤属性提升10%,tricks/8100401,天威军阵刀术,,"
   splits:
   - split: 2
     text: "守土"
     translated: "Guarding the Land"
+    qcReviewedText: "Guarding the Land"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "自身防御提升3%，进入战斗后反伤属性提升10%"
     translated: "Self-defense increases by 3%, and damage reflection attributes increase by 10% upon entering combat."
+    qcReviewedText: "Self-defense increases by 3%, and damage reflection attributes increase by 10% upon entering combat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "97,8100402,开疆,110004,1100403,全局有效,,,提升3%最终伤害，50点移动速度,tricks/8100402,天威军阵刀术,,"
   splits:
   - split: 2
     text: "开疆"
     translated: "Border-Opening"
+    qcReviewedText: "Border-Opening"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "提升3%最终伤害，50点移动速度"
     translated: "Increase final damage by 3%, and gain 50 Movement Speed"
+    qcReviewedText: "Increase final damage by 3%, and gain 50 Movement Speed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "98,8110101,激灼,111001,1110101,对应招式,,,招式【扫岳荡丘】攻击附加【灼烧】目标的敌人时减少【草蛇金线】招式的当前调息时间1秒,tricks/8110101,流缶金绳镖,,"
   splits:
   - split: 2
     text: "激灼"
     translated: "Fierce Scorch"
+    qcReviewedText: "Fierce Scorch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【扫岳荡丘】攻击附加【灼烧】目标的敌人时减少【草蛇金线】招式的当前调息时间1秒"
     translated: "Using the Move 【Sweeping Peaks, Razing Hills】 to attack enemies with an additional Burn effect reduces the current cooldown of the Move 【Grass Snake, Golden Thread】 by 1 seconds."
+    qcReviewedText: "Using the Move 【Sweeping Peaks, Razing Hills】 to attack enemies with an additional Burn effect reduces the current cooldown of the Move 【Grass Snake, Golden Thread】 by 1 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "99,8110102,扬尘,111001,1110103,对应招式,,,\"招式【草蛇金线】攻击附加【灼烧】目标的敌人时减少获得【扬尘】效果，该效果持续8秒,效果持续期间施展【扫岳荡丘】所需消耗的真气降低1点\",tricks/8110102,流缶金绳镖,,"
   splits:
   - split: 2
     text: "扬尘"
     translated: "Raised Dust"
+    qcReviewedText: "Raised Dust"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【草蛇金线】攻击附加【灼烧】目标的敌人时减少获得【扬尘】效果，该效果持续8秒"
     translated: "Using the Move [Grass Snake, Golden Thread] to attack enemies with an additional Burn effect reduces the Dust Storm effect gained; this effect lasts 8 seconds."
+    qcReviewedText: "Using the Move [Grass Snake, Golden Thread] to attack enemies with an additional Burn effect reduces the Dust Storm effect gained; this effect lasts 8 seconds.,During the duration of the effect, the True Qi required to cast 【Sweeping Peaks, Razing Hills】 is reduced by 1 points."
+    qcTranslated: "Using the Move [Grass Snake, Golden Thread] to attack enemies with an additional Burn effect reduces the Dust Storm effect gained; this effect lasts 8 seconds. During the duration of the effect, the True Qi required to cast 【Sweeping Peaks, Razing Hills】 is reduced by 1 points."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "效果持续期间施展【扫岳荡丘】所需消耗的真气降低1点"
@@ -884,81 +1758,170 @@
   - split: 2
     text: "散星"
     translated: "Scattered Stars"
+    qcReviewedText: "Scattered Stars"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【流星奔散】施展时获得霸体效果"
     translated: "Using the Move [Meteors Scattering in Flight] grants Super Armor effect."
+    qcReviewedText: "Using the Move [Meteors Scattering in Flight] grants Super Armor effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "101,8120101,转瞬,112001,1120101,对应招式,,,【招式矢雨晴】施展后，增加自身的移动速度100,tricks/8120101,锋狩控弦决,,7008100"
   splits:
   - split: 2
     text: "转瞬"
     translated: "In a Blink"
+    qcReviewedText: "In a Blink"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "【招式矢雨晴】施展后，增加自身的移动速度100"
     translated: "【Move Arrow Rain Clears】Upon casting, increases your Movement Speed by 100"
+    qcReviewedText: "【Move Arrow Rain Clears】Upon casting, increases your Movement Speed by 100"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "102,8120102,须臾,112001,1120103,对应招式,,,招式【寒猎晓镝】施展时，拿箭刺击时获得霸体效果,tricks/8120102,锋狩控弦决,,"
   splits:
   - split: 2
     text: "须臾"
     translated: "A Moment"
+    qcReviewedText: "A Moment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【寒猎晓镝】施展时，拿箭刺击时获得霸体效果"
     translated: "When performing the Move [Cold Hunt, Dawn Arrow], you gain Super Armor when thrusting the arrow."
+    qcReviewedText: "When performing the Move [Cold Hunt, Dawn Arrow], you gain Super Armor when thrusting the arrow."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "103,8120103,游散,112001,1120105,全局有效,,,当自身被击飞时，获得1秒的无敌效果,tricks/8120103,锋狩控弦决,,"
   splits:
   - split: 2
     text: "游散"
     translated: "Free Wandering"
+    qcReviewedText: "Free Wandering"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "当自身被击飞时，获得1秒的无敌效果"
     translated: "Gains an invulnerable effect for 1 seconds when knocked away."
+    qcReviewedText: "Gains an invulnerable effect for 1 seconds when knocked away."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "104,8130101,晦朔,113001,1130101,对应招式,,,招式【澜沧凌栈】真气消耗降低1点,tricks/8130101,鳞五净蛊鞭,,"
   splits:
   - split: 2
     text: "晦朔"
     translated: "Waning to New Moon"
+    qcReviewedText: "Waning to New Moon"
+    qcTranslated: "Hui Shuo"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     text: "招式【澜沧凌栈】真气消耗降低1点"
     translated: "Move [Lancang Soaring Plank Road] True Qi consumption reduced by 1 points"
+    qcReviewedText: "Move [Lancang Soaring Plank Road] True Qi consumption reduced by 1 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "105,8130102,蛇影,113001,1130103,对应招式,,,招式【灵蛇刁蛊】减少调息时间1秒,tricks/8130102,鳞五净蛊鞭,,"
   splits:
   - split: 2
     text: "蛇影"
     translated: "Serpent Shadow"
+    qcReviewedText: "Serpent Shadow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【灵蛇刁蛊】减少调息时间1秒"
     translated: "Move [Spirit Serpent's Cunning Gu] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Spirit Serpent's Cunning Gu] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "106,8130103,星居,113001,1130105,对应招式,,,招式【天龙佑躯】施展后对造成伤害的目标附加【眩晕】效果,tricks/8130103,鳞五净蛊鞭,,"
   splits:
   - split: 2
     text: "星居"
     translated: "Dwelling of Stars"
+    qcReviewedText: "Dwelling of Stars"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【天龙佑躯】施展后对造成伤害的目标附加【眩晕】效果"
     translated: "The Move 【Heavenly Dragon Shields the Body】 adds a Stun effect to targets that are dealt Damage."
+    qcReviewedText: "The Move 【Heavenly Dragon Shields the Body】 adds a Stun effect to targets that are dealt Damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "107,8130201,渺渺然,113002,1130203,全局有效,,,自身移动速度提升50点，每30秒获得1点真气,tricks/8130201,掣骨金虹决,,"
   splits:
   - split: 2
     text: "渺渺然"
     translated: "Vast and Faint"
+    qcReviewedText: "Vast and Faint"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "自身移动速度提升50点，每30秒获得1点真气"
     translated: "Increases your Movement Speed by 50 points and gains 1 points of True Qi every 30 seconds."
+    qcReviewedText: "Increases your Movement Speed by 50 points and gains 1 points of True Qi every 30 seconds."
+    qcTranslated: "Increases your Movement Speed by 50 points and gains 30 points of True Qi every 1 seconds."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "108,8130202,归骨地,113002,1130205,全局有效,,,提升自身3%外功攻击,tricks/8130202,掣骨金虹决,,"
   splits:
   - split: 2
     text: "归骨地"
     translated: "Burial Ground"
+    qcReviewedText: "Burial Ground"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "提升自身3%外功攻击"
     translated: "Increase your own External Attack by 3%"
+    qcReviewedText: "Increase your own External Attack by 3%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "109,8140101,蓄机,114001,1140101,全局有效,,,\"进入战斗后,默认额外增加1颗初始子弹数量\",tricks/8140101,西域火器·珠,,7008100"
   splits:
   - split: 2
     text: "蓄机"
     translated: "Storing Momentum"
+    qcReviewedText: "Storing Momentum"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "进入战斗后"
     translated: "After entering combat"
+    qcReviewedText: "After entering combat,By default, add 1 extra initial bullets"
+    qcTranslated: "After entering combat, by default, add 1 extra initial bullets"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "默认额外增加1颗初始子弹数量"
@@ -971,9 +1934,21 @@
   - split: 2
     text: "流构"
     translated: "Flowing Structure"
+    qcReviewedText: "Flowing Structure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【散珠"
     translated: "Move 【Scattered Pearls"
+    qcReviewedText: "Move 【Scattered Pearls·Upon casting, increases your Movement Speed by 100"
+    qcTranslated: "Move 【Scattered Beads · Charge】: Upon casting, increases your Movement Speed by 100"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "蓄】施展后，增加自身的移动速度100"
@@ -986,46 +1961,94 @@
   - split: 2
     text: "扩匣"
     translated: "Expanding Case"
+    qcReviewedText: "Expanding Case"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "弹容量增加1发"
     translated: "Increase magazine capacity by 1 rounds"
+    qcReviewedText: "Increase magazine capacity by 1 rounds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "112,8150101,灵犀,115001,1150101,对应招式,,,招式【绕蛊缠身】施展时获得【霸体】效果,tricks/8150101,七情缠蛊匕,,"
   splits:
   - split: 2
     text: "灵犀"
     translated: "Telepathic Link"
+    qcReviewedText: "Telepathic Link"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【绕蛊缠身】施展时获得【霸体】效果"
     translated: "The Move [Gu Coils Around the Body] grants [Super Armor] effect when performed."
+    qcReviewedText: "The Move [Gu Coils Around the Body] grants [Super Armor] effect when performed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "113,8150102,祭礼,115001,1150103,对应招式,,,招式【残空凌】减少调息时间1秒,tricks/8150102,七情缠蛊匕,,"
   splits:
   - split: 2
     text: "祭礼"
     translated: "Rite of Offering"
+    qcReviewedText: "Rite of Offering"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【残空凌】减少调息时间1秒"
     translated: "Move [Remnant Sky Soaring] reduces meditation time by 1 seconds"
+    qcReviewedText: "Move [Remnant Sky Soaring] reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "114,8150103,百足,115001,1150105,对应招式,,,招式【青丝缠蛇法】减少调息时间1秒,tricks/8150103,七情缠蛊匕,,"
   splits:
   - split: 2
     text: "百足"
     translated: "Hundred-Legged"
+    qcReviewedText: "Hundred-Legged"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【青丝缠蛇法】减少调息时间1秒"
     translated: "Move 【Azure Thread Snake-Binding Method】 reduces meditation time by 1 seconds"
+    qcReviewedText: "Move 【Azure Thread Snake-Binding Method】 reduces meditation time by 1 seconds"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "115,8150201,清辉,115002,1150203,对应招式,,,额外增加轻击5%的伤害,tricks/8150201,月残经,,"
   splits:
   - split: 2
     text: "清辉"
     translated: "Clear Radiance"
+    qcReviewedText: "Clear Radiance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "额外增加轻击5%的伤害"
     translated: "Increase Light Attack damage by 5%"
+    qcReviewedText: "Increase Light Attack damage by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "116,8150202,寒玉,115002,1150205,对应招式,,,招式【谪玉盘】施展后，获得2秒的霸体效果,tricks/8150202,月残经,,"
   splits:
   - split: 2
     text: "寒玉"
     translated: "Cold Jade"
+    qcReviewedText: "Cold Jade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "招式【谪玉盘】施展后，获得2秒的霸体效果"
     translated: "After performing the Move [Banished Jade Disc], gain Super Armor for 2 seconds."
+    qcReviewedText: "After performing the Move [Banished Jade Disc], gain Super Armor for 2 seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

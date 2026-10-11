@@ -3,18 +3,34 @@
   - split: 2
     text: "初始对话"
     translated: "Initial Dialogue"
+    qcReviewedText: "Initial Dialogue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "初始选项"
     translated: "Initial Options"
+    qcReviewedText: "Initial Options"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,initDialog,initLips,initFun,termID,changeID,succeedDialog,succeedLips,succeedFun,failDialog,failLips,failFun"
 - raw: "3,9,阁下要打听何人？,\"搜索,离开\",\"Find,CloseUI\",,,,,,,,"
   splits:
   - split: 2
     text: "阁下要打听何人？"
     translated: "Sir, whom are you inquiring about?"
+    qcReviewedText: "Sir, whom are you inquiring about?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "搜索"
     translated: "Search"
+    qcReviewedText: "Search,Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "离开"
@@ -27,9 +43,20 @@
   - split: 2
     text: "此处房产冬暖夏凉，适宜住人。"
     translated: "This property is warm in winter and cool in summer, suitable for living."
+    qcReviewedText: "This property is warm in winter and cool in summer, suitable for living."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "购买"
     translated: "Buy"
+    qcReviewedText: "Buy({0} Text),Pick the lock,Leave"
+    qcTranslated: "Buy({0} wen),Pick the lock,Leave"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 3
     subIndex: 1
     text: "文"
@@ -50,9 +77,20 @@
   - split: 2
     text: "私家宅邸，闲人免入。"
     translated: "Private residence, trespassers keep out"
+    qcReviewedText: "Private residence, trespassers keep out"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "购买"
     translated: "Buy"
+    qcReviewedText: "Buy({0} Text),Pick the lock,Leave"
+    qcTranslated: "Buy({0} wen),Pick the lock,Leave"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 3
     subIndex: 1
     text: "文"
@@ -73,17 +111,36 @@
   - split: 2
     text: "此处房产已归属你的名下。"
     translated: "This property is now under your name"
+    qcReviewedText: "This property is now under your name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "离开"
     translated: "Leave"
+    qcReviewedText: "Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,15,这位朋友若有闲暇，不妨与在下一同去酒馆小酌几杯可好？,\"赴约,拒绝\",\"Friend,NoFriend\",,,那我先行在酒铺找个安静的雅间，静等阁下了。,暂且离去。,GoQPJG,下次有空，再来相约。,暂且离去。,CloseUI"
   splits:
   - split: 2
     text: "这位朋友若有闲暇，不妨与在下一同去酒馆小酌几杯可好？"
     translated: "If you have the time, why not join me for a few drinks at the tavern?"
+    qcReviewedText: "If you have the time, why not join me for a few drinks at the tavern?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "赴约"
     translated: "Meeting the Appointment"
+    qcReviewedText: "Meeting the Appointment,Refuse"
+    qcTranslated: "Keep the Appointment, Refuse"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 3
     subIndex: 1
     text: "拒绝"
@@ -96,9 +153,17 @@
   - split: 2
     text: "关押着人质的牢门。"
     translated: "The cell door holding the hostages"
+    qcReviewedText: "The cell door holding the hostages"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "放置"
     translated: "Place"
+    qcReviewedText: "Place,Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "离开"
@@ -111,9 +176,17 @@
   - split: 2
     text: "存取物品的箱子，无甚特别之处。"
     translated: "A box for storing items, nothing particularly special about it."
+    qcReviewedText: "A box for storing items, nothing particularly special about it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "存取物品"
     translated: "Access Items"
+    qcReviewedText: "Access Items,Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "离开"
@@ -126,9 +199,20 @@
   - split: 2
     text: "朱门半掩，幔舞似幻，隐现佳人妙影……"
     translated: "The crimson door half-opened, curtains swayed like illusions, revealing glimpses of a beauty's graceful figure......"
+    qcReviewedText: "The crimson door half-opened, curtains swayed like illusions, revealing glimpses of a beauty's graceful figure......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "掀帘而入"
     translated: "Entering with a sweep of the curtain"
+    qcReviewedText: "Entering with a sweep of the curtain,Leave"
+    qcTranslated: "Entering with a sweep of the curtain, leaving"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 3
     subIndex: 1
     text: "离开"

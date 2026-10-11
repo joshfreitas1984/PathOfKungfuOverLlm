@@ -3,26 +3,50 @@
   - split: 2
     text: "天赋名称"
     translated: "Talent Name"
+    qcReviewedText: "Talent Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "天赋描述"
     translated: "Talent description"
+    qcReviewedText: "Talent description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,style,function,tip,cons,isOpen,c1,c2,c3,c4,c5,type,typeNum,qxsx,zqsxInt,qxhf,wgfy,ngfy,wg,ng,bj,mb,bjsh,bjjm,tlsx,tlhf,xx,fs,nj,sdPtc,wlInt,nxInt,sfInt,jgInt,wxInt,tlxh"
 - raw: "3,1001,心意明达,青阳,0,明心见性，方可念头通达，一心起时，万念如臂使指，气血回复提升10%，内劲获取速率提升10%。,2,1,气血回复+0.1;内劲获取速率+0.1,0,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "心意明达"
     translated: "Lucid Mind"
+    qcReviewedText: "Lucid Mind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "明心见性，方可念头通达，一心起时，万念如臂使指，气血回复提升10%，内劲获取速率提升10%。"
     translated: "Clear the mind and see the nature, only then can thoughts flow freely; when one thought arises, myriad thoughts obey like fingers to command, Lifeforce recovery increases by 10%, and Inner Force acquisition rate increases by 10%."
+    qcReviewedText: "Clear the mind and see the nature, only then can thoughts flow freely; when one thought arises, myriad thoughts obey like fingers to command, Lifeforce recovery increases by 10%, and Inner Force acquisition rate increases by 10%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,1002,气海充盈,青阳,0,气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人，内息属性+1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0"
   splits:
   - split: 2
     text: "气海充盈"
     translated: "Abundant Qi Sea"
+    qcReviewedText: "Abundant Qi Sea"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "气海充盈广博，可纳朝元气象，吞吐真元流转，远超常人，内息属性"
     translated: "Abundant Qi Sea, vast and broad, can accommodate the celestial energy, absorb and circulate true essence, far surpassing ordinary people, [Inner Qi Attributes]"
+    qcReviewedText: "Abundant Qi Sea, vast and broad, can accommodate the celestial energy, absorb and circulate true essence, far surpassing ordinary people, [Inner Qi Attributes]+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "{0}+1"
@@ -31,9 +55,17 @@
   - split: 2
     text: "牛磐虎健"
     translated: "Ox-Boulder Tiger-Vigor"
+    qcReviewedText: "Ox-Boulder Tiger-Vigor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "架若牛磐，势如虎健，乃为罕见之材，修习外家功法，造诣定一日千里，筋骨属性"
     translated: "Steady as a bull, strong as a tiger, it is a rare material, suitable for practicing external martial arts, with mastery surely advancing by leaps and bounds, physique attributes"
+    qcReviewedText: "Steady as a bull, strong as a tiger, it is a rare material, suitable for practicing external martial arts, with mastery surely advancing by leaps and bounds, physique attributes+1."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "{0}+1."
@@ -42,73 +74,151 @@
   - split: 2
     text: "抱御守元"
     translated: "Guarded Origin"
+    qcReviewedText: "Guarded Origin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "真元抱守，御心见性，神思不乱，可抵内劲侵袭，内功防御提升3%。"
     translated: "True Essence Embrace, Discipline Reveals Nature, Mind Untroubled, can ward off Inner Force attacks, increasing Internal Defense by 3%."
+    qcReviewedText: "True Essence Embrace, Discipline Reveals Nature, Mind Untroubled, can ward off Inner Force attacks, increasing Internal Defense by 3%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,1005,踏雪鸿泥,青阳,0,踏雪无痕，若惊鸿穿纵，翩翩佳人公子，游花间不染片叶，移动速度提升10%。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "踏雪鸿泥"
     translated: "Swan on Snow"
+    qcReviewedText: "Swan on Snow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "踏雪无痕，若惊鸿穿纵，翩翩佳人公子，游花间不染片叶，移动速度提升10%。"
     translated: "Snow leaves no trace, like a startled goose darting through the air, an elegant young lord moves among the flowers untouched by even a leaf, increasing Movement Speed by 10%."
+    qcReviewedText: "Snow leaves no trace, like a startled goose darting through the air, an elegant young lord moves among the flowers untouched by even a leaf, increasing Movement Speed by 10%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,1006,蕴纳柔劲,青阳,0,筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师，内功攻击提升5%。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "蕴纳柔劲"
     translated: "Gathered Gentle Force"
+    qcReviewedText: "Gathered Gentle Force"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为内家宗师，内功攻击提升5%。"
     translated: "Superb Physique, matching the ancient Hundred Aspects chart; those with this Talent are destined to become masters of internal martial arts, increasing Internal Attack by 5%."
+    qcReviewedText: "Superb Physique, matching the ancient Hundred Aspects chart; those with this Talent are destined to become masters of internal martial arts, increasing Internal Attack by 5%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,1007,破锋锐劲,青阳,0,筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师，外功攻击提升3%。,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0.03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "破锋锐劲"
     translated: "Piercing Edge"
+    qcReviewedText: "Piercing Edge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "筋骨超凡，与昔日百相之图相符，具此天赋者，无不终为外家宗师，外功攻击提升3%。"
     translated: "Superb Physique, matching the ancient Hundred Aspects diagram; those with this Talent are destined to become masters of external martial arts, increasing External Attack by 3%."
+    qcReviewedText: "Superb Physique, matching the ancient Hundred Aspects diagram; those with this Talent are destined to become masters of external martial arts, increasing External Attack by 3%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,2001,丹心碧血,朱明,0,饮冰难凉，碧血难消，你性格坚韧顽强，纵被击倒亦能快速恢复，体力值恢复速率额外提升5%。,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05"
   splits:
   - split: 2
     text: "丹心碧血"
     translated: "Loyal Heart, Verdant Blood"
+    qcReviewedText: "Loyal Heart, Verdant Blood"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "饮冰难凉，碧血难消，你性格坚韧顽强，纵被击倒亦能快速恢复，体力值恢复速率额外提升5%。"
     translated: "Quenching rage with ice is hard, and purging bloodied wounds is difficult. Your tenacious nature allows you to quickly recover even when struck down, increasing your Stamina regeneration rate by an additional 5%."
+    qcReviewedText: "Quenching rage with ice is hard, and purging bloodied wounds is difficult. Your tenacious nature allows you to quickly recover even when struck down, increasing your Stamina regeneration rate by an additional 5%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,2002,妙手生花,朱明,0,其技奇巧，转触回春，你秉性与医道暗合，自身体力上限提升10%，气血回复速率提升10%。,2,1,体力上限提升10%，气血回复速率提升10%。,0,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "妙手生花"
     translated: "Blossoming Hands"
+    qcReviewedText: "Blossoming Hands"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "其技奇巧，转触回春，你秉性与医道暗合，自身体力上限提升10%，气血回复速率提升10%。"
     translated: "Their technique is ingenious, reviving upon touch; your nature aligns with the healing arts, increasing your max stamina by 10% and lifeforce recovery rate by 10%."
+    qcReviewedText: "Their technique is ingenious, reviving upon touch; your nature aligns with the healing arts, increasing your max stamina by 10% and lifeforce recovery rate by 10%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,2003,天纵之才,朱明,0,人杰之表，万中无一，天资聪颖，可提前解锁比当前武学境界高一级的装备类物品，无视其境界需求。（无法与天赋【天狼孤煞】共存）,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "天纵之才"
     translated: "Heaven-Sent Talent"
+    qcReviewedText: "Heaven-Sent Talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "人杰之表，万中无一，天资聪颖，可提前解锁比当前武学境界高一级的装备类物品，无视其境界需求。（无法与天赋【天狼孤煞】共存）"
     translated: "A paragon among men, one in a million, with exceptional natural talent, can unlock equipment items of a higher martial art realm level than their current realm, ignoring the realm requirements. (Cannot coexist with the Talent [Lone Sirius Star])"
+    qcReviewedText: "A paragon among men, one in a million, with exceptional natural talent, can unlock equipment items of a higher martial art realm level than their current realm, ignoring the realm requirements. (Cannot coexist with the Talent [Lone Sirius Star])"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,2004,神完气足,朱明,0,神足无倦，气足无眠，你天生精气充沛，体力上限提升20%。,2,1,体力上限提升20%,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "神完气足"
     translated: "Full Spirit, Full Qi"
+    qcReviewedText: "Full Spirit, Full Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "神足无倦，气足无眠，你天生精气充沛，体力上限提升20%。"
     translated: "With divine legs untired and spirit unslumbering, your natural essence and energy abundant increases your Max Stamina by 20%."
+    qcReviewedText: "With divine legs untired and spirit unslumbering, your natural essence and energy abundant increases your Max Stamina by 20%."
+    qcTranslated: "With divine legs untired and spirit unslumbering, your naturally abundant essence and energy increases your Max Stamina by 20%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "14,2005,梵金刚体,朱明,0,\"体健刚强，若伽蓝之身，天生佛缘，武学至深，机缘起时，或可为不垢不灭,气血最大值额外提升10%。\",2,1,0,0,0,0,0,0,0,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "梵金刚体"
     translated: "Brahma Vajra Body"
+    qcReviewedText: "Brahma Vajra Body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "体健刚强，若伽蓝之身，天生佛缘，武学至深，机缘起时，或可为不垢不灭"
     translated: "Physically robust and strong, like a celestial guardian, naturally endowed with a karmic connection to Buddhism, deeply versed in martial arts, when the time is right, one might become untainted and imperishable."
+    qcReviewedText: "Physically robust and strong, like a celestial guardian, naturally endowed with a karmic connection to Buddhism, deeply versed in martial arts, when the time is right, one might become untainted and imperishable.,Maximum Lifeforce increased by an additional 10%"
+    qcTranslated: "Physically robust and strong, like a celestial guardian, naturally endowed with a karmic connection to Buddhism, deeply versed in Martial Art, when the time is right, one might become untainted and imperishable.,Maximum Lifeforce increased by an additional 10%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 5
     subIndex: 1
     text: "气血最大值额外提升10%。"
@@ -121,126 +231,261 @@
   - split: 2
     text: "栖身奉道"
     translated: "Devoted to the Way"
+    qcReviewedText: "Devoted to the Way"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "以武栖身，以身奉道，你较难拥有子嗣，但所有武学招式的伤害额外获得3%的加成。"
     translated: "Living by martial arts and dedicating your body to the path, you find it difficult to have offspring, but all Martial Art Moves deal an additional 3% Damage."
+    qcReviewedText: "Living by martial arts and dedicating your body to the path, you find it difficult to have offspring, but all Martial Art Moves deal an additional 3% Damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,2007,崧生岳降,朱明,0,崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。,3,1,\"秘籍,95103014\",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "崧生岳降"
     translated: "Born of Mountains"
+    qcReviewedText: "Born of Mountains"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
     translated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
+    qcReviewedText: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
+    qcTranslated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a Manual of Martial Art and promised to meet again someday, then departed gracefully."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "17,3001,秋尽而藏,白藏,0,时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "秋尽而藏"
     translated: "Autumn Store"
+    qcReviewedText: "Autumn Store"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。"
     translated: "In autumn, harvest comes; in winter, all is stored. Your steady nature allows you to act at the right time and conserve strength, increasing your Stamina maximum by 5%."
+    qcReviewedText: "In autumn, harvest comes; in winter, all is stored. Your steady nature allows you to act at the right time and conserve strength, increasing your Stamina maximum by 5%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "18,3002,气止神闲,白藏,0,举重若轻，神静气止，你的真气上限额外增加（1），但移动速度降低3%。,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.03,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "气止神闲"
     translated: "Calm Qi, Easy Spirit"
+    qcReviewedText: "Calm Qi, Easy Spirit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "举重若轻，神静气止，你的真气上限额外增加（1），但移动速度降低3%。"
     translated: "With ease and composure, your Max True Qi increases by (1), but your Movement Speed decreases by 3%."
+    qcReviewedText: "With ease and composure, your Max True Qi increases by (1), but your Movement Speed decreases by 3%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,3003,洞隐烛微,白藏,0,洞微知著，观叶知秋，你所见深刻透彻，直指招式破绽间隔之处，暴击率提升3%。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "洞隐烛微"
     translated: "Penetrating Insight"
+    qcReviewedText: "Penetrating Insight"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "洞微知著，观叶知秋，你所见深刻透彻，直指招式破绽间隔之处，暴击率提升3%。"
     translated: "Seeing the subtle in the vast, observing the autumn in a single leaf, what you see is profound and penetrating, directly pointing out the gaps in the opponent's moves, increasing your Crit Rate by 3%."
+    qcReviewedText: "Seeing the subtle in the vast, observing the autumn in a single leaf, what you see is profound and penetrating, directly pointing out the gaps in the opponent's moves, increasing your Crit Rate by 3%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "20,3004,攻敌必救,白藏,0,攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群，颇擅拆解他人招式，暴击伤害额外提升5%。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "攻敌必救"
     translated: "Strike the Vital Point"
+    qcReviewedText: "Strike the Vital Point"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "攻敌所必救，掌破绽而直指疏漏之处，你武学资质超群，颇擅拆解他人招式，暴击伤害额外提升5%。"
     translated: "Attack where the enemy must defend, strike at their weaknesses and vulnerabilities. Your martial aptitude is exceptional, and you excel at countering others' moves, increasing your crit damage by an additional 5%."
+    qcReviewedText: "Attack where the enemy must defend, strike at their weaknesses and vulnerabilities. Your martial aptitude is exceptional, and you excel at countering others' moves, increasing your crit damage by an additional 5%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "21,3005,灵犀一点,白藏,0,犹自灵犀，一点即通，你天生灵慧，常有异想，每次提升境界时，会随机解锁已修习的武学之下的一种招式。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "灵犀一点"
     translated: "Spark of Insight"
+    qcReviewedText: "Spark of Insight"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "犹自灵犀，一点即通，你天生灵慧，常有异想，每次提升境界时，会随机解锁已修习的武学之下的一种招式。"
     translated: "With innate wisdom, a spark ignites understanding; you are naturally clever and often have unique insights. Each time you advance in your Realm, you randomly unlock one Move from the Martial Arts you have practiced."
+    qcReviewedText: "With innate wisdom, a spark ignites understanding; you are naturally clever and often have unique insights. Each time you advance in your Realm, you randomly unlock one Move from the Martial Arts you have practiced."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "22,3006,道法自然,白藏,0,寻释问道，你曾梦黄粱，其间一道者含笑而行，自醒再不复相见，你使用【太和】武学时威力大增。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "道法自然"
     translated: "Dao Follows Nature"
+    qcReviewedText: "Dao Follows Nature"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "寻释问道，你曾梦黄粱，其间一道者含笑而行，自醒再不复相见，你使用【太和】武学时威力大增。"
     translated: "Seeking enlightenment, you once dreamed of a bowl of millet, in which an old Taoist walked with a smile, and after waking, you never saw him again. When you use Taihe Martial Art, its power greatly increases."
+    qcReviewedText: "Seeking enlightenment, you once dreamed of a bowl of millet, in which an old Taoist walked with a smile, and after waking, you never saw him again. When you use Taihe Martial Art, its power greatly increases."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "23,3007,明镜止水,白藏,0,心如明镜，所为皆无不可，造成的内功伤害额外提升2%。,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.02,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "明镜止水"
     translated: "Still Water"
+    qcReviewedText: "Still Water"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "心如明镜，所为皆无不可，造成的内功伤害额外提升2%。"
     translated: "Heart like a mirror, all actions are without fault, increasing internal damage by an additional 2%."
+    qcReviewedText: "Heart like a mirror, all actions are without fault, increasing internal damage by an additional 2%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "24,4001,渊渟岳峙,玄英,0,如渊仰止，似岳驻峙，你自喜清静，尤擅架势，外功防御和内功防御力提升2%。,2,1,0,0,0,0,0,0,0,0,0,0,0.02,0.02,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "渊渟岳峙"
     translated: "Deep Pool, Standing Peak"
+    qcReviewedText: "Deep Pool, Standing Peak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "如渊仰止，似岳驻峙，你自喜清静，尤擅架势，外功防御和内功防御力提升2%。"
     translated: "Like a deep abyss that draws one in, like a towering mountain that stands firm, you cherish tranquility and excel in stance, enhancing your external defense and internal defense by 2%."
+    qcReviewedText: "Like a deep abyss that draws one in, like a towering mountain that stands firm, you cherish tranquility and excel in stance, enhancing your external defense and internal defense by 2%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "25,4002,昏昭智愚,玄英,0,大智若愚，昭昏实巧，获得一个三才书人卷槽位。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "昏昭智愚"
     translated: "Wise Fool"
+    qcReviewedText: "Wise Fool"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "大智若愚，昭昏实巧，获得一个三才书人卷槽位。"
     translated: "Great wisdom appears foolish, clarity in confusion is true skill; obtained a slot for a Human Scroll of the Three Talents Tome."
+    qcReviewedText: "Great wisdom appears foolish, clarity in confusion is true skill; obtained a slot for a Human Scroll of the Three Talents Tome."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "26,4003,天生财贵,玄英,0,财可通神，钱能使权，创建角色时额外获得20两银钱。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "天生财贵"
     translated: "Born to Wealth"
+    qcReviewedText: "Born to Wealth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "财可通神，钱能使权，创建角色时额外获得20两银钱。"
     translated: "Wealth can commune with the divine, and money wields power; when creating a character, you receive an additional 20 taels of silver."
+    qcReviewedText: "Wealth can commune with the divine, and money wields power; when creating a character, you receive an additional 20 taels of silver."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "27,4004,若愚之智,玄英,0,昏昏昭昭，可为大智，愚者行与世，或反能得本心？你额外获得（3）点悟性。,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0"
   splits:
   - split: 2
     text: "若愚之智"
     translated: "Wisdom of the Seeming Fool"
+    qcReviewedText: "Wisdom of the Seeming Fool"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "昏昏昭昭，可为大智，愚者行与世，或反能得本心？你额外获得（3）点悟性。"
     translated: "Foggy clarity, can one achieve great wisdom? Perhaps a fool walking in the world may find their true self? You gain an additional (3) point of Comprehension."
+    qcReviewedText: "Foggy clarity, can one achieve great wisdom? Perhaps a fool walking in the world may find their true self? You gain an additional (3) point of Comprehension."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "28,4005,真贯之体,玄英,0,气窍通明，可称慧体，你天生七脉通达，内功攻击提升2%。,1,1,内功攻击提升2%。,0,0,0,0,0,0,0,0,0,0,0,0,0.02,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "真贯之体"
     translated: "True Piercing Body"
+    qcReviewedText: "True Piercing Body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "气窍通明，可称慧体，你天生七脉通达，内功攻击提升2%。"
     translated: "With your chakra channels clear, you can be called a wise body. You are naturally attuned with seven energy pathways, increasing your Internal Attack by 2%."
+    qcReviewedText: "With your chakra channels clear, you can be called a wise body. You are naturally attuned with seven energy pathways, increasing your Internal Attack by 2%."
+    qcTranslated: "With your chakra channels clear and bright, you can be called a wise body. You are naturally attuned with seven energy pathways, increasing your Internal Attack by 2%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "29,4006,天狼孤煞,玄英,0,命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，额外获得20%的伤害提升和防御加成。（无法与天赋【天纵之才】共存）,3,1,10037,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "天狼孤煞"
     translated: "Lone Sirius Star"
+    qcReviewedText: "Lone Sirius Star"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "命格奇异，贪狼入命，称天煞孤星之局，无同伴上阵时，额外获得20%的伤害提升和防御加成。（无法与天赋【天纵之才】共存）"
     translated: "Fated to be unusual, with the Malevolent Star entering their chart, they are known as the Malignant Solitary Star. When no companions accompany them in battle, they gain an additional 20% damage boost and defensive bonus. (Cannot coexist with the Talent [Heaven-Sent Talent])"
+    qcReviewedText: "Fated to be unusual, with the Malevolent Star entering their chart, they are known as the Malignant Solitary Star. When no companions accompany them in battle, they gain an additional 20% damage boost and defensive bonus. (Cannot coexist with the Talent [Heaven-Sent Talent])"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "30,4007,镇军之材,玄英,0,天生军阵之材，气血值上限提升10%，造成的外功伤害提升3%，造成的内功伤害降低3%。,3,1,0,0,0,0,0,0,0,0.1,0,0,0,0,0.03,-0.03,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2
     text: "镇军之材"
     translated: "Army-Commander Talent"
+    qcReviewedText: "Army-Commander Talent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "天生军阵之材，气血值上限提升10%，造成的外功伤害提升3%，造成的内功伤害降低3%。"
     translated: "Born with natural military array talent, Lifeforce maximum increased by 10%, External Damage dealt increased by 3%, Internal Damage dealt decreased by 3%."
+    qcReviewedText: "Born with natural military array talent, Lifeforce maximum increased by 10%, External Damage dealt increased by 3%, Internal Damage dealt decreased by 3%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

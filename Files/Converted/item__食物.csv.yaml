@@ -3,17 +3,36 @@
   - split: 2
     text: "道具名"
     translated: "Item name"
+    qcReviewedText: "Item name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,902001,清汤面,食物,1005,2,1,30,10,精力+6,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,寻常的阳春小面，汤头清澈，面条劲道滑爽。,食用清汤面，精力+5,item/902001,Using,1,1"
   splits:
   - split: 2
     text: "清汤面"
     translated: "Clear Broth Noodles"
+    qcReviewedText: "Clear Broth Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "寻常的阳春小面，汤头清澈，面条劲道滑爽。"
     translated: "A typical spring sunshine noodles soup, clear and flavorful, with firm and slippery noodles."
+    qcReviewedText: "A typical spring sunshine noodles soup, clear and flavorful, with firm and slippery noodles."
+    qcTranslated: "A simple bowl of Yangchun noodles, with a clear broth and firm, smooth noodles."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 23
     text: "食用清汤面，精力"
     translated: "Eating clear broth noodles, Energy"
+    qcReviewedText: "Eating clear broth noodles, Energy+5"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+5"
@@ -22,12 +41,24 @@
   - split: 2
     text: "馒头"
     translated: "Steamed Bun"
+    qcReviewedText: "Steamed Bun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "寻常碱面所制的馒头，虽难言可口，却是饱腹充饥之首选。"
     translated: "Though far from delicious, steamed buns made with plain alkaline dough are the top choice for filling one's stomach and staving off hunger."
+    qcReviewedText: "Though far from delicious, steamed buns made with plain alkaline dough are the top choice for filling one's stomach and staving off hunger."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用馒头，精力"
     translated: "Eat steamed buns, regain Energy"
+    qcReviewedText: "Eat steamed buns, regain Energy+2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+2"
@@ -36,12 +67,24 @@
   - split: 2
     text: "咸蛋"
     translated: "Salted Egg"
+    qcReviewedText: "Salted Egg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "乡下农家腌制的咸蛋，流黄清香，滋味鲜美。"
     translated: "Country-style preserved salted eggs, with fragrant yolk oozing out, are deliciously fresh and savory."
+    qcReviewedText: "Country-style preserved salted eggs, with fragrant yolk oozing out, are deliciously fresh and savory."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用咸蛋，精力"
     translated: "Eat salted egg, Energy"
+    qcReviewedText: "Eat salted egg, Energy+3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+3"
@@ -50,12 +93,24 @@
   - split: 2
     text: "青田鱼汤"
     translated: "Qingtian Fish Soup"
+    qcReviewedText: "Qingtian Fish Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "青田有鱼，煮之清甜，汤色奶白，肉质嫩滑鲜香。"
     translated: "Qingtian has fish, which when cooked are sweet and clear, with milky soup and tender, fragrant meat."
+    qcReviewedText: "Qingtian has fish, which when cooked are sweet and clear, with milky soup and tender, fragrant meat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用青田鱼汤，精力"
     translated: "Eating Qingtian Fish Soup, Energy"
+    qcReviewedText: "Eating Qingtian Fish Soup, Energy+7"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+7"
@@ -64,12 +119,27 @@
   - split: 2
     text: "青菜豆腐"
     translated: "Greens and Tofu"
+    qcReviewedText: "Greens and Tofu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "青菜炖豆腐，虽无半点荤腥，却亦为众人日常饮食之选。"
     translated: "Although it lacks any meat or fish, stir-fried greens with tofu is still a common choice for everyone's daily diet."
+    qcReviewedText: "Although it lacks any meat or fish, stir-fried greens with tofu is still a common choice for everyone's daily diet."
+    qcTranslated: "Although it lacks any meat or fish, stewed greens with tofu is still a common choice for everyone's daily diet."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 23
     text: "食用青菜豆腐，精力"
     translated: "Eating greens and tofu, Energy"
+    qcReviewedText: "Eating greens and tofu, Energy+6"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+6"
@@ -78,12 +148,24 @@
   - split: 2
     text: "高粱红"
     translated: "Red Sorghum Liquor"
+    qcReviewedText: "Red Sorghum Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "高粱入曲所酿，其性烈，干辣入喉。"
     translated: "Made with sorghum, its nature is fierce, dry and fiery down the throat."
+    qcReviewedText: "Made with sorghum, its nature is fierce, dry and fiery down the throat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "饮用高粱红，精力"
     translated: "Drink Red Sorghum Liquor, regain Energy"
+    qcReviewedText: "Drink Red Sorghum Liquor, regain Energy+3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+3"
@@ -92,12 +174,24 @@
   - split: 2
     text: "高粱红陈酿"
     translated: "Aged Red Sorghum Liquor"
+    qcReviewedText: "Aged Red Sorghum Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "青萍村内所特制的高粱红，较之寻常酒曲更为细腻，辛甘清香。"
     translated: "The Red Sorghum Liquor specially made in Qingping Village is more delicate than ordinary rice wine, with a spicy-sweet and fragrant flavor."
+    qcReviewedText: "The Red Sorghum Liquor specially made in Qingping Village is more delicate than ordinary rice wine, with a spicy-sweet and fragrant flavor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "饮用高粱红陈酿，精力"
     translated: "Drinking Aged Red Sorghum Liquor, Energy"
+    qcReviewedText: "Drinking Aged Red Sorghum Liquor, Energy+10"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+10"
@@ -106,20 +200,43 @@
   - split: 2
     text: "丹河大曲"
     translated: "Danhe Daqu Liquor"
+    qcReviewedText: "Danhe Daqu Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "丹河特酿，风味独到。"
     translated: "Dan River Special Brew, unique in flavor"
+    qcReviewedText: "Dan River Special Brew, unique in flavor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "丹河大曲"
     translated: "Danhe Daqu Liquor"
+    qcReviewedText: "Danhe Daqu Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,902009,牛油豆腐面,食物,,2,1,1,10,精力+10,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,\"一辣二麻三鲜,味道可口,回味无穷。\",牛油豆腐面,item/902001,Using,1,1"
   splits:
   - split: 2
     text: "牛油豆腐面"
     translated: "Beef Tallow Tofu Noodles"
+    qcReviewedText: "Beef Tallow Tofu Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "一辣二麻三鲜"
     translated: "One spicy, two numbing, three fresh"
+    qcReviewedText: "One spicy, two numbing, three fresh,Tastes delicious,Endless flavor"
+    qcTranslated: "One spicy, two numbing, three fresh. Tastes delicious, with an endless aftertaste."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 22
     subIndex: 1
     text: "味道可口"
@@ -131,6 +248,10 @@
   - split: 23
     text: "牛油豆腐面"
     translated: "Beef Tallow Tofu Noodles"
+    qcReviewedText: "Beef Tallow Tofu Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 22
     template: "{0},{1},{2}"
@@ -139,31 +260,63 @@
   - split: 2
     text: "襄阳缠蹄"
     translated: "Xiangyang Wrapped Trotters"
+    qcReviewedText: "Xiangyang Wrapped Trotters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "色泽红亮，肉质清香，佐以姜丝米醋，余味幽长。"
     translated: "Red and glossy, with tender and fragrant meat, accompanied by shredded ginger and rice vinegar, the aftertaste is lingering."
+    qcReviewedText: "Red and glossy, with tender and fragrant meat, accompanied by shredded ginger and rice vinegar, the aftertaste is lingering."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "襄阳缠蹄"
     translated: "Xiangyang Wrapped Trotters"
+    qcReviewedText: "Xiangyang Wrapped Trotters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,902011,夷邑盘鳝,食物,,2,1,1,40,精力+20,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,肉嫩味鲜，香酥可口。,夷邑盘鳝,item/902012,Using,1,1"
   splits:
   - split: 2
     text: "夷邑盘鳝"
     translated: "Yiyi Coiled Eel"
+    qcReviewedText: "Yiyi Coiled Eel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "肉嫩味鲜，香酥可口。"
     translated: "Tender and delicious, crispy and savory"
+    qcReviewedText: "Tender and delicious, crispy and savory"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "夷邑盘鳝"
     translated: "Yiyi Coiled Eel"
+    qcReviewedText: "Yiyi Coiled Eel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,902012,夹沙肉,食物,,2,1,1,10,精力+10,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,\"白里透红,鲜香甜糯,肥而不腻。\",夹沙肉,item/902023,Using,1,1"
   splits:
   - split: 2
     text: "夹沙肉"
     translated: "Red-Bean-Paste Pork"
+    qcReviewedText: "Red-Bean-Paste Pork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "白里透红"
     translated: "Rosy and fair"
+    qcReviewedText: "Rosy and fair,Fresh, savory, sweet, and sticky,Rich but not greasy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     subIndex: 1
     text: "鲜香甜糯"
@@ -175,6 +328,10 @@
   - split: 23
     text: "夹沙肉"
     translated: "Red-Bean-Paste Pork"
+    qcReviewedText: "Red-Bean-Paste Pork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 22
     template: "{0},{1},{2}"
@@ -183,119 +340,256 @@
   - split: 2
     text: "西湖醋鱼"
     translated: "West Lake Vinegar Fish"
+    qcReviewedText: "West Lake Vinegar Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "色泽红亮，肉质鲜嫩，酸甜清香，口感软嫩。"
     translated: "Bright red in color, with tender meat that is sweet and sour yet fragrant, offering a soft and delicate texture."
+    qcReviewedText: "Bright red in color, with tender meat that is sweet and sour yet fragrant, offering a soft and delicate texture."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "西湖醋鱼"
     translated: "West Lake Vinegar Fish"
+    qcReviewedText: "West Lake Vinegar Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "15,902014,龙井虾仁,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,清新软嫩，虾仁玉嫩，色泽雅丽，清口开胃。,龙井虾仁,item/902022,Using,1,1"
   splits:
   - split: 2
     text: "龙井虾仁"
     translated: "Longjing Shrimp"
+    qcReviewedText: "Longjing Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "清新软嫩，虾仁玉嫩，色泽雅丽，清口开胃。"
     translated: "Fresh and tender, the shrimp is delicate and white, with an elegant appearance and a refreshing taste that whets the appetite."
+    qcReviewedText: "Fresh and tender, the shrimp is delicate and white, with an elegant appearance and a refreshing taste that whets the appetite."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "龙井虾仁"
     translated: "Longjing Shrimp"
+    qcReviewedText: "Longjing Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,902015,桂花糕,食物,,2,1,30,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,糕体光滑细腻，清甜可口。,桂花糕,item/902008,Using,1,1"
   splits:
   - split: 2
     text: "桂花糕"
     translated: "Osmanthus Cake"
+    qcReviewedText: "Osmanthus Cake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "糕体光滑细腻，清甜可口。"
     translated: "The cake is smooth and delicate, sweet and delicious."
+    qcReviewedText: "The cake is smooth and delicate, sweet and delicious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "桂花糕"
     translated: "Osmanthus Cake"
+    qcReviewedText: "Osmanthus Cake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "17,902016,糯米鸡,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,荷叶包米，糯米包鸡，清香扑鼻，鲜味四溢。,糯米鸡,item/902025,Using,1,1"
   splits:
   - split: 2
     text: "糯米鸡"
     translated: "Glutinous Rice Chicken"
+    qcReviewedText: "Glutinous Rice Chicken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "荷叶包米，糯米包鸡，清香扑鼻，鲜味四溢。"
     translated: "Lotus leaf-wrapped glutinous rice, glutinous rice-stuffed chicken, fragrant and aromatic, with flavors bursting forth."
+    qcReviewedText: "Lotus leaf-wrapped glutinous rice, glutinous rice-stuffed chicken, fragrant and aromatic, with flavors bursting forth."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "糯米鸡"
     translated: "Glutinous Rice Chicken"
+    qcReviewedText: "Glutinous Rice Chicken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "18,902017,弥渡卷蹄,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,色泽红白透明，鲜嫩可口，味微酸。,弥渡卷蹄,item/902012,Using,1,1"
   splits:
   - split: 2
     text: "弥渡卷蹄"
     translated: "Midu Rolled Trotters"
+    qcReviewedText: "Midu Rolled Trotters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "色泽红白透明，鲜嫩可口，味微酸。"
     translated: "It is red and white, transparent and tender, with a slightly sour taste."
+    qcReviewedText: "It is red and white, transparent and tender, with a slightly sour taste."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "弥渡卷蹄"
     translated: "Midu Rolled Trotters"
+    qcReviewedText: "Midu Rolled Trotters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,902018,扒肉饵丝,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,南诏遗味，色香俱佳。,扒肉饵丝,item/902015,Using,1,1"
   splits:
   - split: 2
     text: "扒肉饵丝"
     translated: "Braised Pork with Rice Noodles"
+    qcReviewedText: "Braised Pork with Rice Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "南诏遗味，色香俱佳。"
     translated: "The remnants of Nanzhao, with exquisite taste and aroma."
+    qcReviewedText: "The remnants of Nanzhao, with exquisite taste and aroma."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "扒肉饵丝"
     translated: "Braised Pork with Rice Noodles"
+    qcReviewedText: "Braised Pork with Rice Noodles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "20,902019,乳扇,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,邓川弓鱼美，洱源乳扇香。,乳扇,item/902008,Using,1,1"
   splits:
   - split: 2
     text: "乳扇"
     translated: "Rushan Milk Fan"
+    qcReviewedText: "Rushan Milk Fan"
+    qcTranslated: "Milk Fan"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 22
     text: "邓川弓鱼美，洱源乳扇香。"
     translated: "Dengchuan's fish are delicious, and Eryuan's milk fans are fragrant."
+    qcReviewedText: "Dengchuan's fish are delicious, and Eryuan's milk fans are fragrant."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "乳扇"
     translated: "Rushan Milk Fan"
+    qcReviewedText: "Rushan Milk Fan"
+    qcTranslated: "Milk Fan"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "21,902020,永平腊鹅,食物,,2,1,1,40,精力+20,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,皮色金黄，肉质芳香，肥而不腻，鲜美难言。,永平腊鹅,item/902014,Using,1,1"
   splits:
   - split: 2
     text: "永平腊鹅"
     translated: "Yongping Cured Goose"
+    qcReviewedText: "Yongping Cured Goose"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "皮色金黄，肉质芳香，肥而不腻，鲜美难言。"
     translated: "Golden-skinned, fragrant in texture, rich without being greasy, delicious beyond words."
+    qcReviewedText: "Golden-skinned, fragrant in texture, rich without being greasy, delicious beyond words."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "永平腊鹅"
     translated: "Yongping Cured Goose"
+    qcReviewedText: "Yongping Cured Goose"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "22,902021,惜玉怜香,食物,,2,1,1,50,精力+30,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,咸淡适口，细嫩鲜美，有补精益气之效。,惜玉怜香,item/902030,Using,1,1"
   splits:
   - split: 2
     text: "惜玉怜香"
     translated: "Cherishing Jade, Pitying Fragrance"
+    qcReviewedText: "Cherishing Jade, Pitying Fragrance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "咸淡适口，细嫩鲜美，有补精益气之效。"
     translated: "The taste is just right, neither too salty nor too bland, with a delicate tenderness and a fresh flavor, providing nourishment to the body and replenishing energy."
+    qcReviewedText: "The taste is just right, neither too salty nor too bland, with a delicate tenderness and a fresh flavor, providing nourishment to the body and replenishing energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "惜玉怜香"
     translated: "Cherishing Jade, Pitying Fragrance"
+    qcReviewedText: "Cherishing Jade, Pitying Fragrance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "23,902022,浓情蜜意,食物,,2,1,30,40,精力+20,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,取新鲜花蜜制成，甜酥可口，润肺通络。,浓情蜜意,item/902018,Using,1,1"
   splits:
   - split: 2
     text: "浓情蜜意"
     translated: "Deep Love, Honeyed Affection"
+    qcReviewedText: "Deep Love, Honeyed Affection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "取新鲜花蜜制成，甜酥可口，润肺通络。"
     translated: "Made with fresh nectar, it is sweet, crispy, and delicious, soothing the lungs and promoting circulation."
+    qcReviewedText: "Made with fresh nectar, it is sweet, crispy, and delicious, soothing the lungs and promoting circulation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "浓情蜜意"
     translated: "Deep Love, Honeyed Affection"
+    qcReviewedText: "Deep Love, Honeyed Affection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "24,902023,鱼水相欢,食物,,2,1,1,50,精力+30,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,\"汤汁清亮,香甜爽口,有益胃健脾,养血补虚之效。\",鱼水相欢,item/902027,Using,1,1"
   splits:
   - split: 2
     text: "鱼水相欢"
     translated: "Fish and Water in Joy"
+    qcReviewedText: "Fish and Water in Joy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "汤汁清亮"
     translated: "The broth is clear and bright"
+    qcReviewedText: "The broth is clear and bright,Sweet and refreshing,Good for the stomach and spleen health,Nourishes the blood and replenishes deficiencies"
+    qcTranslated: "The broth is clear and bright, sweet and refreshing, good for the stomach and spleen health, nourishes the blood and replenishes deficiencies"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 22
     subIndex: 1
     text: "香甜爽口"
@@ -311,6 +605,10 @@
   - split: 23
     text: "鱼水相欢"
     translated: "Fish and Water in Joy"
+    qcReviewedText: "Fish and Water in Joy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 22
     template: "{0},{1},{2},{3}"
@@ -319,78 +617,165 @@
   - split: 2
     text: "花前月下"
     translated: "Among Flowers, Beneath the Moon"
+    qcReviewedText: "Among Flowers, Beneath the Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "鲜桃花摘瓣去蒂，拌以蜜糖做馅，再经烘炉烤制，香甜可口，有滋阴养颜之效。"
     translated: "Fresh peach blossoms are plucked, the petals separated from the stems, mixed with honey for the filling, and then baked in an oven. The result is sweet and fragrant, with nourishing properties that beautify the skin."
+    qcReviewedText: "Fresh peach blossoms are plucked, the petals separated from the stems, mixed with honey for the filling, and then baked in an oven. The result is sweet and fragrant, with nourishing properties that beautify the skin."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "花前月下"
     translated: "Among Flowers, Beneath the Moon"
+    qcReviewedText: "Among Flowers, Beneath the Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "26,902025,桃花酿,食物,,2,1,5,50,精力+24,999,True,12,180,240,\"use,1\",2,1,30,0,0,饮用,以桃花细瓣入酒，清酿而成，花香酒香交映，甘甜清洌。,桃花酿,item/902032,Using,1,1"
   splits:
   - split: 2
     text: "桃花酿"
     translated: "Peach Blossom Brew"
+    qcReviewedText: "Peach Blossom Brew"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "以桃花细瓣入酒，清酿而成，花香酒香交映，甘甜清洌。"
     translated: "Made with delicate peach blossom petals in the wine, the clear brew blends floral and alcoholic aromas, sweet yet crisp."
+    qcReviewedText: "Made with delicate peach blossom petals in the wine, the clear brew blends floral and alcoholic aromas, sweet yet crisp."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "桃花酿"
     translated: "Peach Blossom Brew"
+    qcReviewedText: "Peach Blossom Brew"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "27,902026,叫花鸡,食物,,2,0,1,40,精力+20,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,色泽枣红明亮，芳香扑鼻，板酥肉嫩，入口酥烂肥嫩，风味独特。,叫花鸡,item/902025,Using,1,1"
   splits:
   - split: 2
     text: "叫花鸡"
     translated: "Beggar's Chicken"
+    qcReviewedText: "Beggar's Chicken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "色泽枣红明亮，芳香扑鼻，板酥肉嫩，入口酥烂肥嫩，风味独特。"
     translated: "With a rich reddish-brown sheen and a bright appearance, its fragrance is intoxicating. The crust is crispy while the meat is tender, melting in your mouth with a unique flavor."
+    qcReviewedText: "With a rich reddish-brown sheen and a bright appearance, its fragrance is intoxicating. The crust is crispy while the meat is tender, melting in your mouth with a unique flavor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "叫花鸡"
     translated: "Beggar's Chicken"
+    qcReviewedText: "Beggar's Chicken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "28,902027,东坡肉,食物,,2,0,1,40,精力+20,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,半肥半瘦的猪肉，加入配料焖制而成，色如玛瑙，入口软而不烂，肥而不腻。,东坡肉,item/902023,Using,1,1"
   splits:
   - split: 2
     text: "东坡肉"
     translated: "Dongpo Pork"
+    qcReviewedText: "Dongpo Pork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "半肥半瘦的猪肉，加入配料焖制而成，色如玛瑙，入口软而不烂，肥而不腻。"
     translated: "Made with half-fat, half-lean pork and seasonings, it has a color like carnelian, is tender without being tough, and fatty without being greasy."
+    qcReviewedText: "Made with half-fat, half-lean pork and seasonings, it has a color like carnelian, is tender without being tough, and fatty without being greasy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "东坡肉"
     translated: "Dongpo Pork"
+    qcReviewedText: "Dongpo Pork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "29,902028,蜂蜜麻鸭,食物,,2,0,1,40,精力+20,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,野蜂蜜所烤制的鸭子，出炉后复以蜂蜜渣缀之，口味独具特色。,蜂蜜麻鸭,item/902014,Using,1,1"
   splits:
   - split: 2
     text: "蜂蜜麻鸭"
     translated: "Honey Sesame Duck"
+    qcReviewedText: "Honey Sesame Duck"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "野蜂蜜所烤制的鸭子，出炉后复以蜂蜜渣缀之，口味独具特色。"
     translated: "Duck roasted with wild honey, then garnished with honey residue upon serving, has a uniquely distinctive flavor."
+    qcReviewedText: "Duck roasted with wild honey, then garnished with honey residue upon serving, has a uniquely distinctive flavor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "蜂蜜麻鸭"
     translated: "Honey Sesame Duck"
+    qcReviewedText: "Honey Sesame Duck"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "30,902029,蛋炒饭,食物,,2,0,1,40,精力+20,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,又名碎金饭，天下之人无不会烧制，至于各种口感却是大异了。,蛋炒饭,item/902009,Using,1,1"
   splits:
   - split: 2
     text: "蛋炒饭"
     translated: "Egg Fried Rice"
+    qcReviewedText: "Egg Fried Rice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "又名碎金饭，天下之人无不会烧制，至于各种口感却是大异了。"
     translated: "Also known as Suigold Rice, it is something everyone can cook, but the taste varies greatly."
+    qcReviewedText: "Also known as Suigold Rice, it is something everyone can cook, but the taste varies greatly."
+    qcTranslated: "Also known as Shattered Gold Rice, it is something everyone can cook, but the taste varies greatly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 23
     text: "蛋炒饭"
     translated: "Egg Fried Rice"
+    qcReviewedText: "Egg Fried Rice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "31,902036,口感不佳的野果,食物,1001,2,1,24,5,精力+4,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,虽说可以食用，但味道寡淡酸涩，加工后或能有所改变。,食用口感不佳的野果，精力+1,item/902036,Using,1,1"
   splits:
   - split: 2
     text: "口感不佳的野果"
     translated: "Unpalatable Wild Fruit"
+    qcReviewedText: "Unpalatable Wild Fruit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "虽说可以食用，但味道寡淡酸涩，加工后或能有所改变。"
     translated: "Though edible, the taste is bland and sour; processing it might improve its flavor."
+    qcReviewedText: "Though edible, the taste is bland and sour; processing it might improve its flavor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用口感不佳的野果，精力"
     translated: "Eating unpalatable wild fruit, Energy"
+    qcReviewedText: "Eating unpalatable wild fruit, Energy+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -399,12 +784,24 @@
   - split: 2
     text: "口感不错的野果"
     translated: "Tasty Wild Fruit"
+    qcReviewedText: "Tasty Wild Fruit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "寻常的山间野果，饱满多汁，味道尚可，若经过加工，想必会变得更为美味。"
     translated: "Common mountain berries, plump and juicy, taste quite good. With some processing, they would surely become even more delicious."
+    qcReviewedText: "Common mountain berries, plump and juicy, taste quite good. With some processing, they would surely become even more delicious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用口感不错的野果，精力"
     translated: "Eating tasty wild fruit, restoring Energy"
+    qcReviewedText: "Eating tasty wild fruit, restoring Energy+2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+2"
@@ -413,12 +810,24 @@
   - split: 2
     text: "果酱"
     translated: "Fruit Jam"
+    qcReviewedText: "Fruit Jam"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "由山间野果制成的果酱，味道虽算不上有多特别，但亦足以充饥。"
     translated: "Jam made from mountain berries may not be particularly special, but it's enough to satisfy hunger."
+    qcReviewedText: "Jam made from mountain berries may not be particularly special, but it's enough to satisfy hunger."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用果酱，精力"
     translated: "Jam, Energy"
+    qcReviewedText: "Jam, Energy+4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+4"
@@ -427,12 +836,24 @@
   - split: 2
     text: "糖人"
     translated: "Sugar Figurine"
+    qcReviewedText: "Sugar Figurine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "软腻黏牙，甘甜无比。"
     translated: "Soft, sticky, and incredibly sweet"
+    qcReviewedText: "Soft, sticky, and incredibly sweet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用糖人，精力"
     translated: "Eating Sugarperson, Energy"
+    qcReviewedText: "Eating Sugarperson, Energy+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -441,12 +862,24 @@
   - split: 2
     text: "百花丸"
     translated: "Hundred Flowers Pill"
+    qcReviewedText: "Hundred Flowers Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "天清果研粉，沉香压碎，取百花酿汁，混合适量蜂蜜，取用为糖丸，甘甜香腻，最为孩童所喜。"
     translated: "Heavenly Clear Fruit Powder, crushed chenxiang wood, mixed with hundred flower honey wine extract, and a suitable amount of honey to form sweet, fragrant pills, which are most beloved by children."
+    qcReviewedText: "Heavenly Clear Fruit Powder, crushed chenxiang wood, mixed with hundred flower honey wine extract, and a suitable amount of honey to form sweet, fragrant pills, which are most beloved by children."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "食用百花丸，精力"
     translated: "Eat the Hundred Flowers Pill to regain Energy."
+    qcReviewedText: "Eat the Hundred Flowers Pill to regain Energy.+50"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+50"
@@ -455,122 +888,257 @@
   - split: 2
     text: "秋露白"
     translated: "Autumn Dew White"
+    qcReviewedText: "Autumn Dew White"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "日华煎露成真液，泉脉穿岩咽细流。"
     translated: "Sunlit dew condensed into true essence, spring veins piercing rocks to swallow fine streams."
+    qcReviewedText: "Sunlit dew condensed into true essence, spring veins piercing rocks to swallow fine streams."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "秋露白"
     translated: "Autumn Dew White"
+    qcReviewedText: "Autumn Dew White"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "37,902045,烧刀子,食物,,2,1,5,30,精力+18,999,True,10,150,200,\"use,1\",2,1,30,0,0,饮用,关外之味，辛烈已极。,烧刀子,item/902040,Using,1,1"
   splits:
   - split: 2
     text: "烧刀子"
     translated: "Fiery Knife Liquor"
+    qcReviewedText: "Fiery Knife Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "关外之味，辛烈已极。"
     translated: "The taste beyond the pass is extremely bitter and pungent."
+    qcReviewedText: "The taste beyond the pass is extremely bitter and pungent."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "烧刀子"
     translated: "Fiery Knife Liquor"
+    qcReviewedText: "Fiery Knife Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "38,902047,竹叶青,食物,,2,1,5,30,精力+18,999,True,10,150,200,\"use,1\",2,1,30,0,0,饮用,胜赏须倾竹叶青，此花元自圣之清。,竹叶青,item/902035,Using,1,1"
   splits:
   - split: 2
     text: "竹叶青"
     translated: "Bamboo Leaf Green Liquor"
+    qcReviewedText: "Bamboo Leaf Green Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "胜赏须倾竹叶青，此花元自圣之清。"
     translated: "To enjoy the victory, one must pour Bamboo Leaf Green Liquor; this flower is originally as pure as a sage."
+    qcReviewedText: "To enjoy the victory, one must pour Bamboo Leaf Green Liquor; this flower is originally as pure as a sage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "竹叶青"
     translated: "Bamboo Leaf Green Liquor"
+    qcReviewedText: "Bamboo Leaf Green Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "39,902049,猴儿酒,食物,,7,0,5,100,精力+200,999,True,10,150,200,\"use,1\",2,1,30,0,0,饮用,昔有仙猿撷百果，灵酿澄碧醉九霄。,猴儿酒,item/902033,Using,1,1"
   splits:
   - split: 2
     text: "猴儿酒"
     translated: "Monkey Wine"
+    qcReviewedText: "Monkey Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "昔有仙猿撷百果，灵酿澄碧醉九霄。"
     translated: "Of old, a celestial ape plucked a hundred fruits; a divine brew, clear and pure, intoxicates the heavens."
+    qcReviewedText: "Of old, a celestial ape plucked a hundred fruits; a divine brew, clear and pure, intoxicates the heavens."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "猴儿酒"
     translated: "Monkey Wine"
+    qcReviewedText: "Monkey Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "40,902051,一碗清水,食物,,2,1,5,5,精力+6,999,True,1,15,20,\"use,1\",2,1,30,0,0,饮用,一碗清水，平平无奇。,一碗清水,item/901022,Using,1,1"
   splits:
   - split: 2
     text: "一碗清水"
     translated: "A Bowl of Clear Water"
+    qcReviewedText: "A Bowl of Clear Water"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "一碗清水，平平无奇。"
     translated: "A Bowl of Clear Water, unremarkable"
+    qcReviewedText: "A Bowl of Clear Water, unremarkable"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "一碗清水"
     translated: "A Bowl of Clear Water"
+    qcReviewedText: "A Bowl of Clear Water"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "41,902053,薯干,食物,,2,1,1,10,精力+8,999,True,1,15,20,\"use,1\",2,1,30,0,0,食用,简易晒制的薯干，香甜可口。,薯干,item/901023,Using,1,1"
   splits:
   - split: 2
     text: "薯干"
     translated: "Dried Sweet Potato"
+    qcReviewedText: "Dried Sweet Potato"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "简易晒制的薯干，香甜可口。"
     translated: "Simple sun-dried sweet potatoes, delicious and sweet"
+    qcReviewedText: "Simple sun-dried sweet potatoes, delicious and sweet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "薯干"
     translated: "Dried Sweet Potato"
+    qcReviewedText: "Dried Sweet Potato"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "42,902055,鲜鱼,食物,,2,1,1,10,精力+8,999,True,1,15,20,\"use,1\",2,1,30,0,0,食用,刚捞起的鲜鱼，仍在活蹦乱跳。,鲜鱼,item/907025,Using,1,1"
   splits:
   - split: 2
     text: "鲜鱼"
     translated: "Fresh Fish"
+    qcReviewedText: "Fresh Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "刚捞起的鲜鱼，仍在活蹦乱跳。"
     translated: "The freshly caught fish were still jumping around lively."
+    qcReviewedText: "The freshly caught fish were still jumping around lively."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "鲜鱼"
     translated: "Fresh Fish"
+    qcReviewedText: "Fresh Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "43,902057,蒸饼,食物,,2,1,1,10,精力+8,999,True,1,15,20,\"use,1\",2,1,30,0,0,食用,热腾腾的蒸饼。,蒸饼,item/901026,Using,1,1"
   splits:
   - split: 2
     text: "蒸饼"
     translated: "Steamed Flatbread"
+    qcReviewedText: "Steamed Flatbread"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "热腾腾的蒸饼。"
     translated: "Steaming hot buns"
+    qcReviewedText: "Steaming hot buns"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "蒸饼"
     translated: "Steamed Flatbread"
+    qcReviewedText: "Steamed Flatbread"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "44,902059,云滇小曲,食物,,2,1,5,40,精力+18,999,True,10,150,200,\"use,1\",2,1,30,0,0,饮用,大理独有佳酿。整粒发酵，佐以少量草药。风味清雅，甘冽爽净，与中原大曲迥异。,云滇小曲,item/902006,Using,1,1"
   splits:
   - split: 2
     text: "云滇小曲"
     translated: "Yunnan Xiaoqu Liquor"
+    qcReviewedText: "Yunnan Xiaoqu Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "大理独有佳酿。整粒发酵，佐以少量草药。风味清雅，甘冽爽净，与中原大曲迥异。"
     translated: "Dali has its own unique fine liquor. It is fermented whole and seasoned with a small amount of herbs. The flavor is delicate and refreshing, quite different from the large qu alcohol of Central Plains."
+    qcReviewedText: "Dali has its own unique fine liquor. It is fermented whole and seasoned with a small amount of herbs. The flavor is delicate and refreshing, quite different from the large qu alcohol of Central Plains."
+    qcTranslated: "Dali has its own unique fine liquor. It is fermented whole and seasoned with a small amount of herbs. The flavor is delicate and refreshing, quite different from the strong qu liquor of the Central Plains."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 23
     text: "云滇小曲"
     translated: "Yunnan Xiaoqu Liquor"
+    qcReviewedText: "Yunnan Xiaoqu Liquor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "45,902060,同袍酒,食物,,4,1,5,40,精力+18,999,True,10,150,200,\"use,1\",2,1,30,0,0,饮用,岂曰无衣，与子同袍，止戈为武，尽解前尘。,同袍酒,item/901020,Using,0,0"
   splits:
   - split: 2
     text: "同袍酒"
     translated: "Comrades' Wine"
+    qcReviewedText: "Comrades' Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "岂曰无衣，与子同袍，止戈为武，尽解前尘。"
     translated: "How can we say we have no clothes? We share our armor with you. To stop the sword is true martial valor; let us lay past grievances to rest."
+    qcReviewedText: "How can we say we have no clothes? We share our armor with you. To stop the sword is true martial valor; let us lay past grievances to rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "同袍酒"
     translated: "Comrades' Wine"
+    qcReviewedText: "Comrades' Wine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "46,901500,五力士丹,食物,,7,0,27,0,武力+1,999,True,1050,2100,3150,\"use,1\",99,3,15,0,0,食用,古朝丹方，据传先时古蜀之王遣五名力士开山凿道，便赖此丹，永久增加武力1点。,武力+1,item/901301,Using.wav,0,0"
   splits:
   - split: 2
     text: "五力士丹"
     translated: "Five Warriors Elixir"
+    qcReviewedText: "Five Warriors Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "古朝丹方，据传先时古蜀之王遣五名力士开山凿道，便赖此丹，永久增加武力1点。"
     translated: "Ancient prescription for elixirs, it is said that in the past, the King of Ancient Shu sent five mighty laborers to carve roads through mountains, and they relied on this elixir to permanently increase their Might by 1 points."
+    qcReviewedText: "Ancient prescription for elixirs, it is said that in the past, the King of Ancient Shu sent five mighty laborers to carve roads through mountains, and they relied on this elixir to permanently increase their Might by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "武力"
     translated: "Might"
+    qcReviewedText: "Might+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -579,12 +1147,24 @@
   - split: 2
     text: "九阳丹"
     translated: "Nine Yang Elixir"
+    qcReviewedText: "Nine Yang Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "据传此丹需于丹鼎中炼制七七四十九天方成，其方更是不传之秘，纵使毫无资质根骨之人，服之亦能内察丹田，滋生内息，永久增加内息1点。"
     translated: "It is said that this pill must be refined in a cauldron for forty-nine days to be completed, and its formula is a closely guarded secret. Even those with no aptitude or potential can, upon ingesting it, sense their dantian and cultivate inner qi, permanently increasing their inner qi by 1 points."
+    qcReviewedText: "It is said that this pill must be refined in a cauldron for forty-nine days to be completed, and its formula is a closely guarded secret. Even those with no aptitude or potential can, upon ingesting it, sense their dantian and cultivate inner qi, permanently increasing their inner qi by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "内息"
     translated: "Inner Qi"
+    qcReviewedText: "Inner Qi+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -593,9 +1173,17 @@
   - split: 2
     text: "驺吾神行丹"
     translated: "Zouwu Divine Stride Elixir"
+    qcReviewedText: "Zouwu Divine Stride Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "山海北经有云"
     translated: "The Classic of Mountains and Seas: Northern Regions says"
+    qcReviewedText: "The Classic of Mountains and Seas: Northern Regions says：The Lin family nation has a rare beast as large as a tiger, with all five colors complete, its tail longer than its body. It is called Zouwu. Riding it allows one to travel a thousand miles in a day, permanently increasing Agility by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     subIndex: 1
     text: "林氏国有珍兽，大若虎，五采毕具，尾长于身，名曰驺吾，乘之日行千里，永久增加身法1点。"
@@ -603,6 +1191,10 @@
   - split: 23
     text: "身法"
     translated: "Agility"
+    qcReviewedText: "Agility+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 22
     template: "{0}：{1}"
@@ -613,12 +1205,24 @@
   - split: 2
     text: "忘尘丹"
     translated: "Dust-Forgetting Elixir"
+    qcReviewedText: "Dust-Forgetting Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "天材灵宝炼成，服之能通寸关之脉，理心水二气，明沉浮、悟玄机，永久增加悟性1点。"
     translated: "When the Heaven-endowed spiritual treasure is refined and consumed, it can open the pulse pathways, regulate the two energies of heart and water, clarify the rising and falling, understand the mysteries, and permanently increase Comprehension by 1 points."
+    qcReviewedText: "When the Heaven-endowed spiritual treasure is refined and consumed, it can open the pulse pathways, regulate the two energies of heart and water, clarify the rising and falling, understand the mysteries, and permanently increase Comprehension by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "悟性"
     translated: "Comprehension"
+    qcReviewedText: "Comprehension+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -627,12 +1231,24 @@
   - split: 2
     text: "伏狮散"
     translated: "Lion-Subduing Powder"
+    qcReviewedText: "Lion-Subduing Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "由百种壮元药材精制而成，服之可增力强肌，其性甚烈，故体虚者不能擅用，永久增加武力1点。"
     translated: "Made from a hundred rare tonic herbs, it boosts strength and muscle power. Its nature is very potent, so those with weak constitutions cannot use it [without permission]. It permanently increases Might by 1 points."
+    qcReviewedText: "Made from a hundred rare tonic herbs, it boosts strength and muscle power. Its nature is very potent, so those with weak constitutions cannot use it [without permission]. It permanently increases Might by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "武力"
     translated: "Might"
+    qcReviewedText: "Might+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -641,12 +1257,24 @@
   - split: 2
     text: "紫香丸"
     translated: "Purple Fragrance Pill"
+    qcReviewedText: "Purple Fragrance Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "东壁先生得意之方，其色赤紫，其香清郁，服之可增筋骨肌力，价值连城，永久增加内息1点。"
     translated: "Master Dongbi's Favored Method, its color crimson purple, its scent clear and rich, taking it can enhance physique and muscle strength, priceless, permanently increasing Inner Qi by 1 points."
+    qcReviewedText: "Master Dongbi's Favored Method, its color crimson purple, its scent clear and rich, taking it can enhance physique and muscle strength, priceless, permanently increasing Inner Qi by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "内息"
     translated: "Inner Qi"
+    qcReviewedText: "Inner Qi+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -655,12 +1283,24 @@
   - split: 2
     text: "焙风丹"
     translated: "Wind-Roasted Elixir"
+    qcReviewedText: "Wind-Roasted Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "从阴引阳，从阳引阴，使气血灌注，周流不息，服之可通经络，足轻捷，永久增加身法1点。"
     translated: "Draw yin from yang, draw yang from yin, to circulate lifeforce continuously, connecting the meridians, making one's steps light and nimble, permanently increasing agility by 1 points."
+    qcReviewedText: "Draw yin from yang, draw yang from yin, to circulate lifeforce continuously, connecting the meridians, making one's steps light and nimble, permanently increasing agility by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "身法"
     translated: "Agility"
+    qcReviewedText: "Agility+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -669,12 +1309,24 @@
   - split: 2
     text: "秋冰方"
     translated: "Autumn Ice Formula"
+    qcReviewedText: "Autumn Ice Formula"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "海阁一脉独有奇方，能培补先天、后天，使脑髓得充，化源得滋，永久增加悟性1点。"
     translated: "The Hai Ge lineage has a unique remedy that can nourish both innate and acquired qualities, allowing the brain marrow to be replenished and the source of energy to be enriched, permanently increasing Comprehension by 1 points."
+    qcReviewedText: "The Hai Ge lineage has a unique remedy that can nourish both innate and acquired qualities, allowing the brain marrow to be replenished and the source of energy to be enriched, permanently increasing Comprehension by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "悟性"
     translated: "Comprehension"
+    qcReviewedText: "Comprehension+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -683,12 +1335,27 @@
   - split: 2
     text: "饲阴丸"
     translated: "Yin-Nourishing Pill"
+    qcReviewedText: "Yin-Nourishing Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "味苦难言，其中毒性相冲相克，反得滋养灵效，永久增加武力1点。"
     translated: "The taste is indescribable; the poisons within instead nourish the spiritual efficacy, permanently increasing your Might by 1 points."
+    qcReviewedText: "The taste is indescribable; the poisons within instead nourish the spiritual efficacy, permanently increasing your Might by 1 points."
+    qcTranslated: "The taste is indescribable; the poisons within clash and counteract, yet instead nourish the spiritual efficacy, permanently increasing your Might by 1 points."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 23
     text: "武力"
     translated: "Might"
+    qcReviewedText: "Might+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -697,12 +1364,24 @@
   - split: 2
     text: "九噬膏"
     translated: "Nine Devourings Ointment"
+    qcReviewedText: "Nine Devourings Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "九种至毒之物炼制而成，入体宛若活虫，可吞周身内息，促其新生，永久增加内息1点。"
     translated: "Made from nine of the most deadly toxins, it enters the body like living worms, consuming all inner Qi and promoting its rebirth, permanently increasing inner Qi by 1 points."
+    qcReviewedText: "Made from nine of the most deadly toxins, it enters the body like living worms, consuming all inner Qi and promoting its rebirth, permanently increasing inner Qi by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "内息"
     translated: "Inner Qi"
+    qcReviewedText: "Inner Qi+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -711,12 +1390,24 @@
   - split: 2
     text: "天龙饮"
     translated: "Heavenly Dragon Draught"
+    qcReviewedText: "Heavenly Dragon Draught"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "以“七宝蜈蚣”为材制而成，极其难得，服之如生百足，步履如风，永久增加身法1点。"
     translated: "Made from Seven Treasures Centipede material, it is extremely rare. Upon consumption, one feels as if a hundred legs have grown, walking with the speed of the wind, permanently increasing Agility by 1 points."
+    qcReviewedText: "Made from Seven Treasures Centipede material, it is extremely rare. Upon consumption, one feels as if a hundred legs have grown, walking with the speed of the wind, permanently increasing Agility by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "身法"
     translated: "Agility"
+    qcReviewedText: "Agility+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -725,12 +1416,24 @@
   - split: 2
     text: "幻迷仙"
     translated: "Illusory Lost Immortal"
+    qcReviewedText: "Illusory Lost Immortal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "集百种苗地异草灵菇炼制而成，据传一经服下，便可得窥天机，永久增加悟性1点。"
     translated: "Made from a hundred varieties of rare herbs and divine mushrooms, it is said that once consumed, one may glimpse the divine will, permanently increasing Comprehension by 1 points."
+    qcReviewedText: "Made from a hundred varieties of rare herbs and divine mushrooms, it is said that once consumed, one may glimpse the divine will, permanently increasing Comprehension by 1 points."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "悟性"
     translated: "Comprehension"
+    qcReviewedText: "Comprehension+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 23
     template: "{0}+1"
@@ -739,152 +1442,324 @@
   - split: 2
     text: "蜕资丹"
     translated: "Molting Aptitude Elixir"
+    qcReviewedText: "Molting Aptitude Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "可重置武学资质，获得重新分配的机会。"
     translated: "Reset martial aptitude and gain the chance to reallocate it."
+    qcReviewedText: "Reset martial aptitude and gain the chance to reallocate it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "重置资质"
     translated: "Reset aptitude"
+    qcReviewedText: "Reset aptitude"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "59,902061,葱花鱼汤,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量体力与精力。,葱花鱼汤,item/902061,Using,1,1"
   splits:
   - split: 2
     text: "葱花鱼汤"
     translated: "Scallion Fish Soup"
+    qcReviewedText: "Scallion Fish Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "入口肉质绵柔，汤汁醇厚微甜，虽为简食，却能恢复少量体力与精力。"
     translated: "The meat is tender and soft, with a rich and slightly sweet broth. Though it is a simple meal, it can restore a small amount of stamina and energy."
+    qcReviewedText: "The meat is tender and soft, with a rich and slightly sweet broth. Though it is a simple meal, it can restore a small amount of stamina and energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "葱花鱼汤"
     translated: "Scallion Fish Soup"
+    qcReviewedText: "Scallion Fish Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "60,902062,清蒸银刀鱼,食物,,4,1,1,50,精力+40,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,入口鱼肉细腻似雪，咸鲜间藏淡淡回甘，食用后恢复中等量体力精力。,清蒸银刀鱼,item/902062,Using,1,1"
   splits:
   - split: 2
     text: "清蒸银刀鱼"
     translated: "Steamed Silver Knife Fish"
+    qcReviewedText: "Steamed Silver Knife Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "入口鱼肉细腻似雪，咸鲜间藏淡淡回甘，食用后恢复中等量体力精力。"
     translated: "The entrance fish has a delicate texture like snow, with a salty-sweet flavor that leaves a subtle aftertaste. Eating it restores a moderate amount of stamina and energy."
+    qcReviewedText: "The entrance fish has a delicate texture like snow, with a salty-sweet flavor that leaves a subtle aftertaste. Eating it restores a moderate amount of stamina and energy."
+    qcTranslated: "The fish has a delicate texture like snow, with a salty-sweet flavor that leaves a subtle aftertaste. Eating it restores a moderate amount of Stamina and Energy."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 23
     text: "清蒸银刀鱼"
     translated: "Steamed Silver Knife Fish"
+    qcReviewedText: "Steamed Silver Knife Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "61,902063,醉仙鱼,食物,,6,1,1,80,精力+70,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,浓郁鱼鲜裹酒香袭来，鱼肉绵滑细腻，鲜香在口中层层散开，回味悠长，食用后恢复大量体力精力，一扫周身倦怠。,醉仙鱼,item/902063,Using,1,1"
   splits:
   - split: 2
     text: "醉仙鱼"
     translated: "Drunken Immortal Fish"
+    qcReviewedText: "Drunken Immortal Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "浓郁鱼鲜裹酒香袭来，鱼肉绵滑细腻，鲜香在口中层层散开，回味悠长，食用后恢复大量体力精力，一扫周身倦怠。"
     translated: "The rich aroma of fish and wine envelops you. The tender, delicate fish meat melts in your mouth, releasing waves of flavor that linger on your palate. Eating it restores a great deal of stamina and energy, banishing all fatigue from your body."
+    qcReviewedText: "The rich aroma of fish and wine envelops you. The tender, delicate fish meat melts in your mouth, releasing waves of flavor that linger on your palate. Eating it restores a great deal of stamina and energy, banishing all fatigue from your body."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "醉仙鱼"
     translated: "Drunken Immortal Fish"
+    qcReviewedText: "Drunken Immortal Fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "62,902064,盐焗虾,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,咸鲜之味唤醒味蕾，食用后可恢复少量体力与精力。,盐焗虾,item/902064,Using,1,1"
   splits:
   - split: 2
     text: "盐焗虾"
     translated: "Salt-Baked Shrimp"
+    qcReviewedText: "Salt-Baked Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "咸鲜之味唤醒味蕾，食用后可恢复少量体力与精力。"
     translated: "The salty freshness awakens the taste buds; eating it restores a small amount of Stamina and Energy."
+    qcReviewedText: "The salty freshness awakens the taste buds; eating it restores a small amount of Stamina and Energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "盐焗虾"
     translated: "Salt-Baked Shrimp"
+    qcReviewedText: "Salt-Baked Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "63,902065,椒爆鲜虾段,食物,,4,1,1,50,精力+40,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,鲜虾焦香混青椒辛香扑鼻，虾肉弹牙、青椒爽脆，香辣滋味刺激舌尖，吃下可恢复中等量体力精力。,椒爆鲜虾段,item/902065,Using,1,1"
   splits:
   - split: 2
     text: "椒爆鲜虾段"
     translated: "Pepper-Fried Fresh Shrimp"
+    qcReviewedText: "Pepper-Fried Fresh Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "鲜虾焦香混青椒辛香扑鼻，虾肉弹牙、青椒爽脆，香辣滋味刺激舌尖，吃下可恢复中等量体力精力。"
     translated: "The fragrant shrimp and spicy green peppers are irresistibly aromatic, with the shrimp meat tender and bouncy, and the green peppers crisp and refreshing. The spicy flavor tantalizes your taste buds, restoring a moderate amount of stamina and energy when eaten."
+    qcReviewedText: "The fragrant shrimp and spicy green peppers are irresistibly aromatic, with the shrimp meat tender and bouncy, and the green peppers crisp and refreshing. The spicy flavor tantalizes your taste buds, restoring a moderate amount of stamina and energy when eaten."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "椒爆鲜虾段"
     translated: "Pepper-Fried Fresh Shrimp"
+    qcReviewedText: "Pepper-Fried Fresh Shrimp"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "64,902066,血玉虾羹,食物,,6,1,1,80,精力+70,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,色泽瑰丽夺目，香气浓郁，虾肉软糯弹牙，食材口感丰富，鲜香醇厚直达心底，食之恢复大量体力精力，一扫周身倦怠。,血玉虾羹,item/902066,Using,1,1"
   splits:
   - split: 2
     text: "血玉虾羹"
     translated: "Blood-Jade Shrimp Soup"
+    qcReviewedText: "Blood-Jade Shrimp Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "色泽瑰丽夺目，香气浓郁，虾肉软糯弹牙，食材口感丰富，鲜香醇厚直达心底，食之恢复大量体力精力，一扫周身倦怠。"
     translated: "Its color is stunningly beautiful, its aroma rich and intoxicating. The shrimp meat is tender yet bouncy, offering a variety of textures. Its flavor is fresh, savory, and deeply satisfying, restoring large amounts of stamina and energy, banishing all fatigue from your body."
+    qcReviewedText: "Its color is stunningly beautiful, its aroma rich and intoxicating. The shrimp meat is tender yet bouncy, offering a variety of textures. Its flavor is fresh, savory, and deeply satisfying, restoring large amounts of stamina and energy, banishing all fatigue from your body."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "血玉虾羹"
     translated: "Blood-Jade Shrimp Soup"
+    qcReviewedText: "Blood-Jade Shrimp Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "65,902067,蟹肉豆腐煲,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,蟹肉紧实、豆腐吸饱鲜汁，咸香入味，下肚后虽恢复体力精力有限，却能解一时饥乏。,蟹肉豆腐煲,item/902067,Using,1,1"
   splits:
   - split: 2
     text: "蟹肉豆腐煲"
     translated: "Crab Meat Tofu Pot"
+    qcReviewedText: "Crab Meat Tofu Pot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "蟹肉紧实、豆腐吸饱鲜汁，咸香入味，下肚后虽恢复体力精力有限，却能解一时饥乏。"
     translated: "The crab meat is firm, the tofu soaked in savory broth, salty and flavorful. Though it restores stamina and energy only slightly, it satisfies hunger for a time."
+    qcReviewedText: "The crab meat is firm, the tofu soaked in savory broth, salty and flavorful. Though it restores stamina and energy only slightly, it satisfies hunger for a time."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "蟹肉豆腐煲"
     translated: "Crab Meat Tofu Pot"
+    qcReviewedText: "Crab Meat Tofu Pot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "66,902068,蟹脂蛋羹,食物,,4,1,1,50,精力+40,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,蛋羹绵密、蟹肉鲜甜，咸香适口，食用后恢复中等量体力精力。,蟹脂蛋羹,item/902068,Using,1,1"
   splits:
   - split: 2
     text: "蟹脂蛋羹"
     translated: "Crab Roe Steamed Egg"
+    qcReviewedText: "Crab Roe Steamed Egg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "蛋羹绵密、蟹肉鲜甜，咸香适口，食用后恢复中等量体力精力。"
     translated: "The egg custard is smooth and creamy, the crab meat is fresh and sweet, with a perfectly balanced salty flavor. Eating it restores a moderate amount of stamina and energy."
+    qcReviewedText: "The egg custard is smooth and creamy, the crab meat is fresh and sweet, with a perfectly balanced salty flavor. Eating it restores a moderate amount of stamina and energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "蟹脂蛋羹"
     translated: "Crab Roe Steamed Egg"
+    qcReviewedText: "Crab Roe Steamed Egg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "67,902069,蓝田玉蟹酿,食物,,6,1,1,80,精力+70,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,蟹肉酿入饱满花菇，蟹肉鲜甜、花菇饱吸鲜味，口感醇厚深邃，食用后恢复大量体力精力，一扫周身倦怠。,蓝田玉蟹酿,item/902069,Using,1,1"
   splits:
   - split: 2
     text: "蓝田玉蟹酿"
     translated: "Lantian Jade Stuffed Crab"
+    qcReviewedText: "Lantian Jade Stuffed Crab"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "蟹肉酿入饱满花菇，蟹肉鲜甜、花菇饱吸鲜味，口感醇厚深邃，食用后恢复大量体力精力，一扫周身倦怠。"
     translated: "Stuffed crab meat in plump mushroom caps, the crab meat is sweet and fresh, while the mushrooms absorb the flavors, offering a rich and deep taste. Eating them restores a large amount of stamina and energy, dispelling all fatigue from your body."
+    qcReviewedText: "Stuffed crab meat in plump mushroom caps, the crab meat is sweet and fresh, while the mushrooms absorb the flavors, offering a rich and deep taste. Eating them restores a large amount of stamina and energy, dispelling all fatigue from your body."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "蓝田玉蟹酿"
     translated: "Lantian Jade Stuffed Crab"
+    qcReviewedText: "Lantian Jade Stuffed Crab"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "68,902070,草螺羹,食物,,2,1,1,30,精力+15,999,True,5,75,100,\"use,1\",2,1,30,0,0,食用,入口汤头鲜醇，螺肉嚼劲十足，食之能恢复少量体力精力。,草螺羹,item/902070,Using,1,1"
   splits:
   - split: 2
     text: "草螺羹"
     translated: "Grass Snail Soup"
+    qcReviewedText: "Grass Snail Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "入口汤头鲜醇，螺肉嚼劲十足，食之能恢复少量体力精力。"
     translated: "The entrance soup is fresh and flavorful, with succulent snail meat that restores a small amount of stamina and energy."
+    qcReviewedText: "The entrance soup is fresh and flavorful, with succulent snail meat that restores a small amount of stamina and energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "草螺羹"
     translated: "Grass Snail Soup"
+    qcReviewedText: "Grass Snail Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "69,902071,翡翠煨白螺,食物,,4,1,1,50,精力+40,999,True,7,105,140,\"use,1\",2,1,30,0,0,食用,莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心清甜交织，螺肉软嫩、菜心脆爽，汤鲜味美，食用后恢复中等量体力精力。,翡翠煨白螺,item/902071,Using,1,1"
   splits:
   - split: 2
     text: "翡翠煨白螺"
     translated: "Jade-Simmered White Snail"
+    qcReviewedText: "Jade-Simmered White Snail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "莹白螺肉配翠绿菜心，汤色清亮如琥珀。螺肉鲜香与菜心清甜交织，螺肉软嫩、菜心脆爽，汤鲜味美，食用后恢复中等量体力精力。"
     translated: "The pale snail meat paired with emerald broccoli hearts creates a clear, amber-colored broth. The fresh fragrance of the snail meat and the crisp sweetness of the broccoli hearts blend together beautifully. The snail meat is tender, while the broccoli hearts are crunchy and refreshing. This dish restores a moderate amount of stamina and energy."
+    qcReviewedText: "The pale snail meat paired with emerald broccoli hearts creates a clear, amber-colored broth. The fresh fragrance of the snail meat and the crisp sweetness of the broccoli hearts blend together beautifully. The snail meat is tender, while the broccoli hearts are crunchy and refreshing. This dish restores a moderate amount of stamina and energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "翡翠煨白螺"
     translated: "Jade-Simmered White Snail"
+    qcReviewedText: "Jade-Simmered White Snail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "70,902072,彩云螺肉烧,食物,,6,1,1,80,精力+70,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,红亮酱汁裹螺肉如彩纹缀云，咸香微甜，吃下恢复大量体力精力，一扫周身倦怠。,彩云螺肉烧,item/902072,Using,1,1"
   splits:
   - split: 2
     text: "彩云螺肉烧"
     translated: "Colorful Cloud Snail Braise"
+    qcReviewedText: "Colorful Cloud Snail Braise"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "红亮酱汁裹螺肉如彩纹缀云，咸香微甜，吃下恢复大量体力精力，一扫周身倦怠。"
     translated: "The bright red sauce coats the snail meat like colorful patterns on clouds, salty yet slightly sweet. Eating it restores a large amount of stamina and energy, dispelling all fatigue from your body."
+    qcReviewedText: "The bright red sauce coats the snail meat like colorful patterns on clouds, salty yet slightly sweet. Eating it restores a large amount of stamina and energy, dispelling all fatigue from your body."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "彩云螺肉烧"
     translated: "Colorful Cloud Snail Braise"
+    qcReviewedText: "Colorful Cloud Snail Braise"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "71,902073,沙枣酥,食物,,6,1,5,80,精力+70,999,True,10,150,200,\"use,1\",2,1,30,0,0,食用,糕点酥皮粗糙纹理、枣馅油润通透。,沙枣酥,item/902018,Using,1,1"
   splits:
   - split: 2
     text: "沙枣酥"
     translated: "Oleaster Pastry"
+    qcReviewedText: "Oleaster Pastry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 22
     text: "糕点酥皮粗糙纹理、枣馅油润通透。"
     translated: "The pastry had a rough and crumbly crust, with a date filling that was rich and translucent."
+    qcReviewedText: "The pastry had a rough and crumbly crust, with a date filling that was rich and translucent."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     text: "沙枣酥"
     translated: "Oleaster Pastry"
+    qcReviewedText: "Oleaster Pastry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

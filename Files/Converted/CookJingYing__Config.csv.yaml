@@ -3,24 +3,48 @@
   - split: 4
     text: "当前的等级名称"
     translated: "Current rank name"
+    qcReviewedText: "Current rank name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "效果描述"
     translated: "Effect Description"
+    qcReviewedText: "Effect Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "经验增加的提示文字"
     translated: "Experience increase prompt text"
+    qcReviewedText: "Experience increase prompt text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,type,nowLv,name,tip,addExp,otherExp,pzFwei,pzExp,tip2,pzNumFw,pzNumGl,tip3,otherNumFw,otherNumGl,nowExp,maxLv"
 - raw: "3,1001001,1,1,灶旁生手,*当前等级暂无相关增益效果,10,0,0,0,烹饪经验+{0},0,0,福临心至，妙手偶得，你所制物品数量额外+{0}！,0,0,50,5"
   splits:
   - split: 4
     text: "灶旁生手"
     translated: "Novice at the stove"
+    qcReviewedText: "Novice at the stove"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "当前等级暂无相关增益效果"
     translated: "There are no related bonus effects for your current level."
+    qcReviewedText: "*There are no related bonus effects for your current level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "烹饪经验"
     translated: "Cooking Experience"
+    qcReviewedText: "Cooking Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -31,12 +55,24 @@
   - split: 4
     text: "略通膳艺"
     translated: "A Little Skilled in Culinary Arts"
+    qcReviewedText: "A Little Skilled in Culinary Arts"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "每次烹饪获得额外经验"
     translated: "Gain extra experience each time you cook"
+    qcReviewedText: "*Gain extra experience each time you cook"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "烹饪经验"
     translated: "Cooking Experience"
+    qcReviewedText: "Cooking Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -47,9 +83,17 @@
   - split: 4
     text: "庖馔巧匠"
     translated: "Culinary Artisan"
+    qcReviewedText: "Culinary Artisan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "每次烹饪获得更多额外经验"
     translated: "Gain more additional experience each time you cook."
+    qcReviewedText: "*Gain more additional experience each time you cook.\\n*A small chance to additionally obtain 1 Food"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "小概率额外多获得1个食物"
@@ -57,6 +101,10 @@
   - split: 10
     text: "烹饪经验"
     translated: "Cooking Experience"
+    qcReviewedText: "Cooking Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -67,9 +115,20 @@
   - split: 4
     text: "馐膳大家"
     translated: "Delicious feast for all"
+    qcReviewedText: "Delicious feast for all"
+    qcTranslated: "Master of Cuisine"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 5
     text: "每次烹饪获得更多额外经验"
     translated: "Gain more additional experience each time you cook."
+    qcReviewedText: "*Gain more additional experience each time you cook.\\n*With an additional chance to obtain 1-2 Food"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "一定概率额外多获得1-2个食物"
@@ -77,6 +136,10 @@
   - split: 10
     text: "烹饪经验"
     translated: "Cooking Experience"
+    qcReviewedText: "Cooking Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -87,9 +150,20 @@
   - split: 4
     text: "馔玉炊金"
     translated: "Feast on jade and cook with gold"
+    qcReviewedText: "Feast on jade and cook with gold"
+    qcTranslated: "A feast of exquisite delicacies"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - split: 5
     text: "每次烹饪获得更多额外经验"
     translated: "Gain more additional experience each time you cook."
+    qcReviewedText: "*Gain more additional experience each time you cook.\\n*Probably get an extra 2-4 Food items"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "大概率额外多获得2-4个食物"
@@ -97,6 +171,10 @@
   - split: 10
     text: "烹饪经验"
     translated: "Cooking Experience"
+    qcReviewedText: "Cooking Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -107,12 +185,27 @@
   - split: 4
     text: "焰起拙工"
     translated: "Flame of the clumsy craftsman rises"
+    qcReviewedText: "Flame of the clumsy craftsman rises"
+    qcTranslated: "The clumsy craftsman's flame rises"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 5
     text: "当前等级暂无相关增益效果"
     translated: "There are no related bonus effects for your current level."
+    qcReviewedText: "*There are no related bonus effects for your current level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "锻造经验"
     translated: "Forging Experience"
+    qcReviewedText: "Forging Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -123,9 +216,17 @@
   - split: 4
     text: "锤下生巧"
     translated: "Skill comes with practice"
+    qcReviewedText: "Skill comes with practice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "锻造出高品质物品时获得额外经验"
     translated: "Gain extra experience when forging high-quality items"
+    qcReviewedText: "*Gain extra experience when forging high-quality items\\n*A small chance of an additional 1 Quality Realm boost"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "小概率额外提升1个品质境界"
@@ -133,6 +234,10 @@
   - split: 10
     text: "锻造经验"
     translated: "Forging Experience"
+    qcReviewedText: "Forging Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -143,9 +248,17 @@
   - split: 4
     text: "赤炉能匠"
     translated: "Red Furnace Artisan"
+    qcReviewedText: "Red Furnace Artisan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "锻造物品时获得额外经验，锻造出高品质物品时获得更多额外经验。"
     translated: "Gain extra experience when forging items; gain even more additional experience when forging high-quality items."
+    qcReviewedText: "*Gain extra experience when forging items; gain even more additional experience when forging high-quality items.\\n*A certain probability to further increase 1 by -2 Quality Realm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "一定概率额外提升1-2个品质境界"
@@ -153,6 +266,10 @@
   - split: 10
     text: "锻造经验"
     translated: "Forging Experience"
+    qcReviewedText: "Forging Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -163,9 +280,20 @@
   - split: 4
     text: "百炼千锻"
     translated: "Refined a thousand times"
+    qcReviewedText: "Refined a thousand times"
+    qcTranslated: "Refined a hundred times, forged a thousand"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 5
     text: "锻造物品时获得额外经验，锻造出高品质物品时获得更多额外经验。"
     translated: "Gain extra experience when forging items; gain even more additional experience when forging high-quality items."
+    qcReviewedText: "*Gain extra experience when forging items; gain even more additional experience when forging high-quality items.\\n*Likely to further enhance by 1 -3 Quality Realms"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "大概率额外提升1-3个品质境界"
@@ -173,6 +301,10 @@
   - split: 10
     text: "锻造经验"
     translated: "Forging Experience"
+    qcReviewedText: "Forging Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -183,9 +315,17 @@
   - split: 4
     text: "天地为炉"
     translated: "The heavens and earth as the furnace"
+    qcReviewedText: "The heavens and earth as the furnace"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "锻造物品时获得额外经验，锻造出高品质物品时获得更多额外经验。"
     translated: "Gain extra experience when forging items; gain even more additional experience when forging high-quality items."
+    qcReviewedText: "*Gain extra experience when forging items; gain even more additional experience when forging high-quality items.\\n*Necessarily increase the quality realm by an additional 1 -4 levels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "必然额外提升1-4个品质境界"
@@ -193,6 +333,10 @@
   - split: 10
     text: "锻造经验"
     translated: "Forging Experience"
+    qcReviewedText: "Forging Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -203,12 +347,24 @@
   - split: 4
     text: "初窥药石"
     translated: "First Glimpse of Medicine and Stones"
+    qcReviewedText: "First Glimpse of Medicine and Stones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "当前等级暂无相关增益效果"
     translated: "There are no related bonus effects for your current level."
+    qcReviewedText: "*There are no related bonus effects for your current level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "炼丹经验"
     translated: "Alchemy Experience"
+    qcReviewedText: "Alchemy Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -219,12 +375,27 @@
   - split: 4
     text: "丹华初绽"
     translated: "Petal Dawn Bloomed"
+    qcReviewedText: "Petal Dawn Bloomed"
+    qcTranslated: "The Elixir Blossom First Unfolds"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 5
     text: "每次炼丹获得额外经验"
     translated: "Gain extra experience each time you perform Alchemy."
+    qcReviewedText: "*Gain extra experience each time you perform Alchemy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "炼丹经验"
     translated: "Alchemy Experience"
+    qcReviewedText: "Alchemy Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -235,9 +406,17 @@
   - split: 4
     text: "药韵天成"
     translated: "Heavenly Scent of Medicine"
+    qcReviewedText: "Heavenly Scent of Medicine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "每次炼丹获得更多额外经验"
     translated: "Gain more additional experience each time you perform Alchemy."
+    qcReviewedText: "*Gain more additional experience each time you perform Alchemy.\\n*Rarely obtain 1 additional elixirs"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "小概率额外多获得1枚丹药"
@@ -245,6 +424,10 @@
   - split: 10
     text: "炼丹经验"
     translated: "Alchemy Experience"
+    qcReviewedText: "Alchemy Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -255,9 +438,17 @@
   - split: 4
     text: "点石成丹"
     translated: "Transmute stone into elixir"
+    qcReviewedText: "Transmute stone into elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "每次炼丹获得更多额外经验"
     translated: "Gain more additional experience each time you perform Alchemy."
+    qcReviewedText: "*Gain more additional experience each time you perform Alchemy.\\n*Gain an additional 1-2 pills at a certain probability."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "一定概率额外多获得1-2枚丹药"
@@ -265,6 +456,10 @@
   - split: 10
     text: "炼丹经验"
     translated: "Alchemy Experience"
+    qcReviewedText: "Alchemy Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -275,9 +470,20 @@
   - split: 4
     text: "炼虚合道"
     translated: "Refine Illusion and Unite with the Tao"
+    qcReviewedText: "Refine Illusion and Unite with the Tao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "每次炼丹获得更多额外经验"
     translated: "Gain more additional experience each time you perform Alchemy."
+    qcReviewedText: "*Gain more additional experience each time you perform Alchemy.\\n*Probably gain an additional 2-4 medicinal pills"
+    qcTranslated: "*Gain more additional experience each time you perform Alchemy.\\n*High chance to gain an additional 2-4 medicinal pills"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 5
     subIndex: 1
     text: "大概率额外多获得2-4枚丹药"
@@ -285,6 +491,10 @@
   - split: 10
     text: "炼丹经验"
     translated: "Alchemy Experience"
+    qcReviewedText: "Alchemy Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"
@@ -295,12 +505,24 @@
   - split: 4
     text: "溪湖初钓"
     translated: "Fishing by the Brook for the First Time"
+    qcReviewedText: "Fishing by the Brook for the First Time"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "当前等级暂无相关增益效果"
     translated: "There are no related bonus effects for your current level."
+    qcReviewedText: "*There are no related bonus effects for your current level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "钓鱼经验"
     translated: "Fishing Experience"
+    qcReviewedText: "Fishing Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -311,12 +533,24 @@
   - split: 4
     text: "渔艺小成"
     translated: "Fishing Skills Nearly Mastered"
+    qcReviewedText: "Fishing Skills Nearly Mastered"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "钓到稀有鱼时获得额外经验"
     translated: "Gain extra experience when catching rare fish"
+    qcReviewedText: "*Gain extra experience when catching rare fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "钓鱼经验"
     translated: "Fishing Experience"
+    qcReviewedText: "Fishing Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -327,12 +561,27 @@
   - split: 4
     text: "垂纶有术"
     translated: "Skillful Fishing Line Technique"
+    qcReviewedText: "Skillful Fishing Line Technique"
+    qcTranslated: "Master of the Angling Art"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 5
     text: "钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经验。"
     translated: "Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
+    qcReviewedText: "*Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "钓鱼经验"
     translated: "Fishing Experience"
+    qcReviewedText: "Fishing Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}"
@@ -343,9 +592,20 @@
   - split: 4
     text: "鳞波妙手"
     translated: "Wave-Fingered Grace"
+    qcReviewedText: "Wave-Fingered Grace"
+    qcTranslated: "Scaled Wave's Marvelous Hand"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 5
     text: "钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经验。"
     translated: "Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
+    qcReviewedText: "*Gain extra experience when you catch fish, and even more bonus experience for catching rare fish.\\nRarely obtain 1 additional fish"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "小概率额外多获得1条鱼"
@@ -353,6 +613,10 @@
   - split: 10
     text: "钓鱼经验"
     translated: "Fishing Experience"
+    qcReviewedText: "Fishing Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n{1}"
@@ -363,9 +627,20 @@
   - split: 4
     text: "独钓江海"
     translated: "Fishing alone by the river sea"
+    qcReviewedText: "Fishing alone by the river sea"
+    qcTranslated: "Fishing alone on the rivers and seas"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 5
     text: "钓到鱼时获得额外经验，钓到稀有鱼时获得更多额外经验。"
     translated: "Gain extra experience when you catch fish, and even more bonus experience for catching rare fish."
+    qcReviewedText: "*Gain extra experience when you catch fish, and even more bonus experience for catching rare fish.\\n*There is a chance of getting 1-2 extra fish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     subIndex: 1
     text: "一定概率额外多获得1-2条鱼"
@@ -373,6 +648,10 @@
   - split: 10
     text: "钓鱼经验"
     translated: "Fishing Experience"
+    qcReviewedText: "Fishing Experience+{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "*{0}\\n*{1}"

@@ -3,18 +3,34 @@
   - split: 2
     text: "武学名"
     translated: "Martial Art name"
+    qcReviewedText: "Martial Art name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "武学描述"
     translated: "Martial Art description"
+    qcReviewedText: "Martial Art description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,Id,name,AutoSkill,des,"
 - raw: "3,900001,格挡,9000001,江湖中的架招格挡手法，借体力而卸力。持续按住格挡操作，可以正面抵挡大部分敌人攻击。在敌方攻击前摇的时如果能及时格挡，可以触发弹反效果，让敌人露出较大的破绽。 ,"
   splits:
   - split: 2
     text: "格挡"
     translated: "Block"
+    qcReviewedText: "Block"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "江湖中的架招格挡手法，借体力而卸力。持续按住格挡操作，可以正面抵挡大部分敌人攻击。在敌方攻击前摇的时如果能及时格挡，可以触发弹反效果，让敌人露出较大的破绽。"
     translated: "Blocking techniques in the Jianghu use stamina to deflect force. By holding down the block input, you can defend against most enemy attacks head-on. If you block just before an enemy's attack wind-up, you can trigger a parry, exposing larger openings for counterattacks."
+    qcReviewedText: "Blocking techniques in the Jianghu use stamina to deflect force. By holding down the block input, you can defend against most enemy attacks head-on. If you block just before an enemy's attack wind-up, you can trigger a parry, exposing larger openings for counterattacks. "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "{0} "
@@ -23,22 +39,46 @@
   - split: 2
     text: "闪避"
     translated: "Dodge"
+    qcReviewedText: "Dodge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "江湖中的闪避架势，身轻如鸿，向后闪躲。在任何时候（包括受击状态，普通攻击中）都可施展闪避，和敌人拉开距离并躲避对方的攻击。"
     translated: "The dodge stance in the Jianghu, light as a swallow, steps back to evade. It can be performed at any time (including while being attacked or during a normal attack) to create distance from an enemy and avoid their strikes."
+    qcReviewedText: "The dodge stance in the Jianghu, light as a swallow, steps back to evade. It can be performed at any time (including while being attacked or during a normal attack) to create distance from an enemy and avoid their strikes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,900003,纵跃,9000003,江湖中的纵跃法，双足鼎力，向上纵跃。纵跃滞空时可以再次施展二段纵跃。,"
   splits:
   - split: 2
     text: "纵跃"
     translated: "Leap"
+    qcReviewedText: "Leap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "江湖中的纵跃法，双足鼎力，向上纵跃。纵跃滞空时可以再次施展二段纵跃。"
     translated: "The leaping technique in the Jianghu, using both feet to leap upward. While airborne, you can perform a second leap."
+    qcReviewedText: "The leaping technique in the Jianghu, using both feet to leap upward. While airborne, you can perform a second leap."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,900004,爆气,9000004,江湖中的脱身之技，在任何时候（包括受击状态，浮空状态，普通攻击中）都可消耗气血施展，脱离当前的硬直状态。,"
   splits:
   - split: 2
     text: "爆气"
     translated: "Qi Burst"
+    qcReviewedText: "Qi Burst"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "江湖中的脱身之技，在任何时候（包括受击状态，浮空状态，普通攻击中）都可消耗气血施展，脱离当前的硬直状态。"
     translated: "A Jianghu escape technique that can be activated at any time (including while hit, airborne, or during a normal attack) by consuming Lifeforce to break out of the current stagger state."
+    qcReviewedText: "A Jianghu escape technique that can be activated at any time (including while hit, airborne, or during a normal attack) by consuming Lifeforce to break out of the current stagger state."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
