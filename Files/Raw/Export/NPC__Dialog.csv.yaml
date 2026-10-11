@@ -346,19 +346,10 @@
 - raw: "70,70,9,<,love,好个[英武少年||飒爽女侠]，若有所求，尽管开口，我愿效劳一二。,1,1"
   splits:
   - split: 5
-    text: "好个"
-  - split: 5
-    subIndex: 1
-    text: "英武少年"
-  - split: 5
-    subIndex: 2
-    text: "飒爽女侠"
-  - split: 5
-    subIndex: 3
-    text: "，若有所求，尽管开口，我愿效劳一二。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "好个{playerTitle}，若有所求，尽管开口，我愿效劳一二。"
+    tokens:
+      playerTitle:
+        source: "[英武少年||飒爽女侠]"
 - raw: "71,71,\"friendsSan,0\",\">,<\",\"20,love\",不愧是江湖扬名的豪客，若有急需，尽管开口，我必竭尽所能，助你一臂之力。,1,2"
   splits:
   - split: 5
@@ -581,16 +572,10 @@
 - raw: "122,121,1110002009,//,touchId,[小伙子||小姑娘]，可要来两个糖人儿消遣？,1,98"
   splits:
   - split: 5
-    text: "小伙子"
-  - split: 5
-    subIndex: 1
-    text: "小姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，可要来两个糖人儿消遣？"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，可要来两个糖人儿消遣？"
+    tokens:
+      playerTitle:
+        source: "[小伙子||小姑娘]"
 - raw: "123,122,0,<,age,阁下竟欲图谋不轨，若不退去，莫怪在下不留情面！当真出手，是死是活，且看你造化了！,16,1"
   splits:
   - split: 5
@@ -656,19 +641,10 @@
 - raw: "137,160,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",……我之事自有我独自料理，[爹||娘]莫要多问。,1,3"
   splits:
   - split: 5
-    text: "……我之事自有我独自料理，"
-  - split: 5
-    subIndex: 1
-    text: "爹"
-  - split: 5
-    subIndex: 2
-    text: "娘"
-  - split: 5
-    subIndex: 3
-    text: "莫要多问。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "……我之事自有我独自料理，{playerTitle}莫要多问。"
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "138,161,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",……又有何事？,1,3"
   splits:
   - split: 5
@@ -684,19 +660,10 @@
 - raw: "141,164,\"-1,50,id\",\"<,>,//\",\"love,love,JiaoQing<FuMu>\",孩儿此后必当日夜勤勉，以护[爹||娘]一生周全。,1,3"
   splits:
   - split: 5
-    text: "孩儿此后必当日夜勤勉，以护"
-  - split: 5
-    subIndex: 1
-    text: "爹"
-  - split: 5
-    subIndex: 2
-    text: "娘"
-  - split: 5
-    subIndex: 3
-    text: "一生周全。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿此后必当日夜勤勉，以护{playerTitle}一生周全。"
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "142,165,\"-1,50,id\",\"<,>,//\",\"love,love,JiaoQing<FuMu>\",独踏江湖，方知双亲恩重……,1,3"
   splits:
   - split: 5
@@ -760,10 +727,10 @@
 - raw: "157,180,\"29,id\",\"<,//\",\"love,JiaoQing<ZhiJiao>\",lp，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。,1,3"
   splits:
   - split: 5
-    text: "，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "158,181,id,//,JiaoQing<TuDi>,不忙，不忙。徒儿可是有何见闻解悟，要这般急着与为师讲？,15,98"
   splits:
   - split: 5
@@ -863,160 +830,73 @@
 - raw: "182,500,-30,>,love,……奴家今日颇倦，[公子||姑娘]欲要寻欢，还请自便。,23,1"
   splits:
   - split: 5
-    text: "……奴家今日颇倦，"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "欲要寻欢，还请自便。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "……奴家今日颇倦，{playerTitle}欲要寻欢，还请自便。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "183,501,\"-31,0\",\"<,>\",\"love,love\",今日奴家身体略恙，若不能好生陪[公子||姑娘]寻欢作乐，还请莫怪……,23,1"
   splits:
   - split: 5
-    text: "今日奴家身体略恙，若不能好生陪"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "寻欢作乐，还请莫怪……"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "今日奴家身体略恙，若不能好生陪{playerTitle}寻欢作乐，还请莫怪……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "184,502,\"-1,30\",\"<,>\",\"love,love\",[公子||姑娘]不必拘礼，如此良辰美景，莫要辜负才是。,23,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "不必拘礼，如此良辰美景，莫要辜负才是。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}不必拘礼，如此良辰美景，莫要辜负才是。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "185,503,\"29,60\",\"<,>\",\"love,love\",[公子||姑娘]今日能来瞧我，奴家，奴家甚是欢喜……,23,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "今日能来瞧我，奴家，奴家甚是欢喜……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}今日能来瞧我，奴家，奴家甚是欢喜……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "186,504,59,<,love,奴家日思夜盼，总算盼得[公子||姑娘]至此相会，却不知何日方能……唉。,23,1"
   splits:
   - split: 5
-    text: "奴家日思夜盼，总算盼得"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "至此相会，却不知何日方能……唉。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "奴家日思夜盼，总算盼得{playerTitle}至此相会，却不知何日方能……唉。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "187,505,-30,>,love,与[公子||姑娘]对诗，恐怕少些意趣……哎，也罢。,24,1"
   splits:
   - split: 5
-    text: "与"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "对诗，恐怕少些意趣……哎，也罢。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "与{playerTitle}对诗，恐怕少些意趣……哎，也罢。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "188,506,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]若欲唱和吟诗，奴家奉陪便是。,24,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "若欲唱和吟诗，奴家奉陪便是。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}若欲唱和吟诗，奴家奉陪便是。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "189,507,\"-1,30\",\"<,>\",\"love,love\",[公子||姑娘]既有此兴，想来文采斐然，奴家亦欲领略一二。,24,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "既有此兴，想来文采斐然，奴家亦欲领略一二。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}既有此兴，想来文采斐然，奴家亦欲领略一二。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "190,508,\"29,60\",\"<,>\",\"love,love\",与[公子||姑娘]对诗，自当妙趣横生，奴家亦当倾心以对，免误[公子||姑娘]才情。,24,1"
   splits:
   - split: 5
-    text: "与"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "对诗，自当妙趣横生，奴家亦当倾心以对，免误"
-  - split: 5
-    subIndex: 4
-    text: "公子"
-  - split: 5
-    subIndex: 5
-    text: "姑娘"
-  - split: 5
-    subIndex: 6
-    text: "才情。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
+    text: "与{playerTitle}对诗，自当妙趣横生，奴家亦当倾心以对，免误{playerTitle}才情。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "191,509,59,<,love,能与[公子||姑娘]这般妙人对诗而娱，奴家自觉三生有幸……,24,1"
   splits:
   - split: 5
-    text: "能与"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "这般妙人对诗而娱，奴家自觉三生有幸……"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "能与{playerTitle}这般妙人对诗而娱，奴家自觉三生有幸……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "192,510,-30,>,love,嗯，答得倒是不错。,25,1"
   splits:
   - split: 5
@@ -1024,42 +904,24 @@
 - raw: "193,511,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]好捷才，倒是奴家小看你了。,25,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "好捷才，倒是奴家小看你了。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}好捷才，倒是奴家小看你了。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "194,512,\"-1,30\",\"<,>\",\"love,love\",[公子||姑娘]这般才情，当真罕有……,25,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "这般才情，当真罕有……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}这般才情，当真罕有……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "195,513,\"29,60\",\"<,>\",\"love,love\",[公子||姑娘]所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……,25,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "196,514,59,<,love,能对出如此诗韵，奴家唯有……心为君倾……,25,1"
   splits:
   - split: 5
@@ -1067,90 +929,45 @@
 - raw: "197,515,-30,>,love,[公子||姑娘]若无真才实学，还是莫要自讨无趣了。,26,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "若无真才实学，还是莫要自讨无趣了。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}若无真才实学，还是莫要自讨无趣了。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "198,516,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]可是累了，怎地这也答不上来？,26,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "可是累了，怎地这也答不上来？"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}可是累了，怎地这也答不上来？"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "199,517,\"-1,30\",\"<,>\",\"love,love\",此为偏诗古句，[公子||姑娘]难以作答，亦属常情。,26,1"
   splits:
   - split: 5
-    text: "此为偏诗古句，"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "难以作答，亦属常情。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "此为偏诗古句，{playerTitle}难以作答，亦属常情。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "200,518,\"29,60\",\"<,>\",\"love,love\",哎呀！以[公子||姑娘]这般才情，既要对诗，自需好生答复，莫要戏弄奴家……,26,1"
   splits:
   - split: 5
-    text: "哎呀！以"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "这般才情，既要对诗，自需好生答复，莫要戏弄奴家……"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "哎呀！以{playerTitle}这般才情，既要对诗，自需好生答复，莫要戏弄奴家……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "201,519,59,<,love,[公子||姑娘]若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……,26,1"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "202,600,id,!/,kithKin<>,山高路远，江湖多险。有[公子||姑娘]相伴，我心中甚安，前路纵有千难万险，亦无所惧。,27,1"
   splits:
   - split: 5
-    text: "山高路远，江湖多险。有"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "相伴，我心中甚安，前路纵有千难万险，亦无所惧。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "山高路远，江湖多险。有{playerTitle}相伴，我心中甚安，前路纵有千难万险，亦无所惧。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "203,601,id,!/,kithKin<>,江湖多变，风雨难测。你我盟契，生死相随，共闯江湖，不负侠义之名！,27,1"
   splits:
   - split: 5
@@ -1182,74 +999,38 @@
 - raw: "210,608,\"id,3\",\"//,>\",\"JiaoQing<FuMu>,age\",[爹……爹爹！||娘……娘亲！],27,1"
   splits:
   - split: 5
-    text: "爹……爹爹！"
-  - split: 5
-    subIndex: 1
-    text: "娘……娘亲！"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]"
+    text: "{playerTitle}"
+    tokens:
+      playerTitle:
+        source: "[爹……爹爹！||娘……娘亲！]"
 - raw: "211,609,\"id,2,14,9\",\"//,<,>,<\",\"JiaoQing<FuMu>,age,age,love\",孩儿以后也要成为似[爹爹||娘亲]这样的大侠！,27,1"
   splits:
   - split: 5
-    text: "孩儿以后也要成为似"
-  - split: 5
-    subIndex: 1
-    text: "爹爹"
-  - split: 5
-    subIndex: 2
-    text: "娘亲"
-  - split: 5
-    subIndex: 3
-    text: "这样的大侠！"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿以后也要成为似{playerTitle}这样的大侠！"
+    tokens:
+      playerTitle:
+        source: "[爹爹||娘亲]"
 - raw: "212,610,\"id,2,14,9\",\"//,<,>,<\",\"JiaoQing<FuMu>,age,age,love\",孩儿此后要好生习武，才好与[爹爹||娘亲]一同闯荡江湖。,27,1"
   splits:
   - split: 5
-    text: "孩儿此后要好生习武，才好与"
-  - split: 5
-    subIndex: 1
-    text: "爹爹"
-  - split: 5
-    subIndex: 2
-    text: "娘亲"
-  - split: 5
-    subIndex: 3
-    text: "一同闯荡江湖。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿此后要好生习武，才好与{playerTitle}一同闯荡江湖。"
+    tokens:
+      playerTitle:
+        source: "[爹爹||娘亲]"
 - raw: "213,611,\"id,13,9\",\"//,<,<\",\"JiaoQing<FuMu>,age,love\",[爹||娘]，孩儿近日读书，却有许多不明之处……,27,1"
   splits:
   - split: 5
-    text: "爹"
-  - split: 5
-    subIndex: 1
-    text: "娘"
-  - split: 5
-    subIndex: 2
-    text: "，孩儿近日读书，却有许多不明之处……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，孩儿近日读书，却有许多不明之处……"
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "214,612,\"id,13,9\",\"//,<,<\",\"JiaoQing<FuMu>,age,love\",孩儿此后必当日夜勤勉，以护[爹||娘]一生周全。,27,1"
   splits:
   - split: 5
-    text: "孩儿此后必当日夜勤勉，以护"
-  - split: 5
-    subIndex: 1
-    text: "爹"
-  - split: 5
-    subIndex: 2
-    text: "娘"
-  - split: 5
-    subIndex: 3
-    text: "一生周全。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿此后必当日夜勤勉，以护{playerTitle}一生周全。"
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "215,613,id,//,JiaoQing<TuDi>,乖徒儿，习武之道虽需时时精进，但也应适时而为。,27,1"
   splits:
   - split: 5
@@ -1261,16 +1042,10 @@
 - raw: "217,615,\"id,2,14,-30,10\",\"//,<,>,<,>\",\"JiaoQing<FuMu>,age,age,love,love\",[爹爹||娘]好啰嗦……,27,1"
   splits:
   - split: 5
-    text: "爹爹"
-  - split: 5
-    subIndex: 1
-    text: "娘"
-  - split: 5
-    subIndex: 2
-    text: "好啰嗦……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}好啰嗦……"
+    tokens:
+      playerTitle:
+        source: "[爹爹||娘]"
 - raw: "218,616,\"id,2,14,-29\",\"//,<,>,>\",\"JiaoQing<FuMu>,age,age,love\",远些远些，莫来烦我！,27,1"
   splits:
   - split: 5
@@ -1278,16 +1053,10 @@
 - raw: "219,617,\"id,13,10\",\"//,<,>\",\"JiaoQing<FuMu>,age,love\",[爹||娘]所言不过陈腔滥调，我自有主张，莫来相扰。,27,1"
   splits:
   - split: 5
-    text: "爹"
-  - split: 5
-    subIndex: 1
-    text: "娘"
-  - split: 5
-    subIndex: 2
-    text: "所言不过陈腔滥调，我自有主张，莫来相扰。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}所言不过陈腔滥调，我自有主张，莫来相扰。"
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "220,618,id,//,JiaoQing<TuDi>,呵呵，师徒江湖同游，不错，不错。,27,1"
   splits:
   - split: 5
@@ -1309,48 +1078,24 @@
 - raw: "223,701,,,,[少侠||姑娘]好身手，假以时日想必能扬名武林！,28,1"
   splits:
   - split: 5
-    text: "少侠"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "好身手，假以时日想必能扬名武林！"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}好身手，假以时日想必能扬名武林！"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
 - raw: "224,702,,,,胜败乃兵家常事，[少侠||姑娘]可精研武艺，日后再与在下切磋。,29,1"
   splits:
   - split: 5
-    text: "胜败乃兵家常事，"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "可精研武艺，日后再与在下切磋。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "胜败乃兵家常事，{playerTitle}可精研武艺，日后再与在下切磋。"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
 - raw: "225,750,,,,既已答应[少侠||姑娘]同游江湖，往后日子尽可以依靠我！,30,1"
   splits:
   - split: 5
-    text: "既已答应"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "同游江湖，往后日子尽可以依靠我！"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "既已答应{playerTitle}同游江湖，往后日子尽可以依靠我！"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
 - raw: "226,801,,,,敌势甚猛，吾不欲舍生赴死，先遁为上！,31,1"
   splits:
   - split: 5
@@ -1418,16 +1163,12 @@
 - raw: "242,950,,,,咱们gangName在这mapName，可是大大有名。,7,1"
   splits:
   - split: 5
-    text: "咱们"
-  - split: 5
-    subIndex: 1
-    text: "在这"
-  - split: 5
-    subIndex: 2
-    text: "，可是大大有名。"
-  templates:
-  - split: 5
-    template: "{0}gangName{1}mapName{2}"
+    text: "咱们{gangName}在这{mapName}，可是大大有名。"
+    tokens:
+      gangName:
+        source: "gangName"
+      mapName:
+        source: "mapName"
 - raw: "243,951,,,,捍卫本帮声威，义不容辞！,7,1"
   splits:
   - split: 5
@@ -1435,13 +1176,10 @@
 - raw: "244,952,,,,谁敢招惹咱们gangName，那便是跟我过不去！,7,1"
   splits:
   - split: 5
-    text: "谁敢招惹咱们"
-  - split: 5
-    subIndex: 1
-    text: "，那便是跟我过不去！"
-  templates:
-  - split: 5
-    template: "{0}gangName{1}"
+    text: "谁敢招惹咱们{gangName}，那便是跟我过不去！"
+    tokens:
+      gangName:
+        source: "gangName"
 - raw: "245,953,,,,也不知这月俸钱几时能发……,7,1"
   splits:
   - split: 5
@@ -1537,77 +1275,44 @@
 - raw: "268,1022,\"1160001066,29\",\"//,<\",\"touchId,love\",那懿瑶便先回杭州探望家父，[公子||姑娘]若有需要，可来隆顺镖局唤我。,33,2"
   splits:
   - split: 5
-    text: "那懿瑶便先回杭州探望家父，"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "若有需要，可来隆顺镖局唤我。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "那懿瑶便先回杭州探望家父，{playerTitle}若有需要，可来隆顺镖局唤我。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "269,1023,\"1140005099,29\",\"//,<\",\"touchId,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,2"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "270,1024,\"1140005034,29\",\"//,<\",\"touchId,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,2"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "271,1025,\"1140005079,29\",\"//,<\",\"touchId,love\",是。衣鹤在文昌镇外，随时等候p大人。,33,2"
   splits:
   - split: 5
-    text: "是。衣鹤在文昌镇外，随时等候"
-  - split: 5
-    subIndex: 1
-    text: "大人。"
-  templates:
-  - split: 5
-    template: "{0}p{1}"
+    text: "是。衣鹤在文昌镇外，随时等候{playerName}大人。"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "272,1026,\"1170001056,29\",\"//,<\",\"touchId,love\",好！那愚兄便回大理探望藤娘，fp[兄弟||妹子]，不妨再来找愚兄喝上两壶。,33,2"
   splits:
   - split: 5
-    text: "好！那愚兄便回大理探望藤娘，"
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-  - split: 5
-    subIndex: 2
-    text: "妹子"
-  - split: 5
-    subIndex: 3
-    text: "，不妨再来找愚兄喝上两壶。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好！那愚兄便回大理探望藤娘，{playerFirstName}{playerTitle}，不妨再来找愚兄喝上两壶。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "273,1027,\"1190001076,29\",\"//,<\",\"touchId,love\",我……我暂且回桃花坞中看看……,33,2"
   splits:
   - split: 5
@@ -1615,99 +1320,55 @@
 - raw: "274,1028,\"1200001063,29\",\"//,<\",\"touchId,love\",梦秋此身，已托付于[公子||姑娘]……我在襄阳，随时等候。,33,2"
   splits:
   - split: 5
-    text: "梦秋此身，已托付于"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "……我在襄阳，随时等候。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "梦秋此身，已托付于{playerTitle}……我在襄阳，随时等候。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "275,1029,\"1200000247,29\",\"//,<\",\"touchId,love\",无妨，fp[兄弟||姑娘]若有差遣，随时到白桐山庄来唤便是。,33,2"
   splits:
   - split: 5
-    text: "无妨，"
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "若有差遣，随时到白桐山庄来唤便是。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "无妨，{playerFirstName}{playerTitle}若有差遣，随时到白桐山庄来唤便是。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "276,1030,\"1200000246,29\",\"//,<\",\"touchId,love\",那我且回白桐山庄看看，lp[兄||姑娘]可到那儿寻我！,33,2"
   splits:
   - split: 5
-    text: "那我且回白桐山庄看看，"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "可到那儿寻我！"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "那我且回白桐山庄看看，{playerLastName}{playerTitle}可到那儿寻我！"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "277,1031,\"1200000249,29\",\"//,<\",\"touchId,love\",小妹暂回白桐山庄打理，fp[哥哥||姊姊]，日后再会。,33,2"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理，"
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "，日后再会。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "小妹暂回白桐山庄打理，{playerFirstName}{playerTitle}，日后再会。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "278,1032,\"1200000229,29\",\"//,<\",\"touchId,love\",我暂回府中看望爷爷，fp[少侠||女侠]，咱们襄阳再见。,33,2"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-  - split: 5
-    subIndex: 3
-    text: "，咱们襄阳再见。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回府中看望爷爷，{playerFirstName}{playerTitle}，咱们襄阳再见。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "279,1033,\"1200009953,29\",\"//,<\",\"touchId,love\",好……谢正青于襄阳城北，等候fp[兄||姑娘]相唤。,33,2"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，等候"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "相唤。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好……谢正青于襄阳城北，等候{playerFirstName}{playerTitle}相唤。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "280,1034,\"1180000338,29\",\"//,<\",\"touchId,love\",那……我回苗疆探望姊姊与教主，你可要记得回教中寻我。,33,2"
   splits:
   - split: 5
@@ -1811,19 +1472,10 @@
 - raw: "305,1059,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",胧的使命已尽……愿[兄长||姊姊]大人武运昌隆。,33,3"
   splits:
   - split: 5
-    text: "胧的使命已尽……愿"
-  - split: 5
-    subIndex: 1
-    text: "兄长"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "大人武运昌隆。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "胧的使命已尽……愿{playerTitle}大人武运昌隆。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "306,1060,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",……好。我回太和山等你。,33,3"
   splits:
   - split: 5
@@ -1835,77 +1487,44 @@
 - raw: "308,1062,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那懿瑶便先回杭州探望家父，[公子||姑娘]若有需要，可来隆顺镖局唤我。,33,3"
   splits:
   - split: 5
-    text: "那懿瑶便先回杭州探望家父，"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "若有需要，可来隆顺镖局唤我。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "那懿瑶便先回杭州探望家父，{playerTitle}若有需要，可来隆顺镖局唤我。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "309,1063,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "310,1064,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "311,1065,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",是。衣鹤在文昌镇外，随时等候p大人。,33,3"
   splits:
   - split: 5
-    text: "是。衣鹤在文昌镇外，随时等候"
-  - split: 5
-    subIndex: 1
-    text: "大人。"
-  templates:
-  - split: 5
-    template: "{0}p{1}"
+    text: "是。衣鹤在文昌镇外，随时等候{playerName}大人。"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "312,1066,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",好！那愚兄便回大理探望藤娘，fp[兄弟||妹子]，不妨再来找愚兄喝上两壶。,33,3"
   splits:
   - split: 5
-    text: "好！那愚兄便回大理探望藤娘，"
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-  - split: 5
-    subIndex: 2
-    text: "妹子"
-  - split: 5
-    subIndex: 3
-    text: "，不妨再来找愚兄喝上两壶。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好！那愚兄便回大理探望藤娘，{playerFirstName}{playerTitle}，不妨再来找愚兄喝上两壶。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "313,1067,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我……我暂且回桃花坞中看看……,33,3"
   splits:
   - split: 5
@@ -1913,99 +1532,55 @@
 - raw: "314,1068,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",梦秋此身，已托付于[公子||姑娘]……我在襄阳，随时等候。,33,3"
   splits:
   - split: 5
-    text: "梦秋此身，已托付于"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "……我在襄阳，随时等候。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "梦秋此身，已托付于{playerTitle}……我在襄阳，随时等候。"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "315,1069,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",无妨，fp[兄弟||姑娘]若有差遣，随时到白桐山庄来唤便是。,33,3"
   splits:
   - split: 5
-    text: "无妨，"
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "若有差遣，随时到白桐山庄来唤便是。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "无妨，{playerFirstName}{playerTitle}若有差遣，随时到白桐山庄来唤便是。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "316,1070,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那我且回白桐山庄看看，lp[兄||姑娘]可到那儿寻我！,33,3"
   splits:
   - split: 5
-    text: "那我且回白桐山庄看看，"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "可到那儿寻我！"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "那我且回白桐山庄看看，{playerLastName}{playerTitle}可到那儿寻我！"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "317,1071,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",小妹暂回白桐山庄打理，fp[哥哥||姊姊]，日后再会。,33,3"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理，"
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "，日后再会。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "小妹暂回白桐山庄打理，{playerFirstName}{playerTitle}，日后再会。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "318,1072,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我暂回府中看望爷爷，fp[少侠||女侠]，咱们襄阳再见。,33,3"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-  - split: 5
-    subIndex: 3
-    text: "，咱们襄阳再见。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回府中看望爷爷，{playerFirstName}{playerTitle}，咱们襄阳再见。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "319,1073,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",好……谢正青于襄阳城北，等候fp[兄||姑娘]相唤。,33,3"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，等候"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "相唤。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好……谢正青于襄阳城北，等候{playerFirstName}{playerTitle}相唤。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "320,1074,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那……我回苗疆探望姊姊与教主，你可要记得回教中寻我。,33,3"
   splits:
   - split: 5
@@ -2025,35 +1600,17 @@
 - raw: "324,1078,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我回大雪山闭关修炼，[兄长||姊姊]若有精进，不妨来试刀。,33,3"
   splits:
   - split: 5
-    text: "我回大雪山闭关修炼，"
-  - split: 5
-    subIndex: 1
-    text: "兄长"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "若有精进，不妨来试刀。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "我回大雪山闭关修炼，{playerTitle}若有精进，不妨来试刀。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "325,1079,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",胧暂回东瀛修习秘术，[兄长||姊姊]大人若有需要，胧随时待命。,33,3"
   splits:
   - split: 5
-    text: "胧暂回东瀛修习秘术，"
-  - split: 5
-    subIndex: 1
-    text: "兄长"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "大人若有需要，胧随时待命。"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "胧暂回东瀛修习秘术，{playerTitle}大人若有需要，胧随时待命。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "326,1080,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",好。夫君若还想相见，便回太和山来罢……,33,3"
   splits:
   - split: 5
@@ -2069,23 +1626,17 @@
 - raw: "329,1083,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "330,1084,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "331,1085,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",是……衣鹤在文昌镇外，静候夫君大人……,33,3"
   splits:
   - split: 5
@@ -2109,33 +1660,24 @@
 - raw: "336,1090,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",既如此，我且回白桐山庄去……lp郎，有缘再会。,33,3"
   splits:
   - split: 5
-    text: "既如此，我且回白桐山庄去……"
-  - split: 5
-    subIndex: 1
-    text: "郎，有缘再会。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "既如此，我且回白桐山庄去……{playerLastName}郎，有缘再会。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "337,1091,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小妹暂回白桐山庄打理……lp哥哥，珍重。,33,3"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理……"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，珍重。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小妹暂回白桐山庄打理……{playerLastName}哥哥，珍重。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "338,1092,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",这般也好……fp郎，有朝一日，襄阳再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，襄阳再见罢。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，襄阳再见罢。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "339,1093,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",……好。襄阳城北，谢某自去待死。,33,3"
   splits:
   - split: 5
@@ -2151,13 +1693,10 @@
 - raw: "342,1096,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",阿真回辽东去……lp哥哥，不要阿真了？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东去……"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，不要阿真了？"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东去……{playerLastName}哥哥，不要阿真了？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "343,1097,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -2185,23 +1724,17 @@
 - raw: "349,1103,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "350,1104,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "351,1105,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。,33,3"
   splits:
   - split: 5
@@ -2209,13 +1742,10 @@
 - raw: "352,1106,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",好……lp若是想念夫君，便到大理昔日同行之地来。,33,3"
   splits:
   - split: 5
-    text: "好……"
-  - split: 5
-    subIndex: 1
-    text: "若是想念夫君，便到大理昔日同行之地来。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……{playerLastName}若是想念夫君，便到大理昔日同行之地来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "353,1107,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",妾回桃花坞中探望姊妹，良人早日来唤若烟……,33,3"
   splits:
   - split: 5
@@ -2231,40 +1761,31 @@
 - raw: "356,1110,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp郎，我回家……回白桐山庄看看，你也早日回来。,33,3"
   splits:
   - split: 5
-    text: "郎，我回家……回白桐山庄看看，你也早日回来。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我回家……回白桐山庄看看，你也早日回来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "357,1111,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",那……小妹暂回白桐山庄打理，lp哥哥，早日再会。,33,3"
   splits:
   - split: 5
-    text: "那……小妹暂回白桐山庄打理，"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，早日再会。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "那……小妹暂回白桐山庄打理，{playerLastName}哥哥，早日再会。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "358,1112,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我暂回府中看望爷爷，fp郎，咱们襄阳再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们襄阳再见呀。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回府中看望爷爷，{playerFirstName}郎，咱们襄阳再见呀。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "359,1113,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",好……谢正青于襄阳城北，只待lp来唤。,33,3"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，只待"
-  - split: 5
-    subIndex: 1
-    text: "来唤。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……谢正青于襄阳城北，只待{playerLastName}来唤。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "360,1114,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",那……我回苗疆探望姊姊与教主，阿哥儿，你也多回苗疆来嘛。,33,3"
   splits:
   - split: 5
@@ -2276,20 +1797,17 @@
 - raw: "362,1116,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿真回辽东看望爷爷……lp哥哥哪日来找阿真？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东看望爷爷……"
-  - split: 5
-    subIndex: 1
-    text: "哥哥哪日来找阿真？"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东看望爷爷……{playerLastName}哥哥哪日来找阿真？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "363,1117,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
-    text: "姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "364,1118,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我仍会在大雪山练刀，若你归来，我的刀便是你的刀。,33,3"
   splits:
   - split: 5
@@ -2313,23 +1831,17 @@
 - raw: "369,1123,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "370,1124,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "371,1125,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",是……衣鹤在文昌镇外，静候夫君大人……,33,3"
   splits:
   - split: 5
@@ -2353,33 +1865,24 @@
 - raw: "376,1130,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",既如此，我且回白桐山庄去……lp郎，有缘再会。,33,3"
   splits:
   - split: 5
-    text: "既如此，我且回白桐山庄去……"
-  - split: 5
-    subIndex: 1
-    text: "郎，有缘再会。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "既如此，我且回白桐山庄去……{playerLastName}郎，有缘再会。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "377,1131,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小妹暂回白桐山庄打理……lp哥哥，珍重。,33,3"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理……"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，珍重。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小妹暂回白桐山庄打理……{playerLastName}哥哥，珍重。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "378,1132,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",这般也好……fp郎，有朝一日，襄阳再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，襄阳再见罢。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，襄阳再见罢。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "379,1133,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",……好。襄阳城北，谢某自去待死。,33,3"
   splits:
   - split: 5
@@ -2395,13 +1898,10 @@
 - raw: "382,1136,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",阿真回辽东去……lp哥哥，不要阿真了？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东去……"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，不要阿真了？"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东去……{playerLastName}哥哥，不要阿真了？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "383,1137,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -2429,23 +1929,17 @@
 - raw: "389,1143,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "390,1144,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "391,1145,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。,33,3"
   splits:
   - split: 5
@@ -2453,13 +1947,10 @@
 - raw: "392,1146,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",好……lp若是想念夫君，便到大理昔日同行之地来。,33,3"
   splits:
   - split: 5
-    text: "好……"
-  - split: 5
-    subIndex: 1
-    text: "若是想念夫君，便到大理昔日同行之地来。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……{playerLastName}若是想念夫君，便到大理昔日同行之地来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "393,1147,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",妾回桃花坞中探望姊妹，良人早日来唤若烟……,33,3"
   splits:
   - split: 5
@@ -2475,40 +1966,31 @@
 - raw: "396,1150,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp郎，我回家……回白桐山庄看看，你也早日回来。,33,3"
   splits:
   - split: 5
-    text: "郎，我回家……回白桐山庄看看，你也早日回来。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我回家……回白桐山庄看看，你也早日回来。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "397,1151,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",那……小妹暂回白桐山庄打理，lp哥哥，早日再会。,33,3"
   splits:
   - split: 5
-    text: "那……小妹暂回白桐山庄打理，"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，早日再会。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "那……小妹暂回白桐山庄打理，{playerLastName}哥哥，早日再会。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "398,1152,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我暂回府中看望爷爷，fp郎，咱们襄阳再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们襄阳再见呀。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回府中看望爷爷，{playerFirstName}郎，咱们襄阳再见呀。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "399,1153,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",好……谢正青于襄阳城北，只待lp来唤。,33,3"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，只待"
-  - split: 5
-    subIndex: 1
-    text: "来唤。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……谢正青于襄阳城北，只待{playerLastName}来唤。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "400,1154,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",那……我回苗疆探望姊姊与教主，阿哥儿，你也多回苗疆来嘛。,33,3"
   splits:
   - split: 5
@@ -2520,20 +2002,17 @@
 - raw: "402,1156,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿真回辽东看望爷爷……lp哥哥哪日来找阿真？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东看望爷爷……"
-  - split: 5
-    subIndex: 1
-    text: "哥哥哪日来找阿真？"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东看望爷爷……{playerLastName}哥哥哪日来找阿真？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "403,1157,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
-    text: "姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "404,1158,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我仍会在大雪山练刀，若你归来，我的刀便是你的刀。,33,3"
   splits:
   - split: 5
@@ -2545,226 +2024,162 @@
 - raw: "406,1200,\"1140007004,30\",\"//,>\",\"touchId,love\",p，你为何……变得这般……,30,2"
   splits:
   - split: 5
-    text: "，你为何……变得这般……"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，你为何……变得这般……"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "407,1201,\"1140007016,30\",\"//,>\",\"touchId,love\",p，你为何……变得这般……,30,2"
   splits:
   - split: 5
-    text: "，你为何……变得这般……"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，你为何……变得这般……"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "408,1202,\"1160001066,30\",\"//,>\",\"touchId,love\",fp[兄||姑娘]，浪子回头，为时未晚……,30,2"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，浪子回头，为时未晚……"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，浪子回头，为时未晚……"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "409,1203,\"1140005099,30\",\"//,>\",\"touchId,love\",fp[大哥||姐姐]……无论你是何模样，小玥都……,30,2"
   splits:
   - split: 5
-    text: "大哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……无论你是何模样，小玥都……"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "410,1204,\"1140005034,30\",\"//,>\",\"touchId,love\",fp[大哥||姐姐]……无论你是何模样，小玥都……,30,2"
   splits:
   - split: 5
-    text: "大哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……无论你是何模样，小玥都……"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "411,1205,\"1140005079,30\",\"//,>\",\"touchId,love\",p大人……衣鹤惹大人生气了吗？,30,2"
   splits:
   - split: 5
-    text: "大人……衣鹤惹大人生气了吗？"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}大人……衣鹤惹大人生气了吗？"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "412,1206,\"1170001056,30\",\"//,>\",\"touchId,love\",fp[兄弟||妹子]，人生在世，勿忘本心，勿忘本心。,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-  - split: 5
-    subIndex: 1
-    text: "妹子"
-  - split: 5
-    subIndex: 2
-    text: "，人生在世，勿忘本心，勿忘本心。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，人生在世，勿忘本心，勿忘本心。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "413,1207,\"1190001076,30\",\"//,>\",\"touchId,love\",p[大侠||女侠]，唤小女子何事？,30,2"
   splits:
   - split: 5
-    text: "大侠"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-  - split: 5
-    subIndex: 2
-    text: "，唤小女子何事？"
-  templates:
-  - split: 5
-    template: "p[{0}||{1}]{2}"
+    text: "{playerName}{playerTitle}，唤小女子何事？"
+    tokens:
+      playerName:
+        source: "p"
+      playerTitle:
+        source: "[大侠||女侠]"
 - raw: "414,1208,\"1200001063,30\",\"//,>\",\"touchId,love\",fp[公子||姑娘]，连你也走入歧途……,30,2"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，连你也走入歧途……"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，连你也走入歧途……"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "415,1209,\"1200000247,30\",\"//,>\",\"touchId,love\",fp[兄弟||姑娘]……酒逢知己，喝起来才有滋味。,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "……酒逢知己，喝起来才有滋味。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……酒逢知己，喝起来才有滋味。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "416,1210,\"1200000246,30\",\"//,>\",\"touchId,love\",fp[少侠||女侠]……唉，不想本姑娘竟这般走眼……,30,2"
   splits:
   - split: 5
-    text: "少侠"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-  - split: 5
-    subIndex: 2
-    text: "……唉，不想本姑娘竟这般走眼……"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……唉，不想本姑娘竟这般走眼……"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "417,1211,\"1200000249,30\",\"//,>\",\"touchId,love\",小玉还愿跟着fp[哥哥||姊姊]，只盼fp[哥哥||姊姊]能早日回心转意……,30,2"
   splits:
   - split: 5
-    text: "小玉还愿跟着"
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "，只盼"
-  - split: 5
-    subIndex: 4
-    text: "哥哥"
-  - split: 5
-    subIndex: 5
-    text: "姊姊"
-  - split: 5
-    subIndex: 6
-    text: "能早日回心转意……"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}fp[{4}||{5}]{6}"
+    text: "小玉还愿跟着{playerFirstName}{playerTitle}，只盼{playerFirstName}{playerTitle}能早日回心转意……"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "418,1212,\"1200000229,30\",\"//,>\",\"touchId,love\",fp[少侠||女侠]……你若是不甚自在，倒也不必勉强同行。,30,2"
   splits:
   - split: 5
-    text: "少侠"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "419,1213,\"1200009953,30\",\"//,>\",\"touchId,love\",fp[兄||姑娘]，在下残躯，但凭驱使。,30,2"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，在下残躯，但凭驱使。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，在下残躯，但凭驱使。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "420,1214,\"1180000338,30\",\"//,>\",\"touchId,love\",p，你若是负心，我……,30,2"
   splits:
   - split: 5
-    text: "，你若是负心，我……"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，你若是负心，我……"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "421,1215,\"1110005003,30\",\"//,>\",\"touchId,love\",fp[兄||姑娘]……可是我哪条鱼炙得不合口味？,30,2"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "……可是我哪条鱼炙得不合口味？"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……可是我哪条鱼炙得不合口味？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "422,1216,\"1220001029,30\",\"//,>\",\"touchId,love\",fp[大哥||姐姐]，阿真做错了什么……？,30,2"
   splits:
   - split: 5
-    text: "大哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "，阿真做错了什么……？"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，阿真做错了什么……？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "423,1217,\"1220001042,30\",\"//,>\",\"touchId,love\",fp大侠……是小弟何处做得不对么？,30,2"
   splits:
   - split: 5
-    text: "大侠……是小弟何处做得不对么？"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}大侠……是小弟何处做得不对么？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "424,1218,\"1260001067,30\",\"//,>\",\"touchId,love\",p……若你心意已改，直说便是。,30,2"
   splits:
   - split: 5
-    text: "……若你心意已改，直说便是。"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}……若你心意已改，直说便是。"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "425,1219,\"1270001032,30\",\"//,>\",\"touchId,love\",主公……胧的忍术，可是有不足之处？,30,2"
   splits:
   - split: 5
@@ -2772,229 +2187,164 @@
 - raw: "426,1220,\"1140007004,29\",\"//,<\",\"touchId,love\",p……你去何处，我便去何处。,30,2"
   splits:
   - split: 5
-    text: "……你去何处，我便去何处。"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}……你去何处，我便去何处。"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "427,1221,\"1140007016,29\",\"//,<\",\"touchId,love\",p……你去何处，我便去何处。,30,2"
   splits:
   - split: 5
-    text: "……你去何处，我便去何处。"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}……你去何处，我便去何处。"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "428,1222,\"1160001066,29\",\"//,<\",\"touchId,love\",fp[公子||姑娘]，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。,30,2"
   splits:
   - split: 5
-    text: "公子"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "429,1223,\"1140005099,29\",\"//,<\",\"touchId,love\",fp[大哥||姐姐]……小玥一生相随，此心不改。,30,2"
   splits:
   - split: 5
-    text: "大哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……小玥一生相随，此心不改。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "430,1224,\"1140005034,29\",\"//,<\",\"touchId,love\",fp[大哥||姐姐]……小玥一生相随，此心不改。,30,2"
   splits:
   - split: 5
-    text: "大哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……小玥一生相随，此心不改。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "431,1225,\"1140005079,29\",\"//,<\",\"touchId,love\",p大人，可有什么要吩咐衣鹤？,30,2"
   splits:
   - split: 5
-    text: "大人，可有什么要吩咐衣鹤？"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}大人，可有什么要吩咐衣鹤？"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "432,1226,\"1170001056,29\",\"//,<\",\"touchId,love\",fp[兄弟||妹子]，江湖同游，当真畅快！哈哈哈！,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-  - split: 5
-    subIndex: 1
-    text: "妹子"
-  - split: 5
-    subIndex: 2
-    text: "，江湖同游，当真畅快！哈哈哈！"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，江湖同游，当真畅快！哈哈哈！"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "433,1227,\"1190001076,29\",\"//,<\",\"touchId,love\",fp[大侠||女侠]，若烟听候吩咐。,30,2"
   splits:
   - split: 5
-    text: "大侠"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-  - split: 5
-    subIndex: 2
-    text: "，若烟听候吩咐。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，若烟听候吩咐。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大侠||女侠]"
 - raw: "434,1228,\"1200001063,29\",\"//,<\",\"touchId,love\",江湖、家国……fp[公子||姑娘]，我们要去往何方？,30,2"
   splits:
   - split: 5
-    text: "江湖、家国……"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "，我们要去往何方？"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "江湖、家国……{playerFirstName}{playerTitle}，我们要去往何方？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "435,1229,\"1200000247,29\",\"//,<\",\"touchId,love\",fp[兄弟||姑娘]，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "436,1230,\"1200000246,29\",\"//,<\",\"touchId,love\",我定要赢遍天下赌坊……咳咳，lp[兄||姑娘]，可有吩咐？,30,2"
   splits:
   - split: 5
-    text: "我定要赢遍天下赌坊……咳咳，"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-  - split: 5
-    subIndex: 3
-    text: "，可有吩咐？"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "我定要赢遍天下赌坊……咳咳，{playerLastName}{playerTitle}，可有吩咐？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "437,1231,\"1200000249,29\",\"//,<\",\"touchId,love\",fp[哥哥||姊姊]，可有事情需小玉帮忙？请尽管吩咐。,30,2"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "，可有事情需小玉帮忙？请尽管吩咐。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，可有事情需小玉帮忙？请尽管吩咐。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "438,1232,\"1200000229,29\",\"//,<\",\"touchId,love\",外间天地，果然比府上自在许多。fp[少侠||女侠]，咱们走罢！,30,2"
   splits:
   - split: 5
-    text: "外间天地，果然比府上自在许多。"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "外间天地，果然比府上自在许多。{playerFirstName}{playerTitle}，咱们走罢！"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "439,1233,\"1200009953,29\",\"//,<\",\"touchId,love\",fp[兄||姑娘]，在下残躯，但凭驱使。,30,2"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，在下残躯，但凭驱使。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，在下残躯，但凭驱使。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "440,1234,\"1180000338,29\",\"//,<\",\"touchId,love\",p，说定了带我看遍世间绝景，你可不许食言！,30,2"
   splits:
   - split: 5
-    text: "，说定了带我看遍世间绝景，你可不许食言！"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，说定了带我看遍世间绝景，你可不许食言！"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "441,1235,\"1110005003,29\",\"//,<\",\"touchId,love\",fp[兄||姑娘]，天大地大，咱们接下来去哪座山、哪条河？,30,2"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，天大地大，咱们接下来去哪座山、哪条河？"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，天大地大，咱们接下来去哪座山、哪条河？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "442,1236,\"1220001029,29\",\"//,<\",\"touchId,love\",fp[大哥||姐姐]，咱们是要去杀鞑子么？,30,2"
   splits:
   - split: 5
-    text: "大哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "，咱们是要去杀鞑子么？"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，咱们是要去杀鞑子么？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "443,1237,\"1220001042,29\",\"//,<\",\"touchId,love\",fp大侠，小弟定会努力习武，不辜负相救之恩！,30,2"
   splits:
   - split: 5
-    text: "大侠，小弟定会努力习武，不辜负相救之恩！"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}大侠，小弟定会努力习武，不辜负相救之恩！"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "444,1238,\"1260001067,29\",\"//,<\",\"touchId,love\",fp[兄||姑娘]，刀锋未钝，前路尚远，咱们启程到何处去？,30,2"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-  - split: 5
-    subIndex: 2
-    text: "，刀锋未钝，前路尚远，咱们启程到何处去？"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，刀锋未钝，前路尚远，咱们启程到何处去？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "445,1239,\"1270001032,29\",\"//,<\",\"touchId,love\",主公，胧随时待命，愿为主公扫清前路。,30,2"
   splits:
   - split: 5
@@ -3002,544 +2352,339 @@
 - raw: "446,1240,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，你为何……变得这般……,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "，你为何……变得这般……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，你为何……变得这般……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "447,1241,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，你为何……变得这般……,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "，你为何……变得这般……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，你为何……变得这般……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "448,1242,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，浪子回头，为时未晚……,30,3"
   splits:
   - split: 5
-    text: "兄长"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "，浪子回头，为时未晚……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，浪子回头，为时未晚……"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "449,1243,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……无论你是何模样，小玥都……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "450,1244,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……无论你是何模样，小玥都……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "451,1245,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]……衣鹤惹大人生气了吗？,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-  - split: 5
-    subIndex: 2
-    text: "……衣鹤惹大人生气了吗？"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……衣鹤惹大人生气了吗？"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "452,1246,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
-    text: "弟"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-  - split: 5
-    subIndex: 2
-    text: "，人生在世，勿忘本心，勿忘本心。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，人生在世，勿忘本心，勿忘本心。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "453,1247,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]……唤小妹何事？,30,3"
   splits:
   - split: 5
-    text: "兄长"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "……唤小妹何事？"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……唤小妹何事？"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "454,1248,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥||姊]，连你也走入歧途……,30,3"
   splits:
   - split: 5
-    text: "哥"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "，连你也走入歧途……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，连你也走入歧途……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥||姊]"
 - raw: "455,1249,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]……酒逢知己，喝起来才有滋味。,30,3"
   splits:
   - split: 5
-    text: "弟"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-  - split: 5
-    subIndex: 2
-    text: "……酒逢知己，喝起来才有滋味。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……酒逢知己，喝起来才有滋味。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "456,1250,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "……唉，不想妹妹竟这般走眼……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……唉，不想妹妹竟这般走眼……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "457,1251,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",小妹还愿跟着lp[哥哥||姊姊]，只盼lp[哥哥||姊姊]能早日回心转意……,30,3"
   splits:
   - split: 5
-    text: "小妹还愿跟着"
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-  - split: 5
-    subIndex: 3
-    text: "，只盼"
-  - split: 5
-    subIndex: 4
-    text: "哥哥"
-  - split: 5
-    subIndex: 5
-    text: "姊姊"
-  - split: 5
-    subIndex: 6
-    text: "能早日回心转意……"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}lp[{4}||{5}]{6}"
+    text: "小妹还愿跟着{playerLastName}{playerTitle}，只盼{playerLastName}{playerTitle}能早日回心转意……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "458,1252,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你若是不甚自在，倒也不必勉强同行。,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "459,1253,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，小弟残躯，有辱声名……,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "，小弟残躯，有辱声名……"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，小弟残躯，有辱声名……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "460,1254,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[阿哥||阿姐]，你若是负心，我……,30,3"
   splits:
   - split: 5
-    text: "阿哥"
-  - split: 5
-    subIndex: 1
-    text: "阿姐"
-  - split: 5
-    subIndex: 2
-    text: "，你若是负心，我……"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，你若是负心，我……"
+    tokens:
+      playerTitle:
+        source: "[阿哥||阿姐]"
 - raw: "461,1255,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……可是我哪条鱼炙得不合口味？,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "……可是我哪条鱼炙得不合口味？"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……可是我哪条鱼炙得不合口味？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "462,1256,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]，阿真做错了什么……？,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "，阿真做错了什么……？"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，阿真做错了什么……？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "463,1257,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……是小弟何处做得不对么？,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……是小弟何处做得不对么？"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……是小弟何处做得不对么？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "464,1258,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]……刀若钝了，人心也难利落。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "……刀若钝了，人心也难利落。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……刀若钝了，人心也难利落。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "465,1259,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]……胧是否让您失望了？,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-  - split: 5
-    subIndex: 2
-    text: "……胧是否让您失望了？"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……胧是否让您失望了？"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "466,1260,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你去何处，我便去何处。,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "……你去何处，我便去何处。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你去何处，我便去何处。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "467,1261,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你去何处，我便去何处。,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "……你去何处，我便去何处。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你去何处，我便去何处。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "468,1262,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "469,1263,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……小玥一生相随，此心不改。,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……小玥一生相随，此心不改。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "470,1264,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……小玥一生相随，此心不改。,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……小玥一生相随，此心不改。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "471,1265,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]，可有什么要吩咐衣鹤？,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-  - split: 5
-    subIndex: 2
-    text: "，可有什么要吩咐衣鹤？"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，可有什么要吩咐衣鹤？"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "472,1266,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]，江湖同游，当真畅快！哈哈哈！,30,3"
   splits:
   - split: 5
-    text: "弟"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-  - split: 5
-    subIndex: 2
-    text: "，江湖同游，当真畅快！哈哈哈！"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，江湖同游，当真畅快！哈哈哈！"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "473,1267,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，若烟听候吩咐。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "，若烟听候吩咐。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，若烟听候吩咐。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "474,1268,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",江湖、家国……lp[哥||姊]，我们要去往何方？,30,3"
   splits:
   - split: 5
-    text: "江湖、家国……"
-  - split: 5
-    subIndex: 1
-    text: "哥"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-  - split: 5
-    subIndex: 3
-    text: "，我们要去往何方？"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "江湖、家国……{playerLastName}{playerTitle}，我们要去往何方？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥||姊]"
 - raw: "475,1269,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？,30,3"
   splits:
   - split: 5
-    text: "弟"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-  - split: 5
-    subIndex: 2
-    text: "，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "476,1270,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我定要赢遍天下赌坊……咳咳，lp[哥||姊]，可有吩咐？,30,3"
   splits:
   - split: 5
-    text: "我定要赢遍天下赌坊……咳咳，"
-  - split: 5
-    subIndex: 1
-    text: "哥"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-  - split: 5
-    subIndex: 3
-    text: "，可有吩咐？"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "我定要赢遍天下赌坊……咳咳，{playerLastName}{playerTitle}，可有吩咐？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥||姊]"
 - raw: "477,1271,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姊姊]，可有事情需小妹帮忙？请尽管吩咐。,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "，可有事情需小妹帮忙？请尽管吩咐。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，可有事情需小妹帮忙？请尽管吩咐。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "478,1272,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",外间天地，果然比府上自在许多。lp[兄||姊]，咱们走罢！,30,3"
   splits:
   - split: 5
-    text: "外间天地，果然比府上自在许多。"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "外间天地，果然比府上自在许多。{playerLastName}{playerTitle}，咱们走罢！"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "479,1273,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，小弟残躯，但凭驱使。,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "，小弟残躯，但凭驱使。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，小弟残躯，但凭驱使。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "480,1274,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[阿哥||阿姐]，说定了带妹妹看遍世间绝景，你可不许食言！,30,3"
   splits:
   - split: 5
-    text: "阿哥"
-  - split: 5
-    subIndex: 1
-    text: "阿姐"
-  - split: 5
-    subIndex: 2
-    text: "，说定了带妹妹看遍世间绝景，你可不许食言！"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，说定了带妹妹看遍世间绝景，你可不许食言！"
+    tokens:
+      playerTitle:
+        source: "[阿哥||阿姐]"
 - raw: "481,1275,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，天大地大，咱们接下来去哪座山、哪条河？,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "，天大地大，咱们接下来去哪座山、哪条河？"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，天大地大，咱们接下来去哪座山、哪条河？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "482,1276,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]，咱们是要去杀鞑子么？,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "，咱们是要去杀鞑子么？"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，咱们是要去杀鞑子么？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "483,1277,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]，小弟定会努力习武，不辜负相救之恩！,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-  - split: 5
-    subIndex: 2
-    text: "，小弟定会努力习武，不辜负相救之恩！"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，小弟定会努力习武，不辜负相救之恩！"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "484,1278,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，与你切磋刀法，倒也不算虚度光阴。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-  - split: 5
-    subIndex: 2
-    text: "，与你切磋刀法，倒也不算虚度光阴。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，与你切磋刀法，倒也不算虚度光阴。"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "485,1279,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]，胧的性命与忍道，皆托付于您。,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-  - split: 5
-    subIndex: 2
-    text: "，胧的性命与忍道，皆托付于您。"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，胧的性命与忍道，皆托付于您。"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "486,1280,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君，你为何……变得这般……,30,3"
   splits:
   - split: 5
@@ -3555,17 +2700,17 @@
 - raw: "489,1283,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "490,1284,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "491,1285,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君大人……衣鹤惹夫君大人生气了吗？,30,3"
   splits:
   - split: 5
@@ -3573,10 +2718,10 @@
 - raw: "492,1286,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
-    text: "，人生在世，勿忘本心，勿忘本心。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，人生在世，勿忘本心，勿忘本心。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "493,1287,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君……唤若烟何事？,30,3"
   splits:
   - split: 5
@@ -3592,37 +2737,31 @@
 - raw: "496,1290,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp郎……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
-    text: "郎……唉，不想妹妹竟这般走眼……"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎……唉，不想妹妹竟这般走眼……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "497,1291,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小妹已把此生托付给lp哥哥……只盼lp哥哥早日回心转意……,30,3"
   splits:
   - split: 5
-    text: "小妹已把此生托付给"
-  - split: 5
-    subIndex: 1
-    text: "哥哥……只盼"
-  - split: 5
-    subIndex: 2
-    text: "哥哥早日回心转意……"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "小妹已把此生托付给{playerLastName}哥哥……只盼{playerLastName}哥哥早日回心转意……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "498,1292,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",fp郎……你可是厌弃林灵了？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是厌弃林灵了？"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是厌弃林灵了？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "499,1293,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",……谢某残躯，配不上lp。,30,3"
   splits:
   - split: 5
-    text: "……谢某残躯，配不上"
-  templates:
-  - split: 5
-    template: "{0}lp。"
+    text: "……谢某残躯，配不上{playerLastName}。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "500,1294,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",阿哥儿，昔日山盟海誓……你可是变心了？,30,3"
   splits:
   - split: 5
@@ -3634,24 +2773,24 @@
 - raw: "502,1296,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥哥……阿真做错了什么……？,30,3"
   splits:
   - split: 5
-    text: "哥哥……阿真做错了什么……？"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥哥……阿真做错了什么……？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "503,1297,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
-    text: "姊姊……可是我本领低微，不能帮上姊姊？"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊……可是我本领低微，不能帮上姊姊？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "504,1298,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp，你我的刀锋，可是背道而驰了？,30,3"
   splits:
   - split: 5
-    text: "，你我的刀锋，可是背道而驰了？"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，你我的刀锋，可是背道而驰了？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "505,1299,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君大人……胧是否不配做您的影？,30,3"
   splits:
   - split: 5
@@ -3671,17 +2810,17 @@
 - raw: "509,1303,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "510,1304,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "511,1305,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",鹤子是夫君的武士、妻子，鹤子永与夫君同在。,30,3"
   splits:
   - split: 5
@@ -3689,13 +2828,10 @@
 - raw: "512,1306,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",此前半生，恍如一梦……lp，此后半生，丹某只付一人。,30,3"
   splits:
   - split: 5
-    text: "此前半生，恍如一梦……"
-  - split: 5
-    subIndex: 1
-    text: "，此后半生，丹某只付一人。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "此前半生，恍如一梦……{playerLastName}，此后半生，丹某只付一人。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "513,1307,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",心似双丝网，中有千千结……不想若烟这般女子，也能觅得良人……,30,3"
   splits:
   - split: 5
@@ -3711,37 +2847,31 @@
 - raw: "516,1310,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp郎，我这一辈子可都赌给你啦，可休想把我甩掉！,30,3"
   splits:
   - split: 5
-    text: "郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "517,1311,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥哥……小妹眼中，只有lp哥哥一人。哥哥去哪儿，小妹便去哪儿。,30,3"
   splits:
   - split: 5
-    text: "哥哥……小妹眼中，只有"
-  - split: 5
-    subIndex: 1
-    text: "哥哥一人。哥哥去哪儿，小妹便去哪儿。"
-  templates:
-  - split: 5
-    template: "lp{0}lp{1}"
+    text: "{playerLastName}哥哥……小妹眼中，只有{playerLastName}哥哥一人。哥哥去哪儿，小妹便去哪儿。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "518,1312,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",fp郎，fp郎，嘿嘿，真是怎么也唤不够欸。,30,3"
   splits:
   - split: 5
-    text: "郎，"
-  - split: 5
-    subIndex: 1
-    text: "郎，嘿嘿，真是怎么也唤不够欸。"
-  templates:
-  - split: 5
-    template: "fp{0}fp{1}"
+    text: "{playerFirstName}郎，{playerFirstName}郎，嘿嘿，真是怎么也唤不够欸。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "519,1313,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp……我此生有愧于你，只盼来世能补偿万一。,30,3"
   splits:
   - split: 5
-    text: "……我此生有愧于你，只盼来世能补偿万一。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……我此生有愧于你，只盼来世能补偿万一。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "520,1314,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿哥儿，中原景致人物万万千，也不及你一人呀。,30,3"
   splits:
   - split: 5
@@ -3753,30 +2883,24 @@
 - raw: "522,1316,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿真愿作lp哥哥的箭，阿真一定保护好lp哥哥！,30,3"
   splits:
   - split: 5
-    text: "阿真愿作"
-  - split: 5
-    subIndex: 1
-    text: "哥哥的箭，阿真一定保护好"
-  - split: 5
-    subIndex: 2
-    text: "哥哥！"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "阿真愿作{playerLastName}哥哥的箭，阿真一定保护好{playerLastName}哥哥！"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "523,1317,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5
-    text: "姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "524,1318,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp……刀锋冷，但握刀的手是暖的，这便够了。,30,3"
   splits:
   - split: 5
-    text: "……刀锋冷，但握刀的手是暖的，这便够了。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……刀锋冷，但握刀的手是暖的，这便够了。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "525,1319,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",夫君大人……胧的刀刃、身心，皆属您一人。,30,3"
   splits:
   - split: 5
@@ -3796,17 +2920,17 @@
 - raw: "529,1323,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "530,1324,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "531,1325,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君大人……衣鹤惹夫君大人生气了吗？,30,3"
   splits:
   - split: 5
@@ -3814,10 +2938,10 @@
 - raw: "532,1326,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
-    text: "，人生在世，勿忘本心，勿忘本心。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，人生在世，勿忘本心，勿忘本心。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "533,1327,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君……唤若烟何事？,30,3"
   splits:
   - split: 5
@@ -3833,37 +2957,31 @@
 - raw: "536,1330,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp郎……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
-    text: "郎……唉，不想妹妹竟这般走眼……"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎……唉，不想妹妹竟这般走眼……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "537,1331,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小妹已把此生托付给lp哥哥……只盼lp哥哥早日回心转意……,30,3"
   splits:
   - split: 5
-    text: "小妹已把此生托付给"
-  - split: 5
-    subIndex: 1
-    text: "哥哥……只盼"
-  - split: 5
-    subIndex: 2
-    text: "哥哥早日回心转意……"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "小妹已把此生托付给{playerLastName}哥哥……只盼{playerLastName}哥哥早日回心转意……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "538,1332,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",fp郎……你可是厌弃林灵了？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是厌弃林灵了？"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是厌弃林灵了？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "539,1333,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",……谢某残躯，配不上lp。,30,3"
   splits:
   - split: 5
-    text: "……谢某残躯，配不上"
-  templates:
-  - split: 5
-    template: "{0}lp。"
+    text: "……谢某残躯，配不上{playerLastName}。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "540,1334,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",阿哥儿，昔日山盟海誓……你可是变心了？,30,3"
   splits:
   - split: 5
@@ -3875,24 +2993,24 @@
 - raw: "542,1336,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥哥……阿真做错了什么……？,30,3"
   splits:
   - split: 5
-    text: "哥哥……阿真做错了什么……？"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥哥……阿真做错了什么……？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "543,1337,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
-    text: "姊姊……可是我本领低微，不能帮上姊姊？"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊……可是我本领低微，不能帮上姊姊？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "544,1338,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp，你我的刀锋，可是背道而驰了？,30,3"
   splits:
   - split: 5
-    text: "，你我的刀锋，可是背道而驰了？"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，你我的刀锋，可是背道而驰了？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "545,1339,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君大人……胧是否不配做您的影？,30,3"
   splits:
   - split: 5
@@ -3912,17 +3030,17 @@
 - raw: "549,1343,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "550,1344,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "551,1345,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",鹤子是夫君的武士、妻子，鹤子永与夫君同在。,30,3"
   splits:
   - split: 5
@@ -3930,13 +3048,10 @@
 - raw: "552,1346,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",此前半生，恍如一梦……lp，此后半生，丹某只付一人。,30,3"
   splits:
   - split: 5
-    text: "此前半生，恍如一梦……"
-  - split: 5
-    subIndex: 1
-    text: "，此后半生，丹某只付一人。"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "此前半生，恍如一梦……{playerLastName}，此后半生，丹某只付一人。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "553,1347,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",心似双丝网，中有千千结……不想若烟这般女子，也能觅得良人……,30,3"
   splits:
   - split: 5
@@ -3952,37 +3067,31 @@
 - raw: "556,1350,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp郎，我这一辈子可都赌给你啦，可休想把我甩掉！,30,3"
   splits:
   - split: 5
-    text: "郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "557,1351,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥哥……小妹眼中，只有lp哥哥一人。哥哥去哪儿，小妹便去哪儿。,30,3"
   splits:
   - split: 5
-    text: "哥哥……小妹眼中，只有"
-  - split: 5
-    subIndex: 1
-    text: "哥哥一人。哥哥去哪儿，小妹便去哪儿。"
-  templates:
-  - split: 5
-    template: "lp{0}lp{1}"
+    text: "{playerLastName}哥哥……小妹眼中，只有{playerLastName}哥哥一人。哥哥去哪儿，小妹便去哪儿。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "558,1352,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",fp郎，fp郎，嘿嘿，真是怎么也唤不够欸。,30,3"
   splits:
   - split: 5
-    text: "郎，"
-  - split: 5
-    subIndex: 1
-    text: "郎，嘿嘿，真是怎么也唤不够欸。"
-  templates:
-  - split: 5
-    template: "fp{0}fp{1}"
+    text: "{playerFirstName}郎，{playerFirstName}郎，嘿嘿，真是怎么也唤不够欸。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "559,1353,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp……我此生有愧于你，只盼来世能补偿万一。,30,3"
   splits:
   - split: 5
-    text: "……我此生有愧于你，只盼来世能补偿万一。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……我此生有愧于你，只盼来世能补偿万一。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "560,1354,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿哥儿，中原景致人物万万千，也不及你一人呀。,30,3"
   splits:
   - split: 5
@@ -3994,30 +3103,24 @@
 - raw: "562,1356,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿真愿作lp哥哥的箭，阿真一定保护好lp哥哥！,30,3"
   splits:
   - split: 5
-    text: "阿真愿作"
-  - split: 5
-    subIndex: 1
-    text: "哥哥的箭，阿真一定保护好"
-  - split: 5
-    subIndex: 2
-    text: "哥哥！"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "阿真愿作{playerLastName}哥哥的箭，阿真一定保护好{playerLastName}哥哥！"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "563,1357,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5
-    text: "姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "564,1358,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp……刀锋冷，但握刀的手是暖的，这便够了。,30,3"
   splits:
   - split: 5
-    text: "……刀锋冷，但握刀的手是暖的，这便够了。"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……刀锋冷，但握刀的手是暖的，这便够了。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "565,1359,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",夫君大人……胧的刀刃、身心，皆属您一人。,30,3"
   splits:
   - split: 5
@@ -4029,19 +3132,12 @@
 - raw: "567,1361,\"1280100188,29\",\"//,<\",\"touchId,love\",我暂回大漠，fp[少侠||女侠]，咱们大漠再见。,33,2"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-  - split: 5
-    subIndex: 3
-    text: "，咱们大漠再见。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回大漠，{playerFirstName}{playerTitle}，咱们大漠再见。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "568,1362,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",这般也好……有朝一日，大漠再见罢。,33,3"
   splits:
   - split: 5
@@ -4049,148 +3145,113 @@
 - raw: "569,1363,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我暂回大漠，fp[少侠||女侠]，咱们大漠再见。,33,3"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-  - split: 5
-    subIndex: 3
-    text: "，咱们大漠再见。"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回大漠，{playerFirstName}{playerTitle}，咱们大漠再见。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "570,1364,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",这般也好……fp郎，有朝一日，大漠再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，大漠再见罢。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，大漠再见罢。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "571,1365,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我暂回大漠，fp郎，咱们大漠再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们大漠再见呀。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回大漠，{playerFirstName}郎，咱们大漠再见呀。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "572,1366,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",这般也好……fp郎，有朝一日，大漠再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，大漠再见罢。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，大漠再见罢。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "573,1367,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我暂回大漠，fp郎，咱们大漠再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们大漠再见呀。"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回大漠，{playerFirstName}郎，咱们大漠再见呀。"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "574,1368,\"1280100188,30\",\"//,>\",\"touchId,love\",fp[少侠||女侠]……你若是不甚自在，倒也不必勉强同行。,30,2"
   splits:
   - split: 5
-    text: "少侠"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "575,1369,\"1280100188,29\",\"//,<\",\"touchId,love\",果然外间天地比大漠有趣许多。fp[少侠||女侠]，咱们走罢！,30,2"
   splits:
   - split: 5
-    text: "果然外间天地比大漠有趣许多。"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "果然外间天地比大漠有趣许多。{playerFirstName}{playerTitle}，咱们走罢！"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "576,1370,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你若是不甚自在，倒也不必勉强同行。,30,3"
   splits:
   - split: 5
-    text: "兄"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "577,1371,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",果然外间天地比大漠有趣许多。lp[兄||姊]，咱们走罢！,30,3"
   splits:
   - split: 5
-    text: "果然外间天地比大漠有趣许多。"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "果然外间天地比大漠有趣许多。{playerLastName}{playerTitle}，咱们走罢！"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "578,1372,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",fp郎……你可是当做梁君子吗？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是当做梁君子吗？"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是当做梁君子吗？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "579,1373,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",\"fp郎，这外间天地,怎么都看不够呢。\",30,3"
   splits:
   - split: 5
-    text: "郎，这外间天地"
+    text: "{playerFirstName}郎，这外间天地"
+    tokens:
+      playerFirstName:
+        source: "fp"
   - split: 5
     subIndex: 1
     text: "怎么都看不够呢。"
   templates:
   - split: 5
-    template: "fp{0},{1}"
+    template: "{0},{1}"
 - raw: "580,1374,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",fp郎……你可是当做梁君子吗？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是当做梁君子吗？"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是当做梁君子吗？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "581,1375,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",\"fp郎，这外间天地,怎么都看不够呢。\",30,3"
   splits:
   - split: 5
-    text: "郎，这外间天地"
+    text: "{playerFirstName}郎，这外间天地"
+    tokens:
+      playerFirstName:
+        source: "fp"
   - split: 5
     subIndex: 1
     text: "怎么都看不够呢。"
   templates:
   - split: 5
-    template: "fp{0},{1}"
+    template: "{0},{1}"

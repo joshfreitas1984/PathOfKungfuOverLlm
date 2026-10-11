@@ -784,9 +784,7 @@
   splits:
   - split: 6
     text: "归去来"
-    translated: "Come, Let Me Go Home"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Let Us Return Home"
 - raw: "156,3,3,湘竹葬兰书兰竹调3,湘竹葬兰书,兰竹调,柔云绕指,201100802,1,0,0,,1,1,\"20110082,1\",0,-1,20110082,\",1\",,,,"
   splits:
   - split: 6
@@ -1372,8 +1370,7 @@
   splits:
   - split: 6
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 6
     template: "{0}BUFF"
@@ -1746,9 +1743,7 @@
   splits:
   - split: 6
     text: "归去来"
-    translated: "Come, Let Me Go Home"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Let Us Return Home"
 - raw: "334,3,3,步海阁环顾自影3,步海阁,环顾自影,柔云绕指,301010602,1,0,0,,1,1,\"30101062,1\",0,-1,30101062,\",1\",,,,"
   splits:
   - split: 6
@@ -2652,8 +2647,7 @@
   splits:
   - split: 6
     text: "【大旗门】独挑乾坤中并触发暴击后"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "[Daqi Sect] After triggering a Critical Hit in Shouldering Heaven and Earth Alone"
 - raw: "516,6,1,虎贲阵夜渡江6,虎贲阵,夜渡江,【大旗门】破城踏阙中并触发暴击后,301160605,3,1,\"1,伤害>0,1\",5|1040405,3,1,\"30116060,1\",0,-1,30116060,\",1\",,,,"
   splits:
   - split: 6
@@ -3905,9 +3899,7 @@
   splits:
   - split: 6
     text: "【化气贯神】时增加吸血属性"
-    translated: "Increase Lifesteal when Transforming Qi and Piercing the Spirit"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Transform Qi, Pierce the Spirit,化气贯神,Transform Qi, Pierce the Spirit,化气贯神,"
+    translated: "Increases Lifesteal Attributes when using Transform Qi, Pierce the Spirit"
 - raw: "753,1,1,小周天扇法天璇位1,小周天扇法,天璇位,暴击概率额外提升,105020900,1,0,0,,1,1,\"10502090,1\",0,-1,10502090,\",1\",,,,"
   splits:
   - split: 6
@@ -3963,8 +3955,7 @@
   splits:
   - split: 6
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 6
     template: "{0}BUFF"
@@ -4710,8 +4701,7 @@
   splits:
   - split: 6
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 6
     template: "{0}BUFF"
@@ -5891,8 +5881,6 @@
   - split: 6
     text: "招式【拔刀术.里切】真气消耗降低1点"
     translated: "Move [Blade-Drawing Art · Inner Cut] True Qi consumption reduced by 1 points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade Art · Inner Cut,刀术.里切,Blade Art · Inner Cut,刀术.里切,"
 - raw: "1072,,,,8100102,断空流,招式【刀术.里返】施展时产生霸体,810010200,8,1,1100105,,1,1,\"81001020,1\",0,-1,,,,,,"
   splits:
   - split: 6
@@ -6870,47 +6858,47 @@
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升25%。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 25%."
+    translated: "The damage of the Move [Let Us Return Home] is increased by 25%."
 - raw: "1247,,,,悲遮扇法,放词,招式【归去来】的伤害提升25%。,805010101,1,0,0,,1,1,\"80501011,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升25%。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 25%."
+    translated: "The damage of the Move [Let Us Return Home] is increased by 25%."
 - raw: "1248,,,,悲遮扇法,放词,招式【归去来】的伤害提升25%。,805010102,1,0,0,,1,1,\"80501012,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升25%。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 25%."
+    translated: "The damage of the Move [Let Us Return Home] is increased by 25%."
 - raw: "1249,,,,悲遮扇法,放词,招式【归去来】的伤害提升25%。,805010103,1,0,0,,1,1,\"80501013,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升25%。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 25%."
+    translated: "The damage of the Move [Let Us Return Home] is increased by 25%."
 - raw: "1250,,,,悲遮扇法,肆宴,招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。,805010400,1,0,0,,1,1,\"80501040,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] is increased by 50%, but each trigger of [Come, Let Me Go Home] consumes (1) points of True Qi."
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 50%, but each activation of [Let Us Return Home] consumes (1) points of True Qi."
 - raw: "1251,,,,悲遮扇法,肆宴,招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。,805010401,1,0,0,,1,1,\"80501041,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] is increased by 50%, but each trigger of [Come, Let Me Go Home] consumes (1) points of True Qi."
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 50%, but each activation of [Let Us Return Home] consumes (1) points of True Qi."
 - raw: "1252,,,,悲遮扇法,肆宴,招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。,805010402,1,0,0,,1,1,\"80501042,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] is increased by 50%, but each trigger of [Come, Let Me Go Home] consumes (1) points of True Qi."
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 50%, but each activation of [Let Us Return Home] consumes (1) points of True Qi."
 - raw: "1253,,,,悲遮扇法,肆宴,招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。,805010403,1,0,0,,1,1,\"80501043,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] is increased by 50%, but each trigger of [Come, Let Me Go Home] consumes (1) points of True Qi."
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 50%, but each activation of [Let Us Return Home] consumes (1) points of True Qi."
 - raw: "1254,,,,悲遮扇法,肆宴,招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。,805010404,1,0,0,,1,1,\"80501044,1\",0,-1,,,,,,"
   splits:
   - split: 6
     text: "招式【归去来】的伤害提升50%，但每次触发【归去来】需消耗（1）点真气。"
-    translated: "The Damage of the Move [Come, Let Me Go Home] is increased by 50%, but each trigger of [Come, Let Me Go Home] consumes (1) points of True Qi."
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 50%, but each activation of [Let Us Return Home] consumes (1) points of True Qi."
 - raw: "1255,,,,悲遮扇法,知秋,每次获得【难觅】效果时，将立即刷新【问秋风】的CD,805010500,6,1,\"10501040,2,1\",,1,21,\"-6,1050101\",0,-1,,,,,,"
   splits:
   - split: 6

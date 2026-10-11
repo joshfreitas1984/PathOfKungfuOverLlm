@@ -33,6 +33,9 @@ public class Plugin : BaseUnityPlugin
         NamePools.Enabled = Config.Bind("Names", "PinyinNpcNames", true,
             "Give randomly generated NPCs pinyin names (Zhao Chen) in every game language, and convert the names of NPCs already in the save.").Value;
 
+        StoryNpcNameRefresh.Enabled = Config.Bind("Names", "RefreshStoryNpcNames", true,
+            "When a game starts, set story NPCs in the save to the current (translated) name from the Touch table. Fixes saves made before the translation was installed.").Value;
+
         ConvertTextEnglishBranchPatch.Enabled = Config.Bind("Translation", "EnglishTokensInChineseMode", false,
             "Experimental, untested in game. When the game language is Chinese, run NPC text tokens (a, p, lp, gangName...) on the English path so the English translation is not corrupted. Off: the mod targets English mode only.").Value;
 
@@ -42,7 +45,7 @@ public class Plugin : BaseUnityPlugin
             typeof(NamePoolPatch), typeof(RandomNameSpacePatch), typeof(NameXTrimPatch), typeof(NameSetterSpacePatch),
             typeof(OriginNameSpacePatch), typeof(SavedNameMigration), typeof(JobNpcNamePatch),
             typeof(AllowLatinNamePatch), typeof(NameFieldLengthPatch), typeof(RandomChildNamePatch), typeof(SameNameCheckPatch),
-            typeof(ConvertTextEnglishBranchPatch),
+            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh),
         })
             harmony.CreateClassProcessor(patch).Patch();
 

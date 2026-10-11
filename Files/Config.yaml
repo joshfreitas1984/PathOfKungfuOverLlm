@@ -6,19 +6,23 @@ models:
   - name: Qwen25-Standard
     modelPreset: Qwen25
     modelPresetType: Standard
-    customPromptsPath:              # blank = LlmKit's embedded defaults (or point at the Prompts folder)
+    customPromptsPath: Prompts      # the game's own prompts, shared by every model (blank = {name}Prompts)
     apiKeyPath:
     model: qwen2.5:14b-instruct
   - name: Qwen38Qc-IQ4XS
     modelPreset: Qwen38
     modelPresetType: Standard
+    customPromptsPath: Prompts
     model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
 
 glossaryPreset:
   usePresetChineseGlossary: true
 
+# Regular translation model (by name from models:). Unset = the first entry.
+translationModelName: Qwen38Qc-IQ4XS
+
 useContinuousWorkerPool: true
-maxConcurrency: 4
+maxConcurrency: 2
 retryCount: 3
 # escalationModelName: Translator-Standard
 # escalationRetryCount: 1
@@ -29,6 +33,16 @@ translateFlagged: true
 
 # Adds per-line context from the game to the prompt: a line naming a character from CharacterGenders.yaml is told their gender.
 lineContextEnabled: true
+
+# Flags a he/she the model invented where the source states no gender (the player's is unknown), a he/she that contradicts a
+# speaker the game knows, and subject-less narration written as "I"; flagged lines are retranslated. On by default in LlmKit, set
+# here so it is visible. It never fires on a gender token: <他||她> in the source counts as a stated gender, so the <him||her> it
+# becomes is not an invented one, and the <A||B> titles are {playerTitle} slots the model never writes (Tests/PronounCheckTests.cs).
+# autoRepairPronouns (rewrite a still-gendered line to they/them) stays off.
+pronounCheck:
+  enabled: true
+  skipWhenTranslationNamesSomeone: false
+  autoRepairPronouns: false
 
 # QC settings copied from DragonHierOverLlm (same models). autoAcceptDefectCategories and minAcceptableScore came from
 # that game's own hand-triage; re-check them against this game's QC output (plan step 6).
@@ -67,9 +81,11 @@ qualityControl:
 namedTokenReplacers:
   - literal: "<fName>"
     name: firstName
+    allowDroppedRepeats: true         # a repeated name may become "you"
     description: the player's first name. Copy it exactly as written.
   - literal: "<lName>"
     name: lastName
+    allowDroppedRepeats: true         # a repeated name may become "you"
     description: the player's family name. Copy it exactly as written.
   - literal: "<name>"
     name: fullName
@@ -80,7 +96,8 @@ namedTokenReplacers:
   - pattern: '<(?!他\|\|她>)[^<>|]{1,8}\|\|[^<>|]{1,8}>'
     name: playerTitle
     restoreFromGlossary: true
-    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written.
+    allowDroppedRepeats: true         # natural English writes "you" for the 2nd/3rd repeat
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written. If the source repeats it, keep it at least once and write "you" for the later repeats where English reads better.
 
   # NPC dialogue and action text: the game replaces these bare words and letters itself, and in English mode only recognises them
   # written ///token/// (as in its own NPC_EN workbook), so they come back wrapped. See docs/investigations/runtime-tokens.md.
@@ -139,4 +156,5 @@ namedTokenReplacers:
   - pattern: '\[[^\[\]|]{1,8}\|\|[^\[\]|]{1,8}\]'
     name: playerTitle
     restoreFromGlossary: true
-    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written.
+    allowDroppedRepeats: true         # natural English writes "you" for the 2nd/3rd repeat
+    description: how someone addresses the player, whose gender is unknown. Treat it as one noun phrase, never write he/she/him/her for it (use they, you or rephrase), and put no a/an directly before it. Copy it exactly as written. If the source repeats it, keep it at least once and write "you" for the later repeats where English reads better.

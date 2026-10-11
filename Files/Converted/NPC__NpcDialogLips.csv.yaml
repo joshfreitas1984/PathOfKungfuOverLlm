@@ -5664,30 +5664,29 @@
 - raw: "559,751,\"我欲退出gangName,不知有何规程？\",,,,,,,,,100,,,0,,,,,435,,,,1000,,,,,"
   splits:
   - split: 2
-    text: "我欲退出"
-    translated: "I want to quit"
+    text: "我欲退出{gangName}"
+    translated: "I want to leave {gangName}"
+    tokens:
+      gangName:
+        source: "gangName"
   - split: 2
     subIndex: 1
     text: "不知有何规程？"
     translated: "What are the rules?"
   templates:
   - split: 2
-    template: "{0}gangName,{1}"
+    template: "{0},{1}"
 - raw: "560,752,确认退出,,,,0,//,gangOnJoinCD,还需等待gangJoinCDRemain天,Gang_Exit,100,,,0,,,,,436,,,,1000,,,,,"
   splits:
   - split: 2
     text: "确认退出"
     translated: "Confirm Exit"
   - split: 9
-    text: "还需等待"
-    translated: "Still waiting"
-  - split: 9
-    subIndex: 1
-    text: "天"
-    translated: "Sky"
-  templates:
-  - split: 9
-    template: "{0}gangJoinCDRemain{1}"
+    text: "还需等待{cooldownRemaining}天"
+    translated: "Still need to wait {cooldownRemaining} days"
+    tokens:
+      cooldownRemaining:
+        source: "gangJoinCDRemain"
 - raw: "561,753,尚需考虑,,,,,,,,CloseUI,100,,,0,,,,,,,,,1000,,,,,"
   splits:
   - split: 2
@@ -5711,8 +5710,8 @@
 - raw: "565,757,加入gangName,,,,,,,,Gang_Join,100,,,0,,,,,431,,,,1000,,,,,"
   splits:
   - split: 2
-    text: "加入"
-    translated: "Join"
-  templates:
-  - split: 2
-    template: "{0}gangName"
+    text: "加入{gangName}"
+    translated: "Join {gangName}"
+    tokens:
+      gangName:
+        source: "gangName"

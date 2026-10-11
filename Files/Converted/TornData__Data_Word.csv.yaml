@@ -3498,14 +3498,12 @@
   splits:
   - split: 3
     text: "2个"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "2"
 - raw: "654,652,游戏环境设置,4个"
   splits:
   - split: 3
     text: "4个"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "4"
 - raw: "655,653,游戏环境设置,7年"
   splits:
   - split: 3
@@ -4081,9 +4079,7 @@
   splits:
   - split: 3
     text: "武学研本是各类武器的高级技能以及内功轻功，需要消耗真气使用的技能可以强制中断当前的普通攻击释放。"
-    translated: "Martial Arts techniques are advanced skills for various weapons and internal and lightness skills. Skills that consume True Qi can forcibly interrupt current normal attacks to be released."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Neigong,内功,Neigong,内功,"
+    translated: "Martial Arts Research covers advanced skills for various weapons, as well as Neigong and Qinggong. Skills that consume True Qi can forcibly interrupt the current normal attack to be cast."
   - split: 3
     subIndex: 1
     text: "当你切换武器类型的时候，需要手动切换武学研本的技能"

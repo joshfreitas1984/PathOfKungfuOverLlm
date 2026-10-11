@@ -143,6 +143,34 @@
     - Senior Brother
     - Big Brother 
   badtrans: false
+- raw: 大侠
+  rawSimplified: 大侠
+  rawTraditional: 大俠
+  result: Great Hero
+  allowalt:
+  - Hero
+  badtrans: false
+- raw: 少俠
+  rawSimplified: 少侠
+  rawTraditional: 少俠
+  result: Young Hero
+  allowalt:
+  - Hero
+  direct: young knight
+  literal: shao xia
+  badtrans: false
+- raw: 大哥
+  result: Big Brother
+  allowalt:
+  - Brother
+  literal: Da Ge
+  context: A respectful term used among siblings for the older brother.
+  badtrans: false
+- raw: 哥哥
+  result: Brother
+  literal: Ge Ge
+  context: Used to refer to or address one's own older brother, often with affection.
+  badtrans: false
 - raw: 暗器
   result: Hidden Weapon
   allowalt:

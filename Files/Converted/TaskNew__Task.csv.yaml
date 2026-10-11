@@ -904,9 +904,7 @@
   splits:
   - split: 2
     text: "偷药后续（失败）"
-    translated: "Failed Outcome of Stealing the Medicine"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Stealing Medicine (Failed)"
 - raw: "84,81000028,隐毒,1,0,12000,1,\"{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":true,\"\"preTask2\"\":\"\"81000023,999;81000021,997\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"}\",\"0,\",1691293033,False,,,"
   splits:
   - split: 2
@@ -8532,8 +8530,7 @@
   splits:
   - split: 2
     text: "坐吃山空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Living off savings will eventually lead to ruin."
 - raw: "693,240001023,磨牙吮血,1,0,24000,1,\"{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"}\",\"0,\",1747128441,False,,,"
   splits:
   - split: 2
@@ -9159,8 +9156,7 @@
     translated: "Branch Two"
   - split: 12
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as its shaman"
   - split: 13
     text: "前往丰川村探访当地民情"
     translated: "Visit Fengchuan Village to investigate the local customs."
@@ -9171,12 +9167,10 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as its shaman"
   - split: 12
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as its shaman"
   - split: 13
     text: "与村民交谈"
     translated: "Talk to the villagers"
@@ -9184,16 +9178,14 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as a shaman"
   - split: 2
     subIndex: 1
     text: "分支一"
     translated: "Branch One"
   - split: 12
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as its shaman"
   - split: 13
     text: "与村里的村民交谈"
     translated: "Talk to the villagers in the village"
@@ -9204,16 +9196,14 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as a shaman"
   - split: 2
     subIndex: 1
     text: "分支二"
     translated: "Branch Two"
   - split: 12
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as its shaman"
   - split: 13
     text: "与村里的村民交谈"
     translated: "Talk to the villagers in the village"
@@ -9224,8 +9214,7 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To serve the tiger as a shaman"
   - split: 2
     subIndex: 1
     text: "分支三"

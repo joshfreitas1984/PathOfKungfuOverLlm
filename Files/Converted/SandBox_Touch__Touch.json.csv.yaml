@@ -4396,6 +4396,7 @@
   splits:
   - split: 4
     text: "五圣教螣蛇一族总殿，周遭恶像耸视，尽显凶戾。"
+    translated: "The Grand Hall of the Tengshe Clan of the Wusheng Sect loomed amid ominous surroundings, radiating a fierce and malevolent aura."
 - raw: "440,1800015,17,[0].talk,你搜寻一番，并无所获。"
   splits:
   - split: 4
@@ -22140,7 +22141,7 @@
   splits:
   - split: 4
     text: "许张氏"
-    translated: "Madam Xu (nee Zhang)"
+    translated: "Madam Xu-Zhang"
 - raw: "1795,1120001030,15,[0].talks{json}[0].talk,客官，本店有上好的绸缎布料，何不进店详看？"
   splits:
   - split: 4
@@ -22269,8 +22270,11 @@
 - raw: "1801,1120002001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
-    translated: "<Young Hero||Heroine>, would you like some food?"
+    text: "{playerTitle}，可要来上点吃食？"
+    translated: "{playerTitle}, would you like some food?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1801,1120002001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -22294,8 +22298,11 @@
 - raw: "1801,1120002001,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
-    translated: "<Young Hero||Heroine>, are you here for a rest or to stay the night?"
+    text: "{playerTitle}，打尖儿还是住店？"
+    translated: "{playerTitle}, do you want to rest or stay at an inn?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1801,1120002001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -22319,8 +22326,11 @@
 - raw: "1801,1120002001,15,[1].talks{json}[0].talk,<少侠||女侠>，可要来份宵夜，打打牙祭？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来份宵夜，打打牙祭？"
-    translated: "<Young Hero||Heroine>, would you like some late-night snacks to treat yourself?"
+    text: "{playerTitle}，可要来份宵夜，打打牙祭？"
+    translated: "{playerTitle}, would you like some midnight snacks to treat yourself?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1801,1120002001,15,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -22344,8 +22354,11 @@
 - raw: "1801,1120002001,15,[1].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
-    translated: "<Young Hero||Heroine>, are you here for a rest or to stay the night?"
+    text: "{playerTitle}，打尖儿还是住店？"
+    translated: "{playerTitle}, do you want to rest or stay at an inn?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1801,1120002001,15,[1].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -22984,8 +22997,11 @@
 - raw: "1846,1150002001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
-    translated: "<Young Hero||Heroine>, would you like some food?"
+    text: "{playerTitle}，可要来上点吃食？"
+    translated: "{playerTitle}, would you like some food?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1846,1150002001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -23009,8 +23025,11 @@
 - raw: "1846,1150002001,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
-    translated: "<Young Hero||Heroine>, are you here for a rest or to stay the night?"
+    text: "{playerTitle}，打尖儿还是住店？"
+    translated: "{playerTitle}, do you want to rest or stay at an inn?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1846,1150002001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -23717,8 +23736,11 @@
 - raw: "1891,1160009990,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
-    translated: "<Young Hero||Heroine>, would you like some food?"
+    text: "{playerTitle}，可要来上点吃食？"
+    translated: "{playerTitle}, would you like some food?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1891,1160009990,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -23742,8 +23764,11 @@
 - raw: "1891,1160009990,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
-    translated: "<Young Hero||Heroine>, are you here for a rest or to stay the night?"
+    text: "{playerTitle}，打尖儿还是住店？"
+    translated: "{playerTitle}, do you want to rest or stay at an inn?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1891,1160009990,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -24283,8 +24308,11 @@
 - raw: "1938,1170709001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
-    translated: "<Young Hero||Heroine>, would you like some food?"
+    text: "{playerTitle}，可要来上点吃食？"
+    translated: "{playerTitle}, would you like some food?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1938,1170709001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -24308,8 +24336,11 @@
 - raw: "1938,1170709001,15,[0].talks{json}[3].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
-    translated: "<Young Hero||Heroine>, would you like some food?"
+    text: "{playerTitle}，可要来上点吃食？"
+    translated: "{playerTitle}, would you like some food?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1938,1170709001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -26468,8 +26499,11 @@
 - raw: "2076,1180000434,15,[0].talks{json}[0].talk,兀那汉家<哥儿||姐儿>，买兵刃么？"
   splits:
   - split: 4
-    text: "兀那汉家<哥儿||姐儿>，买兵刃么？"
-    translated: "Hey there, <Young Brother||Young Sister>, looking to buy some weapons?"
+    text: "兀那汉家{playerTitle}，买兵刃么？"
+    translated: "Hey there, {playerTitle}, looking to buy some weapons?"
+    tokens:
+      playerTitle:
+        source: "<哥儿||姐儿>"
 - raw: "2076,1180000434,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -26643,8 +26677,11 @@
 - raw: "2090,1190000050,15,[0].talks{json}[0].talk,如何？<公子||姑娘>可是要去桃花坞？"
   splits:
   - split: 4
-    text: "如何？<公子||姑娘>可是要去桃花坞？"
-    translated: "How? <Young Master||Miss>, are you heading to Taohua Dock?"
+    text: "如何？{playerTitle}可是要去桃花坞？"
+    translated: "How about it, {playerTitle}? Are you heading to Taohua Dock?"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2090,1190000050,15,[0].talks{json}[0].options{json}[0].name,前往桃花坞。"
   splits:
   - split: 4
@@ -26698,8 +26735,11 @@
 - raw: "2094,1190009001,15,[0].talks{json}[0].talk,健身益气，治伤疗病，乃至“滋阴补阳”，<公子||姑娘>……也需要么？"
   splits:
   - split: 4
-    text: "健身益气，治伤疗病，乃至“滋阴补阳”，<公子||姑娘>……也需要么？"
-    translated: "Building strength, treating injuries and illnesses, even nourishing yin and replenishing yang, <Young Master||Miss>... do you need that too?"
+    text: "健身益气，治伤疗病，乃至“滋阴补阳”，{playerTitle}……也需要么？"
+    translated: "Fitness to invigorate energy, treat injuries and illnesses, even nourish yin and tonify yang, {playerTitle}... do you need that too?"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2094,1190009001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -26718,8 +26758,11 @@
 - raw: "2095,1190009002,15,[0].talks{json}[0].talk,本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，<公子||姑娘>可有心仪之物？"
   splits:
   - split: 4
-    text: "本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，<公子||姑娘>可有心仪之物？"
-    translated: "This port connects to the East Sea, gathering goods and treasures from all over the world. There's nothing you can't find here, <Young Master||Miss>. Do you have something in mind?"
+    text: "本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，{playerTitle}可有心仪之物？"
+    translated: "This harbor connects to the East Sea, gathering goods and treasures from all under heaven. Do you have anything in mind, {playerTitle}?"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2095,1190009002,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -26793,8 +26836,11 @@
 - raw: "2100,1200000182,15,[0].talks{json}[0].talk,<少侠||女侠>可是要前往白桐山庄?"
   splits:
   - split: 4
-    text: "<少侠||女侠>可是要前往白桐山庄"
-    translated: "<Young Hero||Heroine> are you heading to Baitong Manor?"
+    text: "{playerTitle}可是要前往白桐山庄"
+    translated: "{playerTitle} needs to go to Bai Tong Manor"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
   templates:
   - split: 4
     template: "{0}?"
@@ -28001,8 +28047,11 @@
 - raw: "2212,1240001092,15,[0].talks{json}[0].talk,<公子||姑娘>可是要去东瀛？"
   splits:
   - split: 4
-    text: "<公子||姑娘>可是要去东瀛？"
-    translated: "<Young Master||Miss> are you going to Dongying?"
+    text: "{playerTitle}可是要去东瀛？"
+    translated: "{playerTitle}, are you going to Japan?"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2212,1240001092,15,[0].talks{json}[0].options{json}[0].name,前往东瀛。"
   splits:
   - split: 4
@@ -30630,7 +30679,7 @@
   splits:
   - split: 4
     text: "此事若成，在下敢保此间之民记阁下如记梁君子那般，万世传颂！"
-    translated: "If this succeeds, I guarantee that the people here will remember you as they do Liang Junzi, singing your praises for generations to come!"
+    translated: "If this succeeds, I guarantee that the people here will remember you as they do Gentleman Liang, singing your praises for generations to come!"
 - raw: "2362,1280001014,15,[0].talks{json}[0].name,李义谦"
   splits:
   - split: 4
@@ -30959,8 +31008,11 @@
 - raw: "2392,1280100014,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
-    translated: "<Young Hero||Heroine>, would you like some food?"
+    text: "{playerTitle}，可要来上点吃食？"
+    translated: "{playerTitle}, would you like some food?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2392,1280100014,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -30984,8 +31036,11 @@
 - raw: "2392,1280100014,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
-    translated: "<Young Hero||Heroine>, are you here for a rest or to stay the night?"
+    text: "{playerTitle}，打尖儿还是住店？"
+    translated: "{playerTitle}, do you want to rest or stay at an inn?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2392,1280100014,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -31009,8 +31064,11 @@
 - raw: "2392,1280100014,15,[1].talks{json}[0].talk,<少侠||女侠>，可要来份宵夜，打打牙祭？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来份宵夜，打打牙祭？"
-    translated: "<Young Hero||Heroine>, would you like some late-night snacks to treat yourself?"
+    text: "{playerTitle}，可要来份宵夜，打打牙祭？"
+    translated: "{playerTitle}, would you like some midnight snacks to treat yourself?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2392,1280100014,15,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -31034,8 +31092,11 @@
 - raw: "2392,1280100014,15,[1].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
-    translated: "<Young Hero||Heroine>, are you here for a rest or to stay the night?"
+    text: "{playerTitle}，打尖儿还是住店？"
+    translated: "{playerTitle}, do you want to rest or stay at an inn?"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2392,1280100014,15,[1].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4

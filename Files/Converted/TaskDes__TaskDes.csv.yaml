@@ -1178,9 +1178,7 @@
   splits:
   - split: 2
     text: "偷药后续（失败）"
-    translated: "Failed Outcome of Stealing the Medicine"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Stealing Medicine (Failed)"
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -8870,8 +8868,7 @@
     translated: "\\n"
   - split: 3
     text: "你结识盗墓少女崔青菱，助她除去“穿山四鼠”，并救治其母崔氏。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You meet the tomb-raiding girl Cui Qingling, help her eliminate the Four Mole Rats, and treat her mother, Lady Cui."
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -9506,8 +9503,7 @@
   splits:
   - split: 2
     text: "坐吃山空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Idling away one's fortune"
   - split: 3
     text: "你遇见了落魄纨绔公子白明远，他对时局悲观十分，只图一夕玩乐。"
     translated: "You encountered the dandy young master Bai Mingyuan, who is deeply pessimistic about the current state of affairs and seeks only to enjoy himself for one night."

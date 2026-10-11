@@ -1,11 +1,9 @@
 # Runtime tokens in the game's text
 
-> **Storage changed (2026-10-11, LlmKit `docs/features/translation-pipeline/token-slots.md`).** Tokens are no longer masked in memory and restored at
-> translation time. Export writes `{slots}` into `text` and `translated` in `Files/Converted` and each split's real token into a `tokens` map; packaging is the
-> only place values are put back. Where this page says "restore at translation time" or "Converted holds the final text", read "packaging restores it". Tokens that
-> sit in a template (the lone `a` in `<color=#E64D00>a</color>{0}`, 3,936 in `NPC__SelfAction` and 221 in `NPC__PlayerAction` and `NPC__proAction`) were never masked or
-> restored before and were packaged bare; they are slotted now. Existing Converted must be re-exported and retranslated. The rest of this page is rewritten in the rollout.
-> Golden packaged output for a fixed set of rows: `Tests/PackagingGoldenTests.cs`, `Tests/Golden/`.
+> **How tokens are stored (rolled out 2026-10-11, LlmKit `docs/features/translation-pipeline/token-slots.md`).** `Files/Converted` holds `{slots}` in `text` and
+> `translated`, and each split (and template) a `tokens` map from slot to the real token. Nothing is masked or restored while translating, validating or running QC; packaging
+> is the only place values are put back (`///token///` for the NPC files, the game's own form elsewhere). The tokens in a template (the lone `a` in `<color=#E64D00>a</color>{0}`, 3,936 in
+> `NPC__SelfAction`) are slotted too; before, they were packaged bare. Golden packaged output for a fixed set of rows: `Tests/PackagingGoldenTests.cs`, `Tests/Golden/`.
 
 Found by decompiling `Assembly-CSharp.dll` (ilspycmd 9.1) and scanning `Files/Raw/Dumped`. Source of truth for the substitution is
 `FunTool.ConvertText` plus `TalkData.ReplaceTalkNames` and `UIMain` (talk options). The English-mode wrapper is confirmed from the game's own data; the in-game effect of our current output is not yet checked.
@@ -67,9 +65,9 @@ once each in `ECA__Sheet3` and `SkillBattle__招式配置` (a multiplier, not a 
 
 `///token///` for the NPC files and bare `<fName>` for the JSON talk files means the form depends on the file. Options:
 
-- **Restore in the game's form at translation time** (`restoreAs`): letter and word tokens (`///a///`, `///gangName///`) are unambiguous, so
-  Converted holds the final text. `<name>`/`<fName>`/`<lName>` need `///<fName>///` only in the NPC files, so wrap those in a
-  packaging fixup (`GameHooks.CustomPackagingFixup`) for those files.
+- **Restore in the game's form** (`restoreAs`, now done at packaging): letter and word tokens (`///a///`, `///gangName///`) are unambiguous.
+  `<name>`/`<fName>`/`<lName>` would need `///<fName>///` only in the NPC files; they are not in the NPC files' tokens, so a packaging fixup
+  (`GameHooks.CustomPackagingFixup`) would be needed if that turns up.
 - **Harmony hook** on `FunTool.ConvertText` and `TalkData.ReplaceTalkNames` accepting one canonical token everywhere. Covers the
   runtime-built `gangWuxue` sentence too, but `UIMain` and `NpcTalk` also replace `<name>` inline (not patchable as methods), so
   it cannot be the only route.
@@ -88,9 +86,9 @@ once at the top of the method. To check: other code reached from `ConvertText` (
 
 ## Implemented (English mode)
 
-All in `Files/Config.yaml: namedTokenReplacers` (the model reads `{npcName}`-style slots with a description; restored in the game's form), with
-`GameFileHandling` patterns keeping each token inside its sentence, and `Tests/NamedTokenTests.cs` checking the config, the splitter and every
-token in the six translated NPC files (4,874 tokens, none left unmasked).
+All in `Files/Config.yaml: namedTokenReplacers` (the model reads `{npcName}`-style slots with a description; packaging restores them in the game's form), with
+`GameFileHandling` patterns keeping each token inside its sentence (`ValidateRuntimeTokens` and `PlayerTokenPrompt.txt` needed no change), and `Tests/NamedTokenTests.cs` checking the config, the splitter and every
+token in the six NPC files. No `translate` (phrase) tokens are configured.
 
 | Source | Slot | Restored as |
 | --- | --- | --- |
@@ -98,7 +96,7 @@ token in the six translated NPC files (4,874 tokens, none left unmasked).
 | `a` `b` | `{npcName}` `{otherNpcName}` | `///a///` `///b///` |
 | `p` `fp` `lp` | `{playerName}` `{playerFirstName}` `{playerLastName}` | `///p///` `///fp///` `///lp///` |
 | `i` `i1` `i2` | `{randomItem}` `{randomItemOne}` `{randomItemTwo}` | `///i///` ... |
-| `<A||B>` and `[A||B]` titles | `{playerTitle}` | the glossary pair in `<A||B>` form (resolved for every pair in the string) |
+| `<A||B>` and `[A||B]` titles | `{playerTitle}` | the glossary pair in `<A||B>` form (kind `glossary`, resolved at packaging, so a glossary fix needs no retranslation) |
 | `<fName>` `<lName>` `<name>` `<faction>` | `{firstName}` `{lastName}` `{fullName}` `{faction}` | unchanged (only in the JSON talk files, where the game takes the bare form) |
 
 Letters count only with Chinese text, a tag, punctuation or a string end on both sides, so ordinary English words and `x` are left alone.
@@ -106,10 +104,17 @@ Pronoun alternatives (`<他||她>`) stay visible. The ten bracket titles that ha
 `Glossary/Player-Gender-Tokens.yaml`; they are first drafts to review. NPC files not translated by this pipeline (`NPC__NpcAction`,
 `NPC__dialogChange`, `NPC__NPC`) are not covered.
 
+## Rollout result (2026-10-11)
+
+Re-export and merge, then a full translation. Checked on a copy, not in game:
+
+- Every slot in the translated text matches the source's slots (0 mismatches in 121,648 splits); no `{slot}` is left in the packaged Mod files.
+- Packaged Mod: `///a///` 3,813, `///p///` 272, `///gangName///` 6, `///mapName///` 3, bare `<fName>` 2,122 (JSON talk files).
+- Splits that were cut around a token before are whole sentences now (`NPC__Dialog` 1,205 to 617 splits, `NPC__NpcDialog` 784 to 604).
+- Lines still untranslated: 405 (239 before the change), nearly all `flaggedForRetranslation` for glossary or validation reasons, 300 of them in `TaskProcess__TaskProcess.json` and mostly sentences with `{firstName}`/`{playerTitle}`. Another translate pass retries them.
+
 ## Not done
 
 - `gangWuxue` still becomes a Chinese sentence at runtime (needs a plugin patch or a fixed English phrase).
-- Existing translations of these lines predate the change: their splits were made without the placeholder patterns (fragments around the token), and
-  their tokens are bare. The Export/merge step must re-split them, and they must be retranslated. Not run.
 - The `ConvertText` Chinese-mode patch is off by default; Chinese mode is not supported for now.
-- In-game check that `///token///` is substituted.
+- In-game check that `///token///` is substituted, and that a restored `<A||B>` title reads correctly.

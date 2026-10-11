@@ -1475,18 +1475,14 @@
   - split: 23
     subIndex: 1
     text: "当装备【太玄混元经】内功时，施展【大道始分】招式并对目标造成伤害后有30%的概率额外获得一次【混元护体】效果。"
-    translated: "When equipping the Equipment of the Supreme Mystery Primordial Classic and performing the Move The Great Way Begins to Divide on a target, there is a 30% chance to gain an additional Primordial Protection effect."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Neigong,内功,Neigong,内功,"
+    translated: "When equipping the Equipment with the Supreme Mystery Primordial Classic Neigong and performing the Move The Great Way Begins to Divide to deal Damage to the target, there is a 30% chance to gain an additional Primordial Unity Bodyguard effect."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
   - split: 24
     subIndex: 1
     text: "当装备【太玄混元经】内功时，施展【大道始分】招式并对目标造成伤害后有30%的概率额外获得一次【混元护体】效果。"
-    translated: "When equipping the Equipment of the Supreme Mystery Primordial Classic and performing the Move The Great Way Begins to Divide on a target, there is a 30% chance to gain an additional Primordial Protection effect."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Neigong,内功,Neigong,内功,"
+    translated: "When equipping the Supreme Mystery Primordial Classic Neigong and performing the Move The Great Way Begins to Divide on a target, there is a 30% chance to gain an additional Primordial Protection effect."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -2725,9 +2721,7 @@
     translated: "Clear Wind Sword Art"
   - split: 3
     text: "转蓄亟"
-    translated: "Swift Turn, Stored Force"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Swift Turn and Stored Force"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -3607,9 +3601,7 @@
     translated: "Twin Polarity Sword Art"
   - split: 3
     text: "光尘锐"
-    translated: "Light and Dust, Sharpened"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Keen Light and Dust"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -6057,9 +6049,7 @@
     translated: "Heaven-and-Earth Formation Banner"
   - split: 3
     text: "兵主蚩"
-    translated: "Chi You, Lord of Arms"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Chi You the Lord of Arms"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -7318,9 +7308,7 @@
     translated: "Sorrow-Veiled Fan Art"
   - split: 3
     text: "萧意寒"
-    translated: "Desolate Intent, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Chill of Desolation"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -7350,9 +7338,7 @@
     translated: "Sorrow-Veiled Fan Art"
   - split: 3
     text: "归去来"
-    translated: "Come, Let Me Go Home"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Let Us Return Home"
   - split: 9
     text: "武学总章"
     translated: "Martial Manual"
@@ -7550,22 +7536,22 @@
   - split: 23
     subIndex: 1
     text: "【归去来】获得【同归】效果，每八秒获得一层"
-    translated: "[Come, Let Me Go Home] gains the [Return Together] effect, obtaining one layer every eight seconds"
+    translated: "[Let Us Return Home] Gain the [Shared Return] effect, stacking one layer every eight seconds."
   - split: 23
     subIndex: 2
     text: "每有一层充能，【归去来】伤害提升10％，施展【归去来】招式后移除一层，最多可拥有两层充能。"
-    translated: "Each charge increases the damage of 【Come, Let Me Go Home】 by 10%; after performing the 【Come, Let Me Go Home】 move, one charge is removed. You can have up to two charges."
+    translated: "Each stack of Charge increases the Damage of Let Us Return Home by 10%. One stack is removed after using the Let Us Return Home Move. A maximum of two stacks can be held."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
   - split: 24
     subIndex: 1
     text: "【归去来】获得【同归】效果，每八秒获得一层"
-    translated: "[Come, Let Me Go Home] gains the [Return Together] effect, obtaining one layer every eight seconds"
+    translated: "[Let Us Return Home] Gains the [Shared Return] effect, gaining one stack every eight seconds"
   - split: 24
     subIndex: 2
     text: "每有一层充能，【归去来】伤害提升10％，施展【归去来】招式后移除一层，最多可拥有两层充能。"
-    translated: "Each charge increases the damage of 【Come, Let Me Go Home】 by 10%; after performing the 【Come, Let Me Go Home】 move, one charge is removed. You can have up to two charges."
+    translated: "Each stack of Charge increases the Damage of [Let Us Return Home] by 10%. One stack is removed after performing the [Let Us Return Home] Move. A maximum of two stacks can be held."
   templates:
   - split: 23
     template: "{0}：{1},{2}"
@@ -12506,8 +12492,7 @@
   - split: 23
     subIndex: 2
     text: "额外附加1层【灼烧】效果，每叠加1层会使目标流失1%的气血，该效果可以叠加3层效果持续时间3秒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Applies an additional 1 stacks of [Burn]. Each stack causes the target to lose 1% Lifeforce every 1 stacks. This effect can stack up to 3 times and lasts for 3 seconds."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
@@ -12799,16 +12784,14 @@
   - split: 23
     subIndex: 1
     text: "施展【草蛇金线】招式时，对地面形成1个持续2秒的【火海】效果，停留的敌人每2秒额外造成的伤害，受到伤害额外增加1层【灼烧】效果，并附加2秒【毒火】效果，攻击附加【毒火】效果的敌人暴击几率增加10%。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When using the Move Grass Snake, Golden Thread, creates 1 Fire Sea effects on the ground lasting 2 seconds. Enemies remaining in the area take additional Damage every 2 seconds, gain an extra 1 stacks of Burn when taking Damage, and are afflicted with a 2-second Poison Fire effect. Critical Hit chance against enemies affected by Poison Fire is increased by 10%."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
   - split: 24
     subIndex: 1
     text: "施展【草蛇金线】招式时，对地面形成1个持续2秒的【火海】效果，停留的敌人每2秒额外造成的伤害，受到伤害额外增加1层【灼烧】效果，并附加2秒【毒火】效果，攻击附加【毒火】效果的敌人暴击几率增加10%。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When using the Move [Grass Snake, Golden Thread], creates 1 [Fire Sea] effects on the ground lasting 2 seconds. Enemies remaining in the area take additional Damage every 2 seconds, gain an additional 1 stacks of [Burn] when taking Damage, and are afflicted with a 2-second [Poison Fire] effect. Critical Hit chance against enemies afflicted with [Poison Fire] is increased by 10%."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -15869,9 +15852,7 @@
     translated: "Waning Moon Classic"
   - split: 3
     text: "遥光寒"
-    translated: "Distant Light, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Distant Cold Light"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -16453,8 +16434,7 @@
   - split: 23
     subIndex: 1
     text: "【爆气】招式施展后，身上每有1个异常效果，额外提升1%外功攻击和内功攻击，最大叠加5层，持续5秒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "[Qi Burst] After performing a Move, for each 1 status effect on the character, External Attack and Internal Attack are increased by an additional 1%, stacking up to 5 times, lasting for 5 seconds."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
@@ -18315,8 +18295,7 @@
   - split: 24
     subIndex: 1
     text: "根据自身属性提升拳掌类武学外功攻击和内功攻击1％。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Based on your Attributes, increase Fist & Palm Martial Art External and Internal Attacks by 1%."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -22935,9 +22914,7 @@
     translated: "Ruthless Classic"
   - split: 3
     text: "笑忘生"
-    translated: "Laughing, Forgetting Life"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Laugh and Forget Life"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -23425,14 +23402,14 @@
   - split: 23
     subIndex: 1
     text: "【归去来】每8秒额外增加1层【同归】效果。"
-    translated: "【Come, Let Me Go Home】Every 8 seconds, gain an additional 1 layer of the 【Mutual Destruction】 effect."
+    translated: "[Let Us Return Home] Adds an additional 1 stack of [Shared Fate] every 8 seconds."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
   - split: 24
     subIndex: 1
     text: "【归去来】每8秒额外增加1层【同归】效果。"
-    translated: "【Come, Let Me Go Home】Every 8 seconds, gain an additional 1 layer of the 【Mutual Destruction】 effect."
+    translated: "[Let Us Return Home] Additionally increases the [Shared Fate] effect by 1 stacks every 8 seconds."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -25002,9 +24979,7 @@
   - split: 24
     subIndex: 1
     text: "施展【狳甲翻】时附带【撙节】效果"
-    translated: "When using 【Armadillo Armor】, it comes with the 【Economy】 effect"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Armadillo Armor Rolls Over,狳甲翻,Armadillo Armor Rolls Over,狳甲翻,"
+    translated: "Using 【Armadillo Armor Rolls Over】 grants the 【Moderation】 effect."
   - split: 24
     subIndex: 2
     text: "体力恢复每秒增加2点，持续5秒。"
@@ -26785,8 +26760,7 @@
   - split: 24
     subIndex: 1
     text: "解除【遁地】状态后，获得【奇袭】效果，该效果持续5秒，【奇袭】效果持续期间增加暴击几率。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After releasing the 【Earth Escape】 state, gain the 【Ambush】 effect, which lasts for 5 seconds and increases your Critical Hit chance during that time."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -27137,9 +27111,7 @@
     translated: "Lingbo Weibu"
   - split: 3
     text: "仙姿清"
-    translated: "Immortal Grace, Clear"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Pure Immortal Grace"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -28153,9 +28125,7 @@
     translated: "Twelve Forms Against the Current"
   - split: 3
     text: "涌逆奔"
-    translated: "Surge, Reverse, Rush"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Surging Rush Upstream"
   - split: 9
     text: "武学注解"
     translated: "Martial Annotation"
@@ -29025,14 +28995,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "880,9000003,纵跃,纵跃,通常动作,纵跃,1,0,主动,江湖散学,,,角色跳起后可再度点击纵跃键，在空中急速俯冲，以足撼地，对附近的敌方造成击退效果（对体型大于角色的目标无效）,,,纵跃,,0,,9000003,,,1;1,双足点地纵身跃起，任何人可以轻而易举的学会的跳跃身法。纵跃滞空时可以再次施展二段纵跃。,双足点地纵身跃起，任何人可以轻而易举的学会的跳跃身法。纵跃滞空时可以再次施展二段纵跃。,,,,,,,0,,,,,,,,,,,,tricks/9000003,"
   splits:
   - split: 2
@@ -29101,14 +29067,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "883,9000006,通常动作,起身技,0,主动,1,0,主动,武学总章,,,,,,起身技,,,伤害,,(外功攻击*1)*0.68,(内功攻击*1)*0.68,1;1,0,,,,,,,,0,,0,,,,,,,qishenji_1,,,tricks/9000004,"
   splits:
   - split: 2
@@ -29263,14 +29225,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "893,9010008,拳掌,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,quan/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -29284,14 +29242,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "894,9020001,单手轻刃,单手轻刃轻击壹式,通常动作,单手轻刃,1,2,主动,江湖散学,,,,,,,2,0,伤害,9020001,(外功攻击*1)*0.7*0.5,(内功攻击*1)*0.7*0.5,1;1,江湖中流转的单手轻刃武学，招式轻灵潇洒，迅疾无形。连续按键会使出连续轻击动作。,江湖中流转的单手轻刃武学，招式轻灵潇洒，迅疾无形。连续按键会使出连续轻击动作。,,,1,,,,0,0,0,,20,19,,,,jian/A1,,,tricks/9020001,"
   splits:
   - split: 2
@@ -29390,14 +29344,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "900,9020022,单手轻刃,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,jian/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -29411,14 +29361,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "901,9030001,重刃,重刃轻击壹式,通常动作,重刃,1,3,主动,江湖散学,,,重刃的普攻 一段 A1,,,,,0,伤害,9030001,(外功攻击*1)*0.8*0.7,(内功攻击*1)*0.8*0.7,1;1,江湖中流转的重刃武学，招式如封似闭，重若千钧。,江湖中流转的重刃武学，招式如封似闭，重若千钧。,,,,,,,0,0,0,,50,23,,,,zhongren/A1,,,tricks/9030001,"
   splits:
   - split: 2
@@ -29500,14 +29446,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "906,9030022,重刃,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,zhongren/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -29521,14 +29463,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "907,9040001,长兵,长兵轻击壹式,通常动作,长兵,1,4,主动,江湖散学,,,枪法的普攻 一段 A1,,,,1,0,伤害,9040001,(外功攻击*1)*0.7*0.5,(内功攻击*1)*0.7*0.5,1;1,江湖中流转的长兵武学，招式大开大合，威势惊人，令人闻之生畏。连续按键会使出连续轻击动作。,江湖中流转的长兵武学，招式大开大合，威势惊人，令人闻之生畏。连续按键会使出连续轻击动作。,,,,,,,0,0,0,,20,15,,,,qiangfa/A1,,,tricks/9040001,"
   splits:
   - split: 2
@@ -29644,14 +29582,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "914,9040008,长兵,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,qiangfa/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -29665,14 +29599,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "915,9040009,长兵,一叶知秋,通常动作,长兵,1,4,主动,江湖散学,,,重击伤害降低至30%但变为多次连击，此连击的每一段无法触发攻击特效。,,,,,0,,9040008,,0,1;1,重击伤害降低30%但变为多次连击，此连击的每一段无法触发攻击特效。,重击伤害降低30%但变为多次连击，此连击的每一段无法触发攻击特效。,,,,,,,2,,,,,,,,,,,,tricks/9040008,"
   splits:
   - split: 2
@@ -29805,14 +29735,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "923,9050022,扇法,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,shanzi/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -29826,14 +29752,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "924,9060001,暗器,暗器轻击壹式,通常动作,暗器,1,6,主动,江湖散学,,,暗器的普攻 一段 A1,,,,6,0,伤害,9060001,,,1;1,江湖中流转的暗器武学，其内杀机隐现，至阴至险。连续按键会使出连续轻击动作。,江湖中流转的暗器武学，其内杀机隐现，至阴至险。连续按键会使出连续轻击动作。,,,,,,,2,0,0,,20,15,,,,anqi/A1,,,tricks/9060001,"
   splits:
   - split: 2
@@ -29932,14 +29854,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "930,9060022,暗器,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,anqi/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -29953,14 +29871,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "931,9090001,腿脚,腿脚轻击壹式,通常动作,腿脚,1,9,主动,江湖散学,,,腿脚的普攻 一段 A1,,,,1,0,伤害,9090001,(外功攻击*1)*0.6*0.5,(内功攻击*1)*0.6*0.5,1;1,江湖中流转的腿法武学，刚猛无匹。连续按键会使出连续轻击动作。,江湖中流转的腿法武学，刚猛无匹。连续按键会使出连续轻击动作。,,,,,,,0,0,0,,15,15,,,,tui/A1,,,tricks/9090001,"
   splits:
   - split: 2
@@ -30076,14 +29990,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "938,9090022,腿脚,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,tui/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30097,14 +30007,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "939,9100001,双手轻刃,双手轻刃轻击壹式,通常动作,双手轻刃,1,10,主动,江湖散学,,,双手轻刃的普攻 一段 A1,,,,2,0,伤害,9100001,(外功攻击*1)*0.7*0.5,(内功攻击*1)*0.7*0.5,1;1,江湖中流转的双手轻刃武学，其招式与中原武学迥异。连续按键会使出连续轻击动作。,江湖中流转的双手轻刃武学，其招式与中原武学迥异。连续按键会使出连续轻击动作。,,,,,,,0,0,0,,20,19,,,,shuangshouqingren/A1,,,tricks/9100001,"
   splits:
   - split: 2
@@ -30203,14 +30109,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "945,9100022,双手轻刃,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,shuangshouqingren/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30224,14 +30126,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "946,9110001,绳镖,绳镖轻击壹式,通常动作,绳镖,1,11,主动,江湖散学,,,绳镖的普攻 一段 A1,,,,1,0,伤害,9110001,(外功攻击*1)*0.5*0.9,(内功攻击*1)*0.5*0.9,1;1,江湖中流转的绳镖武学，多为诡门所习，令人防不胜防。连续按键会使出连续轻击动作。,江湖中流转的绳镖武学，多为诡门所习，令人防不胜防。连续按键会使出连续轻击动作。,,,,,0.7,,0,0,0,,20,15,,,,shengbiao/A1,,,tricks/9110001,"
   splits:
   - split: 2
@@ -30330,14 +30228,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "952,9110022,绳镖,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,shengbiao/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30351,14 +30245,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "953,9120001,弓箭,弓箭轻击,通常动作,弓箭,1,12,主动,江湖散学,,,普攻 一段 A1,,,,1,0,伤害,9120001,,,1;1,江湖中流转的弓箭操持之法，多为军阵所传，连续按键会使出连续轻击动作。,江湖中流转的弓箭操持之法，多为军阵所传，连续按键会使出连续轻击动作。,,,,,,,0,0,0,,50,15,,,,gongjian/A1,,,tricks/9120001,"
   splits:
   - split: 2
@@ -30423,14 +30313,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "957,9120022,弓箭,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,gongjian/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30444,14 +30330,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "958,9130001,软鞭,软鞭轻击壹式,通常动作,软鞭,1,13,主动,江湖散学,,,,,,,2,0,伤害,9020001,(外功攻击*1)*0.7*0.5,(内功攻击*1)*0.7*0.5,1;1,江湖中流转的软鞭武学，多为南疆武学，招式刚柔并济，招式诡谲令人防不胜防。,江湖中流转的软鞭武学，多为南疆武学，招式刚柔并济，招式诡谲令人防不胜防。,,,1,,,,0,0,0,,20,19,,,,ruanbian/A1,,,tricks/9130001,"
   splits:
   - split: 2
@@ -30550,14 +30432,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "964,9130022,软鞭,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,ruanbian/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30571,14 +30449,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "965,9140001,火器,火器轻击,通常动作,火器,1,14,主动,江湖散学,,,普攻 一段 A1,,,,1,0,伤害,9140001,((1+武力*弓箭系数*40*0.5)*(1/(1.5+1+1))*1+(外功攻击*1))*0.3,,1;1,江湖中流转的火器操持之法，多为军阵所传，连续按键会使出连续轻击动作。,江湖中流转的火器操持之法，多为军阵所传，连续按键会使出连续轻击动作。,,,,,,,0,0,0,,35,25,,,,huoqiang/A1,,,tricks/9140001,"
   splits:
   - split: 2
@@ -30643,14 +30517,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "969,9140022,火器,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,huoqiang/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30664,14 +30534,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "970,9150001,短兵,短兵轻击壹式,通常动作,短兵,1,15,主动,江湖散学,,,普攻 一段 A1,,,,1,0,伤害,9150001,(外功攻击*1)*0.6*0.5,(内功攻击*1)*0.6*0.5,1;1,江湖中流转的短兵武学，轻灵迅疾，千变万化。连续按键会使出连续轻击动作。,江湖中流转的短兵武学，轻灵迅疾，千变万化。连续按键会使出连续轻击动作。,,,,,,,0,0,0,,15,15,,,,duanbing/A1,,,tricks/9150001,"
   splits:
   - split: 2
@@ -30787,14 +30653,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "977,9150022,短兵,前闪避,通常动作,闪避,1,0,主动,江湖散学,,,,,,闪躲,,0,,9000002,,,1;1,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。,,,,,,,2,0,1,,0,0,,,,duanbing/前闪避,,,tricks/9000002,"
   splits:
   - split: 2
@@ -30808,14 +30670,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "978,9210001,狼,普攻,通常动作,拳掌,1,1,主动,江湖散学,,,狼普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,狼普攻2,狼普攻2,,,,,,,0,0,0,,30,15,,,,lang/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -30914,14 +30772,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "984,9330001,蛤蟆,普攻,通常动作,拳掌,1,111,主动,江湖散学,,,蛤蟆普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,蛤蟆普攻,蛤蟆普攻,,,,,,,0,0,0,,30,15,,,,chanchu/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -30952,14 +30806,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "986,9340001,蛊人,普攻,通常动作,拳掌,1,112,主动,江湖散学,,,蛊人普攻1,,,,1,0,伤害,5310001,(外功攻击*1)*1.5,(内功攻击*1)*1.5,1;1,蛊人普攻,蛊人普攻,,,,,,,2,0,7,,58,39,,,,guren/A1,,,tricks/5310001,"
   splits:
   - split: 2
@@ -30990,14 +30840,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "988,9350001,虎,普攻,通常动作,拳掌,1,106,主动,江湖散学,,,虎普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,虎普攻,虎普攻,,,,,,,0,0,0,,30,15,,,,laohu/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31028,14 +30874,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "990,9360001,蜘蛛,普攻,通常动作,拳掌,1,105,主动,江湖散学,,,蜘蛛普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,蜘蛛普攻,蜘蛛普攻,,,,,,,0,0,0,,30,15,,,,zhizhu/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31066,14 +30908,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "992,9370001,蝎子,普攻,通常动作,拳掌,1,103,主动,江湖散学,,,蝎子普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,蝎子普攻,蝎子普攻,,,,,,,0,0,0,,30,15,,,,xiezi/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31104,14 +30942,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "994,9380001,狗,普攻,通常动作,拳掌,1,107,主动,江湖散学,,,狗普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,狗普攻,狗普攻,,,,,,,0,0,0,,30,15,,,,baigou/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31142,14 +30976,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "996,9390001,蜈蚣,普攻,通常动作,拳掌,1,104,主动,江湖散学,,,蜈蚣普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,狗普攻,狗普攻,,,,,,,0,0,0,,30,15,,,,wugong/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31180,14 +31010,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "998,9400001,大蛇,普攻,通常动作,拳掌,1,108,主动,江湖散学,,,大蛇普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,狗普攻,狗普攻,,,,,,,0,0,0,,30,15,,,,dashe/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31218,14 +31044,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "1000,9410001,墨家甲卫_近战,普攻,通常动作,拳掌,1,109,主动,江湖散学,,,墨家甲卫_近战普攻1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,普攻,普攻,,,,,,,0,0,0,,30,15,,,,mojiajiawei_jinzhan/A1,,,tricks/9110016,"
   splits:
   - split: 2
@@ -31284,14 +31106,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   templates:
   - split: 2
     template: "{0}_{1}"
@@ -31325,14 +31143,10 @@
     translated: "Jianghu Miscellaneous Art"
   - split: 23
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
   - split: 24
     text: "江湖中的闪避架势，身轻如鸿，配合左右方向键的使用，可以进行左右冲刺。在任何时候（包括受击状态，普通攻击中）都可施展后跃，和敌人拉开距离并躲避对方的攻击。"
-    translated: "In the Jianghu, a dodge stance as light as a crane, combined with the use of left and right directional keys, allows for sidestepping in either direction. At any time, including while being hit or during a normal attack, you can perform a backward leap to create distance from your enemy and avoid their attacks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "The Dodge Stance in Jianghu allows you to move as light as a swan. Combined with the left and right direction keys, it enables lateral dashes. You can perform a backstep at any time (including while hit or during a Normal attack) to create distance from enemies and evade their attacks."
 - raw: "1005,9510002,蛤蟆技能,毒涎,通常动作,拳掌,1,111,主动,江湖散学,,,蛤蟆技能技能1,,,,1,0,伤害,9210001,(外功攻击*1)*2,(内功攻击*1)*2,1;1,蛤蟆技能,蛤蟆技能,,,,,,,0,0,0,,30,15,,,,chanchu/Skill1,,,tricks/9110016,"
   splits:
   - split: 2

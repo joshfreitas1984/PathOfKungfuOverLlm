@@ -2242,9 +2242,11 @@
 - raw: "370,GetRankUpTask,<兄弟||妹子>近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，<兄弟||妹子>若有意在本帮提升位阶，不妨前往一观。"
   splits:
   - split: 2
-    text: "<兄弟||妹子>近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，<兄弟||妹子>若有意在本帮提升位阶，不妨前往一观。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    text: "{playerTitle}近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，{playerTitle}若有意在本帮提升位阶，不妨前往一观。"
+    translated: "{playerTitle} has been contributing greatly to our faction recently. I have placed an important matter at the faction officer's place; if {playerTitle} wishes to advance in rank within our faction, it would be worth checking out."
+    tokens:
+      playerTitle:
+        source: "<兄弟||妹子>"
 - raw: "371,RankUpTask,升阶任务"
   splits:
   - split: 2

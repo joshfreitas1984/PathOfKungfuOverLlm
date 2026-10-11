@@ -105,7 +105,7 @@ Found by running a dialogue sample before the corpus run (`SandBox_NpcFromTouch_
   skilled with your hands"). `GameFileHandling.SplitterOptions` now glues them into the sentence (`PlaceholderPatterns`), the four
   dialogue files set `IgnoreHtmlTagsInText` (a gender alternative looks like an HTML tag whose content must change) with a
   `ValidateRuntimeTokens` hook that checks every name token, colour tag and gender alternative is still there, and
-  `Files/Qwen25-StandardPrompts/PlayerTokenPrompt.txt` tells the model how to treat them. `Glossary/Player-Gender-Tokens.yaml` gives
+  `Files/Prompts/PlayerTokenPrompt.txt` tells the model how to treat them. `Glossary/Player-Gender-Tokens.yaml` gives
   the English of all 91 alternatives (`<Young Hero||Miss>`, `<Big Brother||Big Sister>`...), reviewed by hand.
   The same hook feeds `UnknownGenderPersonTokens` so a he/she beside a name token is not treated as an invented gender.
   **Named tokens.** `Config.yaml: namedTokenReplacers` now hides name tokens and title alternatives from the model behind descriptive

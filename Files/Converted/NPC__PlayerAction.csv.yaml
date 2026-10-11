@@ -8,41 +8,53 @@
   splits:
   - split: 13
     text: "趁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
     translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "4,2,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
   splits:
   - split: 13
     text: "趁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
     translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "5,3,\"attribute,goldCoin,lichang,500,3600,id,kithKin<>,love\",\">,<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,gameTime,kithKin<>,1,1\",100,1,\"4,9\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,5,1,2"
   splits:
   - split: 13
     text: "趁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
     translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "6,4,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"//,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"4,9\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,5,1,2"
   splits:
   - split: 13
@@ -54,7 +66,12 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "7,5,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"<,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"4,9\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,5,1,2"
   splits:
   - split: 13
@@ -66,7 +83,12 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "8,6,\"attribute,goldCoin,lichang,3600,id,kithKin<>,love\",\">,<,<,<,!/,!/,<\",\"attribute,300,30,gameTime,kithKin<>,1,1\",100,1,\"4,9\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,5,1,2"
   splits:
   - split: 13
@@ -78,46 +100,63 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "9,7,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"//,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"10,3\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,15,1,2"
   splits:
   - split: 13
     text: "趁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
     translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "10,8,\"attribute,goldCoin,lichang,500,id,kithKin<>,love\",\"<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,kithKin<>,1,1\",100,1,\"10,3\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,15,1,2"
   splits:
   - split: 13
     text: "趁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
     translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "11,9,\"attribute,goldCoin,lichang,500,3600,id,kithKin<>,love\",\">,<,<,<,<,!/,!/,<\",\"attribute,500,30,sliver,gameTime,kithKin<>,1,1\",100,1,\"10,3\",0,\"goldCoin,100-\",\"100+,sliver\",,,<color=#E64D00>a</color>趁<color=#E64D00>p</color>不备，悄然偷窃了些许钱财。,1480,50,1600,15,1,2"
   splits:
   - split: 13
     text: "趁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While"
   - split: 13
     subIndex: 1
     text: "不备，悄然偷窃了些许钱财。"
     translated: "Unprepared, they quietly stole some money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "12,10,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"//,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"10,3\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,15,1,2"
   splits:
   - split: 13
@@ -129,7 +168,12 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "13,11,\"attribute,goldCoin,lichang,id,kithKin<>,love\",\"<,<,<,!/,!/,<\",\"attribute,300,30,kithKin<>,1,1\",100,1,\"10,3\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,15,1,2"
   splits:
   - split: 13
@@ -141,7 +185,12 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "14,12,\"attribute,goldCoin,lichang,3600,id,kithKin<>,love\",\">,<,<,<,!/,!/,<\",\"attribute,300,30,gameTime,kithKin<>,1,1\",100,1,\"10,3\",0,,,,,<color=#E64D00>a</color>左寻右觅，但终未能成功窃取<color=#E64D00>p</color>钱财。,1490,50,1600,15,1,2"
   splits:
   - split: 13
@@ -153,7 +202,12 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "15,13,\"lichang,lichang,45,55,goldCoin,id,kithKin<>\",\">,<,<,>,>,!/,!/\",\"45,55,lichang,lichang,100,kithKin<>,1\",100,1,0,0,\"goldCoin,PlayerLove(),100+\",\"100-,10+,sliver\",,,<color=#E64D00>a</color>听闻与<color=#E64D00>p</color>立场相近，特来相谈，一番攀谈之下，只觉与<color=#E64D00>p</color>言锋相合，特赠予了<color=#E64D00>p</color>些许银两。,1500,40,1600,60,2,2"
   splits:
   - split: 13
@@ -173,7 +227,12 @@
     translated: "A little silver"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>{3}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "16,14,\"attribute,lichang,love,id,kithKin<>,love\",\"//,<,<,!/,!/,<\",\"attribute,40,0,kithKin<>,1,1\",0,1,\"4,9\",0,\"lichang,GetRandomItemAtPlayer()\",\"10-,1\",,,心怀不轨的<color=#E64D00>a</color>暗中下手，窃取了<color=#E64D00>p</color>囊中物什……,1510,40,1600,0,1,2"
   splits:
   - split: 13
@@ -189,7 +248,12 @@
     translated: "Contents of the pouch..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "17,15,\"attribute,lichang,love,id,kithKin<>,love\",\"<,<,<,!/,!/,<\",\"attribute,40,0,kithKin<>,1,1\",0,1,\"4,9\",0,\"lichang,GetRandomItemAtPlayer()\",\"10-,1\",,,心怀不轨的<color=#E64D00>a</color>暗中下手，窃取了<color=#E64D00>p</color>囊中物什……,1510,40,1600,0,1,2"
   splits:
   - split: 13
@@ -205,7 +269,12 @@
     translated: "Contents of the pouch..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "18,16,\"attribute,lichang,love,3600,id,kithKin<>,love\",\">,<,<,<,!/,!/,<\",\"attribute,40,0,gameTime,kithKin<>,1,1\",0,1,\"4,9\",0,\"lichang,GetRandomItemAtPlayer()\",\"10-,1\",,,心怀不轨的<color=#E64D00>a</color>暗中下手，窃取了<color=#E64D00>p</color>囊中物什……,1510,40,1600,0,1,2"
   splits:
   - split: 13
@@ -221,7 +290,12 @@
     translated: "Contents of the pouch..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "19,17,\"lichang,xiuWei,id,kithKin<>\",\"<,>,!/,!/\",\"40,200,kithKin<>,1\",100,1,\"4,9\",0,\"lichang,PlayerLove()\",\"5+,5+\",,,行走江湖，当以武会友，<color=#E64D00>a</color>发起挑战，望请赐教，切莫避战。,1520,40,1600,30,2,2"
   splits:
   - split: 13
@@ -233,7 +307,10 @@
     translated: "Issue a challenge; I hope you will teach me, do not avoid the battle."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "20,18,\"love,id,kithKin<>\",\">,!/,!/\",\"10,kithKin<>,1\",100,0,0,0,PlayerLove(),5+,,,<color=#E64D00>a</color>从远处遥望见昔日好友<color=#E64D00>p</color>，片刻间飞奔而至，滔滔不绝之下，与<color=#E64D00>p</color>相谈甚欢。,1410,60,1600,31,2,2"
   splits:
   - split: 13
@@ -249,7 +326,12 @@
     translated: "Talked very happily"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "21,19,\"love,id,kithKin<>\",\"<,!/,!/\",\"-49,kithKin<>,1\",100,0,\"4,10\",0,\"lichang,PlayerLove()\",\"5-,5-\",,,<color=#E64D00>a</color>发现了仇家<color=#E64D00>p</color>的行踪，从远处拔出刀冲向<color=#E64D00>p</color>，与<color=#E64D00>p</color>死命相搏。,1420,60,1600,32,1,2"
   splits:
   - split: 13
@@ -269,7 +351,12 @@
     translated: "Fought with all their might"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>{3}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "22,20,\"love,id,kithKin<>\",\"<,!/,!/\",\"-30,kithKin<>,1\",100,0,\"4,10\",0,\"lichang,PlayerLove()\",\"5-,5-\",,,与<color=#E64D00>p</color>素有仇怨的<color=#E64D00>a</color>当街横在<color=#E64D00>p</color>面前，指着<color=#E64D00>p</color>向街坊邻居大肆辱骂了起来。,1430,60,1600,33,1,2"
   splits:
   - split: 13
@@ -293,7 +380,12 @@
     translated: "Began to verbally abuse the neighbors and passersby."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}<color=#E64D00>p</color>{4}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}<color=#E64D00>{playerName}</color>{4}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "23,21,\"love,100,id,kithKin<>\",\"<,<,!/,!/\",\"-10,sliver,kithKin<>,1\",100,0,\"4,10\",0,\"goldCoin,100-\",\"100+,sliver\",,,对<color=#E64D00>p</color>怀恨在心的<color=#E64D00>a</color>暗中跟踪<color=#E64D00>p</color>，趁<color=#E64D00>p</color>不备，悄然偷窃了<color=#E64D00>p</color>钱财。,1440,60,1600,40,1,2"
   splits:
   - split: 13
@@ -310,9 +402,7 @@
   - split: 13
     subIndex: 3
     text: "，趁"
-    translated: ","
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Source begins with comma; fragment continues previous sentence/cell. Translate starting with \", \" (comma + space) as first characters. Do not relocate comma to sentence middle."
+    translated: ", While"
   - split: 13
     subIndex: 4
     text: "不备，悄然偷窃了"
@@ -323,7 +413,12 @@
     translated: "Money"
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}<color=#E64D00>p</color>{4}<color=#E64D00>p</color>{5}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}<color=#E64D00>{playerName}</color>{4}<color=#E64D00>{playerName}</color>{5}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "24,22,\"relationship,JiaoQing<JinLan>\",\"//,//\",\"1,1\",100,0,\"4,10\",0,PlayerLove(),5+,,,<color=#E64D00>a</color>听闻金兰好友<color=#E64D00>p</color>在此地行走，特意赶来与<color=#E64D00>p</color>相聚，将附近江湖之事尽数告知于<color=#E64D00>p</color>。,1450,60,1600,40,2,2"
   splits:
   - split: 13
@@ -339,7 +434,12 @@
     translated: "Gather and tell them everything about the nearby Jianghu."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}<color=#E64D00>p</color>。"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}<color=#E64D00>{playerName}</color>。"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "25,23,\"relationship,JiaoQing<JuanLv>\",\"//,//\",\"2,1\",100,0,\"4,10\",0,\"PlayerLove(),energy\",\"8+,5-\",,,<color=#E64D00>a</color>听闻红颜眷侣<color=#E64D00>p</color>在此处，思念甚厚，特来寻<color=#E64D00>p</color>相聚片刻。,1460,60,1600,41,2,2"
   splits:
   - split: 13
@@ -355,7 +455,12 @@
     translated: "Spent a short while together"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "26,24,\"relationship,JiaoQing<PeiOu>\",\"//,//\",\"3,1\",100,0,\"4,10\",0,PlayerLove(),5+,,,与<color=#E64D00>p</color>万分恩爱的<color=#E64D00>a</color>倍感思念，特来寻<color=#E64D00>p</color>相聚片刻。,1470,60,1600,42,2,2"
   splits:
   - split: 13
@@ -375,7 +480,12 @@
     translated: "Spent a short while together"
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "27,25,\"love,lichang,lichang,54,69,14,kithKin<>,JiaoQing<ChouDi>\",\"//,>,<,<,>,>,!/,!/\",\"0,54,69,lichang,lichang,friendsSan,1,1\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>听闻与<color=#E64D00>p</color>立场相近，特来相谈。,210010,60,1600,30,2,2"
   splits:
   - split: 13
@@ -387,7 +497,12 @@
     translated: "Alignment is similar, so I came to discuss."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "28,26,\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,64\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>从远处遥望见知交老友<color=#E64D00>p</color>，片刻间飞奔而至。,210020,60,1600,31,2,2"
   splits:
   - split: 13
@@ -399,7 +514,12 @@
     translated: ", Moments later, they arrived at a sprint"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "29,27,\"love,age,kithKin<>,JiaoQing<ChouDi>\",\">,>,!/,!/\",\"59,44,1,1\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>听闻相交许久的后生晚辈<color=#E64D00>p</color>于此地走动，特来相谈。,210030,60,1600,15,2,2"
   splits:
   - split: 13
@@ -411,7 +531,12 @@
     translated: "I came here to speak with you"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "30,28,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,28,45\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,49,28,45,lichang,lichang\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……,210040,60,1600,10,2,2"
   splits:
   - split: 13
@@ -423,7 +548,12 @@
     translated: "Fell in love secretly, silently promising oneself..."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "31,29,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,44,61\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,49,44,61,lichang,lichang\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……,210040,60,1600,20,2,2"
   splits:
   - split: 13
@@ -435,7 +565,12 @@
     translated: "Fell in love secretly, silently promising oneself..."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "32,30,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,60,77\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,49,60,77,lichang,lichang\",100,0,\"4,10\",0,,,,,<color=#E64D00>a</color>对<color=#E64D00>p</color>暗生情愫，心下暗许……,210040,60,1600,20,2,2"
   splits:
   - split: 13
@@ -447,7 +582,12 @@
     translated: "Fell in love secretly, silently promising oneself..."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "33,31,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,28,45\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,69,28,45,lichang,lichang\",100,0,\"4,10\",0,,,,,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹……,210050,60,1600,40,2,2"
   splits:
   - split: 13
@@ -467,7 +607,12 @@
     translated: "Declare one's feelings..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "34,32,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,44,61\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,69,44,61,lichang,lichang\",100,0,\"4,10\",0,,,,,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹……,210050,60,1600,41,2,2"
   splits:
   - split: 13
@@ -487,7 +632,12 @@
     translated: "Declare one's feelings..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "35,33,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,60,77\",\"!/,!/,!/,>,>,<,<,>\",\"sex,1,1,69,60,77,lichang,lichang\",100,0,\"4,10\",0,,,,,与<color=#E64D00>p</color>互有好感多时的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明心迹……,210050,60,1600,42,2,2"
   splits:
   - split: 13
@@ -507,7 +657,12 @@
     translated: "Declare one's feelings..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "36,34,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,28,45\",\"!/,!/,//,>,>,<,<,>\",\"sex,1,1,79,28,45,lichang,lichang\",100,0,\"4,10\",0,,,,,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意……,210060,60,1600,43,2,2"
   splits:
   - split: 13
@@ -523,7 +678,12 @@
     translated: "Propose marriage..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "37,35,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,44,61\",\"!/,!/,//,>,>,<,<,>\",\"sex,1,1,79,44,61,lichang,lichang\",100,0,\"4,10\",0,,,,,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意……,210060,60,1600,44,2,2"
   splits:
   - split: 13
@@ -539,7 +699,12 @@
     translated: "Propose marriage..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "38,36,\"sex,JiaoQing<PeiOu>,JiaoQing<JuanLv>,love,lichang,lichang,60,77\",\"!/,!/,//,>,>,<,<,>\",\"sex,1,1,79,60,77,lichang,lichang\",100,0,\"4,10\",0,,,,,柔情无限之际，<color=#E64D00>a</color>向<color=#E64D00>p</color>提出成婚之意……,210060,60,1600,45,2,2"
   splits:
   - split: 13
@@ -555,7 +720,12 @@
     translated: "Propose marriage..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "39,37,\"sex,JiaoQing<PeiOu>,love\",\"!/,//,<\",\"sex,1,0\",100,0,\"4,10\",0,,,,,恩怨几许，痴燕纷飞，<color=#E64D00>a</color>心怀不满，决意断绝与<color=#E64D00>p</color>之姻缘。,210070,60,1600,50,1,2"
   splits:
   - split: 13
@@ -571,7 +741,12 @@
     translated: "Fate's arrangement"
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}<color=#E64D00>p</color>{2}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "40,38,\"love,id,kithKin<>,3600\",\"<,!/,!/,<\",\"1,kithKin<>,1,gameTime\",100,0,\"3,11\",0,,,,,一行踪诡异之人拦路而出，欲行不轨之事……,210080,80,2880,40,1,2"
   splits:
   - split: 13
@@ -621,7 +796,12 @@
     translated: "Master"
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "47,45,\"1,kithKin<>,JiaoQing<ChouDi>,attribute\",\">,!/,!/,>\",\"JiaoQing<ShiFu>,1,1,attribute\",100,0,\"3,11\",0,,,,,武学宗师<color=#E64D00>a</color>欲要收徒……,210170,80,14400,5,2,2"
   splits:
   - split: 13
@@ -633,7 +813,10 @@
     translated: "Wants to take on an apprentice......"
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "48,46,\"JiaoQing<ZhiJiao>,love\",\"//,>\",\"1,64\",100,0,\"3,11\",0,,,,,与<color=#E64D00>p</color>情谊日深的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明结交金兰之意……,210180,80,7200,15,2,2"
   splits:
   - split: 13
@@ -653,7 +836,12 @@
     translated: "Expressing the intention to form a Sworn Bond..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "49,47,\"id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,>\",\"kithKin<>,1,1,29\",100,0,\"3,11\",0,,,,,与<color=#E64D00>p</color>相识已久的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>表明结为知交之意……,210190,80,7200,15,2,2"
   splits:
   - split: 13
@@ -673,7 +861,12 @@
     translated: "Indicating the intention to become confidants......"
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "50,48,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,!/,!/,//\",\"1,sex,kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>偶遇才子，心向往之，欲与之结交相识……,210200,80,4320,40,2,2"
   splits:
   - split: 13
@@ -681,7 +874,10 @@
     translated: "Met a scholar and felt drawn to them, wishing to befriend and get to know them..."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}"
+    template: "<color=#E64D00>{npcName}</color>{0}"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "51,49,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"!/,!/,!/,!/,!/,//\",\"1,sex,kithKin<>,1,1,19\",100,0,\"3,11\",0,,,,,与才子相识已久的<color=#E64D00>a</color>决意向其表明心迹……,210210,80,4320,40,2,2"
   splits:
   - split: 13
@@ -693,7 +889,10 @@
     translated: "Determined to declare his feelings..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "52,50,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"//,!/,!/,!/,!/,>\",\"1,sex,kithKin<>,1,1,0\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>偶遇佳人，心向往之，欲与之结交相识……,210220,80,4320,40,2,2"
   splits:
   - split: 13
@@ -701,7 +900,10 @@
     translated: "Met a lovely lady, my heart yearns for her, wishing to be acquainted and know her..."
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}"
+    template: "<color=#E64D00>{npcName}</color>{0}"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "53,51,\"sex,sex,id,kithKin<>,JiaoQing<ChouDi>,love\",\"//,!/,!/,!/,!/,>\",\"1,sex,kithKin<>,1,1,19\",100,0,\"3,11\",0,,,,,与佳人相识已久的<color=#E64D00>a</color>决意向其表明心迹……,210230,80,4320,40,2,2"
   splits:
   - split: 13
@@ -713,7 +915,10 @@
     translated: "Determined to declare his feelings..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>a</color>{1}"
+    template: "{0}<color=#E64D00>{npcName}</color>{1}"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "54,52,\"JiaoQing<ShiFu>,love\",\"//,>\",\"1,19\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>听闻师父<color=#E64D00>p</color>在此处，思念甚厚，特来寻<color=#E64D00>p</color>相聚片刻。,210240,80,2880,40,2,2"
   splits:
   - split: 13
@@ -729,7 +934,12 @@
     translated: "Spent a short while together"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "55,53,\"JiaoQing<TuDi>,love\",\"//,>\",\"1,19\",100,0,\"3,11\",0,,,,,<color=#E64D00>a</color>听闻徒弟<color=#E64D00>p</color>在此处，担心徒儿修行险阻，特来寻<color=#E64D00>p</color>为其排忧解难。,210250,80,2880,40,2,2"
   splits:
   - split: 13
@@ -745,7 +955,12 @@
     translated: "Help solve their problems"
   templates:
   - split: 13
-    template: "<color=#E64D00>a</color>{0}<color=#E64D00>p</color>{1}<color=#E64D00>p</color>{2}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{playerName}</color>{2}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "56,54,\"love,id,kithKin<>,age,attribute\",\">,!/,!/,<,<\",\"-1,kithKin<>,1,30,attribute\",100,0,\"3,11\",0,,,,,崇拜<color=#E64D00>p</color>许久的后生晚辈<color=#E64D00>a</color>，闻听<color=#E64D00>p</color>在此处，特来拜访……,210260,80,4320,40,2,2"
   splits:
   - split: 13
@@ -765,7 +980,12 @@
     translated: "Here to pay a visit..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
 - raw: "57,55,\"love,id,kithKin<>\",\">,!/,!/\",\"49,kithKin<>,1\",100,0,\"3,11\",0,PlayerLove(),8+,,,与<color=#E64D00>p</color>情谊日深的<color=#E64D00>a</color>决意向<color=#E64D00>p</color>提出结伴同行江湖之意……,210270,80,4320,40,2,2"
   splits:
   - split: 13
@@ -785,4 +1005,9 @@
     translated: "Expressing the wish to travel together in the Jianghu..."
   templates:
   - split: 13
-    template: "{0}<color=#E64D00>p</color>{1}<color=#E64D00>a</color>{2}<color=#E64D00>p</color>{3}"
+    template: "{0}<color=#E64D00>{playerName}</color>{1}<color=#E64D00>{npcName}</color>{2}<color=#E64D00>{playerName}</color>{3}"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"

@@ -447,16 +447,10 @@
 - raw: "126,4402,[父亲||母亲]有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！,4603,,"
   splits:
   - split: 2
-    text: "父亲"
-  - split: 2
-    subIndex: 1
-    text: "母亲"
-  - split: 2
-    subIndex: 2
-    text: "有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！"
+    tokens:
+      playerTitle:
+        source: "[父亲||母亲]"
 - raw: "127,4501,你我恩怨两清，再无怨怼，至此化干戈为玉帛……也堪称一段佳话，且来日再会！,500,,"
   splits:
   - split: 2
@@ -896,42 +890,24 @@
 - raw: "212,1909,[少侠||女侠]，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
-    text: "少侠"
-  - split: 2
-    subIndex: 1
-    text: "女侠"
-  - split: 2
-    subIndex: 2
-    text: "，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。"
+    tokens:
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "213,210010,[少侠||女侠]之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？,\"1231,1232\",,"
   splits:
   - split: 2
-    text: "少侠"
-  - split: 2
-    subIndex: 1
-    text: "女侠"
-  - split: 2
-    subIndex: 2
-    text: "之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？"
+    tokens:
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "214,210011,[少侠||女侠]果真率性！今日相识，实快慰平生！,500,,"
   splits:
   - split: 2
-    text: "少侠"
-  - split: 2
-    subIndex: 1
-    text: "女侠"
-  - split: 2
-    subIndex: 2
-    text: "果真率性！今日相识，实快慰平生！"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}果真率性！今日相识，实快慰平生！"
+    tokens:
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "215,210012,……阁下既不愿结交，在下亦不敢强求，只是阁下此言……未免自视甚高了些！,500,,"
   splits:
   - split: 2
@@ -939,28 +915,10 @@
 - raw: "216,210020,你我二人，情深义厚，在下冒昧开言，欲与[兄||姊]义结金兰，以全你我情谊，却不知[兄||姊]意愿如何？,\"1241,1242\",,"
   splits:
   - split: 2
-    text: "你我二人，情深义厚，在下冒昧开言，欲与"
-  - split: 2
-    subIndex: 1
-    text: "兄"
-  - split: 2
-    subIndex: 2
-    text: "姊"
-  - split: 2
-    subIndex: 3
-    text: "义结金兰，以全你我情谊，却不知"
-  - split: 2
-    subIndex: 4
-    text: "兄"
-  - split: 2
-    subIndex: 5
-    text: "姊"
-  - split: 2
-    subIndex: 6
-    text: "意愿如何？"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
+    text: "你我二人，情深义厚，在下冒昧开言，欲与{playerTitle}义结金兰，以全你我情谊，却不知{playerTitle}意愿如何？"
+    tokens:
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "217,210021,皇天厚土，金兰之交，你我定不相负！,500,,"
   splits:
   - split: 2
@@ -968,60 +926,26 @@
 - raw: "218,210022,自然，自然……既[兄||姊]不愿结交，在下亦不敢强求……,500,,"
   splits:
   - split: 2
-    text: "自然，自然……既"
-  - split: 2
-    subIndex: 1
-    text: "兄"
-  - split: 2
-    subIndex: 2
-    text: "姊"
-  - split: 2
-    subIndex: 3
-    text: "不愿结交，在下亦不敢强求……"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "自然，自然……既{playerTitle}不愿结交，在下亦不敢强求……"
+    tokens:
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "219,210030,lp，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义[子||女]，却不知你意下如何？,\"1251,1252\",,"
   splits:
   - split: 2
-    text: "，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义"
-  - split: 2
-    subIndex: 1
-    text: "子"
-  - split: 2
-    subIndex: 2
-    text: "女"
-  - split: 2
-    subIndex: 3
-    text: "，却不知你意下如何？"
-  templates:
-  - split: 2
-    template: "lp{0}[{1}||{2}]{3}"
+    text: "{playerLastName}，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义{playerTitle}，却不知你意下如何？"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[子||女]"
 - raw: "220,210031,今日喜得义[子||女]，有[子||女]若此，实快慰平生！,500,,"
   splits:
   - split: 2
-    text: "今日喜得义"
-  - split: 2
-    subIndex: 1
-    text: "子"
-  - split: 2
-    subIndex: 2
-    text: "女"
-  - split: 2
-    subIndex: 3
-    text: "，有"
-  - split: 2
-    subIndex: 4
-    text: "子"
-  - split: 2
-    subIndex: 5
-    text: "女"
-  - split: 2
-    subIndex: 6
-    text: "若此，实快慰平生！"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
+    text: "今日喜得义{playerTitle}，有{playerTitle}若此，实快慰平生！"
+    tokens:
+      playerTitle:
+        source: "[子||女]"
 - raw: "221,210032,……你既如此说，我定不能强求，只叹可惜……,500,,"
   splits:
   - split: 2
@@ -1029,13 +953,10 @@
 - raw: "222,210040,些许时日不见……倒觉得lp似换了个人一般……似，似有些不一样……,\"1261,1262\",,"
   splits:
   - split: 2
-    text: "些许时日不见……倒觉得"
-  - split: 2
-    subIndex: 1
-    text: "似换了个人一般……似，似有些不一样……"
-  templates:
-  - split: 2
-    template: "{0}lp{1}"
+    text: "些许时日不见……倒觉得{playerLastName}似换了个人一般……似，似有些不一样……"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "223,210041,你……你也常惦着我么……,500,,"
   splits:
   - split: 2
@@ -1047,16 +968,10 @@
 - raw: "225,210050,lp……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与lp相伴江湖，便心满意足了……却不知，lp你心意如何？,\"1271,1272\",,"
   splits:
   - split: 2
-    text: "……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与"
-  - split: 2
-    subIndex: 1
-    text: "相伴江湖，便心满意足了……却不知，"
-  - split: 2
-    subIndex: 2
-    text: "你心意如何？"
-  templates:
-  - split: 2
-    template: "lp{0}lp{1}lp{2}"
+    text: "{playerLastName}……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与{playerLastName}相伴江湖，便心满意足了……却不知，{playerLastName}你心意如何？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "226,210051,如此，如此……便太好了，还怕我拙口笨舌，道不出心迹……至此之后，诺大江湖，你我便再非孤身一人了……,500,,"
   splits:
   - split: 2
@@ -1068,19 +983,12 @@
 - raw: "228,210060,我与lp情深无限，契阔生死自不必多言，今欲与lp结为夫妇……不知，不知p你意下如何……,\"1281,1282\",,"
   splits:
   - split: 2
-    text: "我与"
-  - split: 2
-    subIndex: 1
-    text: "情深无限，契阔生死自不必多言，今欲与"
-  - split: 2
-    subIndex: 2
-    text: "结为夫妇……不知，不知"
-  - split: 2
-    subIndex: 3
-    text: "你意下如何……"
-  templates:
-  - split: 2
-    template: "{0}lp{1}lp{2}p{3}"
+    text: "我与{playerLastName}情深无限，契阔生死自不必多言，今欲与{playerLastName}结为夫妇……不知，不知{playerName}你意下如何……"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerName:
+        source: "p"
 - raw: "229,210061,此生结发，定不负卿情……生生世世，与子共生。,500,,"
   splits:
   - split: 2
@@ -1284,85 +1192,57 @@
 - raw: "267,210130,[小子||丫头]，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定!我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，[小子||丫头]需得当机立断，莫要迟疑！,\"1341,1342,1343\",,"
   splits:
   - split: 2
-    text: "小子"
+    text: "{playerTitle}，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定"
+    tokens:
+      playerTitle: &o0
+        source: "[小子||丫头]"
   - split: 2
     subIndex: 1
-    text: "丫头"
-  - split: 2
-    subIndex: 2
-    text: "，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定"
-  - split: 2
-    subIndex: 3
-    text: "我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，"
-  - split: 2
-    subIndex: 4
-    text: "小子"
-  - split: 2
-    subIndex: 5
-    text: "丫头"
-  - split: 2
-    subIndex: 6
-    text: "需得当机立断，莫要迟疑！"
+    text: "我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，{playerTitle}需得当机立断，莫要迟疑！"
+    tokens:
+      playerTitle: *o0
   templates:
   - split: 2
-    template: "[{0}||{1}]{2}!{3}[{4}||{5}]{6}"
+    template: "{0}!{1}"
 - raw: "268,210131,你咬牙拿出一笔银子买下秘籍。商贩接过银子，迅速将秘籍塞到你手上，还不忘叮嘱几句：“此术珍贵无比，[小子||丫头]需要勤加修炼，莫要辜负了这绝世功法。”,500,,"
   splits:
   - split: 2
     text: "你咬牙拿出一笔银子买下秘籍。商贩接过银子，迅速将秘籍塞到你手上，还不忘叮嘱几句"
   - split: 2
     subIndex: 1
-    text: "“此术珍贵无比，"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-  - split: 2
-    subIndex: 4
-    text: "需要勤加修炼，莫要辜负了这绝世功法。”"
+    text: "“此术珍贵无比，{playerTitle}需要勤加修炼，莫要辜负了这绝世功法。”"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "269,210132,你心觉此事太过蹊跷，于是断然拒绝。那商贩冷笑道：“你这[小子||丫头]，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……,500,,"
   splits:
   - split: 2
     text: "你心觉此事太过蹊跷，于是断然拒绝。那商贩冷笑道"
   - split: 2
     subIndex: 1
-    text: "“你这"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-  - split: 2
-    subIndex: 4
-    text: "，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……"
+    text: "“你这{playerTitle}，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "270,210133,你心中虽有疑虑，但又不想错失机缘。于是你试图让此人演练几式，藉此进一步观察秘籍真假。此人听后眼神闪烁，说道：“此功杀人夺命，伤残难免，[小子||丫头]可有胆量一试？”,\"1344,1345,1346\",,"
   splits:
   - split: 2
     text: "你心中虽有疑虑，但又不想错失机缘。于是你试图让此人演练几式，藉此进一步观察秘籍真假。此人听后眼神闪烁，说道"
   - split: 2
     subIndex: 1
-    text: "“此功杀人夺命，伤残难免，"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-  - split: 2
-    subIndex: 4
-    text: "可有胆量一试？”"
+    text: "“此功杀人夺命，伤残难免，{playerTitle}可有胆量一试？”"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "271,210134,一番交战过后，商贩败于你手，惊慌地说道：“是晚辈鲁莽，冲撞了前辈。这本秘籍交予阁下，算是小的赔罪。”随后，商贩将秘籍交到你手上，便不再言语……,1349,,"
   splits:
   - split: 2
@@ -1379,54 +1259,39 @@
     text: "你躲避不及，被其击伤在地，更因此受了一种古怪毒伤，痛苦不堪。那人得意说道"
   - split: 2
     subIndex: 1
-    text: "小子"
-  - split: 2
-    subIndex: 2
-    text: "丫头"
-  - split: 2
-    subIndex: 3
-    text: "，看你也算有点胆量。我有一颗专治此伤的奇丹，只要你给银子，此丹便割爱与你，服下即刻痊愈。”"
+    text: "“{playerTitle}，看你也算有点胆量。我有一颗专治此伤的奇丹，只要你给银子，此丹便割爱与你，服下即刻痊愈。”"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：“[{1}||{2}]{3}"
+    template: "{0}：{1}"
 - raw: "273,210136,犹豫再三，你一咬牙，不再试探，直接购置此功。此人接过银子，脸上瞬间堆满笑容，赶忙将秘籍交与你手，还不忘叮嘱：“此术珍贵无比，[小子||丫头]需勤加修炼，莫要辜负这绝世功法。”,500,,"
   splits:
   - split: 2
     text: "犹豫再三，你一咬牙，不再试探，直接购置此功。此人接过银子，脸上瞬间堆满笑容，赶忙将秘籍交与你手，还不忘叮嘱"
   - split: 2
     subIndex: 1
-    text: "“此术珍贵无比，"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-  - split: 2
-    subIndex: 4
-    text: "需勤加修炼，莫要辜负这绝世功法。”"
+    text: "“此术珍贵无比，{playerTitle}需勤加修炼，莫要辜负这绝世功法。”"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "274,210137,那卖秘籍之人见状，冷笑一声道：“你这[小子||丫头]，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……,500,,"
   splits:
   - split: 2
     text: "那卖秘籍之人见状，冷笑一声道"
   - split: 2
     subIndex: 1
-    text: "“你这"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-  - split: 2
-    subIndex: 4
-    text: "，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……"
+    text: "“你这{playerTitle}，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "275,210138,你咬咬牙，决定相信此人，你将丹药服下后，不消片刻，内伤全无……那人见你伤势痊愈，便收起秘籍，侧立一旁不再言语。你望着其手中的秘籍，心中懊悔不已……,500,,"
   splits:
   - split: 2
@@ -1441,19 +1306,13 @@
     text: "一古怪之人拦住了你的去路，口中念叨着道经心法……半晌过后，此人停下所念，对你言道"
   - split: 2
     subIndex: 1
-    text: "“甘露不润无根之草，大道不渡无缘之人……"
-  - split: 2
-    subIndex: 2
-    text: "少侠"
-  - split: 2
-    subIndex: 3
-    text: "姑娘"
-  - split: 2
-    subIndex: 4
-    text: "若心有所求，不妨告知在下，或有所得……”"
+    text: "“甘露不润无根之草，大道不渡无缘之人……{playerTitle}若心有所求，不妨告知在下，或有所得……”"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "278,210141,你想起曾听闻的神丹传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取丹药。怪人接过银两，微微点头，取出一个小巧的丹盒，递与你。便又念叨起道经心法……,500,,"
   splits:
   - split: 2
@@ -1526,10 +1385,10 @@
 - raw: "290,210170,p，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？,\"1381,1382\",,"
   splits:
   - split: 2
-    text: "，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？"
-  templates:
-  - split: 2
-    template: "p{0}"
+    text: "{playerName}，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "291,210171,好，从今日起，你便是我的徒弟。为师定会尽心教导与你，望你能奋发图强，早日有所成就。,500,,"
   splits:
   - split: 2
@@ -1541,44 +1400,27 @@
 - raw: "293,210180,fp[兄||姊]，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知fp[兄||姊]意下如何？,\"1391,1392\",,"
   splits:
   - split: 2
-    text: "兄"
-  - split: 2
-    subIndex: 1
-    text: "姊"
-  - split: 2
-    subIndex: 2
-    text: "，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知"
-  - split: 2
-    subIndex: 3
-    text: "兄"
-  - split: 2
-    subIndex: 4
-    text: "姊"
-  - split: 2
-    subIndex: 5
-    text: "意下如何？"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
+    text: "{playerFirstName}{playerTitle}，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知{playerFirstName}{playerTitle}意下如何？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "294,210181,哈哈，今日我{0}得fp[兄||姊]这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！,500,,"
   splits:
   - split: 2
     text: "哈哈，今日我"
   - split: 2
     subIndex: 1
-    text: "得"
-  - split: 2
-    subIndex: 2
-    text: "兄"
-  - split: 2
-    subIndex: 3
-    text: "姊"
-  - split: 2
-    subIndex: 4
-    text: "这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！"
+    text: "得{playerFirstName}{playerTitle}这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
   templates:
   - split: 2
-    template: "{0}⟦0⟧{1}fp[{2}||{3}]{4}"
+    template: "{0}⟦0⟧{1}"
 - raw: "295,210182,如此……也罢……,500,,"
   splits:
   - split: 2
@@ -1586,44 +1428,27 @@
 - raw: "296,210190,fp[兄||姊]，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，fp[兄||姊]可愿否？,\"1401,1402\",,"
   splits:
   - split: 2
-    text: "兄"
-  - split: 2
-    subIndex: 1
-    text: "姊"
-  - split: 2
-    subIndex: 2
-    text: "，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，"
-  - split: 2
-    subIndex: 3
-    text: "兄"
-  - split: 2
-    subIndex: 4
-    text: "姊"
-  - split: 2
-    subIndex: 5
-    text: "可愿否？"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
+    text: "{playerFirstName}{playerTitle}，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，{playerFirstName}{playerTitle}可愿否？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "297,210191,哈哈，太好了！从此，fp[兄||姊]便是我{0}的知心好友，得此良友，实乃人生幸事！,500,,"
   splits:
   - split: 2
-    text: "哈哈，太好了！从此，"
+    text: "哈哈，太好了！从此，{playerFirstName}{playerTitle}便是我"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
   - split: 2
     subIndex: 1
-    text: "兄"
-  - split: 2
-    subIndex: 2
-    text: "姊"
-  - split: 2
-    subIndex: 3
-    text: "便是我"
-  - split: 2
-    subIndex: 4
     text: "的知心好友，得此良友，实乃人生幸事！"
   templates:
   - split: 2
-    template: "{0}fp[{1}||{2}]{3}⟦0⟧{4}"
+    template: "{0}⟦0⟧{1}"
 - raw: "298,210192,如此……也罢……,500,,"
   splits:
   - split: 2
@@ -1643,10 +1468,10 @@
 - raw: "302,210210,fp公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？,\"1421,1422\",,"
   splits:
   - split: 2
-    text: "公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？"
-  templates:
-  - split: 2
-    template: "fp{0}"
+    text: "{playerFirstName}公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "303,210211,小女欢喜至极！愿生死相伴公子，朝朝暮暮，此情不渝……,500,,"
   splits:
   - split: 2
@@ -1676,10 +1501,10 @@
 - raw: "308,210230,fp姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？,\"1441,1442\",,"
   splits:
   - split: 2
-    text: "姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？"
-  templates:
-  - split: 2
-    template: "fp{0}"
+    text: "{playerFirstName}姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "309,210231,小生欢喜至极！愿生死相伴姑娘，朝朝暮暮，此情不渝……,500,,"
   splits:
   - split: 2
@@ -1709,17 +1534,17 @@
 - raw: "314,210250,lp，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？,\"1461,1462\",,"
   splits:
   - split: 2
-    text: "，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？"
-  templates:
-  - split: 2
-    template: "lp{0}"
+    text: "{playerLastName}，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "315,210251,lp，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。,500,,"
   splits:
   - split: 2
-    text: "，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。"
-  templates:
-  - split: 2
-    template: "lp{0}"
+    text: "{playerLastName}，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "316,210252,罢了，为师也不勉强与你。只望你日后若真有难处，莫要硬撑……,500,,"
   splits:
   - split: 2
@@ -1754,25 +1579,12 @@
 - raw: "320,210270,fp[兄||姊]，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知fp[兄||姊]意下如何？,\"1481,1482\",,"
   splits:
   - split: 2
-    text: "兄"
-  - split: 2
-    subIndex: 1
-    text: "姊"
-  - split: 2
-    subIndex: 2
-    text: "，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知"
-  - split: 2
-    subIndex: 3
-    text: "兄"
-  - split: 2
-    subIndex: 4
-    text: "姊"
-  - split: 2
-    subIndex: 5
-    text: "意下如何？"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
+    text: "{playerFirstName}{playerTitle}，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知{playerFirstName}{playerTitle}意下如何？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "321,210271,江湖路漫，有君相伴，纵前路艰险，心亦无惧。愿与君同进退，共生死！,500,,"
   splits:
   - split: 2
@@ -2362,68 +2174,50 @@
 - raw: "397,310010,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。,\"310011,310012,310013,310014\",,"
   splits:
   - split: 2
-    text: "冤家路窄，不共戴天的"
-  - split: 2
-    subIndex: 1
-    text: "和"
-  - split: 2
-    subIndex: 2
-    text: "一见到彼此便拔刀相向，死斗在一处。"
-  templates:
-  - split: 2
-    template: "{0}a{1}b{2}"
+    text: "冤家路窄，不共戴天的{npcName}和{otherNpcName}一见到彼此便拔刀相向，死斗在一处。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "398,310011,a与b在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。,500,,"
   splits:
   - split: 2
-    text: "与"
-  - split: 2
-    subIndex: 1
-    text: "在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
-  templates:
-  - split: 2
-    template: "a{0}b{1}"
+    text: "{npcName}与{otherNpcName}在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "399,310012,因为忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。,500,,"
   splits:
   - split: 2
-    text: "因为忌惮"
-  - split: 2
-    subIndex: 1
-    text: "武功高强，在江湖中又颇有名望，"
-  - split: 2
-    subIndex: 2
-    text: "和"
-  - split: 2
-    subIndex: 3
-    text: "双方决定暂时罢手，相约他日再做了断。"
-  templates:
-  - split: 2
-    template: "{0}p{1}a{2}b{3}"
+    text: "因为忌惮{playerName}武功高强，在江湖中又颇有名望，{npcName}和{otherNpcName}双方决定暂时罢手，相约他日再做了断。"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "400,310013,双拳难敌四手，a得你出手相助之后，b立刻难以支撑，数招之后负伤逃走。,310020,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-  templates:
-  - split: 2
-    template: "{0}a{1}b{2}"
+    text: "双拳难敌四手，{npcName}得你出手相助之后，{otherNpcName}立刻难以支撑，数招之后负伤逃走。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "401,310014,双拳难敌四手，b得你出手相助之后，a立刻难以支撑，数招之后负伤逃走。,500,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-  templates:
-  - split: 2
-    template: "{0}b{1}a{2}"
+    text: "双拳难敌四手，{otherNpcName}得你出手相助之后，{npcName}立刻难以支撑，数招之后负伤逃走。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "402,310015,不想你如此黑白不分，竟助纣为虐，要杀要剐，悉听尊便。,\"310024,310025,310026,310027,310028,310029,310030,310031,310032,310033\",,"
   splits:
   - split: 2
@@ -2435,78 +2229,57 @@
 - raw: "404,310017,江湖输赢常有，少侠且宽心……今日之恩，a来日必涌泉相报。,310021,,"
   splits:
   - split: 2
-    text: "江湖输赢常有，少侠且宽心……今日之恩，"
-  - split: 2
-    subIndex: 1
-    text: "来日必涌泉相报。"
-  templates:
-  - split: 2
-    template: "{0}a{1}"
+    text: "江湖输赢常有，少侠且宽心……今日之恩，{npcName}来日必涌泉相报。"
+    tokens:
+      npcName:
+        source: "a"
 - raw: "405,410010,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。,\"410011,410012,410013,410014\",,"
   splits:
   - split: 2
-    text: "冤家路窄，不共戴天的"
-  - split: 2
-    subIndex: 1
-    text: "和"
-  - split: 2
-    subIndex: 2
-    text: "一见到彼此便拔刀相向，死斗在一处。"
-  templates:
-  - split: 2
-    template: "{0}b{1}a{2}"
+    text: "冤家路窄，不共戴天的{otherNpcName}和{npcName}一见到彼此便拔刀相向，死斗在一处。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "406,410011,b与a在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。,500,,"
   splits:
   - split: 2
-    text: "与"
-  - split: 2
-    subIndex: 1
-    text: "在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
-  templates:
-  - split: 2
-    template: "b{0}a{1}"
+    text: "{otherNpcName}与{npcName}在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "407,410012,因为忌惮p武功高强，在江湖中又颇有名望，b和a双方决定暂时罢手，相约他日再做了断。,500,,"
   splits:
   - split: 2
-    text: "因为忌惮"
-  - split: 2
-    subIndex: 1
-    text: "武功高强，在江湖中又颇有名望，"
-  - split: 2
-    subIndex: 2
-    text: "和"
-  - split: 2
-    subIndex: 3
-    text: "双方决定暂时罢手，相约他日再做了断。"
-  templates:
-  - split: 2
-    template: "{0}p{1}b{2}a{3}"
+    text: "因为忌惮{playerName}武功高强，在江湖中又颇有名望，{otherNpcName}和{npcName}双方决定暂时罢手，相约他日再做了断。"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "408,410013,双拳难敌四手，b得你出手相助之后，a立刻难以支撑，数招之后负伤逃走。,410020,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-  templates:
-  - split: 2
-    template: "{0}b{1}a{2}"
+    text: "双拳难敌四手，{otherNpcName}得你出手相助之后，{npcName}立刻难以支撑，数招之后负伤逃走。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "409,410014,双拳难敌四手，a得你出手相助之后，b立刻难以支撑，数招之后负伤逃走。,500,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-  templates:
-  - split: 2
-    template: "{0}a{1}b{2}"
+    text: "双拳难敌四手，{npcName}得你出手相助之后，{otherNpcName}立刻难以支撑，数招之后负伤逃走。"
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "410,410015,不想你如此黑白不分，竟助纣为虐，要杀要剐，悉听尊便。,\"410024,410025,410026,410027,410028,410029,410030,410031,410032,410033\",,"
   splits:
   - split: 2
@@ -2518,13 +2291,10 @@
 - raw: "412,410017,江湖输赢常有，少侠且宽心……今日之恩，b来日必涌泉相报。,410021,,"
   splits:
   - split: 2
-    text: "江湖输赢常有，少侠且宽心……今日之恩，"
-  - split: 2
-    subIndex: 1
-    text: "来日必涌泉相报。"
-  templates:
-  - split: 2
-    template: "{0}b{1}"
+    text: "江湖输赢常有，少侠且宽心……今日之恩，{otherNpcName}来日必涌泉相报。"
+    tokens:
+      otherNpcName:
+        source: "b"
 - raw: "413,300,吾等公门中人，自当日夜监察，防患未然，只恨当今庙堂无力，让那等江湖人士公然行走于街市……,673,闲谈   1级缉捕等级触发,"
   splits:
   - split: 2
@@ -2564,68 +2334,32 @@
 - raw: "425,406,哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，[公子||姑娘]便替奴家道出了心中所想……,\"684,685,686\",,"
   splits:
   - split: 2
-    text: "哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-  - split: 2
-    subIndex: 3
-    text: "便替奴家道出了心中所想……"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，{playerTitle}便替奴家道出了心中所想……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "426,407,25,689,【对诗成功】这个lips_id不要动，程序写死了,"
 - raw: "427,408,此局是[公子||姑娘]胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……,691,,"
   splits:
   - split: 2
-    text: "此局是"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-  - split: 2
-    subIndex: 3
-    text: "胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此局是{playerTitle}胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "428,409,此局奴家虽胜，然以[公子||姑娘]之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？,692,,"
   splits:
   - split: 2
-    text: "此局奴家虽胜，然以"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-  - split: 2
-    subIndex: 3
-    text: "之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此局奴家虽胜，然以{playerTitle}之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "429,410,此等大恩，无以为报，奴家往后残生，自当相随[公子||姑娘]左右……,688,,"
   splits:
   - split: 2
-    text: "此等大恩，无以为报，奴家往后残生，自当相随"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-  - split: 2
-    subIndex: 3
-    text: "左右……"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此等大恩，无以为报，奴家往后残生，自当相随{playerTitle}左右……"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "430,411,杂役取来热水热桶，干巾帕布，湿气氤氲中，姑娘为你拂擦肩背，耳闻温软笑语，你只觉通体舒泰，紧绷的精神亦渐渐放松……,693,\"洗澡对话，洗澡开头的ID411不变,程序直接写死，后续ID随意\","
   splits:
   - split: 2
@@ -2648,35 +2382,23 @@
 - raw: "437,430,咱们gangName在这mapName可是大名鼎鼎，gangWuxue，阁下可有意加入？,\"757,750\",帮派总管-无帮派对话,"
   splits:
   - split: 2
-    text: "咱们"
-  - split: 2
-    subIndex: 1
-    text: "在这"
-  - split: 2
-    subIndex: 2
-    text: "可是大名鼎鼎，"
-  - split: 2
-    subIndex: 3
-    text: "，阁下可有意加入？"
-  templates:
-  - split: 2
-    template: "{0}gangName{1}mapName{2}gangWuxue{3}"
+    text: "咱们{gangName}在这{mapName}可是大名鼎鼎，{gangMartialArts}，阁下可有意加入？"
+    tokens:
+      gangName:
+        source: "gangName"
+      mapName:
+        source: "mapName"
+      gangMartialArts:
+        source: "gangWuxue"
 - raw: "438,431,甚好，既入本帮，咱们便是休戚与共，同进同退，哪日fp[兄弟||妹子]若欲另谋高就，与我知会一声便是。,500,帮派总管-加入帮派,"
   splits:
   - split: 2
-    text: "甚好，既入本帮，咱们便是休戚与共，同进同退，哪日"
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-  - split: 2
-    subIndex: 3
-    text: "若欲另谋高就，与我知会一声便是。"
-  templates:
-  - split: 2
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "甚好，既入本帮，咱们便是休戚与共，同进同退，哪日{playerFirstName}{playerTitle}若欲另谋高就，与我知会一声便是。"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "439,432,无妨，无妨。,500,帮派总管-尚需考虑,"
   splits:
   - split: 2
@@ -2684,48 +2406,30 @@
 - raw: "440,433,咱们gangName在这mapName可是大名鼎鼎，gangWuxue，可惜阁下已然另栖他枝，若是有意观光，还请自便。,500,帮派总管-其他帮派对话,"
   splits:
   - split: 2
-    text: "咱们"
-  - split: 2
-    subIndex: 1
-    text: "在这"
-  - split: 2
-    subIndex: 2
-    text: "可是大名鼎鼎，"
-  - split: 2
-    subIndex: 3
-    text: "，可惜阁下已然另栖他枝，若是有意观光，还请自便。"
-  templates:
-  - split: 2
-    template: "{0}gangName{1}mapName{2}gangWuxue{3}"
+    text: "咱们{gangName}在这{mapName}可是大名鼎鼎，{gangMartialArts}，可惜阁下已然另栖他枝，若是有意观光，还请自便。"
+    tokens:
+      gangName:
+        source: "gangName"
+      mapName:
+        source: "mapName"
+      gangMartialArts:
+        source: "gangWuxue"
 - raw: "441,434,fp[兄弟||妹子]此来何事？,\"751,500\",帮派总管-本帮派对话,"
   splits:
   - split: 2
-    text: "兄弟"
-  - split: 2
-    subIndex: 1
-    text: "妹子"
-  - split: 2
-    subIndex: 2
-    text: "此来何事？"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}此来何事？"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "442,435,此事虽无不可，但若离了本帮，[兄弟||妹子]先前为本帮所作贡献，可要一笔勾销了。,\"752,753\",帮派总管-退出帮派,"
   splits:
   - split: 2
-    text: "此事虽无不可，但若离了本帮，"
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-  - split: 2
-    subIndex: 3
-    text: "先前为本帮所作贡献，可要一笔勾销了。"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此事虽无不可，但若离了本帮，{playerTitle}先前为本帮所作贡献，可要一笔勾销了。"
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "443,436,人各有志，不可强求……,500,帮派总管-确认退出,"
   splits:
   - split: 2
@@ -2737,19 +2441,10 @@
 - raw: "445,438,帮里眼下正有几件棘手事务需办，[兄弟||妹子]，可有闲暇？,\"754,500\",帮派执事-本帮派对话,"
   splits:
   - split: 2
-    text: "帮里眼下正有几件棘手事务需办，"
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-  - split: 2
-    subIndex: 3
-    text: "，可有闲暇？"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "帮里眼下正有几件棘手事务需办，{playerTitle}，可有闲暇？"
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "446,439,此间专理本帮名簿内务，阁下若是有事，不妨去寻总管相谈。,500,帮派师爷-无帮派/其他帮派对话,"
   splits:
   - split: 2
@@ -2765,41 +2460,17 @@
 - raw: "449,442,此间一应物事，皆是替帮中弟兄所备，[兄弟||妹子]若是有意，不妨瞧瞧。,\"756,500\",库房管事-本帮派对话,"
   splits:
   - split: 2
-    text: "此间一应物事，皆是替帮中弟兄所备，"
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-  - split: 2
-    subIndex: 3
-    text: "若是有意，不妨瞧瞧。"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此间一应物事，皆是替帮中弟兄所备，{playerTitle}若是有意，不妨瞧瞧。"
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "450,443,[兄弟||妹子]近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若[兄弟||妹子]有意在本帮提升位阶，不妨前往一观。,500,升阶,"
   splits:
   - split: 2
-    text: "兄弟"
-  - split: 2
-    subIndex: 1
-    text: "妹子"
-  - split: 2
-    subIndex: 2
-    text: "近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若"
-  - split: 2
-    subIndex: 3
-    text: "兄弟"
-  - split: 2
-    subIndex: 4
-    text: "妹子"
-  - split: 2
-    subIndex: 5
-    text: "有意在本帮提升位阶，不妨前往一观。"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}[{3}||{4}]{5}"
+    text: "{playerTitle}近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若{playerTitle}有意在本帮提升位阶，不妨前往一观。"
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "451,444,7,500,帮派护卫,"
 - raw: "452,,,,,"
 - raw: "453,,,,,"

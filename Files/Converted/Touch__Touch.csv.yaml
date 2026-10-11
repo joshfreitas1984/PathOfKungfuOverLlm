@@ -133,7 +133,7 @@
   splits:
   - split: 3
     text: "梁君子祠"
-    translated: "Liang Junzi's Shrine"
+    translated: "Gentleman Liang's Shrine"
 - raw: "29,280009,,林中小屋,,0,0,1,None,280009,,,,,,\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"此处土地平整、了无别物……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1734925505,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"放眼望去，并无可疑之处。\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -4853,12 +4853,12 @@
   splits:
   - split: 3
     text: "溶洞入口"
-    translated: "Karst Cave entrance"
+    translated: "Cavern entrance"
 - raw: "973,11000009,,溶洞出口,,0,0,0,None,11000009,,,,,\"[{\"\"mapId\"\":12011,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":11000009001,\\\"\"talkType\\\"\":2,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"山洞连通的出口，可自此处离去。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"穿过洞口，离开山洞。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":11000009002},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"暂且在四处转转，稍后再来。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":11000009003}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":11000009002,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"11000009001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"1:12000,28,32\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":11000009003,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"11000009001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1697695988,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
     text: "溶洞出口"
-    translated: "Karst Cave exit"
+    translated: "Cavern exit"
 - raw: "974,11000010,,裂缝,,0,0,0,None,11000010,,,,,\"[{\"\"mapId\"\":12011,\"\"x\"\":0,\"\"y\"\":5,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":\"\"{\\\"\"isNeedWeather\\\"\":false,\\\"\"weatherType\\\"\":0,\\\"\"isOpenConditions\\\"\":true,\\\"\"conditions\\\"\":\\\"\"0,91000002,999;\\\"\"}\"\"}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":11000010001,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"此路已是岌岌可危，凶险难测，断不可从此路回返。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1698049760,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -5848,7 +5848,7 @@
   splits:
   - split: 3
     text: "溶洞缝隙"
-    translated: "Gap in the Karst Cave"
+    translated: "Cavern \\nGap"
 - raw: "1172,11000215,,阴冷的石碑,,0,0,0,None,11000215,11000215,,,,\"[{\"\"mapId\"\":12011,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":\"\"{\\\"\"isNeedWeather\\\"\":false,\\\"\"weatherType\\\"\":0,\\\"\"isOpenConditions\\\"\":false,\\\"\"conditions\\\"\":\\\"\"\\\"\"}\"\"}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":true,\"\"preTask2\"\":\"\"91000003,999:0;120001002,998:0\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":11000002004,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"江湖前客江怀楚，昔日天涯海阁客卿，曾创清风剑法存世，神狩七年，刺杀镇国公不成，为杜颜白领镇国卫所杀，遵其遗愿，送还青萍村，另有石书一册，怜其所行虽偏激但仍属正直，故不予损毁，同葬于此。——书碑者，杜颜白。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1726664685,\"[{\"\"id\"\":11,\"\"talkType\"\":2,\"\"name\"\":\"\"\"\",\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":\"\"\"\",\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":\"\"\"\",\"\"config\"\":\"\"\"\",\"\"action\"\":\"\"\"\",\"\"options\"\":\"\"[{\\\"\"name\\\"\":\\\"\"11\\\"\",\\\"\"id\\\"\":11}]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -7165,7 +7165,7 @@
   splits:
   - split: 3
     text: "溶洞"
-    translated: "Karst Cave"
+    translated: "Cavern"
 - raw: "1428,12013001,,深坑陷阱,,0,0,1,None,12013001,,,,,,\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"数米深的坑洞陷阱，岩壁有些锐利的小石块凸出。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1699088805,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"你于此处反复探看，只发现岩壁四周野兽抓痕，和一具兽骨。\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -10190,7 +10190,7 @@
   splits:
   - split: 3
     text: "许张氏"
-    translated: "Madam Xu (nee Zhang)"
+    translated: "Madam Xu-Zhang"
 - raw: "2033,1120001031,,西门家仆,,0,0,0,None,,,,dataName:新角色0518100215;protagonist:1;npcId:0;sex:1;Face:30/5;FrontHair:8/5;BehindHair:2/5;Eyes:16/5;Eyebrow:8/5;Nose:6/5;Mouth:8/5;FaceDecoration:1/5;Beard:1/5;Clothes:37/5;Mask:1/5;,,\"[{\"\"mapId\"\":13000,\"\"x\"\":36,\"\"y\"\":39,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"130003201,999:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"西门家仆微微躬身，颇为尊敬。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"},{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"130003201,999:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"130003206,999:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"西门家仆\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"家主可比其兄差得远了……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001031\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"},{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"130003206,999:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"西门家仆\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"家主一朝身死，西门家该何去何从……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001031\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1718761738,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -10275,7 +10275,7 @@
   splits:
   - split: 3
     text: "许张氏"
-    translated: "Madam Xu (nee Zhang)"
+    translated: "Madam Xu-Zhang"
 - raw: "2050,1120001078,,至宝阁商人,,0,0,0,None,,,,dataName:新角色0928180333;protagonist:1;npcId:0;sex:1;Face:113/5;FrontHair:12/5;BehindHair:5/5;Eyes:4/5;Eyebrow:20/5;Nose:17/5;Mouth:6/5;FaceDecoration:1/5;Beard:1/5;Clothes:1/5;Mask:1/5;,,\"[{\"\"mapId\"\":13010,\"\"x\"\":2,\"\"y\"\":1,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":2,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"至宝阁商人\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"匹夫无罪，怀璧其罪……阁下若想好了，便请罢。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001078\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"购买。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":3},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"径直离去。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":4}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":3,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"毒药商\\\"\",\\\"\"preId\\\"\":\\\"\"2\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120002110\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"6:0,250001\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":4,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1727520498,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -10400,7 +10400,7 @@
   splits:
   - split: 3
     text: "李张氏"
-    translated: "Madam Li (nee Zhang)"
+    translated: "Madam Li-Zhang"
 - raw: "2075,1120002025,,小西瓜,,2,0,0,None,,,,dataName:新角色0625113759;protagonist:1;npcId:0;sex:1;Face:23/5;FrontHair:16/5;BehindHair:14/5;Eyes:11/5;Eyebrow:13/5;Nose:11/5;Mouth:16/5;FaceDecoration:1/5;Beard:1/5;Clothes:19/5;Mask:1/5;,,\"[{\"\"mapId\"\":13000,\"\"x\"\":12,\"\"y\"\":47,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"130003605,999:2\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1120002025001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"小西瓜\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"<大哥哥||大姐姐>能带我去外头玩吗？\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120002025\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1120002025002,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"小西瓜\\\"\",\\\"\"preId\\\"\":\\\"\"1120002025001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"这后山待久了也是无趣得很，可爹爹跟娘亲偏不让我去其他地方玩耍。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120002025\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"},{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":true,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"17,2,130003605_999\"\"},\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"小西瓜\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"承安豪侠世无双，匹马单枪破连环。\\\\n        匪盗贼寇今朝尽，世间只余威名传……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120002025\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1722311654,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -10425,7 +10425,7 @@
   splits:
   - split: 3
     text: "马郑氏"
-    translated: "Madam Ma (nee Zheng)"
+    translated: "Madam Ma-Zheng"
 - raw: "2080,1120002030,,田健,,0,0,0,None,,,,dataName:民夫田健;protagonist:1;npcId:0;sex:1;Face:16/5;FrontHair:7/5;BehindHair:8/5;Eyes:9/5;Eyebrow:10/5;Nose:9/5;Mouth:13/5;FaceDecoration:10/5;Beard:5/5;Clothes:4/5;Mask:1/5;,,\"[{\"\"mapId\"\":13000,\"\"x\"\":33,\"\"y\"\":23,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1120002030001,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"田健\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"承安的米价竟节节高升，什么时候是个头啊！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120002030\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“大旱之年，米价上涨倒不足为奇，只是苦了百姓......”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1120002030003},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“何不食肉糜乎？”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1120002030002}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1120002030002,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"田健\\\"\",\\\"\"preId\\\"\":\\\"\"1120002030001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"你这厮真是薄凉，竟能说出如此无耻之语！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120002030\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1120002030003,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1120002030001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1690448914,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -12174,9 +12174,7 @@
   splits:
   - split: 3
     text: "妇女（尸首）"
-    translated: "Woman's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Female (Corpse)"
 - raw: "2427,1140003142,,崖守弟子（尸首）,,0,0,0,None,,,,dataName:天涯海阁弟子乙;protagonist:1;npcId:0;sex:1;Face:1/5;FrontHair:9/5;BehindHair:1/5;Eyes:3/5;Eyebrow:6/5;Nose:15/5;Mouth:9/5;FaceDecoration:1/5;Beard:1/5;Clothes:42/5;Mask:1/5;,,\"[{\"\"mapId\"\":15000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"斩杀这几名天涯海阁弟子的手法尽皆一致，从肩至腰，一刀毙命……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1720508701,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -12296,9 +12294,7 @@
   splits:
   - split: 3
     text: "黄小玥（尸首）"
-    translated: "Huang Xiaoyue's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Huang Xiaoyue (Corpse)"
 - raw: "2451,1140005024,,草塌,,0,0,0,None,1140005024,1140005024,,,,\"[{\"\"mapId\"\":15000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1723601215,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -13312,9 +13308,7 @@
   splits:
   - split: 3
     text: "玉玲珑（尸首）"
-    translated: "Yu Linglong's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Yu Linglong (Corpse)"
 - raw: "2651,1150003025,,玉玲珑,,1,0,0,None,,,,dataName:新角色0624193912;protagonist:1;npcId:0;sex:2;Face:2/5;FrontHair:12/5;BehindHair:6/5;Eyes:2/5;Eyebrow:8/5;Nose:4/5;Mouth:4/5;FaceDecoration:1/5;Beard:1/0;Clothes:1/5;Mask:1/5;FullLength:77/5;,,\"[{\"\"mapId\"\":16000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"160001806,998:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"玉玲珑\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"望阁下高抬贵手，我也只是……一时糊涂……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1150003025\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"},{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"160001806,999:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"玉玲珑\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"望阁下高抬贵手，我也只是……一时糊涂……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1150003025\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"杀死玉玲珑。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"就此离去。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":3}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"2:1150003003,999,999,999,0,0,0,0,0;2:1150003024,16000,41,16,0,0,0,0,0;2:1150003024,16000,999,999,1,0,0,1,0\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":3,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1727188193,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -16013,8 +16007,7 @@
   splits:
   - split: 3
     text: "墨家甲卫远程"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mojia Armored Guard Ranged"
 - raw: "3167,1170007016,,大蟾蜍,,10,0,0,None,,,,,,\"[{\"\"mapId\"\":11000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1739258232,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -22178,9 +22171,7 @@
   splits:
   - split: 3
     text: "黎大安（尸首）"
-    translated: "Li Daan's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Li Daan (Corpse)"
 - raw: "4341,1210000055,,祖大新（尸首）,,0,0,0,None,,,,dataName:新角色1025163210;protagonist:1;npcId:0;sex:1;Face:76/5;FrontHair:42/5;BehindHair:26/5;Eyes:7/5;Eyebrow:7/5;Nose:19/5;Mouth:7/5;FaceDecoration:1/5;Beard:1/5;Clothes:28/5;Mask:1/5;,,\"[{\"\"mapId\"\":21000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"胸腹要害受创，药石无医。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1730968834,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -22810,37 +22801,27 @@
   splits:
   - split: 3
     text: "张元魁（尸首）"
-    translated: "Zhang Yuankui's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Zhang Yuankui (Corpse)"
 - raw: "4467,1220001057,,傅俊（尸首）,,0,0,0,None,,,,dataName:新角色1224154321;protagonist:1;npcId:0;sex:1;Face:36/5;FrontHair:2/5;BehindHair:4/5;Eyes:15/5;Eyebrow:12/5;Nose:5/5;Mouth:4/5;FaceDecoration:1/5;Beard:1/5;Clothes:69/5;Mask:1/5;,,\"[{\"\"mapId\"\":22010,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"胸腹要害受创，药石无医。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1736482678,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
     text: "傅俊（尸首）"
-    translated: "Fu Jun's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Fu Jun (Corpse)"
 - raw: "4468,1220001058,,流寇（尸首）,,0,0,0,None,,,,dataName:新角色1224154726;protagonist:1;npcId:0;sex:1;Face:81/5;FrontHair:15/5;BehindHair:6/5;Eyes:16/5;Eyebrow:20/5;Nose:5/5;Mouth:7/5;FaceDecoration:1/5;Beard:1/5;Clothes:69/5;Mask:1/5;,,\"[{\"\"mapId\"\":22010,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"身受数创，鲜血流尽而死……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1736482698,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
     text: "流寇（尸首）"
-    translated: "Rebel's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Liu Kou (Corpse)"
 - raw: "4469,1220001059,,流寇（尸首）,,0,0,0,None,,,,dataName:新角色1224154753;protagonist:1;npcId:0;sex:1;Face:75/5;FrontHair:6/5;BehindHair:5/5;Eyes:6/5;Eyebrow:22/5;Nose:5/5;Mouth:8/5;FaceDecoration:2/5;Beard:1/5;Clothes:69/5;Mask:1/5;,,\"[{\"\"mapId\"\":22010,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"此人业已毙命。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1736482717,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
     text: "流寇（尸首）"
-    translated: "Rebel's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Liu Kou (Corpse)"
 - raw: "4470,1220001060,,流寇（尸首）,,0,0,0,None,,,,dataName:新角色1224154828;protagonist:1;npcId:0;sex:1;Face:56/5;FrontHair:3/5;BehindHair:2/5;Eyes:5/5;Eyebrow:19/5;Nose:8/5;Mouth:10/5;FaceDecoration:1/5;Beard:1/5;Clothes:69/5;Mask:1/5;,,\"[{\"\"mapId\"\":22010,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"胸腹要害受创，药石无医。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1736482749,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
     text: "流寇（尸首）"
-    translated: "Rebel's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Liu Kou (Corpse)"
 - raw: "4471,1220001061,,游文彦（尸首）,,0,0,0,None,,,,dataName:新角色1224143758;protagonist:1;npcId:0;sex:1;Face:99/5;FrontHair:7/5;BehindHair:31/5;Eyes:20/5;Eyebrow:3/5;Nose:5/5;Mouth:7/5;FaceDecoration:1/5;Beard:1/5;Clothes:37/5;Mask:1/5;FullLength:959/5;,,\"[{\"\"mapId\"\":22000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"此人业已毙命。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1736482537,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -25080,9 +25061,7 @@
   splits:
   - split: 3
     text: "老张（尸首）"
-    translated: "Old Zhang's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Old Zhang (Corpse)"
 - raw: "4919,1240001039,,小虎,,2,0,0,None,,,,dataName:1240001039小虎;protagonist:1;npcId:0;sex:1;Face:23/5;FrontHair:19/5;BehindHair:14/5;Eyes:11/5;Eyebrow:14/5;Nose:11/5;Mouth:17/5;FaceDecoration:1/5;Beard:1/5;Clothes:20/5;Mask:1/5;,,\"[{\"\"mapId\"\":24000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"小虎\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"张爷爷怎么……呜呜……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1240001039\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1745376873,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -25122,9 +25101,7 @@
   splits:
   - split: 3
     text: "刘文晓（尸首）"
-    translated: "Liu Wenxiao's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Liu Wenxiao (Corpse)"
 - raw: "4927,1240001047,,锦衣卫（尸首）,,0,0,0,None,,,,dataName:1240001041锦衣卫;protagonist:1;npcId:0;sex:1;Face:64/5;FrontHair:9/5;BehindHair:6/5;Eyes:20/5;Eyebrow:5/5;Nose:3/5;Mouth:8/5;FaceDecoration:1/5;Beard:1/5;Clothes:56/5;Mask:1/5;,,\"[{\"\"mapId\"\":24000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"伤在要害，一击毙命。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744019696,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -25319,9 +25296,7 @@
   splits:
   - split: 3
     text: "韩铁山（尸首）"
-    translated: "Han Tieshan's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Han Tieshan (Corpse)"
 - raw: "4966,1240001086,,沙天嚎（尸首）,,0,0,0,None,,,,dataName:1240001083沙天嚎;protagonist:1;npcId:0;sex:1;Face:107/5;FrontHair:5/5;BehindHair:3/5;Eyes:18/5;Eyebrow:2/5;Nose:18/5;Mouth:8/5;FaceDecoration:1/5;Beard:1/5;Clothes:16/5;Mask:1/5;,,\"[{\"\"mapId\"\":24000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"胸腹要害受创，药石无医。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744015197,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -25426,9 +25401,7 @@
   splits:
   - split: 3
     text: "老周（尸首）"
-    translated: "Old Zhou's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Old Zhou (Corpse)"
 - raw: "4987,1240001107,,小船,,0,0,0,None,11000843,,,,,\"[{\"\"mapId\"\":25000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":2,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"一艘小舟，可借此登上前往东瀛的巨舰。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"登上巨舰。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"离去。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":3}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"1:27010,11,17\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":3,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1745478187,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -26143,9 +26116,7 @@
   splits:
   - split: 3
     text: "陈锦程（尸首）"
-    translated: "Chen Jincheng's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Chen Jincheng (Corpse)"
 - raw: "5130,1250001015,,壁城水贼,,0,0,0,None,,,,dataName:1250001015壁城水贼;protagonist:1;npcId:0;sex:1;Face:22/5;FrontHair:14/5;BehindHair:9/5;Eyes:20/5;Eyebrow:22/5;Nose:15/5;Mouth:10/5;FaceDecoration:1/5;Beard:1/5;Clothes:37/5;Mask:1/5;,,\"[{\"\"mapId\"\":25000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1742551985,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -26610,9 +26581,7 @@
   splits:
   - split: 3
     text: "吴猛（尸首）"
-    translated: "Wu Meng's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Wu Meng (Corpse)"
 - raw: "5223,1260001010,,柳戊,,0,0,0,None,,,,dataName:1260001010柳戊;protagonist:1;npcId:0;sex:1;Face:29/5;FrontHair:40/5;BehindHair:5/5;Eyes:7/5;Eyebrow:20/5;Nose:17/5;Mouth:3/5;FaceDecoration:1/5;Beard:1/5;Clothes:1/5;Mask:1/5;,,\"[{\"\"mapId\"\":26000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":20,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":9,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744193041,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -26672,9 +26641,7 @@
   splits:
   - split: 3
     text: "李常闵（尸首）"
-    translated: "Li Chang Min's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Li Changmin (Corpse)"
 - raw: "5235,1260001022,,老铁头,,0,0,0,None,,,,dataName:1260001022老铁头;protagonist:1;npcId:0;sex:1;Face:40/5;FrontHair:43/5;BehindHair:6/5;Eyes:18/5;Eyebrow:12/5;Nose:6/5;Mouth:6/5;FaceDecoration:1/5;Beard:1/5;Clothes:31/5;Mask:1/5;,,\"[{\"\"mapId\"\":26000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":32,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":21,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744193041,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -27759,9 +27726,7 @@
   splits:
   - split: 3
     text: "东瀛恶狼"
-    translated: "Eastern Demon Wolves"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Dongying,东瀛,Dongying,东瀛,"
+    translated: "Japanese Fierce Wolves"
 - raw: "5452,1270001134,,狼,,3,0,0,None,1110002012,1110002012,,,,\"[{\"\"mapId\"\":27000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744720903,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -28266,9 +28231,7 @@
   splits:
   - split: 3
     text: "安大春（尸首）"
-    translated: "An Dachun's corpse"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "An Dachun (Corpse)"
 - raw: "5553,1280001023,,朝奉集武人,,0,0,0,None,,,,dataName:朝鲜武人;protagonist:1;npcId:0;sex:1;Face:93/5;FrontHair:41/5;BehindHair:5/5;Eyes:5/5;Eyebrow:10/5;Nose:13/5;Mouth:5/5;FaceDecoration:1/5;Beard:1/5;Clothes:1/5;Mask:1/5;,,\"[{\"\"mapId\"\":28000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"先前只听说中原武者何等厉害，今日方算见识了。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1745723854,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -29738,9 +29701,7 @@
   splits:
   - split: 3
     text: "西域商人（尸首）"
-    translated: "Corpse of the Western Regions Merchant"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "The original text contains the bracket `（`, which was removed. Keep the bracketed text as its own bracketed part of the translation, in the same position, and still translate its meaning, e.g. \"（无趣）哎，...\" becomes \"(Bored) Ah, ...\". Do not fold it into the sentence or leave it out."
+    translated: "Western Regions Merchant (corpse)"
 - raw: "5847,1280100204,,打手（尸首）,,0,0,0,None,,,,dataName:1250001009壁城水贼;protagonist:1;npcId:0;sex:1;Face:75/5;FrontHair:5/5;BehindHair:4/5;Eyes:6/5;Eyebrow:18/5;Nose:9/5;Mouth:7/5;FaceDecoration:3/5;Beard:1/5;Clothes:16/5;Mask:1/5;,,\"[{\"\"mapId\"\":28010,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"喉骨粉碎，已然身死。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744189880,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3

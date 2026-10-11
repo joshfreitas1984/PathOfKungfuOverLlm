@@ -8680,7 +8680,10 @@
     text: "立誓于此。"
   templates:
   - split: 4
-    template: "{0}<color=#FF0000FF><name></color>{1}"
+    template: "{0}<color=#FF0000FF>{fullName}</color>{1}"
+    tokens:
+      fullName:
+        source: "<name>"
 - raw: "963,10000051,15,[0].talks{json}[0].talk,尘归尘土，诸难退尽。愿极乐往生，不复红尘之苦。"
   splits:
   - split: 4
@@ -16151,7 +16154,10 @@
     text: "立誓于此。"
   templates:
   - split: 4
-    template: "{0}<color=#FF0000FF><name></color>{1}"
+    template: "{0}<color=#FF0000FF>{fullName}</color>{1}"
+    tokens:
+      fullName:
+        source: "<name>"
 - raw: "1335,11000946,15,[0].talks{json}[0].talk,瓷制或石制的钵体，可用于研磨加工。"
   splits:
   - split: 4
@@ -19925,7 +19931,10 @@
 - raw: "1935,1110001002,15,[0].talks{json}[1].talk,<fName>兄，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
   splits:
   - split: 4
-    text: "<fName>兄，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
+    text: "{firstName}兄，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1935,1110001002,15,[0].talks{json}[1].options{json}[0].name,“既你不服气，那再比比拳脚功夫？”"
   splits:
   - split: 4
@@ -19937,7 +19946,10 @@
 - raw: "1935,1110001002,15,[0].talks{json}[2].talk,<fName>姑娘，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
   splits:
   - split: 4
-    text: "<fName>姑娘，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
+    text: "{firstName}姑娘，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1935,1110001002,15,[0].talks{json}[2].options{json}[0].name,“既你不服气，那再比比拳脚功夫？”"
   splits:
   - split: 4
@@ -19965,7 +19977,10 @@
 - raw: "1935,1110001002,15,[2].talks{json}[1].talk,<fName>兄……"
   splits:
   - split: 4
-    text: "<fName>兄……"
+    text: "{firstName}兄……"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1935,1110001002,15,[2].talks{json}[1].options{json}[0].name,“可寻到你父亲？”"
   splits:
   - split: 4
@@ -19977,7 +19992,10 @@
 - raw: "1935,1110001002,15,[2].talks{json}[2].talk,<fName>姑娘……"
   splits:
   - split: 4
-    text: "<fName>姑娘……"
+    text: "{firstName}姑娘……"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1935,1110001002,15,[2].talks{json}[2].options{json}[0].name,“可寻到你父亲？”"
   splits:
   - split: 4
@@ -20057,7 +20075,12 @@
 - raw: "1935,1110001002,15,[2].talks{json}[9].talk,<fName><兄||姑娘>此事待以后再议……我还是放心不下我爹，我还是再寻寻我爹。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>此事待以后再议……我还是放心不下我爹，我还是再寻寻我爹。"
+    text: "{firstName}{playerTitle}此事待以后再议……我还是放心不下我爹，我还是再寻寻我爹。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "1935,1110001002,15,[3].talks{json}[0].name,王阿生"
   splits:
   - split: 4
@@ -20089,7 +20112,12 @@
 - raw: "1935,1110001002,15,[5].talks{json}[0].talk,<fName><大哥||姑娘>！你回来了！可曾在地窖中发现些什么？"
   splits:
   - split: 4
-    text: "<fName><大哥||姑娘>！你回来了！可曾在地窖中发现些什么？"
+    text: "{firstName}{playerTitle}！你回来了！可曾在地窖中发现些什么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姑娘>"
 - raw: "1935,1110001002,15,[5].talks{json}[0].options{json}[0].name,“地窖内阴风阵阵，过于骇人……我……我稍后再行探索。”"
   splits:
   - split: 4
@@ -20101,7 +20129,12 @@
 - raw: "1935,1110001002,15,[5].talks{json}[1].talk,那便辛苦<fName><大哥||姑娘>再走一趟！"
   splits:
   - split: 4
-    text: "那便辛苦<fName><大哥||姑娘>再走一趟！"
+    text: "那便辛苦{firstName}{playerTitle}再走一趟！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姑娘>"
 - raw: "1936,1110001003,15,[0].talks{json}[1].name,小钰"
   splits:
   - split: 4
@@ -20109,7 +20142,10 @@
 - raw: "1936,1110001003,15,[0].talks{json}[1].talk,<fName>大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
   splits:
   - split: 4
-    text: "<fName>大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
+    text: "{firstName}大哥……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[0].talks{json}[2].name,小钰"
   splits:
   - split: 4
@@ -20117,7 +20153,10 @@
 - raw: "1936,1110001003,15,[0].talks{json}[2].talk,<fName>姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
   splits:
   - split: 4
-    text: "<fName>姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
+    text: "{firstName}姐姐……你别心急，总会有法子学武的。待爹爹回家，我再好好劝劝爹爹……"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[1].name,小钰"
   splits:
   - split: 4
@@ -20125,7 +20164,10 @@
 - raw: "1936,1110001003,15,[1].talks{json}[1].talk,呀，这草编花环真好看，没想到<fName>大哥如此手巧。"
   splits:
   - split: 4
-    text: "呀，这草编花环真好看，没想到<fName>大哥如此手巧。"
+    text: "呀，这草编花环真好看，没想到{firstName}大哥如此手巧。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[1].options{json}[0].name,将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
@@ -20141,7 +20183,10 @@
 - raw: "1936,1110001003,15,[1].talks{json}[2].talk,呀，这草编花环真好看，没想到<fName>姐姐如此手巧。"
   splits:
   - split: 4
-    text: "呀，这草编花环真好看，没想到<fName>姐姐如此手巧。"
+    text: "呀，这草编花环真好看，没想到{firstName}姐姐如此手巧。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[2].options{json}[0].name,将帮助果果获赠花环一事道出。"
   splits:
   - split: 4
@@ -20157,7 +20202,12 @@
 - raw: "1936,1110001003,15,[1].talks{json}[3].talk,那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
   splits:
   - split: 4
-    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
+    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有{firstName}{playerTitle}相助，否则也不知道果果会多伤心......"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "1936,1110001003,15,[1].talks{json}[4].name,小钰"
   splits:
   - split: 4
@@ -20165,7 +20215,10 @@
 - raw: "1936,1110001003,15,[1].talks{json}[4].talk,没想到<fName>大哥还有这般心思细腻的一面。"
   splits:
   - split: 4
-    text: "没想到<fName>大哥还有这般心思细腻的一面。"
+    text: "没想到{firstName}大哥还有这般心思细腻的一面。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[5].name,小钰"
   splits:
   - split: 4
@@ -20173,7 +20226,10 @@
 - raw: "1936,1110001003,15,[1].talks{json}[5].talk,<fName>姐姐竟如此手巧。"
   splits:
   - split: 4
-    text: "<fName>姐姐竟如此手巧。"
+    text: "{firstName}姐姐竟如此手巧。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[6].name,小钰"
   splits:
   - split: 4
@@ -20181,7 +20237,10 @@
 - raw: "1936,1110001003,15,[1].talks{json}[6].talk,若是<fName>大哥得空，能否教教我如何这花环的制法。"
   splits:
   - split: 4
-    text: "若是<fName>大哥得空，能否教教我如何这花环的制法。"
+    text: "若是{firstName}大哥得空，能否教教我如何这花环的制法。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[6].options{json}[0].name,称仍有急事尚待处理，羞红着脸离去。"
   splits:
   - split: 4
@@ -20197,7 +20256,10 @@
 - raw: "1936,1110001003,15,[1].talks{json}[7].talk,若是<fName>姐姐得空，能否教教我如何这花环的制法。"
   splits:
   - split: 4
-    text: "若是<fName>姐姐得空，能否教教我如何这花环的制法。"
+    text: "若是{firstName}姐姐得空，能否教教我如何这花环的制法。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[1].talks{json}[7].options{json}[0].name,称仍有急事尚待处理，羞红着脸离去。"
   splits:
   - split: 4
@@ -20233,7 +20295,12 @@
 - raw: "1936,1110001003,15,[1].talks{json}[11].talk,那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
   splits:
   - split: 4
-    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有<fName><大哥||姐姐>相助，否则也不知道果果会多伤心......"
+    text: "那三个孩子竟如此顽劣，又在欺负果果！多亏有{firstName}{playerTitle}相助，否则也不知道果果会多伤心......"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "1936,1110001003,15,[2].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -20241,7 +20308,10 @@
 - raw: "1936,1110001003,15,[2].talks{json}[0].talk,<少侠||女侠>，你是？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，你是？"
+    text: "{playerTitle}，你是？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1936,1110001003,15,[3].talks{json}[1].name,小钰"
   splits:
   - split: 4
@@ -20249,7 +20319,10 @@
 - raw: "1936,1110001003,15,[3].talks{json}[1].talk,……可惜，我却不识得什么武学功法，不然，真的也想随<fName>大哥一道去看看江湖之间……"
   splits:
   - split: 4
-    text: "……可惜，我却不识得什么武学功法，不然，真的也想随<fName>大哥一道去看看江湖之间……"
+    text: "……可惜，我却不识得什么武学功法，不然，真的也想随{firstName}大哥一道去看看江湖之间……"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[3].talks{json}[2].name,小钰"
   splits:
   - split: 4
@@ -20257,7 +20330,10 @@
 - raw: "1936,1110001003,15,[3].talks{json}[2].talk,……可惜，我却不识得什么武学功法，不然，真的也想随<fName>姐姐一道去看看江湖之间……"
   splits:
   - split: 4
-    text: "……可惜，我却不识得什么武学功法，不然，真的也想随<fName>姐姐一道去看看江湖之间……"
+    text: "……可惜，我却不识得什么武学功法，不然，真的也想随{firstName}姐姐一道去看看江湖之间……"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "1936,1110001003,15,[4].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -20265,7 +20341,12 @@
 - raw: "1936,1110001003,15,[4].talks{json}[0].talk,<fName><兄||姐姐>，你来啦！"
   splits:
   - split: 4
-    text: "<fName><兄||姐姐>，你来啦！"
+    text: "{firstName}{playerTitle}，你来啦！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姐姐>"
 - raw: "1936,1110001003,15,[5].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -20273,7 +20354,12 @@
 - raw: "1936,1110001003,15,[5].talks{json}[0].talk,小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
   splits:
   - split: 4
-    text: "小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
+    text: "小钰还需在此处照顾爹爹，{firstName}{playerTitle}行走江湖若是念及小钰，常来此处瞧瞧便好……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "1937,1110001004,15,[0].talks{json}[0].name,小钰爹"
   splits:
   - split: 4
@@ -20297,7 +20383,10 @@
 - raw: "1939,1110001006,15,[0].talks{json}[0].talk,爹爹说近来山里头有吃人的怪物，让果果离那儿远些......<大哥哥||大姐姐>，如果真的出现怪物，你会保护果果吗？"
   splits:
   - split: 4
-    text: "爹爹说近来山里头有吃人的怪物，让果果离那儿远些......<大哥哥||大姐姐>，如果真的出现怪物，你会保护果果吗？"
+    text: "爹爹说近来山里头有吃人的怪物，让果果离那儿远些......{playerTitle}，如果真的出现怪物，你会保护果果吗？"
+    tokens:
+      playerTitle:
+        source: "<大哥哥||大姐姐>"
 - raw: "1939,1110001006,15,[0].talks{json}[0].options{json}[0].name,“果果那么可爱，肯定会保护你的！”"
   splits:
   - split: 4
@@ -20313,7 +20402,10 @@
 - raw: "1939,1110001006,15,[0].talks{json}[1].talk,<大哥哥||大姐姐>最好啦！"
   splits:
   - split: 4
-    text: "<大哥哥||大姐姐>最好啦！"
+    text: "{playerTitle}最好啦！"
+    tokens:
+      playerTitle:
+        source: "<大哥哥||大姐姐>"
 - raw: "1939,1110001006,15,[0].talks{json}[2].name,果果"
   splits:
   - split: 4
@@ -20339,7 +20431,10 @@
 - raw: "1939,1110001006,15,[0].talks{json}[3].talk,讨厌，<大哥哥||大姐姐>又在吓唬果果了！"
   splits:
   - split: 4
-    text: "讨厌，<大哥哥||大姐姐>又在吓唬果果了！"
+    text: "讨厌，{playerTitle}又在吓唬果果了！"
+    tokens:
+      playerTitle:
+        source: "<大哥哥||大姐姐>"
 - raw: "1939,1110001006,15,[1].talks{json}[0].name,果果"
   splits:
   - split: 4
@@ -20477,7 +20572,10 @@
 - raw: "1954,1110002008,15,[0].talks{json}[0].talk,这村内并非表面那般安宁……<兄弟||妹子>心地淳善，需切记防人之心不可无。"
   splits:
   - split: 4
-    text: "这村内并非表面那般安宁……<兄弟||妹子>心地淳善，需切记防人之心不可无。"
+    text: "这村内并非表面那般安宁……{playerTitle}心地淳善，需切记防人之心不可无。"
+    tokens:
+      playerTitle:
+        source: "<兄弟||妹子>"
 - raw: "1955,1110002009,15,[0].talks{json}[0].name,糖人张"
   splits:
   - split: 4
@@ -20581,7 +20679,12 @@
 - raw: "1975,1110003001,15,[0].talks{json}[0].talk,……<fName><少侠||女侠>，此间逢变，已再非安居之处，还是速离此地罢……"
   splits:
   - split: 4
-    text: "……<fName><少侠||女侠>，此间逢变，已再非安居之处，还是速离此地罢……"
+    text: "……{firstName}{playerTitle}，此间逢变，已再非安居之处，还是速离此地罢……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[0].talks{json}[0].options{json}[0].name,关于青萍真相。"
   splits:
   - split: 4
@@ -20593,7 +20696,10 @@
 - raw: "1975,1110003001,15,[0].talks{json}[1].talk,还请<少侠||女侠>听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
   splits:
   - split: 4
-    text: "还请<少侠||女侠>听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
+    text: "还请{playerTitle}听我一句劝，过往种种不当为念，纵是恶也好，善也罢，都如云烟过尔，莫再多问……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[0].talks{json}[2].name,孙猎户"
   splits:
   - split: 4
@@ -20601,7 +20707,10 @@
 - raw: "1975,1110003001,15,[0].talks{json}[2].talk,我只想看果果那孩子平安长大，过往之事，<少侠||女侠>……莫要再提。"
   splits:
   - split: 4
-    text: "我只想看果果那孩子平安长大，过往之事，<少侠||女侠>……莫要再提。"
+    text: "我只想看果果那孩子平安长大，过往之事，{playerTitle}……莫要再提。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[1].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
@@ -20609,7 +20718,10 @@
 - raw: "1975,1110003001,15,[1].talks{json}[0].talk,驱散狼群一事风险颇高，<少侠||女侠>需得多加小心啊！"
   splits:
   - split: 4
-    text: "驱散狼群一事风险颇高，<少侠||女侠>需得多加小心啊！"
+    text: "驱散狼群一事风险颇高，{playerTitle}需得多加小心啊！"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[2].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
@@ -20617,7 +20729,10 @@
 - raw: "1975,1110003001,15,[2].talks{json}[0].talk,虽说白毫已去，但狼群仍旧虎视眈眈，<少侠||女侠>还需多加小心。"
   splits:
   - split: 4
-    text: "虽说白毫已去，但狼群仍旧虎视眈眈，<少侠||女侠>还需多加小心。"
+    text: "虽说白毫已去，但狼群仍旧虎视眈眈，{playerTitle}还需多加小心。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[3].talks{json}[0].name,孙猎户"
   splits:
   - split: 4
@@ -20625,7 +20740,10 @@
 - raw: "1975,1110003001,15,[3].talks{json}[0].talk,多谢<少侠||女侠>相助果果，见到果果回家，我便安心了。"
   splits:
   - split: 4
-    text: "多谢<少侠||女侠>相助果果，见到果果回家，我便安心了。"
+    text: "多谢{playerTitle}相助果果，见到果果回家，我便安心了。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[3].talks{json}[0].options{json}[0].name,果果仅在村中玩耍，并无野兽在村庄内侵袭，孙叔伯多虑了"
   splits:
   - split: 4
@@ -20637,7 +20755,10 @@
 - raw: "1975,1110003001,15,[3].talks{json}[1].talk,<少侠||女侠>，听我一言，远离此间，安身自保罢。"
   splits:
   - split: 4
-    text: "<少侠||女侠>，听我一言，远离此间，安身自保罢。"
+    text: "{playerTitle}，听我一言，远离此间，安身自保罢。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[3].talks{json}[2].name,孙猎户"
   splits:
   - split: 4
@@ -20645,7 +20766,10 @@
 - raw: "1975,1110003001,15,[3].talks{json}[2].talk,言尽于此，<少侠||女侠>聪慧，自能明悟。"
   splits:
   - split: 4
-    text: "言尽于此，<少侠||女侠>聪慧，自能明悟。"
+    text: "言尽于此，{playerTitle}聪慧，自能明悟。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1975,1110003001,15,[3].talks{json}[3].talk,无论如何询问，孙猎户不再理会你，只是愣愣往后山方向望去。"
   splits:
   - split: 4
@@ -20657,7 +20781,12 @@
 - raw: "1976,1110003002,15,[0].talks{json}[0].talk,<fName><少||女>侠气血不顺，似心有郁结，是在为何事烦恼？"
   splits:
   - split: 4
-    text: "<fName><少||女>侠气血不顺，似心有郁结，是在为何事烦恼？"
+    text: "{firstName}{playerTitle}侠气血不顺，似心有郁结，是在为何事烦恼？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少||女>"
 - raw: "1976,1110003002,15,[0].talks{json}[0].options{json}[0].name,关于青萍真相。"
   splits:
   - split: 4
@@ -20765,7 +20894,10 @@
 - raw: "1981,1110003007,15,[0].talks{json}[0].talk,<少侠||女侠>，我这儿兵刃可是应有尽有，何不来瞧上一瞧？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，我这儿兵刃可是应有尽有，何不来瞧上一瞧？"
+    text: "{playerTitle}，我这儿兵刃可是应有尽有，何不来瞧上一瞧？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1981,1110003007,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -20969,7 +21101,10 @@
 - raw: "1988,1110004010,15,[0].talks{json}[1].talk,……这位<少侠||女侠>，未免偏管得长了些，不如好自为之，莫理他人之事。"
   splits:
   - split: 4
-    text: "……这位<少侠||女侠>，未免偏管得长了些，不如好自为之，莫理他人之事。"
+    text: "……这位{playerTitle}，未免偏管得长了些，不如好自为之，莫理他人之事。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "1988,1110004010,15,[1].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
@@ -20985,7 +21120,10 @@
 - raw: "1991,1110005003,15,[0].talks{json}[0].talk,<公子||姑娘>是问“窝点”何意？窝点者，谓鱼群聚集之所也。"
   splits:
   - split: 4
-    text: "<公子||姑娘>是问“窝点”何意？窝点者，谓鱼群聚集之所也。"
+    text: "{playerTitle}是问“窝点”何意？窝点者，谓鱼群聚集之所也。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "1991,1110005003,15,[1].talks{json}[0].name,屈鲤"
   splits:
   - split: 4
@@ -21001,7 +21139,10 @@
 - raw: "1991,1110005003,15,[2].talks{json}[0].talk,还请<公子||姑娘>与在下同至水岸边！"
   splits:
   - split: 4
-    text: "还请<公子||姑娘>与在下同至水岸边！"
+    text: "还请{playerTitle}与在下同至水岸边！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "1991,1110005003,15,[3].talks{json}[0].name,屈鲤"
   splits:
   - split: 4
@@ -21009,7 +21150,10 @@
 - raw: "1991,1110005003,15,[3].talks{json}[0].talk,屈鲤欲逐山海，愿随<公子||姑娘>左右，与<公子||姑娘>同行。未审<公子||姑娘>意下如何？"
   splits:
   - split: 4
-    text: "屈鲤欲逐山海，愿随<公子||姑娘>左右，与<公子||姑娘>同行。未审<公子||姑娘>意下如何？"
+    text: "屈鲤欲逐山海，愿随{playerTitle}左右，与{playerTitle}同行。未审{playerTitle}意下如何？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "1991,1110005003,15,[3].talks{json}[0].options{json}[0].name,欣然答应。"
   splits:
   - split: 4
@@ -21033,7 +21177,10 @@
 - raw: "1991,1110005003,15,[3].talks{json}[2].talk,<公子||姑娘>考量不妨，在下边钓边候。"
   splits:
   - split: 4
-    text: "<公子||姑娘>考量不妨，在下边钓边候。"
+    text: "{playerTitle}考量不妨，在下边钓边候。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "1993,1110009801,15,[0].talks{json}[0].talk,此树枯槁已久，中心空洞。"
   splits:
   - split: 4
@@ -21133,7 +21280,10 @@
 - raw: "2004,1120001002,15,[0].talks{json}[0].talk,<少侠||女侠>可想好所去的门派？"
   splits:
   - split: 4
-    text: "<少侠||女侠>可想好所去的门派？"
+    text: "{playerTitle}可想好所去的门派？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2004,1120001002,15,[0].talks{json}[0].options{json}[0].name,“已是了然。”"
   splits:
   - split: 4
@@ -21153,7 +21303,10 @@
 - raw: "2004,1120001002,15,[0].talks{json}[1].talk,小生愿送<少侠||女侠>一程。"
   splits:
   - split: 4
-    text: "小生愿送<少侠||女侠>一程。"
+    text: "小生愿送{playerTitle}一程。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2004,1120001002,15,[0].talks{json}[1].options{json}[0].name,前往太和。"
   splits:
   - split: 4
@@ -21169,7 +21322,10 @@
 - raw: "2004,1120001002,15,[0].talks{json}[4].talk,距离出发还有些时日，小生就在此处等待<少侠||女侠>，若<少侠||女侠>想搭一程车马，小生随时恭候。"
   splits:
   - split: 4
-    text: "距离出发还有些时日，小生就在此处等待<少侠||女侠>，若<少侠||女侠>想搭一程车马，小生随时恭候。"
+    text: "距离出发还有些时日，小生就在此处等待{playerTitle}，若{playerTitle}想搭一程车马，小生随时恭候。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2004,1120001002,15,[0].talks{json}[5].name,“梅花易数”孙茶"
   splits:
   - split: 4
@@ -21177,7 +21333,10 @@
 - raw: "2004,1120001002,15,[0].talks{json}[5].talk,这有何妨，<少侠||女侠>想要了解何门何派？"
   splits:
   - split: 4
-    text: "这有何妨，<少侠||女侠>想要了解何门何派？"
+    text: "这有何妨，{playerTitle}想要了解何门何派？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2004,1120001002,15,[0].talks{json}[5].options{json}[0].name,关于太和"
   splits:
   - split: 4
@@ -21265,7 +21424,10 @@
 - raw: "2004,1120001002,15,[0].talks{json}[14].talk,江湖门派林立，<少侠||女侠>想了解哪门哪派呢？"
   splits:
   - split: 4
-    text: "江湖门派林立，<少侠||女侠>想了解哪门哪派呢？"
+    text: "江湖门派林立，{playerTitle}想了解哪门哪派呢？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2004,1120001002,15,[0].talks{json}[14].options{json}[0].name,“我心中已有决断。”"
   splits:
   - split: 4
@@ -21311,7 +21473,10 @@
 - raw: "2006,1120001004,15,[0].talks{json}[0].talk,前番之事多谢<少侠||女侠>，不知<少侠||女侠>可还有何事相询？"
   splits:
   - split: 4
-    text: "前番之事多谢<少侠||女侠>，不知<少侠||女侠>可还有何事相询？"
+    text: "前番之事多谢{playerTitle}，不知{playerTitle}可还有何事相询？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2006,1120001004,15,[0].talks{json}[0].options{json}[0].name,“姑娘之前谈到祖父，不知是何事由”。"
   splits:
   - split: 4
@@ -21331,7 +21496,10 @@
 - raw: "2006,1120001004,15,[0].talks{json}[1].talk,……<少侠||女侠>如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
   splits:
   - split: 4
-    text: "……<少侠||女侠>如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
+    text: "……{playerTitle}如此爽利，若楚林灵再有遮掩，反是我之过，不妨直言相告。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2006,1120001004,15,[0].talks{json}[2].name,楚林灵"
   splits:
   - split: 4
@@ -21387,7 +21555,10 @@
 - raw: "2007,1120001005,15,[0].talks{json}[0].talk,西门二爷仗义！<少侠||姑娘>仗义！"
   splits:
   - split: 4
-    text: "西门二爷仗义！<少侠||姑娘>仗义！"
+    text: "西门二爷仗义！{playerTitle}仗义！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2008,1120001006,15,[0].talks{json}[0].name,小包袱"
   splits:
   - split: 4
@@ -21403,7 +21574,10 @@
 - raw: "2008,1120001006,15,[1].talks{json}[0].talk,要是天下间能再多些大<哥哥||姐姐>这般的人，那便好了……"
   splits:
   - split: 4
-    text: "要是天下间能再多些大<哥哥||姐姐>这般的人，那便好了……"
+    text: "要是天下间能再多些大{playerTitle}这般的人，那便好了……"
+    tokens:
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2009,1120001007,15,[0].talks{json}[0].name,狗剩儿"
   splits:
   - split: 4
@@ -21435,7 +21609,12 @@
 - raw: "2010,1120001008,15,[1].talks{json}[0].talk,<fName><哥哥||姐姐>，可寻见了燕大侠么？"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，可寻见了燕大侠么？"
+    text: "{firstName}{playerTitle}，可寻见了燕大侠么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2010,1120001008,15,[2].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -21443,7 +21622,12 @@
 - raw: "2010,1120001008,15,[2].talks{json}[0].talk,可惜小七本领低微，若能助<fName><哥哥||姐姐>手刃连天明，那才解气！"
   splits:
   - split: 4
-    text: "可惜小七本领低微，若能助<fName><哥哥||姐姐>手刃连天明，那才解气！"
+    text: "可惜小七本领低微，若能助{firstName}{playerTitle}手刃连天明，那才解气！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2010,1120001008,15,[3].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -21451,7 +21635,12 @@
 - raw: "2010,1120001008,15,[3].talks{json}[0].talk,咦？<fName><哥哥||姐姐>，你当真来京城找我跟莲花姐姐啦！"
   splits:
   - split: 4
-    text: "咦？<fName><哥哥||姐姐>，你当真来京城找我跟莲花姐姐啦！"
+    text: "咦？{firstName}{playerTitle}，你当真来京城找我跟莲花姐姐啦！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2010,1120001008,15,[4].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -21459,7 +21648,12 @@
 - raw: "2010,1120001008,15,[4].talks{json}[0].talk,如今想来，还是同<fName><哥哥||姐姐>闯荡江湖更有趣些。"
   splits:
   - split: 4
-    text: "如今想来，还是同<fName><哥哥||姐姐>闯荡江湖更有趣些。"
+    text: "如今想来，还是同{firstName}{playerTitle}闯荡江湖更有趣些。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2010,1120001008,15,[4].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
@@ -21475,7 +21669,12 @@
 - raw: "2012,1120001010,15,[0].talks{json}[0].talk,在下此刻心乱如麻，<fName><兄||姑娘>可否容我为先兄扫墓之后，你我再行商议？"
   splits:
   - split: 4
-    text: "在下此刻心乱如麻，<fName><兄||姑娘>可否容我为先兄扫墓之后，你我再行商议？"
+    text: "在下此刻心乱如麻，{firstName}{playerTitle}可否容我为先兄扫墓之后，你我再行商议？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2012,1120001010,15,[1].talks{json}[0].name,西门仲"
   splits:
   - split: 4
@@ -21491,7 +21690,12 @@
 - raw: "2014,1120001012,15,[0].talks{json}[0].talk,<fName><兄||姊>，你我诺言，南宫莲谨记于心。"
   splits:
   - split: 4
-    text: "<fName><兄||姊>，你我诺言，南宫莲谨记于心。"
+    text: "{firstName}{playerTitle}，你我诺言，南宫莲谨记于心。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姊>"
 - raw: "2015,1120001013,15,[0].talks{json}[0].name,黄老翁"
   splits:
   - split: 4
@@ -21507,7 +21711,10 @@
 - raw: "2016,1120001014,15,[0].talks{json}[0].talk,<少侠||姑娘>今日可要瞧瞧咱们店里的跌打膏药？"
   splits:
   - split: 4
-    text: "<少侠||姑娘>今日可要瞧瞧咱们店里的跌打膏药？"
+    text: "{playerTitle}今日可要瞧瞧咱们店里的跌打膏药？"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2016,1120001014,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -21523,7 +21730,10 @@
 - raw: "2017,1120001015,15,[0].talks{json}[0].talk,我家传的跌打膏药甚有功效，<少侠||女侠>可以找我大哥购买。"
   splits:
   - split: 4
-    text: "我家传的跌打膏药甚有功效，<少侠||女侠>可以找我大哥购买。"
+    text: "我家传的跌打膏药甚有功效，{playerTitle}可以找我大哥购买。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2017,1120001015,15,[1].talks{json}[0].name,阿二"
   splits:
   - split: 4
@@ -21555,7 +21765,10 @@
 - raw: "2018,1120001016,15,[1].talks{json}[1].talk,<fName>兄，切莫将此信是我所书一事告知小姐，在下感激不尽。"
   splits:
   - split: 4
-    text: "<fName>兄，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    text: "{firstName}兄，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "2018,1120001016,15,[1].talks{json}[2].name,梁三"
   splits:
   - split: 4
@@ -21563,7 +21776,10 @@
 - raw: "2018,1120001016,15,[1].talks{json}[2].talk,<fName>姊，切莫将此信是我所书一事告知小姐，在下感激不尽。"
   splits:
   - split: 4
-    text: "<fName>姊，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    text: "{firstName}姊，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "2019,1120001017,15,[0].talks{json}[0].name,马俊才"
   splits:
   - split: 4
@@ -21583,7 +21799,10 @@
 - raw: "2019,1120001017,15,[1].talks{json}[0].talk,我即刻前去采买米粮，<少侠||姑娘>与乔兄去探查便是……"
   splits:
   - split: 4
-    text: "我即刻前去采买米粮，<少侠||姑娘>与乔兄去探查便是……"
+    text: "我即刻前去采买米粮，{playerTitle}与乔兄去探查便是……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2019,1120001017,15,[2].talks{json}[0].name,马俊才"
   splits:
   - split: 4
@@ -21591,7 +21810,10 @@
 - raw: "2019,1120001017,15,[2].talks{json}[0].talk,近来书院学习，在下诗文颇有长进，<少侠||姑娘>可愿倾听？"
   splits:
   - split: 4
-    text: "近来书院学习，在下诗文颇有长进，<少侠||姑娘>可愿倾听？"
+    text: "近来书院学习，在下诗文颇有长进，{playerTitle}可愿倾听？"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2020,1120001018,15,[0].talks{json}[0].name,乔应珠"
   splits:
   - split: 4
@@ -21599,7 +21821,10 @@
 - raw: "2020,1120001018,15,[0].talks{json}[0].talk,家父外出行商，此刻并未归家，<少侠||姑娘>光临寒舍所为何事？"
   splits:
   - split: 4
-    text: "家父外出行商，此刻并未归家，<少侠||姑娘>光临寒舍所为何事？"
+    text: "家父外出行商，此刻并未归家，{playerTitle}光临寒舍所为何事？"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2020,1120001018,15,[1].talks{json}[0].name,乔应珠"
   splits:
   - split: 4
@@ -21679,7 +21904,12 @@
 - raw: "2025,1120001023,15,[3].talks{json}[0].talk,总舵有吴长老操持着，我亦放心得很。如何？<fName><兄弟||姑娘>若是不弃，收拾好行李，咱们便一同上路罢？"
   splits:
   - split: 4
-    text: "总舵有吴长老操持着，我亦放心得很。如何？<fName><兄弟||姑娘>若是不弃，收拾好行李，咱们便一同上路罢？"
+    text: "总舵有吴长老操持着，我亦放心得很。如何？{firstName}{playerTitle}若是不弃，收拾好行李，咱们便一同上路罢？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "2025,1120001023,15,[3].talks{json}[0].options{json}[0].name,求之不得。"
   splits:
   - split: 4
@@ -21703,7 +21933,12 @@
 - raw: "2025,1120001023,15,[3].talks{json}[2].talk,不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，<fName><兄弟||姑娘>且忙去！"
   splits:
   - split: 4
-    text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，<fName><兄弟||姑娘>且忙去！"
+    text: "不妨，四海是个惫懒虫，在哪儿都等得——无非睡几觉，{firstName}{playerTitle}且忙去！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "2026,1120001024,15,[0].talks{json}[0].name,孟阳伯"
   splits:
   - split: 4
@@ -21711,7 +21946,10 @@
 - raw: "2026,1120001024,15,[0].talks{json}[0].talk,此庙已荒废多年，无甚特别之处，<少侠||女侠>尽快离去罢......"
   splits:
   - split: 4
-    text: "此庙已荒废多年，无甚特别之处，<少侠||女侠>尽快离去罢......"
+    text: "此庙已荒废多年，无甚特别之处，{playerTitle}尽快离去罢......"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2027,1120001025,15,[0].talks{json}[0].name,傻小子"
   splits:
   - split: 4
@@ -21749,7 +21987,10 @@
 - raw: "2027,1120001025,15,[3].talks{json}[0].talk,大<哥哥||姐姐>......真......真好。"
   splits:
   - split: 4
-    text: "大<哥哥||姐姐>......真......真好。"
+    text: "大{playerTitle}......真......真好。"
+    tokens:
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2029,1120001027,15,[0].talks{json}[0].name,赵辛"
   splits:
   - split: 4
@@ -21757,7 +21998,10 @@
 - raw: "2029,1120001027,15,[0].talks{json}[0].talk,多谢<少侠||姑娘>愿听我等糟事，我心甚慰，日后务必鼎力相助！"
   splits:
   - split: 4
-    text: "多谢<少侠||姑娘>愿听我等糟事，我心甚慰，日后务必鼎力相助！"
+    text: "多谢{playerTitle}愿听我等糟事，我心甚慰，日后务必鼎力相助！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2029,1120001027,15,[1].talks{json}[0].name,赵辛"
   splits:
   - split: 4
@@ -21765,7 +22009,10 @@
 - raw: "2029,1120001027,15,[1].talks{json}[0].talk,咳咳，无事无事，<少侠||姑娘>明日记得前来，赵某必厚礼答谢。"
   splits:
   - split: 4
-    text: "咳咳，无事无事，<少侠||姑娘>明日记得前来，赵某必厚礼答谢。"
+    text: "咳咳，无事无事，{playerTitle}明日记得前来，赵某必厚礼答谢。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2029,1120001027,15,[1].talks{json}[0].options{json}[0].name,“敢问是什么厚礼？”"
   splits:
   - split: 4
@@ -21781,7 +22028,10 @@
 - raw: "2029,1120001027,15,[1].talks{json}[2].talk,<少侠||姑娘>明日便知。"
   splits:
   - split: 4
-    text: "<少侠||姑娘>明日便知。"
+    text: "{playerTitle}明日便知。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2029,1120001027,15,[2].talks{json}[0].talk,赵辛对你拱了拱手。"
   splits:
   - split: 4
@@ -21793,7 +22043,10 @@
 - raw: "2029,1120001027,15,[2].talks{json}[1].talk,我侄之事，在此先多谢<少侠||姑娘>！"
   splits:
   - split: 4
-    text: "我侄之事，在此先多谢<少侠||姑娘>！"
+    text: "我侄之事，在此先多谢{playerTitle}！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2029,1120001027,15,[3].talks{json}[0].name,赵辛"
   splits:
   - split: 4
@@ -21801,7 +22054,10 @@
 - raw: "2029,1120001027,15,[3].talks{json}[0].talk,多谢<少侠||姑娘>理解，这孩子之事确实有口难言。"
   splits:
   - split: 4
-    text: "多谢<少侠||姑娘>理解，这孩子之事确实有口难言。"
+    text: "多谢{playerTitle}理解，这孩子之事确实有口难言。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2029,1120001027,15,[4].talks{json}[0].name,赵辛"
   splits:
   - split: 4
@@ -21817,7 +22073,10 @@
 - raw: "2029,1120001027,15,[5].talks{json}[0].talk,听<少侠||姑娘>一言，如拨云见日，此后该如何做，我心中已然有数了。"
   splits:
   - split: 4
-    text: "听<少侠||姑娘>一言，如拨云见日，此后该如何做，我心中已然有数了。"
+    text: "听{playerTitle}一言，如拨云见日，此后该如何做，我心中已然有数了。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2029,1120001027,15,[6].talks{json}[0].name,赵辛"
   splits:
   - split: 4
@@ -21825,7 +22084,10 @@
 - raw: "2029,1120001027,15,[6].talks{json}[0].talk,此事全赖<少侠||姑娘>相助，我与嵩阳……铭感恩德，永记于心。"
   splits:
   - split: 4
-    text: "此事全赖<少侠||姑娘>相助，我与嵩阳……铭感恩德，永记于心。"
+    text: "此事全赖{playerTitle}相助，我与嵩阳……铭感恩德，永记于心。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2030,1120001028,15,[0].talks{json}[0].name,道悟"
   splits:
   - split: 4
@@ -21905,7 +22167,10 @@
 - raw: "2035,1120001033,15,[0].talks{json}[0].talk,奴婢不该如此鲁莽，冲撞了<少侠||女侠>。"
   splits:
   - split: 4
-    text: "奴婢不该如此鲁莽，冲撞了<少侠||女侠>。"
+    text: "奴婢不该如此鲁莽，冲撞了{playerTitle}。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2036,1120001034,15,[0].talks{json}[0].name,杂货郎"
   splits:
   - split: 4
@@ -22001,7 +22266,12 @@
 - raw: "2043,1120001041,15,[1].talks{json}[0].talk,<fName><哥哥||姐姐>，嵩阳蒙你大恩，无以……无以为报！"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，嵩阳蒙你大恩，无以……无以为报！"
+    text: "{firstName}{playerTitle}，嵩阳蒙你大恩，无以……无以为报！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "2044,1120001042,15,[0].talks{json}[0].name,赵辛"
   splits:
   - split: 4
@@ -22069,7 +22339,10 @@
 - raw: "2051,1120002001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2051,1120002001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -22089,7 +22362,10 @@
 - raw: "2051,1120002001,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2051,1120002001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -22109,7 +22385,10 @@
 - raw: "2051,1120002001,15,[1].talks{json}[0].talk,<少侠||女侠>，可要来份宵夜，打打牙祭？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来份宵夜，打打牙祭？"
+    text: "{playerTitle}，可要来份宵夜，打打牙祭？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2051,1120002001,15,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -22129,7 +22408,10 @@
 - raw: "2051,1120002001,15,[1].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2051,1120002001,15,[1].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -22197,7 +22479,10 @@
 - raw: "2057,1120002007,15,[0].talks{json}[0].talk,<少侠||女侠>，你是......"
   splits:
   - split: 4
-    text: "<少侠||女侠>，你是......"
+    text: "{playerTitle}，你是......"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2058,1120002008,15,[0].talks{json}[0].name,茶客"
   splits:
   - split: 4
@@ -22205,7 +22490,10 @@
 - raw: "2058,1120002008,15,[0].talks{json}[0].talk,<少侠||女侠>，你是......"
   splits:
   - split: 4
-    text: "<少侠||女侠>，你是......"
+    text: "{playerTitle}，你是......"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2060,1120002010,15,[0].talks{json}[0].name,南宫刹"
   splits:
   - split: 4
@@ -22213,7 +22501,10 @@
 - raw: "2060,1120002010,15,[0].talks{json}[0].talk,<少侠||女侠>神勇......黑市赌斗坊随时欢迎<少侠||女侠>再来玩玩。"
   splits:
   - split: 4
-    text: "<少侠||女侠>神勇......黑市赌斗坊随时欢迎<少侠||女侠>再来玩玩。"
+    text: "{playerTitle}神勇......黑市赌斗坊随时欢迎{playerTitle}再来玩玩。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2061,1120002011,15,[0].talks{json}[0].name,“亥”字高手"
   splits:
   - split: 4
@@ -22221,7 +22512,10 @@
 - raw: "2061,1120002011,15,[0].talks{json}[0].talk,<少侠||女侠>可有胆来斗我的剑！"
   splits:
   - split: 4
-    text: "<少侠||女侠>可有胆来斗我的剑！"
+    text: "{playerTitle}可有胆来斗我的剑！"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2062,1120002012,15,[0].talks{json}[0].name,武痴"
   splits:
   - split: 4
@@ -22253,7 +22547,10 @@
 - raw: "2066,1120002016,15,[0].talks{json}[0].talk,黑市即日要休市封铺，待他日黑市再开，<少侠||女侠>仍可前来。"
   splits:
   - split: 4
-    text: "黑市即日要休市封铺，待他日黑市再开，<少侠||女侠>仍可前来。"
+    text: "黑市即日要休市封铺，待他日黑市再开，{playerTitle}仍可前来。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2067,1120002017,15,[0].talks{json}[0].name,黑市看守"
   splits:
   - split: 4
@@ -22261,7 +22558,10 @@
 - raw: "2067,1120002017,15,[0].talks{json}[0].talk,黑市即日要休市封铺，待他日黑市再开，<少侠||女侠>仍可前来。"
   splits:
   - split: 4
-    text: "黑市即日要休市封铺，待他日黑市再开，<少侠||女侠>仍可前来。"
+    text: "黑市即日要休市封铺，待他日黑市再开，{playerTitle}仍可前来。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2070,1120002020,15,[0].talks{json}[0].name,阿福"
   splits:
   - split: 4
@@ -22285,7 +22585,10 @@
 - raw: "2071,1120002021,15,[0].talks{json}[0].talk,<少侠||女侠>且先离去吧，少爷正苦思佳句，无暇顾及其他……"
   splits:
   - split: 4
-    text: "<少侠||女侠>且先离去吧，少爷正苦思佳句，无暇顾及其他……"
+    text: "{playerTitle}且先离去吧，少爷正苦思佳句，无暇顾及其他……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2071,1120002021,15,[1].talks{json}[0].name,小翠"
   splits:
   - split: 4
@@ -22293,7 +22596,10 @@
 - raw: "2071,1120002021,15,[1].talks{json}[0].talk,少爷新作了诗赋一首，<少侠||女侠>不妨去找少爷相谈一番，少爷必然会更加欢喜。"
   splits:
   - split: 4
-    text: "少爷新作了诗赋一首，<少侠||女侠>不妨去找少爷相谈一番，少爷必然会更加欢喜。"
+    text: "少爷新作了诗赋一首，{playerTitle}不妨去找少爷相谈一番，少爷必然会更加欢喜。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2071,1120002021,15,[2].talks{json}[0].name,小翠"
   splits:
   - split: 4
@@ -22301,7 +22607,10 @@
 - raw: "2071,1120002021,15,[2].talks{json}[0].talk,<少侠||女侠>此来何事？"
   splits:
   - split: 4
-    text: "<少侠||女侠>此来何事？"
+    text: "{playerTitle}此来何事？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2071,1120002021,15,[3].talks{json}[0].name,小翠"
   splits:
   - split: 4
@@ -22365,7 +22674,10 @@
 - raw: "2075,1120002025,15,[0].talks{json}[0].talk,<大哥哥||大姐姐>能带我去外头玩吗？"
   splits:
   - split: 4
-    text: "<大哥哥||大姐姐>能带我去外头玩吗？"
+    text: "{playerTitle}能带我去外头玩吗？"
+    tokens:
+      playerTitle:
+        source: "<大哥哥||大姐姐>"
 - raw: "2075,1120002025,15,[0].talks{json}[1].name,小西瓜"
   splits:
   - split: 4
@@ -22559,7 +22871,10 @@
 - raw: "2083,1120002033,15,[1].talks{json}[1].talk,老子服气，<少侠||女侠>果真非凡！"
   splits:
   - split: 4
-    text: "老子服气，<少侠||女侠>果真非凡！"
+    text: "老子服气，{playerTitle}果真非凡！"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2084,1120002035,15,[0].talks{json}[0].name,黑市庄荷"
   splits:
   - split: 4
@@ -22715,7 +23030,12 @@
 - raw: "2108,1120002059,15,[0].talks{json}[0].talk,原来是<fName><少侠||姑娘>，今日又想寻老夫谈些什么？"
   splits:
   - split: 4
-    text: "原来是<fName><少侠||姑娘>，今日又想寻老夫谈些什么？"
+    text: "原来是{firstName}{playerTitle}，今日又想寻老夫谈些什么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2109,1120002060,15,[0].talks{json}[0].name,落魄乞丐"
   splits:
   - split: 4
@@ -22723,7 +23043,10 @@
 - raw: "2109,1120002060,15,[0].talks{json}[0].talk,多谢这位<少侠||姑娘>，多谢西门二爷！"
   splits:
   - split: 4
-    text: "多谢这位<少侠||姑娘>，多谢西门二爷！"
+    text: "多谢这位{playerTitle}，多谢西门二爷！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2110,1120002061,15,[0].talks{json}[0].talk,情状可怖……是中毒而死。"
   splits:
   - split: 4
@@ -22829,7 +23152,12 @@
 - raw: "2122,1120002073,15,[3].talks{json}[0].talk,<fName><少侠||姑娘>，自承安一别，咱们可许久未见了。"
   splits:
   - split: 4
-    text: "<fName><少侠||姑娘>，自承安一别，咱们可许久未见了。"
+    text: "{firstName}{playerTitle}，自承安一别，咱们可许久未见了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2122,1120002073,15,[4].talks{json}[0].name,南宫莲"
   splits:
   - split: 4
@@ -22861,7 +23189,10 @@
 - raw: "2124,1120002075,15,[0].talks{json}[0].talk,<少侠||姑娘>你来了，今日可要瞧瞧咱们店里的跌打膏药？"
   splits:
   - split: 4
-    text: "<少侠||姑娘>你来了，今日可要瞧瞧咱们店里的跌打膏药？"
+    text: "{playerTitle}你来了，今日可要瞧瞧咱们店里的跌打膏药？"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2124,1120002075,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -22885,7 +23216,10 @@
 - raw: "2125,1120002076,15,[0].talks{json}[0].talk,……多谢<少侠||姑娘>相救之恩……"
   splits:
   - split: 4
-    text: "……多谢<少侠||姑娘>相救之恩……"
+    text: "……多谢{playerTitle}相救之恩……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2126,1120002077,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -22893,7 +23227,12 @@
 - raw: "2126,1120002077,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2127,1120002078,15,[0].talks{json}[0].name,小沙弥"
   splits:
   - split: 4
@@ -22957,7 +23296,10 @@
 - raw: "2132,1120002083,15,[0].talks{json}[0].talk,<公子||姑娘>，还有何事？"
   splits:
   - split: 4
-    text: "<公子||姑娘>，还有何事？"
+    text: "{playerTitle}，还有何事？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2132,1120002083,15,[1].talks{json}[0].name,邓红婵"
   splits:
   - split: 4
@@ -23009,7 +23351,10 @@
 - raw: "2134,1120002085,15,[0].talks{json}[0].talk,稍后若是动起手来，<公子||姑娘>可要留神。"
   splits:
   - split: 4
-    text: "稍后若是动起手来，<公子||姑娘>可要留神。"
+    text: "稍后若是动起手来，{playerTitle}可要留神。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2134,1120002085,15,[1].talks{json}[0].name,武馆弟子"
   splits:
   - split: 4
@@ -23017,7 +23362,10 @@
 - raw: "2134,1120002085,15,[1].talks{json}[0].talk,<公子||姑娘>，方才好俊身手！"
   splits:
   - split: 4
-    text: "<公子||姑娘>，方才好俊身手！"
+    text: "{playerTitle}，方才好俊身手！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2134,1120002085,15,[2].talks{json}[0].name,武馆弟子"
   splits:
   - split: 4
@@ -23057,7 +23405,10 @@
 - raw: "2136,1120002087,15,[0].talks{json}[0].talk,今日之事，多谢<公子||姑娘>相助。"
   splits:
   - split: 4
-    text: "今日之事，多谢<公子||姑娘>相助。"
+    text: "今日之事，多谢{playerTitle}相助。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2136,1120002087,15,[1].talks{json}[0].name,邓红婵"
   splits:
   - split: 4
@@ -23065,7 +23416,10 @@
 - raw: "2136,1120002087,15,[1].talks{json}[0].talk,<公子||姑娘>，还有何事？"
   splits:
   - split: 4
-    text: "<公子||姑娘>，还有何事？"
+    text: "{playerTitle}，还有何事？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2137,1120002088,15,[0].talks{json}[0].name,梁三"
   splits:
   - split: 4
@@ -23081,7 +23435,10 @@
 - raw: "2137,1120002088,15,[1].talks{json}[1].talk,<fName>兄，切莫将此信是我所书一事告知小姐，在下感激不尽。"
   splits:
   - split: 4
-    text: "<fName>兄，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    text: "{firstName}兄，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "2137,1120002088,15,[1].talks{json}[2].name,梁三"
   splits:
   - split: 4
@@ -23089,7 +23446,10 @@
 - raw: "2137,1120002088,15,[1].talks{json}[2].talk,<fName>姊，切莫将此信是我所书一事告知小姐，在下感激不尽。"
   splits:
   - split: 4
-    text: "<fName>姊，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    text: "{firstName}姊，切莫将此信是我所书一事告知小姐，在下感激不尽。"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "2137,1120002088,15,[2].talks{json}[0].name,梁三顾"
   splits:
   - split: 4
@@ -23221,7 +23581,10 @@
 - raw: "2149,1120002100,15,[2].talks{json}[0].talk,家主谋划，我等下人一概不知，还请<少侠||姑娘>饶恕我等性命……"
   splits:
   - split: 4
-    text: "家主谋划，我等下人一概不知，还请<少侠||姑娘>饶恕我等性命……"
+    text: "家主谋划，我等下人一概不知，还请{playerTitle}饶恕我等性命……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2150,1120002101,15,[0].talks{json}[0].name,连环寨山贼"
   splits:
   - split: 4
@@ -23897,7 +24260,10 @@
 - raw: "2335,1130001013,15,[0].talks{json}[0].talk,<少侠||女侠>待你回山门中，可否帮老太给我儿捎句话呀……就说老太我衣食富足，有吃有穿，不用挂念……要是得空，记得回家看看老太我……"
   splits:
   - split: 4
-    text: "<少侠||女侠>待你回山门中，可否帮老太给我儿捎句话呀……就说老太我衣食富足，有吃有穿，不用挂念……要是得空，记得回家看看老太我……"
+    text: "{playerTitle}待你回山门中，可否帮老太给我儿捎句话呀……就说老太我衣食富足，有吃有穿，不用挂念……要是得空，记得回家看看老太我……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2335,1130001013,15,[1].talks{json}[0].name,沈家老太"
   splits:
   - split: 4
@@ -23905,7 +24271,10 @@
 - raw: "2335,1130001013,15,[1].talks{json}[0].talk,<少侠||姑娘>若是遇上我家临儿，可否帮老太给我儿捎句话呀……就说老太我衣食富足，有吃有穿，不用挂念……要是得空，记得回家看看老太我……"
   splits:
   - split: 4
-    text: "<少侠||姑娘>若是遇上我家临儿，可否帮老太给我儿捎句话呀……就说老太我衣食富足，有吃有穿，不用挂念……要是得空，记得回家看看老太我……"
+    text: "{playerTitle}若是遇上我家临儿，可否帮老太给我儿捎句话呀……就说老太我衣食富足，有吃有穿，不用挂念……要是得空，记得回家看看老太我……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2335,1130001013,15,[2].talks{json}[0].talk,沈家老太正与邓克礼相诉种种，还是莫要打搅他们罢。"
   splits:
   - split: 4
@@ -23933,7 +24302,10 @@
 - raw: "2338,1130003004,15,[0].talks{json}[0].talk,小赌养家糊口，大赌创业发财，<少侠||女侠>可来要耍耍？"
   splits:
   - split: 4
-    text: "小赌养家糊口，大赌创业发财，<少侠||女侠>可来要耍耍？"
+    text: "小赌养家糊口，大赌创业发财，{playerTitle}可来要耍耍？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2340,1130009801,15,[0].talks{json}[0].talk,此树枯槁已久，中心空洞。"
   splits:
   - split: 4
@@ -24133,7 +24505,10 @@
 - raw: "2362,1140001001,15,[0].talks{json}[0].talk,贺喜<小师弟||小师妹>得入天涯海阁，若是修炼有何不明之处，大可来寻我指点一二。"
   splits:
   - split: 4
-    text: "贺喜<小师弟||小师妹>得入天涯海阁，若是修炼有何不明之处，大可来寻我指点一二。"
+    text: "贺喜{playerTitle}得入天涯海阁，若是修炼有何不明之处，大可来寻我指点一二。"
+    tokens:
+      playerTitle:
+        source: "<小师弟||小师妹>"
 - raw: "2362,1140001001,15,[1].talks{json}[0].name,接引弟子"
   splits:
   - split: 4
@@ -24141,7 +24516,10 @@
 - raw: "2362,1140001001,15,[1].talks{json}[0].talk,“登舫”之试已始，<少侠||女侠>可前往船楼处一观。"
   splits:
   - split: 4
-    text: "“登舫”之试已始，<少侠||女侠>可前往船楼处一观。"
+    text: "“登舫”之试已始，{playerTitle}可前往船楼处一观。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2363,1140001002,15,[0].talks{json}[0].name,海阁弟子"
   splits:
   - split: 4
@@ -24149,7 +24527,10 @@
 - raw: "2363,1140001002,15,[0].talks{json}[0].talk,<少侠||女侠>莫要惊慌，凡是伤者皆由我海阁弟子送往东壁堂处，由东壁先生及其医道弟子诊疗。"
   splits:
   - split: 4
-    text: "<少侠||女侠>莫要惊慌，凡是伤者皆由我海阁弟子送往东壁堂处，由东壁先生及其医道弟子诊疗。"
+    text: "{playerTitle}莫要惊慌，凡是伤者皆由我海阁弟子送往东壁堂处，由东壁先生及其医道弟子诊疗。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2363,1140001002,15,[1].talks{json}[0].name,海阁弟子"
   splits:
   - split: 4
@@ -24157,7 +24538,10 @@
 - raw: "2363,1140001002,15,[1].talks{json}[0].talk,此乃天涯海阁之地，还请<少侠||女侠>毋要在此嬉闹。"
   splits:
   - split: 4
-    text: "此乃天涯海阁之地，还请<少侠||女侠>毋要在此嬉闹。"
+    text: "此乃天涯海阁之地，还请{playerTitle}毋要在此嬉闹。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2363,1140001002,15,[2].talks{json}[0].name,海阁弟子"
   splits:
   - split: 4
@@ -24173,7 +24557,10 @@
 - raw: "2363,1140001002,15,[3].talks{json}[0].talk,贺喜<小师弟||小师妹>得入天涯海阁，日后若有门派俗事之扰，大可来寻我相助。"
   splits:
   - split: 4
-    text: "贺喜<小师弟||小师妹>得入天涯海阁，日后若有门派俗事之扰，大可来寻我相助。"
+    text: "贺喜{playerTitle}得入天涯海阁，日后若有门派俗事之扰，大可来寻我相助。"
+    tokens:
+      playerTitle:
+        source: "<小师弟||小师妹>"
 - raw: "2364,1140001003,15,[0].talks{json}[0].name,涯守弟子"
   splits:
   - split: 4
@@ -24181,7 +24568,10 @@
 - raw: "2364,1140001003,15,[0].talks{json}[0].talk,还请<少侠||女侠>莫要惊慌，待我等调查过后，定会给<少侠||女侠>一个交代。"
   splits:
   - split: 4
-    text: "还请<少侠||女侠>莫要惊慌，待我等调查过后，定会给<少侠||女侠>一个交代。"
+    text: "还请{playerTitle}莫要惊慌，待我等调查过后，定会给{playerTitle}一个交代。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2364,1140001003,15,[1].talks{json}[0].name,涯守弟子"
   splits:
   - split: 4
@@ -24189,7 +24579,10 @@
 - raw: "2364,1140001003,15,[1].talks{json}[0].talk,此乃天涯海阁重地，还请<少侠||女侠>循规遵矩。"
   splits:
   - split: 4
-    text: "此乃天涯海阁重地，还请<少侠||女侠>循规遵矩。"
+    text: "此乃天涯海阁重地，还请{playerTitle}循规遵矩。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2364,1140001003,15,[2].talks{json}[0].name,涯守弟子"
   splits:
   - split: 4
@@ -24197,7 +24590,10 @@
 - raw: "2364,1140001003,15,[2].talks{json}[0].talk,贺喜<小师弟||小师妹>得入天涯海阁，日后若有门派俗事之扰，大可来寻我相助。"
   splits:
   - split: 4
-    text: "贺喜<小师弟||小师妹>得入天涯海阁，日后若有门派俗事之扰，大可来寻我相助。"
+    text: "贺喜{playerTitle}得入天涯海阁，日后若有门派俗事之扰，大可来寻我相助。"
+    tokens:
+      playerTitle:
+        source: "<小师弟||小师妹>"
 - raw: "2364,1140001003,15,[3].talks{json}[0].name,涯守弟子"
   splits:
   - split: 4
@@ -24245,7 +24641,10 @@
 - raw: "2369,1140001008,15,[0].talks{json}[0].talk,哪来的<小子||丫头>，打扮的如此土气……"
   splits:
   - split: 4
-    text: "哪来的<小子||丫头>，打扮的如此土气……"
+    text: "哪来的{playerTitle}，打扮的如此土气……"
+    tokens:
+      playerTitle:
+        source: "<小子||丫头>"
 - raw: "2369,1140001008,15,[1].talks{json}[0].name,吕绮萝"
   splits:
   - split: 4
@@ -24273,7 +24672,10 @@
 - raw: "2370,1140001009,15,[0].talks{json}[0].talk,见过<公子||姑娘>。"
   splits:
   - split: 4
-    text: "见过<公子||姑娘>。"
+    text: "见过{playerTitle}。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2370,1140001009,15,[0].talks{json}[1].talk,第五青衫眉目清隽冷淡，向你微微点头见礼。"
   splits:
   - split: 4
@@ -24325,7 +24727,10 @@
 - raw: "2373,1140001012,15,[1].talks{json}[0].talk,那只木匣便埋在南屏山间，<少侠||女侠>且自去寻觅罢。"
   splits:
   - split: 4
-    text: "那只木匣便埋在南屏山间，<少侠||女侠>且自去寻觅罢。"
+    text: "那只木匣便埋在南屏山间，{playerTitle}且自去寻觅罢。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2373,1140001012,15,[2].talks{json}[0].talk,方顾呆滞地望向火盆中飞腾的纸业，一言未发，显然此刻并不好受，还是暂且离去，莫再搅扰于他了。"
   splits:
   - split: 4
@@ -24333,7 +24738,10 @@
 - raw: "2374,1140001013,15,[0].talks{json}[0].talk,<少侠||女侠>，需要些什么？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，需要些什么？"
+    text: "{playerTitle}，需要些什么？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2374,1140001013,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -24349,7 +24757,10 @@
 - raw: "2375,1140001014,15,[0].talks{json}[0].talk,此乃天涯海阁重地，还请<少侠||女侠>循规遵矩。"
   splits:
   - split: 4
-    text: "此乃天涯海阁重地，还请<少侠||女侠>循规遵矩。"
+    text: "此乃天涯海阁重地，还请{playerTitle}循规遵矩。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2376,1140001015,15,[0].talks{json}[0].talk,一张无弦之琴静置于此，不知是何用意。"
   splits:
   - split: 4
@@ -24513,7 +24924,10 @@
 - raw: "2418,1140003131,15,[0].talks{json}[0].talk,若是海龙爷发怒……<公子||姑娘>千万小心哪！"
   splits:
   - split: 4
-    text: "若是海龙爷发怒……<公子||姑娘>千万小心哪！"
+    text: "若是海龙爷发怒……{playerTitle}千万小心哪！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2418,1140003131,15,[1].talks{json}[0].name,渔人"
   splits:
   - split: 4
@@ -24525,7 +24939,10 @@
 - raw: "2419,1140003132,15,[0].talks{json}[0].talk,此事便有劳<公子||姑娘>探查了。"
   splits:
   - split: 4
-    text: "此事便有劳<公子||姑娘>探查了。"
+    text: "此事便有劳{playerTitle}探查了。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2419,1140003132,15,[1].talks{json}[0].name,保长"
   splits:
   - split: 4
@@ -24533,7 +24950,10 @@
 - raw: "2419,1140003132,15,[1].talks{json}[0].talk,多亏<公子||姑娘>，我等总算得以安心了！"
   splits:
   - split: 4
-    text: "多亏<公子||姑娘>，我等总算得以安心了！"
+    text: "多亏{playerTitle}，我等总算得以安心了！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2420,1140003133,15,[0].talks{json}[0].name,镇民甲"
   splits:
   - split: 4
@@ -24865,7 +25285,12 @@
 - raw: "2443,1140005016,15,[1].talks{json}[0].talk,纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
   splits:
   - split: 4
-    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
+    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上{firstName}{playerTitle}……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "2443,1140005016,15,[1].talks{json}[0].options{json}[0].name,欣然同意。"
   splits:
   - split: 4
@@ -24881,7 +25306,12 @@
 - raw: "2443,1140005016,15,[1].talks{json}[2].talk,无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
   splits:
   - split: 4
-    text: "无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
+    text: "无妨，{fullName}{playerTitle}若能转念，我便在此处相候。"
+    tokens:
+      fullName:
+        source: "<name>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "2443,1140005016,15,[2].talks{json}[0].name,黄小玥"
   splits:
   - split: 4
@@ -24981,7 +25411,12 @@
 - raw: "2461,1140005034,15,[0].talks{json}[0].talk,纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
   splits:
   - split: 4
-    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
+    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上{firstName}{playerTitle}……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "2461,1140005034,15,[0].talks{json}[0].options{json}[0].name,欣然同意。"
   splits:
   - split: 4
@@ -24997,7 +25432,12 @@
 - raw: "2461,1140005034,15,[0].talks{json}[2].talk,无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
   splits:
   - split: 4
-    text: "无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
+    text: "无妨，{fullName}{playerTitle}若能转念，我便在此处相候。"
+    tokens:
+      fullName:
+        source: "<name>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "2464,1140005037,15,[0].talks{json}[0].talk,此人业已毙命。"
   splits:
   - split: 4
@@ -25049,7 +25489,10 @@
 - raw: "2469,1140005043,15,[0].talks{json}[0].talk,<公子||姑娘>，可查到小女下落？"
   splits:
   - split: 4
-    text: "<公子||姑娘>，可查到小女下落？"
+    text: "{playerTitle}，可查到小女下落？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2469,1140005043,15,[1].talks{json}[0].name,孙老先生"
   splits:
   - split: 4
@@ -25121,7 +25564,10 @@
 - raw: "2477,1140005051,15,[0].talks{json}[0].talk,这位<爷||姑娘>，有兴致就多来找我家姑娘坐坐！"
   splits:
   - split: 4
-    text: "这位<爷||姑娘>，有兴致就多来找我家姑娘坐坐！"
+    text: "这位{playerTitle}，有兴致就多来找我家姑娘坐坐！"
+    tokens:
+      playerTitle:
+        source: "<爷||姑娘>"
 - raw: "2477,1140005051,15,[1].talks{json}[0].name,苏娘子"
   splits:
   - split: 4
@@ -25129,7 +25575,10 @@
 - raw: "2477,1140005051,15,[1].talks{json}[0].talk,<公、公子||姑、姑娘>，我可已经从良了！现在我这儿可都是正经营生！"
   splits:
   - split: 4
-    text: "<公、公子||姑、姑娘>，我可已经从良了！现在我这儿可都是正经营生！"
+    text: "{playerTitle}，我可已经从良了！现在我这儿可都是正经营生！"
+    tokens:
+      playerTitle:
+        source: "<公、公子||姑、姑娘>"
 - raw: "2479,1140005053,15,[0].talks{json}[0].name,武师护卫"
   splits:
   - split: 4
@@ -25137,7 +25586,10 @@
 - raw: "2479,1140005053,15,[0].talks{json}[0].talk,<大侠||女侠>饶、饶命！"
   splits:
   - split: 4
-    text: "<大侠||女侠>饶、饶命！"
+    text: "{playerTitle}饶、饶命！"
+    tokens:
+      playerTitle:
+        source: "<大侠||女侠>"
 - raw: "2480,1140005054,15,[0].talks{json}[0].name,武师护卫"
   splits:
   - split: 4
@@ -25373,7 +25825,10 @@
 - raw: "2505,1140005079,15,[0].talks{json}[0].talk,需要衣鹤跟随<name>大人左右吗？"
   splits:
   - split: 4
-    text: "需要衣鹤跟随<name>大人左右吗？"
+    text: "需要衣鹤跟随{fullName}大人左右吗？"
+    tokens:
+      fullName:
+        source: "<name>"
 - raw: "2505,1140005079,15,[0].talks{json}[0].options{json}[0].name,同意入队。"
   splits:
   - split: 4
@@ -25389,7 +25844,10 @@
 - raw: "2505,1140005079,15,[0].talks{json}[1].talk,衣鹤定会保护好<name>大人！"
   splits:
   - split: 4
-    text: "衣鹤定会保护好<name>大人！"
+    text: "衣鹤定会保护好{fullName}大人！"
+    tokens:
+      fullName:
+        source: "<name>"
 - raw: "2505,1140005079,15,[0].talks{json}[2].name,法月衣鹤"
   splits:
   - split: 4
@@ -25417,7 +25875,10 @@
 - raw: "2510,1140005084,15,[0].talks{json}[0].talk,此事便拜托<公子||姑娘>了。"
   splits:
   - split: 4
-    text: "此事便拜托<公子||姑娘>了。"
+    text: "此事便拜托{playerTitle}了。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2510,1140005084,15,[1].talks{json}[0].name,涯守弟子"
   splits:
   - split: 4
@@ -25425,7 +25886,10 @@
 - raw: "2510,1140005084,15,[1].talks{json}[0].talk,多亏<公子||姑娘>，总算救下了这些女子。阁中会安排好后续事宜，<公子||姑娘>不必担忧。"
   splits:
   - split: 4
-    text: "多亏<公子||姑娘>，总算救下了这些女子。阁中会安排好后续事宜，<公子||姑娘>不必担忧。"
+    text: "多亏{playerTitle}，总算救下了这些女子。阁中会安排好后续事宜，{playerTitle}不必担忧。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2511,1140005085,15,[0].talks{json}[0].name,嫖客"
   splits:
   - split: 4
@@ -25481,7 +25945,12 @@
 - raw: "2519,1140005099,15,[0].talks{json}[0].talk,纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
   splits:
   - split: 4
-    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上<fName><大哥||姐姐>……"
+    text: "纵使修为不济，小玥这些年来独身行走江湖，亦习过些疗伤之术，许能帮上{firstName}{playerTitle}……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "2519,1140005099,15,[0].talks{json}[0].options{json}[0].name,欣然同意。"
   splits:
   - split: 4
@@ -25497,7 +25966,12 @@
 - raw: "2519,1140005099,15,[0].talks{json}[2].talk,无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
   splits:
   - split: 4
-    text: "无妨，<name><大哥||姐姐>若能转念，我便在此处相候。"
+    text: "无妨，{fullName}{playerTitle}若能转念，我便在此处相候。"
+    tokens:
+      fullName:
+        source: "<name>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "2520,1140006018,15,[0].talks{json}[0].name,围观武者"
   splits:
   - split: 4
@@ -25977,7 +26451,10 @@
 - raw: "2607,1150001001,15,[1].talks{json}[0].talk,张铁兄此处有我看顾，<兄弟||姑娘>不必挂心。"
   splits:
   - split: 4
-    text: "张铁兄此处有我看顾，<兄弟||姑娘>不必挂心。"
+    text: "张铁兄此处有我看顾，{playerTitle}不必挂心。"
+    tokens:
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "2607,1150001001,15,[2].talks{json}[0].name,燕南归"
   splits:
   - split: 4
@@ -25985,7 +26462,12 @@
 - raw: "2607,1150001001,15,[2].talks{json}[0].talk,张铁兄有我照看，<fName><兄弟||姑娘>一切放心。"
   splits:
   - split: 4
-    text: "张铁兄有我照看，<fName><兄弟||姑娘>一切放心。"
+    text: "张铁兄有我照看，{firstName}{playerTitle}一切放心。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "2607,1150001001,15,[3].talks{json}[0].name,燕南归"
   splits:
   - split: 4
@@ -26001,7 +26483,10 @@
 - raw: "2607,1150001001,15,[4].talks{json}[0].talk,张铁兄此处有我看顾，<小兄弟||姑娘>不必挂心。"
   splits:
   - split: 4
-    text: "张铁兄此处有我看顾，<小兄弟||姑娘>不必挂心。"
+    text: "张铁兄此处有我看顾，{playerTitle}不必挂心。"
+    tokens:
+      playerTitle:
+        source: "<小兄弟||姑娘>"
 - raw: "2607,1150001001,15,[5].talks{json}[0].name,燕南归"
   splits:
   - split: 4
@@ -26009,7 +26494,10 @@
 - raw: "2607,1150001001,15,[5].talks{json}[0].talk,此处有燕某盯着，<小兄弟||姑娘>自可前往桃花坞内探听消息。"
   splits:
   - split: 4
-    text: "此处有燕某盯着，<小兄弟||姑娘>自可前往桃花坞内探听消息。"
+    text: "此处有燕某盯着，{playerTitle}自可前往桃花坞内探听消息。"
+    tokens:
+      playerTitle:
+        source: "<小兄弟||姑娘>"
 - raw: "2608,1150001002,15,[0].talks{json}[0].name,明印"
   splits:
   - split: 4
@@ -26057,7 +26545,10 @@
 - raw: "2610,1150001004,15,[1].talks{json}[0].talk,此事……有劳<公子||姑娘>了，洛公子之事，我会再多劝劝黄莺姐姐……"
   splits:
   - split: 4
-    text: "此事……有劳<公子||姑娘>了，洛公子之事，我会再多劝劝黄莺姐姐……"
+    text: "此事……有劳{playerTitle}了，洛公子之事，我会再多劝劝黄莺姐姐……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2611,1150001005,15,[0].talks{json}[0].name,黄莺"
   splits:
   - split: 4
@@ -26065,7 +26556,10 @@
 - raw: "2611,1150001005,15,[0].talks{json}[0].talk,多，多谢<少侠||女侠>……"
   splits:
   - split: 4
-    text: "多，多谢<少侠||女侠>……"
+    text: "多，多谢{playerTitle}……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2611,1150001005,15,[1].talks{json}[0].name,黄莺"
   splits:
   - split: 4
@@ -26081,7 +26575,10 @@
 - raw: "2611,1150001005,15,[2].talks{json}[0].talk,多，多谢<少侠||女侠>……"
   splits:
   - split: 4
-    text: "多，多谢<少侠||女侠>……"
+    text: "多，多谢{playerTitle}……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2612,1150001006,15,[0].talks{json}[0].name,公输古榆"
   splits:
   - split: 4
@@ -26228,7 +26725,10 @@
 - raw: "2618,1150002001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2618,1150002001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -26248,7 +26748,10 @@
 - raw: "2618,1150002001,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2618,1150002001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -26387,7 +26890,10 @@
 - raw: "2630,1150003004,15,[1].talks{json}[0].talk,我换糖帮经营小本生意，<公子||姑娘>可有甚物什，要来“鸡毛换糖”？"
   splits:
   - split: 4
-    text: "我换糖帮经营小本生意，<公子||姑娘>可有甚物什，要来“鸡毛换糖”？"
+    text: "我换糖帮经营小本生意，{playerTitle}可有甚物什，要来“鸡毛换糖”？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2630,1150003004,15,[2].talks{json}[0].name,陈河"
   splits:
   - split: 4
@@ -27037,7 +27543,10 @@
 - raw: "2697,1160001019,15,[2].talks{json}[0].talk,<少侠||姑娘>这般好手，徐某记下了。"
   splits:
   - split: 4
-    text: "<少侠||姑娘>这般好手，徐某记下了。"
+    text: "{playerTitle}这般好手，徐某记下了。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2697,1160001019,15,[2].talks{json}[1].talk,徐行川向你微微一笑。"
   splits:
   - split: 4
@@ -27121,7 +27630,10 @@
 - raw: "2703,1160001025,15,[1].talks{json}[0].talk,此前多谢<少侠||姑娘>相助，戚某……无以为报。"
   splits:
   - split: 4
-    text: "此前多谢<少侠||姑娘>相助，戚某……无以为报。"
+    text: "此前多谢{playerTitle}相助，戚某……无以为报。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2703,1160001025,15,[2].talks{json}[0].name,戚定远"
   splits:
   - split: 4
@@ -27129,7 +27641,10 @@
 - raw: "2703,1160001025,15,[2].talks{json}[0].talk,<少侠||姑娘>，近来可好？"
   splits:
   - split: 4
-    text: "<少侠||姑娘>，近来可好？"
+    text: "{playerTitle}，近来可好？"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2704,1160001026,15,[0].talks{json}[0].name,左世宏"
   splits:
   - split: 4
@@ -27389,7 +27904,10 @@
 - raw: "2737,1160001059,15,[0].talks{json}[0].talk,万般皆是命，半点不由人……<少侠||女侠>，莫要挂怀，人活一世，总要认命……"
   splits:
   - split: 4
-    text: "万般皆是命，半点不由人……<少侠||女侠>，莫要挂怀，人活一世，总要认命……"
+    text: "万般皆是命，半点不由人……{playerTitle}，莫要挂怀，人活一世，总要认命……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2737,1160001059,15,[1].talks{json}[0].name,赵姓乞丐"
   splits:
   - split: 4
@@ -27441,7 +27959,10 @@
 - raw: "2740,1160001062,15,[0].talks{json}[2].talk,原来是<faction>的少侠，隆顺镖局广结五湖良友，阁下若想入内观礼，还请自便。"
   splits:
   - split: 4
-    text: "原来是<faction>的少侠，隆顺镖局广结五湖良友，阁下若想入内观礼，还请自便。"
+    text: "原来是{faction}的少侠，隆顺镖局广结五湖良友，阁下若想入内观礼，还请自便。"
+    tokens:
+      faction:
+        source: "<faction>"
 - raw: "2740,1160001062,15,[0].talks{json}[2].options{json}[0].name,“却之不恭……”"
   splits:
   - split: 4
@@ -27485,7 +28006,12 @@
 - raw: "2744,1160001066,15,[0].talks{json}[1].talk,<fName><公子||姑娘>，好俊身手。"
   splits:
   - split: 4
-    text: "<fName><公子||姑娘>，好俊身手。"
+    text: "{firstName}{playerTitle}，好俊身手。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2744,1160001066,15,[1].talks{json}[0].name,秦懿瑶"
   splits:
   - split: 4
@@ -27517,7 +28043,10 @@
 - raw: "2745,1160001067,15,[0].talks{json}[0].talk,此事，便拜托<公子||姑娘>了。"
   splits:
   - split: 4
-    text: "此事，便拜托<公子||姑娘>了。"
+    text: "此事，便拜托{playerTitle}了。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2745,1160001067,15,[1].talks{json}[0].name,秦岳渊"
   splits:
   - split: 4
@@ -27533,7 +28062,12 @@
 - raw: "2745,1160001067,15,[2].talks{json}[0].talk,小老儿已然无恙。<fName><公子||姑娘>，小女此后，可就托付于你了！"
   splits:
   - split: 4
-    text: "小老儿已然无恙。<fName><公子||姑娘>，小女此后，可就托付于你了！"
+    text: "小老儿已然无恙。{firstName}{playerTitle}，小女此后，可就托付于你了！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2745,1160001067,15,[3].talks{json}[0].name,秦岳渊"
   splits:
   - split: 4
@@ -27541,7 +28075,12 @@
 - raw: "2745,1160001067,15,[3].talks{json}[0].talk,小老儿已然无恙。<fName><公子||姑娘>，小女此后，可就托付于你了！"
   splits:
   - split: 4
-    text: "小老儿已然无恙。<fName><公子||姑娘>，小女此后，可就托付于你了！"
+    text: "小老儿已然无恙。{firstName}{playerTitle}，小女此后，可就托付于你了！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2746,1160001068,15,[0].talks{json}[0].name,戚定远"
   splits:
   - split: 4
@@ -27609,7 +28148,10 @@
 - raw: "2752,1160001074,15,[0].talks{json}[2].talk,<少侠||姑娘>，我们“总镖头”可还安好？你二人闯荡江湖，累了便回来看看！"
   splits:
   - split: 4
-    text: "<少侠||姑娘>，我们“总镖头”可还安好？你二人闯荡江湖，累了便回来看看！"
+    text: "{playerTitle}，我们“总镖头”可还安好？你二人闯荡江湖，累了便回来看看！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2753,1160001075,15,[0].talks{json}[0].talk,载有货箱的镖车，镖物被仔细栓捆固定，看不出内中何物。"
   splits:
   - split: 4
@@ -28041,7 +28583,10 @@
 - raw: "2824,1160002022,15,[0].talks{json}[0].talk,近年间山里猛兽不见多少，剪径匪寇却是愈来愈多，<公子||姑娘>于其间行走时，可要警醒着些。"
   splits:
   - split: 4
-    text: "近年间山里猛兽不见多少，剪径匪寇却是愈来愈多，<公子||姑娘>于其间行走时，可要警醒着些。"
+    text: "近年间山里猛兽不见多少，剪径匪寇却是愈来愈多，{playerTitle}于其间行走时，可要警醒着些。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "2825,1160002023,15,[0].talks{json}[0].name,农户"
   splits:
   - split: 4
@@ -28653,7 +29198,10 @@
 - raw: "2905,1160009990,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2905,1160009990,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -28673,7 +29221,10 @@
 - raw: "2905,1160009990,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2905,1160009990,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -28701,7 +29252,10 @@
 - raw: "2906,1160101001,15,[1].talks{json}[0].talk,过阵之法具在口诀之中，<少侠||女侠>仔细研读，再配之以轻功，便能顺利过阵……"
   splits:
   - split: 4
-    text: "过阵之法具在口诀之中，<少侠||女侠>仔细研读，再配之以轻功，便能顺利过阵……"
+    text: "过阵之法具在口诀之中，{playerTitle}仔细研读，再配之以轻功，便能顺利过阵……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2906,1160101001,15,[2].talks{json}[0].name,公输古榆"
   splits:
   - split: 4
@@ -28709,7 +29263,10 @@
 - raw: "2906,1160101001,15,[2].talks{json}[0].talk,我已将西湖深处阵法解除，<少侠||女侠>自此可自由出入……"
   splits:
   - split: 4
-    text: "我已将西湖深处阵法解除，<少侠||女侠>自此可自由出入……"
+    text: "我已将西湖深处阵法解除，{playerTitle}自此可自由出入……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "2907,1160101002,15,[0].talks{json}[0].name,湖畔老叟"
   splits:
   - split: 4
@@ -28725,7 +29282,10 @@
 - raw: "2907,1160101002,15,[1].talks{json}[0].talk,少爷既有言语，<少侠||姑娘>自便即可……"
   splits:
   - split: 4
-    text: "少爷既有言语，<少侠||姑娘>自便即可……"
+    text: "少爷既有言语，{playerTitle}自便即可……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2908,1160101003,15,[0].talks{json}[0].talk,此小舟乃是那神秘老叟留下的，或可自行划船前往西湖深处……"
   splits:
   - split: 4
@@ -28761,7 +29321,10 @@
 - raw: "2911,1160101006,15,[0].talks{json}[0].talk,<少侠||姑娘>可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
   splits:
   - split: 4
-    text: "<少侠||姑娘>可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
+    text: "{playerTitle}可前往江北，寻得渡船前往桃花坞，到达彼处，将此信交予名曰潇湘子之人便可……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "2911,1160101006,15,[1].talks{json}[0].name,花相"
   splits:
   - split: 4
@@ -28785,7 +29348,12 @@
 - raw: "2913,1160101008,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2914,1160101009,15,[0].talks{json}[0].name,乞丐"
   splits:
   - split: 4
@@ -28849,7 +29417,12 @@
 - raw: "2919,1160101014,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2920,1160101015,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28857,7 +29430,12 @@
 - raw: "2920,1160101015,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2921,1160101016,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28865,7 +29443,12 @@
 - raw: "2921,1160101016,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2922,1160101017,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28873,7 +29456,12 @@
 - raw: "2922,1160101017,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2923,1160101018,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28881,7 +29469,12 @@
 - raw: "2923,1160101018,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2924,1160101019,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28889,7 +29482,12 @@
 - raw: "2924,1160101019,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2925,1160101020,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28897,7 +29495,12 @@
 - raw: "2925,1160101020,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2926,1160101021,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28905,7 +29508,12 @@
 - raw: "2926,1160101021,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2928,1160101023,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28913,7 +29521,12 @@
 - raw: "2928,1160101023,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2929,1160101024,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28921,7 +29534,12 @@
 - raw: "2929,1160101024,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2930,1160101025,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -28929,7 +29547,12 @@
 - raw: "2930,1160101025,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "2931,1160101026,15,[0].talks{json}[0].name,流民"
   splits:
   - split: 4
@@ -29435,7 +30058,10 @@
 - raw: "2984,1160502012,15,[0].talks{json}[0].talk,这位<兄弟||姑娘>，不知可否借我几枚铜子？家里妻儿还着吃饭哩。"
   splits:
   - split: 4
-    text: "这位<兄弟||姑娘>，不知可否借我几枚铜子？家里妻儿还着吃饭哩。"
+    text: "这位{playerTitle}，不知可否借我几枚铜子？家里妻儿还着吃饭哩。"
+    tokens:
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "2985,1160502014,15,[0].talks{json}[0].name,赌徒"
   splits:
   - split: 4
@@ -29499,7 +30125,10 @@
 - raw: "2990,1170001001,15,[0].talks{json}[0].talk,中原<男子||女子>，当真有趣得紧……"
   splits:
   - split: 4
-    text: "中原<男子||女子>，当真有趣得紧……"
+    text: "中原{playerTitle}，当真有趣得紧……"
+    tokens:
+      playerTitle:
+        source: "<男子||女子>"
 - raw: "2990,1170001001,15,[1].talks{json}[0].name,蝎姬"
   splits:
   - split: 4
@@ -29507,7 +30136,12 @@
 - raw: "2990,1170001001,15,[1].talks{json}[0].talk,<fName><公子||妹子>，若想姐姐了，记得常回教中瞧瞧。"
   splits:
   - split: 4
-    text: "<fName><公子||妹子>，若想姐姐了，记得常回教中瞧瞧。"
+    text: "{firstName}{playerTitle}，若想姐姐了，记得常回教中瞧瞧。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "2991,1170001004,15,[0].talks{json}[0].name,段绍裘"
   splits:
   - split: 4
@@ -29739,7 +30373,10 @@
 - raw: "3009,1170001022,15,[0].talks{json}[1].talk,原来是教中<兄弟||姐妹>，我来大理有任务在身，之后再与你说话"
   splits:
   - split: 4
-    text: "原来是教中<兄弟||姐妹>，我来大理有任务在身，之后再与你说话"
+    text: "原来是教中{playerTitle}，我来大理有任务在身，之后再与你说话"
+    tokens:
+      playerTitle:
+        source: "<兄弟||姐妹>"
 - raw: "3009,1170001022,15,[1].talks{json}[0].talk,你出了段府行之未远，便看到螣蛇谷中的银蛇使在周边徘徊……"
   splits:
   - split: 4
@@ -29767,7 +30404,12 @@
 - raw: "3009,1170001022,15,[2].talks{json}[0].talk,这花山节可是难得一见，<fName><公子||妹子>可要好生游玩一番才是。"
   splits:
   - split: 4
-    text: "这花山节可是难得一见，<fName><公子||妹子>可要好生游玩一番才是。"
+    text: "这花山节可是难得一见，{firstName}{playerTitle}可要好生游玩一番才是。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3009,1170001022,15,[3].talks{json}[0].name,蒙托"
   splits:
   - split: 4
@@ -29775,7 +30417,12 @@
 - raw: "3009,1170001022,15,[3].talks{json}[0].talk,<fName><公子||妹子>，我这便要回返教中了，咱们……有缘再会罢。"
   splits:
   - split: 4
-    text: "<fName><公子||妹子>，我这便要回返教中了，咱们……有缘再会罢。"
+    text: "{firstName}{playerTitle}，我这便要回返教中了，咱们……有缘再会罢。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3010,1170001023,15,[0].talks{json}[0].name,杭儿爹"
   splits:
   - split: 4
@@ -29783,7 +30430,10 @@
 - raw: "3010,1170001023,15,[0].talks{json}[0].talk,多亏了<少侠||女侠>出手相助，杭儿才能平安归来……"
   splits:
   - split: 4
-    text: "多亏了<少侠||女侠>出手相助，杭儿才能平安归来……"
+    text: "多亏了{playerTitle}出手相助，杭儿才能平安归来……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3010,1170001023,15,[1].talks{json}[0].name,杭儿爹"
   splits:
   - split: 4
@@ -29815,7 +30465,10 @@
 - raw: "3011,1170001024,15,[0].talks{json}[0].talk,竟是、竟是圣女亲临……此番还要多谢汉家<阿哥||阿姐>！"
   splits:
   - split: 4
-    text: "竟是、竟是圣女亲临……此番还要多谢汉家<阿哥||阿姐>！"
+    text: "竟是、竟是圣女亲临……此番还要多谢汉家{playerTitle}！"
+    tokens:
+      playerTitle:
+        source: "<阿哥||阿姐>"
 - raw: "3011,1170001024,15,[1].talks{json}[0].name,荆蒙"
   splits:
   - split: 4
@@ -29839,7 +30492,10 @@
 - raw: "3012,1170001025,15,[0].talks{json}[0].talk,爹爹，孩儿无事……此番多亏了<少侠||女侠>，否则孩儿只怕是回不来了……"
   splits:
   - split: 4
-    text: "爹爹，孩儿无事……此番多亏了<少侠||女侠>，否则孩儿只怕是回不来了……"
+    text: "爹爹，孩儿无事……此番多亏了{playerTitle}，否则孩儿只怕是回不来了……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3012,1170001025,15,[1].talks{json}[0].name,杭儿"
   splits:
   - split: 4
@@ -29847,7 +30503,10 @@
 - raw: "3012,1170001025,15,[1].talks{json}[0].talk,那便拜托<少侠哥哥||女侠姐姐>了，一定要将此印信归还圣女姐姐！"
   splits:
   - split: 4
-    text: "那便拜托<少侠哥哥||女侠姐姐>了，一定要将此印信归还圣女姐姐！"
+    text: "那便拜托{playerTitle}了，一定要将此印信归还圣女姐姐！"
+    tokens:
+      playerTitle:
+        source: "<少侠哥哥||女侠姐姐>"
 - raw: "3012,1170001025,15,[2].talks{json}[0].name,杭儿"
   splits:
   - split: 4
@@ -29903,7 +30562,12 @@
 - raw: "3019,1170001032,15,[0].talks{json}[0].talk,<fName><公子||姑娘>，今天可要看你大展身手了。"
   splits:
   - split: 4
-    text: "<fName><公子||姑娘>，今天可要看你大展身手了。"
+    text: "{firstName}{playerTitle}，今天可要看你大展身手了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3019,1170001032,15,[1].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -30063,7 +30727,12 @@
 - raw: "3031,1170001044,15,[1].talks{json}[0].talk,<fName><哥哥||姐姐>，花杆那么高，你要如何爬呀？"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，花杆那么高，你要如何爬呀？"
+    text: "{firstName}{playerTitle}，花杆那么高，你要如何爬呀？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3031,1170001044,15,[2].talks{json}[0].name,许青鸟"
   splits:
   - split: 4
@@ -30071,7 +30740,12 @@
 - raw: "3031,1170001044,15,[2].talks{json}[0].talk,<fName><哥哥||姐姐>，好厉害……"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，好厉害……"
+    text: "{firstName}{playerTitle}，好厉害……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3031,1170001044,15,[3].talks{json}[0].talk,几名孩童欢欣雀跃，嬉笑连连……"
   splits:
   - split: 4
@@ -30099,7 +30773,12 @@
 - raw: "3032,1170001045,15,[2].talks{json}[0].talk,<fName><哥哥||姐姐>！我以后也要似你这般！"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>！我以后也要似你这般！"
+    text: "{firstName}{playerTitle}！我以后也要似你这般！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3032,1170001045,15,[3].talks{json}[0].name,赵顺奎"
   splits:
   - split: 4
@@ -30215,7 +30894,10 @@
 - raw: "3037,1170001050,15,[2].talks{json}[0].talk,<少侠||姑娘>放心，待林大侠回转，在下定将此前之事悉数告知！"
   splits:
   - split: 4
-    text: "<少侠||姑娘>放心，待林大侠回转，在下定将此前之事悉数告知！"
+    text: "{playerTitle}放心，待林大侠回转，在下定将此前之事悉数告知！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "3037,1170001050,15,[3].talks{json}[0].name,武馆学徒"
   splits:
   - split: 4
@@ -30283,7 +30965,10 @@
 - raw: "3042,1170001055,15,[0].talks{json}[0].talk,<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
   splits:
   - split: 4
-    text: "<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
+    text: "{playerTitle}放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "3042,1170001055,15,[2].talks{json}[0].name,阿藤"
   splits:
   - split: 4
@@ -30291,7 +30976,10 @@
 - raw: "3042,1170001055,15,[2].talks{json}[0].talk,<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
   splits:
   - split: 4
-    text: "<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
+    text: "{playerTitle}好生厉害，此番大闹竟让鄙店三日不得开张……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "3042,1170001055,15,[3].talks{json}[0].name,阿藤"
   splits:
   - split: 4
@@ -30323,7 +31011,10 @@
 - raw: "3044,1170001057,15,[0].talks{json}[0].talk,此时非为佳时，<贤弟||小妹>可于三日之后再来寻我，那时藤娘应已气消，你我再喝个痛快！"
   splits:
   - split: 4
-    text: "此时非为佳时，<贤弟||小妹>可于三日之后再来寻我，那时藤娘应已气消，你我再喝个痛快！"
+    text: "此时非为佳时，{playerTitle}可于三日之后再来寻我，那时藤娘应已气消，你我再喝个痛快！"
+    tokens:
+      playerTitle:
+        source: "<贤弟||小妹>"
 - raw: "3046,1170001059,15,[0].talks{json}[0].talk,一剑封喉，回天乏术！"
   splits:
   - split: 4
@@ -30451,7 +31142,10 @@
 - raw: "3063,1170001076,15,[3].talks{json}[0].talk,花山节？甚好……届时，小老儿必不会负了<少侠||女侠>这番厚意……"
   splits:
   - split: 4
-    text: "花山节？甚好……届时，小老儿必不会负了<少侠||女侠>这番厚意……"
+    text: "花山节？甚好……届时，小老儿必不会负了{playerTitle}这番厚意……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3063,1170001076,15,[4].talks{json}[0].name,胡郎中"
   splits:
   - split: 4
@@ -30459,7 +31153,10 @@
 - raw: "3063,1170001076,15,[4].talks{json}[0].talk,多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
   splits:
   - split: 4
-    text: "多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
+    text: "多谢{playerTitle}相邀，今日可算是大开眼界了……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3064,1170001077,15,[0].talks{json}[0].name,麻合"
   splits:
   - split: 4
@@ -30507,7 +31204,10 @@
 - raw: "3067,1170001080,15,[1].talks{json}[0].talk,有劳<兄弟||妹子>相告，然我二人实有不便，这花山节……便不去了。"
   splits:
   - split: 4
-    text: "有劳<兄弟||妹子>相告，然我二人实有不便，这花山节……便不去了。"
+    text: "有劳{playerTitle}相告，然我二人实有不便，这花山节……便不去了。"
+    tokens:
+      playerTitle:
+        source: "<兄弟||妹子>"
 - raw: "3067,1170001080,15,[2].talks{json}[0].name,穷酸书生"
   splits:
   - split: 4
@@ -30567,7 +31267,12 @@
 - raw: "3070,1170001083,15,[2].talks{json}[0].talk,当下花山节还需筹备赛事，<fName><哥哥||姐姐>不妨在大理与五圣教中多逛一逛。若能多帮些人，花山节也更热闹！"
   splits:
   - split: 4
-    text: "当下花山节还需筹备赛事，<fName><哥哥||姐姐>不妨在大理与五圣教中多逛一逛。若能多帮些人，花山节也更热闹！"
+    text: "当下花山节还需筹备赛事，{firstName}{playerTitle}不妨在大理与五圣教中多逛一逛。若能多帮些人，花山节也更热闹！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3070,1170001083,15,[3].talks{json}[0].talk,几名孩童欢欣雀跃，嬉笑连连……"
   splits:
   - split: 4
@@ -30991,7 +31696,10 @@
 - raw: "3096,1170001110,15,[0].talks{json}[0].talk,<公子||姑娘>请坐，吃饭还是住店？"
   splits:
   - split: 4
-    text: "<公子||姑娘>请坐，吃饭还是住店？"
+    text: "{playerTitle}请坐，吃饭还是住店？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3096,1170001110,15,[0].talks{json}[0].options{json}[0].name,用餐"
   splits:
   - split: 4
@@ -31015,7 +31723,10 @@
 - raw: "3096,1170001110,15,[0].talks{json}[5].talk,<公子||姑娘>多来光顾！"
   splits:
   - split: 4
-    text: "<公子||姑娘>多来光顾！"
+    text: "{playerTitle}多来光顾！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3096,1170001110,15,[1].talks{json}[0].name,赵掌柜"
   splits:
   - split: 4
@@ -31023,7 +31734,10 @@
 - raw: "3096,1170001110,15,[1].talks{json}[0].talk,<公子||姑娘>且先自便，晚些时候若有闲暇，再来老赵这里说话。"
   splits:
   - split: 4
-    text: "<公子||姑娘>且先自便，晚些时候若有闲暇，再来老赵这里说话。"
+    text: "{playerTitle}且先自便，晚些时候若有闲暇，再来老赵这里说话。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3096,1170001110,15,[2].talks{json}[0].name,赵掌柜"
   splits:
   - split: 4
@@ -31047,7 +31761,10 @@
 - raw: "3099,1170001113,15,[0].talks{json}[0].talk,<少侠||女侠>，你是......"
   splits:
   - split: 4
-    text: "<少侠||女侠>，你是......"
+    text: "{playerTitle}，你是......"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3100,1170001114,15,[0].talks{json}[0].name,茶客乙"
   splits:
   - split: 4
@@ -31055,7 +31772,10 @@
 - raw: "3100,1170001114,15,[0].talks{json}[0].talk,<少侠||女侠>，你是......"
   splits:
   - split: 4
-    text: "<少侠||女侠>，你是......"
+    text: "{playerTitle}，你是......"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3101,1170001115,15,[0].talks{json}[0].name,张维庸"
   splits:
   - split: 4
@@ -31063,7 +31783,10 @@
 - raw: "3101,1170001115,15,[0].talks{json}[0].talk,<恩公||恩人>里面请坐！"
   splits:
   - split: 4
-    text: "<恩公||恩人>里面请坐！"
+    text: "{playerTitle}里面请坐！"
+    tokens:
+      playerTitle:
+        source: "<恩公||恩人>"
 - raw: "3102,1170001116,15,[0].talks{json}[0].name,苗人商贩"
   splits:
   - split: 4
@@ -31103,7 +31826,10 @@
 - raw: "3104,1170001118,15,[0].talks{json}[0].talk,呵呵……<少侠||女侠>的身手，相较青萍村中时可又有精进啦。"
   splits:
   - split: 4
-    text: "呵呵……<少侠||女侠>的身手，相较青萍村中时可又有精进啦。"
+    text: "呵呵……{playerTitle}的身手，相较青萍村中时可又有精进啦。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3104,1170001118,15,[1].talks{json}[0].name,胡郎中"
   splits:
   - split: 4
@@ -31111,7 +31837,10 @@
 - raw: "3104,1170001118,15,[1].talks{json}[0].talk,多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
   splits:
   - split: 4
-    text: "多谢<少侠||女侠>相邀，今日可算是大开眼界了……"
+    text: "多谢{playerTitle}相邀，今日可算是大开眼界了……"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3105,1170001119,15,[0].talks{json}[0].name,糖人张"
   splits:
   - split: 4
@@ -31305,7 +32034,10 @@
 - raw: "3123,1170001137,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3123,1170001137,15,[0].talks{json}[0].options{json}[0].name,用餐。"
   splits:
   - split: 4
@@ -31325,7 +32057,10 @@
 - raw: "3123,1170001137,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3123,1170001137,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -31601,7 +32336,10 @@
 - raw: "3173,1170009005,15,[2].talks{json}[0].talk,汉家<阿哥||阿姐>，如何会有圣女印信？"
   splits:
   - split: 4
-    text: "汉家<阿哥||阿姐>，如何会有圣女印信？"
+    text: "汉家{playerTitle}，如何会有圣女印信？"
+    tokens:
+      playerTitle:
+        source: "<阿哥||阿姐>"
 - raw: "3174,1170009006,15,[0].talks{json}[0].name,五圣教徒"
   splits:
   - split: 4
@@ -31625,7 +32363,10 @@
 - raw: "3174,1170009006,15,[2].talks{json}[0].talk,<公子||姑娘>请过罢。"
   splits:
   - split: 4
-    text: "<公子||姑娘>请过罢。"
+    text: "{playerTitle}请过罢。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3175,1170009007,15,[0].talks{json}[0].talk,香案后供奉的除一枚雪亮枪头外，还有一本残破书册。"
   splits:
   - split: 4
@@ -31863,7 +32604,10 @@
 - raw: "3196,1170302013,15,[0].talks{json}[0].talk,哟，瞧您这派头，准是哪家的<公子||千金>！"
   splits:
   - split: 4
-    text: "哟，瞧您这派头，准是哪家的<公子||千金>！"
+    text: "哟，瞧您这派头，准是哪家的{playerTitle}！"
+    tokens:
+      playerTitle:
+        source: "<公子||千金>"
 - raw: "3197,1170302014,15,[0].talks{json}[0].name,莳花馆小厮"
   splits:
   - split: 4
@@ -32047,7 +32791,10 @@
 - raw: "3219,1170709001,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3219,1170709001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -32067,7 +32814,10 @@
 - raw: "3219,1170709001,15,[0].talks{json}[3].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "3219,1170709001,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -33791,7 +34541,10 @@
 - raw: "3355,1180000300,15,[0].talks{json}[0].talk,<哥哥||姐姐>，这便请吧！"
   splits:
   - split: 4
-    text: "<哥哥||姐姐>，这便请吧！"
+    text: "{playerTitle}，这便请吧！"
+    tokens:
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3355,1180000300,15,[1].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -33807,7 +34560,10 @@
 - raw: "3356,1180000301,15,[0].talks{json}[0].talk,<哥哥||姐姐>，这便请吧！"
   splits:
   - split: 4
-    text: "<哥哥||姐姐>，这便请吧！"
+    text: "{playerTitle}，这便请吧！"
+    tokens:
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3356,1180000301,15,[1].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -33943,7 +34699,12 @@
 - raw: "3364,1180000309,15,[1].talks{json}[0].talk,……此事卯雅尚需仔细思量，<fName><公子||妹子>，多谢了。"
   splits:
   - split: 4
-    text: "……此事卯雅尚需仔细思量，<fName><公子||妹子>，多谢了。"
+    text: "……此事卯雅尚需仔细思量，{firstName}{playerTitle}，多谢了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3364,1180000309,15,[2].talks{json}[0].name,卯雅"
   splits:
   - split: 4
@@ -33975,7 +34736,10 @@
 - raw: "3364,1180000309,15,[5].talks{json}[0].talk,先前平定教中内乱，<公子||妹子>居功至伟……"
   splits:
   - split: 4
-    text: "先前平定教中内乱，<公子||妹子>居功至伟……"
+    text: "先前平定教中内乱，{playerTitle}居功至伟……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3364,1180000309,15,[6].talks{json}[0].name,卯雅"
   splits:
   - split: 4
@@ -33999,7 +34763,12 @@
 - raw: "3364,1180000309,15,[8].talks{json}[0].talk,卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
   splits:
   - split: 4
-    text: "卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
+    text: "卯雅教务繁忙，若此后想再同{firstName}{playerTitle}说话儿，自会托人相请。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3364,1180000309,15,[9].talks{json}[0].name,卯雅"
   splits:
   - split: 4
@@ -34007,7 +34776,12 @@
 - raw: "3364,1180000309,15,[9].talks{json}[0].talk,卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
   splits:
   - split: 4
-    text: "卯雅教务繁忙，若此后想再同<fName><公子||姑娘>说话儿，自会托人相请。"
+    text: "卯雅教务繁忙，若此后想再同{firstName}{playerTitle}说话儿，自会托人相请。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3365,1180000310,15,[0].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -34015,7 +34789,12 @@
 - raw: "3365,1180000310,15,[0].talks{json}[0].talk,<fName><哥哥||姐姐>，芸儿还没求过人，但不知<哥哥||姐姐>能否帮芸儿……阻住爹爹？"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，芸儿还没求过人，但不知<哥哥||姐姐>能否帮芸儿……阻住爹爹？"
+    text: "{firstName}{playerTitle}，芸儿还没求过人，但不知{playerTitle}能否帮芸儿……阻住爹爹？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3365,1180000310,15,[0].talks{json}[1].name,蒙芸"
   splits:
   - split: 4
@@ -34031,7 +34810,10 @@
 - raw: "3365,1180000310,15,[1].talks{json}[0].talk,爹爹不让芸儿出谷，<哥哥||姐姐>还是之后再来寻我吧……"
   splits:
   - split: 4
-    text: "爹爹不让芸儿出谷，<哥哥||姐姐>还是之后再来寻我吧……"
+    text: "爹爹不让芸儿出谷，{playerTitle}还是之后再来寻我吧……"
+    tokens:
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3365,1180000310,15,[2].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -34039,7 +34821,12 @@
 - raw: "3365,1180000310,15,[2].talks{json}[0].talk,谢谢<fName><哥哥||姐姐>……芸儿……知晓该怎么做了。"
   splits:
   - split: 4
-    text: "谢谢<fName><哥哥||姐姐>……芸儿……知晓该怎么做了。"
+    text: "谢谢{firstName}{playerTitle}……芸儿……知晓该怎么做了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3365,1180000310,15,[3].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -34047,7 +34834,12 @@
 - raw: "3365,1180000310,15,[3].talks{json}[0].talk,<fName><哥哥||姐姐>，你来啦。"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，你来啦。"
+    text: "{firstName}{playerTitle}，你来啦。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3365,1180000310,15,[4].talks{json}[0].name,蒙芸"
   splits:
   - split: 4
@@ -34055,7 +34847,12 @@
 - raw: "3365,1180000310,15,[4].talks{json}[0].talk,<fName><哥哥||姐姐>，花山节之事，多亏你啦！"
   splits:
   - split: 4
-    text: "<fName><哥哥||姐姐>，花山节之事，多亏你啦！"
+    text: "{firstName}{playerTitle}，花山节之事，多亏你啦！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3366,1180000311,15,[0].talks{json}[0].name,蒙巳"
   splits:
   - split: 4
@@ -34107,7 +34904,10 @@
 - raw: "3367,1180000312,15,[4].talks{json}[0].talk,先前之事，多谢<公子||姑娘>相助。"
   splits:
   - split: 4
-    text: "先前之事，多谢<公子||姑娘>相助。"
+    text: "先前之事，多谢{playerTitle}相助。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3367,1180000312,15,[5].talks{json}[0].talk,此人无暇开口……"
   splits:
   - split: 4
@@ -34119,7 +34919,12 @@
 - raw: "3367,1180000312,15,[6].talks{json}[0].talk,<fName><公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "<fName><公子||姑娘>，别来无恙。"
+    text: "{firstName}{playerTitle}，别来无恙。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3367,1180000312,15,[7].talks{json}[0].name,巫凝蝶"
   splits:
   - split: 4
@@ -34127,7 +34932,12 @@
 - raw: "3367,1180000312,15,[7].talks{json}[0].talk,花山节虽小，然于苗地，功在千秋……<fName><公子||姑娘>，多谢了。"
   splits:
   - split: 4
-    text: "花山节虽小，然于苗地，功在千秋……<fName><公子||姑娘>，多谢了。"
+    text: "花山节虽小，然于苗地，功在千秋……{firstName}{playerTitle}，多谢了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3368,1180000313,15,[0].talks{json}[0].name,刀凤瑶"
   splits:
   - split: 4
@@ -34205,7 +35015,12 @@
 - raw: "3368,1180000313,15,[5].talks{json}[0].talk,千蛛一族难离半步，<fName><公子||姑娘>，可否同我说说……这花山节……当真有他们说的那般好玩么？"
   splits:
   - split: 4
-    text: "千蛛一族难离半步，<fName><公子||姑娘>，可否同我说说……这花山节……当真有他们说的那般好玩么？"
+    text: "千蛛一族难离半步，{firstName}{playerTitle}，可否同我说说……这花山节……当真有他们说的那般好玩么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3369,1180000314,15,[0].talks{json}[0].talk,此人正与敌生死相搏，无暇分神。"
   splits:
   - split: 4
@@ -34277,7 +35092,10 @@
 - raw: "3374,1180000319,15,[1].talks{json}[0].talk,听闻今日又有了位闯过澜沧索道的汉家<哥儿||妹子>，想来便是阁下了罢？"
   splits:
   - split: 4
-    text: "听闻今日又有了位闯过澜沧索道的汉家<哥儿||妹子>，想来便是阁下了罢？"
+    text: "听闻今日又有了位闯过澜沧索道的汉家{playerTitle}，想来便是阁下了罢？"
+    tokens:
+      playerTitle:
+        source: "<哥儿||妹子>"
 - raw: "3374,1180000319,15,[2].talks{json}[0].name,月蟾宫民"
   splits:
   - split: 4
@@ -34321,7 +35139,10 @@
 - raw: "3375,1180000320,15,[1].talks{json}[0].talk,听闻今日又有了位闯过澜沧索道的汉家<哥儿||妹子>，想来便是阁下了罢？"
   splits:
   - split: 4
-    text: "听闻今日又有了位闯过澜沧索道的汉家<哥儿||妹子>，想来便是阁下了罢？"
+    text: "听闻今日又有了位闯过澜沧索道的汉家{playerTitle}，想来便是阁下了罢？"
+    tokens:
+      playerTitle:
+        source: "<哥儿||妹子>"
 - raw: "3375,1180000320,15,[2].talks{json}[0].name,月蟾宫民"
   splits:
   - split: 4
@@ -34369,7 +35190,12 @@
 - raw: "3377,1180000322,15,[2].talks{json}[0].talk,<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
   splits:
   - split: 4
-    text: "<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
+    text: "{lastName}{playerTitle}，我这妹妹之后便托付给你了……"
+    tokens:
+      lastName:
+        source: "<lName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3377,1180000322,15,[3].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
@@ -34377,7 +35203,12 @@
 - raw: "3377,1180000322,15,[3].talks{json}[0].talk,<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
   splits:
   - split: 4
-    text: "<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
+    text: "{lastName}{playerTitle}，日后若是得空，可带凝紫再回教中探望……"
+    tokens:
+      lastName:
+        source: "<lName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3380,1180000325,15,[0].talks{json}[0].name,蒙托"
   splits:
   - split: 4
@@ -34401,7 +35232,10 @@
 - raw: "3380,1180000325,15,[2].talks{json}[0].talk,净蛊天池要紧，<少侠||姑娘>速去彼处阻止长兄……"
   splits:
   - split: 4
-    text: "净蛊天池要紧，<少侠||姑娘>速去彼处阻止长兄……"
+    text: "净蛊天池要紧，{playerTitle}速去彼处阻止长兄……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "3380,1180000325,15,[3].talks{json}[0].name,蒙托"
   splits:
   - split: 4
@@ -34585,7 +35419,10 @@
 - raw: "3391,1180000336,15,[1].talks{json}[0].talk,净蛊天池一战，<公子||妹子>大出风头，可让咱们钦羡得很……"
   splits:
   - split: 4
-    text: "净蛊天池一战，<公子||妹子>大出风头，可让咱们钦羡得很……"
+    text: "净蛊天池一战，{playerTitle}大出风头，可让咱们钦羡得很……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3391,1180000336,15,[2].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -34593,7 +35430,10 @@
 - raw: "3391,1180000336,15,[2].talks{json}[0].talk,花山节上，<公子||妹子>大出风头，可让咱们钦羡得很……"
   splits:
   - split: 4
-    text: "花山节上，<公子||妹子>大出风头，可让咱们钦羡得很……"
+    text: "花山节上，{playerTitle}大出风头，可让咱们钦羡得很……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3392,1180000337,15,[0].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -34609,7 +35449,12 @@
 - raw: "3392,1180000337,15,[1].talks{json}[0].talk,哎？这不是救本教于水火的<fName><公子||妹子>吗？"
   splits:
   - split: 4
-    text: "哎？这不是救本教于水火的<fName><公子||妹子>吗？"
+    text: "哎？这不是救本教于水火的{firstName}{playerTitle}吗？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3392,1180000337,15,[2].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -34617,7 +35462,12 @@
 - raw: "3392,1180000337,15,[2].talks{json}[0].talk,哎？这不是花山节上大放异彩的<fName><公子||妹子>吗？"
   splits:
   - split: 4
-    text: "哎？这不是花山节上大放异彩的<fName><公子||妹子>吗？"
+    text: "哎？这不是花山节上大放异彩的{firstName}{playerTitle}吗？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3393,1180000338,15,[0].talks{json}[0].name,穆凝紫"
   splits:
   - split: 4
@@ -34677,7 +35527,10 @@
 - raw: "3394,1180000339,15,[2].talks{json}[0].talk,圣女圣蛊正于殿中与教主商议要事，闲杂人等不得入内，<公子||妹子>可几个时辰后再来……"
   splits:
   - split: 4
-    text: "圣女圣蛊正于殿中与教主商议要事，闲杂人等不得入内，<公子||妹子>可几个时辰后再来……"
+    text: "圣女圣蛊正于殿中与教主商议要事，闲杂人等不得入内，{playerTitle}可几个时辰后再来……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3395,1180000340,15,[0].talks{json}[0].name,蛛卫"
   splits:
   - split: 4
@@ -34705,7 +35558,10 @@
 - raw: "3395,1180000340,15,[3].talks{json}[0].talk,圣女圣蛊正于殿中与教主商议要事，闲杂人等不得入内，<公子||妹子>可几个时辰后再来……"
   splits:
   - split: 4
-    text: "圣女圣蛊正于殿中与教主商议要事，闲杂人等不得入内，<公子||妹子>可几个时辰后再来……"
+    text: "圣女圣蛊正于殿中与教主商议要事，闲杂人等不得入内，{playerTitle}可几个时辰后再来……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3396,1180000341,15,[0].talks{json}[0].talk,此人肚破肠流，似曾有何物事从中硬钻而出……"
   splits:
   - split: 4
@@ -35033,7 +35889,10 @@
 - raw: "3489,1180000434,15,[0].talks{json}[0].talk,兀那汉家<哥儿||姐儿>，买兵刃么？"
   splits:
   - split: 4
-    text: "兀那汉家<哥儿||姐儿>，买兵刃么？"
+    text: "兀那汉家{playerTitle}，买兵刃么？"
+    tokens:
+      playerTitle:
+        source: "<哥儿||姐儿>"
 - raw: "3489,1180000434,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -35077,7 +35936,12 @@
 - raw: "3491,1180000436,15,[2].talks{json}[0].talk,<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
   splits:
   - split: 4
-    text: "<lName><公子||姑娘>，我这妹妹之后便托付给你了……"
+    text: "{lastName}{playerTitle}，我这妹妹之后便托付给你了……"
+    tokens:
+      lastName:
+        source: "<lName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3491,1180000436,15,[3].talks{json}[0].name,穆妮曼"
   splits:
   - split: 4
@@ -35085,7 +35949,12 @@
 - raw: "3491,1180000436,15,[3].talks{json}[0].talk,<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
   splits:
   - split: 4
-    text: "<lName><公子||姑娘>，日后若是得空，可带凝紫再回教中探望……"
+    text: "{lastName}{playerTitle}，日后若是得空，可带凝紫再回教中探望……"
+    tokens:
+      lastName:
+        source: "<lName>"
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3492,1180000437,15,[0].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -35247,7 +36116,10 @@
 - raw: "3497,1180001003,15,[2].talks{json}[0].talk,若再敢触犯教中戒律，<公子||妹子>这声“姐姐”喊得再好听，亦是无用……"
   splits:
   - split: 4
-    text: "若再敢触犯教中戒律，<公子||妹子>这声“姐姐”喊得再好听，亦是无用……"
+    text: "若再敢触犯教中戒律，{playerTitle}这声“姐姐”喊得再好听，亦是无用……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3497,1180001003,15,[3].talks{json}[0].name,蝎姬"
   splits:
   - split: 4
@@ -35255,7 +36127,10 @@
 - raw: "3497,1180001003,15,[3].talks{json}[0].talk,<公子||妹子>且去助战他人，稍后我们于净蛊天池前汇合……"
   splits:
   - split: 4
-    text: "<公子||妹子>且去助战他人，稍后我们于净蛊天池前汇合……"
+    text: "{playerTitle}且去助战他人，稍后我们于净蛊天池前汇合……"
+    tokens:
+      playerTitle:
+        source: "<公子||妹子>"
 - raw: "3497,1180001003,15,[4].talks{json}[0].name,蝎姬"
   splits:
   - split: 4
@@ -35379,7 +36254,10 @@
 - raw: "3575,1190000049,15,[0].talks{json}[0].talk,如何？<公子||姑娘>可是要回杭州城？"
   splits:
   - split: 4
-    text: "如何？<公子||姑娘>可是要回杭州城？"
+    text: "如何？{playerTitle}可是要回杭州城？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3575,1190000049,15,[0].talks{json}[0].options{json}[0].name,回返杭州。"
   splits:
   - split: 4
@@ -35395,7 +36273,10 @@
 - raw: "3576,1190000050,15,[0].talks{json}[0].talk,如何？<公子||姑娘>可是要去桃花坞？"
   splits:
   - split: 4
-    text: "如何？<公子||姑娘>可是要去桃花坞？"
+    text: "如何？{playerTitle}可是要去桃花坞？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3576,1190000050,15,[0].talks{json}[0].options{json}[0].name,前往桃花坞。"
   splits:
   - split: 4
@@ -35415,7 +36296,10 @@
 - raw: "3576,1190000050,15,[1].talks{json}[0].talk,如何？<公子||姑娘>可是要去桃花坞？"
   splits:
   - split: 4
-    text: "如何？<公子||姑娘>可是要去桃花坞？"
+    text: "如何？{playerTitle}可是要去桃花坞？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3576,1190000050,15,[1].talks{json}[0].options{json}[0].name,前往桃花坞。"
   splits:
   - split: 4
@@ -35431,7 +36315,10 @@
 - raw: "3577,1190000051,15,[0].talks{json}[0].talk,<公子||姑娘>请看，通过此片树林，走上廊桥，便可进入舫内。"
   splits:
   - split: 4
-    text: "<公子||姑娘>请看，通过此片树林，走上廊桥，便可进入舫内。"
+    text: "{playerTitle}请看，通过此片树林，走上廊桥，便可进入舫内。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3578,1190000052,15,[0].talks{json}[0].name,寻欢宾客"
   splits:
   - split: 4
@@ -35463,7 +36350,10 @@
 - raw: "3581,1190000055,15,[0].talks{json}[0].talk,……情树与秘药阁中间有一处廊桥，桥前立有桃卫，<公子||姑娘>可去彼处询问……"
   splits:
   - split: 4
-    text: "……情树与秘药阁中间有一处廊桥，桥前立有桃卫，<公子||姑娘>可去彼处询问……"
+    text: "……情树与秘药阁中间有一处廊桥，桥前立有桃卫，{playerTitle}可去彼处询问……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3581,1190000055,15,[1].talks{json}[0].name,风月女子"
   splits:
   - split: 4
@@ -35471,7 +36361,10 @@
 - raw: "3581,1190000055,15,[1].talks{json}[0].talk,……情树与秘药阁中间有一处廊桥，桥前立有桃卫，<公子||姑娘>可去彼处询问……"
   splits:
   - split: 4
-    text: "……情树与秘药阁中间有一处廊桥，桥前立有桃卫，<公子||姑娘>可去彼处询问……"
+    text: "……情树与秘药阁中间有一处廊桥，桥前立有桃卫，{playerTitle}可去彼处询问……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3582,1190000056,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -35479,7 +36372,10 @@
 - raw: "3582,1190000056,15,[0].talks{json}[0].talk,桃花坞自有规矩，还望<公子||姑娘>体谅。"
   splits:
   - split: 4
-    text: "桃花坞自有规矩，还望<公子||姑娘>体谅。"
+    text: "桃花坞自有规矩，还望{playerTitle}体谅。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3582,1190000056,15,[1].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -35495,7 +36391,10 @@
 - raw: "3583,1190000057,15,[0].talks{json}[0].talk,瞧<公子||姑娘>面生，可是初次登舫？"
   splits:
   - split: 4
-    text: "瞧<公子||姑娘>面生，可是初次登舫？"
+    text: "瞧{playerTitle}面生，可是初次登舫？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3583,1190000057,15,[1].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -35535,7 +36434,10 @@
 - raw: "3586,1190000060,15,[0].talks{json}[0].talk,宝船一战，有赖<公子||姑娘>助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
   splits:
   - split: 4
-    text: "宝船一战，有赖<公子||姑娘>助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
+    text: "宝船一战，有赖{playerTitle}助我等诛杀潇湘子，此份恩情，杜鹃永铭在心。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3586,1190000060,15,[0].talks{json}[1].talk,杜鹃说着，掩口吃吃一笑。"
   splits:
   - split: 4
@@ -35547,7 +36449,10 @@
 - raw: "3586,1190000060,15,[0].talks{json}[2].talk,如今<公子||姑娘>可是桃花坞风云人物，可要姊妹们服侍？"
   splits:
   - split: 4
-    text: "如今<公子||姑娘>可是桃花坞风云人物，可要姊妹们服侍？"
+    text: "如今{playerTitle}可是桃花坞风云人物，可要姊妹们服侍？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3586,1190000060,15,[1].talks{json}[0].name,杜鹃"
   splits:
   - split: 4
@@ -35571,7 +36476,10 @@
 - raw: "3587,1190000061,15,[0].talks{json}[0].talk,主人已入殿歇息，敬请<公子||姑娘>回转。"
   splits:
   - split: 4
-    text: "主人已入殿歇息，敬请<公子||姑娘>回转。"
+    text: "主人已入殿歇息，敬请{playerTitle}回转。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3588,1190000062,15,[0].talks{json}[0].name,延年殿侍女"
   splits:
   - split: 4
@@ -35587,7 +36495,10 @@
 - raw: "3590,1190000064,15,[0].talks{json}[0].talk,这份密文，解之还需稍许时日……<公子||姑娘>如有要事，且先忙罢。"
   splits:
   - split: 4
-    text: "这份密文，解之还需稍许时日……<公子||姑娘>如有要事，且先忙罢。"
+    text: "这份密文，解之还需稍许时日……{playerTitle}如有要事，且先忙罢。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3590,1190000064,15,[1].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
@@ -35595,7 +36506,10 @@
 - raw: "3590,1190000064,15,[1].talks{json}[0].talk,发船之期未至，还请<公子||姑娘>稍待些时日。"
   splits:
   - split: 4
-    text: "发船之期未至，还请<公子||姑娘>稍待些时日。"
+    text: "发船之期未至，还请{playerTitle}稍待些时日。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3590,1190000064,15,[2].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
@@ -35603,7 +36517,10 @@
 - raw: "3590,1190000064,15,[2].talks{json}[0].talk,此事事关重大，还需从长计议，待<公子||姑娘>了却自身事务，再来寻我……"
   splits:
   - split: 4
-    text: "此事事关重大，还需从长计议，待<公子||姑娘>了却自身事务，再来寻我……"
+    text: "此事事关重大，还需从长计议，待{playerTitle}了却自身事务，再来寻我……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3590,1190000064,15,[3].talks{json}[0].name,锦瑟"
   splits:
   - split: 4
@@ -35611,7 +36528,10 @@
 - raw: "3590,1190000064,15,[3].talks{json}[0].talk,<公子||姑娘>可在舫内留心一二，或可寻得更多助力之人……"
   splits:
   - split: 4
-    text: "<公子||姑娘>可在舫内留心一二，或可寻得更多助力之人……"
+    text: "{playerTitle}可在舫内留心一二，或可寻得更多助力之人……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3595,1190000069,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -35619,7 +36539,10 @@
 - raw: "3595,1190000069,15,[0].talks{json}[0].talk,此间乃坊中桃卫驻居之所，<公子||姑娘>若无他事，还请回返。"
   splits:
   - split: 4
-    text: "此间乃坊中桃卫驻居之所，<公子||姑娘>若无他事，还请回返。"
+    text: "此间乃坊中桃卫驻居之所，{playerTitle}若无他事，还请回返。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3598,1190000072,15,[0].talks{json}[0].name,青年酒客"
   splits:
   - split: 4
@@ -35703,7 +36626,12 @@
 - raw: "3620,1190000094,15,[0].talks{json}[0].talk,小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
   splits:
   - split: 4
-    text: "小钰还需在此处照顾爹爹，<fName><大哥||姐姐>行走江湖若是念及小钰，常来此处瞧瞧便好……"
+    text: "小钰还需在此处照顾爹爹，{firstName}{playerTitle}行走江湖若是念及小钰，常来此处瞧瞧便好……"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "3620,1190000094,15,[1].talks{json}[0].name,小钰"
   splits:
   - split: 4
@@ -35711,7 +36639,12 @@
 - raw: "3620,1190000094,15,[1].talks{json}[0].talk,如今天下太平，<fName><哥哥||姐姐>得闲也要出去走走才是。"
   splits:
   - split: 4
-    text: "如今天下太平，<fName><哥哥||姐姐>得闲也要出去走走才是。"
+    text: "如今天下太平，{firstName}{playerTitle}得闲也要出去走走才是。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<哥哥||姐姐>"
 - raw: "3659,1190000133,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -35947,7 +36880,10 @@
 - raw: "3669,1190001009,15,[1].talks{json}[0].talk,请<公子||姑娘>暂留舫内，莫要轻离……"
   splits:
   - split: 4
-    text: "请<公子||姑娘>暂留舫内，莫要轻离……"
+    text: "请{playerTitle}暂留舫内，莫要轻离……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3669,1190001009,15,[2].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -35987,7 +36923,10 @@
 - raw: "3670,1190001010,15,[2].talks{json}[0].talk,锦瑟阿姊有命，令我等不再阻拦<公子||姑娘>……"
   splits:
   - split: 4
-    text: "锦瑟阿姊有命，令我等不再阻拦<公子||姑娘>……"
+    text: "锦瑟阿姊有命，令我等不再阻拦{playerTitle}……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3670,1190001010,15,[3].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36019,7 +36958,10 @@
 - raw: "3671,1190001011,15,[2].talks{json}[0].talk,<公子||姑娘>嫌疑具被澄清，请自便……"
   splits:
   - split: 4
-    text: "<公子||姑娘>嫌疑具被澄清，请自便……"
+    text: "{playerTitle}嫌疑具被澄清，请自便……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3671,1190001011,15,[3].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36027,7 +36969,10 @@
 - raw: "3671,1190001011,15,[3].talks{json}[0].talk,今日舫内有贵客前来，<公子||姑娘>切莫随意走动，以防错生误会。"
   splits:
   - split: 4
-    text: "今日舫内有贵客前来，<公子||姑娘>切莫随意走动，以防错生误会。"
+    text: "今日舫内有贵客前来，{playerTitle}切莫随意走动，以防错生误会。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3672,1190001012,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36043,7 +36988,10 @@
 - raw: "3672,1190001012,15,[1].talks{json}[0].talk,我等调查清楚，自会放<公子||姑娘>离去……"
   splits:
   - split: 4
-    text: "我等调查清楚，自会放<公子||姑娘>离去……"
+    text: "我等调查清楚，自会放{playerTitle}离去……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3672,1190001012,15,[2].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36051,7 +36999,10 @@
 - raw: "3672,1190001012,15,[2].talks{json}[0].talk,调查已毕，<公子||姑娘>自可来去自如……"
   splits:
   - split: 4
-    text: "调查已毕，<公子||姑娘>自可来去自如……"
+    text: "调查已毕，{playerTitle}自可来去自如……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3672,1190001012,15,[3].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36083,7 +37034,10 @@
 - raw: "3674,1190001014,15,[0].talks{json}[0].talk,杜鹃阿姊此时正于烛火塔内值守，<公子||姑娘>若有事相询，可自行前往……"
   splits:
   - split: 4
-    text: "杜鹃阿姊此时正于烛火塔内值守，<公子||姑娘>若有事相询，可自行前往……"
+    text: "杜鹃阿姊此时正于烛火塔内值守，{playerTitle}若有事相询，可自行前往……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3674,1190001014,15,[1].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36123,7 +37077,10 @@
 - raw: "3676,1190001016,15,[0].talks{json}[0].talk,杜鹃阿姊此时正于烛火塔内值守，<公子||姑娘>若有事相询，可自行前往……"
   splits:
   - split: 4
-    text: "杜鹃阿姊此时正于烛火塔内值守，<公子||姑娘>若有事相询，可自行前往……"
+    text: "杜鹃阿姊此时正于烛火塔内值守，{playerTitle}若有事相询，可自行前往……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3676,1190001016,15,[1].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36143,7 +37100,10 @@
 - raw: "3678,1190001018,15,[0].talks{json}[0].talk,见过<公子||姑娘>。可有想听的曲儿？<公子||姑娘>只管说，茵茵都可唱给<公子||姑娘>。"
   splits:
   - split: 4
-    text: "见过<公子||姑娘>。可有想听的曲儿？<公子||姑娘>只管说，茵茵都可唱给<公子||姑娘>。"
+    text: "见过{playerTitle}。可有想听的曲儿？{playerTitle}只管说，茵茵都可唱给{playerTitle}。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3678,1190001018,15,[1].talks{json}[0].name,柳茵茵"
   splits:
   - split: 4
@@ -36187,7 +37147,10 @@
 - raw: "3686,1190001026,15,[0].talks{json}[0].talk,曼珠代桃花坞中姊妹，谢过<公子||姑娘>……二十年……"
   splits:
   - split: 4
-    text: "曼珠代桃花坞中姊妹，谢过<公子||姑娘>……二十年……"
+    text: "曼珠代桃花坞中姊妹，谢过{playerTitle}……二十年……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3687,1190001027,15,[0].talks{json}[0].talk,伤在要害，一击毙命。"
   splits:
   - split: 4
@@ -36343,7 +37306,10 @@
 - raw: "3722,1190001062,15,[0].talks{json}[0].talk,多亏<公子||姑娘>相助，否则我等恐怕……"
   splits:
   - split: 4
-    text: "多亏<公子||姑娘>相助，否则我等恐怕……"
+    text: "多亏{playerTitle}相助，否则我等恐怕……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3723,1190001063,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36359,7 +37325,10 @@
 - raw: "3724,1190001064,15,[0].talks{json}[0].talk,见过<公子||姑娘>，坊中姊妹们可都在谈论<公子||姑娘>呢！"
   splits:
   - split: 4
-    text: "见过<公子||姑娘>，坊中姊妹们可都在谈论<公子||姑娘>呢！"
+    text: "见过{playerTitle}，坊中姊妹们可都在谈论{playerTitle}呢！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3725,1190001065,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36383,7 +37352,10 @@
 - raw: "3727,1190001067,15,[0].talks{json}[0].talk,多亏<公子||姑娘>相助，否则我等恐怕……"
   splits:
   - split: 4
-    text: "多亏<公子||姑娘>相助，否则我等恐怕……"
+    text: "多亏{playerTitle}相助，否则我等恐怕……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3728,1190001068,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36399,7 +37371,10 @@
 - raw: "3729,1190001069,15,[0].talks{json}[0].talk,见过<公子||姑娘>，坊中姊妹们可都在谈论<公子||姑娘>呢！"
   splits:
   - split: 4
-    text: "见过<公子||姑娘>，坊中姊妹们可都在谈论<公子||姑娘>呢！"
+    text: "见过{playerTitle}，坊中姊妹们可都在谈论{playerTitle}呢！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3730,1190001070,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36423,7 +37398,10 @@
 - raw: "3732,1190001072,15,[0].talks{json}[0].talk,多亏<公子||姑娘>相助，否则我等恐怕……"
   splits:
   - split: 4
-    text: "多亏<公子||姑娘>相助，否则我等恐怕……"
+    text: "多亏{playerTitle}相助，否则我等恐怕……"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3733,1190001073,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36439,7 +37417,10 @@
 - raw: "3734,1190001074,15,[0].talks{json}[0].talk,见过<公子||姑娘>，坊中姊妹们可都在谈论<公子||姑娘>呢！"
   splits:
   - split: 4
-    text: "见过<公子||姑娘>，坊中姊妹们可都在谈论<公子||姑娘>呢！"
+    text: "见过{playerTitle}，坊中姊妹们可都在谈论{playerTitle}呢！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3736,1190001076,15,[0].talks{json}[0].name,若烟"
   splits:
   - split: 4
@@ -36447,7 +37428,10 @@
 - raw: "3736,1190001076,15,[0].talks{json}[0].talk,<大侠||女侠>……可还要若烟随侍驱使？"
   splits:
   - split: 4
-    text: "<大侠||女侠>……可还要若烟随侍驱使？"
+    text: "{playerTitle}……可还要若烟随侍驱使？"
+    tokens:
+      playerTitle:
+        source: "<大侠||女侠>"
 - raw: "3736,1190001076,15,[0].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
@@ -36495,7 +37479,10 @@
 - raw: "3742,1190002005,15,[0].talks{json}[0].talk,阴阳卫难缠，<公子||姑娘>多加小心！"
   splits:
   - split: 4
-    text: "阴阳卫难缠，<公子||姑娘>多加小心！"
+    text: "阴阳卫难缠，{playerTitle}多加小心！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3743,1190002006,15,[0].talks{json}[0].name,桃卫"
   splits:
   - split: 4
@@ -36519,7 +37506,10 @@
 - raw: "3745,1190002008,15,[0].talks{json}[0].talk,<公子||姑娘>快走！此地交予我等！"
   splits:
   - split: 4
-    text: "<公子||姑娘>快走！此地交予我等！"
+    text: "{playerTitle}快走！此地交予我等！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3746,1190002009,15,[0].talks{json}[0].name,守船亲卫"
   splits:
   - split: 4
@@ -36969,7 +37959,12 @@
 - raw: "3866,1190008076,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3867,1190008077,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -36977,7 +37972,12 @@
 - raw: "3867,1190008077,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3868,1190008078,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -36985,7 +37985,12 @@
 - raw: "3868,1190008078,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3869,1190008079,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -36993,7 +37998,12 @@
 - raw: "3869,1190008079,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3870,1190008080,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -37001,7 +38011,12 @@
 - raw: "3870,1190008080,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3871,1190008081,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -37009,7 +38024,12 @@
 - raw: "3871,1190008081,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3872,1190008082,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -37017,7 +38037,12 @@
 - raw: "3872,1190008082,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3873,1190008083,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -37025,7 +38050,12 @@
 - raw: "3873,1190008083,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3874,1190008084,15,[0].talks{json}[0].name,洪四海"
   splits:
   - split: 4
@@ -37033,7 +38063,12 @@
 - raw: "3874,1190008084,15,[0].talks{json}[0].talk,<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
   splits:
   - split: 4
-    text: "<fName><兄||姑娘>助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在此相候。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3877,1190009001,15,[0].talks{json}[0].name,秘药楼掌柜"
   splits:
   - split: 4
@@ -37041,7 +38076,10 @@
 - raw: "3877,1190009001,15,[0].talks{json}[0].talk,健身益气，治伤疗病，乃至“滋阴补阳”，<公子||姑娘>……也需要么？"
   splits:
   - split: 4
-    text: "健身益气，治伤疗病，乃至“滋阴补阳”，<公子||姑娘>……也需要么？"
+    text: "健身益气，治伤疗病，乃至“滋阴补阳”，{playerTitle}……也需要么？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3877,1190009001,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -37057,7 +38095,10 @@
 - raw: "3878,1190009002,15,[0].talks{json}[0].talk,本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，<公子||姑娘>可有心仪之物？"
   splits:
   - split: 4
-    text: "本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，<公子||姑娘>可有心仪之物？"
+    text: "本坞制东海之通衢，集天下之辎货，奇珍宝物，无所不有，{playerTitle}可有心仪之物？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3878,1190009002,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -37117,7 +38158,10 @@
 - raw: "3883,1190105001,15,[0].talks{json}[0].talk,<公子||姑娘>，请入内上座。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，请入内上座。"
+    text: "{playerTitle}，请入内上座。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3884,1190105002,15,[0].talks{json}[0].name,侍女"
   splits:
   - split: 4
@@ -37125,7 +38169,10 @@
 - raw: "3884,1190105002,15,[0].talks{json}[0].talk,山煮羊、蟹酿橙、黄金鸡、鲈鱼脍，<公子||姑娘>可有中意菜品？"
   splits:
   - split: 4
-    text: "山煮羊、蟹酿橙、黄金鸡、鲈鱼脍，<公子||姑娘>可有中意菜品？"
+    text: "山煮羊、蟹酿橙、黄金鸡、鲈鱼脍，{playerTitle}可有中意菜品？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3885,1190105003,15,[0].talks{json}[0].name,侍女"
   splits:
   - split: 4
@@ -37141,7 +38188,10 @@
 - raw: "3886,1190105004,15,[0].talks{json}[0].talk,好俊俏的<公子||姑娘>，快请入座！"
   splits:
   - split: 4
-    text: "好俊俏的<公子||姑娘>，快请入座！"
+    text: "好俊俏的{playerTitle}，快请入座！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3887,1190105005,15,[0].talks{json}[0].talk,此人不发一言，只是仔细审视着你。"
   splits:
   - split: 4
@@ -37185,7 +38235,10 @@
 - raw: "3894,1200000182,15,[0].talks{json}[0].talk,<少侠||女侠>可是要前往白桐山庄?"
   splits:
   - split: 4
-    text: "<少侠||女侠>可是要前往白桐山庄"
+    text: "{playerTitle}可是要前往白桐山庄"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
   templates:
   - split: 4
     template: "{0}?"
@@ -37356,7 +38409,10 @@
 - raw: "3907,1200000195,15,[0].talks{json}[0].talk,一日之后，<公子||姑娘>可再来寻我，届时钱货两讫！"
   splits:
   - split: 4
-    text: "一日之后，<公子||姑娘>可再来寻我，届时钱货两讫！"
+    text: "一日之后，{playerTitle}可再来寻我，届时钱货两讫！"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3907,1200000195,15,[1].talks{json}[0].name,黑商"
   splits:
   - split: 4
@@ -37610,7 +38666,10 @@
 - raw: "3924,1200000212,15,[0].talks{json}[0].talk,将军已吩咐我等，<公子||姑娘>请自便。"
   splits:
   - split: 4
-    text: "将军已吩咐我等，<公子||姑娘>请自便。"
+    text: "将军已吩咐我等，{playerTitle}请自便。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3924,1200000212,15,[1].talks{json}[0].name,军士"
   splits:
   - split: 4
@@ -37626,7 +38685,10 @@
 - raw: "3925,1200000213,15,[0].talks{json}[0].talk,将军已吩咐我等，<公子||姑娘>请自便。"
   splits:
   - split: 4
-    text: "将军已吩咐我等，<公子||姑娘>请自便。"
+    text: "将军已吩咐我等，{playerTitle}请自便。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3925,1200000213,15,[1].talks{json}[0].name,军士"
   splits:
   - split: 4
@@ -37642,7 +38704,10 @@
 - raw: "3926,1200000214,15,[0].talks{json}[0].talk,将军已吩咐我等，<公子||姑娘>请自便。"
   splits:
   - split: 4
-    text: "将军已吩咐我等，<公子||姑娘>请自便。"
+    text: "将军已吩咐我等，{playerTitle}请自便。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3926,1200000214,15,[1].talks{json}[0].name,军士"
   splits:
   - split: 4
@@ -37658,7 +38723,10 @@
 - raw: "3927,1200000215,15,[0].talks{json}[0].talk,将军已吩咐我等，<公子||姑娘>请自便。"
   splits:
   - split: 4
-    text: "将军已吩咐我等，<公子||姑娘>请自便。"
+    text: "将军已吩咐我等，{playerTitle}请自便。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3927,1200000215,15,[1].talks{json}[0].name,军士"
   splits:
   - split: 4
@@ -37674,7 +38742,10 @@
 - raw: "3928,1200000216,15,[0].talks{json}[0].talk,将军已吩咐我等，<公子||姑娘>请自便。"
   splits:
   - split: 4
-    text: "将军已吩咐我等，<公子||姑娘>请自便。"
+    text: "将军已吩咐我等，{playerTitle}请自便。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3928,1200000216,15,[1].talks{json}[0].name,军士"
   splits:
   - split: 4
@@ -37690,7 +38761,10 @@
 - raw: "3929,1200000217,15,[0].talks{json}[0].talk,将军已吩咐我等，<公子||姑娘>请自便。"
   splits:
   - split: 4
-    text: "将军已吩咐我等，<公子||姑娘>请自便。"
+    text: "将军已吩咐我等，{playerTitle}请自便。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "3929,1200000217,15,[1].talks{json}[0].name,军士"
   splits:
   - split: 4
@@ -37954,7 +39028,12 @@
 - raw: "3958,1200000246,15,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，咱们这便走么？"
+    text: "{firstName}{playerTitle}，咱们这便走么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "3958,1200000246,15,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
@@ -37970,7 +39049,12 @@
 - raw: "3958,1200000246,15,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3959,1200000247,15,[1].talks{json}[0].name,风凌"
   splits:
   - split: 4
@@ -37978,7 +39062,12 @@
 - raw: "3959,1200000247,15,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，咱们这便走么？"
+    text: "{firstName}{playerTitle}，咱们这便走么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "3959,1200000247,15,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
@@ -37994,7 +39083,12 @@
 - raw: "3959,1200000247,15,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3960,1200000248,15,[0].talks{json}[0].name,掌柜"
   splits:
   - split: 4
@@ -38010,7 +39104,12 @@
 - raw: "3961,1200000249,15,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，咱们这便走么？"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，咱们这便走么？"
+    text: "{firstName}{playerTitle}，咱们这便走么？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "3961,1200000249,15,[1].talks{json}[0].options{json}[0].name,这便动身。"
   splits:
   - split: 4
@@ -38026,7 +39125,12 @@
 - raw: "3961,1200000249,15,[1].talks{json}[2].talk,无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
   splits:
   - split: 4
-    text: "无妨，<fName><兄||姑娘>如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    text: "无妨，{firstName}{playerTitle}如无驱驰，我等便在此处栖身，若有差遣，随时来此便是。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
 - raw: "3962,1200000250,15,[0].talks{json}[0].name,戴群"
   splits:
   - split: 4
@@ -38222,7 +39326,10 @@
 - raw: "4022,1200001003,15,[5].talks{json}[0].talk,<少侠||姑娘>回去吧……告诉王粱，一定要约束好诸位船工兄弟……莫要中了这狗官激将法……"
   splits:
   - split: 4
-    text: "<少侠||姑娘>回去吧……告诉王粱，一定要约束好诸位船工兄弟……莫要中了这狗官激将法……"
+    text: "{playerTitle}回去吧……告诉王粱，一定要约束好诸位船工兄弟……莫要中了这狗官激将法……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4023,1200001004,15,[0].talks{json}[0].name,船场守军"
   splits:
   - split: 4
@@ -38422,7 +39529,10 @@
 - raw: "4042,1200001023,15,[1].talks{json}[0].talk,<公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，别来无恙。"
+    text: "{playerTitle}，别来无恙。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4043,1200001024,15,[0].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
@@ -38430,7 +39540,10 @@
 - raw: "4043,1200001024,15,[0].talks{json}[0].talk,<公子||姑娘>，这第一件事，可办完了？"
   splits:
   - split: 4
-    text: "<公子||姑娘>，这第一件事，可办完了？"
+    text: "{playerTitle}，这第一件事，可办完了？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4043,1200001024,15,[1].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
@@ -38446,7 +39559,10 @@
 - raw: "4043,1200001024,15,[2].talks{json}[0].talk,<公子||姑娘>，江湖险恶，且自珍重。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，江湖险恶，且自珍重。"
+    text: "{playerTitle}，江湖险恶，且自珍重。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4044,1200001025,15,[0].talks{json}[0].name,护卫军士"
   splits:
   - split: 4
@@ -38542,7 +39658,10 @@
 - raw: "4057,1200001038,15,[0].talks{json}[0].talk,<公子||姑娘>，这第一件事，可办完了？"
   splits:
   - split: 4
-    text: "<公子||姑娘>，这第一件事，可办完了？"
+    text: "{playerTitle}，这第一件事，可办完了？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4057,1200001038,15,[1].talks{json}[0].name,诸葛复"
   splits:
   - split: 4
@@ -38558,7 +39677,10 @@
 - raw: "4057,1200001038,15,[2].talks{json}[0].talk,<公子||姑娘>，江湖险恶，且自珍重。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，江湖险恶，且自珍重。"
+    text: "{playerTitle}，江湖险恶，且自珍重。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4058,1200001039,15,[0].talks{json}[0].talk,身受数创，鲜血流尽而死……"
   splits:
   - split: 4
@@ -38642,7 +39764,10 @@
 - raw: "4082,1200001063,15,[0].talks{json}[0].talk,<少侠||姑娘>稍待，近日商会事务繁忙，我一时无法抽身，待我稍有空闲，再来与你“闯荡江湖”！"
   splits:
   - split: 4
-    text: "<少侠||姑娘>稍待，近日商会事务繁忙，我一时无法抽身，待我稍有空闲，再来与你“闯荡江湖”！"
+    text: "{playerTitle}稍待，近日商会事务繁忙，我一时无法抽身，待我稍有空闲，再来与你“闯荡江湖”！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4082,1200001063,15,[1].talks{json}[0].name,沈梦秋"
   splits:
   - split: 4
@@ -38682,7 +39807,10 @@
 - raw: "4082,1200001063,15,[3].talks{json}[2].talk,往后之日，梦秋还请<少侠||姑娘>多多关照……"
   splits:
   - split: 4
-    text: "往后之日，梦秋还请<少侠||姑娘>多多关照……"
+    text: "往后之日，梦秋还请{playerTitle}多多关照……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4082,1200001063,15,[4].talks{json}[0].name,沈梦秋"
   splits:
   - split: 4
@@ -38690,7 +39818,10 @@
 - raw: "4082,1200001063,15,[4].talks{json}[0].talk,江湖之中不知还有多少如我这般失路之人……若<少侠||姑娘>不弃，可否携梦秋一道江湖同游？"
   splits:
   - split: 4
-    text: "江湖之中不知还有多少如我这般失路之人……若<少侠||姑娘>不弃，可否携梦秋一道江湖同游？"
+    text: "江湖之中不知还有多少如我这般失路之人……若{playerTitle}不弃，可否携梦秋一道江湖同游？"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4082,1200001063,15,[4].talks{json}[0].options{json}[0].name,“自然愿意，往后之日，还请梦秋姑娘多多关照！”"
   splits:
   - split: 4
@@ -38928,7 +40059,10 @@
 - raw: "4121,1200001102,15,[1].talks{json}[0].talk,<公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，别来无恙。"
+    text: "{playerTitle}，别来无恙。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4122,1200001103,15,[0].talks{json}[0].name,荆山玉"
   splits:
   - split: 4
@@ -38944,7 +40078,10 @@
 - raw: "4122,1200001103,15,[1].talks{json}[0].talk,<公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，别来无恙。"
+    text: "{playerTitle}，别来无恙。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4127,1200001108,15,[0].talks{json}[0].name,护卫军士"
   splits:
   - split: 4
@@ -38976,7 +40113,10 @@
 - raw: "4145,1200001126,15,[0].talks{json}[0].talk,<公子||姑娘>见谅，我家老爷近日公务繁忙，无暇见客，还请回罢。"
   splits:
   - split: 4
-    text: "<公子||姑娘>见谅，我家老爷近日公务繁忙，无暇见客，还请回罢。"
+    text: "{playerTitle}见谅，我家老爷近日公务繁忙，无暇见客，还请回罢。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4145,1200001126,15,[1].talks{json}[0].name,沈府护卫"
   splits:
   - split: 4
@@ -39008,7 +40148,10 @@
 - raw: "4147,1200001128,15,[1].talks{json}[0].talk,<公子||姑娘>，别来无恙。"
   splits:
   - split: 4
-    text: "<公子||姑娘>，别来无恙。"
+    text: "{playerTitle}，别来无恙。"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4148,1200001129,15,[0].talks{json}[0].name,卜曼成"
   splits:
   - split: 4
@@ -39264,7 +40407,10 @@
 - raw: "4189,1200009902,15,[1].talks{json}[0].talk,日后若是<兄弟||小妹>再来襄阳，可要在家中住上几日不可！"
   splits:
   - split: 4
-    text: "日后若是<兄弟||小妹>再来襄阳，可要在家中住上几日不可！"
+    text: "日后若是{playerTitle}再来襄阳，可要在家中住上几日不可！"
+    tokens:
+      playerTitle:
+        source: "<兄弟||小妹>"
 - raw: "4190,1200009903,15,[0].talks{json}[0].name,顾老爷"
   splits:
   - split: 4
@@ -39272,7 +40418,10 @@
 - raw: "4190,1200009903,15,[0].talks{json}[0].talk,<少侠||姑娘>恩情，我顾府上下皆铭刻于心！"
   splits:
   - split: 4
-    text: "<少侠||姑娘>恩情，我顾府上下皆铭刻于心！"
+    text: "{playerTitle}恩情，我顾府上下皆铭刻于心！"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4191,1200009904,15,[0].talks{json}[0].name,顾夫人"
   splits:
   - split: 4
@@ -39280,7 +40429,10 @@
 - raw: "4191,1200009904,15,[0].talks{json}[0].talk,此番多谢<少侠||姑娘>出手相助……"
   splits:
   - split: 4
-    text: "此番多谢<少侠||姑娘>出手相助……"
+    text: "此番多谢{playerTitle}出手相助……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4192,1200009905,15,[0].talks{json}[0].name,顾二叔"
   splits:
   - split: 4
@@ -39352,7 +40504,10 @@
 - raw: "4202,1200009915,15,[0].talks{json}[0].talk,那伙贼人挟持顾家小姐往城东方向去了，<少侠||姑娘>可于东城探查一二。"
   splits:
   - split: 4
-    text: "那伙贼人挟持顾家小姐往城东方向去了，<少侠||姑娘>可于东城探查一二。"
+    text: "那伙贼人挟持顾家小姐往城东方向去了，{playerTitle}可于东城探查一二。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4202,1200009915,15,[1].talks{json}[0].name,老刘头"
   splits:
   - split: 4
@@ -39368,7 +40523,10 @@
 - raw: "4203,1200009916,15,[0].talks{json}[0].talk,我已派足人手暗中调查，还请<少侠||姑娘>稍待，若有消息，小吏自会告知<少侠||姑娘>……"
   splits:
   - split: 4
-    text: "我已派足人手暗中调查，还请<少侠||姑娘>稍待，若有消息，小吏自会告知<少侠||姑娘>……"
+    text: "我已派足人手暗中调查，还请{playerTitle}稍待，若有消息，小吏自会告知{playerTitle}……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4203,1200009916,15,[1].talks{json}[0].name,娄捕快"
   splits:
   - split: 4
@@ -39528,7 +40686,12 @@
 - raw: "4240,1200009953,15,[0].talks{json}[0].talk,<fName><少侠||姑娘>既有所请，谢某自当从命！"
   splits:
   - split: 4
-    text: "<fName><少侠||姑娘>既有所请，谢某自当从命！"
+    text: "{firstName}{playerTitle}既有所请，谢某自当从命！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4240,1200009953,15,[0].talks{json}[0].options{json}[0].name,“既如此，你我便即刻前行！前路漫漫，你我自当相互扶持！”"
   splits:
   - split: 4
@@ -39564,7 +40727,10 @@
 - raw: "4240,1200009953,15,[2].talks{json}[0].talk,<少侠||姑娘>自便，在下还需一些时辰……"
   splits:
   - split: 4
-    text: "<少侠||姑娘>自便，在下还需一些时辰……"
+    text: "{playerTitle}自便，在下还需一些时辰……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4241,1200009954,15,[0].talks{json}[0].name,看守捕快"
   splits:
   - split: 4
@@ -39928,7 +41094,10 @@
 - raw: "4295,1210000009,15,[0].talks{json}[0].talk,<大哥哥||大姐姐>，你真不吃烤鼠干么？"
   splits:
   - split: 4
-    text: "<大哥哥||大姐姐>，你真不吃烤鼠干么？"
+    text: "{playerTitle}，你真不吃烤鼠干么？"
+    tokens:
+      playerTitle:
+        source: "<大哥哥||大姐姐>"
 - raw: "4295,1210000009,15,[1].talks{json}[0].name,菜娃"
   splits:
   - split: 4
@@ -39936,7 +41105,10 @@
 - raw: "4295,1210000009,15,[1].talks{json}[0].talk,<大哥哥||大姐姐>是大好人！"
   splits:
   - split: 4
-    text: "<大哥哥||大姐姐>是大好人！"
+    text: "{playerTitle}是大好人！"
+    tokens:
+      playerTitle:
+        source: "<大哥哥||大姐姐>"
 - raw: "4296,1210000010,15,[0].talks{json}[1].talk,此人面色焦黄，下腹鼓胀，躺在破榻上喘息沉重，腰下却有半条裤管空空如也。"
   splits:
   - split: 4
@@ -40008,7 +41180,10 @@
 - raw: "4303,1210000017,15,[0].talks{json}[2].talk,似<哥儿||姑娘>这般善人，菩萨定会保佑……"
   splits:
   - split: 4
-    text: "似<哥儿||姑娘>这般善人，菩萨定会保佑……"
+    text: "似{playerTitle}这般善人，菩萨定会保佑……"
+    tokens:
+      playerTitle:
+        source: "<哥儿||姑娘>"
 - raw: "4303,1210000017,15,[1].talks{json}[0].name,刘老太"
   splits:
   - split: 4
@@ -40068,7 +41243,10 @@
 - raw: "4315,1210000029,15,[1].talks{json}[0].talk,<大侠||女侠>，此间之事我已料理妥当，咱们这便走么？"
   splits:
   - split: 4
-    text: "<大侠||女侠>，此间之事我已料理妥当，咱们这便走么？"
+    text: "{playerTitle}，此间之事我已料理妥当，咱们这便走么？"
+    tokens:
+      playerTitle:
+        source: "<大侠||女侠>"
 - raw: "4315,1210000029,15,[1].talks{json}[0].options{json}[0].name,启程上路。"
   splits:
   - split: 4
@@ -40600,7 +41778,12 @@
 - raw: "4412,1220001002,15,[0].talks{json}[0].talk,我留于此处探查周遭，<fName><兄弟||姑娘>，你将此间之事禀与门主，且看他作何想法。"
   splits:
   - split: 4
-    text: "我留于此处探查周遭，<fName><兄弟||姑娘>，你将此间之事禀与门主，且看他作何想法。"
+    text: "我留于此处探查周遭，{firstName}{playerTitle}，你将此间之事禀与门主，且看他作何想法。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4412,1220001002,15,[1].talks{json}[0].name,祁语山"
   splits:
   - split: 4
@@ -40608,7 +41791,12 @@
 - raw: "4412,1220001002,15,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，往后若有何需，径来寻我便是。"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，往后若有何需，径来寻我便是。"
+    text: "{firstName}{playerTitle}，往后若有何需，径来寻我便是。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4413,1220001003,15,[0].talks{json}[0].name,魏山"
   splits:
   - split: 4
@@ -40632,7 +41820,12 @@
 - raw: "4414,1220001004,15,[1].talks{json}[0].talk,<fName><兄弟||姑娘>，你之大名，如今可是已然传遍本门了。"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，你之大名，如今可是已然传遍本门了。"
+    text: "{firstName}{playerTitle}，你之大名，如今可是已然传遍本门了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4414,1220001004,15,[2].talks{json}[0].name,褚玉书"
   splits:
   - split: 4
@@ -40640,7 +41833,12 @@
 - raw: "4414,1220001004,15,[2].talks{json}[0].talk,大旗门能得今日安宁，<fName><兄弟||姑娘>当居首功。"
   splits:
   - split: 4
-    text: "大旗门能得今日安宁，<fName><兄弟||姑娘>当居首功。"
+    text: "大旗门能得今日安宁，{firstName}{playerTitle}当居首功。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4415,1220001005,15,[0].talks{json}[0].name,大旗门弟子"
   splits:
   - split: 4
@@ -40692,7 +41890,10 @@
 - raw: "4417,1220001007,15,[4].talks{json}[0].talk,既有此言，无论今日胜负，李某皆认你这个<兄弟||妹子>，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
   splits:
   - split: 4
-    text: "既有此言，无论今日胜负，李某皆认你这个<兄弟||妹子>，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
+    text: "既有此言，无论今日胜负，李某皆认你这个{playerTitle}，倘若日后有需，大旗门上下，赴汤蹈火，在所不辞。"
+    tokens:
+      playerTitle:
+        source: "<兄弟||妹子>"
 - raw: "4417,1220001007,15,[5].talks{json}[0].name,李麒"
   splits:
   - split: 4
@@ -40708,7 +41909,12 @@
 - raw: "4417,1220001007,15,[6].talks{json}[0].talk,<fName><兄弟||姑娘>，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
+    text: "{firstName}{playerTitle}，李某向来一言九鼎，日后若有所需，大旗门上下，任你驱驰。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4418,1220001008,15,[1].talks{json}[0].name,仇千秋"
   splits:
   - split: 4
@@ -40924,7 +42130,12 @@
 - raw: "4439,1220001029,15,[0].talks{json}[0].talk,早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
   splits:
   - split: 4
-    text: "早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
+    text: "早晚有一日，我要似爷爷和{firstName}{playerTitle}这般杀鞑子，将他们赶出北疆！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "4439,1220001029,15,[1].talks{json}[0].name,丁蕴真"
   splits:
   - split: 4
@@ -40932,7 +42143,12 @@
 - raw: "4439,1220001029,15,[1].talks{json}[0].talk,早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
   splits:
   - split: 4
-    text: "早晚有一日，我要似爷爷和<fName><大哥||姐姐>这般杀鞑子，将他们赶出北疆！"
+    text: "早晚有一日，我要似爷爷和{firstName}{playerTitle}这般杀鞑子，将他们赶出北疆！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<大哥||姐姐>"
 - raw: "4439,1220001029,15,[1].talks{json}[0].options{json}[0].name,邀其同行。"
   splits:
   - split: 4
@@ -41096,7 +42312,12 @@
 - raw: "4484,1220001074,15,[0].talks{json}[0].talk,是<fName><兄弟||姑娘>！待这辽东战局稍安些，咱们可得好好喝上一场！"
   splits:
   - split: 4
-    text: "是<fName><兄弟||姑娘>！待这辽东战局稍安些，咱们可得好好喝上一场！"
+    text: "是{firstName}{playerTitle}！待这辽东战局稍安些，咱们可得好好喝上一场！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4506,1220001096,15,[0].talks{json}[0].name,陈从"
   splits:
   - split: 4
@@ -41112,7 +42333,12 @@
 - raw: "4506,1220001096,15,[1].talks{json}[0].talk,先前之事，众位兄弟无不念<fName><兄弟||姑娘>恩情。"
   splits:
   - split: 4
-    text: "先前之事，众位兄弟无不念<fName><兄弟||姑娘>恩情。"
+    text: "先前之事，众位兄弟无不念{firstName}{playerTitle}恩情。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4507,1220001097,15,[0].talks{json}[0].name,齐佑"
   splits:
   - split: 4
@@ -41120,7 +42346,12 @@
 - raw: "4507,1220001097,15,[0].talks{json}[0].talk,要没<fName><兄弟||姑娘>，咱们可取不了先前那般大捷！"
   splits:
   - split: 4
-    text: "要没<fName><兄弟||姑娘>，咱们可取不了先前那般大捷！"
+    text: "要没{firstName}{playerTitle}，咱们可取不了先前那般大捷！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4508,1220001098,15,[0].talks{json}[0].name,医士"
   splits:
   - split: 4
@@ -41188,7 +42419,12 @@
 - raw: "4529,1220001119,15,[0].talks{json}[0].talk,<fName><兄弟||姑娘>！下回杀鞑子，还同我们一道如何？"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>！下回杀鞑子，还同我们一道如何？"
+    text: "{firstName}{playerTitle}！下回杀鞑子，还同我们一道如何？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4530,1220001120,15,[0].talks{json}[0].name,潘正"
   splits:
   - split: 4
@@ -41252,7 +42488,12 @@
 - raw: "4584,1220001174,15,[0].talks{json}[0].talk,若我中原儿郎都有<fName><兄弟||姑娘>这般身手，何愁鞑子不平。"
   splits:
   - split: 4
-    text: "若我中原儿郎都有<fName><兄弟||姑娘>这般身手，何愁鞑子不平。"
+    text: "若我中原儿郎都有{firstName}{playerTitle}这般身手，何愁鞑子不平。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4585,1220001175,15,[0].talks{json}[0].name,罗扬"
   splits:
   - split: 4
@@ -41260,7 +42501,10 @@
 - raw: "4585,1220001175,15,[0].talks{json}[0].talk,<小兄弟||姑娘>若是怕了，早说一声便是，咱们不笑话你！"
   splits:
   - split: 4
-    text: "<小兄弟||姑娘>若是怕了，早说一声便是，咱们不笑话你！"
+    text: "{playerTitle}若是怕了，早说一声便是，咱们不笑话你！"
+    tokens:
+      playerTitle:
+        source: "<小兄弟||姑娘>"
 - raw: "4585,1220001175,15,[1].talks{json}[0].name,罗扬"
   splits:
   - split: 4
@@ -41268,7 +42512,10 @@
 - raw: "4585,1220001175,15,[1].talks{json}[0].talk,<小兄弟||姑娘>，你这功夫当真厉害，老罗服啦！"
   splits:
   - split: 4
-    text: "<小兄弟||姑娘>，你这功夫当真厉害，老罗服啦！"
+    text: "{playerTitle}，你这功夫当真厉害，老罗服啦！"
+    tokens:
+      playerTitle:
+        source: "<小兄弟||姑娘>"
 - raw: "4588,1220001178,15,[0].talks{json}[0].talk,一柄黝黑大刀，被人剁于雪地之上，颇为沉重。"
   splits:
   - split: 4
@@ -42204,7 +43451,12 @@
 - raw: "4727,1230001016,15,[2].talks{json}[0].talk,<fName><兄弟||姑娘>，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
+    text: "{firstName}{playerTitle}，洛阳之事，多亏有你相助，只凭我等，当真难以扳倒慈弘……所幸功成，有空时多来洛阳相聚！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4728,1230001017,15,[0].talks{json}[0].name,祝旷"
   splits:
   - split: 4
@@ -42236,7 +43488,12 @@
 - raw: "4728,1230001017,15,[3].talks{json}[0].talk,济德和尚有我看着，<fName><兄弟||姑娘>且宽心去寻账簿。"
   splits:
   - split: 4
-    text: "济德和尚有我看着，<fName><兄弟||姑娘>且宽心去寻账簿。"
+    text: "济德和尚有我看着，{firstName}{playerTitle}且宽心去寻账簿。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4728,1230001017,15,[4].talks{json}[0].name,祝旷"
   splits:
   - split: 4
@@ -42244,7 +43501,12 @@
 - raw: "4728,1230001017,15,[4].talks{json}[0].talk,<fName><兄弟||姑娘>，大恩不言谢，我等皆欠<fName><兄弟||姑娘>一命。日后若有用处，咱们兄弟几个赴汤蹈火，在所不辞。"
   splits:
   - split: 4
-    text: "<fName><兄弟||姑娘>，大恩不言谢，我等皆欠<fName><兄弟||姑娘>一命。日后若有用处，咱们兄弟几个赴汤蹈火，在所不辞。"
+    text: "{firstName}{playerTitle}，大恩不言谢，我等皆欠{firstName}{playerTitle}一命。日后若有用处，咱们兄弟几个赴汤蹈火，在所不辞。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4731,1230001020,15,[0].talks{json}[0].name,冯延明"
   splits:
   - split: 4
@@ -42268,7 +43530,10 @@
 - raw: "4731,1230001020,15,[2].talks{json}[0].talk,<fName>大侠！多亏大侠揭露真相，咱们洛阳百姓，总算可以安生了！"
   splits:
   - split: 4
-    text: "<fName>大侠！多亏大侠揭露真相，咱们洛阳百姓，总算可以安生了！"
+    text: "{firstName}大侠！多亏大侠揭露真相，咱们洛阳百姓，总算可以安生了！"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "4732,1230001021,15,[0].talks{json}[0].name,李氏"
   splits:
   - split: 4
@@ -42316,7 +43581,12 @@
 - raw: "4734,1230001023,15,[1].talks{json}[0].talk,痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，<fName><兄弟||姑娘>瞧见没？"
   splits:
   - split: 4
-    text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，<fName><兄弟||姑娘>瞧见没？"
+    text: "痛快，痛快！那个词叫甚么来着……拨、拨云见日！城里那尊大佛下头，有个新碑，{firstName}{playerTitle}瞧见没？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄弟||姑娘>"
 - raw: "4736,1230001025,15,[0].talks{json}[0].talk,用木条搭建的床塌，虽然睡着难受，但胜在价格便宜。"
   splits:
   - split: 4
@@ -43349,7 +44619,12 @@
 - raw: "4929,1240001049,15,[0].talks{json}[0].talk,<fName><少侠||姑娘>，近日陈某可没少杀鞑子，既你至此，咱们可得好好喝几杯！"
   splits:
   - split: 4
-    text: "<fName><少侠||姑娘>，近日陈某可没少杀鞑子，既你至此，咱们可得好好喝几杯！"
+    text: "{firstName}{playerTitle}，近日陈某可没少杀鞑子，既你至此，咱们可得好好喝几杯！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4932,1240001052,15,[0].talks{json}[0].talk,此人业已毙命。"
   splits:
   - split: 4
@@ -43441,7 +44716,12 @@
 - raw: "4952,1240001072,15,[0].talks{json}[0].talk,此事，便有劳<fName><少侠||姑娘>了。"
   splits:
   - split: 4
-    text: "此事，便有劳<fName><少侠||姑娘>了。"
+    text: "此事，便有劳{firstName}{playerTitle}了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4952,1240001072,15,[1].talks{json}[0].name,沈无瑕"
   splits:
   - split: 4
@@ -43541,7 +44821,12 @@
 - raw: "4971,1240001091,15,[0].talks{json}[0].talk,我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳<fName><少侠||姑娘>多多照拂了。"
   splits:
   - split: 4
-    text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳<fName><少侠||姑娘>多多照拂了。"
+    text: "我这外孙虽心思玲珑，明面温婉，实则内烈于心，若要行走江湖，有劳{firstName}{playerTitle}多多照拂了。"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "4972,1240001092,15,[0].talks{json}[0].name,船夫"
   splits:
   - split: 4
@@ -43549,7 +44834,10 @@
 - raw: "4972,1240001092,15,[0].talks{json}[0].talk,<公子||姑娘>可是要去东瀛？"
   splits:
   - split: 4
-    text: "<公子||姑娘>可是要去东瀛？"
+    text: "{playerTitle}可是要去东瀛？"
+    tokens:
+      playerTitle:
+        source: "<公子||姑娘>"
 - raw: "4972,1240001092,15,[0].talks{json}[0].options{json}[0].name,前往东瀛。"
   splits:
   - split: 4
@@ -47032,7 +48320,10 @@
 - raw: "5657,1280100014,15,[0].talks{json}[0].talk,<少侠||女侠>，可要来上点吃食？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来上点吃食？"
+    text: "{playerTitle}，可要来上点吃食？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "5657,1280100014,15,[0].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -47052,7 +48343,10 @@
 - raw: "5657,1280100014,15,[0].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "5657,1280100014,15,[0].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -47072,7 +48366,10 @@
 - raw: "5657,1280100014,15,[1].talks{json}[0].talk,<少侠||女侠>，可要来份宵夜，打打牙祭？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，可要来份宵夜，打打牙祭？"
+    text: "{playerTitle}，可要来份宵夜，打打牙祭？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "5657,1280100014,15,[1].talks{json}[0].options{json}[0].name,购买。"
   splits:
   - split: 4
@@ -47092,7 +48389,10 @@
 - raw: "5657,1280100014,15,[1].talks{json}[3].talk,<少侠||女侠>，打尖儿还是住店？"
   splits:
   - split: 4
-    text: "<少侠||女侠>，打尖儿还是住店？"
+    text: "{playerTitle}，打尖儿还是住店？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "5657,1280100014,15,[1].talks{json}[3].options{json}[0].name,休息片刻（需银两5文）"
   splits:
   - split: 4
@@ -48548,7 +49848,10 @@
 - raw: "5880,1400001001,15,[1].talks{json}[0].talk,端木真人专掌门中事务，<少侠||姑娘>若另有事务，可往太极广场寻之……"
   splits:
   - split: 4
-    text: "端木真人专掌门中事务，<少侠||姑娘>若另有事务，可往太极广场寻之……"
+    text: "端木真人专掌门中事务，{playerTitle}若另有事务，可往太极广场寻之……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "5880,1400001001,15,[2].talks{json}[0].name,守山道人"
   splits:
   - split: 4
@@ -48564,7 +49867,10 @@
 - raw: "5880,1400001001,15,[3].talks{json}[0].talk,<少侠||姑娘>来访太和，还请自便。"
   splits:
   - split: 4
-    text: "<少侠||姑娘>来访太和，还请自便。"
+    text: "{playerTitle}来访太和，还请自便。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "5881,1400001002,15,[0].talks{json}[0].name,端木清"
   splits:
   - split: 4
@@ -48792,7 +50098,10 @@
 - raw: "5895,1400001016,15,[0].talks{json}[0].talk,<少侠||女侠>，大殿内莫要喧哗。"
   splits:
   - split: 4
-    text: "<少侠||女侠>，大殿内莫要喧哗。"
+    text: "{playerTitle}，大殿内莫要喧哗。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "5895,1400001016,15,[1].talks{json}[0].name,太和弟子"
   splits:
   - split: 4
@@ -48800,7 +50109,10 @@
 - raw: "5895,1400001016,15,[1].talks{json}[0].talk,<小师弟||小师妹>，大殿内莫要喧哗。"
   splits:
   - split: 4
-    text: "<小师弟||小师妹>，大殿内莫要喧哗。"
+    text: "{playerTitle}，大殿内莫要喧哗。"
+    tokens:
+      playerTitle:
+        source: "<小师弟||小师妹>"
 - raw: "5896,1400001017,15,[0].talks{json}[0].name,戚定远"
   splits:
   - split: 4
@@ -48808,7 +50120,10 @@
 - raw: "5896,1400001017,15,[0].talks{json}[0].talk,在下京中游捕戚定远，随队护行，前方乃是京使车马，还望<少侠||女侠>止步。"
   splits:
   - split: 4
-    text: "在下京中游捕戚定远，随队护行，前方乃是京使车马，还望<少侠||女侠>止步。"
+    text: "在下京中游捕戚定远，随队护行，前方乃是京使车马，还望{playerTitle}止步。"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "5896,1400001017,15,[1].talks{json}[0].talk,定远兄已沉醉如泥，暂且不去管他。"
   splits:
   - split: 4
@@ -48928,7 +50243,12 @@
 - raw: "5924,1400001048,15,[0].talks{json}[0].talk,<fName><少侠||姑娘>安好！许久未见，您风采依旧！不知此次前来……可有需要小的通报或安排的？"
   splits:
   - split: 4
-    text: "<fName><少侠||姑娘>安好！许久未见，您风采依旧！不知此次前来……可有需要小的通报或安排的？"
+    text: "{firstName}{playerTitle}安好！许久未见，您风采依旧！不知此次前来……可有需要小的通报或安排的？"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "5925,1400001049,15,[0].talks{json}[0].name,家丁"
   splits:
   - split: 4
@@ -48936,7 +50256,10 @@
 - raw: "5925,1400001049,15,[0].talks{json}[0].talk,<fName>侠士，您来了！近日可好？"
   splits:
   - split: 4
-    text: "<fName>侠士，您来了！近日可好？"
+    text: "{firstName}侠士，您来了！近日可好？"
+    tokens:
+      firstName:
+        source: "<fName>"
 - raw: "5926,1400001050,15,[0].talks{json}[0].name,家丁"
   splits:
   - split: 4
@@ -48956,7 +50279,10 @@
 - raw: "5944,1400001068,15,[0].talks{json}[0].talk,这位……这位<英雄||女侠>高抬……咳……贵手！！"
   splits:
   - split: 4
-    text: "这位……这位<英雄||女侠>高抬……咳……贵手！！"
+    text: "这位……这位{playerTitle}高抬……咳……贵手！！"
+    tokens:
+      playerTitle:
+        source: "<英雄||女侠>"
 - raw: "5945,1400001069,15,[0].talks{json}[0].name,疤脸大汉"
   splits:
   - split: 4
@@ -48964,7 +50290,10 @@
 - raw: "5945,1400001069,15,[0].talks{json}[0].talk,<壮士||侠女>饶命……求您放小的一马！！"
   splits:
   - split: 4
-    text: "<壮士||侠女>饶命……求您放小的一马！！"
+    text: "{playerTitle}饶命……求您放小的一马！！"
+    tokens:
+      playerTitle:
+        source: "<壮士||侠女>"
 - raw: "5949,1400001073,15,[0].talks{json}[0].name,官员"
   splits:
   - split: 4
@@ -48972,7 +50301,10 @@
 - raw: "5949,1400001073,15,[0].talks{json}[0].talk,<少侠||姑娘>请。"
   splits:
   - split: 4
-    text: "<少侠||姑娘>请。"
+    text: "{playerTitle}请。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "5950,1400001074,15,[0].talks{json}[0].name,蒙面人"
   splits:
   - split: 4
@@ -48980,7 +50312,10 @@
 - raw: "5950,1400001074,15,[0].talks{json}[0].talk,求<壮士||侠女>行个方便……咳……小的再不敢造次了，放我一条生路吧！"
   splits:
   - split: 4
-    text: "求<壮士||侠女>行个方便……咳……小的再不敢造次了，放我一条生路吧！"
+    text: "求{playerTitle}行个方便……咳……小的再不敢造次了，放我一条生路吧！"
+    tokens:
+      playerTitle:
+        source: "<壮士||侠女>"
 - raw: "5983,1400001107,15,[0].talks{json}[0].name,龙虎道人"
   splits:
   - split: 4
@@ -49084,7 +50419,10 @@
 - raw: "6006,1400001130,15,[0].talks{json}[0].talk,上好的竹叶青诶……去困止乏，行旅必备之佳品，<少侠||女侠>可是要来上一壶？"
   splits:
   - split: 4
-    text: "上好的竹叶青诶……去困止乏，行旅必备之佳品，<少侠||女侠>可是要来上一壶？"
+    text: "上好的竹叶青诶……去困止乏，行旅必备之佳品，{playerTitle}可是要来上一壶？"
+    tokens:
+      playerTitle:
+        source: "<少侠||女侠>"
 - raw: "6006,1400001130,15,[0].talks{json}[0].options{json}[0].name,来上一壶（需银两200文）"
   splits:
   - split: 4
@@ -49104,7 +50442,12 @@
 - raw: "6007,1400001131,15,[1].talks{json}[0].talk,<fName><少侠||姑娘>之恩，难以尽述，如有需有在下的地方，任君驱驰！"
   splits:
   - split: 4
-    text: "<fName><少侠||姑娘>之恩，难以尽述，如有需有在下的地方，任君驱驰！"
+    text: "{firstName}{playerTitle}之恩，难以尽述，如有需有在下的地方，任君驱驰！"
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "6008,1400001132,15,[0].talks{json}[0].name,周员外"
   splits:
   - split: 4
@@ -49200,7 +50543,10 @@
 - raw: "6015,1400001139,15,[1].talks{json}[0].talk,端木真人专掌门中事务，<少侠||姑娘>若另有事务，可往太极广场寻之……"
   splits:
   - split: 4
-    text: "端木真人专掌门中事务，<少侠||姑娘>若另有事务，可往太极广场寻之……"
+    text: "端木真人专掌门中事务，{playerTitle}若另有事务，可往太极广场寻之……"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "6015,1400001139,15,[2].talks{json}[0].name,守山道人"
   splits:
   - split: 4
@@ -49216,11 +50562,17 @@
 - raw: "6015,1400001139,15,[3].talks{json}[0].talk,<少侠||姑娘>来访太和，还请自便。"
   splits:
   - split: 4
-    text: "<少侠||姑娘>来访太和，还请自便。"
+    text: "{playerTitle}来访太和，还请自便。"
+    tokens:
+      playerTitle:
+        source: "<少侠||姑娘>"
 - raw: "6016,1400001140,15,[0].talks{json}[0].talk,君讳<name>，并一无名道长。周氏受其祉，刊石立表，以示后昆。"
   splits:
   - split: 4
-    text: "君讳<name>，并一无名道长。周氏受其祉，刊石立表，以示后昆。"
+    text: "君讳{fullName}，并一无名道长。周氏受其祉，刊石立表，以示后昆。"
+    tokens:
+      fullName:
+        source: "<name>"
 - raw: "6017,1400001141,15,[0].talks{json}[0].talk,飞瀑之中隐有微光……"
   splits:
   - split: 4

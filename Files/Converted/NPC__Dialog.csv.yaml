@@ -427,23 +427,11 @@
 - raw: "70,70,9,<,love,好个[英武少年||飒爽女侠]，若有所求，尽管开口，我愿效劳一二。,1,1"
   splits:
   - split: 5
-    text: "好个"
-    translated: "Well then"
-  - split: 5
-    subIndex: 1
-    text: "英武少年"
-    translated: "Valiant Youth"
-  - split: 5
-    subIndex: 2
-    text: "飒爽女侠"
-    translated: "Dashing Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，若有所求，尽管开口，我愿效劳一二。"
-    translated: ", If you have a request, feel free to ask; I am willing to help."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "好个{playerTitle}，若有所求，尽管开口，我愿效劳一二。"
+    translated: "Well then, {playerTitle}, if you have any request, feel free to speak up; I am willing to assist you in any way I can."
+    tokens:
+      playerTitle:
+        source: "[英武少年||飒爽女侠]"
 - raw: "71,71,\"friendsSan,0\",\">,<\",\"20,love\",不愧是江湖扬名的豪客，若有急需，尽管开口，我必竭尽所能，助你一臂之力。,1,2"
   splits:
   - split: 5
@@ -720,19 +708,11 @@
 - raw: "122,121,1110002009,//,touchId,[小伙子||小姑娘]，可要来两个糖人儿消遣？,1,98"
   splits:
   - split: 5
-    text: "小伙子"
-    translated: "Young man"
-  - split: 5
-    subIndex: 1
-    text: "小姑娘"
-    translated: "Little Miss"
-  - split: 5
-    subIndex: 2
-    text: "，可要来两个糖人儿消遣？"
-    translated: ", Want some candy figurines to pass the time?"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，可要来两个糖人儿消遣？"
+    translated: "{playerTitle}, would you like two sugar figures to pass the time?"
+    tokens:
+      playerTitle:
+        source: "[小伙子||小姑娘]"
 - raw: "123,122,0,<,age,阁下竟欲图谋不轨，若不退去，莫怪在下不留情面！当真出手，是死是活，且看你造化了！,16,1"
   splits:
   - split: 5
@@ -813,23 +793,11 @@
 - raw: "137,160,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",……我之事自有我独自料理，[爹||娘]莫要多问。,1,3"
   splits:
   - split: 5
-    text: "……我之事自有我独自料理，"
-    translated: "...My affairs I shall handle alone."
-  - split: 5
-    subIndex: 1
-    text: "爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 2
-    text: "娘"
-    translated: "Mother"
-  - split: 5
-    subIndex: 3
-    text: "莫要多问。"
-    translated: "Don't ask anymore"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "……我之事自有我独自料理，{playerTitle}莫要多问。"
+    translated: "......My affairs I will handle alone, {playerTitle} need not ask more."
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "138,161,\"0,id\",\">,//\",\"love,JiaoQing<FuMu>\",……又有何事？,1,3"
   splits:
   - split: 5
@@ -848,23 +816,11 @@
 - raw: "141,164,\"-1,50,id\",\"<,>,//\",\"love,love,JiaoQing<FuMu>\",孩儿此后必当日夜勤勉，以护[爹||娘]一生周全。,1,3"
   splits:
   - split: 5
-    text: "孩儿此后必当日夜勤勉，以护"
-    translated: "I will henceforth strive day and night to protect [the one being addressed]."
-  - split: 5
-    subIndex: 1
-    text: "爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 2
-    text: "娘"
-    translated: "Mother"
-  - split: 5
-    subIndex: 3
-    text: "一生周全。"
-    translated: "A life of perfection"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿此后必当日夜勤勉，以护{playerTitle}一生周全。"
+    translated: "I will henceforth strive day and night to ensure {playerTitle}'s safety for life."
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "142,165,\"-1,50,id\",\"<,>,//\",\"love,love,JiaoQing<FuMu>\",独踏江湖，方知双亲恩重……,1,3"
   splits:
   - split: 5
@@ -943,11 +899,11 @@
 - raw: "157,180,\"29,id\",\"<,//\",\"love,JiaoQing<ZhiJiao>\",lp，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。,1,3"
   splits:
   - split: 5
-    text: "，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。"
-    translated: ", Since we are close friends, there's no need to hold back anything! Speak your mind freely."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，你我既是知己好友，大可无话不谈！有何思量，但讲无妨。"
+    translated: "{playerLastName}, since we are close friends, there is no need to hold back! Speak freely of anything on your mind."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "158,181,id,//,JiaoQing<TuDi>,不忙，不忙。徒儿可是有何见闻解悟，要这般急着与为师讲？,15,98"
   splits:
   - split: 5
@@ -1071,199 +1027,83 @@
 - raw: "182,500,-30,>,love,……奴家今日颇倦，[公子||姑娘]欲要寻欢，还请自便。,23,1"
   splits:
   - split: 5
-    text: "……奴家今日颇倦，"
-    translated: "...I am rather tired today,"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "欲要寻欢，还请自便。"
-    translated: "If you wish to seek pleasure, please feel free to do so."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "……奴家今日颇倦，{playerTitle}欲要寻欢，还请自便。"
+    translated: "......I am rather tired today, {playerTitle}. If you wish to seek pleasure, please go ahead on your own."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "183,501,\"-31,0\",\"<,>\",\"love,love\",今日奴家身体略恙，若不能好生陪[公子||姑娘]寻欢作乐，还请莫怪……,23,1"
   splits:
   - split: 5
-    text: "今日奴家身体略恙，若不能好生陪"
-    translated: "Today I'm not feeling well, so I can't accompany you properly."
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "寻欢作乐，还请莫怪……"
-    translated: "Seeking pleasure and joy, please do not blame me......"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "今日奴家身体略恙，若不能好生陪{playerTitle}寻欢作乐，还请莫怪……"
+    translated: "Today, my body is slightly unwell; if I cannot properly accompany {playerTitle} in seeking pleasure, please do not blame me......"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "184,502,\"-1,30\",\"<,>\",\"love,love\",[公子||姑娘]不必拘礼，如此良辰美景，莫要辜负才是。,23,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "不必拘礼，如此良辰美景，莫要辜负才是。"
-    translated: "Don't be formal; such a fine time and beautiful scenery should not be wasted."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}不必拘礼，如此良辰美景，莫要辜负才是。"
+    translated: "{playerTitle} need not be formal, such fine weather and scenery should not be wasted."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "185,503,\"29,60\",\"<,>\",\"love,love\",[公子||姑娘]今日能来瞧我，奴家，奴家甚是欢喜……,23,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "今日能来瞧我，奴家，奴家甚是欢喜……"
-    translated: "Today that you came to see me, I am very pleased......"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}今日能来瞧我，奴家，奴家甚是欢喜……"
+    translated: "{playerTitle} coming to see me today makes me very happy......"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "186,504,59,<,love,奴家日思夜盼，总算盼得[公子||姑娘]至此相会，却不知何日方能……唉。,23,1"
   splits:
   - split: 5
-    text: "奴家日思夜盼，总算盼得"
-    translated: "I have longed day and night, finally waiting for"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "至此相会，却不知何日方能……唉。"
-    translated: "Upon meeting here, I wonder when we shall... Ah."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "奴家日思夜盼，总算盼得{playerTitle}至此相会，却不知何日方能……唉。"
+    translated: "I have long awaited your arrival, {playerTitle}, but I wonder when... Sigh."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "187,505,-30,>,love,与[公子||姑娘]对诗，恐怕少些意趣……哎，也罢。,24,1"
   splits:
   - split: 5
-    text: "与"
-    translated: "With"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "对诗，恐怕少些意趣……哎，也罢。"
-    translated: "Reciting poems together... I'm afraid it lacks some charm... Sigh, never mind."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "与{playerTitle}对诗，恐怕少些意趣……哎，也罢。"
+    translated: "Rhyming with {playerTitle}, it's probably lacking in charm......sigh, never mind."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "188,506,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]若欲唱和吟诗，奴家奉陪便是。,24,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "若欲唱和吟诗，奴家奉陪便是。"
-    translated: "If you wish to sing and recite poetry, I shall accompany you."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}若欲唱和吟诗，奴家奉陪便是。"
+    translated: "{playerTitle}If you wish to sing and recite poetry, I shall accompany you."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "189,507,\"-1,30\",\"<,>\",\"love,love\",[公子||姑娘]既有此兴，想来文采斐然，奴家亦欲领略一二。,24,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "既有此兴，想来文采斐然，奴家亦欲领略一二。"
-    translated: "With such enthusiasm, I assume your literary talent is impressive; this one also wishes to enjoy it a bit."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}既有此兴，想来文采斐然，奴家亦欲领略一二。"
+    translated: "Since you have this interest, {playerTitle}, I assume your literary talent is impressive. I also wish to experience it for myself."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "190,508,\"29,60\",\"<,>\",\"love,love\",与[公子||姑娘]对诗，自当妙趣横生，奴家亦当倾心以对，免误[公子||姑娘]才情。,24,1"
   splits:
   - split: 5
-    text: "与"
-    translated: "With"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "对诗，自当妙趣横生，奴家亦当倾心以对，免误"
-    translated: "Poetry should be delightful and amusing; I shall respond with sincerity to avoid any misunderstanding."
-  - split: 5
-    subIndex: 4
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 5
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 6
-    text: "才情。"
-    translated: "Talent"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
+    text: "与{playerTitle}对诗，自当妙趣横生，奴家亦当倾心以对，免误{playerTitle}才情。"
+    translated: "Versing with {playerTitle}, it should be delightful; I shall give my all to match your talent and not do injustice to {playerTitle}'s poetic skill."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "191,509,59,<,love,能与[公子||姑娘]这般妙人对诗而娱，奴家自觉三生有幸……,24,1"
   splits:
   - split: 5
-    text: "能与"
-    translated: "Can with"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "这般妙人对诗而娱，奴家自觉三生有幸……"
-    translated: "Such a delightful person reciting poetry for entertainment; I feel truly blessed indeed......"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "能与{playerTitle}这般妙人对诗而娱，奴家自觉三生有幸……"
+    translated: "To be able to compose poetry with you, {playerTitle}, I feel truly blessed indeed......"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "192,510,-30,>,love,嗯，答得倒是不错。,25,1"
   splits:
   - split: 5
@@ -1272,51 +1112,27 @@
 - raw: "193,511,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]好捷才，倒是奴家小看你了。,25,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "好捷才，倒是奴家小看你了。"
-    translated: "You're too quick; I underestimated you"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}好捷才，倒是奴家小看你了。"
+    translated: "{playerTitle}You're quick-witted, I underestimated you"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "194,512,\"-1,30\",\"<,>\",\"love,love\",[公子||姑娘]这般才情，当真罕有……,25,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "这般才情，当真罕有……"
-    translated: "Such talent is indeed rare..."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}这般才情，当真罕有……"
+    translated: "{playerTitle} such talent and charm is indeed rare..."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "195,513,\"29,60\",\"<,>\",\"love,love\",[公子||姑娘]所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……,25,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……"
-    translated: "The poetry recited sounds like celestial music; to match such a verse tonight would not be in vain......"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}所吟诗韵宛若仙乐，今夜能对出此句，亦算不枉了……"
+    translated: "{playerTitle}'s poetry flows like celestial music; to match such lines this night is no small feat......"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "196,514,59,<,love,能对出如此诗韵，奴家唯有……心为君倾……,25,1"
   splits:
   - split: 5
@@ -1325,111 +1141,51 @@
 - raw: "197,515,-30,>,love,[公子||姑娘]若无真才实学，还是莫要自讨无趣了。,26,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "若无真才实学，还是莫要自讨无趣了。"
-    translated: "Without genuine talent and learning, it's best not to seek pointless amusement."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}若无真才实学，还是莫要自讨无趣了。"
+    translated: "{playerTitle}If one lacks genuine talent and learning, it's best not to seek boredom for oneself."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "198,516,\"-31,0\",\"<,>\",\"love,love\",[公子||姑娘]可是累了，怎地这也答不上来？,26,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "可是累了，怎地这也答不上来？"
-    translated: "But I'm so tired, how come I can't even answer this?"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}可是累了，怎地这也答不上来？"
+    translated: "Are you tired, {playerTitle}? How come you can't answer this?"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "199,517,\"-1,30\",\"<,>\",\"love,love\",此为偏诗古句，[公子||姑娘]难以作答，亦属常情。,26,1"
   splits:
   - split: 5
-    text: "此为偏诗古句，"
-    translated: "This is a verse in ancient style,"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "难以作答，亦属常情。"
-    translated: "It's also normal to find it hard to answer."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "此为偏诗古句，{playerTitle}难以作答，亦属常情。"
+    translated: "This is a verse in classical style; {playerTitle} finds it hard to respond, which is only natural."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "200,518,\"29,60\",\"<,>\",\"love,love\",哎呀！以[公子||姑娘]这般才情，既要对诗，自需好生答复，莫要戏弄奴家……,26,1"
   splits:
   - split: 5
-    text: "哎呀！以"
-    translated: "Ouch!"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "这般才情，既要对诗，自需好生答复，莫要戏弄奴家……"
-    translated: "With such talent, if you're going to respond with poetry, you must give a proper answer and not toy with me......"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "哎呀！以{playerTitle}这般才情，既要对诗，自需好生答复，莫要戏弄奴家……"
+    translated: "Oh! With your talent, {playerTitle}, you must answer properly when replying to a poem, don't toy with me...."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "201,519,59,<,love,[公子||姑娘]若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……,26,1"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……"
-    translated: "If you do not wish to compose poetry properly, that is fine as well. There are still many things we can do on such a lovely evening..."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}若是不欲好好对诗，自也无妨。如此良辰好景，咱们能做之事，可还多呢……"
+    translated: "If {playerTitle} does not wish to compose poetry, that is perfectly fine. With such a beautiful time and scenery, there are still many other things we can do..."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "202,600,id,!/,kithKin<>,山高路远，江湖多险。有[公子||姑娘]相伴，我心中甚安，前路纵有千难万险，亦无所惧。,27,1"
   splits:
   - split: 5
-    text: "山高路远，江湖多险。有"
-    translated: "Mountains are high, roads are long, and the Jianghu is perilous. There are"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "相伴，我心中甚安，前路纵有千难万险，亦无所惧。"
-    translated: "With you by my side, I feel at ease. No matter how many dangers lie ahead, I fear nothing."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "山高路远，江湖多险。有{playerTitle}相伴，我心中甚安，前路纵有千难万险，亦无所惧。"
+    translated: "The mountains are high and the roads long, with many dangers in Jianghu. With {playerTitle} by my side, I feel at ease; no matter how many hardships lie ahead, I fear nothing."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "203,601,id,!/,kithKin<>,江湖多变，风雨难测。你我盟契，生死相随，共闯江湖，不负侠义之名！,27,1"
   splits:
   - split: 5
@@ -1468,91 +1224,43 @@
 - raw: "210,608,\"id,3\",\"//,>\",\"JiaoQing<FuMu>,age\",[爹……爹爹！||娘……娘亲！],27,1"
   splits:
   - split: 5
-    text: "爹……爹爹！"
-    translated: "Father......Father!"
-  - split: 5
-    subIndex: 1
-    text: "娘……娘亲！"
-    translated: "Mother... Mother!"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]"
+    text: "{playerTitle}"
+    translated: "{playerTitle}"
+    tokens:
+      playerTitle:
+        source: "[爹……爹爹！||娘……娘亲！]"
 - raw: "211,609,\"id,2,14,9\",\"//,<,>,<\",\"JiaoQing<FuMu>,age,age,love\",孩儿以后也要成为似[爹爹||娘亲]这样的大侠！,27,1"
   splits:
   - split: 5
-    text: "孩儿以后也要成为似"
-    translated: "I want to become someone like that too, someday."
-  - split: 5
-    subIndex: 1
-    text: "爹爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 2
-    text: "娘亲"
-    translated: "Mother"
-  - split: 5
-    subIndex: 3
-    text: "这样的大侠！"
-    translated: "Such a great hero!"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿以后也要成为似{playerTitle}这样的大侠！"
+    translated: "I want to become a great hero like {playerTitle} one day!"
+    tokens:
+      playerTitle:
+        source: "[爹爹||娘亲]"
 - raw: "212,610,\"id,2,14,9\",\"//,<,>,<\",\"JiaoQing<FuMu>,age,age,love\",孩儿此后要好生习武，才好与[爹爹||娘亲]一同闯荡江湖。,27,1"
   splits:
   - split: 5
-    text: "孩儿此后要好生习武，才好与"
-    translated: "I must practice martial arts diligently henceforth, in order to be worthy of you,"
-  - split: 5
-    subIndex: 1
-    text: "爹爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 2
-    text: "娘亲"
-    translated: "Mother"
-  - split: 5
-    subIndex: 3
-    text: "一同闯荡江湖。"
-    translated: "Travel the Jianghu together"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿此后要好生习武，才好与{playerTitle}一同闯荡江湖。"
+    translated: "I will train hard from now on so that I can venture into Jianghu with you, {playerTitle}."
+    tokens:
+      playerTitle:
+        source: "[爹爹||娘亲]"
 - raw: "213,611,\"id,13,9\",\"//,<,<\",\"JiaoQing<FuMu>,age,love\",[爹||娘]，孩儿近日读书，却有许多不明之处……,27,1"
   splits:
   - split: 5
-    text: "爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 1
-    text: "娘"
-    translated: "Mother"
-  - split: 5
-    subIndex: 2
-    text: "，孩儿近日读书，却有许多不明之处……"
-    translated: ", Lately, while reading, I've come across many unclear points......"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，孩儿近日读书，却有许多不明之处……"
+    translated: "{playerTitle}, I've been reading recently but have many unclear points..."
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "214,612,\"id,13,9\",\"//,<,<\",\"JiaoQing<FuMu>,age,love\",孩儿此后必当日夜勤勉，以护[爹||娘]一生周全。,27,1"
   splits:
   - split: 5
-    text: "孩儿此后必当日夜勤勉，以护"
-    translated: "I will henceforth strive day and night to protect [the one being addressed]."
-  - split: 5
-    subIndex: 1
-    text: "爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 2
-    text: "娘"
-    translated: "Mother"
-  - split: 5
-    subIndex: 3
-    text: "一生周全。"
-    translated: "A life of perfection"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "孩儿此后必当日夜勤勉，以护{playerTitle}一生周全。"
+    translated: "I will henceforth strive day and night to ensure {playerTitle}'s safety for life."
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "215,613,id,//,JiaoQing<TuDi>,乖徒儿，习武之道虽需时时精进，但也应适时而为。,27,1"
   splits:
   - split: 5
@@ -1566,19 +1274,11 @@
 - raw: "217,615,\"id,2,14,-30,10\",\"//,<,>,<,>\",\"JiaoQing<FuMu>,age,age,love,love\",[爹爹||娘]好啰嗦……,27,1"
   splits:
   - split: 5
-    text: "爹爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 1
-    text: "娘"
-    translated: "Mother"
-  - split: 5
-    subIndex: 2
-    text: "好啰嗦……"
-    translated: "So wordy......"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}好啰嗦……"
+    translated: "{playerTitle} you're so verbose......"
+    tokens:
+      playerTitle:
+        source: "[爹爹||娘]"
 - raw: "218,616,\"id,2,14,-29\",\"//,<,>,>\",\"JiaoQing<FuMu>,age,age,love\",远些远些，莫来烦我！,27,1"
   splits:
   - split: 5
@@ -1587,19 +1287,11 @@
 - raw: "219,617,\"id,13,10\",\"//,<,>\",\"JiaoQing<FuMu>,age,love\",[爹||娘]所言不过陈腔滥调，我自有主张，莫来相扰。,27,1"
   splits:
   - split: 5
-    text: "爹"
-    translated: "Father"
-  - split: 5
-    subIndex: 1
-    text: "娘"
-    translated: "Mother"
-  - split: 5
-    subIndex: 2
-    text: "所言不过陈腔滥调，我自有主张，莫来相扰。"
-    translated: "What you say is just cliche; I have my own convictions, so do not bother me."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}所言不过陈腔滥调，我自有主张，莫来相扰。"
+    translated: "{playerTitle}, your words are nothing but cliches. I have my own course of action; do not disturb me."
+    tokens:
+      playerTitle:
+        source: "[爹||娘]"
 - raw: "220,618,id,//,JiaoQing<TuDi>,呵呵，师徒江湖同游，不错，不错。,27,1"
   splits:
   - split: 5
@@ -1625,59 +1317,27 @@
 - raw: "223,701,,,,[少侠||姑娘]好身手，假以时日想必能扬名武林！,28,1"
   splits:
   - split: 5
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "好身手，假以时日想必能扬名武林！"
-    translated: "Impressive skills; with time, you're sure to make a name for yourself in Wulin!"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}好身手，假以时日想必能扬名武林！"
+    translated: "Good skills, {playerTitle}! With time, you're sure to make a name for yourself in Wulin!"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
 - raw: "224,702,,,,胜败乃兵家常事，[少侠||姑娘]可精研武艺，日后再与在下切磋。,29,1"
   splits:
   - split: 5
-    text: "胜败乃兵家常事，"
-    translated: "Victory and defeat are common in warfare"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "可精研武艺，日后再与在下切磋。"
-    translated: "You may polish your martial arts; we shall spar again in the future."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "胜败乃兵家常事，{playerTitle}可精研武艺，日后再与在下切磋。"
+    translated: "Victory and defeat are common in warfare, {playerTitle}. You may refine your martial arts; we shall spar again another day."
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
 - raw: "225,750,,,,既已答应[少侠||姑娘]同游江湖，往后日子尽可以依靠我！,30,1"
   splits:
   - split: 5
-    text: "既已答应"
-    translated: "Having already agreed"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "同游江湖，往后日子尽可以依靠我！"
-    translated: "Traveling the Jianghu together, from now on, you can rely on me for all your days!"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "既已答应{playerTitle}同游江湖，往后日子尽可以依靠我！"
+    translated: "Since I have agreed to travel with you, {playerTitle}, in the Jianghu, you can rely on me from now on!"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
 - raw: "226,801,,,,敌势甚猛，吾不欲舍生赴死，先遁为上！,31,1"
   splits:
   - split: 5
@@ -1761,19 +1421,13 @@
 - raw: "242,950,,,,咱们gangName在这mapName，可是大大有名。,7,1"
   splits:
   - split: 5
-    text: "咱们"
-    translated: "Let's"
-  - split: 5
-    subIndex: 1
-    text: "在这"
-    translated: "Here"
-  - split: 5
-    subIndex: 2
-    text: "，可是大大有名。"
-    translated: ", But is extremely famous"
-  templates:
-  - split: 5
-    template: "{0}gangName{1}mapName{2}"
+    text: "咱们{gangName}在这{mapName}，可是大大有名。"
+    translated: "Our {gangName} is extremely famous in this {mapName}."
+    tokens:
+      gangName:
+        source: "gangName"
+      mapName:
+        source: "mapName"
 - raw: "243,951,,,,捍卫本帮声威，义不容辞！,7,1"
   splits:
   - split: 5
@@ -1782,15 +1436,11 @@
 - raw: "244,952,,,,谁敢招惹咱们gangName，那便是跟我过不去！,7,1"
   splits:
   - split: 5
-    text: "谁敢招惹咱们"
-    translated: "Who dares to provoke us?"
-  - split: 5
-    subIndex: 1
-    text: "，那便是跟我过不去！"
-    translated: ", That's a challenge to me!"
-  templates:
-  - split: 5
-    template: "{0}gangName{1}"
+    text: "谁敢招惹咱们{gangName}，那便是跟我过不去！"
+    translated: "Who dares to provoke us, the {gangName}? That's a declaration of war on me!"
+    tokens:
+      gangName:
+        source: "gangName"
 - raw: "245,953,,,,也不知这月俸钱几时能发……,7,1"
   splits:
   - split: 5
@@ -1909,95 +1559,49 @@
 - raw: "268,1022,\"1160001066,29\",\"//,<\",\"touchId,love\",那懿瑶便先回杭州探望家父，[公子||姑娘]若有需要，可来隆顺镖局唤我。,33,2"
   splits:
   - split: 5
-    text: "那懿瑶便先回杭州探望家父，"
-    translated: "So Yi Yao will return to Hangzhou to visit her father first."
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "若有需要，可来隆顺镖局唤我。"
-    translated: "If needed, you can come to the Longshun Escort Agency to call for me."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "那懿瑶便先回杭州探望家父，{playerTitle}若有需要，可来隆顺镖局唤我。"
+    translated: "Then Yi Yao will return to Hangzhou to visit my father. If you need anything, {playerTitle} may come to the Longshun Escort Agency to call for me."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "269,1023,\"1140005099,29\",\"//,<\",\"touchId,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,2"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    translated: "Hmm... If {playerTitle} {playerFirstName} wishes for Little Yue to accompany you, come to Linchuan Village to find me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "270,1024,\"1140005034,29\",\"//,<\",\"touchId,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,2"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    translated: "Hmm... If {playerTitle} {playerFirstName} wishes for Little Yue to accompany you, come to Linchuan Village to find me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "271,1025,\"1140005079,29\",\"//,<\",\"touchId,love\",是。衣鹤在文昌镇外，随时等候p大人。,33,2"
   splits:
   - split: 5
-    text: "是。衣鹤在文昌镇外，随时等候"
-    translated: "Yes. Yi He is waiting outside Wenchang Town at all times."
-  - split: 5
-    subIndex: 1
-    text: "大人。"
-    translated: "Lord"
-  templates:
-  - split: 5
-    template: "{0}p{1}"
+    text: "是。衣鹤在文昌镇外，随时等候{playerName}大人。"
+    translated: "Yes. Yihe is waiting outside Wenchang Town at all times for Lord {playerName}."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "272,1026,\"1170001056,29\",\"//,<\",\"touchId,love\",好！那愚兄便回大理探望藤娘，fp[兄弟||妹子]，不妨再来找愚兄喝上两壶。,33,2"
   splits:
   - split: 5
-    text: "好！那愚兄便回大理探望藤娘，"
-    translated: "Very well! Then I will return to Dali to visit Tengniang."
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "妹子"
-    translated: "Sis"
-  - split: 5
-    subIndex: 3
-    text: "，不妨再来找愚兄喝上两壶。"
-    translated: ", Come back and have a few pots of tea with me."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好！那愚兄便回大理探望藤娘，{playerFirstName}{playerTitle}，不妨再来找愚兄喝上两壶。"
+    translated: "Alright then, I'll return to Dali to visit Tengniang, {playerTitle} {playerFirstName}. Feel free to come find me for a couple of pots of tea."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "273,1027,\"1190001076,29\",\"//,<\",\"touchId,love\",我……我暂且回桃花坞中看看……,33,2"
   splits:
   - split: 5
@@ -2006,123 +1610,61 @@
 - raw: "274,1028,\"1200001063,29\",\"//,<\",\"touchId,love\",梦秋此身，已托付于[公子||姑娘]……我在襄阳，随时等候。,33,2"
   splits:
   - split: 5
-    text: "梦秋此身，已托付于"
-    translated: "My body has already been entrusted to"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "……我在襄阳，随时等候。"
-    translated: "......I am in Xiangyang, waiting for you at all times."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "梦秋此身，已托付于{playerTitle}……我在襄阳，随时等候。"
+    translated: "Dream Autumn entrusts this body to you, {playerTitle}......I am in Xiangyang, waiting for you at all times."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "275,1029,\"1200000247,29\",\"//,<\",\"touchId,love\",无妨，fp[兄弟||姑娘]若有差遣，随时到白桐山庄来唤便是。,33,2"
   splits:
   - split: 5
-    text: "无妨，"
-    translated: "It's fine"
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "若有差遣，随时到白桐山庄来唤便是。"
-    translated: "If you need anything, feel free to come to Baitong Manor and call for me at any time."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "无妨，{playerFirstName}{playerTitle}若有差遣，随时到白桐山庄来唤便是。"
+    translated: "No worries, {playerFirstName}{playerTitle}. If you need anything, come to Baitong Manor at any time."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "276,1030,\"1200000246,29\",\"//,<\",\"touchId,love\",那我且回白桐山庄看看，lp[兄||姑娘]可到那儿寻我！,33,2"
   splits:
   - split: 5
-    text: "那我且回白桐山庄看看，"
-    translated: "Then I'll go back to Baitong Manor and take a look."
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "可到那儿寻我！"
-    translated: "You can find me there!"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "那我且回白桐山庄看看，{playerLastName}{playerTitle}可到那儿寻我！"
+    translated: "Then I'll return to Baitong Manor to see if {playerLastName}{playerTitle} can find me there!"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "277,1031,\"1200000249,29\",\"//,<\",\"touchId,love\",小妹暂回白桐山庄打理，fp[哥哥||姊姊]，日后再会。,33,2"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理，"
-    translated: "Little sister will temporarily return to Baitong Manor to handle affairs."
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，日后再会。"
-    translated: ", See you again someday"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "小妹暂回白桐山庄打理，{playerFirstName}{playerTitle}，日后再会。"
+    translated: "Little Sister will return to Baitong Manor for now to handle some matters, {playerFirstName} {playerTitle}. We shall meet again in the future."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "278,1032,\"1200000229,29\",\"//,<\",\"touchId,love\",我暂回府中看望爷爷，fp[少侠||女侠]，咱们襄阳再见。,33,2"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-    translated: "I will return to the estate to visit my grandfather."
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，咱们襄阳再见。"
-    translated: ", See you in Xiangyang"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回府中看望爷爷，{playerFirstName}{playerTitle}，咱们襄阳再见。"
+    translated: "I'll return to the estate to visit Grandfather for now, {playerFirstName}{playerTitle}. We'll meet again in Xiangyang."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "279,1033,\"1200009953,29\",\"//,<\",\"touchId,love\",好……谢正青于襄阳城北，等候fp[兄||姑娘]相唤。,33,2"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，等候"
-    translated: "Good... Xie Zhengqing waits for you in the northern part of Xiangyang City."
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "相唤。"
-    translated: "Call out"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好……谢正青于襄阳城北，等候{playerFirstName}{playerTitle}相唤。"
+    translated: "Good...... Xie Zhengqing awaits you, {playerFirstName}{playerTitle}, in the northern part of Xiangyang City."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "280,1034,\"1180000338,29\",\"//,<\",\"touchId,love\",那……我回苗疆探望姊姊与教主，你可要记得回教中寻我。,33,2"
   splits:
   - split: 5
@@ -2251,23 +1793,11 @@
 - raw: "305,1059,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",胧的使命已尽……愿[兄长||姊姊]大人武运昌隆。,33,3"
   splits:
   - split: 5
-    text: "胧的使命已尽……愿"
-    translated: "Luo's mission is complete......may"
-  - split: 5
-    subIndex: 1
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "大人武运昌隆。"
-    translated: "Lord Wu's martial fortune is thriving"
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "胧的使命已尽……愿{playerTitle}大人武运昌隆。"
+    translated: "May your {playerTitle} have flourishing martial fortunes"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "306,1060,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",……好。我回太和山等你。,33,3"
   splits:
   - split: 5
@@ -2281,95 +1811,49 @@
 - raw: "308,1062,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那懿瑶便先回杭州探望家父，[公子||姑娘]若有需要，可来隆顺镖局唤我。,33,3"
   splits:
   - split: 5
-    text: "那懿瑶便先回杭州探望家父，"
-    translated: "So Yi Yao will return to Hangzhou to visit her father first."
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "若有需要，可来隆顺镖局唤我。"
-    translated: "If needed, you can come to the Longshun Escort Agency to call for me."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "那懿瑶便先回杭州探望家父，{playerTitle}若有需要，可来隆顺镖局唤我。"
+    translated: "Then Yi Yao will return to Hangzhou to visit my father. If you need anything, {playerTitle} may come to the Longshun Escort Agency to call for me."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "309,1063,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    translated: "Hmm... If {playerTitle} {playerFirstName} wishes for Little Yue to accompany you, come to Linchuan Village to find me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "310,1064,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",嗯……fp[大哥||姐姐]若要小玥同行，便来临川村寻我。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 2
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 3
-    text: "若要小玥同行，便来临川村寻我。"
-    translated: "If you want Little Yue as a companion, come to Linchuan Village to find me."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "嗯……{playerFirstName}{playerTitle}若要小玥同行，便来临川村寻我。"
+    translated: "Hmm... If {playerTitle} {playerFirstName} wishes for Little Yue to accompany you, come to Linchuan Village to find me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "311,1065,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",是。衣鹤在文昌镇外，随时等候p大人。,33,3"
   splits:
   - split: 5
-    text: "是。衣鹤在文昌镇外，随时等候"
-    translated: "Yes. Yi He is waiting outside Wenchang Town at all times."
-  - split: 5
-    subIndex: 1
-    text: "大人。"
-    translated: "Lord"
-  templates:
-  - split: 5
-    template: "{0}p{1}"
+    text: "是。衣鹤在文昌镇外，随时等候{playerName}大人。"
+    translated: "Yes. Yihe is waiting outside Wenchang Town at all times for Lord {playerName}."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "312,1066,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",好！那愚兄便回大理探望藤娘，fp[兄弟||妹子]，不妨再来找愚兄喝上两壶。,33,3"
   splits:
   - split: 5
-    text: "好！那愚兄便回大理探望藤娘，"
-    translated: "Very well! Then I will return to Dali to visit Tengniang."
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "妹子"
-    translated: "Sis"
-  - split: 5
-    subIndex: 3
-    text: "，不妨再来找愚兄喝上两壶。"
-    translated: ", Come back and have a few pots of tea with me."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好！那愚兄便回大理探望藤娘，{playerFirstName}{playerTitle}，不妨再来找愚兄喝上两壶。"
+    translated: "Alright then, I'll return to Dali to visit Tengniang, {playerTitle} {playerFirstName}. Feel free to come find me for a couple of pots of tea."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "313,1067,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我……我暂且回桃花坞中看看……,33,3"
   splits:
   - split: 5
@@ -2378,123 +1862,61 @@
 - raw: "314,1068,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",梦秋此身，已托付于[公子||姑娘]……我在襄阳，随时等候。,33,3"
   splits:
   - split: 5
-    text: "梦秋此身，已托付于"
-    translated: "My body has already been entrusted to"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "……我在襄阳，随时等候。"
-    translated: "......I am in Xiangyang, waiting for you at all times."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "梦秋此身，已托付于{playerTitle}……我在襄阳，随时等候。"
+    translated: "Dream Autumn entrusts this body to you, {playerTitle}......I am in Xiangyang, waiting for you at all times."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "315,1069,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",无妨，fp[兄弟||姑娘]若有差遣，随时到白桐山庄来唤便是。,33,3"
   splits:
   - split: 5
-    text: "无妨，"
-    translated: "It's fine"
-  - split: 5
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "若有差遣，随时到白桐山庄来唤便是。"
-    translated: "If you need anything, feel free to come to Baitong Manor and call for me at any time."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "无妨，{playerFirstName}{playerTitle}若有差遣，随时到白桐山庄来唤便是。"
+    translated: "No worries, {playerFirstName}{playerTitle}. If you need anything, come to Baitong Manor at any time."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "316,1070,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那我且回白桐山庄看看，lp[兄||姑娘]可到那儿寻我！,33,3"
   splits:
   - split: 5
-    text: "那我且回白桐山庄看看，"
-    translated: "Then I'll go back to Baitong Manor and take a look."
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "可到那儿寻我！"
-    translated: "You can find me there!"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "那我且回白桐山庄看看，{playerLastName}{playerTitle}可到那儿寻我！"
+    translated: "Then I'll return to Baitong Manor to see if {playerLastName}{playerTitle} can find me there!"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "317,1071,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",小妹暂回白桐山庄打理，fp[哥哥||姊姊]，日后再会。,33,3"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理，"
-    translated: "Little sister will temporarily return to Baitong Manor to handle affairs."
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，日后再会。"
-    translated: ", See you again someday"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "小妹暂回白桐山庄打理，{playerFirstName}{playerTitle}，日后再会。"
+    translated: "Little Sister will return to Baitong Manor for now to handle some matters, {playerFirstName} {playerTitle}. We shall meet again in the future."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "318,1072,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我暂回府中看望爷爷，fp[少侠||女侠]，咱们襄阳再见。,33,3"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-    translated: "I will return to the estate to visit my grandfather."
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，咱们襄阳再见。"
-    translated: ", See you in Xiangyang"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回府中看望爷爷，{playerFirstName}{playerTitle}，咱们襄阳再见。"
+    translated: "I'll return to the estate to visit Grandfather for now, {playerFirstName}{playerTitle}. We'll meet again in Xiangyang."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "319,1073,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",好……谢正青于襄阳城北，等候fp[兄||姑娘]相唤。,33,3"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，等候"
-    translated: "Good... Xie Zhengqing waits for you in the northern part of Xiangyang City."
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "相唤。"
-    translated: "Call out"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "好……谢正青于襄阳城北，等候{playerFirstName}{playerTitle}相唤。"
+    translated: "Good...... Xie Zhengqing awaits you, {playerFirstName}{playerTitle}, in the northern part of Xiangyang City."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "320,1074,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",那……我回苗疆探望姊姊与教主，你可要记得回教中寻我。,33,3"
   splits:
   - split: 5
@@ -2518,43 +1940,19 @@
 - raw: "324,1078,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我回大雪山闭关修炼，[兄长||姊姊]若有精进，不妨来试刀。,33,3"
   splits:
   - split: 5
-    text: "我回大雪山闭关修炼，"
-    translated: "I will return to Daxue Mountain for seclusion and training."
-  - split: 5
-    subIndex: 1
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "若有精进，不妨来试刀。"
-    translated: "If you've improved, feel free to try your blade."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "我回大雪山闭关修炼，{playerTitle}若有精进，不妨来试刀。"
+    translated: "I shall return to Daxue Mountain to cultivate in seclusion. If {playerTitle} has made progress, feel free to come and test your blade."
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "325,1079,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",胧暂回东瀛修习秘术，[兄长||姊姊]大人若有需要，胧随时待命。,33,3"
   splits:
   - split: 5
-    text: "胧暂回东瀛修习秘术，"
-    translated: "Long returned to Dongying to study the Secret Art."
-  - split: 5
-    subIndex: 1
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "大人若有需要，胧随时待命。"
-    translated: "Lord, if you need anything, Long am always at your service."
-  templates:
-  - split: 5
-    template: "{0}[{1}||{2}]{3}"
+    text: "胧暂回东瀛修习秘术，{playerTitle}大人若有需要，胧随时待命。"
+    translated: "Lord {playerTitle}, if you need anything, I am always at your service.\\nH Lon will return to Dongying to study the Secret Art. If you have any needs, Hong will be at your disposal at any time."
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "326,1080,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",好。夫君若还想相见，便回太和山来罢……,33,3"
   splits:
   - split: 5
@@ -2573,27 +1971,19 @@
 - raw: "329,1083,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-    translated: "Brother, it's fine"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    translated: "Little Yueh will return to Linchuan Village... I am used to being alone, Brother {playerLastName}, it's fine."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "330,1084,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-    translated: "Brother, it's fine"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    translated: "Little Yueh will return to Linchuan Village... I am used to being alone, Brother {playerLastName}, it's fine."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "331,1085,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",是……衣鹤在文昌镇外，静候夫君大人……,33,3"
   splits:
   - split: 5
@@ -2622,39 +2012,27 @@
 - raw: "336,1090,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",既如此，我且回白桐山庄去……lp郎，有缘再会。,33,3"
   splits:
   - split: 5
-    text: "既如此，我且回白桐山庄去……"
-    translated: "Since that's the case, I'll head back to Baitong Manor......"
-  - split: 5
-    subIndex: 1
-    text: "郎，有缘再会。"
-    translated: "Goodbye, may our paths cross again"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "既如此，我且回白桐山庄去……{playerLastName}郎，有缘再会。"
+    translated: "Since that is the case, I shall return to Baitong Manor......{playerLastName} Young Master, may our paths cross again."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "337,1091,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小妹暂回白桐山庄打理……lp哥哥，珍重。,33,3"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理……"
-    translated: "Little sister will temporarily return to Baitong Manor to manage things......"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，珍重。"
-    translated: "Brother, take care"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小妹暂回白桐山庄打理……{playerLastName}哥哥，珍重。"
+    translated: "Little Sister will return to Baitong Manor for now... Brother {playerLastName}, take care."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "338,1092,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",这般也好……fp郎，有朝一日，襄阳再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-    translated: "This is for the best......"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，襄阳再见罢。"
-    translated: "My dear, one day we shall meet again in Xiangyang."
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，襄阳再见罢。"
+    translated: "This will do......Mr. {playerFirstName}, perhaps we'll meet again in Xiangyang one day."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "339,1093,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",……好。襄阳城北，谢某自去待死。,33,3"
   splits:
   - split: 5
@@ -2673,15 +2051,11 @@
 - raw: "342,1096,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",阿真回辽东去……lp哥哥，不要阿真了？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东去……"
-    translated: "Ah Zhhen returns to Liaodong..."
-  - split: 5
-    subIndex: 1
-    text: "哥哥，不要阿真了？"
-    translated: "Brother, no more acting serious?"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东去……{playerLastName}哥哥，不要阿真了？"
+    translated: "Ah Zheng is going back to Liaodong... Brother {playerLastName}, are you not going to need me anymore?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "343,1097,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -2715,27 +2089,19 @@
 - raw: "349,1103,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    translated: "Hmm... If Brother {playerLastName} wants to have Xiao Yue as a Companion, come to Linchuan Village."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "350,1104,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    translated: "Hmm... If Brother {playerLastName} wants to have Xiao Yue as a Companion, come to Linchuan Village."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "351,1105,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。,33,3"
   splits:
   - split: 5
@@ -2744,15 +2110,11 @@
 - raw: "352,1106,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",好……lp若是想念夫君，便到大理昔日同行之地来。,33,3"
   splits:
   - split: 5
-    text: "好……"
-    translated: "Good......"
-  - split: 5
-    subIndex: 1
-    text: "若是想念夫君，便到大理昔日同行之地来。"
-    translated: "If you miss your husband, come to the places in Dali where you once traveled together."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……{playerLastName}若是想念夫君，便到大理昔日同行之地来。"
+    translated: "Good......If you miss your husband, come to the places where we used to travel together in Dali, {playerLastName}."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "353,1107,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",妾回桃花坞中探望姊妹，良人早日来唤若烟……,33,3"
   splits:
   - split: 5
@@ -2771,47 +2133,35 @@
 - raw: "356,1110,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp郎，我回家……回白桐山庄看看，你也早日回来。,33,3"
   splits:
   - split: 5
-    text: "郎，我回家……回白桐山庄看看，你也早日回来。"
-    translated: "Liang, I'm going home... to check on Baitong Manor, and hope you return soon too."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我回家……回白桐山庄看看，你也早日回来。"
+    translated: "Young Master {playerLastName}, I'm going home......I'll go back to Bai Tong Manor to take a look, and you should come back soon too. to Baitong Manor to take a look around. You should also return soon."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "357,1111,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",那……小妹暂回白桐山庄打理，lp哥哥，早日再会。,33,3"
   splits:
   - split: 5
-    text: "那……小妹暂回白桐山庄打理，"
-    translated: "Then... little sister will return to Baitong Manor to handle things."
-  - split: 5
-    subIndex: 1
-    text: "哥哥，早日再会。"
-    translated: "Brother, let's meet again soon"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "那……小妹暂回白桐山庄打理，{playerLastName}哥哥，早日再会。"
+    translated: "Then... little sister will return to Baitong Manor to attend to matters, Brother {playerLastName}, we shall meet again soon."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "358,1112,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我暂回府中看望爷爷，fp郎，咱们襄阳再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-    translated: "I will return to the estate to visit my grandfather."
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们襄阳再见呀。"
-    translated: "Liang, see you in Xiangyang again"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回府中看望爷爷，{playerFirstName}郎，咱们襄阳再见呀。"
+    translated: "I'll return to the estate to visit Grandfather for now, {playerFirstName}. We'll meet again in Xiangyang."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "359,1113,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",好……谢正青于襄阳城北，只待lp来唤。,33,3"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，只待"
-    translated: "Good...... Xie Zhengqing awaits in the northern part of Xiangyang City."
-  - split: 5
-    subIndex: 1
-    text: "来唤。"
-    translated: "Come and call"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……谢正青于襄阳城北，只待{playerLastName}来唤。"
+    translated: "Good... Xie Zhengqing awaits {playerLastName} in the northern part of Xiangyang City."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "360,1114,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",那……我回苗疆探望姊姊与教主，阿哥儿，你也多回苗疆来嘛。,33,3"
   splits:
   - split: 5
@@ -2825,23 +2175,19 @@
 - raw: "362,1116,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿真回辽东看望爷爷……lp哥哥哪日来找阿真？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东看望爷爷……"
-    translated: "Ah Zheng returned to Liaodong to visit his grandfather......"
-  - split: 5
-    subIndex: 1
-    text: "哥哥哪日来找阿真？"
-    translated: "When will Brother come to look for Ah Zhen?"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东看望爷爷……{playerLastName}哥哥哪日来找阿真？"
+    translated: "Ah Jin returned to Liaodong to visit Grandpa......When will {playerLastName} Brother come to find Ah Jin?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "363,1117,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
-    text: "姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
-    translated: "Sister, don't worry. I can take care of myself in Liaodong. You be careful with everything."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
+    translated: "Sister {playerLastName}, rest assured. I can take care of myself in Liaodong. You be careful with everything."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "364,1118,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我仍会在大雪山练刀，若你归来，我的刀便是你的刀。,33,3"
   splits:
   - split: 5
@@ -2870,27 +2216,19 @@
 - raw: "369,1123,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-    translated: "Brother, it's fine"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    translated: "Little Yueh will return to Linchuan Village... I am used to being alone, Brother {playerLastName}, it's fine."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "370,1124,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小玥回临川村去……我已惯常孑身一人，lp哥，不妨的。,33,3"
   splits:
   - split: 5
-    text: "小玥回临川村去……我已惯常孑身一人，"
-    translated: "Little Yueh returned to Linchuan Village......I am used to being alone."
-  - split: 5
-    subIndex: 1
-    text: "哥，不妨的。"
-    translated: "Brother, it's fine"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小玥回临川村去……我已惯常孑身一人，{playerLastName}哥，不妨的。"
+    translated: "Little Yueh will return to Linchuan Village... I am used to being alone, Brother {playerLastName}, it's fine."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "371,1125,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",是……衣鹤在文昌镇外，静候夫君大人……,33,3"
   splits:
   - split: 5
@@ -2919,39 +2257,27 @@
 - raw: "376,1130,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",既如此，我且回白桐山庄去……lp郎，有缘再会。,33,3"
   splits:
   - split: 5
-    text: "既如此，我且回白桐山庄去……"
-    translated: "Since that's the case, I'll head back to Baitong Manor......"
-  - split: 5
-    subIndex: 1
-    text: "郎，有缘再会。"
-    translated: "Goodbye, may our paths cross again"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "既如此，我且回白桐山庄去……{playerLastName}郎，有缘再会。"
+    translated: "Since that is the case, I shall return to Baitong Manor......{playerLastName} Young Master, may our paths cross again."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "377,1131,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小妹暂回白桐山庄打理……lp哥哥，珍重。,33,3"
   splits:
   - split: 5
-    text: "小妹暂回白桐山庄打理……"
-    translated: "Little sister will temporarily return to Baitong Manor to manage things......"
-  - split: 5
-    subIndex: 1
-    text: "哥哥，珍重。"
-    translated: "Brother, take care"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "小妹暂回白桐山庄打理……{playerLastName}哥哥，珍重。"
+    translated: "Little Sister will return to Baitong Manor for now... Brother {playerLastName}, take care."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "378,1132,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",这般也好……fp郎，有朝一日，襄阳再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-    translated: "This is for the best......"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，襄阳再见罢。"
-    translated: "My dear, one day we shall meet again in Xiangyang."
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，襄阳再见罢。"
+    translated: "This will do......Mr. {playerFirstName}, perhaps we'll meet again in Xiangyang one day."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "379,1133,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",……好。襄阳城北，谢某自去待死。,33,3"
   splits:
   - split: 5
@@ -2970,15 +2296,11 @@
 - raw: "382,1136,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",阿真回辽东去……lp哥哥，不要阿真了？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东去……"
-    translated: "Ah Zhhen returns to Liaodong..."
-  - split: 5
-    subIndex: 1
-    text: "哥哥，不要阿真了？"
-    translated: "Brother, no more acting serious?"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东去……{playerLastName}哥哥，不要阿真了？"
+    translated: "Ah Zheng is going back to Liaodong... Brother {playerLastName}, are you not going to need me anymore?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "383,1137,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -3012,27 +2334,19 @@
 - raw: "389,1143,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    translated: "Hmm... If Brother {playerLastName} wants to have Xiao Yue as a Companion, come to Linchuan Village."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "390,1144,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",嗯……lp哥若要小玥同行，便到临川村来。,33,3"
   splits:
   - split: 5
-    text: "嗯……"
-    translated: "Hmm......"
-  - split: 5
-    subIndex: 1
-    text: "哥若要小玥同行，便到临川村来。"
-    translated: "If Brother wants Xiao Yue to accompany him, come to Linchuan Village."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "嗯……{playerLastName}哥若要小玥同行，便到临川村来。"
+    translated: "Hmm... If Brother {playerLastName} wants to have Xiao Yue as a Companion, come to Linchuan Village."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "391,1145,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。,33,3"
   splits:
   - split: 5
@@ -3041,15 +2355,11 @@
 - raw: "392,1146,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",好……lp若是想念夫君，便到大理昔日同行之地来。,33,3"
   splits:
   - split: 5
-    text: "好……"
-    translated: "Good......"
-  - split: 5
-    subIndex: 1
-    text: "若是想念夫君，便到大理昔日同行之地来。"
-    translated: "If you miss your husband, come to the places in Dali where you once traveled together."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……{playerLastName}若是想念夫君，便到大理昔日同行之地来。"
+    translated: "Good......If you miss your husband, come to the places where we used to travel together in Dali, {playerLastName}."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "393,1147,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",妾回桃花坞中探望姊妹，良人早日来唤若烟……,33,3"
   splits:
   - split: 5
@@ -3068,47 +2378,35 @@
 - raw: "396,1150,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp郎，我回家……回白桐山庄看看，你也早日回来。,33,3"
   splits:
   - split: 5
-    text: "郎，我回家……回白桐山庄看看，你也早日回来。"
-    translated: "Liang, I'm going home... to check on Baitong Manor, and hope you return soon too."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我回家……回白桐山庄看看，你也早日回来。"
+    translated: "Young Master {playerLastName}, I'm going home......I'll go back to Bai Tong Manor to take a look, and you should come back soon too. to Baitong Manor to take a look around. You should also return soon."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "397,1151,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",那……小妹暂回白桐山庄打理，lp哥哥，早日再会。,33,3"
   splits:
   - split: 5
-    text: "那……小妹暂回白桐山庄打理，"
-    translated: "Then... little sister will return to Baitong Manor to handle things."
-  - split: 5
-    subIndex: 1
-    text: "哥哥，早日再会。"
-    translated: "Brother, let's meet again soon"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "那……小妹暂回白桐山庄打理，{playerLastName}哥哥，早日再会。"
+    translated: "Then... little sister will return to Baitong Manor to attend to matters, Brother {playerLastName}, we shall meet again soon."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "398,1152,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我暂回府中看望爷爷，fp郎，咱们襄阳再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回府中看望爷爷，"
-    translated: "I will return to the estate to visit my grandfather."
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们襄阳再见呀。"
-    translated: "Liang, see you in Xiangyang again"
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回府中看望爷爷，{playerFirstName}郎，咱们襄阳再见呀。"
+    translated: "I'll return to the estate to visit Grandfather for now, {playerFirstName}. We'll meet again in Xiangyang."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "399,1153,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",好……谢正青于襄阳城北，只待lp来唤。,33,3"
   splits:
   - split: 5
-    text: "好……谢正青于襄阳城北，只待"
-    translated: "Good...... Xie Zhengqing awaits in the northern part of Xiangyang City."
-  - split: 5
-    subIndex: 1
-    text: "来唤。"
-    translated: "Come and call"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "好……谢正青于襄阳城北，只待{playerLastName}来唤。"
+    translated: "Good... Xie Zhengqing awaits {playerLastName} in the northern part of Xiangyang City."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "400,1154,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",那……我回苗疆探望姊姊与教主，阿哥儿，你也多回苗疆来嘛。,33,3"
   splits:
   - split: 5
@@ -3122,23 +2420,19 @@
 - raw: "402,1156,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿真回辽东看望爷爷……lp哥哥哪日来找阿真？,33,3"
   splits:
   - split: 5
-    text: "阿真回辽东看望爷爷……"
-    translated: "Ah Zheng returned to Liaodong to visit his grandfather......"
-  - split: 5
-    subIndex: 1
-    text: "哥哥哪日来找阿真？"
-    translated: "When will Brother come to look for Ah Zhen?"
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "阿真回辽东看望爷爷……{playerLastName}哥哥哪日来找阿真？"
+    translated: "Ah Jin returned to Liaodong to visit Grandpa......When will {playerLastName} Brother come to find Ah Jin?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "403,1157,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
-    text: "姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
-    translated: "Sister, don't worry. I can take care of myself in Liaodong. You be careful with everything."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊放心，弟在辽东能顾好自己，姊姊万事小心。"
+    translated: "Sister {playerLastName}, rest assured. I can take care of myself in Liaodong. You be careful with everything."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "404,1158,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我仍会在大雪山练刀，若你归来，我的刀便是你的刀。,33,3"
   splits:
   - split: 5
@@ -3152,275 +2446,181 @@
 - raw: "406,1200,\"1140007004,30\",\"//,>\",\"touchId,love\",p，你为何……变得这般……,30,2"
   splits:
   - split: 5
-    text: "，你为何……变得这般……"
-    translated: ", Why have you become like this..."
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，你为何……变得这般……"
+    translated: "{playerName}, why have you become like this..."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "407,1201,\"1140007016,30\",\"//,>\",\"touchId,love\",p，你为何……变得这般……,30,2"
   splits:
   - split: 5
-    text: "，你为何……变得这般……"
-    translated: ", Why have you become like this..."
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，你为何……变得这般……"
+    translated: "{playerName}, why have you become like this..."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "408,1202,\"1160001066,30\",\"//,>\",\"touchId,love\",fp[兄||姑娘]，浪子回头，为时未晚……,30,2"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，浪子回头，为时未晚……"
-    translated: ", A prodigal son can still find his way back..."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，浪子回头，为时未晚……"
+    translated: "{playerFirstName}{playerTitle}, it's never too late to turn over a new leaf..."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "409,1203,\"1140005099,30\",\"//,>\",\"touchId,love\",fp[大哥||姐姐]……无论你是何模样，小玥都……,30,2"
   splits:
   - split: 5
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-    translated: "...No matter what you look like, Little Yue still..."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……无论你是何模样，小玥都……"
+    translated: "{playerFirstName}{playerTitle}......no matter what you look like, Little Yue still..."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "410,1204,\"1140005034,30\",\"//,>\",\"touchId,love\",fp[大哥||姐姐]……无论你是何模样，小玥都……,30,2"
   splits:
   - split: 5
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-    translated: "...No matter what you look like, Little Yue still..."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……无论你是何模样，小玥都……"
+    translated: "{playerFirstName}{playerTitle}......no matter what you look like, Little Yue still..."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "411,1205,\"1140005079,30\",\"//,>\",\"touchId,love\",p大人……衣鹤惹大人生气了吗？,30,2"
   splits:
   - split: 5
-    text: "大人……衣鹤惹大人生气了吗？"
-    translated: "Did I annoy you, Lord?"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}大人……衣鹤惹大人生气了吗？"
+    translated: "Lord {playerName}......Did I anger you?"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "412,1206,\"1170001056,30\",\"//,>\",\"touchId,love\",fp[兄弟||妹子]，人生在世，勿忘本心，勿忘本心。,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "妹子"
-    translated: "Sis"
-  - split: 5
-    subIndex: 2
-    text: "，人生在世，勿忘本心，勿忘本心。"
-    translated: ", In life, never forget your true self, never forget your true self."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，人生在世，勿忘本心，勿忘本心。"
+    translated: "{playerFirstName}{playerTitle}, in life, never forget your true self, never forget your true self."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "413,1207,\"1190001076,30\",\"//,>\",\"touchId,love\",p[大侠||女侠]，唤小女子何事？,30,2"
   splits:
   - split: 5
-    text: "大侠"
-    translated: "Great Hero"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 2
-    text: "，唤小女子何事？"
-    translated: ", What do you call for this maiden?"
-  templates:
-  - split: 5
-    template: "p[{0}||{1}]{2}"
+    text: "{playerName}{playerTitle}，唤小女子何事？"
+    translated: "{playerName}{playerTitle}, what do you call for this maiden?"
+    tokens:
+      playerName:
+        source: "p"
+      playerTitle:
+        source: "[大侠||女侠]"
 - raw: "414,1208,\"1200001063,30\",\"//,>\",\"touchId,love\",fp[公子||姑娘]，连你也走入歧途……,30,2"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，连你也走入歧途……"
-    translated: ", Even you have strayed from the right path......"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，连你也走入歧途……"
+    translated: "{playerFirstName}{playerTitle}, even you have strayed from the right path......"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "415,1209,\"1200000247,30\",\"//,>\",\"touchId,love\",fp[兄弟||姑娘]……酒逢知己，喝起来才有滋味。,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "……酒逢知己，喝起来才有滋味。"
-    translated: "... Drinking with a kindred spirit is what makes the liquor taste good."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……酒逢知己，喝起来才有滋味。"
+    translated: "{playerFirstName}{playerTitle}...... Drinking with a kindred spirit is what makes the wine taste good."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "416,1210,\"1200000246,30\",\"//,>\",\"touchId,love\",fp[少侠||女侠]……唉，不想本姑娘竟这般走眼……,30,2"
   splits:
   - split: 5
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 2
-    text: "……唉，不想本姑娘竟这般走眼……"
-    translated: "......Sigh, I never thought I would be so mistaken about myself......"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……唉，不想本姑娘竟这般走眼……"
+    translated: "{playerFirstName}{playerTitle}......Sigh, I never thought I would be so mistaken......"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "417,1211,\"1200000249,30\",\"//,>\",\"touchId,love\",小玉还愿跟着fp[哥哥||姊姊]，只盼fp[哥哥||姊姊]能早日回心转意……,30,2"
   splits:
   - split: 5
-    text: "小玉还愿跟着"
-    translated: "Xiaoyu followed as she fulfilled her vow"
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，只盼"
-    translated: ", Only hope"
-  - split: 5
-    subIndex: 4
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 5
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 6
-    text: "能早日回心转意……"
-    translated: "...so that you may return to your senses sooner..."
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}fp[{4}||{5}]{6}"
+    text: "小玉还愿跟着{playerFirstName}{playerTitle}，只盼{playerFirstName}{playerTitle}能早日回心转意……"
+    translated: "Xiaoyu still follows {playerFirstName}{playerTitle}, hoping that {playerFirstName}{playerTitle} will soon change their mind..."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "418,1212,\"1200000229,30\",\"//,>\",\"touchId,love\",fp[少侠||女侠]……你若是不甚自在，倒也不必勉强同行。,30,2"
   splits:
   - split: 5
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    translated: "{playerFirstName}{playerTitle}...If you are not comfortable, there is no need to accompany me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "419,1213,\"1200009953,30\",\"//,>\",\"touchId,love\",fp[兄||姑娘]，在下残躯，但凭驱使。,30,2"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，在下残躯，但凭驱使。"
-    translated: ", At your service, though I am but a broken body."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，在下残躯，但凭驱使。"
+    translated: "{playerFirstName}{playerTitle}, though my body is broken, I still obey."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "420,1214,\"1180000338,30\",\"//,>\",\"touchId,love\",p，你若是负心，我……,30,2"
   splits:
   - split: 5
-    text: "，你若是负心，我……"
-    translated: ", If you are unfaithful, I..."
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，你若是负心，我……"
+    translated: "If you are unfaithful, {playerName}, I..."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "421,1215,\"1110005003,30\",\"//,>\",\"touchId,love\",fp[兄||姑娘]……可是我哪条鱼炙得不合口味？,30,2"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "……可是我哪条鱼炙得不合口味？"
-    translated: "... but which of my grilled fish didn't taste right?"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……可是我哪条鱼炙得不合口味？"
+    translated: "{playerFirstName}{playerTitle}......But which of my grilled fish didn't taste right?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "422,1216,\"1220001029,30\",\"//,>\",\"touchId,love\",fp[大哥||姐姐]，阿真做错了什么……？,30,2"
   splits:
   - split: 5
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "，阿真做错了什么……？"
-    translated: ", What did Ah True do wrong......?"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，阿真做错了什么……？"
+    translated: "{playerFirstName}{playerTitle}, Ah Zhen did something wrong......?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "423,1217,\"1220001042,30\",\"//,>\",\"touchId,love\",fp大侠……是小弟何处做得不对么？,30,2"
   splits:
   - split: 5
-    text: "大侠……是小弟何处做得不对么？"
-    translated: "Great Hero......is it something I did wrong?"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}大侠……是小弟何处做得不对么？"
+    translated: "Young Hero {playerFirstName}......Did I do something wrong?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "424,1218,\"1260001067,30\",\"//,>\",\"touchId,love\",p……若你心意已改，直说便是。,30,2"
   splits:
   - split: 5
-    text: "……若你心意已改，直说便是。"
-    translated: "...If your intentions have changed, just say so."
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}……若你心意已改，直说便是。"
+    translated: "{playerName}......If your intentions have changed, just say so."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "425,1219,\"1270001032,30\",\"//,>\",\"touchId,love\",主公……胧的忍术，可是有不足之处？,30,2"
   splits:
   - split: 5
@@ -3429,281 +2629,183 @@
 - raw: "426,1220,\"1140007004,29\",\"//,<\",\"touchId,love\",p……你去何处，我便去何处。,30,2"
   splits:
   - split: 5
-    text: "……你去何处，我便去何处。"
-    translated: "...Where you go, I will go"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}……你去何处，我便去何处。"
+    translated: "{playerName}......Where you go, I will go."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "427,1221,\"1140007016,29\",\"//,<\",\"touchId,love\",p……你去何处，我便去何处。,30,2"
   splits:
   - split: 5
-    text: "……你去何处，我便去何处。"
-    translated: "...Where you go, I will go"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}……你去何处，我便去何处。"
+    translated: "{playerName}......Where you go, I will go."
+    tokens:
+      playerName:
+        source: "p"
 - raw: "428,1222,\"1160001066,29\",\"//,<\",\"touchId,love\",fp[公子||姑娘]，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。,30,2"
   splits:
   - split: 5
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
-    translated: ", I am familiar with matters in the Jianghu; if you need Yi Yao's help, just speak up."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
+    translated: "{playerFirstName}{playerTitle}, I am familiar with matters in the Jianghu. If you need Yi Yao's help, do not hesitate to ask."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "429,1223,\"1140005099,29\",\"//,<\",\"touchId,love\",fp[大哥||姐姐]……小玥一生相随，此心不改。,30,2"
   splits:
   - split: 5
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-    translated: "...Little Yue will follow me for life, this heart never changing."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……小玥一生相随，此心不改。"
+    translated: "{playerFirstName}{playerTitle}......Xiao Yue will follow you for life, my heart unwavering."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "430,1224,\"1140005034,29\",\"//,<\",\"touchId,love\",fp[大哥||姐姐]……小玥一生相随，此心不改。,30,2"
   splits:
   - split: 5
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-    translated: "...Little Yue will follow me for life, this heart never changing."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……小玥一生相随，此心不改。"
+    translated: "{playerFirstName}{playerTitle}......Xiao Yue will follow you for life, my heart unwavering."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "431,1225,\"1140005079,29\",\"//,<\",\"touchId,love\",p大人，可有什么要吩咐衣鹤？,30,2"
   splits:
   - split: 5
-    text: "大人，可有什么要吩咐衣鹤？"
-    translated: "Lord, is there anything you wish for Yige to do?"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}大人，可有什么要吩咐衣鹤？"
+    translated: "Lord {playerName}, do you have any instructions for me, Yige?"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "432,1226,\"1170001056,29\",\"//,<\",\"touchId,love\",fp[兄弟||妹子]，江湖同游，当真畅快！哈哈哈！,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "妹子"
-    translated: "Sis"
-  - split: 5
-    subIndex: 2
-    text: "，江湖同游，当真畅快！哈哈哈！"
-    translated: ", Traveling through Jianghu together is truly delightful! Ha ha ha!"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，江湖同游，当真畅快！哈哈哈！"
+    translated: "{playerFirstName}{playerTitle}, traveling together in the Jianghu is truly delightful! Hahaha!"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "433,1227,\"1190001076,29\",\"//,<\",\"touchId,love\",fp[大侠||女侠]，若烟听候吩咐。,30,2"
   splits:
   - split: 5
-    text: "大侠"
-    translated: "Great Hero"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 2
-    text: "，若烟听候吩咐。"
-    translated: ", Ruoyan awaits your orders"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，若烟听候吩咐。"
+    translated: "{playerFirstName}{playerTitle}, Ruoyan awaits your orders"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大侠||女侠]"
 - raw: "434,1228,\"1200001063,29\",\"//,<\",\"touchId,love\",江湖、家国……fp[公子||姑娘]，我们要去往何方？,30,2"
   splits:
   - split: 5
-    text: "江湖、家国……"
-    translated: "Jianghu, home and country......"
-  - split: 5
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "，我们要去往何方？"
-    translated: ", Where are we headed?"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "江湖、家国……{playerFirstName}{playerTitle}，我们要去往何方？"
+    translated: "Jianghu, country and home......{playerFirstName}{playerTitle}, where are we heading?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "435,1229,\"1200000247,29\",\"//,<\",\"touchId,love\",fp[兄弟||姑娘]，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？,30,2"
   splits:
   - split: 5
-    text: "兄弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
-    translated: ", The martial world can't do without wine, where are we off to drink today?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,Jianghu,江湖,"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
+    translated: "{playerFirstName}{playerTitle}, the Jianghu can't do without a wine, where are we off to today?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||姑娘]"
 - raw: "436,1230,\"1200000246,29\",\"//,<\",\"touchId,love\",我定要赢遍天下赌坊……咳咳，lp[兄||姑娘]，可有吩咐？,30,2"
   splits:
   - split: 5
-    text: "我定要赢遍天下赌坊……咳咳，"
-    translated: "I must win at every gambling den in the world......cough cough,"
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 3
-    text: "，可有吩咐？"
-    translated: ", Is there anything you need?"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "我定要赢遍天下赌坊……咳咳，{playerLastName}{playerTitle}，可有吩咐？"
+    translated: "I must win at every gambling den in the world......cough, cough, {playerLastName}{playerTitle}, do you have any instructions?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "437,1231,\"1200000249,29\",\"//,<\",\"touchId,love\",fp[哥哥||姊姊]，可有事情需小玉帮忙？请尽管吩咐。,30,2"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，可有事情需小玉帮忙？请尽管吩咐。"
-    translated: ", Is there anything you need Little Jade to help with? Feel free to ask."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，可有事情需小玉帮忙？请尽管吩咐。"
+    translated: "{playerFirstName}{playerTitle}, is there anything you need Little Jade to help with? Please feel free to instruct me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "438,1232,\"1200000229,29\",\"//,<\",\"touchId,love\",外间天地，果然比府上自在许多。fp[少侠||女侠]，咱们走罢！,30,2"
   splits:
   - split: 5
-    text: "外间天地，果然比府上自在许多。"
-    translated: "The world outside is indeed much more carefree than your estate."
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-    translated: ", Let's go!"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "外间天地，果然比府上自在许多。{playerFirstName}{playerTitle}，咱们走罢！"
+    translated: "The world outside is indeed much more carefree than the estate. {playerFirstName}{playerTitle}, let's go!"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "439,1233,\"1200009953,29\",\"//,<\",\"touchId,love\",fp[兄||姑娘]，在下残躯，但凭驱使。,30,2"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，在下残躯，但凭驱使。"
-    translated: ", At your service, though I am but a broken body."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，在下残躯，但凭驱使。"
+    translated: "{playerFirstName}{playerTitle}, though my body is broken, I still obey."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "440,1234,\"1180000338,29\",\"//,<\",\"touchId,love\",p，说定了带我看遍世间绝景，你可不许食言！,30,2"
   splits:
   - split: 5
-    text: "，说定了带我看遍世间绝景，你可不许食言！"
-    translated: ", You said you'd show me all the world's greatest views; you can't go back on your word!"
-  templates:
-  - split: 5
-    template: "p{0}"
+    text: "{playerName}，说定了带我看遍世间绝景，你可不许食言！"
+    translated: "{playerName}, you said you would take me to see all the world's scenic wonders, you mustn't go back on your word!"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "441,1235,\"1110005003,29\",\"//,<\",\"touchId,love\",fp[兄||姑娘]，天大地大，咱们接下来去哪座山、哪条河？,30,2"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，天大地大，咱们接下来去哪座山、哪条河？"
-    translated: ", Heaven and earth are vast; where shall we go next, which mountain, which river?"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，天大地大，咱们接下来去哪座山、哪条河？"
+    translated: "{playerFirstName}{playerTitle}, the world is vast, which mountain, which river shall we go to next?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "442,1236,\"1220001029,29\",\"//,<\",\"touchId,love\",fp[大哥||姐姐]，咱们是要去杀鞑子么？,30,2"
   splits:
   - split: 5
-    text: "大哥"
-    translated: "Big Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "，咱们是要去杀鞑子么？"
-    translated: ", Are we going to kill the Tartars?"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，咱们是要去杀鞑子么？"
+    translated: "{playerFirstName}{playerTitle}, are we going to fight the Tartars?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[大哥||姐姐]"
 - raw: "443,1237,\"1220001042,29\",\"//,<\",\"touchId,love\",fp大侠，小弟定会努力习武，不辜负相救之恩！,30,2"
   splits:
   - split: 5
-    text: "大侠，小弟定会努力习武，不辜负相救之恩！"
-    translated: "Great Hero, little brother will surely work hard to practice martial arts and not disappoint the kindness of your rescue!"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}大侠，小弟定会努力习武，不辜负相救之恩！"
+    translated: "Great Hero {playerFirstName}, little brother will surely work hard to practice martial arts and not disappoint the kindness of your rescue!"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "444,1238,\"1260001067,29\",\"//,<\",\"touchId,love\",fp[兄||姑娘]，刀锋未钝，前路尚远，咱们启程到何处去？,30,2"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姑娘"
-    translated: "Miss"
-  - split: 5
-    subIndex: 2
-    text: "，刀锋未钝，前路尚远，咱们启程到何处去？"
-    translated: ", The blade is still sharp, and the road ahead is long. Where shall we set out to go?"
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}，刀锋未钝，前路尚远，咱们启程到何处去？"
+    translated: "{playerFirstName}{playerTitle}, our blades are still sharp, and the road ahead is long. Where shall we set out to go?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姑娘]"
 - raw: "445,1239,\"1270001032,29\",\"//,<\",\"touchId,love\",主公，胧随时待命，愿为主公扫清前路。,30,2"
   splits:
   - split: 5
@@ -3712,673 +2814,379 @@
 - raw: "446,1240,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，你为何……变得这般……,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，你为何……变得这般……"
-    translated: ", Why have you become like this..."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，你为何……变得这般……"
+    translated: "{playerLastName}{playerTitle}, why have you... become like this..."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "447,1241,\"1140007016,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，你为何……变得这般……,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，你为何……变得这般……"
-    translated: ", Why have you become like this..."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，你为何……变得这般……"
+    translated: "{playerLastName}{playerTitle}, why have you... become like this..."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "448,1242,\"1160001066,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，浪子回头，为时未晚……,30,3"
   splits:
   - split: 5
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，浪子回头，为时未晚……"
-    translated: ", A prodigal son can still find his way back..."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，浪子回头，为时未晚……"
+    translated: "{playerTitle}, A Wandering Son Who Returns, It Is Never Too Late......"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "449,1243,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-    translated: "...No matter what you look like, Little Yue still..."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……无论你是何模样，小玥都……"
+    translated: "{playerLastName}{playerTitle}......no matter what you look like, Little Yue still......"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "450,1244,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……无论你是何模样，小玥都……"
-    translated: "...No matter what you look like, Little Yue still..."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……无论你是何模样，小玥都……"
+    translated: "{playerLastName}{playerTitle}......no matter what you look like, Little Yue still......"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "451,1245,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]……衣鹤惹大人生气了吗？,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-    translated: "Lord Eldest Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-    translated: "Lord Sister"
-  - split: 5
-    subIndex: 2
-    text: "……衣鹤惹大人生气了吗？"
-    translated: "...Did Lord Han get angry at someone again?"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……衣鹤惹大人生气了吗？"
+    translated: "{playerTitle}......Did Lord Yihe anger you?"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "452,1246,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
-    text: "弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-    translated: "Sis"
-  - split: 5
-    subIndex: 2
-    text: "，人生在世，勿忘本心，勿忘本心。"
-    translated: ", In life, never forget your true self, never forget your true self."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，人生在世，勿忘本心，勿忘本心。"
+    translated: "{playerLastName}{playerTitle}, in life, never forget your true self, never forget your true self."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "453,1247,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]……唤小妹何事？,30,3"
   splits:
   - split: 5
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……唤小妹何事？"
-    translated: "...Why call Little Sister?"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……唤小妹何事？"
+    translated: "{playerTitle}......what do you call me for?"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "454,1248,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥||姊]，连你也走入歧途……,30,3"
   splits:
   - split: 5
-    text: "哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，连你也走入歧途……"
-    translated: ", Even you have strayed from the right path......"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，连你也走入歧途……"
+    translated: "{playerLastName}{playerTitle}, even you have strayed from the right path......"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥||姊]"
 - raw: "455,1249,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]……酒逢知己，喝起来才有滋味。,30,3"
   splits:
   - split: 5
-    text: "弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-    translated: "Sis"
-  - split: 5
-    subIndex: 2
-    text: "……酒逢知己，喝起来才有滋味。"
-    translated: "... Drinking with a kindred spirit is what makes the liquor taste good."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……酒逢知己，喝起来才有滋味。"
+    translated: "{playerLastName}{playerTitle}...... Drinking with a kindred spirit is what makes the wine taste good."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "456,1250,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……唉，不想妹妹竟这般走眼……"
-    translated: "... Sigh, I didn't realize my sister was so mistaken..."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……唉，不想妹妹竟这般走眼……"
+    translated: "{playerLastName}{playerTitle}......Sigh, I never thought my Younger Sister would make such a mistake......"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "457,1251,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",小妹还愿跟着lp[哥哥||姊姊]，只盼lp[哥哥||姊姊]能早日回心转意……,30,3"
   splits:
   - split: 5
-    text: "小妹还愿跟着"
-    translated: "Little sister still wishes to follow"
-  - split: 5
-    subIndex: 1
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，只盼"
-    translated: ", Only hope"
-  - split: 5
-    subIndex: 4
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 5
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 6
-    text: "能早日回心转意……"
-    translated: "...so that you may return to your senses sooner..."
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}lp[{4}||{5}]{6}"
+    text: "小妹还愿跟着{playerLastName}{playerTitle}，只盼{playerLastName}{playerTitle}能早日回心转意……"
+    translated: "Little Sister still hopes to follow {playerLastName}{playerTitle}, only wishing that {playerLastName}{playerTitle} will soon change their mind..."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "458,1252,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你若是不甚自在，倒也不必勉强同行。,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    translated: "{playerLastName}{playerTitle}......if you are not comfortable, there is no need to accompany me."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "459,1253,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，小弟残躯，有辱声名……,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，小弟残躯，有辱声名……"
-    translated: ", My battered body brings shame to my reputation......"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，小弟残躯，有辱声名……"
+    translated: "{playerLastName}{playerTitle}, little brother, my crippled body brings shame to our reputation......"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "460,1254,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[阿哥||阿姐]，你若是负心，我……,30,3"
   splits:
   - split: 5
-    text: "阿哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "阿姐"
-    translated: "Sister Senior"
-  - split: 5
-    subIndex: 2
-    text: "，你若是负心，我……"
-    translated: ", If you are unfaithful, I..."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，你若是负心，我……"
+    translated: "{playerTitle}, if you were to be unfaithful, I..."
+    tokens:
+      playerTitle:
+        source: "[阿哥||阿姐]"
 - raw: "461,1255,\"1110005003,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……可是我哪条鱼炙得不合口味？,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……可是我哪条鱼炙得不合口味？"
-    translated: "... but which of my grilled fish didn't taste right?"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……可是我哪条鱼炙得不合口味？"
+    translated: "{playerLastName}{playerTitle}......but which fish did I not cook to your liking?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "462,1256,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]，阿真做错了什么……？,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "，阿真做错了什么……？"
-    translated: ", What did Ah True do wrong......?"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，阿真做错了什么……？"
+    translated: "{playerLastName}{playerTitle}, Ah Zhen, what did I do wrong......?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "463,1257,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……是小弟何处做得不对么？,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……是小弟何处做得不对么？"
-    translated: "...Is it something little brother did wrong?"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……是小弟何处做得不对么？"
+    translated: "{playerLastName}{playerTitle}......Did I do something wrong, Brother?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "464,1258,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]……刀若钝了，人心也难利落。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……刀若钝了，人心也难利落。"
-    translated: "... If the blade is dull, the heart is hard to keep sharp as well."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……刀若钝了，人心也难利落。"
+    translated: "{playerTitle}......If the blade is dull, the heart is hard to sharpen as well."
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "465,1259,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]……胧是否让您失望了？,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-    translated: "Lord Eldest Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-    translated: "Lord Sister"
-  - split: 5
-    subIndex: 2
-    text: "……胧是否让您失望了？"
-    translated: "...Have I disappointed you, Lum?"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}……胧是否让您失望了？"
+    translated: "Have I disappointed you, {playerTitle}?"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "466,1260,\"1140007004,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你去何处，我便去何处。,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……你去何处，我便去何处。"
-    translated: "...Where you go, I will go"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你去何处，我便去何处。"
+    translated: "{playerLastName}{playerTitle}......Where you go, I shall follow."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "467,1261,\"1140007016,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你去何处，我便去何处。,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……你去何处，我便去何处。"
-    translated: "...Where you go, I will go"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你去何处，我便去何处。"
+    translated: "{playerLastName}{playerTitle}......Where you go, I shall follow."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "468,1262,\"1160001066,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
-    translated: ", I am familiar with matters in the Jianghu; if you need Yi Yao's help, just speak up."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，行走江湖之事，我还算熟悉，若需懿瑶相助，尽管开口便是。"
+    translated: "{playerTitle}, Jianghu matters, I am quite familiar with them. If you need Yi Yao's help, do not hesitate to ask."
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "469,1263,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……小玥一生相随，此心不改。,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-    translated: "...Little Yue will follow me for life, this heart never changing."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……小玥一生相随，此心不改。"
+    translated: "{playerLastName}{playerTitle}......Xiao Yue will follow you for life, my heart unwavering."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "470,1264,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……小玥一生相随，此心不改。,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "……小玥一生相随，此心不改。"
-    translated: "...Little Yue will follow me for life, this heart never changing."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……小玥一生相随，此心不改。"
+    translated: "{playerLastName}{playerTitle}......Xiao Yue will follow you for life, my heart unwavering."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "471,1265,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]，可有什么要吩咐衣鹤？,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-    translated: "Lord Eldest Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-    translated: "Lord Sister"
-  - split: 5
-    subIndex: 2
-    text: "，可有什么要吩咐衣鹤？"
-    translated: ", Is there anything you want to tell Yi He?"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，可有什么要吩咐衣鹤？"
+    translated: "{playerTitle}, is there anything you wish for Yi He to do?"
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "472,1266,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]，江湖同游，当真畅快！哈哈哈！,30,3"
   splits:
   - split: 5
-    text: "弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-    translated: "Sis"
-  - split: 5
-    subIndex: 2
-    text: "，江湖同游，当真畅快！哈哈哈！"
-    translated: ", Traveling through Jianghu together is truly delightful! Ha ha ha!"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，江湖同游，当真畅快！哈哈哈！"
+    translated: "{playerLastName}{playerTitle}, traveling together in the Jianghu is truly delightful! Hahaha!"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "473,1267,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，若烟听候吩咐。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，若烟听候吩咐。"
-    translated: ", Ruoyan awaits your orders"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，若烟听候吩咐。"
+    translated: "{playerTitle}, Ruoyan awaits your orders"
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "474,1268,\"1200001063,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",江湖、家国……lp[哥||姊]，我们要去往何方？,30,3"
   splits:
   - split: 5
-    text: "江湖、家国……"
-    translated: "Jianghu, home and country......"
-  - split: 5
-    subIndex: 1
-    text: "哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，我们要去往何方？"
-    translated: ", Where are we headed?"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "江湖、家国……{playerLastName}{playerTitle}，我们要去往何方？"
+    translated: "Jianghu, country and family......{playerLastName}{playerTitle}, where are we heading?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥||姊]"
 - raw: "475,1269,\"1200000247,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[弟||妹]，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？,30,3"
   splits:
   - split: 5
-    text: "弟"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "妹"
-    translated: "Sis"
-  - split: 5
-    subIndex: 2
-    text: "，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
-    translated: ", The martial world can't do without wine, where are we off to drink today?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Jianghu,江湖,Jianghu,江湖,"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，江湖可离不了一个“酒”字，咱们今日……是去哪儿喝？"
+    translated: "{playerLastName}{playerTitle}, the Jianghu can't do without a wine, so where are we off to today?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[弟||妹]"
 - raw: "476,1270,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我定要赢遍天下赌坊……咳咳，lp[哥||姊]，可有吩咐？,30,3"
   splits:
   - split: 5
-    text: "我定要赢遍天下赌坊……咳咳，"
-    translated: "I must win at every gambling den in the world......cough cough,"
-  - split: 5
-    subIndex: 1
-    text: "哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，可有吩咐？"
-    translated: ", Is there anything you need?"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "我定要赢遍天下赌坊……咳咳，{playerLastName}{playerTitle}，可有吩咐？"
+    translated: "I must win at every gambling den in the world......cough, cough, {playerLastName}{playerTitle}, do you have any instructions?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥||姊]"
 - raw: "477,1271,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姊姊]，可有事情需小妹帮忙？请尽管吩咐。,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，可有事情需小妹帮忙？请尽管吩咐。"
-    translated: ", Is there anything you need my help with? Feel free to ask."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，可有事情需小妹帮忙？请尽管吩咐。"
+    translated: "{playerLastName}{playerTitle}, is there anything you need my help with? Please feel free to ask."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姊姊]"
 - raw: "478,1272,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",外间天地，果然比府上自在许多。lp[兄||姊]，咱们走罢！,30,3"
   splits:
   - split: 5
-    text: "外间天地，果然比府上自在许多。"
-    translated: "The world outside is indeed much more carefree than your estate."
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-    translated: ", Let's go!"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "外间天地，果然比府上自在许多。{playerLastName}{playerTitle}，咱们走罢！"
+    translated: "The world outside is indeed much more carefree than your estate. {playerLastName}{playerTitle}, let's go!"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "479,1273,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，小弟残躯，但凭驱使。,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，小弟残躯，但凭驱使。"
-    translated: ", My battered body is at your command"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，小弟残躯，但凭驱使。"
+    translated: "{playerLastName}{playerTitle}, Little brother's body may be broken, but it is at your command."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "480,1274,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[阿哥||阿姐]，说定了带妹妹看遍世间绝景，你可不许食言！,30,3"
   splits:
   - split: 5
-    text: "阿哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "阿姐"
-    translated: "Sister Senior"
-  - split: 5
-    subIndex: 2
-    text: "，说定了带妹妹看遍世间绝景，你可不许食言！"
-    translated: ", You promised to show my younger sister the world's most spectacular views; you must not go back on your word!"
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，说定了带妹妹看遍世间绝景，你可不许食言！"
+    translated: "{playerTitle}, you promised to show Younger Sister the world's most breathtaking views; you must not go back on your word!"
+    tokens:
+      playerTitle:
+        source: "[阿哥||阿姐]"
 - raw: "481,1275,\"1110005003,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]，天大地大，咱们接下来去哪座山、哪条河？,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，天大地大，咱们接下来去哪座山、哪条河？"
-    translated: ", Heaven and earth are vast; where shall we go next, which mountain, which river?"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，天大地大，咱们接下来去哪座山、哪条河？"
+    translated: "{playerLastName}{playerTitle}, the world is vast, which mountain, which river shall we go to next?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "482,1276,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]，咱们是要去杀鞑子么？,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "，咱们是要去杀鞑子么？"
-    translated: ", Are we going to kill the Tartars?"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，咱们是要去杀鞑子么？"
+    translated: "{playerLastName}{playerTitle}, are we going to go kill the Tartars?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "483,1277,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]，小弟定会努力习武，不辜负相救之恩！,30,3"
   splits:
   - split: 5
-    text: "哥哥"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姐姐"
-    translated: "Older Sister"
-  - split: 5
-    subIndex: 2
-    text: "，小弟定会努力习武，不辜负相救之恩！"
-    translated: ", I will work hard to practice martial arts and not fail to live up to the kindness that saved me!"
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}，小弟定会努力习武，不辜负相救之恩！"
+    translated: "{playerLastName}{playerTitle}, I will work hard to practice martial arts and not disappoint your kindness!"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[哥哥||姐姐]"
 - raw: "484,1278,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长||姊姊]，与你切磋刀法，倒也不算虚度光阴。,30,3"
   splits:
   - split: 5
-    text: "兄长"
-    translated: "Elder Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "，与你切磋刀法，倒也不算虚度光阴。"
-    translated: ", Practicing blade art with you isn't a waste of time."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，与你切磋刀法，倒也不算虚度光阴。"
+    translated: "{playerTitle}, sparring with you over Blade Art is no waste of time."
+    tokens:
+      playerTitle:
+        source: "[兄长||姊姊]"
 - raw: "485,1279,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",[兄长大人||姊姊大人]，胧的性命与忍道，皆托付于您。,30,3"
   splits:
   - split: 5
-    text: "兄长大人"
-    translated: "Lord Eldest Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊姊大人"
-    translated: "Lord Sister"
-  - split: 5
-    subIndex: 2
-    text: "，胧的性命与忍道，皆托付于您。"
-    translated: ", Luo's life and the path of endurance are entrusted to you."
-  templates:
-  - split: 5
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，胧的性命与忍道，皆托付于您。"
+    translated: "{playerTitle}, Hon's life and the path of the ninja are entrusted to you."
+    tokens:
+      playerTitle:
+        source: "[兄长大人||姊姊大人]"
 - raw: "486,1280,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君，你为何……变得这般……,30,3"
   splits:
   - split: 5
@@ -4397,19 +3205,19 @@
 - raw: "489,1283,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-    translated: "Brother......no matter what you look like, Little Yue still......"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    translated: "Brother {playerLastName}... no matter what you look like, I still..."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "490,1284,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-    translated: "Brother......no matter what you look like, Little Yue still......"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    translated: "Brother {playerLastName}... no matter what you look like, I still..."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "491,1285,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君大人……衣鹤惹夫君大人生气了吗？,30,3"
   splits:
   - split: 5
@@ -4418,11 +3226,11 @@
 - raw: "492,1286,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
-    text: "，人生在世，勿忘本心，勿忘本心。"
-    translated: ", In life, never forget your true self, never forget your true self."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，人生在世，勿忘本心，勿忘本心。"
+    translated: "{playerLastName}, life in this world, do not forget your true self, do not forget your true self."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "493,1287,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君……唤若烟何事？,30,3"
   splits:
   - split: 5
@@ -4441,43 +3249,35 @@
 - raw: "496,1290,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp郎……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
-    text: "郎……唉，不想妹妹竟这般走眼……"
-    translated: "Liang... Sigh, I didn't expect my sister to be so mistaken..."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎……唉，不想妹妹竟这般走眼……"
+    translated: "Mr. {playerLastName}...... Sigh, I didn't expect my sister to be so mistaken......"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "497,1291,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",小妹已把此生托付给lp哥哥……只盼lp哥哥早日回心转意……,30,3"
   splits:
   - split: 5
-    text: "小妹已把此生托付给"
-    translated: "Little sister has entrusted this life to"
-  - split: 5
-    subIndex: 1
-    text: "哥哥……只盼"
-    translated: "Brother......I only hope"
-  - split: 5
-    subIndex: 2
-    text: "哥哥早日回心转意……"
-    translated: "Brother, I hope you change your mind soon......"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "小妹已把此生托付给{playerLastName}哥哥……只盼{playerLastName}哥哥早日回心转意……"
+    translated: "Little Sister has entrusted this life to Brother {playerLastName}......I only hope Brother {playerLastName} will change his mind soon......"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "498,1292,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",fp郎……你可是厌弃林灵了？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是厌弃林灵了？"
-    translated: "Liang... Don't tell me you've grown tired of Lin Ling?"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是厌弃林灵了？"
+    translated: "Young Master {playerFirstName}......do you no longer care for Lin Ling?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "499,1293,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",……谢某残躯，配不上lp。,30,3"
   splits:
   - split: 5
-    text: "……谢某残躯，配不上"
-    translated: "......my battered body is unworthy of"
-  templates:
-  - split: 5
-    template: "{0}lp。"
+    text: "……谢某残躯，配不上{playerLastName}。"
+    translated: "...... My battered body is unworthy of {playerLastName}."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "500,1294,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",阿哥儿，昔日山盟海誓……你可是变心了？,30,3"
   splits:
   - split: 5
@@ -4491,27 +3291,27 @@
 - raw: "502,1296,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp哥哥……阿真做错了什么……？,30,3"
   splits:
   - split: 5
-    text: "哥哥……阿真做错了什么……？"
-    translated: "Brother......What did Ah Zhen do wrong......?"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥哥……阿真做错了什么……？"
+    translated: "{playerLastName} Brother...... What did Ah Zhen do wrong......?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "503,1297,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
-    text: "姊姊……可是我本领低微，不能帮上姊姊？"
-    translated: "Sister...... but my skills are weak, unable to help Sister?"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊……可是我本领低微，不能帮上姊姊？"
+    translated: "Sister {playerLastName}...... but my skills are so weak, I can't help you?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "504,1298,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp，你我的刀锋，可是背道而驰了？,30,3"
   splits:
   - split: 5
-    text: "，你我的刀锋，可是背道而驰了？"
-    translated: ", Are our blade edges moving in opposite directions?"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，你我的刀锋，可是背道而驰了？"
+    translated: "{playerLastName}, aren't our blades heading in opposite directions?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "505,1299,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君大人……胧是否不配做您的影？,30,3"
   splits:
   - split: 5
@@ -4535,19 +3335,19 @@
 - raw: "509,1303,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother {playerLastName}......Xiao Yue only wishes to grow old with you, come what may."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "510,1304,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother {playerLastName}......Xiao Yue only wishes to grow old with you, come what may."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "511,1305,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",鹤子是夫君的武士、妻子，鹤子永与夫君同在。,30,3"
   splits:
   - split: 5
@@ -4556,15 +3356,11 @@
 - raw: "512,1306,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",此前半生，恍如一梦……lp，此后半生，丹某只付一人。,30,3"
   splits:
   - split: 5
-    text: "此前半生，恍如一梦……"
-    translated: "The first half of my life seems like a dream..."
-  - split: 5
-    subIndex: 1
-    text: "，此后半生，丹某只付一人。"
-    translated: ", For the rest of my life, Dan will only belong to one person."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "此前半生，恍如一梦……{playerLastName}，此后半生，丹某只付一人。"
+    translated: "In my first half of life, it was all like a dream......{playerLastName}, in the second half of my life, Dan will be devoted to one person alone."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "513,1307,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",心似双丝网，中有千千结……不想若烟这般女子，也能觅得良人……,30,3"
   splits:
   - split: 5
@@ -4583,43 +3379,35 @@
 - raw: "516,1310,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp郎，我这一辈子可都赌给你啦，可休想把我甩掉！,30,3"
   splits:
   - split: 5
-    text: "郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
-    translated: "Liang, I've staked my whole life on you; don't think you can get rid of me!"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
+    translated: "Sir {playerLastName}, I have staked my entire life on you, so don't think you can get rid of me!"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "517,1311,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp哥哥……小妹眼中，只有lp哥哥一人。哥哥去哪儿，小妹便去哪儿。,30,3"
   splits:
   - split: 5
-    text: "哥哥……小妹眼中，只有"
-    translated: "Brother...... In her eyes, there is only"
-  - split: 5
-    subIndex: 1
-    text: "哥哥一人。哥哥去哪儿，小妹便去哪儿。"
-    translated: "Brother goes alone. Wherever brother goes, I will follow."
-  templates:
-  - split: 5
-    template: "lp{0}lp{1}"
+    text: "{playerLastName}哥哥……小妹眼中，只有{playerLastName}哥哥一人。哥哥去哪儿，小妹便去哪儿。"
+    translated: "Brother {playerLastName}...... In her eyes, there is only Brother {playerLastName}. Wherever Brother goes, she follows."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "518,1312,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",fp郎，fp郎，嘿嘿，真是怎么也唤不够欸。,30,3"
   splits:
   - split: 5
-    text: "郎，"
-    translated: "Liang,"
-  - split: 5
-    subIndex: 1
-    text: "郎，嘿嘿，真是怎么也唤不够欸。"
-    translated: "Husband, heh heh, I could never call your name enough."
-  templates:
-  - split: 5
-    template: "fp{0}fp{1}"
+    text: "{playerFirstName}郎，{playerFirstName}郎，嘿嘿，真是怎么也唤不够欸。"
+    translated: "Hey {playerFirstName}, hey {playerFirstName}, heh, I could call you like this forever."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "519,1313,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp……我此生有愧于你，只盼来世能补偿万一。,30,3"
   splits:
   - split: 5
-    text: "……我此生有愧于你，只盼来世能补偿万一。"
-    translated: "...I feel guilty toward you in this life, only hoping for some compensation in the next."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……我此生有愧于你，只盼来世能补偿万一。"
+    translated: "{playerLastName}......I feel guilty toward you in this life, only hoping to make amends in the next."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "520,1314,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿哥儿，中原景致人物万万千，也不及你一人呀。,30,3"
   splits:
   - split: 5
@@ -4633,35 +3421,27 @@
 - raw: "522,1316,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",阿真愿作lp哥哥的箭，阿真一定保护好lp哥哥！,30,3"
   splits:
   - split: 5
-    text: "阿真愿作"
-    translated: "Ah Zhen wishes to do so"
-  - split: 5
-    subIndex: 1
-    text: "哥哥的箭，阿真一定保护好"
-    translated: "Brother's arrow, Ah True will definitely protect it well."
-  - split: 5
-    subIndex: 2
-    text: "哥哥！"
-    translated: "Brother!"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "阿真愿作{playerLastName}哥哥的箭，阿真一定保护好{playerLastName}哥哥！"
+    translated: "Ah Zhen will be {playerLastName}'s arrow, Ah Zhen will surely protect Brother {playerLastName}!"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "523,1317,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5
-    text: "姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
-    translated: "Sister, though my skills are weak, I will surely protect you through any peril!"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
+    translated: "Sister {playerLastName}, though my skills are weak, I will surely protect you through any peril!"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "524,1318,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp……刀锋冷，但握刀的手是暖的，这便够了。,30,3"
   splits:
   - split: 5
-    text: "……刀锋冷，但握刀的手是暖的，这便够了。"
-    translated: "... The blade is cold, but the hand holding it is warm, and that is enough."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……刀锋冷，但握刀的手是暖的，这便够了。"
+    translated: "{playerLastName}...... The blade is cold, but the hand holding it is warm. That's enough."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "525,1319,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",夫君大人……胧的刀刃、身心，皆属您一人。,30,3"
   splits:
   - split: 5
@@ -4685,19 +3465,19 @@
 - raw: "529,1323,\"1140005099,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-    translated: "Brother......no matter what you look like, Little Yue still......"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    translated: "Brother {playerLastName}... no matter what you look like, I still..."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "530,1324,\"1140005034,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……无论你是何模样，小玥都……,30,3"
   splits:
   - split: 5
-    text: "哥……无论你是何模样，小玥都……"
-    translated: "Brother......no matter what you look like, Little Yue still......"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……无论你是何模样，小玥都……"
+    translated: "Brother {playerLastName}... no matter what you look like, I still..."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "531,1325,\"1140005079,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君大人……衣鹤惹夫君大人生气了吗？,30,3"
   splits:
   - split: 5
@@ -4706,11 +3486,11 @@
 - raw: "532,1326,\"1170001056,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp，人生在世，勿忘本心，勿忘本心。,30,3"
   splits:
   - split: 5
-    text: "，人生在世，勿忘本心，勿忘本心。"
-    translated: ", In life, never forget your true self, never forget your true self."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，人生在世，勿忘本心，勿忘本心。"
+    translated: "{playerLastName}, life in this world, do not forget your true self, do not forget your true self."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "533,1327,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君……唤若烟何事？,30,3"
   splits:
   - split: 5
@@ -4729,43 +3509,35 @@
 - raw: "536,1330,\"1200000246,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp郎……唉，不想妹妹竟这般走眼……,30,3"
   splits:
   - split: 5
-    text: "郎……唉，不想妹妹竟这般走眼……"
-    translated: "Liang... Sigh, I didn't expect my sister to be so mistaken..."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎……唉，不想妹妹竟这般走眼……"
+    translated: "Mr. {playerLastName}...... Sigh, I didn't expect my sister to be so mistaken......"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "537,1331,\"1200000249,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",小妹已把此生托付给lp哥哥……只盼lp哥哥早日回心转意……,30,3"
   splits:
   - split: 5
-    text: "小妹已把此生托付给"
-    translated: "Little sister has entrusted this life to"
-  - split: 5
-    subIndex: 1
-    text: "哥哥……只盼"
-    translated: "Brother......I only hope"
-  - split: 5
-    subIndex: 2
-    text: "哥哥早日回心转意……"
-    translated: "Brother, I hope you change your mind soon......"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "小妹已把此生托付给{playerLastName}哥哥……只盼{playerLastName}哥哥早日回心转意……"
+    translated: "Little Sister has entrusted this life to Brother {playerLastName}......I only hope Brother {playerLastName} will change his mind soon......"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "538,1332,\"1200000229,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",fp郎……你可是厌弃林灵了？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是厌弃林灵了？"
-    translated: "Liang... Don't tell me you've grown tired of Lin Ling?"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是厌弃林灵了？"
+    translated: "Young Master {playerFirstName}......do you no longer care for Lin Ling?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "539,1333,\"1200009953,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",……谢某残躯，配不上lp。,30,3"
   splits:
   - split: 5
-    text: "……谢某残躯，配不上"
-    translated: "......my battered body is unworthy of"
-  templates:
-  - split: 5
-    template: "{0}lp。"
+    text: "……谢某残躯，配不上{playerLastName}。"
+    translated: "...... My battered body is unworthy of {playerLastName}."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "540,1334,\"1180000338,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",阿哥儿，昔日山盟海誓……你可是变心了？,30,3"
   splits:
   - split: 5
@@ -4779,27 +3551,27 @@
 - raw: "542,1336,\"1220001029,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp哥哥……阿真做错了什么……？,30,3"
   splits:
   - split: 5
-    text: "哥哥……阿真做错了什么……？"
-    translated: "Brother......What did Ah Zhen do wrong......?"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥哥……阿真做错了什么……？"
+    translated: "{playerLastName} Brother...... What did Ah Zhen do wrong......?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "543,1337,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
-    text: "姊姊……可是我本领低微，不能帮上姊姊？"
-    translated: "Sister...... but my skills are weak, unable to help Sister?"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊……可是我本领低微，不能帮上姊姊？"
+    translated: "Sister {playerLastName}...... but my skills are so weak, I can't help you?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "544,1338,\"1260001067,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp，你我的刀锋，可是背道而驰了？,30,3"
   splits:
   - split: 5
-    text: "，你我的刀锋，可是背道而驰了？"
-    translated: ", Are our blade edges moving in opposite directions?"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}，你我的刀锋，可是背道而驰了？"
+    translated: "{playerLastName}, aren't our blades heading in opposite directions?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "545,1339,\"1270001032,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君大人……胧是否不配做您的影？,30,3"
   splits:
   - split: 5
@@ -4823,19 +3595,19 @@
 - raw: "549,1343,\"1140005099,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother {playerLastName}......Xiao Yue only wishes to grow old with you, come what may."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "550,1344,\"1140005034,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥……小玥只盼与子偕老，生死不渝。,30,3"
   splits:
   - split: 5
-    text: "哥……小玥只盼与子偕老，生死不渝。"
-    translated: "Brother...... Xiao Yue only wishes to grow old with you, come what may."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}哥……小玥只盼与子偕老，生死不渝。"
+    translated: "Brother {playerLastName}......Xiao Yue only wishes to grow old with you, come what may."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "551,1345,\"1140005079,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",鹤子是夫君的武士、妻子，鹤子永与夫君同在。,30,3"
   splits:
   - split: 5
@@ -4844,15 +3616,11 @@
 - raw: "552,1346,\"1170001056,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",此前半生，恍如一梦……lp，此后半生，丹某只付一人。,30,3"
   splits:
   - split: 5
-    text: "此前半生，恍如一梦……"
-    translated: "The first half of my life seems like a dream..."
-  - split: 5
-    subIndex: 1
-    text: "，此后半生，丹某只付一人。"
-    translated: ", For the rest of my life, Dan will only belong to one person."
-  templates:
-  - split: 5
-    template: "{0}lp{1}"
+    text: "此前半生，恍如一梦……{playerLastName}，此后半生，丹某只付一人。"
+    translated: "In my first half of life, it was all like a dream......{playerLastName}, in the second half of my life, Dan will be devoted to one person alone."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "553,1347,\"1190001076,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",心似双丝网，中有千千结……不想若烟这般女子，也能觅得良人……,30,3"
   splits:
   - split: 5
@@ -4871,43 +3639,35 @@
 - raw: "556,1350,\"1200000246,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp郎，我这一辈子可都赌给你啦，可休想把我甩掉！,30,3"
   splits:
   - split: 5
-    text: "郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
-    translated: "Liang, I've staked my whole life on you; don't think you can get rid of me!"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}郎，我这一辈子可都赌给你啦，可休想把我甩掉！"
+    translated: "Sir {playerLastName}, I have staked my entire life on you, so don't think you can get rid of me!"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "557,1351,\"1200000249,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp哥哥……小妹眼中，只有lp哥哥一人。哥哥去哪儿，小妹便去哪儿。,30,3"
   splits:
   - split: 5
-    text: "哥哥……小妹眼中，只有"
-    translated: "Brother...... In her eyes, there is only"
-  - split: 5
-    subIndex: 1
-    text: "哥哥一人。哥哥去哪儿，小妹便去哪儿。"
-    translated: "Brother goes alone. Wherever brother goes, I will follow."
-  templates:
-  - split: 5
-    template: "lp{0}lp{1}"
+    text: "{playerLastName}哥哥……小妹眼中，只有{playerLastName}哥哥一人。哥哥去哪儿，小妹便去哪儿。"
+    translated: "Brother {playerLastName}...... In her eyes, there is only Brother {playerLastName}. Wherever Brother goes, she follows."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "558,1352,\"1200000229,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",fp郎，fp郎，嘿嘿，真是怎么也唤不够欸。,30,3"
   splits:
   - split: 5
-    text: "郎，"
-    translated: "Liang,"
-  - split: 5
-    subIndex: 1
-    text: "郎，嘿嘿，真是怎么也唤不够欸。"
-    translated: "Husband, heh heh, I could never call your name enough."
-  templates:
-  - split: 5
-    template: "fp{0}fp{1}"
+    text: "{playerFirstName}郎，{playerFirstName}郎，嘿嘿，真是怎么也唤不够欸。"
+    translated: "Hey {playerFirstName}, hey {playerFirstName}, heh, I could call you like this forever."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "559,1353,\"1200009953,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp……我此生有愧于你，只盼来世能补偿万一。,30,3"
   splits:
   - split: 5
-    text: "……我此生有愧于你，只盼来世能补偿万一。"
-    translated: "...I feel guilty toward you in this life, only hoping for some compensation in the next."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……我此生有愧于你，只盼来世能补偿万一。"
+    translated: "{playerLastName}......I feel guilty toward you in this life, only hoping to make amends in the next."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "560,1354,\"1180000338,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿哥儿，中原景致人物万万千，也不及你一人呀。,30,3"
   splits:
   - split: 5
@@ -4921,35 +3681,27 @@
 - raw: "562,1356,\"1220001029,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",阿真愿作lp哥哥的箭，阿真一定保护好lp哥哥！,30,3"
   splits:
   - split: 5
-    text: "阿真愿作"
-    translated: "Ah Zhen wishes to do so"
-  - split: 5
-    subIndex: 1
-    text: "哥哥的箭，阿真一定保护好"
-    translated: "Brother's arrow, Ah True will definitely protect it well."
-  - split: 5
-    subIndex: 2
-    text: "哥哥！"
-    translated: "Brother!"
-  templates:
-  - split: 5
-    template: "{0}lp{1}lp{2}"
+    text: "阿真愿作{playerLastName}哥哥的箭，阿真一定保护好{playerLastName}哥哥！"
+    translated: "Ah Zhen will be {playerLastName}'s arrow, Ah Zhen will surely protect Brother {playerLastName}!"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "563,1357,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5
-    text: "姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
-    translated: "Sister, though my skills are weak, I will surely protect you through any peril!"
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！"
+    translated: "Sister {playerLastName}, though my skills are weak, I will surely protect you through any peril!"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "564,1358,\"1260001067,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp……刀锋冷，但握刀的手是暖的，这便够了。,30,3"
   splits:
   - split: 5
-    text: "……刀锋冷，但握刀的手是暖的，这便够了。"
-    translated: "... The blade is cold, but the hand holding it is warm, and that is enough."
-  templates:
-  - split: 5
-    template: "lp{0}"
+    text: "{playerLastName}……刀锋冷，但握刀的手是暖的，这便够了。"
+    translated: "{playerLastName}...... The blade is cold, but the hand holding it is warm. That's enough."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "565,1359,\"1270001032,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",夫君大人……胧的刀刃、身心，皆属您一人。,30,3"
   splits:
   - split: 5
@@ -4963,23 +3715,13 @@
 - raw: "567,1361,\"1280100188,29\",\"//,<\",\"touchId,love\",我暂回大漠，fp[少侠||女侠]，咱们大漠再见。,33,2"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-    translated: "I'll return to the desert for now"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，咱们大漠再见。"
-    translated: ", See you in the Great Desert"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回大漠，{playerFirstName}{playerTitle}，咱们大漠再见。"
+    translated: "{playerFirstName}, I'll return to the Gobi Desert for now, {playerTitle}. We'll meet again in the Gobi Desert."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "568,1362,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",这般也好……有朝一日，大漠再见罢。,33,3"
   splits:
   - split: 5
@@ -4988,180 +3730,128 @@
 - raw: "569,1363,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",我暂回大漠，fp[少侠||女侠]，咱们大漠再见。,33,3"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-    translated: "I'll return to the desert for now"
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，咱们大漠再见。"
-    translated: ", See you in the Great Desert"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "我暂回大漠，{playerFirstName}{playerTitle}，咱们大漠再见。"
+    translated: "{playerFirstName}, I'll return to the Gobi Desert for now, {playerTitle}. We'll meet again in the Gobi Desert."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "570,1364,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",这般也好……fp郎，有朝一日，大漠再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-    translated: "This is for the best......"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，大漠再见罢。"
-    translated: "Rong, one day, we shall meet again in the Great Desert."
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，大漠再见罢。"
+    translated: "This will do......Young Master {playerFirstName}, we shall meet again in the great desert one day."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "571,1365,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",我暂回大漠，fp郎，咱们大漠再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-    translated: "I'll return to the desert for now"
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们大漠再见呀。"
-    translated: "Liang, see you in the Great Desert again."
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回大漠，{playerFirstName}郎，咱们大漠再见呀。"
+    translated: "I'll return to the Gobi Desert for now, {playerFirstName}. We'll meet again there, my friend."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "572,1366,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",这般也好……fp郎，有朝一日，大漠再见罢。,33,3"
   splits:
   - split: 5
-    text: "这般也好……"
-    translated: "This is for the best......"
-  - split: 5
-    subIndex: 1
-    text: "郎，有朝一日，大漠再见罢。"
-    translated: "Rong, one day, we shall meet again in the Great Desert."
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "这般也好……{playerFirstName}郎，有朝一日，大漠再见罢。"
+    translated: "This will do......Young Master {playerFirstName}, we shall meet again in the great desert one day."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "573,1367,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",我暂回大漠，fp郎，咱们大漠再见呀。,33,3"
   splits:
   - split: 5
-    text: "我暂回大漠，"
-    translated: "I'll return to the desert for now"
-  - split: 5
-    subIndex: 1
-    text: "郎，咱们大漠再见呀。"
-    translated: "Liang, see you in the Great Desert again."
-  templates:
-  - split: 5
-    template: "{0}fp{1}"
+    text: "我暂回大漠，{playerFirstName}郎，咱们大漠再见呀。"
+    translated: "I'll return to the Gobi Desert for now, {playerFirstName}. We'll meet again there, my friend."
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "574,1368,\"1280100188,30\",\"//,>\",\"touchId,love\",fp[少侠||女侠]……你若是不甚自在，倒也不必勉强同行。,30,2"
   splits:
   - split: 5
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
-  templates:
-  - split: 5
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    translated: "{playerFirstName}{playerTitle}...If you are not comfortable, there is no need to accompany me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "575,1369,\"1280100188,29\",\"//,<\",\"touchId,love\",果然外间天地比大漠有趣许多。fp[少侠||女侠]，咱们走罢！,30,2"
   splits:
   - split: 5
-    text: "果然外间天地比大漠有趣许多。"
-    translated: "Indeed, the world beyond is far more interesting than the desert."
-  - split: 5
-    subIndex: 1
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 5
-    subIndex: 2
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-    translated: ", Let's go!"
-  templates:
-  - split: 5
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "果然外间天地比大漠有趣许多。{playerFirstName}{playerTitle}，咱们走罢！"
+    translated: "Indeed, the world beyond is far more interesting than the desert. {playerFirstName}{playerTitle}, let's go!"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "576,1370,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[兄||姊]……你若是不甚自在，倒也不必勉强同行。,30,3"
   splits:
   - split: 5
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 2
-    text: "……你若是不甚自在，倒也不必勉强同行。"
-    translated: "... If you are not comfortable, there is no need to force yourself to accompany me."
-  templates:
-  - split: 5
-    template: "lp[{0}||{1}]{2}"
+    text: "{playerLastName}{playerTitle}……你若是不甚自在，倒也不必勉强同行。"
+    translated: "{playerLastName}{playerTitle}......if you are not comfortable, there is no need to accompany me."
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "577,1371,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",果然外间天地比大漠有趣许多。lp[兄||姊]，咱们走罢！,30,3"
   splits:
   - split: 5
-    text: "果然外间天地比大漠有趣许多。"
-    translated: "Indeed, the world beyond is far more interesting than the desert."
-  - split: 5
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 5
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 5
-    subIndex: 3
-    text: "，咱们走罢！"
-    translated: ", Let's go!"
-  templates:
-  - split: 5
-    template: "{0}lp[{1}||{2}]{3}"
+    text: "果然外间天地比大漠有趣许多。{playerLastName}{playerTitle}，咱们走罢！"
+    translated: "Indeed, the world beyond is far more interesting than the desert. {playerLastName}{playerTitle}, let's go!"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "578,1372,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",fp郎……你可是当做梁君子吗？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是当做梁君子吗？"
-    translated: "Lan... Are you referring to Liang Junzi?"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是当做梁君子吗？"
+    translated: "Lan... {playerFirstName}, are you referring to Lord Liang?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "579,1373,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",\"fp郎，这外间天地,怎么都看不够呢。\",30,3"
   splits:
   - split: 5
-    text: "郎，这外间天地"
-    translated: "Liang, this world beyond the room"
+    text: "{playerFirstName}郎，这外间天地"
+    translated: "{playerFirstName}, this world outside"
+    tokens:
+      playerFirstName:
+        source: "fp"
   - split: 5
     subIndex: 1
     text: "怎么都看不够呢。"
     translated: "How can I ever get enough of this view."
   templates:
   - split: 5
-    template: "fp{0},{1}"
+    template: "{0},{1}"
 - raw: "580,1374,\"1280100188,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",fp郎……你可是当做梁君子吗？,30,3"
   splits:
   - split: 5
-    text: "郎……你可是当做梁君子吗？"
-    translated: "Lan... Are you referring to Liang Junzi?"
-  templates:
-  - split: 5
-    template: "fp{0}"
+    text: "{playerFirstName}郎……你可是当做梁君子吗？"
+    translated: "Lan... {playerFirstName}, are you referring to Lord Liang?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "581,1375,\"1280100188,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",\"fp郎，这外间天地,怎么都看不够呢。\",30,3"
   splits:
   - split: 5
-    text: "郎，这外间天地"
-    translated: "Liang, this world beyond the room"
+    text: "{playerFirstName}郎，这外间天地"
+    translated: "{playerFirstName}, this world outside"
+    tokens:
+      playerFirstName:
+        source: "fp"
   - split: 5
     subIndex: 1
     text: "怎么都看不够呢。"
     translated: "How can I ever get enough of this view."
   templates:
   - split: 5
-    template: "fp{0},{1}"
+    template: "{0},{1}"

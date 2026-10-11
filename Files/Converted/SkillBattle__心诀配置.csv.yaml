@@ -165,7 +165,7 @@
     translated: "Words Unleashed"
   - split: 8
     text: "招式【归去来】的伤害提升10%"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 10%"
+    translated: "Damage of the Move [Let Us Return Home] increased by 10%"
 - raw: "22,8050102,凌散,105001,1050105,对应招式,伤害设置:0;至盲:5,,招式【柔云绕指】释放时对敌方的造成【致盲】效果，有概率无法命中自身，效果持续3秒,tricks/8050102,悲遮扇法,,"
   splits:
   - split: 2
@@ -181,8 +181,7 @@
     translated: "Spirited Bearing"
   - split: 8
     text: "【穷途】触发时，立即重置招式【复重楼】调息时间，每隔20秒触发1次"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "【Dead End】When triggered, immediately resets the cooldown of the Move 【Layer upon Layer】, triggering 1 times every 20 seconds"
 - raw: "24,8050104,肆宴,105001,1050102,对应招式,伤害提升:0.5;真气消耗:1,,招式【归去来】的伤害提升5%，额外消耗（1）点真气,tricks/8050104,悲遮扇法,,"
   splits:
   - split: 2
@@ -190,7 +189,7 @@
     translated: "Grand Banquet"
   - split: 8
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
-    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
 - raw: "25,8050105,知秋,105001,1050104,对应招式,清除CD:1050101,,每次获得【难觅】效果时，将立即刷新【问秋风】的时间,tricks/8050105,悲遮扇法,,"
   splits:
   - split: 2
@@ -525,8 +524,6 @@
   - split: 8
     text: "招式【拔刀术.里切】真气消耗降低1点"
     translated: "Move [Blade-Drawing Art · Inner Cut] True Qi consumption reduced by 1 points"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Blade Art · Inner Cut,刀术.里切,Blade Art · Inner Cut,刀术.里切,"
 - raw: "61,8100102,断空流,110001,1100103,对应招式,,,招式【刀术.里返】施展时产生霸体,tricks/8100102,无心流·拔刀术,,"
   splits:
   - split: 2

@@ -128,7 +128,7 @@
   splits:
   - split: 3
     text: "梁君子祠"
-    translated: "Liang Junzi's Shrine"
+    translated: "Gentleman Liang's Shrine"
 - raw: "28,280009,,林中小屋,,0,0,1,None,280009,,,,,,\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"此处土地平整、了无别物……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1734925505,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"放眼望去，并无可疑之处。\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -5758,7 +5758,7 @@
   splits:
   - split: 3
     text: "溶洞缝隙"
-    translated: "Gap in the Karst Cave"
+    translated: "Cavern \\nGap"
 - raw: "1154,11000215,,阴冷的石碑,,0,0,0,None,11000215,11000215,,,,\"[{\"\"mapId\"\":12011,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":\"\"{\\\"\"isNeedWeather\\\"\":false,\\\"\"weatherType\\\"\":0,\\\"\"isOpenConditions\\\"\":false,\\\"\"conditions\\\"\":\\\"\"\\\"\"}\"\"}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":true,\"\"preTask2\"\":\"\"91000003,999:0;120001002,998:0\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":11000002004,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"江湖前客江怀楚，昔日天涯海阁客卿，曾创清风剑法存世，神狩七年，刺杀镇国公不成，为杜颜白领镇国卫所杀，遵其遗愿，送还青萍村，另有石书一册，怜其所行虽偏激但仍属正直，故不予损毁，同葬于此。——书碑者，杜颜白。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1726664685,\"[{\"\"id\"\":11,\"\"talkType\"\":2,\"\"name\"\":\"\"\"\",\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":\"\"\"\",\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":\"\"\"\",\"\"config\"\":\"\"\"\",\"\"action\"\":\"\"\"\",\"\"options\"\":\"\"[{\\\"\"name\\\"\":\\\"\"11\\\"\",\\\"\"id\\\"\":11}]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -6528,7 +6528,7 @@
   splits:
   - split: 3
     text: "溶洞"
-    translated: "Karst Cave"
+    translated: "Cavern"
 - raw: "1308,12013001,,深坑陷阱,,0,0,1,None,12013001,,,,,,\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"数米深的坑洞陷阱，岩壁有些锐利的小石块凸出。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1699088805,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"你于此处反复探看，只发现岩壁四周野兽抓痕，和一具兽骨。\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -8968,7 +8968,7 @@
   splits:
   - split: 3
     text: "许张氏"
-    translated: "Madam Xu (nee Zhang)"
+    translated: "Madam Xu-Zhang"
 - raw: "1796,1120001032,,何郎中,,0,0,0,None,,,,dataName:新角色0517174833;protagonist:1;npcId:0;sex:1;Face:26/5;FrontHair:6/5;BehindHair:3/5;Eyes:1/5;Eyebrow:6/5;Nose:4/5;Mouth:7/5;FaceDecoration:1/5;Beard:1/5;Clothes:4/5;Mask:1/5;,,\"[{\"\"mapId\"\":13000,\"\"x\"\":32,\"\"y\"\":24,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1120001032001,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"何郎中\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"只愿人世无病疾，何妨架上药生尘......\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001032\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"购买。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1120001032002},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"离开。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1120001032003}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1120001032002,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1120001032001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"6:0,13008\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1120001032003,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1120001032001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1721184085,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -9618,8 +9618,7 @@
   splits:
   - split: 3
     text: "墨家甲卫远程"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mojia Armored Guard Ranged"
 - raw: "1926,1170009001,,阿金,,0,0,0,None,,,,dataName:新角色0518172626;protagonist:1;npcId:0;sex:1;Face:39/5;FrontHair:9/5;BehindHair:6/5;Eyes:17/5;Eyebrow:19/5;Nose:3/5;Mouth:6/5;FaceDecoration:1/5;Beard:1/5;Clothes:3/5;Mask:1/5;,,\"[{\"\"mapId\"\":17000,\"\"x\"\":18,\"\"y\"\":28,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"阿金\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"嘿，要买趁手家伙，那客官可是来对地方了。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1170009001\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"购买。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"暂且离去。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":3}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"6:0,217001\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":3,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1719384056,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -11171,9 +11170,7 @@
   splits:
   - split: 3
     text: "东瀛恶狼"
-    translated: "Eastern Demon Wolves"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Dongying,东瀛,Dongying,东瀛,"
+    translated: "Japanese Fierce Wolves"
 - raw: "2235,1270001134,,狼,,3,0,0,None,1110002012,1110002012,,,,\"[{\"\"mapId\"\":27000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744720903,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3

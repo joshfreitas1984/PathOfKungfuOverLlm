@@ -69,3 +69,11 @@ reflection over its read/write properties) and converts NPCs whose surname and g
 - `InitJob` is replaced rather than patched, so a game update that changes it will not be picked up. The job sheet has
   one row, `(掌柜)`, translated by a one-entry table in `JobNpcNamePatch`; move it to the translation pipeline if the
   sheet grows.
+
+## Story NPC names in old saves
+
+Not a name-pool issue, but the same save problem. `WorldEvolutionManager.MakeMasterData` copies each story NPC's name from the
+Touch table into the save when a new game starts and never refreshes it, so a save made before the translation was
+installed keeps the game's own English (`The Coon Lady` for 浣衣娘, now `Washerwoman`). `StoryNpcNameRefresh` sets those
+NPCs (`playerData.m_touch`) to the current table name at game start. It skips NPCs with a surname or given name, mod NPCs and
+gym guards, and logs the first five changes. Turn it off with `[Names] RefreshStoryNpcNames = false`.

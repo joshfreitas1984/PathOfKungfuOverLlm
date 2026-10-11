@@ -2,9 +2,9 @@
 # Each stays a single <A||B> token in English; the result lists both English forms (reviewed one by one).
 
 - raw: "<少侠||姑娘>"
-  result: "<Young Hero||Miss>"
+  result: "<Young Hero||Young Miss>"
 - raw: "<公子||姑娘>"
-  result: "<Young Master||Miss>"
+  result: "<Young Master||Young Miss>"
 - raw: "<少侠||女侠>"
   result: "<Young Hero||Heroine>"
 - raw: "<兄弟||姑娘>"

@@ -1588,7 +1588,7 @@
     translated: "Orchid-and-Bamboo Tune"
   - split: 10
     text: "降低【归去来】招式调息时间1秒"
-    translated: "Reduce the meditation time for the Come, Let Me Go Home Move by 1 seconds"
+    translated: "Reduces the cooldown time of the Move Let Us Return Home by 1 seconds"
 - raw: "172,湘竹葬兰书,湘竹葬兰书,提升暴击,被动,2011008,20110082,6,,兰竹调,降低【柔云绕指】招式调息时间1秒,,,-1,1,False,False,False,\"1050105,cd,-1\",False,fightbuff/,1037,,"
   splits:
   - split: 9
@@ -2038,8 +2038,7 @@
     translated: "Void and Solid Beget Each Other"
   - split: 10
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 10
     template: "{0}BUFF"
@@ -2343,8 +2342,7 @@
     translated: "Seamless Heavenly Robe"
   - split: 10
     text: "角色即将死亡时，触发【死战】效果，角色暂时不会死亡，持续5秒每场战斗仅生效1次"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When a character is about to die, the [Death Struggle] effect triggers, preventing death for 5 seconds. This effect can only activate 1 time per battle."
 - raw: "250,霸王卸甲,无敌,增攻减防,被动,2011509,20115090,1,fightbuff/WuJi,闯阵曲,\"进入战斗后,筋骨属性增加2点\",,,-1,1,False,False,False,\"筋骨,2\",True,fightbuff/,WuJi,,"
   splits:
   - split: 9
@@ -2609,8 +2607,7 @@
     translated: "Obsessive Entwined Grudges"
   - split: 10
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 10
     template: "{0}BUFF"
@@ -2989,9 +2986,7 @@
     translated: "Moon over Yin Mountain"
   - split: 10
     text: "【醉君侯刀铭】武学施展招式【醉横沙场】时，获得2秒【霸体】效果"
-    translated: "[Drunk Marquis Blade Inscription] Martial Art: When performing the Move [Drunk upon the Battlefield], gain Super Armor effect for 2 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Drunken Marquis Blade Inscription,醉君侯刀铭,Drunken Marquis Blade Inscription,醉君侯刀铭,"
+    translated: "When using the Move 【Drunk upon the Battlefield】 from the Martial Art 【Drunken Marquis Blade Inscription】, gain the 【Super Armor】 effect for 2 seconds."
 - raw: "309,七煞铁衣功,无敌,修改气血回复属性,武学注解,2011908,20119081,1,fightbuff/WuJi,阴山月,【镇国抵岳枪】武学攻击附加【定身】效果的目标时额外提升5%暴击几率，该效果持续4秒,,,4,1,False,False,False,\"暴击,0.05\",True,fightbuff/,WuJi,,"
   splits:
   - split: 9
@@ -3007,9 +3002,7 @@
     translated: "Moon over Yin Mountain"
   - split: 10
     text: "【醉君侯刀铭】武学施展招式【醉横沙场】时，获得4秒【霸体】效果"
-    translated: "[Drunk Marquis Blade Inscription] Martial Art: When performing the Move [Drunk upon the Battlefield], gain Super Armor effect for 4 seconds."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Drunken Marquis Blade Inscription,醉君侯刀铭,Drunken Marquis Blade Inscription,醉君侯刀铭,"
+    translated: "When using the Move 【Drunk upon the Battlefield】 from the Martial Art 【Drunken Marquis Blade Inscription】, gain the 【Super Armor】 effect for 4 seconds."
 - raw: "311,七煞铁衣功,无敌,修改移速,武学注解,2011909,20119090,1,fightbuff/WuJi,向天悲,\"进入战斗后,武力属性增加2点\",,,-1,1,False,False,False,\"武力,2\",True,fightbuff/,WuJi,,"
   splits:
   - split: 9
@@ -3083,9 +3076,7 @@
   splits:
   - split: 9
     text: "笑忘生"
-    translated: "Laughing, Forgetting Life"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Laugh and Forget Life"
   - split: 10
     text: "【刀痕】效果持续时，暴击提升5%，暴击伤害提升10%。"
     translated: "[Blade Mark] effect active: Critical Hit chance increased by 5%, Crit Damage increased by 10%."
@@ -3240,9 +3231,7 @@
     translated: "Looking Round at One's Own Shadow"
   - split: 10
     text: "归去来"
-    translated: "Come, Let Me Go Home"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Let Us Return Home"
 - raw: "334,步海阁,减CD,修改移速,被动,3010106,30101062,6,,环顾自影,柔云绕指,,,-1,1,False,False,False,\"1050105,cd,-1\",False,fightbuff/,1009,,"
   splits:
   - split: 9
@@ -4507,9 +4496,7 @@
   splits:
   - split: 9
     text: "仙姿清"
-    translated: "Immortal Grace, Clear"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Pure Immortal Grace"
   - split: 10
     text: "进入战斗后"
     translated: "After entering combat"
@@ -4815,9 +4802,7 @@
   splits:
   - split: 9
     text: "涌逆奔"
-    translated: "Surge, Reverse, Rush"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Surging Rush Upstream"
   - split: 10
     text: "进入战斗后"
     translated: "After entering combat"
@@ -5823,8 +5808,7 @@
     translated: "Shore's End, Sea's End"
   - split: 10
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 10
     template: "{0}BUFF"
@@ -5991,9 +5975,7 @@
   splits:
   - split: 9
     text: "光尘锐"
-    translated: "Light and Dust, Sharpened"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Keen Light and Dust"
   - split: 10
     text: "进入战斗后"
     translated: "After entering combat"
@@ -6600,8 +6582,7 @@
     translated: "Cutting Through the Fortified Formation"
   - split: 10
     text: "3秒内【钧北顾】暴击几率提升10%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Within 3 seconds, Critical Hit chance for Weight of the Northward Gaze is increased by 10%."
 - raw: "664,北顾枪法,提升暴击几率,,被动,1040108,10401081,1,,断坚阵,3秒内【钧北顾】暴击几率提升10%,,,1,1,False,False,False,\"暴击,0.1\",True,fightbuff/,1004,,"
   splits:
   - split: 9
@@ -6609,8 +6590,7 @@
     translated: "Cutting Through the Fortified Formation"
   - split: 10
     text: "3秒内【钧北顾】暴击几率提升10%"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Within 3 seconds, Critical Hit chance for Weight of the Northward Gaze is increased by 10%."
 - raw: "665,北顾枪法,增加外功攻击,,被动,1040109,10401090,1,fightbuff/1080,守孤山,若不携带任何同伴进入战斗，外功防御与外功攻击提升15％,,,-1,1,False,False,False,,True,fightbuff/,1080,,"
   splits:
   - split: 9
@@ -6695,9 +6675,7 @@
   splits:
   - split: 9
     text: "兵主蚩"
-    translated: "Chi You, Lord of Arms"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Chi You the Lord of Arms"
   - split: 10
     text: "施展招式【九州纵横】额外增加外功攻击（影响属性"
     translated: "Perform the move 【Across the Nine Provinces】 to additionally increase external attack (affects Attributes"
@@ -7033,9 +7011,7 @@
   splits:
   - split: 9
     text: "萧意寒"
-    translated: "Desolate Intent, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Chill of Desolation"
   - split: 10
     text: "【萧意】效果"
     translated: "[Xiao Yi] Effect"
@@ -7050,9 +7026,7 @@
   splits:
   - split: 9
     text: "萧意寒"
-    translated: "Desolate Intent, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Chill of Desolation"
   - split: 10
     text: "添加公式变量"
     translated: "Add formula variable"
@@ -7144,7 +7118,7 @@
   - split: 10
     subIndex: 1
     text: "每层提升【归去来】伤害10％"
-    translated: "Each level increases Come, Let Me Go Home Damage by 10%"
+    translated: "Each level increases the damage of Let Us Return Home by 10%"
   - split: 10
     subIndex: 2
     text: "施展招式后移除1层"
@@ -7334,8 +7308,7 @@
     translated: "Blossoms in Full Bloom"
   - split: 10
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 10
     template: "{0}BUFF"
@@ -8446,8 +8419,7 @@
     translated: "Blazing Flood-Dragon Flicks Its Tongue"
   - split: 10
     text: "空"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Empty"
   templates:
   - split: 10
     template: "{0}BUFF"
@@ -9002,9 +8974,7 @@
   splits:
   - split: 9
     text: "遥光寒"
-    translated: "Distant Light, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Distant Cold Light"
   - split: 10
     text: "提升内功攻击"
     translated: "Increase Internal Attack"
@@ -9023,9 +8993,7 @@
   splits:
   - split: 9
     text: "遥光寒"
-    translated: "Distant Light, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Distant Cold Light"
   - split: 10
     text: "变量"
     translated: "Variable"
@@ -9033,9 +9001,7 @@
   splits:
   - split: 9
     text: "遥光寒"
-    translated: "Distant Light, Cold"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Alternatives were provided when none should be given."
+    translated: "Distant Cold Light"
   - split: 10
     text: "移除变量"
     translated: "Remove variable"
@@ -9734,8 +9700,7 @@
     translated: "Mud and Murk"
   - split: 10
     text: "气血每降低20%，额外提升4%防御，最大可叠加50层"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For every 20% reduction in Lifeforce, Defense is increased by an additional 4%, stacking up to a maximum of 50 layers."
 - raw: "949,变量,,,,10001100,10001101,5,,污泥浊水,变量,,,-1,1,False,False,False,\"100011001,1,0.02\",True,fightbuff/,#N/A,,"
   splits:
   - split: 9
@@ -9751,8 +9716,7 @@
     translated: "Snow Mountain Blade Thrall"
   - split: 10
     text: "气血每降低20%，额外提升1%吸血，最大可叠加20层"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For every 20% reduction in Lifeforce, Lifesteal is increased by an additional 1%, stacking up to a maximum of 20 stacks."
 - raw: "951,变量,,,,10001200,10001201,5,,雪山刀奴,变量,,,-1,1,False,False,False,\"100012001,1,0.02\",True,fightbuff/,#N/A,,50"
   splits:
   - split: 9
@@ -9800,8 +9764,7 @@
     translated: "Bicheng's Hidden Wing"
   - split: 10
     text: "气血每降低20%，额外提升1%闪避，最大可叠加20层"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For every 20% reduction in Lifeforce, Dodge is increased by an additional 1%, stacking up to a maximum of 20 layers."
 - raw: "957,变量,,,,10001500,10001501,5,,壁城隐翼,变量,,,-1,1,False,False,False,\"100015001,1,0.02\",True,fightbuff/,#N/A,,"
   splits:
   - split: 9
@@ -9817,8 +9780,7 @@
     translated: "Bright Eyes, Lovely Glances"
   - split: 10
     text: "气血每降低20%，额外提升1%闪避，最大可叠加20层"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For every 20% reduction in Lifeforce, Dodge is increased by an additional 1%, stacking up to a maximum of 20 layers."
 - raw: "959,变量,,,,10001600,10001601,5,,明眸善睐,变量,,,-1,1,False,False,False,\"100016001,1,0.02\",True,fightbuff/,#N/A,,"
   splits:
   - split: 9
@@ -11770,7 +11732,7 @@
     translated: "Words Unleashed"
   - split: 10
     text: "招式【归去来】的伤害提升10%"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 10%"
+    translated: "Damage of the Move [Let Us Return Home] increased by 10%"
 - raw: "1177,,,,,,80501011,7,fightbuff/GongJiTiSheng,放词,招式【归去来】的伤害提升10%,,,-1,1,False,False,False,\"7,额外内功伤害,内功攻击*0.1\",True,,,,"
   splits:
   - split: 9
@@ -11778,7 +11740,7 @@
     translated: "Words Unleashed"
   - split: 10
     text: "招式【归去来】的伤害提升10%"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 10%"
+    translated: "Damage of the Move [Let Us Return Home] increased by 10%"
 - raw: "1178,,,,,,80501012,7,,放词,招式【归去来】的伤害提升10%,,,-1,1,False,False,False,,True,,,,"
   splits:
   - split: 9
@@ -11786,7 +11748,7 @@
     translated: "Words Unleashed"
   - split: 10
     text: "招式【归去来】的伤害提升10%"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 10%"
+    translated: "Damage of the Move [Let Us Return Home] increased by 10%"
 - raw: "1179,,,,,,80501013,7,fightbuff/GongJiTiSheng,放词,招式【归去来】的伤害提升10%,,,-1,1,False,False,False,\"8,额外内功伤害,内功攻击*0.1\",True,,,,"
   splits:
   - split: 9
@@ -11794,7 +11756,7 @@
     translated: "Words Unleashed"
   - split: 10
     text: "招式【归去来】的伤害提升10%"
-    translated: "The Damage of the Move [Come, Let Me Go Home] increases by 10%"
+    translated: "Damage of the Move [Let Us Return Home] increased by 10%"
 - raw: "1180,,,,,,80501040,7,,肆宴,招式【归去来】的伤害提升5%，额外消耗（1）点真气,,,-1,1,False,False,False,,True,,,,"
   splits:
   - split: 9
@@ -11802,7 +11764,7 @@
     translated: "Grand Banquet"
   - split: 10
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
-    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
 - raw: "1181,,,,,,80501041,7,fightbuff/GongJiTiSheng,肆宴,招式【归去来】的伤害提升5%，额外消耗（1）点真气,,,-1,1,False,False,False,\"7,额外内功伤害,内功攻击*0.05\",True,,,,"
   splits:
   - split: 9
@@ -11810,7 +11772,7 @@
     translated: "Grand Banquet"
   - split: 10
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
-    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
 - raw: "1182,,,,,,80501042,7,,肆宴,招式【归去来】的伤害提升5%，额外消耗（1）点真气,,,-1,1,False,False,False,,True,,,,"
   splits:
   - split: 9
@@ -11818,7 +11780,7 @@
     translated: "Grand Banquet"
   - split: 10
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
-    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
 - raw: "1183,,,,,,80501043,7,fightbuff/GongJiTiSheng,肆宴,招式【归去来】的伤害提升5%，额外消耗（1）点真气,,,-1,1,False,False,False,\"8,额外内功伤害,内功攻击*0.05\",True,,,,"
   splits:
   - split: 9
@@ -11826,7 +11788,7 @@
     translated: "Grand Banquet"
   - split: 10
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
-    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
 - raw: "1184,,,,,,80501044,6,,肆宴,招式【归去来】的伤害提升5%，额外消耗（1）点真气,,,-1,1,False,False,False,\"1050103,真气消耗,1\",False,,,,"
   splits:
   - split: 9
@@ -11834,7 +11796,7 @@
     translated: "Grand Banquet"
   - split: 10
     text: "招式【归去来】的伤害提升5%，额外消耗（1）点真气"
-    translated: "The Damage of Move [Come, Let Me Go Home] is increased by 5%, with an additional consumption of (1) points of True Qi"
+    translated: "The Damage of the Move [Let Us Return Home] is increased by 5%, consuming an additional (1) points of True Qi."
 - raw: "1185,,,,,,80501070,4,fightbuff/WuJi,破云,招式【梭云回日】获得【霸体】效果,,,1.7,1,False,False,False,1,True,,,,"
   splits:
   - split: 9

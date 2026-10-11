@@ -17,6 +17,8 @@ public static class GameFileHandling
     // Left alone they split a sentence into fragments that are translated one at a time, which gave broken joins
     // ("Big Brother is so skilled with your hands"). Gluing them into the surrounding run keeps the sentence whole.
     public static readonly Regex NameTokenPattern = new(@"<(?:fName|lName|name|faction)>", RegexOptions.Compiled);
+    private static readonly Regex SourcePronounPairPattern = new(@"^<[他她它]\|\|[他她它]>$", RegexOptions.Compiled);
+    private static readonly Regex PronounPairPattern = new(@"^<(he\|\|she|him\|\|her|his\|\|her|himself\|\|herself)>$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
     public static readonly Regex GenderAlternativePattern = new(@"<[^<>|]*\|\|[^<>|]*>", RegexOptions.Compiled);
     private static readonly Regex ColorTagPattern = new(@"</?color[^>]*>", RegexOptions.Compiled);
 
@@ -69,8 +71,20 @@ public static class GameFileHandling
 
         // Same for gender alternatives: an extra one is a pair the model made up (seen: "<Brother||Sister>" added to a line
         // that had one).
-        var alternatives = GenderAlternativePattern.Matches(raw).Count;
-        if (alternatives > 0 && GenderAlternativePattern.Matches(result).Count != alternatives)
+        // Two kinds of pair, judged apart. A title (<少侠||姑娘>, the playerTitle slot) may collapse to "you" when repeated, so
+        // each needs to survive once at most as often as the source. A pronoun pair (<他||她>) becomes "<he||she>", and English
+        // may repeat it ("<he||she> ... <him||her>"; the game resolves every <A||B>), so it needs one and has no upper limit.
+        // Counts only: the result's pairs are translated, so they cannot be compared with the source's text.
+        var rawPairs = GenderAlternativePattern.Matches(raw).Select(m => m.Value).ToList();
+        var rawPronouns = rawPairs.Count(p => SourcePronounPairPattern.IsMatch(p));
+        var rawTitles = rawPairs.Count - rawPronouns;
+        var resultPairs = GenderAlternativePattern.Matches(result).Select(m => m.Value).ToList();
+        var resultPronouns = resultPairs.Count(p => PronounPairPattern.IsMatch(p));
+        var resultTitles = resultPairs.Count - resultPronouns;
+        if ((rawPronouns > 0 && resultPronouns == 0)
+            || (rawPronouns == 0 && resultPronouns > 0)
+            || (rawTitles > 0 && resultTitles == 0)
+            || resultTitles > rawTitles)
             return "<male||female>";
 
         return null;

@@ -478,14 +478,12 @@
   splits:
   - split: 2
     text: "既然金兰挚交想要喝几杯，那咱们便通宵把酒，不醉不归，如何？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Since our Sworn Bond wishes to drink a few cups, shall we toast through the night and not return until we are drunk?"
 - raw: "112,4122,难得今日你我相聚，好友欲饮，在下本当应允……但无奈此间有要事身，需即刻起身远赴他处，还望金兰见谅。,500,,"
   splits:
   - split: 2
     text: "难得今日你我相聚，好友欲饮，在下本当应允……但无奈此间有要事身，需即刻起身远赴他处，还望金兰见谅。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It is a rare occasion that you and I are together today. My friend wishes to drink, and I would naturally agree... but alas, urgent matters detain me here, and I must depart at once for another place. I beg your forgiveness, Sworn Bond."
 - raw: "113,4111,当真要与我割袍断义，断绝金兰之情？如此也好，今后大路朝天，各走一边就是了。,500,,"
   splits:
   - split: 2
@@ -554,19 +552,11 @@
 - raw: "126,4402,[父亲||母亲]有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！,4603,,"
   splits:
   - split: 2
-    text: "父亲"
-    translated: "Father"
-  - split: 2
-    subIndex: 1
-    text: "母亲"
-    translated: "Mother"
-  - split: 2
-    subIndex: 2
-    text: "有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！"
-    translated: "With my life at stake, how dare I refuse? To be by your side and share the Jianghu with you is what I desire!"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}有命，孩儿岂敢不从，能相伴左右共历江湖，实为孩儿所愿！"
+    translated: "{playerTitle}, if you grant me life, how dare I refuse? To be by your side and share the Jianghu with you is my greatest wish!"
+    tokens:
+      playerTitle:
+        source: "[父亲||母亲]"
 - raw: "127,4501,你我恩怨两清，再无怨怼，至此化干戈为玉帛……也堪称一段佳话，且来日再会！,500,,"
   splits:
   - split: 2
@@ -717,8 +707,7 @@
   splits:
   - split: 2
     text: "竟对我下如此重手……罢了，你直言所求之物便是了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You actually struck me with such force... Very well, just tell me plainly what you seek."
 - raw: "158,7218,你当我是那等无骨气之人否？有何手段，不妨使来！,500,,"
   splits:
   - split: 2
@@ -773,8 +762,7 @@
   splits:
   - split: 2
     text: "竟对我下如此重手……此等刑具，实……实是为江湖所不齿……莫，莫要再动刑了……"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You actually used such brutal force on me... Such instruments of torture are truly... truly despised by the Jianghu... Please... please stop the interrogation..."
 - raw: "169,7229,你！你竟如此刁钻恶毒……莫，莫不是要对我用刑？,\"20417,20418,20419,20420,20421,20422,20425,20426,20427,20428,20429,20430,601\",,"
   splits:
   - split: 2
@@ -1108,51 +1096,27 @@
 - raw: "212,1909,[少侠||女侠]，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。,\"311,176,177,178,179,341,3410,376,3701,500\",,"
   splits:
   - split: 2
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 2
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 2
-    subIndex: 2
-    text: "，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。"
-    translated: ", I have returned all the belongings as compensation; I will never do such a thing again.... I hope you will spare me."
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}，财物已是悉数奉还，下次再不敢行此歹事……还望放我一马。"
+    translated: "{playerTitle}, I have returned all the belongings as requested, and I promise I will not do such wicked deeds again... I beg for your mercy."
+    tokens:
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "213,210010,[少侠||女侠]之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？,\"1231,1232\",,"
   splits:
   - split: 2
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 2
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 2
-    subIndex: 2
-    text: "之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？"
-    translated: "I have long heard of your deeds. Today, upon meeting you, I boldly extend an offer to be acquainted, but I wonder if it aligns with your wishes?"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}之事迹，在下早有所闻，今日相见，冒昧开言结交，却不知是否阁下意愿如何？"
+    translated: "{playerTitle}'s achievements, I have heard much about them. Today, upon meeting you, I boldly extend an offer to be acquainted, but I wonder if it aligns with your wishes?"
+    tokens:
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "214,210011,[少侠||女侠]果真率性！今日相识，实快慰平生！,500,,"
   splits:
   - split: 2
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 2
-    subIndex: 1
-    text: "女侠"
-    translated: "Female Heroine"
-  - split: 2
-    subIndex: 2
-    text: "果真率性！今日相识，实快慰平生！"
-    translated: "Truly spontaneous! Meeting you today brings me more joy than I've felt in years!"
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}"
+    text: "{playerTitle}果真率性！今日相识，实快慰平生！"
+    translated: "{playerTitle} is indeed spontaneous! Meeting you today truly brings me great joy!"
+    tokens:
+      playerTitle:
+        source: "[少侠||女侠]"
 - raw: "215,210012,……阁下既不愿结交，在下亦不敢强求，只是阁下此言……未免自视甚高了些！,500,,"
   splits:
   - split: 2
@@ -1161,35 +1125,11 @@
 - raw: "216,210020,你我二人，情深义厚，在下冒昧开言，欲与[兄||姊]义结金兰，以全你我情谊，却不知[兄||姊]意愿如何？,\"1241,1242\",,"
   splits:
   - split: 2
-    text: "你我二人，情深义厚，在下冒昧开言，欲与"
-    translated: "You and I, with deep affection and strong bonds, I dare to speak frankly and wish to discuss something with you,"
-  - split: 2
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 3
-    text: "义结金兰，以全你我情谊，却不知"
-    translated: "Formed a sworn bond to fulfill our friendship, yet did not know"
-  - split: 2
-    subIndex: 4
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 5
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 6
-    text: "意愿如何？"
-    translated: "How willing are you?"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
+    text: "你我二人，情深义厚，在下冒昧开言，欲与{playerTitle}义结金兰，以全你我情谊，却不知{playerTitle}意愿如何？"
+    translated: "You and I, with deep feelings and strong bonds, I take the liberty to speak and wish to form a Sworn Bond with you, {playerTitle}, to fulfill our shared affection. But I wonder what your thoughts are, {playerTitle}?"
+    tokens:
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "217,210021,皇天厚土，金兰之交，你我定不相负！,500,,"
   splits:
   - split: 2
@@ -1198,75 +1138,29 @@
 - raw: "218,210022,自然，自然……既[兄||姊]不愿结交，在下亦不敢强求……,500,,"
   splits:
   - split: 2
-    text: "自然，自然……既"
-    translated: "Of course, of course......then"
-  - split: 2
-    subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 3
-    text: "不愿结交，在下亦不敢强求……"
-    translated: "I don't dare to force you......I also don't dare to insist..."
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "自然，自然……既{playerTitle}不愿结交，在下亦不敢强求……"
+    translated: "Of course, of course......Since {playerTitle} does not wish to associate, I dare not press the matter......"
+    tokens:
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "219,210030,lp，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义[子||女]，却不知你意下如何？,\"1251,1252\",,"
   splits:
   - split: 2
-    text: "，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义"
-    translated: ", Your nature aligns with mine, and you have the bearing of my younger self. I am greatly comforted and wish to take you as my adopted son."
-  - split: 2
-    subIndex: 1
-    text: "子"
-    translated: "Child"
-  - split: 2
-    subIndex: 2
-    text: "女"
-    translated: "She"
-  - split: 2
-    subIndex: 3
-    text: "，却不知你意下如何？"
-    translated: ", But I wonder what you think about it?"
-  templates:
-  - split: 2
-    template: "lp{0}[{1}||{2}]{3}"
+    text: "{playerLastName}，你秉性与我相合，更兼有如我年少时一般身影风范，我心大慰，欲将你收为义{playerTitle}，却不知你意下如何？"
+    translated: "{playerLastName}, your nature aligns with mine, and you bear a striking resemblance to my younger self. I am greatly comforted and wish to take you as my adopted {playerTitle}. What do you think?"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerTitle:
+        source: "[子||女]"
 - raw: "220,210031,今日喜得义[子||女]，有[子||女]若此，实快慰平生！,500,,"
   splits:
   - split: 2
-    text: "今日喜得义"
-    translated: "Today I gained an honorary title"
-  - split: 2
-    subIndex: 1
-    text: "子"
-    translated: "Child"
-  - split: 2
-    subIndex: 2
-    text: "女"
-    translated: "She"
-  - split: 2
-    subIndex: 3
-    text: "，有"
-    translated: ", There is"
-  - split: 2
-    subIndex: 4
-    text: "子"
-    translated: "Child"
-  - split: 2
-    subIndex: 5
-    text: "女"
-    translated: "She"
-  - split: 2
-    subIndex: 6
-    text: "若此，实快慰平生！"
-    translated: "If so, it truly brings me great comfort in life!"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}[{4}||{5}]{6}"
+    text: "今日喜得义{playerTitle}，有{playerTitle}若此，实快慰平生！"
+    translated: "Today I have gained a sworn {playerTitle}. To have a {playerTitle} such as you is truly the greatest joy of my life!"
+    tokens:
+      playerTitle:
+        source: "[子||女]"
 - raw: "221,210032,……你既如此说，我定不能强求，只叹可惜……,500,,"
   splits:
   - split: 2
@@ -1275,15 +1169,11 @@
 - raw: "222,210040,些许时日不见……倒觉得lp似换了个人一般……似，似有些不一样……,\"1261,1262\",,"
   splits:
   - split: 2
-    text: "些许时日不见……倒觉得"
-    translated: "It's been a few days since we last met......I feel like"
-  - split: 2
-    subIndex: 1
-    text: "似换了个人一般……似，似有些不一样……"
-    translated: "As if they were a different person......as if, as if there's something different about them......"
-  templates:
-  - split: 2
-    template: "{0}lp{1}"
+    text: "些许时日不见……倒觉得{playerLastName}似换了个人一般……似，似有些不一样……"
+    translated: "It has only been a short time since we last met... yet {playerLastName} seems like an entirely different person... somehow, somewhat... different..."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "223,210041,你……你也常惦着我么……,500,,"
   splits:
   - split: 2
@@ -1297,19 +1187,11 @@
 - raw: "225,210050,lp……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与lp相伴江湖，便心满意足了……却不知，lp你心意如何？,\"1271,1272\",,"
   splits:
   - split: 2
-    text: "……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与"
-    translated: "...We have known each other for a long time. In this vast Jianghu, no one understands me as you do. If, if I could..."
-  - split: 2
-    subIndex: 1
-    text: "相伴江湖，便心满意足了……却不知，"
-    translated: "To be content with each other in the Jianghu... yet unaware that,"
-  - split: 2
-    subIndex: 2
-    text: "你心意如何？"
-    translated: "What are your feelings?"
-  templates:
-  - split: 2
-    template: "lp{0}lp{1}lp{2}"
+    text: "{playerLastName}……你我相识已久，茫茫江湖，再无一人如你般知我心意，若，若能与{playerLastName}相伴江湖，便心满意足了……却不知，{playerLastName}你心意如何？"
+    translated: "{playerLastName}... We have known each other for a long time. In the vast Jianghu, no one else understands my heart as you do. If, if I could walk the Jianghu by your side, {playerLastName}, that would be all I need... But I wonder, what are your feelings, {playerLastName}?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "226,210051,如此，如此……便太好了，还怕我拙口笨舌，道不出心迹……至此之后，诺大江湖，你我便再非孤身一人了……,500,,"
   splits:
   - split: 2
@@ -1323,23 +1205,13 @@
 - raw: "228,210060,我与lp情深无限，契阔生死自不必多言，今欲与lp结为夫妇……不知，不知p你意下如何……,\"1281,1282\",,"
   splits:
   - split: 2
-    text: "我与"
-    translated: "I with"
-  - split: 2
-    subIndex: 1
-    text: "情深无限，契阔生死自不必多言，今欲与"
-    translated: "Boundless affection, the bond of life and death needs no further words. Today, I wish to..."
-  - split: 2
-    subIndex: 2
-    text: "结为夫妇……不知，不知"
-    translated: "To become husband and wife......I don't know, I don't know."
-  - split: 2
-    subIndex: 3
-    text: "你意下如何……"
-    translated: "What do you think......"
-  templates:
-  - split: 2
-    template: "{0}lp{1}lp{2}p{3}"
+    text: "我与{playerLastName}情深无限，契阔生死自不必多言，今欲与{playerLastName}结为夫妇……不知，不知{playerName}你意下如何……"
+    translated: "I have deep feelings for you, {playerLastName}. Through life and death, there's no need to say more. Today, I wish to marry you, {playerLastName}......I wonder, what do you think, {playerName}......"
+    tokens:
+      playerLastName:
+        source: "lp"
+      playerName:
+        source: "p"
 - raw: "229,210061,此生结发，定不负卿情……生生世世，与子共生。,500,,"
   splits:
   - split: 2
@@ -1514,9 +1386,7 @@
   splits:
   - split: 2
     text: "你停下脚步，面色平静地看着对方，轻声劝导……狂徒听后，竟似被触动了心弦，眼中的疯狂渐渐褪去，取而代之的是一丝迷茫……"
-    translated: "You stopped in your tracks, looking at them with a calm expression, gently persuading... The madman seemed to be touched by your words, the madness in his eyes gradually fading, replaced by a hint of confusion..."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "InventedGender"
+    translated: "You stop in your tracks, gazing calmly at the other party and gently urging them... Upon hearing this, the madman seems to be struck by a chord within their heart; the frenzy in their eyes gradually fades, replaced by a trace of bewilderment..."
 - raw: "257,210112,你心中虽有不悦，但仍强压怒火，抱拳向狂徒行礼，耐心劝导。狂徒听闻你的话，先是一愣，随后仰天大笑起来：“君子？老子才不管什么君子小人，江湖上拳头硬才是硬道理！”说罢，狂徒挥舞着手臂，向你冲来。,1321,,"
   splits:
   - split: 2
@@ -1591,35 +1461,20 @@
 - raw: "267,210130,[小子||丫头]，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定!我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，[小子||丫头]需得当机立断，莫要迟疑！,\"1341,1342,1343\",,"
   splits:
   - split: 2
-    text: "小子"
-    translated: "Boy"
+    text: "{playerTitle}，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定"
+    translated: "{playerTitle}, I see that your bones are remarkable, you must be a prodigy in martial arts. Our meeting today is surely fate itself."
+    tokens:
+      playerTitle: &o0
+        source: "[小子||丫头]"
   - split: 2
     subIndex: 1
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 2
-    text: "，我看你骨骼惊奇，必是练武奇才，今日你我相逢，实乃命中注定"
-    translated: ", I see that your bones are remarkable; you must be a prodigy in martial arts. Our meeting today is surely fate itself."
-  - split: 2
-    subIndex: 3
-    text: "我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，"
-    translated: "I'm selling this unparalleled divine martial art at a cheap price; once you master it, you can become a renowned Hero in the Jianghu."
-  - split: 2
-    subIndex: 4
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 5
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 6
-    text: "需得当机立断，莫要迟疑！"
-    translated: "Act decisively, do not hesitate!"
+    text: "我这册绝世神功便宜卖你，学成便可成为江湖中威名远扬之大侠客，{playerTitle}需得当机立断，莫要迟疑！"
+    translated: "I'm selling this unparalleled divine martial art at a cheap price; once you master it, you can become a renowned hero in the Jianghu. {playerTitle} must make a decisive decision and not hesitate!"
+    tokens:
+      playerTitle: *o0
   templates:
   - split: 2
-    template: "[{0}||{1}]{2}!{3}[{4}||{5}]{6}"
+    template: "{0}!{1}"
 - raw: "268,210131,你咬牙拿出一笔银子买下秘籍。商贩接过银子，迅速将秘籍塞到你手上，还不忘叮嘱几句：“此术珍贵无比，[小子||丫头]需要勤加修炼，莫要辜负了这绝世功法。”,500,,"
   splits:
   - split: 2
@@ -1627,23 +1482,14 @@
     translated: "You grit your teeth and take out some silver to buy the manual. The merchant takes the silver and quickly stuffs the manual into your hand, not forgetting to remind you of a few things."
   - split: 2
     subIndex: 1
-    text: "“此术珍贵无比，"
-    translated: "'This technique is incredibly precious"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 4
-    text: "需要勤加修炼，莫要辜负了这绝世功法。”"
-    translated: "You must practice diligently; do not fail to live up to this peerless technique.'"
+    text: "“此术珍贵无比，{playerTitle}需要勤加修炼，莫要辜负了这绝世功法。”"
+    translated: "This technique is incredibly precious; {playerTitle} must practice diligently, do not squander this peerless art."
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "269,210132,你心觉此事太过蹊跷，于是断然拒绝。那商贩冷笑道：“你这[小子||丫头]，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……,500,,"
   splits:
   - split: 2
@@ -1651,23 +1497,14 @@
     translated: "You felt that this was too suspicious and firmly refused. The merchant laughed coldly and said,"
   - split: 2
     subIndex: 1
-    text: "“你这"
-    translated: "'You're this"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 4
-    text: "，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……"
-    translated: ", What a fool I am! With such an opportunity right before my eyes, I missed it entirely. How blind I am! With that, they put away the manual and fell silent......'"
+    text: "“你这{playerTitle}，真是有眼不识泰山，如此机缘摆在面前，竟然白白错过。有眼无珠之辈！”说罢，便收起秘籍，不再言语……"
+    translated: "You, {playerTitle}, are truly blind to opportunity, failing to recognize a rare chance when it's right in front of you. You are indeed shortsighted! With that, they put away the Manual and fell silent......"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "270,210133,你心中虽有疑虑，但又不想错失机缘。于是你试图让此人演练几式，藉此进一步观察秘籍真假。此人听后眼神闪烁，说道：“此功杀人夺命，伤残难免，[小子||丫头]可有胆量一试？”,\"1344,1345,1346\",,"
   splits:
   - split: 2
@@ -1675,23 +1512,14 @@
     translated: "Though you had doubts, you didn't want to miss the opportunity. So you tried to get them to demonstrate a few moves to further observe the authenticity of the manual. They hesitated, their eyes flickering as they replied."
   - split: 2
     subIndex: 1
-    text: "“此功杀人夺命，伤残难免，"
-    translated: "'This technique kills and takes lives, causing injury and disability."
-  - split: 2
-    subIndex: 2
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 4
-    text: "可有胆量一试？”"
-    translated: "Do you have the courage to try?'"
+    text: "“此功杀人夺命，伤残难免，{playerTitle}可有胆量一试？”"
+    translated: "This technique kills and takes lives, injuries are inevitable; do you have the courage to try, {playerTitle}?"
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "271,210134,一番交战过后，商贩败于你手，惊慌地说道：“是晚辈鲁莽，冲撞了前辈。这本秘籍交予阁下，算是小的赔罪。”随后，商贩将秘籍交到你手上，便不再言语……,1349,,"
   splits:
   - split: 2
@@ -1711,19 +1539,14 @@
     translated: "You couldn't dodge in time and were struck to the ground, suffering from a strange and painful poison as well. The person gloated, saying,"
   - split: 2
     subIndex: 1
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 2
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 3
-    text: "，看你也算有点胆量。我有一颗专治此伤的奇丹，只要你给银子，此丹便割爱与你，服下即刻痊愈。”"
-    translated: ", Seeing that you have some courage, I have a miraculous pill that treats this injury. If you pay the silver, I will part with it for you; once taken, it will heal you immediately.'"
+    text: "“{playerTitle}，看你也算有点胆量。我有一颗专治此伤的奇丹，只要你给银子，此丹便割爱与你，服下即刻痊愈。”"
+    translated: "{playerTitle}, it seems you have some courage. I have a miraculous pill that treats this injury. As long as you pay the silver, I will gladly give it to you, and upon taking it, you will be instantly cured."
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：“[{1}||{2}]{3}"
+    template: "{0}：{1}"
 - raw: "273,210136,犹豫再三，你一咬牙，不再试探，直接购置此功。此人接过银子，脸上瞬间堆满笑容，赶忙将秘籍交与你手，还不忘叮嘱：“此术珍贵无比，[小子||丫头]需勤加修炼，莫要辜负这绝世功法。”,500,,"
   splits:
   - split: 2
@@ -1731,23 +1554,14 @@
     translated: "After much hesitation, you grit your teeth and stop beating around the bush, purchasing the technique directly. The person takes the silver, their face immediately breaking into a smile as they hurriedly hand over the manual to you, not forgetting to remind you"
   - split: 2
     subIndex: 1
-    text: "“此术珍贵无比，"
-    translated: "'This technique is incredibly precious"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 4
-    text: "需勤加修炼，莫要辜负这绝世功法。”"
-    translated: "Work hard to cultivate, do not disappoint this peerless technique.'"
+    text: "“此术珍贵无比，{playerTitle}需勤加修炼，莫要辜负这绝世功法。”"
+    translated: "This technique is incredibly precious; {playerTitle} must practice diligently, or you will squander this peerless art."
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "274,210137,那卖秘籍之人见状，冷笑一声道：“你这[小子||丫头]，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……,500,,"
   splits:
   - split: 2
@@ -1755,23 +1569,14 @@
     translated: "The seller of the manual smirked and said."
   - split: 2
     subIndex: 1
-    text: "“你这"
-    translated: "'You're this"
-  - split: 2
-    subIndex: 2
-    text: "小子"
-    translated: "Boy"
-  - split: 2
-    subIndex: 3
-    text: "丫头"
-    translated: "Girl"
-  - split: 2
-    subIndex: 4
-    text: "，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……"
-    translated: ", It's a shame not to recognize greatness when you see it; with such a wonderful opportunity right before my eyes, I unexpectedly missed it. If I want to find another chance like this in the future, it will be even more difficult! With that, they put away the manual and fell silent......'"
+    text: "“你这{playerTitle}，真是有眼不识泰山，如此大好机缘摆在面前，竟然白白错过。日后若想再寻得这般机会，可就难上加难喽！”说罢，便收起秘籍，不再言语……"
+    translated: "You {playerTitle}, truly blind to greatness. Such a fine opportunity lay right before you, yet you let it slip by. Should you ever hope to find another chance like this in the future, it will be exceedingly difficult! With that, they tucked away the Manual and fell silent..."
+    tokens:
+      playerTitle:
+        source: "[小子||丫头]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "275,210138,你咬咬牙，决定相信此人，你将丹药服下后，不消片刻，内伤全无……那人见你伤势痊愈，便收起秘籍，侧立一旁不再言语。你望着其手中的秘籍，心中懊悔不已……,500,,"
   splits:
   - split: 2
@@ -1789,23 +1594,14 @@
     translated: "A strange person blocked your path, muttering about the Daoist scriptures and Heart Method... After a while, they stopped reciting and spoke to you."
   - split: 2
     subIndex: 1
-    text: "“甘露不润无根之草，大道不渡无缘之人……"
-    translated: "'Nectar does not nourish rootless grass; the Great Way does not save those without fate..."
-  - split: 2
-    subIndex: 2
-    text: "少侠"
-    translated: "Young Hero"
-  - split: 2
-    subIndex: 3
-    text: "姑娘"
-    translated: "Miss"
-  - split: 2
-    subIndex: 4
-    text: "若心有所求，不妨告知在下，或有所得……”"
-    translated: "If you have something in mind, don't hesitate to tell me, and there might be a chance of success...'"
+    text: "“甘露不润无根之草，大道不渡无缘之人……{playerTitle}若心有所求，不妨告知在下，或有所得……”"
+    translated: "Sweet dew does not nourish rootless grass; the great path does not guide those without fate......If you, {playerTitle}, have any desires, tell me and perhaps there will be gains......"
+    tokens:
+      playerTitle:
+        source: "[少侠||姑娘]"
   templates:
   - split: 2
-    template: "{0}：{1}[{2}||{3}]{4}"
+    template: "{0}：{1}"
 - raw: "278,210141,你想起曾听闻的神丹传说，心中不禁泛起涟漪。你咬了咬牙，决定花费银两求取丹药。怪人接过银两，微微点头，取出一个小巧的丹盒，递与你。便又念叨起道经心法……,500,,"
   splits:
   - split: 2
@@ -1837,9 +1633,7 @@
   splits:
   - split: 2
     text: "你眉头微皱，眼神中闪过一丝警惕，目不斜视地径直向前走去，全然不理此人。那怪人见你如此反应，低声喃喃自语道"
-    translated: "You frowned slightly, a hint of caution flashing in your eyes. You walked straight ahead without so much as a glance at the person. The strange man, seeing your reaction, muttered to himself under his breath."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "InventedGender"
+    translated: "You furrow your brow, a flash of wariness crossing your eyes. You walk straight ahead without so much as a glance to the side, completely ignoring the person. Seeing your reaction, the strange figure mutters to themselves in a low voice:"
   - split: 2
     subIndex: 1
     text: "“心有恶障，难得清明……”便又念叨起道经心法，不再看你……"
@@ -1894,11 +1688,11 @@
 - raw: "290,210170,p，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？,\"1381,1382\",,"
   splits:
   - split: 2
-    text: "，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？"
-    translated: ", Now that I have made some achievements in the path of martial arts, I see that you have a desire to progress and great potential. I wish to take you on as my disciple; what do you think?"
-  templates:
-  - split: 2
-    template: "p{0}"
+    text: "{playerName}，如今我在武学之途也算是有所作为，我观你有上进之心，且颇具潜力。欲收你为徒，不知你意下如何？"
+    translated: "{playerName}, now that I have made some achievements in the path of Martial Art, I see that you have a desire to progress and great potential. I wish to take you on as my disciple. What do you think?"
+    tokens:
+      playerName:
+        source: "p"
 - raw: "291,210171,好，从今日起，你便是我的徒弟。为师定会尽心教导与你，望你能奋发图强，早日有所成就。,500,,"
   splits:
   - split: 2
@@ -1912,31 +1706,13 @@
 - raw: "293,210180,fp[兄||姊]，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知fp[兄||姊]意下如何？,\"1391,1392\",,"
   splits:
   - split: 2
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 2
-    text: "，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知"
-    translated: ", You and I have been kindred spirits since we met, sharing interests and ideals. Why don't we form a Sworn Bond, to share both fortune and hardship, life and death, from this day forward?"
-  - split: 2
-    subIndex: 3
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 4
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 5
-    text: "意下如何？"
-    translated: "What do you think?"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
+    text: "{playerFirstName}{playerTitle}，你我二人自相识以来，情投意合，意气相投。你我何不义结金兰，从此有福同享，有难同当，生死相随，不知{playerFirstName}{playerTitle}意下如何？"
+    translated: "{playerFirstName}{playerTitle}, since we met, we have been kindred spirits, sharing interests and ideals. Why don't we form a Sworn Bond, to share both fortune and hardship, facing life and death together? What do you think, {playerFirstName}{playerTitle}?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "294,210181,哈哈，今日我{0}得fp[兄||姊]这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！,500,,"
   splits:
   - split: 2
@@ -1944,23 +1720,16 @@
     translated: "Ha, today I"
   - split: 2
     subIndex: 1
-    text: "得"
-    translated: "Got it"
-  - split: 2
-    subIndex: 2
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 3
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 4
-    text: "这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！"
-    translated: "Such a response truly brings me great satisfaction. From now on, with our sworn bond, we will work together and surely achieve something remarkable in this world!"
+    text: "得{playerFirstName}{playerTitle}这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！"
+    translated: "To receive such a response from you, {playerFirstName}{playerTitle}, is truly gratifying. From now on, with our Sworn Bond, we will surely achieve great things in this world!"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
   templates:
   - split: 2
-    template: "{0}⟦0⟧{1}fp[{2}||{3}]{4}"
+    template: "{0}⟦0⟧{1}"
 - raw: "295,210182,如此……也罢……,500,,"
   splits:
   - split: 2
@@ -1969,55 +1738,30 @@
 - raw: "296,210190,fp[兄||姊]，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，fp[兄||姊]可愿否？,\"1401,1402\",,"
   splits:
   - split: 2
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 2
-    text: "，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，"
-    translated: ", I see that you are generous and righteous in your dealings, and your actions serve as a model for our kind. I admire you greatly. I wish to be your confidant and friend, supporting each other on this long journey of life, moving forward together."
-  - split: 2
-    subIndex: 3
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 4
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 5
-    text: "可愿否？"
-    translated: "Will you do it?"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
+    text: "{playerFirstName}{playerTitle}，我观你为人豪爽仗义，行事更是吾辈楷模，心中对你钦佩不已。我欲与你结为知交好友，在这漫漫人生途，相互扶持，共同前行，{playerFirstName}{playerTitle}可愿否？"
+    translated: "{playerFirstName}{playerTitle}, I see that you are generous and upright, your actions a model for our kind. I admire you greatly in my heart. I wish to become your Confidant, to support each other on this long journey of life, to walk together. {playerFirstName}{playerTitle}, would you be willing?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "297,210191,哈哈，太好了！从此，fp[兄||姊]便是我{0}的知心好友，得此良友，实乃人生幸事！,500,,"
   splits:
   - split: 2
-    text: "哈哈，太好了！从此，"
-    translated: "Ha ha, great! From now on,"
+    text: "哈哈，太好了！从此，{playerFirstName}{playerTitle}便是我"
+    translated: "Ha ha, great! From now on, {playerFirstName}{playerTitle} is me."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
   - split: 2
     subIndex: 1
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 3
-    text: "便是我"
-    translated: "It is I"
-  - split: 2
-    subIndex: 4
     text: "的知心好友，得此良友，实乃人生幸事！"
     translated: "A dear close friend indeed! Having such a good friend is truly a blessing in life!"
   templates:
   - split: 2
-    template: "{0}fp[{1}||{2}]{3}⟦0⟧{4}"
+    template: "{0}⟦0⟧{1}"
 - raw: "298,210192,如此……也罢……,500,,"
   splits:
   - split: 2
@@ -2041,11 +1785,11 @@
 - raw: "302,210210,fp公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？,\"1421,1422\",,"
   splits:
   - split: 2
-    text: "公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？"
-    translated: "Young Lord, it has been a long time since we last met. Have you been well? Since our encounter, I have been consumed with thoughts of you. Today, I have gathered my courage to confess my feelings. I wish to be by your side for the rest of my life. Will you accept my sincere affection?"
-  templates:
-  - split: 2
-    template: "fp{0}"
+    text: "{playerFirstName}公子，许久未见，公子一向安好？自相遇以来，小女便对公子魂牵梦绕。今日，小女鼓足勇气，欲向公子袒露心意，愿与公子携手相伴一生，不知公子可否接受小女的一片深情？"
+    translated: "Young Lord {playerFirstName}, it has been a long time since we last met. Have you been well? Since our first encounter, I have been consumed with thoughts of you. Today, I have gathered the courage to confess my feelings. I wish to be by your side for the rest of my life. Would you accept my heartfelt devotion?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "303,210211,小女欢喜至极！愿生死相伴公子，朝朝暮暮，此情不渝……,500,,"
   splits:
   - split: 2
@@ -2081,11 +1825,11 @@
 - raw: "308,210230,fp姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？,\"1441,1442\",,"
   splits:
   - split: 2
-    text: "姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？"
-    translated: "Miss, it has been a long time since we last met. Have you been well? Since our encounter, I have been consumed with thoughts of you. Today, I have gathered my courage to confess my feelings. I wish to be by your side for the rest of my life. Would you accept my sincere affection?"
-  templates:
-  - split: 2
-    template: "fp{0}"
+    text: "{playerFirstName}姑娘，许久未见，姑娘一向可好？自相遇以来，小生便对姑娘魂牵梦绕。今日，小生鼓足勇气，欲向姑娘袒露心意，愿与姑娘携手相伴一生，不知姑娘可否接受小生的一片深情？"
+    translated: "Miss {playerFirstName}, it has been a long time since we last met. Have you been well? Since our encounter, I have been captivated by you. Today, I have gathered my courage to confess my feelings. I wish to be by your side for the rest of my life. Would you accept my sincere affection?"
+    tokens:
+      playerFirstName:
+        source: "fp"
 - raw: "309,210231,小生欢喜至极！愿生死相伴姑娘，朝朝暮暮，此情不渝……,500,,"
   splits:
   - split: 2
@@ -2121,19 +1865,19 @@
 - raw: "314,210250,lp，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？,\"1461,1462\",,"
   splits:
   - split: 2
-    text: "，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？"
-    translated: ", Master came today to see how you have been. I've heard that you seem to be hitting a bottleneck in your cultivation recently, and I am very concerned. The path of cultivation has its ups and downs; do not get anxious. Would you mind telling me what troubles you?"
-  templates:
-  - split: 2
-    template: "lp{0}"
+    text: "{playerLastName}，为师今日前来，是想看看你近来状况。听闻你近日在修炼上似有些瓶颈之感，为师甚是挂心。修炼之路，难免有起有伏，切莫急躁，可否与为师说说，你心中所惑？"
+    translated: "{playerLastName}, Master came today to see how you have been. I heard that you have felt somewhat stuck in your cultivation recently, and I am very concerned. The path of cultivation has its ups and downs; do not be hasty. Can you tell me what troubles you?"
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "315,210251,lp，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。,500,,"
   splits:
   - split: 2
-    text: "，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。"
-    translated: ", The path of cultivation emphasizes gradual progress; one cannot rush it. You are already endowed with exceptional talent. Tell me in detail about the techniques you have cultivated and your process... Through a series of teachings and guidance, the master and disciple grew closer."
-  templates:
-  - split: 2
-    template: "lp{0}"
+    text: "{playerLastName}，修炼一途，讲究循序渐进，急不得。你已是天纵之资，你且将你修炼的功法及过程细细道来，为师帮你一同分析……一番言传身教之下，师徒二人情谊渐浓。"
+    translated: "{playerLastName}, cultivation is a path that requires gradual progress; one cannot rush it. You are already of exceptional talent. Tell me about the techniques you have cultivated and your process in detail, and I will help analyze them for you... After some teaching and guidance, the master and apprentice grew closer."
+    tokens:
+      playerLastName:
+        source: "lp"
 - raw: "316,210252,罢了，为师也不勉强与你。只望你日后若真有难处，莫要硬撑……,500,,"
   splits:
   - split: 2
@@ -2174,31 +1918,13 @@
 - raw: "320,210270,fp[兄||姊]，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知fp[兄||姊]意下如何？,\"1481,1482\",,"
   splits:
   - split: 2
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 1
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 2
-    text: "，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知"
-    translated: ", Your martial arts skills are formidable, and you are known for your righteousness. I would like to join you on your journey through the Jianghu, to travel together as companions and share in the trials of the world. I wonder if you would consider it."
-  - split: 2
-    subIndex: 3
-    text: "兄"
-    translated: "Brother"
-  - split: 2
-    subIndex: 4
-    text: "姊"
-    translated: "Sister"
-  - split: 2
-    subIndex: 5
-    text: "意下如何？"
-    translated: "What do you think?"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}fp[{3}||{4}]{5}"
+    text: "{playerFirstName}{playerTitle}，你武艺高强，为人仗义，实乃吾辈之楷模。在下想与你同闯江湖之路，结伴同行，与你共历江湖风雨，不知{playerFirstName}{playerTitle}意下如何？"
+    translated: "{playerFirstName}{playerTitle}, your martial arts skills are formidable, and you are known for your righteousness. You are truly a role model for us all. I wish to journey with you through the Jianghu, to be companions and share in its trials together. What do you think, {playerFirstName}{playerTitle}?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄||姊]"
 - raw: "321,210271,江湖路漫，有君相伴，纵前路艰险，心亦无惧。愿与君同进退，共生死！,500,,"
   splits:
   - split: 2
@@ -2904,83 +2630,55 @@
 - raw: "397,310010,冤家路窄，不共戴天的a和b一见到彼此便拔刀相向，死斗在一处。,\"310011,310012,310013,310014\",,"
   splits:
   - split: 2
-    text: "冤家路窄，不共戴天的"
-    translated: "Rivals meeting by chance, cannot live under the same sky's"
-  - split: 2
-    subIndex: 1
-    text: "和"
-    translated: "And"
-  - split: 2
-    subIndex: 2
-    text: "一见到彼此便拔刀相向，死斗在一处。"
-    translated: "As soon as they saw each other, they drew their blades and fought to the death."
-  templates:
-  - split: 2
-    template: "{0}a{1}b{2}"
+    text: "冤家路窄，不共戴天的{npcName}和{otherNpcName}一见到彼此便拔刀相向，死斗在一处。"
+    translated: "Rivals meeting in narrow paths, {npcName} and {otherNpcName}, who cannot live under the same sky, drew their blades against each other and fought to the death."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "398,310011,a与b在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。,500,,"
   splits:
   - split: 2
-    text: "与"
-    translated: "With"
-  - split: 2
-    subIndex: 1
-    text: "在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
-    translated: "After dozens of exchanges that left both sides wounded and exhausted, their mutual hatred deepened."
-  templates:
-  - split: 2
-    template: "a{0}b{1}"
+    text: "{npcName}与{otherNpcName}在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    translated: "{npcName} and {otherNpcName} were both severely wounded after dozens of exchanges and had no strength left to continue. Their mutual hatred deepened as well."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "399,310012,因为忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。,500,,"
   splits:
   - split: 2
-    text: "因为忌惮"
-    translated: "Out of fear"
-  - split: 2
-    subIndex: 1
-    text: "武功高强，在江湖中又颇有名望，"
-    translated: "With high martial skill and a reputation to match in the Jianghu,"
-  - split: 2
-    subIndex: 2
-    text: "和"
-    translated: "And"
-  - split: 2
-    subIndex: 3
-    text: "双方决定暂时罢手，相约他日再做了断。"
-    translated: "Both sides decided to call a temporary truce, agreeing to settle the matter another day."
-  templates:
-  - split: 2
-    template: "{0}p{1}a{2}b{3}"
+    text: "因为忌惮{playerName}武功高强，在江湖中又颇有名望，{npcName}和{otherNpcName}双方决定暂时罢手，相约他日再做了断。"
+    translated: "Because they feared {playerName}'s high martial skill and considerable reputation in the Jianghu, {npcName} and {otherNpcName} decided to call a truce for now, agreeing to settle their dispute another day."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "400,310013,双拳难敌四手，a得你出手相助之后，b立刻难以支撑，数招之后负伤逃走。,310020,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-    translated: "Two fists are no match for four hands."
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-    translated: "After receiving your help,"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-    translated: "Soon unable to hold on, they were wounded and fled after several moves."
-  templates:
-  - split: 2
-    template: "{0}a{1}b{2}"
+    text: "双拳难敌四手，{npcName}得你出手相助之后，{otherNpcName}立刻难以支撑，数招之后负伤逃走。"
+    translated: "Two fists can't match four hands; after you came to {npcName}'s aid, {otherNpcName} was quickly overwhelmed and fled after sustaining injuries."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "401,310014,双拳难敌四手，b得你出手相助之后，a立刻难以支撑，数招之后负伤逃走。,500,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-    translated: "Two fists are no match for four hands."
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-    translated: "After receiving your help,"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-    translated: "Soon unable to hold on, they were wounded and fled after several moves."
-  templates:
-  - split: 2
-    template: "{0}b{1}a{2}"
+    text: "双拳难敌四手，{otherNpcName}得你出手相助之后，{npcName}立刻难以支撑，数招之后负伤逃走。"
+    translated: "Two fists can't match four hands; after {otherNpcName} came to assist you, {npcName} quickly struggled and fled with injuries after a few exchanges."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "402,310015,不想你如此黑白不分，竟助纣为虐，要杀要剐，悉听尊便。,\"310024,310025,310026,310027,310028,310029,310030,310031,310032,310033\",,"
   splits:
   - split: 2
@@ -2994,95 +2692,63 @@
 - raw: "404,310017,江湖输赢常有，少侠且宽心……今日之恩，a来日必涌泉相报。,310021,,"
   splits:
   - split: 2
-    text: "江湖输赢常有，少侠且宽心……今日之恩，"
-    translated: "Victory and defeat in Jianghu are common; be at ease, Young Hero......The favor of today,"
-  - split: 2
-    subIndex: 1
-    text: "来日必涌泉相报。"
-    translated: "I will surely repay you with abundant gratitude in the future."
-  templates:
-  - split: 2
-    template: "{0}a{1}"
+    text: "江湖输赢常有，少侠且宽心……今日之恩，{npcName}来日必涌泉相报。"
+    translated: "Victory and defeat are common in Jianghu... Be at ease, Young Hero......The favor you did for me today, {npcName} will surely repay with overflowing gratitude in the future."
+    tokens:
+      npcName:
+        source: "a"
 - raw: "405,410010,冤家路窄，不共戴天的b和a一见到彼此便拔刀相向，死斗在一处。,\"410011,410012,410013,410014\",,"
   splits:
   - split: 2
-    text: "冤家路窄，不共戴天的"
-    translated: "Rivals meeting by chance, cannot live under the same sky's"
-  - split: 2
-    subIndex: 1
-    text: "和"
-    translated: "And"
-  - split: 2
-    subIndex: 2
-    text: "一见到彼此便拔刀相向，死斗在一处。"
-    translated: "As soon as they saw each other, they drew their blades and fought to the death."
-  templates:
-  - split: 2
-    template: "{0}b{1}a{2}"
+    text: "冤家路窄，不共戴天的{otherNpcName}和{npcName}一见到彼此便拔刀相向，死斗在一处。"
+    translated: "Rivals meeting in narrow paths, {otherNpcName} and {npcName}, who cannot live under the same sky, drew their blades against each other and fought to the death."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "406,410011,b与a在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。,500,,"
   splits:
   - split: 2
-    text: "与"
-    translated: "With"
-  - split: 2
-    subIndex: 1
-    text: "在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
-    translated: "After dozens of exchanges that left both sides wounded and exhausted, their mutual hatred deepened."
-  templates:
-  - split: 2
-    template: "b{0}a{1}"
+    text: "{otherNpcName}与{npcName}在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    translated: "After several dozen rounds, {otherNpcName} and {npcName} were both too injured to continue fighting, their mutual hatred deepening."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "407,410012,因为忌惮p武功高强，在江湖中又颇有名望，b和a双方决定暂时罢手，相约他日再做了断。,500,,"
   splits:
   - split: 2
-    text: "因为忌惮"
-    translated: "Out of fear"
-  - split: 2
-    subIndex: 1
-    text: "武功高强，在江湖中又颇有名望，"
-    translated: "With high martial skill and a reputation to match in the Jianghu,"
-  - split: 2
-    subIndex: 2
-    text: "和"
-    translated: "And"
-  - split: 2
-    subIndex: 3
-    text: "双方决定暂时罢手，相约他日再做了断。"
-    translated: "Both sides decided to call a temporary truce, agreeing to settle the matter another day."
-  templates:
-  - split: 2
-    template: "{0}p{1}b{2}a{3}"
+    text: "因为忌惮{playerName}武功高强，在江湖中又颇有名望，{otherNpcName}和{npcName}双方决定暂时罢手，相约他日再做了断。"
+    translated: "Because they feared {playerName}'s high martial skill and considerable reputation in the Jianghu, {otherNpcName} and {npcName} decided to call a truce for now, agreeing to settle their dispute another day."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "408,410013,双拳难敌四手，b得你出手相助之后，a立刻难以支撑，数招之后负伤逃走。,410020,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-    translated: "Two fists are no match for four hands."
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-    translated: "After receiving your help,"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-    translated: "Soon unable to hold on, they were wounded and fled after several moves."
-  templates:
-  - split: 2
-    template: "{0}b{1}a{2}"
+    text: "双拳难敌四手，{otherNpcName}得你出手相助之后，{npcName}立刻难以支撑，数招之后负伤逃走。"
+    translated: "Two fists can't match four hands; after {otherNpcName} came to assist you, {npcName} quickly struggled and fled with injuries after a few exchanges."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "409,410014,双拳难敌四手，a得你出手相助之后，b立刻难以支撑，数招之后负伤逃走。,500,,"
   splits:
   - split: 2
-    text: "双拳难敌四手，"
-    translated: "Two fists are no match for four hands."
-  - split: 2
-    subIndex: 1
-    text: "得你出手相助之后，"
-    translated: "After receiving your help,"
-  - split: 2
-    subIndex: 2
-    text: "立刻难以支撑，数招之后负伤逃走。"
-    translated: "Soon unable to hold on, they were wounded and fled after several moves."
-  templates:
-  - split: 2
-    template: "{0}a{1}b{2}"
+    text: "双拳难敌四手，{npcName}得你出手相助之后，{otherNpcName}立刻难以支撑，数招之后负伤逃走。"
+    translated: "Two fists can't match four hands; after you came to {npcName}'s aid, {otherNpcName} was quickly overwhelmed and fled after sustaining injuries."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
 - raw: "410,410015,不想你如此黑白不分，竟助纣为虐，要杀要剐，悉听尊便。,\"410024,410025,410026,410027,410028,410029,410030,410031,410032,410033\",,"
   splits:
   - split: 2
@@ -3096,15 +2762,11 @@
 - raw: "412,410017,江湖输赢常有，少侠且宽心……今日之恩，b来日必涌泉相报。,410021,,"
   splits:
   - split: 2
-    text: "江湖输赢常有，少侠且宽心……今日之恩，"
-    translated: "Victory and defeat in Jianghu are common; be at ease, Young Hero......The favor of today,"
-  - split: 2
-    subIndex: 1
-    text: "来日必涌泉相报。"
-    translated: "I will surely repay you with abundant gratitude in the future."
-  templates:
-  - split: 2
-    template: "{0}b{1}"
+    text: "江湖输赢常有，少侠且宽心……今日之恩，{otherNpcName}来日必涌泉相报。"
+    translated: "Victory and defeat in Jianghu are common; be at ease, Young Hero......The favor you've shown me today, {otherNpcName} will surely repay with overflowing gratitude."
+    tokens:
+      otherNpcName:
+        source: "b"
 - raw: "413,300,吾等公门中人，自当日夜监察，防患未然，只恨当今庙堂无力，让那等江湖人士公然行走于街市……,673,闲谈   1级缉捕等级触发,"
   splits:
   - split: 2
@@ -3152,84 +2814,36 @@
 - raw: "425,406,哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，[公子||姑娘]便替奴家道出了心中所想……,\"684,685,686\",,"
   splits:
   - split: 2
-    text: "哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，"
-    translated: "Oh dear, I was feeling nervous and just about to suggest we play a game of finger guessing to liven things up,"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 2
-    subIndex: 3
-    text: "便替奴家道出了心中所想……"
-    translated: "...spoke out what was in her heart for me..."
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "哎呀，奴家正觉心怯，刚要说不如划拳热闹一番，{playerTitle}便替奴家道出了心中所想……"
+    translated: "Oh, I was feeling nervous and just about to suggest we play a game of finger guessing when {playerTitle} spoke up for me..."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "426,407,25,689,【对诗成功】这个lips_id不要动，程序写死了,"
 - raw: "427,408,此局是[公子||姑娘]胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……,691,,"
   splits:
   - split: 2
-    text: "此局是"
-    translated: "This game is"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 2
-    subIndex: 3
-    text: "胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……"
-    translated: "Victory, I am truly impressed by your skill at drinking games. This cup... I accept my punishment..."
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此局是{playerTitle}胜了，这划拳之术奴家可佩服得紧呢。此杯……奴家认罚啦……"
+    translated: "This round is your victory, {playerTitle}. I am truly impressed by your skill at drinking games. This cup... I accept my punishment..."
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "428,409,此局奴家虽胜，然以[公子||姑娘]之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？,692,,"
   splits:
   - split: 2
-    text: "此局奴家虽胜，然以"
-    translated: "Though I have won this round, yet I"
-  - split: 2
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 2
-    subIndex: 3
-    text: "之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？"
-    translated: "Such talent and learning cannot be judged by a mere game of drinking dice. Do not worry, let us drink to this cup... how about it?"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此局奴家虽胜，然以{playerTitle}之人材学养，岂是小小划拳可以定论？且莫懊恼，咱们同饮此杯……如何？"
+    translated: "Though I won this round, with your talents and cultivation, {playerTitle}, could a mere game of cups decide that? Worry not, let us drink to it... how does that sound?"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "429,410,此等大恩，无以为报，奴家往后残生，自当相随[公子||姑娘]左右……,688,,"
   splits:
   - split: 2
-    text: "此等大恩，无以为报，奴家往后残生，自当相随"
-    translated: "Such great kindness, I have nothing to offer in return. From now on, the rest of my life shall be at your side."
-  - split: 2
-    subIndex: 1
-    text: "公子"
-    translated: "Young Master"
-  - split: 2
-    subIndex: 2
-    text: "姑娘"
-    translated: "Miss"
-  - split: 2
-    subIndex: 3
-    text: "左右……"
-    translated: "Left and right......"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此等大恩，无以为报，奴家往后残生，自当相随{playerTitle}左右……"
+    translated: "Such great kindness, I have nothing to offer in return. From now on, my remaining life shall be at your {playerTitle}'s side......"
+    tokens:
+      playerTitle:
+        source: "[公子||姑娘]"
 - raw: "430,411,杂役取来热水热桶，干巾帕布，湿气氤氲中，姑娘为你拂擦肩背，耳闻温软笑语，你只觉通体舒泰，紧绷的精神亦渐渐放松……,693,\"洗澡对话，洗澡开头的ID411不变,程序直接写死，后续ID随意\","
   splits:
   - split: 2
@@ -3256,43 +2870,25 @@
 - raw: "437,430,咱们gangName在这mapName可是大名鼎鼎，gangWuxue，阁下可有意加入？,\"757,750\",帮派总管-无帮派对话,"
   splits:
   - split: 2
-    text: "咱们"
-    translated: "Let's"
-  - split: 2
-    subIndex: 1
-    text: "在这"
-    translated: "Here"
-  - split: 2
-    subIndex: 2
-    text: "可是大名鼎鼎，"
-    translated: "But renowned,"
-  - split: 2
-    subIndex: 3
-    text: "，阁下可有意加入？"
-    translated: ", Would you like to join?"
-  templates:
-  - split: 2
-    template: "{0}gangName{1}mapName{2}gangWuxue{3}"
+    text: "咱们{gangName}在这{mapName}可是大名鼎鼎，{gangMartialArts}，阁下可有意加入？"
+    translated: "Our {gangName} is quite famous in this {mapName}, known for {gangMartialArts}. Would you like to join us, sir?"
+    tokens:
+      gangName:
+        source: "gangName"
+      mapName:
+        source: "mapName"
+      gangMartialArts:
+        source: "gangWuxue"
 - raw: "438,431,甚好，既入本帮，咱们便是休戚与共，同进同退，哪日fp[兄弟||妹子]若欲另谋高就，与我知会一声便是。,500,帮派总管-加入帮派,"
   splits:
   - split: 2
-    text: "甚好，既入本帮，咱们便是休戚与共，同进同退，哪日"
-    translated: "Very well, once you join our faction, we will share both joy and sorrow, advance and retreat together. On that day,"
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 3
-    text: "若欲另谋高就，与我知会一声便是。"
-    translated: "If you wish to seek other employment, just let me know."
-  templates:
-  - split: 2
-    template: "{0}fp[{1}||{2}]{3}"
+    text: "甚好，既入本帮，咱们便是休戚与共，同进同退，哪日{playerFirstName}{playerTitle}若欲另谋高就，与我知会一声便是。"
+    translated: "Very well, once you join our faction, we will share both joy and sorrow, advancing and retreating together. If the day comes when {playerFirstName}, {playerTitle}, wishes to seek other opportunities, just let me know."
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "439,432,无妨，无妨。,500,帮派总管-尚需考虑,"
   splits:
   - split: 2
@@ -3301,59 +2897,33 @@
 - raw: "440,433,咱们gangName在这mapName可是大名鼎鼎，gangWuxue，可惜阁下已然另栖他枝，若是有意观光，还请自便。,500,帮派总管-其他帮派对话,"
   splits:
   - split: 2
-    text: "咱们"
-    translated: "Let's"
-  - split: 2
-    subIndex: 1
-    text: "在这"
-    translated: "Here"
-  - split: 2
-    subIndex: 2
-    text: "可是大名鼎鼎，"
-    translated: "But renowned,"
-  - split: 2
-    subIndex: 3
-    text: "，可惜阁下已然另栖他枝，若是有意观光，还请自便。"
-    translated: ", Unfortunately, you have already moved on. If you wish to sightsee, please feel free to do so."
-  templates:
-  - split: 2
-    template: "{0}gangName{1}mapName{2}gangWuxue{3}"
+    text: "咱们{gangName}在这{mapName}可是大名鼎鼎，{gangMartialArts}，可惜阁下已然另栖他枝，若是有意观光，还请自便。"
+    translated: "Our {gangName} is renowned in this {mapName}, known for {gangMartialArts}. Unfortunately, you have already aligned yourself with another faction. If you wish to visit, please feel free to do so."
+    tokens:
+      gangName:
+        source: "gangName"
+      mapName:
+        source: "mapName"
+      gangMartialArts:
+        source: "gangWuxue"
 - raw: "441,434,fp[兄弟||妹子]此来何事？,\"751,500\",帮派总管-本帮派对话,"
   splits:
   - split: 2
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 1
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 2
-    text: "此来何事？"
-    translated: "What brings you here?"
-  templates:
-  - split: 2
-    template: "fp[{0}||{1}]{2}"
+    text: "{playerFirstName}{playerTitle}此来何事？"
+    translated: "What brings you, {playerFirstName}{playerTitle}, here?"
+    tokens:
+      playerFirstName:
+        source: "fp"
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "442,435,此事虽无不可，但若离了本帮，[兄弟||妹子]先前为本帮所作贡献，可要一笔勾销了。,\"752,753\",帮派总管-退出帮派,"
   splits:
   - split: 2
-    text: "此事虽无不可，但若离了本帮，"
-    translated: "Though there's nothing wrong with this, if we leave our own sect,"
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 3
-    text: "先前为本帮所作贡献，可要一笔勾销了。"
-    translated: "All the contributions I made to the sect may now be erased."
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此事虽无不可，但若离了本帮，{playerTitle}先前为本帮所作贡献，可要一笔勾销了。"
+    translated: "Although there is nothing wrong with this, once you leave our faction, the contributions {playerTitle} made for our faction will be nullified."
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "443,436,人各有志，不可强求……,500,帮派总管-确认退出,"
   splits:
   - split: 2
@@ -3367,23 +2937,11 @@
 - raw: "445,438,帮里眼下正有几件棘手事务需办，[兄弟||妹子]，可有闲暇？,\"754,500\",帮派执事-本帮派对话,"
   splits:
   - split: 2
-    text: "帮里眼下正有几件棘手事务需办，"
-    translated: "The sect has several urgent matters to attend to at the moment."
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 3
-    text: "，可有闲暇？"
-    translated: ", Do you have some free time?"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "帮里眼下正有几件棘手事务需办，{playerTitle}，可有闲暇？"
+    translated: "The guild has a few pressing matters to attend to, {playerTitle}. Do you have some free time?"
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "446,439,此间专理本帮名簿内务，阁下若是有事，不妨去寻总管相谈。,500,帮派师爷-无帮派/其他帮派对话,"
   splits:
   - split: 2
@@ -3402,51 +2960,19 @@
 - raw: "449,442,此间一应物事，皆是替帮中弟兄所备，[兄弟||妹子]若是有意，不妨瞧瞧。,\"756,500\",库房管事-本帮派对话,"
   splits:
   - split: 2
-    text: "此间一应物事，皆是替帮中弟兄所备，"
-    translated: "All these items have been prepared for my fellow brothers in the guild."
-  - split: 2
-    subIndex: 1
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 2
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 3
-    text: "若是有意，不妨瞧瞧。"
-    translated: "If you're interested, take a look"
-  templates:
-  - split: 2
-    template: "{0}[{1}||{2}]{3}"
+    text: "此间一应物事，皆是替帮中弟兄所备，{playerTitle}若是有意，不妨瞧瞧。"
+    translated: "All these items have been prepared for my fellow brothers in the guild; if {playerTitle} is interested, feel free to take a look."
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "450,443,[兄弟||妹子]近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若[兄弟||妹子]有意在本帮提升位阶，不妨前往一观。,500,升阶,"
   splits:
   - split: 2
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 1
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 2
-    text: "近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若"
-    translated: "Recently, you have contributed much to our faction, and I have left an important matter with the guild officers. If"
-  - split: 2
-    subIndex: 3
-    text: "兄弟"
-    translated: "Brother"
-  - split: 2
-    subIndex: 4
-    text: "妹子"
-    translated: "Sis"
-  - split: 2
-    subIndex: 5
-    text: "有意在本帮提升位阶，不妨前往一观。"
-    translated: "If you wish to advance in this sect, feel free to take a look around."
-  templates:
-  - split: 2
-    template: "[{0}||{1}]{2}[{3}||{4}]{5}"
+    text: "{playerTitle}近日对本帮贡献颇多，我已将一件紧要之事放在帮会执事之处，若{playerTitle}有意在本帮提升位阶，不妨前往一观。"
+    translated: "{playerTitle} has been contributing greatly to our faction recently. I have placed an important matter at the faction officer's office. If {playerTitle} wishes to advance in rank within this faction, you might want to take a look."
+    tokens:
+      playerTitle:
+        source: "[兄弟||妹子]"
 - raw: "451,444,7,500,帮派护卫,"
 - raw: "452,,,,,"
 - raw: "453,,,,,"
