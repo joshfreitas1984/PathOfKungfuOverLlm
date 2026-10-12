@@ -2937,14 +2937,14 @@
   - split: 2
     text: "哈哈，今日我"
     translated: "Ha, today I"
-    qcRejectedCorrection: "Ha, to receive such a response from you, {playerFirstName}{playerTitle}, is truly gratifying. From now on, with our Sworn Bond, we will surely achieve great things in this world!"
-    qcFailureReason: " Restore `{0}` to the translation, as it was incorrectly removed."
+    qcReviewedText: "Ha, today I {0} To receive such a response from you, {playerFirstName}{playerTitle}, is truly gratifying. From now on, with our Sworn Bond, we will surely achieve great things in this world!"
+    qcTranslated: "Ha, today I {0} to receive such a response from you, {playerFirstName}{playerTitle}, is truly gratifying. From now on, with our Sworn Bond, we will surely achieve great things in this world!"
+    qcStatus: Corrected
+    flaggedForQcReview: true
     qcQualityScore: 0
     qcDefectCategory: HardToParseSeam
     qcDefectCategories:
     - HardToParseSeam
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "Ha, today I {0} To receive such a response from you, {playerFirstName}{playerTitle}, is truly gratifying. From now on, with our Sworn Bond, we will surely achieve great things in this world!"
   - split: 2
     subIndex: 1
     text: "得{playerFirstName}{playerTitle}这般回应，真是快慰平生。今后你我金兰齐心，定能在这世间闯出一番作为！"

@@ -484,14 +484,13 @@
   - split: 13
     text: "发现了仇家"
     translated: "Found the enemy clan"
-    qcRejectedCorrection: "<color=#E64D00>{npcName}</color> found the whereabouts of the enemy clan, <color=#E64D00>{playerName}</color>, drew a blade from afar and charged towards <color=#E64D00>{playerName}</color>, fighting with all their might."
-    qcFailureReason: "Missing required token '{playerName}'."
-    qcQualityScore: 0
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Found the enemy clan<color=#E64D00>{playerName}</color>Their whereabouts, drawing a blade from afar and charging towards<color=#E64D00>{playerName}</color>, With<color=#E64D00>{playerName}</color>Fought with all their might"
+    qcTranslated: "<color=#E64D00>{npcName}</color> discovered the whereabouts of the enemy clan, <color=#E64D00>{playerName}</color>, drew a blade from afar and charged at <color=#E64D00>{playerName}</color>, fighting <color=#E64D00>{playerName}</color> with all their might."
+    qcStatus: Corrected
+    qcQualityScore: 92
     qcDefectCategory: HardToParseSeam
     qcDefectCategories:
     - HardToParseSeam
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "<color=#E64D00>{npcName}</color>Found the enemy clan<color=#E64D00>{playerName}</color>Their whereabouts, drawing a blade from afar and charging towards<color=#E64D00>{playerName}</color>, With<color=#E64D00>{playerName}</color>Fought with all their might"
   - split: 13
     subIndex: 1
     text: "的行踪，从远处拔出刀冲向"

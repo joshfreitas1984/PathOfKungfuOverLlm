@@ -1248,15 +1248,11 @@
     qcDefectCategory: None
   - split: 19
     text: "青青子衿，悠悠我心。"
-    translated: "Green your collar, my heart longs"
-    qcRejectedCorrection: "Green is your collar, my heart yearns"
-    qcFailureReason: "Glossary term '悠悠我心' (expected 'My Heart Longs') is missing."
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "Green your collar, my heart longs"
+    translated: "Green is your collar, my heart longs"
+    qcReviewedText: "Green is your collar, my heart longs"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "72,909111,食盒,任务,1001,2,0,0,0,1,False,-1,0,0,1,0,0,0,触发XX任务成功,装着些寻常酒菜，无甚稀奇。,item/901015,0,0,0,0"
   splits:
   - split: 2

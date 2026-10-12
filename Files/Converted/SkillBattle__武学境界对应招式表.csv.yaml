@@ -1716,13 +1716,14 @@
   - split: 2
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
+    qcReviewedText: "Mojia Armor Guard_Close combat"
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
     qcRejectedCorrection: "Mohist Armored Guard Melee"
     qcFailureReason: "Glossary term '墨家甲卫_近战' (expected 'Mohist Armored Guard (Melee)') is missing."
-    qcQualityScore: 0
-    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - OtherNamedDefect
-    qcRuleCheckFailureCount: 1
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Mojia Armor Guard_Close combat"
   - split: 2
     subIndex: 1
@@ -1802,13 +1803,14 @@
   - split: 2
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
-    qcRejectedCorrection: "Mohist Armored Guard_Ranged"
+    qcReviewedText: "Mojia Armor Guard_Remote"
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "Mohist Armored Guard Ranged"
     qcFailureReason: "Glossary term '墨家甲卫_远程' (expected 'Mohist Armored Guard (Ranged)') is missing."
-    qcQualityScore: 0
-    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - OtherNamedDefect
-    qcRuleCheckFailureCount: 1
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Mojia Armor Guard_Remote"
   - split: 2
     subIndex: 1

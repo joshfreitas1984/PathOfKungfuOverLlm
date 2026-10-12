@@ -432,14 +432,13 @@
         source: "<fName>"
       playerTitle:
         source: "<大哥||姐姐>"
-    qcRejectedCorrection: "If......{playerTitle} {firstName} ever have to leave the village one day, please......please come and see me again, so I can......so I can see you off."
-    qcFailureReason: "<fName>"
-    qcQualityScore: 0
+    qcReviewedText: "If......{playerTitle} {firstName} ever have to leave the village one day, please......please come and see me again, also......to see me off for {playerTitle} {firstName}."
+    qcTranslated: "If......{playerTitle} {firstName} ever have to leave the village one day, please......please come and see me again, so I can......so I can see you off for {playerTitle} {firstName}."
+    qcStatus: Corrected
+    qcQualityScore: 95
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-    qcRuleCheckFailureCount: 1
-    qcRuleCheckFailureBaseline: "If......{playerTitle} {firstName} ever have to leave the village one day, please......please come and see me again, also......to see me off for {playerTitle} {firstName}."
 - raw: "3,81000017001,4,[0].talks{json}[10].options{json}[0].name,“一言为定。”"
   splits:
   - split: 4
@@ -35724,13 +35723,14 @@
         source: "<fName>"
       playerTitle:
         source: "<少侠||姑娘>"
+    qcReviewedText: "So you want to deal with Lian Mou along with {firstName}? Very well, Lian Mou admits his guilt; these recent incidents of kidnapping children were all at my orders. How will you respond, {playerTitle}?"
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
     qcRejectedCorrection: "So you want to deal with {firstName}{playerTitle} along with Lian Mou? Very well, Lian Mou admits his guilt; these recent incidents of kidnapping children were all at my orders. How will you respond, {playerTitle}?"
     qcFailureReason: "<male||female>"
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - MeaningReversal
-    qcRuleCheckFailureCount: 1
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "So you want to deal with Lian Mou along with {firstName}? Very well, Lian Mou admits his guilt; these recent incidents of kidnapping children were all at my orders. How will you respond, {playerTitle}?"
 - raw: "198,240001004001,4,[0].talks{json}[43].name,连天云"
   splits:
@@ -247993,13 +247993,14 @@
   - split: 4
     text: "不错，他倒也有些本事，在壁城水寨混到了供奉，假传壁城水寨命令，让那东天霸备齐火油蒙船，趁乱而入。"
     translated: "Not bad; he has some skills. He managed to become a patron at the Bicheng Water Stronghold and falsely issued orders in their name, instructing the East Heaven Tyrant to prepare oil and cover the ships, taking advantage of the chaos to enter."
+    qcReviewedText: "Not bad; he has some skills. He managed to become a patron at the Bicheng Water Stronghold and falsely issued orders in their name, instructing the East Heaven Tyrant to prepare oil and cover the ships, taking advantage of the chaos to enter."
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
     qcRejectedCorrection: "Not bad; he has some skills. He managed to become a供奉 at the Bicheng Water Stronghold and falsely issued orders in their name, instructing the East Heaven Tyrant to prepare oil and cover the ships, taking advantage of the chaos to enter."
     qcFailureReason: " If your prior translation includes Chinese, output English only. Scan the last translation for Chinese text, cross-check with the original Chinese from the first user prompt, and translate all remaining Chinese into fluent, natural English."
-    qcQualityScore: 0
-    qcDefectCategory: DomainTerm
     qcDefectCategories:
-    - DomainTerm
-    qcRuleCheckFailureCount: 1
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Not bad; he has some skills. He managed to become a patron at the Bicheng Water Stronghold and falsely issued orders in their name, instructing the East Heaven Tyrant to prepare oil and cover the ships, taking advantage of the chaos to enter."
 - raw: "1218,130003201009,4,[0].talks{json}[7].name,肖婆婆"
   splits:
@@ -288534,13 +288535,14 @@
   - split: 4
     text: "“这……走罢。”"
     translated: "Let's go, then"
+    qcReviewedText: "Let's go, then"
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
     qcRejectedCorrection: "L-let's go, then"
     qcFailureReason: "A stutter was added, but the source text contains no stutter."
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
     qcDefectCategories:
-    - DroppedStutter
-    qcRuleCheckFailureCount: 1
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Let's go, then"
 - raw: "1415,15000503001,5,[0].talks{json}[0].name,保长"
   splits:

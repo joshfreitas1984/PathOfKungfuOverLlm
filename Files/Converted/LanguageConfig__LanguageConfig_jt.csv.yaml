@@ -10038,14 +10038,14 @@
   - split: 2
     text: "确认退出"
     translated: "Confirm Exit"
-    qcRejectedCorrection: "Confirm Exit <Yinyue Tower> Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit <Yinyue Tower>?"
+    qcReviewedText: "Confirm Exit <Yinyue Tower>Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit<Yinyue Tower>？"
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "Confirm Exit <Yinyue Tower>? Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit <Yinyue Tower>?"
     qcFailureReason: " Restore `<隐月楼>` to the translation, as it was incorrectly removed. `<Yinyue Tower>` appears in the result but not in the original text."
-    qcQualityScore: 0
-    qcDefectCategory: HardToParseSeam
     qcDefectCategories:
-    - HardToParseSeam
-    - OtherNamedDefect
-    qcRuleCheckFailureCount: 1
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Confirm Exit <Yinyue Tower>Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit<Yinyue Tower>？"
   - split: 2
     subIndex: 1
