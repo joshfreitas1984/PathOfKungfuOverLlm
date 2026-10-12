@@ -394,7 +394,7 @@
     text: "江湖规矩，点到为止。"
     translated: "The rules of the Jianghu, stop at the limit."
     qcReviewedText: "The rules of the Jianghu, stop at the limit."
-    qcTranslated: "Jianghu rules: stop at the limit."
+    qcTranslated: "Jianghu rules: stop at the limit"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -1075,7 +1075,7 @@
     text: "挑战胜利，你获得"
     translated: "Challenge victory, you obtain"
     qcReviewedText: "Challenge victory, you obtain {0} Ownership of"
-    qcTranslated: "Challenge victory, you gain ownership of {0}."
+    qcTranslated: "Challenge victory, you gain ownership of {0}"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -1315,7 +1315,7 @@
     text: "已取消对"
     translated: "Cancelled for"
     qcReviewedText: "Cancelled for {1}-{2} Guard"
-    qcTranslated: "Guarding of {1}-{2} has been cancelled."
+    qcTranslated: "Guarding of {1}-{2} has been cancelled"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -3428,7 +3428,7 @@
     text: "【任务描述】"
     translated: "【[Task Description]】"
     qcReviewedText: "【[Task Description]】"
-    qcTranslated: "[Task Description]"
+    qcTranslated: "【[Task Description]】"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3440,7 +3440,7 @@
     text: "【任务奖励】"
     translated: "【[Task Reward]】"
     qcReviewedText: "【[Task Reward]】"
-    qcTranslated: "[Task Reward]"
+    qcTranslated: "【[Task Reward]】"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -4350,7 +4350,7 @@
     text: "撤销了对"
     translated: "Cancelled the action on"
     qcReviewedText: "{0} Cancelled the action on {1} Wanted notice"
-    qcTranslated: "{0} rescinded the kill order on {1}."
+    qcTranslated: "{0} rescinded the kill order on {1}"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -5024,7 +5024,7 @@
     text: "成功获得"
     translated: "Successfully obtained"
     qcReviewedText: "Successfully obtained {0} Of your Gang's ownership"
-    qcTranslated: "Successfully obtained ownership of {0}'s Gang."
+    qcTranslated: "Successfully obtained ownership of {0}'s Gang"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -5044,7 +5044,7 @@
     text: "丢失"
     translated: "Lost"
     qcReviewedText: "Lost {0} Of your Gang's ownership"
-    qcTranslated: "Lost ownership of {0} Gang."
+    qcTranslated: "Lost ownership of {0} Gang"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -5063,7 +5063,7 @@
     text: "占领"
     translated: "Occupation"
     qcReviewedText: "Occupation {0} Of {1}。"
-    qcTranslated: "Occupy {0}'s {1}."
+    qcTranslated: "Occupy {0}'s {1}"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -5637,7 +5637,7 @@
     text: "把钱都拿出来"
     translated: "Put all the money out"
     qcReviewedText: "Put all the money out({0})。"
-    qcTranslated: "Put all the money out({0})."
+    qcTranslated: "Put all the money out({0})"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -7393,14 +7393,11 @@
   splits:
   - split: 2
     text: "一"
-    translated: "\\n"
-    qcReviewedText: "\\n"
-    qcTranslated: "One"
-    qcStatus: Corrected
+    translated: "One"
+    qcReviewedText: "One"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "695,XiaoHaoSC_2,二"
   splits:
   - split: 2
@@ -7686,7 +7683,7 @@
     text: "暂未支持将小键盘设置为快捷按键"
     translated: "Keyboard shortcut settings for the numpad are not yet supported."
     qcReviewedText: "Keyboard shortcut settings for the numpad are not yet supported.:{0}"
-    qcTranslated: "Setting the numpad as a hotkey is not yet supported.:{0}"
+    qcTranslated: "Setting the numpad as a hotkey is not yet supported:{0}"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -9004,7 +9001,7 @@
     text: "需要在"
     translated: "Needs to be done by"
     qcReviewedText: "Needs to be done by“{0}”Use;"
-    qcTranslated: "Needs to be used in \"{0}\";"
+    qcTranslated: "Needs to be used in {0};"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -9398,14 +9395,11 @@
   splits:
   - split: 2
     text: "一"
-    translated: "\\n"
-    qcReviewedText: "\\n"
-    qcTranslated: "One"
-    qcStatus: Corrected
+    translated: "One"
+    qcReviewedText: "One"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "908,betShopTip102,二"
   splits:
   - split: 2
@@ -10041,7 +10035,7 @@
     qcReviewedText: "Confirm Exit <Yinyue Tower>Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit<Yinyue Tower>？"
     qcStatus: FailedValidation
     flaggedForQcReview: true
-    qcRejectedCorrection: "Confirm Exit <Yinyue Tower>? Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit <Yinyue Tower>?"
+    qcRejectedCorrection: "Confirm Exit <Yinyue Tower> Afterward, if there is a current Assassin's mission in progress, it will be directly interrupted!\\nConfirm if you want to exit <Yinyue Tower>?"
     qcFailureReason: " Restore `<隐月楼>` to the translation, as it was incorrectly removed. `<Yinyue Tower>` appears in the result but not in the original text."
     qcDefectCategories:
     - Unknown
@@ -10171,7 +10165,7 @@
     text: "你已成功加入"
     translated: "You have successfully joined"
     qcReviewedText: "You have successfully joined<{0}>。"
-    qcTranslated: "You have successfully joined<{0}>."
+    qcTranslated: "You have successfully joined<{0}>"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -10186,7 +10180,7 @@
     text: "你已退出"
     translated: "You have logged out"
     qcReviewedText: "You have logged out<{0}>。"
-    qcTranslated: "You have left <{0}>."
+    qcTranslated: "You have left <{0}>"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect

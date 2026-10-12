@@ -1826,7 +1826,7 @@
     text: "真气上限"
     translated: "Max True Qi"
     qcReviewedText: "Max True Qi+1。"
-    qcTranslated: "Max True Qi+1."
+    qcTranslated: "Max True Qi+1"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -2004,7 +2004,7 @@
     text: "真气上限"
     translated: "Max True Qi"
     qcReviewedText: "Max True Qi+1。"
-    qcTranslated: "Max True Qi+1."
+    qcTranslated: "Max True Qi+1"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -2417,15 +2417,11 @@
   splits:
   - split: 6
     text: "受到伤害时，有25%概率"
-    translated: "There is a 25% chance of being damaged when taking damage,"
-    qcReviewedText: "There is a 25% chance of being damaged when taking damage,"
-    qcTranslated: "There is a 25% chance of dealing damage when taking damage,"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "When taking damage, there is a 25% chance to"
+    qcReviewedText: "When taking damage, there is a 25% chance to"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "273,1,1,饮情蛊离怨无缘1,饮情蛊,离怨无缘,饮情蛊吸血属性,201170700,1,0,0,,1,1,\"20117070,1\",0,-1,20117070,\",1\",,,,"
   splits:
   - split: 6
@@ -5712,7 +5708,7 @@
     text: "提升气血回复属性10%。"
     translated: "Increase Lifeforce recovery and restore Attributes by 10%."
     qcReviewedText: "Increase Lifeforce recovery and restore Attributes by 10%."
-    qcTranslated: "Increase Lifeforce recovery Attributes by 10%."
+    qcTranslated: "Increase Lifeforce recovery Attributes by 10%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal

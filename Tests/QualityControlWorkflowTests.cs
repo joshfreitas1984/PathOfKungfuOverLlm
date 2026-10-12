@@ -25,6 +25,15 @@ public class QualityControlWorkflowTests
         await FileOutputWorkflowTests.PackageFinalTranslation();
     }
 
+    // Deliberate cleanup run: loops review + rule check until nothing is left to review or reset, or 5 iterations.
+    // Costs more than a normal pass, so use it after a broad rule change, not as the default entry point.
+    [Fact(DisplayName = "2b. RunQualityControlBruteForce")]
+    public async Task RunQualityControlBruteForce()
+    {
+        await QualityControlWorkflow.RunBruteForce(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, hooks: GameFileHandling.Hooks);
+        await FileOutputWorkflowTests.PackageFinalTranslation();
+    }
+
     // Run after a glossary or config change so stored corrections pick up the same rule changes as Translated.
     [Fact(DisplayName = "3. ApplyRulesToQCReview")]
     public async Task ApplyRulesToQCReview()

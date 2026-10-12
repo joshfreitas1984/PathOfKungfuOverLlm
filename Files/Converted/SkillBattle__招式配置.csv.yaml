@@ -20823,41 +20823,41 @@
   - split: 23
     text: "被动招式"
     translated: "Passive Move"
-    qcReviewedText: "Passive Move：When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies,Applies an additional 1 stacks of [Burn]. Each stack causes the target to lose 1% Lifeforce every 1 stacks. This effect can stack up to 3 times and lasts for 3 seconds."
-    qcTranslated: "Passive Move: When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies, applies an additional 1 stacks of [Burn]. Each stack causes the target to lose 1% Lifeforce every 1 stacks. This effect can stack up to 3 times and lasts for 3 seconds."
-    qcStatus: Corrected
-    qcQualityScore: 95
+    qcRejectedCorrection: "Passive Move: When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy, it additionally applies 1 stacks of [Burn]. Every 1 stacks make the target lose 3% of their Lifeforce. This effect can stack up to 3 times and lasts for {4} seconds."
+    qcFailureReason: " `{4}` appears in the result but not in the original text."
+    qcQualityScore: 0
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
+    qcRuleCheckFailureCount: 2
+    qcRuleCheckFailureBaseline: "Passive Move：When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy,It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
   - split: 23
     subIndex: 1
     text: "施展【扫岳荡丘】招式对敌人造成伤害时"
-    translated: "When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies"
+    translated: "When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy"
   - split: 23
     subIndex: 2
     text: "额外附加1层【灼烧】效果，每叠加1层会使目标流失1%的气血，该效果可以叠加3层效果持续时间3秒。"
-    translated: "Applies an additional 1 stacks of [Burn]. Each stack causes the target to lose 1% Lifeforce every 1 stacks. This effect can stack up to 3 times and lasts for 3 seconds."
+    translated: "It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
-    qcReviewedText: "Passive Move：When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies,Add an additional 11 layer of the 【Burn】 effect; each stack causes the target to lose 1% of their Lifeforce. This effect can stack up to 3 layers and lasts for 3 seconds."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Passive Move: When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies, add an additional 11 layer of the 【Burn】 effect; each stack causes the target to lose 3% of their Lifeforce. This effect can stack up to 3 layers and lasts for {4} seconds."
+    qcRejectedCorrection: "Passive Move: When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy, it additionally applies 1 stacks of [Burn]. Every 1 stacks make the target lose 3% of their Lifeforce. This effect can stack up to 3 times and lasts for {4} seconds."
     qcFailureReason: " `{4}` appears in the result but not in the original text."
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Passive Move：When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies,Add an additional 11 layer of the 【Burn】 effect; each stack causes the target to lose 1% of their Lifeforce. This effect can stack up to 3 layers and lasts for 3 seconds."
+    - GarbledNumber
+    qcRuleCheckFailureCount: 2
+    qcRuleCheckFailureBaseline: "Passive Move：When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy,It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
   - split: 24
     subIndex: 1
     text: "施展【扫岳荡丘】招式对敌人造成伤害时"
-    translated: "When performing the move Sweeping Peaks, Razing Hills to deal damage to enemies"
+    translated: "When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy"
   - split: 24
     subIndex: 2
     text: "额外附加1层【灼烧】效果，每叠加1层会使目标流失1%的气血，该效果可以叠加3层效果持续时间3秒。"
-    translated: "Add an additional 11 layer of the 【Burn】 effect; each stack causes the target to lose 1% of their Lifeforce. This effect can stack up to 3 layers and lasts for 3 seconds."
+    translated: "It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
   templates:
   - split: 23
     template: "{0}：{1},{2}"
@@ -34004,7 +34004,7 @@
     text: "被动招式"
     translated: "Passive Move"
     qcReviewedText: "Passive Move：Max Stamina increased by 5"
-    qcTranslated: "Passive Move: Max Stamina increased by 5."
+    qcTranslated: "Passive Move: Max Stamina increased by 5"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -34018,7 +34018,7 @@
     text: "被动招式"
     translated: "Passive Move"
     qcReviewedText: "Passive Move：Max Stamina increased by 5"
-    qcTranslated: "Passive Move: Max Stamina increased by 5."
+    qcTranslated: "Passive Move: Max Stamina increased by 5"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -34221,33 +34221,25 @@
   - split: 23
     text: "被动招式"
     translated: "Passive Move"
-    qcReviewedText: "Passive Move：Additional reduction in Crit Damage resistance Attributes by 15%."
-    qcTranslated: "Passive Move: Additional increase in Crit Damage resistance Attributes by 15%."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcReviewedText: "Passive Move：Additionally increases the Crit Damage Reduction Attribute by 15%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 23
     subIndex: 1
     text: "额外提升暴击伤害减免属性15%。"
-    translated: "Additional reduction in Crit Damage resistance Attributes by 15%."
+    translated: "Additionally increases the Crit Damage Reduction Attribute by 15%."
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
-    qcReviewedText: "Passive Move：Additional reduction in Crit Damage resistance Attributes by 15%."
-    qcTranslated: "Passive Move: Additional increase in Crit Damage resistance Attributes by 15%."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcReviewedText: "Passive Move：Additionally increases the Crit Damage Reduction Attribute by 15%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 24
     subIndex: 1
     text: "额外提升暴击伤害减免属性15%。"
-    translated: "Additional reduction in Crit Damage resistance Attributes by 15%."
+    translated: "Additionally increases the Crit Damage Reduction Attribute by 15%."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -34458,7 +34450,7 @@
     text: "被动招式"
     translated: "Passive Move"
     qcReviewedText: "Passive Move：Max Stamina increased by 15"
-    qcTranslated: "Passive Move: Max Stamina increased by 15."
+    qcTranslated: "Passive Move: Max Stamina increased by 15"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -34600,7 +34592,7 @@
     text: "被动招式"
     translated: "Passive Move"
     qcReviewedText: "Passive Move：Max True Qi+1。"
-    qcTranslated: "Passive Move: Max True Qi +1."
+    qcTranslated: "Passive Move: Max True Qi +1"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -34614,7 +34606,7 @@
     text: "被动招式"
     translated: "Passive Move"
     qcReviewedText: "Passive Move：Max True Qi+1。"
-    qcTranslated: "Passive Move: Max True Qi +1."
+    qcTranslated: "Passive Move: Max True Qi +1"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -35045,7 +35037,7 @@
     text: "被动招式"
     translated: "Passive Move"
     qcReviewedText: "Passive Move：Max True Qi+1。"
-    qcTranslated: "Passive Move: Max True Qi +1."
+    qcTranslated: "Passive Move: Max True Qi +1"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -48447,7 +48439,7 @@
     text: "被动技能"
     translated: "Passive Skill"
     qcReviewedText: "Passive Skill：Critical Hit increase by 5%"
-    qcTranslated: "Passive Skill: Critical Hit increased by 5%."
+    qcTranslated: "Passive Skill: Critical Hit increased by 5%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -48667,33 +48659,31 @@
   - split: 23
     text: "被动技能"
     translated: "Passive Skill"
-    qcReviewedText: "Passive Skill：When entering combat, increase your own 10% Lifesteal Attributes."
-    qcTranslated: "Passive Skill: When entering combat, increase your own 10% Lifesteal Attributes."
+    qcReviewedText: "Passive Skill：When entering combat, increases your Lifesteal Attribute by 10%."
+    qcTranslated: "Passive Skill: When entering combat, increases your Lifesteal Attributes by 10%."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 23
     subIndex: 1
     text: "进入战斗时，提升自身10%吸血属性。"
-    translated: "When entering combat, increase your own 10% Lifesteal Attributes."
+    translated: "When entering combat, increases your Lifesteal Attribute by 10%."
   - split: 24
     text: "被动技能"
     translated: "Passive Skill"
-    qcReviewedText: "Passive Skill：When entering combat, increase your own 10% Lifesteal Attributes."
-    qcTranslated: "Passive Skill: When entering combat, increase your own 10% Lifesteal Attributes."
+    qcReviewedText: "Passive Skill：When entering combat, increases your Lifesteal Attribute by 10%."
+    qcTranslated: "Passive Skill: When entering combat, increases your Lifesteal Attributes by 10%."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 24
     subIndex: 1
     text: "进入战斗时，提升自身10%吸血属性。"
-    translated: "When entering combat, increase your own 10% Lifesteal Attributes."
+    translated: "When entering combat, increases your Lifesteal Attribute by 10%."
   templates:
   - split: 23
     template: "{0}：{1}"
@@ -53757,14 +53747,12 @@
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
     qcReviewedText: "Mojia Armor Guard_Close combat"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Mohist Armored Guard Melee"
-    qcFailureReason: "Glossary term '墨家甲卫_近战' (expected 'Mohist Armored Guard (Melee)') is missing."
+    qcTranslated: "Mohist Armor Guard_Close combat"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Close combat"
+    - UntranslatedPinyin
   - split: 2
     subIndex: 1
     text: "近战"
@@ -53843,14 +53831,12 @@
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
     qcReviewedText: "Mojia Armor Guard_Close combat"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Mohist Armored Guard Melee"
-    qcFailureReason: "Glossary term '墨家甲卫_近战' (expected 'Mohist Armored Guard (Melee)') is missing."
+    qcTranslated: "Mohist Armor Guard_Close combat"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Close combat"
+    - UntranslatedPinyin
   - split: 2
     subIndex: 1
     text: "近战"
@@ -54262,14 +54248,12 @@
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
     qcReviewedText: "Mojia Armor Guard_Remote"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Mohist Armored Guard Ranged"
-    qcFailureReason: "Glossary term '墨家甲卫_远程' (expected 'Mohist Armored Guard (Ranged)') is missing."
+    qcTranslated: "Mohist Armor Guard_Remote"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Remote"
+    - UntranslatedPinyin
   - split: 2
     subIndex: 1
     text: "远程"

@@ -410,7 +410,7 @@
     text: "侠溪"
     translated: "Xiaxi River"
     qcReviewedText: "Xiaxi River"
-    qcTranslated: "Xiàxī"
+    qcTranslated: "Xiaxi"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -438,15 +438,11 @@
   splits:
   - split: 2
     text: "经渠"
-    translated: "Jingqiu"
-    qcReviewedText: "Jingqiu"
-    qcTranslated: "Jingqu"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Jingqu"
+    qcReviewedText: "Jingqu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "54,1110301,玉环,I2,气血上限+120,,,,"
   splits:
   - split: 2

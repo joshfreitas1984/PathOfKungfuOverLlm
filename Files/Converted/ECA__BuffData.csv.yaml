@@ -1873,15 +1873,11 @@
     qcDefectCategory: None
   - split: 10
     text: "气血恢复属性提升5%"
-    translated: "Lifeforce Recovery, Attributes increased by 5%"
-    qcReviewedText: "Lifeforce Recovery, Attributes increased by 5%"
-    qcTranslated: "Lifeforce Recovery Attributes increased by 5%"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Lifeforce Recovery Attribute increased by 5%"
+    qcReviewedText: "Lifeforce Recovery Attribute increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "110,太素灵枢篇,盈血BUFF：增加气血恢复治疗量,修改气血回复属性,被动,2010604,20106040,1,fightbuff/1027,净辟苏息,【盈血】：额外增加气血恢复属性,20106040,301,5,1,False,False,False,\"气血恢复,(内息+5)*净辟苏息系数\",True,fightbuff/,1027,,"
   splits:
   - split: 9
@@ -3688,15 +3684,11 @@
     qcDefectCategory: None
   - split: 10
     text: "暴击伤减免属性增加15%"
-    translated: "Critical Hit Damage Reduction Attribute Increase by 15%"
-    qcReviewedText: "Critical Hit Damage Reduction Attribute Increase by 15%"
-    qcTranslated: "Critical Hit Damage Reduction Attribute Increased by 15%"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 50
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Crit Damage Reduction Attribute increased by 15%"
+    qcReviewedText: "Crit Damage Reduction Attribute increased by 15%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "209,金钟护体罩,,降低气血EFF,被动,2011307,20113070,2,,菩提种,1层金钟罩储值,,,-1,1,False,False,False,\"2011301,8,201130700\",True,fightbuff/,#N/A,,"
   splits:
   - split: 9
@@ -12299,15 +12291,11 @@
     qcDefectCategory: None
   - split: 10
     text: "附加镇厌"
-    translated: "Suppressing Evil Spirit Town"
-    qcReviewedText: "Suppressing Evil Spirit Town"
-    qcTranslated: "Additional Suppression of the Repulsive"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Additional Evil Suppression"
+    qcReviewedText: "Additional Evil Suppression"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "675,玄黄入阵旌,增加暴击伤害,,被动,1040209,10402091,1,fightbuff/1005,辕镇厌,习得被动招式【诛祟破邪】后，施展招式【九州纵横】时对附带【镇厌】的目标额外增加自身15%暴击伤害，持续10秒,,,10,1,False,False,False,\"暴伤,0.15\",True,fightbuff/,1005,,"
   splits:
   - split: 9
@@ -12897,18 +12885,14 @@
   - split: 10
     text: "【难觅】效果"
     translated: "[Hard to Find] Effect"
-    qcReviewedText: "[Hard to Find] Effect：The next time you use [Asking the Autumn Wind], you will definitely obtain the [Xiao Yi] effect; [Nan Mi] lasts for five seconds."
-    qcTranslated: "[Hard to Find] Effect：The next time you use [Asking the Autumn Wind], you will definitely obtain the [Xiao Yi] effect; [Hard to Find] lasts for five seconds."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    qcReviewedText: "[Hard to Find] Effect：The next time you use [Asking the Autumn Wind], you will definitely gain the [Xiao Yi] effect; [Hard to Find] lasts five seconds."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     subIndex: 1
     text: "下次施展【问秋风】必定获得【萧意】效果，【难觅】持续五秒"
-    translated: "The next time you use [Asking the Autumn Wind], you will definitely obtain the [Xiao Yi] effect; [Nan Mi] lasts for five seconds."
+    translated: "The next time you use [Asking the Autumn Wind], you will definitely gain the [Xiao Yi] effect; [Hard to Find] lasts five seconds."
   templates:
   - split: 10
     template: "{0}：{1}"

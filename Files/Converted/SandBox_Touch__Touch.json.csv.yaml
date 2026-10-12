@@ -11613,8 +11613,8 @@
   splits:
   - split: 4
     text: "俗言道生在苏杭，死葬北邙，此山气势雄浑，钟灵毓秀，当真是风水宝地。"
-    translated: "As the saying goes, one is born in Suzhou or Hangzhou and buried in Northern Mang. This mountain has a majestic momentum, harboring divine spirit and beauty; it truly is a feng shui treasure land."
-    qcReviewedText: "As the saying goes, one is born in Suzhou or Hangzhou and buried in Northern Mang. This mountain has a majestic momentum, harboring divine spirit and beauty; it truly is a feng shui treasure land."
+    translated: "As the saying goes, one is born in Suzhou and Hangzhou, and buried in Beimang. This mountain has a grand and majestic momentum, blessed with spiritual energy and beauty; it truly is a feng shui haven."
+    qcReviewedText: "As the saying goes, one is born in Suzhou and Hangzhou, and buried in Beimang. This mountain has a grand and majestic momentum, blessed with spiritual energy and beauty; it truly is a feng shui haven."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12378,7 +12378,7 @@
     text: "安静祥和的寺院，别无异状。"
     translated: "Peaceful temple appeared undisturbed"
     qcReviewedText: "Peaceful temple appeared undisturbed"
-    qcTranslated: "The quiet and peaceful temple appeared undisturbed."
+    qcTranslated: "The quiet and peaceful temple appeared undisturbed"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -16856,15 +16856,11 @@
   splits:
   - split: 4
     text: "醒来以后，你只觉腿脚酸麻，头昏脑涨。"
-    translated: "After waking up, you felt your legwork was numb and sore, and your head was spinning."
-    qcReviewedText: "After waking up, you felt your legwork was numb and sore, and your head was spinning."
-    qcTranslated: "After waking up, you felt your Legwork was numb and sore, and your head was spinning."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "After waking up, your legs and feet feel numb and sore, and your head is spinning."
+    qcReviewedText: "After waking up, your legs and feet feel numb and sore, and your head is spinning."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "914,10000004,15,[0].talks{json}[0].talk,由木柴、树枝等物堆放而成，其上燃着跳跃不定的火光。"
   splits:
   - split: 4
@@ -19320,15 +19316,11 @@
   splits:
   - split: 4
     text: "醒来以后，你只觉腿脚酸麻，头昏脑涨。"
-    translated: "After waking up, you felt your legwork was numb and sore, and your head was spinning."
-    qcReviewedText: "After waking up, you felt your legwork was numb and sore, and your head was spinning."
-    qcTranslated: "After waking up, you felt your Legwork was numb and sore, and your head was spinning."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "After waking up, your legs and feet feel numb and sore, and your head is spinning."
+    qcReviewedText: "After waking up, your legs and feet feel numb and sore, and your head is spinning."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "955,10000046,15,[0].talks{json}[0].talk,眼前这堆碎木虽说难以复原，可似乎还有着什么别的用途......"
   splits:
   - split: 4
@@ -19512,8 +19504,8 @@
   splits:
   - split: 4
     text: "后因“马踏江湖”一事就此脱离江湖，不料回返之际，亦发现村内被镇国卫波及，满村上下无一活口。"
-    translated: "Later, due to the incident of Horse Treading on Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard's attack, with no survivors remaining."
-    qcReviewedText: "Later, due to the incident of Horse Treading on Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard's attack, with no survivors remaining."
+    translated: "Later, due to the incident known as the Trampling of the Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard, with no one surviving."
+    qcReviewedText: "Later, due to the incident known as the Trampling of the Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard, with no one surviving."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19521,8 +19513,8 @@
   splits:
   - split: 4
     text: "江某深恩未报，决意留著书《清风剑法》，以待后人，即刻动身讨寻青萍村乡亲血债，今日立书于此，誓灭镇国卫，誓杀镇国公！"
-    translated: "Jiang owes a great debt of gratitude and is determined to write the Clear Wind Sword Art for future generations. He will immediately set out to seek vengeance for the blood debt owed to the villagers of Qingping Village. Today, he writes this vow: to destroy the State Guard and kill the Duke of the State!"
-    qcReviewedText: "Jiang owes a great debt of gratitude and is determined to write the Clear Wind Sword Art for future generations. He will immediately set out to seek vengeance for the blood debt owed to the villagers of Qingping Village. Today, he writes this vow: to destroy the State Guard and kill the Duke of the State!"
+    translated: "Jiang owes a great debt of gratitude that remains unpaid. Determined to leave behind the book Clear Wind Sword Art for future generations, he immediately sets out to seek vengeance for the blood debts owed to the villagers of Qingping Village. Today, here I write this pledge: I swear to destroy the Imperial Guard and kill the Duke of the Nation!"
+    qcReviewedText: "Jiang owes a great debt of gratitude that remains unpaid. Determined to leave behind the book Clear Wind Sword Art for future generations, he immediately sets out to seek vengeance for the blood debts owed to the villagers of Qingping Village. Today, here I write this pledge: I swear to destroy the Imperial Guard and kill the Duke of the Nation!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19566,9 +19558,9 @@
   splits:
   - split: 4
     text: "传闻二十年前，朝堂之上江湖，以镇国公为首，创立镇国卫，监察四方，更以战阵之势，将江湖各门派压得抬不起头，杜先生曾经……便是传闻中的镇国卫吗？"
-    translated: "Rumors say that twenty years ago, in the imperial court, the Jianghu was dominated by the Marquis of Zhen Guo, who established the Zhen Guo Guard to oversee all four directions. With the might of an army, they suppressed the various sects of the Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Zhen Guo Guard?"
-    qcReviewedText: "Rumors say that twenty years ago, in the imperial court, the Jianghu was dominated by the Marquis of Zhen Guo, who established the Zhen Guo Guard to oversee all four directions. With the might of an army, they suppressed the various sects of the Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Zhen Guo Guard?"
-    qcTranslated: "Rumors say that twenty years ago, in the imperial court and the Jianghu, led by the Marquis of Zhen Guo, the Zhen Guo Guard was established to oversee all four directions. With the might of an army, they suppressed the various Sects of the Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Zhen Guo Guard?"
+    translated: "Rumors say that twenty years ago, the imperial court and Jianghu clashed, with the Duke of ZhenGuo leading the establishment of the Imperial Guard to oversee all four corners of the land. With the might of an army, they suppressed the various sects in Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Imperial Guard?"
+    qcReviewedText: "Rumors say that twenty years ago, the imperial court and Jianghu clashed, with the Duke of ZhenGuo leading the establishment of the Imperial Guard to oversee all four corners of the land. With the might of an army, they suppressed the various sects in Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Imperial Guard?"
+    qcTranslated: "Rumors say that twenty years ago, the Duke of ZhenGuo led the establishment of the Imperial Guard to oversee all four corners of the land. With the might of an army, they suppressed the various sects in Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Imperial Guard?"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -19620,7 +19612,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -30765,8 +30757,8 @@
   splits:
   - split: 4
     text: "后因“马踏江湖”一事就此脱离江湖，不料回返之际，亦发现村内被镇国卫波及，满村上下无一活口。"
-    translated: "Later, due to the incident of Horse Treading on Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard's attack, with no survivors remaining."
-    qcReviewedText: "Later, due to the incident of Horse Treading on Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard's attack, with no survivors remaining."
+    translated: "Later, due to the incident known as the Trampling of the Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard, with no one surviving."
+    qcReviewedText: "Later, due to the incident known as the Trampling of the Jianghu, they left the Jianghu. Upon returning, they found that the village had also been affected by the Imperial Guard, with no one surviving."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30774,8 +30766,8 @@
   splits:
   - split: 4
     text: "江某深恩未报，决意留著书《清风剑法》，以待后人，即刻动身讨寻青萍村乡亲血债，今日立书于此，誓灭镇国卫，誓杀镇国公！"
-    translated: "Jiang owes a great debt of gratitude and is determined to write the Clear Wind Sword Art for future generations. He will immediately set out to seek vengeance for the blood debt owed to the villagers of Qingping Village. Today, he writes this vow: to destroy the State Guard and kill the Duke of the State!"
-    qcReviewedText: "Jiang owes a great debt of gratitude and is determined to write the Clear Wind Sword Art for future generations. He will immediately set out to seek vengeance for the blood debt owed to the villagers of Qingping Village. Today, he writes this vow: to destroy the State Guard and kill the Duke of the State!"
+    translated: "Jiang owes a great debt of gratitude that remains unpaid. Determined to leave behind the book Clear Wind Sword Art for future generations, he immediately sets out to seek vengeance for the blood debts owed to the villagers of Qingping Village. Today, here I write this pledge: I swear to destroy the Imperial Guard and kill the Duke of the Nation!"
+    qcReviewedText: "Jiang owes a great debt of gratitude that remains unpaid. Determined to leave behind the book Clear Wind Sword Art for future generations, he immediately sets out to seek vengeance for the blood debts owed to the villagers of Qingping Village. Today, here I write this pledge: I swear to destroy the Imperial Guard and kill the Duke of the Nation!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30819,9 +30811,9 @@
   splits:
   - split: 4
     text: "传闻二十年前，朝堂之上江湖，以镇国公为首，创立镇国卫，监察四方，更以战阵之势，将江湖各门派压得抬不起头，杜先生曾经……便是传闻中的镇国卫吗？"
-    translated: "Rumors say that twenty years ago, in the imperial court, the Jianghu was dominated by the Marquis of Zhen Guo, who established the Zhen Guo Guard to oversee all four directions. With the might of an army, they suppressed the various sects of the Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Zhen Guo Guard?"
-    qcReviewedText: "Rumors say that twenty years ago, in the imperial court, the Jianghu was dominated by the Marquis of Zhen Guo, who established the Zhen Guo Guard to oversee all four directions. With the might of an army, they suppressed the various sects of the Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Zhen Guo Guard?"
-    qcTranslated: "Rumors say that twenty years ago, in the imperial court and the Jianghu, led by the Marquis of Zhen Guo, the Zhen Guo Guard was established to oversee all four directions. With the might of an army, they suppressed the various Sects of the Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Zhen Guo Guard?"
+    translated: "Rumors say that twenty years ago, the imperial court and Jianghu clashed, with the Duke of ZhenGuo leading the establishment of the Imperial Guard to oversee all four corners of the land. With the might of an army, they suppressed the various sects in Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Imperial Guard?"
+    qcReviewedText: "Rumors say that twenty years ago, the imperial court and Jianghu clashed, with the Duke of ZhenGuo leading the establishment of the Imperial Guard to oversee all four corners of the land. With the might of an army, they suppressed the various sects in Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Imperial Guard?"
+    qcTranslated: "Rumors say that twenty years ago, the Duke of ZhenGuo led the establishment of the Imperial Guard to oversee all four corners of the land. With the might of an army, they suppressed the various sects in Jianghu, leaving them unable to rise up. Mr. Du... was he part of that legendary Imperial Guard?"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -30873,7 +30865,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -30930,7 +30922,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -30978,7 +30970,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31053,7 +31045,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31083,7 +31075,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31131,7 +31123,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31161,7 +31153,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31253,7 +31245,7 @@
     text: "暂不进入。"
     translated: "Wait a moment"
     qcReviewedText: "Wait a moment"
-    qcTranslated: "Do not enter for now."
+    qcTranslated: "Do not enter for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -31301,7 +31293,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31355,7 +31347,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31385,7 +31377,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31574,7 +31566,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31630,7 +31622,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31695,7 +31687,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31743,7 +31735,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31799,7 +31791,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31847,7 +31839,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -31903,7 +31895,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -33728,7 +33720,7 @@
     text: "一把湘妃竹箫，颇有些年头了，所赖此箫主人时常把玩，木质已近如温玉。箫尾刻有铭文"
     translated: "An Xiangfei bamboo flute, quite old, but its owner often plays with it, so the wood is nearly as warm as jade. Engraved on the end of the flute are some inscriptions."
     qcReviewedText: "An Xiangfei bamboo flute, quite old, but its owner often plays with it, so the wood is nearly as warm as jade. Engraved on the end of the flute are some inscriptions.：Dream Zhou two words"
-    qcTranslated: "An Xiangfei bamboo flute, quite old, but its owner often plays with it, so the wood is nearly as warm as jade. Engraved on the end of the flute are the two characters \"Dream Zhou\"."
+    qcTranslated: "An Xiangfei bamboo flute, quite old, but its owner often plays with it, so the wood is nearly as warm as jade. Engraved on the end of the flute are the two characters Dream Zhou."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -33970,7 +33962,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -34000,7 +33992,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -34816,7 +34808,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -34846,7 +34838,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -34858,7 +34850,7 @@
     text: "岁大旱，刀兵骤起，攻伐相杀，流兵即为贼寇。"
     translated: "In a year of severe drought, sudden outbreaks of warfare erupted, with attacks and killings rampant, and wandering soldiers turning into bandits."
     qcReviewedText: "In a year of severe drought, sudden outbreaks of warfare erupted, with attacks and killings rampant, and wandering soldiers turning into bandits.\\nThanks to the Hidden Hero Li Cheng'an, who alone guarded this place, he fought off thirty-two bandits and slew them all. He laughed loudly, thrust his polearm into the ground, and said,：Here, I am myself, Cheng'an \\nThus, peace began to prevail"
-    qcTranslated: "In a year of severe drought, sudden outbreaks of warfare erupted, with attacks and killings rampant, and wandering soldiers turning into bandits.\\nThanks to the Hidden Hero Li Cheng'an, who alone guarded this place, he fought off thirty-two bandits and slew them all. He laughed loudly several times, thrust his polearm into the ground, and said: \"This place belongs to me, Cheng'an.\" \\nThus, Cheng'an's reputation began to rise"
+    qcTranslated: "In a year of severe drought, sudden outbreaks of warfare erupted, with attacks and killings rampant, and wandering soldiers turning into bandits.\\nThanks to the Hidden Hero Li Cheng'an, who alone guarded this place, he fought off thirty-two bandits and slew them all. He laughed loudly several times, thrust his polearm into the ground, and said: This place belongs to me, Cheng'an. \\nThus, Cheng'an's reputation began to rise"
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: DroppedContent
@@ -34940,7 +34932,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -39793,7 +39785,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -40141,7 +40133,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41206,7 +41198,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41245,7 +41237,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41284,7 +41276,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41341,7 +41333,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41380,7 +41372,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41410,7 +41402,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41479,7 +41471,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41749,7 +41741,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41797,7 +41789,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41836,7 +41828,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -41875,7 +41867,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42067,7 +42059,7 @@
     text: "井中空空如也。"
     translated: "Well is empty"
     qcReviewedText: "Well is empty"
-    qcTranslated: "The well is completely empty."
+    qcTranslated: "Well is completely empty"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42198,7 +42190,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42255,7 +42247,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42312,7 +42304,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42351,7 +42343,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42390,7 +42382,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42429,7 +42421,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42486,7 +42478,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42543,7 +42535,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -42582,7 +42574,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43035,7 +43027,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43121,7 +43113,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43223,7 +43215,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43556,7 +43548,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43595,7 +43587,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43634,7 +43626,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43673,7 +43665,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43829,7 +43821,7 @@
     text: "井中空空如也。"
     translated: "Well is empty"
     qcReviewedText: "Well is empty"
-    qcTranslated: "The well is completely empty."
+    qcTranslated: "Well is completely empty"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -43903,7 +43895,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -46724,11 +46716,14 @@
   splits:
   - split: 4
     text: "一枚金令，上刻铭文“镇国卫千户楚”"
-    translated: "A golden token engraved with the inscription Chu, Thousand Households of National Guard"
-    qcReviewedText: "A golden token engraved with the inscription Chu, Thousand Households of National Guard"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "A golden token, engraved with the inscription Imperial Guard Commander Chu"
+    qcReviewedText: "A golden token, engraved with the inscription Imperial Guard Commander Chu"
+    qcTranslated: "A golden token, engraved with the inscription Imperial Guard Thousand-Household Commander Chu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "2041,1170902013,15,[0].talks{json}[0].talk,一包妥善盛于盒中的药粉。"
   splits:
   - split: 4
@@ -47449,7 +47444,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47479,7 +47474,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47527,7 +47522,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47557,7 +47552,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47605,7 +47600,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47635,7 +47630,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47731,7 +47726,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47770,7 +47765,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47809,7 +47804,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47848,7 +47843,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47890,7 +47885,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -47929,7 +47924,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48157,7 +48152,7 @@
     text: "井中空空如也。"
     translated: "Well is empty"
     qcReviewedText: "Well is empty"
-    qcTranslated: "The well is completely empty."
+    qcTranslated: "Well is completely empty"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48226,7 +48221,7 @@
     text: "暂不前往。"
     translated: "Wait a moment"
     qcReviewedText: "Wait a moment"
-    qcTranslated: "I won't go for now."
+    qcTranslated: "I won't go for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -48322,7 +48317,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48364,7 +48359,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48403,7 +48398,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48550,7 +48545,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48589,7 +48584,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48631,7 +48626,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48670,7 +48665,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48709,7 +48704,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48748,7 +48743,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48787,7 +48782,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -48835,7 +48830,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49255,7 +49250,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49348,7 +49343,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49387,7 +49382,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49429,7 +49424,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49468,7 +49463,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49507,7 +49502,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49546,7 +49541,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49585,7 +49580,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49906,7 +49901,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -49936,7 +49931,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50407,7 +50402,7 @@
     text: "暂且离开。"
     translated: "Take a break for now"
     qcReviewedText: "Take a break for now"
-    qcTranslated: "Leave for now."
+    qcTranslated: "Leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -50449,7 +50444,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50491,7 +50486,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50530,7 +50525,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50569,7 +50564,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50608,7 +50603,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50779,7 +50774,7 @@
     text: "暂不前往。"
     translated: "Wait a moment"
     qcReviewedText: "Wait a moment"
-    qcTranslated: "I won't go for now."
+    qcTranslated: "I won't go for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -50866,7 +50861,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50950,7 +50945,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -50989,7 +50984,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51028,7 +51023,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51067,7 +51062,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51106,7 +51101,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51256,7 +51251,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51295,7 +51290,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51334,7 +51329,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51373,7 +51368,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51412,7 +51407,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51577,7 +51572,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51616,7 +51611,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51655,7 +51650,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51685,7 +51680,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -51715,7 +51710,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -53381,7 +53376,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -53411,7 +53406,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -53834,7 +53829,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -53864,7 +53859,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -55493,7 +55488,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -55549,7 +55544,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -56986,7 +56981,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -57372,7 +57367,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -57411,7 +57406,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -57450,7 +57445,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -57489,7 +57484,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -57528,7 +57523,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing

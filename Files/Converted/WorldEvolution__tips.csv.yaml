@@ -207,49 +207,51 @@
   splits:
   - split: 2
     text: "初一"
-    translated: "January 1st"
-    qcReviewedText: "January 1st"
+    translated: "Day 1"
+    qcReviewedText: "Day 1"
     qcTranslated: "First day"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 45
-    qcDefectCategory: MeaningReversal
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - MeaningReversal
+    - GarbledNumber
 - raw: "21,19,初二,0,"
   splits:
   - split: 2
     text: "初二"
-    translated: "Eighth grade"
-    qcReviewedText: "Eighth grade"
-    qcTranslated: "Second day"
+    translated: "Day 2"
+    qcReviewedText: "Day 2"
+    qcTranslated: "Day Two"
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - MeaningReversal
+    - GarbledNumber
 - raw: "22,20,初三,0,"
   splits:
   - split: 2
     text: "初三"
-    translated: "September"
-    qcReviewedText: "September"
-    qcTranslated: "The third day"
+    translated: "Day 3"
+    qcReviewedText: "Day 3"
+    qcTranslated: "The Ninth"
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - MeaningReversal
+    - GarbledNumber
 - raw: "23,21,初四,0,"
   splits:
   - split: 2
     text: "初四"
-    translated: "January 4th"
-    qcReviewedText: "January 4th"
-    qcTranslated: "The 4th"
+    translated: "Day 4"
+    qcReviewedText: "Day 4"
+    qcTranslated: "Day Four"
     qcStatus: Corrected
     flaggedForQcReview: true
-    qcQualityScore: 55
+    qcQualityScore: 45
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
@@ -257,9 +259,9 @@
   splits:
   - split: 2
     text: "初五"
-    translated: "January 5th"
-    qcReviewedText: "January 5th"
-    qcTranslated: "The fifth"
+    translated: "Day 5"
+    qcReviewedText: "Day 5"
+    qcTranslated: "Fifth day"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 45
@@ -270,21 +272,17 @@
   splits:
   - split: 2
     text: "初六"
-    translated: "January 6th"
-    qcReviewedText: "January 6th"
-    qcTranslated: "The sixth day"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 6"
+    qcReviewedText: "Day 6"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "26,24,初七,0,"
   splits:
   - split: 2
     text: "初七"
-    translated: "Seventh Day of the New Year"
-    qcReviewedText: "Seventh Day of the New Year"
+    translated: "Day 7"
+    qcReviewedText: "Day 7"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -292,21 +290,17 @@
   splits:
   - split: 2
     text: "初八"
-    translated: "January 8th"
-    qcReviewedText: "January 8th"
-    qcTranslated: "The eighth"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 8"
+    qcReviewedText: "Day 8"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "28,26,初九,0,"
   splits:
   - split: 2
     text: "初九"
-    translated: "January 9th"
-    qcReviewedText: "January 9th"
+    translated: "Day 9"
+    qcReviewedText: "Day 9"
     qcTranslated: "The Ninth"
     qcStatus: Corrected
     flaggedForQcReview: true
@@ -318,12 +312,12 @@
   splits:
   - split: 2
     text: "初十"
-    translated: "January 10th"
-    qcReviewedText: "January 10th"
-    qcTranslated: "Tenth"
+    translated: "Day 10"
+    qcReviewedText: "Day 10"
+    qcTranslated: "Tenth day"
     qcStatus: Corrected
     flaggedForQcReview: true
-    qcQualityScore: 45
+    qcQualityScore: 55
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
@@ -331,113 +325,147 @@
   splits:
   - split: 2
     text: "十一"
-    translated: "November"
-    qcReviewedText: "November"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "31,29,十二,0,"
-  splits:
-  - split: 2
-    text: "十二"
-    translated: "December"
-    qcReviewedText: "December"
-    qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
-- raw: "32,30,十三,0,"
-  splits:
-  - split: 2
-    text: "十三"
-    translated: "Thirteen"
-    qcReviewedText: "Thirteen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "33,31,十四,0,"
-  splits:
-  - split: 2
-    text: "十四"
-    translated: "Fourteen"
-    qcReviewedText: "Fourteen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "34,32,十五,0,"
-  splits:
-  - split: 2
-    text: "十五"
-    translated: "Fifteen"
-    qcReviewedText: "Fifteen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "35,33,十六,0,"
-  splits:
-  - split: 2
-    text: "十六"
-    translated: "Sixteen"
-    qcReviewedText: "Sixteen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "36,34,十七,0,"
-  splits:
-  - split: 2
-    text: "十七"
-    translated: "Seventeen"
-    qcReviewedText: "Seventeen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "37,35,十八,0,"
-  splits:
-  - split: 2
-    text: "十八"
-    translated: "Eighteen"
-    qcReviewedText: "Eighteen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "38,36,十九,0,"
-  splits:
-  - split: 2
-    text: "十九"
-    translated: "Nineteen"
-    qcReviewedText: "Nineteen"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "39,37,二十,0,"
-  splits:
-  - split: 2
-    text: "二十"
-    translated: "Twenty"
-    qcReviewedText: "Twenty"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "40,38,廿一,0,"
-  splits:
-  - split: 2
-    text: "廿一"
-    translated: "February 21st"
-    qcReviewedText: "February 21st"
-    qcTranslated: "Twenty-one"
+    translated: "Day 11"
+    qcReviewedText: "Day 11"
+    qcTranslated: "Day Eleven"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 45
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
+- raw: "31,29,十二,0,"
+  splits:
+  - split: 2
+    text: "十二"
+    translated: "Day 12"
+    qcReviewedText: "Day 12"
+    qcTranslated: "Twelve"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "32,30,十三,0,"
+  splits:
+  - split: 2
+    text: "十三"
+    translated: "Day 13"
+    qcReviewedText: "Day 13"
+    qcTranslated: "Thirteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "33,31,十四,0,"
+  splits:
+  - split: 2
+    text: "十四"
+    translated: "Day 14"
+    qcReviewedText: "Day 14"
+    qcTranslated: "Fourteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "34,32,十五,0,"
+  splits:
+  - split: 2
+    text: "十五"
+    translated: "Day 15"
+    qcReviewedText: "Day 15"
+    qcTranslated: "Day Fifteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "35,33,十六,0,"
+  splits:
+  - split: 2
+    text: "十六"
+    translated: "Day 16"
+    qcReviewedText: "Day 16"
+    qcTranslated: "Sixteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "36,34,十七,0,"
+  splits:
+  - split: 2
+    text: "十七"
+    translated: "Day 17"
+    qcReviewedText: "Day 17"
+    qcTranslated: "Seventeen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "37,35,十八,0,"
+  splits:
+  - split: 2
+    text: "十八"
+    translated: "Day 18"
+    qcReviewedText: "Day 18"
+    qcTranslated: "Eighteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "38,36,十九,0,"
+  splits:
+  - split: 2
+    text: "十九"
+    translated: "Day 19"
+    qcReviewedText: "Day 19"
+    qcTranslated: "Nineteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "39,37,二十,0,"
+  splits:
+  - split: 2
+    text: "二十"
+    translated: "Day 20"
+    qcReviewedText: "Day 20"
+    qcTranslated: "Twenty"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "40,38,廿一,0,"
+  splits:
+  - split: 2
+    text: "廿一"
+    translated: "Day 21"
+    qcReviewedText: "Day 21"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "41,39,廿二,0,"
   splits:
   - split: 2
     text: "廿二"
-    translated: "February 22nd"
-    qcReviewedText: "February 22nd"
+    translated: "Day 22"
+    qcReviewedText: "Day 22"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -445,102 +473,78 @@
   splits:
   - split: 2
     text: "廿三"
-    translated: "February 23rd"
-    qcReviewedText: "February 23rd"
-    qcTranslated: "The twenty-third"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 23"
+    qcReviewedText: "Day 23"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "43,41,廿四,0,"
   splits:
   - split: 2
     text: "廿四"
-    translated: "February 24th"
-    qcReviewedText: "February 24th"
-    qcTranslated: "The Twenty-Fourth"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 24"
+    qcReviewedText: "Day 24"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "44,42,廿五,0,"
   splits:
   - split: 2
     text: "廿五"
-    translated: "February 25th"
-    qcReviewedText: "February 25th"
-    qcTranslated: "The twenty-fifth"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 25"
+    qcReviewedText: "Day 25"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "45,43,廿六,0,"
   splits:
   - split: 2
     text: "廿六"
-    translated: "February 26th"
-    qcReviewedText: "February 26th"
-    qcTranslated: "The twenty-sixth"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 26"
+    qcReviewedText: "Day 26"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "46,44,廿七,0,"
   splits:
   - split: 2
     text: "廿七"
-    translated: "February 27th"
-    qcReviewedText: "February 27th"
-    qcTranslated: "The 27th"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 50
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 27"
+    qcReviewedText: "Day 27"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "47,45,廿八,0,"
   splits:
   - split: 2
     text: "廿八"
-    translated: "February 28th"
-    qcReviewedText: "February 28th"
-    qcTranslated: "The Twenty-Eighth"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Day 28"
+    qcReviewedText: "Day 28"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "48,46,廿九,0,"
   splits:
   - split: 2
     text: "廿九"
-    translated: "February 29th"
-    qcReviewedText: "February 29th"
-    qcTranslated: "The 29th"
+    translated: "Day 29"
+    qcReviewedText: "Day 29"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "49,47,三十,0,"
+  splits:
+  - split: 2
+    text: "三十"
+    translated: "Day 30"
+    qcReviewedText: "Day 30"
+    qcTranslated: "Thirty"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 45
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
-- raw: "49,47,三十,0,"
-  splits:
-  - split: 2
-    text: "三十"
-    translated: "Thirty"
-    qcReviewedText: "Thirty"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "50,48,子,1,"
   splits:
   - split: 2

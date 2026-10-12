@@ -885,14 +885,11 @@
   splits:
   - split: 2
     text: "天下人"
-    translated: "People of the World"
-    qcReviewedText: "People of the World"
-    qcTranslated: "Tianxia Ren"
-    qcStatus: Corrected
+    translated: "Tian Xia Ren"
+    qcReviewedText: "Tian Xia Ren"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "101,1270001003,黑田宗次郎,0,None,,,,dataName:1270001003黑田宗次郎;protagonist:1;npcId:0;sex:1;Face:63/5;FrontHair:35/5;BehindHair:7/5;Eyes:9/5;Eyebrow:10/5;Nose:4/5;Mouth:9/5;FaceDecoration:3/5;Beard:1/5;Clothes:21/5;Mask:1/5;FullLength:988/5;,\"[{\"\"mapId\"\":27000,\"\"x\"\":49,\"\"y\"\":51,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":null,\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1744648788,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":null,\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0,0,0,武士一生，譬如朝露。"
   splits:
   - split: 2

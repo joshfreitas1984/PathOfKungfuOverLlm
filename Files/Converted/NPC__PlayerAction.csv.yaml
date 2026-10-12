@@ -433,18 +433,17 @@
   - split: 13
     text: "行走江湖，当以武会友，"
     translated: "Wandering the Jianghu, one should make friends through martial arts."
-    qcReviewedText: "Wandering the Jianghu, one should make friends through martial arts.<color=#E64D00>{npcName}</color>Issue a challenge; I hope you will teach me, do not avoid the battle."
-    qcTranslated: "Wandering the Jianghu, one should make friends through martial arts.<color=#E64D00>{npcName}</color> has issued a challenge; please teach me, do not avoid the battle."
+    qcReviewedText: "Wandering the Jianghu, one should make friends through martial arts.<color=#E64D00>{npcName}</color>Has issued a challenge; please teach me, and do not shy from battle."
+    qcTranslated: "Wandering the Jianghu, one should make friends through martial arts. <color=#E64D00>{npcName}</color> has issued a challenge; please teach me, and do not shy from battle."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
     qcDefectCategories:
-    - MeaningReversal
+    - HardToParseSeam
   - split: 13
     subIndex: 1
     text: "发起挑战，望请赐教，切莫避战。"
-    translated: "Issue a challenge; I hope you will teach me, do not avoid the battle."
+    translated: "Has issued a challenge; please teach me, and do not shy from battle."
   templates:
   - split: 13
     template: "{0}<color=#E64D00>{npcName}</color>{1}"

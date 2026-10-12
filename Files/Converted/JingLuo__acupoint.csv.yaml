@@ -260,13 +260,11 @@
   splits:
   - split: 2
     text: "其门"
-    translated: "His door"
-    qcReviewedText: "His door"
+    translated: "Qimen"
+    qcReviewedText: "Qimen"
     qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "穴位描述"
     translated: "Acupoint description"

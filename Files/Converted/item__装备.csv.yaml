@@ -1656,7 +1656,7 @@
     text: "纵横"
     translated: "Vertical and Horizontal"
     qcReviewedText: "Vertical and Horizontal"
-    qcTranslated: "The Four Directions"
+    qcTranslated: "Four Directions"
     qcStatus: Corrected
     qcQualityScore: 90
     qcDefectCategory: LostIdiom
@@ -1685,7 +1685,7 @@
     text: "昨日罗刹心"
     translated: "Yesterday's Raksha heart"
     qcReviewedText: "Yesterday's Raksha heart,Kneel before the Bodhisattva today"
-    qcTranslated: "Yesterday's Raksha heart, today's Bodhisattva face."
+    qcTranslated: "Yesterday's Raksha heart, today's Bodhisattva face"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -2067,8 +2067,8 @@
     qcDefectCategory: None
   - split: 26
     text: "镇国卫遗物，据传为镇国公亲持，而今镇国卫已散，再无人可辨其真伪。"
-    translated: "The remnants of the State Guard are said to have been held by the Duke of the State himself. Now that the State Guard has disbanded, no one can verify their authenticity."
-    qcReviewedText: "The remnants of the State Guard are said to have been held by the Duke of the State himself. Now that the State Guard has disbanded, no one can verify their authenticity."
+    translated: "Imperial Guard relics, said to have been personally carried by the Duke of the Imperial Guard, but now that the Imperial Guard has disbanded, no one can verify their authenticity."
+    qcReviewedText: "Imperial Guard relics, said to have been personally carried by the Duke of the Imperial Guard, but now that the Imperial Guard has disbanded, no one can verify their authenticity."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2133,8 +2133,8 @@
     translated: "Refined"
   - split: 26
     text: "镇国卫遗物，据传为镇国公亲持，而今镇国卫已散，再无人可辨其真伪。"
-    translated: "The remnants of the State Guard are said to have been held by the Duke of the State himself. Now that the State Guard has disbanded, no one can verify their authenticity."
-    qcReviewedText: "The remnants of the State Guard are said to have been held by the Duke of the State himself. Now that the State Guard has disbanded, no one can verify their authenticity."
+    translated: "Imperial Guard relics, said to have been personally carried by the Duke of the Imperial Guard, but now that the Imperial Guard has disbanded, no one can verify their authenticity."
+    qcReviewedText: "Imperial Guard relics, said to have been personally carried by the Duke of the Imperial Guard, but now that the Imperial Guard has disbanded, no one can verify their authenticity."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5505,7 +5505,7 @@
     text: "小钰亲手缝补的衣衫——襟内绣了枝不易察觉的红豆枝。"
     translated: "Xiaoyu personally mended the clothes-embroidering a barely noticeable branch of red beans on the inside lining."
     qcReviewedText: "Xiaoyu personally mended the clothes-embroidering a barely noticeable branch of red beans on the inside lining."
-    qcTranslated: "Xiaoyu personally mended the clothes—embroidering a barely noticeable branch of red beans on the inside lining."
+    qcTranslated: "Xiaoyu personally mended the clothes-embroidering a barely noticeable branch of red beans on the inside lining."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: HardToParseSeam
@@ -7453,15 +7453,11 @@
     qcDefectCategory: None
   - split: 26
     text: "奇祥异瑞争来送，麟角凤嘴世莫识。"
-    translated: "Miraculous auspicious signs vie to be seen, dragon horns and phoenix beaks unknown in this world."
-    qcReviewedText: "Miraculous auspicious signs vie to be seen, dragon horns and phoenix beaks unknown in this world."
-    qcTranslated: "Miraculous auspicious signs vie to be seen, qilin horns and phoenix tongues unknown in this world."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Auspicious omens and wondrous signs vie to be delivered; the qilin's horn and the phoenix's beak, none in the world can recognize them."
+    qcReviewedText: "Auspicious omens and wondrous signs vie to be delivered; the qilin's horn and the phoenix's beak, none in the world can recognize them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "410,101205,青崖,Green Cliff  ,武器,1,掌套,,商店,5,5,0,3,5,攻击力+252,50,0.7,0,1,True,65,975,1300,0,5,装备,太和弟子习武喂招时多有所佩，简雅轻便。,Test For English409,item/101001,100000,1,1,0,5"
   splits:
   - split: 2

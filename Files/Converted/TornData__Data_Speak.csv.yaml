@@ -1166,14 +1166,11 @@
   splits:
   - split: 12
     text: "是探花，留神！"
-    translated: "Beware, you're the candidate!"
-    qcReviewedText: "Beware, you're the candidate!"
-    qcTranslated: "It's the Tanhua, be careful!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "It's Tanhua, be careful!"
+    qcReviewedText: "It's Tanhua, be careful!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "149,147,未曾想，竟是……葬身于此……,,,,,,,,,,想生离此地，哪有这般容易？"
   splits:
   - split: 2

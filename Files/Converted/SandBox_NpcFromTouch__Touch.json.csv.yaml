@@ -1142,7 +1142,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -1526,7 +1526,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -1614,11 +1614,15 @@
   splits:
   - split: 4
     text: "在下出身姑苏楚家，祖父曾为行伍中人，军效镇国卫，待镇国卫军解伍散军之后便安居家中养老，奈何性如烈火，之前见连环寨贼人夺人财物，便出手教训。"
-    translated: "I come from the Chu family of Gusu. My grandfather used to be in the military, serving in the Imperial Guard. After he retired and settled down at home to Yanglao, his fiery nature could not bear seeing the bandits of Lianhuan Stronghold plundering others' possessions, so he intervened to teach them a lesson."
-    qcReviewedText: "I come from the Chu family of Gusu. My grandfather used to be in the military, serving in the Imperial Guard. After he retired and settled down at home to Yanglao, his fiery nature could not bear seeing the bandits of Lianhuan Stronghold plundering others' possessions, so he intervened to teach them a lesson."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "I come from the Chu family of Gusu. My grandfather served in the ranks of the Imperial Guard, and after the Imperial Guard was disbanded he settled down at home to live out his years. But his temper is like fire: when he saw Lianhuan Stronghold bandits robbing people of their belongings, he stepped in to teach them a lesson."
+    qcReviewedText: "I come from the Chu family of Gusu. My grandfather served in the ranks of the Imperial Guard, and after the Imperial Guard was disbanded he settled down at home to live out his years. But his temper is like fire: when he saw Lianhuan Stronghold bandits robbing people of their belongings, he stepped in to teach them a lesson."
+    qcTranslated: "I come from the Chu family of Gusu. My grandfather served in the ranks, his military service with the Imperial Guard, and after the Imperial Guard was disbanded he settled down at home to live out his years. But his temper is like fire: when he saw Lianhuan Stronghold bandits robbing people of their belongings, he stepped in to teach them a lesson."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "22,1120001004,10,[0].talks{json}[2].options{json}[0].name,“老先生可是因此负伤？”。"
   splits:
   - split: 4
@@ -2451,7 +2455,7 @@
       playerTitle:
         source: "<公子||姑娘>"
     qcReviewedText: "Met {playerTitle}"
-    qcTranslated: "I have met {playerTitle}."
+    qcTranslated: "I have met {playerTitle}"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -3282,7 +3286,7 @@
     text: "暂且准备。"
     translated: "Prepare for now"
     qcReviewedText: "Prepare for now"
-    qcTranslated: "Prepare for the time being."
+    qcTranslated: "Prepare for the time being"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -3605,7 +3609,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -4316,7 +4320,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -5222,7 +5226,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -5715,7 +5719,7 @@
       playerTitle:
         source: "<公子||姑娘>"
     qcReviewedText: "{playerTitle} {firstName}, everything is fine"
-    qcTranslated: "{firstName} {playerTitle}, I hope you've been well."
+    qcTranslated: "{firstName} {playerTitle}, I hope you've been well"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -6237,7 +6241,7 @@
     text: "暂且离去。"
     translated: "Take a temporary leave"
     qcReviewedText: "Take a temporary leave"
-    qcTranslated: "I'll take my leave for now."
+    qcTranslated: "I'll take my leave for now"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing

@@ -1,0 +1,33 @@
+# Recurring story terms the primary translation rendered several different ways (found in the 2026-10 QC review).
+# One agreed rendering each, so a stray variant is flagged and retranslated instead of surviving as a "fluent" mistranslation.
+
+- raw: "探花"
+  result: "Tanhua"
+  context: The secret organisation in the main story and its members (also in names such as Tanhua Xu). Not the imperial-examination rank, so never Jinshi, Investigator or Scholar.
+- raw: "镇国卫"
+  result: "Imperial Guard"
+  literal: Zhen Guo Wei
+  context: The disbanded imperial guard army. Keep one rendering everywhere (not National Guard, Royal Guard or Zhen Guo Wei).
+- raw: "天下人"
+  result: "Tian Xia Ren"
+  badtrans: false
+  context: As the title of the Japanese warlord (东瀛天下人) keep it as the name Tian Xia Ren, never word by word ("Sky-Beneath-Man", "Lord Tianxia"). When it just means everyone in the world (天下人心, 天下人知), translate it normally.
+- raw: "马踏江湖"
+  result: "Trampling of the Jianghu"
+  badtrans: false
+  context: The historical event in which the court's cavalry crushed the martial world. As a noun use Trampling of the Jianghu; the verb form ("trampled the Jianghu") is fine in a sentence.
+- raw: "涯阁定谋"
+  result: "Settling Plans at Yage"
+  context: A Tianya Haige quest title, also quoted inside other quests' requirements, so it must read the same everywhere.
+- raw: "北邙"
+  result: "Beimang"
+  context: Beimang Mountains, a famous burial ground. Pinyin Beimang, not Beiming.
+- raw: "物见番头"
+  result: "Monomi Banto"
+  context: A Wa (Japanese) title for the chief scout.
+- raw: "经渠"
+  result: "Jingqu"
+  context: Acupoint (Lung 8).
+- raw: "魏无忌"
+  result: "Wei Wuji"
+  context: The Imperial Guard commander who led the Trampling of the Jianghu. Pinyin Wuji (not Wuyi or Wuxian).

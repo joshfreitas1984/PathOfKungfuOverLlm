@@ -173,8 +173,8 @@
     qcDefectCategory: None
   - split: 11
     text: "清风快剑，迅疾无形，其势轻灵潇洒，据传由江湖前客江怀楚所创，后江怀楚身死于镇国卫，功法下落不明。（影响属性"
-    translated: "Swift Sword of Clear Wind, quick and formless, its movements light and graceful. It is said to have been created by the former Jianghu wanderer Jiang Huichu, who later died at the hands of the State Guard, leaving the fate of the technique unknown. (Affects Attributes"
-    qcReviewedText: "Swift Sword of Clear Wind, quick and formless, its movements light and graceful. It is said to have been created by the former Jianghu wanderer Jiang Huichu, who later died at the hands of the State Guard, leaving the fate of the technique unknown. (Affects Attributes：Agility)"
+    translated: "Swift Sword of Clear Wind, quick and formless, its style light and graceful. Legend has it that it was created by the former Jianghu wanderer Jiang Huichu, who later died at the hands of the Imperial Guard, leaving the technique's whereabouts unknown. (Affects Attributes"
+    qcReviewedText: "Swift Sword of Clear Wind, quick and formless, its style light and graceful. Legend has it that it was created by the former Jianghu wanderer Jiang Huichu, who later died at the hands of the Imperial Guard, leaving the technique's whereabouts unknown. (Affects Attributes：Agility)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1717,14 +1717,12 @@
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
     qcReviewedText: "Mojia Armor Guard_Close combat"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Mohist Armored Guard Melee"
-    qcFailureReason: "Glossary term '墨家甲卫_近战' (expected 'Mohist Armored Guard (Melee)') is missing."
+    qcTranslated: "Mohist Armor Guard_Close combat"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Close combat"
+    - UntranslatedPinyin
   - split: 2
     subIndex: 1
     text: "近战"
@@ -1804,14 +1802,12 @@
     text: "墨家甲卫"
     translated: "Mojia Armor Guard"
     qcReviewedText: "Mojia Armor Guard_Remote"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Mohist Armored Guard Ranged"
-    qcFailureReason: "Glossary term '墨家甲卫_远程' (expected 'Mohist Armored Guard (Ranged)') is missing."
+    qcTranslated: "Mohist Armor Guard_Remote"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Mojia Armor Guard_Remote"
+    - UntranslatedPinyin
   - split: 2
     subIndex: 1
     text: "远程"

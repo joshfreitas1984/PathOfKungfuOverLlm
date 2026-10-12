@@ -5773,13 +5773,11 @@
   splits:
   - split: 3
     text: "地道"
-    translated: "Native speaker"
-    qcReviewedText: "Native speaker"
+    translated: "Tunnel"
+    qcReviewedText: "Tunnel"
     qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "633,2202002,,地道台阶,,0,0,1,None,2202002,,,,,,\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"为便于兵马通行所掘的土阶，已有些许地方被人踩塌。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1734925903,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"你观察良久，并未发现有何不妥。\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -10889,7 +10887,7 @@
     text: "隐隐放光之物"
     translated: "Glowing faintly"
     qcReviewedText: "Glowing faintly"
-    qcTranslated: "The object that glows faintly"
+    qcTranslated: "Object that glows faintly"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -11450,7 +11448,7 @@
     text: "铸炉"
     translated: "Forging the Furnace"
     qcReviewedText: "Forging the Furnace"
-    qcTranslated: "The Forging Furnace"
+    qcTranslated: "Forging Furnace"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -25680,9 +25678,9 @@
   splits:
   - split: 3
     text: "探花廿六（尸首）"
-    translated: "Sixteenth Talisman (corpse)"
-    qcReviewedText: "Sixteenth Talisman (corpse)"
-    qcTranslated: "Twenty-Sixth Talisman (corpse)"
+    translated: "Tanhua Niuxu (corpse)"
+    qcReviewedText: "Tanhua Niuxu (corpse)"
+    qcTranslated: "Tanhua Nianliu (corpse)"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -25719,27 +25717,20 @@
   splits:
   - split: 3
     text: "探花叁柒"
-    translated: "Third Place Candidate 37"
-    qcReviewedText: "Third Place Candidate 37"
-    qcTranslated: "Tan Hua San Qi"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Tanhua Thirty-Seven"
+    qcReviewedText: "Tanhua Thirty-Seven"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2791,1160001113,,探花肆伍,,0,0,0,None,,,,dataName:新角色0926174832;protagonist:1;npcId:0;sex:1;Face:2/5;FrontHair:44/5;BehindHair:4/5;Eyes:2/5;Eyebrow:20/5;Nose:17/5;Mouth:3/5;FaceDecoration:1/5;Beard:1/5;Clothes:7/5;Mask:8/5;,,\"[{\"\"mapId\"\":16000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1727351097,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
     text: "探花肆伍"
-    translated: "Tianhua 45"
-    qcReviewedText: "Tianhua 45"
-    qcTranslated: "Tianhua Four Five"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    translated: "Tanhua Forty-Five"
+    qcReviewedText: "Tanhua Forty-Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2792,1160001114,,粥棚小吏,,0,0,0,None,,,,dataName:新角色0624194456;protagonist:1;npcId:0;sex:1;Face:22/5;FrontHair:38/5;BehindHair:2/5;Eyes:18/5;Eyebrow:8/5;Nose:3/5;Mouth:9/5;FaceDecoration:1/5;Beard:1/5;Clothes:49/5;Mask:1/5;,,\"[{\"\"mapId\"\":16000,\"\"x\"\":25,\"\"y\"\":30,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":null,\"\"isOpenTask2\"\":false,\"\"preTask2\"\":null,\"\"preTaskLib\"\":null,\"\"attr\"\":null},\"\"close\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":true,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"17,0,160001005_990\"\"},\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"粥棚小吏\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"阁下既非灾民，还是莫要于此闲晃的好。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1160001114\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"},{\"\"index\"\":0,\"\"open\"\":{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":true,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"17,0,160001005_990\"\"},\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"粥棚小吏\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"唉……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1160001114\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1727441095,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -46130,8 +46121,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -46148,8 +46139,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -46166,8 +46157,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49031,14 +49022,11 @@
   splits:
   - split: 3
     text: "天下人"
-    translated: "People of the World"
-    qcReviewedText: "People of the World"
-    qcTranslated: "Tianxia Ren"
-    qcStatus: Corrected
+    translated: "Tian Xia Ren"
+    qcReviewedText: "Tian Xia Ren"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "5320,1270001002,,黑田宗次郎,,0,0,0,None,,,,dataName:1270001003黑田宗次郎;protagonist:1;npcId:0;sex:1;Face:63/5;FrontHair:35/5;BehindHair:7/5;Eyes:9/5;Eyebrow:10/5;Nose:4/5;Mouth:9/5;FaceDecoration:3/5;Beard:1/5;Clothes:21/5;Mask:1/5;FullLength:988/5;,,\"[{\"\"mapId\"\":27000,\"\"x\"\":999,\"\"y\"\":999,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1743840699,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -49646,8 +49634,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49655,8 +49643,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49664,8 +49652,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49727,8 +49715,8 @@
   splits:
   - split: 3
     text: "镇国卫"
-    translated: "Nation-Guarding Guard"
-    qcReviewedText: "Nation-Guarding Guard"
+    translated: "Imperial Guard"
+    qcReviewedText: "Imperial Guard"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -52705,7 +52693,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -53374,7 +53362,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -53530,7 +53518,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -53542,7 +53530,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -53653,7 +53641,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect

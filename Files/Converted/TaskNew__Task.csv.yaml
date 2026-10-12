@@ -167,17 +167,14 @@
   - split: 12
     text: "东海遗孤"
     translated: "Orphan of the Eastern Sea"
-    qcReviewedText: "Orphan of the Eastern Sea·\\n"
-    qcTranslated: "Orphan of the Eastern Sea·One"
-    qcStatus: Corrected
+    qcReviewedText: "Orphan of the Eastern Sea·One"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "倭寇身上掉下一封文书，不妨打开一观。"
     translated: "A document fell from the Wokou; let's open it and have a look."
@@ -200,17 +197,14 @@
   - split: 12
     text: "入阁见贤"
     translated: "Enter the hall to see the virtuous one."
-    qcReviewedText: "Enter the hall to see the virtuous one.·\\n"
-    qcTranslated: "Enter the Cabinet to See the Worthy · One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcReviewedText: "Enter the hall to see the virtuous one.·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往东壁阁，拜见东壁先生。"
     translated: "Go to the Dongbi Pavilion to pay respects to Master Dongbi."
@@ -562,17 +556,14 @@
   - split: 12
     text: "海崖诡事"
     translated: "Mysteries of the Sea Cliffs"
-    qcReviewedText: "Mysteries of the Sea Cliffs·\\n"
-    qcTranslated: "Mysteries of the Sea Cliffs·One\\n"
-    qcStatus: Corrected
+    qcReviewedText: "Mysteries of the Sea Cliffs·One"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待夜间前往海滨山崖，探寻情况。"
     translated: "Wait until night to go to the seaside cliff and investigate the situation."
@@ -801,15 +792,15 @@
     qcDefectCategory: None
   - split: 12
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
-    qcReviewedText: "Yacha Planning Hall Plotting_Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
+    qcReviewedText: "Settling Plans at Yage_Settling Plans at Yage"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   - split: 13
     text: "查看左三思情况。"
     translated: "Check on Zuo Sansi's condition"
@@ -842,29 +833,25 @@
   - split: 12
     text: "雪麓霜刀"
     translated: "Snowy Peak Frost Blade"
-    qcReviewedText: "Snowy Peak Frost Blade·\\n"
+    qcReviewedText: "Snowy Peak Frost Blade·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往大雪山。（需完成天涯海阁任务"
     translated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task"
-    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Yacha Planning Hall Plotting]）"
-    qcTranslated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task [Yage Dingmou])"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Settling Plans at Yage]）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     subIndex: 1
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   templates:
   - split: 2
     template: "{0}+{1}"
@@ -906,23 +893,23 @@
     qcDefectCategory: None
   - split: 12
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
-    qcReviewedText: "Yacha Planning Hall Plotting_Yacha Planning Hall Plotting_Yacha Planning Hall Plotting_Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
+    qcReviewedText: "Settling Plans at Yage_Settling Plans at Yage_Settling Plans at Yage_Settling Plans at Yage"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   - split: 12
     subIndex: 2
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   - split: 12
     subIndex: 3
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   - split: 13
     text: "查看左三思情况。"
     translated: "Check on Zuo Sansi's condition"
@@ -963,29 +950,25 @@
   - split: 12
     text: "雪麓霜刀"
     translated: "Snowy Peak Frost Blade"
-    qcReviewedText: "Snowy Peak Frost Blade·\\n"
+    qcReviewedText: "Snowy Peak Frost Blade·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往大雪山。（需完成天涯海阁任务"
     translated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task"
-    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Yacha Planning Hall Plotting]）"
-    qcTranslated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task [Yage Dingmou])"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Settling Plans at Yage]）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     subIndex: 1
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   templates:
   - split: 2
     template: "{0}+{1}"
@@ -1009,29 +992,25 @@
   - split: 12
     text: "雪麓霜刀"
     translated: "Snowy Peak Frost Blade"
-    qcReviewedText: "Snowy Peak Frost Blade·\\n"
+    qcReviewedText: "Snowy Peak Frost Blade·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往大雪山。（需完成天涯海阁任务"
     translated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task"
-    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Yacha Planning Hall Plotting]）"
-    qcTranslated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task [Yage Dingmou])"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Settling Plans at Yage]）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     subIndex: 1
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   templates:
   - split: 2
     template: "{0}+{1}"
@@ -1058,29 +1037,25 @@
   - split: 12
     text: "雪麓霜刀"
     translated: "Snowy Peak Frost Blade"
-    qcReviewedText: "Snowy Peak Frost Blade·\\n"
+    qcReviewedText: "Snowy Peak Frost Blade·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往大雪山。（需完成天涯海阁任务"
     translated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task"
-    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Yacha Planning Hall Plotting]）"
-    qcTranslated: "Head to Daxue Mountain. (Requires completing the Tianya Haige task [Yage Dingmou])"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    qcReviewedText: "Head to Daxue Mountain. (Requires completing the Tianya Haige task[Settling Plans at Yage]）"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     subIndex: 1
     text: "涯阁定谋"
-    translated: "Yacha Planning Hall Plotting"
+    translated: "Settling Plans at Yage"
   templates:
   - split: 2
     template: "{0}+{1}"
@@ -2546,7 +2521,7 @@
     text: "二爷施善"
     translated: "Elder Brother II Bestows Charity"
     qcReviewedText: "Elder Brother II Bestows Charity"
-    qcTranslated: "The Second Master Bestows Charity"
+    qcTranslated: "Second Master Bestows Charity"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -2887,18 +2862,17 @@
   - split: 12
     text: "有楚伊人"
     translated: "There is Chu Yiren"
-    qcReviewedText: "There is Chu Yiren·\\n"
-    qcTranslated: "There is Chu Yiren, Part One\\n"
+    qcReviewedText: "There is Chu Yiren·One"
+    qcTranslated: "Chu Yiren, Part One"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - GarbledNumber
-    - DroppedContent
+    - UnnaturalPhrasing
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往襄阳楚府，确认五猖所遗宝剑是否为楚家之物。"
     translated: "Go to Chu Mansion in Xiangyang to confirm if the treasure sword left by Wuchang belongs to the Chu family."
@@ -3173,14 +3147,14 @@
   - split: 12
     text: "何必见戴"
     translated: "Why bother to see Dai?"
-    qcReviewedText: "Why bother to see Dai?·\\n"
+    qcReviewedText: "Why bother to see Dai?·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往杭州春风楼打听梁乔行踪。"
     translated: "Head to Hangzhou Chunfeng Tower to inquire about Liang Qiao's whereabouts."
@@ -3828,17 +3802,17 @@
   - split: 2
     text: "太平余党"
     translated: "Peaceful Alliance Followers"
-    qcReviewedText: "Peaceful Alliance Followers·\\n"
-    qcTranslated: "Peaceful Alliance Followers·One"
+    qcReviewedText: "Peaceful Alliance Followers·One"
+    qcTranslated: "Taiping Remnants·One"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: DomainTerm
     qcDefectCategories:
-    - GarbledNumber
+    - DomainTerm
   - split: 2
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     text: "太平余党"
     translated: "Peaceful Alliance Followers"
@@ -3957,17 +3931,14 @@
   - split: 12
     text: "太和上人"
     translated: "Senior Taihe"
-    qcReviewedText: "Senior Taihe·\\n"
-    qcTranslated: "Senior Taihe·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Senior Taihe·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往太极广场，与端木清交谈。"
     translated: "Go to the Taiji Square and talk to Duanmu Qing."
@@ -4000,17 +3971,14 @@
   - split: 12
     text: "太和上人"
     translated: "Senior Taihe"
-    qcReviewedText: "Senior Taihe·\\n"
-    qcTranslated: "Senior Taihe·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Senior Taihe·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往太极广场，与端木清交谈。"
     translated: "Go to the Taiji Square and talk to Duanmu Qing."
@@ -4120,17 +4088,14 @@
   - split: 12
     text: "太和上人"
     translated: "Senior Taihe"
-    qcReviewedText: "Senior Taihe·\\n"
-    qcTranslated: "Senior Taihe·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Senior Taihe·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往太极广场，与端木清交谈。"
     translated: "Go to the Taiji Square and talk to Duanmu Qing."
@@ -4197,17 +4162,14 @@
   - split: 12
     text: "太和上人"
     translated: "Senior Taihe"
-    qcReviewedText: "Senior Taihe·\\n"
-    qcTranslated: "Senior Taihe·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Senior Taihe·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往太极广场，与端木清交谈。"
     translated: "Go to the Taiji Square and talk to Duanmu Qing."
@@ -5256,17 +5218,14 @@
   - split: 12
     text: "南山只影"
     translated: "Solitary Figure on Southern Mountain"
-    qcReviewedText: "Solitary Figure on Southern Mountain·\\n"
-    qcTranslated: "Solitary Figure on Southern Mountain·One"
-    qcStatus: Corrected
+    qcReviewedText: "Solitary Figure on Southern Mountain·One"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往抱虎岭，寻找黄小玥踪迹。"
     translated: "Head to Baohu Ridge to search for Huang Xiaoyue's whereabouts."
@@ -5331,18 +5290,17 @@
   - split: 12
     text: "玉石俱焚"
     translated: "Destroy everything in a fit of rage"
-    qcReviewedText: "Destroy everything in a fit of rage·\\n"
-    qcTranslated: "Jade and Stone Burn Together·One\\n"
+    qcReviewedText: "Destroy everything in a fit of rage·One"
+    qcTranslated: "Mutual Destruction·One"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: LostIdiom
     qcDefectCategories:
-    - GarbledNumber
-    - UnnaturalPhrasing
+    - LostIdiom
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待过些时日，再去探望黄小玥。（点击追踪以查看剩余时间）"
     translated: "Wait a few days and then go to visit Huang Xiaoyue. (Click to track and check remaining time.)"
@@ -5371,18 +5329,17 @@
   - split: 12
     text: "玉石俱焚"
     translated: "Destroy everything in a fit of rage"
-    qcReviewedText: "Destroy everything in a fit of rage·\\n"
-    qcTranslated: "Jade and Stone Burn Together·One\\n"
+    qcReviewedText: "Destroy everything in a fit of rage·One"
+    qcTranslated: "Mutual Destruction·One"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: LostIdiom
     qcDefectCategories:
-    - GarbledNumber
-    - UnnaturalPhrasing
+    - LostIdiom
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待过些时日，再去探望黄小玥。（点击追踪以查看剩余时间）"
     translated: "Wait a few days and then go to visit Huang Xiaoyue. (Click to track and check remaining time.)"
@@ -5456,17 +5413,14 @@
   - split: 12
     text: "寻仇觅寇"
     translated: "Seeking vengeance on enemies"
-    qcReviewedText: "Seeking vengeance on enemies·\\n"
-    qcTranslated: "Seeking Vengeance on Enemies, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Seeking vengeance on enemies·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往临川村。"
     translated: "Head to Linchuan Village"
@@ -5892,17 +5846,17 @@
   - split: 12
     text: "花巷栖鹤"
     translated: "Flower Lane Abode of Cranes"
-    qcReviewedText: "Flower Lane Abode of Cranes·\\n"
-    qcTranslated: "Flower Lane Abode of Cranes·One"
+    qcReviewedText: "Flower Lane Abode of Cranes·One"
+    qcTranslated: "Flower Alley Perched Crane·One"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - GarbledNumber
+    - OtherNamedDefect
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "将线索情况告知孙老先生。"
     translated: "Inform Old Master Sun about the situation with the clues."
@@ -6174,17 +6128,14 @@
   - split: 12
     text: "心笼囚鹤"
     translated: "Caged Crane of the Heart"
-    qcReviewedText: "Caged Crane of the Heart·\\n"
-    qcTranslated: "Caged Crane of the Heart·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Caged Crane of the Heart·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待夜间前往流莺营地外埋伏。"
     translated: "Wait until night to ambush outside the Flowing Yellow Camp."
@@ -6317,7 +6268,7 @@
   - split: 2
     text: "明月舞鹤"
     translated: "Moonlit Crane Dance"
-    qcReviewedText: "Moonlit Crane Dance-Caged Crane of the Heart·\\n"
+    qcReviewedText: "Moonlit Crane Dance-Caged Crane of the Heart·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6328,7 +6279,7 @@
   - split: 2
     subIndex: 2
     text: "一"
-    translated: "\\n"
+    translated: "One"
   templates:
   - split: 2
     template: "{0}-{1}·{2}"
@@ -6657,17 +6608,14 @@
   - split: 12
     text: "赈灾疑事"
     translated: "Disaster Relief Mystery"
-    qcReviewedText: "Disaster Relief Mystery·\\n"
-    qcTranslated: "Disaster Relief Mystery·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Disaster Relief Mystery·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "与粥棚书生交谈，协助施粥。"
     translated: "Talk to the Bookish Scholar at the Porridge Shack and help serve porridge."
@@ -6696,14 +6644,14 @@
   - split: 12
     text: "赈灾疑事"
     translated: "Disaster Relief Mystery"
-    qcReviewedText: "Disaster Relief Mystery·\\n_Disaster Relief Mystery·\\n_Disaster Relief Mystery·\\n_Disaster Relief Mystery·\\n_Disaster Relief Mystery·\\n"
+    qcReviewedText: "Disaster Relief Mystery·One_Disaster Relief Mystery·One_Disaster Relief Mystery·One_Disaster Relief Mystery·One_Disaster Relief Mystery·One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     subIndex: 2
     text: "赈灾疑事"
@@ -6711,7 +6659,7 @@
   - split: 12
     subIndex: 3
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     subIndex: 4
     text: "赈灾疑事"
@@ -6719,7 +6667,7 @@
   - split: 12
     subIndex: 5
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     subIndex: 6
     text: "赈灾疑事"
@@ -6727,7 +6675,7 @@
   - split: 12
     subIndex: 7
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     subIndex: 8
     text: "赈灾疑事"
@@ -6735,7 +6683,7 @@
   - split: 12
     subIndex: 9
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "与灾民交谈，打听线索。"
     translated: "Talk to the victims and gather clues"
@@ -7367,7 +7315,7 @@
     text: "前往义庄。"
     translated: "Head to the charitable hall"
     qcReviewedText: "Head to the charitable hall"
-    qcTranslated: "Head to the mortuary."
+    qcTranslated: "Head to the mortuary"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -7812,17 +7760,14 @@
   - split: 2
     text: "四海不平"
     translated: "World is in turmoil"
-    qcReviewedText: "World is in turmoil·\\n"
-    qcTranslated: "Four Seas Unsettled, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "World is in turmoil·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     text: "四海不平"
     translated: "World is in turmoil"
@@ -8012,17 +7957,14 @@
   - split: 12
     text: "四海不平"
     translated: "World is in turmoil"
-    qcReviewedText: "World is in turmoil·\\n"
-    qcTranslated: "Four Seas Unsettled, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "World is in turmoil·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "至杭州城中，寻找洪四海。"
     translated: "Go to Hangzhou City and find Hong Sihai."
@@ -8144,17 +8086,14 @@
   - split: 12
     text: "远行之船"
     translated: "Traveling Ship"
-    qcReviewedText: "Traveling Ship·\\n"
-    qcTranslated: "Traveling Ship·One"
-    qcStatus: Corrected
+    qcReviewedText: "Traveling Ship·One"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "返回潇湘宝船，与锦瑟相谈。"
     translated: "Return to the XiaoXiang treasure ship and talk with Jinse."
@@ -8416,7 +8355,7 @@
     text: "段氏易主"
     translated: "Segment Family Changes Hands"
     qcReviewedText: "Segment Family Changes Hands"
-    qcTranslated: "The Duan Clan Changes Hands"
+    qcTranslated: "Duan Clan Changes Hands"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -8726,17 +8665,14 @@
   - split: 12
     text: "诛恶千里"
     translated: "Punish Evil for a Thousand Miles"
-    qcReviewedText: "Punish Evil for a Thousand Miles·\\n"
-    qcTranslated: "Punish Evil for a Thousand Miles·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Punish Evil for a Thousand Miles·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往大理城北，寻找书生夫妻。"
     translated: "Head to the northern part of Dali City and find the scholar couple."
@@ -9015,17 +8951,14 @@
   - split: 12
     text: "花山盛会"
     translated: "Floral Mountain Grand Festival"
-    qcReviewedText: "Floral Mountain Grand Festival·\\n"
-    qcTranslated: "Floral Mountain Grand Festival, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Floral Mountain Grand Festival·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "一日之后，参与花山节。"
     translated: "Participate in the Huashan Festival the following day."
@@ -9699,17 +9632,14 @@
   - split: 12
     text: "圣蛊秘事"
     translated: "Holy Worm Spirit Secrets"
-    qcReviewedText: "Holy Worm Spirit Secrets·\\n"
-    qcTranslated: "Holy Worm Spirit Secrets·One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Holy Worm Spirit Secrets·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "进入蛊塔。"
     translated: "Enter the Gu Tower"
@@ -9933,17 +9863,17 @@
   - split: 12
     text: "筹备花山"
     translated: "Preparations for Huashan"
-    qcReviewedText: "Preparations for Huashan·\\n"
-    qcTranslated: "Preparations for Huashan·One"
+    qcReviewedText: "Preparations for Huashan·One"
+    qcTranslated: "Preparations for Huashan - Part One"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: DomainTerm
     qcDefectCategories:
-    - GarbledNumber
+    - DomainTerm
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往鬼宅，与蒙芸交谈。"
     translated: "Go to the haunted house and talk to Meng Yun."
@@ -10389,8 +10319,8 @@
   - split: 12
     text: "蝶恋花"
     translated: "Butterfly Lovers' Flower"
-    qcReviewedText: "Butterfly Lovers' Flower·\\n"
-    qcTranslated: "Butterfly Lovers' Flower·One"
+    qcReviewedText: "Butterfly Lovers' Flower·One"
+    qcTranslated: "Die Lian Hua · One"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -10399,7 +10329,7 @@
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待了却自身事务后，与锦瑟交谈，商议计划。"
     translated: "After attending to their own affairs, they spoke with Jinse and discussed the plan."
@@ -10471,17 +10401,14 @@
   - split: 12
     text: "云开月明"
     translated: "Clouds part to reveal a bright moon"
-    qcReviewedText: "Clouds part to reveal a bright moon·\\n"
-    qcTranslated: "Clouds Part, Moon Shines: One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Clouds part to reveal a bright moon·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "见证潇湘子之结局。"
     translated: "Witness the conclusion of Xiaoxiangzi"
@@ -10975,17 +10902,14 @@
   - split: 12
     text: "船场疑云"
     translated: "Mystery at the Shipyard"
-    qcReviewedText: "Mystery at the Shipyard·\\n"
-    qcTranslated: "Mystery at the Shipyard, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Mystery at the Shipyard·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "至金鲤商会与沈梦秋交谈。"
     translated: "Talk to Shen Mengqiu at the Golden Carp Merchant Guild."
@@ -11178,17 +11102,14 @@
   - split: 12
     text: "船场疑云"
     translated: "Mystery at the Shipyard"
-    qcReviewedText: "Mystery at the Shipyard·\\n"
-    qcTranslated: "Mystery at the Shipyard, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Mystery at the Shipyard·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往金鲤商会探望沈梦秋。"
     translated: "Visit the Golden Carp Merchant Guild to check on Shen Mengqiu."
@@ -11324,17 +11245,14 @@
   - split: 12
     text: "敌忾同仇"
     translated: "Shared hatred unites us against a common enemy."
-    qcReviewedText: "Shared hatred unites us against a common enemy.·\\n"
-    qcTranslated: "Enemy Hatred, Common Vengeance: Part One"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcReviewedText: "Shared hatred unites us against a common enemy.·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "前往金鲤商会探寻状况。"
     translated: "Head to the Golden Carp Merchant Guild to investigate the situation."
@@ -11839,17 +11757,14 @@
   - split: 12
     text: "佳人侠梦"
     translated: "Fair Lady's Martial Dream"
-    qcReviewedText: "Fair Lady's Martial Dream·\\n"
-    qcTranslated: "Fair Lady's Martial Dream, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Fair Lady's Martial Dream·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待一日后，前往金鲤商会，与沈梦秋交谈。（点击追踪以查看剩余时间）"
     translated: "Wait until one day later, then go to the Golden Carp Merchant Guild to speak with Shen Mengqiu. (Click to track and view remaining time.)"
@@ -12022,17 +11937,17 @@
   - split: 12
     text: "东奔西顾"
     translated: "Looking left and right"
-    qcReviewedText: "Looking left and right·\\n"
-    qcTranslated: "East and West·One\\n"
+    qcReviewedText: "Looking left and right·One"
+    qcTranslated: "Eastward Rush, Westward Glance·One"
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcQualityScore: 90
+    qcDefectCategory: DomainTerm
     qcDefectCategories:
-    - GarbledNumber
+    - DomainTerm
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "追出顾府，寻找黑衣人去向。"
     translated: "Chase out of the Gu Mansion, searching for the Black Cloak's whereabouts."
@@ -12243,8 +12158,8 @@
   - split: 12
     text: "孤狼喋血"
     translated: "Solo Wolf Bleeds Freely"
-    qcReviewedText: "Solo Wolf Bleeds Freely·\\n"
-    qcTranslated: "Lone Wolf's Bloodbath·\\n"
+    qcReviewedText: "Solo Wolf Bleeds Freely·One"
+    qcTranslated: "Lone Wolf's Bloodbath·One"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -12253,7 +12168,7 @@
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "待些时日后，前往顾府，查看情况。"
     translated: "Wait for some time and then go to Gu Mansion to check on the situation."
@@ -12532,8 +12447,8 @@
     qcDefectCategory: None
   - split: 12
     text: "探花隐迹"
-    translated: "Imperial Scholar in Hiding"
-    qcReviewedText: "Imperial Scholar in Hiding"
+    translated: "Tanhua Conceals His Tracks"
+    qcReviewedText: "Tanhua Conceals His Tracks"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12548,8 +12463,8 @@
   splits:
   - split: 2
     text: "探花隐迹"
-    translated: "Imperial Scholar in Hiding"
-    qcReviewedText: "Imperial Scholar in Hiding"
+    translated: "Tanhua Conceals His Tracks"
+    qcReviewedText: "Tanhua Conceals His Tracks"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12684,7 +12599,7 @@
     text: "每患不均"
     translated: "Every worry about imbalance"
     qcReviewedText: "Every worry about imbalance"
-    qcTranslated: "The only concern is inequality"
+    qcTranslated: "Only concern is inequality"
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: LostIdiom
@@ -13387,15 +13302,15 @@
     - LostIdiom
   - split: 12
     text: "谋事在人"
-    translated: "Planning is in the hands of people"
-    qcReviewedText: "Planning is in the hands of people"
-    qcTranslated: "Man proposes"
+    translated: "Plans Rest with Man"
+    qcReviewedText: "Plans Rest with Man"
+    qcTranslated: "Man Proposes"
     qcStatus: Corrected
     flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: LostIdiom
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - LostIdiom
+    - DroppedContent
   - split: 13
     text: "返回洛阳城民居地窖密室。"
     translated: "Return to the secret room in the basement of a residence in Luoyang City."
@@ -13407,15 +13322,15 @@
   splits:
   - split: 2
     text: "谋事在人"
-    translated: "Planning is in the hands of people"
-    qcReviewedText: "Planning is in the hands of people"
-    qcTranslated: "Man proposes"
+    translated: "Plans Rest with Man"
+    qcReviewedText: "Plans Rest with Man"
+    qcTranslated: "Man Proposes"
     qcStatus: Corrected
     flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: LostIdiom
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - LostIdiom
+    - DroppedContent
   - split: 12
     text: "取信于人"
     translated: "Gain trust from others"
@@ -13750,15 +13665,11 @@
   splits:
   - split: 2
     text: "北邙忠骨"
-    translated: "Northern Mausoleum Loyal Bones"
-    qcReviewedText: "Northern Mausoleum Loyal Bones"
-    qcTranslated: "Beiming Loyal Bones"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Loyal Bones of Beimang"
+    qcReviewedText: "Loyal Bones of Beimang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "670,230001020,红尘禅心,1,0,23020,1,\"{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"}\",\"0,\",1744005485,False,,,"
   splits:
   - split: 2
@@ -14273,31 +14184,25 @@
   - split: 2
     text: "风起三韩"
     translated: "Wind Rises in Samhan"
-    qcReviewedText: "Wind Rises in Samhan·\\n"
-    qcTranslated: "Wind Rises in Samhan, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Wind Rises in Samhan·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 12
     text: "风起三韩"
     translated: "Wind Rises in Samhan"
-    qcReviewedText: "Wind Rises in Samhan·\\n"
-    qcTranslated: "Wind Rises in Samhan, Part One\\n"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Wind Rises in Samhan·One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 12
     subIndex: 1
     text: "一"
-    translated: "\\n"
+    translated: "One"
   - split: 13
     text: "查看前方的战斗"
     translated: "Check out the battle ahead"
@@ -14988,16 +14893,14 @@
   splits:
   - split: 2
     text: "倭马窥江"
-    translated: "Japanese Pirates Invade the River Mouth"
-    qcReviewedText: "Japanese Pirates Invade the River Mouth"
-    qcTranslated: "The Ouyang Horse Peers Peer at the River"
+    translated: "Wokou Eye the River"
+    qcReviewedText: "Wokou Eye the River"
+    qcTranslated: "Umay Peers at the River"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: GarbledNumber
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
     qcDefectCategories:
-    - GarbledNumber
-    - OtherNamedDefect
+    - DomainTerm
 - raw: "743,270001016,明镜非台,1,0,27000,1,\"{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":false,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"}\",\"0,\",1744652818,False,,,"
   splits:
   - split: 2
@@ -15202,11 +15105,14 @@
     translated: "Branch Two"
   - split: 12
     text: "为虎作伥"
-    translated: "To serve the tiger as its shaman"
-    qcReviewedText: "To serve the tiger as its shaman"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger"
+    qcTranslated: "Playing the Tiger's Lackey"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - split: 13
     text: "前往丰川村探访当地民情"
     translated: "Visit Fengchuan Village to investigate the local customs."
@@ -15221,18 +15127,24 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    translated: "To serve the tiger as its shaman"
-    qcReviewedText: "To serve the tiger as its shaman"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger"
+    qcTranslated: "Playing the Tiger's Lackey"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - split: 12
     text: "为虎作伥"
-    translated: "To serve the tiger as its shaman"
-    qcReviewedText: "To serve the tiger as its shaman"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger"
+    qcTranslated: "Playing the Tiger's Lackey"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - split: 13
     text: "与村民交谈"
     translated: "Talk to the villagers"
@@ -15244,27 +15156,25 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    translated: "To serve the tiger as a shaman"
-    qcReviewedText: "To serve the tiger as a shaman-Branch One"
-    qcTranslated: "To Serve the Tiger as a Chang-Branch One"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
-    - UntranslatedPinyin
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger-Branch One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "分支一"
     translated: "Branch One"
   - split: 12
     text: "为虎作伥"
-    translated: "To serve the tiger as its shaman"
-    qcReviewedText: "To serve the tiger as its shaman"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger"
+    qcTranslated: "Playing the Tiger's Lackey"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - split: 13
     text: "与村里的村民交谈"
     translated: "Talk to the villagers in the village"
@@ -15279,25 +15189,25 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    translated: "To serve the tiger as a shaman"
-    qcReviewedText: "To serve the tiger as a shaman-Branch Two"
-    qcTranslated: "Playing the Tiger's Lackey-Branch Two"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger-Branch Two"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "分支二"
     translated: "Branch Two"
   - split: 12
     text: "为虎作伥"
-    translated: "To serve the tiger as its shaman"
-    qcReviewedText: "To serve the tiger as its shaman"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger"
+    qcTranslated: "Playing the Tiger's Lackey"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   - split: 13
     text: "与村里的村民交谈"
     translated: "Talk to the villagers in the village"
@@ -15312,14 +15222,11 @@
   splits:
   - split: 2
     text: "为虎作伥"
-    translated: "To serve the tiger as a shaman"
-    qcReviewedText: "To serve the tiger as a shaman-Branch Three"
-    qcTranslated: "Playing the Tiger's Fool-Branch Three"
-    qcStatus: Corrected
-    qcQualityScore: 85
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Abetting the Tiger"
+    qcReviewedText: "Abetting the Tiger-Branch Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "分支三"

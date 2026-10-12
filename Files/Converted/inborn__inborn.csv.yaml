@@ -253,15 +253,11 @@
     qcDefectCategory: None
   - split: 5
     text: "崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
-    translated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
-    qcReviewedText: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
-    qcTranslated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a Manual of Martial Art and promised to meet again someday, then departed gracefully."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Lofty is Mount Song, soaring to the heavens. When you were young, you met a “Purple Aura Nobleman” who gave you a martial arts manual, promised to meet again someday, and then departed lightly."
+    qcReviewedText: "Lofty is Mount Song, soaring to the heavens. When you were young, you met a “Purple Aura Nobleman” who gave you a martial arts manual, promised to meet again someday, and then departed lightly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "17,3001,秋尽而藏,白藏,0,时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0,0,0,0,0,0,0,0,0,0,0"
   splits:
   - split: 2

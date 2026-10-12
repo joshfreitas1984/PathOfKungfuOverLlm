@@ -162,14 +162,13 @@
     text: "记载了扇子类武器的精制技艺，学习后可以锻造【旧纸扇"
     translated: "Records the refined craftsmanship of fan-type weapons; after learning it, you can forge an Old Paper Fan."
     qcReviewedText: "Records the refined craftsmanship of fan-type weapons; after learning it, you can forge an Old Paper Fan.·Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Records the refined craftsmanship of Fan-type weapons; after learning it, you can forge an Old Paper Fan (Refined). This Equipment requires a Novice level of martial arts proficiency to use skillfully."
-    qcFailureReason: " The translation put text in parentheses, but the original has no parentheses there. Remove the parentheses you added and write that text plainly in the sentence, e.g. \"Little Brother is brave\" and not \"(Little Brother) is brave\"."
+    qcTranslated: "Records the refined craftsmanship of Fan-type weapons; after learning it, you can forge an Old Paper Fan Refined. This Equipment requires a Novice level of martial arts proficiency to use skillfully."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Records the refined craftsmanship of fan-type weapons; after learning it, you can forge an Old Paper Fan.·Proficient. This equipment requires a novice level of martial arts proficiency to use skillfully."
+    - GarbledNumber
+    - UnnaturalPhrasing
   - split: 20
     subIndex: 1
     text: "精】。此装备需有粗通皮毛之武境方可运使自如。"

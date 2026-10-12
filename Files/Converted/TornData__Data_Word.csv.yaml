@@ -6471,7 +6471,7 @@
     text: "【按"
     translated: "[Press]"
     qcReviewedText: "[Press]ESC[Skip current animation]"
-    qcTranslated: "[Press ESC to skip the current animation]"
+    qcTranslated: "【[Press ESC to skip the current animation]】"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -6873,15 +6873,11 @@
   splits:
   - split: 3
     text: "崧高维岳，骏极于天，你幼时曾遇一“紫气贵人”，将一册武学秘籍赠交于你，相约日后再会，遂翩然而去。"
-    translated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
-    qcReviewedText: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a manual of martial arts and promised to meet again someday, then departed gracefully."
-    qcTranslated: "Sungao Wei Yue, Junji Yu Tian, when you were young, you met a Purple Aura Nobleman who presented you with a Manual of Martial Art and promised to meet again someday, then departed gracefully."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Lofty is Mount Song, soaring to the heavens. When you were young, you met a “Purple Aura Nobleman” who gave you a martial arts manual, promised to meet again someday, and then departed lightly."
+    qcReviewedText: "Lofty is Mount Song, soaring to the heavens. When you were young, you met a “Purple Aura Nobleman” who gave you a martial arts manual, promised to meet again someday, and then departed lightly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "716,714,天赋界面,时秋而获，待尽而藏，你性格沉稳，处时而动，久留余力，体力值上限提升5%。"
   splits:
   - split: 3
@@ -7164,7 +7160,7 @@
     text: "【角色信息面板】"
     translated: "【[Character Information Panel]】"
     qcReviewedText: "【[Character Information Panel]】"
-    qcTranslated: "[Character Information Panel]"
+    qcTranslated: "【[Character Information Panel]】"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -7287,7 +7283,7 @@
     text: "【任务完成】"
     translated: "【[Task Completed]】"
     qcReviewedText: "【[Task Completed]】"
-    qcTranslated: "[Task Completed]"
+    qcTranslated: "【[Task Completed]】"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -7876,7 +7872,7 @@
     text: "【使用道具】"
     translated: "【[Use Item]】"
     qcReviewedText: "【[Use Item]】"
-    qcTranslated: "[Use Item]"
+    qcTranslated: "【[Use Item]】"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -7935,7 +7931,7 @@
     text: "【技能栏】"
     translated: "【[Skill Bar]】"
     qcReviewedText: "【[Skill Bar]】"
-    qcTranslated: "[Skill Bar]"
+    qcTranslated: "【[Skill Bar]】"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -8032,7 +8028,7 @@
     text: "【技能栏】"
     translated: "【[Skill Bar]】"
     qcReviewedText: "【[Skill Bar]】"
-    qcTranslated: "[Skill Bar]"
+    qcTranslated: "【[Skill Bar]】"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -8452,7 +8448,7 @@
     text: "4.“鱼所在水域”分为“长"
     translated: "4.Fish Habitat is divided into Long"
     qcReviewedText: "4.Fish Habitat is divided into Long/Middle/The shorter the Skill Level, the greater the probability of obtaining rare catches."
-    qcTranslated: "4.\"Fish Habitat\" is divided into three tiers: \"Long/Medium/Short\". The shorter the \"Fish Habitat\", the greater the probability of obtaining rare catches."
+    qcTranslated: "4.Fish Habitat is divided into three tiers: Long/Medium/Short. The shorter the Fish Habitat, the greater the probability of obtaining rare catches."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -8915,15 +8911,11 @@
   splits:
   - split: 3
     text: "人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
-    translated: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Daoists endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
-    qcReviewedText: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Daoists endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
-    qcTranslated: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Dao paths endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Dao paths endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
+    qcReviewedText: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Dao paths endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "886,884,版本更新,物品为空"
   splits:
   - split: 3

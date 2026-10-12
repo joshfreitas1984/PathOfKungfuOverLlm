@@ -5764,13 +5764,11 @@
   splits:
   - split: 3
     text: "地道"
-    translated: "Native speaker"
-    qcReviewedText: "Native speaker"
+    translated: "Tunnel"
+    qcReviewedText: "Tunnel"
     qcStatus: Passed
-    flaggedForQcReview: true
-    qcDefectCategory: Uncertain
-    qcDefectCategories:
-    - Uncertain
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "632,2202002,,地道台阶,,0,0,1,None,2202002,,,,,,\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"为便于兵马通行所掘的土阶，已有些许地方被人踩塌。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1734925903,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"你观察良久，并未发现有何不妥。\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3
@@ -10727,7 +10725,7 @@
     text: "隐隐放光之物"
     translated: "Glowing faintly"
     qcReviewedText: "Glowing faintly"
-    qcTranslated: "The object that glows faintly"
+    qcTranslated: "Object that glows faintly"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -11117,7 +11115,7 @@
     text: "铸炉"
     translated: "Forging the Furnace"
     qcReviewedText: "Forging the Furnace"
-    qcTranslated: "The Forging Furnace"
+    qcTranslated: "Forging Furnace"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -22431,7 +22429,7 @@
     text: "月女"
     translated: "Moon Maiden"
     qcReviewedText: "Moon Maiden"
-    qcTranslated: "Yue Nü"
+    qcTranslated: "Yue Nu"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
