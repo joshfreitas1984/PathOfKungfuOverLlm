@@ -2167,8 +2167,8 @@
   splits:
   - split: 2
     text: "【境界】"
-    translated: "【[Realm]】"
-    qcReviewedText: "【[Realm]】"
+    translated: "[Realm]"
+    qcReviewedText: "[Realm]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2176,8 +2176,8 @@
   splits:
   - split: 2
     text: "【声望】"
-    translated: "【[Reputation]】"
-    qcReviewedText: "【[Reputation]】"
+    translated: "[Reputation]"
+    qcReviewedText: "[Reputation]"
     qcTranslated: "【Reputation】"
     qcStatus: Corrected
     qcQualityScore: 100
@@ -2505,8 +2505,8 @@
   - split: 2
     text: "冲穴操作规则"
     translated: "Acupoint Breakthrough Operation Rules"
-    qcReviewedText: "Acupoint Breakthrough Operation Rules：{0} Open Meridian Path：Reveal the hidden meridians, consuming 9 Cultivation {1} Clockwise Path：Rotate the meridian path clockwise, consuming 6 Cultivation.{2} Counterclockwise Path：Rotate the meridian path counterclockwise, consuming 6 Cultivation.{3} Change Path：Randomly switch to another meridian, consuming 15 Cultivation {4} Basic Rules：{5} The starting position of the acupoint<color=#01a605>【[Green]】</color>And the endpoint position<color=#ff0000>【[Red]】</color>Connecting them in a line can break through the acupoint.{6} The meridian passes through the secondary points<color=#FF00E9>【[Purple]】</color>Will also receive rewards for combat attributes         "
-    qcTranslated: "Acupoint Breakthrough Operation Rules: {0} Open Meridian Path: Reveal the hidden meridians, consuming 9 Cultivation. {1} Clockwise Path: Rotate the meridian path clockwise, consuming 6 Cultivation. {2} Counterclockwise Path: Rotate the meridian path counterclockwise, consuming 6 Cultivation. {3} Change Path: Randomly switch to another meridian, consuming 15 Cultivation. {4} Basic Rules: {5} Connect the starting position of the acupoint <color=#01a605>【[Green]】</color> and the endpoint position <color=#ff0000>【[Red]】</color> in a line to break through the acupoint. {6} The meridian passing through the secondary points <color=#FF00E9>【[Purple]】</color> will also receive rewards for combat attributes"
+    qcReviewedText: "Acupoint Breakthrough Operation Rules：{0} Open Meridian Path：Reveal the hidden meridians, consuming 9 Cultivation {1} Clockwise Path：Rotate the meridian path clockwise, consuming 6 Cultivation.{2} Counterclockwise Path：Rotate the meridian path counterclockwise, consuming 6 Cultivation.{3} Change Path：Randomly switch to another meridian, consuming 15 Cultivation {4} Basic Rules：{5} The starting position of the acupoint<color=#01a605>[Green]</color>And the endpoint position<color=#ff0000>[Red]</color>Connecting them in a line can break through the acupoint.{6} The meridian passes through the secondary points<color=#FF00E9>[Purple]</color>Will also receive rewards for combat attributes         "
+    qcTranslated: "Acupoint Breakthrough Operation Rules: {0} Open Meridian Path: Reveal the hidden meridians, consuming 9 Cultivation. {1} Clockwise Path: Rotate the meridian path clockwise, consuming 6 Cultivation. {2} Counterclockwise Path: Rotate the meridian path counterclockwise, consuming 6 Cultivation. {3} Change Path: Randomly switch to another meridian, consuming 15 Cultivation. {4} Basic Rules: {5} Connect the starting position of the acupoint <color=#01a605>[Green]</color> and the endpoint position <color=#ff0000>[Red]</color> in a line to break through the acupoint. {6} The meridian passing through the secondary points <color=#FF00E9>[Purple]</color> will also receive rewards for combat attributes"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: HardToParseSeam
@@ -2556,7 +2556,7 @@
   - split: 2
     subIndex: 11
     text: "【绿色】"
-    translated: "【[Green]】"
+    translated: "[Green]"
   - split: 2
     subIndex: 12
     text: "和终点位置"
@@ -2564,7 +2564,7 @@
   - split: 2
     subIndex: 13
     text: "【红色】"
-    translated: "【[Red]】"
+    translated: "[Red]"
   - split: 2
     subIndex: 14
     text: "连成一线即可突破穴道。"
@@ -2576,7 +2576,7 @@
   - split: 2
     subIndex: 16
     text: "【紫色】"
-    translated: "【[Purple]】"
+    translated: "[Purple]"
   - split: 2
     subIndex: 17
     text: "会额外获得战斗属性的奖励"
@@ -2978,8 +2978,8 @@
   splits:
   - split: 2
     text: "【木人桩设置】"
-    translated: "【[Training Dummy Setup]】"
-    qcReviewedText: "【[Training Dummy Setup]】"
+    translated: "[Training Dummy Setup]"
+    qcReviewedText: "[Training Dummy Setup]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3426,9 +3426,9 @@
   splits:
   - split: 2
     text: "【任务描述】"
-    translated: "【[Task Description]】"
-    qcReviewedText: "【[Task Description]】"
-    qcTranslated: "【[Task Description]】"
+    translated: "[Task Description]"
+    qcReviewedText: "[Task Description]"
+    qcTranslated: "[Task Description]"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3438,9 +3438,9 @@
   splits:
   - split: 2
     text: "【任务奖励】"
-    translated: "【[Task Reward]】"
-    qcReviewedText: "【[Task Reward]】"
-    qcTranslated: "【[Task Reward]】"
+    translated: "[Task Reward]"
+    qcReviewedText: "[Task Reward]"
+    qcTranslated: "[Task Reward]"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -7257,8 +7257,8 @@
   splits:
   - split: 2
     text: "【捕快】"
-    translated: "【[Marshal]】"
-    qcReviewedText: "【[Marshal]】"
+    translated: "[Marshal]"
+    qcReviewedText: "[Marshal]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

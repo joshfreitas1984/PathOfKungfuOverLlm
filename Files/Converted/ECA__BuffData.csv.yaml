@@ -1455,9 +1455,9 @@
     qcDefectCategory: None
   - split: 10
     text: "【淬骨】"
-    translated: "【[Refine Bone]】"
-    qcReviewedText: "【[Refine Bone]】: Each abnormal effect on your body increases your Internal Attack by 1.5%. The maximum stack is 20. This effect lasts for 5 seconds, restoring '1'."
-    qcTranslated: "【[Refine Bone]】: Each of the 1.5 abnormal effects on your body increases your Internal Attack by 20.%, with a maximum stack of 5. This effect lasts for 1 seconds."
+    translated: "[Refine Bone]"
+    qcReviewedText: "[Refine Bone]: Each abnormal effect on your body increases your Internal Attack by 1.5%. The maximum stack is 20. This effect lasts for 5 seconds, restoring '1'."
+    qcTranslated: "[Refine Bone]: Each of the 1.5 abnormal effects on your body increases your Internal Attack by 20.%, with a maximum stack of 5. This effect lasts for 1 seconds."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -1889,9 +1889,9 @@
     qcDefectCategory: None
   - split: 10
     text: "【盈血】"
-    translated: "【[Bloody Gain]】"
-    qcReviewedText: "【[Bloody Gain]】：Additional Lifeforce Recovery Attribute"
-    qcTranslated: "【[Bloody Gain]】: Additional Lifeforce Recovery Attributes"
+    translated: "[Bloody Gain]"
+    qcReviewedText: "[Bloody Gain]：Additional Lifeforce Recovery Attribute"
+    qcTranslated: "[Bloody Gain]: Additional Lifeforce Recovery Attributes"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -2063,9 +2063,9 @@
     qcDefectCategory: None
   - split: 10
     text: "【盈血】"
-    translated: "【[Bloody Gain]】"
-    qcReviewedText: "【[Bloody Gain]】：Additional Lifeforce Recovery Attributes"
-    qcTranslated: "【[Blood Surplus]】: Additional Lifeforce Recovery Attributes"
+    translated: "[Bloody Gain]"
+    qcReviewedText: "[Bloody Gain]：Additional Lifeforce Recovery Attributes"
+    qcTranslated: "[Blood Surplus]: Additional Lifeforce Recovery Attributes"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm

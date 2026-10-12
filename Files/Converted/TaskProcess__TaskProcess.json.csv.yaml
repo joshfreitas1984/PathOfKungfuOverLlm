@@ -55629,7 +55629,7 @@
   splits:
   - split: 4
     text: "【{fullName}，我经几番波折，已将青萍诸事之来龙去脉大抵查清，若有意一晤，你我长安再会。】"
-    translated: "【{fullName}, I have uncovered the truth behind the Qingping affairs after much hardship. If you wish to meet, let us rendezvous in Chang'an.】"
+    translated: "[{fullName}, I have uncovered the truth behind the Qingping affairs after much hardship. If you wish to meet, let us rendezvous in Chang'an.]"
     tokens:
       fullName:
         source: "<name>"
@@ -63033,8 +63033,8 @@
   splits:
   - split: 4
     text: "【吾本辽东牧人，被官军征至此处，暗中开掘始皇陵寝，无意间发现天书碑刻，观之能增勇力，增长内劲。】"
-    translated: "【['I was originally a herdsman from Liaodong, conscripted by the imperial army to this place. In secret, I excavated the tomb of the First Emperor, and by chance discovered the Heavenly Scripture inscribed on a stone tablet. By observing it, one can increase their courage and strength, as well as Inner Force.']】"
-    qcReviewedText: "【['I was originally a herdsman from Liaodong, conscripted by the imperial army to this place. In secret, I excavated the tomb of the First Emperor, and by chance discovered the Heavenly Scripture inscribed on a stone tablet. By observing it, one can increase their courage and strength, as well as Inner Force.']】"
+    translated: "['I was originally a herdsman from Liaodong, conscripted by the imperial army to this place. In secret, I excavated the tomb of the First Emperor, and by chance discovered the Heavenly Scripture inscribed on a stone tablet. By observing it, one can increase their courage and strength, as well as Inner Force.']"
+    qcReviewedText: "['I was originally a herdsman from Liaodong, conscripted by the imperial army to this place. In secret, I excavated the tomb of the First Emperor, and by chance discovered the Heavenly Scripture inscribed on a stone tablet. By observing it, one can increase their courage and strength, as well as Inner Force.']"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -63042,9 +63042,9 @@
   splits:
   - split: 4
     text: "【然同工之人观其纹样，却是非疯即傻。故吾借倾移石渣之机，将其暗中扛于此处掩藏，如我这般不疯不傻，反益处无穷之人，恐怕难觅。万望后来者莫要细观碑上纹路字样，以免生患。】"
-    translated: "【[Upon observing the patterns, even those who share his craft would deem him either mad or foolish. Thus, I took advantage of shifting the stone debris to secretly carry him here and hide him. For someone like me, who is neither mad nor foolish, it brings endless benefits. I sincerely hope that future visitors do not examine the patterns on the stele, to avoid causing harm.]】"
-    qcReviewedText: "【[Upon observing the patterns, even those who share his craft would deem him either mad or foolish. Thus, I took advantage of shifting the stone debris to secretly carry him here and hide him. For someone like me, who is neither mad nor foolish, it brings endless benefits. I sincerely hope that future visitors do not examine the patterns on the stele, to avoid causing harm.]】"
-    qcTranslated: "【[Upon observing the patterns, even those who share his craft would deem him either mad or foolish. Thus, I took advantage of shifting the stone debris to secretly carry it here and hide it. For someone like me, who is neither mad nor foolish, it brings endless benefits. I sincerely hope that future visitors do not examine the patterns on the stele, to avoid causing harm.]】"
+    translated: "[Upon observing the patterns, even those who share his craft would deem him either mad or foolish. Thus, I took advantage of shifting the stone debris to secretly carry him here and hide him. For someone like me, who is neither mad nor foolish, it brings endless benefits. I sincerely hope that future visitors do not examine the patterns on the stele, to avoid causing harm.]"
+    qcReviewedText: "[Upon observing the patterns, even those who share his craft would deem him either mad or foolish. Thus, I took advantage of shifting the stone debris to secretly carry him here and hide him. For someone like me, who is neither mad nor foolish, it brings endless benefits. I sincerely hope that future visitors do not examine the patterns on the stele, to avoid causing harm.]"
+    qcTranslated: "[Upon observing the patterns, even those who share his craft would deem him either mad or foolish. Thus, I took advantage of shifting the stone debris to secretly carry it here and hide it. For someone like me, who is neither mad nor foolish, it brings endless benefits. I sincerely hope that future visitors do not examine the patterns on the stele, to avoid causing harm.]"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -63054,8 +63054,8 @@
   splits:
   - split: 4
     text: "【魏无忌谨刻】"
-    translated: "【[Wei Wuji Carved with Reverence]】"
-    qcReviewedText: "【[Wei Wuji Carved with Reverence]】"
+    translated: "[Wei Wuji Carved with Reverence]"
+    qcReviewedText: "[Wei Wuji Carved with Reverence]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -120991,9 +120991,9 @@
   splits:
   - split: 4
     text: "【在下身中数创，归乡无望，随身有玉佩一枚，宝剑一口愿托付来者，唯有此信望能送至长安李氏，以证吾随军出征，无愧先祖，死者含泪，叩首百拜。】"
-    translated: "【[Having been wounded and unable to return home, I carry a jade pendant and a sword with me. I wish to entrust them to you, and only hope that this letter can be delivered to Miss Li in Chang'an, to prove that I served my ancestors honorably in the army. The dead weep, and I bow my head in gratitude a hundred times.]】"
-    qcReviewedText: "【[Having been wounded and unable to return home, I carry a jade pendant and a sword with me. I wish to entrust them to you, and only hope that this letter can be delivered to Miss Li in Chang'an, to prove that I served my ancestors honorably in the army. The dead weep, and I bow my head in gratitude a hundred times.]】"
-    qcTranslated: "【[Having been wounded in several places and with no hope of returning home, I carry a jade pendant and a sword with me. I wish to entrust them to you, and only hope that this letter can be delivered to the Li family in Chang'an, to prove that I went on campaign with the army without shame before my ancestors. The dead weep, and I bow my head a hundred times.]】"
+    translated: "[Having been wounded and unable to return home, I carry a jade pendant and a sword with me. I wish to entrust them to you, and only hope that this letter can be delivered to Miss Li in Chang'an, to prove that I served my ancestors honorably in the army. The dead weep, and I bow my head in gratitude a hundred times.]"
+    qcReviewedText: "[Having been wounded and unable to return home, I carry a jade pendant and a sword with me. I wish to entrust them to you, and only hope that this letter can be delivered to Miss Li in Chang'an, to prove that I served my ancestors honorably in the army. The dead weep, and I bow my head in gratitude a hundred times.]"
+    qcTranslated: "[Having been wounded in several places and with no hope of returning home, I carry a jade pendant and a sword with me. I wish to entrust them to you, and only hope that this letter can be delivered to the Li family in Chang'an, to prove that I went on campaign with the army without shame before my ancestors. The dead weep, and I bow my head a hundred times.]"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -180793,9 +180793,9 @@
   splits:
   - split: 4
     text: "【壁城贵客已至曼珠居所】"
-    translated: "【[Honorable Guest has Arrived]】"
-    qcReviewedText: "【[Honorable Guest has Arrived]】"
-    qcTranslated: "【[Honorable Guest of Bi City has Arrived at Manju's Residence]】"
+    translated: "[Honorable Guest has Arrived]"
+    qcReviewedText: "[Honorable Guest has Arrived]"
+    qcTranslated: "[Honorable Guest of Bi City has Arrived at Manju's Residence]"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -208512,8 +208512,8 @@
   splits:
   - split: 4
     text: "【隆顺镖局义冢——隐翼敬立】"
-    translated: "【[Longshun Escort Agency Memorial Grounds -- Dedicated by Hidden Wing]】"
-    qcReviewedText: "【[Longshun Escort Agency Memorial Grounds -- Dedicated by Hidden Wing]】"
+    translated: "[Longshun Escort Agency Memorial Grounds -- Dedicated by Hidden Wing]"
+    qcReviewedText: "[Longshun Escort Agency Memorial Grounds -- Dedicated by Hidden Wing]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211147,8 +211147,8 @@
   splits:
   - split: 4
     text: "【此信既启，此镖想来已失，为父将镖局前程尽押其上，终究赌得大败亏输……然既已睹信，说明秦家终究香火未绝，盒中之物，便乃此行镖物，持之可保后事平安，万勿有失。】"
-    translated: "【[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]】"
-    qcReviewedText: "【[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]】"
+    translated: "[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]"
+    qcReviewedText: "[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211156,8 +211156,8 @@
   splits:
   - split: 4
     text: "【这一镖乃为京中之人所押，若被奸人得之，有祸乱天下之能，圣上心忧，故此将其隐秘押回，为父所知，亦止于此。】"
-    translated: "【[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]】"
-    qcReviewedText: "【[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]】"
+    translated: "[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]"
+    qcReviewedText: "[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211165,8 +211165,8 @@
   splits:
   - split: 4
     text: "【若有人欲夺，你便以毁去此物相胁，料来此物如此隐秘，天下间独此一件，其人投鼠忌器，必难伤你一根毫毛，如此后世万安……为父胸无点墨，你日后相夫教子，需令他多读些书……秦岳渊绝笔。】"
-    translated: "【If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.】"
-    qcReviewedText: "【If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.】"
+    translated: "[If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.]"
+    qcReviewedText: "[If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211436,8 +211436,8 @@
   splits:
   - split: 4
     text: "【此信既启，此镖想来已失，为父将镖局前程尽押其上，终究赌得大败亏输……然既已睹信，说明秦家终究香火未绝，盒中之物，便乃此行镖物，持之可保后事平安，万勿有失。】"
-    translated: "【[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]】"
-    qcReviewedText: "【[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]】"
+    translated: "[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]"
+    qcReviewedText: "[Now that this letter is opened, the escort must have failed. Father staked the future of the bureau on it, only to lose everything... Yet you have read this letter, which means the Qin family still has a chance. The item in the box is the cargo of this failed escort mission. Hold onto it to ensure peace for what comes next. Do not lose it.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211445,8 +211445,8 @@
   splits:
   - split: 4
     text: "【这一镖乃为京中之人所押，若被奸人得之，有祸乱天下之能，圣上心忧，故此将其隐秘押回，为父所知，亦止于此。】"
-    translated: "【[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]】"
-    qcReviewedText: "【[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]】"
+    translated: "[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]"
+    qcReviewedText: "[This escort is for someone in the capital. If it falls into the wrong hands, it has the power to bring chaos to the realm. The emperor is worried, so he ordered it to be secretly returned. This is all that Father knows.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211454,8 +211454,8 @@
   splits:
   - split: 4
     text: "【若有人欲夺，你便以毁去此物相胁，料来此物如此隐秘，天下间独此一件，其人投鼠忌器，必难伤你一根毫毛，如此后世万安……为父胸无点墨，你日后相夫教子，需令他多读些书……秦岳渊绝笔。】"
-    translated: "【If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.】"
-    qcReviewedText: "【If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.】"
+    translated: "[If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.]"
+    qcReviewedText: "[If anyone tries to take it from you, threaten to destroy this item. Given how hidden it is and that there is only one in the world, they will hesitate to harm a hair on your head... This ensures your safety for generations to come......Father is uneducated; after I am gone, you must encourage your husband to read more books......Qin Yueyuan's final words.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -313212,7 +313212,7 @@
   - split: 4
     subIndex: 1
     text: "第三章》接话。"
-    translated: "》responds'"
+    translated: "responds'"
   templates:
   - split: 4
     template: "{0}·{1}"
@@ -313481,9 +313481,9 @@
   splits:
   - split: 4
     text: "前方过了摩崖三佛，便是第二关所在。第二关暗号取自《四十二章经"
-    translated: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 《Forty-Two Chapter Sutra"
-    qcReviewedText: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 《Forty-Two Chapter Sutra·Chapter 19》, and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
-    qcTranslated: "Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 《Forty-Two Chapter Sutra·Chapter Nineteen》, and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
+    translated: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra"
+    qcReviewedText: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter 19》, and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
+    qcTranslated: "Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter Nineteen》, and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -313492,7 +313492,7 @@
   - split: 4
     subIndex: 1
     text: "第十九章》，守关者会念“佛言"
-    translated: "Chapter 19》, and the gatekeeper will recite, “The Buddha said"
+    translated: "Chapter 19', and the gatekeeper will recite, “The Buddha said"
   - split: 4
     subIndex: 2
     text: "当念身中四大，各自有名，都无我者”，正确应答原是“我既都无，其如幻耳”……"
@@ -344165,7 +344165,7 @@
   splits:
   - split: 4
     text: "【{playerTitle}见信如唔，沈某自决断擅自调兵以来，便已知晓船场诸事皆是奸臣阴险筹谋，只为逼迫沈某出面相抗，借此罗织罪名，以图谋沈家数代积累之财货……】"
-    translated: "【Dear {playerTitle}, since I, Shen Mou, made the decision to mobilize troops on my own initiative, I have been aware that all matters concerning the shipyard are the sinister plots of villains, aimed at forcing me to take action so they can frame me with false charges and seize the wealth accumulated by my family over generations......】"
+    translated: "[Dear {playerTitle}, since I, Shen Mou, made the decision to mobilize troops on my own initiative, I have been aware that all matters concerning the shipyard are the sinister plots of villains, aimed at forcing me to take action so they can frame me with false charges and seize the wealth accumulated by my family over generations......]"
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
@@ -344177,8 +344177,8 @@
   splits:
   - split: 4
     text: "【然沈某无法坐视奸臣害民残灭之举，故以身饲虎，以沈家万贯家财及自身性命，换得数千船工、万余流民之保全！】"
-    translated: "【[Though Shen cannot bear to watch the wicked ministers harm the people and destroy lives, he has offered himself to the tigers, sacrificing the wealth of his family and his own life to ensure the safety of thousands of boatmen and over ten thousand refugees!]】"
-    qcReviewedText: "【[Though Shen cannot bear to watch the wicked ministers harm the people and destroy lives, he has offered himself to the tigers, sacrificing the wealth of his family and his own life to ensure the safety of thousands of boatmen and over ten thousand refugees!]】"
+    translated: "[Though Shen cannot bear to watch the wicked ministers harm the people and destroy lives, he has offered himself to the tigers, sacrificing the wealth of his family and his own life to ensure the safety of thousands of boatmen and over ten thousand refugees!]"
+    qcReviewedText: "[Though Shen cannot bear to watch the wicked ministers harm the people and destroy lives, he has offered himself to the tigers, sacrificing the wealth of his family and his own life to ensure the safety of thousands of boatmen and over ten thousand refugees!]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -344186,7 +344186,7 @@
   splits:
   - split: 4
     text: "【此事乃沈某一意孤行，唯念小女梦秋年岁尚小，还请{playerTitle}带小女远离此是非之地，从此浪迹天涯也好过如我这般结局……】"
-    translated: "【This matter is Shen's own doing. Thinking only of my young daughter Mengqiu, who is still so small, I implore you, {playerTitle}, to take her away from this place of trouble and let her roam the world as a wanderer... This would be better than my fate...】"
+    translated: "[This matter is Shen's own doing. Thinking only of my young daughter Mengqiu, who is still so small, I implore you, {playerTitle}, to take her away from this place of trouble and let her roam the world as a wanderer... This would be better than my fate...]"
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
@@ -344198,8 +344198,8 @@
   splits:
   - split: 4
     text: "【沈瑄涕泪再拜，所请之事，务祈垂许。】"
-    translated: "【[Shen Xuan bows again with tears, earnestly requesting your permission.]】"
-    qcReviewedText: "【[Shen Xuan bows again with tears, earnestly requesting your permission.]】"
+    translated: "[Shen Xuan bows again with tears, earnestly requesting your permission.]"
+    qcReviewedText: "[Shen Xuan bows again with tears, earnestly requesting your permission.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -419504,7 +419504,7 @@
       lastName:
         source: "<lName>"
     qcReviewedText: "[Dear {lastName}, Greetings of Peace]：It has been over a month since we last met. If you have the time, might I suggest meeting again?[Back Mountain Entrance]【Let's talk? I offer my sincere regards; there is no need for a reply.】"
-    qcTranslated: "【[Dear {lastName}, Greetings of Peace]: It has been over a month since we last met. If you have the time, might I suggest meeting at [Back Mountain Entrance]? I offer my sincere regards; there is no need for a reply.】"
+    qcTranslated: "[Dear {lastName}, Greetings of Peace]: It has been over a month since we last met. If you have the time, might I suggest meeting at [Back Mountain Entrance]? I offer my sincere regards; there is no need for a reply.】"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: HardToParseSeam
@@ -419552,7 +419552,7 @@
       lastName:
         source: "<lName>"
     qcReviewedText: "[Dear {lastName}, Greetings of Peace]：It has been over a month since we last met. If you have the time, might I suggest meeting again?[Back Mountain Entrance]【Let's talk? I offer my sincere regards; there is no need for a reply.】"
-    qcTranslated: "【[Dear {lastName}, Greetings of Peace]: It has been over a month since we last met. If you have the time, might I suggest meeting at [Back Mountain Entrance]? I offer my sincere regards; there is no need for a reply.】"
+    qcTranslated: "[Dear {lastName}, Greetings of Peace]: It has been over a month since we last met. If you have the time, might I suggest meeting at [Back Mountain Entrance]? I offer my sincere regards; there is no need for a reply.】"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: HardToParseSeam

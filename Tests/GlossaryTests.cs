@@ -21,11 +21,11 @@ public class GlossaryTests
         Assert.Equal("Stronghold Master", Result("寨主")); // overrides the preset's "Fort Master"
         Assert.Single(lines, l => l.Raw == "寨主");
 
-        // Reviewed martial art and move names are applied as exact whole-cell translations before the LLM.
+        // Manual translations are exact whole-cell overrides applied before the LLM. How many there are changes with every review,
+        // so only check that they load and that no raw text is listed twice (the later one would silently lose).
         var manual = config.Runtime.ManualTranslations;
-        Assert.True(manual.Count > 1200);
-        Assert.Equal("Embrace the Origin, Hold to the One", manual.First(m => m.Raw == "抱元守一").Result);
-        Assert.Equal("Vast Sea Wave-Watching Blade Art", manual.First(m => m.Raw == "沧海观澜刀法").Result);
-        Assert.Equal("Dark Steel Sword", manual.First(m => m.Raw == "玄铁剑").Result);
+        Assert.NotEmpty(manual);
+        Assert.All(manual, m => Assert.False(string.IsNullOrWhiteSpace(m.Result), $"Manual translation for {m.Raw} has no result"));
+        Assert.Empty(manual.GroupBy(m => m.Raw).Where(g => g.Count() > 1).Select(g => g.Key));
     }
 }
