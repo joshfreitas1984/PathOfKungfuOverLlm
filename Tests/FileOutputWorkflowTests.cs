@@ -55,11 +55,21 @@ public class FileOutputWorkflowTests
             Mappings =
             [
                 new($"{workingDirectory}/Mod", "BepInEx/plugins/resources"),
+                new($"{workingDirectory}/Resizers", "BepInEx/resizers"),
+                new($"{workingDirectory}/Layouts", "BepInEx/layouts"),
+                new($"{workingDirectory}/Sprites", "BepInEx/sprites2"),
                 // Tailored per game, so it comes from the release files: seed-only, so players' edits survive updates.
                 new($"{PackagingInputsFolder}/BepInEx.cfg", "BepInEx/config/BepInEx.cfg"),
             ],
             // The config folder is owned too, so stale configs left in the staging folder (like UIEditor.cfg) never ship.
-            OwnedFolders = ["BepInEx/plugins/resources", "BepInEx/config"],
+            OwnedFolders = ["BepInEx/plugins/resources", "BepInEx/resizers", "BepInEx/layouts", "BepInEx/sprites2", "BepInEx/config"],
+            // The editor's auto-created files: their entries are moved into path-based files before release.
+            RemoveAfterStaging =
+            [
+                "BepInEx/resizers/zzAddedResizers.yaml",
+                "BepInEx/layouts/zzAddedLayouts.yaml",
+                "BepInEx/sprites2/zzAddedSprites.yaml",
+            ],
             SeedOnly = ["BepInEx/config/**"],
         });
 
@@ -138,6 +148,11 @@ public class FileOutputWorkflowTests
             Directory.Move(existing, temp);
             Directory.Move(temp, bepInEx);
         }
+
+        // "Mods" is the game's own mod folder; older releases wrongly shipped Mods/English from here.
+        var oldMods = Path.Combine(stagingFolder, "Mods");
+        if (Directory.Exists(oldMods))
+            Directory.Delete(oldMods, true);
 
         foreach (var folder in new[] { "core", "cache", "patchers" })
         {

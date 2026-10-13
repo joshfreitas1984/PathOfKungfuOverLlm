@@ -19523,7 +19523,7 @@
     text: "已有确切线报，天下人正在大阪城天守阁坐镇，城中士卒虽少，但尽皆精锐，更佐有西洋巨炮镇守，最大一门名为“国崩”，号称可击千丈，无坚不摧。"
     translated: "There is confirmed intelligence that Tian Xia Ren is currently stationed in the Osaka Castle keep. Although there are few soldiers in the city, they are all elite troops, and the castle is fortified with massive Western cannons, the largest of which is called National Collapse, said to be capable of striking a thousand feet away and invincible against any defense."
     qcReviewedText: "There is confirmed intelligence that Tian Xia Ren is currently stationed in the Osaka Castle keep. Although there are few soldiers in the city, they are all elite troops, and the castle is fortified with massive Western cannons, the largest of which is called National Collapse, said to be capable of striking a thousand feet away and invincible against any defense."
-    qcTranslated: "There is confirmed intelligence that Tian Xia Ren is currently stationed in the Osaka Castle keep. Although there are few soldiers in the city, they are all elite troops, and the castle is fortified with massive Western cannons, the largest of which is called Kokuhō, said to be capable of striking a thousand feet away and invincible against any defense."
+    qcTranslated: "There is confirmed intelligence that Tian Xia Ren is currently stationed in the Osaka Castle keep. Although there are few soldiers in the city, they are all elite troops, and the castle is fortified with massive Western cannons, the largest of which is called Kokuho, said to be capable of striking a thousand feet away and invincible against any defense."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -39614,7 +39614,7 @@
     text: "昔年朕为了“侠以武犯禁”这几字，令镇国公马踏江湖，将天下江湖人得罪到底。"
     translated: "Long ago, for those words A Hero violates prohibitions through martial prowess, I ordered the Prince of the Nation to Trampling of the Jianghu, offending all the Jianghu Figures to the utmost."
     qcReviewedText: "Long ago, for those words A Hero violates prohibitions through martial prowess, I ordered the Prince of the Nation to Trampling of the Jianghu, offending all the Jianghu Figures to the utmost."
-    qcTranslated: "Long ago, for those words \"A Hero violates prohibitions through martial prowess,\" I ordered the Prince of the Nation to carry out the Trampling of the Jianghu, offending all the Jianghu Figures to the utmost."
+    qcTranslated: "Long ago, for those words A Hero violates prohibitions through martial prowess, I ordered the Prince of the Nation to carry out the Trampling of the Jianghu, offending all the Jianghu Figures to the utmost."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -55633,7 +55633,7 @@
     tokens:
       fullName:
         source: "<name>"
-    qcReviewedText: "【{fullName}, I have uncovered the truth behind the Qingping affairs after much hardship. If you wish to meet, let us rendezvous in Chang'an.】"
+    qcReviewedText: "[{fullName}, I have uncovered the truth behind the Qingping affairs after much hardship. If you wish to meet, let us rendezvous in Chang'an.]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -62612,7 +62612,7 @@
     text: "有个探花不守规矩，非但将要杀之人放脱，还助其北上出关，隐姓埋名，以致再无踪迹。"
     translated: "A candidate for the position of tanhua didn't follow the rules, not only releasing the person they were supposed to kill but also helping them escape northward across the pass. The person then disappeared, hiding their identity."
     qcReviewedText: "A candidate for the position of tanhua didn't follow the rules, not only releasing the person they were supposed to kill but also helping them escape northward across the pass. The person then disappeared, hiding their identity."
-    qcTranslated: "A third-place scholar didn't follow the rules, not only releasing the person they were supposed to kill but also helping them escape northward across the pass. The person then disappeared, hiding their identity."
+    qcTranslated: "A Tanhua didn't follow the rules, not only releasing the person they were supposed to kill but also helping them escape northward across the pass. The person then disappeared, hiding their identity."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UntranslatedPinyin
@@ -115341,13 +115341,12 @@
     text: "江湖前客江怀楚，昔日天涯海阁客卿，曾创清风剑法存世，神狩七年，刺杀镇国公不成，为杜颜白领镇国卫所杀，遵其遗愿，送还青萍村，另有石书一册，怜其所行虽偏激但仍属正直，故不予损毁，同葬于此。——书碑者，杜颜白。"
     translated: "Jianghu's former guest Jiang Huichu, a former guest of Tianya Haige, once created the Clear Wind Sword Art. In the seventh year of Shenshou, after failing to assassinate the Duke of the State, he was killed by Du Yanbai's Imperial Guard. As per his wishes, he was returned to Qingping Village. There is also a stone book that was spared from destruction due to his actions, though extreme, still being considered righteous, and buried here alongside him -- Inscribed by Du Yanbai."
     qcReviewedText: "Jianghu's former guest Jiang Huichu, a former guest of Tianya Haige, once created the Clear Wind Sword Art. In the seventh year of Shenshou, after failing to assassinate the Duke of the State, he was killed by Du Yanbai's Imperial Guard. As per his wishes, he was returned to Qingping Village. There is also a stone book that was spared from destruction due to his actions, though extreme, still being considered righteous, and buried here alongside him -- Inscribed by Du Yanbai."
-    qcTranslated: "Jianghu's former guest Jiang Huichu, a former guest of Tianya Haige, once created the Clear Wind Sword Art. In the seventh year of Shenshou, after failing to assassinate the Duke of Zhen, he was killed by the Zhen State Guard on Du Yanbai's orders. As per his wishes, he was returned to Qingping Village. There is also a stone book that was spared from destruction due to his actions, though extreme, still being considered righteous, and buried here alongside him -- Inscribed by Du Yanbai."
+    qcTranslated: "Jianghu's former guest Jiang Huichu, a former guest of Tianya Haige, once created the Clear Wind Sword Art. In the seventh year of Shenshou, after failing to assassinate the Duke of the State, he was killed by the Imperial Guard of the Duke of the State. As per his wishes, he was returned to Qingping Village. There is also a stone book that was spared from destruction due to his actions, though extreme, still being considered righteous, and buried here alongside him -- Inscribed by Du Yanbai."
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-    - DroppedContent
 - raw: "587,91000003001,4,[0].talks{json}[3].talk,你沿石碑向下看去，地上有一墩半掩埋的石书。"
   splits:
   - split: 4
@@ -200316,13 +200315,8 @@
   - split: 4
     text: "“那位"
     translated: "'that person"
-    qcReviewedText: "'that person'Ming Yin'...the monk again...'"
-    qcTranslated: "'That monk, Ming Yin, is... again...'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'that person'Ming Yin'...the monk again...'"
   - split: 4
     subIndex: 1
     text: "明印"
@@ -287507,7 +287501,7 @@
     text: "倭人起名与中原有颇多异处，这物见番头，便是他们的探子头领。"
     translated: "The Wa name things quite differently from the Central Plains. This “Monomi Banto” is what they call their chief scout."
     qcReviewedText: "The Wa name things quite differently from the Central Plains. This “Monomi Banto” is what they call their chief scout."
-    qcTranslated: "The Wa name things quite differently from the Central Plains. This “Monomi Banto” is what they call their Chieftain of scouts."
+    qcTranslated: "The Wa name things quite differently from the Central Plains. This Monomi Banto is what they call their Chieftain of scouts."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -313200,7 +313194,7 @@
   - split: 4
     text: "第一道关就洞前石阶处，守关者乃慈弘亲传弟子济玄，此人熟读经卷，需以《四十二章经"
     translated: "'The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to recite the Forty-Two Chapter Sutra."
-    qcReviewedText: "'The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to recite the Forty-Two Chapter Sutra.·》responds'"
+    qcReviewedText: "'The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to recite the Forty-Two Chapter Sutra.·responds'"
     qcTranslated: "The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to respond with Chapter 3 of the Forty-Two Chapter Sutra."
     qcStatus: Corrected
     qcQualityScore: 95
@@ -313208,7 +313202,6 @@
     qcDefectCategories:
     - GarbledNumber
     - DroppedContent
-    - HardToParseSeam
   - split: 4
     subIndex: 1
     text: "第三章》接话。"
@@ -313482,13 +313475,10 @@
   - split: 4
     text: "前方过了摩崖三佛，便是第二关所在。第二关暗号取自《四十二章经"
     translated: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra"
-    qcReviewedText: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter 19》, and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
-    qcTranslated: "Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter Nineteen》, and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter 19', and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "第十九章》，守关者会念“佛言"
@@ -318550,7 +318540,7 @@
     text: "自是记得。洪帮主对老衲说，此事不在于他是战是逃……朝廷令魏无忌马踏江湖，是顾忌江湖门派势大，丐帮为天下第一大帮，弟子遍及南北，人众以十万计。若不能有所交代，即便表示顺服，皇帝又如何安心？"
     translated: "Of course, I remember. Hong, the Sect Leader, told this monk that the matter does not lie in whether he fights or flees... The imperial court ordered Wei Wuyi to ride roughshod over Jianghu because they fear the power of the sects. As the Beggar Sect is the largest in the land, with disciples spread across the north and south, numbering in the hundreds of thousands, if there is no explanation given, even showing submission, how can the emperor feel at ease?"
     qcReviewedText: "Of course, I remember. Hong, the Sect Leader, told this monk that the matter does not lie in whether he fights or flees... The imperial court ordered Wei Wuyi to ride roughshod over Jianghu because they fear the power of the sects. As the Beggar Sect is the largest in the land, with disciples spread across the north and south, numbering in the hundreds of thousands, if there is no explanation given, even showing submission, how can the emperor feel at ease?"
-    qcTranslated: "Of course, I remember. Hong, the Sect Leader, told this monk that the matter does not lie in whether he fights or flees... The imperial court ordered Wei Wuyi to Trampling of the Jianghu because they fear the power of the Sects. As the Beggar Sect is the largest in the land, with Disciples spread across the north and south, numbering in the hundreds of thousands, if there is no explanation given, even showing submission, how can the emperor feel at ease?"
+    qcTranslated: "Of course, I remember. Hong, the Sect Leader, told this monk that the matter does not lie in whether he fights or flees... The imperial court ordered Wei Wuji to Trampling of the Jianghu because they fear the power of the sects. As the Beggar Sect is the largest in the land, with disciples spread across the north and south, numbering in the hundreds of thousands, if there is no explanation given, even showing submission, how can the emperor feel at ease?"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -322785,14 +322775,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -323242,14 +323226,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -323678,14 +323656,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -324118,14 +324090,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -324579,14 +324545,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -325015,14 +324975,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -325454,14 +325408,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -325893,14 +325841,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -326329,14 +326271,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -326768,14 +326704,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -327204,14 +327134,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -327643,14 +327567,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -328068,14 +327986,8 @@
   - split: 4
     text: "“杜先生修为精深，远非我所能及，请先生收我为徒，以求他日，我能亲手诛杀"
     translated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself."
-    qcReviewedText: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
-    qcTranslated: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally slay the \"Northern Jackal,\" this scoundrel!'"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - DroppedContent
+    qcRuleCheckFailureCount: 1
+    qcRuleCheckFailureBaseline: "'Mr. Du, your cultivation is profound, far beyond what I can achieve. Please take me on as your disciple so that one day, I may personally avenge myself.'Northern Jackal'This scoundrel!'"
   - split: 4
     subIndex: 1
     text: "北豺"
@@ -344169,7 +344081,7 @@
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "【Dear {playerTitle}, since I, Shen Mou, made the decision to mobilize troops on my own initiative, I have been aware that all matters concerning the shipyard are the sinister plots of villains, aimed at forcing me to take action so they can frame me with false charges and seize the wealth accumulated by my family over generations......】"
+    qcReviewedText: "[Dear {playerTitle}, since I, Shen Mou, made the decision to mobilize troops on my own initiative, I have been aware that all matters concerning the shipyard are the sinister plots of villains, aimed at forcing me to take action so they can frame me with false charges and seize the wealth accumulated by my family over generations......]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -344190,7 +344102,7 @@
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "【This matter is Shen's own doing. Thinking only of my young daughter Mengqiu, who is still so small, I implore you, {playerTitle}, to take her away from this place of trouble and let her roam the world as a wanderer... This would be better than my fate...】"
+    qcReviewedText: "[This matter is Shen's own doing. Thinking only of my young daughter Mengqiu, who is still so small, I implore you, {playerTitle}, to take her away from this place of trouble and let her roam the world as a wanderer... This would be better than my fate...]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -410147,7 +410059,7 @@
       playerTitle:
         source: "<兄||姑娘>"
     qcReviewedText: "{firstName}{playerTitle}"
-    qcTranslated: "{firstName}{playerTitle}."
+    qcTranslated: "{firstName}{playerTitle}"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: DroppedContent

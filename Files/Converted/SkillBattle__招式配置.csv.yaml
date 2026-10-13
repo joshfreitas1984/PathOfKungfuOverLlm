@@ -20823,13 +20823,14 @@
   - split: 23
     text: "被动招式"
     translated: "Passive Move"
-    qcRejectedCorrection: "Passive Move: When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy, it additionally applies 1 stacks of [Burn]. Every 1 stacks make the target lose 3% of their Lifeforce. This effect can stack up to 3 times and lasts for {4} seconds."
+    qcReviewedText: "Passive Move：When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy,It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "Passive Move: When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy, it additionally applies 1 stacks of [Burn]. Each stack makes the target lose 3% of their Lifeforce. This effect can stack up to 3 times and lasts for {4} seconds."
     qcFailureReason: " `{4}` appears in the result but not in the original text."
-    qcQualityScore: 0
-    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - GarbledNumber
-    qcRuleCheckFailureCount: 2
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Passive Move：When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy,It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
   - split: 23
     subIndex: 1
@@ -20842,13 +20843,14 @@
   - split: 24
     text: "被动招式"
     translated: "Passive Move"
-    qcRejectedCorrection: "Passive Move: When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy, it additionally applies 1 stacks of [Burn]. Every 1 stacks make the target lose 3% of their Lifeforce. This effect can stack up to 3 times and lasts for {4} seconds."
+    qcReviewedText: "Passive Move：When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy,It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "Passive Move: When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy, it additionally applies 1 stacks of [Burn]. Each stack makes the target lose 3% of their Lifeforce. This effect can stack up to 3 times and lasts for {4} seconds."
     qcFailureReason: " `{4}` appears in the result but not in the original text."
-    qcQualityScore: 0
-    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - GarbledNumber
-    qcRuleCheckFailureCount: 2
+    - Unknown
+    qcRuleCheckFailureCount: 4
     qcRuleCheckFailureBaseline: "Passive Move：When the move [Sweeping Peaks, Razing Hills] deals damage to an enemy,It additionally applies 1 stack of [Burn]. Each stack makes the target lose 1% of their Lifeforce. This effect can stack up to 3 times and lasts for 3 seconds."
   - split: 24
     subIndex: 1

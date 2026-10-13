@@ -1,0 +1,46 @@
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/PanelText2/Avatar/name
+  sampleText: Candy Figurine Zhang
+  fontPercentage: 0.6
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_Tittle
+  sampleText: Prisoner in the Jar：
+  idealFontSize: 18
+  lineSpacing: 1
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_Wudao
+  sampleText: 【Jianghu Enmity】
+  idealFontSize: 20
+  allowAutoSizing: false
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_WudaoTitle
+  sampleText: Prisoner in the Jar：
+  idealFontSize: 18
+  lineSpacing: 1
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/ZsHorizontalScrollView/Horizontal/PanelNPC/*/TextName
+  sampleText: Candy Figurine Zhang
+  idealFontSize: 10
+  allowAutoSizing: false
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/FriendShip/Content/AllJiaoQing/Grid/*/Text_type
+  sampleText: Parent
+  maxFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: -30
+  adjustHeight: -5
+- path: GameManager/UIManager/UIRoot/UIWorldTime/AccelerateRoot/Root/enable/Label
+  sampleText: no Interrupt
+  idealFontSize: 22
+- path: GameManager/UIManager/UIRoot/UIWorldTime/AccelerateRoot/Root/left/Scroll View/Viewport/Content/message
+  sampleText: ▸<color=#E64D00>Ran Liancui</color>By chance, I found a hid…
+  idealFontSize: 18
+  allowAutoSizing: false
+- path: GameManager/UIManager/UIRoot/UIWorldTime/AccelerateRoot/Root/selectRoot/ok/Image/TextChild
+  sampleText: Confirm
+  idealFontSize: 50
+  alignment: MiddleCenter
+- path: GameManager/UIManager/UIRoot/UIWorldTime/PushParent/Push/img_bg/Btn_*/*/Text*
+  sampleText: Carrier Pigeon
+  idealFontSize: 16
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIWorldTime/PushParent/Push/img_bg/Image*/Txt
+  sampleText: <color=#E64D00>Zha Lingfeng</color> purchased <color=#B0820…
+  idealFontSize: 14
+  allowAutoSizing: false
