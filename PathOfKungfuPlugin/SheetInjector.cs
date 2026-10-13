@@ -111,9 +111,9 @@ internal static class SheetInjector
                     var json = (string?)property.GetValue(item);
                     if (string.IsNullOrEmpty(json)) { stats.JsonMissed += paths.Count; continue; }
 
-                    var applied = JsonInjector.Apply(json!, paths);
-                    stats.JsonApplied += applied.Used.Count;
-                    stats.JsonMissed += paths.Count - applied.Used.Count;
+                    var applied = ApplyDialogueCached(baseName, TranslationTable.RowOf(row), column, json!, paths);
+                    stats.JsonApplied += applied.Used;
+                    stats.JsonMissed += paths.Count - applied.Used;
                     if (applied.Json != json)
                     {
                         property.SetValue(item, applied.Json);
@@ -124,6 +124,33 @@ internal static class SheetInjector
         }
 
         return stats;
+    }
+
+    private sealed class CachedDialogue
+    {
+        public string Input = "";
+        public string Json = "";
+        public int Used;
+    }
+
+    private static readonly Dictionary<(string File, int Row, int Column), CachedDialogue> DialogueCache = new();
+
+    /// <summary>
+    /// The game reads some sheets more than once (Touch, SandBox_Touch), and rewriting a cell's JSON is the slowest part of injecting.
+    /// The result for a cell only depends on its text, so when the same cell comes round again with the same text the earlier result is reused.
+    /// </summary>
+    private static CachedDialogue ApplyDialogueCached(string file, int row, int column, string json, Dictionary<string, string> paths)
+    {
+        var key = (file, row, column);
+        lock (DialogueCache)
+        {
+            if (DialogueCache.TryGetValue(key, out var cached) && cached.Input == json) return cached;
+        }
+
+        var applied = JsonInjector.Apply(json, paths);
+        var entry = new CachedDialogue { Input = json, Json = applied.Json, Used = applied.Used.Count };
+        lock (DialogueCache) DialogueCache[key] = entry;
+        return entry;
     }
 
     /// <summary>"A2" is the second row; the default start cell is the first.</summary>

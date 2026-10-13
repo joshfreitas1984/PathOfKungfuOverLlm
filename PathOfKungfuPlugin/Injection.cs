@@ -26,6 +26,9 @@ public static class Injection
 {
     internal static ITranslationSource? Source;
 
+    /// <summary>Running total of time spent injecting sheets (including reading and parsing their CSVs), logged with each sheet.</summary>
+    internal static long TotalMilliseconds;
+
     internal static string ResourceFolder() =>
         Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? ".", "resources");
 
@@ -133,10 +136,13 @@ public static class Injection
         {
             if (list == null || Source == null) return;
 
+            var timer = System.Diagnostics.Stopwatch.StartNew();
             var stats = SheetInjector.Apply(list, excelName, sheetName, startCell, Source);
+            timer.Stop();
             if (stats == null) return;
 
-            var line = $"{excelName}/{sheetName}: {stats}";
+            TotalMilliseconds += timer.ElapsedMilliseconds;
+            var line = $"{excelName}/{sheetName}: {stats} [{timer.ElapsedMilliseconds} ms, {TotalMilliseconds} ms total]";
             if (stats.Matched < stats.Items || stats.JsonMissed > 0 || stats.UnmappedColumns.Count > 0) Plugin.Logger.LogWarning(line);
             else Plugin.Logger.LogInfo(line);
         }

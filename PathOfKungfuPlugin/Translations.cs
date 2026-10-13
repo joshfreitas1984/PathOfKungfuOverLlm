@@ -112,7 +112,12 @@ internal sealed class FolderTranslationSource : ITranslationSource
             var path = Path.Combine(folder, fileName);
             if (File.Exists(path))
             {
-                try { table = new TranslationTable(TranslationTable.Parse(File.ReadAllText(path, Encoding.UTF8))); }
+                try
+                {
+                    var timer = System.Diagnostics.Stopwatch.StartNew();
+                    table = new TranslationTable(TranslationTable.Parse(File.ReadAllText(path, Encoding.UTF8)));
+                    Plugin.Logger.LogInfo($"Read {fileName}: {table.Records.Count} records in {timer.ElapsedMilliseconds} ms");
+                }
                 catch (Exception ex) { Plugin.Logger.LogError($"Cannot read {path}: {ex.Message}"); }
             }
 

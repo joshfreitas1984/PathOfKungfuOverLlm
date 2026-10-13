@@ -1,1 +1,126 @@
-[]
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Page/TglItem/Tip1/Tip1
+  sampleText: Friendship
+  fontPercentage: 0.6
+  allowWordWrap: true
+  adjustWidth: -50
+  adjustHeight: 10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Page/TglItem/Tip2/Tip1
+  sampleText: Friendship
+  fontPercentage: 0.7
+  allowWordWrap: true
+  adjustWidth: -50
+  adjustHeight: 10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (1)/txt_tsDesName
+  sampleText: Heart Formula
+  allowAutoSizing: true
+  color: '#000000'
+  adjustWidth: 35
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image/txt_tsDesName
+  sampleText: Martial Manual
+  allowAutoSizing: true
+  color: '#FF8000'
+  adjustWidth: 40
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuQi/Text_shuxing
+  sampleText: Current weapon
+  allowAutoSizing: true
+  adjustY: -60
+  adjustWidth: 30
+  adjustHeight: 15
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/panel_WxXiuWei/Tip2
+  sampleText: 'Current Cultivation:'
+  fontPercentage: 0.75
+  alignment: MiddleLeft
+  adjustX: 10
+  adjustWidth: 65
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/panel_wxRightList/Viewport/Content/item/Select/name
+  sampleText: Heaven-and-Earth Formation Banner
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/nameuu/Text (Legacy)
+  sampleText: Realm Breakthrough requires satisfying
+  allowWordWrap: true
+  allowAutoSizing: true
+  color: '#FF8000'
+  adjustX: 15
+  adjustWidth: 75
+- path: GameManager/UIManager/UIRoot/UILogin/Image/WinLogin/*/imgTxt/TextChild
+  sampleText: Jianghu Chronicles
+  idealFontSize: 26
+  alignment: MiddleCenter
+  adjustWidth: 125
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Bag/Item/Zb/ObjAvatar/EquipTrans/*/Text
+  sampleText: System Settings
+  fontPercentage: 0.6
+- path: GameManager/UIManager/UICanvansTop/TipShowWinNew/tip*/panel_BaseDes/trans_Base/item_Base/txt_Content
+  sampleText: <color=red>(NotLearn)</color>
+  allowAutoSizing: false
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_SanXue
+  sampleText: Jianghu Miscellaneous Art
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 1
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_TongShi
+  sampleText: Jianghu Common Form
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 20
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_YanBen
+  sampleText: Martial Art Study Manual
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 10
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/txt_Name
+  sampleText: Heavy Attack·One-Handed Light Blade
+  allowAutoSizing: false
+  color: '#FF8000'
+  adjustWidth: 15
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (2)/txt_tsDesName
+  sampleText: Martial Annotation
+  allowAutoSizing: true
+  color: '#FF8000'
+  adjustWidth: 85
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Text (Legacy)
+  sampleText: Realm Breakthrough can be achieved
+  allowAutoSizing: true
+  color: '#FF8000'
+  adjustX: 10
+  adjustWidth: 80
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/Content/item*/tip
+  sampleText: ' Governor Vessel Unblocked'
+  alignment: MiddleCenter
+  allowAutoSizing: true
+  adjustWidth: 23
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Content/item*/tip
+  sampleText: Max HP︻7800︼
+  idealFontSize: 16
+  alignment: MiddleCenter
+  adjustWidth: 30
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Attribute/JbAttribute/HaoList/Item(Clone)/show/Text
+  sampleText: Preserved fruit
+  idealFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: -90
+- path: BattleObj/CanvasBattleNew/Bottom/ContentBtn2/Item2/TextName
+  sampleText: Heavy Attack/Reload
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustWidth: -70
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task(Clone)/txt_Tittle
+  sampleText: The Legend of the Rotten Axe：
+  idealFontSize: 16
+  adjustX: -3
+  adjustY: 5
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/trans_TaskList/item_task*/txt_tittle
+  sampleText: Question the Five Sacred Gu：
+  idealFontSize: 16
+  alignment: MiddleLeft
+  adjustX: 20
+  adjustY: 10
+  adjustHeight: -10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/trans_TaskList/item_task*/txt_content
+  sampleText: Head to Hangzhou to investigate Fang Zi Zhen's former resid…
+  idealFontSize: 16
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/name
+  sampleText: 'New Path:'
+  idealFontSize: 26
+  adjustX: -5

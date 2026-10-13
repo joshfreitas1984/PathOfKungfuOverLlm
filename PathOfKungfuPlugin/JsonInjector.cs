@@ -51,6 +51,8 @@ internal static class JsonInjector
         return t.Length > 1 && ((t[0] == '{' && t[t.Length - 1] == '}') || (t[0] == '[' && t[t.Length - 1] == ']'));
     }
 
+    private static bool HoldsText(JToken token) => token.Type is JTokenType.Object or JTokenType.Array or JTokenType.String;
+
     private static bool Walk(JToken token, string path, string? property, Dictionary<string, string> translations, Result result)
     {
         var changed = false;
@@ -58,12 +60,19 @@ internal static class JsonInjector
         {
             case JTokenType.Object:
                 foreach (var p in ((JObject)token).Properties().ToList())
+                {
+                    if (!HoldsText(p.Value)) continue; // numbers and the like have nothing to translate, so skip building their path
                     changed |= Walk(p.Value, path + "." + p.Name, p.Name, translations, result);
+                }
                 break;
             case JTokenType.Array:
                 var i = 0;
                 foreach (var item in ((JArray)token).ToList())
-                    changed |= Walk(item, path + "[" + i++ + "]", null, translations, result);
+                {
+                    var index = i++;
+                    if (!HoldsText(item)) continue;
+                    changed |= Walk(item, path + "[" + index + "]", null, translations, result);
+                }
                 break;
             case JTokenType.String:
                 var text = (string?)token ?? "";
