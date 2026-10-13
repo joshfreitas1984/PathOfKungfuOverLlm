@@ -1,5 +1,6 @@
 using System.Text.Json;
 using FanslationStudio.LlmKit.Support;
+using FanslationStudio.LlmKit.Utility;
 using FanslationStudio.LlmKit.Workflow;
 
 namespace Translate;
@@ -60,6 +61,12 @@ public static class TranslationPackaging
 
             var lines = File.ReadAllLines(packaged);
             var headers = File.ReadLines(dumped).Take(2).ToArray();
+
+            // Sheets such as item__* have one header row, where the Chinese label is the property name. Their second row is the first
+            // record (its id is a number), which must stay translated.
+            if (headers.Length == 2 && IsDataRow(headers[1]))
+                headers = headers[..1];
+
             if (lines.Length < headers.Length)
                 continue;
 
@@ -67,6 +74,13 @@ public static class TranslationPackaging
                 lines[i] = headers[i];
             File.WriteAllLines(packaged, lines);
         }
+    }
+
+    /// <summary>True when a dumped row is a record: the cell after the row number is a plain integer (a header row names columns instead).</summary>
+    public static bool IsDataRow(string dumpedLine)
+    {
+        var cells = CompoundFieldSplitter.ParseCsvRow(dumpedLine);
+        return cells.Length > 1 && int.TryParse(cells[1].Trim(), out _);
     }
 
     /// <summary>

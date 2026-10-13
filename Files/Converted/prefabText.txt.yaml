@@ -1,2928 +1,3997 @@
 - raw: " 新"
   splits:
   - text: "新"
+    translated: "New"
   templates:
   - template: " {0}"
 - raw: "(Sheltered by 天龙帮)\\nHongwen Pavilion Envoy"
   splits:
   - text: "天龙帮"
+    translated: "Tianlong Sect"
   templates:
   - template: "(Sheltered by {0})\\nHongwen Pavilion Envoy"
 - raw: "(Sheltered by 天龙帮)\\nShande Hall Keeper"
   splits:
   - text: "天龙帮"
+    translated: "Tianlong Sect"
   templates:
   - template: "(Sheltered by {0})\\nShande Hall Keeper"
 - raw: "(Sheltered by 天龙帮)\\n杭州矿产"
   splits:
   - text: "天龙帮"
+    translated: "Tianlong Sect"
   - subIndex: 1
     text: "杭州矿产"
+    translated: "Hangzhou mineral resources"
   templates:
   - template: "(Sheltered by {0})\\n{1}"
 - raw: "(Sheltered by 龙卷会)\\nFabric Store Keeper"
   splits:
   - text: "龙卷会"
+    translated: "Dragon Whirlwind Society"
   templates:
   - template: "(Sheltered by {0})\\nFabric Store Keeper"
 - raw: "(Sheltered by 龙卷会)\\nOld Chao"
   splits:
   - text: "龙卷会"
+    translated: "Dragon Whirlwind Society"
   templates:
   - template: "(Sheltered by {0})\\nOld Chao"
 - raw: "[人物信息]"
   splits:
   - text: "人物信息"
+    translated: "Character Info"
   templates:
   - template: "[{0}]"
 - raw: "[基本属性]"
   splits:
   - text: "基本属性"
+    translated: "Basic Attributes"
   templates:
   - template: "[{0}]"
 - raw: "[天赋]"
   splits:
   - text: "天赋"
+    translated: "Talent"
   templates:
   - template: "[{0}]"
 - raw: "[好恶]"
   splits:
   - text: "好恶"
+    translated: "Like and dislike"
   templates:
   - template: "[{0}]"
 - raw: "[属性]"
   splits:
   - text: "属性"
+    translated: "Attributes"
   templates:
   - template: "[{0}]"
 - raw: "[武学资质]"
   splits:
   - text: "武学资质"
+    translated: "Martial Aptitude"
   templates:
   - template: "[{0}]"
 - raw: "[武学造诣]"
   splits:
   - text: "武学造诣"
+    translated: "Martial Mastery"
   templates:
   - template: "[{0}]"
 - raw: "\\n\\n版本号 V 1.1.0.0游戏更新内容 \\n\\n【新增剧情及人物】\\n1. 塞外战场新增任务【厨中乾坤】及相关人物。\\n2. 长安城新增任务【刀耕火种】及相关人物。\\n3. 长安城新增任务【荒城追凶】及相关人物。\\n4. 长安城新增任务【家传秘宝】及相关人物。\\n5. 洛阳城新增任务【雾里看花】及相关人物。\\n\\n【BUG修正】\\n1. 剧情模式补充“震古烁今”境界缺失的武器图纸，该类图纸可通过本次新增任务获取。\\n2. 修复世界生成时,对于新增角色和剧情的处理可能出现异常的问题\\n3. 清理帮派库房冗余内容，删除重复的【小周天扇法】心决与【两仪剑法】心决。\\n4. 调整部分BOSS属性平衡：防御力降低20%，攻击力提升20%，优化战斗体验。\\n5. 提升部分在“登峰造极”、“返璞归真”境界中，战斗所获得的装备掉落概率，助力玩家战力提升。\\n6. 修复部分操作引发的存档异常问题。\\n7. 修正玩家无法挑战自身曾创建且已禅让帮派的问题。\\n8. 修正一类大地图buff状态有时显示异常的问题。\\n9. 修正储物箱容量可能异常溢出的问题。\\n10. 修复天气特效和音频偶尔播放异常的问题。\\n11. 修复一处极端情况下玩家角色在大地图上会自动行走而不受控的问题。\\n\\n【游戏优化】\\n1. 优化玩家和NPC的数据结构及序列化性能。\\n2. 优化对话系统逻辑及相关动画表现。\\n3. 进一步改善装备界面,商店界面的性能。\\n4. 进一步优化战斗AI技能施展和攻击队列逻辑。\\n5. 沙盒模式大理地图里增加轻功【凌波微步】全本秘籍宝箱。\\n6. 优化内功【七煞铁衣功】技能描述，补充【煞血骨】【北朔】【血骨饮】仅对主角生效的效果说明，明确技能适用范围。\\n7. 野外BOSS、剧情战斗增加境界等级为【炉火纯青】的武器图纸掉落概率。\\n8. 野外BOSS、剧情战斗增加火器武器图纸掉落概率。\\n\\n\\n版本号 V 1.0.2.0\\n【重大调整】\\n1.去掉登录时的网络验证，可以完全脱离网络，单机游玩。\\n\\n【问题修正】\\n1. 修正部分天赋的生效逻辑\\n2. 修正读档后部分NPC行为逻辑错误的问题\\n3. 修正个别UI界面在特殊分辨率设备中适配不正确的问题\\n4. 修正武林大会有时不准时开启的问题\\n5. 修正帮派商店同伴打工的一处逻辑错误\\n6. 处理自动存档时线程资源冲突可能导致存档失败的问题\\n7. 修复同伴是亲友时的一处关系逻辑错误\\n\\n【体验调优】\\n1. 沙盒模式野外补充额外刷新点、额外产出修为、区域声望\\n2. 沙盒模式屏蔽不必要的耗能逻辑,并优化数值体验\\n3. 模组编辑器蓝图缩放逻辑优化、拖拽边界逻辑优化\\n2. 优化部分战斗特效纹理质量和粒子性能\\n3. 统一UI界面对ESC键操作的响应逻辑\\n4. 修正AB包每次打包的一致性问题,从而减少每次更新包的大小\\n5. 修正极端网络环境下与steam云同步可能存在的逻辑异常\\n6. 优化游戏网络传输协议,修正公告更新逻辑\\n7. 优化图形API支持,优化静态合批逻辑,改善抗锯齿和后处理性能\\n8. 增加Addressable资源管理支持,优化对象池缓存机制\\n\\n正式版1.0.1.3版本已更新，内容如下:\\n\\n【功能优化】\\n引擎版本升级\\n优化地图地点英文版显示\\n优化战斗时偶尔卡顿的问题\\n\\n【问题修正】：\\n修正外部模组有可能加载失败的问题\\n修正帮派旗帜偶尔无法点击的问题\\n修正帮派可能出现重复的成员问题(可能引起无法团战)\\n修正玩家获得物品数量可能为0的bug\\n\\n正式版1.0.1.2版本已更新，内容如下:\\n\\n【重大更新】：\\n全英文版本正式发布，英文翻译程度99%以上。\\n\\n【问题修正】：\\n修正了几处因随机数引起的错误问题。\\n修正了创意工坊地牢模组树状结构读取的异常问题。\\n补充处理沙盒模式的部分隐性问题，并优化代码层。\\n优化修复了部分动态交互物名称显示问题。\\n\\n【功能优化】\\n优化了针对不同版本的小地图工作的适配情况。\\n优化了模组保存时的适配情况。\\n \\n正式版1.0.1.1版本更新内容:\\n\\n【体验调优】\\n1.优化了部分地图的传送点逻辑，此改动会影响部分NPC跨地图的行为，如在地牢中分道扬镳后NPC的行动路线等。\\n2.优化了部分地图资源的加载逻辑，使得加载更顺畅。\\n3.优化调整整体结构，提升程序整体编译速度以及游戏本体运行的流畅度。\\n4.优化了多语言版本的适配性，当前支持更多细节翻译，此功能将稍晚与全球多语言功能同步上线。\\n\\n【问题修正】\\n1.修正了多个堆叠的物品同步卖出时偶发的异常问题。\\n2.修正了部分极端条件下，部分NPC所处位置异常的问题。\\n3.修正了当前较多随机NPC选取武器种类较少的问题，此次调整后将逐步回归预计水平。\\n4.微调了部分人物的剧情立绘，增强其美术表现效果。\\n5.总体修复部分极端条件小型BUG。\\n\\n【新增功能】\\n1.新增同伴突破境界时的自动贯通经脉功能。\\n2.提高了行囊内的俘虏角色的数量上限，现在玩家可以同时拥有更多的俘虏了。\\n\\n【创意工坊重大更新】\\n创意工坊新增动作节点，支持执行时机选项，当前版本玩家可在此基础上，更自由和精确地设定与编辑自己的任务系统，运用不同的节点与条件，可以进行关于任务的精准设计与投放，实现与游戏内原有任务系统相似的效果。\\n\\n一．动作节点新增：\\nNPC好感度变化调整：当前可以使用此动作节点，将NPC对玩家的好感度进行“设置为”或“好感度增/减”\\n交情关系：当前可以使用此动作节点，将NPC与玩家的关系进行设置与改变。\\n浮窗提示：当前可以使用此动作节点，获得与游戏本体任务系统一致的弹窗提示体验，文本编写体验。\\n\\n二．分支节点条件新增：\\nNPC好感度判断：当前可以使用此分支节点，以某个NPC对玩家的好感度为判定条件来开启后续剧情，或分支线路剧情。\\n交情关系判断：当前可以使用此分支节点，以某个NPC和玩家所有的关系为判定条件来开启后续剧情，或分支线路剧情。\\n新增触发器节点状态判断：此触发器会根据玩家编写的剧情与分支节点条件而实时判断任务流程和任务走向。\\n\\n三．触发器节点新增：\\n支持默认对话，与任务重复触发：当前在未满足玩家所设定的分支条件判断，或回头话设计时，将能够支持给某些角色使用恒定的对话。\\n \\n四．分支节点新增类型：\\n多选项对话：玩家可以自由设定多个选项，每个选项都可以对应不同的分支，触发不同的剧情，触发不同的指令等。\\n\\n五．其他创意工坊优化项\\n1. 优化了分支节点的UI自适应逻辑，使其更加易读与可用。\\n2. 优化了分支节点的复制逻辑，使其更加方便使用，降低上手成本与操作繁琐度。\\n3. 优化了节点端口间的连接逻辑，使其更加清晰与稳定。\\n4. 优化了编辑器模式打开MOD时，等待配置加载完毕处的细致逻辑，增强了其稳定性。\\n5. 修正了部分模组NPC在创建时，极端条件导致的默认剧情立绘显示错误的问题。\\n\\n正式版1.0.0.16版本更新内容:\\n\\n【体验调优】\\n新增64套剧情立绘，立绘选择界面支持长按快速切换。\\n支持退出杀手组织。\\n飞鸽传书中显示相关NPC的实时坐标。\\n剧情NPC武学切磋增加二次确认对话。\\n游戏内系统菜单界面支持打开本地日志目录，反馈问题时自动打开。\\n\\n帮派支持总舵迁移，调整联盟解散逻辑。\\n帮派成员界面性能优化，避免成员数量很多时产生卡顿。\\n帮派关系列表增加显示帮派等级。\\n帮派界面响应ESC键退出。\\n帮派出征人员不能再去打工。\\n\\n\\n【问题修正】\\n修正西班牙区域设置下无法战斗的问题。\\n修正按键设置两套之间切换和保存的逻辑。\\n修正部分语言下存档的难度显示错误。\\n\\n修正剧情NPC被抓后意志力为0的问题。\\n修正随机NPC很多都是会刀剑枪武学不会拳法，但都是空武器的问题。\\n修正资源采集永远为1的问题。\\n修正京城捕快巡逻路线。\\n\\n修正帮派囚犯缺少【收为家仆】对话选项的问题。\\n修正帮派囚犯成为家仆后的对话异常。\\n\\n修正沙盒剧情NPC的轻内功武学和交情列表。\\n修正沙盒剧情NPC对话内容和选项。\\n修正沙盒剧情NPC Mod立绘弃用后没有切换回原始立绘的问题。\\n\\n修正了[千秋大业]任务未移走宋红玉的问题\\n修正[地碎天倾]中天下人尸首坐标错误问题\\n修改[河洛归一]任务指引文本,增加需要完成[镇国之秘]的提示\\n修正[伪侠迷踪]的一处错字\\n修正部分存在[明心立志·二]指引的存档不可以接取任务的问题\\n修正了沙盒拓跋笑和沈无暇的坐标\\n\\n修正了部分武学与通式的配置错误\\n修正了非门派NPC使用门派武学功法的问题\\n\\n\\n正式版1.0.0.15版本更新内容:\\n\\n【体验调优】\\n商店支持输入购买出售数量，支持一键调整数量到最大或最小。\\n优化大地图跑图时的性能表现。\\n帮派成员是队友则不能追杀和囚禁。\\n进入武林大会新增限制条件。\\n补充了一部分随机NPC的传送路径。\\n新增沙盒模式下杭州可售房屋的配置。\\n为洛阳城太平密窟添加了宝箱。\\n新增洛阳太平秘窟入口和怪物。\\n新增任务[千金名剑]。\\n任务[毒医钜子]完成后的任务指引，由[一等风雅]改为[潇湘公子]。\\n补充了部分剧情战斗中的随机武器掉落。\\n新增部分战斗组。\\n调整部分传送设置，当前玩家在执行壁城水寨系列剧情时，传送功能会暂时关闭，防止卡档。\\n\\n【问题修正】\\n修正了京城酒楼内部下雨的问题。\\n修正了洛阳、京城镖车生成地点与到达地点重合出现的报错问题。\\n修改了任务[醇酒醉影]的触发方式，改为地点触发。\\n修正了任务[净蛊天池]中的一处错误文本。\\n修正了极少数旧存档无法前往五圣教的问题。\\n修正了卸下装备的三才书时，会覆盖背包里的三才书的问题。\\n修正了极端情况下，部分豪华版游戏火枪武器皮肤不显示的问题。\\n修正剧情NPC名字显示有时只有称号状态没有原名的情况。\\n修正帮派吞并后产业归属显示没有刷新的问题。\\n修正空帮派存在残余成员的问题。\\n修正打工同伴没有立即出现在商店、打工同伴可能会被抓走入狱的问题。\\n\\n\\n正式版1.0.0.14版本更新内容:\\n\\n修复了部分武学秘籍，玩家伙伴学习后无法正常释放的问题，并修复了以下武学秘籍的同伴AI错误问题：\\n《神通剑指》\\n《槎枒寻梅》\\n《羁离谱》\\n《弑流·伐剑取》\\n《天威军阵刀术》\\n\\n新增功能：支持帮主禅让，与指定成员互换位阶。\\n\\n当前玩家在地牢密室或封闭空间内，作恶将不再增加缉捕值（向外界亲友勒索钱财等依旧会增加缉捕值）。\\n\\n将终章奖励任务中的神通剑指秘籍改为全本秘籍。\\n\\n修正了一处手柄键位可能重复的错误。\\n\\n修正了剧情NPC移动时可能引发崩溃的问题。\\n\\n桃花坞区域副本新增桃花坞区域声望掉落。\\n\\n桃花坞决战任务接取时，对应靠岸的小船将会移回原位。\\n\\n\\n正式版1.0.0.13版本更新内容:\\n\\n剧情任务相关：\\n任务[三霄合一]提交完成时，将不再扣除对应道具，并针对三宵剑任务修改（此修改可兼容新老存档）\\n添加了任务[庖厨客卿·三]完成后,任务[东海遗孤·一]的任务指引。\\n完成与邓克礼第二次切磋时,选项添加境界推荐提示文本。\\n修正了任务[行凶灭口]的触发前置条件。\\n任务[隐市栖鸿]进行期间将不再关闭任务[残章幻赤]。\\n\\n战斗相关：\\n修复了羁离谱被动招式【锥骨】效果异常的问题。\\n修复了太虚无极劲被动招式【见素抱朴】、【天道行乾】、【太实若虚】没有降低技能调息时间的问题。\\n调整了杀手组织追杀玩家时派遣的杀手难度，由BOSS级下调至精英级。\\n\\n其他体验调整：\\n修正了剧情NPC俘虏位置逻辑。\\n修正了自创帮派的成员称号。\\n当前空帮派和荒废帮派不参与帮战支援，也不再发生关系变化。\\n优化了自建帮派的初始卡点禁飞。\\n各铁匠铺补充了锻造类合成材料的售卖投放。\\n调整了现有部分商贩售卖的材料数量。\\n统一按照境界等级调整了装备类道具的合成材料数量需求。\\n调整了食品类成品的售卖价格。\\n部分杀手任务的要求时限由30天改为60天。\\n解决杀手组织任务中，部分NPC处于隐匿行踪的问题。\\n修改了帮派战争迎战的文本描述，使其更加清晰易读。\\n新增补充了神通剑指的心诀投放位置，使其更易获取。\\n更新了豪华版枪法的动作表现。\\n\\n\\n正式版1.0.0.12版本更新内容:\\n\\n【体验调优】\\n\\n1.    优化了剧情npc（不可俘获选项开启时）的入队谈话逻辑。\\n2.    修改天赋【天狼孤煞】与天赋【天纵之才】的文本描述，使其更清晰易读。\\n3.    调整杀手组织追杀战斗难度，由3名杀手调整为1名。\\n4.    优化了副本挑战体验，去除了副本挑战冷却时间限制。\\n5.    增加BOSS战斗结算后的修为奖励。\\n6.    暂时停用杀手组织派遣的强制任务功能。\\n7.    优化开放世界事件体验，大幅下调飞鸽传书事件的触发频次。\\n8.    优化了所有语言的任务配置表和沙盒交互物配置表。\\n9.    洛阳新增了一个水井交互物。\\n\\n【问题修正】\\n\\n1.    修正了第一次进入游戏获取分辨率可能发生异常导致游戏黑屏闪屏的问题。\\n2.    修正了用户使用暗器武器时释放魍魉鬼步轻功卡住的问题。\\n3.    修正了大地图按键设置可能不生效的问题；暂不允许设置小键盘按键。\\n4.    修正了襄阳一处帮派入口禁入点的异常。\\n5.    修正了承安镇黑市购买的全本秘籍出现招式残缺的错误（当前再次购买此商店物品时，秘籍招式将会显示正常了）。\\n6.    修正了隋东关金鲤商队的商店中的一处错误。\\n7.    修正了任务[风萧萧兮·二]的任务道具。\\n8.    删除了任务[花朝月夜]的一句对话选项。\\n9.    修正了五圣教和太和山门派执事退出门派功能的一处错误。\\n10.   修改了任务[青萍村识武]的武器【破麻索】的道具品质。\\n11.   修改所有交互天涯海阁【左三思】触发的任务，将其改为地点触发。\\n12.   修正了任务【西园二郎】的触发问题。\\n13.   修正了任务【铜佛疑云】的NPC消失问题。\\n14.   修正了角色【北豺】尸首错误的问题。\\n15.   修正了壁城水寨中一个NPC水贼的错误移动问题。\\n16.   修复了暴雨梨花刀被动【棃绽重】减少调息时间不生效的问题。\\n17.   修复了镇国抵岳枪秘籍影响属性的文本描述错误问题。\\n18.   修复了太极拳【抱元守一】被动效果层数无法叠加的问题。\\n19.   修复了三才书-天衍弃世卷槽位描述错误的问题。\\n20.   修复了湘竹葬兰书被动【藏北海】文本描述错误的问题。\\n21.   修复了擎骨金虹决心决【渺渺然】、【归骨地】无法装备的问题，【归骨地】心决从内功攻击增加修改为外功攻击增加。\\n\\n\\n正式版1.0.0.11版本更新内容:\\n\\n【体验调优】\\n1.    帮派招新失败时给出提示。\\n\\n【问题修正】\\n1.    修正游戏系统和按键设置可能被重置的问题。\\n2.    修正剧情NPC入队的谈话逻辑。\\n3.    修正部分剧情中部分角色（如左三思）等移动至特定位置，导致与其交叉的任务线无法推进的问题。【此处理仅对5.2日之前未完成任务（天涯海角）的存档生效，全存档修正正在进行中，预计很快修正。】\\n4.    调整杀手任务中，追杀玩家的杀手境界等级与数值。\\n\\n V1.0.0.10版本更新内容:\\n\\n【问题修正】\\n1. 修正帮派任务刷新逻辑。\\n2. 修正帮派成员人数限制判断。\\n3. 修正帮派产业攻占派遣界面队列逻辑。\\n\\nV1.0.0.9版本更新内容:\\n\\n【体验调优】\\n1. 剧情立绘mod被移除时切换使用动态立绘而不是显示默认剧情立绘剪影。\\n2. 帮派出征的同伴增加显示标识\\n\\n【问题修正】\\n1. 修正空帮派会参与产业攻占的问题。\\n2. 修正沙盒模式的Mod npc入队异常。\\n3. 修正附属帮派被吞并的处理逻辑。\\n\\nV1.0.0.8版本更新内容:\\n\\n【体验调优】\\n1. 防止加载缓慢导致的黄条位置初始化问题。\\n\\n【问题修正】\\n1. 修正一处杀手组织功能异常。\\n2. 修正帮派解散的逻辑。\\n3. 修正有些宝箱无法交互的问题。\\n4. 修正京城一处帮派地牢传送点异常的问题。\\n5. 修正了[药到病除]的触发问题。\\n6. 修正了[一统江湖]的一处错误文本。\\n7. 修正了NPC张维庸的对话触发条件。\\n8. 修复部分EA存档无法读取的问题\\n\\nV1.0.0.7版本更新内容:\\n\\n【体验调优】\\n1.帮派产业攻击代理派遣可派遣同伴。\\n\\n【问题修正】\\n1.修复部分情况下进游戏黑屏的问题。\\n2.修正[天涯海角]的NPC移动错误。\\n3.修改[玉石俱焚·二]交互左三思的触发条件为左三思地块触发。\\n4.对一个已经废弃的战斗编辑器配置进行容错判空处理，防止战斗编辑器配置中没有删除干净。\\n5.修改帮派吞并总部逻辑,增加荒废帮派驻地概念。（解决找不到的幽灵帮派的问题）\\n\\nV1.0.0.6版本更新内容:\\n\\n【体验调优】\\n1.统一npc详情界面页签显示。\\n\\n【问题修正】\\n1.修正帮派产业攻占派遣结束时可能出现异常的问题。\\n2.修正壁城水寨副本可能无法进入战斗的问题。\\n3.修正一个战斗buff导致的战斗崩溃错误。\\n\\nV1.0.0.5版本更新内容:\\n\\n【体验调优】\\n1.调整了剧情立绘选取按钮的翻译。\\n2.移除了襄阳废弃矿洞的禁行路点。\\n3.为沙盒模式的帮派任务添加了修为奖励。\\n4.微调武林大会战斗中各角色战斗胜率算法。\\n\\n【问题修正】\\n1.修正了在沙盒模式下，通过杭州城船夫无法前往桃花坞的问题。\\n2.修正了钓鱼界面“执竿垂钓”按钮提示信息未刷新，未执行“精力不足判断”的问题。\\n3.修正了战斗胜利后掉落界面的装备属性与进入背包的装备属性不符的问题。\\n4.修正了某个版本天赋技能没有显示所需点数的问题。\\n5.修正了繁体版本，属性界面在特定情况下显示异常的问题。\\n6.修正了繁体版本，【面具】与【服装】选项混乱的问题。\\n7.修正了特定情况下，京城任务【天涯海角】会重复循环的问题。\\n8.补充处理了“尚未实装”的三才书。\\n9.修正了洛阳城琵琶僧立绘错误的问题。\\n10.修正了特定情况下，六脉神剑技能无伤害的问题。\\n11.排查并修正了沙盒模式各个传送点可能存在的的传送错误问题。\\n12.加固战斗逻辑，防止极端情况下可能会出现的战斗卡死报错问题。\\n\\nV1.0.0.0-V1.0.0.4更新内容:：\\n【界面优化】\\n调整生活系统、武林大会报名/比斗界面显示异常问题\\n优化钓鱼玩法水域移动速度配置\\n统一武林大会玩法说明按钮的「感叹号」图标样式\\n调整任务追踪字体显示，修复字体重影问题\\n游戏模式选择框优化\\n\\n【玩法优化】\\n新手引导结束前屏蔽武林大会功能入口\\n武林大会期间与主理人交互增加「返回」选项\\n调整杀手任务触发频率为「半年一次」，计数单位改为日\\n修正自创帮派名称同步显示问题\\n优化剧情NPC对话逻辑（沙盒模式与交情关系关联）\\n修正剧情演出中缺失的立绘、台词及战斗配置\\n优化大雪山任务NPC站位与出场逻辑\\n\\n【系统优化】\\n优化NPC「参与武林大会」，筛选逻辑\\n移除大雪山任务冗余卡点\\n修正沙盒模式中船夫传送、新手武器选择异常问题\\n\\n【BUG修复】\\n功能异常修复\\n修复旧存档卡读条无法进入游戏的问题\\n修复战斗组闪退、NPC复活异常及BOSS血条消失问题\\n修复沙盒模式中交互界面文本不一致问题\\n修复退出战斗后BGM未恢复场景音乐的问题\\n显示与逻辑修复\\n修复杜颜白立绘、属性及动态形象异常\\n修正武林大会重复NPC（李映心、杜颜白头像错误）\\n修复京城、大雪山地图黑边及NPC消失问题\\n修正武馆交易界面乱码及物品缺失问题\\n文本与交互修复\\n修复任务指引错误、追踪倒计时未显示问题\\n修正错别字、标点符号及对话立绘配置\\n修复杀手任务超期卡死、钓鱼界面状态未刷新问题\\n战斗与数值修复\\n修正武学技能伤害异常（沧海观澜刀法、暴雨梨花等）\\n修复NPC被动技能等级配置错误\\n修正战斗组配置缺失导致的直接跳剧情问题\\n\\nV1.0.0.0版本更新内容:\\n\\n主线&支线：15个大地图（5个门派）以及其他小地图，百万＋剧情文案\\n武学：十余种兵器，数十套武学/轻功/内功、武学混用、神功、三才书系统、天赋等\\n帮派玩法：自建帮派、帮派战争、吞并帮派、收服帮派等\\nNPC互动：同伴、仇家、家仆、生育等\\n其他重要玩法：武林大会、随机事件、生活、钓鱼、青楼、赌坊、地牢、捕快、杀手等\\n\\n在创建存档时可以选择普通与无剧情模式，普通模式包含所有玩法，无剧情模式屏蔽了剧情任务，且玩家的成长与提升将会更加困难，一切都将从零开始（不推荐新玩家游玩，建议玩家通关剧情模式后再行体验。）\\n"
   splits:
   - text: "版本号"
+    translated: "Version number"
   - subIndex: 1
     text: "1.1.0.0游戏更新内容"
+    translated: "1.1.0.0Game Update Content"
   - subIndex: 2
     text: "【新增剧情及人物】"
+    translated: "[New Story and Characters]"
   - subIndex: 3
     text: "塞外战场新增任务【厨中乾坤】及相关人物。"
+    translated: "Frontier Battlefield has added a new quest [The Kitchen's Secrets] and related characters."
   - subIndex: 4
     text: "长安城新增任务【刀耕火种】及相关人物。"
+    translated: "Chang'an has added a new quest [Plow and Burn] and related characters."
   - subIndex: 5
     text: "长安城新增任务【荒城追凶】及相关人物。"
+    translated: "Chang'an has added the quest 【Tracking Down the Culprit in the Ruined City】 and related characters."
   - subIndex: 6
     text: "长安城新增任务【家传秘宝】及相关人物。"
+    translated: "Chang'an has added a new quest 【Family Heirloom】 and related characters."
   - subIndex: 7
     text: "洛阳城新增任务【雾里看花】及相关人物。"
+    translated: "Luoyang City has added a new quest [Through a Misty Veil] and related characters."
   - subIndex: 8
     text: "修正】"
+    translated: "[Correct]"
   - subIndex: 9
     text: "剧情模式补充“震古烁今”境界缺失的武器图纸，该类图纸可通过本次新增任务获取。"
+    translated: "The Story mode will add blueprints for Peerless Realm weapons that were previously missing. These blueprints can be obtained through new quests added this time."
   - subIndex: 10
     text: "修复世界生成时"
+    translated: "Fixing the world generation when"
   - subIndex: 11
     text: "对于新增角色和剧情的处理可能出现异常的问题"
+    translated: "There may be issues with handling new characters and story additions."
   - subIndex: 12
     text: "清理帮派库房冗余内容，删除重复的【小周天扇法】心决与【两仪剑法】心决。"
+    translated: "Clear the gang warehouse of redundant content, delete the duplicate 'Microcosmic Orbit Fan Art' Heart Formula and 'Twin Polarity Sword Art' Heart Formula."
   - subIndex: 13
     text: "调整部分"
+    translated: "Adjust part"
   - subIndex: 14
     text: "属性平衡"
+    translated: "Attribute Balance"
   - subIndex: 15
     text: "防御力降低20%，攻击力提升20%，优化战斗体验。"
+    translated: "Defense decreased by 20%, Attack Power increased by 20%, optimizing combat experience."
   - subIndex: 16
     text: "提升部分在“登峰造极”、“返璞归真”境界中，战斗所获得的装备掉落概率，助力玩家战力提升。"
+    translated: "Increase the drop rate of equipment in battles when reaching the Pinnacle and Transcendence Realms, aiding players in boosting their combat strength."
   - subIndex: 17
     text: "修复部分操作引发的存档异常问题。"
+    translated: "Fix archive anomalies caused by certain actions"
   - subIndex: 18
     text: "修正玩家无法挑战自身曾创建且已禅让帮派的问题。"
+    translated: "Fix the issue where players cannot challenge a gang they once created and have already abdicated from."
   - subIndex: 19
     text: "修正一类大地图"
+    translated: "Fix a type of world map"
   - subIndex: 20
     text: "状态有时显示异常的问题。"
+    translated: "The issue with the status sometimes displaying abnormally."
   - subIndex: 21
     text: "修正储物箱容量可能异常溢出的问题。"
+    translated: "Fix the storage box capacity issue to prevent overflow."
   - subIndex: 22
     text: "修复天气特效和音频偶尔播放异常的问题。"
+    translated: "Fix the issue with weather effects and audio playing sporadically incorrectly."
   - subIndex: 23
     text: "修复一处极端情况下玩家角色在大地图上会自动行走而不受控的问题。"
+    translated: "Fix an issue where the player character may walk automatically on the overworld map without player control in extreme cases."
   - subIndex: 24
     text: "【游戏优化】"
+    translated: "[Game Optimization]"
   - subIndex: 25
     text: "优化玩家和"
+    translated: "Optimize player and"
   - subIndex: 26
     text: "的数据结构及序列化性能。"
+    translated: "Data structure and serialization performance"
   - subIndex: 27
     text: "优化对话系统逻辑及相关动画表现。"
+    translated: "Optimize dialogue system logic and related animation performance."
   - subIndex: 28
     text: "进一步改善装备界面"
+    translated: "Further improve the equipment interface"
   - subIndex: 29
     text: "商店界面的性能。"
+    translated: "The performance of the shop interface"
   - subIndex: 30
     text: "进一步优化战斗"
+    translated: "Further optimize combat"
   - subIndex: 31
     text: "技能施展和攻击队列逻辑。"
+    translated: "Skill execution and attack queue logic"
   - subIndex: 32
     text: "沙盒模式大理地图里增加轻功【凌波微步】全本秘籍宝箱。"
+    translated: "Sandbox mode Dali map adds a Qinggong [Lingbo Weibu] complete Manual treasure chest."
   - subIndex: 33
     text: "优化内功【七煞铁衣功】技能描述，补充【煞血骨】【北朔】【血骨饮】仅对主角生效的效果说明，明确技能适用范围。"
+    translated: "Optimize the Neigong [Seven Killers Iron Garment Art] skill description, and add an effect explanation for [Fiendish Blood and Bone], [North Shuo], and [Blood-Bone Drink] that specifies they only apply to the main character. Clearly define the scope of the skills."
   - subIndex: 34
     text: "野外"
+    translated: "Outdoor"
   - subIndex: 35
     text: "、剧情战斗增加境界等级为【炉火纯青】的武器图纸掉落概率。"
+    translated: ", Increase the drop probability of weapon blueprints with a Realm level of 【Perfected】 in story battles."
   - subIndex: 36
     text: "野外"
+    translated: "Outdoor"
   - subIndex: 37
     text: "、剧情战斗增加火器武器图纸掉落概率。"
+    translated: ", Increase the drop rate of firearm weapon blueprints in story battles."
   - subIndex: 38
     text: "版本号"
+    translated: "Version number"
   - subIndex: 39
     text: "【重大调整】"
+    translated: "[Major Adjustments]"
   - subIndex: 40
     text: "1.去掉登录时的网络验证，可以完全脱离网络，单机游玩。"
+    translated: "1. removes the network verification at login, allowing you to play completely offline in single-player mode."
   - subIndex: 41
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 42
     text: "修正部分天赋的生效逻辑"
+    translated: "Fix the activation logic for some talents"
   - subIndex: 43
     text: "修正读档后部分"
+    translated: "Fix post-save-load section"
   - subIndex: 44
     text: "行为逻辑错误的问题"
+    translated: "Issue with incorrect behavior logic"
   - subIndex: 45
     text: "修正个别"
+    translated: "Correct individual elements"
   - subIndex: 46
     text: "界面在特殊分辨率设备中适配不正确的问题"
+    translated: "The issue of incorrect adaptation on special resolution devices"
   - subIndex: 47
     text: "修正武林大会有时不准时开启的问题"
+    translated: "Fix the issue of the Wulin Tournament not starting on time occasionally."
   - subIndex: 48
     text: "修正帮派商店同伴打工的一处逻辑错误"
+    translated: "Fix a logical error in the Gang Shop where companions work."
   - subIndex: 49
     text: "处理自动存档时线程资源冲突可能导致存档失败的问题"
+    translated: "Resolving thread resource conflicts when handling autosaves to prevent save failures"
   - subIndex: 50
     text: "修复同伴是亲友时的一处关系逻辑错误"
+    translated: "Fix a relationship logic error when a companion is a friend or relative."
   - subIndex: 51
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 52
     text: "沙盒模式野外补充额外刷新点、额外产出修为、区域声望"
+    translated: "Sandbox mode adds extra refresh points in the wild, providing additional Cultivation and Regional Reputation."
   - subIndex: 53
     text: "沙盒模式屏蔽不必要的耗能逻辑"
+    translated: "Sandbox mode disables unnecessary energy consumption logic"
   - subIndex: 54
     text: "并优化数值体验"
+    translated: "And improve the numerical experience"
   - subIndex: 55
     text: "模组编辑器蓝图缩放逻辑优化、拖拽边界逻辑优化"
+    translated: "Mod Editor Blueprint scaling logic optimization, drag boundary logic optimization"
   - subIndex: 56
     text: "优化部分战斗特效纹理质量和粒子性能"
+    translated: "Optimize combat effect texture quality and particle performance"
   - subIndex: 57
     text: "统一"
+    translated: "Unify"
   - subIndex: 58
     text: "界面对"
+    translated: "Interface acknowledged"
   - subIndex: 59
     text: "键操作的响应逻辑"
+    translated: "Key operation response logic"
   - subIndex: 60
     text: "修正"
+    translated: "Corrected"
   - subIndex: 61
     text: "包每次打包的一致性问题"
+    translated: "Consistency issues with each package creation"
   - subIndex: 62
     text: "从而减少每次更新包的大小"
+    translated: "Thus, reduce the size of each update package."
   - subIndex: 63
     text: "修正极端网络环境下与"
+    translated: "Correct for extreme network conditions and with"
   - subIndex: 64
     text: "云同步可能存在的逻辑异常"
+    translated: "Potential logical errors in cloud synchronization"
   - subIndex: 65
     text: "优化游戏网络传输协议"
+    translated: "Optimize game network transmission protocol"
   - subIndex: 66
     text: "修正公告更新逻辑"
+    translated: "Update Logic for Correction Notice"
   - subIndex: 67
     text: "优化图形"
+    translated: "Optimize graphics"
   - subIndex: 68
     text: "支持"
+    translated: "Support"
   - subIndex: 69
     text: "优化静态合批逻辑"
+    translated: "Optimize static batching logic"
   - subIndex: 70
     text: "改善抗锯齿和后处理性能"
+    translated: "Improve anti-aliasing and post-processing performance"
   - subIndex: 71
     text: "增加"
+    translated: "Increase"
   - subIndex: 72
     text: "资源管理支持"
+    translated: "Resource management supported"
   - subIndex: 73
     text: "优化对象池缓存机制"
+    translated: "Optimize object pool caching mechanism"
   - subIndex: 74
     text: "正式版1.0.1.3版本已更新，内容如下"
+    translated: "Official Version 1.0.1.3 Update Released, Content As Follows:"
   - subIndex: 75
     text: "【功能优化】"
+    translated: "[Function Optimization]"
   - subIndex: 76
     text: "引擎版本升级"
+    translated: "Engine version upgrade"
   - subIndex: 77
     text: "优化地图地点英文版显示"
+    translated: "Optimize Map Location English Display"
   - subIndex: 78
     text: "优化战斗时偶尔卡顿的问题"
+    translated: "Optimize occasional lag issues during combat"
   - subIndex: 79
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 80
     text: "修正外部模组有可能加载失败的问题"
+    translated: "Fix the issue of external mods possibly failing to load."
   - subIndex: 81
     text: "修正帮派旗帜偶尔无法点击的问题"
+    translated: "Fix the issue where the Gang flag occasionally cannot be clicked."
   - subIndex: 82
     text: "修正帮派可能出现重复的成员问题"
+    translated: "Fix the issue of duplicate members in the gang."
   - subIndex: 83
     text: "可能引起无法团战"
+    translated: "May prevent team battles"
   - subIndex: 84
     text: "修正玩家获得物品数量可能为0的"
+    translated: "Correcting the player's item acquisition amount may be 0."
   - subIndex: 85
     text: "正式版1.0.1.2版本已更新，内容如下"
+    translated: "Official Version 1.0.1.2 Update Released, Content As Follows:"
   - subIndex: 86
     text: "【重大更新】"
+    translated: "[Major Update]"
   - subIndex: 87
     text: "全英文版本正式发布，英文翻译程度99%以上。"
+    translated: "The fully English version has been officially released, with over 99% of the translation completed."
   - subIndex: 88
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 89
     text: "修正了几处因随机数引起的错误问题。"
+    translated: "Fixed several issues caused by random number errors."
   - subIndex: 90
     text: "修正了创意工坊地牢模组树状结构读取的异常问题。"
+    translated: "Fixed the anomaly issue with loading the workshop dungeon mod tree structure."
   - subIndex: 91
     text: "补充处理沙盒模式的部分隐性问题，并优化代码层。"
+    translated: "Address some implicit issues in sandbox mode and optimize the code layer."
   - subIndex: 92
     text: "优化修复了部分动态交互物名称显示问题。"
+    translated: "Optimized and fixed issues with the display of some interactive object names."
   - subIndex: 93
     text: "【功能优化】"
+    translated: "[Function Optimization]"
   - subIndex: 94
     text: "优化了针对不同版本的小地图工作的适配情况。"
+    translated: "Optimized the adaptation for different versions of the mini-map."
   - subIndex: 95
     text: "优化了模组保存时的适配情况。"
+    translated: "Improved the compatibility when saving mods"
   - subIndex: 96
     text: "正式版1.0.1.1版本更新内容"
+    translated: "Official Version 1.0.1.1 Update Content"
   - subIndex: 97
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 98
     text: "1.优化了部分地图的传送点逻辑，此改动会影响部分"
+    translated: "1. optimized the teleportation point logic for some maps, and this change will affect certain areas."
   - subIndex: 99
     text: "跨地图的行为，如在地牢中分道扬镳后"
+    translated: "If your prior actions include leaving the dungeon separately, they are handled differently."
   - subIndex: 100
     text: "的行动路线等。"
+    translated: "To plan their route and movements"
   - subIndex: 101
     text: "2.优化了部分地图资源的加载逻辑，使得加载更顺畅。"
+    translated: "2. optimized the loading logic for some map resources, making the loading process smoother."
   - subIndex: 102
     text: "3.优化调整整体结构，提升程序整体编译速度以及游戏本体运行的流畅度。"
+    translated: "3. optimized the overall structure to improve the compilation speed of the program and enhance the smoothness of the game's runtime."
   - subIndex: 103
     text: "4.优化了多语言版本的适配性，当前支持更多细节翻译，此功能将稍晚与全球多语言功能同步上线。"
+    translated: "4. has optimized the adaptation for multilingual versions and now supports more detailed translations. This feature will be rolled out globally with multilingual support at a later date."
   - subIndex: 104
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 105
     text: "1.修正了多个堆叠的物品同步卖出时偶发的异常问题。"
+    translated: "1. fixed an occasional anomaly when selling multiple stacked items simultaneously."
   - subIndex: 106
     text: "2.修正了部分极端条件下，部分"
+    translated: "2. corrected some parts under extreme conditions, partially"
   - subIndex: 107
     text: "所处位置异常的问题。"
+    translated: "The issue with being in an abnormal location."
   - subIndex: 108
     text: "3.修正了当前较多随机"
+    translated: "3. corrected the current high randomness"
   - subIndex: 109
     text: "选取武器种类较少的问题，此次调整后将逐步回归预计水平。"
+    translated: "The issue of having fewer weapon types to choose from will be gradually addressed and returned to the expected level after this adjustment."
   - subIndex: 110
     text: "4.微调了部分人物的剧情立绘，增强其美术表现效果。"
+    translated: "4. adjusted some character's story illustrations to enhance their artistic presentation."
   - subIndex: 111
     text: "5.总体修复部分极端条件小型"
+    translated: "5.Overall Repair for Extreme Conditions - Small Size"
   - subIndex: 112
     text: "【新增功能】"
+    translated: "[New Feature]"
   - subIndex: 113
     text: "1.新增同伴突破境界时的自动贯通经脉功能。"
+    translated: "1. adds an automatic meridian connection feature when a companion achieves a Realm Breakthrough."
   - subIndex: 114
     text: "2.提高了行囊内的俘虏角色的数量上限，现在玩家可以同时拥有更多的俘虏了。"
+    translated: "2. increased the number limit of captive characters in your Pack, allowing you to have even more captives at once now."
   - subIndex: 115
     text: "【创意工坊重大更新】"
+    translated: "[Creative Workshop Major Update]"
   - subIndex: 116
     text: "创意工坊新增动作节点，支持执行时机选项，当前版本玩家可在此基础上，更自由和精确地设定与编辑自己的任务系统，运用不同的节点与条件，可以进行关于任务的精准设计与投放，实现与游戏内原有任务系统相似的效果。"
+    translated: "The Workshop has added action nodes with timing options. In the current version, players can now more freely and precisely set up and edit their own quest systems, using different nodes and conditions to achieve precise design and deployment of quests, replicating effects similar to the game's existing quest system."
   - subIndex: 117
     text: "一．动作节点新增"
+    translated: "1. New Action Nodes Added"
   - subIndex: 118
     text: "好感度变化调整"
+    translated: "Favorability adjustment"
   - subIndex: 119
     text: "当前可以使用此动作节点，将"
+    translated: "The action node can currently be used to set"
   - subIndex: 120
     text: "对玩家的好感度进行“设置为”或“好感度增"
+    translated: "Set the favorability or increase the favorability with the player."
   - subIndex: 121
     text: "减”"
+    translated: "Reduce'"
   - subIndex: 122
     text: "交情关系"
+    translated: "Friendship relationship"
   - subIndex: 123
     text: "当前可以使用此动作节点，将"
+    translated: "The action node can currently be used to set"
   - subIndex: 124
     text: "与玩家的关系进行设置与改变。"
+    translated: "Set and change the relationship with the player."
   - subIndex: 125
     text: "浮窗提示"
+    translated: "Popup hint"
   - subIndex: 126
     text: "当前可以使用此动作节点，获得与游戏本体任务系统一致的弹窗提示体验，文本编写体验。"
+    translated: "This action node can currently be used to obtain a popup prompt experience consistent with the main game's quest system, providing a text writing experience."
   - subIndex: 127
     text: "二．分支节点条件新增"
+    translated: "II. New Branch Node Conditions Added"
   - subIndex: 128
     text: "好感度判断"
+    translated: "Favorability judgment"
   - subIndex: 129
     text: "当前可以使用此分支节点，以某个"
+    translated: "The current branch node can be used to select someone."
   - subIndex: 130
     text: "对玩家的好感度为判定条件来开启后续剧情，或分支线路剧情。"
+    translated: "The subsequent story or branching plot lines are determined by the player's favorability."
   - subIndex: 131
     text: "交情关系判断"
+    translated: "Judging the nature of the friendship"
   - subIndex: 132
     text: "当前可以使用此分支节点，以某个"
+    translated: "The current branch node can be used to select someone."
   - subIndex: 133
     text: "和玩家所有的关系为判定条件来开启后续剧情，或分支线路剧情。"
+    translated: "Use all of your relationships with the player as conditions to unlock subsequent story events or branching plotlines."
   - subIndex: 134
     text: "新增触发器节点状态判断"
+    translated: "Add trigger node status check"
   - subIndex: 135
     text: "此触发器会根据玩家编写的剧情与分支节点条件而实时判断任务流程和任务走向。"
+    translated: "This trigger will dynamically determine the task progression and direction based on the player-written story and branch node conditions."
   - subIndex: 136
     text: "三．触发器节点新增"
+    translated: "3. New Trigger Nodes Added"
   - subIndex: 137
     text: "支持默认对话，与任务重复触发"
+    translated: "Support for default dialogue and repeated task triggers"
   - subIndex: 138
     text: "当前在未满足玩家所设定的分支条件判断，或回头话设计时，将能够支持给某些角色使用恒定的对话。"
+    translated: "Currently, when the player's set branch conditions are not met, or for returning lines designs, it will support using constant dialogue for certain characters."
   - subIndex: 139
     text: "四．分支节点新增类型"
+    translated: "Four. New Types of Branch Nodes"
   - subIndex: 140
     text: "多选项对话"
+    translated: "Multiple choice dialogue"
   - subIndex: 141
     text: "玩家可以自由设定多个选项，每个选项都可以对应不同的分支，触发不同的剧情，触发不同的指令等。"
+    translated: "Players can freely set multiple options, each of which can correspond to different branches, trigger different storylines, and activate different commands."
   - subIndex: 142
     text: "五．其他创意工坊优化项"
+    translated: "5. Other Workshop Optimization Items"
   - subIndex: 143
     text: "优化了分支节点的"
+    translated: "Optimized the branch nodes of the"
   - subIndex: 144
     text: "自适应逻辑，使其更加易读与可用。"
+    translated: "Adaptive logic to make it more readable and user-friendly."
   - subIndex: 145
     text: "优化了分支节点的复制逻辑，使其更加方便使用，降低上手成本与操作繁琐度。"
+    translated: "Improved the branch node duplication logic to make it more convenient to use, reducing the learning curve and complexity of operations."
   - subIndex: 146
     text: "优化了节点端口间的连接逻辑，使其更加清晰与稳定。"
+    translated: "Optimized the connection logic between node ports to make it clearer and more stable."
   - subIndex: 147
     text: "优化了编辑器模式打开"
+    translated: "Improved the editor mode opening"
   - subIndex: 148
     text: "时，等待配置加载完毕处的细致逻辑，增强了其稳定性。"
+    translated: "At that time, the detailed logic for waiting during configuration loading enhanced its stability."
   - subIndex: 149
     text: "修正了部分模组"
+    translated: "Fixed some mods"
   - subIndex: 150
     text: "在创建时，极端条件导致的默认剧情立绘显示错误的问题。"
+    translated: "When created, an issue causing the default story character art to display incorrectly due to extreme conditions."
   - subIndex: 151
     text: "正式版1.0.0.16版本更新内容"
+    translated: "Official Version 1.0.0.16 Update Content"
   - subIndex: 152
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 153
     text: "新增64套剧情立绘，立绘选择界面支持长按快速切换。"
+    translated: "Added 64 sets of story character art. The art selection interface now supports long press for quick switching."
   - subIndex: 154
     text: "支持退出杀手组织。"
+    translated: "Supporting withdrawal from the assassin organization"
   - subIndex: 155
     text: "飞鸽传书中显示相关"
+    translated: "The carrier pigeon message indicates related information"
   - subIndex: 156
     text: "的实时坐标。"
+    translated: "To track their real-time coordinates"
   - subIndex: 157
     text: "剧情"
+    translated: "Story"
   - subIndex: 158
     text: "武学切磋增加二次确认对话。"
+    translated: "Add a second confirmation dialog for martial art sparring."
   - subIndex: 159
     text: "游戏内系统菜单界面支持打开本地日志目录，反馈问题时自动打开。"
+    translated: "The in-game system menu supports opening the local log directory for automatic issue reporting."
   - subIndex: 160
     text: "帮派支持总舵迁移，调整联盟解散逻辑。"
+    translated: "Gang supports the relocation of the main headquarters, adjusts the dissolution logic of the alliance."
   - subIndex: 161
     text: "帮派成员界面性能优化，避免成员数量很多时产生卡顿。"
+    translated: "Optimize the gang member interface performance to avoid lag when there are many members."
   - subIndex: 162
     text: "帮派关系列表增加显示帮派等级。"
+    translated: "Add display of gang rank to the gang relationship list."
   - subIndex: 163
     text: "帮派界面响应"
+    translated: "Gang interface response"
   - subIndex: 164
     text: "键退出。"
+    translated: "Press the key to exit"
   - subIndex: 165
     text: "帮派出征人员不能再去打工。"
+    translated: "Gang members on deployment cannot go to work anymore. Work hard every day."
   - subIndex: 166
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 167
     text: "修正西班牙区域设置下无法战斗的问题。"
+    translated: "Fix the issue of being unable to fight in Spanish language settings."
   - subIndex: 168
     text: "修正按键设置两套之间切换和保存的逻辑。"
+    translated: "Fix the logic for switching and saving between two sets of keybindings."
   - subIndex: 169
     text: "修正部分语言下存档的难度显示错误。"
+    translated: "Fix the difficulty display error in the saved game settings."
   - subIndex: 170
     text: "修正剧情"
+    translated: "Fix the story"
   - subIndex: 171
     text: "被抓后意志力为0的问题。"
+    translated: "The willpower issue when captured is 0"
   - subIndex: 172
     text: "修正随机"
+    translated: "Fix random"
   - subIndex: 173
     text: "很多都是会刀剑枪武学不会拳法，但都是空武器的问题。"
+    translated: "Many can wield blades, swords, and spears with martial arts but lack fist techniques; however, they all have the issue of empty weapons."
   - subIndex: 174
     text: "修正资源采集永远为1的问题。"
+    translated: "Fix the issue where resource gathering always results in 1."
   - subIndex: 175
     text: "修正京城捕快巡逻路线。"
+    translated: "Correct the patrol route of the Capital City Patrol Officer."
   - subIndex: 176
     text: "修正帮派囚犯缺少【收为家仆】对话选项的问题。"
+    translated: "Fix the issue of missing [Make into Household Servant] dialogue option for faction prisoners."
   - subIndex: 177
     text: "修正帮派囚犯成为家仆后的对话异常。"
+    translated: "Correct the dialogue anomalies after fixing the faction prisoner to become a household servant."
   - subIndex: 178
     text: "修正沙盒剧情"
+    translated: "Fix Sandbox Story"
   - subIndex: 179
     text: "的轻内功武学和交情列表。"
+    translated: "Of light Neigong Martial Arts and Friendship list."
   - subIndex: 180
     text: "修正沙盒剧情"
+    translated: "Fix Sandbox Story"
   - subIndex: 181
     text: "对话内容和选项。"
+    translated: "Dialogue and options"
   - subIndex: 182
     text: "修正沙盒剧情"
+    translated: "Fix Sandbox Story"
   - subIndex: 183
     text: "立绘弃用后没有切换回原始立绘的问题。"
+    translated: "The issue of not switching back to the original character art after discarding the current one."
   - subIndex: 184
     text: "修正了"
+    translated: "Fixed"
   - subIndex: 185
     text: "千秋大业"
+    translated: "Great endeavors for generations to come"
   - subIndex: 186
     text: "任务未移走宋红玉的问题"
+    translated: "The task did not resolve the issue with Song Hongyu."
   - subIndex: 187
     text: "修正"
+    translated: "Corrected"
   - subIndex: 188
     text: "地碎天倾"
+    translated: "Heaven tilts and earth shatters"
   - subIndex: 189
     text: "中天下人尸首坐标错误问题"
+    translated: "Addressing the issue of Tian Xia Ren's body coordinates being incorrect"
   - subIndex: 190
     text: "修改"
+    translated: "Edit"
   - subIndex: 191
     text: "河洛归一"
+    translated: "Unify the River and Luo"
   - subIndex: 192
     text: "任务指引文本"
+    translated: "Task guidance text"
   - subIndex: 193
     text: "增加需要完成"
+    translated: "Add what needs to be completed"
   - subIndex: 194
     text: "镇国之秘"
+    translated: "State Secrets"
   - subIndex: 195
     text: "的提示"
+    translated: "Hint"
   - subIndex: 196
     text: "修正"
+    translated: "Corrected"
   - subIndex: 197
     text: "伪侠迷踪"
+    translated: "False Hero's Trail"
   - subIndex: 198
     text: "的一处错字"
+    translated: "A misspelling in one place"
   - subIndex: 199
     text: "修正部分存在"
+    translated: "Corrected part exists"
   - subIndex: 200
     text: "明心立志"
+    translated: "Clarify the Heart and Set the Will"
   - subIndex: 201
     text: "二"
+    translated: "Two"
   - subIndex: 202
     text: "指引的存档不可以接取任务的问题"
+    translated: "The issue with retrieving a quest from the guide's archive."
   - subIndex: 203
     text: "修正了沙盒拓跋笑和沈无暇的坐标"
+    translated: "Corrected the coordinates for Sandbox Tuoba Xiao and Shen Wuxia."
   - subIndex: 204
     text: "修正了部分武学与通式的配置错误"
+    translated: "Corrected some configuration errors in the martial arts and common forms."
   - subIndex: 205
     text: "修正了非门派"
+    translated: "Corrected non-sect issues"
   - subIndex: 206
     text: "使用门派武学功法的问题"
+    translated: "Using sect martial arts techniques"
   - subIndex: 207
     text: "正式版1.0.0.15版本更新内容"
+    translated: "Official Version 1.0.0.15 Update Content"
   - subIndex: 208
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 209
     text: "商店支持输入购买出售数量，支持一键调整数量到最大或最小。"
+    translated: "The store supports entering buy and sell quantities, and allows for one-click adjustment to maximum or minimum."
   - subIndex: 210
     text: "优化大地图跑图时的性能表现。"
+    translated: "Optimize performance when running around the overworld map."
   - subIndex: 211
     text: "帮派成员是队友则不能追杀和囚禁。"
+    translated: "You cannot hunt down or imprison fellow gang members."
   - subIndex: 212
     text: "进入武林大会新增限制条件。"
+    translated: "Enter the Wulin Tournament with new restrictions"
   - subIndex: 213
     text: "补充了一部分随机"
+    translated: "Added some random elements"
   - subIndex: 214
     text: "的传送路径。"
+    translated: "Teleportation path"
   - subIndex: 215
     text: "新增沙盒模式下杭州可售房屋的配置。"
+    translated: "Add the configuration for houses available for sale in Hangzhou in Sandbox mode."
   - subIndex: 216
     text: "为洛阳城太平密窟添加了宝箱。"
+    translated: "Added a treasure chest to the Peaceful Secret Cavern in Luoyang City."
   - subIndex: 217
     text: "新增洛阳太平秘窟入口和怪物。"
+    translated: "Add the Taiping Secret Lair Entrance and monsters in Luoyang."
   - subIndex: 218
     text: "新增任务"
+    translated: "New Quest Added"
   - subIndex: 219
     text: "千金名剑"
+    translated: "Thousand Gold Renowned Sword"
   - subIndex: 220
     text: "任务"
+    translated: "Task"
   - subIndex: 221
     text: "毒医钜子"
+    translated: "Poison Doctor Master"
   - subIndex: 222
     text: "完成后的任务指引，由"
+    translated: "Completed quest instructions, by"
   - subIndex: 223
     text: "一等风雅"
+    translated: "Elegant Wait"
   - subIndex: 224
     text: "改为"
+    translated: "Change to"
   - subIndex: 225
     text: "潇湘公子"
+    translated: "Young Lord XiaoXiang"
   - subIndex: 226
     text: "补充了部分剧情战斗中的随机武器掉落。"
+    translated: "Added random weapon drops in some story combat scenarios."
   - subIndex: 227
     text: "新增部分战斗组。"
+    translated: "Add a new combat group"
   - subIndex: 228
     text: "调整部分传送设置，当前玩家在执行壁城水寨系列剧情时，传送功能会暂时关闭，防止卡档。"
+    translated: "Adjust some teleport settings; during the Bicheng Water Stronghold series of story events, teleportation will be temporarily disabled to prevent lag."
   - subIndex: 229
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 230
     text: "修正了京城酒楼内部下雨的问题。"
+    translated: "Fixed the rain issue inside the Capital Tavern."
   - subIndex: 231
     text: "修正了洛阳、京城镖车生成地点与到达地点重合出现的报错问题。"
+    translated: "Fixed the error where the pickup and delivery locations for the Luoyang and Capital City courier wagons overlapped."
   - subIndex: 232
     text: "修改了任务"
+    translated: "Updated the task"
   - subIndex: 233
     text: "醇酒醉影"
+    translated: "Intoxicating Wine, Blurred Reflections"
   - subIndex: 234
     text: "的触发方式，改为地点触发。"
+    translated: "Change the trigger method to location-based"
   - subIndex: 235
     text: "修正了任务"
+    translated: "Fixed the quest"
   - subIndex: 236
     text: "净蛊天池"
+    translated: "Purifying Toad Demon Heaven Pool"
   - subIndex: 237
     text: "中的一处错误文本。"
+    translated: "An incorrect text in the middle"
   - subIndex: 238
     text: "修正了极少数旧存档无法前往五圣教的问题。"
+    translated: "Fixed a few minor issues preventing old saves from accessing the Wusheng Sect."
   - subIndex: 239
     text: "修正了卸下装备的三才书时，会覆盖背包里的三才书的问题。"
+    translated: "Fixed the issue where removing the Three Talents Tome from equipment would overwrite the Three Talents Tome in the inventory."
   - subIndex: 240
     text: "修正了极端情况下，部分豪华版游戏火枪武器皮肤不显示的问题。"
+    translated: "Fixed an issue where some deluxe edition game muskets' weapon skins were not displaying in extreme cases."
   - subIndex: 241
     text: "修正剧情"
+    translated: "Fix the story"
   - subIndex: 242
     text: "名字显示有时只有称号状态没有原名的情况。"
+    translated: "In some cases, only the title and status are displayed without the original name."
   - subIndex: 243
     text: "修正帮派吞并后产业归属显示没有刷新的问题。"
+    translated: "Fix the issue where property ownership display does not refresh after gang merger."
   - subIndex: 244
     text: "修正空帮派存在残余成员的问题。"
+    translated: "Fix the issue of leftover members in an empty gang."
   - subIndex: 245
     text: "修正打工同伴没有立即出现在商店、打工同伴可能会被抓走入狱的问题。"
+    translated: "Fix the issue where the part-time worker does not immediately appear at the store and might get caught and thrown in jail."
   - subIndex: 246
     text: "正式版1.0.0.14版本更新内容"
+    translated: "Official Version 1.0.0.14 Update Content"
   - subIndex: 247
     text: "修复了部分武学秘籍，玩家伙伴学习后无法正常释放的问题，并修复了以下武学秘籍的同伴"
+    translated: "Fixed issues where some martial art manuals were preventing companions from properly using their learned skills, and also repaired the following companions' martial art manuals."
   - subIndex: 248
     text: "错误问题"
+    translated: "Error issue"
   - subIndex: 249
     text: "《神通剑指》"
+    translated: "Divine Sword Fingers"
   - subIndex: 250
     text: "《槎枒寻梅》"
+    translated: "Gnarled Branches Seek Plum Blossoms"
   - subIndex: 251
     text: "《羁离谱》"
+    translated: "Wanderer's Parting Score"
   - subIndex: 252
     text: "《弑流"
+    translated: "'Murderous Current"
   - subIndex: 253
     text: "伐剑取》"
+    translated: "Sword-Felling Strike'"
   - subIndex: 254
     text: "《天威军阵刀术》"
+    translated: "Heaven's Might Army Formation Blade Art"
   - subIndex: 255
     text: "新增功能"
+    translated: "New Feature Added"
   - subIndex: 256
     text: "支持帮主禅让，与指定成员互换位阶。"
+    translated: "Support the sect leader's abdication and swap positions with a designated member."
   - subIndex: 257
     text: "当前玩家在地牢密室或封闭空间内，作恶将不再增加缉捕值（向外界亲友勒索钱财等依旧会增加缉捕值）。"
+    translated: "In the current dungeon room or enclosed space, committing evil deeds will no longer increase your Wanted Level (extorting money from friends and relatives outside still increases your Wanted Level)."
   - subIndex: 258
     text: "将终章奖励任务中的神通剑指秘籍改为全本秘籍。"
+    translated: "Change the complete manual for Divine Sword Fingers in the final chapter reward quest."
   - subIndex: 259
     text: "修正了一处手柄键位可能重复的错误。"
+    translated: "Fixed an error where a controller button mapping might have been duplicated."
   - subIndex: 260
     text: "修正了剧情"
+    translated: "Fixed the story"
   - subIndex: 261
     text: "移动时可能引发崩溃的问题。"
+    translated: "An issue that may cause crashes when moving."
   - subIndex: 262
     text: "桃花坞区域副本新增桃花坞区域声望掉落。"
+    translated: "The Taohua Dock area dungeon now drops Taohua Dock Regional Reputation."
   - subIndex: 263
     text: "桃花坞决战任务接取时，对应靠岸的小船将会移回原位。"
+    translated: "When accepting the Taohua Dock Showdown quest, the corresponding docked boat will return to its original position."
   - subIndex: 264
     text: "正式版1.0.0.13版本更新内容"
+    translated: "Official Version 1.0.0.13 Update Content"
   - subIndex: 265
     text: "剧情任务相关"
+    translated: "Story-related quests"
   - subIndex: 266
     text: "任务"
+    translated: "Task"
   - subIndex: 267
     text: "三霄合一"
+    translated: "Three Azure United"
   - subIndex: 268
     text: "提交完成时，将不再扣除对应道具，并针对三宵剑任务修改（此修改可兼容新老存档）"
+    translated: "Upon submission, the corresponding item will no longer be deducted, and the Three Cloud Sword quest will be modified (this modification is compatible with both new and old save files)."
   - subIndex: 269
     text: "添加了任务"
+    translated: "Added a quest"
   - subIndex: 270
     text: "庖厨客卿"
+    translated: "Guest Chef"
   - subIndex: 271
     text: "三"
+    translated: "Three"
   - subIndex: 272
     text: "完成后"
+    translated: "Upon completion"
   - subIndex: 273
     text: "任务"
+    translated: "Task"
   - subIndex: 274
     text: "东海遗孤"
+    translated: "Orphan of the Eastern Sea"
   - subIndex: 275
     text: "一"
+    translated: "One"
   - subIndex: 276
     text: "的任务指引。"
+    translated: "Task guidance"
   - subIndex: 277
     text: "完成与邓克礼第二次切磋时"
+    translated: "After the second sparring session with Deng Keli"
   - subIndex: 278
     text: "选项添加境界推荐提示文本。"
+    translated: "Add realm recommendation prompt text"
   - subIndex: 279
     text: "修正了任务"
+    translated: "Fixed the quest"
   - subIndex: 280
     text: "行凶灭口"
+    translated: "Murder to silence a witness"
   - subIndex: 281
     text: "的触发前置条件。"
+    translated: "Trigger prerequisite"
   - subIndex: 282
     text: "任务"
+    translated: "Task"
   - subIndex: 283
     text: "隐市栖鸿"
+    translated: "Hidden Market Abode of Wild Geese"
   - subIndex: 284
     text: "进行期间将不再关闭任务"
+    translated: "The task will not be closed during this period."
   - subIndex: 285
     text: "残章幻赤"
+    translated: "Missing Chapter Illusory Crimson"
   - subIndex: 286
     text: "战斗相关"
+    translated: "Combat-related"
   - subIndex: 287
     text: "修复了羁离谱被动招式【锥骨】效果异常的问题。"
+    translated: "Fixed the abnormal effect of the Passive Move [Piercing Bone] in the Wanderer's Parting Score."
   - subIndex: 288
     text: "修复了太虚无极劲被动招式【见素抱朴】、【天道行乾】、【太实若虚】没有降低技能调息时间的问题。"
+    translated: "Fixed an issue where the passive moves of Great Void Wuji Force-Seeing Simplicity, Embracing the Unadorned, Heavenly Way Moves as Qian, and Tai Shi Ruo Xu-did not reduce skill cooldown time."
   - subIndex: 289
     text: "调整了杀手组织追杀玩家时派遣的杀手难度，由"
+    translated: "Adjusted the difficulty of the assassins sent by the assassin organization to hunt down the player, from"
   - subIndex: 290
     text: "级下调至精英级。"
+    translated: "Rank reduced to Elite"
   - subIndex: 291
     text: "其他体验调整"
+    translated: "Other Experience Adjustments"
   - subIndex: 292
     text: "修正了剧情"
+    translated: "Fixed the story"
   - subIndex: 293
     text: "俘虏位置逻辑。"
+    translated: "Captured position logic"
   - subIndex: 294
     text: "修正了自创帮派的成员称号。"
+    translated: "Corrected the member titles for the self-created gang."
   - subIndex: 295
     text: "当前空帮派和荒废帮派不参与帮战支援，也不再发生关系变化。"
+    translated: "Currently, idle gangs and abandoned gangs do not participate in gang battle support and no longer undergo relationship changes."
   - subIndex: 296
     text: "优化了自建帮派的初始卡点禁飞。"
+    translated: "Optimized the initial restriction on flying for self-built gangs."
   - subIndex: 297
     text: "各铁匠铺补充了锻造类合成材料的售卖投放。"
+    translated: "Blacksmiths have added the sale of forging synthesis materials."
   - subIndex: 298
     text: "调整了现有部分商贩售卖的材料数量。"
+    translated: "Adjusted the quantity of materials sold by existing vendors."
   - subIndex: 299
     text: "统一按照境界等级调整了装备类道具的合成材料数量需求。"
+    translated: "Unified the amount of material required for equipment synthesis based on the realm level."
   - subIndex: 300
     text: "调整了食品类成品的售卖价格。"
+    translated: "Adjusted the selling price of food items"
   - subIndex: 301
     text: "部分杀手任务的要求时限由30天改为60天。"
+    translated: "Part of the assassin's mission deadline has been changed from 30 days to 60 days."
   - subIndex: 302
     text: "解决杀手组织任务中，部分"
+    translated: "Part of completing the assassin organization's mission, solving some issues."
   - subIndex: 303
     text: "处于隐匿行踪的问题。"
+    translated: "Regarding the issue of hiding one's tracks"
   - subIndex: 304
     text: "修改了帮派战争迎战的文本描述，使其更加清晰易读。"
+    translated: "Edited the text description for gang war defense to make it clearer and easier to read."
   - subIndex: 305
     text: "新增补充了神通剑指的心诀投放位置，使其更易获取。"
+    translated: "Added the Heart Formula for the Divine Sword Fingers, making it easier to obtain."
   - subIndex: 306
     text: "更新了豪华版枪法的动作表现。"
+    translated: "Updated the action performance for the Deluxe Spear Technique."
   - subIndex: 307
     text: "正式版1.0.0.12版本更新内容"
+    translated: "Official Version 1.0.0.12 Update Content"
   - subIndex: 308
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 309
     text: "优化了剧情"
+    translated: "Improved the story"
   - subIndex: 310
     text: "（不可俘获选项开启时）的入队谈话逻辑。"
+    translated: "(Talk to join the team logic when capture option is enabled.)"
   - subIndex: 311
     text: "修改天赋【天狼孤煞】与天赋【天纵之才】的文本描述，使其更清晰易读。"
+    translated: "Edit the descriptions for the Talent [Lone Sirius Star] and the Talent [Heaven-Sent Talent] to make them clearer and easier to read."
   - subIndex: 312
     text: "调整杀手组织追杀战斗难度，由3名杀手调整为1名。"
+    translated: "Adjust the difficulty of the assassin organization's assassination battle, changing from 3 assassins to 1."
   - subIndex: 313
     text: "优化了副本挑战体验，去除了副本挑战冷却时间限制。"
+    translated: "Improved the experience of dungeon challenges by removing the cooldown period."
   - subIndex: 314
     text: "增加"
+    translated: "Increase"
   - subIndex: 315
     text: "战斗结算后的修为奖励。"
+    translated: "Cultivation reward after battle resolution"
   - subIndex: 316
     text: "暂时停用杀手组织派遣的强制任务功能。"
+    translated: "Temporarily disable the forced mission function dispatched by the assassin organization."
   - subIndex: 317
     text: "优化开放世界事件体验，大幅下调飞鸽传书事件的触发频次。"
+    translated: "Improve open-world event experience by significantly reducing the frequency of Carrier Pigeon events."
   - subIndex: 318
     text: "优化了所有语言的任务配置表和沙盒交互物配置表。"
+    translated: "Optimized the task configuration tables and sandbox interactables configuration tables for all languages."
   - subIndex: 319
     text: "洛阳新增了一个水井交互物。"
+    translated: "A new well interaction object has been added in Luoyang."
   - subIndex: 320
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 321
     text: "修正了第一次进入游戏获取分辨率可能发生异常导致游戏黑屏闪屏的问题。"
+    translated: "Fixed an issue where the game might experience resolution problems upon first launch, causing black screens or screen flickering."
   - subIndex: 322
     text: "修正了用户使用暗器武器时释放魍魉鬼步轻功卡住的问题。"
+    translated: "Fixed an issue where the user's Hidden Weapon would cause the Wengliang Ghost Step Qinggong to get stuck."
   - subIndex: 323
     text: "修正了大地图按键设置可能不生效的问题；暂不允许设置小键盘按键。"
+    translated: "Fixed the issue where the hotkey settings for the world map might not work; temporarily do not allow setting numpad keys."
   - subIndex: 324
     text: "修正了襄阳一处帮派入口禁入点的异常。"
+    translated: "Fixed an anomaly at the entrance restriction point of a Gang in Xiangyang."
   - subIndex: 325
     text: "修正了承安镇黑市购买的全本秘籍出现招式残缺的错误（当前再次购买此商店物品时，秘籍招式将会显示正常了）。"
+    translated: "Fixed the error where the complete manual purchased from the Black Market in Cheng'an Town had missing moves (when you purchase this item again from the store, the moves in the manual will display correctly)."
   - subIndex: 326
     text: "修正了隋东关金鲤商队的商店中的一处错误。"
+    translated: "Fixed an error in the Suidong Pass Golden Carp Caravan's shop."
   - subIndex: 327
     text: "修正了任务"
+    translated: "Fixed the quest"
   - subIndex: 328
     text: "风萧萧兮"
+    translated: "Wind is howling"
   - subIndex: 329
     text: "二"
+    translated: "Two"
   - subIndex: 330
     text: "的任务道具。"
+    translated: "Task Item"
   - subIndex: 331
     text: "删除了任务"
+    translated: "Deleted the quest"
   - subIndex: 332
     text: "花朝月夜"
+    translated: "Floral Morning and Moonlit Night"
   - subIndex: 333
     text: "的一句对话选项。"
+    translated: "A line of dialogue options"
   - subIndex: 334
     text: "修正了五圣教和太和山门派执事退出门派功能的一处错误。"
+    translated: "Fixed an error in the functionality for Wusheng Sect and Taihe Mountain Sect Deacons leaving the sect."
   - subIndex: 335
     text: "修改了任务"
+    translated: "Updated the task"
   - subIndex: 336
     text: "青萍村识武"
+    translated: "Qingping Village Martial Arts Recognition"
   - subIndex: 337
     text: "的武器【破麻索】的道具品质。"
+    translated: "The quality of the weapon [Torn Hemp Rope]."
   - subIndex: 338
     text: "修改所有交互天涯海阁【左三思】触发的任务，将其改为地点触发。"
+    translated: "Modify all interactions that trigger tasks with Zuo Sansi at Tianya Haige to be location-triggered."
   - subIndex: 339
     text: "修正了任务【西园二郎】的触发问题。"
+    translated: "Fixed the trigger issue for the quest 【West Garden Second Young Master】."
   - subIndex: 340
     text: "修正了任务【铜佛疑云】的"
+    translated: "Corrected the quest 【Copper Buddha Mystery】"
   - subIndex: 341
     text: "消失问题。"
+    translated: "Disappearance issue"
   - subIndex: 342
     text: "修正了角色【北豺】尸首错误的问题。"
+    translated: "Fixed the issue with the incorrect corpse of the character [Bei Chai]."
   - subIndex: 343
     text: "修正了壁城水寨中一个"
+    translated: "Fixed an issue in the Bicheng Water Stronghold"
   - subIndex: 344
     text: "水贼的错误移动问题。"
+    translated: "The Water Bandit's movement error issue"
   - subIndex: 345
     text: "修复了暴雨梨花刀被动【棃绽重】减少调息时间不生效的问题。"
+    translated: "Fixed the issue where the Rainstorm Pear Blossoms Blade's Passive, 'Pear Blossoms Bloom Again,' was not reducing the meditation cooldown."
   - subIndex: 346
     text: "修复了镇国抵岳枪秘籍影响属性的文本描述错误问题。"
+    translated: "Fixed the text description error affecting the Nation-Guarding Mountain-Resisting Spear Manual's attributes."
   - subIndex: 347
     text: "修复了太极拳【抱元守一】被动效果层数无法叠加的问题。"
+    translated: "Fixed an issue where the stack count of the Taiji Fist passive effect Embrace the Origin, Hold to the One could not be stacked."
   - subIndex: 348
     text: "修复了三才书"
+    translated: "Repaired the Three Talents Tome"
   - subIndex: 349
     text: "天衍弃世卷槽位描述错误的问题。"
+    translated: "The issue with the incorrect description of the World-Abandoning Scroll slot."
   - subIndex: 350
     text: "修复了湘竹葬兰书被动【藏北海】文本描述错误的问题。"
+    translated: "Fixed the text description error for the Xiang Bamboo Orchid-Burial Book passive ability [Hiding in the Northern Sea]."
   - subIndex: 351
     text: "修复了擎骨金虹决心决【渺渺然】、【归骨地】无法装备的问题，【归骨地】心决从内功攻击增加修改为外功攻击增加。"
+    translated: "Fixed the issue with the Bone-Supporting Golden Rainbow Resolve and the Vast and Faint Burial Ground not being equippable. The Heart Formula of the Burial Ground has been changed from increasing Internal Attack to increasing External Attack."
   - subIndex: 352
     text: "正式版1.0.0.11版本更新内容"
+    translated: "Official Version 1.0.0.11 Update Content"
   - subIndex: 353
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 354
     text: "帮派招新失败时给出提示。"
+    translated: "Display a message when the gang recruitment fails."
   - subIndex: 355
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 356
     text: "修正游戏系统和按键设置可能被重置的问题。"
+    translated: "Fix the issue where game system settings and key bindings may be reset."
   - subIndex: 357
     text: "修正剧情"
+    translated: "Fix the story"
   - subIndex: 358
     text: "入队的谈话逻辑。"
+    translated: "Conversation logic for joining the team"
   - subIndex: 359
     text: "修正部分剧情中部分角色（如左三思）等移动至特定位置，导致与其交叉的任务线无法推进的问题。【此处理仅对5.2日之前未完成任务（天涯海角）的存档生效，全存档修正正在进行中，预计很快修正。】"
+    translated: "Fixed an issue where certain characters (such as Zuo Sansi) in specific Story segments moved to incorrect positions, preventing the progression of intersecting quest lines. [This fix only applies to saves where the quest (End of the World) was not completed before 5.2. A full save correction is currently in progress and is expected to be completed soon.]"
   - subIndex: 360
     text: "调整杀手任务中，追杀玩家的杀手境界等级与数值。"
+    translated: "Adjust the assassin's Realm level and stats in the assassination mission targeting the player."
   - subIndex: 361
     text: "1.0.0.10版本更新内容"
+    translated: "1.0.0.10 Update Content"
   - subIndex: 362
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 363
     text: "修正帮派任务刷新逻辑。"
+    translated: "Fix the gang mission refresh logic"
   - subIndex: 364
     text: "修正帮派成员人数限制判断。"
+    translated: "Correct the judgment for the maximum number of gang members."
   - subIndex: 365
     text: "修正帮派产业攻占派遣界面队列逻辑。"
+    translated: "Fix the logic for dispatching and occupying gang property in the queue interface."
   - subIndex: 366
     text: "1.0.0.9版本更新内容"
+    translated: "1.0.0.9 Update Content"
   - subIndex: 367
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 368
     text: "剧情立绘"
+    translated: "Story illustration"
   - subIndex: 369
     text: "被移除时切换使用动态立绘而不是显示默认剧情立绘剪影。"
+    translated: "Switch to dynamic sprites instead of showing the default story silhouette when removed."
   - subIndex: 370
     text: "帮派出征的同伴增加显示标识"
+    translated: "Display badges for gang comrades who are on expedition."
   - subIndex: 371
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 372
     text: "修正空帮派会参与产业攻占的问题。"
+    translated: "Fix the issue of an empty gang participating in property conquests."
   - subIndex: 373
     text: "修正沙盒模式的"
+    translated: "Fix sandbox mode's"
   - subIndex: 374
     text: "入队异常。"
+    translated: "Entry anomaly"
   - subIndex: 375
     text: "修正附属帮派被吞并的处理逻辑。"
+    translated: "Fix the logic for handling affiliated gangs being swallowed up."
   - subIndex: 376
     text: "1.0.0.8版本更新内容"
+    translated: "1.0.0.8 Update Content"
   - subIndex: 377
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 378
     text: "防止加载缓慢导致的黄条位置初始化问题。"
+    translated: "Prevent the issue of slow loading causing the yellow bar position initialization problem."
   - subIndex: 379
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 380
     text: "修正一处杀手组织功能异常。"
+    translated: "Fix an anomaly in the assassin organization's functionality."
   - subIndex: 381
     text: "修正帮派解散的逻辑。"
+    translated: "Fix the logic for gang dissolution"
   - subIndex: 382
     text: "修正有些宝箱无法交互的问题。"
+    translated: "Fix the issue where some treasure chests cannot be interacted with."
   - subIndex: 383
     text: "修正京城一处帮派地牢传送点异常的问题。"
+    translated: "Fix the anomaly at a Gang's teleportation point in the Dungeon of the Capital City."
   - subIndex: 384
     text: "修正了"
+    translated: "Fixed"
   - subIndex: 385
     text: "药到病除"
+    translated: "Medicine works instantly"
   - subIndex: 386
     text: "的触发问题。"
+    translated: "Trigger question"
   - subIndex: 387
     text: "修正了"
+    translated: "Fixed"
   - subIndex: 388
     text: "一统江湖"
+    translated: "Unify the Jianghu"
   - subIndex: 389
     text: "的一处错误文本。"
+    translated: "An incorrect text somewhere"
   - subIndex: 390
     text: "修正了"
+    translated: "Fixed"
   - subIndex: 391
     text: "张维庸的对话触发条件。"
+    translated: "Zhang Weiyong's dialogue trigger condition"
   - subIndex: 392
     text: "修复部分"
+    translated: "Repair section"
   - subIndex: 393
     text: "存档无法读取的问题"
+    translated: "Archive read error issue"
   - subIndex: 394
     text: "1.0.0.7版本更新内容"
+    translated: "1.0.0.7 Update Content"
   - subIndex: 395
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 396
     text: "1.帮派产业攻击代理派遣可派遣同伴。"
+    translated: "1. Gang Property Attack Proxy Dispatch Companions Available for Dispatch."
   - subIndex: 397
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 398
     text: "1.修复部分情况下进游戏黑屏的问题。"
+    translated: "1. fixed the issue of black screens when entering the game in certain situations."
   - subIndex: 399
     text: "2.修正"
+    translated: "2. correction"
   - subIndex: 400
     text: "天涯海角"
+    translated: "To the ends of the earth"
   - subIndex: 401
     text: "的"
+    translated: "Of"
   - subIndex: 402
     text: "移动错误。"
+    translated: "Movement error"
   - subIndex: 403
     text: "3.修改"
+    translated: "3.edit"
   - subIndex: 404
     text: "玉石俱焚"
+    translated: "Destroy everything in ruin"
   - subIndex: 405
     text: "二"
+    translated: "Two"
   - subIndex: 406
     text: "交互左三思的触发条件为左三思地块触发。"
+    translated: "The trigger condition for interacting with Zuo Sansi is to step on his plot of land."
   - subIndex: 407
     text: "4.对一个已经废弃的战斗编辑器配置进行容错判空处理，防止战斗编辑器配置中没有删除干净。"
+    translated: "4. is handling null checks for a abandoned combat editor configuration to prevent issues if the combat editor settings are not completely cleaned up."
   - subIndex: 408
     text: "5.修改帮派吞并总部逻辑"
+    translated: "5. modify gang merger headquarters logic"
   - subIndex: 409
     text: "增加荒废帮派驻地概念。（解决找不到的幽灵帮派的问题）"
+    translated: "Add the concept of abandoned gang outposts. (To address the issue of missing ghostly gangs.)"
   - subIndex: 410
     text: "1.0.0.6版本更新内容"
+    translated: "1.0.0.6 Update Content"
   - subIndex: 411
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 412
     text: "1.统一"
+    translated: "1. unified"
   - subIndex: 413
     text: "详情界面页签显示。"
+    translated: "Details tab display"
   - subIndex: 414
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 415
     text: "1.修正帮派产业攻占派遣结束时可能出现异常的问题。"
+    translated: "1. fixed an issue that may occur when ending a gang's property conquest dispatch."
   - subIndex: 416
     text: "2.修正壁城水寨副本可能无法进入战斗的问题。"
+    translated: "2. fix the issue where Bicheng Water Stronghold may not be able to enter combat."
   - subIndex: 417
     text: "3.修正一个战斗"
+    translated: "3. fix a battle"
   - subIndex: 418
     text: "导致的战斗崩溃错误。"
+    translated: "Caused a combat crash error"
   - subIndex: 419
     text: "1.0.0.5版本更新内容"
+    translated: "1.0.0.5 Update Content"
   - subIndex: 420
     text: "【体验调优】"
+    translated: "[Optimize Experience]"
   - subIndex: 421
     text: "1.调整了剧情立绘选取按钮的翻译。"
+    translated: "1. adjusted the translation for the story character selection buttons."
   - subIndex: 422
     text: "2.移除了襄阳废弃矿洞的禁行路点。"
+    translated: "2. removed the no-go waypoint from the abandoned mine shafts of Xiangyang."
   - subIndex: 423
     text: "3.为沙盒模式的帮派任务添加了修为奖励。"
+    translated: "3. added Cultivation rewards for Sandbox mode Gang missions."
   - subIndex: 424
     text: "4.微调武林大会战斗中各角色战斗胜率算法。"
+    translated: "4. Tune the battle win rates for each character in the Wulin Tournament combat system."
   - subIndex: 425
     text: "【问题修正】"
+    translated: "[Question Correction]"
   - subIndex: 426
     text: "1.修正了在沙盒模式下，通过杭州城船夫无法前往桃花坞的问题。"
+    translated: "1. fixed the issue of not being able to travel to Taohua Dock via the Hangzhou City boatman in sandbox mode."
   - subIndex: 427
     text: "2.修正了钓鱼界面“执竿垂钓”按钮提示信息未刷新，未执行“精力不足判断”的问题。"
+    translated: "2. fixed the fishing interface issue where the Hold Rod and Fish button prompt did not refresh and failed to check for insufficient Energy."
   - subIndex: 428
     text: "3.修正了战斗胜利后掉落界面的装备属性与进入背包的装备属性不符的问题。"
+    translated: "3. fixed the issue where the equipment attributes in the drop interface after a battle victory did not match the attributes of the equipment once it was added to the inventory."
   - subIndex: 429
     text: "4.修正了某个版本天赋技能没有显示所需点数的问题。"
+    translated: "4. fixed an issue where some talent skills were not displaying the required points."
   - subIndex: 430
     text: "5.修正了繁体版本，属性界面在特定情况下显示异常的问题。"
+    translated: "5. fixed an issue where the Attributes interface displayed abnormally in certain situations for the traditional Chinese version."
   - subIndex: 431
     text: "6.修正了繁体版本，【面具】与【服装】选项混乱的问题。"
+    translated: "6. fixed the issue with the confusion between the Mask and Outfit options in the traditional Chinese version."
   - subIndex: 432
     text: "7.修正了特定情况下，京城任务【天涯海角】会重复循环的问题。"
+    translated: "7. fixed the issue where the Capital City mission 【Heaven's Edge, Sea's Corner】 would repeat in certain situations."
   - subIndex: 433
     text: "8.补充处理了“尚未实装”的三才书。"
+    translated: "8. supplemented the not yet implemented Three Talents Tome."
   - subIndex: 434
     text: "9.修正了洛阳城琵琶僧立绘错误的问题。"
+    translated: "9. fixed the issue with the incorrect portrait of the Pipa Monk in Luoyang City."
   - subIndex: 435
     text: "10.修正了特定情况下，六脉神剑技能无伤害的问题。"
+    translated: "10. fixed the issue where the Six Pulse Divine Sword skills caused no damage in certain situations."
   - subIndex: 436
     text: "11.排查并修正了沙盒模式各个传送点可能存在的的传送错误问题。"
+    translated: "11. investigated and corrected potential teleportation errors at all the teleportation points in Sandbox mode."
   - subIndex: 437
     text: "12.加固战斗逻辑，防止极端情况下可能会出现的战斗卡死报错问题。"
+    translated: "12. strengthen battle logic to prevent combat freeze or error issues in extreme cases."
   - subIndex: 438
     text: "1.0.0.4更新内容"
+    translated: "1.0.0.4Update Content"
   - subIndex: 439
     text: "【界面优化】"
+    translated: "[Interface Optimization]"
   - subIndex: 440
     text: "调整生活系统、武林大会报名"
+    translated: "Tweak the Lifestyle System, register for the Wulin Tournament"
   - subIndex: 441
     text: "比斗界面显示异常问题"
+    translated: "Abnormal display issue in the competition interface"
   - subIndex: 442
     text: "优化钓鱼玩法水域移动速度配置"
+    translated: "Optimize Fishing Play Style Water Movement Speed Configuration"
   - subIndex: 443
     text: "统一武林大会玩法说明按钮的「感叹号」图标样式"
+    translated: "Standardize the exclamation mark icon style for the Wulin Tournament Rules Explanation button."
   - subIndex: 444
     text: "调整任务追踪字体显示，修复字体重影问题"
+    translated: "Adjust the font display for the quest tracker, fix the font ghosting issue"
   - subIndex: 445
     text: "游戏模式选择框优化"
+    translated: "Optimize Game Mode Selection Box"
   - subIndex: 446
     text: "【玩法优化】"
+    translated: "[Gameplay Optimization]"
   - subIndex: 447
     text: "新手引导结束前屏蔽武林大会功能入口"
+    translated: "Disable the Wulin Tournament feature entry before the beginner guide ends."
   - subIndex: 448
     text: "武林大会期间与主理人交互增加「返回」选项"
+    translated: "Add a Return option when interacting with the organizer during the Wulin Tournament."
   - subIndex: 449
     text: "调整杀手任务触发频率为「半年一次」，计数单位改为日"
+    translated: "Set the assassin mission trigger frequency to once every six months, and change the counting unit to days."
   - subIndex: 450
     text: "修正自创帮派名称同步显示问题"
+    translated: "Fix the issue with custom Gang names not syncing correctly"
   - subIndex: 451
     text: "优化剧情"
+    translated: "Improve the story"
   - subIndex: 452
     text: "对话逻辑（沙盒模式与交情关系关联）"
+    translated: "Dialogue Logic (Sandbox Mode and Friendship Relations)"
   - subIndex: 453
     text: "修正剧情演出中缺失的立绘、台词及战斗配置"
+    translated: "Correct the missing character art, dialogue, and battle setups in the story performance."
   - subIndex: 454
     text: "优化大雪山任务"
+    translated: "Optimize the Daxue Mountain mission"
   - subIndex: 455
     text: "站位与出场逻辑"
+    translated: "Positioning and Entry Logic"
   - subIndex: 456
     text: "【系统优化】"
+    translated: "[System Optimization]"
   - subIndex: 457
     text: "优化"
+    translated: "Optimize"
   - subIndex: 458
     text: "「参与武林大会」，筛选逻辑"
+    translated: "Participate in the Wulin Tournament, selection logic"
   - subIndex: 459
     text: "移除大雪山任务冗余卡点"
+    translated: "Remove the redundant checkpoint for the Daxue Mountain quest."
   - subIndex: 460
     text: "修正沙盒模式中船夫传送、新手武器选择异常问题"
+    translated: "Fix sandbox mode boatman teleportation and new player weapon selection issues"
   - subIndex: 461
     text: "修复】"
+    translated: "[Fix]"
   - subIndex: 462
     text: "功能异常修复"
+    translated: "Function anomaly fixed"
   - subIndex: 463
     text: "修复旧存档卡读条无法进入游戏的问题"
+    translated: "Fix the issue of the old save file not loading and entering the game."
   - subIndex: 464
     text: "修复战斗组闪退、"
+    translated: "Fix the crash in the battle group"
   - subIndex: 465
     text: "复活异常及"
+    translated: "Resurrection anomaly and"
   - subIndex: 466
     text: "血条消失问题"
+    translated: "Health bar disappearance issue"
   - subIndex: 467
     text: "修复沙盒模式中交互界面文本不一致问题"
+    translated: "Fix text inconsistency issues in the sandbox mode interface"
   - subIndex: 468
     text: "修复退出战斗后"
+    translated: "Fix after exiting battle"
   - subIndex: 469
     text: "未恢复场景音乐的问题"
+    translated: "Issue with the scene music not restoring"
   - subIndex: 470
     text: "显示与逻辑修复"
+    translated: "Display and Logic Fix"
   - subIndex: 471
     text: "修复杜颜白立绘、属性及动态形象异常"
+    translated: "Fix Du Yanbai's sprite, attributes, and dynamic image anomalies."
   - subIndex: 472
     text: "修正武林大会重复"
+    translated: "Correct the duplicate Wulin Tournament"
   - subIndex: 473
     text: "（李映心、杜颜白头像错误）"
+    translated: "(Li Yingxin, Du Yanbai portrait incorrect)"
   - subIndex: 474
     text: "修复京城、大雪山地图黑边及"
+    translated: "Fix the black borders around the Capital City and Daxue Mountain maps, and"
   - subIndex: 475
     text: "消失问题"
+    translated: "Disappearance Issue"
   - subIndex: 476
     text: "修正武馆交易界面乱码及物品缺失问题"
+    translated: "Fix the garbled text and missing items in the Martial Arts Hall trading interface."
   - subIndex: 477
     text: "文本与交互修复"
+    translated: "Text and Interaction Repair"
   - subIndex: 478
     text: "修复任务指引错误、追踪倒计时未显示问题"
+    translated: "Fix the mission guide error and resolve the issue where the countdown is not displayed."
   - subIndex: 479
     text: "修正错别字、标点符号及对话立绘配置"
+    translated: "Correct misspellings, punctuation, and dialogue portrait settings"
   - subIndex: 480
     text: "修复杀手任务超期卡死、钓鱼界面状态未刷新问题"
+    translated: "Fixing the issue where the Hitman mission expires but gets stuck, and the fishing interface status does not refresh."
   - subIndex: 481
     text: "战斗与数值修复"
+    translated: "Battle and Numerical Fixes"
   - subIndex: 482
     text: "修正武学技能伤害异常（沧海观澜刀法、暴雨梨花等）"
+    translated: "Fixed abnormal damage for Martial Art skills (Vast Sea Wave-Watching Blade Art, Rainstorm Pear Blossoms, etc.)"
   - subIndex: 483
     text: "修复"
+    translated: "Repair"
   - subIndex: 484
     text: "被动技能等级配置错误"
+    translated: "Error in passive skill level configuration"
   - subIndex: 485
     text: "修正战斗组配置缺失导致的直接跳剧情问题"
+    translated: "Fix the issue of skipping directly to the story due to missing combat group settings."
   - subIndex: 486
     text: "1.0.0.0版本更新内容"
+    translated: "1.0.0.0 Update Content"
   - subIndex: 487
     text: "主线"
+    translated: "Main Quest"
   - subIndex: 488
     text: "支线"
+    translated: "Side Quest"
   - subIndex: 489
     text: "15个大地图（5个门派）以及其他小地图，百万＋剧情文案"
+    translated: "15 large maps (5 sects) and other small maps, plus over a million words of story text"
   - subIndex: 490
     text: "武学"
+    translated: "Martial Art"
   - subIndex: 491
     text: "十余种兵器，数十套武学"
+    translated: "More than ten weapons and dozens of martial arts sets"
   - subIndex: 492
     text: "轻功"
+    translated: "Qinggong"
   - subIndex: 493
     text: "内功、武学混用、神功、三才书系统、天赋等"
+    translated: "Neigong, Martial Art hybrid use, Divine Techniques, Three Talents Tome system, Talent, etc."
   - subIndex: 494
     text: "帮派玩法"
+    translated: "Gang Play Method"
   - subIndex: 495
     text: "自建帮派、帮派战争、吞并帮派、收服帮派等"
+    translated: "Gang-related activities, such as establishing a Gang, Gang wars, annexing a Gang, and subjugating a Gang."
   - subIndex: 496
     text: "互动"
+    translated: "Interaction"
   - subIndex: 497
     text: "同伴、仇家、家仆、生育等"
+    translated: "Nghe"
   - subIndex: 498
     text: "其他重要玩法"
+    translated: "Other Important Game Features"
   - subIndex: 499
     text: "武林大会、随机事件、生活、钓鱼、青楼、赌坊、地牢、捕快、杀手等"
+    translated: "Wulin Tournament, Random Events, Daily Life, Fishing, Pleasure House, Gambling Den, Dungeon, Constable, Assassin, etc."
   - subIndex: 500
     text: "在创建存档时可以选择普通与无剧情模式，普通模式包含所有玩法，无剧情模式屏蔽了剧情任务，且玩家的成长与提升将会更加困难，一切都将从零开始（不推荐新玩家游玩，建议玩家通关剧情模式后再行体验。）"
+    translated: "When creating a save file, you can choose between Normal mode and No Story mode. Normal mode includes all gameplay features, while No Story mode blocks story missions and makes player growth and advancement much harder, starting everything from scratch (not recommended for new players; it is suggested that players complete the Story mode before trying this mode.)"
   templates:
   - template: "\\n\\n{0} V {1} \\n\\n{2}\\n1. {3}\\n2. {4}\\n3. {5}\\n4. {6}\\n5. {7}\\n\\n【BUG{8}\\n1. {9}\\n2. {10},{11}\\n3. {12}\\n4. {13}BOSS{14}：{15}\\n5. {16}\\n6. {17}\\n7. {18}\\n8. {19}buff{20}\\n9. {21}\\n10. {22}\\n11. {23}\\n\\n{24}\\n1. {25}NPC{26}\\n2. {27}\\n3. {28},{29}\\n4. {30}AI{31}\\n5. {32}\\n6. {33}\\n7. {34}BOSS{35}\\n8. {36}BOSS{37}\\n\\n\\n{38} V 1.0.2.0\\n{39}\\n{40}\\n\\n{41}\\n1. {42}\\n2. {43}NPC{44}\\n3. {45}UI{46}\\n4. {47}\\n5. {48}\\n6. {49}\\n7. {50}\\n\\n{51}\\n1. {52}\\n2. {53},{54}\\n3. {55}\\n2. {56}\\n3. {57}UI{58}ESC{59}\\n4. {60}AB{61},{62}\\n5. {63}steam{64}\\n6. {65},{66}\\n7. {67}API{68},{69},{70}\\n8. {71}Addressable{72},{73}\\n\\n{74}:\\n\\n{75}\\n{76}\\n{77}\\n{78}\\n\\n{79}：\\n{80}\\n{81}\\n{82}({83})\\n{84}bug\\n\\n{85}:\\n\\n{86}：\\n{87}\\n\\n{88}：\\n{89}\\n{90}\\n{91}\\n{92}\\n\\n{93}\\n{94}\\n{95}\\n \\n{96}:\\n\\n{97}\\n{98}NPC{99}NPC{100}\\n{101}\\n{102}\\n{103}\\n\\n{104}\\n{105}\\n{106}NPC{107}\\n{108}NPC{109}\\n{110}\\n{111}BUG。\\n\\n{112}\\n{113}\\n{114}\\n\\n{115}\\n{116}\\n\\n{117}：\\nNPC{118}：{119}NPC{120}/{121}\\n{122}：{123}NPC{124}\\n{125}：{126}\\n\\n{127}：\\nNPC{128}：{129}NPC{130}\\n{131}：{132}NPC{133}\\n{134}：{135}\\n\\n{136}：\\n{137}：{138}\\n \\n{139}：\\n{140}：{141}\\n\\n{142}\\n1. {143}UI{144}\\n2. {145}\\n3. {146}\\n4. {147}MOD{148}\\n5. {149}NPC{150}\\n\\n{151}:\\n\\n{152}\\n{153}\\n{154}\\n{155}NPC{156}\\n{157}NPC{158}\\n{159}\\n\\n{160}\\n{161}\\n{162}\\n{163}ESC{164}\\n{165}\\n\\n\\n{166}\\n{167}\\n{168}\\n{169}\\n\\n{170}NPC{171}\\n{172}NPC{173}\\n{174}\\n{175}\\n\\n{176}\\n{177}\\n\\n{178}NPC{179}\\n{180}NPC{181}\\n{182}NPC Mod{183}\\n\\n{184}[{185}]{186}\\n{187}[{188}]{189}\\n{190}[{191}]{192},{193}[{194}]{195}\\n{196}[{197}]{198}\\n{199}[{200}·{201}]{202}\\n{203}\\n\\n{204}\\n{205}NPC{206}\\n\\n\\n{207}:\\n\\n{208}\\n{209}\\n{210}\\n{211}\\n{212}\\n{213}NPC{214}\\n{215}\\n{216}\\n{217}\\n{218}[{219}]。\\n{220}[{221}]{222}[{223}]{224}[{225}]。\\n{226}\\n{227}\\n{228}\\n\\n{229}\\n{230}\\n{231}\\n{232}[{233}]{234}\\n{235}[{236}]{237}\\n{238}\\n{239}\\n{240}\\n{241}NPC{242}\\n{243}\\n{244}\\n{245}\\n\\n\\n{246}:\\n\\n{247}AI{248}：\\n{249}\\n{250}\\n{251}\\n{252}·{253}\\n{254}\\n\\n{255}：{256}\\n\\n{257}\\n\\n{258}\\n\\n{259}\\n\\n{260}NPC{261}\\n\\n{262}\\n\\n{263}\\n\\n\\n{264}:\\n\\n{265}：\\n{266}[{267}]{268}\\n{269}[{270}·{271}]{272},{273}[{274}·{275}]{276}\\n{277},{278}\\n{279}[{280}]{281}\\n{282}[{283}]{284}[{285}]。\\n\\n{286}：\\n{287}\\n{288}\\n{289}BOSS{290}\\n\\n{291}：\\n{292}NPC{293}\\n{294}\\n{295}\\n{296}\\n{297}\\n{298}\\n{299}\\n{300}\\n{301}\\n{302}NPC{303}\\n{304}\\n{305}\\n{306}\\n\\n\\n{307}:\\n\\n{308}\\n\\n1.    {309}npc{310}\\n2.    {311}\\n3.    {312}\\n4.    {313}\\n5.    {314}BOSS{315}\\n6.    {316}\\n7.    {317}\\n8.    {318}\\n9.    {319}\\n\\n{320}\\n\\n1.    {321}\\n2.    {322}\\n3.    {323}\\n4.    {324}\\n5.    {325}\\n6.    {326}\\n7.    {327}[{328}·{329}]{330}\\n8.    {331}[{332}]{333}\\n9.    {334}\\n10.   {335}[{336}]{337}\\n11.   {338}\\n12.   {339}\\n13.   {340}NPC{341}\\n14.   {342}\\n15.   {343}NPC{344}\\n16.   {345}\\n17.   {346}\\n18.   {347}\\n19.   {348}-{349}\\n20.   {350}\\n21.   {351}\\n\\n\\n{352}:\\n\\n{353}\\n1.    {354}\\n\\n{355}\\n1.    {356}\\n2.    {357}NPC{358}\\n3.    {359}\\n4.    {360}\\n\\n V{361}:\\n\\n{362}\\n1. {363}\\n2. {364}\\n3. {365}\\n\\nV{366}:\\n\\n{367}\\n1. {368}mod{369}\\n2. {370}\\n\\n{371}\\n1. {372}\\n2. {373}Mod npc{374}\\n3. {375}\\n\\nV{376}:\\n\\n{377}\\n1. {378}\\n\\n{379}\\n1. {380}\\n2. {381}\\n3. {382}\\n4. {383}\\n5. {384}[{385}]{386}\\n6. {387}[{388}]{389}\\n7. {390}NPC{391}\\n8. {392}EA{393}\\n\\nV{394}:\\n\\n{395}\\n{396}\\n\\n{397}\\n{398}\\n{399}[{400}]{401}NPC{402}\\n{403}[{404}·{405}]{406}\\n{407}\\n{408},{409}\\n\\nV{410}:\\n\\n{411}\\n{412}npc{413}\\n\\n{414}\\n{415}\\n{416}\\n{417}buff{418}\\n\\nV{419}:\\n\\n{420}\\n{421}\\n{422}\\n{423}\\n{424}\\n\\n{425}\\n{426}\\n{427}\\n{428}\\n{429}\\n{430}\\n{431}\\n{432}\\n{433}\\n{434}\\n{435}\\n{436}\\n{437}\\n\\nV1.0.0.0-V{438}:：\\n{439}\\n{440}/{441}\\n{442}\\n{443}\\n{444}\\n{445}\\n\\n{446}\\n{447}\\n{448}\\n{449}\\n{450}\\n{451}NPC{452}\\n{453}\\n{454}NPC{455}\\n\\n{456}\\n{457}NPC{458}\\n{459}\\n{460}\\n\\n【BUG{461}\\n{462}\\n{463}\\n{464}NPC{465}BOSS{466}\\n{467}\\n{468}BGM{469}\\n{470}\\n{471}\\n{472}NPC{473}\\n{474}NPC{475}\\n{476}\\n{477}\\n{478}\\n{479}\\n{480}\\n{481}\\n{482}\\n{483}NPC{484}\\n{485}\\n\\nV{486}:\\n\\n{487}&{488}：{489}\\n{490}：{491}/{492}/{493}\\n{494}：{495}\\nNPC{496}：{497}\\n{498}：{499}\\n\\n{500}\\n"
 - raw: "\\n使用混合武学时，将根据武学招式来源的武学名称，获取对应武学的全部被动招式效果。\\n已解锁被动招式带来的属性提升，将部分作用于战斗内生效，不体现于属性界面。"
   splits:
   - text: "使用混合武学时，将根据武学招式来源的武学名称，获取对应武学的全部被动招式效果。"
+    translated: "When using a Hybrid Martial Art, the effects of all passive moves from the corresponding martial art will be obtained based on the name of the martial art the move originates from."
   - subIndex: 1
     text: "已解锁被动招式带来的属性提升，将部分作用于战斗内生效，不体现于属性界面。"
+    translated: "Unlocked attribute boosts from passive moves, which will partially take effect in battle but will not be reflected in the attributes interface."
   templates:
   - template: "\\n{0}\\n{1}"
 - raw: "【冲穴属性】"
   splits:
   - text: "【冲穴属性】"
+    translated: "[Acupoint Breakthrough Attribute]"
 - raw: "【冲穴成功】"
   splits:
   - text: "【冲穴成功】"
+    translated: "[Acupoint Breakthrough Successful]"
 - raw: "【凌鸿剑势】"
   splits:
   - text: "【凌鸿剑势】"
+    translated: "[Soaring Swan Sword Stance]"
 - raw: "【基础属性】"
   splits:
   - text: "【基础属性】"
+    translated: "[Basic Attributes]"
 - raw: "【太白】"
   splits:
   - text: "【太白】"
+    translated: "[Taibai]"
 - raw: "【当前散学】"
   splits:
   - text: "【当前散学】"
+    translated: "[Current Miscellaneous Art]"
 - raw: "【当前通式】"
   splits:
   - text: "【当前通式】"
+    translated: "[Current Common Form]"
 - raw: "【按ESC跳过当前动画】"
   splits:
   - text: "【按"
+    translated: "[PRESS]"
   - subIndex: 1
     text: "跳过当前动画】"
+    translated: "[Skip current animation]"
   templates:
   - template: "{0}ESC{1}"
 - raw: "【散学】"
   splits:
   - text: "【散学】"
+    translated: "[Miscellaneous Art]"
 - raw: "【武学】"
   splits:
   - text: "【武学】"
+    translated: "[Martial Art]"
 - raw: "【武学研本】"
   splits:
   - text: "【武学研本】"
+    translated: "[Martial Art Research]"
 - raw: "【武道之路】"
   splits:
   - text: "【武道之路】"
+    translated: "[Path of Martial Arts]"
 - raw: "【江湖散学】"
   splits:
   - text: "【江湖散学】"
+    translated: "[Jianghu Miscellaneous Art]"
 - raw: "【江湖通式】"
   splits:
   - text: "【江湖通式】"
+    translated: "[Jianghu Common Form]"
 - raw: "【混合武学】"
   splits:
   - text: "【混合武学】"
+    translated: "[Hybrid Martial Art]"
 - raw: "【经脉】"
   splits:
   - text: "【经脉】"
+    translated: "[Meridians]"
 - raw: "【行囊】"
   splits:
   - text: "【行囊】"
+    translated: "[Pack]"
 - raw: "【规则说明】"
   splits:
   - text: "【规则说明】"
+    translated: "[Rule Explanation]"
 - raw: "【附加属性】"
   splits:
   - text: "【附加属性】"
+    translated: "[Bonus Attributes]"
 - raw: "<color=RED><size=25>[说明]</size></color>\\n"
   splits:
   - text: "说明"
+    translated: "Explanation"
   templates:
   - template: "<color=RED><size=18>[{0}]</size></color>\\n"
 - raw: "1,优化了运行机制；\\n2,更新了支线；\\n3,开放了新年活动；"
   splits:
   - text: "优化了运行机制；"
+    translated: "Improved the runtime mechanism;"
   - subIndex: 1
     text: "更新了支线；"
+    translated: "Updated the side quest;"
   - subIndex: 2
     text: "开放了新年活动；"
+    translated: "New Year events have been unlocked;"
   templates:
   - template: "1,{0}\\n2,{1}\\n3,{2}"
 - raw: "-100(仇敌)"
   splits:
   - text: "仇敌"
+    translated: "Enemy"
   templates:
   - template: "-100({0})"
 - raw: "1区"
   splits:
   - text: "1区"
+    translated: "1 District"
 - raw: "①将穴道的起始位置<color=#01a605>【绿色】</color>和终点位置<color=#ff0000>【红色】</color>连成一线即可突破穴道\\n②脉路通过辅穴<color=#FF00E9>【紫色】</color>会额外获得战斗属性的奖励"
   splits:
   - text: "将穴道的起始位置"
+    translated: "The starting position of the acupoint"
   - subIndex: 1
     text: "【绿色】"
+    translated: "[Green]"
   - subIndex: 2
     text: "和终点位置"
+    translated: "And the endpoint position"
   - subIndex: 3
     text: "【红色】"
+    translated: "[Red]"
   - subIndex: 4
     text: "连成一线即可突破穴道"
+    translated: "Connecting in a straight line can break through the acupoint."
   - subIndex: 5
     text: "脉路通过辅穴"
+    translated: "The meridian passes through the secondary points"
   - subIndex: 6
     text: "【紫色】"
+    translated: "[Purple]"
   - subIndex: 7
     text: "会额外获得战斗属性的奖励"
+    translated: "Will also receive rewards for combat attributes"
   templates:
   - template: "①{0}<color=#01a605>{1}</color>{2}<color=#ff0000>{3}</color>{4}\\n②{5}<color=#FF00E9>{6}</color>{7}"
 - raw: "①开启脉路：将隐藏的脉路翻开\\n(消耗<color=red>9</color>修为)\\n②顺旋脉路：将脉路顺时针旋转\\n(消耗<color=red>6</color>修为)\\n③逆旋脉路：将脉路逆时针旋转\\n(消耗<color=red>6</color>修为)\\n④更换脉路：随机更换成其他脉路\\n(消耗<color=red>15</color>修为)"
   splits:
   - text: "开启脉路"
+    translated: "Open Meridian Path"
   - subIndex: 1
     text: "将隐藏的脉路翻开"
+    translated: "Unveil the hidden meridians"
   - subIndex: 2
     text: "消耗"
+    translated: "Spending"
   - subIndex: 3
     text: "修为"
+    translated: "Cultivation"
   - subIndex: 4
     text: "顺旋脉路"
+    translated: "Clockwise Path"
   - subIndex: 5
     text: "将脉路顺时针旋转"
+    translated: "Rotate the meridian path clockwise"
   - subIndex: 6
     text: "消耗"
+    translated: "Spending"
   - subIndex: 7
     text: "修为"
+    translated: "Cultivation"
   - subIndex: 8
     text: "逆旋脉路"
+    translated: "Counterclockwise Path"
   - subIndex: 9
     text: "将脉路逆时针旋转"
+    translated: "Rotate the meridian path counterclockwise"
   - subIndex: 10
     text: "消耗"
+    translated: "Spending"
   - subIndex: 11
     text: "修为"
+    translated: "Cultivation"
   - subIndex: 12
     text: "更换脉路"
+    translated: "Change Path"
   - subIndex: 13
     text: "随机更换成其他脉路"
+    translated: "Randomly switch to another meridian path"
   - subIndex: 14
     text: "消耗"
+    translated: "Spending"
   - subIndex: 15
     text: "修为"
+    translated: "Cultivation"
   templates:
   - template: "①{0}：{1}\\n({2}<color=red>9</color>{3})\\n②{4}：{5}\\n({6}<color=red>6</color>{7})\\n③{8}：{9}\\n({10}<color=red>6</color>{11})\\n④{12}：{13}\\n({14}<color=red>15</color>{15})"
 - raw: "2021年10日20日"
   splits:
   - text: "2021年10日20日"
+    translated: "2021 year 10 month 20 day"
 - raw: "22级"
   splits:
   - text: "22级"
+    translated: "22 rank"
 - raw: "88级"
   splits:
   - text: "88级"
+    translated: "88 rank"
 - raw: "NPC精力"
   splits:
   - text: "精力"
+    translated: "Energy"
   templates:
   - template: "NPC{0}"
 - raw: "三倍"
   splits:
   - text: "三倍"
+    translated: "Three times"
 - raw: "三才书"
   splits:
   - text: "三才书"
+    translated: "Three Talents Tome"
 - raw: "下一步"
   splits:
   - text: "下一步"
+    translated: "Next step"
 - raw: "两"
   splits:
   - text: "两"
+    translated: "Two"
 - raw: "为善一方"
   splits:
   - text: "为善一方"
+    translated: "Benevolence for all in the land"
 - raw: "义:"
   splits:
   - text: "义"
+    translated: "Righteousness"
   templates:
   - template: "{0}:"
 - raw: "义薄云天"
   splits:
   - text: "义薄云天"
+    translated: "Righteous to the skies"
 - raw: "五倍"
   splits:
   - text: "五倍"
+    translated: "Five times"
 - raw: "交互物名字"
   splits:
   - text: "交互物名字"
+    translated: "Interactive Object Name"
 - raw: "交情"
   splits:
   - text: "交情"
+    translated: "Friendship"
 - raw: "人情值："
   splits:
   - text: "人情值"
+    translated: "Favor Points"
   templates:
   - template: "{0}："
 - raw: "人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
   splits:
   - text: "人行书，曰万灵之长，非有爪牙利齿，亦无皮囊毛铠之防，唯余灵心一点，百道长存，变化万千，探天窥地，夯尽奥妙，自成生灵之首，唯人之道也。"
+    translated: "Humans write their own destiny, the masters of all spirits. Without sharp claws or fangs, without scales or fur for armor, they possess but a single point of spirit, yet a myriad of Dao paths endure, transforming endlessly, exploring the heavens and delving into the earth, mastering all wonders, thus becoming the pinnacle of life, the way of humanity alone."
 - raw: "他拉紧了衣襟，再问，没有回应，那个一直在外面望风的车夫呢？天气实在太冷，他本不想离开这温暖的车厢，可是一个人做了亏心事后，总难免会疑神疑鬼的。他终于穿上靴子，跳下车，四面一片黑暗，寒冷而寂静。那个穿着青布棉袄的车夫，躲在一堆稻草里。"
   splits:
   - text: "他拉紧了衣襟，再问，没有回应，那个一直在外面望风的车夫呢？天气实在太冷，他本不想离开这温暖的车厢，可是一个人做了亏心事后，总难免会疑神疑鬼的。他终于穿上靴子，跳下车，四面一片黑暗，寒冷而寂静。那个穿着青布棉袄的车夫，躲在一堆稻草里。"
+    translated: "He pulled his coat tighter and asked again, but there was no response. Where was the coachman who had been keeping watch outside? The weather was so cold that he didn't want to leave the warm carriage, but after doing something wrong, one can't help feeling paranoid. Finally, he put on his boots, jumped down from the carriage, and stepped into the darkness, cold and silent. The coachman, wearing a blue cotton coat, was hiding in a pile of straw."
 - raw: "任务"
   splits:
   - text: "任务"
+    translated: "Task"
 - raw: "任务信息"
   splits:
   - text: "任务信息"
+    translated: "Task Information"
 - raw: "任务追踪"
   splits:
   - text: "任务追踪"
+    translated: "Quest Tracker"
 - raw: "众人常用的招式"
   splits:
   - text: "众人常用的招式"
+    translated: "Common moves used by everyone"
 - raw: "传送"
   splits:
   - text: "传送"
+    translated: "Teleport"
 - raw: "体力："
   splits:
   - text: "体力"
+    translated: "Stamina"
   templates:
   - template: "{0}："
 - raw: "体力上限:"
   splits:
   - text: "体力上限"
+    translated: "Max Stamina"
   templates:
   - template: "{0}:"
 - raw: "体力值："
   splits:
   - text: "体力值"
+    translated: "Stamina points"
   templates:
   - template: "{0}："
 - raw: "体力恢复:"
   splits:
   - text: "体力恢复"
+    translated: "Stamina Recovery"
   templates:
   - template: "{0}:"
 - raw: "使用当前武学"
   splits:
   - text: "使用当前武学"
+    translated: "Use current Martial Art"
 - raw: "使用效果："
   splits:
   - text: "使用效果"
+    translated: "Effect in use"
   templates:
   - template: "{0}："
 - raw: "修为池剩余:"
   splits:
   - text: "修为池剩余"
+    translated: "Remaining in the Cultivation Pool"
   templates:
   - template: "{0}:"
 - raw: "修习"
   splits:
   - text: "修习"
+    translated: "Practice"
 - raw: "修习中"
   splits:
   - text: "修习中"
+    translated: "Practicing..."
 - raw: "倚天屠龙刀"
   splits:
   - text: "倚天屠龙刀"
+    translated: "Heavenly Sword Slays the Dragon Blade"
 - raw: "健康度："
   splits:
   - text: "健康度"
+    translated: "Health Status"
   templates:
   - template: "{0}："
 - raw: "免"
   splits:
   - text: "免"
+    translated: "No"
 - raw: "免打断"
   splits:
   - text: "免打断"
+    translated: "No interruptions"
 - raw: "免暴:"
   splits:
   - text: "免暴"
+    translated: "Crit Immunity"
   templates:
   - template: "{0}:"
 - raw: "全部"
   splits:
   - text: "全部"
+    translated: "All"
 - raw: "公告"
   splits:
   - text: "公告"
+    translated: "Notice"
 - raw: "关系"
   splits:
   - text: "关系"
+    translated: "Relationships"
 - raw: "关闭"
   splits:
   - text: "关闭"
+    translated: "Close"
 - raw: "其他"
   splits:
   - text: "其他"
+    translated: "Other"
 - raw: "内功"
   splits:
   - text: "内功"
+    translated: "Neigong"
 - raw: "内功:"
   splits:
   - text: "内功"
+    translated: "Neigong"
   templates:
   - template: "{0}:"
 - raw: "内功ID："
   splits:
   - text: "内功"
+    translated: "Neigong"
   templates:
   - template: "{0}ID："
 - raw: "内功境界"
   splits:
   - text: "内功境界"
+    translated: "Neigong Realm"
 - raw: "内功攻击力:"
   splits:
   - text: "内功攻击力"
+    translated: "Internal Attack Power"
   templates:
   - template: "{0}:"
 - raw: "内功防御+1000"
   splits:
   - text: "内功防御"
+    translated: "Internal Defense"
   templates:
   - template: "{0}+1000"
 - raw: "内功防御力:"
   splits:
   - text: "内功防御力"
+    translated: "Internal Defense"
   templates:
   - template: "{0}:"
 - raw: "内劲增长:"
   splits:
   - text: "内劲增长"
+    translated: "Inner Force Gain"
   templates:
   - template: "{0}:"
 - raw: "内息:"
   splits:
   - text: "内息"
+    translated: "Inner Qi"
   templates:
   - template: "{0}:"
 - raw: "冲穴"
   splits:
   - text: "冲穴"
+    translated: "Acupoint Breakthrough"
 - raw: "冲穴判定规则："
   splits:
   - text: "冲穴判定规则"
+    translated: "Acupoint Breakthrough Judgment Rules"
   templates:
   - template: "{0}："
 - raw: "冲穴属性"
   splits:
   - text: "冲穴属性"
+    translated: "Acupoint Breakthrough Attribute"
 - raw: "冲穴操作规则："
   splits:
   - text: "冲穴操作规则"
+    translated: "Acupoint Breakthrough Operation Rules"
   templates:
   - template: "{0}："
 - raw: "冷 翔宇\\n【成翰武馆】(小弟子)"
   splits:
   - text: "冷"
+    translated: "Cold"
   - subIndex: 1
     text: "翔宇"
+    translated: "Xiangyu"
   - subIndex: 2
     text: "【成翰武馆】"
+    translated: "[Chenghan Martial Arts Hall]"
   - subIndex: 3
     text: "小弟子"
+    translated: "Little Disciple"
   templates:
   - template: "{0} {1}\\n{2}({3})"
 - raw: "出类拔萃"
   splits:
   - text: "出类拔萃"
+    translated: "Outstanding"
 - raw: "击"
   splits:
   - text: "击"
+    translated: "Strike"
 - raw: "分道扬镳"
   splits:
   - text: "分道扬镳"
+    translated: "Parting ways"
 - raw: "切换武学"
   splits:
   - text: "切换武学"
+    translated: "Switch Martial Art"
 - raw: "切换角色"
   splits:
   - text: "切换角色"
+    translated: "Switch character"
 - raw: "初始属性分配"
   splits:
   - text: "初始属性分配"
+    translated: "Starting Attribute Allocation"
 - raw: "初始真气:"
   splits:
   - text: "初始真气"
+    translated: "Initial True Qi"
   templates:
   - template: "{0}:"
 - raw: "删除"
   splits:
   - text: "删除"
+    translated: "Delete"
 - raw: "删除存档"
   splits:
   - text: "删除存档"
+    translated: "Delete save file"
 - raw: "刷新帮派任务"
   splits:
   - text: "刷新帮派任务"
+    translated: "Refresh Gang Tasks"
 - raw: "前往杭州春风楼打听梁乔行踪。\\n"
   splits:
   - text: "前往杭州春风楼打听梁乔行踪。"
+    translated: "Head to Hangzhou Chunfeng Tower to inquire about Liang Qiao's whereabouts."
   templates:
   - template: "{0}\\n"
 - raw: "前往杭州灵隐寺附近，寻找燕南归。"
   splits:
   - text: "前往杭州灵隐寺附近，寻找燕南归。"
+    translated: "Head to the area near Lingyin Temple in Hangzhou to find Yan Nan Gui."
 - raw: "剑法一十"
   splits:
   - text: "剑法一十"
+    translated: "Sword Technique Ten"
 - raw: "剧情立绘"
   splits:
   - text: "剧情立绘"
+    translated: "Story illustration"
 - raw: "剩余关押时间:{0}日{1}时辰"
   splits:
   - text: "剩余关押时间"
+    translated: "Remaining detention time"
   - subIndex: 1
     text: "日"
+    translated: "Sun"
   - subIndex: 2
     text: "时辰"
+    translated: "Hour"
   templates:
   - template: "{0}:⟦0⟧{1}⟦1⟧{2}"
 - raw: "剩余数量"
   splits:
   - text: "剩余数量"
+    translated: "Remaining quantity"
 - raw: "副本ID："
   splits:
   - text: "副本"
+    translated: "Dungeon"
   templates:
   - template: "{0}ID："
 - raw: "加精力"
   splits:
   - text: "加精力"
+    translated: "Restore Energy"
 - raw: "加速"
   splits:
   - text: "加速"
+    translated: "Accelerate"
 - raw: "动态立绘"
   splits:
   - text: "动态立绘"
+    translated: "Dynamic portrait art"
 - raw: "动画播放速度，默认为1，用作动画测试"
   splits:
   - text: "动画播放速度，默认为1，用作动画测试"
+    translated: "Animation playback speed, default is 1, used for animation testing"
 - raw: "区域名字"
   splits:
   - text: "区域名字"
+    translated: "Area Name"
 - raw: "区域声望"
   splits:
   - text: "区域声望"
+    translated: "Regional Reputation"
 - raw: "十二正经"
   splits:
   - text: "十二正经"
+    translated: "Twelve Primary Meridians"
 - raw: "十倍"
   splits:
   - text: "十倍"
+    translated: "Ten times"
 - raw: "升境界"
   splits:
   - text: "升境界"
+    translated: "Advance in Realm"
 - raw: "升境界确认"
   splits:
   - text: "升境界确认"
+    translated: "Confirm Realm Level Up"
 - raw: "升级境界"
   splits:
   - text: "升级境界"
+    translated: "Upgrade Realm"
 - raw: "单手轻刃"
   splits:
   - text: "单手轻刃"
+    translated: "One-Handed Light Blade"
 - raw: "单手轻刃:"
   splits:
   - text: "单手轻刃"
+    translated: "One-Handed Light Blade"
   templates:
   - template: "{0}:"
 - raw: "单手轻刃单手轻刃"
   splits:
   - text: "单手轻刃单手轻刃"
+    translated: "One-Handed Light Blade One-Handed Light Blade"
 - raw: "占位占位占位占位占位占位"
   splits:
   - text: "占位占位占位占位占位占位"
+    translated: "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder"
 - raw: "卸下"
   splits:
   - text: "卸下"
+    translated: "Remove"
 - raw: "卸载残篇"
   splits:
   - text: "卸载残篇"
+    translated: "Remove the incomplete scroll fragment"
 - raw: "双手轻刃"
   splits:
   - text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
 - raw: "双手轻刃:"
   splits:
   - text: "双手轻刃"
+    translated: "Two-Handed Light Blade"
   templates:
   - template: "{0}:"
 - raw: "反"
   splits:
   - text: "反"
+    translated: "Reverse"
 - raw: "反伤:"
   splits:
   - text: "反伤"
+    translated: "Damage Reflection"
   templates:
   - template: "{0}:"
 - raw: "发送"
   splits:
   - text: "发送"
+    translated: "Send"
 - raw: "取消"
   splits:
   - text: "取消"
+    translated: "Cancel"
 - raw: "只能包含8~16位的字母数字下划线"
   splits:
   - text: "只能包含8"
+    translated: "Can only contain 8"
   - subIndex: 1
     text: "16位的字母数字下划线"
+    translated: "16's alphanumeric underscore position"
   templates:
   - template: "{0}~{1}"
 - raw: "可以按轻功键（默认是F）使用轻功跳跃障碍，如果提示无轻功请在背包里学习轻功秘籍并装备上轻功。\\n按下alt高亮显示可交互物品"
   splits:
   - text: "可以按轻功键（默认是"
+    translated: "You can press the qinggong key (default is"
   - subIndex: 1
     text: "）使用轻功跳跃障碍，如果提示无轻功请在背包里学习轻功秘籍并装备上轻功。"
+    translated: ") Use qinggong to jump over obstacles. If prompted that you do not have qinggong, please learn the qinggong manual from your backpack and equip it."
   - subIndex: 2
     text: "按下"
+    translated: "Press"
   - subIndex: 3
     text: "高亮显示可交互物品"
+    translated: "Highlight interactive items"
   templates:
   - template: "{0}F{1}\\n{2}alt{3}"
 - raw: "可分配属性点:"
   splits:
   - text: "可分配属性点"
+    translated: "Allocatable attribute points"
   templates:
   - template: "{0}:"
 - raw: "可输入备注"
   splits:
   - text: "可输入备注"
+    translated: "Note: You can add remarks"
 - raw: "同行"
   splits:
   - text: "同行"
+    translated: "Companions"
 - raw: "名字\\n【职业】"
   splits:
   - text: "名字"
+    translated: "Name"
   - subIndex: 1
     text: "【职业】"
+    translated: "[Profession]"
   templates:
   - template: "{0}\\n{1}"
 - raw: "后跃"
   splits:
   - text: "后跃"
+    translated: "Backflip"
 - raw: "后跳"
   splits:
   - text: "后跳"
+    translated: "Jump back"
 - raw: "吴起起"
   splits:
   - text: "吴起起"
+    translated: "Wu QiQi"
 - raw: "吴起起起"
   splits:
   - text: "吴起起起"
+    translated: "Wu Qi Qi Qi"
 - raw: "吸"
   splits:
   - text: "吸"
+    translated: "Inhale"
 - raw: "吸血:"
   splits:
   - text: "吸血"
+    translated: "Lifesteal"
   templates:
   - template: "{0}:"
 - raw: "命"
   splits:
   - text: "命"
+    translated: "Life"
 - raw: "命中:"
   splits:
   - text: "命中"
+    translated: "Hit"
   templates:
   - template: "{0}:"
 - raw: "品阶:"
   splits:
   - text: "品阶"
+    translated: "Grade"
   templates:
   - template: "{0}:"
 - raw: "商行寄售师"
   splits:
   - text: "商行寄售师"
+    translated: "Commerce Broker"
 - raw: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
   splits:
   - text: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+    translated: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
 - raw: "固定"
   splits:
   - text: "固定"
+    translated: "Fixed"
 - raw: "地图"
   splits:
   - text: "地图"
+    translated: "Map"
 - raw: "地图Id"
   splits:
   - text: "地图"
+    translated: "Map"
   templates:
   - template: "{0}Id"
 - raw: "地痞头子"
   splits:
   - text: "地痞头子"
+    translated: "Thug Leader"
 - raw: "地行书，曰厚德载物，夫万载不朽，唯不争之胜可为广博，如岳如渊，垂黄土以化众生，其势固，无可灭者，其形博，以养众生，此为地之道。"
   splits:
   - text: "地行书，曰厚德载物，夫万载不朽，唯不争之胜可为广博，如岳如渊，垂黄土以化众生，其势固，无可灭者，其形博，以养众生，此为地之道。"
+    translated: "The Way of the Earth Scripture states: Virtue bears all things. Only through non-contention can one achieve greatness and longevity, like a mountain or a deep abyss, nurturing all beings with the yellow earth. Its power is unbreakable, and its form vast, sustaining all life. This is the path of the earth."
 - raw: "境界"
   splits:
   - text: "境界"
+    translated: "Realm"
 - raw: "境界:"
   splits:
   - text: "境界"
+    translated: "Realm"
   templates:
   - template: "{0}:"
 - raw: "境界不足"
   splits:
   - text: "境界不足"
+    translated: "Insufficient Realm"
 - raw: "境界筛选"
   splits:
   - text: "境界筛选"
+    translated: "Realm Selection"
 - raw: "境界需求:"
   splits:
   - text: "境界需求"
+    translated: "Realm Requirement"
   templates:
   - template: "{0}:"
 - raw: "增加"
   splits:
   - text: "增加"
+    translated: "Increase"
 - raw: "增加物品"
   splits:
   - text: "增加物品"
+    translated: "Add item"
 - raw: "增加物品确认"
   splits:
   - text: "增加物品确认"
+    translated: "Item confirmation added"
 - raw: "声望:"
   splits:
   - text: "声望"
+    translated: "Reputation"
   templates:
   - template: "{0}:"
 - raw: "外功攻击力:"
   splits:
   - text: "外功攻击力"
+    translated: "External Attack Power"
   templates:
   - template: "{0}:"
 - raw: "外功防御力:"
   splits:
   - text: "外功防御力"
+    translated: "External Defense"
   templates:
   - template: "{0}:"
 - raw: "外装"
   splits:
   - text: "外装"
+    translated: "Outfit"
 - raw: "天气控制"
   splits:
   - text: "天气控制"
+    translated: "Weather Control"
 - raw: "天涯海阁"
   splits:
   - text: "天涯海阁"
+    translated: "Tianya Haige"
 - raw: "天行书，曰君子自强，虽百屈而不饶者，方可领会其真意，若天赋寰宇，其势不可挡，不可转，不可折，不可逆，不可滞，至刚至强，乃为天道。"
   splits:
   - text: "天行书，曰君子自强，虽百屈而不饶者，方可领会其真意，若天赋寰宇，其势不可挡，不可转，不可折，不可逆，不可滞，至刚至强，乃为天道。"
+    translated: "Heavenly path, it says, the noble strive on their own strength; even if bent a hundred times, they do not yield. Only then can one grasp its true meaning. If endowed with talent that spans the universe, its force is unstoppable, unturnable, unbendable, irreversible, and unimpeded, supremely strong and resolute-this is the Heavenly path."
 - raw: "奇经八脉"
   splits:
   - text: "奇经八脉"
+    translated: "Eight Extraordinary Meridians"
 - raw: "好感度"
   splits:
   - text: "好感度"
+    translated: "Favorability"
 - raw: "好感度："
   splits:
   - text: "好感度"
+    translated: "Favorability"
   templates:
   - template: "{0}："
 - raw: "好感度度为0"
   splits:
   - text: "好感度度为0"
+    translated: "Favorability is 0"
 - raw: "好感度度为100"
   splits:
   - text: "好感度度为100"
+    translated: "Favorability is 100"
 - raw: "存档"
   splits:
   - text: "存档"
+    translated: "Save game"
 - raw: "学习需求:"
   splits:
   - text: "学习需求"
+    translated: "Learning requirements"
   templates:
   - template: "{0}:"
 - raw: "官方QQ群：924797715"
   splits:
   - text: "官方"
+    translated: "Official"
   - subIndex: 1
     text: "群"
+    translated: "Group"
   templates:
   - template: "{0}QQ{1}：924797715"
 - raw: "密码:"
   splits:
   - text: "密码"
+    translated: "Password"
   templates:
   - template: "{0}:"
 - raw: "寻常"
   splits:
   - text: "寻常"
+    translated: "Ordinary"
 - raw: "将想要自定义的主动招式拖动至下方技能栏中，点击确认以应用修改"
   splits:
   - text: "将想要自定义的主动招式拖动至下方技能栏中，点击确认以应用修改"
+    translated: "Drag the custom move you want to modify into the skill bar below and click confirm to apply the changes."
 - raw: "尚未获取"
   splits:
   - text: "尚未获取"
+    translated: "Not obtained yet"
 - raw: "属性"
   splits:
   - text: "属性"
+    translated: "Attributes"
 - raw: "岑 书萱\\n【成翰武馆】(馆主)"
   splits:
   - text: "岑"
+    translated: "Cen"
   - subIndex: 1
     text: "书萱"
+    translated: "Shuxuan"
   - subIndex: 2
     text: "【成翰武馆】"
+    translated: "[Chenghan Martial Arts Hall]"
   - subIndex: 3
     text: "馆主"
+    translated: "Hostess"
   templates:
   - template: "{0} {1}\\n{2}({3})"
 - raw: "已习得"
   splits:
   - text: "已习得"
+    translated: "Learned"
 - raw: "已失败"
   splits:
   - text: "已失败"
+    translated: "Failed"
 - raw: "已完成"
   splits:
   - text: "已完成"
+    translated: "Completed"
 - raw: "已消耗悟性/剩余悟性"
   splits:
   - text: "已消耗悟性"
+    translated: "Comprehension consumed"
   - subIndex: 1
     text: "剩余悟性"
+    translated: "Remaining Comprehension"
   templates:
   - template: "{0}/{1}"
 - raw: "已贯通"
   splits:
   - text: "已贯通"
+    translated: "Already connected"
 - raw: "帮助"
   splits:
   - text: "帮助"
+    translated: "Help"
 - raw: "帮派"
   splits:
   - text: "帮派"
+    translated: "Gang"
 - raw: "帮派:"
   splits:
   - text: "帮派"
+    translated: "Gang"
   templates:
   - template: "{0}:"
 - raw: "帮派位阶:"
   splits:
   - text: "帮派位阶"
+    translated: "Gang Rank"
   templates:
   - template: "{0}:"
 - raw: "帮派关系"
   splits:
   - text: "帮派关系"
+    translated: "Gang relations"
 - raw: "帮派功勋:"
   splits:
   - text: "帮派功勋"
+    translated: "Gang Merit"
   templates:
   - template: "{0}:"
 - raw: "帮派资金"
   splits:
   - text: "帮派资金"
+    translated: "Gang Funds"
 - raw: "开启脉路"
   splits:
   - text: "开启脉路"
+    translated: "Open Meridian Path"
 - raw: "开放世界"
   splits:
   - text: "开放世界"
+    translated: "Open World"
 - raw: "弃置"
   splits:
   - text: "弃置"
+    translated: "Discard"
 - raw: "弓箭"
   splits:
   - text: "弓箭"
+    translated: "Bow"
 - raw: "弓箭:"
   splits:
   - text: "弓箭"
+    translated: "Bow"
   templates:
   - template: "{0}:"
 - raw: "张三李四"
   splits:
   - text: "张三李四"
+    translated: "Zhang San Li Si"
 - raw: "当前修为:"
   splits:
   - text: "当前修为"
+    translated: "Current Cultivation"
   templates:
   - template: "{0}:"
 - raw: "当前内功"
   splits:
   - text: "当前内功"
+    translated: "Current Neigong"
 - raw: "当前武功"
   splits:
   - text: "当前武功"
+    translated: "Current Martial Skill"
 - raw: "当前武器"
   splits:
   - text: "当前武器"
+    translated: "Current weapon"
 - raw: "当前武学累计附加："
   splits:
   - text: "当前武学累计附加"
+    translated: "Current cumulative bonus from Martial Art"
   templates:
   - template: "{0}："
 - raw: "当前残篇20篇 "
   splits:
   - text: "当前残篇20篇"
+    translated: "Current fragment 20"
   templates:
   - template: "{0} "
 - raw: "当前装备"
   splits:
   - text: "当前装备"
+    translated: "Current Equipment"
 - raw: "当前轻功"
   splits:
   - text: "当前轻功"
+    translated: "Current qinggong"
 - raw: "御"
   splits:
   - text: "御"
+    translated: "Guard"
 - raw: "微软雅黑"
   splits:
   - text: "微软雅黑"
+    translated: "Microsoft YaHei"
 - raw: "心决"
   splits:
   - text: "心决"
+    translated: "Heart Formula"
 - raw: "心诀"
   splits:
   - text: "心诀"
+    translated: "Heart Formula"
 - raw: "心领神会"
   splits:
   - text: "心领神会"
+    translated: "Proficient"
 - raw: "总章"
   splits:
   - text: "总章"
+    translated: "Prologue"
 - raw: "悟性:"
   splits:
   - text: "悟性"
+    translated: "Comprehension"
   templates:
   - template: "{0}:"
 - raw: "情"
   splits:
   - text: "情"
+    translated: "Emotion"
 - raw: "意志:"
   splits:
   - text: "意志"
+    translated: "Willpower"
   templates:
   - template: "{0}:"
 - raw: "我TM无敌了"
   splits:
   - text: "我"
+    translated: "I"
   - subIndex: 1
     text: "无敌了"
+    translated: "Invulnerable"
   templates:
   - template: "{0}TM{1}"
 - raw: "战斗"
   splits:
   - text: "战斗"
+    translated: "Battle"
 - raw: "战斗组Id,不填就是打木头人"
   splits:
   - text: "战斗组"
+    translated: "Combat Team"
   - subIndex: 1
     text: "不填就是打木头人"
+    translated: "Leaving it blank means hitting the Wooden Dummy"
   templates:
   - template: "{0}Id,{1}"
 - raw: "战斗组ID："
   splits:
   - text: "战斗组"
+    translated: "Combat Team"
   templates:
   - template: "{0}ID："
 - raw: "房 夏瑶\\n【成翰武馆】(大弟子)"
   splits:
   - text: "房"
+    translated: "Room"
   - subIndex: 1
     text: "夏瑶"
+    translated: "Summer Yao"
   - subIndex: 2
     text: "【成翰武馆】"
+    translated: "[Chenghan Martial Arts Hall]"
   - subIndex: 3
     text: "大弟子"
+    translated: "Senior Disciple"
   templates:
   - template: "{0} {1}\\n{2}({3})"
 - raw: "所需材料："
   splits:
   - text: "所需材料"
+    translated: "Required materials"
   templates:
   - template: "{0}："
 - raw: "扇子"
   splits:
   - text: "扇子"
+    translated: "Fan"
 - raw: "扇法"
   splits:
   - text: "扇法"
+    translated: "Fan Art"
 - raw: "扇法:"
   splits:
   - text: "扇法"
+    translated: "Fan Art"
   templates:
   - template: "{0}:"
 - raw: "手柄尚未完善，不推荐使用，若出现手柄失效，可用键鼠操作，我们尽快完善(还需一段时间)"
   splits:
   - text: "手柄尚未完善，不推荐使用，若出现手柄失效，可用键鼠操作，我们尽快完善"
+    translated: "The controller is not yet fully functional and is not recommended for use. If the controller stops working, you can switch to keyboard and mouse controls. We will work to improve it as soon as possible."
   - subIndex: 1
     text: "还需一段时间"
+    translated: "It will take some time"
   templates:
   - template: "{0}({1})"
 - raw: "打坐"
   splits:
   - text: "打坐"
+    translated: "Meditate"
 - raw: "扫描加入官方QQ群"
   splits:
   - text: "扫描加入官方"
+    translated: "Scan to join the official group"
   - subIndex: 1
     text: "群"
+    translated: "Group"
   templates:
   - template: "{0}QQ{1}"
 - raw: "扫码支持"
   splits:
   - text: "扫码支持"
+    translated: "Scan to support"
 - raw: "找回密码"
   splits:
   - text: "找回密码"
+    translated: "Reset Password"
 - raw: "护腿"
   splits:
   - text: "护腿"
+    translated: "Leg Guards"
 - raw: "抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适当游戏益脑，过度游戏伤身。合理安排时间，享受健康生活。\\n "
   splits:
   - text: "抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适当游戏益脑，过度游戏伤身。合理安排时间，享受健康生活。"
+    translated: "Resist inappropriate games, refuse pirated games. Beware of protecting yourself, guard against fraud and deception. Moderate gaming can be beneficial, excessive gaming harms your health. Allocate time wisely, enjoy a healthy lifestyle."
   templates:
   - template: "{0}\\n "
 - raw: "抵达关键剧情节点或度过特定游戏时间时会自动保存"
   splits:
   - text: "抵达关键剧情节点或度过特定游戏时间时会自动保存"
+    translated: "Will automatically save when reaching a critical story point or after a certain period of game time."
 - raw: "拆分"
   splits:
   - text: "拆分"
+    translated: "Split up"
 - raw: "招架"
   splits:
   - text: "招架"
+    translated: "Parry"
 - raw: "拳掌"
   splits:
   - text: "拳掌"
+    translated: "Fist & Palm"
 - raw: "拳掌:"
   splits:
   - text: "拳掌"
+    translated: "Fist & Palm"
   templates:
   - template: "{0}:"
 - raw: "推进一天"
   splits:
   - text: "推进一天"
+    translated: "Advance one day"
 - raw: "推进一年"
   splits:
   - text: "推进一年"
+    translated: "Advance one year"
 - raw: "推进一时"
   splits:
   - text: "推进一时"
+    translated: "Make progress for a while"
 - raw: "推进一月"
   splits:
   - text: "推进一月"
+    translated: "Advance to January"
 - raw: "提示"
   splits:
   - text: "提示"
+    translated: "Hint"
 - raw: "攻"
   splits:
   - text: "攻"
+    translated: "Attack"
 - raw: "攻击力+2"
   splits:
   - text: "攻击力"
+    translated: "Attack Power"
   templates:
   - template: "{0}+2"
 - raw: "攻击力+200"
   splits:
   - text: "攻击力"
+    translated: "Attack Power"
   templates:
   - template: "{0}+200"
 - raw: "攻击提升攻击提升攻击提升攻击提升攻击提升攻击提升"
   splits:
   - text: "攻击提升攻击提升攻击提升攻击提升攻击提升攻击提升"
+    translated: "Attack boost! Attack boost! Attack boost! Attack boost! Attack boost! Attack boost!"
 - raw: "整理"
   splits:
   - text: "整理"
+    translated: "Organize"
 - raw: "文"
   splits:
   - text: "文"
+    translated: "Wen"
 - raw: "文化部备案号：文网游备字【2088】X-RPG 8888号  批准文号：新广出审【2088】8888号 著作权登记号：2088AB888888  出版物号:ISBN888-8-8888-8888-8\\n"
   splits:
   - text: "文化部备案号"
+    translated: "Cultural Bureau registration number"
   - subIndex: 1
     text: "文网游备字【2088】"
+    translated: "Wenyou Game Filing Number [2088]"
   - subIndex: 2
     text: "8888号"
+    translated: "8888th"
   - subIndex: 3
     text: "批准文号"
+    translated: "Approval Number"
   - subIndex: 4
     text: "新广出审【2088】8888号"
+    translated: "New Approval Number 【2088】8888"
   - subIndex: 5
     text: "著作权登记号"
+    translated: "Copyright Registration Number"
   - subIndex: 6
     text: "出版物号"
+    translated: "Publication Number"
   templates:
   - template: "{0}：{1}X-RPG {2}  {3}：{4} {5}：2088AB888888  {6}:ISBN888-8-8888-8888-8\\n"
 - raw: "无敌确认"
   splits:
   - text: "无敌确认"
+    translated: "Confirm Invulnerability"
 - raw: "无缝"
   splits:
   - text: "无缝"
+    translated: "Seamless"
 - raw: "无锋大巧不工"
   splits:
   - text: "无锋大巧不工"
+    translated: "Wufeng, Great Effort Appears Seamless"
 - raw: "无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工"
   splits:
   - text: "无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工无锋大巧不工"
+    translated: "Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong Wufeng Daqiao Bugong"
 - raw: "时间流逝倍速"
   splits:
   - text: "时间流逝倍速"
+    translated: "Time flow speed"
 - raw: "时间衍变"
   splits:
   - text: "时间衍变"
+    translated: "Time Evolution"
 - raw: "时间调整"
   splits:
   - text: "时间调整"
+    translated: "Time adjustment"
 - raw: "春宵一夜 喜得贵子"
   splits:
   - text: "春宵一夜"
+    translated: "A night of springtime revelry"
   - subIndex: 1
     text: "喜得贵子"
+    translated: "Welcoming a noble son"
   templates:
   - template: "{0} {1}"
 - raw: "显示交互对象"
   splits:
   - text: "显示交互对象"
+    translated: "Show interactive object"
 - raw: "晴天"
   splits:
   - text: "晴天"
+    translated: "Sunny day"
 - raw: "智"
   splits:
   - text: "智"
+    translated: "Wisdom"
 - raw: "智力:"
   splits:
   - text: "智力"
+    translated: "Intelligence"
   templates:
   - template: "{0}:"
 - raw: "暂停"
   splits:
   - text: "暂停"
+    translated: "Pause"
 - raw: "暂无武学"
   splits:
   - text: "暂无武学"
+    translated: "No Martial Arts yet"
 - raw: "暂无目标"
   splits:
   - text: "暂无目标"
+    translated: "No target currently"
 - raw: "暂未习得对应制作方法"
   splits:
   - text: "暂未习得对应制作方法"
+    translated: "Have not yet learned the corresponding crafting method."
 - raw: "暗器"
   splits:
   - text: "暗器"
+    translated: "Hidden Weapon"
 - raw: "暗器:"
   splits:
   - text: "暗器"
+    translated: "Hidden Weapon"
   templates:
   - template: "{0}:"
 - raw: "暴"
   splits:
   - text: "暴"
+    translated: "Panic"
 - raw: "暴击"
   splits:
   - text: "暴击"
+    translated: "Critical Hit"
 - raw: "暴击:"
   splits:
   - text: "暴击"
+    translated: "Critical Hit"
   templates:
   - template: "{0}:"
 - raw: "暴击伤害:"
   splits:
   - text: "暴击伤害"
+    translated: "Crit Damage"
   templates:
   - template: "{0}:"
 - raw: "暴击减免:"
   splits:
   - text: "暴击减免"
+    translated: "Crit Reduction"
   templates:
   - template: "{0}:"
 - raw: "更换脉路"
   splits:
   - text: "更换脉路"
+    translated: "Change Path"
 - raw: "服从:"
   splits:
   - text: "服从"
+    translated: "Obey"
   templates:
   - template: "{0}:"
 - raw: "服从度："
   splits:
   - text: "服从度"
+    translated: "Obedience Level"
   templates:
   - template: "{0}："
 - raw: "服用"
   splits:
   - text: "服用"
+    translated: "Take it"
 - raw: "未习得"
   splits:
   - text: "未习得"
+    translated: "Not learned yet"
 - raw: "未知"
   splits:
   - text: "未知"
+    translated: "Unknown"
 - raw: "未贯通"
   splits:
   - text: "未贯通"
+    translated: "Not yet connected"
 - raw: "本游戏是一款武侠类角色扮演游戏，适用于年满12周岁及以上的用户，建议未成年人在家长监护下使用本游戏产品。我们鼓励家长根据未成年人的实际情况管理其游戏行为。\\n\\n本游戏用用户实名认证系统，认证为未成年人的用户将接受以下管理：\\n\\n1，游戏中所有的付费道具，未满8周岁的用户不能付费；\\n2，8周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；\\n3，16周岁以上的未成年人用户，单次金额不得超过100元人民币，每月充值金额累计不得超过400元人民币；\\n4，未成年用户仅在周五，周六，周日的20:00~21:00体验游戏，其他时间均不可使用。"
   splits:
   - text: "本游戏是一款武侠类角色扮演游戏，适用于年满12周岁及以上的用户，建议未成年人在家长监护下使用本游戏产品。我们鼓励家长根据未成年人的实际情况管理其游戏行为。"
+    translated: "This game is a Wuxia role-playing game suitable for users aged 12 and over. We recommend that minors use this game product under parental supervision. We encourage parents to manage their children's gaming behavior based on their actual circumstances."
   - subIndex: 1
     text: "本游戏用用户实名认证系统，认证为未成年人的用户将接受以下管理"
+    translated: "This game uses a real-name authentication system. Users authenticated as minors will be subject to the following management:"
   - subIndex: 2
     text: "1，游戏中所有的付费道具，未满8周岁的用户不能付费；"
+    translated: "1, in the game, all paid items are not available for purchase to users under 8 years old;"
   - subIndex: 3
     text: "2，8周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；"
+    translated: "Users who are 2 years old or older but under 8 years old may not spend more than 16 RMB in a single charge, and their total monthly spending may not exceed 50 RMB; '200'"
   - subIndex: 4
     text: "3，16周岁以上的未成年人用户，单次金额不得超过100元人民币，每月充值金额累计不得超过400元人民币；"
+    translated: "Users aged 3 to 16 years old may not spend more than 100 RMB in a single transaction or 400 RMB in total monthly charges."
   - subIndex: 5
     text: "4，未成年用户仅在周五，周六，周日的20"
+    translated: "4, minor users are only allowed on Fridays, Saturdays, and Sundays at 20."
   - subIndex: 6
     text: "00体验游戏，其他时间均不可使用。"
+    translated: "00 can only be used while playing the game; at all other times, it is unusable."
   templates:
   - template: "{0}\\n\\n{1}：\\n\\n{2}\\n{3}\\n{4}\\n{5}:00~21:{6}"
 - raw: "杀手等级"
   splits:
   - text: "杀手等级"
+    translated: "Assassin level"
 - raw: "材料"
   splits:
   - text: "材料"
+    translated: "Materials"
 - raw: "杜颜白"
   splits:
   - text: "杜颜白"
+    translated: "Du Yanbai"
 - raw: "杨过"
   splits:
   - text: "杨过"
+    translated: "Yang Guo"
 - raw: "查看属性"
   splits:
   - text: "查看属性"
+    translated: "Check Attributes"
 - raw: "查看武学"
   splits:
   - text: "查看武学"
+    translated: "View Martial Art"
 - raw: "柳星雨"
   splits:
   - text: "柳星雨"
+    translated: "Liu Xingyu"
 - raw: "标题标题标题标题"
   splits:
   - text: "标题标题标题标题"
+    translated: "Title Title Title Title"
 - raw: "格挡"
   splits:
   - text: "格挡"
+    translated: "Block"
 - raw: "检测到存档丢失！正在进行存档恢复中，请勿关闭电脑！"
   splits:
   - text: "检测到存档丢失！正在进行存档恢复中，请勿关闭电脑！"
+    translated: "Archive loss detected! Restoring archive, please do not shut down your computer!"
 - raw: "槽位暂未解锁"
   splits:
   - text: "槽位暂未解锁"
+    translated: "Slot not unlocked yet"
 - raw: "武\\n学\\n混\\n用"
   splits:
   - text: "武"
+    translated: "Wu"
   - subIndex: 1
     text: "学"
+    translated: "Study"
   - subIndex: 2
     text: "混"
+    translated: "Mix up"
   - subIndex: 3
     text: "用"
+    translated: "Use"
   templates:
   - template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "武力:"
   splits:
   - text: "武力"
+    translated: "Might"
   templates:
   - template: "{0}:"
 - raw: "武器ID:(副本无效)"
   splits:
   - text: "武器"
+    translated: "Weapon"
   - subIndex: 1
     text: "副本无效"
+    translated: "Invalid DungeonSubtitle"
   templates:
   - template: "{0}ID:({1})"
 - raw: "武学"
   splits:
   - text: "武学"
+    translated: "Martial Art"
 - raw: "武学ID:(副本无效)"
   splits:
   - text: "武学"
+    translated: "Martial Art"
   - subIndex: 1
     text: "副本无效"
+    translated: "Invalid DungeonSubtitle"
   templates:
   - template: "{0}ID:({1})"
 - raw: "武学总章"
   splits:
   - text: "武学总章"
+    translated: "Martial Manual"
 - raw: "武学样本\"单手轻刃"
   splits:
   - text: "武学样本"
+    translated: "Martial Art Sample"
   - subIndex: 1
     text: "单手轻刃"
+    translated: "One-Handed Light Blade"
   templates:
   - template: "{0}\"{1}"
 - raw: "武学注解"
   splits:
   - text: "武学注解"
+    translated: "Martial Annotation"
 - raw: "段宇桐"
   splits:
   - text: "段宇桐"
+    translated: "Duan Yutong"
 - raw: "毒"
   splits:
   - text: "毒"
+    translated: "Poison"
 - raw: "毒药"
   splits:
   - text: "毒药"
+    translated: "Poison"
 - raw: "气血上限:"
   splits:
   - text: "气血上限"
+    translated: "Max Lifeforce"
   templates:
   - template: "{0}:"
 - raw: "气血恢复:"
   splits:
   - text: "气血恢复"
+    translated: "Lifeforce Recovery"
   templates:
   - template: "{0}:"
 - raw: "江湖信息"
   splits:
   - text: "江湖信息"
+    translated: "Jianghu Intel"
 - raw: "注册"
   splits:
   - text: "注册"
+    translated: "Register"
 - raw: "洗澡当时的纳斯达克你到那时记得那时打开九十年代可能你的马上"
   splits:
   - text: "洗澡当时的纳斯达克你到那时记得那时打开九十年代可能你的马上"
+    translated: "Taking a bath, do you remember opening the Nasdaq back then in the nineties, possibly right away?"
 - raw: "测试战斗"
   splits:
   - text: "测试战斗"
+    translated: "Test battle"
 - raw: "测试用的"
   splits:
   - text: "测试用的"
+    translated: "Test text"
 - raw: "清风剑法"
   splits:
   - text: "清风剑法"
+    translated: "Clear Wind Sword Art"
 - raw: "游历侠客"
   splits:
   - text: "游历侠客"
+    translated: "Wandering hero"
 - raw: "游戏著作权人：深圳市化龙科技有限公司   发行公司：深圳市数合软件有限公司   出版单位：深圳国国国国出版社有限公司"
   splits:
   - text: "游戏著作权人"
+    translated: "Game copyright holder"
   - subIndex: 1
     text: "深圳市化龙科技有限公司"
+    translated: "Shenzhen Hualong Technology Co., Ltd."
   - subIndex: 2
     text: "发行公司"
+    translated: "Publishing Company"
   - subIndex: 3
     text: "深圳市数合软件有限公司"
+    translated: "Shenzhen Shuhe Software Co., Ltd."
   - subIndex: 4
     text: "出版单位"
+    translated: "Publishing Unit"
   - subIndex: 5
     text: "深圳国国国国出版社有限公司"
+    translated: "Shenzhen National National National National Press Co., Ltd."
   templates:
   - template: "{0}：{1}   {2}：{3}   {4}：{5}"
 - raw: "火器"
   splits:
   - text: "火器"
+    translated: "Firearm"
 - raw: "火器:"
   splits:
   - text: "火器"
+    translated: "Firearm"
   templates:
   - template: "{0}:"
 - raw: "灵隐恶僧"
   splits:
   - text: "灵隐恶僧"
+    translated: "Cruel Monk of Lingyin"
 - raw: "炉火纯青"
   splits:
   - text: "炉火纯青"
+    translated: "Perfected"
 - raw: "点击0"
   splits:
   - text: "点击0"
+    translated: "Click 0"
 - raw: "点击任意区域关闭界面"
   splits:
   - text: "点击任意区域关闭界面"
+    translated: "Click anywhere to close the interface"
 - raw: "点击修习"
   splits:
   - text: "点击修习"
+    translated: "Click to practice"
 - raw: "点击储存档案"
   splits:
   - text: "点击储存档案"
+    translated: "Click to save the file"
 - raw: "点击卸下"
   splits:
   - text: "点击卸下"
+    translated: "Click to remove"
 - raw: "点击卸载"
   splits:
   - text: "点击卸载"
+    translated: "Click to uninstall"
 - raw: "点击开启"
   splits:
   - text: "点击开启"
+    translated: "Click to start"
 - raw: "点击支持"
   splits:
   - text: "点击支持"
+    translated: "Click to support"
 - raw: "点击替换"
   splits:
   - text: "点击替换"
+    translated: "Click to Replace"
 - raw: "点击激点"
   splits:
   - text: "点击激点"
+    translated: "Tap to activate"
 - raw: "点击目的地使用轻功，体力消耗完或者再次按下轻功键退出轻功状态。"
   splits:
   - text: "点击目的地使用轻功，体力消耗完或者再次按下轻功键退出轻功状态。"
+    translated: "Click the destination to use qinggong. Exit qinggong when stamina is depleted or by pressing the qinggong key again."
 - raw: "点击高亮地点开始移动"
   splits:
   - text: "点击高亮地点开始移动"
+    translated: "Click on the highlighted location to start moving."
 - raw: "点击高亮处执行"
   splits:
   - text: "点击高亮处执行"
+    translated: "Click to execute the highlighted area"
 - raw: "炼丹"
   splits:
   - text: "炼丹"
+    translated: "Alchemy"
 - raw: "炼丹等级："
   splits:
   - text: "炼丹等级"
+    translated: "Alchemy Level"
   templates:
   - template: "{0}："
 - raw: "烹饪"
   splits:
   - text: "烹饪"
+    translated: "Cooking"
 - raw: "烹饪等级："
   splits:
   - text: "烹饪等级"
+    translated: "Cooking Level"
   templates:
   - template: "{0}："
 - raw: "版本更新历史："
   splits:
   - text: "版本更新历史"
+    translated: "Version update history"
   templates:
   - template: "{0}："
 - raw: "物品ID"
   splits:
   - text: "物品"
+    translated: "Items"
   templates:
   - template: "{0}ID"
 - raw: "物品为空"
   splits:
   - text: "物品为空"
+    translated: "Item is empty"
 - raw: "物品数量"
   splits:
   - text: "物品数量"
+    translated: "Item Quantity"
 - raw: "狄华晖"
   splits:
   - text: "狄华晖"
+    translated: "Di Hua Hui"
 - raw: "狄华晖 "
   splits:
   - text: "狄华晖"
+    translated: "Di Hua Hui"
   templates:
   - template: "{0} "
 - raw: "玩家精力"
   splits:
   - text: "玩家精力"
+    translated: "Player Energy"
 - raw: "生平"
   splits:
   - text: "生平"
+    translated: "Life Story"
 - raw: "生活技能"
   splits:
   - text: "生活技能"
+    translated: "Life Skills"
 - raw: "用户名:"
   splits:
   - text: "用户名"
+    translated: "Username"
   templates:
   - template: "{0}:"
 - raw: "申请入队"
   splits:
   - text: "申请入队"
+    translated: "Apply to join the team"
 - raw: "略有小成"
   splits:
   - text: "略有小成"
+    translated: "Minor Success"
 - raw: "登堂入室"
   splits:
   - text: "登堂入室"
+    translated: "Accomplished"
 - raw: "登峰造极"
   splits:
   - text: "登峰造极"
+    translated: "Pinnacle"
 - raw: "登录"
   splits:
   - text: "登录"
+    translated: "Log in"
 - raw: "真气"
   splits:
   - text: "真气"
+    translated: "True Qi"
 - raw: "真气上限:"
   splits:
   - text: "真气上限"
+    translated: "Max True Qi"
   templates:
   - template: "{0}:"
 - raw: "瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。"
   splits:
   - text: "瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。瞧一瞧看一看勒，吹得的小糖人儿只要十文！关张赵马黄，五虎上将都有啦。"
+    translated: "Look and see, look and see! Blown sugar figures for just ten coins! Guan, Zhang, Zhao, Ma, Huang, all the Five Tiger Generals are here. Look and see, look and see! Blown sugar figures for just ten coins! Guan, Zhang, Zhao, Ma, Huang, all the Five Tiger Generals are here. Look and see, look and see! Blown sugar figures for just ten coins! Guan, Zhang, Zhao, Ma, Huang, all the Five Tiger Generals are here. Look and see, look and see! Blown sugar figures for just ten coins! Guan, Zhang, Zhao, Ma, Huang, all the Five Tiger Generals are here."
 - raw: "短兵"
   splits:
   - text: "短兵"
+    translated: "Short Weapon"
 - raw: "短兵:"
   splits:
   - text: "短兵"
+    translated: "Short Weapon"
   templates:
   - template: "{0}:"
 - raw: "矿产1 矿产1"
   splits:
   - text: "矿产1"
+    translated: "Mine 1"
   - subIndex: 1
     text: "矿产1"
+    translated: "Mine 1"
   templates:
   - template: "{0} {1}"
 - raw: "确定"
   splits:
   - text: "确定"
+    translated: "Confirm"
 - raw: "确认"
   splits:
   - text: "确认"
+    translated: "Confirm"
 - raw: "确认密码:"
   splits:
   - text: "确认密码"
+    translated: "Confirm password"
   templates:
   - template: "{0}:"
 - raw: "离开"
   splits:
   - text: "离开"
+    translated: "Leave"
 - raw: "秘籍"
   splits:
   - text: "秘籍"
+    translated: "Manual"
 - raw: "移动选项"
   splits:
   - text: "移动选项"
+    translated: "Move options"
 - raw: "空档"
   splits:
   - text: "空档"
+    translated: "Gap"
 - raw: "立场:"
   splits:
   - text: "立场"
+    translated: "Alignment"
   templates:
   - template: "{0}:"
 - raw: "第1个技能ID："
   splits:
   - text: "第1个技能"
+    translated: "1th skill"
   templates:
   - template: "{0}ID："
 - raw: "第2个技能ID："
   splits:
   - text: "第2个技能"
+    translated: "2th Skill"
   templates:
   - template: "{0}ID："
 - raw: "第3个技能ID："
   splits:
   - text: "第3个技能"
+    translated: "3th Skill"
   templates:
   - template: "{0}ID："
 - raw: "第4个技能ID："
   splits:
   - text: "第4个技能"
+    translated: "4th Skill"
   templates:
   - template: "{0}ID："
 - raw: "第5个技能ID："
   splits:
   - text: "第5个技能"
+    translated: "5th Skill"
   templates:
   - template: "{0}ID："
 - raw: "第一年正月初一"
   splits:
   - text: "第一年正月初一"
+    translated: "New Year's Day of the first year"
 - raw: "筋骨:"
   splits:
   - text: "筋骨"
+    translated: "Physique"
   templates:
   - template: "{0}:"
 - raw: "简短描述下所遇到的问题"
   splits:
   - text: "简短描述下所遇到的问题"
+    translated: "Briefly describe the problem you've encountered"
 - raw: "简短描述问题内容"
   splits:
   - text: "简短描述问题内容"
+    translated: "Briefly describe the content of the issue"
 - raw: "类型"
   splits:
   - text: "类型"
+    translated: "Type"
 - raw: "类型:"
   splits:
   - text: "类型"
+    translated: "Type"
   templates:
   - template: "{0}:"
 - raw: "类型筛选"
   splits:
   - text: "类型筛选"
+    translated: "Type filter"
 - raw: "粗通皮毛"
   splits:
   - text: "粗通皮毛"
+    translated: "Novice"
 - raw: "精力"
   splits:
   - text: "精力"
+    translated: "Energy"
 - raw: "精力:"
   splits:
   - text: "精力"
+    translated: "Energy"
   templates:
   - template: "{0}:"
 - raw: "系统设置"
   splits:
   - text: "系统设置"
+    translated: "System Settings"
 - raw: "纵跃"
   splits:
   - text: "纵跃"
+    translated: "Leap"
 - raw: "经脉"
   splits:
   - text: "经脉"
+    translated: "Meridians"
 - raw: "经脉顺旋/逆旋"
   splits:
   - text: "经脉顺旋"
+    translated: "Meridians flow smoothly"
   - subIndex: 1
     text: "逆旋"
+    translated: "Reverse Spin"
   templates:
   - template: "{0}/{1}"
 - raw: "继续"
   splits:
   - text: "继续"
+    translated: "Continue"
 - raw: "绳镖"
   splits:
   - text: "绳镖"
+    translated: "Rope Dart"
 - raw: "绳镖:"
   splits:
   - text: "绳镖"
+    translated: "Rope Dart"
   templates:
   - template: "{0}:"
 - raw: "缉捕值"
   splits:
   - text: "缉捕值"
+    translated: "Wanted Level"
 - raw: "缉捕值:"
   splits:
   - text: "缉捕值"
+    translated: "Wanted Level"
   templates:
   - template: "{0}:"
 - raw: "群英会"
   splits:
   - text: "群英会"
+    translated: "Gathering of Heroes"
 - raw: "背包"
   splits:
   - text: "背包"
+    translated: "Backpack"
 - raw: "腿脚"
   splits:
   - text: "腿脚"
+    translated: "Legwork"
 - raw: "腿脚:"
   splits:
   - text: "腿脚"
+    translated: "Legwork"
   templates:
   - template: "{0}:"
 - raw: "自动存档"
   splits:
   - text: "自动存档"
+    translated: "Autosave"
 - raw: "自动存档倒计时: "
   splits:
   - text: "自动存档倒计时"
+    translated: "Autosave countdown"
   templates:
   - template: "{0}: "
 - raw: "艺能"
   splits:
   - text: "艺能"
+    translated: "Crafts"
 - raw: "药品"
   splits:
   - text: "药品"
+    translated: "Medicine"
 - raw: "融会贯通"
   splits:
   - text: "融会贯通"
+    translated: "Mastery"
 - raw: "血"
   splits:
   - text: "血"
+    translated: "Blood"
 - raw: "血量"
   splits:
   - text: "血量"
+    translated: "Health"
 - raw: "行囊"
   splits:
   - text: "行囊"
+    translated: "Pack"
 - raw: "补全被动"
   splits:
   - text: "补全被动"
+    translated: "Complete passive skills"
 - raw: "装备"
   splits:
   - text: "装备"
+    translated: "Equipment"
 - raw: "装配"
   splits:
   - text: "装配"
+    translated: "Assembly"
 - raw: "装配残篇"
   splits:
   - text: "装配残篇"
+    translated: "Assemble Fragment"
 - raw: "观察"
   splits:
   - text: "观察"
+    translated: "Observe"
 - raw: "规则说明"
   splits:
   - text: "规则说明"
+    translated: "Rules Explanation"
 - raw: "角色"
   splits:
   - text: "角色"
+    translated: "Character"
 - raw: "记录此角色在某年某月某日发生什么事宜生平"
   splits:
   - text: "记录此角色在某年某月某日发生什么事宜生平"
+    translated: "Record what events occurred in this character's life on a certain year, month, and day."
 - raw: "设置"
   splits:
   - text: "设置"
+    translated: "Settings"
 - raw: "请输入正确答案"
   splits:
   - text: "请输入正确答案"
+    translated: "Please enter the correct answer"
 - raw: "财"
   splits:
   - text: "财"
+    translated: "Wealth"
 - raw: "跳至行刑日"
   splits:
   - text: "跳至行刑日"
+    translated: "Jump to Execution Day"
 - raw: "跳跳"
   splits:
   - text: "跳跳"
+    translated: "Tiaotiao"
 - raw: "跳过"
   splits:
   - text: "跳过"
+    translated: "Skip"
 - raw: "身法:"
   splits:
   - text: "身法"
+    translated: "Agility"
   templates:
   - template: "{0}:"
 - raw: "软鞭"
   splits:
   - text: "软鞭"
+    translated: "Whip"
 - raw: "软鞭:"
   splits:
   - text: "软鞭"
+    translated: "Whip"
   templates:
   - template: "{0}:"
 - raw: "轻击"
   splits:
   - text: "轻击"
+    translated: "Light Attack"
 - raw: "轻功"
   splits:
   - text: "轻功"
+    translated: "Qinggong"
 - raw: "轻功:"
   splits:
   - text: "轻功"
+    translated: "Qinggong"
   templates:
   - template: "{0}:"
 - raw: "轻功ID："
   splits:
   - text: "轻功"
+    translated: "Qinggong"
   templates:
   - template: "{0}ID："
 - raw: "辅穴属性"
   splits:
   - text: "辅穴属性"
+    translated: "Secondary point attributes"
 - raw: "输入密码"
   splits:
   - text: "输入密码"
+    translated: "Enter password"
 - raw: "输入时辰单位"
   splits:
   - text: "输入时辰单位"
+    translated: "Enter time units in hours and minutes"
 - raw: "输入用户名"
   splits:
   - text: "输入用户名"
+    translated: "Enter username"
 - raw: "返回"
   splits:
   - text: "返回"
+    translated: "Return"
 - raw: "返璞归真"
   splits:
   - text: "返璞归真"
+    translated: "Transcendence"
 - raw: "这是一个气泡消息"
   splits:
   - text: "这是一个气泡消息"
+    translated: "This is a bubble message"
 - raw: "进入游戏"
   splits:
   - text: "进入游戏"
+    translated: "Enter the game"
 - raw: "进行中"
   splits:
   - text: "进行中"
+    translated: "In progress"
 - raw: "进行中……"
   splits:
   - text: "进行中……"
+    translated: "In progress......"
 - raw: "追索"
   splits:
   - text: "追索"
+    translated: "Pursue"
 - raw: "退出组织"
   splits:
   - text: "退出组织"
+    translated: "Leave the organization"
 - raw: "退隐武师"
   splits:
   - text: "退隐武师"
+    translated: "Retired Martial Artist"
 - raw: "适龄提示"
   splits:
   - text: "适龄提示"
+    translated: "Age Restriction Notice"
 - raw: "逆旋脉路"
   splits:
   - text: "逆旋脉路"
+    translated: "Counterclockwise Path"
 - raw: "选择数量"
   splits:
   - text: "选择数量"
+    translated: "Choose quantity"
 - raw: "选择武学_不选就是自身"
   splits:
   - text: "选择武学"
+    translated: "Choose a Martial Art"
   - subIndex: 1
     text: "不选就是自身"
+    translated: "Not choosing is itself"
   templates:
   - template: "{0}_{1}"
 - raw: "速"
   splits:
   - text: "速"
+    translated: "Hurry!"
 - raw: "速度:"
   splits:
   - text: "速度"
+    translated: "Speed"
   templates:
   - template: "{0}:"
 - raw: "邮件"
   splits:
   - text: "邮件"
+    translated: "Email"
 - raw: "邮箱(可不填)"
   splits:
   - text: "邮箱"
+    translated: "Email inbox"
   - subIndex: 1
     text: "可不填"
+    translated: "Leave blank if not applicable"
   templates:
   - template: "{0}({1})"
 - raw: "配方配方配方"
   splits:
   - text: "配方配方配方"
+    translated: "Recipe, recipe, recipe"
 - raw: "重击"
   splits:
   - text: "重击"
+    translated: "Heavy Attack"
 - raw: "重击众人常用的招式，重击众人常用的招式，"
   splits:
   - text: "重击众人常用的招式，重击众人常用的招式，"
+    translated: "Heavy Attack, the move commonly used by everyone, Heavy Attack, the move commonly used by everyone,"
 - raw: "重刃"
   splits:
   - text: "重刃"
+    translated: "Heavy Blade"
 - raw: "重刃:"
   splits:
   - text: "重刃"
+    translated: "Heavy Blade"
   templates:
   - template: "{0}:"
 - raw: "重置"
   splits:
   - text: "重置"
+    translated: "Reset"
 - raw: "金手指"
   splits:
   - text: "金手指"
+    translated: "Golden Finger"
 - raw: "钓鱼"
   splits:
   - text: "钓鱼"
+    translated: "Fishing"
 - raw: "钓鱼等级："
   splits:
   - text: "钓鱼等级"
+    translated: "Fishing level"
   templates:
   - template: "{0}："
 - raw: "铜钱"
   splits:
   - text: "铜钱"
+    translated: "Coin"
 - raw: "银两:"
   splits:
   - text: "银两"
+    translated: "Silver"
   templates:
   - template: "{0}:"
 - raw: "锁定"
   splits:
   - text: "锁定"
+    translated: "Lock"
 - raw: "锻造"
   splits:
   - text: "锻造"
+    translated: "Forging"
 - raw: "锻造等级："
   splits:
   - text: "锻造等级"
+    translated: "Forging Level"
   templates:
   - template: "{0}："
 - raw: "镖头"
   splits:
   - text: "镖头"
+    translated: "Escort Chief"
 - raw: "长兵"
   splits:
   - text: "长兵"
+    translated: "Polearm"
 - raw: "长兵:"
   splits:
   - text: "长兵"
+    translated: "Polearm"
   templates:
   - template: "{0}:"
 - raw: "长按空格跳过"
   splits:
   - text: "长按空格跳过"
+    translated: "Long press space to skip"
 - raw: "长按详情"
   splits:
   - text: "长按详情"
+    translated: "Long press for details"
 - raw: "长按返回"
   splits:
   - text: "长按返回"
+    translated: "Long press to return"
 - raw: "长老"
   splits:
   - text: "长老"
+    translated: "Elder"
 - raw: "长风归时长风归时长"
   splits:
   - text: "长风归时长风归时长"
+    translated: "Long Wind Returns When Long Wind Returns"
 - raw: "门派:"
   splits:
   - text: "门派"
+    translated: "Sect"
   templates:
   - template: "{0}:"
 - raw: "门派位阶:"
   splits:
   - text: "门派位阶"
+    translated: "Sect Rank"
   templates:
   - template: "{0}:"
 - raw: "闪"
   splits:
   - text: "闪"
+    translated: "Flash"
 - raw: "闪躲"
   splits:
   - text: "闪躲"
+    translated: "Dodge"
 - raw: "闪避"
   splits:
   - text: "闪避"
+    translated: "Dodge"
 - raw: "闪避:"
   splits:
   - text: "闪避"
+    translated: "Dodge"
   templates:
   - template: "{0}:"
 - raw: "防"
   splits:
   - text: "防"
+    translated: "Defend"
 - raw: "防具"
   splits:
   - text: "防具"
+    translated: "Armor Gear"
 - raw: "阿斯达是的"
   splits:
   - text: "阿斯达是的"
+    translated: "Asda is right"
 - raw: "阿斯顿撒"
   splits:
   - text: "阿斯顿撒"
+    translated: "Astonish"
 - raw: "隐月楼使者"
   splits:
   - text: "隐月楼使者"
+    translated: "Yinyue Tower Messenger"
 - raw: "雨天"
   splits:
   - text: "雨天"
+    translated: "Rainy day"
 - raw: "雪天"
   splits:
   - text: "雪天"
+    translated: "Snowy day"
 - raw: "雷雨"
   splits:
   - text: "雷雨"
+    translated: "Thunderstorm"
 - raw: "雾天"
   splits:
   - text: "雾天"
+    translated: "Foggy day"
 - raw: "震古烁今"
   splits:
   - text: "震古烁今"
+    translated: "Peerless"
 - raw: "青城山的墨白，珍珠城的欧阳，再加上南海娘子……这世上，本来已没有什么事能打动他们的了，但现在他们都已出手。叶开若知道，一定会觉得很愉快！"
   splits:
   - text: "青城山的墨白，珍珠城的欧阳，再加上南海娘子……这世上，本来已没有什么事能打动他们的了，但现在他们都已出手。叶开若知道，一定会觉得很愉快！"
+    translated: "Moboai of Qingcheng Mountain, Ou Yang of Pearl City, and now the Lady of the South Sea... In this world, nothing could move them anymore, but they have all taken action. If Ye Kai knew about this, he would surely be very pleased!"
 - raw: "顺旋脉路"
   splits:
   - text: "顺旋脉路"
+    translated: "Clockwise Path"
 - raw: "飞鸽传书"
   splits:
   - text: "飞鸽传书"
+    translated: "Carrier Pigeon"
 - raw: "食:"
   splits:
   - text: "食"
+    translated: "Eat"
   templates:
   - template: "{0}:"
 - raw: "食物"
   splits:
   - text: "食物"
+    translated: "Food"
 - raw: "饱 "
   splits:
   - text: "饱"
+    translated: "Full"
   templates:
   - template: "{0} "
 - raw: "鬼祟偷儿"
   splits:
   - text: "鬼祟偷儿"
+    translated: "Sneaky Thief"
 - raw: "魔"
   splits:
   - text: "魔"
+    translated: "Magic"
 - raw: "鼠标左键"
   splits:
   - text: "鼠标左键"
+    translated: "Left mouse button"

@@ -35,7 +35,7 @@ A scan of the decompiled code (`Files/Raw/Decompiled/`) found no sprite loads by
   translating the Chinese side would make the game rewrite our English into its English.
 
 [`Files/DynamicStringsDoNotTranslate.csv`](../../Files/DynamicStringsDoNotTranslate.csv) lists them as `Kind,Reason,Type,Method,Raw`
-(891 rows from the scan on 2026-10-13):
+(911 rows: 891 from the scan on 2026-10-13, plus 20 added after in-game errors):
 
 - `Key` rows are never translated.
 - `Log` rows are log and exception text the player never sees. They are skipped only while `DynamicStringRules.SkipLogStrings` is true
@@ -48,6 +48,12 @@ already marked. `DynamicStringRulesTests` fails when a row no longer matches the
 
 The scan was a heuristic over the decompiled source line, not a full data-flow analysis. The reasons in the CSV are a guide; a
 literal that looks wrong in game may be missing from it, and a few display strings may be listed. Edit the CSV by hand.
+
+Known misses, found from `Player.log` (`BepInEx` log has the patcher errors, the Unity log has the game's): Excel workbook and sheet
+names assigned to a local first (`text = "角色战斗AI"; GetDictionary(text, text, …)`) were not matched, and translating them makes the
+game fail with `Could not find file …\<English name>.xlsx` or `Please check sheetName`. Exception text in `IEvent.EventSystem`
+(`Fire`, `OnListeningAdd/Remove`) was also missed, and patching that method made the game throw `Event SecondUpdate contains different
+types of commissions` every second. Both are now `Key`/`Log` rows. After a game update, check `Player.log` for these before a release.
 
 ## Known gap: the game's own English wins
 

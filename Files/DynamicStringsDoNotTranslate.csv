@@ -890,3 +890,23 @@ Key,Replace pattern,WuxueData,GetWeaponType,奇门-
 Key,compared with data,WuxueData,GetWeaponType,拳
 Key,compared with data,WuxueData,GetWeaponType,长兵
 Key,Replace pattern,WuxueData,GetWeaponType,长兵-
+Key,sheet name,GDataManager,LoadData_Child5,战斗属性计算公式
+Key,sheet name,GDataManager,LoadData_Child5,境界系数
+Key,sheet name,GDataManager,LoadData_Child5,角色战斗AI
+Key,sheet name,GDataManager,LoadData_Child5,角色动作配置
+Key,sheet name,GDataManager,LoadData_Child5,角色战斗基础配置
+Key,sheet name,GDataManager,LoadData_Child5,飞行道具配置
+Key,sheet name,GDataManager,LoadData_Child5,飞行道具伤害表
+Key,sheet name,GDataManager,LoadData_Child5,任务标签
+Key,sheet name,GDataManager,LoadData_Child5,战斗脚本
+Key,sheet name,GDataManager,LoadInfoData,境界
+Key,sheet name,GDataManager,LoadItemData,任务
+Key,sheet name,GDataManager,InitWorldEvolutionData,战斗属性计算公式
+Log,log or exception text,IEvent.EventSystem,OnListeningAdd,尝试添加两种不同类型的委托，委托1为{0}，委托2为{1}
+Log,log or exception text,IEvent.EventSystem,OnListeningRemove,移除事件监听错误，事件{0}没有委托
+Log,log or exception text,IEvent.EventSystem,OnListeningRemove,尝试移除不同类型的事件，事件名{0}，已存储的委托类型{1}，当前事件委托{2}
+Log,log or exception text,IEvent.EventSystem,OnListeningRemove,没有事件名{0}
+Log,log or exception text,IEvent.EventSystem,Fire,事件{0}包含着不同类型的委托
+Log,log or exception text,IEvent.M_EventSystem,RegisterSystem,尝试绑定两个不同类型的方法，已有的类型{0}，需要添加的类型{1}
+Log,log or exception text,IEvent.M_EventSystem,UnBind,没有对应的事件，event_id: {0}
+Log,log or exception text,IEvent.M_EventSystem,UnBind,没有对应的事件，eventName: {0}
