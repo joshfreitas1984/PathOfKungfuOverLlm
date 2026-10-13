@@ -20,19 +20,19 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
-    qcReviewedText: "Light Attack·One-Handed Light Blade"
+    qcReviewedText: "Light Attack·1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   - split: 5
     text: "江湖中流转的单手轻刃武学，招式轻灵潇洒，迅疾无形。连续按键会使出连续轻击动作。"
-    translated: "The one-handed light blade martial art that circulates in the Jianghu features swift and graceful moves that are quick and formless.\\n\\nContinuous button presses will execute a series of light attacks. Continuous button presses will execute a series of light attacks."
-    qcReviewedText: "The one-handed light blade martial art that circulates in the Jianghu features swift and graceful moves that are quick and formless.\\n\\nContinuous button presses will execute a series of light attacks. Continuous button presses will execute a series of light attacks."
-    qcTranslated: "The One-Handed Light Blade Martial Art that circulates in the Jianghu features swift and graceful Moves that are quick and formless.\\n\\nContinuous button presses will execute a series of Light Attacks."
+    translated: "The 1H light blade martial art that circulates in the Jianghu features swift and graceful moves that are quick and formless.\\n\\nContinuous button presses will execute a series of light attacks. Continuous button presses will execute a series of light attacks."
+    qcReviewedText: "The 1H light blade martial art that circulates in the Jianghu features swift and graceful moves that are quick and formless.\\n\\nContinuous button presses will execute a series of light attacks. Continuous button presses will execute a series of light attacks."
+    qcTranslated: "The 1H Light Blade Martial Art that circulates in the Jianghu features swift and graceful Moves that are quick and formless.\\n\\nContinuous button presses will execute a series of Light Attacks."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -184,18 +184,18 @@
   - split: 2
     text: "轻击"
     translated: "Light Attack"
-    qcReviewedText: "Light Attack·Two-Handed Light Blade"
+    qcReviewedText: "Light Attack·2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   - split: 5
     text: "江湖中流转的双手轻刃武学，其招式与中原武学迥异。连续按键会使出连续轻击动作。"
-    translated: "The Two-Handed Light Blade martial arts that circulate in the Jianghu have moves that differ greatly from those of Central Plains martial arts. Pressing buttons consecutively will perform a series of Light Attacks."
-    qcReviewedText: "The Two-Handed Light Blade martial arts that circulate in the Jianghu have moves that differ greatly from those of Central Plains martial arts. Pressing buttons consecutively will perform a series of Light Attacks."
+    translated: "The 2H Light Blade martial arts that circulate in the Jianghu have moves that differ greatly from those of Central Plains martial arts. Pressing buttons consecutively will perform a series of Light Attacks."
+    qcReviewedText: "The 2H Light Blade martial arts that circulate in the Jianghu have moves that differ greatly from those of Central Plains martial arts. Pressing buttons consecutively will perform a series of Light Attacks."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

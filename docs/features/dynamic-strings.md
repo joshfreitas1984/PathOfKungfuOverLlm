@@ -19,7 +19,13 @@ runtime dumps, go through the normal translate/QC pipeline, and are packaged for
 Workflow mechanics (export shape, fallbacks, the `Converted` file being kept between exports) are in the sibling repo:
 `FanslationStudio.LlmKit/docs/features/text-handling/dynamic-strings.md` and `prefab-text-workflow.md`.
 
-After a game update, re-dump and copy the files over. `Converted/` is preserved on re-export, so existing translations are kept.
+After a game update, re-dump and copy the files over. Translations are kept for every line still in the new dump, but export rewrites `Converted/`
+from the dump, so a line that is **not** in the new dump is dropped. Never add strings to `prefabText.txt` or its `Converted` file by hand.
+
+Strings the dumper cannot find, because the game builds them at runtime, go in [`Files/Raw/Dumped/PrefabText/prefabText.extra.txt`](../../Files/Raw/Dumped/PrefabText/prefabText.extra.txt)
+(one per line, written by hand and never overwritten by a dump; registered in `TextFileConfiguration.cs`). It is translated and packaged like
+the dump, to `Mod/prefabText.extra.txt.yaml`, and the plugin loads it because it loads every `*prefabText*` file. Today it holds the 16 key names the
+game shows raw from its settings (`空格`, `左SHIFT`, ...).
 
 ## Strings that must not be translated
 

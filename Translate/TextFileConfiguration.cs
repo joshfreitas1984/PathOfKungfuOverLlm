@@ -94,6 +94,9 @@ public static class TextFileConfiguration
             // Hard-coded UI text baked into prefabs (Raw/Dumped/PrefabText) and string literals in the game's code
             // (Raw/Dumped/DynamicStrings: Type,Method,ILOffset,RawText,ParamTypes).
             new() { Path = "prefabText.txt", TextFileType = TextFileType.PrefabText },
+            // Strings the dumper cannot find because the game builds them at runtime (key names, ...). Written by hand, so a re-dump never replaces it;
+            // the plugin loads every *prefabText* file. See docs/features/dynamic-strings.md.
+            new() { Path = "prefabText.extra.txt", TextFileType = TextFileType.PrefabText },
             new() { Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings },
     ];
 }

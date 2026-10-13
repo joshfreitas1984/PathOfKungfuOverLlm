@@ -23,6 +23,8 @@
 
   <!-- The plugin's injection logic is plain C#; its sources are compiled in here so it can be tested without the game. -->
   <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="3.0.5" />
+    <PackageReference Include="AssetsTools.NET.MonoCecil" Version="3.0.4" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <Compile Include="..\PathOfKungfuPlugin\Translations.cs" Link="Plugin\Translations.cs" />
     <Compile Include="..\PathOfKungfuPlugin\JsonInjector.cs" Link="Plugin\JsonInjector.cs" />

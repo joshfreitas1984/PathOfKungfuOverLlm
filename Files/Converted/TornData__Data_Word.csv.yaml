@@ -373,8 +373,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -445,8 +445,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1547,8 +1547,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1565,8 +1565,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1871,8 +1871,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1889,8 +1889,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2375,8 +2375,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2429,8 +2429,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2771,8 +2771,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2798,8 +2798,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2888,8 +2888,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2906,8 +2906,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3130,14 +3130,14 @@
   - split: 3
     text: "轻击"
     translated: "Light Attack"
-    qcReviewedText: "Light Attack·One-Handed Light Blade"
+    qcReviewedText: "Light Attack·1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -3226,14 +3226,14 @@
   - split: 3
     text: "轻击"
     translated: "Light Attack"
-    qcReviewedText: "Light Attack·Two-Handed Light Blade"
+    qcReviewedText: "Light Attack·2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -3347,14 +3347,14 @@
   - split: 3
     text: "重击"
     translated: "Heavy Attack"
-    qcReviewedText: "Heavy Attack·One-Handed Light Blade"
+    qcReviewedText: "Heavy Attack·1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -3443,14 +3443,14 @@
   - split: 3
     text: "重击"
     translated: "Heavy Attack"
-    qcReviewedText: "Heavy Attack·Two-Handed Light Blade"
+    qcReviewedText: "Heavy Attack·2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 3
     subIndex: 1
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   templates:
   - split: 3
     template: "{0}·{1}"
@@ -3565,8 +3565,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3619,8 +3619,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4339,8 +4339,8 @@
   splits:
   - split: 3
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
-    qcReviewedText: "One-Handed Light Blade"
+    translated: "1H Light Blade"
+    qcReviewedText: "1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4393,8 +4393,8 @@
   splits:
   - split: 3
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
-    qcReviewedText: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
+    qcReviewedText: "2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

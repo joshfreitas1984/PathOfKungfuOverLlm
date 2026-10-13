@@ -2181,17 +2181,17 @@
 - raw: "单手轻刃"
   splits:
   - text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
 - raw: "单手轻刃:"
   splits:
   - text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - template: "{0}:"
 - raw: "单手轻刃单手轻刃"
   splits:
   - text: "单手轻刃单手轻刃"
-    translated: "One-Handed Light Blade One-Handed Light Blade"
+    translated: "1H Light Blade 1H Light Blade"
 - raw: "占位占位占位占位占位占位"
   splits:
   - text: "占位占位占位占位占位占位"
@@ -2207,11 +2207,11 @@
 - raw: "双手轻刃"
   splits:
   - text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
 - raw: "双手轻刃:"
   splits:
   - text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   templates:
   - template: "{0}:"
 - raw: "反"
@@ -3119,7 +3119,7 @@
     translated: "Martial Art Sample"
   - subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - template: "{0}\"{1}"
 - raw: "武学注解"
@@ -3994,4 +3994,4 @@
 - raw: "鼠标左键"
   splits:
   - text: "鼠标左键"
-    translated: "Left mouse button"
+    translated: "Left Mouse"

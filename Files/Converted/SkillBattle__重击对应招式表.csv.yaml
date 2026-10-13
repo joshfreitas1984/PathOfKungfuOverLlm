@@ -46,19 +46,19 @@
   - split: 2
     text: "重击"
     translated: "Heavy Attack"
-    qcReviewedText: "Heavy Attack·One-Handed Light Blade"
+    qcReviewedText: "Heavy Attack·1H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   - split: 5
     text: "江湖中流转的单手轻刃之重击，招式轻灵潇洒，迅疾无形。"
-    translated: "The Heavy Attack of the One-Handed Light Blade circulating in the Jianghu is light and graceful, swift and intangible.swift and intangible."
-    qcReviewedText: "The Heavy Attack of the One-Handed Light Blade circulating in the Jianghu is light and graceful, swift and intangible.swift and intangible."
-    qcTranslated: "The Heavy Attack of the One-Handed Light Blade circulating in the Jianghu is a Move that is light and graceful, swift and intangible."
+    translated: "The Heavy Attack of the 1H Light Blade circulating in the Jianghu is light and graceful, swift and intangible.swift and intangible."
+    qcReviewedText: "The Heavy Attack of the 1H Light Blade circulating in the Jianghu is light and graceful, swift and intangible.swift and intangible."
+    qcTranslated: "The Heavy Attack of the 1H Light Blade circulating in the Jianghu is a Move that is light and graceful, swift and intangible."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -190,18 +190,18 @@
   - split: 2
     text: "重击"
     translated: "Heavy Attack"
-    qcReviewedText: "Heavy Attack·Two-Handed Light Blade"
+    qcReviewedText: "Heavy Attack·2H Light Blade"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   - split: 5
     text: "江湖中流转的双手轻刃之重击，其招式与中原武学迥异。"
-    translated: "The Heavy Attack of the Two-Handed Light Blade circulating in the Jianghu is vastly different from the martial arts of Central Plains."
-    qcReviewedText: "The Heavy Attack of the Two-Handed Light Blade circulating in the Jianghu is vastly different from the martial arts of Central Plains."
+    translated: "The Heavy Attack of the 2H Light Blade circulating in the Jianghu is vastly different from the martial arts of Central Plains."
+    qcReviewedText: "The Heavy Attack of the 2H Light Blade circulating in the Jianghu is vastly different from the martial arts of Central Plains."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

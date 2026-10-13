@@ -5775,8 +5775,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -5785,7 +5785,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -5797,8 +5797,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -5807,7 +5807,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -5819,8 +5819,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -5829,7 +5829,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -6193,8 +6193,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -6203,7 +6203,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -6215,8 +6215,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -6225,7 +6225,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -6237,8 +6237,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -6247,7 +6247,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -15435,8 +15435,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -15445,7 +15445,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -15457,8 +15457,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -15467,7 +15467,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -15479,8 +15479,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -15489,7 +15489,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -15853,8 +15853,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -15863,7 +15863,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -15875,8 +15875,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -15885,7 +15885,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -15897,8 +15897,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -15907,7 +15907,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -31039,8 +31039,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -31049,7 +31049,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -31061,8 +31061,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -31071,7 +31071,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -31083,8 +31083,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -31093,7 +31093,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -31457,8 +31457,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -31467,7 +31467,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -31479,8 +31479,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -31489,7 +31489,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -31501,8 +31501,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -31511,7 +31511,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -40414,8 +40414,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -40424,7 +40424,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -40436,8 +40436,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -40446,7 +40446,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -40458,8 +40458,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -40468,7 +40468,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -40832,8 +40832,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -40842,7 +40842,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -40854,8 +40854,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -40864,7 +40864,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -40876,8 +40876,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -40886,7 +40886,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -52281,8 +52281,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -52291,7 +52291,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -52303,8 +52303,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -52313,7 +52313,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -52325,8 +52325,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -52335,7 +52335,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -52699,8 +52699,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -52709,7 +52709,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -52721,8 +52721,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -52731,7 +52731,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -52743,8 +52743,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -52753,7 +52753,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -61295,8 +61295,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -61305,7 +61305,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -61317,8 +61317,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -61327,7 +61327,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -61559,8 +61559,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -61569,7 +61569,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -61581,8 +61581,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -61591,7 +61591,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -71078,8 +71078,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -71088,7 +71088,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -71100,8 +71100,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -71110,7 +71110,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -71122,8 +71122,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -71132,7 +71132,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -71496,8 +71496,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -71506,7 +71506,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -71518,8 +71518,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -71528,7 +71528,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -71540,8 +71540,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -71550,7 +71550,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -75536,8 +75536,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -75546,7 +75546,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击》"
-    translated: "One-Handed Light Blade Light Attack"
+    translated: "1H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -75558,8 +75558,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -75568,7 +75568,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃轻击叁式》"
-    translated: "One-Handed Light Blade Light Attack III"
+    translated: "1H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -75580,8 +75580,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>One-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>1H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -75590,7 +75590,7 @@
   - split: 17
     subIndex: 1
     text: "《单手轻刃重击》"
-    translated: "One-Handed Light Blade Heavy Attack"
+    translated: "1H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -75954,8 +75954,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -75964,7 +75964,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击》"
-    translated: "Two-Handed Light Blade Light Attack"
+    translated: "2H Light Blade Light Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -75976,8 +75976,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Light Attack III</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Light Attack III</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -75986,7 +75986,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃轻击叁式》"
-    translated: "Two-Handed Light Blade Light Attack III"
+    translated: "2H Light Blade Light Attack III"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"
@@ -75998,8 +75998,8 @@
   - split: 17
     text: "购取了一册"
     translated: "Bought a volume of"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>。"
-    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>Two-Handed Light Blade Heavy Attack</color>."
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>。"
+    qcTranslated: "<color=#E64D00>{npcName}</color> bought a volume of <color=#B08200>2H Light Blade Heavy Attack</color>."
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -76008,7 +76008,7 @@
   - split: 17
     subIndex: 1
     text: "《双手轻刃重击》"
-    translated: "Two-Handed Light Blade Heavy Attack"
+    translated: "2H Light Blade Heavy Attack"
   templates:
   - split: 17
     template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{1}</color>。"

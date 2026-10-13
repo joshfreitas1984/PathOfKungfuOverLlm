@@ -214466,14 +214466,14 @@
   - split: 4
     text: "｛接过精铜长剑｝"
     translated: "｛Take the Fine Copper Longsword｝"
-    qcReviewedText: "｛Take the Fine Copper Longsword｝(One-Handed Light Blade)"
+    qcReviewedText: "｛Take the Fine Copper Longsword｝(1H Light Blade)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - split: 4
     template: "{0}({1})"
@@ -214482,14 +214482,14 @@
   - split: 4
     text: "｛接过精铜横刀｝"
     translated: "｛Take the Fine Copper Heng Blade｝"
-    qcReviewedText: "｛Take the Fine Copper Heng Blade｝(One-Handed Light Blade\\n)"
+    qcReviewedText: "｛Take the Fine Copper Heng Blade｝(1H Light Blade\\n)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - split: 4
     template: "{0}({1}\\n)"
@@ -214594,14 +214594,14 @@
   - split: 4
     text: "｛接过精铜苗刀｝"
     translated: "｛Take the Fine Copper Miao Blade｝"
-    qcReviewedText: "｛Take the Fine Copper Miao Blade｝(Two-Handed Light Blade)"
+    qcReviewedText: "｛Take the Fine Copper Miao Blade｝(2H Light Blade)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   templates:
   - split: 4
     template: "{0}({1})"
@@ -321931,14 +321931,14 @@
   - split: 4
     text: "取得硬木剑。"
     translated: "Obtained the Hardwood Sword"
-    qcReviewedText: "Obtained the Hardwood Sword[One-Handed Light Blade]"
+    qcReviewedText: "Obtained the Hardwood Sword[1H Light Blade]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "单手轻刃"
-    translated: "One-Handed Light Blade"
+    translated: "1H Light Blade"
   templates:
   - split: 4
     template: "{0}[{1}]"
@@ -321979,14 +321979,14 @@
   - split: 4
     text: "取得竹木切。"
     translated: "Obtained Bamboo-and-Wood Cutter"
-    qcReviewedText: "Obtained Bamboo-and-Wood Cutter[Two-Handed Light Blade]"
+    qcReviewedText: "Obtained Bamboo-and-Wood Cutter[2H Light Blade]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "双手轻刃"
-    translated: "Two-Handed Light Blade"
+    translated: "2H Light Blade"
   templates:
   - split: 4
     template: "{0}[{1}]"
@@ -322142,8 +322142,8 @@
   splits:
   - split: 4
     text: "单手轻刃飘逸灵动，该选此剑……"
-    translated: "The One-Handed Light Blade is graceful and agile; you should choose this sword......"
-    qcReviewedText: "The One-Handed Light Blade is graceful and agile; you should choose this sword......[Suggest focusing on primary attributes：Agility]"
+    translated: "The 1H Light Blade is graceful and agile; you should choose this sword......"
+    qcReviewedText: "The 1H Light Blade is graceful and agile; you should choose this sword......[Suggest focusing on primary attributes：Agility]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -322259,9 +322259,9 @@
   splits:
   - split: 4
     text: "双手轻刃兼顾灵巧与威势，妥实均衡……"
-    translated: "The two-handed light blade balances agility and power, perfectly poised..."
-    qcReviewedText: "The two-handed light blade balances agility and power, perfectly poised...[Suggest focusing on primary attributes：Might]"
-    qcTranslated: "The Two-Handed Light Blade balances agility and power, perfectly poised...[Suggest focusing on primary attributes：Might]"
+    translated: "The 2H light blade balances agility and power, perfectly poised..."
+    qcReviewedText: "The 2H light blade balances agility and power, perfectly poised...[Suggest focusing on primary attributes：Might]"
+    qcTranslated: "The 2H Light Blade balances agility and power, perfectly poised...[Suggest focusing on primary attributes：Might]"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -324241,8 +324241,8 @@
   splits:
   - split: 4
     text: "似此这般双手轻刃，需双手同持方可回转自如，比单刀单剑势大力沉，又比长棍铁枪之流灵动飘逸……"
-    translated: "Like this two-handed light blade, it requires both hands to wield freely. It is more powerful than a single blade or sword but more agile and graceful than a staff or spear..."
-    qcReviewedText: "Like this two-handed light blade, it requires both hands to wield freely. It is more powerful than a single blade or sword but more agile and graceful than a staff or spear..."
+    translated: "Like this 2H light blade, it requires both hands to wield freely. It is more powerful than a single blade or sword but more agile and graceful than a staff or spear..."
+    qcReviewedText: "Like this 2H light blade, it requires both hands to wield freely. It is more powerful than a single blade or sword but more agile and graceful than a staff or spear..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

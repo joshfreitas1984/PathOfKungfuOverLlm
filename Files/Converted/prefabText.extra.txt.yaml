@@ -1,0 +1,64 @@
+- raw: "空格"
+  splits:
+  - text: "空格"
+    translated: "Space"
+- raw: "鼠标左键"
+  splits:
+  - text: "鼠标左键"
+    translated: "Left Mouse"
+- raw: "鼠标右键"
+  splits:
+  - text: "鼠标右键"
+    translated: "Right Mouse"
+- raw: "鼠标中键"
+  splits:
+  - text: "鼠标中键"
+    translated: "Middle Mouse"
+- raw: "方向键上"
+  splits:
+  - text: "方向键上"
+    translated: "Up Arrow"
+- raw: "方向键下"
+  splits:
+  - text: "方向键下"
+    translated: "Down Arrow"
+- raw: "方向键左"
+  splits:
+  - text: "方向键左"
+    translated: "Left Arrow"
+- raw: "方向键右"
+  splits:
+  - text: "方向键右"
+    translated: "Right Arrow"
+- raw: "左SHIFT"
+  splits:
+  - text: "左SHIFT"
+    translated: "Left Shift"
+- raw: "右SHIFT"
+  splits:
+  - text: "右SHIFT"
+    translated: "Right Shift"
+- raw: "左ALT"
+  splits:
+  - text: "左ALT"
+    translated: "Left Alt"
+- raw: "右ALT"
+  splits:
+  - text: "右ALT"
+    translated: "Right Alt"
+- raw: "左CONTROL"
+  splits:
+  - text: "左CONTROL"
+    translated: "Left Ctrl"
+- raw: "右CONTROL"
+  splits:
+  - text: "右CONTROL"
+    translated: "Right Ctrl"
+- raw: "鼠标侧下"
+  splits:
+  - text: "鼠标侧下"
+    translated: "Mouse Button 4"
+- raw: "鼠标侧上"
+  splits:
+  - text: "鼠标侧上"
+    translated: "Mouse Button 5"

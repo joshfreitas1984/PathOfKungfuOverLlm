@@ -10268,12 +10268,12 @@
   splits:
   - split: 3
     text: "鼠标侧下"
-    translated: "Mouse side down"
+    translated: "Mouse Button 4"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,635,鼠标侧上,[]"
   splits:
   - split: 3
     text: "鼠标侧上"
-    translated: "Mouse side up"
+    translated: "Mouse Button 5"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,661,空格,[]"
   splits:
   - split: 3
@@ -10368,12 +10368,12 @@
   splits:
   - split: 3
     text: "鼠标侧下"
-    translated: "Mouse side down"
+    translated: "Mouse Button 4"
 - raw: "UISettingsNew,Update,601,鼠标侧上,[]"
   splits:
   - split: 3
     text: "鼠标侧上"
-    translated: "Mouse side up"
+    translated: "Mouse Button 5"
 - raw: "UISettingsNew,<InitKeyPanel>b__66_0,24,保存成功！,[]"
   splits:
   - split: 3
@@ -12864,7 +12864,7 @@
   splits:
   - split: 3
     text: "{0}_单手轻刃"
-    translated: "{0}_One-Handed Light Blade"
+    translated: "{0}_1H Light Blade"
 - raw: "UI.UISwordVillageGM.BaseView.GmItemViewContent,GetWeaponType,117,{0}_重刃,[System.Int32]"
   splits:
   - split: 3
@@ -12894,7 +12894,7 @@
   splits:
   - split: 3
     text: "{0}_双手轻刃"
-    translated: "{0}_Two-Handed Light Blade"
+    translated: "{0}_2H Light Blade"
 - raw: "UI.UISwordVillageGM.BaseView.GmItemViewContent,GetWeaponType,243,{0}_绳镖,[System.Int32]"
   splits:
   - split: 3

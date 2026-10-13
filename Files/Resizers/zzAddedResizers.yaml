@@ -91,8 +91,8 @@
   adjustWidth: 23
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Content/item*/tip
   sampleText: Max HP︻7800︼
-  idealFontSize: 16
   alignment: MiddleCenter
+  allowAutoSizing: true
   adjustWidth: 30
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Attribute/JbAttribute/HaoList/Item(Clone)/show/Text
   sampleText: Preserved fruit
@@ -124,3 +124,50 @@
   sampleText: 'New Path:'
   idealFontSize: 26
   adjustX: -5
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UILiftSkillZhu/Connect/Dz/Btn*List/*/Tip*/Tip1
+  sampleText: One-Handed Light Blade
+  idealFontSize: 20
+  alignment: MiddleCenter
+  adjustWidth: 5
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_SanXue_Current
+  sampleText: Current Miscellaneous Art
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_TongShi_Current
+  sampleText: Current Common Form
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_WuGong_Current
+  sampleText: Current Martial Skill
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_NeiGong_Current
+  sampleText: Current Neigong
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_QingGong_Current
+  sampleText: Current qinggong
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Content_*/*/Text
+  sampleText: FistAndPalm
+  idealFontSize: 16
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/obj_wugong/modify/UI_BtnCommon/Text (Legacy)
+  sampleText: Martial Art Hybridization
+  idealFontSize: 14
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: -12
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/objSanXue/ItemSkill/Text_btn
+  sampleText: Left mouse button
+  idealFontSize: 15
+  alignment: UpperCenter
+  allowWordWrap: true
+  adjustY: -3
+  adjustWidth: 50
