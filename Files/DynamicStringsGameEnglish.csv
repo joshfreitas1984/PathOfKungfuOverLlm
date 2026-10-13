@@ -1,0 +1,148 @@
+Type,Method,English,Chinese
+ActionFrame.Runtime.ESkeletonAnimation,CanUseSkillPoint,No Magic,真气不足
+BattleARPG,ShowTextWuDi,onfaer ,目标无敌
+BattleARPG,Update, in CD,尚在调息中
+BattleARPG,UpdatePlayerInput, in CD,尚在调息中
+BattleARPG/<>c__DisplayClass317_0,<ReleaseSkill>b__4,No Magic,真气不足!释放失败!
+BattleARPG/<>c__DisplayClass317_0,<ReleaseSkill>b__6,No En,体力不足!释放失败!
+BattleARPG/<>c__DisplayClass317_0,<ReleaseSkill>b__8,No Hp,气血不足!释放失败!
+BattleARPG/<>c__DisplayClass317_1,<ReleaseSkill>b__3,Use Skill,技能释放成功，进入CD
+GProject.GItemData,GetMijiUseDes,<color=#5A5858>(NotFull)</color>,<color=#5A5858>(此章残缺)</color>
+NpcTalk,<ActionDialogYeWaiBoss>b__71_1,Go,挑战。
+NpcTalk,<ActionDialogYeWaiBoss>b__71_1,Leave,离开。
+NpcTalk,NpcSrcout,can not do it,银两不足
+NpcTalk/<>c__DisplayClass294_0,<HandleEscortNpcTalk>b__1,More,更多
+NpcTalk/<>c__DisplayClass298_0,<HandleRobNpcTalk>b__1,More,更多
+PlayerDataManager,AddTiLi,Energy Max,精力值已恢复至上限
+PlayerDataManager,AddTiLi,Energy add{0},精力增加{0}
+PlayerDataManager,ChangeCurrency,Can not do it,修为不足
+PlayerDataManager,ChangeCurrency,EXP+,修为+
+PlayerDataManager,ChangeCurrency,EXP-,修为-
+PlayerDataManager,ChangeCurrency,No Money,银两不足
+PlayerDataManager,UpEquip,can not do it,需学习武器对应的江湖散学，方可装配此武器。
+PlayerDataManager,UpEquip,need level,穿戴此装备需要境界：
+PlayerDataManager,UseItem,can not do it,需要先学习该武学总章
+PlayerDataManager/<>c__DisplayClass34_2,<UseItem>b__1,Success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_2,<UseItem>b__1,success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__2,Success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__2,success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__3,Success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__3,success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__4,success,修习秘籍成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__5,Success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_3,<UseItem>b__5,success,秘籍修习成功
+PlayerDataManager/<>c__DisplayClass34_4,<UseItem>b__6,success,修习秘籍成功
+PlayerDataManager/<>c__DisplayClass34_5,<UseItem>b__7,success,修习秘籍成功
+ResManager/<GoUploadArchiveTask>d__34,MoveNext,Can not do it,存档数量已达上限!
+ResManager/<GoUploadArchiveTask>d__34,MoveNext,Success,存档成功!
+ResManager/<GoUploadArchiveTask>d__34,MoveNext,false,存档失败！
+SanCaiBookNodeContent,UpdateXuXingCount,Remain:{0},剩余悟性:{0}
+TipShowWinNewPanel,SetUiData,Content,【所载内容】
+TipShowWinNewPanel,SetUiData,Effect,【服用效果】
+TipShowWinNewPanel,SetUiData,Effect,【食用效果】
+TipShowWinNewPanel,SetUiData,None,无
+TipShowWinNewPanel,SetUiData,【Attribute】,【基础属性】
+UIEquipItem,SetZbTip,Add Att,附加属性:
+UIGameArchiveItem/<>c__DisplayClass18_0,<InitData>b__0,use it?,是否覆盖该存档？
+UIGameArchiveItem/<>c__DisplayClass18_0,<InitData>b__0,wait,请等待存档完成
+UIGameInbornItem/<>c__DisplayClass5_0,<SetUiData>b__0,Can not do it,剩余天赋点不足
+UIHeTuLuoShu,<Init>b__34_0,Can not do it,剩余悟性值不足
+UIHeTuLuoShu/<>c__DisplayClass36_2,<InitHeTuLuoShuCaoWei>b__4,Can not do it,剩余悟性值不足
+UIHeTuLuoShu/<>c__DisplayClass36_2,<InitHeTuLuoShuCaoWei>b__4,ok,开启成功
+UIJingJieNew,<LevelUp>b__51_1,success,境界突破成功
+UIJingJieNew,InitNextAttributeShuxData,Attr Points,可分配属性点
+UIJingJieNew,InitNextAttributeShuxData,Mag Atk,内功攻击
+UIJingJieNew,InitNextAttributeShuxData,Mag Def,内功防御
+UIJingJieNew,InitNextAttributeShuxData,Max HP,气血上限
+UIJingJieNew,InitNextAttributeShuxData,Phy Atk,外功攻击
+UIJingJieNew,InitNextAttributeShuxData,Phy Def,外功防御
+UIJingLuoNpc,<Start>b__28_2,success,经脉贯通成功
+UILiftSkill,SetCookLvData,MAX,已达最大等级
+UIMain,BattleTeamTrigger,Can not do it,精力不足以战斗，请补充精力
+UIMain,OnEndLoadMap,use qinggong!,可以按轻功键（默认是F）使用轻功
+UIMain,ShowTouchTalk,nothing,我没有什么想说的
+UIMain/<>c__DisplayClass222_0,<ShowSearch>b__1,none,什么也没发现
+UIMain/<>c__DisplayClass226_1,<ShowCollect>b__2,Can not do it,可采集次数不足
+UIMain/<>c__DisplayClass247_3,<ShowTalks>b__9,false,密语错误！
+UIMain/<>c__DisplayClass247_3,<ShowTalks>b__9,password,请输入密语
+UIMainExtend,LateUpdate,Warning,此处危机四伏，轻易施展轻功只怕凶多吉少……
+UIMainExtend,StartFly,Warning,此处危机四伏，轻易施展轻功只怕凶多吉少……
+UIMainExtend/<>c,<SetGmData>b__61_4,Success,境界提升成功
+UIMap,TryGoToMap,Move to{0}(need {1} day)?,是否快速移动至{0}(约需要{1}天)?
+UIMiJuan,OnSelectSkillData,Can not do it,剩余悟性值不足
+UIMiJuan/<>c__DisplayClass17_0,<SetMySkillData>b__2,Can not do it,该槽位需要天赋<昏昭智愚>才能开启
+UIMiJuan/<>c__DisplayClass17_0,<SetMySkillData>b__2,use wuxing to learn?,是否消耗{0}点悟性值开启1个密卷装备位？
+UIMiJuan/<>c__DisplayClass17_2,<SetMySkillData>b__3,Can not do it,剩余悟性值不足
+UIModProjNew,OnClickBtnOk,input name,请输入模组项目名称
+UIModSaving,OnOverTime,to much time to wait,保存超时
+UIRankItemDragHandle,OnEndDrag,Can not do it,该位阶人数已满
+UISettingsNew,<InitKeyPanel>b__66_0,OK,保存成功！
+UIShopShow,<Start>b__81_0,at least 1,购买数量不能少于1
+UIShopShow,<Start>b__81_1,it is max,已达库存最大值
+UIShopShow,<Start>b__81_5,at least 1,出售数量不能少于1
+UIShopShow,<Start>b__81_6,it is max,已达库存最大值
+UIShopShow,MakeRoleItemList,My Gold,我的银两:
+UIShopShow,MakeRoleItemList,My Money,我的银两:
+UIShopShow,MakeRoleItemList,Sell Gold,出售银两:
+UIShopShow,SetBuyNUmShow,,文
+UIShopShow,SetBuyNUmShow,My Gold,我的银两:
+UIShopShow,SetBuyNUmShow,My Money,我的银两:
+UIShopShow,SetBuyNUmShow,My Repu,我的声望:
+UIShopShow,SetBuyNUmShow,My gongxun,我的功勋:
+UIShopShow,SetBuyNUmShow,Need Money,所需银两:
+UIShopShow,SetBuyNUmShow,Need Repu,所需声望:
+UIShopShow,SetBuyNUmShow,Need gongxun,所需功勋:
+UIShopShow,SetKongTips,,文
+UIShopShow,SetSellNUmShow,,文
+UIShopShow/<>c__DisplayClass88_0,<UpRightBuyData>b__0,Can not do it,库存不足
+UIShopShow/<>c__DisplayClass88_0,<UpRightBuyData>b__0,Can not do it,杀手声望不足
+UIShopShow/<>c__DisplayClass88_0,<UpRightBuyData>b__0,Can not do it,门派功勋不足
+UIShopShow/<>c__DisplayClass88_0,<UpRightBuyData>b__0,No money,银两不足
+UIShopShow/<>c__DisplayClass88_0,<UpRightBuyData>b__0,Not money,银两不足
+UIShopShow/<>c__DisplayClass97_0,<UpRightSellData>b__0,Can not do it,库存不足
+UIShopShow/<>c__DisplayClass97_0,<UpRightSellData>b__0,Can not do it,物品剩余数量不足
+UIShopShow/<>c__DisplayClass97_0,<UpRightSellData>b__0,has destroyed,物品已销毁
+UIShopShow/<>c__DisplayClass97_0,<UpRightSellData>b__0,ok,出售成功
+UISystemMenu,<InitButtons>b__16_6,Exit to StartPanel?,是否退出游戏进入登录界面？
+UISystemMenu,<InitButtons>b__16_6,Tips,提示
+UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,New Path:,【武道之路】
+UITask/<>c__DisplayClass8_2,<InitTaskData>b__4,completed,(已完成)
+UITeam,<InitEvent>b__17_0,Can not do it,主角不能离阵
+UITime,<InitEvent>b__20_0,Can not do it,时间不能倒回
+UITime,<InitEvent>b__20_1,Can not do it,不能调整为当前时辰
+UITime,<InitEvent>b__20_2,Can not do it,当前时辰已是目标时辰
+UIWorkshopMain,OnClickBtnEditor,Please Wait,请等待游戏本地配置资源加载完毕~
+UIWorldTime,OnOk,Can not do it,请调整时间后再继续
+UIWuXue,<InitButton>b__21_2,Can not do it,已是大圆满
+UIWuXue,<InitButton>b__21_2,Can not do it,阅历不足
+UIWuXue,<InitButton>b__21_2,No Energy,疲劳中
+UIWuXueNew,InitWxRightList,Skill,通式
+UIWuXueNew,RefreshTsDesc,Skill,江湖通式
+UIWuXueNew,RefreshTsDesc,Skill,通式
+UIWuXueNew,SaveWxData,Success,技能保存成功
+UIWuXueNew,ShowTongshi,【Skill】,【散学】
+UIWuXueNew,ShowTongshi,【Skill】,【通用】
+UIWuXueNew,UpdateWxUseBtn,Use This,使用当前武学
+UIWuXueNew,UpdateWxUseBtn,Used,已使用
+UIWuXueNew/<>c__DisplayClass136_0,<InitItemXinJue>b__0,Can not do it,已装备该心决
+UIWuXueNew/<>c__DisplayClass136_0,<InitItemXinJue>b__0,Can not do it,心决已装备3个
+UIWuXueNew/<>c__DisplayClass138_1,<RefreshZhaoShiList>b__0,No Level,境界不足
+UIWuXueNew2,SetShowaddSkill,Change,切换内功
+UIWuXueNew2,SetShowaddSkill,Change,切换武学
+UIWuXueNew2,SetShowaddSkill,Change,切换轻功
+UIWuXueNew2,SetShowaddSkill,Look,查看内功
+UIWuXueNew2,SetShowaddSkill,Look,查看武学
+UIWuXueNew2,SetShowaddSkill,Look,查看轻功
+UIWuXueNew2,ShowUnHoldWxTips,Can not do it,没有可用的内功进行切换
+UIWuXueNew2,ShowUnHoldWxTips,Can not do it,没有可用的武学进行切换
+UIWuXueNew2,ShowUnHoldWxTips,Can not do it,没有可用的轻功进行切换
+UIXingLiangItem,SetUiData,Add Att,附加属性:
+UIXingLiangItem/<>c__DisplayClass29_1`1,<SetUiData>b__0,Can not do it,需学习武器对应的江湖散学，方可装配此武器。
+UIXingLiangShowItem,SetUiData,Add Att,附加属性:
+UIZzReset,ShowLockIsShow,Can not do it,同时至多可锁定两项资质。
+UIZzReset/<>c__DisplayClass44_1,<SetZzInfoData>b__1,Can not do it,同时至多可锁定两项资质。
+UI_WulinReady,CheckLast,Can not do it,首次武林大会尚未举办，无法查看。
+UI_WulinReady,FindEntrance,Can not do it,尚未抵达过京城，无法传送至报名处。
+UI_WulinReady,FindEntrance,Can not do it,当前剧情中传送功能暂不可用
+UI_WulinReady,FindEntrance,Can not do it,本次武林大会已然结束，无法报名。
+UI_WulinReady,FindEntrance,Go?,群雄毕至，一年一度的武林大会即将开办，是否前往京城参赛？

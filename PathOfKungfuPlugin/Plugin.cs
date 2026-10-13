@@ -39,13 +39,16 @@ public class Plugin : BaseUnityPlugin
         ConvertTextEnglishBranchPatch.Enabled = Config.Bind("Translation", "EnglishTokensInChineseMode", false,
             "Experimental, untested in game. When the game language is Chinese, run NPC text tokens (a, p, lp, gangName...) on the English path so the English translation is not corrupted. Off: the mod targets English mode only.").Value;
 
+        GameEnglishPlaceNamesPatch.UseGameEnglish = Config.Bind("Translation", "UseGameEnglishPlaceNames", false,
+            "The game replaces about 20 Chinese place names left on screen with its own English (Xiangyang, Green Duckweed Village). Off: use only the mod's translation, so a label it does not cover stays Chinese.").Value;
+
         var harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
         foreach (var patch in new[]
         {
             typeof(NamePoolPatch), typeof(RandomNameSpacePatch), typeof(NameXTrimPatch), typeof(NameSetterSpacePatch),
             typeof(OriginNameSpacePatch), typeof(SavedNameMigration), typeof(JobNpcNamePatch),
             typeof(AllowLatinNamePatch), typeof(NameFieldLengthPatch), typeof(RandomChildNamePatch), typeof(SameNameCheckPatch),
-            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh), typeof(AttributeNamePatch),
+            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh), typeof(AttributeNamePatch), typeof(LifeSkillTipPatch), typeof(RealmAttributeBracketPatch), typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch),
         })
             harmony.CreateClassProcessor(patch).Patch();
 

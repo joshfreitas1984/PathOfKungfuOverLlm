@@ -2,6 +2,7 @@ using System.Text.Json;
 using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Utility;
 using FanslationStudio.LlmKit.Workflow;
+using SharedAssembly.DynamicStrings;
 
 namespace Translate;
 
@@ -36,12 +37,69 @@ public static class TranslationPackaging
             rawFallbackCount += rawFallback;
         }
 
+        await AddGameEnglishContractsAsync(workingDirectory, outputPath);
         RestoreHeaderRows(workingDirectory, outputPath, textFiles);
         WriteTranslatedColumns(outputPath, textFiles);
 
         Console.WriteLine($"Passed: {passedCount}");
         Console.WriteLine($"QC failures: {qcRejectedCount}");
         Console.WriteLine($"Fell back to raw: {rawFallbackCount}");
+    }
+
+    public const string GameEnglishTable = "DynamicStringsGameEnglish.csv";
+
+    /// <summary>
+    /// The game picks text with <c>Open ? "English" : "中文"</c>, and the plugin runs in English mode, so the game's own English would be shown instead of
+    /// the translation of the Chinese side. For each row of <see cref="GameEnglishTable"/> (written by Files/ScanGameEnglishLiterals.py) whose Chinese
+    /// literal was packaged, this adds a contract with the same translation for the English literal, so the same transpiler replaces it.
+    /// </summary>
+    private static async Task AddGameEnglishContractsAsync(string workingDirectory, string outputPath)
+    {
+        var contractsFile = $"{outputPath}/dynamicStrings.txt.yaml";
+        var table = $"{workingDirectory}/{GameEnglishTable}";
+        if (!File.Exists(contractsFile) || !File.Exists(table))
+            return;
+
+        var contracts = YamlHelper.CreateDeserializer().Deserialize<List<DynamicStringContract>>(await File.ReadAllTextAsync(contractsFile)) ?? [];
+        var rows = File.ReadLines(table).Skip(1).Where(l => l.Length > 0).Select(CompoundFieldSplitter.ParseCsvRow)
+            .Where(f => f.Length >= 4).Select(f => (Type: f[0], Method: f[1], English: f[2], Chinese: f[3]));
+
+        var added = AddGameEnglishContracts(contracts, rows);
+        if (added.Count == 0)
+            return;
+
+        contracts.AddRange(added);
+        await File.WriteAllTextAsync(contractsFile, YamlHelper.CreateSerializer().Serialize(contracts));
+        Console.WriteLine($"Added {added.Count} contracts for the game's own English literals");
+    }
+
+    public static List<DynamicStringContract> AddGameEnglishContracts(
+        List<DynamicStringContract> contracts, IEnumerable<(string Type, string Method, string English, string Chinese)> rows)
+    {
+        // The dump writes commas as fullwidth, the table may not.
+        static string Key(string type, string method, string raw) => $"{type}{method}{raw.Replace(',', '，')}";
+
+        var byChinese = contracts.GroupBy(c => Key(c.Type, c.Method, c.Raw)).ToDictionary(g => g.Key, g => g.First());
+        var existing = contracts.Select(c => Key(c.Type, c.Method, c.Raw)).ToHashSet();
+        var added = new List<DynamicStringContract>();
+
+        foreach (var (type, method, english, chinese) in rows)
+        {
+            if (!byChinese.TryGetValue(Key(type, method, chinese), out var source) || !existing.Add(Key(type, method, english)))
+                continue;
+
+            added.Add(new DynamicStringContract
+            {
+                Type = source.Type,
+                Method = source.Method,
+                ILOffset = source.ILOffset,
+                Raw = english,
+                Translation = source.Translation,
+                Parameters = source.Parameters,
+            });
+        }
+
+        return added;
     }
 
     /// <summary>

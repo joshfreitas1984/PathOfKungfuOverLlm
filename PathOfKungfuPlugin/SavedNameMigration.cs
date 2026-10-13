@@ -97,7 +97,7 @@ internal static class SavedNameMigration
     }
 
     /// <summary>Every NPCData held by the save: dictionaries, lists and single NPCs on PlayerData.</summary>
-    private static IEnumerable<NPCData> AllNpcs(PlayerData playerData)
+    internal static IEnumerable<NPCData> AllNpcs(PlayerData playerData)
     {
         foreach (var property in typeof(PlayerData).GetProperties(BindingFlags.Instance | BindingFlags.Public))
         {

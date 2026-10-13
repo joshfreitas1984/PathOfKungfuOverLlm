@@ -55,16 +55,24 @@ game fail with `Could not find file …\<English name>.xlsx` or `Please check sh
 (`Fire`, `OnListeningAdd/Remove`) was also missed, and patching that method made the game throw `Event SecondUpdate contains different
 types of commissions` every second. Both are now `Key`/`Log` rows. After a game update, check `Player.log` for these before a release.
 
-## Known gap: the game's own English wins
+## The game's own English (`Open ? "English" : "中文"`)
 
-About 150 dumped literals sit in `WordManager.Singleton.Open ? "English" : "中文"` ternaries. The plugin targets English mode, where
-`Open` is true, so the game shows its own English ("Leave", "Max HP", "can not do it") and our translation of the Chinese side is
-unused (it only shows in Chinese mode). The dump holds only the Chinese literals, so the English side is never replaced.
+About 160 dumped literals sit in `WordManager.Singleton.Open ? "English" : "中文"` ternaries. The plugin targets English mode, where `Open` is
+true, so the game would show its own English ("Leave", "No Magic") and our translation of the Chinese side would go unused. The dump holds only the
+Chinese literals.
 
-Not fixed yet; to be handled as they turn up in game. The idea if it is worth doing: save the game's English literal for each
-ternary in a committed file and have packaging emit an extra contract for it carrying the same translation, so the same transpiler
-replaces that `ldstr`. Forcing `Open = false` per method (as `ConvertTextEnglishBranchPatch` does for one call) is likely to break
-other code paths.
+[`Files/ScanGameEnglishLiterals.py`](../../Files/ScanGameEnglishLiterals.py) reads the decompiled code for ternaries where both sides are string
+literals and writes [`Files/DynamicStringsGameEnglish.csv`](../../Files/DynamicStringsGameEnglish.csv) (`Type,Method,English,Chinese`, 70 rows).
+Packaging (`AddGameEnglishContracts` in [`TranslationPackaging.cs`](../../Translate/TranslationPackaging.cs)) adds, for each row whose Chinese
+literal was packaged, a second contract with the English literal as `raw` and the same translation, so the same transpiler replaces that `ldstr`.
+`GameEnglishContractTests` fails when a row no longer matches the dump; re-run the script after a game update.
+
+Not covered: ternaries where a side is a field, a call or another expression (about 90), and "English" text that is not in a ternary. These show the
+game's English until they turn up in game.
+
+Other game English that overrides ours is switched off by default in the plugin (`GameEnglishPlaceNamesPatch.cs`, `AttributeNamePatch.cs`):
+`WordGroupHandle` (place names, `[Translation] UseGameEnglishPlaceNames`), `WordSpecial` (per-frame word swaps such as 两 → "Liang", same option) and
+`StringExtensions.TranslateAttribute` (attribute names, now from our glossary).
 
 Related, lower priority: `WordGroupHandle.CheckWord` replaces any Chinese place name still on screen with the game's own English
 ("Green Duckweed Village"), which may not match our glossary. It cannot touch text we translated, only text left in Chinese.
