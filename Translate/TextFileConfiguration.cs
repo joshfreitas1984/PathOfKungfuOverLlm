@@ -71,6 +71,12 @@ public static class TextFileConfiguration
             new() { Path = "SkillBattle__轻击对应招式表.csv", SkipColumns = TranslateOnly(7, 2, 5) },
             new() { Path = "SkillBattle__重击对应招式表.csv", SkipColumns = TranslateOnly(7, 2, 5) },
 
+            // Enemy names shown on the battle screen (MonsterData.name, display only). The four difficulty sheets hold the same names.
+            new() { Path = "monster__monster_easy.csv", SkipColumns = TranslateOnly(48, 2) },
+            new() { Path = "monster__monster_normal.csv", SkipColumns = TranslateOnly(46, 2) },
+            new() { Path = "monster__monster_hard.csv", SkipColumns = TranslateOnly(46, 2) },
+            new() { Path = "monster__monster_hardEX.csv", SkipColumns = TranslateOnly(46, 2) },
+
             // Other tables
             new() { Path = "CookJingYing__Config.csv", SkipColumns = TranslateOnly(18, 4, 5, 10) },
             new() { Path = "Cook__CookBook.csv", SkipColumns = TranslateOnly(9, 2, 7) },

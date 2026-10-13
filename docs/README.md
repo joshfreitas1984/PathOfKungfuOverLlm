@@ -73,6 +73,7 @@ instead of duplicating their implementation details here.
 | Change model, QC or batching settings | [`Files/Config.yaml`](../Files/Config.yaml) |
 | Write the runtime dump/injection patches | [`PathOfKungfuPlugin/Plugin.cs`](../PathOfKungfuPlugin/Plugin.cs) |
 | Understand or change how translated text is injected into the game | [`features/text-injection.md`](features/text-injection.md), [`PathOfKungfuPlugin/Injection.cs`](../PathOfKungfuPlugin/Injection.cs) |
+| Read or search the game's code (how a string is shown, what a table column is used for) | `Files/Raw/Decompiled/Assembly-CSharp/` (gitignored; made by test `0. Decompile Game Assemblies` in [`Tests/DecompileTests.cs`](../Tests/DecompileTests.cs)). Grep it rather than re-decompiling |
 | Package or publish a release | [`Tests/FileOutputWorkflowTests.cs`](../Tests/FileOutputWorkflowTests.cs), [`Installer/installer.json`](../Installer/installer.json), [`Files/Packaging/`](../Files/Packaging/) |
 | Investigate a known issue | [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) |
 | Work on the QC (quality control) pass | [`quality-control-pass.md`](../../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-control-pass.md) (**sibling repo** — the actual `QualityControlWorkflow` implementation lives there, not in this repo) |

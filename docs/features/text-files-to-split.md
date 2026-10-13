@@ -33,8 +33,10 @@ strings and 0.83M characters (73% of it).
 
 ## Not covered yet (no shipped English to learn from, so a manual decision)
 
-- **monster** (names and `角色模组` model names across four near-identical difficulty sheets), **shop / shop2 / shop3**
-  (`商品名`), `装备随机掉落配置`, `奖励组`, `RefreshBoss`, `monster_team`: mostly names that exist elsewhere; need a check that the
+- **monster**: now covered. The four difficulty sheets (`monster_easy/normal/hard/hardEX`) hold the same 1,424 names, and column 2 (`name`) is
+  translated. The battle screen shows it directly (`Monster.textName.text = data.name`), and nothing looks it up by name (the sheets link
+  to models by id). `角色模组` model names are not translated. Found when enemy names were still Chinese in battle.
+- **shop / shop2 / shop3** (`商品名`), `装备随机掉落配置`, `奖励组`, `RefreshBoss`, `monster_team`: mostly names that exist elsewhere; need a check that the
   code does not compare them to Chinese literals before translating.
 - **Name pools** (random NPC names): not translated line by line. English mode loads `WorldEvolution/name2`, a Western pool
   (Smith, James...), which breaks immersion. `Files/NamePools/GeneratePinyinNames.py` builds a pinyin replacement; see
