@@ -23,6 +23,9 @@ file exists so no repository rule lives in only one vendor-specific format
 - LlmKit-internal behavior (the QC/quality-control pass, packaging/reconstruction rules, retry and
   escalation mechanics) is documented in `FanslationStudio.LlmKit`'s own `AGENTS.md`/`docs/` — read
   it there rather than duplicating or re-deriving it in this repo.
+- The game's decompiled C# is in `Files/Raw/Decompiled/Assembly-CSharp/` (and `Assembly-CSharp-firstpass/`; gitignored). Grep it to see
+  how a string is displayed, whether a table column is a lookup key, or where a hook belongs, instead of decompiling again. If the
+  folder is missing or the game updated, run the test `0. Decompile Game Assemblies` (needs `ilspycmd`).
 - Do not run state-mutating workflow facts (export, translation, packaging, release) or live LLM
   calls unless explicitly requested. Never run "7. Package Release" or "7b. Package Installer" as a
   smoke test: they rewrite the real `ReleaseFolder` and open a browser.
