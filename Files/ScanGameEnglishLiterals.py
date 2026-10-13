@@ -50,13 +50,67 @@ sources = {path: open(path, encoding='utf-8', errors='ignore').read() for path i
 helpers = {m.group(1) for text in sources.values() for m in helper_definition.finditer(text)}
 patterns = [ternary] + [re.compile(re.escape(name) + r'\(\s*(' + literal + r')\s*,\s*(' + literal + r')') for name in sorted(helpers)]
 
+branch = re.compile(r'if\s*\(\s*(!?)\s*WordManager\.Singleton\.Open\s*\)\s*\{')
+literal_in_code = re.compile(literal)
+
+
+def block_end(text, open_brace):
+    """Index just past the brace that closes the one at open_brace (string literals are skipped), or -1."""
+    depth = 0
+    i = open_brace
+    while i < len(text):
+        c = text[i]
+        if c == '"':
+            i += 1
+            while i < len(text) and text[i] != '"':
+                i += 2 if text[i] == '\\' else 1
+        elif c == '{':
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0:
+                return i + 1
+        i += 1
+    return -1
+
+
+def branch_pairs(text):
+    """`if (Open) { English } else { 中文 }` (or the reverse with `!Open`): the literals of the two blocks, paired by position.
+    Only blocks with the same number of literals are paired, and only a position where one side has Chinese and the other has none."""
+    for match in branch.finditer(text):
+        first_end = block_end(text, match.end() - 1)
+        tail = re.match(r'\s*else\s*\{', text[first_end:]) if first_end > 0 else None
+        if not tail:
+            continue
+        second_start = first_end + tail.end() - 1
+        second_end = block_end(text, second_start)
+        if second_end < 0:
+            continue
+        first = literal_in_code.findall(text[match.end() - 1:first_end])
+        second = literal_in_code.findall(text[second_start:second_end])
+        if len(first) != len(second):
+            continue
+        english_block, chinese_block = (second, first) if match.group(1) else (first, second)
+        for english, chinese in zip(english_block, chinese_block):
+            yield english, chinese
+
+
+def candidates(text):
+    for pattern in patterns:
+        for match in pattern.finditer(text):
+            yield match.group(1), match.group(2)
+    yield from branch_pairs(text)
+
+
 rows = set()
 found = 0
 for path, text in sources.items():
     stem = os.path.splitext(os.path.basename(path))[0]
-    for match in (m for pattern in patterns for m in pattern.finditer(text)):
-        english, chinese = normalise(match.group(1)), normalise(match.group(2))
-        if zh.search(english) or not zh.search(chinese):
+    for english_literal, chinese_literal in candidates(text):
+        english, chinese = normalise(english_literal), normalise(chinese_literal)
+        # An empty English side ("" : "文", the currency suffix) would replace every empty string in the method.
+        # A block pairing can line up a separator (":") with a Chinese string, so the English side must have at least two letters.
+        if not re.search(r'[A-Za-z]{2}', english) or zh.search(english) or not zh.search(chinese):
             continue
         found += 1
         for type_name, method in dump.get(chinese.replace(',', '，'), []):

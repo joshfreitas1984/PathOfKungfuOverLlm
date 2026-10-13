@@ -77,7 +77,7 @@ public static class TranslationPackaging
         List<DynamicStringContract> contracts, IEnumerable<(string Type, string Method, string English, string Chinese)> rows)
     {
         // The dump writes commas as fullwidth, the table may not.
-        static string Key(string type, string method, string raw) => $"{type}{method}{raw.Replace(',', '，')}";
+        static (string, string, string) Key(string type, string method, string raw) => (type, method, raw.Replace(',', '，'));
 
         var byChinese = contracts.GroupBy(c => Key(c.Type, c.Method, c.Raw)).ToDictionary(g => g.Key, g => g.First());
         var existing = contracts.Select(c => Key(c.Type, c.Method, c.Raw)).ToHashSet();

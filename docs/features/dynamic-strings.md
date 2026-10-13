@@ -61,14 +61,18 @@ About 160 dumped literals sit in `WordManager.Singleton.Open ? "English" : "中�
 true, so the game would show its own English ("Leave", "No Magic") and our translation of the Chinese side would go unused. The dump holds only the
 Chinese literals.
 
-[`Files/ScanGameEnglishLiterals.py`](../../Files/ScanGameEnglishLiterals.py) reads the decompiled code for ternaries where both sides are string
-literals and writes [`Files/DynamicStringsGameEnglish.csv`](../../Files/DynamicStringsGameEnglish.csv) (`Type,Method,English,Chinese`, 70 rows).
+[`Files/ScanGameEnglishLiterals.py`](../../Files/ScanGameEnglishLiterals.py) reads the decompiled code and writes
+[`Files/DynamicStringsGameEnglish.csv`](../../Files/DynamicStringsGameEnglish.csv) (`Type,Method,English,Chinese`, about 160 rows). It finds
+ternaries where both sides are literals (or the Chinese side is `"中文" + value`), calls of a helper such as `GetText("Phy Atk", "外功攻击", open)`,
+and `if (Open) { … } else { … }` blocks with the same number of literals, which it pairs by position. An English side that is empty or has no two
+letters is skipped (`Open ? "" : "文"` would replace every empty string in the method).
 Packaging (`AddGameEnglishContracts` in [`TranslationPackaging.cs`](../../Translate/TranslationPackaging.cs)) adds, for each row whose Chinese
 literal was packaged, a second contract with the English literal as `raw` and the same translation, so the same transpiler replaces that `ldstr`.
 `GameEnglishContractTests` fails when a row no longer matches the dump; re-run the script after a game update.
 
-Not covered: ternaries where a side is a field, a call or another expression (about 90), and "English" text that is not in a ternary. These show the
-game's English until they turn up in game.
+Not covered: a side that is a field, a call or another expression (`Open ? fishingName2 : fishingName`, table columns the game fills itself), blocks
+whose two sides have a different number of literals, and the equipment-type `Replace("项链", "Necklace")` chain, whose Chinese strings are lookup
+keys. These show the game's English until they turn up in game.
 
 Other game English that overrides ours is switched off by default in the plugin (`GameEnglishPlaceNamesPatch.cs`, `AttributeNamePatch.cs`):
 `WordGroupHandle` (place names, `[Translation] UseGameEnglishPlaceNames`), `WordSpecial` (per-frame word swaps such as 两 → "Liang", same option) and
