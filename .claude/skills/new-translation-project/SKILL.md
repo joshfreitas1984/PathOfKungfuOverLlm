@@ -105,7 +105,10 @@ pin.
    consumes `FanslationStudio.LlmKit` via project reference (not a NuGet package) from sibling repo
    `../FanslationStudio.LlmKit`, that the `TranslationLine`/`TranslationSplit`/`FieldTemplate`
    contract is LlmKit-owned (propose changes upstream, never redefine it downstream), and point to
-   the new repo's own `docs/README.md` as the documentation hub. `CLAUDE.md` stays a thin pointer to
+   the new repo's own `docs/README.md` as the documentation hub. For Mono games, also add the rule from
+   `PathOfKungfuOverLlm/AGENTS.md` that the decompiled game code lives in `Files/Raw/Decompiled/` (gitignored, made by the
+   `0. Decompile Game Assemblies` test, step 10) and is to be grepped instead of re-decompiled, plus the matching row in
+   `docs/README.md`'s "Where should I look?" table. `CLAUDE.md` stays a thin pointer to
    `AGENTS.md` + `docs/README.md`, same as every existing repo.
 
 7. **Create the new repo's `docs/README.md`**, per `docs/architecture/downstream-project-structure/downstream-repository-docs-taxonomy.md`'s file
@@ -203,6 +206,13 @@ esizers`,
      repo folder), then `New-Item -ItemType SymbolicLink` (worked without elevation with Developer
      Mode on; otherwise run elevated). Step "6. Package to Game Files" calls the `Move*` tests, so
      the file is required, and "7. Package Release" maps the split output.
+   - **Decompiled game code (Mono)**: add `Tests/DecompileTests.cs` (copy from `PathOfKungfuOverLlm`), the manual step
+     `0. Decompile Game Assemblies`. It runs `ilspycmd -p` on `<Game>_Data/Managed/Assembly-CSharp.dll` and
+     `Assembly-CSharp-firstpass.dll` into `Files/Raw/Decompiled/<assembly>/` (one `.cs` per type, so it can be grepped), skips an
+     assembly whose output is newer than the DLL, and needs `dotnet tool install -g ilspycmd`. Add `Files/Raw/Decompiled/` to the
+     repo's `.gitignore`, and run the step once after the BepInEx install so the game code is on hand for finding the text
+     source, the injection hooks and the runtime tokens. Skills and sessions grep this folder instead of re-decompiling. IL2CPP
+     games have no equivalent yet (Il2CppDumper output is not greppable C# bodies): skip this bullet for them.
    - **`Tests/QualityControlWorkflowTests.cs`**: the numbered manual QC runbook, copied from `PathOfKungfuOverLlm`
      (the most current). It must hold every public QC entry point, in this order: `1. RunQualityControlPassSample`
      (`RunAsync` with `sampleSize`), `2. RunQualityControlPass` (`RunAsync`, then `FileOutputWorkflowTests.PackageFinalTranslation`),
@@ -238,7 +248,7 @@ esizers`,
    game-specific and manual: building the glossary and gender table (skill `build-game-glossary`), once the first dump exists
    running the `find-runtime-tokens` skill to wire `namedTokenReplacers` into the starter `Config.yaml` (and its patterns into
    the splitter's `PlaceholderPatterns`; Converted then holds `{slots}` plus a `tokens` map, so export before translating), writing the actual dumper (extracting the game's real data files into
-   `Raw/Dumped`), IL2CPP interop generation against the real game install if applicable, populating
+   `Raw/Dumped`), running `0. Decompile Game Assemblies` (Mono), IL2CPP interop generation against the real game install if applicable, populating
    `GameTextFiles.cs`'s `TextFilesToSplit` list against real dumped files, the first real
    translation run, the `SkillSyncTests.cs` edit from step 8, filling in `Files/Packaging/`
    (`GameVersion.txt`, the tailored `BepInEx.cfg`), and the first manual publish of the rolling
