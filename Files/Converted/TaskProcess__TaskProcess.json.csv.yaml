@@ -270337,18 +270337,15 @@
   splits:
   - split: 4
     text: "“此事记载于《墨子"
-    translated: "'This is recorded in the 'Mozi'\\n"
-    qcReviewedText: "'This is recorded in the 'Mozi'\\n·... 'The Chapter of Gongshu' portrays Mozi's righteousness and Gongshu's loyalty, both well-known and beloved by many...'"
-    qcTranslated: "This is recorded in the 'Mozi'\\n·... 'The Chapter of Gongshu' portrays Mozi's benevolence and righteousness and Gongshu's loyalty and righteousness, both well-known and beloved by many..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "“This is recorded in the 'Mozi"
+    qcReviewedText: "“This is recorded in the 'Mozi·Gongshu' chapter, where Mozi's benevolence and Gongshu's loyalty are well known and widely praised...”"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "公输》一篇，墨子之仁义与公输子之忠义自是脍炙人口……”"
-    translated: "... 'The Chapter of Gongshu' portrays Mozi's righteousness and Gongshu's loyalty, both well-known and beloved by many...'"
+    translated: "Gongshu' chapter, where Mozi's benevolence and Gongshu's loyalty are well known and widely praised...”"
   templates:
   - split: 4
     template: "{0}·{1}"
@@ -313193,19 +313190,18 @@
   splits:
   - split: 4
     text: "第一道关就洞前石阶处，守关者乃慈弘亲传弟子济玄，此人熟读经卷，需以《四十二章经"
-    translated: "'The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to recite the Forty-Two Chapter Sutra."
-    qcReviewedText: "'The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to recite the Forty-Two Chapter Sutra.·responds'"
-    qcTranslated: "The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. This person is well-versed in scriptures and requires you to respond with Chapter 3 of the Forty-Two Chapter Sutra."
+    translated: "The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. He knows the scriptures well, so you must answer with the 'Forty-Two Chapter Sutra"
+    qcReviewedText: "The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. He knows the scriptures well, so you must answer with the 'Forty-Two Chapter Sutra·Chapter 3'"
+    qcTranslated: "The first checkpoint is at the stone steps before the cave, guarded by Ji Xuan, a direct disciple of Ci Hong. He knows the scriptures well, so you must answer with the 'Forty-Two Chapter Sutra·Chapter Three'"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
-    - DroppedContent
   - split: 4
     subIndex: 1
     text: "第三章》接话。"
-    translated: "responds'"
+    translated: "Chapter 3'"
   templates:
   - split: 4
     template: "{0}·{1}"
@@ -313474,15 +313470,18 @@
   splits:
   - split: 4
     text: "前方过了摩崖三佛，便是第二关所在。第二关暗号取自《四十二章经"
-    translated: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra"
-    qcReviewedText: "'Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter 19', and the gatekeeper will recite, “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra"
+    qcReviewedText: "Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter 19', and the gatekeeper will recite “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
+    qcTranslated: "Beyond the Three Buddha Cliff Carvings lies the second pass. Its password is taken from the 'Forty-Two Chapter Sutra·Chapter Nineteen', and the gatekeeper will recite “The Buddha said：Contemplate the four great elements within the body; each has its own name, and none of them is the self,” and the correct reply is, “Since there is no self, it is but an illusion”..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 4
     subIndex: 1
     text: "第十九章》，守关者会念“佛言"
-    translated: "Chapter 19', and the gatekeeper will recite, “The Buddha said"
+    translated: "Chapter 19', and the gatekeeper will recite “The Buddha said"
   - split: 4
     subIndex: 2
     text: "当念身中四大，各自有名，都无我者”，正确应答原是“我既都无，其如幻耳”……"
@@ -318578,9 +318577,14 @@
   splits:
   - split: 4
     text: "魏无忌并无否认，反倒承认洪帮主看得明白，无论如何，皇帝治下都不许有丐帮这等江湖大派出现，当今帝王所想的，乃是对庙堂、江湖的绝对统治。而洪帮主义薄云天，甘愿以己身性命换得丐帮弟子性命。"
-    translated: "Wei Wuji did not deny this; instead, he acknowledged that Hong's assessment was accurate. No matter what, the emperor would not tolerate a powerful sect like the Beggars' Sect existing under his rule. The current ruler sought absolute control over both the court and Jianghu. Yet, Hong, with his thin regard for personal safety, willingly offered his own life to save those of the Beggars' Sect disciples."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Beggar Sect Disciple,丐帮弟子,"
+    translated: "Wei Wuji did not deny this; instead, he acknowledged that Hong's assessment was accurate. No matter what, the emperor would not tolerate a great Jianghu sect like the Beggar Sect existing under his rule. The current ruler sought absolute control over both the court and Jianghu. Yet Hong, a Sect Leader of boundless righteousness, was willing to sacrifice his own life for the lives of the Beggar Sect Disciples."
+    qcReviewedText: "Wei Wuji did not deny this; instead, he acknowledged that Hong's assessment was accurate. No matter what, the emperor would not tolerate a great Jianghu sect like the Beggar Sect existing under his rule. The current ruler sought absolute control over both the court and Jianghu. Yet Hong, a Sect Leader of boundless righteousness, was willing to sacrifice his own life for the lives of the Beggar Sect Disciples."
+    qcTranslated: "Wei Wuji did not deny this; instead, he acknowledged that Hong, the Gang Leader, saw clearly. No matter what, the emperor would not tolerate a great Jianghu sect like the Beggar Sect existing under his rule. The current ruler sought absolute control over both the court and Jianghu. Yet Hong, Yibo Yun Tian, was willing to sacrifice his own life for the lives of the Beggar Sect Disciples."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "1534,230001018001,4,[0].talks{json}[35].name,白眉老僧"
   splits:
   - split: 4
@@ -326826,19 +326830,15 @@
   splits:
   - split: 4
     text: "火器乃西域传入之物，震若奔雷，威势奇大，然若一击不中，恐难如弓弩暗器那般随机应变……此册《西域火器"
-    translated: "'Firearms are weapons from the Western Regions, thunderous like rolling thunder with immense power. Yet if they miss their mark, they cannot adapt as readily as bows, crossbows, or hidden weapons can......This book, Western Regions Firearm"
-    qcReviewedText: "'Firearms are weapons from the Western Regions, thunderous like rolling thunder with immense power. Yet if they miss their mark, they cannot adapt as readily as bows, crossbows, or hidden weapons can......This book, Western Regions Firearm·Although the Jade Pearl is quite rare, if you wish to study it, you may take it to observe and analyze.'"
-    qcTranslated: "Firearms are weapons from the Western Regions, thunderous like rolling thunder with immense power. Yet if they miss their mark, they cannot adapt as readily as bows, crossbows, or Hidden Weapons can......This book, Western Regions Firearm · Pearl, is quite rare, but if you wish to study it, you may take it to observe and analyze."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - OtherNamedDefect
+    translated: "Firearms are weapons from the Western Regions, thunderous like rolling thunder with immense power. Yet if they miss their mark, they cannot adapt as readily as bows, crossbows, or hidden weapons can......This book, 'Western Regions Firearm"
+    qcReviewedText: "Firearms are weapons from the Western Regions, thunderous like rolling thunder with immense power. Yet if they miss their mark, they cannot adapt as readily as bows, crossbows, or hidden weapons can......This book, 'Western Regions Firearm·Pearl' is quite rare, but if you wish to study it, you may take it to observe and analyze."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "珠》虽颇为难得，但你若有意钻研此道，自可拿去观摩推敲。"
-    translated: "Although the Jade Pearl is quite rare, if you wish to study it, you may take it to observe and analyze.'"
+    translated: "Pearl' is quite rare, but if you wish to study it, you may take it to observe and analyze."
   templates:
   - split: 4
     template: "{0}·{1}"

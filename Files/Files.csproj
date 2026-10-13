@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- Decompiled game code is reference material (grepped, never built). -->
+    <Compile Remove="Raw\Decompiled\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Converted\" />
     <Folder Include="Glossary\" />
     <Folder Include="Mod\" />

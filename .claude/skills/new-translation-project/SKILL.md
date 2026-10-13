@@ -210,7 +210,9 @@ esizers`,
      `0. Decompile Game Assemblies`. It runs `ilspycmd -p` on `<Game>_Data/Managed/Assembly-CSharp.dll` and
      `Assembly-CSharp-firstpass.dll` into `Files/Raw/Decompiled/<assembly>/` (one `.cs` per type, so it can be grepped), skips an
      assembly whose output is newer than the DLL, and needs `dotnet tool install -g ilspycmd`. Add `Files/Raw/Decompiled/` to the
-     repo's `.gitignore`, and run the step once after the BepInEx install so the game code is on hand for finding the text
+     repo's `.gitignore`, **and exclude it from compilation** in `Files/Files.csproj` with
+     `<Compile Remove="Raw\Decompiled\**" />` (the SDK globs every `**/*.cs`, so the decompiled game code would otherwise be built
+     with the data project and fail), and run the step once after the BepInEx install so the game code is on hand for finding the text
      source, the injection hooks and the runtime tokens. Skills and sessions grep this folder instead of re-decompiling. IL2CPP
      games have no equivalent yet (Il2CppDumper output is not greppable C# bodies): skip this bullet for them.
    - **`Tests/QualityControlWorkflowTests.cs`**: the numbered manual QC runbook, copied from `PathOfKungfuOverLlm`
