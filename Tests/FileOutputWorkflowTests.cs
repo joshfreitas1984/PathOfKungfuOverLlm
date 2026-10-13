@@ -60,6 +60,8 @@ public class FileOutputWorkflowTests
                 new($"{workingDirectory}/Sprites", "BepInEx/sprites2"),
                 // Tailored per game, so it comes from the release files: seed-only, so players' edits survive updates.
                 new($"{PackagingInputsFolder}/BepInEx.cfg", "BepInEx/config/BepInEx.cfg"),
+                // Turns the dynamic string and prefab text replacers on. A per-project setting, not a player choice, so unlike BepInEx.cfg it is not seed-only: every update rewrites it.
+                new($"{PackagingInputsFolder}/FanslationStudio.Plugins.Replacers.cfg", "BepInEx/config/FanslationStudio.Plugins.Replacers.cfg"),
             ],
             // The config folder is owned too, so stale configs left in the staging folder (like UIEditor.cfg) never ship.
             OwnedFolders = ["BepInEx/plugins/resources", "BepInEx/resizers", "BepInEx/layouts", "BepInEx/sprites2", "BepInEx/config"],
@@ -70,7 +72,7 @@ public class FileOutputWorkflowTests
                 "BepInEx/layouts/zzAddedLayouts.yaml",
                 "BepInEx/sprites2/zzAddedSprites.yaml",
             ],
-            SeedOnly = ["BepInEx/config/**"],
+            SeedOnly = ["BepInEx/config/BepInEx.cfg"],
         });
 
         var assets = new[] { result.ZipPath, result.ManifestPath };

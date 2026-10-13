@@ -44,6 +44,7 @@ public static class GameFileHandling
         // A he/she next to a name token or a gender alternative refers to the player, whose gender is not known here.
         UnknownGenderPersonTokens = ["<fName>", "<lName>", "<name>", "///fp///", "///lp///", "///p///"],
         CustomColumnValidator = ValidateRuntimeTokens,
+        CustomUnsafeToTranslateRule = DynamicStringRules.IsUnsafe,
     };
 
     /// <summary>

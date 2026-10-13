@@ -44,7 +44,7 @@ strings and 0.83M characters (73% of it).
 - **`ECA__Sheet1/2/3`, `skill`, `skill2`, `Data_Skill`**: look like design copies of tables already covered by `SkillBattle`/`ECA`.
 - **`NPC__NPC` names**: the game takes NPC names from `Touch`, not from this sheet; the shipped `NPC_EN` leaves them Chinese.
 - Remaining small sheets (gangs, `GangName` title pools, Cook, Poetry, `Audio`, `角色动作配置`...) were not judged.
-- Code literals and prefab/UI text: plan step 5.
+- Code literals and prefab/UI text: dumped and registered, see [dynamic-strings.md](dynamic-strings.md).
 
 To add a file, add one line using the column inventory
 ([`Files/Raw/ColumnInventory.csv`](../../Files/Raw/ColumnInventory.csv), whose file names use the old `Workbook/Sheet.csv` layout)

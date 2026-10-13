@@ -26,6 +26,7 @@ public static class TranslationPackaging
             {
                 TextFileType.RawCsv => await CsvGameDataWorkflow.PackageAsync(workingDirectory, textFile),
                 TextFileType.PrefabText => await PrefabTextWorkflow.PackagePrefabTextAsync(workingDirectory, textFile),
+                TextFileType.DynamicStrings => await DynamicStringsCecilWorkflow.PackageDynamicStringsCecilAsync(workingDirectory, textFile),
                 _ => (0, 0, 0),
             };
 

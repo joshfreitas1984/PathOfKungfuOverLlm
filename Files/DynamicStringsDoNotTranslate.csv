@@ -1,0 +1,892 @@
+Kind,Reason,Type,Method,Raw
+Key,named lookup,ActionFrame.Runtime.BattleData,ComputeOtherAttribute,体力上限
+Key,named lookup,ActionFrame.Runtime.BattleData,ComputeOtherAttribute,真气上限
+Log,log or exception text,ActionFrame.Runtime.BattleData,GetMatchedStr,字段不存在:
+Log,log or exception text,ActionFrame.Runtime.BattleData,GetValueDouble,字段不存在:
+Log,log or exception text,ActionFrame.Runtime.BattleData,GetValueInt,字段不存在:
+Log,log or exception text,ActionFrame.Runtime.BattleData,IsZbThisSkill,你都没有学会这个招式还放啥?
+Key,animation/state name,ActionFrame.Runtime.ChangeState,UpdateChangeState,前闪避
+Key,substring match,ActionFrame.Runtime.ChangeState,UpdateChangeState,闪避
+Log,log or exception text,ActionFrame.Runtime.ChangeStateByGailiHandle,UpdateChangeState,成功触发变招==
+Key,animation/state name,ActionFrame.Runtime.ChangeStateByTimeHandle,UpdateChangeState,起身
+Log,log or exception text,ActionFrame.Runtime.ESkeletonAnimation,EnhanceSkillDamage,层南袭，提升了
+Log,log or exception text,ActionFrame.Runtime.ESkeletonAnimation,EnhanceSkillDamage,消耗了
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,前趴击飞倒地
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,前趴击飞受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,前趴空中受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,前闪避
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,后仰击飞倒地
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,后仰击飞受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,后仰空中受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,弹反
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,格挡中NEW
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,格挡受击
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,格挡受击NEW
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,格挡弹反
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,正面上击倒
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,正面上段轻受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,正面上段重受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,正面下击倒
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,正面下段轻受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,正面下段重受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,死亡
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,游走
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,游走2
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,背面上击倒
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,背面上段轻受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,背面上段重受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,背面下击倒
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,背面下段轻受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,背面下段重受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,InitState,闪避
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsBeTanFan,弹反
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsDaodi,/倒地
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsDeadNew,死亡
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsFuKong,击飞
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsFuKong,浮空
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsGeDangTanFan,/格挡弹反
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsGedang,/格挡
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsNormalShouJi,/受击
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsShouJi,受创
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsTandi,/弹地
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,IsYouZou,/游走
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,OnChangeState,格挡
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,PlayAnimationGeDanging,格挡中
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,PlayEffectGeDangTanFan,格挡弹反
+Log,log or exception text,ActionFrame.Runtime.ESkeletonAnimation,StateComplete,  当前状态:
+Log,log or exception text,ActionFrame.Runtime.ESkeletonAnimation,StateComplete, 状态名:
+Log,log or exception text,ActionFrame.Runtime.ESkeletonAnimation,StateComplete,找不到动画：
+Log,log or exception text,ActionFrame.Runtime.ESkeletonAnimation,Update,为什么会暂停动画？
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation,UpdateHandle,/游走
+Key,animation/state name,ActionFrame.Runtime.ESkeletonAnimation/<>c,<IsSkillNew>b__730_0,特殊技
+Log,log or exception text,ActionFrame.Runtime.MoveSlashConfigHandle,ExitHandle,魍魉鬼步右边界！
+Log,log or exception text,ActionFrame.Runtime.MoveSlashConfigHandle,ExitHandle,魍魉鬼步左边界！
+Log,log or exception text,ActionFrame.Runtime.MoveSlashConfigHandle,ExitHandle,魍魉鬼步非边界！
+Log,log or exception text,ActionFrame.Runtime.Qiangfa_NanxiConfigHandle,StartHandle,进入顾北均！
+Log,log or exception text,ActionFrame.Runtime.ReflectionUtil,InvokeMethodInstance,类型不存在 
+Key,animation/state name,ActionFrame.Runtime.SkillInterruptHandle,UpdateChangeState,jian/特殊技第1击
+Key,named lookup,ActionFrame.Runtime.XixingdafaHandle,StartHandle,吸星噬寰图系数
+Key,game replaces with its own English,AcupointItem,SetUIInfo,体力上限
+Key,game replaces with its own English,AcupointItem,SetUIInfo,体力回复
+Key,game replaces with its own English,AcupointItem,SetUIInfo,内功攻击
+Key,game replaces with its own English,AcupointItem,SetUIInfo,内劲增长
+Key,game replaces with its own English,AcupointItem,SetUIInfo,反伤
+Key,game replaces with its own English,AcupointItem,SetUIInfo,外功攻击
+Key,game replaces with its own English,AcupointItem,SetUIInfo,气血上限
+Log,log or exception text,AnnouncementData,GetAfdBtnPos,公告爱发电位置解析异常 \nstackTrace:\n
+Log,log or exception text,AnnouncementData,GetAfdOn,公告爱发电开关解析异常 \nstackTrace:\n
+Log,log or exception text,AnnouncementData,GetFeedbackLink,反馈链接解析异常 \nstackTrace:\n
+Log,log or exception text,AnnouncementData,GetLangAnnouncement,公告解析异常 \nstackTrace:\n
+Log,log or exception text,AnnouncementData,GetLangAnnouncementHistory,公告历史解析异常 \nstackTrace:\n
+Key,sound name,Battle,OnTargetDead,男死亡
+Key,sound name,Battle,PlaySoundByAnimationName,刀
+Key,sound name,Battle,PlaySoundByAnimationName,剑
+Key,sound name,Battle,PlaySoundByAnimationName,拳
+Key,sound name,Battle,PlaySoundByAnimationName,棍
+Key,sound name,Battle,PlaySoundByAnimationName,鞭打
+Key,sound name,Battle/<>c__DisplayClass78_0,<RunAMonster>b__18,闪避
+Key,sound name,Battle/<>c__DisplayClass78_2,<RunAMonster>b__7,格挡
+Key,sound name,Battle/<>c__DisplayClass78_2,<RunAMonster>b__7,钝器击中
+Key,sound name,Battle/<>c__DisplayClass79_0,<PlayAttak>b__11,闪避
+Key,sound name,Battle/<>c__DisplayClass79_2,<PlayAttak>b__7,格挡
+Key,sound name,Battle/<>c__DisplayClass79_2,<PlayAttak>b__7,钝器击中
+Key,sound name,Battle/<>c__DisplayClass86_0,<OnSkill>b__0,格挡
+Key,sound name,Battle/<>c__DisplayClass86_0,<OnSkill>b__0,钝器击中
+Key,sound name,Battle/<>c__DisplayClass86_0,<OnSkill>b__3,闪避
+Key,animation/state name,BattleAI1,OnUpdate,/游走
+Key,animation/state name,BattleAI1,OnUpdate,游走
+Key,animation/state name,BattleAI2,OnUpdate,/游走
+Log,log or exception text,BattleARPG,AddWeaponZaoyi,您增加了
+Key,compared with data,BattleARPG,CaseItem,气血恢复
+Key,animation/state name,BattleARPG,CaseShanBi,受创
+Key,animation/state name,BattleARPG,CaseShanBi,起身
+Key,animation/state name,BattleARPG,CheckRFLimit,上升
+Key,animation/state name,BattleARPG,CheckRFLimit,下降
+Key,animation/state name,BattleARPG,CheckRFLimit,内功
+Key,animation/state name,BattleARPG,CheckRFLimit,地
+Log,log or exception text,BattleARPG,CheckRFLimit,死亡
+Key,animation/state name,BattleARPG,CheckRFLimit,跳
+Key,animation/state name,BattleARPG,CheckRFLimit,跳击
+Key,animation/state name,BattleARPG,CheckRFLimit,轻功
+Key,animation/state name,BattleARPG,CheckRFLimit,闪避
+Log,log or exception text,BattleARPG,FindAEnemy,的攻击目标是
+Log,log or exception text,BattleARPG,FindEnemy_MinHp,血量最低的敌人：
+Key,Replace pattern,BattleARPG,GetFlyingPropHitValue,蓄力时间秒
+Log,log or exception text,BattleARPG,GetSkillAttack, 招式名：
+Key,Replace pattern,BattleARPG,GetSkillAttack,蓄力时间秒
+Key,compared with data,BattleARPG,IsTaiheWuxue,太和
+Log,log or exception text,BattleARPG,OnAttack,\n受击队列数量:
+Log,log or exception text,BattleARPG,OnAttack,上次受击：
+Key,named lookup,BattleARPG,OnAttack,中天诸悬系数
+Key,animation/state name,BattleARPG,OnAttack,击飞
+Key,animation/state name,BattleARPG,OnAttack,受创
+Log,log or exception text,BattleARPG,OnAttack,扣除了：
+Log,log or exception text,BattleARPG,OnAttack,新增的概率：
+Log,log or exception text,BattleARPG,OnAttack,暗涌浪徊提升了
+Log,log or exception text,BattleARPG,OnAttack,浮浪沉涛提升了
+Log,log or exception text,BattleARPG,OnAttack,点士气值_当前士气值为：
+Key,animation/state name,BattleARPG,OnAttack,空中
+Key,substring match,BattleARPG,OnAttack,轻击
+Log,log or exception text,BattleARPG,SpawnSkill,\n使用的主动技能表ID：
+Log,log or exception text,BattleARPG,SpawnSkill,即将切换的动作：
+Key,animation/state name,BattleARPG,Update,尚在调息中
+Key,animation/state name,BattleARPG,UpdatePlayerInput,尚在调息中
+Log,log or exception text,BattleARPG/<>c__DisplayClass286_0,<AddWeaponZaoyi>b__2,您的资质愚钝，溢出的
+Log,log or exception text,BattleARPG/<>c__DisplayClass290_0,<AddNGZaoyiNpc>b__4,号武器的造诣：
+Log,log or exception text,BattleARPG/<>c__DisplayClass290_0,<AddNGZaoyiNpc>b__4,同伴
+Log,log or exception text,BattleARPG/<>c__DisplayClass290_0,<AddNGZaoyiNpc>b__4,增加了
+Log,log or exception text,BattleARPG/<>c__DisplayClass290_1,<AddNGZaoyiNpc>b__7,]资质愚钝，溢出的
+Log,log or exception text,BattleARPG/<>c__DisplayClass290_1,<AddNGZaoyiNpc>b__7,您的同伴[
+Log,log or exception text,BattleARPG/<>c__DisplayClass291_0,<AddQGZaoyiNpc>b__4,号武器的造诣：
+Log,log or exception text,BattleARPG/<>c__DisplayClass291_0,<AddQGZaoyiNpc>b__4,同伴
+Log,log or exception text,BattleARPG/<>c__DisplayClass291_0,<AddQGZaoyiNpc>b__4,增加了
+Log,log or exception text,BattleARPG/<>c__DisplayClass291_1,<AddQGZaoyiNpc>b__7,]资质愚钝，溢出的
+Log,log or exception text,BattleARPG/<>c__DisplayClass291_1,<AddQGZaoyiNpc>b__7,您的同伴[
+Log,log or exception text,BattleARPG/<>c__DisplayClass292_0,<AddPartnersWeaponZaoyi>b__4,号武器的造诣：
+Log,log or exception text,BattleARPG/<>c__DisplayClass292_0,<AddPartnersWeaponZaoyi>b__4,同伴
+Log,log or exception text,BattleARPG/<>c__DisplayClass292_0,<AddPartnersWeaponZaoyi>b__4,增加了
+Log,log or exception text,BattleARPG/<>c__DisplayClass292_1,<AddPartnersWeaponZaoyi>b__7,]资质愚钝，溢出的
+Log,log or exception text,BattleARPG/<>c__DisplayClass292_1,<AddPartnersWeaponZaoyi>b__7,您的同伴[
+Key,animation/state name,BattleARPG/<>c__DisplayClass298_0,<OnAttack>b__21,击飞受创
+Key,animation/state name,BattleARPG/<>c__DisplayClass298_0,<OnAttack>b__24,击飞受创
+Key,animation/state name,BattleARPG/<>c__DisplayClass298_0,<OnAttack>b__25,击飞受创
+Log,log or exception text,BattleARPG/<>c__DisplayClass303_0,<TurnToHit1>b__6,未知的受击类型
+Key,substring match,BattleBuffTypeManager,GetBloodBySkillId,#气血上限*
+Log,log or exception text,BattleController,GetXminLeftAndXminRight,边界最大x值：
+Log,log or exception text,BattleController,GetXminLeftAndXminRight,边界最小x值：
+Log,log or exception text,BattleController,InitBeidong_Player,守孤山提高的外功攻击：
+Log,log or exception text,BattleController,InitBeidong_Player,守孤山提高的外功防御：
+Log,log or exception text,BattleController,InitMixBeidongAttack,|增加的外功攻击力为：
+Log,log or exception text,BattleController,InitMixBeidongAttack,增加的内功攻击力为：
+Log,log or exception text,BattleController,InitMixBeidongAttack,最终内功攻击力为：
+Log,log or exception text,BattleController,InitMixBeidongAttack,最终外功攻击力为：
+Key,compared with data,BattleController,ParseEffect,内功攻击
+Key,compared with data,BattleController,ParseEffect,外功攻击
+Log,log or exception text,BattleController,PlayAllAI,暂停AI
+Log,log or exception text,BattleController,RemoveAllPartner,传送时：
+Log,log or exception text,BattleDataHelper,GenBattleDataListByMonsterTeam,战斗组id：
+Log,log or exception text,BattleDataHelper,GenBattleDataListByNPCDataList,战斗组2222id：
+Key,substring match,BattleDungeon,CreateActor,动物
+Key,animation/state name,BattleDungeon,CreateActor,设置怪物出生默认状态：
+Log,log or exception text,BattleDungeon,InitPlayer,新加的心决：
+Key,animation/state name,BattleGuide/<CheckQTE_JumpBackFront>d__27,MoveNext,前闪避
+Key,substring match,BattleResult/<>c__DisplayClass21_0,<HandleReward>b__0,武学研本
+Key,compared with data,BattleScene.BattleTouchData,GetReplaceResOnLifeChange,耐久
+Log,log or exception text,BossAddBuff,OnRemoveBuff,移除BossBuff=>内劲增长 == 
+Log,log or exception text,BossAddBuff,OnRemoveBuff,移除BossBuff=>攻击力 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>体力上限 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>体力恢复 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>免暴 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>内劲增长 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>内息 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>反伤 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>吸血 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>命中 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>攻击力 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>暴伤 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>暴击 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>武力 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>气血恢复 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>移动速度 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>筋骨 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>身法 == 
+Log,log or exception text,BossAddBuff,SetValue,BossBuff=>闪避 == 
+Log,log or exception text,CanShuYanZ,DoAction,没有找到对应的功能id==
+Key,compared with data,CanShuYanZ,DoAction,随机武器
+Key,switch/dictionary key,CanShuYanZ/<>c__DisplayClass44_1,<ShowCollect>b__1,摘蚕茧
+Key,switch/dictionary key,CanShuYanZ/<>c__DisplayClass44_1,<ShowCollect>b__1,矿石
+Key,switch/dictionary key,CanShuYanZ/<>c__DisplayClass44_1,<ShowCollect>b__1,碎木
+Key,switch/dictionary key,CanShuYanZ/<>c__DisplayClass44_1,<ShowCollect>b__1,花草
+Key,sheet name,CaptureConfig,ReLoadAllConf,其他
+Log,log or exception text,CommonTestScript,OnDestroy,这里是测试文件的摧毁方法
+Log,log or exception text,CommonTestScript,OnDisable,这里是测试文件的隐藏方法
+Key,animation/state name,Dave.Battle.AI.ActionAttackState,OnUpdate,受创
+Key,animation/state name,Dave.Battle.AI.ActionAttackState,OnUpdate,格挡
+Log,log or exception text,ECA.Actions,ReplaceSkill,替换技能:
+Log,log or exception text,ECA.BuffManager,StopObserving,要停止观察的对象不存在
+Key,substring match,ECA.Effect,CheckDefaultCondition,伤害
+Key,animation/state name,ECA.Effect,CheckSkill,没找到
+Key,animation/state name,ECA.Effect,CheckSkill,的SKillBattle配置
+Key,substring match,ECA.Effect,IsActionState,击飞
+Key,substring match,ECA.Effect,IsActionState,受创
+Key,substring match,ECA.Effect,IsActionState,特殊技
+Key,substring match,ECA.Effect,IsActionState,跳
+Log,log or exception text,ECA.ObservableFloat,op_Division,除数不能为零。
+Log,log or exception text,ECA.ObservableInt,op_Division,除数不能为零。
+Log,log or exception text,ECA.SkillPropManager,Init,动作名
+Log,log or exception text,ECA.SkillPropManager,Init,在招式配置里重复了
+Key,animation/state name,EnemyHQDefendState/<>c,<Enter>b__6_2,游走
+Key,animation/state name,EnemyHQEvaState/<>c,<Enter>b__1_2,闪避
+Key,animation/state name,EnemyHQFlee3State/<>c,<Enter>b__6_2,游走
+Key,animation/state name,EnemyHQHurtState,Execute,倒地
+Key,animation/state name,EnemyHQHurtState,Execute,击飞
+Key,animation/state name,EnemyHQHurtState,Execute,受创
+Key,animation/state name,EnemyHQHurtState,Execute,浮空
+Key,animation/state name,EnemyHurtState,Execute,倒地
+Key,animation/state name,EnemyHurtState,Execute,击飞
+Log,log or exception text,EnemyHurtState,Execute,受创
+Key,animation/state name,EnemyHurtState,Execute,浮空
+Log,log or exception text,EnemyLogic,<GetData>b__33_1,当前弹反概率：
+Log,log or exception text,EnemyLogic,<GetData>b__33_1,当前拼刀概率：
+Log,log or exception text,EnemyLogic,<GetData>b__33_1,当前闪避概率：
+Key,animation/state name,EnemyLogic,CheckDie,击飞
+Key,animation/state name,EnemyLogic,CheckDie,浮空
+Log,log or exception text,EnemyLogic,CheckWudi,出现力竭异常：
+Log,log or exception text,EnemyLogic,CheckWudi,开始无敌检测容错：
+Log,log or exception text,EnemyLogic,ClearCD,清除CD！
+Log,log or exception text,EnemyLogic,GetData,使用的AIID为怪物表中ID：
+Log,log or exception text,EnemyLogic,GetData,内功：
+Log,log or exception text,EnemyLogic,GetData,怪物表中ID：
+Log,log or exception text,EnemyLogic,GetData,招式武器类型ID：
+Log,log or exception text,EnemyLogic,GetData,攻击序列ID：
+Log,log or exception text,EnemyLogic,GetData,自身武器类型ID：
+Log,log or exception text,EnemyLogic,GetData,该同伴使用的招式和当前武器不符
+Log,log or exception text,EnemyLogic,GetData,该同伴武学ID不全! 选择的招式：
+Log,log or exception text,EnemyLogic,GetData,该同伴武学ID齐全!使用的AI为：
+Log,log or exception text,EnemyLogic,GetData,该敌人使用的招式和当前武器不符
+Log,log or exception text,EnemyLogic,GetData,该敌人武学ID齐全!使用的AI为：
+Log,log or exception text,EnemyLogic,GetData,该敌人的使用的招式和当前武器不符
+Log,log or exception text,EnemyLogic,GetData,该敌人的武学ID不全! 选择的招式：
+Log,log or exception text,EnemyLogic,GetData,轻功：
+Log,log or exception text,EnemyLogic,InitBound,地图边界:
+Key,animation/state name,EnemyLogic,ReleaseNG_NotOnHurtOrAttack,击飞
+Key,animation/state name,EnemyLogic,ReleaseNG_OnAttack,击飞
+Key,animation/state name,EnemyLogic,ReleaseNG_OnAttackChase,击飞
+Log,log or exception text,EnemyNormalAttackChaseState,Action,\n当前最小距离:
+Log,log or exception text,EnemyNormalAttackChaseState,Action,有第二套攻击逻辑：\n当前最大距离：
+Key,animation/state name,EnemyNormalAttackChaseState,Enter,倒地
+Log,log or exception text,EnemyNormalAttackChaseState,Enter,同时携带内功轻功且都不在CD
+Log,log or exception text,EnemyNormalAttackChaseState,Enter,尝试释放内功
+Log,log or exception text,EnemyNormalAttackChaseState,Enter,尝试释放轻功
+Key,animation/state name,EnemyNormalAttackChaseState,Enter,弹地
+Key,animation/state name,EnemyNormalAttackChaseState,Enter,起身
+Key,animation/state name,EnemyNormalAttackChaseState/<>c,<Action1>b__8_0,受创
+Key,animation/state name,EnemyNormalAttackChaseState/<>c,<Action1>b__8_2,受创
+Key,animation/state name,EnemyNormalAttackChaseState/<>c,<Action>b__9_0,受创
+Key,animation/state name,EnemyNormalAttackChaseState/<>c,<Action>b__9_2,受创
+Key,animation/state name,EnemyNormalAttackChaseState/<>c,<Action>b__9_4,受创
+Log,log or exception text,EnemyNormalAttackState,SetQueue,攻击动作序列长度数据和攻击帧序列长度数据不匹配，请检查攻击序列表行：
+Key,animation/state name,EnemyNormalBeFightBackState/<>c,<Enter>b__2_2,弹反
+Log,log or exception text,EnemyNormalBoomState,Enter,爆气动作：
+Key,animation/state name,EnemyNormalBoundState/<>c,<Enter>b__2_2,游走2
+Key,animation/state name,EnemyNormalChaseState,Action,倒地
+Key,substring match,EnemyNormalChaseState,Action,熊
+Key,animation/state name,EnemyNormalDieState,<Enter>b__2_1,倒地
+Key,animation/state name,EnemyNormalDieState,<Enter>b__2_1,死亡
+Log,log or exception text,EnemyNormalDieState,Enter,伙伴死亡，给玩家提供了
+Key,animation/state name,EnemyNormalDieState,Enter,倒地
+Key,animation/state name,EnemyNormalDieState,Enter,死亡
+Key,animation/state name,EnemyNormalDieState/<>c,<Enter>b__2_3,死亡
+Key,animation/state name,EnemyNormalEvaForwardState/<>c,<Enter>b__2_2,前闪避
+Key,animation/state name,EnemyNormalFightBackState/<>c,<Enter>b__2_2,格挡弹反
+Key,animation/state name,EnemyNormalHurtState,Execute,倒地
+Key,animation/state name,EnemyNormalHurtState,Execute,击倒
+Key,animation/state name,EnemyNormalHurtState,Execute,前趴
+Key,animation/state name,EnemyNormalHurtState,Execute,受击
+Key,animation/state name,EnemyNormalHurtState,Execute,后仰
+Key,animation/state name,EnemyNormalHurtState,Execute,格挡
+Key,animation/state name,EnemyNormalHurtState,Execute,浮空
+Key,animation/state name,EnemyNormalHurtState,Execute,起身
+Key,animation/state name,EnemyNormalHurtState,Execute,起身技
+Key,animation/state name,EnemyNormalHurtState,Exit,倒地
+Key,substring match,EnemyNormalMorDefend1State,Enter,动物
+Key,substring match,EnemyNormalMorDefend2State,Enter,动物
+Key,substring match,EnemyNormalMorHurtState,Enter,动物
+Key,substring match,EnemyNormalMorIdleState,Enter,动物
+Key,substring match,EnemyNormalMorResetState,Enter,动物
+Key,animation/state name,EnemyNormalNGQGState,Enter,即将释放的内功轻功AI：
+Key,animation/state name,EnemyNormalWandBackState,Action,倒地
+Key,animation/state name,EnemyNormalWandBackState,ActionOPT,倒地
+Key,animation/state name,EnemyNormalWandBackState,ActionOPT2,倒地
+Key,animation/state name,EnemyNormalWandBackState/<>c,<Action>b__14_11,游走2
+Key,animation/state name,EnemyNormalWandBackState/<>c,<ActionOPT2>b__13_11,游走2
+Key,animation/state name,EnemyNormalWandBackState/<>c,<ActionOPT>b__15_11,游走2
+Key,animation/state name,EnemyNormalWandBackState/<>c,<Enter>b__6_2,游走2
+Key,animation/state name,EnemyNormalWandState,Execute,倒地
+Key,animation/state name,EnemyNormalWandState/<>c,<Enter>b__3_2,游走
+Key,animation/state name,EnemyNormalWandState/<>c,<Execute>b__4_11,游走
+Key,animation/state name,EnemyNormalXuanyunState,Exit,倒地
+Log,log or exception text,EscortCartEntity,CalPathPoints,镖车实体路点计算完毕:
+Log,log or exception text,ExcelUtil,GetDictionary, key的类型定义异常:
+Log,log or exception text,ExcelUtil,GetDictionary,配置
+Log,log or exception text,FileUtil,CopyFile,文件复制失败：
+Log,log or exception text,FileUtil,CreateDirectory,创建目标目录失败：
+Log,log or exception text,FileUtil,DeleteAllDirectoryFiles, 不存在。
+Log,log or exception text,FileUtil,DeleteAllDirectoryFiles, 时出现错误: 
+Log,log or exception text,FileUtil,DeleteAllDirectoryFiles,删除文件 
+Log,log or exception text,FileUtil,DeleteAllDirectoryFiles,删除目标目录文件失败：
+Log,log or exception text,FileUtil,DeleteAllDirectoryFiles,已删除文件: 
+Log,log or exception text,FileUtil,DeleteAllDirectoryFiles,指定的目录 
+Log,log or exception text,FileUtil,DeleteDirectory,删除目标目录失败：
+Log,log or exception text,FileUtil,DeleteFile,文件删除失败：
+Key,animation/state name,FlyItemLogic,ChoosePara,倒地
+Key,animation/state name,FlyItemLogic,ChoosePara,弹地
+Key,animation/state name,FlyItemLogic,ChoosePara,起身
+Key,animation/state name,FlyItemLogic,OnAttack,击飞
+Log,log or exception text,FlyItemLogic,OnAttack,力竭回复无敌！
+Key,animation/state name,FlyItemLogic,OnAttack,受创
+Log,log or exception text,FlyItemLogic,OnAttack,命中000格挡:
+Log,log or exception text,FlyItemLogic,OnAttack,命中111格挡:
+Log,log or exception text,FlyItemLogic,OnAttack,扣除了：
+Key,animation/state name,FlyItemLogic,OnAttack,格挡
+Log,log or exception text,FlyItemLogic,OnAttack,点士气值_当前士气值为：
+Log,log or exception text,FlyItemLogic,OnAttack,飞击中位移：
+Log,log or exception text,FlyItemLogic,OnAttack,飞命中格挡111
+Log,log or exception text,FlyItemLogic,OnAttack,飞行道具吸血：
+Log,log or exception text,FlyItemLogic/<>c__DisplayClass93_0,<TurnToHit1>b__6,未知的受击类型
+Key,compared with data,FunTool,ConvertText,武学研本
+Key,compared with data,FunTool,ConvertText,秘籍
+Key,Replace pattern,FunTool,ConvertText,（上册）
+Key,Replace pattern,FunTool,ConvertText,（下册）
+Key,Replace pattern,FunTool,ConvertText,（全本）
+Log,log or exception text,FunTool,ParamChange, 赋值:
+Log,log or exception text,FunTool,ParamChange, 错误定义 \nmsg:
+Log,log or exception text,FunTool,ParamChange,参数:
+Log,log or exception text,FunTool,ParamCompare, 参数1:
+Log,log or exception text,FunTool,ParamCompare, 逻辑符:
+Log,log or exception text,FunTool,ParamCompare,比较错误。 参数1:
+Log,log or exception text,GDataManager,<GetSettingJsonStrArray>g__InitSettingJson|425_0,初始化游戏设置
+Log,log or exception text,GDataManager,GetSettingJsonStrArray,游戏设置Json: 
+Key,sheet name,GDataManager,InitWorldEvolutionData,任务清单
+Key,sheet name,GDataManager,InitWorldEvolutionData,境界等级系数
+Key,sheet name,GDataManager,InitWorldEvolutionData,奖励组
+Key,sheet name,GDataManager,InitWorldEvolutionData,属性取值
+Key,sheet name,GDataManager,InitWorldEvolutionData,掉落基础配置
+Key,sheet name,GDataManager,InitWorldEvolutionData,装备后缀
+Key,sheet name,GDataManager,InitWorldEvolutionData,装备随机掉落配置
+Key,sheet name,GDataManager,InitWorldEvolutionData,门派表
+Key,sheet name,GDataManager,LoadAllMustData,门派表
+Key,sheet name,GDataManager,LoadBattleSceneExcelData,战斗场景
+Key,sheet name,GDataManager,LoadBattleSceneExcelData,战斗场景资源
+Key,sheet name,GDataManager,LoadData_Child1,三才书属性加成
+Key,sheet name,GDataManager,LoadData_Child1,密卷
+Key,sheet name,GDataManager,LoadData_Child1,密卷槽开启
+Key,sheet name,GDataManager,LoadData_Child1,心决
+Key,sheet name,GDataManager,LoadData_Child1,招式配置
+Key,sheet name,GDataManager,LoadData_Child1,武学等级配置
+Key,sheet name,GDataManager,LoadData_Child1,武学配置
+Key,sheet name,GDataManager,LoadData_Child2,Spine动画
+Key,sheet name,GDataManager,LoadData_Child2,buff类型
+Key,sheet name,GDataManager,LoadData_Child2,buff组
+Key,sheet name,GDataManager,LoadData_Child2,monster装备品质
+Key,sheet name,GDataManager,LoadData_Child2,加点方向
+Key,sheet name,GDataManager,LoadData_Child2,宝箱表现形式
+Key,sheet name,GDataManager,LoadData_Child2,属性翻译
+Key,sheet name,GDataManager,LoadData_Child2,怪物类型ID
+Key,sheet name,GDataManager,LoadData_Child2,最大等级限制
+Key,sheet name,GDataManager,LoadData_Child2,武器基本属性百分比
+Key,sheet name,GDataManager,LoadData_Child2,装备附属出现概率
+Key,sheet name,GDataManager,LoadData_Child2,装备附属属性库
+Key,sheet name,GDataManager,LoadData_Child2,角色模组
+Key,sheet name,GDataManager,LoadData_Child2,额外修为奖励
+Key,sheet name,GDataManager,LoadData_Child3,资源采集
+Key,sheet name,GDataManager,LoadData_Child4,地图表
+Key,sheet name,GDataManager,LoadData_Child4,引导表
+Key,sheet name,GDataManager,LoadData_Child4,秘术
+Key,sheet name,GDataManager,LoadData_Child4,羁绊
+Key,sheet name,GDataManager,LoadData_Child5,心诀配置
+Key,sheet name,GDataManager,LoadData_Child5,心诀配置英文
+Key,sheet name,GDataManager,LoadData_Child5,招式配置
+Key,sheet name,GDataManager,LoadData_Child5,招式配置英文
+Key,sheet name,GDataManager,LoadData_Child5,散学对应招式表
+Key,sheet name,GDataManager,LoadData_Child5,散学对应招式表英文
+Key,sheet name,GDataManager,LoadData_Child5,武学境界对应招式表
+Key,sheet name,GDataManager,LoadData_Child5,武学境界对应招式表英文
+Key,sheet name,GDataManager,LoadData_Child5,轻击对应招式表
+Key,sheet name,GDataManager,LoadData_Child5,轻击对应招式表英文
+Key,sheet name,GDataManager,LoadData_Child5,重击对应招式表
+Key,sheet name,GDataManager,LoadData_Child5,重击对应招式表英文
+Key,sheet name,GDataManager,LoadData_Must,地图ID
+Key,sheet name,GDataManager,LoadData_Must,地图表
+Key,sheet name,GDataManager,LoadData_Must,天赋
+Key,sheet name,GDataManager,LoadInfoData,色值相关
+Key,sheet name,GDataManager,LoadInfoData,装备品质
+Key,sheet name,GDataManager,LoadInfoData,角色成长配置表
+Key,sheet name,GDataManager,LoadItemData,任务英文
+Key,sheet name,GDataManager,LoadItemData,其他
+Key,sheet name,GDataManager,LoadItemData,其他英文
+Key,sheet name,GDataManager,LoadItemData,材料
+Key,sheet name,GDataManager,LoadItemData,材料英文
+Key,sheet name,GDataManager,LoadItemData,礼物
+Key,sheet name,GDataManager,LoadItemData,秘籍
+Key,sheet name,GDataManager,LoadItemData,秘籍英文
+Key,sheet name,GDataManager,LoadItemData,艺能
+Key,sheet name,GDataManager,LoadItemData,艺能英文
+Key,sheet name,GDataManager,LoadItemData,药品
+Key,sheet name,GDataManager,LoadItemData,药品英文
+Key,sheet name,GDataManager,LoadItemData,装备
+Key,sheet name,GDataManager,LoadItemData,装备英文
+Key,sheet name,GDataManager,LoadItemData,食物
+Key,sheet name,GDataManager,LoadItemData,食物英文
+Key,sheet name,GDataManager,LoadListCreateRoleData,创建角色
+Log,log or exception text,GDataManager/<>c__DisplayClass482_0,<LoadHeaderYuan>b__0,找不到场景头像:
+Log,log or exception text,GProject.Data.BoxPointData,GetPos,随机宝箱位置配置错误：
+Key,compared with data,GProject.GEquipData,GetWeaponType,奇门
+Key,Replace pattern,GProject.GEquipData,GetWeaponType,奇门-
+Key,compared with data,GProject.GEquipData,GetWeaponType,拳
+Key,compared with data,GProject.GEquipData,GetWeaponType,长兵
+Key,Replace pattern,GProject.GEquipData,GetWeaponType,长兵-
+Key,substring match,GProject.GItemData,GetMijiUseDes,上册
+Key,substring match,GProject.GItemData,GetMijiUseDes,下册
+Key,compared with data,GProject.MyEuipData,GetExtraProperty,攻击
+Key,compared with data,GProject.MyEuipData,GetExtraProperty,气血
+Key,compared with data,GProject.MyEuipData,GetExtraProperty,气血恢复
+Key,compared with data,GProject.MyEuipData,GetExtraProperty,防御
+Key,compared with data,GSpineAnimationData,GetWeaponType,奇门
+Key,Replace pattern,GSpineAnimationData,GetWeaponType,奇门-
+Key,compared with data,GSpineAnimationData,GetWeaponType,拳
+Key,compared with data,GSpineAnimationData,GetWeaponType,长兵
+Key,Replace pattern,GSpineAnimationData,GetWeaponType,长兵-
+Log,log or exception text,GameManager,Awake,操作系统: 
+Log,log or exception text,GangGroup,ChangMainStation,迁移总舵出现异常，不是同一个联盟
+Log,log or exception text,GangGroup,ChangMainStation,迁移总舵出现异常，联盟没有总舵
+Log,log or exception text,GangGroupManager,OnWorldTimeDayUpdate,帮派每日事件处理出错 Error \nstackTrace:\n
+Key,compared with data,GangManager,GenRandomGangShopItem_old,三才书
+Key,compared with data,GangManager,GenRandomGangShopItem_old,内功
+Key,compared with data,GangManager,GenRandomGangShopItem_old,武学研本
+Key,compared with data,GangManager,GenRandomGangShopItem_old,轻功
+Key,compared with data,GangManager,GetGangShopItemWuxueId,三才书
+Key,compared with data,GangManager,GetGangShopItemWuxueId,心诀
+Key,compared with data,GangManager,GetGangShopItemWuxueId,武学研本
+Key,compared with data,GangManager,GetWuxueSetType,内功
+Key,compared with data,GangManager,GetWuxueSetType,轻功
+Log,log or exception text,GangManager,RandomTask,随机生成帮派任务失败
+Log,log or exception text,GangManager,RandomTask,随机生成帮派任务失败~
+Log,log or exception text,GuideManager,StartGuide,引导 找不到方法:{0}
+Log,log or exception text,GuideManager,StartGuide,引导 方法为空 guideId:{0}
+Log,log or exception text,GuideManager,StartGuide,引导表找不到guideId:{0}
+Key,compared with data,GymsDataGenerator,GetAllTypeShopItemIdList,江湖散学
+Key,compared with data,GymsDataGenerator,GetAllTypeShopItemIdList,江湖通式
+Key,substring match,HuiXuePerSecondBuff,SetValue,#气血上限*
+Log,log or exception text,IEvent.M_EventSystem,Fire,尝试调用不同类型的委托
+Key,compared with data,InfoSettingData,GetKeyCode,右ALT
+Key,compared with data,InfoSettingData,GetKeyCode,右CONTROL
+Key,compared with data,InfoSettingData,GetKeyCode,右SHIFT
+Key,compared with data,InfoSettingData,GetKeyCode,左ALT
+Key,compared with data,InfoSettingData,GetKeyCode,左CONTROL
+Key,compared with data,InfoSettingData,GetKeyCode,左SHIFT
+Key,compared with data,InfoSettingData,GetKeyCode,方向键上
+Key,compared with data,InfoSettingData,GetKeyCode,方向键下
+Key,compared with data,InfoSettingData,GetKeyCode,方向键右
+Key,compared with data,InfoSettingData,GetKeyCode,方向键左
+Key,compared with data,InfoSettingData,GetKeyCode,空格
+Key,compared with data,InfoSettingData,GetKeyCode,鼠标中键
+Key,compared with data,InfoSettingData,GetKeyCode,鼠标侧上
+Key,compared with data,InfoSettingData,GetKeyCode,鼠标侧下
+Key,compared with data,InfoSettingData,GetKeyCode,鼠标右键
+Key,compared with data,InfoSettingData,GetKeyCode,鼠标左键
+Log,log or exception text,InitPlayData,OnPlayerDataInit,OnPlayerDataInit执行异常：
+Key,substring match,InitPlayData/<>c,<ExtraForNewPlayerData>b__1_0,武学研本
+Key,substring match,InitPlayData/<>c,<ExtraForNewPlayerData>b__1_0,（全本）
+Log,log or exception text,Manager.NpcDataManager,GetNpcNotWearAllEquip,装备在数据表中不存在 id:{0}
+Log,log or exception text,ModHandle,Load,中的mod:
+Log,log or exception text,ModHandle,Load,工程
+Log,log or exception text,Monster,OnAttack, 使用招式：{0} id:{1} 计算真实伤害
+Log,log or exception text,Monster,OnAttack,技能招式增加的真实伤害 :{0}
+Log,log or exception text,Monster,OnAttack,攻击：普通伤害:{0}
+Log,log or exception text,Monster,OnAttack,真实伤害 当释放某些技能时:{0}
+Log,log or exception text,Monster,PlayAnimation,{0}找不到动作: Animation name:{2}  id:{1} 
+Key,compared with data,NPCData,AddItem,秘籍
+Log,log or exception text,NpcActionUtil,GetPointByConfStr, 错误</color>:\n stackTrace:
+Log,log or exception text,NpcActionUtil,GetPointByConfStr,<color=#FF0000>坐标: 
+Log,log or exception text,NpcAction_Self,DoOnStart, action 配置了不允许npc到达的地图
+Log,log or exception text,NpcAvatarControl,RemoveQianSkil_,后发资源名称找不到===
+Log,log or exception text,NpcAvatarControl,SetQianSkin_,后发资源名称找不到===
+Key,Replace pattern,NpcTalk,CustomData,(尸首)
+Key,substring match,NpcTalk,SetUiData,【舞女】
+Key,substring match,NpcTalk/<>c__DisplayClass222_1,<SetLipsData>b__4,捕快
+Log,log or exception text,ObjectExtensions,GetPropertyValue,反射获取属性失败，type:
+Key,game replaces with its own English,PigeonMsgItem,RefreshView,年
+Key,game replaces with its own English,PigeonMsgItem,RefreshView,旁人书信
+Key,game replaces with its own English,PigeonMsgItem,RefreshView,日
+Key,game replaces with its own English,PigeonMsgItem,RefreshView,月
+Key,Replace pattern,PigeonMsgItem,RefreshView,第
+Log,log or exception text,PlayerData,GetAllMyEuip,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerData,GetAllMyEuipOnBody,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerData,GetMyEuipByType,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerData,GetMyEuipDataOnBody,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerData,GetMyEuipOnBody,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerData,GetMySkinByType,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerData,GetSkinOnBody,装备在数据表中不存在 id:{0}
+Log,log or exception text,PlayerDataManager,AddItem,物品的最大叠加异常
+Log,log or exception text,PlayerDataManager,PlayerTeamChange,主角数据为空
+Log,log or exception text,PlayerDataManager,ZhuiZhongTaskIsFull,追踪的任务=====
+Log,log or exception text,PlayerDeathPenaltyExecutor/<OnArrived>d__16,MoveNext,玩家被意外停下
+Key,named lookup,RedPointManager,CheckShowRed,格挡
+Key,named lookup,RedPointManager,CheckShowRed,纵跃
+Key,named lookup,RedPointManager,CheckShowRed,闪躲
+Log,log or exception text,ScheduleManager,Add,schedule 已注册
+Log,log or exception text,SteamEntry,Awake,steam 版本分支：
+Log,log or exception text,SteamEntry,Awake,steam 用户名：
+Log,log or exception text,SteamHelper,CalculateFolderSize,计算文件夹 
+Key,substring match,StringExtensions,ReplaceActorFormulaVar,友方数量
+Key,substring match,StringExtensions,ReplaceActorFormulaVar,同伴数量
+Key,substring match,StringExtensions,ReplaceActorFormulaVar,敌人数量
+Key,substring match,StringExtensions,ReplaceBattlePropFormulaVar,当前体力
+Key,substring match,StringExtensions,ReplaceBuffFormulaVar,debuff数量
+Key,substring match,StringExtensions,ReplaceEffectFormulaVar,公式变量1
+Key,substring match,StringExtensions,ReplaceEffectFormulaVar,公式变量2
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,HP上限
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,HP恢复
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,MP上限
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,MP恢复
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,体力恢复
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,免暴
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,内功攻击
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,内功防御
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,内劲增长
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,内息
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,反伤
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,吸血
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,命中
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,外功攻击
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,外功防御
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,悟性
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,暴击
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,武力
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,武器基础值
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,气血
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,气血恢复
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,移动
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,筋骨
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,身法
+Key,game replaces with its own English,StringExtensions,TranslateAttribute,闪避
+Log,log or exception text,TextAuto,CacheTargetMethod,找不到方法 
+Log,log or exception text,TextAuto,CacheTargetMethod,方法返回类型必须为 string (当前为 
+Log,log or exception text,TimeAddBuff,InitAddBuffValue,不支持添加Buff的类型：
+Key,game replaces with its own English,TipShowWin,SetUiData,体力上限
+Key,game replaces with its own English,TipShowWin,SetUiData,体力回复
+Key,substring match,TipShowWin,SetUiData,其他
+Key,game replaces with its own English,TipShowWin,SetUiData,内功攻击
+Key,game replaces with its own English,TipShowWin,SetUiData,内劲增长
+Key,game replaces with its own English,TipShowWin,SetUiData,反伤
+Key,game replaces with its own English,TipShowWin,SetUiData,外功攻击
+Key,game replaces with its own English,TipShowWin,SetUiData,气血上限
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,体力上限
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,体力回复
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,免暴
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,内功攻击
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,内功防御
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,内劲增长
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,反伤
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,外功攻击
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,外功防御
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,暴击伤害
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,暴击减免
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,气血上限
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,气血恢复
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,其他
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,坠饰
+Key,substring match,TipShowWinNewPanel,SetUiData,心诀
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,戒指
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,手镯
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,护甲
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,护腰
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,护腿
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,护臂
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,时装
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,未知
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,未知2
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,武器
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,药品
+Key,game replaces with its own English,TipShowWinNewPanel,SetUiData,项链
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,体力上限
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,体力回复
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,内功攻击
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,内劲增长
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,反伤
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,外功攻击
+Key,game replaces with its own English,UI.PopWin.UITipChongHoleFinish,ShowChongHoleFinishView,气血上限
+Key,compared with data,UI.UISwordVillageGM.BaseView.BaseViewContent,GetMartialArtsType,内功
+Key,compared with data,UI.UISwordVillageGM.BaseView.BaseViewContent,GetMartialArtsType,轻功
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,坠饰
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,戒指
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,护甲
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,护腰
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,护腿
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,护臂
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,武器
+Key,switch/dictionary key,UI.UISwordVillageGM.BaseView.GmItemViewContent,GetEquipType,项链
+Log,log or exception text,UIActiveModOnPlayer,OnEnable,当前测试中的模组：
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,体力上限
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,体力回复
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,内功攻击
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,内劲增长
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,反伤
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,外功攻击
+Key,game replaces with its own English,UIAcupoint,ShowAcupointChongHoleView,气血上限
+Key,game replaces with its own English,UIAcupointItem,SetUiData,体力上限
+Key,game replaces with its own English,UIAcupointItem,SetUiData,体力回复
+Key,game replaces with its own English,UIAcupointItem,SetUiData,内功攻击
+Key,game replaces with its own English,UIAcupointItem,SetUiData,内劲增长
+Key,game replaces with its own English,UIAcupointItem,SetUiData,反伤
+Key,game replaces with its own English,UIAcupointItem,SetUiData,外功攻击
+Key,game replaces with its own English,UIAcupointItem,SetUiData,气血上限
+Log,log or exception text,UIAttributeNpc,SetJbData,为什么找不到帮派数据?==
+Log,log or exception text,UIBattleReady,SetRightTeamInfo,为什么没有对面的怪物数据
+Log,log or exception text,UIBetShopItem,<Start>b__18_2,下注的金额==
+Log,log or exception text,UIBetShopItem,Start,为空的obj名称==
+Log,log or exception text,UICreateRole,OpenInbornUI,创建新角色~ 选择avatar：
+Key,compared with data,UICreateRole2,ShowItems,体力
+Key,compared with data,UICreateRole2,ShowItems,元宝
+Key,compared with data,UICreateRole2,ShowItems,内力
+Key,compared with data,UICreateRole2,ShowItems,气血
+Key,compared with data,UICreateRole2,ShowItems,银两
+Key,game replaces with its own English,UIEquipItem,SetUiData,坠饰
+Key,game replaces with its own English,UIEquipItem,SetUiData,戒指
+Key,game replaces with its own English,UIEquipItem,SetUiData,手镯
+Key,game replaces with its own English,UIEquipItem,SetUiData,护甲
+Key,game replaces with its own English,UIEquipItem,SetUiData,护腰
+Key,game replaces with its own English,UIEquipItem,SetUiData,护腿
+Key,game replaces with its own English,UIEquipItem,SetUiData,护臂
+Key,game replaces with its own English,UIEquipItem,SetUiData,时装
+Key,game replaces with its own English,UIEquipItem,SetUiData,未知2
+Key,game replaces with its own English,UIEquipItem,SetUiData,武器
+Key,game replaces with its own English,UIEquipItem,SetUiData,项链
+Key,game replaces with its own English,UIEquipItem,UpEquip,坠饰
+Key,game replaces with its own English,UIEquipItem,UpEquip,戒指
+Key,game replaces with its own English,UIEquipItem,UpEquip,手镯
+Key,game replaces with its own English,UIEquipItem,UpEquip,护甲
+Key,game replaces with its own English,UIEquipItem,UpEquip,护腰
+Key,game replaces with its own English,UIEquipItem,UpEquip,护腿
+Key,game replaces with its own English,UIEquipItem,UpEquip,护臂
+Key,game replaces with its own English,UIEquipItem,UpEquip,时装
+Key,game replaces with its own English,UIEquipItem,UpEquip,未知2
+Key,game replaces with its own English,UIEquipItem,UpEquip,武器
+Key,game replaces with its own English,UIEquipItem,UpEquip,项链
+Key,Replace pattern,UIGameArchiveItem,InitData,年
+Key,compared with data,UIGameArchiveItem,InitData,无
+Key,Replace pattern,UIGameArchiveItem,InitData,日
+Key,Replace pattern,UIGameArchiveItem,InitData,月
+Log,log or exception text,UIGameInbornSelect,GoNextUI,创建新角色~ 选择天赋：
+Key,named lookup,UIGameLiChangSelect,GetTipsContent,内息
+Key,named lookup,UIGameLiChangSelect,GetTipsContent,悟性
+Key,named lookup,UIGameLiChangSelect,GetTipsContent,武力
+Key,named lookup,UIGameLiChangSelect,GetTipsContent,筋骨
+Key,named lookup,UIGameLiChangSelect,GetTipsContent,身法
+Key,named lookup,UIGameLiChangSelect,InitSxBtnData,内息
+Key,named lookup,UIGameLiChangSelect,InitSxBtnData,悟性
+Key,named lookup,UIGameLiChangSelect,InitSxBtnData,武力
+Key,named lookup,UIGameLiChangSelect,InitSxBtnData,筋骨
+Key,named lookup,UIGameLiChangSelect,InitSxBtnData,身法
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,体力上限
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,体力回复
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,内功攻击
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,内劲增长
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,反伤
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,外功攻击
+Key,game replaces with its own English,UIJingLuoMinGame,SetUIData,气血上限
+Log,log or exception text,UIMain,DoAction,没有找到对应的功能id==
+Key,compared with data,UIMain,DoAction,随机武器
+Key,game replaces with its own English,UIMain,GameTimeShow,晴天
+Key,game replaces with its own English,UIMain,GameTimeShow,雨天
+Key,game replaces with its own English,UIMain,GameTimeShow,雪天
+Key,game replaces with its own English,UIMain,GameTimeShow,雷雨天
+Key,game replaces with its own English,UIMain,GameTimeShow,雾天
+Log,log or exception text,UIMain,OnClickTouch,这里是赌坊的特殊交互物
+Key,switch/dictionary key,UIMain/<>c__DisplayClass226_1,<ShowCollect>b__2,摘蚕茧
+Key,switch/dictionary key,UIMain/<>c__DisplayClass226_1,<ShowCollect>b__2,矿石
+Key,switch/dictionary key,UIMain/<>c__DisplayClass226_1,<ShowCollect>b__2,碎木
+Key,switch/dictionary key,UIMain/<>c__DisplayClass226_1,<ShowCollect>b__2,花草
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,世间奇遇2
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,人物志
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,帮派任务
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,情字难舍
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,江湖恩仇
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,营生委托
+Log,log or exception text,UIManager,OpenPopWin,打开弹出界面失败！！
+Log,log or exception text,UIManager,ShowUI,不存在UI:{0}
+Log,log or exception text,UIMapBufferItem,SetBufferData,BuffId找不到
+Log,log or exception text,UIMapBufferItem,ShowSprite,Buff图片找不到
+Log,log or exception text,UIRansomView/<>c__DisplayClass49_0,<OnClickTipLeft>b__0,进行银两勒索
+Log,log or exception text,UIRead,ShowText,回收tempCount:{0} pageSize:{1}
+Key,substring match,UIRoleAttributeDataManager,GetEuipDAttributeBaseData,体力回复
+Key,substring match,UIRoleAttributeDataManager,GetEuipDAttributeBaseData,免暴
+Log,log or exception text,UIRoleAttributeDataManager,GetEuipDAttributeBaseData,找不到装备:
+Key,substring match,UIRoleAttributeDataManager,GetEuipDAttributeBaseData,攻击力
+Key,substring match,UIRoleAttributeDataManager,GetEuipDAttributeBaseData,气血上限
+Key,substring match,UIRoleAttributeDataManager,GetEuipDAttributeBaseData,气血回复
+Key,substring match,UIRoleAttributeDataManager,GetSkillZsData,回血
+Key,substring match,UIRoleAttributeDataManager,GetZaoySx,体力恢复
+Key,substring match,UIRoleAttributeDataManager,GetZaoySx,免暴
+Key,substring match,UIRoleAttributeDataManager,GetZaoySx,气血上限
+Key,substring match,UIRoleAttributeDataManager,ResterEquipZhu,体力回复
+Key,substring match,UIRoleAttributeDataManager,ResterEquipZhu,免暴
+Key,substring match,UIRoleAttributeDataManager,ResterEquipZhu,攻击力
+Key,substring match,UIRoleAttributeDataManager,ResterEquipZhu,气血回复
+Log,log or exception text,UIRoleAttributeDataManager,SetAttributeBase,穴位的增加属性为空？
+Key,compared with data,UIRoleAttributeDataManager,SetSkillAllSx,暂无效果
+Key,substring match,UIRoleAttributeDataManager,SetSkillAllSxChengZhang,体力恢复
+Key,substring match,UIRoleAttributeDataManager,SetSkillAllSxChengZhang,免暴
+Log,log or exception text,UIRoleAttributeDataManager,SetSkillAllSxChengZhang,加的属性为什么是0===
+Key,substring match,UIRoleAttributeDataManager,SetSkillAllSxChengZhang,气血上限
+Key,compared with data,UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,方向键上
+Key,compared with data,UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,方向键下
+Key,compared with data,UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,方向键右
+Key,compared with data,UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,方向键左
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,世间奇遇
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,世间奇遇2
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,人物志
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,情字难舍
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,江湖恩仇
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,营生委托
+Key,Replace pattern,UIWorldTime,UpdateSpendTime,一一
+Key,Replace pattern,UIWorldTime,UpdateSpendTime,一零
+Key,Replace pattern,UIWorldTime,UpdateSpendTime,二
+Key,Replace pattern,UIWuXueNew,<InitMainList_Sanxue>b__105_0,闪躲
+Key,game replaces with its own English,UIWuXueNew,<ShowTongshi>b__109_2,纵跃
+Key,game replaces with its own English,UIWuXueNew,<ShowTongshi>b__109_2,轻击
+Key,Replace pattern,UIWuXueNew,<ShowTongshi>b__109_2,闪躲
+Key,Replace pattern,UIWuXueNew,InitCurSanxue,闪躲
+Key,Replace pattern,UIWuXueNew,SelectSanxueRightItem,闪躲
+Key,substring match,UIXingLiangItem,SetUiData,心诀
+Key,substring match,UIXingLiangShowItem,SetUiData,心诀
+Key,substring match,UIXingLiangShowItem,SetUiData2,心诀
+Key,substring match,UIZzReset,ShowLockIsShow,天才
+Key,compared with data,UIZzReset/<>c__DisplayClass48_0,<SetSuiJiData>b__0,内功
+Key,compared with data,UIZzReset/<>c__DisplayClass48_0,<SetSuiJiData>b__0,轻功
+Key,switch/dictionary key,UI_BuffItem,useEnglish,体力上限
+Key,switch/dictionary key,UI_BuffItem,useEnglish,体力恢复
+Key,switch/dictionary key,UI_BuffItem,useEnglish,免伤
+Key,switch/dictionary key,UI_BuffItem,useEnglish,免暴
+Key,switch/dictionary key,UI_BuffItem,useEnglish,内功攻击
+Key,switch/dictionary key,UI_BuffItem,useEnglish,内功防御
+Key,switch/dictionary key,UI_BuffItem,useEnglish,内劲增长
+Key,switch/dictionary key,UI_BuffItem,useEnglish,内息
+Key,switch/dictionary key,UI_BuffItem,useEnglish,减暴
+Key,switch/dictionary key,UI_BuffItem,useEnglish,反伤
+Key,switch/dictionary key,UI_BuffItem,useEnglish,吸血
+Key,switch/dictionary key,UI_BuffItem,useEnglish,命中
+Key,switch/dictionary key,UI_BuffItem,useEnglish,外功攻击
+Key,switch/dictionary key,UI_BuffItem,useEnglish,外功防御
+Key,switch/dictionary key,UI_BuffItem,useEnglish,悟性
+Key,switch/dictionary key,UI_BuffItem,useEnglish,攻击
+Key,switch/dictionary key,UI_BuffItem,useEnglish,普攻额外伤害
+Key,switch/dictionary key,UI_BuffItem,useEnglish,普攻额外吸血
+Key,switch/dictionary key,UI_BuffItem,useEnglish,暴伤
+Key,switch/dictionary key,UI_BuffItem,useEnglish,暴击
+Key,switch/dictionary key,UI_BuffItem,useEnglish,最大气血
+Key,switch/dictionary key,UI_BuffItem,useEnglish,最终伤害减免
+Key,switch/dictionary key,UI_BuffItem,useEnglish,最终伤害增加
+Key,switch/dictionary key,UI_BuffItem,useEnglish,武力
+Key,switch/dictionary key,UI_BuffItem,useEnglish,气血恢复
+Key,switch/dictionary key,UI_BuffItem,useEnglish,治疗加成
+Key,switch/dictionary key,UI_BuffItem,useEnglish,真气上限
+Key,switch/dictionary key,UI_BuffItem,useEnglish,破格挡概率
+Key,switch/dictionary key,UI_BuffItem,useEnglish,破甲
+Key,switch/dictionary key,UI_BuffItem,useEnglish,移动速度
+Key,switch/dictionary key,UI_BuffItem,useEnglish,筋骨
+Key,switch/dictionary key,UI_BuffItem,useEnglish,身法
+Key,switch/dictionary key,UI_BuffItem,useEnglish,重击额外伤害
+Key,switch/dictionary key,UI_BuffItem,useEnglish,闪避
+Key,switch/dictionary key,UI_BuffItem,useEnglish,防御
+Log,log or exception text,UI_DuDou,<Buy>b__37_0,赌斗下注
+Log,log or exception text,UI_DuDou,EnterBattle,进入赌斗战斗组:
+Log,log or exception text,UI_DuDou,EnterBattle,，第几关：
+Key,animation/state name,UI_StateTest/<>c,<testAI>b__9_3,动作计时：
+Key,animation/state name,UI_StateTest/<>c__DisplayClass9_0,<testAI>b__1,攻击序列：
+Key,animation/state name,UI_StateTest/<>c__DisplayClass9_0,<testAI>b__2,帧序列：
+Log,log or exception text,UI_Wulin,OnPlayerDefeated,第{0}名：{1} ID:{2}
+Log,log or exception text,UI_Wulin,UpdatePanel,决赛
+Key,compared with data,UI_wulinResultPanel,OnEnable,半区魁首
+Key,compared with data,UI_wulinResultPanel,OnEnable,武林盟主
+Key,game replaces with its own English,WordGroupHandle,.ctor,东瀛
+Key,game replaces with its own English,WordGroupHandle,.ctor,五圣教
+Key,game replaces with its own English,WordGroupHandle,.ctor,京城
+Key,game replaces with its own English,WordGroupHandle,.ctor,塞外战场
+Key,game replaces with its own English,WordGroupHandle,.ctor,壁城水寨
+Key,game replaces with its own English,WordGroupHandle,.ctor,大理
+Key,game replaces with its own English,WordGroupHandle,.ctor,大雪山
+Key,game replaces with its own English,WordGroupHandle,.ctor,天涯海阁
+Key,game replaces with its own English,WordGroupHandle,.ctor,太和山
+Key,game replaces with its own English,WordGroupHandle,.ctor,承安镇
+Key,game replaces with its own English,WordGroupHandle,.ctor,无名集
+Key,game replaces with its own English,WordGroupHandle,.ctor,杭州城
+Key,game replaces with its own English,WordGroupHandle,.ctor,查看小地图
+Key,game replaces with its own English,WordGroupHandle,.ctor,桃花坞
+Key,game replaces with its own English,WordGroupHandle,.ctor,洛阳城
+Key,game replaces with its own English,WordGroupHandle,.ctor,移动到此处
+Key,game replaces with its own English,WordGroupHandle,.ctor,襄阳
+Key,game replaces with its own English,WordGroupHandle,.ctor,长安城
+Key,game replaces with its own English,WordGroupHandle,.ctor,隋东关
+Key,game replaces with its own English,WordGroupHandle,.ctor,青萍村
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,东瀛
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,五圣教
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,京城
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,塞外战场
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,壁城水寨
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,大理
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,大雪山
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,天涯海阁
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,太和山
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,承安镇
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,无名集
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,杭州城
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,查看小地图
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,桃花坞
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,洛阳
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,洛阳城
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,皇宫
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,移动到此处
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,襄阳
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,连环寨
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,长安城
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,隋东关
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,青萍村
+Key,game replaces with its own English,WordGroupHandle,InitializeDefaultRules,龙门石窟
+Log,log or exception text,WordManager,RefreshLanguage,当前语言：
+Log,log or exception text,WordManager,RefreshLanguage,是否开启多语言：
+Key,compared with data,WordRelationSpecial,Update,同怀
+Key,compared with data,WordRelationSpecial,Update,子女
+Key,compared with data,WordRelationSpecial,Update,父母
+Key,compared with data,WordRelationSpecial,Update,配偶
+Key,compared with data,WordRelationSpecial,Update,金兰
+Key,substring match,WordSpecial,Update,两
+Key,substring match,WordSpecial,Update,其他
+Key,substring match,WordSpecial,Update,文
+Key,compared with data,WordSpecial,Update,未习得
+Key,substring match,WordSpecial,Update,材料
+Key,substring match,WordSpecial,Update,格挡
+Key,substring match,WordSpecial,Update,精力
+Key,substring match,WordSpecial,Update,纵跃
+Key,substring match,WordSpecial,Update,药品
+Key,substring match,WordSpecial,Update,闪避
+Key,substring match,WordSpecial,Update,食物
+Key,substring match,WordSpecial,Update,鼠标右键
+Key,substring match,WordSpecial,Update,鼠标左键
+Key,compared with data,WordTimeSpecial,Update,丑时
+Key,compared with data,WordTimeSpecial,Update,亥时
+Key,compared with data,WordTimeSpecial,Update,午时
+Key,compared with data,WordTimeSpecial,Update,卯时
+Key,compared with data,WordTimeSpecial,Update,子时
+Key,compared with data,WordTimeSpecial,Update,寅时
+Key,compared with data,WordTimeSpecial,Update,巳时
+Key,compared with data,WordTimeSpecial,Update,戌时
+Key,compared with data,WordTimeSpecial,Update,搜索
+Key,compared with data,WordTimeSpecial,Update,未时
+Key,compared with data,WordTimeSpecial,Update,申时
+Key,compared with data,WordTimeSpecial,Update,辰时
+Key,compared with data,WordTimeSpecial,Update,酉时
+Log,log or exception text,WorldEvolution.Brothel.BrothelManager,GetBrothelNpcName,歌妓
+Key,switch/dictionary key,WorldEvolution.Characteristics.CharacteristicsManager,GetSenseOfBrotherhoodProbability,不仁不义
+Key,switch/dictionary key,WorldEvolution.Characteristics.CharacteristicsManager,GetSenseOfBrotherhoodProbability,背信弃义
+Key,switch/dictionary key,WorldEvolution.Characteristics.CharacteristicsManager,GetSenseOfBrotherhoodProbability,行侠好义
+Key,switch/dictionary key,WorldEvolution.Characteristics.CharacteristicsManager,GetSenseOfBrotherhoodProbability,豪侠尚义
+Key,switch/dictionary key,WorldEvolution.Characteristics.CharacteristicsManager,GetSenseOfBrotherhoodProbability,高义薄云
+Key,compared with data,WorldEvolutionManager,IsSectWuxue,江湖武学
+Key,substring match,WorldEvolutionManager,SetNpcUpZb,腰带
+Key,substring match,WorldEvolutionManager,SetSectData,内功
+Key,substring match,WorldEvolutionManager,SetSectData,轻功
+Key,substring match,WorldEvolutionManager/<MakeSectGangData>d__108,MoveNext,内功
+Key,substring match,WorldEvolutionManager/<MakeSectGangData>d__108,MoveNext,轻功
+Log,log or exception text,WorldEvolutionManager/<StartWorldTime>d__58,MoveNext,<color=#EDAC5C>世界时间驱动异常</color>. stackTrace:\n
+Log,log or exception text,WorldTime,StartTime,~恢复时间
+Log,log or exception text,WorldTime,StopTime,~暂停时间
+Log,log or exception text,WorldTimeEvent,ActionEvolve,<color=#EDAC5C>事件轮询异常</color>. stackTrace:\n
+Log,log or exception text,WorldTimeEvent,Evolve_ABCPAction,~~成功触发 Evolve_ABCPAction
+Log,log or exception text,WorldTimeEvent,Evolve_APAction,~~成功触发 Evolve_APAction 
+Key,compared with data,WuxueData,GetWeaponType,奇门
+Key,Replace pattern,WuxueData,GetWeaponType,奇门-
+Key,compared with data,WuxueData,GetWeaponType,拳
+Key,compared with data,WuxueData,GetWeaponType,长兵
+Key,Replace pattern,WuxueData,GetWeaponType,长兵-

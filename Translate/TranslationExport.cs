@@ -10,5 +10,11 @@ public static class TranslationExport
     {
         foreach (var textFile in TextFileConfiguration.TextFilesToSplit.Where(t => t.TextFileType == TextFileType.RawCsv))
             CsvGameDataWorkflow.ExportToCustomFormat(workingDirectory, textFile, GameFileHandling.SplitterOptions);
+
+        foreach (var textFile in TextFileConfiguration.TextFilesToSplit.Where(t => t.TextFileType == TextFileType.PrefabText))
+            PrefabTextWorkflow.ExportPrefabTextToCustomFormat(workingDirectory, textFile, GameFileHandling.SplitterOptions);
+
+        foreach (var textFile in TextFileConfiguration.TextFilesToSplit.Where(t => t.TextFileType == TextFileType.DynamicStrings))
+            DynamicStringsCecilWorkflow.ExportDynamicStringsToCustomFormat(workingDirectory, textFile, "Raw/Dumped/DynamicStrings");
     }
 }

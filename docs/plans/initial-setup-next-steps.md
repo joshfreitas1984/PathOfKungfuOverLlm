@@ -42,7 +42,7 @@ Steps 4b (post-run checks), 6 (QC pass), 7 (release plumbing, installer and firs
 - Implement injection in the plugin: Harmony postfix on `ExcelUtil.GetListOject<T>` / `GetDictionary<TKey,T>` plus the `Data_Word`, `Data_Skill`/`Data_Speak` and `LanguageConfig` loaders, addressing cells by the table's **ID column** (not the dumper's `Row` number, which drifts on sheets with blank rows) and following JSON paths for dialogue.
 - Done: the plugin reads the packaged output from `BepInEx\plugins\resources`, and steps 6 and 7 in `Tests/FileOutputWorkflowTests.cs` now use `BepInEx/plugins/resources` (the `Mods/English` placeholder is gone).
 - Done: the patch applies whether the player's Steam language is English or Chinese (the language marker on `_en` workbooks and `英文` sheets is stripped; see `features/text-injection.md`).
-- Not yet covered by the dump: UI/prefab text in asset bundles and hard-coded code strings. Log Chinese strings seen at runtime and decide then.
+- Done: UI/prefab text and hard-coded code strings are dumped, exported and set to package (`features/dynamic-strings.md`). Still to do: translate them and check them in game.
 - Not yet translated tables (see `features/text-files-to-split.md`): `monster`, the shop sheets, drop tables, name pools (`姓名库`), several small sheets.
 - Handle font/layout problems if English overflows the UI (resizer support only if needed).
 - Remaining: confirm English text appears on screen; look at the screen; then a runtime pass for what is still Chinese. Done when step "6. Package to Game Files" followed by launching the game shows English text.

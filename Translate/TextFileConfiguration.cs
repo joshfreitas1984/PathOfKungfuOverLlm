@@ -90,5 +90,10 @@ public static class TextFileConfiguration
             new() { Path = "aptitude__Chance.csv", SkipColumns = TranslateOnly(14, 2, 12, 13) },
             new() { Path = "inborn__inborn.csv", SkipColumns = TranslateOnly(38, 2, 5) },
             new() { Path = "地图表__MapConfig.csv", SkipColumns = TranslateOnly(20, 2) },
+
+            // Hard-coded UI text baked into prefabs (Raw/Dumped/PrefabText) and string literals in the game's code
+            // (Raw/Dumped/DynamicStrings: Type,Method,ILOffset,RawText,ParamTypes).
+            new() { Path = "prefabText.txt", TextFileType = TextFileType.PrefabText },
+            new() { Path = "dynamicStrings.txt", TextFileType = TextFileType.DynamicStrings },
     ];
 }
