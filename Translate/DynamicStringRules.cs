@@ -24,9 +24,25 @@ public static class DynamicStringRules
             .Select(CompoundFieldSplitter.ParseCsvRow)
             .ToDictionary(f => (f[2], f[3], f[4]), f => f[0]);
 
+    /// <summary>
+    /// A prefab line longer than this is not translated, because its QC prompt does not fit the QC model's context (num_ctx 6144 with a base prompt
+    /// of several thousand tokens). Three lines are over it: the version changelog (8,725 characters, about 20,000 tokens), the user agreement
+    /// (1,246, 6,819 tokens) and a DLC advert (882). The next longest is 327. Packaging leaves them as they are.
+    /// </summary>
+    public const int MaxPrefabTextLength = 800;
+
+    /// <summary>
+    /// A long line made of one phrase repeated (a run of 啊, or a confirmation prompt pasted a hundred times) is developer layout filler. It also builds the
+    /// largest QC prompts in the pass, since every repeat is translated again. Detected as very few distinct characters for the length.
+    /// </summary>
+    private static bool IsRepeatedFiller(string raw) => raw.Length >= 100 && raw.Distinct().Count() * 10 < raw.Length;
+
     /// <summary>The line's dump format is Type,Method,ILOffset,RawText,ParamTypes.</summary>
     public static bool IsUnsafe(TextFileToSplit textFile, TranslationLine line, TranslationSplit split)
     {
+        if (textFile.TextFileType == TextFileType.PrefabText)
+            return line.Raw.Length > MaxPrefabTextLength || IsRepeatedFiller(line.Raw);
+
         if (textFile.TextFileType != TextFileType.DynamicStrings)
             return false;
 

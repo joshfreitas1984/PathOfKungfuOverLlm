@@ -2,75 +2,150 @@
   splits:
   - text: "空格"
     translated: "Space"
+    qcReviewedText: "Space"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "鼠标左键"
   splits:
   - text: "鼠标左键"
     translated: "Left Mouse"
+    qcReviewedText: "Left Mouse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "鼠标右键"
   splits:
   - text: "鼠标右键"
     translated: "Right Mouse"
+    qcReviewedText: "Right Mouse"
+    qcTranslated: "Right-click"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "鼠标中键"
   splits:
   - text: "鼠标中键"
     translated: "Middle Mouse"
+    qcReviewedText: "Middle Mouse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "方向键上"
   splits:
   - text: "方向键上"
     translated: "Up Arrow"
+    qcReviewedText: "Up Arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "方向键下"
   splits:
   - text: "方向键下"
     translated: "Down Arrow"
+    qcReviewedText: "Down Arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "方向键左"
   splits:
   - text: "方向键左"
     translated: "Left Arrow"
+    qcReviewedText: "Left Arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "方向键右"
   splits:
   - text: "方向键右"
     translated: "Right Arrow"
+    qcReviewedText: "Right Arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "左SHIFT"
   splits:
   - text: "左"
     translated: "Left"
+    qcReviewedText: "Left SHIFT"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}SHIFT"
 - raw: "右SHIFT"
   splits:
   - text: "右"
     translated: "Right"
+    qcReviewedText: "Right SHIFT"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}SHIFT"
 - raw: "左ALT"
   splits:
   - text: "左"
     translated: "Left"
+    qcReviewedText: "Left ALT"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}ALT"
 - raw: "右ALT"
   splits:
   - text: "右"
     translated: "Right"
+    qcReviewedText: "Right ALT"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}ALT"
 - raw: "左CONTROL"
   splits:
   - text: "左"
     translated: "Left"
+    qcReviewedText: "Left CONTROL"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}CONTROL"
 - raw: "右CONTROL"
   splits:
   - text: "右"
     translated: "Right"
+    qcReviewedText: "Right CONTROL"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}CONTROL"
 - raw: "鼠标侧下"
   splits:
   - text: "鼠标侧下"
     translated: "Mouse Button 4"
+    qcReviewedText: "Mouse Button 4"
+    qcTranslated: "Mouse Side Button"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
 - raw: "鼠标侧上"
   splits:
   - text: "鼠标侧上"
     translated: "Mouse Button 5"
+    qcReviewedText: "Mouse Button 5"
+    qcTranslated: "Mouse Side Button"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
