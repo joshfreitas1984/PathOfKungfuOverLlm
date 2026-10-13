@@ -1,0 +1,60 @@
+- raw: "空格"
+  splits:
+  - text: "空格"
+- raw: "鼠标左键"
+  splits:
+  - text: "鼠标左键"
+- raw: "鼠标右键"
+  splits:
+  - text: "鼠标右键"
+- raw: "鼠标中键"
+  splits:
+  - text: "鼠标中键"
+- raw: "方向键上"
+  splits:
+  - text: "方向键上"
+- raw: "方向键下"
+  splits:
+  - text: "方向键下"
+- raw: "方向键左"
+  splits:
+  - text: "方向键左"
+- raw: "方向键右"
+  splits:
+  - text: "方向键右"
+- raw: "左SHIFT"
+  splits:
+  - text: "左"
+  templates:
+  - template: "{0}SHIFT"
+- raw: "右SHIFT"
+  splits:
+  - text: "右"
+  templates:
+  - template: "{0}SHIFT"
+- raw: "左ALT"
+  splits:
+  - text: "左"
+  templates:
+  - template: "{0}ALT"
+- raw: "右ALT"
+  splits:
+  - text: "右"
+  templates:
+  - template: "{0}ALT"
+- raw: "左CONTROL"
+  splits:
+  - text: "左"
+  templates:
+  - template: "{0}CONTROL"
+- raw: "右CONTROL"
+  splits:
+  - text: "右"
+  templates:
+  - template: "{0}CONTROL"
+- raw: "鼠标侧下"
+  splits:
+  - text: "鼠标侧下"
+- raw: "鼠标侧上"
+  splits:
+  - text: "鼠标侧上"

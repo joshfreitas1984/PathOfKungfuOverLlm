@@ -9853,7 +9853,7 @@
   splits:
   - split: 3
     text: "江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。\\n\\n当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。\\n\\n可以在各地武馆购买学习。"
-    translated: "Jianghu Miscellaneous Art is the normal attack, heavy attack, block, jump, parry, etc. for each weapon type.\n\nWhen you switch weapon types, you automatically switch to the Jianghu Miscellaneous Art for that weapon type.\n\nYou can buy and learn it at Martial Arts Halls in various locations."
+    translated: "Jianghu Miscellaneous Art is the normal attack, heavy attack, block, jump, parry, etc. for each weapon type.\\n\\nWhen you switch weapon types, you automatically switch to the Jianghu Miscellaneous Art for that weapon type.\\n\\nYou can buy and learn it at Martial Arts Halls in various locations."
 - raw: "UIWuXueNew,InitHelpInfo,231,江湖通式是各类武器的通用技能，不消耗真气而是消耗体力使用的技能，一般是浮空技或者位移技，可以强制中断当前的普通攻击释放。\\n\\n当你切换武器类型的时候，会自动切换到对应武器种类的江湖通式。\\n\\n可以在各地武馆购买学习。,[]"
   splits:
   - split: 3
@@ -10218,7 +10218,7 @@
   splits:
   - split: 3
     text: "鼠标左键"
-    translated: "Left mouse button"
+    translated: "Left Mouse"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,375,方向键上,[]"
   splits:
   - split: 3
@@ -10243,27 +10243,27 @@
   splits:
   - split: 3
     text: "左SHIFT"
-    translated: "Left SHIFT"
+    translated: "Left Shift"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,505,右SHIFT,[]"
   splits:
   - split: 3
     text: "右SHIFT"
-    translated: "Right SHIFT"
+    translated: "Right Shift"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,531,左CONTROL,[]"
   splits:
   - split: 3
     text: "左CONTROL"
-    translated: "Left CONTROL"
+    translated: "Left Ctrl"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,557,右CONTROL,[]"
   splits:
   - split: 3
     text: "右CONTROL"
-    translated: "Right CONTROL"
+    translated: "Right Ctrl"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,583,鼠标右键,[]"
   splits:
   - split: 3
     text: "鼠标右键"
-    translated: "Right-click mouse"
+    translated: "Right Mouse"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,609,鼠标侧下,[]"
   splits:
   - split: 3
@@ -10283,17 +10283,17 @@
   splits:
   - split: 3
     text: "左ALT"
-    translated: "Left ALT"
+    translated: "Left Alt"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,713,右ALT,[]"
   splits:
   - split: 3
     text: "右ALT"
-    translated: "Right ALT"
+    translated: "Right Alt"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,739,鼠标中键,[]"
   splits:
   - split: 3
     text: "鼠标中键"
-    translated: "Middle mouse button"
+    translated: "Middle Mouse"
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,1013,空格,[]"
   splits:
   - split: 3
@@ -10318,17 +10318,17 @@
   splits:
   - split: 3
     text: "鼠标左键"
-    translated: "Left mouse button"
+    translated: "Left Mouse"
 - raw: "UISettingsNew,Update,202,鼠标右键,[]"
   splits:
   - split: 3
     text: "鼠标右键"
-    translated: "Right-click mouse"
+    translated: "Right Mouse"
 - raw: "UISettingsNew,Update,231,鼠标中键,[]"
   splits:
   - split: 3
     text: "鼠标中键"
-    translated: "Middle mouse button"
+    translated: "Middle Mouse"
 - raw: "UISettingsNew,Update,257,空格,[]"
   splits:
   - split: 3
@@ -10338,32 +10338,32 @@
   splits:
   - split: 3
     text: "左SHIFT"
-    translated: "Left SHIFT"
+    translated: "Left Shift"
 - raw: "UISettingsNew,Update,427,右SHIFT,[]"
   splits:
   - split: 3
     text: "右SHIFT"
-    translated: "Right SHIFT"
+    translated: "Right Shift"
 - raw: "UISettingsNew,Update,456,左ALT,[]"
   splits:
   - split: 3
     text: "左ALT"
-    translated: "Left ALT"
+    translated: "Left Alt"
 - raw: "UISettingsNew,Update,485,右ALT,[]"
   splits:
   - split: 3
     text: "右ALT"
-    translated: "Right ALT"
+    translated: "Right Alt"
 - raw: "UISettingsNew,Update,514,左CONTROL,[]"
   splits:
   - split: 3
     text: "左CONTROL"
-    translated: "Left CONTROL"
+    translated: "Left Ctrl"
 - raw: "UISettingsNew,Update,543,右CONTROL,[]"
   splits:
   - split: 3
     text: "右CONTROL"
-    translated: "Right CONTROL"
+    translated: "Right Ctrl"
 - raw: "UISettingsNew,Update,572,鼠标侧下,[]"
   splits:
   - split: 3

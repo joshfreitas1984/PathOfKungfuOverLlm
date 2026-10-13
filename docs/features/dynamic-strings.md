@@ -22,7 +22,15 @@ Workflow mechanics (export shape, fallbacks, the `Converted` file being kept bet
 After a game update, re-dump and copy the files over. Translations are kept for every line still in the new dump, but export rewrites `Converted/`
 from the dump, so a line that is **not** in the new dump is dropped. Never add strings to `prefabText.txt` or its `Converted` file by hand.
 
-Strings the dumper cannot find, because the game builds them at runtime, go in [`Files/Raw/Dumped/PrefabText/prefabText.extra.txt`](../../Files/Raw/Dumped/PrefabText/prefabText.extra.txt)
+The runtime dump only sees Text objects that are loaded when you press the button, so a screen you never opened (the map) is missing. Test
+`0b. Dump prefab text from asset files` ([`AssetDumperTests.cs`](../../Tests/AssetDumperTests.cs), 8 seconds) reads every `MonoBehaviour` in the game's
+serialized files (`levelN`, `sharedassetsN`, `resources.assets`, the `.unity3d` bundles) and merges the `m_Text` strings into
+`Files/Raw/Dumped/PrefabText/prefabText.txt`: every line already there is kept (so the runtime-only strings and their translations survive) and the
+missing ones are appended (about 1,000, including the map labels `襄阳城` and `龙门荒漠`). It also writes `dumpedOtherText.txt` with the field and path of
+every string, for reference. It needs `Tests/classdata.tpk` (from the AssetsTools.NET releases) and the game's `Managed` folder. Run it after copying in
+a fresh runtime dump, and again after a game update.
+
+Strings neither dump can find, because the game builds them at runtime, go in [`Files/Raw/Dumped/PrefabText/prefabText.extra.txt`](../../Files/Raw/Dumped/PrefabText/prefabText.extra.txt)
 (one per line, written by hand and never overwritten by a dump; registered in `TextFileConfiguration.cs`). It is translated and packaged like
 the dump, to `Mod/prefabText.extra.txt.yaml`, and the plugin loads it because it loads every `*prefabText*` file. Today it holds the 16 key names the
 game shows raw from its settings (`空格`, `左SHIFT`, ...).

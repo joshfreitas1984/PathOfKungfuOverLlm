@@ -32,28 +32,40 @@
     translated: "Right Arrow"
 - raw: "左SHIFT"
   splits:
-  - text: "左SHIFT"
-    translated: "Left Shift"
+  - text: "左"
+    translated: "Left"
+  templates:
+  - template: "{0}SHIFT"
 - raw: "右SHIFT"
   splits:
-  - text: "右SHIFT"
-    translated: "Right Shift"
+  - text: "右"
+    translated: "Right"
+  templates:
+  - template: "{0}SHIFT"
 - raw: "左ALT"
   splits:
-  - text: "左ALT"
-    translated: "Left Alt"
+  - text: "左"
+    translated: "Left"
+  templates:
+  - template: "{0}ALT"
 - raw: "右ALT"
   splits:
-  - text: "右ALT"
-    translated: "Right Alt"
+  - text: "右"
+    translated: "Right"
+  templates:
+  - template: "{0}ALT"
 - raw: "左CONTROL"
   splits:
-  - text: "左CONTROL"
-    translated: "Left Ctrl"
+  - text: "左"
+    translated: "Left"
+  templates:
+  - template: "{0}CONTROL"
 - raw: "右CONTROL"
   splits:
-  - text: "右CONTROL"
-    translated: "Right Ctrl"
+  - text: "右"
+    translated: "Right"
+  templates:
+  - template: "{0}CONTROL"
 - raw: "鼠标侧下"
   splits:
   - text: "鼠标侧下"

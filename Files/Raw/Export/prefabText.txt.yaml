@@ -2926,3 +2926,4303 @@
 - raw: "鼠标左键"
   splits:
   - text: "鼠标左键"
+- raw: "                     满江红\\n怒发冲冠，凭栏处、潇潇雨歇。抬望眼、仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲、白了少年头，空悲切。\\n\\n靖康耻，犹未雪。臣子恨，何时灭。驾长车，踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。\\n\\n                     破阵子\\n醉里挑灯看剑，梦回吹角连营。八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。\\n\\n马作的卢飞快，弓如霹雳弦惊。了ee"
+  splits:
+  - text: "满江红"
+  - subIndex: 1
+    text: "怒发冲冠，凭栏处、潇潇雨歇。抬望眼、仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲、白了少年头，空悲切。"
+  - subIndex: 2
+    text: "靖康耻，犹未雪。臣子恨，何时灭。驾长车，踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。"
+  - subIndex: 3
+    text: "破阵子"
+  - subIndex: 4
+    text: "醉里挑灯看剑，梦回吹角连营。八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。"
+  - subIndex: 5
+    text: "马作的卢飞快，弓如霹雳弦惊。了"
+  templates:
+  - template: "                     {0}\\n{1}\\n\\n{2}\\n\\n                     {3}\\n{4}\\n\\n{5}ee"
+- raw: "   开骰！"
+  splits:
+  - text: "开骰！"
+  templates:
+  - template: "   {0}"
+- raw: "(决定是否响应触发)"
+  splits:
+  - text: "决定是否响应触发"
+  templates:
+  - template: "({0})"
+- raw: "(在场景触发地显示一个卷轴动画)"
+  splits:
+  - text: "在场景触发地显示一个卷轴动画"
+  templates:
+  - template: "({0})"
+- raw: "(按优先级自上而下排列，如模组间存在冲突，则上方的会覆盖下方的)"
+  splits:
+  - text: "按优先级自上而下排列，如模组间存在冲突，则上方的会覆盖下方的"
+  templates:
+  - template: "({0})"
+- raw: "(未实装)"
+  splits:
+  - text: "未实装"
+  templates:
+  - template: "({0})"
+- raw: "*每年一月到三月期间举行"
+  splits:
+  - text: "每年一月到三月期间举行"
+  templates:
+  - template: "*{0}"
+- raw: "+新建"
+  splits:
+  - text: "新建"
+  templates:
+  - template: "+{0}"
+- raw: "000两216文"
+  splits:
+  - text: "000两216文"
+- raw: "1000两"
+  splits:
+  - text: "1000两"
+- raw: "10分钟"
+  splits:
+  - text: "10分钟"
+- raw: "10天后沦陷"
+  splits:
+  - text: "10天后沦陷"
+- raw: "10月"
+  splits:
+  - text: "10月"
+- raw: "1200x高1300"
+  splits:
+  - text: "高1300"
+  templates:
+  - template: "1200x{0}"
+- raw: "14年"
+  splits:
+  - text: "14年"
+- raw: "15分钟"
+  splits:
+  - text: "15分钟"
+- raw: "15天"
+  splits:
+  - text: "15天"
+- raw: "1980元宝"
+  splits:
+  - text: "1980元宝"
+- raw: "2.8(天才)"
+  splits:
+  - text: "天才"
+  templates:
+  - template: "2.8({0})"
+- raw: "2个"
+  splits:
+  - text: "2个"
+- raw: "2区 "
+  splits:
+  - text: "2区"
+  templates:
+  - template: "{0} "
+- raw: "2级"
+  splits:
+  - text: "2级"
+- raw: "300元宝"
+  splits:
+  - text: "300元宝"
+- raw: "30天"
+  splits:
+  - text: "30天"
+- raw: "3280元宝"
+  splits:
+  - text: "3280元宝"
+- raw: "3两16文"
+  splits:
+  - text: "3两16文"
+- raw: "3区 "
+  splits:
+  - text: "3区"
+  templates:
+  - template: "{0} "
+- raw: "3月"
+  splits:
+  - text: "3月"
+- raw: "3级"
+  splits:
+  - text: "3级"
+- raw: "4个"
+  splits:
+  - text: "4个"
+- raw: "4阶任务"
+  splits:
+  - text: "4阶任务"
+- raw: "5分钟"
+  splits:
+  - text: "5分钟"
+- raw: "5天"
+  splits:
+  - text: "5天"
+- raw: "5月"
+  splits:
+  - text: "5月"
+- raw: "60元宝"
+  splits:
+  - text: "60元宝"
+- raw: "6480元宝"
+  splits:
+  - text: "6480元宝"
+- raw: "7年"
+  splits:
+  - text: "7年"
+- raw: "980元宝"
+  splits:
+  - text: "980元宝"
+- raw: "Mod新增"
+  splits:
+  - text: "新增"
+  templates:
+  - template: "Mod{0}"
+- raw: "NPC上阵数量"
+  splits:
+  - text: "上阵数量"
+  templates:
+  - template: "NPC{0}"
+- raw: "NPC好感度"
+  splits:
+  - text: "好感度"
+  templates:
+  - template: "NPC{0}"
+- raw: "Npc名字"
+  splits:
+  - text: "名字"
+  templates:
+  - template: "Npc{0}"
+- raw: "R\\n切换武学"
+  splits:
+  - text: "切换武学"
+  templates:
+  - template: "R\\n{0}"
+- raw: "[单手轻刃]"
+  splits:
+  - text: "单手轻刃"
+  templates:
+  - template: "[{0}]"
+- raw: "\\n<color=#FF0000>NPC大量提升格挡弹反与后跳的几率</color>\\n同时最多5个NPC攻击玩家\\n<color=#FF0000>敌方普通攻击前摇时没有红点提示</color>"
+  splits:
+  - text: "大量提升格挡弹反与后跳的几率"
+  - subIndex: 1
+    text: "同时最多5个"
+  - subIndex: 2
+    text: "攻击玩家"
+  - subIndex: 3
+    text: "敌方普通攻击前摇时没有红点提示"
+  templates:
+  - template: "\\n<color=#FF0000>NPC{0}</color>\\n{1}NPC{2}\\n<color=#FF0000>{3}</color>"
+- raw: "\\n<color=#FF0000>玩家无减伤\\n玩家受击硬直时无法攻击</color>\\n玩家可随时后跳躲避(包括角色受击硬直时)"
+  splits:
+  - text: "玩家无减伤"
+  - subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - subIndex: 2
+    text: "玩家可随时后跳躲避"
+  - subIndex: 3
+    text: "包括角色受击硬直时"
+  templates:
+  - template: "\\n<color=#FF0000>{0}\\n{1}</color>\\n{2}({3})"
+- raw: "\\n<color=#FF0000>玩家无减伤\\n玩家受击硬直时无法攻击\\n玩家只能在非硬直时进行后跳躲避攻击</color>"
+  splits:
+  - text: "玩家无减伤"
+  - subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - subIndex: 2
+    text: "玩家只能在非硬直时进行后跳躲避攻击"
+  templates:
+  - template: "\\n<color=#FF0000>{0}\\n{1}\\n{2}</color>"
+- raw: "\\nNPC少量增加格挡弹反和后跳的几率\\n同时最多4个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
+  splits:
+  - text: "少量增加格挡弹反和后跳的几率"
+  - subIndex: 1
+    text: "同时最多4个"
+  - subIndex: 2
+    text: "攻击玩家"
+  - subIndex: 3
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - template: "\\nNPC{0}\\n{1}NPC{2}\\n{3}"
+- raw: "\\nNPC略微增加格挡弹反和后跳的几率\\n同时最多3个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
+  splits:
+  - text: "略微增加格挡弹反和后跳的几率"
+  - subIndex: 1
+    text: "同时最多3个"
+  - subIndex: 2
+    text: "攻击玩家"
+  - subIndex: 3
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - template: "\\nNPC{0}\\n{1}NPC{2}\\n{3}"
+- raw: "\\n同时最多2个NPC攻击玩家\\n敌方普通攻击前摇时有红点提示"
+  splits:
+  - text: "同时最多2个"
+  - subIndex: 1
+    text: "攻击玩家"
+  - subIndex: 2
+    text: "敌方普通攻击前摇时有红点提示"
+  templates:
+  - template: "\\n{0}NPC{1}\\n{2}"
+- raw: "\\n玩家减伤30%\\n<color=#FF0000>玩家受击硬直时无法攻击</color>\\n玩家可随时后跳躲避攻击（包括角色受击硬直时）"
+  splits:
+  - text: "玩家减伤30%"
+  - subIndex: 1
+    text: "玩家受击硬直时无法攻击"
+  - subIndex: 2
+    text: "玩家可随时后跳躲避攻击（包括角色受击硬直时）"
+  templates:
+  - template: "\\n{0}\\n<color=#FF0000>{1}</color>\\n{2}"
+- raw: "\\n玩家减伤75%\\n玩家受击硬直时也可进行攻击\\n玩家可随时后跳躲避（包括角色受击硬直时）"
+  splits:
+  - text: "玩家减伤75%"
+  - subIndex: 1
+    text: "玩家受击硬直时也可进行攻击"
+  - subIndex: 2
+    text: "玩家可随时后跳躲避（包括角色受击硬直时）"
+  templates:
+  - template: "\\n{0}\\n{1}\\n{2}"
+- raw: "xxx申请加入帮派"
+  splits:
+  - text: "申请加入帮派"
+  templates:
+  - template: "xxx{0}"
+- raw: "¥ 198元"
+  splits:
+  - text: "198元"
+  templates:
+  - template: "¥ {0}"
+- raw: "¥ 30元"
+  splits:
+  - text: "30元"
+  templates:
+  - template: "¥ {0}"
+- raw: "¥ 328元"
+  splits:
+  - text: "328元"
+  templates:
+  - template: "¥ {0}"
+- raw: "¥ 648元"
+  splits:
+  - text: "648元"
+  templates:
+  - template: "¥ {0}"
+- raw: "¥ 6元"
+  splits:
+  - text: "6元"
+  templates:
+  - template: "¥ {0}"
+- raw: "¥ 98元"
+  splits:
+  - text: "98元"
+  templates:
+  - template: "¥ {0}"
+- raw: "·立即获得300元宝；\\n\\n·有效期内每日获得：\\n元宝×30\\n体力×20\\n银两×2两\\n\\n"
+  splits:
+  - text: "立即获得300元宝；"
+  - subIndex: 1
+    text: "有效期内每日获得"
+  - subIndex: 2
+    text: "元宝"
+  - subIndex: 3
+    text: "体力"
+  - subIndex: 4
+    text: "银两"
+  - subIndex: 5
+    text: "2两"
+  templates:
+  - template: "·{0}\\n\\n·{1}：\\n{2}×30\\n{3}×20\\n{4}×{5}\\n\\n"
+- raw: "《刀剑江湖路》大型DLC《血染黄沙》已经上线！\\n您可以在steam商店把本DLC 添加到库，就可以 免费 获得《血染黄沙》；本DLC引子在京城客栈的旁边，通过场景中可交互的任务地块启动整条 DLC 任务链。\\n\\n我是《刀剑江湖路》的制作人，今天想跟大家聊聊这一年多来的经历，也算是给一直关心这个游戏的玩家们一个交代。\\n关于发行的坎坷\\n这个游戏前后换了三家发行商。EA上线前，第一家突然说自己砍掉了所有单机业务线，我没多说，好聚好散；第二家接手后，正式版上线没多久又说资方要撤资。合同里本来约定按月协商回收预付款、我留一部分用于团队生存，结果对方要求一刀切——先把预付款全部扣完。\\n那段时间，这个游戏的月分成是我唯一的收入来源。我争取过每月少给一点分成，对方没同意。\\n结果就是：整整7个月，我几乎没有一分钱收入。多个贷款逾期，也拖欠了手下兄弟工资，非常对不起这些兄弟，目前还在一点一点的还他们工资，每次有钱入账我都优先还他们的工资再处理我自己的贷款。曾经有一周时间我连着每天吃6个茶叶蛋（真不是段子也不是卖惨，这样我一天只需要9块钱。），我跟老婆笑着说我是在减肥。但游戏没停更，几个兄弟跟我一起咬牙坚持，小更新一直在做但内容确实不多。\\n直到去年12月，预付款终于扣完，每月开始有少量收入进来，我们才缓过一口气，随即投入大型DLC的制作。\\n关于 跑路 的谣言\\n从EA版本起就有人说我跑路，那时候我还能理解——毕竟完整版没出来。但正式版上线之后，50+小时的游玩时长、接近百万字的文案量，依然有人在说跑路，这真的是不合理。如果有人说游戏不好玩我都能理解并接受，也许我的制作能力确实一般，但为何说我跑路？以至于玩家群里戏称我为 百度贴吧每周传奇跑路王 。\\n事实胜于雄辩：正式版上线快一年了，我承诺的大型DLC已经做完，7月27号就会正式上线。\\n关于感谢\\n最难的时候，有游戏群里的玩家兄弟给我转账，有几十，有几百甚至上千。那一刻我明白了一件事：只要你认真做游戏，虽然会有人质疑你、诋毁你，但也一定会有人真心支持你。\\n感谢一直信任我的玩家。DLC见。"
+  splits:
+  - text: "《刀剑江湖路》大型"
+  - subIndex: 1
+    text: "《血染黄沙》已经上线！"
+  - subIndex: 2
+    text: "您可以在"
+  - subIndex: 3
+    text: "商店把本"
+  - subIndex: 4
+    text: "添加到库，就可以"
+  - subIndex: 5
+    text: "免费"
+  - subIndex: 6
+    text: "获得《血染黄沙》；本"
+  - subIndex: 7
+    text: "引子在京城客栈的旁边，通过场景中可交互的任务地块启动整条"
+  - subIndex: 8
+    text: "任务链。"
+  - subIndex: 9
+    text: "我是《刀剑江湖路》的制作人，今天想跟大家聊聊这一年多来的经历，也算是给一直关心这个游戏的玩家们一个交代。"
+  - subIndex: 10
+    text: "关于发行的坎坷"
+  - subIndex: 11
+    text: "这个游戏前后换了三家发行商。"
+  - subIndex: 12
+    text: "上线前，第一家突然说自己砍掉了所有单机业务线，我没多说，好聚好散；第二家接手后，正式版上线没多久又说资方要撤资。合同里本来约定按月协商回收预付款、我留一部分用于团队生存，结果对方要求一刀切——先把预付款全部扣完。"
+  - subIndex: 13
+    text: "那段时间，这个游戏的月分成是我唯一的收入来源。我争取过每月少给一点分成，对方没同意。"
+  - subIndex: 14
+    text: "结果就是"
+  - subIndex: 15
+    text: "整整7个月，我几乎没有一分钱收入。多个贷款逾期，也拖欠了手下兄弟工资，非常对不起这些兄弟，目前还在一点一点的还他们工资，每次有钱入账我都优先还他们的工资再处理我自己的贷款。曾经有一周时间我连着每天吃6个茶叶蛋（真不是段子也不是卖惨，这样我一天只需要9块钱。），我跟老婆笑着说我是在减肥。但游戏没停更，几个兄弟跟我一起咬牙坚持，小更新一直在做但内容确实不多。"
+  - subIndex: 16
+    text: "直到去年12月，预付款终于扣完，每月开始有少量收入进来，我们才缓过一口气，随即投入大型"
+  - subIndex: 17
+    text: "的制作。"
+  - subIndex: 18
+    text: "关于"
+  - subIndex: 19
+    text: "跑路"
+  - subIndex: 20
+    text: "的谣言"
+  - subIndex: 21
+    text: "从"
+  - subIndex: 22
+    text: "版本起就有人说我跑路，那时候我还能理解——毕竟完整版没出来。但正式版上线之后，50"
+  - subIndex: 23
+    text: "小时的游玩时长、接近百万字的文案量，依然有人在说跑路，这真的是不合理。如果有人说游戏不好玩我都能理解并接受，也许我的制作能力确实一般，但为何说我跑路？以至于玩家群里戏称我为"
+  - subIndex: 24
+    text: "百度贴吧每周传奇跑路王"
+  - subIndex: 25
+    text: "事实胜于雄辩"
+  - subIndex: 26
+    text: "正式版上线快一年了，我承诺的大型"
+  - subIndex: 27
+    text: "已经做完，7月27号就会正式上线。"
+  - subIndex: 28
+    text: "关于感谢"
+  - subIndex: 29
+    text: "最难的时候，有游戏群里的玩家兄弟给我转账，有几十，有几百甚至上千。那一刻我明白了一件事"
+  - subIndex: 30
+    text: "只要你认真做游戏，虽然会有人质疑你、诋毁你，但也一定会有人真心支持你。"
+  - subIndex: 31
+    text: "感谢一直信任我的玩家。"
+  - subIndex: 32
+    text: "见。"
+  templates:
+  - template: "{0}DLC{1}\\n{2}steam{3}DLC {4} {5} {6}DLC{7} DLC {8}\\n\\n{9}\\n{10}\\n{11}EA{12}\\n{13}\\n{14}：{15}\\n{16}DLC{17}\\n{18} {19} {20}\\n{21}EA{22}+{23} {24} 。\\n{25}：{26}DLC{27}\\n{28}\\n{29}：{30}\\n{31}DLC{32}"
+- raw: "《模组编辑器用户协议》"
+  splits:
+  - text: "《模组编辑器用户协议》"
+- raw: "【仓库】"
+  splits:
+  - text: "【仓库】"
+- raw: "【任务奖励】"
+  splits:
+  - text: "【任务奖励】"
+- raw: "【任务描述】"
+  splits:
+  - text: "【任务描述】"
+- raw: "【内功境界】"
+  splits:
+  - text: "【内功境界】"
+- raw: "【初始属性分配】"
+  splits:
+  - text: "【初始属性分配】"
+- raw: "【勒索银两】"
+  splits:
+  - text: "【勒索银两】"
+- raw: "【境界】"
+  splits:
+  - text: "【境界】"
+- raw: "【无名铁匠】"
+  splits:
+  - text: "【无名铁匠】"
+- raw: "【普通模式】包含了游戏的所有剧情和玩法，【无剧情模式】则为剔除剧情和任务的模式。"
+  splits:
+  - text: "【普通模式】包含了游戏的所有剧情和玩法，【无剧情模式】则为剔除剧情和任务的模式。"
+- raw: "【木人桩设置】"
+  splits:
+  - text: "【木人桩设置】"
+- raw: "【武学资质】"
+  splits:
+  - text: "【武学资质】"
+- raw: "【轻重击】"
+  splits:
+  - text: "【轻重击】"
+- raw: "【送出】"
+  splits:
+  - text: "【送出】"
+- raw: "一天"
+  splits:
+  - text: "一天"
+- raw: "一小时"
+  splits:
+  - text: "一小时"
+- raw: "一年"
+  splits:
+  - text: "一年"
+- raw: "一时辰"
+  splits:
+  - text: "一时辰"
+- raw: "一月"
+  splits:
+  - text: "一月"
+- raw: "一群土匪"
+  splits:
+  - text: "一群土匪"
+- raw: "一键取出"
+  splits:
+  - text: "一键取出"
+- raw: "上一条"
+  splits:
+  - text: "上一条"
+- raw: "上一步"
+  splits:
+  - text: "上一步"
+- raw: "上一段"
+  splits:
+  - text: "上一段"
+- raw: "上一页"
+  splits:
+  - text: "上一页"
+- raw: "上乘武学"
+  splits:
+  - text: "上乘武学"
+- raw: "上届结果"
+  splits:
+  - text: "上届结果"
+- raw: "上阵人数："
+  splits:
+  - text: "上阵人数"
+  templates:
+  - template: "{0}："
+- raw: "下一条"
+  splits:
+  - text: "下一条"
+- raw: "下一段"
+  splits:
+  - text: "下一段"
+- raw: "下一页"
+  splits:
+  - text: "下一页"
+- raw: "下狱"
+  splits:
+  - text: "下狱"
+- raw: "不为"
+  splits:
+  - text: "不为"
+- raw: "不变"
+  splits:
+  - text: "不变"
+- raw: "不是"
+  splits:
+  - text: "不是"
+- raw: "不满此桌入场最低本金，点击下方空白区域退出"
+  splits:
+  - text: "不满此桌入场最低本金，点击下方空白区域退出"
+- raw: "不满足时提示..."
+  splits:
+  - text: "不满足时提示..."
+- raw: "不等于"
+  splits:
+  - text: "不等于"
+- raw: "不超1M"
+  splits:
+  - text: "不超1"
+  templates:
+  - template: "{0}M"
+- raw: "世界地图"
+  splits:
+  - text: "世界地图"
+- raw: "东瀛大阪城"
+  splits:
+  - text: "东瀛大阪城"
+- raw: "两小时"
+  splits:
+  - text: "两小时"
+- raw: "中毒"
+  splits:
+  - text: "中毒"
+- raw: "临表致信，公子台鉴:\\n\\n还请公子莫以一时乱了心神，我已飞鸽传书于京城王家，只是山高路远，恐难相顾。\\n\\n南宫家尚与武当有几分渊源，请公子即刻前往武当求援，那时承安镇，方有一线生机。\\n\\n此去艰辛，万望公子保重，若事不可为……公子，切莫再归。\\n\\n\\n\\n                                      南宫莲笔\\n"
+  splits:
+  - text: "临表致信，公子台鉴"
+  - subIndex: 1
+    text: "还请公子莫以一时乱了心神，我已飞鸽传书于京城王家，只是山高路远，恐难相顾。"
+  - subIndex: 2
+    text: "南宫家尚与武当有几分渊源，请公子即刻前往武当求援，那时承安镇，方有一线生机。"
+  - subIndex: 3
+    text: "此去艰辛，万望公子保重，若事不可为……公子，切莫再归。"
+  - subIndex: 4
+    text: "南宫莲笔"
+  templates:
+  - template: "{0}:\\n\\n{1}\\n\\n{2}\\n\\n{3}\\n\\n\\n\\n                                      {4}\\n"
+- raw: "丸锻隼前龙光·精锻造配方"
+  splits:
+  - text: "丸锻隼前龙光"
+  - subIndex: 1
+    text: "精锻造配方"
+  templates:
+  - template: "{0}·{1}"
+- raw: "为NPC关联剧情立绘"
+  splits:
+  - text: "为"
+  - subIndex: 1
+    text: "关联剧情立绘"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "主\\n动\\n招\\n式"
+  splits:
+  - text: "主"
+  - subIndex: 1
+    text: "动"
+  - subIndex: 2
+    text: "招"
+  - subIndex: 3
+    text: "式"
+  templates:
+  - template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "主动招式"
+  splits:
+  - text: "主动招式"
+- raw: "主角"
+  splits:
+  - text: "主角"
+- raw: "主角性别"
+  splits:
+  - text: "主角性别"
+- raw: "义亲"
+  splits:
+  - text: "义亲"
+- raw: "也可后续在帮派产业界面进行派遣行动"
+  splits:
+  - text: "也可后续在帮派产业界面进行派遣行动"
+- raw: "事件内容包装"
+  splits:
+  - text: "事件内容包装"
+- raw: "事情得到一个快乐的结局"
+  splits:
+  - text: "事情得到一个快乐的结局"
+- raw: "五圣教"
+  splits:
+  - text: "五圣教"
+- raw: "交互物触发"
+  splits:
+  - text: "交互物触发"
+- raw: "产业"
+  splits:
+  - text: "产业"
+- raw: "京城"
+  splits:
+  - text: "京城"
+- raw: "亲友"
+  splits:
+  - text: "亲友"
+- raw: "亲密度:"
+  splits:
+  - text: "亲密度"
+  templates:
+  - template: "{0}:"
+- raw: "人众而势高，拾薪而卷火，跨州连郡，夫星火而染天。"
+  splits:
+  - text: "人众而势高，拾薪而卷火，跨州连郡，夫星火而染天。"
+- raw: "人物buff"
+  splits:
+  - text: "人物"
+  templates:
+  - template: "{0}buff"
+- raw: "人物小传"
+  splits:
+  - text: "人物小传"
+- raw: "人物死亡"
+  splits:
+  - text: "人物死亡"
+- raw: "人物编辑"
+  splits:
+  - text: "人物编辑"
+- raw: "人物行动"
+  splits:
+  - text: "人物行动"
+- raw: "仅对自己可见"
+  splits:
+  - text: "仅对自己可见"
+- raw: "仇敌"
+  splits:
+  - text: "仇敌"
+- raw: "仓库"
+  splits:
+  - text: "仓库"
+- raw: "件"
+  splits:
+  - text: "件"
+- raw: "价格:"
+  splits:
+  - text: "价格"
+  templates:
+  - template: "{0}:"
+- raw: "任务0"
+  splits:
+  - text: "任务0"
+- raw: "任务名"
+  splits:
+  - text: "任务名"
+- raw: "任务奖励:"
+  splits:
+  - text: "任务奖励"
+  templates:
+  - template: "{0}:"
+- raw: "任务描述:"
+  splits:
+  - text: "任务描述"
+  templates:
+  - template: "{0}:"
+- raw: "任务描述任务描述任务描述"
+  splits:
+  - text: "任务描述任务描述任务描述"
+- raw: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
+  splits:
+  - text: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
+- raw: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
+  splits:
+  - text: "任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述任务描述"
+- raw: "任务状态"
+  splits:
+  - text: "任务状态"
+- raw: "任务编辑"
+  splits:
+  - text: "任务编辑"
+- raw: "任务起点"
+  splits:
+  - text: "任务起点"
+- raw: "众势连郡：此阵允许任意配置角色位置。"
+  splits:
+  - text: "众势连郡"
+  - subIndex: 1
+    text: "此阵允许任意配置角色位置。"
+  templates:
+  - template: "{0}：{1}"
+- raw: "众势阵"
+  splits:
+  - text: "众势阵"
+- raw: "优先级"
+  splits:
+  - text: "优先级"
+- raw: "会"
+  splits:
+  - text: "会"
+- raw: "传书标题"
+  splits:
+  - text: "传书标题"
+- raw: "伤害  1999 伤害  1999\\n"
+  splits:
+  - text: "伤害"
+  - subIndex: 1
+    text: "伤害"
+  templates:
+  - template: "{0}  1999 {1}  1999\\n"
+- raw: "位置：(1,2)"
+  splits:
+  - text: "位置"
+  templates:
+  - template: "{0}：(1,2)"
+- raw: "作者："
+  splits:
+  - text: "作者"
+  templates:
+  - template: "{0}："
+- raw: "你一番小心翻找，虽是一无所获，但所幸没有激起对方的警惕"
+  splits:
+  - text: "你一番小心翻找，虽是一无所获，但所幸没有激起对方的警惕"
+- raw: "你想休息至何时？"
+  splits:
+  - text: "你想休息至何时？"
+- raw: "使用"
+  splits:
+  - text: "使用"
+- raw: "侠客行客行"
+  splits:
+  - text: "侠客行客行"
+- raw: "保存"
+  splits:
+  - text: "保存"
+- raw: "保存模组"
+  splits:
+  - text: "保存模组"
+- raw: "信息"
+  splits:
+  - text: "信息"
+- raw: "修"
+  splits:
+  - text: "修"
+- raw: "修为"
+  splits:
+  - text: "修为"
+- raw: "修习和使用武学，内功,轻功（同时尽可能多的修习被动）"
+  splits:
+  - text: "修习和使用武学，内功"
+  - subIndex: 1
+    text: "轻功（同时尽可能多的修习被动）"
+  templates:
+  - template: "{0},{1}"
+- raw: "修习和使用武学，内功，轻功（同时尽可能多的修习被动）"
+  splits:
+  - text: "修习和使用武学，内功，轻功（同时尽可能多的修习被动）"
+- raw: "修炼"
+  splits:
+  - text: "修炼"
+- raw: "修炼疲劳："
+  splits:
+  - text: "修炼疲劳"
+  templates:
+  - template: "{0}："
+- raw: "俸禄：  		1"
+  splits:
+  - text: "俸禄"
+  templates:
+  - template: "{0}：  		1"
+- raw: "倒计时:"
+  splits:
+  - text: "倒计时"
+  templates:
+  - template: "{0}:"
+- raw: "倚天屠龙倚天屠龙"
+  splits:
+  - text: "倚天屠龙倚天屠龙"
+- raw: "倚天屠龙刀刀"
+  splits:
+  - text: "倚天屠龙刀刀"
+- raw: "倚天屠龙刀屠龙刀"
+  splits:
+  - text: "倚天屠龙刀屠龙刀"
+- raw: "健康度"
+  splits:
+  - text: "健康度"
+- raw: "充\\n值\\n"
+  splits:
+  - text: "充"
+  - subIndex: 1
+    text: "值"
+  templates:
+  - template: "{0}\\n{1}\\n"
+- raw: "先天天赋"
+  splits:
+  - text: "先天天赋"
+- raw: "克敌"
+  splits:
+  - text: "克敌"
+- raw: "免暴："
+  splits:
+  - text: "免暴"
+  templates:
+  - template: "{0}："
+- raw: "全屏"
+  splits:
+  - text: "全屏"
+- raw: "八强"
+  splits:
+  - text: "八强"
+- raw: "八荒六合唯我独尊功"
+  splits:
+  - text: "八荒六合唯我独尊功"
+- raw: "关"
+  splits:
+  - text: "关"
+- raw: "关系:无"
+  splits:
+  - text: "关系"
+  - subIndex: 1
+    text: "无"
+  templates:
+  - template: "{0}:{1}"
+- raw: "关系度"
+  splits:
+  - text: "关系度"
+- raw: "关系类型"
+  splits:
+  - text: "关系类型"
+- raw: "关联剧情NPC立绘"
+  splits:
+  - text: "关联剧情"
+  - subIndex: 1
+    text: "立绘"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "内"
+  splits:
+  - text: "内"
+- raw: "内力:"
+  splits:
+  - text: "内力"
+  templates:
+  - template: "{0}:"
+- raw: "内力回复:"
+  splits:
+  - text: "内力回复"
+  templates:
+  - template: "{0}:"
+- raw: "内力："
+  splits:
+  - text: "内力"
+  templates:
+  - template: "{0}："
+- raw: "内息："
+  splits:
+  - text: "内息"
+  templates:
+  - template: "{0}："
+- raw: "农民在地里进行农作的时候为了尽量多地避免炙热太阳炎热的光照而发明的一种简单朴实的小发明。后来被广泛流传，成为一种方便、便宜的饰品。"
+  splits:
+  - text: "农民在地里进行农作的时候为了尽量多地避免炙热太阳炎热的光照而发明的一种简单朴实的小发明。后来被广泛流传，成为一种方便、便宜的饰品。"
+- raw: "冲关破境"
+  splits:
+  - text: "冲关破境"
+- raw: "冲穴，贯通经络"
+  splits:
+  - text: "冲穴，贯通经络"
+- raw: "冷却中\\n00:59:48"
+  splits:
+  - text: "冷却中"
+  templates:
+  - template: "{0}\\n00:59:48"
+- raw: "减少至"
+  splits:
+  - text: "减少至"
+- raw: "出售"
+  splits:
+  - text: "出售"
+- raw: "出售银两："
+  splits:
+  - text: "出售银两"
+  templates:
+  - template: "{0}："
+- raw: "出处："
+  splits:
+  - text: "出处"
+  templates:
+  - template: "{0}："
+- raw: "出生地"
+  splits:
+  - text: "出生地"
+- raw: "出身生平"
+  splits:
+  - text: "出身生平"
+- raw: "刀法:"
+  splits:
+  - text: "刀法"
+  templates:
+  - template: "{0}:"
+- raw: "分支节点"
+  splits:
+  - text: "分支节点"
+- raw: "分舵数量:"
+  splits:
+  - text: "分舵数量"
+  templates:
+  - template: "{0}:"
+- raw: "分辨率:"
+  splits:
+  - text: "分辨率"
+  templates:
+  - template: "{0}:"
+- raw: "切磋"
+  splits:
+  - text: "切磋"
+- raw: "创建"
+  splits:
+  - text: "创建"
+- raw: "创建角色"
+  splits:
+  - text: "创建角色"
+- raw: "创意工坊"
+  splits:
+  - text: "创意工坊"
+- raw: "创意工坊Id："
+  splits:
+  - text: "创意工坊"
+  templates:
+  - template: "{0}Id："
+- raw: "创意工坊页面"
+  splits:
+  - text: "创意工坊页面"
+- raw: "创立帮派"
+  splits:
+  - text: "创立帮派"
+- raw: "创立条件"
+  splits:
+  - text: "创立条件"
+- raw: "初始属性"
+  splits:
+  - text: "初始属性"
+- raw: "制作"
+  splits:
+  - text: "制作"
+- raw: "刷新"
+  splits:
+  - text: "刷新"
+- raw: "前发"
+  splits:
+  - text: "前发"
+- raw: "前置条件"
+  splits:
+  - text: "前置条件"
+- raw: "剑术:"
+  splits:
+  - text: "剑术"
+  templates:
+  - template: "{0}:"
+- raw: "剧情NPC允许被杀/被俘虏"
+  splits:
+  - text: "剧情"
+  - subIndex: 1
+    text: "允许被杀"
+  - subIndex: 2
+    text: "被俘虏"
+  templates:
+  - template: "{0}NPC{1}/{2}"
+- raw: "剧情NPC自然死亡"
+  splits:
+  - text: "剧情"
+  - subIndex: 1
+    text: "自然死亡"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "剧情NPC若被杀死，会导致与其相关的任务无法完成，喜欢体验RPG剧情的玩家建议关闭，<color=#FF0000>请慎重选择。</color>"
+  splits:
+  - text: "剧情"
+  - subIndex: 1
+    text: "若被杀死，会导致与其相关的任务无法完成，喜欢体验"
+  - subIndex: 2
+    text: "剧情的玩家建议关闭，"
+  - subIndex: 3
+    text: "请慎重选择。"
+  templates:
+  - template: "{0}NPC{1}RPG{2}<color=#FF0000>{3}</color>"
+- raw: "剧情Npc"
+  splits:
+  - text: "剧情"
+  templates:
+  - template: "{0}Npc"
+- raw: "剧情立绘创作："
+  splits:
+  - text: "剧情立绘创作"
+  templates:
+  - template: "{0}："
+- raw: "剧情立绘制作及浏览"
+  splits:
+  - text: "剧情立绘制作及浏览"
+- raw: "剩余回购时间："
+  splits:
+  - text: "剩余回购时间"
+  templates:
+  - template: "{0}："
+- raw: "剩余天赋点:"
+  splits:
+  - text: "剩余天赋点"
+  templates:
+  - template: "{0}:"
+- raw: "剩余寄售时间"
+  splits:
+  - text: "剩余寄售时间"
+- raw: "剩余有效期：30天"
+  splits:
+  - text: "剩余有效期"
+  - subIndex: 1
+    text: "30天"
+  templates:
+  - template: "{0}：{1}"
+- raw: "副帮主"
+  splits:
+  - text: "副帮主"
+- raw: "加入队伍"
+  splits:
+  - text: "加入队伍"
+- raw: "加载模组中……"
+  splits:
+  - text: "加载模组中……"
+- raw: "动作节点"
+  splits:
+  - text: "动作节点"
+- raw: "动态立绘替换："
+  splits:
+  - text: "动态立绘替换"
+  templates:
+  - template: "{0}："
+- raw: "化龙科技，大吉大利"
+  splits:
+  - text: "化龙科技，大吉大利"
+- raw: "匹配境界"
+  splits:
+  - text: "匹配境界"
+- raw: "区域声望要求:999999\\n要求2"
+  splits:
+  - text: "区域声望要求"
+  - subIndex: 1
+    text: "要求2"
+  templates:
+  - template: "{0}:999999\\n{1}"
+- raw: "十二重"
+  splits:
+  - text: "十二重"
+- raw: "十六强"
+  splits:
+  - text: "十六强"
+- raw: "千里人未还，清风有时归，每次对敌方目标造成伤害时，（身法*0.2）%概率清除清风骤起整备回合。【身法加成】"
+  splits:
+  - text: "千里人未还，清风有时归，每次对敌方目标造成伤害时，（身法"
+  - subIndex: 1
+    text: "0.2）%概率清除清风骤起整备回合。【身法加成】"
+  templates:
+  - template: "{0}*{1}"
+- raw: "升级帮派"
+  splits:
+  - text: "升级帮派"
+- raw: "升级所需阅历："
+  splits:
+  - text: "升级所需阅历"
+  templates:
+  - template: "{0}："
+- raw: "升级条件"
+  splits:
+  - text: "升级条件"
+- raw: "升级资金:"
+  splits:
+  - text: "升级资金"
+  templates:
+  - template: "{0}:"
+- raw: "单手轻刃一二三四"
+  splits:
+  - text: "单手轻刃一二三四"
+- raw: "单手轻刃轻击单手轻刃轻击"
+  splits:
+  - text: "单手轻刃轻击单手轻刃轻击"
+- raw: "单挑"
+  splits:
+  - text: "单挑"
+- raw: "卖出"
+  splits:
+  - text: "卖出"
+- raw: "占位"
+  splits:
+  - text: "占位"
+- raw: "占位占位占位占位占位"
+  splits:
+  - text: "占位占位占位占位占位"
+- raw: "占用悟性/悟性值"
+  splits:
+  - text: "占用悟性"
+  - subIndex: 1
+    text: "悟性值"
+  templates:
+  - template: "{0}/{1}"
+- raw: "卯时"
+  splits:
+  - text: "卯时"
+- raw: "即刻参赛"
+  splits:
+  - text: "即刻参赛"
+- raw: "却君王天下事，赢得生前身后名。可怜白发生！\\n\\n"
+  splits:
+  - text: "却君王天下事，赢得生前身后名。可怜白发生！"
+  templates:
+  - template: "{0}\\n\\n"
+- raw: "卷名称"
+  splits:
+  - text: "卷名称"
+- raw: "历史更新"
+  splits:
+  - text: "历史更新"
+- raw: "历时:"
+  splits:
+  - text: "历时"
+  templates:
+  - template: "{0}:"
+- raw: "去学习战斗"
+  splits:
+  - text: "去学习战斗"
+- raw: "参赛名单"
+  splits:
+  - text: "参赛名单"
+- raw: "双向"
+  splits:
+  - text: "双向"
+- raw: "发布"
+  splits:
+  - text: "发布"
+- raw: "发布到Steam创意工坊"
+  splits:
+  - text: "发布到"
+  - subIndex: 1
+    text: "创意工坊"
+  templates:
+  - template: "{0}Steam{1}"
+- raw: "取消寄售"
+  splits:
+  - text: "取消寄售"
+- raw: "取消追杀"
+  splits:
+  - text: "取消追杀"
+- raw: "变化"
+  splits:
+  - text: "变化"
+- raw: "变至"
+  splits:
+  - text: "变至"
+- raw: "召唤"
+  splits:
+  - text: "召唤"
+- raw: "可分配属性："
+  splits:
+  - text: "可分配属性"
+  templates:
+  - template: "{0}："
+- raw: "可分配属性：\\n2\\n0\\n0"
+  splits:
+  - text: "可分配属性"
+  templates:
+  - template: "{0}：\\n2\\n0\\n0"
+- raw: "可分配点数+7"
+  splits:
+  - text: "可分配点数"
+  templates:
+  - template: "{0}+7"
+- raw: "可分配点数:"
+  splits:
+  - text: "可分配点数"
+  templates:
+  - template: "{0}:"
+- raw: "可分配资质点:"
+  splits:
+  - text: "可分配资质点"
+  templates:
+  - template: "{0}:"
+- raw: "可按F4保存工程"
+  splits:
+  - text: "可按"
+  - subIndex: 1
+    text: "4保存工程"
+  templates:
+  - template: "{0}F{1}"
+- raw: "可通过以下方式提升实力"
+  splits:
+  - text: "可通过以下方式提升实力"
+- raw: "右摇杆按下"
+  splits:
+  - text: "右摇杆按下"
+- raw: "同怀"
+  splits:
+  - text: "同怀"
+- raw: "名字"
+  splits:
+  - text: "名字"
+- raw: "名字..."
+  splits:
+  - text: "名字..."
+- raw: "名字最多六字"
+  splits:
+  - text: "名字最多六字"
+- raw: "名字测试"
+  splits:
+  - text: "名字测试"
+- raw: "名称"
+  splits:
+  - text: "名称"
+- raw: "名称:"
+  splits:
+  - text: "名称"
+  templates:
+  - template: "{0}:"
+- raw: "名称名称"
+  splits:
+  - text: "名称名称"
+- raw: "名称名称名称名称名称名称"
+  splits:
+  - text: "名称名称名称名称名称名称"
+- raw: "名称："
+  splits:
+  - text: "名称"
+  templates:
+  - template: "{0}："
+- raw: "名："
+  splits:
+  - text: "名"
+  templates:
+  - template: "{0}："
+- raw: "后发"
+  splits:
+  - text: "后发"
+- raw: "后续对话内容..."
+  splits:
+  - text: "后续对话内容..."
+- raw: "否"
+  splits:
+  - text: "否"
+- raw: "启动资金:"
+  splits:
+  - text: "启动资金"
+  templates:
+  - template: "{0}:"
+- raw: "启用"
+  splits:
+  - text: "启用"
+- raw: "命中："
+  splits:
+  - text: "命中"
+  templates:
+  - template: "{0}："
+- raw: "品质"
+  splits:
+  - text: "品质"
+- raw: "品质筛选:"
+  splits:
+  - text: "品质筛选"
+  templates:
+  - template: "{0}:"
+- raw: "品质："
+  splits:
+  - text: "品质"
+  templates:
+  - template: "{0}："
+- raw: "哈哈哈"
+  splits:
+  - text: "哈哈哈"
+- raw: "哨棒\\n[长兵]"
+  splits:
+  - text: "哨棒"
+  - subIndex: 1
+    text: "长兵"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "唯我独尊剑"
+  splits:
+  - text: "唯我独尊剑"
+- raw: "商\\n城"
+  splits:
+  - text: "商"
+  - subIndex: 1
+    text: "城"
+  templates:
+  - template: "{0}\\n{1}"
+- raw: "商品介绍最多四十个字商品介绍最多四十个字"
+  splits:
+  - text: "商品介绍最多四十个字商品介绍最多四十个字"
+- raw: "商品介绍最多四十个字商品介绍最多四十个字商品介绍最多四十个字商品介绍最多四十个字"
+  splits:
+  - text: "商品介绍最多四十个字商品介绍最多四十个字商品介绍最多四十个字商品介绍最多四十个字"
+- raw: "商品名称六字"
+  splits:
+  - text: "商品名称六字"
+- raw: "商品的名称"
+  splits:
+  - text: "商品的名称"
+- raw: "商品进货倒计时: "
+  splits:
+  - text: "商品进货倒计时"
+  templates:
+  - template: "{0}: "
+- raw: "商品进货时辰: "
+  splits:
+  - text: "商品进货时辰"
+  templates:
+  - template: "{0}: "
+- raw: "商店名"
+  splits:
+  - text: "商店名"
+- raw: "商店税收："
+  splits:
+  - text: "商店税收"
+  templates:
+  - template: "{0}："
+- raw: "商队贸易："
+  splits:
+  - text: "商队贸易"
+  templates:
+  - template: "{0}："
+- raw: "嘴巴"
+  splits:
+  - text: "嘴巴"
+- raw: "四小时"
+  splits:
+  - text: "四小时"
+- raw: "四强"
+  splits:
+  - text: "四强"
+- raw: "四重/十重"
+  splits:
+  - text: "四重"
+  - subIndex: 1
+    text: "十重"
+  templates:
+  - template: "{0}/{1}"
+- raw: "回复："
+  splits:
+  - text: "回复"
+  templates:
+  - template: "{0}："
+- raw: "图标尺寸要求：64x64"
+  splits:
+  - text: "图标尺寸要求"
+  templates:
+  - template: "{0}：64x64"
+- raw: "图纸 其一"
+  splits:
+  - text: "图纸"
+  - subIndex: 1
+    text: "其一"
+  templates:
+  - template: "{0} {1}"
+- raw: "地图NPC列表"
+  splits:
+  - text: "地图"
+  - subIndex: 1
+    text: "列表"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "地图Npc数量:"
+  splits:
+  - text: "地图"
+  - subIndex: 1
+    text: "数量"
+  templates:
+  - template: "{0}Npc{1}:"
+- raw: "地图区域声望："
+  splits:
+  - text: "地图区域声望"
+  templates:
+  - template: "{0}："
+- raw: "地图名称:"
+  splits:
+  - text: "地图名称"
+  templates:
+  - template: "{0}:"
+- raw: "地点触发"
+  splits:
+  - text: "地点触发"
+- raw: "地牢交互"
+  splits:
+  - text: "地牢交互"
+- raw: "坠饰"
+  splits:
+  - text: "坠饰"
+- raw: "垂钓中..."
+  splits:
+  - text: "垂钓中..."
+- raw: "基础"
+  splits:
+  - text: "基础"
+- raw: "基础功能"
+  splits:
+  - text: "基础功能"
+- raw: "基础设定"
+  splits:
+  - text: "基础设定"
+- raw: "塞外战场"
+  splits:
+  - text: "塞外战场"
+- raw: "境界提升"
+  splits:
+  - text: "境界提升"
+- raw: "境界的描述，最多可以写一百二十八个字。"
+  splits:
+  - text: "境界的描述，最多可以写一百二十八个字。"
+- raw: "境界突破条件，最多可以写一百六十八个字。"
+  splits:
+  - text: "境界突破条件，最多可以写一百六十八个字。"
+- raw: "境界筛选:"
+  splits:
+  - text: "境界筛选"
+  templates:
+  - template: "{0}:"
+- raw: "境界达到:"
+  splits:
+  - text: "境界达到"
+  templates:
+  - template: "{0}:"
+- raw: "境界："
+  splits:
+  - text: "境界"
+  templates:
+  - template: "{0}："
+- raw: "境界：  		略有小成"
+  splits:
+  - text: "境界"
+  - subIndex: 1
+    text: "略有小成"
+  templates:
+  - template: "{0}：  		{1}"
+- raw: "境界：心领神会"
+  splits:
+  - text: "境界"
+  - subIndex: 1
+    text: "心领神会"
+  templates:
+  - template: "{0}：{1}"
+- raw: "增加至"
+  splits:
+  - text: "增加至"
+- raw: "壁城水寨"
+  splits:
+  - text: "壁城水寨"
+- raw: "声音设置"
+  splits:
+  - text: "声音设置"
+- raw: "壹"
+  splits:
+  - text: "壹"
+- raw: "复制"
+  splits:
+  - text: "复制"
+- raw: "复制本工程目录到指定目录下"
+  splits:
+  - text: "复制本工程目录到指定目录下"
+- raw: "复原"
+  splits:
+  - text: "复原"
+- raw: "外部关闭"
+  splits:
+  - text: "外部关闭"
+- raw: "外部开启"
+  splits:
+  - text: "外部开启"
+- raw: "多选项对话"
+  splits:
+  - text: "多选项对话"
+- raw: "大于等于"
+  splits:
+  - text: "大于等于"
+- raw: "大当家西虎"
+  splits:
+  - text: "大当家西虎"
+- raw: "大理"
+  splits:
+  - text: "大理"
+- raw: "大量"
+  splits:
+  - text: "大量"
+- raw: "大雪山"
+  splits:
+  - text: "大雪山"
+- raw: "天下第一剑谢晓峰见到这套剑法后，感到剑意未尽，认为「第十三剑」后必定还有「第十四剑」，那才是绿叶后的红花，才是这套剑法中的精华，后谢晓峰代创「第十四剑」，教会铁开诚，并亲手破去了这一剑。"
+  splits:
+  - text: "天下第一剑谢晓峰见到这套剑法后，感到剑意未尽，认为「第十三剑」后必定还有「第十四剑」，那才是绿叶后的红花，才是这套剑法中的精华，后谢晓峰代创「第十四剑」，教会铁开诚，并亲手破去了这一剑。"
+- raw: "天地不仁"
+  splits:
+  - text: "天地不仁"
+- raw: "天子甲等"
+  splits:
+  - text: "天子甲等"
+- raw: "天涯远不远?不远!人就在天涯,天涯怎么会远?明月是什么颜色的?是蓝色的,就像海一样蓝,一样深,一样忧郁."
+  splits:
+  - text: "天涯远不远"
+  - subIndex: 1
+    text: "不远"
+  - subIndex: 2
+    text: "人就在天涯"
+  - subIndex: 3
+    text: "天涯怎么会远"
+  - subIndex: 4
+    text: "明月是什么颜色的"
+  - subIndex: 5
+    text: "是蓝色的"
+  - subIndex: 6
+    text: "就像海一样蓝"
+  - subIndex: 7
+    text: "一样深"
+  - subIndex: 8
+    text: "一样忧郁."
+  templates:
+  - template: "{0}?{1}!{2},{3}?{4}?{5},{6},{7},{8}"
+- raw: "天涯远不远?不远!人就在天涯,天涯怎么会远?明月是什么颜色的?是蓝色的,就像海一样蓝,一样深,一样忧郁.明月在哪里?就在他心里,他的心就是明月.刀呢?刀就在他手里.那是柄什么样的刀?他的刀如天涯般辽阔寂寞,如明月般皎洁忧郁,\\n有时一刀挥出,又仿佛是空空的?空空蒙蒙,飘渺虚幻,仿佛根本不存在,又仿佛到处都在.可是他的刀看来并不快.是的!\\n"
+  splits:
+  - text: "天涯远不远"
+  - subIndex: 1
+    text: "不远"
+  - subIndex: 2
+    text: "人就在天涯"
+  - subIndex: 3
+    text: "天涯怎么会远"
+  - subIndex: 4
+    text: "明月是什么颜色的"
+  - subIndex: 5
+    text: "是蓝色的"
+  - subIndex: 6
+    text: "就像海一样蓝"
+  - subIndex: 7
+    text: "一样深"
+  - subIndex: 8
+    text: "一样忧郁.明月在哪里"
+  - subIndex: 9
+    text: "就在他心里"
+  - subIndex: 10
+    text: "他的心就是明月.刀呢"
+  - subIndex: 11
+    text: "刀就在他手里.那是柄什么样的刀"
+  - subIndex: 12
+    text: "他的刀如天涯般辽阔寂寞"
+  - subIndex: 13
+    text: "如明月般皎洁忧郁"
+  - subIndex: 14
+    text: "有时一刀挥出"
+  - subIndex: 15
+    text: "又仿佛是空空的"
+  - subIndex: 16
+    text: "空空蒙蒙"
+  - subIndex: 17
+    text: "飘渺虚幻"
+  - subIndex: 18
+    text: "仿佛根本不存在"
+  - subIndex: 19
+    text: "又仿佛到处都在.可是他的刀看来并不快.是的"
+  templates:
+  - template: "{0}?{1}!{2},{3}?{4}?{5},{6},{7},{8}?{9},{10}?{11}?{12},{13},\\n{14},{15}?{16},{17},{18},{19}!\\n"
+- raw: "天赋"
+  splits:
+  - text: "天赋"
+- raw: "天赋名称"
+  splits:
+  - text: "天赋名称"
+- raw: "太和山"
+  splits:
+  - text: "太和山"
+- raw: "失败"
+  splits:
+  - text: "失败"
+- raw: "头像"
+  splits:
+  - text: "头像"
+- raw: "奇门:"
+  splits:
+  - text: "奇门"
+  templates:
+  - template: "{0}:"
+- raw: "奖励"
+  splits:
+  - text: "奖励"
+- raw: "奥术大师"
+  splits:
+  - text: "奥术大师"
+- raw: "女"
+  splits:
+  - text: "女"
+- raw: "好感度+99"
+  splits:
+  - text: "好感度"
+  templates:
+  - template: "{0}+99"
+- raw: "好感度:xx"
+  splits:
+  - text: "好感度"
+  templates:
+  - template: "{0}:xx"
+- raw: "好感：  		50"
+  splits:
+  - text: "好感"
+  templates:
+  - template: "{0}：  		50"
+- raw: "姓"
+  splits:
+  - text: "姓"
+- raw: "姓："
+  splits:
+  - text: "姓"
+  templates:
+  - template: "{0}："
+- raw: "子女"
+  splits:
+  - text: "子女"
+- raw: "存储档案"
+  splits:
+  - text: "存储档案"
+- raw: "学习"
+  splits:
+  - text: "学习"
+- raw: "孩童成年时长"
+  splits:
+  - text: "孩童成年时长"
+- raw: "孩童自诞生到成年所需经历游戏世界时间"
+  splits:
+  - text: "孩童自诞生到成年所需经历游戏世界时间"
+- raw: "宗主:"
+  splits:
+  - text: "宗主"
+  templates:
+  - template: "{0}:"
+- raw: "宝箱名"
+  splits:
+  - text: "宝箱名"
+- raw: "寄售"
+  splits:
+  - text: "寄售"
+- raw: "寄售单价"
+  splits:
+  - text: "寄售单价"
+- raw: "寄售单价："
+  splits:
+  - text: "寄售单价"
+  templates:
+  - template: "{0}："
+- raw: "寄售总价"
+  splits:
+  - text: "寄售总价"
+- raw: "寄售数量"
+  splits:
+  - text: "寄售数量"
+- raw: "寄售物品"
+  splits:
+  - text: "寄售物品"
+- raw: "寄存物品"
+  splits:
+  - text: "寄存物品"
+- raw: "寒"
+  splits:
+  - text: "寒"
+- raw: "对白"
+  splits:
+  - text: "对白"
+- raw: "对白说完"
+  splits:
+  - text: "对白说完"
+- raw: "对话内容"
+  splits:
+  - text: "对话内容"
+- raw: "对话内容11111对话内容11111对话内容11111对话内容11111对"
+  splits:
+  - text: "对话内容11111对话内容11111对话内容11111对话内容11111对"
+- raw: "对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111对话内容1111"
+  splits:
+  - text: "对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111对话内容1111"
+- raw: "对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111"
+  splits:
+  - text: "对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111对话内容11111"
+- raw: "对阵表"
+  splits:
+  - text: "对阵表"
+- raw: "导入一张全身立绘和一张与之对应的头像图片资源"
+  splits:
+  - text: "导入一张全身立绘和一张与之对应的头像图片资源"
+- raw: "导入外部模组"
+  splits:
+  - text: "导入外部模组"
+- raw: "导出"
+  splits:
+  - text: "导出"
+- raw: "导出工程"
+  splits:
+  - text: "导出工程"
+- raw: "封面："
+  splits:
+  - text: "封面"
+  templates:
+  - template: "{0}："
+- raw: "将打坐：一个月两天四个时辰"
+  splits:
+  - text: "将打坐"
+  - subIndex: 1
+    text: "一个月两天四个时辰"
+  templates:
+  - template: "{0}：{1}"
+- raw: "尊敬的《刀剑江湖路》用户： \\n欢迎使用由游鲤化龙工作室（以下简称\"我方\"）研发的《刀剑江湖路》单机游戏模组编辑器（以下简称\"本工具\"）。在开始使用本工具前，请仔细阅读本协议全部条款。您对本工具的任何使用行为，即视为已充分阅读、理解并同意接受本协议约束。\\n\\n第一条 内容合规责任 \\n1.1您知悉并确认，本工具不对用户自主导入的第三方内容合法性承担审核责任。您承诺不得通过本工具上传、存储或传播包含以下情形、性质的内容： \\n（1）违反《中华人民共和国宪法》所确立的基本原则的； \\n（2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的； \\n（3）损害国家荣誉与利益的； \\n（4）煽动民族仇恨、民族歧视，破坏民族团结的； \\n（5）破坏国家宗教政策，宣扬邪教及封建迷信的； \\n（6）散布谣言，扰乱社会秩序，破坏社会稳定的； \\n（7）含有淫秽、色情、赌博、暴力、凶杀、恐怖或教唆犯罪的； \\n（8）侮辱或诽谤他人，侵害他人合法权益的； \\n（9）传播、教唆使用外挂、私服、病毒、恶意代码、木马及相关内容； \\n（10）侵犯知识产权、商业秘密或其他专有权利的； \\n（11）贬损、诋毁、恶意攻击《刀剑江湖路》游戏软件、服务及相关主体的； \\n（12）其他违反中华人民共和国法律、行政法规及监管规定的。\\n1.2如发现您存在上述违规行为，我方有权单方采取包括但不限于下架、封禁模组的措施，且无需承担事先告知义务。\\n\\n第二条 知识产权承诺 \\n2.1您保证通过本工具导入的全部内容（包括但不限于文字、图像、音视频）均不侵犯第三方知识产权及其他合法权益。如因此引发争议，您应独立承担全部法律责任。\\n\\n第三条 作品传播授权 \\n3.1您通过本工具创作的原创素材，其著作权归属依照《中华人民共和国著作权法》确定。当您选择在网络平台分享作品时： \\n（1）视为授权其他用户非独占性使用权利； \\n（2）理解并接受网络传播的不可控风险； \\n（3）承诺不在公开平台发布任何涉密或敏感内容。\\n3.2任何您不愿被他人获知的内容，都不应在任何网络平台发布或传播。您应严格遵守网络平台规则进行作品的发布、传播、下载，并自行承担相关责任。本工具不介入亦不承担由此产生的任何法律责任。\\n\\n第四条 使用限制条款 \\n4.1《刀剑江湖路》游戏内所有我方原创资源（包括但不限于美术素材、程序代码、音效文件）仅限于游戏本体使用，严禁用于商业用途。\\n\\n4.2 禁止实施以下行为： \\n（1）未经授权盗链本工具内素材资源； \\n（2）仿制、复制其他用户创作的模组作品； \\n（3）将含《刀剑江湖路》游戏元素的模组传播、发布于未经权利人授权的第三方平台。\\n\\n第五条 协议效力声明 \\n5.1本协议最终解释权归游鲤化龙工作室所有。我方保留根据法律法规变化及业务需要修改本协议的权利，修改后的协议将在官方渠道公布后自动生效。\\n\\n\\n\\n\\n\\n  游鲤化龙工作室\\n  2025年02月27日"
+  splits:
+  - text: "尊敬的《刀剑江湖路》用户"
+  - subIndex: 1
+    text: "欢迎使用由游鲤化龙工作室（以下简称"
+  - subIndex: 2
+    text: "我方"
+  - subIndex: 3
+    text: "）研发的《刀剑江湖路》单机游戏模组编辑器（以下简称"
+  - subIndex: 4
+    text: "本工具"
+  - subIndex: 5
+    text: "）。在开始使用本工具前，请仔细阅读本协议全部条款。您对本工具的任何使用行为，即视为已充分阅读、理解并同意接受本协议约束。"
+  - subIndex: 6
+    text: "第一条"
+  - subIndex: 7
+    text: "内容合规责任"
+  - subIndex: 8
+    text: "1.1您知悉并确认，本工具不对用户自主导入的第三方内容合法性承担审核责任。您承诺不得通过本工具上传、存储或传播包含以下情形、性质的内容"
+  - subIndex: 9
+    text: "（1）违反《中华人民共和国宪法》所确立的基本原则的；"
+  - subIndex: 10
+    text: "（2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；"
+  - subIndex: 11
+    text: "（3）损害国家荣誉与利益的；"
+  - subIndex: 12
+    text: "（4）煽动民族仇恨、民族歧视，破坏民族团结的；"
+  - subIndex: 13
+    text: "（5）破坏国家宗教政策，宣扬邪教及封建迷信的；"
+  - subIndex: 14
+    text: "（6）散布谣言，扰乱社会秩序，破坏社会稳定的；"
+  - subIndex: 15
+    text: "（7）含有淫秽、色情、赌博、暴力、凶杀、恐怖或教唆犯罪的；"
+  - subIndex: 16
+    text: "（8）侮辱或诽谤他人，侵害他人合法权益的；"
+  - subIndex: 17
+    text: "（9）传播、教唆使用外挂、私服、病毒、恶意代码、木马及相关内容；"
+  - subIndex: 18
+    text: "（10）侵犯知识产权、商业秘密或其他专有权利的；"
+  - subIndex: 19
+    text: "（11）贬损、诋毁、恶意攻击《刀剑江湖路》游戏软件、服务及相关主体的；"
+  - subIndex: 20
+    text: "（12）其他违反中华人民共和国法律、行政法规及监管规定的。"
+  - subIndex: 21
+    text: "1.2如发现您存在上述违规行为，我方有权单方采取包括但不限于下架、封禁模组的措施，且无需承担事先告知义务。"
+  - subIndex: 22
+    text: "第二条"
+  - subIndex: 23
+    text: "知识产权承诺"
+  - subIndex: 24
+    text: "2.1您保证通过本工具导入的全部内容（包括但不限于文字、图像、音视频）均不侵犯第三方知识产权及其他合法权益。如因此引发争议，您应独立承担全部法律责任。"
+  - subIndex: 25
+    text: "第三条"
+  - subIndex: 26
+    text: "作品传播授权"
+  - subIndex: 27
+    text: "3.1您通过本工具创作的原创素材，其著作权归属依照《中华人民共和国著作权法》确定。当您选择在网络平台分享作品时"
+  - subIndex: 28
+    text: "（1）视为授权其他用户非独占性使用权利；"
+  - subIndex: 29
+    text: "（2）理解并接受网络传播的不可控风险；"
+  - subIndex: 30
+    text: "（3）承诺不在公开平台发布任何涉密或敏感内容。"
+  - subIndex: 31
+    text: "3.2任何您不愿被他人获知的内容，都不应在任何网络平台发布或传播。您应严格遵守网络平台规则进行作品的发布、传播、下载，并自行承担相关责任。本工具不介入亦不承担由此产生的任何法律责任。"
+  - subIndex: 32
+    text: "第四条"
+  - subIndex: 33
+    text: "使用限制条款"
+  - subIndex: 34
+    text: "4.1《刀剑江湖路》游戏内所有我方原创资源（包括但不限于美术素材、程序代码、音效文件）仅限于游戏本体使用，严禁用于商业用途。"
+  - subIndex: 35
+    text: "禁止实施以下行为"
+  - subIndex: 36
+    text: "（1）未经授权盗链本工具内素材资源；"
+  - subIndex: 37
+    text: "（2）仿制、复制其他用户创作的模组作品；"
+  - subIndex: 38
+    text: "（3）将含《刀剑江湖路》游戏元素的模组传播、发布于未经权利人授权的第三方平台。"
+  - subIndex: 39
+    text: "第五条"
+  - subIndex: 40
+    text: "协议效力声明"
+  - subIndex: 41
+    text: "5.1本协议最终解释权归游鲤化龙工作室所有。我方保留根据法律法规变化及业务需要修改本协议的权利，修改后的协议将在官方渠道公布后自动生效。"
+  - subIndex: 42
+    text: "游鲤化龙工作室"
+  - subIndex: 43
+    text: "2025年02月27日"
+  templates:
+  - template: "{0}： \\n{1}\"{2}\"{3}\"{4}\"{5}\\n\\n{6} {7} \\n{8}： \\n{9} \\n{10} \\n{11} \\n{12} \\n{13} \\n{14} \\n{15} \\n{16} \\n{17} \\n{18} \\n{19} \\n{20}\\n{21}\\n\\n{22} {23} \\n{24}\\n\\n{25} {26} \\n{27}： \\n{28} \\n{29} \\n{30}\\n{31}\\n\\n{32} {33} \\n{34}\\n\\n4.2 {35}： \\n{36} \\n{37} \\n{38}\\n\\n{39} {40} \\n{41}\\n\\n\\n\\n\\n\\n  {42}\\n  {43}"
+- raw: "小于等于"
+  splits:
+  - text: "小于等于"
+- raw: "小强"
+  splits:
+  - text: "小强"
+- raw: "小木弓\\n[弓箭]"
+  splits:
+  - text: "小木弓"
+  - subIndex: 1
+    text: "弓箭"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "小玉"
+  splits:
+  - text: "小玉"
+- raw: "小玉小玉小玉"
+  splits:
+  - text: "小玉小玉小玉"
+- raw: "小黄"
+  splits:
+  - text: "小黄"
+- raw: "少林寺"
+  splits:
+  - text: "少林寺"
+- raw: "少量"
+  splits:
+  - text: "少量"
+- raw: "属性："
+  splits:
+  - text: "属性"
+  templates:
+  - template: "{0}："
+- raw: "已冲穴(点击可重新冲穴)"
+  splits:
+  - text: "已冲穴"
+  - subIndex: 1
+    text: "点击可重新冲穴"
+  templates:
+  - template: "{0}({1})"
+- raw: "已对该成员下了追杀令"
+  splits:
+  - text: "已对该成员下了追杀令"
+- raw: "已有心决"
+  splits:
+  - text: "已有心决"
+- raw: "已达当前版本最高境界"
+  splits:
+  - text: "已达当前版本最高境界"
+- raw: "已选择:"
+  splits:
+  - text: "已选择"
+  templates:
+  - template: "{0}:"
+- raw: "已领取"
+  splits:
+  - text: "已领取"
+- raw: "师傅"
+  splits:
+  - text: "师傅"
+- raw: "帮"
+  splits:
+  - text: "帮"
+- raw: "帮主"
+  splits:
+  - text: "帮主"
+- raw: "帮主名字"
+  splits:
+  - text: "帮主名字"
+- raw: "帮众"
+  splits:
+  - text: "帮众"
+- raw: "帮众人数已达上限，请提升帮派等级或调整成员结构"
+  splits:
+  - text: "帮众人数已达上限，请提升帮派等级或调整成员结构"
+- raw: "帮派名"
+  splits:
+  - text: "帮派名"
+- raw: "帮派名..."
+  splits:
+  - text: "帮派名..."
+- raw: "帮派当前收支水平可能无法支撑此人的俸禄"
+  splits:
+  - text: "帮派当前收支水平可能无法支撑此人的俸禄"
+- raw: "帮派招新"
+  splits:
+  - text: "帮派招新"
+- raw: "帮派空地:"
+  splits:
+  - text: "帮派空地"
+  templates:
+  - template: "{0}:"
+- raw: "帮派等级:"
+  splits:
+  - text: "帮派等级"
+  templates:
+  - template: "{0}:"
+- raw: "帮派等级越高，则规模可越大、产业收益越高、帮主权威更大"
+  splits:
+  - text: "帮派等级越高，则规模可越大、产业收益越高、帮主权威更大"
+- raw: "帮派贡献+1000"
+  splits:
+  - text: "帮派贡献"
+  templates:
+  - template: "{0}+1000"
+- raw: "帮派资金:"
+  splits:
+  - text: "帮派资金"
+  templates:
+  - template: "{0}:"
+- raw: "库存:"
+  splits:
+  - text: "库存"
+  templates:
+  - template: "{0}:"
+- raw: "应欢"
+  splits:
+  - text: "应欢"
+- raw: "应用"
+  splits:
+  - text: "应用"
+- raw: "开"
+  splits:
+  - text: "开"
+- raw: "开关"
+  splits:
+  - text: "开关"
+- raw: "开启"
+  splits:
+  - text: "开启"
+- raw: "开启脉路：将隐藏的脉路翻开，消耗10修为\\n顺旋脉路：将脉路顺时针旋转，消耗8修为\\n"
+  splits:
+  - text: "开启脉路"
+  - subIndex: 1
+    text: "将隐藏的脉路翻开，消耗10修为"
+  - subIndex: 2
+    text: "顺旋脉路"
+  - subIndex: 3
+    text: "将脉路顺时针旋转，消耗8修为"
+  templates:
+  - template: "{0}：{1}\\n{2}：{3}\\n"
+- raw: "开启脉路：将隐藏的脉路翻开，消耗10修为\\n顺旋脉路：将脉路顺时针旋转，消耗8修为\\n逆旋脉路：将脉路逆时针旋转，消耗8修为\\n更换脉路：随机更换成其他脉路，消耗17修为\\n基础规则：\\n将穴道的起始位置<color=green>【绿色】</color>和终点位置<color=red>【红色】</color>连成一线即可突破穴道。\\n脉路通过辅穴<color=#FF00E9>【紫色】</color>会额外获得战斗属性的奖励"
+  splits:
+  - text: "开启脉路"
+  - subIndex: 1
+    text: "将隐藏的脉路翻开，消耗10修为"
+  - subIndex: 2
+    text: "顺旋脉路"
+  - subIndex: 3
+    text: "将脉路顺时针旋转，消耗8修为"
+  - subIndex: 4
+    text: "逆旋脉路"
+  - subIndex: 5
+    text: "将脉路逆时针旋转，消耗8修为"
+  - subIndex: 6
+    text: "更换脉路"
+  - subIndex: 7
+    text: "随机更换成其他脉路，消耗17修为"
+  - subIndex: 8
+    text: "基础规则"
+  - subIndex: 9
+    text: "将穴道的起始位置"
+  - subIndex: 10
+    text: "【绿色】"
+  - subIndex: 11
+    text: "和终点位置"
+  - subIndex: 12
+    text: "【红色】"
+  - subIndex: 13
+    text: "连成一线即可突破穴道。"
+  - subIndex: 14
+    text: "脉路通过辅穴"
+  - subIndex: 15
+    text: "【紫色】"
+  - subIndex: 16
+    text: "会额外获得战斗属性的奖励"
+  templates:
+  - template: "{0}：{1}\\n{2}：{3}\\n{4}：{5}\\n{6}：{7}\\n{8}：\\n{9}<color=green>{10}</color>{11}<color=red>{12}</color>{13}\\n{14}<color=#FF00E9>{15}</color>{16}"
+- raw: "开战"
+  splits:
+  - text: "开战"
+- raw: "开源"
+  splits:
+  - text: "开源"
+- raw: "开除"
+  splits:
+  - text: "开除"
+- raw: "张三"
+  splits:
+  - text: "张三"
+- raw: "张三丰"
+  splits:
+  - text: "张三丰"
+- raw: "强行冲穴"
+  splits:
+  - text: "强行冲穴"
+- raw: "强行冲穴：需要消耗{0}修为一键完成冲穴，但无法获得辅穴属性"
+  splits:
+  - text: "强行冲穴"
+  - subIndex: 1
+    text: "需要消耗"
+  - subIndex: 2
+    text: "修为一键完成冲穴，但无法获得辅穴属性"
+  templates:
+  - template: "{0}：{1}⟦0⟧{2}"
+- raw: "当前使用武学"
+  splits:
+  - text: "当前使用武学"
+- raw: "当前修为"
+  splits:
+  - text: "当前修为"
+- raw: "当前元宝:"
+  splits:
+  - text: "当前元宝"
+  templates:
+  - template: "{0}:"
+- raw: "当前内功境界："
+  splits:
+  - text: "当前内功境界"
+  templates:
+  - template: "{0}："
+- raw: "当前地图信息"
+  splits:
+  - text: "当前地图信息"
+- raw: "当前寄售列表"
+  splits:
+  - text: "当前寄售列表"
+- raw: "当前帮派位阶:"
+  splits:
+  - text: "当前帮派位阶"
+  templates:
+  - template: "{0}:"
+- raw: "当前拥有"
+  splits:
+  - text: "当前拥有"
+- raw: "当前拥有:"
+  splits:
+  - text: "当前拥有"
+  templates:
+  - template: "{0}:"
+- raw: "当前效果"
+  splits:
+  - text: "当前效果"
+- raw: "当前散学"
+  splits:
+  - text: "当前散学"
+- raw: "当前测试中模组："
+  splits:
+  - text: "当前测试中模组"
+  templates:
+  - template: "{0}："
+- raw: "当前编辑的模组内容导出为外部模组后(在本工程目录下生成一个外部模组包)，可以在“本地模组”界面点击使用“导入外部模组”按钮，完成外部模组导入后，即可在游戏中使用模组内容。"
+  splits:
+  - text: "当前编辑的模组内容导出为外部模组后"
+  - subIndex: 1
+    text: "在本工程目录下生成一个外部模组包"
+  - subIndex: 2
+    text: "，可以在“本地模组”界面点击使用“导入外部模组”按钮，完成外部模组导入后，即可在游戏中使用模组内容。"
+  templates:
+  - template: "{0}({1}){2}"
+- raw: "当前通式"
+  splits:
+  - text: "当前通式"
+- raw: "当前门派贡献:"
+  splits:
+  - text: "当前门派贡献"
+  templates:
+  - template: "{0}:"
+- raw: "当前阅历:"
+  splits:
+  - text: "当前阅历"
+  templates:
+  - template: "{0}:"
+- raw: "当前驻地"
+  splits:
+  - text: "当前驻地"
+- raw: "影响气血恢复，体力恢复，内劲增长等属性。"
+  splits:
+  - text: "影响气血恢复，体力恢复，内劲增长等属性。"
+- raw: "影响移动速度，命中，闪避，暴击等属性。"
+  splits:
+  - text: "影响移动速度，命中，闪避，暴击等属性。"
+- raw: "影响获得修为，开启河图洛书槽位。影响获得修为，开启河图洛书槽位。影响获得修为，开启河图洛书槽位。"
+  splits:
+  - text: "影响获得修为，开启河图洛书槽位。影响获得修为，开启河图洛书槽位。影响获得修为，开启河图洛书槽位。"
+- raw: "影响角色的基础攻击力和武学伤害"
+  splits:
+  - text: "影响角色的基础攻击力和武学伤害"
+- raw: "影响防御力，气血上限，免暴等属性。"
+  splits:
+  - text: "影响防御力，气血上限，免暴等属性。"
+- raw: "待定"
+  splits:
+  - text: "待定"
+- raw: "徒弟"
+  splits:
+  - text: "徒弟"
+- raw: "心领神会*5"
+  splits:
+  - text: "心领神会"
+  templates:
+  - template: "{0}*5"
+- raw: "快把我放了~"
+  splits:
+  - text: "快把我放了"
+  templates:
+  - template: "{0}~"
+- raw: "快捷键F6可进入帮派总舵管理界面"
+  splits:
+  - text: "快捷键"
+  - subIndex: 1
+    text: "6可进入帮派总舵管理界面"
+  templates:
+  - template: "{0}F{1}"
+- raw: "怀孕时长"
+  splits:
+  - text: "怀孕时长"
+- raw: "性别选择"
+  splits:
+  - text: "性别选择"
+- raw: "总舵"
+  splits:
+  - text: "总舵"
+- raw: "总舵:"
+  splits:
+  - text: "总舵"
+  templates:
+  - template: "{0}:"
+- raw: "总舵等级:"
+  splits:
+  - text: "总舵等级"
+  templates:
+  - template: "{0}:"
+- raw: "总银两:"
+  splits:
+  - text: "总银两"
+  templates:
+  - template: "{0}:"
+- raw: "恢复预设"
+  splits:
+  - text: "恢复预设"
+- raw: "恭喜！"
+  splits:
+  - text: "恭喜！"
+- raw: "悄然离开"
+  splits:
+  - text: "悄然离开"
+- raw: "悟性值占用："
+  splits:
+  - text: "悟性值占用"
+  templates:
+  - template: "{0}："
+- raw: "悟性："
+  splits:
+  - text: "悟性"
+  templates:
+  - template: "{0}："
+- raw: "戊戌年 一月 第一天"
+  splits:
+  - text: "戊戌年"
+  - subIndex: 1
+    text: "一月"
+  - subIndex: 2
+    text: "第一天"
+  templates:
+  - template: "{0} {1} {2}"
+- raw: "成为"
+  splits:
+  - text: "成为"
+- raw: "成功"
+  splits:
+  - text: "成功"
+- raw: "成员"
+  splits:
+  - text: "成员"
+- raw: "成员俸禄："
+  splits:
+  - text: "成员俸禄"
+  templates:
+  - template: "{0}："
+- raw: "成员实力:"
+  splits:
+  - text: "成员实力"
+  templates:
+  - template: "{0}:"
+- raw: "成员数量:"
+  splits:
+  - text: "成员数量"
+  templates:
+  - template: "{0}:"
+- raw: "我兄弟受连环寨所托，没想到冲撞了大侠!我兄弟受连环寨所托我兄弟受连环寨所托，没想到冲撞了大侠!我兄弟受连环寨所托"
+  splits:
+  - text: "我兄弟受连环寨所托，没想到冲撞了大侠"
+  - subIndex: 1
+    text: "我兄弟受连环寨所托我兄弟受连环寨所托，没想到冲撞了大侠"
+  - subIndex: 2
+    text: "我兄弟受连环寨所托"
+  templates:
+  - template: "{0}!{1}!{2}"
+- raw: "我已阅读并同意《模组编辑器用户协议》"
+  splits:
+  - text: "我已阅读并同意《模组编辑器用户协议》"
+- raw: "我方剩余人数："
+  splits:
+  - text: "我方剩余人数"
+  templates:
+  - template: "{0}："
+- raw: "我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个"
+  splits:
+  - text: "我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个大侠我是一个"
+- raw: "我的天赋:"
+  splits:
+  - text: "我的天赋"
+  templates:
+  - template: "{0}:"
+- raw: "我的排名"
+  splits:
+  - text: "我的排名"
+- raw: "我的银两："
+  splits:
+  - text: "我的银两"
+  templates:
+  - template: "{0}："
+- raw: "戒指"
+  splits:
+  - text: "戒指"
+- raw: "战前准备"
+  splits:
+  - text: "战前准备"
+- raw: "战前筹备"
+  splits:
+  - text: "战前筹备"
+- raw: "战力:"
+  splits:
+  - text: "战力"
+  templates:
+  - template: "{0}:"
+- raw: "战斗场景:"
+  splits:
+  - text: "战斗场景"
+  templates:
+  - template: "{0}:"
+- raw: "战斗帮助"
+  splits:
+  - text: "战斗帮助"
+- raw: "战斗结果"
+  splits:
+  - text: "战斗结果"
+- raw: "战斗镜头震动和模糊:"
+  splits:
+  - text: "战斗镜头震动和模糊"
+  templates:
+  - template: "{0}:"
+- raw: "所习武学"
+  splits:
+  - text: "所习武学"
+- raw: "所属:"
+  splits:
+  - text: "所属"
+  templates:
+  - template: "{0}:"
+- raw: "所属武学:"
+  splits:
+  - text: "所属武学"
+  templates:
+  - template: "{0}:"
+- raw: "所属驻地"
+  splits:
+  - text: "所属驻地"
+- raw: "所需银两："
+  splits:
+  - text: "所需银两"
+  templates:
+  - template: "{0}："
+- raw: "所需门派贡献:"
+  splits:
+  - text: "所需门派贡献"
+  templates:
+  - template: "{0}:"
+- raw: "手动冲穴"
+  splits:
+  - text: "手动冲穴"
+- raw: "手动冲穴：手动完成冲穴操作，连接辅穴可以获得额外属性"
+  splits:
+  - text: "手动冲穴"
+  - subIndex: 1
+    text: "手动完成冲穴操作，连接辅穴可以获得额外属性"
+  templates:
+  - template: "{0}：{1}"
+- raw: "手少阳经"
+  splits:
+  - text: "手少阳经"
+- raw: "手少阳经打通"
+  splits:
+  - text: "手少阳经打通"
+- raw: "打坐时间加速"
+  splits:
+  - text: "打坐时间加速"
+- raw: "执行条件"
+  splits:
+  - text: "执行条件"
+- raw: "批量出售"
+  splits:
+  - text: "批量出售"
+- raw: "批量删除"
+  splits:
+  - text: "批量删除"
+- raw: "承安镇"
+  splits:
+  - text: "承安镇"
+- raw: "护体："
+  splits:
+  - text: "护体"
+  templates:
+  - template: "{0}："
+- raw: "护甲"
+  splits:
+  - text: "护甲"
+- raw: "护腰"
+  splits:
+  - text: "护腰"
+- raw: "护臂"
+  splits:
+  - text: "护臂"
+- raw: "报名考核"
+  splits:
+  - text: "报名考核"
+- raw: "押物"
+  splits:
+  - text: "押物"
+- raw: "拒绝"
+  splits:
+  - text: "拒绝"
+- raw: "招式"
+  splits:
+  - text: "招式"
+- raw: "招架："
+  splits:
+  - text: "招架"
+  templates:
+  - template: "{0}："
+- raw: "招纳"
+  splits:
+  - text: "招纳"
+- raw: "拳套"
+  splits:
+  - text: "拳套"
+- raw: "拳脚:"
+  splits:
+  - text: "拳脚"
+  templates:
+  - template: "{0}:"
+- raw: "指令："
+  splits:
+  - text: "指令"
+  templates:
+  - template: "{0}："
+- raw: "指引任务"
+  splits:
+  - text: "指引任务"
+- raw: "按下"
+  splits:
+  - text: "按下"
+- raw: "按住"
+  splits:
+  - text: "按住"
+- raw: "按键设置"
+  splits:
+  - text: "按键设置"
+- raw: "挑战"
+  splits:
+  - text: "挑战"
+- raw: "换装"
+  splits:
+  - text: "换装"
+- raw: "掉落预览"
+  splits:
+  - text: "掉落预览"
+- raw: "接受"
+  splits:
+  - text: "接受"
+- raw: "推荐"
+  splits:
+  - text: "推荐"
+- raw: "推荐单价："
+  splits:
+  - text: "推荐单价"
+  templates:
+  - template: "{0}："
+- raw: "推荐境界：初出茅庐"
+  splits:
+  - text: "推荐境界"
+  - subIndex: 1
+    text: "初出茅庐"
+  templates:
+  - template: "{0}：{1}"
+- raw: "描述"
+  splits:
+  - text: "描述"
+- raw: "描述..."
+  splits:
+  - text: "描述..."
+- raw: "描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描"
+  splits:
+  - text: "描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描"
+- raw: "描述："
+  splits:
+  - text: "描述"
+  templates:
+  - template: "{0}："
+- raw: "提升位阶后可以领取更多的薪俸。是升位阶的方法：挑战比自己高一位阶的帮派干部。挑战成功则与对方互换位阶。"
+  splits:
+  - text: "提升位阶后可以领取更多的薪俸。是升位阶的方法"
+  - subIndex: 1
+    text: "挑战比自己高一位阶的帮派干部。挑战成功则与对方互换位阶。"
+  templates:
+  - template: "{0}：{1}"
+- raw: "提升内功境界"
+  splits:
+  - text: "提升内功境界"
+- raw: "提升境界"
+  splits:
+  - text: "提升境界"
+- raw: "搜索"
+  splits:
+  - text: "搜索"
+- raw: "摇骰"
+  splits:
+  - text: "摇骰"
+- raw: "擂台"
+  splits:
+  - text: "擂台"
+- raw: "收信时间"
+  splits:
+  - text: "收信时间"
+- raw: "攻击:"
+  splits:
+  - text: "攻击"
+  templates:
+  - template: "{0}:"
+- raw: "攻击力提升400"
+  splits:
+  - text: "攻击力提升400"
+- raw: "攻击："
+  splits:
+  - text: "攻击"
+  templates:
+  - template: "{0}："
+- raw: "攻略和WIKI"
+  splits:
+  - text: "攻略和"
+  templates:
+  - template: "{0}WIKI"
+- raw: "放弃"
+  splits:
+  - text: "放弃"
+- raw: "效果："
+  splits:
+  - text: "效果"
+  templates:
+  - template: "{0}："
+- raw: "敌人:"
+  splits:
+  - text: "敌人"
+  templates:
+  - template: "{0}:"
+- raw: "敌对"
+  splits:
+  - text: "敌对"
+- raw: "敌方剩余人数："
+  splits:
+  - text: "敌方剩余人数"
+  templates:
+  - template: "{0}："
+- raw: "敌方行动"
+  splits:
+  - text: "敌方行动"
+- raw: "教"
+  splits:
+  - text: "教"
+- raw: "数量..."
+  splits:
+  - text: "数量..."
+- raw: "数量:"
+  splits:
+  - text: "数量"
+  templates:
+  - template: "{0}:"
+- raw: "数额数额"
+  splits:
+  - text: "数额数额"
+- raw: "整理背包"
+  splits:
+  - text: "整理背包"
+- raw: "新建"
+  splits:
+  - text: "新建"
+- raw: "新建人物"
+  splits:
+  - text: "新建人物"
+- raw: "新建任务"
+  splits:
+  - text: "新建任务"
+- raw: "新建模组"
+  splits:
+  - text: "新建模组"
+- raw: "新建项目"
+  splits:
+  - text: "新建项目"
+- raw: "新鲜的稻谷，味甘，性温，也可入药。"
+  splits:
+  - text: "新鲜的稻谷，味甘，性温，也可入药。"
+- raw: "无"
+  splits:
+  - text: "无"
+- raw: "无任何限制"
+  splits:
+  - text: "无任何限制"
+- raw: "无关系"
+  splits:
+  - text: "无关系"
+- raw: "无剧情"
+  splits:
+  - text: "无剧情"
+- raw: "无剧情立绘"
+  splits:
+  - text: "无剧情立绘"
+- raw: "无名集"
+  splits:
+  - text: "无名集"
+- raw: "日志："
+  splits:
+  - text: "日志"
+  templates:
+  - template: "{0}："
+- raw: "旧木蹬\\n[腿脚]"
+  splits:
+  - text: "旧木蹬"
+  - subIndex: 1
+    text: "腿脚"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "旧柴刀\\n[重刃]"
+  splits:
+  - text: "旧柴刀"
+  - subIndex: 1
+    text: "重刃"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "旧纸扇\\n[扇法]"
+  splits:
+  - text: "旧纸扇"
+  - subIndex: 1
+    text: "扇法"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "时装"
+  splits:
+  - text: "时装"
+- raw: "是"
+  splits:
+  - text: "是"
+- raw: "是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？"
+  splits:
+  - text: "是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？是否进入太白穴道进行冲穴？"
+- raw: "是否进入少阳穴道进行冲穴？"
+  splits:
+  - text: "是否进入少阳穴道进行冲穴？"
+- raw: "显示卷轴"
+  splits:
+  - text: "显示卷轴"
+- raw: "显示地图网格:"
+  splits:
+  - text: "显示地图网格"
+  templates:
+  - template: "{0}:"
+- raw: "显示条件"
+  splits:
+  - text: "显示条件"
+- raw: "显示设置"
+  splits:
+  - text: "显示设置"
+- raw: "普攻"
+  splits:
+  - text: "普攻"
+- raw: "普通"
+  splits:
+  - text: "普通"
+- raw: "暂无产业"
+  splits:
+  - text: "暂无产业"
+- raw: "暂无可回购物品"
+  splits:
+  - text: "暂无可回购物品"
+- raw: "暂无残卷"
+  splits:
+  - text: "暂无残卷"
+- raw: "暂未开放"
+  splits:
+  - text: "暂未开放"
+- raw: "暴伤："
+  splits:
+  - text: "暴伤"
+  templates:
+  - template: "{0}："
+- raw: "暴击："
+  splits:
+  - text: "暴击"
+  templates:
+  - template: "{0}："
+- raw: "更换更强的装备"
+  splits:
+  - text: "更换更强的装备"
+- raw: "更改目录"
+  splits:
+  - text: "更改目录"
+- raw: "更新日志..."
+  splits:
+  - text: "更新日志..."
+- raw: "更新计划"
+  splits:
+  - text: "更新计划"
+- raw: "曹操"
+  splits:
+  - text: "曹操"
+- raw: "替换"
+  splits:
+  - text: "替换"
+- raw: "替换效果"
+  splits:
+  - text: "替换效果"
+- raw: "最终结果"
+  splits:
+  - text: "最终结果"
+- raw: "最近修改"
+  splits:
+  - text: "最近修改"
+- raw: "服从度"
+  splits:
+  - text: "服从度"
+- raw: "服装"
+  splits:
+  - text: "服装"
+- raw: "朝鲜密林"
+  splits:
+  - text: "朝鲜密林"
+- raw: "木人桩境界："
+  splits:
+  - text: "木人桩境界"
+  templates:
+  - template: "{0}："
+- raw: "未"
+  splits:
+  - text: "未"
+- raw: "未习得1"
+  splits:
+  - text: "未习得1"
+- raw: "未入围"
+  splits:
+  - text: "未入围"
+- raw: "未加入帮派"
+  splits:
+  - text: "未加入帮派"
+- raw: "未参赛"
+  splits:
+  - text: "未参赛"
+- raw: "未发布"
+  splits:
+  - text: "未发布"
+- raw: "未完成"
+  splits:
+  - text: "未完成"
+- raw: "未实装"
+  splits:
+  - text: "未实装"
+- raw: "未激活"
+  splits:
+  - text: "未激活"
+- raw: "未达到在此驻地创立帮派的条件"
+  splits:
+  - text: "未达到在此驻地创立帮派的条件"
+- raw: "未达到帮派升级的条件"
+  splits:
+  - text: "未达到帮派升级的条件"
+- raw: "本体buff"
+  splits:
+  - text: "本体"
+  templates:
+  - template: "{0}buff"
+- raw: "本地存档日志目录"
+  splits:
+  - text: "本地存档日志目录"
+- raw: "本地模组"
+  splits:
+  - text: "本地模组"
+- raw: "本地目录"
+  splits:
+  - text: "本地目录"
+- raw: "本次为帮派间战斗，队伍内仅帮派成员可参与"
+  splits:
+  - text: "本次为帮派间战斗，队伍内仅帮派成员可参与"
+- raw: "李四"
+  splits:
+  - text: "李四"
+- raw: "条件判断"
+  splits:
+  - text: "条件判断"
+- raw: "条件最多可以放十个字"
+  splits:
+  - text: "条件最多可以放十个字"
+- raw: "杭州城"
+  splits:
+  - text: "杭州城"
+- raw: "林无敌"
+  splits:
+  - text: "林无敌"
+- raw: "架招"
+  splits:
+  - text: "架招"
+- raw: "查看{0}"
+  splits:
+  - text: "查看"
+  templates:
+  - template: "{0}⟦0⟧"
+- raw: "查看小地图"
+  splits:
+  - text: "查看小地图"
+- raw: "查询价格"
+  splits:
+  - text: "查询价格"
+- raw: "标签1，标签2"
+  splits:
+  - text: "标签1，标签2"
+- raw: "标签："
+  splits:
+  - text: "标签"
+  templates:
+  - template: "{0}："
+- raw: "标题"
+  splits:
+  - text: "标题"
+- raw: "标题标题"
+  splits:
+  - text: "标题标题"
+- raw: "格挡:"
+  splits:
+  - text: "格挡"
+  templates:
+  - template: "{0}:"
+- raw: "桃花坞"
+  splits:
+  - text: "桃花坞"
+- raw: "梯云纵"
+  splits:
+  - text: "梯云纵"
+- raw: "模式:"
+  splits:
+  - text: "模式"
+  templates:
+  - template: "{0}:"
+- raw: "模组 001 模组 001  "
+  splits:
+  - text: "模组"
+  - subIndex: 1
+    text: "模组"
+  templates:
+  - template: "{0} 001 {1} 001  "
+- raw: "模组 001 模组 001 模组 001"
+  splits:
+  - text: "模组"
+  - subIndex: 1
+    text: "模组"
+  - subIndex: 2
+    text: "模组"
+  templates:
+  - template: "{0} 001 {1} 001 {2} 001"
+- raw: "模组001 "
+  splits:
+  - text: "模组001"
+  templates:
+  - template: "{0} "
+- raw: "模组保存中……"
+  splits:
+  - text: "模组保存中……"
+- raw: "模组名字"
+  splits:
+  - text: "模组名字"
+- raw: "模组名的名称"
+  splits:
+  - text: "模组名的名称"
+- raw: "模组名称"
+  splits:
+  - text: "模组名称"
+- raw: "模组名称..."
+  splits:
+  - text: "模组名称..."
+- raw: "模组名称："
+  splits:
+  - text: "模组名称"
+  templates:
+  - template: "{0}："
+- raw: "模组开发交流群\\n1020826970"
+  splits:
+  - text: "模组开发交流群"
+  templates:
+  - template: "{0}\\n1020826970"
+- raw: "模组描述"
+  splits:
+  - text: "模组描述"
+- raw: "模组描述..."
+  splits:
+  - text: "模组描述..."
+- raw: "模组项目列表"
+  splits:
+  - text: "模组项目列表"
+- raw: "正在创建中……"
+  splits:
+  - text: "正在创建中……"
+- raw: "正在加载游戏数据，请稍等……"
+  splits:
+  - text: "正在加载游戏数据，请稍等……"
+- raw: "正在打包中……"
+  splits:
+  - text: "正在打包中……"
+- raw: "正在播放视频"
+  splits:
+  - text: "正在播放视频"
+- raw: "正在播放连招视频..."
+  splits:
+  - text: "正在播放连招视频..."
+- raw: "此处可得鱼获:"
+  splits:
+  - text: "此处可得鱼获"
+  templates:
+  - template: "{0}:"
+- raw: "此模组已禁用"
+  splits:
+  - text: "此模组已禁用"
+- raw: "此选项决定NPC和角色怀孕所需的游戏世界时间"
+  splits:
+  - text: "此选项决定"
+  - subIndex: 1
+    text: "和角色怀孕所需的游戏世界时间"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "此选项决定剧情NPC是否会因为年龄而自然死亡。若剧情NPC死亡会导致与其相关的任务无法完成，喜欢体验RPG剧情的玩家建议关闭，<color=#FF0000>请慎重选择。</color>"
+  splits:
+  - text: "此选项决定剧情"
+  - subIndex: 1
+    text: "是否会因为年龄而自然死亡。若剧情"
+  - subIndex: 2
+    text: "死亡会导致与其相关的任务无法完成，喜欢体验"
+  - subIndex: 3
+    text: "剧情的玩家建议关闭，"
+  - subIndex: 4
+    text: "请慎重选择。"
+  templates:
+  - template: "{0}NPC{1}NPC{2}RPG{3}<color=#FF0000>{4}</color>"
+- raw: "此选项决定随机NPC是否会因为年龄而自然死亡。但不影响游戏剧情的体验。"
+  splits:
+  - text: "此选项决定随机"
+  - subIndex: 1
+    text: "是否会因为年龄而自然死亡。但不影响游戏剧情的体验。"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "此选项决定随机NPC生成的数量，数量越多则数据运算量越大，对电脑性能要求越高。"
+  splits:
+  - text: "此选项决定随机"
+  - subIndex: 1
+    text: "生成的数量，数量越多则数据运算量越大，对电脑性能要求越高。"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "武"
+  splits:
+  - text: "武"
+- raw: "武  学"
+  splits:
+  - text: "武"
+  - subIndex: 1
+    text: "学"
+  templates:
+  - template: "{0}  {1}"
+- raw: "武力:99；筋骨:99；身法:99；内息:99；"
+  splits:
+  - text: "武力"
+  - subIndex: 1
+    text: "99；筋骨"
+  - subIndex: 2
+    text: "99；身法"
+  - subIndex: 3
+    text: "99；内息"
+  templates:
+  - template: "{0}:{1}:{2}:{3}:99；"
+- raw: "武力："
+  splits:
+  - text: "武力"
+  templates:
+  - template: "{0}："
+- raw: "武功"
+  splits:
+  - text: "武功"
+- raw: "武器"
+  splits:
+  - text: "武器"
+- raw: "武器-单手轻刃"
+  splits:
+  - text: "武器"
+  - subIndex: 1
+    text: "单手轻刃"
+  templates:
+  - template: "{0}-{1}"
+- raw: "武器类型"
+  splits:
+  - text: "武器类型"
+- raw: "武学学习和使用方法说明"
+  splits:
+  - text: "武学学习和使用方法说明"
+- raw: "武学研本"
+  splits:
+  - text: "武学研本"
+- raw: "武学研本是各类武器的高级技能以及内功轻功，需要消耗真气使用的技能，可以强制中断当前的普通攻击释放。当你切换武器类型的时候，需要手动切换武学研本的技能（点击当前武学的书本图标切换）。通过任务获取，或者从NPC身上获取。"
+  splits:
+  - text: "武学研本是各类武器的高级技能以及内功轻功，需要消耗真气使用的技能，可以强制中断当前的普通攻击释放。当你切换武器类型的时候，需要手动切换武学研本的技能（点击当前武学的书本图标切换）。通过任务获取，或者从"
+  - subIndex: 1
+    text: "身上获取。"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "武学背景"
+  splits:
+  - text: "武学背景"
+- raw: "武学造诣"
+  splits:
+  - text: "武学造诣"
+- raw: "武林众人常用的招式，"
+  splits:
+  - text: "武林众人常用的招式，"
+- raw: "武评"
+  splits:
+  - text: "武评"
+- raw: "死亡"
+  splits:
+  - text: "死亡"
+- raw: "每日俸禄总支出："
+  splits:
+  - text: "每日俸禄总支出"
+  templates:
+  - template: "{0}："
+- raw: "每日收支"
+  splits:
+  - text: "每日收支"
+- raw: "每日收支:"
+  splits:
+  - text: "每日收支"
+  templates:
+  - template: "{0}:"
+- raw: "每日收益"
+  splits:
+  - text: "每日收益"
+- raw: "每月天数"
+  splits:
+  - text: "每月天数"
+- raw: "每月的天数越少，游戏时间过越快，游戏中的NPC衰老速度也越快。"
+  splits:
+  - text: "每月的天数越少，游戏时间过越快，游戏中的"
+  - subIndex: 1
+    text: "衰老速度也越快。"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "气血:"
+  splits:
+  - text: "气血"
+  templates:
+  - template: "{0}:"
+- raw: "气血回复:"
+  splits:
+  - text: "气血回复"
+  templates:
+  - template: "{0}:"
+- raw: "气血："
+  splits:
+  - text: "气血"
+  templates:
+  - template: "{0}："
+- raw: "水稻"
+  splits:
+  - text: "水稻"
+- raw: "江湖信息江湖信息江湖信息江湖信息江湖信息\\n江湖信息江湖信息江湖信息江湖信息江湖信息\\n江湖信息江湖信息江湖信息江湖信息江湖信息\\n江湖信息江湖信息江湖信息江湖信息江湖信息"
+  splits:
+  - text: "江湖信息江湖信息江湖信息江湖信息江湖信息"
+  - subIndex: 1
+    text: "江湖信息江湖信息江湖信息江湖信息江湖信息"
+  - subIndex: 2
+    text: "江湖信息江湖信息江湖信息江湖信息江湖信息"
+  - subIndex: 3
+    text: "江湖信息江湖信息江湖信息江湖信息江湖信息"
+  templates:
+  - template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "江湖散学"
+  splits:
+  - text: "江湖散学"
+- raw: "江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。可以在各地武馆购买学习。"
+  splits:
+  - text: "江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。可以在各地武馆购买学习。"
+- raw: "江湖通式"
+  splits:
+  - text: "江湖通式"
+- raw: "江湖通式是各类武器的通用技能，不消耗真气而是消耗体力使用的技能，一般是浮空技或者位移技，可以强制中断当前的普通攻击释放。当你切换武器类型的时候，会自动切换到对应武器种类的江湖通式。可以在各地武馆购买学习。"
+  splits:
+  - text: "江湖通式是各类武器的通用技能，不消耗真气而是消耗体力使用的技能，一般是浮空技或者位移技，可以强制中断当前的普通攻击释放。当你切换武器类型的时候，会自动切换到对应武器种类的江湖通式。可以在各地武馆购买学习。"
+- raw: "沙盒模式初始选取"
+  splits:
+  - text: "沙盒模式初始选取"
+- raw: "没有可用交互对象"
+  splits:
+  - text: "没有可用交互对象"
+- raw: "没有可用的模组数据"
+  splits:
+  - text: "没有可用的模组数据"
+- raw: "河图"
+  splits:
+  - text: "河图"
+- raw: "河图洛书"
+  splits:
+  - text: "河图洛书"
+- raw: "河图负谱"
+  splits:
+  - text: "河图负谱"
+- raw: "注意注意注意注意注意注意"
+  splits:
+  - text: "注意注意注意注意注意注意"
+- raw: "洛书开卷"
+  splits:
+  - text: "洛书开卷"
+- raw: "洛阳"
+  splits:
+  - text: "洛阳"
+- raw: "派遣成员"
+  splits:
+  - text: "派遣成员"
+- raw: "派遣支援"
+  splits:
+  - text: "派遣支援"
+- raw: "测试"
+  splits:
+  - text: "测试"
+- raw: "测试下一场战斗"
+  splits:
+  - text: "测试下一场战斗"
+- raw: "测试用，高度向量:"
+  splits:
+  - text: "测试用，高度向量"
+  templates:
+  - template: "{0}:"
+- raw: "浙江温州最大皮革厂,江南皮革厂倒闭了，王八蛋黄鹤老板,吃喝嫖赌，欠下了欠下了3.5亿,带着他小姨子跑了，我们没有办法,拿着钱包抵工资黄鹤王八蛋你不是人 "
+  splits:
+  - text: "浙江温州最大皮革厂"
+  - subIndex: 1
+    text: "江南皮革厂倒闭了，王八蛋黄鹤老板"
+  - subIndex: 2
+    text: "吃喝嫖赌，欠下了欠下了3.5亿"
+  - subIndex: 3
+    text: "带着他小姨子跑了，我们没有办法"
+  - subIndex: 4
+    text: "拿着钱包抵工资黄鹤王八蛋你不是人"
+  templates:
+  - template: "{0},{1},{2},{3},{4} "
+- raw: "浙江温州最大皮革厂，江南皮革厂倒闭了!王八蛋黄鹤老板吃喝嫖赌吃欠下了3.5个亿，带着他的小姨子跑了……我们没有办法，拿着钱包抵工资，原价都是100多200多300多的钱包，统统20块！统统20块！"
+  splits:
+  - text: "浙江温州最大皮革厂，江南皮革厂倒闭了"
+  - subIndex: 1
+    text: "王八蛋黄鹤老板吃喝嫖赌吃欠下了3.5个亿，带着他的小姨子跑了……我们没有办法，拿着钱包抵工资，原价都是100多200多300多的钱包，统统20块！统统20块！"
+  templates:
+  - template: "{0}!{1}"
+- raw: "消耗"
+  splits:
+  - text: "消耗"
+- raw: "消耗体力："
+  splits:
+  - text: "消耗体力"
+  templates:
+  - template: "{0}："
+- raw: "消耗气血："
+  splits:
+  - text: "消耗气血"
+  templates:
+  - template: "{0}："
+- raw: "消耗真气："
+  splits:
+  - text: "消耗真气"
+  templates:
+  - template: "{0}："
+- raw: "深陷地牢中"
+  splits:
+  - text: "深陷地牢中"
+- raw: "添加buff"
+  splits:
+  - text: "添加"
+  templates:
+  - template: "{0}buff"
+- raw: "添加图片\\n"
+  splits:
+  - text: "添加图片"
+  templates:
+  - template: "{0}\\n"
+- raw: "添加子交互选项"
+  splits:
+  - text: "添加子交互选项"
+- raw: "添加物品"
+  splits:
+  - text: "添加物品"
+- raw: "清坪村"
+  splits:
+  - text: "清坪村"
+- raw: "清平村清平村"
+  splits:
+  - text: "清平村清平村"
+- raw: "清空"
+  splits:
+  - text: "清空"
+- raw: "清空交互选项"
+  splits:
+  - text: "清空交互选项"
+- raw: "清除"
+  splits:
+  - text: "清除"
+- raw: "游戏模式"
+  splits:
+  - text: "游戏模式"
+- raw: "游戏环境设置"
+  splits:
+  - text: "游戏环境设置"
+- raw: "激活心决"
+  splits:
+  - text: "激活心决"
+- raw: "火"
+  splits:
+  - text: "火"
+- raw: "点击v折叠可拖拽调整顺序"
+  splits:
+  - text: "点击"
+  - subIndex: 1
+    text: "折叠可拖拽调整顺序"
+  templates:
+  - template: "{0}v{1}"
+- raw: "点击下方空白区域退出"
+  splits:
+  - text: "点击下方空白区域退出"
+- raw: "点击任意处关闭"
+  splits:
+  - text: "点击任意处关闭"
+- raw: "点击城镇图标可以快速移动"
+  splits:
+  - text: "点击城镇图标可以快速移动"
+- raw: "点击挑选初始武器"
+  splits:
+  - text: "点击挑选初始武器"
+- raw: "点击模组可进行编辑"
+  splits:
+  - text: "点击模组可进行编辑"
+- raw: "点击空白处关闭"
+  splits:
+  - text: "点击空白处关闭"
+- raw: "点击装备"
+  splits:
+  - text: "点击装备"
+- raw: "点击资质文字可锁定该项资质，至多可同时锁定两项资质。"
+  splits:
+  - text: "点击资质文字可锁定该项资质，至多可同时锁定两项资质。"
+- raw: "点击选择buff"
+  splits:
+  - text: "点击选择"
+  templates:
+  - template: "{0}buff"
+- raw: "爆气"
+  splits:
+  - text: "爆气"
+- raw: "父母"
+  splits:
+  - text: "父母"
+- raw: "片刻之后"
+  splits:
+  - text: "片刻之后"
+- raw: "片刻之后片刻之后片# "
+  splits:
+  - text: "片刻之后片刻之后片"
+  templates:
+  - template: "{0}# "
+- raw: "版本号..."
+  splits:
+  - text: "版本号..."
+- raw: "版本更新"
+  splits:
+  - text: "版本更新"
+- raw: "版本："
+  splits:
+  - text: "版本"
+  templates:
+  - template: "{0}："
+- raw: "物品描述:"
+  splits:
+  - text: "物品描述"
+  templates:
+  - template: "{0}:"
+- raw: "物品描述物品描述物品描述物品描述"
+  splits:
+  - text: "物品描述物品描述物品描述物品描述"
+- raw: "物品描述："
+  splits:
+  - text: "物品描述"
+  templates:
+  - template: "{0}："
+- raw: "物品详情"
+  splits:
+  - text: "物品详情"
+- raw: "特价特价特"
+  splits:
+  - text: "特价特价特"
+- raw: "特别文字"
+  splits:
+  - text: "特别文字"
+- raw: "状态"
+  splits:
+  - text: "状态"
+- raw: "玩家"
+  splits:
+  - text: "玩家"
+- raw: "玩家失败"
+  splits:
+  - text: "玩家失败"
+- raw: "玩家最多同时上阵的同伴数量，推荐选择2位以获得最佳战斗体验，4位上阵同伴可能会导致战斗难度较易"
+  splits:
+  - text: "玩家最多同时上阵的同伴数量，推荐选择2位以获得最佳战斗体验，4位上阵同伴可能会导致战斗难度较易"
+- raw: "生成外部模组"
+  splits:
+  - text: "生成外部模组"
+- raw: "生效"
+  splits:
+  - text: "生效"
+- raw: "甩竿"
+  splits:
+  - text: "甩竿"
+- raw: "甩竿（所需精力不足）"
+  splits:
+  - text: "甩竿（所需精力不足）"
+- raw: "男"
+  splits:
+  - text: "男"
+- raw: "略同皮毛"
+  splits:
+  - text: "略同皮毛"
+- raw: "的"
+  splits:
+  - text: "的"
+- raw: "皇宫"
+  splits:
+  - text: "皇宫"
+- raw: "皇帝阿斯顿那是里面是大家按时电脑"
+  splits:
+  - text: "皇帝阿斯顿那是里面是大家按时电脑"
+- raw: "盐盐盐盐"
+  splits:
+  - text: "盐盐盐盐"
+- raw: "目录"
+  splits:
+  - text: "目录"
+- raw: "目的地"
+  splits:
+  - text: "目的地"
+- raw: "眉毛"
+  splits:
+  - text: "眉毛"
+- raw: "眷侣"
+  splits:
+  - text: "眷侣"
+- raw: "眼睛"
+  splits:
+  - text: "眼睛"
+- raw: "瞬移"
+  splits:
+  - text: "瞬移"
+- raw: "知交"
+  splits:
+  - text: "知交"
+- raw: "矿产收益："
+  splits:
+  - text: "矿产收益"
+  templates:
+  - template: "{0}："
+- raw: "破境可提升"
+  splits:
+  - text: "破境可提升"
+- raw: "破境提升"
+  splits:
+  - text: "破境提升"
+- raw: "破境需满足"
+  splits:
+  - text: "破境需满足"
+- raw: "破防："
+  splits:
+  - text: "破防"
+  templates:
+  - template: "{0}："
+- raw: "硬木剑\\n[单手轻刃]"
+  splits:
+  - text: "硬木剑"
+  - subIndex: 1
+    text: "单手轻刃"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "确定分配"
+  splits:
+  - text: "确定分配"
+- raw: "确认/索要银两"
+  splits:
+  - text: "确认"
+  - subIndex: 1
+    text: "索要银两"
+  templates:
+  - template: "{0}/{1}"
+- raw: "确认分配"
+  splits:
+  - text: "确认分配"
+- raw: "确认删除"
+  splits:
+  - text: "确认删除"
+- raw: "确认查询(消耗2000银两)"
+  splits:
+  - text: "确认查询"
+  - subIndex: 1
+    text: "消耗2000银两"
+  templates:
+  - template: "{0}({1})"
+- raw: "确认金额"
+  splits:
+  - text: "确认金额"
+- raw: "禁用"
+  splits:
+  - text: "禁用"
+- raw: "禅让"
+  splits:
+  - text: "禅让"
+- raw: "离开战斗"
+  splits:
+  - text: "离开战斗"
+- raw: "离开队伍"
+  splits:
+  - text: "离开队伍"
+- raw: "离阵"
+  splits:
+  - text: "离阵"
+- raw: "秘  术"
+  splits:
+  - text: "秘"
+  - subIndex: 1
+    text: "术"
+  templates:
+  - template: "{0}  {1}"
+- raw: "秘术"
+  splits:
+  - text: "秘术"
+- raw: "移动到此处"
+  splits:
+  - text: "移动到此处"
+- raw: "穴道属性"
+  splits:
+  - text: "穴道属性"
+- raw: "窗口"
+  splits:
+  - text: "窗口"
+- raw: "立即执行"
+  splits:
+  - text: "立即执行"
+- raw: "立场"
+  splits:
+  - text: "立场"
+- raw: "立场选择"
+  splits:
+  - text: "立场选择"
+- raw: "立场选择：决定你的善恶观，与处事立场相近的人更易结交，反之则言不投机，甚至可能反目成仇。"
+  splits:
+  - text: "立场选择"
+  - subIndex: 1
+    text: "决定你的善恶观，与处事立场相近的人更易结交，反之则言不投机，甚至可能反目成仇。"
+  templates:
+  - template: "{0}：{1}"
+- raw: "立场选择：决定你的善恶观，如果处事立场偏向正义会受到名门正派的支持，处事立场邪恶便会被旁门左道所照顾"
+  splits:
+  - text: "立场选择"
+  - subIndex: 1
+    text: "决定你的善恶观，如果处事立场偏向正义会受到名门正派的支持，处事立场邪恶便会被旁门左道所照顾"
+  templates:
+  - template: "{0}：{1}"
+- raw: "立场：  		一孤侠道"
+  splits:
+  - text: "立场"
+  - subIndex: 1
+    text: "一孤侠道"
+  templates:
+  - template: "{0}：  		{1}"
+- raw: "立绘"
+  splits:
+  - text: "立绘"
+- raw: "竹木切\\n[双手轻刃]"
+  splits:
+  - text: "竹木切"
+  - subIndex: 1
+    text: "双手轻刃"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "第一年二月三号"
+  splits:
+  - text: "第一年二月三号"
+- raw: "第一年正月 初一（晴天）"
+  splits:
+  - text: "第一年正月"
+  - subIndex: 1
+    text: "初一（晴天）"
+  templates:
+  - template: "{0} {1}"
+- raw: "等级"
+  splits:
+  - text: "等级"
+- raw: "等级:"
+  splits:
+  - text: "等级"
+  templates:
+  - template: "{0}:"
+- raw: "等级上限:"
+  splits:
+  - text: "等级上限"
+  templates:
+  - template: "{0}:"
+- raw: "筋骨："
+  splits:
+  - text: "筋骨"
+  templates:
+  - template: "{0}："
+- raw: "筛选"
+  splits:
+  - text: "筛选"
+- raw: "管理游戏中的立绘资源，导入资源格式为png图片，注意使用规范尺寸。"
+  splits:
+  - text: "管理游戏中的立绘资源，导入资源格式为"
+  - subIndex: 1
+    text: "图片，注意使用规范尺寸。"
+  templates:
+  - template: "{0}png{1}"
+- raw: "篇名·卷名称"
+  splits:
+  - text: "篇名"
+  - subIndex: 1
+    text: "卷名称"
+  templates:
+  - template: "{0}·{1}"
+- raw: "类       型:"
+  splits:
+  - text: "类"
+  - subIndex: 1
+    text: "型"
+  templates:
+  - template: "{0}       {1}:"
+- raw: "粗布缠手\\n[拳掌]"
+  splits:
+  - text: "粗布缠手"
+  - subIndex: 1
+    text: "拳掌"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "精力充沛"
+  splits:
+  - text: "精力充沛"
+- raw: "精力："
+  splits:
+  - text: "精力"
+  templates:
+  - template: "{0}："
+- raw: "糙牙锤\\n[绳镖]"
+  splits:
+  - text: "糙牙锤"
+  - subIndex: 1
+    text: "绳镖"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "索要物品"
+  splits:
+  - text: "索要物品"
+- raw: "索要银两"
+  splits:
+  - text: "索要银两"
+- raw: "紫霞秘籍"
+  splits:
+  - text: "紫霞秘籍"
+- raw: "累计帮派功勋:"
+  splits:
+  - text: "累计帮派功勋"
+  templates:
+  - template: "{0}:"
+- raw: "终止节点"
+  splits:
+  - text: "终止节点"
+- raw: "经络"
+  splits:
+  - text: "经络"
+- raw: "经验:"
+  splits:
+  - text: "经验"
+  templates:
+  - template: "{0}:"
+- raw: "结束描述"
+  splits:
+  - text: "结束描述"
+- raw: "绝顶高手"
+  splits:
+  - text: "绝顶高手"
+- raw: "编辑模块功能"
+  splits:
+  - text: "编辑模块功能"
+- raw: "翻找"
+  splits:
+  - text: "翻找"
+- raw: "胜利"
+  splits:
+  - text: "胜利"
+- raw: "胡子"
+  splits:
+  - text: "胡子"
+- raw: "脱胎换骨"
+  splits:
+  - text: "脱胎换骨"
+- raw: "脸型"
+  splits:
+  - text: "脸型"
+- raw: "脸饰"
+  splits:
+  - text: "脸饰"
+- raw: "自动存档时间："
+  splits:
+  - text: "自动存档时间"
+  templates:
+  - template: "{0}："
+- raw: "自定义buff"
+  splits:
+  - text: "自定义"
+  templates:
+  - template: "{0}buff"
+- raw: "自定义模组"
+  splits:
+  - text: "自定义模组"
+- raw: "自定义设置"
+  splits:
+  - text: "自定义设置"
+- raw: "若红色进度条满，则会被对方察觉"
+  splits:
+  - text: "若红色进度条满，则会被对方察觉"
+- raw: "草地"
+  splits:
+  - text: "草地"
+- raw: "获取修为"
+  splits:
+  - text: "获取修为"
+- raw: "获取声望"
+  splits:
+  - text: "获取声望"
+- raw: "获取模组"
+  splits:
+  - text: "获取模组"
+- raw: "获取消耗"
+  splits:
+  - text: "获取消耗"
+- raw: "获取精力"
+  splits:
+  - text: "获取精力"
+- raw: "获取薪俸"
+  splits:
+  - text: "获取薪俸"
+- raw: "获取银两"
+  splits:
+  - text: "获取银两"
+- raw: "获得:"
+  splits:
+  - text: "获得"
+  templates:
+  - template: "{0}:"
+- raw: "萧十一郎"
+  splits:
+  - text: "萧十一郎"
+- raw: "蓄力消耗体力："
+  splits:
+  - text: "蓄力消耗体力"
+  templates:
+  - template: "{0}："
+- raw: "蛇"
+  splits:
+  - text: "蛇"
+- raw: "血腥开关:"
+  splits:
+  - text: "血腥开关"
+  templates:
+  - template: "{0}:"
+- raw: "行  囊"
+  splits:
+  - text: "行"
+  - subIndex: 1
+    text: "囊"
+  templates:
+  - template: "{0}  {1}"
+- raw: "行囊银两:"
+  splits:
+  - text: "行囊银两"
+  templates:
+  - template: "{0}:"
+- raw: "补货"
+  splits:
+  - text: "补货"
+- raw: "装备属性：\\n攻击：999\\n格挡：999"
+  splits:
+  - text: "装备属性"
+  - subIndex: 1
+    text: "攻击"
+  - subIndex: 2
+    text: "格挡"
+  templates:
+  - template: "{0}：\\n{1}：999\\n{2}：999"
+- raw: "装备类型"
+  splits:
+  - text: "装备类型"
+- raw: "装有王靖雄的麻袋"
+  splits:
+  - text: "装有王靖雄的麻袋"
+- raw: "装载残篇"
+  splits:
+  - text: "装载残篇"
+- raw: "襄阳城"
+  splits:
+  - text: "襄阳城"
+- raw: "角  色"
+  splits:
+  - text: "角"
+  - subIndex: 1
+    text: "色"
+  templates:
+  - template: "{0}  {1}"
+- raw: "角色信息"
+  splits:
+  - text: "角色信息"
+- raw: "角色姓名"
+  splits:
+  - text: "角色姓名"
+- raw: "角色数量"
+  splits:
+  - text: "角色数量"
+- raw: "角色立绘"
+  splits:
+  - text: "角色立绘"
+- raw: "解锁\\n·\\n秘卷\\n·\\n癸酉章"
+  splits:
+  - text: "解锁"
+  - subIndex: 1
+    text: "秘卷"
+  - subIndex: 2
+    text: "癸酉章"
+  templates:
+  - template: "{0}\\n·\\n{1}\\n·\\n{2}"
+- raw: "解锁所有心决"
+  splits:
+  - text: "解锁所有心决"
+- raw: "解锁所有招式"
+  splits:
+  - text: "解锁所有招式"
+- raw: "解锁所有被动"
+  splits:
+  - text: "解锁所有被动"
+- raw: "触发器1"
+  splits:
+  - text: "触发器1"
+- raw: "触发器2"
+  splits:
+  - text: "触发器2"
+- raw: "触发方式"
+  splits:
+  - text: "触发方式"
+- raw: "触发节点"
+  splits:
+  - text: "触发节点"
+- raw: "计时结束，赌斗开拾"
+  splits:
+  - text: "计时结束，赌斗开拾"
+- raw: "该存档用到的模组："
+  splits:
+  - text: "该存档用到的模组"
+  templates:
+  - template: "{0}："
+- raw: "详情"
+  splits:
+  - text: "详情"
+- raw: "说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字"
+  splits:
+  - text: "说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字说明不能超过六十个字"
+- raw: "请为子女起名"
+  splits:
+  - text: "请为子女起名"
+- raw: "请输入NPC名称"
+  splits:
+  - text: "请输入"
+  - subIndex: 1
+    text: "名称"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "请输入要保存的模组名称"
+  splits:
+  - text: "请输入要保存的模组名称"
+- raw: "请输入要开启的任务ID"
+  splits:
+  - text: "请输入要开启的任务"
+  templates:
+  - template: "{0}ID"
+- raw: "请输入道具名称或者道具ID"
+  splits:
+  - text: "请输入道具名称或者道具"
+  templates:
+  - template: "{0}ID"
+- raw: "请输入银两数量"
+  splits:
+  - text: "请输入银两数量"
+- raw: "请选择使用角色"
+  splits:
+  - text: "请选择使用角色"
+- raw: "请选择对应武学"
+  splits:
+  - text: "请选择对应武学"
+- raw: "请选择道具"
+  splits:
+  - text: "请选择道具"
+- raw: "读取"
+  splits:
+  - text: "读取"
+- raw: "读取存档"
+  splits:
+  - text: "读取存档"
+- raw: "读取档案"
+  splits:
+  - text: "读取档案"
+- raw: "读取模组"
+  splits:
+  - text: "读取模组"
+- raw: "调息时间："
+  splits:
+  - text: "调息时间"
+  templates:
+  - template: "{0}："
+- raw: "谷雨"
+  splits:
+  - text: "谷雨"
+- raw: "贡献+999"
+  splits:
+  - text: "贡献"
+  templates:
+  - template: "{0}+999"
+- raw: "货品数量："
+  splits:
+  - text: "货品数量"
+  templates:
+  - template: "{0}："
+- raw: "购买"
+  splits:
+  - text: "购买"
+- raw: "贯通"
+  splits:
+  - text: "贯通"
+- raw: "资质决定了角色获取该项造诣的上限值，后续使用该项武器或武学时将获得造诣，造诣越高，对应获取的攻击，防御等加成就越高。"
+  splits:
+  - text: "资质决定了角色获取该项造诣的上限值，后续使用该项武器或武学时将获得造诣，造诣越高，对应获取的攻击，防御等加成就越高。"
+- raw: "资质重置"
+  splits:
+  - text: "资质重置"
+- raw: "赌斗金额"
+  splits:
+  - text: "赌斗金额"
+- raw: "赎回"
+  splits:
+  - text: "赎回"
+- raw: "赠送"
+  splits:
+  - text: "赠送"
+- raw: "赠送1093元宝\\n\\n\\n"
+  splits:
+  - text: "赠送1093元宝"
+  templates:
+  - template: "{0}\\n\\n\\n"
+- raw: "赠送196元宝\\n\\n\\n"
+  splits:
+  - text: "赠送196元宝"
+  templates:
+  - template: "{0}\\n\\n\\n"
+- raw: "赠送300元宝\\n\\n\\n"
+  splits:
+  - text: "赠送300元宝"
+  templates:
+  - template: "{0}\\n\\n\\n"
+- raw: "赠送3240元宝\\n\\n\\n"
+  splits:
+  - text: "赠送3240元宝"
+  templates:
+  - template: "{0}\\n\\n\\n"
+- raw: "赠送495元宝\\n\\n\\n"
+  splits:
+  - text: "赠送495元宝"
+  templates:
+  - template: "{0}\\n\\n\\n"
+- raw: "赠送50元宝\\n\\n\\n"
+  splits:
+  - text: "赠送50元宝"
+  templates:
+  - template: "{0}\\n\\n\\n"
+- raw: "走"
+  splits:
+  - text: "走"
+- raw: "赵德柱"
+  splits:
+  - text: "赵德柱"
+- raw: "起始选项名..."
+  splits:
+  - text: "起始选项名..."
+- raw: "起始选项后续对话内容..."
+  splits:
+  - text: "起始选项后续对话内容..."
+- raw: "跑"
+  splits:
+  - text: "跑"
+- raw: "距离下一次补货："
+  splits:
+  - text: "距离下一次补货"
+  templates:
+  - template: "{0}："
+- raw: "距离到期还有:111111"
+  splits:
+  - text: "距离到期还有"
+  templates:
+  - template: "{0}:111111"
+- raw: "距离刷新还有:"
+  splits:
+  - text: "距离刷新还有"
+  templates:
+  - template: "{0}:"
+- raw: "距离刷新还有:111111"
+  splits:
+  - text: "距离刷新还有"
+  templates:
+  - template: "{0}:111111"
+- raw: "路上莫"
+  splits:
+  - text: "路上莫"
+- raw: "跳跃"
+  splits:
+  - text: "跳跃"
+- raw: "跳转经脉"
+  splits:
+  - text: "跳转经脉"
+- raw: "跳过引导"
+  splits:
+  - text: "跳过引导"
+- raw: "身法："
+  splits:
+  - text: "身法"
+  templates:
+  - template: "{0}："
+- raw: "轻"
+  splits:
+  - text: "轻"
+- raw: "辅助战斗组"
+  splits:
+  - text: "辅助战斗组"
+- raw: "辅助战斗组:"
+  splits:
+  - text: "辅助战斗组"
+  templates:
+  - template: "{0}:"
+- raw: "输入名字关键字,回车进行搜索"
+  splits:
+  - text: "输入名字关键字"
+  - subIndex: 1
+    text: "回车进行搜索"
+  templates:
+  - template: "{0},{1}"
+- raw: "输入名字查询..."
+  splits:
+  - text: "输入名字查询..."
+- raw: "输入名称.."
+  splits:
+  - text: "输入名称.."
+- raw: "输入数额..."
+  splits:
+  - text: "输入数额..."
+- raw: "输入模组名称..."
+  splits:
+  - text: "输入模组名称..."
+- raw: "迁总舵"
+  splits:
+  - text: "迁总舵"
+- raw: "运"
+  splits:
+  - text: "运"
+- raw: "运用"
+  splits:
+  - text: "运用"
+- raw: "返回标题"
+  splits:
+  - text: "返回标题"
+- raw: "返回游戏"
+  splits:
+  - text: "返回游戏"
+- raw: "这是模组的描述描述，这是模组的描述描述"
+  splits:
+  - text: "这是模组的描述描述，这是模组的描述描述"
+- raw: "进入世界"
+  splits:
+  - text: "进入世界"
+- raw: "进入副本"
+  splits:
+  - text: "进入副本"
+- raw: "进入引导"
+  splits:
+  - text: "进入引导"
+- raw: "进贡宗主："
+  splits:
+  - text: "进贡宗主"
+  templates:
+  - template: "{0}："
+- raw: "连环寨"
+  splits:
+  - text: "连环寨"
+- raw: "追杀"
+  splits:
+  - text: "追杀"
+- raw: "退   出"
+  splits:
+  - text: "退"
+  - subIndex: 1
+    text: "出"
+  templates:
+  - template: "{0}   {1}"
+- raw: "退出"
+  splits:
+  - text: "退出"
+- raw: "退出游戏"
+  splits:
+  - text: "退出游戏"
+- raw: "退订"
+  splits:
+  - text: "退订"
+- raw: "适合期望正常战斗的玩家"
+  splits:
+  - text: "适合期望正常战斗的玩家"
+- raw: "适合深度了解横版动作游戏，渴望挑战的玩家！"
+  splits:
+  - text: "适合深度了解横版动作游戏，渴望挑战的玩家！"
+- raw: "适合熟悉横版动作游戏，期待挑战的玩家"
+  splits:
+  - text: "适合熟悉横版动作游戏，期待挑战的玩家"
+- raw: "适合轻松战斗，体验剧情的玩家"
+  splits:
+  - text: "适合轻松战斗，体验剧情的玩家"
+- raw: "适用于"
+  splits:
+  - text: "适用于"
+- raw: "选择丢入井底"
+  splits:
+  - text: "选择丢入井底"
+- raw: "选择货品寄售"
+  splits:
+  - text: "选择货品寄售"
+- raw: "选择难度"
+  splits:
+  - text: "选择难度"
+- raw: "选项名"
+  splits:
+  - text: "选项名"
+- raw: "选项名..."
+  splits:
+  - text: "选项名..."
+- raw: "通式"
+  splits:
+  - text: "通式"
+- raw: "造诣"
+  splits:
+  - text: "造诣"
+- raw: "道具"
+  splits:
+  - text: "道具"
+- raw: "道具名"
+  splits:
+  - text: "道具名"
+- raw: "道具名字六字"
+  splits:
+  - text: "道具名字六字"
+- raw: "道具类型"
+  splits:
+  - text: "道具类型"
+- raw: "邀请入队"
+  splits:
+  - text: "邀请入队"
+- raw: "郁"
+  splits:
+  - text: "郁"
+- raw: "配偶"
+  splits:
+  - text: "配偶"
+- raw: "配文..."
+  splits:
+  - text: "配文..."
+- raw: "释放"
+  splits:
+  - text: "释放"
+- raw: "重击/装弹"
+  splits:
+  - text: "重击"
+  - subIndex: 1
+    text: "装弹"
+  templates:
+  - template: "{0}/{1}"
+- raw: "重击众人常用的招式，"
+  splits:
+  - text: "重击众人常用的招式，"
+- raw: "重置所有投注"
+  splits:
+  - text: "重置所有投注"
+- raw: "金兰"
+  splits:
+  - text: "金兰"
+- raw: "金剑世家"
+  splits:
+  - text: "金剑世家"
+- raw: "金鲤商会"
+  splits:
+  - text: "金鲤商会"
+- raw: "金鲤商会友情提示：私自回档导致道具消失不会给与返还，请酌情理性消费。"
+  splits:
+  - text: "金鲤商会友情提示"
+  - subIndex: 1
+    text: "私自回档导致道具消失不会给与返还，请酌情理性消费。"
+  templates:
+  - template: "{0}：{1}"
+- raw: "金鲤月卡"
+  splits:
+  - text: "金鲤月卡"
+- raw: "银两"
+  splits:
+  - text: "银两"
+- raw: "铸铁铳\\n[火器]"
+  splits:
+  - text: "铸铁铳"
+  - subIndex: 1
+    text: "火器"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "锈铁剪\\n[短兵]"
+  splits:
+  - text: "锈铁剪"
+  - subIndex: 1
+    text: "短兵"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "锻造锻造"
+  splits:
+  - text: "锻造锻造"
+- raw: "长安城"
+  splits:
+  - text: "长安城"
+- raw: "长风归时"
+  splits:
+  - text: "长风归时"
+- raw: "长风归时长风归时"
+  splits:
+  - text: "长风归时长风归时"
+- raw: "门派"
+  splits:
+  - text: "门派"
+- raw: "门派：  		无"
+  splits:
+  - text: "门派"
+  - subIndex: 1
+    text: "无"
+  templates:
+  - template: "{0}：  		{1}"
+- raw: "闪避："
+  splits:
+  - text: "闪避"
+  templates:
+  - template: "{0}："
+- raw: "问题反馈"
+  splits:
+  - text: "问题反馈"
+- raw: "防御:"
+  splits:
+  - text: "防御"
+  templates:
+  - template: "{0}:"
+- raw: "防御："
+  splits:
+  - text: "防御"
+  templates:
+  - template: "{0}："
+- raw: "阵"
+  splits:
+  - text: "阵"
+- raw: "阵 法"
+  splits:
+  - text: "阵"
+  - subIndex: 1
+    text: "法"
+  templates:
+  - template: "{0} {1}"
+- raw: "阵法"
+  splits:
+  - text: "阵法"
+- raw: "附加值"
+  splits:
+  - text: "附加值"
+- raw: "附加属性：气血上限+30000"
+  splits:
+  - text: "附加属性"
+  - subIndex: 1
+    text: "气血上限"
+  templates:
+  - template: "{0}：{1}+30000"
+- raw: "附加造诣：单手轻刃+100"
+  splits:
+  - text: "附加造诣"
+  - subIndex: 1
+    text: "单手轻刃"
+  templates:
+  - template: "{0}：{1}+100"
+- raw: "附属数量:"
+  splits:
+  - text: "附属数量"
+  templates:
+  - template: "{0}:"
+- raw: "附属纳贡："
+  splits:
+  - text: "附属纳贡"
+  templates:
+  - template: "{0}："
+- raw: "限购"
+  splits:
+  - text: "限购"
+- raw: "隋东关"
+  splits:
+  - text: "隋东关"
+- raw: "随机"
+  splits:
+  - text: "随机"
+- raw: "随机NPC自然死亡"
+  splits:
+  - text: "随机"
+  - subIndex: 1
+    text: "自然死亡"
+  templates:
+  - template: "{0}NPC{1}"
+- raw: "随机Npc"
+  splits:
+  - text: "随机"
+  templates:
+  - template: "{0}Npc"
+- raw: "随机重选"
+  splits:
+  - text: "随机重选"
+- raw: "难度"
+  splits:
+  - text: "难度"
+- raw: "难度简介难度简介难度简介难度简介难度简介"
+  splits:
+  - text: "难度简介难度简介难度简介难度简介难度简介"
+- raw: "难度详细信息难度详细信息\\n难度详细信息难度详细信息难度详细信息\\n难度详细信息\\n难度详细信息\\n难度详细信息\\n难度详细信息"
+  splits:
+  - text: "难度详细信息难度详细信息"
+  - subIndex: 1
+    text: "难度详细信息难度详细信息难度详细信息"
+  - subIndex: 2
+    text: "难度详细信息"
+  - subIndex: 3
+    text: "难度详细信息"
+  - subIndex: 4
+    text: "难度详细信息"
+  - subIndex: 5
+    text: "难度详细信息"
+  templates:
+  - template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "霸体:"
+  splits:
+  - text: "霸体"
+  templates:
+  - template: "{0}:"
+- raw: "霸道孤侠"
+  splits:
+  - text: "霸道孤侠"
+- raw: "霸道诸事"
+  splits:
+  - text: "霸道诸事"
+- raw: "青萍村"
+  splits:
+  - text: "青萍村"
+- raw: "青萍风波啊:"
+  splits:
+  - text: "青萍风波啊"
+  templates:
+  - template: "{0}:"
+- raw: "青萍风波青萍风波"
+  splits:
+  - text: "青萍风波青萍风波"
+- raw: "青龙帮"
+  splits:
+  - text: "青龙帮"
+- raw: "青龙帮进攻我方杭州矿区"
+  splits:
+  - text: "青龙帮进攻我方杭州矿区"
+- raw: "面具"
+  splits:
+  - text: "面具"
+- raw: "靴头"
+  splits:
+  - text: "靴头"
+- raw: "鞭子\\n[软鞭]"
+  splits:
+  - text: "鞭子"
+  - subIndex: 1
+    text: "软鞭"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "音乐:"
+  splits:
+  - text: "音乐"
+  templates:
+  - template: "{0}:"
+- raw: "音效:"
+  splits:
+  - text: "音效"
+  templates:
+  - template: "{0}:"
+- raw: "项链"
+  splits:
+  - text: "项链"
+- raw: "预览图导入：放置与模组路径根目录下，命名为preview，支持png/jpg/git文件类型，xxx*xxxx,不大于1M。"
+  splits:
+  - text: "预览图导入"
+  - subIndex: 1
+    text: "放置与模组路径根目录下，命名为"
+  - subIndex: 2
+    text: "，支持"
+  - subIndex: 3
+    text: "文件类型，"
+  - subIndex: 4
+    text: "不大于1"
+  templates:
+  - template: "{0}：{1}preview{2}png/jpg/git{3}xxx*xxxx,{4}M。"
+- raw: "预计{0}天后被攻陷，务必尽快派遣成员御敌或亲自前去应战"
+  splits:
+  - text: "预计"
+  - subIndex: 1
+    text: "天后被攻陷，务必尽快派遣成员御敌或亲自前去应战"
+  templates:
+  - template: "{0}⟦0⟧{1}"
+- raw: "预计好感度提升：0"
+  splits:
+  - text: "预计好感度提升"
+  templates:
+  - template: "{0}：0"
+- raw: "飞蝗石\\n[暗器]"
+  splits:
+  - text: "飞蝗石"
+  - subIndex: 1
+    text: "暗器"
+  templates:
+  - template: "{0}\\n[{1}]"
+- raw: "饱食度："
+  splits:
+  - text: "饱食度"
+  templates:
+  - template: "{0}："
+- raw: "骆正初"
+  splits:
+  - text: "骆正初"
+- raw: "高度"
+  splits:
+  - text: "高度"
+- raw: "高度:"
+  splits:
+  - text: "高度"
+  templates:
+  - template: "{0}:"
+- raw: "默认操作配置（手柄）"
+  splits:
+  - text: "默认操作配置（手柄）"
+- raw: "默认操作配置（键盘）"
+  splits:
+  - text: "默认操作配置（键盘）"
+- raw: "默认操作配置（键鼠）"
+  splits:
+  - text: "默认操作配置（键鼠）"
+- raw: "鼠标右键"
+  splits:
+  - text: "鼠标右键"
+- raw: "鼻子"
+  splits:
+  - text: "鼻子"
+- raw: "龙天路于第一年正月初二,将甄惜筠掳掠至此"
+  splits:
+  - text: "龙天路于第一年正月初二"
+  - subIndex: 1
+    text: "将甄惜筠掳掠至此"
+  templates:
+  - template: "{0},{1}"
+- raw: "龙纹剑"
+  splits:
+  - text: "龙纹剑"
+- raw: "龙门石窟"
+  splits:
+  - text: "龙门石窟"
+- raw: "龙门荒漠"
+  splits:
+  - text: "龙门荒漠"
+- raw: "（需要先去过此城镇）"
+  splits:
+  - text: "（需要先去过此城镇）"

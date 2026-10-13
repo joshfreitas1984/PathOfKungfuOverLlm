@@ -33,6 +33,13 @@
     <Compile Include="..\PathOfKungfuPlugin\EnglishTokenBranch.cs" Link="Plugin\EnglishTokenBranch.cs" />
   </ItemGroup>
 
+  <!-- Describes Unity's built-in types for AssetsTools.NET (AssetDumperTests). From https://github.com/nesrak1/AssetsTools.NET/releases. -->
+  <ItemGroup>
+    <Content Include="classdata.tpk" Condition="Exists('classdata.tpk')">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
   <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>

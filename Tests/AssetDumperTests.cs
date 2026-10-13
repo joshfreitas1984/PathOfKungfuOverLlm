@@ -11,8 +11,8 @@ namespace Tests;
 /// (levelN, sharedassetsN, resources.assets, bundles) directly, so every prefab and scene text is found without opening any screen.
 /// The Mono assemblies in Managed describe the MonoBehaviour layouts (UnityEngine.UI.Text's m_Text).
 ///
-/// Writes Files/Raw/Dumped/PrefabText/dumpedPrefabText.txt (one distinct string per line, in the same format as the runtime dump) and
-/// dumpedOtherText.txt (every string with its field and path). It never touches prefabText.txt; compare the two before using it.
+/// Merges the strings it finds into Files/Raw/Dumped/PrefabText/prefabText.txt (existing lines kept, new ones appended) and writes
+/// dumpedOtherText.txt (every string with its field and path, for reference).
 /// </summary>
 public class AssetDumperTests
 {
@@ -25,6 +25,9 @@ public class AssetDumperTests
     {
         var dataFolder = Directory.GetDirectories(GameFileHandling.GameFolder, "*_Data").Single();
         var manager = new AssetsManager { MonoTempGenerator = new MonoCecilTempGenerator(Path.Combine(dataFolder, "Managed")) };
+
+        if (File.Exists("classdata.tpk"))
+            manager.LoadClassPackage("classdata.tpk");
 
         var found = new Dictionary<string, (string Field, string Path)>();
         var errors = new Dictionary<string, int>();
@@ -56,8 +59,16 @@ public class AssetDumperTests
         var outputDirectory = $"{GameFileHandling.WorkingDirectory}/Raw/Dumped/PrefabText";
         Directory.CreateDirectory(outputDirectory);
 
-        var primary = found.Where(kv => kv.Value.Field is "m_Text" or "m_text").Select(kv => kv.Key).Order().ToList();
-        File.WriteAllLines($"{outputDirectory}/dumpedPrefabText.txt", primary);
+        var primary = found.Where(kv => kv.Value.Field is "m_Text" or "m_text").Select(kv => kv.Key).Order(StringComparer.Ordinal).ToList();
+
+        // Merge into prefabText.txt, the one translation input: every line already there is kept (the runtime dump has strings the game builds itself,
+        // and keeping them keeps their translations), and the asset strings it lacks are appended. Re-run after copying in a fresh runtime dump.
+        var dumpPath = $"{outputDirectory}/prefabText.txt";
+        var existing = File.Exists(dumpPath) ? File.ReadAllLines(dumpPath).Where(line => line.Length > 0).ToList() : [];
+        var known = existing.ToHashSet();
+        var added = primary.Where(text => !known.Contains(text)).ToList();
+        File.WriteAllLines(dumpPath, existing.Concat(added));
+        Console.WriteLine($"prefabText.txt: {existing.Count} existing lines kept, {added.Count} added from the asset files.");
         File.WriteAllLines($"{outputDirectory}/dumpedOtherText.txt", found.OrderBy(kv => kv.Key).Select(kv => $"{kv.Key}\t{kv.Value.Field}\t{kv.Value.Path}"));
 
         Console.WriteLine($"{found.Count} distinct Chinese strings ({primary.Count} in m_Text) from {scanned} assets; {failed} assets could not be read.");
@@ -67,16 +78,25 @@ public class AssetDumperTests
         Assert.NotEmpty(primary);
     }
 
-    private static bool IsCandidate(string path) =>
-        Path.GetExtension(path).ToLowerInvariant() is not (".resource" or ".ress" or ".manifest" or ".dll" or ".json" or ".txt" or ".ini" or ".info" or ".config");
+    // Only Unity's serialized files: AssetBundles (.unity3d), .assets, and the extension-less globalgamemanagers/levelN. The 10,000 png/jpg, the
+    // xlsx tables and the .mData files in StreamingAssets are not asset containers and only produce exceptions.
+    private static bool IsCandidate(string path)
+    {
+        var extension = Path.GetExtension(path).ToLowerInvariant();
+        return extension is ".unity3d" or ".assets" || (extension.Length == 0 && Path.GetFileName(path) is var name
+            && (name.StartsWith("level") || name == "globalgamemanagers"));
+    }
 
     private static void Scan(AssetsManager manager, AssetsFileInstance instance, Dictionary<string, (string, string)> found, Dictionary<string, int> errors,
         ref int scanned, ref int failed)
     {
+        if (manager.ClassDatabase == null && manager.ClassPackage != null)
+            manager.LoadClassDatabaseFromPackage(instance.file.Metadata.UnityVersion);
+
         foreach (var info in instance.file.Metadata.AssetInfos)
         {
-            // TextAssets hold whole data files, which the table export already handles.
-            if (info.TypeId == (int)AssetClassID.TextAsset)
+            // Text components are MonoBehaviours. Skipping every other type (textures, meshes, audio, TextAssets that hold whole data files) is what keeps this fast.
+            if (info.TypeId != (int)AssetClassID.MonoBehaviour)
                 continue;
 
             scanned++;
