@@ -131,3 +131,33 @@ internal static class WuXueRightListPatch
         catch (Exception ex) { Plugin.Logger.LogError($"Technique list labels failed: {ex}"); }
     }
 }
+
+/// <summary>Diagnostic: the tutorial's click on the martial arts "use" button throws a NullReferenceException inside SaveWxData. Logs which of its inputs is null.</summary>
+[HarmonyPatch(typeof(UIWuXueNew), "SaveWxData")]
+internal static class WuXueSaveDiagnosticPatch
+{
+    private static void Prefix(UIWuXueNew __instance, PlayerData ___playerData, bool initXinjue)
+    {
+        try
+        {
+            var global = Singleton<GDataManager>.Instance == null ? null : Singleton<GDataManager>.Instance.playerData;
+            Plugin.Logger.LogInfo(
+                $"SaveWxData(initXinjue={initXinjue}) isPlayer={__instance.isPlayer} this.playerData={(___playerData == null ? "NULL" : "ok")} " +
+                $"gdata.playerData={(global == null ? "NULL" : "ok")} gdata.m_myWxSkillList={(global?.m_myWxSkillList == null ? "NULL" : "ok")} " +
+                $"gdata.m_equipXJOfWuxue={(global?.m_equipXJOfWuxue == null ? "NULL" : "ok")} " +
+                $"this.m_allSkillList={(___playerData?.m_allSkillList == null ? "NULL" : "ok")} this.m_tongyongWuXue={(___playerData?.m_tongyongWuXue == null ? "NULL" : "ok")} " +
+                $"this.m_myNxSkillList={(___playerData?.m_myNxSkillList == null ? "NULL" : "ok")} this.m_myQgSkillList={(___playerData?.m_myQgSkillList == null ? "NULL" : "ok")} " +
+                $"this.m_myWxSkillList={(___playerData?.m_myWxSkillList == null ? "NULL" : "ok")} UIManager={(UIManager.Instance == null ? "NULL" : "ok")} " +
+                $"WordManager={(WordManager.Singleton == null ? "NULL" : "ok")}");
+        }
+        catch (Exception ex) { Plugin.Logger.LogError($"SaveWxData diagnostic failed: {ex}"); }
+    }
+}
+
+/// <summary>Diagnostic: SaveWxData's only remaining unguarded dereference is itemName.Replace inside ShowGetItemAddToList (inlined, so it shows in SaveWxData's stack). Logs the name it receives.</summary>
+[HarmonyPatch(typeof(UIManager), "ShowGetItemAddToList")]
+internal static class ShowGetItemDiagnosticPatch
+{
+    private static void Prefix(string itemName) =>
+        Plugin.Logger.LogInfo($"ShowGetItemAddToList itemName={(itemName == null ? "NULL" : $"\"{itemName}\"")}");
+}

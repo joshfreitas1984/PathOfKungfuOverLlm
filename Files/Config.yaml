@@ -19,7 +19,7 @@ glossaryPreset:
   usePresetChineseGlossary: true
 
 # Regular translation model (by name from models:). Unset = the first entry.
-#translationModelName: Qwen38Qc-IQ4XS
+translationModelName: Qwen38Qc-IQ4XS
 
 useContinuousWorkerPool: true
 maxConcurrency: 2

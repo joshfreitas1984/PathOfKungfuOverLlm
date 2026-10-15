@@ -48,7 +48,7 @@ public class Plugin : BaseUnityPlugin
             typeof(NamePoolPatch), typeof(RandomNameSpacePatch), typeof(NameXTrimPatch), typeof(NameSetterSpacePatch),
             typeof(OriginNameSpacePatch), typeof(SavedNameMigration), typeof(JobNpcNamePatch),
             typeof(AllowLatinNamePatch), typeof(NameFieldLengthPatch), typeof(RandomChildNamePatch), typeof(SameNameCheckPatch),
-            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh), typeof(AttributeNamePatch), typeof(LifeSkillTipPatch), typeof(RealmAttributeBracketPatch), typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch), typeof(EquipSlotLabelPatch), typeof(WuXueWeaponTypePatch), typeof(WuXueGeneralTechniquePatch), typeof(WuXueBasicTechniquePatch), typeof(WuXueRightListPatch),
+            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh), typeof(AttributeNamePatch), typeof(LifeSkillTipPatch), typeof(RealmAttributeBracketPatch), typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch), typeof(EquipSlotLabelPatch), typeof(WuXueWeaponTypePatch), typeof(WuXueGeneralTechniquePatch), typeof(WuXueBasicTechniquePatch), typeof(WuXueRightListPatch), typeof(WuXueSaveDiagnosticPatch), typeof(ShowGetItemDiagnosticPatch),
         })
             harmony.CreateClassProcessor(patch).Patch();
 

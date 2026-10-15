@@ -910,3 +910,4 @@ Log,log or exception text,IEvent.EventSystem,Fire,事件{0}包含着不同类型
 Log,log or exception text,IEvent.M_EventSystem,RegisterSystem,尝试绑定两个不同类型的方法，已有的类型{0}，需要添加的类型{1}
 Log,log or exception text,IEvent.M_EventSystem,UnBind,没有对应的事件，event_id: {0}
 Log,log or exception text,IEvent.M_EventSystem,UnBind,没有对应的事件，eventName: {0}
+Key,breaks the patched method (NullReferenceException on the tutorial click),UIWuXueNew,SaveWxData,技能保存成功

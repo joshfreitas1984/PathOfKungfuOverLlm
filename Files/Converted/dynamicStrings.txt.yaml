@@ -14831,11 +14831,7 @@
   splits:
   - split: 3
     text: "技能保存成功"
-    translated: "Skill saved successfully"
-    qcReviewedText: "Skill saved successfully"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,InitHelpInfo,186,江湖散学是各类武器的普通攻击，重击，格挡，跳跃，弹反等等。\\n\\n当你切换武器类型的时候，会自动切换到对应武器种类的江湖散学。\\n\\n可以在各地武馆购买学习。,[]"
   splits:
   - split: 3
