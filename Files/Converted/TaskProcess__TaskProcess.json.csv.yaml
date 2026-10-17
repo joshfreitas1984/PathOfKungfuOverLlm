@@ -21472,14 +21472,11 @@
   splits:
   - split: 4
     text: "前路被人层层把守，还是莫要擅闯了。"
-    translated: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcReviewedText: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcTranslated: "The way ahead is guarded by layers of people; it's best not to act on your own."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "The way ahead is heavily guarded. Better not force your way in."
+    qcReviewedText: "The way ahead is heavily guarded. Better not force your way in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "146,270001008004,4,[0].talks{json}[25].action;8,守门者将你拦下，面色不善。"
   splits:
   - split: 4
@@ -54447,8 +54444,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -54456,8 +54453,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -54465,8 +54462,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -54474,8 +54471,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -54483,8 +54480,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -68942,11 +68939,14 @@
   splits:
   - split: 4
     text: "前路被五圣教众把守，还是莫要擅入了。"
-    translated: "The path ahead is guarded by Wusheng Sect's Followers; it's best not to enter [without permission]."
-    qcReviewedText: "The path ahead is guarded by Wusheng Sect's Followers; it's best not to enter [without permission]."
-    qcStatus: Passed
+    translated: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcReviewedText: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcTranslated: "The way ahead is guarded by Wusheng Sect Followers. Better not go in."
+    qcStatus: Corrected
     qcQualityScore: 100
-    qcDefectCategory: None
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "324,180001200001,4,[0].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -69263,11 +69263,14 @@
   splits:
   - split: 4
     text: "前路被五圣教众把守，还是莫要擅入了。"
-    translated: "The path ahead is guarded by Wusheng Sect's Followers; it's best not to enter [without permission]."
-    qcReviewedText: "The path ahead is guarded by Wusheng Sect's Followers; it's best not to enter [without permission]."
-    qcStatus: Passed
+    translated: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcReviewedText: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcTranslated: "The way ahead is guarded by Wusheng Sect Followers. Better not go in."
+    qcStatus: Corrected
     qcQualityScore: 100
-    qcDefectCategory: None
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "324,180001200001,5,[0].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -69428,11 +69431,14 @@
   splits:
   - split: 4
     text: "前路被五圣教众把守，还是莫要擅入了。"
-    translated: "The path ahead is guarded by Wusheng Sect's Followers; it's best not to enter [without permission]."
-    qcReviewedText: "The path ahead is guarded by Wusheng Sect's Followers; it's best not to enter [without permission]."
-    qcStatus: Passed
+    translated: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcReviewedText: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcTranslated: "The way ahead is guarded by Wusheng Sect Followers. Better not go in."
+    qcStatus: Corrected
     qcQualityScore: 100
-    qcDefectCategory: None
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "325,180001200002,5,[0].talks{json}[0].name,五圣弟子"
   splits:
   - split: 4
@@ -88301,14 +88307,11 @@
   splits:
   - split: 4
     text: "前路被人层层把守，还是莫要擅闯了。"
-    translated: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcReviewedText: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcTranslated: "The way ahead is guarded by layers of people; it's best not to act on your own."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "The way ahead is heavily guarded. Better not force your way in."
+    qcReviewedText: "The way ahead is heavily guarded. Better not force your way in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "418,150005001000,4,[0].talks{json}[0].options{json}[0].name,“先生这般悠游人物，却亦有所嗟叹么？”"
   splits:
   - split: 4
@@ -110393,8 +110396,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -110402,8 +110405,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -164986,8 +164989,8 @@
   splits:
   - split: 4
     text: "军中营房，门扉紧闭。"
-    translated: "The barracks in the military camp are tightly shut."
-    qcReviewedText: "The barracks in the military camp are tightly shut."
+    translated: "Military barracks. The door is shut tight."
+    qcReviewedText: "Military barracks. The door is shut tight."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -164995,8 +164998,8 @@
   splits:
   - split: 4
     text: "军机要地，不宜擅闯。"
-    translated: "Military restricted area, do not enter without permission."
-    qcReviewedText: "Military restricted area, do not enter without permission."
+    translated: "A sensitive military site. Best not to trespass."
+    qcReviewedText: "A sensitive military site. Best not to trespass."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -165004,26 +165007,20 @@
   splits:
   - split: 4
     text: "敌军腹地，不宜擅闯。"
-    translated: "Do not enter enemy territory act on one's own initiative."
-    qcReviewedText: "Do not enter enemy territory act on one's own initiative."
-    qcTranslated: "Do not venture into the enemy's heartland on your own initiative."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
+    translated: "Deep in enemy territory. Best not to venture in."
+    qcReviewedText: "Deep in enemy territory. Best not to venture in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "796,220001999000,4,[0].talks{json}[0].action;23,敌军腹地，不宜擅闯。"
   splits:
   - split: 4
     text: "敌军腹地，不宜擅闯。"
-    translated: "Do not enter enemy territory act on one's own initiative."
-    qcReviewedText: "Do not enter enemy territory act on one's own initiative."
-    qcTranslated: "Do not venture into the enemy's heartland on your own initiative."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
+    translated: "Deep in enemy territory. Best not to venture in."
+    qcReviewedText: "Deep in enemy territory. Best not to venture in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "796,220001999000,4,[0].talks{json}[0].action;26,营房火光1"
   splits:
   - split: 4
@@ -165739,8 +165736,8 @@
   splits:
   - split: 4
     text: "城门紧闭。"
-    translated: "City gate is closed"
-    qcReviewedText: "City gate is closed"
+    translated: "The city gate is shut tight"
+    qcReviewedText: "The city gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -165748,8 +165745,8 @@
   splits:
   - split: 4
     text: "城门紧闭。"
-    translated: "City gate is closed"
-    qcReviewedText: "City gate is closed"
+    translated: "The city gate is shut tight"
+    qcReviewedText: "The city gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -165766,8 +165763,8 @@
   splits:
   - split: 4
     text: "此处乃贼军营寨，不可擅入。"
-    translated: "This is the bandits' encampment. Do not enter without permission."
-    qcReviewedText: "This is the bandits' encampment. Do not enter without permission."
+    translated: "This is a rebel army camp. Do not enter rashly."
+    qcReviewedText: "This is a rebel army camp. Do not enter rashly."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -191165,8 +191162,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -196035,8 +196032,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -197019,8 +197016,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -203290,8 +203287,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -214874,8 +214871,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -215790,8 +215787,8 @@
   splits:
   - split: 4
     text: "非请勿入，还是莫要擅闯了。"
-    translated: "Do not enter without permission, better not to intrude [without authorization]."
-    qcReviewedText: "Do not enter without permission, better not to intrude [without authorization]."
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -330533,26 +330530,20 @@
   splits:
   - split: 4
     text: "前路被人层层把守，还是莫要擅闯了。"
-    translated: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcReviewedText: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcTranslated: "The way ahead is guarded by layers of people; it's best not to act on your own."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "The way ahead is heavily guarded. Better not force your way in."
+    qcReviewedText: "The way ahead is heavily guarded. Better not force your way in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1576,200001001003,4,[0].talks{json}[0].action;2,前路被人层层把守，还是莫要擅闯了。"
   splits:
   - split: 4
     text: "前路被人层层把守，还是莫要擅闯了。"
-    translated: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcReviewedText: "The way ahead is guarded by layers of people; it's best not to go in [Act on one's own]."
-    qcTranslated: "The way ahead is guarded by layers of people; it's best not to act on your own."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "The way ahead is heavily guarded. Better not force your way in."
+    qcReviewedText: "The way ahead is heavily guarded. Better not force your way in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1576,200001001003,5,[0].talks{json}[0].name,焦静"
   splits:
   - split: 4
@@ -377537,8 +377528,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -377546,8 +377537,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -377555,8 +377546,8 @@
   splits:
   - split: 4
     text: "大门紧闭。"
-    translated: "The main door is tightly shut"
-    qcReviewedText: "The main door is tightly shut"
+    translated: "Gate is shut tight"
+    qcReviewedText: "Gate is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -392595,8 +392586,8 @@
   splits:
   - split: 4
     text: "门已上闩，推之不开。"
-    translated: "The door is locked; you can't push it open."
-    qcReviewedText: "The door is locked; you can't push it open."
+    translated: "The door is barred. It won't budge."
+    qcReviewedText: "The door is barred. It won't budge."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -392757,8 +392748,8 @@
   splits:
   - split: 4
     text: "门已上闩，推之不开。"
-    translated: "The door is locked; you can't push it open."
-    qcReviewedText: "The door is locked; you can't push it open."
+    translated: "The door is barred. It won't budge."
+    qcReviewedText: "The door is barred. It won't budge."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -392835,8 +392826,8 @@
   splits:
   - split: 4
     text: "门已上闩，推之不开。"
-    translated: "The door is locked; you can't push it open."
-    qcReviewedText: "The door is locked; you can't push it open."
+    translated: "The door is barred. It won't budge."
+    qcReviewedText: "The door is barred. It won't budge."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -422234,8 +422225,8 @@
   splits:
   - split: 4
     text: "门扉紧闭。"
-    translated: "Door was tightly shut"
-    qcReviewedText: "Door was tightly shut"
+    translated: "Door is shut tight"
+    qcReviewedText: "Door is shut tight"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

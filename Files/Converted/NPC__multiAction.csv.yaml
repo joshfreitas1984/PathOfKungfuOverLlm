@@ -1,0 +1,644 @@
+- raw: "1,ID,A参数,A比较,B参数,C参数,C比较,A参数,C参数,C比较,B参数,触发概率,场合,时辰要求,A对B参数,A对B赋值,A对C参数,A对C赋值,B对A参数,B对A赋值,B对C参数,B对C赋值,C对A参数,C对A赋值,C对B参数,C对B赋值,C加入时间,总时间,前言消息,C结局,对话框A,对话框B,对话框C,对话ID_A,对话ID_B,对话ID_C,权重,事件广播参数,"
+  splits:
+  - split: 28
+    text: "前言消息"
+    translated: "Preamble Message"
+    qcReviewedText: "Preamble Message"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 29
+    text: "结局"
+    translated: "Ending"
+    qcReviewedText: "C Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 29
+    template: "C{0}"
+- raw: "2,id,abParam,abTerm,baParam,caParam,caTerm,acParam,cbParam,cbTerm,bcParam,prob,place,time,abChange,abValue,acChange,acValue,baChange,baValue,bcChange,bcValue,caChange,caValue,cbChange,cbValue,joinTime,totalTime,abEnd,cEnd,aDialog,bDialog,cDialog,aDialogID,bDialogID,dialogID,weight,msgTypeParam,"
+- raw: "3,102,npcLove<id>,<,-30,,,,,,,0,0,\"4,9\",,,,,,,,,,,,,,90,冤家路窄，不共戴天的{0}和{1}一见到彼此便拔刀相向，死斗在一处。,,zhandou,zhandou,,310010,410010,,,2,0"
+  splits:
+  - split: 28
+    text: "冤家路窄，不共戴天的"
+    translated: "Fate is cruel; we cannot live under the same sky."
+    qcReviewedText: "Fate is cruel; we cannot live under the same sky.{0} And {1} The moment they laid eyes on each other, they drew their blades and engaged in a deadly duel."
+    qcTranslated: "Fate is cruel; we cannot live under the same sky. The moment {0} and {1} laid eyes on each other, they drew their blades and engaged in a deadly duel."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 28
+    subIndex: 1
+    text: "和"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "一见到彼此便拔刀相向，死斗在一处。"
+    translated: "The moment they laid eyes on each other, they drew their blades and engaged in a deadly duel."
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+- raw: "4,104,npcLove<id>,>,10,npcLove<id>,<,-10,age,!/,0,0,1,\"4,9\",,,,,,,,,,,,,60,90,独自小酌的{0}偶然瞥见好友{1}正在不远处，拉着他欲往酒馆，把酒言欢。,昔日仇人{2}路过时，搅闹了一番。,pantan,pantan,,104,104,104,,2,0"
+  splits:
+  - split: 28
+    text: "独自小酌的"
+    translated: "Drinking alone"
+    qcReviewedText: "Drinking alone {0} A Glance at a Friend {1} Not far away, he was pulling him toward the Tavern to drink and celebrate."
+    qcTranslated: "Drinking alone, {0} caught a glimpse of his friend {1} not far away and pulled him toward the Tavern to drink and celebrate."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 28
+    subIndex: 1
+    text: "偶然瞥见好友"
+    translated: "A Glance at a Friend"
+  - split: 28
+    subIndex: 2
+    text: "正在不远处，拉着他欲往酒馆，把酒言欢。"
+    translated: "Not far away, he was pulling him toward the Tavern to drink and celebrate."
+  - split: 29
+    text: "昔日仇人"
+    translated: "Old Enemies"
+    qcReviewedText: "Old Enemies {2} They caused a commotion as they passed by."
+    qcTranslated: "When Old Enemy {2} passed by, they caused a commotion."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "路过时，搅闹了一番。"
+    translated: "They caused a commotion as they passed by."
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}"
+- raw: "5,111,\"npcLove<id>,-20\",\"<,>\",\"-20,npcLove<id>\",npcLove<id>,>,10,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,积怨已久的{0}与{1}一见面便拔出刀剑，拼死相搏。,亲友{2}路过时，相劝罢手方免了一场死斗。,zhandou,zhandou,,111,111,111,,2,0"
+  splits:
+  - split: 28
+    text: "积怨已久的"
+    translated: "Long-held"
+    qcReviewedText: "Long-held {0} And {1} The moment they met, they drew their blades and fought to the death."
+    qcTranslated: "{0} and {1}, who had long harbored deep resentment, drew their blades and fought to the death the moment they met."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "一见面便拔出刀剑，拼死相搏。"
+    translated: "The moment they met, they drew their blades and fought to the death."
+  - split: 29
+    text: "亲友"
+    translated: "Relatives and friends"
+    qcReviewedText: "Relatives and friends {2} Passing by, they persuaded both sides to stand down, averting a deadly duel."
+    qcTranslated: "When relatives and friends {2} passed by, they persuaded both sides to stand down, averting a deadly duel."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "路过时，相劝罢手方免了一场死斗。"
+    translated: "Passing by, they persuaded both sides to stand down, averting a deadly duel."
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}"
+- raw: "6,112,\"prestige,-30\",\">,<\",\"50,prestige\",npcLove<id>,<,-10,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,大侠{0}在乘胜追击{1}之时，忽遭旁人暗器打中要害，顿时气力难支，反被围攻。,昔日仇人{2}路过时，落井下石，欲将大侠{0}置之死地。,zhandou,zhandou,,112,112,112,,2,0"
+  splits:
+  - split: 28
+    text: "大侠"
+    translated: "Great Hero"
+    qcReviewedText: "Great Hero {0} Press the advantage {1} At that moment, he was suddenly struck in the vital point by a hidden weapon from an onlooker, leaving him unable to maintain his strength and instead surrounded and attacked."
+    qcTranslated: "Great Hero {0}, while pressing the advantage on {1}, was suddenly struck in the Vital Point by a hidden weapon from an onlooker, leaving him unable to maintain his strength and instead surrounded and attacked."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 28
+    subIndex: 1
+    text: "在乘胜追击"
+    translated: "Press the advantage"
+  - split: 28
+    subIndex: 2
+    text: "之时，忽遭旁人暗器打中要害，顿时气力难支，反被围攻。"
+    translated: "At that moment, he was suddenly struck in the vital point by a hidden weapon from an onlooker, leaving him unable to maintain his strength and instead surrounded and attacked."
+  - split: 29
+    text: "昔日仇人"
+    translated: "Old Enemies"
+    qcReviewedText: "Old Enemies {2} Passing by, they threw stones at the fallen, intending to harm the Great Hero {0} Into a deadly trap"
+    qcTranslated: "Old Enemies {2} Passing by, they threw stones at the fallen, intending to kill the Great Hero {0}."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 29
+    subIndex: 1
+    text: "路过时，落井下石，欲将大侠"
+    translated: "Passing by, they threw stones at the fallen, intending to harm the Great Hero"
+  - split: 29
+    subIndex: 2
+    text: "置之死地。"
+    translated: "Into a deadly trap"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}⟦0⟧{2}"
+- raw: "7,113,\"prestige,50\",\"<,>\",\"-20,prestige\",age,!/,0,npcLove<id>,<,-10,0,0,0,,,,,,,,,,,,,60,90,有眼无珠的恶匪{0}在野外打劫时正撞上了赫赫有名的{1}，一招之间便落于下风。,此时与{1}素有仇怨的{2}恰遇此景，出手相助，使{0}逃之夭夭。,zhandou,zhandou,,113,113,113,,2,0"
+  splits:
+  - split: 28
+    text: "有眼无珠的恶匪"
+    translated: "A blind, wicked bandit"
+    qcReviewedText: "A blind, wicked bandit {0} While robbing travelers in the wilds, they happened to run into the renowned {1}, He was at a disadvantage in a single move."
+    qcTranslated: "A sightless, wicked bandit {0} who, while robbing travelers in the wilds, happened to run into the renowned {1}, was at a disadvantage in a single move."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+    - UnnaturalPhrasing
+  - split: 28
+    subIndex: 1
+    text: "在野外打劫时正撞上了赫赫有名的"
+    translated: "While robbing travelers in the wilds, they happened to run into the renowned"
+  - split: 28
+    subIndex: 2
+    text: "，一招之间便落于下风。"
+    translated: ", He was at a disadvantage in a single move."
+  - split: 29
+    text: "此时与"
+    translated: "At this moment"
+    qcReviewedText: "At this moment {1} Longstanding enemies {2} Just as I came upon this scene, I stepped in to lend a hand,{0} Gone like the wind"
+    qcTranslated: "At this moment, {2}, who has long been at odds with {1}, happened to come upon this scene and stepped in to lend a hand, allowing {0} to escape."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "素有仇怨的"
+    translated: "Longstanding enemies"
+  - split: 29
+    subIndex: 2
+    text: "恰遇此景，出手相助，使"
+    translated: "Just as I came upon this scene, I stepped in to lend a hand,"
+  - split: 29
+    subIndex: 3
+    text: "逃之夭夭。"
+    translated: "Gone like the wind"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦1⟧{1}⟦2⟧{2}⟦0⟧{3}"
+- raw: "8,116,\"npcLove<id>,15,sex,1\",\">,<,//,!/\",\"15,npcLove<id>,1,sex\",npcLove<id>,<,-10,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,互有暧昧的{0}与{1}在一起散步谈笑，引人艳羡。,与{0}素有仇怨的{2}恰遇此景，暗中使坏，搅散了此处光景，{0}与{2}的仇怨又深了数分。,jingguan,jingguan,,116,116,116,,2,0"
+  splits:
+  - split: 28
+    text: "互有暧昧的"
+    translated: "Flirtatiously"
+    qcReviewedText: "Flirtatiously {0} And {1} Strolling and chatting together, drawing envious glances from onlookers."
+    qcTranslated: "{0} and {1}, who share a flirtatious rapport, stroll and chat together, drawing envious glances from onlookers."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "在一起散步谈笑，引人艳羡。"
+    translated: "Strolling and chatting together, drawing envious glances from onlookers."
+  - split: 29
+    text: "与"
+    translated: "And"
+    qcReviewedText: "And {0} Longstanding enemies {2} Just as I came upon this scene, I meddled in the shadows, disrupting the tranquil atmosphere here.{0} And {2} The grudge deepened by several notches"
+    qcTranslated: "{2}, who has long been at odds with {0}, happened upon this scene and meddled in the shadows, disrupting the tranquil atmosphere here. The grudge between {0} and {2} deepened by several notches."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
+  - split: 29
+    subIndex: 1
+    text: "素有仇怨的"
+    translated: "Longstanding enemies"
+  - split: 29
+    subIndex: 2
+    text: "恰遇此景，暗中使坏，搅散了此处光景，"
+    translated: "Just as I came upon this scene, I meddled in the shadows, disrupting the tranquil atmosphere here."
+  - split: 29
+    subIndex: 3
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 4
+    text: "的仇怨又深了数分。"
+    translated: "The grudge deepened by several notches"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦0⟧{1}⟦2⟧{2}⟦0⟧{3}⟦2⟧{4}"
+- raw: "9,117,\"npcLove<id>,25,sex,1\",\">,<,//,!/\",\"25,npcLove<id>,1,sex\",npcLove<id>,<,-10,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,情投意合的{0}与{1}在约定的地点相见，二人眉宇间尽是柔情，喜悦溢于言表。,与{0}素有仇怨的{2}恰遇此景，暗中使坏，搅散了此处光景，{0}与{2}的仇怨又深了数分。,jingguan,jingguan,,117,117,117,,2,0"
+  splits:
+  - split: 28
+    text: "情投意合的"
+    translated: "In perfect harmony"
+    qcReviewedText: "In perfect harmony {0} And {1} They met at the agreed-upon place, their brows and eyes brimming with tenderness, joy overflowing from their expressions."
+    qcTranslated: "In perfect harmony, {0} and {1} met at the agreed-upon place, their brows and eyes brimming with tenderness, joy overflowing from their expressions."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "在约定的地点相见，二人眉宇间尽是柔情，喜悦溢于言表。"
+    translated: "They met at the agreed-upon place, their brows and eyes brimming with tenderness, joy overflowing from their expressions."
+  - split: 29
+    text: "与"
+    translated: "And"
+    qcReviewedText: "And {0} Longstanding enemies {2} Just as I came upon this scene, I meddled in the shadows, disrupting the tranquil atmosphere here.{0} And {2} The grudge deepened by several notches"
+    qcTranslated: "{2}, who has long been at odds with {0}, happened upon this scene and meddled in the shadows, disrupting the tranquil atmosphere here. The grudge between {0} and {2} deepened by several notches."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
+  - split: 29
+    subIndex: 1
+    text: "素有仇怨的"
+    translated: "Longstanding enemies"
+  - split: 29
+    subIndex: 2
+    text: "恰遇此景，暗中使坏，搅散了此处光景，"
+    translated: "Just as I came upon this scene, I meddled in the shadows, disrupting the tranquil atmosphere here."
+  - split: 29
+    subIndex: 3
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 4
+    text: "的仇怨又深了数分。"
+    translated: "The grudge deepened by several notches"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦0⟧{1}⟦2⟧{2}⟦0⟧{3}⟦2⟧{4}"
+- raw: "10,120,\"npcLove<id>,10,goldCoin\",\">,<,//,!/,>\",\"10,npcLove<id>,1000\",npcLove<id>,<,-10,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,{0}与旧友{1}在酒楼里豪饮畅谈，颇为投缘。,与{0}素有仇怨的{2}恰遇此景，借酒闹事，搅散了此处光景，{0}与{2}的仇怨又深了数分。,pantan,pantan,,120,120,120,,2,0"
+  splits:
+  - split: 28
+    text: "与旧友"
+    translated: "With an Old Friend"
+    qcReviewedText: "{0} With an Old Friend {1} They drank heartily and chatted at length in the tavern, finding a strong rapport."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 28
+    subIndex: 1
+    text: "在酒楼里豪饮畅谈，颇为投缘。"
+    translated: "They drank heartily and chatted at length in the tavern, finding a strong rapport."
+  - split: 29
+    text: "与"
+    translated: "And"
+    qcReviewedText: "And {0} Longstanding enemies {2} Fate has it that I stumbled upon this scene, and in my drunkenness, I caused a disturbance, ruining the tranquil atmosphere here.{0} And {2} The grudge deepened by several notches"
+    qcTranslated: "And {0} Longstanding enemies {2} Fate has it that they stumbled upon this scene, and in their drunkenness, they caused a disturbance, ruining the tranquil atmosphere here.{0} And {2} The grudge deepened by several notches"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - MeaningReversal
+  - split: 29
+    subIndex: 1
+    text: "素有仇怨的"
+    translated: "Longstanding enemies"
+  - split: 29
+    subIndex: 2
+    text: "恰遇此景，借酒闹事，搅散了此处光景，"
+    translated: "Fate has it that I stumbled upon this scene, and in my drunkenness, I caused a disturbance, ruining the tranquil atmosphere here."
+  - split: 29
+    subIndex: 3
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 4
+    text: "的仇怨又深了数分。"
+    translated: "The grudge deepened by several notches"
+  templates:
+  - split: 28
+    template: "⟦0⟧{0}⟦1⟧{1}"
+  - split: 29
+    template: "{0}⟦0⟧{1}⟦2⟧{2}⟦0⟧{3}⟦2⟧{4}"
+- raw: "11,121,npcLove<id>,<,-20,npcLove<id>,>,0,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,为报昔日冤仇，{0}在酒楼摆下鸿门宴，邀{1}前来。欲借宴请之名，行凶杀之实。,亲友{2}路过时，识破此间机关，相劝{0}就此罢手方，终免了一场凶杀。,chaojia,chaojia,,121,121,121,,2,0"
+  splits:
+  - split: 28
+    text: "为报昔日冤仇，"
+    translated: "To avenge the old grudge,"
+    qcReviewedText: "To avenge the old grudge,{0} Set a banquet at the tavern, inviting {1} Come forward. You seek to use the banquet as a pretext to commit murder."
+    qcTranslated: "To avenge the old grudge, {0} set a banquet at the tavern, inviting {1} to attend. Seeking to use the banquet as a pretext to commit murder."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 28
+    subIndex: 1
+    text: "在酒楼摆下鸿门宴，邀"
+    translated: "Set a banquet at the tavern, inviting"
+  - split: 28
+    subIndex: 2
+    text: "前来。欲借宴请之名，行凶杀之实。"
+    translated: "Come forward. You seek to use the banquet as a pretext to commit murder."
+  - split: 29
+    text: "亲友"
+    translated: "Relatives and friends"
+    qcReviewedText: "Relatives and friends {2} Pass by and see through the mechanism here, then persuade them.{0} Let us stop here, and we shall avoid a bloody murder."
+    qcTranslated: "When relatives and friends {2} passed by, they saw through the mechanism here and persuaded {0} to stop, thus avoiding a bloody murder."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
+  - split: 29
+    subIndex: 1
+    text: "路过时，识破此间机关，相劝"
+    translated: "Pass by and see through the mechanism here, then persuade them."
+  - split: 29
+    subIndex: 2
+    text: "就此罢手方，终免了一场凶杀。"
+    translated: "Let us stop here, and we shall avoid a bloody murder."
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}⟦0⟧{2}"
+- raw: "12,122,\"npcLove<id>,0\",\">,<\",\"0,npcLove<id>\",age,!/,0,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,阴阳乾坤，尽在手谈。不想两位江湖人士{0}与{1}除了舞刀弄剑之外，棋力亦是出色。,闲散之人{2}路过时，观棋多语，扰乱了一场棋局，{0}与{1}顿觉索然无味，对{2}有了几分恶感。,pantan,pantan,,122,122,122,,2,0"
+  splits:
+  - split: 28
+    text: "阴阳乾坤，尽在手谈。不想两位江湖人士"
+    translated: "Yin and Yang, Heaven and Earth, all within the game of Go. I did not expect to encounter two Jianghu Figures."
+    qcReviewedText: "Yin and Yang, Heaven and Earth, all within the game of Go. I did not expect to encounter two Jianghu Figures.{0} And {1} Besides wielding blades and swords, he is also exceptionally skilled at chess."
+    qcTranslated: "Yin and Yang, Heaven and Earth, all within the game of Go. I did not expect to encounter two Jianghu Figures, {0} and {1}. Besides wielding blades and swords, his chess skills are also exceptional."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "除了舞刀弄剑之外，棋力亦是出色。"
+    translated: "Besides wielding blades and swords, he is also exceptionally skilled at chess."
+  - split: 29
+    text: "闲散之人"
+    translated: "A Man of Leisure"
+    qcReviewedText: "A Man of Leisure {2} Passing by, speaking too much while watching the chess game, disrupted the match,{0} And {1} Suddenly feeling utterly bored, right {2} A hint of dislike"
+    qcTranslated: "A Man of Leisure {2}, passing by and speaking too much while watching the chess game, disrupted the match. {0} and {1} suddenly felt utterly bored, developing a hint of dislike toward {2}."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "路过时，观棋多语，扰乱了一场棋局，"
+    translated: "Passing by, speaking too much while watching the chess game, disrupted the match,"
+  - split: 29
+    subIndex: 2
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 3
+    text: "顿觉索然无味，对"
+    translated: "Suddenly feeling utterly bored, right"
+  - split: 29
+    subIndex: 4
+    text: "有了几分恶感。"
+    translated: "A hint of dislike"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}⟦0⟧{2}⟦1⟧{3}⟦2⟧{4}"
+- raw: "13,123,\"age,20\",\">,<\",\"20,age\",age,!/,0,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,天元星位，勾心交错，一局珍珑引得天下豪杰群聚此地，{0}与{1}正坐在人群中执子对弈。,闲散之人{2}路过时，观棋多语，扰乱了一场棋局，{0}与{1}顿觉索然无味，对{2}有了几分恶感。,pantan,pantan,,123,123,123,,2,0"
+  splits:
+  - split: 28
+    text: "天元星位，勾心交错，一局珍珑引得天下豪杰群聚此地，"
+    translated: "The Tianyuan star point, with intersecting hooks, a single Zhenlong game draws the world's heroes to this place,"
+    qcReviewedText: "The Tianyuan star point, with intersecting hooks, a single Zhenlong game draws the world's heroes to this place,{0} And {1} Sitting among the crowd, holding a piece to play a game of Go."
+    qcTranslated: "The Tianyuan star point, with intersecting hooks, a single Zhenlong game draws the world's heroes to this place, {0} and {1} sitting among the crowd, holding pieces in a game of Go."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "正坐在人群中执子对弈。"
+    translated: "Sitting among the crowd, holding a piece to play a game of Go."
+  - split: 29
+    text: "闲散之人"
+    translated: "A Man of Leisure"
+    qcReviewedText: "A Man of Leisure {2} Passing by, speaking too much while watching the chess game, disrupted the match,{0} And {1} Suddenly feeling utterly bored, right {2} A hint of dislike"
+    qcTranslated: "A Man of Leisure {2}, passing by and speaking too much while watching the chess game, disrupted the match. {0} and {1} suddenly felt utterly bored, developing a hint of dislike toward {2}."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "路过时，观棋多语，扰乱了一场棋局，"
+    translated: "Passing by, speaking too much while watching the chess game, disrupted the match,"
+  - split: 29
+    subIndex: 2
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 3
+    text: "顿觉索然无味，对"
+    translated: "Suddenly feeling utterly bored, right"
+  - split: 29
+    subIndex: 4
+    text: "有了几分恶感。"
+    translated: "A hint of dislike"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}⟦0⟧{2}⟦1⟧{3}⟦2⟧{4}"
+- raw: "14,126,\"npcLove<id>,10,sex,1\",\">,<,//,!/,>\",\"10,npcLove<id>,1,sex\",npcLove<id>,>,0,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,一男一女{0}与{1}在街角不知为何，争吵不休。,亲友{2}路过，相劝罢斗，终于使得争吵渐止。,chaojia,chaojia,,126,126,126,,2,0"
+  splits:
+  - split: 28
+    text: "一男一女"
+    translated: "One man and one woman"
+    qcReviewedText: "One man and one woman {0} And {1} For some reason, they quarreled endlessly at the street corner."
+    qcTranslated: "A man and a woman, {0} and {1}, were quarreling endlessly at the street corner for some reason."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "在街角不知为何，争吵不休。"
+    translated: "For some reason, they quarreled endlessly at the street corner."
+  - split: 29
+    text: "亲友"
+    translated: "Relatives and friends"
+    qcReviewedText: "Relatives and friends {2} Passing by, they intervened to stop the fight, and the quarrel gradually subsided."
+    qcTranslated: "Relatives and friends {2}, passing by, intervened to stop the fight, and the quarrel gradually subsided."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "路过，相劝罢斗，终于使得争吵渐止。"
+    translated: "Passing by, they intervened to stop the fight, and the quarrel gradually subsided."
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}"
+- raw: "15,127,\"npcLove<id>,0,goldCoin\",\">,<,>\",\"0,npcLove<id>,1000\",prestige,<,0,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,{0}与{1}二人不顾昔日情分，竟然因些许银钱争吵不休。,心术不正的{2}路过时，佯作公道，实则煽风点火，{0}与{1}再填新怨，对{2}却平添了几分好感。,chaojia,chaojia,,127,127,127,,2,0"
+  splits:
+  - split: 28
+    text: "与"
+    translated: "And"
+    qcReviewedText: "{0} And {1} Ignoring their past bond, they quarreled endlessly over a trivial sum of silver."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 28
+    subIndex: 1
+    text: "二人不顾昔日情分，竟然因些许银钱争吵不休。"
+    translated: "Ignoring their past bond, they quarreled endlessly over a trivial sum of silver."
+  - split: 29
+    text: "心术不正的"
+    translated: "With ill intentions"
+    qcReviewedText: "With ill intentions {2} Passing by, they feign impartiality while secretly stoking the flames of discord.{0} And {1} Fill in new grievances, correct {2} It only added to my fondness for them."
+    qcTranslated: "As {2}, harboring ill intentions, passed by, they feigned impartiality while secretly stoking the flames of discord, filling {0} and {1} with new grievances, yet only adding to {2}'s fondness for them."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 29
+    subIndex: 1
+    text: "路过时，佯作公道，实则煽风点火，"
+    translated: "Passing by, they feign impartiality while secretly stoking the flames of discord."
+  - split: 29
+    subIndex: 2
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 3
+    text: "再填新怨，对"
+    translated: "Fill in new grievances, correct"
+  - split: 29
+    subIndex: 4
+    text: "却平添了几分好感。"
+    translated: "It only added to my fondness for them."
+  templates:
+  - split: 28
+    template: "⟦0⟧{0}⟦1⟧{1}"
+  - split: 29
+    template: "{0}⟦2⟧{1}⟦0⟧{2}⟦1⟧{3}⟦2⟧{4}"
+- raw: "16,128,\"npcLove<id>,20\",\"<,>\",\"20,npcLove<id>\",age,!/,0,age,!/,0,0,0,0,,,,,,,,,,,,,60,90,两位挚友{0}与{1}席间品茶轮道，高谈阔论，可谓意气风发。,闲散之人{2}路过时，亦欲参与，却是满口胡言，{0}与{1}顿觉索然无味，对{2}有了几分恶感。,pincha,pincha,,128,128,128,,2,0"
+  splits:
+  - split: 28
+    text: "两位挚友"
+    translated: "Two Close Friends"
+    qcReviewedText: "Two Close Friends {0} And {1} Over tea and conversation, they spoke grandly of the Way, brimming with high spirits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 28
+    subIndex: 1
+    text: "与"
+    translated: "And"
+  - split: 28
+    subIndex: 2
+    text: "席间品茶轮道，高谈阔论，可谓意气风发。"
+    translated: "Over tea and conversation, they spoke grandly of the Way, brimming with high spirits."
+  - split: 29
+    text: "闲散之人"
+    translated: "A Man of Leisure"
+    qcReviewedText: "A Man of Leisure {2} Passing by, they too wished to join in, but only spouted nonsense.{0} And {1} Suddenly feeling utterly bored, right {2} A hint of dislike"
+    qcTranslated: "A Man of Leisure {2}, passing by, also wished to join in, but only spouted nonsense. {0} and {1} suddenly felt utterly bored, developing a hint of dislike toward {2}."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 29
+    subIndex: 1
+    text: "路过时，亦欲参与，却是满口胡言，"
+    translated: "Passing by, they too wished to join in, but only spouted nonsense."
+  - split: 29
+    subIndex: 2
+    text: "与"
+    translated: "And"
+  - split: 29
+    subIndex: 3
+    text: "顿觉索然无味，对"
+    translated: "Suddenly feeling utterly bored, right"
+  - split: 29
+    subIndex: 4
+    text: "有了几分恶感。"
+    translated: "A hint of dislike"
+  templates:
+  - split: 28
+    template: "{0}⟦0⟧{1}⟦1⟧{2}"
+  - split: 29
+    template: "{0}⟦2⟧{1}⟦0⟧{2}⟦1⟧{3}⟦2⟧{4}"

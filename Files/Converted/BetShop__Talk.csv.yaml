@@ -1,0 +1,454 @@
+- raw: "1,怪物ID,对话内容"
+  splits:
+  - split: 2
+    text: "对话内容"
+    translated: "Dialogue content"
+    qcReviewedText: "Dialogue content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,Tip"
+- raw: "3,1001,骰宝人字桌，每区域最高下注1两，入场最低本金需10文，要不要来玩两把试试手气？ "
+  splits:
+  - split: 2
+    text: "骰宝人字桌，每区域最高下注1两，入场最低本金需10文，要不要来玩两把试试手气？"
+    translated: "Sic Bo table: maximum bet per zone is 1 taels, minimum entry stake is 10 wen. How about a few rounds to test your luck?"
+    qcReviewedText: "Sic Bo table: maximum bet per zone is 1 taels, minimum entry stake is 10 wen. How about a few rounds to test your luck? "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "4,1002,我永远追随统领大人。嗷~~"
+  splits:
+  - split: 2
+    text: "我永远追随统领大人。嗷"
+    translated: "I will follow Lord Commander forever. Awo!"
+    qcReviewedText: "I will follow Lord Commander forever. Awo!~~"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}~~"
+- raw: "5,1002,骰宝地字桌，每区域最高下注10两，入场最低本金需100文，要不要来玩两把试试手气？ "
+  splits:
+  - split: 2
+    text: "骰宝地字桌，每区域最高下注10两，入场最低本金需100文，要不要来玩两把试试手气？"
+    translated: "At the Dice Treasure table, the maximum bet per area is 10 taels, and the minimum entry stake is 100 wen. Would you like to play a few rounds to test your luck?"
+    qcReviewedText: "At the Dice Treasure table, the maximum bet per area is 10 taels, and the minimum entry stake is 100 wen. Would you like to play a few rounds to test your luck? "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "6,1003,骰宝天字桌，每区域最高下注100两，入场最低本金需1两，要不要来玩两把试试手气？ "
+  splits:
+  - split: 2
+    text: "骰宝天字桌，每区域最高下注100两，入场最低本金需1两，要不要来玩两把试试手气？"
+    translated: "At the Tian table of Sic Bo, the maximum bet per area is 100 taels, and the minimum entry stake is 1 taels. Would you like to play a few rounds to test your luck?"
+    qcReviewedText: "At the Tian table of Sic Bo, the maximum bet per area is 100 taels, and the minimum entry stake is 1 taels. Would you like to play a few rounds to test your luck? "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "7,9001,阁下可将奇珍异品托于本商行售卖，若阁下定好合适价码，货价相匹，定能财源滚滚来！"
+  splits:
+  - split: 2
+    text: "阁下可将奇珍异品托于本商行售卖，若阁下定好合适价码，货价相匹，定能财源滚滚来！"
+    translated: "You may entrust rare and exotic items to our shop for sale. If you set a fair price that matches the item's worth, wealth will surely flow in!"
+    qcReviewedText: "You may entrust rare and exotic items to our shop for sale. If you set a fair price that matches the item's worth, wealth will surely flow in!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,8001,身形狠厉，煞气暗涌……想来也是江湖中的狠角色，此番前来，是想悬金截命，亦或是接下血酬，在我这儿都能安排妥当……"
+  splits:
+  - split: 2
+    text: "身形狠厉，煞气暗涌……想来也是江湖中的狠角色，此番前来，是想悬金截命，亦或是接下血酬，在我这儿都能安排妥当……"
+    translated: "Your bearing is fierce, and a murderous aura stirs within... You must be a formidable figure in the Jianghu. Whether you come to place a bounty on a life or accept a blood contract, I can arrange it all here..."
+    qcReviewedText: "Your bearing is fierce, and a murderous aura stirs within... You must be a formidable figure in the Jianghu. Whether you come to place a bounty on a life or accept a blood contract, I can arrange it all here..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,8002,在这江湖之中，岂由得你说不，今日便以你项上人头，显我<隐月楼>赫赫凶威！"
+  splits:
+  - split: 2
+    text: "在这江湖之中，岂由得你说不，今日便以你项上人头，显我"
+    translated: "In this Jianghu, who are you to say no? Today, I shall take your head to prove my..."
+    qcReviewedText: "In this Jianghu, who are you to say no? Today, I shall take your head to prove my...<Yinyue Tower>A fearsome and mighty presence!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "隐月楼"
+    translated: "Yinyue Tower"
+  - split: 2
+    subIndex: 2
+    text: "赫赫凶威！"
+    translated: "A fearsome and mighty presence!"
+  templates:
+  - split: 2
+    template: "{0}<{1}>{2}"
+- raw: "10,8003,<隐月楼>向来敬重强者，你能以一己之力击败我们这么多人，足以证明你的能耐。望你能继续留在组织，共创大业，告辞！"
+  splits:
+  - split: 2
+    text: "隐月楼"
+    translated: "Yinyue Tower"
+    qcReviewedText: "<Yinyue Tower>We have always respected the strong. Your ability to defeat so many of us single-handedly is proof of your prowess. We hope you will remain with our organization and help us achieve great things together. Farewell!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "向来敬重强者，你能以一己之力击败我们这么多人，足以证明你的能耐。望你能继续留在组织，共创大业，告辞！"
+    translated: "We have always respected the strong. Your ability to defeat so many of us single-handedly is proof of your prowess. We hope you will remain with our organization and help us achieve great things together. Farewell!"
+  templates:
+  - split: 2
+    template: "<{0}>{1}"
+- raw: "11,8004,你行踪鬼祟，且一路尾随与我，莫不是欲行歹事！"
+  splits:
+  - split: 2
+    text: "你行踪鬼祟，且一路尾随与我，莫不是欲行歹事！"
+    translated: "Your movements are suspicious, and you have been tailing me all along. Do you intend to do me harm?"
+    qcReviewedText: "Your movements are suspicious, and you have been tailing me all along. Do you intend to do me harm?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "12,8005,面前之人不敢置信地看着眼前手持血刃之人，口中不住呜咽……不消片刻便不甘地倒在血泊之中，一只血手仍将你的衣角紧紧攥在手中……"
+  splits:
+  - split: 2
+    text: "面前之人不敢置信地看着眼前手持血刃之人，口中不住呜咽……不消片刻便不甘地倒在血泊之中，一只血手仍将你的衣角紧紧攥在手中……"
+    translated: "The person before you stares in disbelief at the blood-soaked blade in your hand, their mouth filled with endless sobs... In no time, they collapse unwillingly into a pool of blood, one bloody hand still clutching tightly to the hem of your garment..."
+    qcReviewedText: "The person before you stares in disbelief at the blood-soaked blade in your hand, their mouth filled with endless sobs... In no time, they collapse unwillingly into a pool of blood, one bloody hand still clutching tightly to the hem of your garment..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,8006,怎的行色如此匆忙，可是有要事寻我？"
+  splits:
+  - split: 2
+    text: "怎的行色如此匆忙，可是有要事寻我？"
+    translated: "Why are you in such a hurry? Is there some urgent matter that requires my attention?"
+    qcReviewedText: "Why are you in such a hurry? Is there some urgent matter that requires my attention?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,14000901,太和派乃当今正道之首，若欲出入本派门墙，来寻贫道便是。"
+  splits:
+  - split: 2
+    text: "太和派乃当今正道之首，若欲出入本派门墙，来寻贫道便是。"
+    translated: "The Taihe Sect stands as the foremost of the righteous path today. If you wish to enter our gates, seek me out."
+    qcReviewedText: "The Taihe Sect stands as the foremost of the righteous path today. If you wish to enter our gates, seek me out."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,14000902,本门武学博大精深，若能多多切磋，想必多有进益。"
+  splits:
+  - split: 2
+    text: "本门武学博大精深，若能多多切磋，想必多有进益。"
+    translated: "Our sect's martial arts are vast and profound. If we could practice together more often, I am sure we would all benefit greatly."
+    qcReviewedText: "Our sect's martial arts are vast and profound. If we could practice together more often, I am sure we would all benefit greatly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,14000903,身为长老座下亲传弟子，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+  splits:
+  - split: 2
+    text: "身为长老座下亲传弟子，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+    translated: "As a direct disciple of an Elder, I have striven to improve daily since that day, never daring to slack. It would be wonderful if there were someone to spar with me."
+    qcReviewedText: "As a direct disciple of an Elder, I have striven to improve daily since that day, never daring to slack. It would be wonderful if there were someone to spar with me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "17,14000904,武之一途无穷无尽，若能与高手相较一二，能再进层楼，亦未可知。"
+  splits:
+  - split: 2
+    text: "武之一途无穷无尽，若能与高手相较一二，能再进层楼，亦未可知。"
+    translated: "The path of martial arts is boundless. Should one have the chance to exchange blows with a master, further advancement may yet be possible."
+    qcReviewedText: "The path of martial arts is boundless. Should one have the chance to exchange blows with a master, further advancement may yet be possible."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,14000905,本门武学博大精深，若能多多切磋，想必多有进益。"
+  splits:
+  - split: 2
+    text: "本门武学博大精深，若能多多切磋，想必多有进益。"
+    translated: "Our sect's martial arts are vast and profound. If we could practice together more often, I am sure we would all benefit greatly."
+    qcReviewedText: "Our sect's martial arts are vast and profound. If we could practice together more often, I am sure we would all benefit greatly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,14000906,身为长老座下亲传弟子，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+  splits:
+  - split: 2
+    text: "身为长老座下亲传弟子，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+    translated: "As a direct disciple of an Elder, I have striven to improve daily since that day, never daring to slack. It would be wonderful if there were someone to spar with me."
+    qcReviewedText: "As a direct disciple of an Elder, I have striven to improve daily since that day, never daring to slack. It would be wonderful if there were someone to spar with me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,14000907,武之一途无穷无尽，若能与高手相较一二，能再进层楼，亦未可知。"
+  splits:
+  - split: 2
+    text: "武之一途无穷无尽，若能与高手相较一二，能再进层楼，亦未可知。"
+    translated: "The path of martial arts is boundless. Should one have the chance to exchange blows with a master, further advancement may yet be possible."
+    qcReviewedText: "The path of martial arts is boundless. Should one have the chance to exchange blows with a master, further advancement may yet be possible."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,15000901,天涯海阁坐镇南海，护佑一方，若欲出入本门，来寻在下便是。"
+  splits:
+  - split: 2
+    text: "天涯海阁坐镇南海，护佑一方，若欲出入本门，来寻在下便是。"
+    translated: "Tianya Haige presides over the South Sea, safeguarding this region. Should you wish to enter or leave our sect, come find me."
+    qcReviewedText: "Tianya Haige presides over the South Sea, safeguarding this region. Should you wish to enter or leave our sect, come find me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,15000902,海阁一脉虽不精研武艺，但若能与人切磋相较，想来也是乐事一桩。"
+  splits:
+  - split: 2
+    text: "海阁一脉虽不精研武艺，但若能与人切磋相较，想来也是乐事一桩。"
+    translated: "Though the Hai Pavilion lineage does not specialize in martial arts, sparring with others would surely be a pleasant pastime."
+    qcReviewedText: "Though the Hai Pavilion lineage does not specialize in martial arts, sparring with others would surely be a pleasant pastime."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,15000903,涯守一脉乃本门立派之本，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+  splits:
+  - split: 2
+    text: "涯守一脉乃本门立派之本，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+    translated: "The Yashou lineage is the foundation of our sect. We strive to improve daily and never slacken our efforts. It would be even better if someone were available for a sparring session or two."
+    qcReviewedText: "The Yashou lineage is the foundation of our sect. We strive to improve daily and never slacken our efforts. It would be even better if someone were available for a sparring session or two."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,15000904,武之一途无穷无尽，能与高手煮酒论剑，此生何求？"
+  splits:
+  - split: 2
+    text: "武之一途无穷无尽，能与高手煮酒论剑，此生何求？"
+    translated: "The path of martial arts is boundless. To share wine and discuss the sword with a master-what more could one ask for in life?"
+    qcReviewedText: "The path of martial arts is boundless. To share wine and discuss the sword with a master-what more could one ask for in life?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,15000905,海阁一脉虽不精研武艺，但若能与人切磋相较，想来也是乐事一桩。"
+  splits:
+  - split: 2
+    text: "海阁一脉虽不精研武艺，但若能与人切磋相较，想来也是乐事一桩。"
+    translated: "Though the Hai Pavilion lineage does not specialize in martial arts, sparring with others would surely be a pleasant pastime."
+    qcReviewedText: "Though the Hai Pavilion lineage does not specialize in martial arts, sparring with others would surely be a pleasant pastime."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,15000906,涯守一脉乃本门立派之本，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+  splits:
+  - split: 2
+    text: "涯守一脉乃本门立派之本，自当日日精进，不敢懈怠，若能有人能切磋一二，那是再好不过。"
+    translated: "The Yashou lineage is the foundation of our sect. We strive to improve daily and never slacken our efforts. It would be even better if someone were available for a sparring session or two."
+    qcReviewedText: "The Yashou lineage is the foundation of our sect. We strive to improve daily and never slacken our efforts. It would be even better if someone were available for a sparring session or two."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,15000907,武之一途无穷无尽，能与高手煮酒论剑，此生何求？"
+  splits:
+  - split: 2
+    text: "武之一途无穷无尽，能与高手煮酒论剑，此生何求？"
+    translated: "The path of martial arts is boundless. To share wine and discuss the sword with a master-what more could one ask for in life?"
+    qcReviewedText: "The path of martial arts is boundless. To share wine and discuss the sword with a master-what more could one ask for in life?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,18000901,咱们五圣教的南疆武学，可与中原的大不相同，你若想出入本教，同我说声便是啦。"
+  splits:
+  - split: 2
+    text: "咱们五圣教的南疆武学，可与中原的大不相同，你若想出入本教，同我说声便是啦。"
+    translated: "Our Wusheng Sect's Southern Frontier Martial Art is quite different from those of the Central Plains. If you wish to enter or leave the sect, just say the word to me."
+    qcReviewedText: "Our Wusheng Sect's Southern Frontier Martial Art is quite different from those of the Central Plains. If you wish to enter or leave the sect, just say the word to me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "29,18000902,蛊术太过高深，要是能和人切磋一番就好了……"
+  splits:
+  - split: 2
+    text: "蛊术太过高深，要是能和人切磋一番就好了……"
+    translated: "My Gu arts are far too profound; I wish I could spar with someone..."
+    qcReviewedText: "My Gu arts are far too profound; I wish I could spar with someone..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "30,18000903,五圣蛊术入门容易，欲要精进，却是要多加切磋才行。"
+  splits:
+  - split: 2
+    text: "五圣蛊术入门容易，欲要精进，却是要多加切磋才行。"
+    translated: "The Five Saints Gu Art is easy to learn, but mastering it requires much practice and sparring."
+    qcReviewedText: "The Five Saints Gu Art is easy to learn, but mastering it requires much practice and sparring."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "31,18000904,本门蛊术出手便难免伤人，想寻高手切磋一番，也是难上加难……"
+  splits:
+  - split: 2
+    text: "本门蛊术出手便难免伤人，想寻高手切磋一番，也是难上加难……"
+    translated: "Our sect's gu arts inevitably cause harm when used, making it exceedingly difficult to find skilled opponents for sparring..."
+    qcReviewedText: "Our sect's gu arts inevitably cause harm when used, making it exceedingly difficult to find skilled opponents for sparring..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "32,18000905,蛊术太过高深，要是能和人切磋一番就好了……"
+  splits:
+  - split: 2
+    text: "蛊术太过高深，要是能和人切磋一番就好了……"
+    translated: "My Gu arts are far too profound; I wish I could spar with someone..."
+    qcReviewedText: "My Gu arts are far too profound; I wish I could spar with someone..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "33,18000906,五圣蛊术入门容易，欲要精进，却是要多加切磋才行。"
+  splits:
+  - split: 2
+    text: "五圣蛊术入门容易，欲要精进，却是要多加切磋才行。"
+    translated: "The Five Saints Gu Art is easy to learn, but mastering it requires much practice and sparring."
+    qcReviewedText: "The Five Saints Gu Art is easy to learn, but mastering it requires much practice and sparring."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "34,18000907,本门蛊术出手便难免伤人，想寻高手切磋一番，也是难上加难……"
+  splits:
+  - split: 2
+    text: "本门蛊术出手便难免伤人，想寻高手切磋一番，也是难上加难……"
+    translated: "Our sect's gu arts inevitably cause harm when used, making it exceedingly difficult to find skilled opponents for sparring..."
+    qcReviewedText: "Our sect's gu arts inevitably cause harm when used, making it exceedingly difficult to find skilled opponents for sparring..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "35,22000901,大旗门立足于此，近年间打退女真鞑子不知多少次强攻，阁下若想出入本门，寻我便是。"
+  splits:
+  - split: 2
+    text: "大旗门立足于此，近年间打退女真鞑子不知多少次强攻，阁下若想出入本门，寻我便是。"
+    translated: "The Daqi Sect has established its base here. In recent years, we have repelled countless fierce assaults by the Jurchen Tartars. If you wish to enter or exit our sect, seek me out."
+    qcReviewedText: "The Daqi Sect has established its base here. In recent years, we have repelled countless fierce assaults by the Jurchen Tartars. If you wish to enter or exit our sect, seek me out."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "36,22000902,本门武学看着简单，但练起来却是颇为别扭，能有人切磋一番便再好不过了。"
+  splits:
+  - split: 2
+    text: "本门武学看着简单，但练起来却是颇为别扭，能有人切磋一番便再好不过了。"
+    translated: "Our sect's martial arts may look simple, but they are quite awkward to practice. It would be best if someone could spar with us."
+    qcReviewedText: "Our sect's martial arts may look simple, but they are quite awkward to practice. It would be best if someone could spar with us."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "37,22000903,平日多切磋，临阵交战时便能多杀几人，阁下可愿与我过上两招？"
+  splits:
+  - split: 2
+    text: "平日多切磋，临阵交战时便能多杀几人，阁下可愿与我过上两招？"
+    translated: "We should practice more often so that we can defeat more enemies in battle. Would you be willing to spar with me for a few rounds?"
+    qcReviewedText: "We should practice more often so that we can defeat more enemies in battle. Would you be willing to spar with me for a few rounds?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "38,22000904,咱们先登营次次打仗都要冲在最前头，平日若不与同门多加切磋，努力精进，只怕九死一生。"
+  splits:
+  - split: 2
+    text: "咱们先登营次次打仗都要冲在最前头，平日若不与同门多加切磋，努力精进，只怕九死一生。"
+    translated: "As the Vanguard Camp, we must always charge to the front in every battle. If we do not frequently spar with our fellow disciples and strive to improve, we will likely face certain death."
+    qcReviewedText: "As the Vanguard Camp, we must always charge to the front in every battle. If we do not frequently spar with our fellow disciples and strive to improve, we will likely face certain death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "39,22000905,本门武学看着简单，但练起来却是颇为别扭，能有人切磋一番便再好不过了。"
+  splits:
+  - split: 2
+    text: "本门武学看着简单，但练起来却是颇为别扭，能有人切磋一番便再好不过了。"
+    translated: "Our sect's martial arts may look simple, but they are quite awkward to practice. It would be best if someone could spar with us."
+    qcReviewedText: "Our sect's martial arts may look simple, but they are quite awkward to practice. It would be best if someone could spar with us."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "40,22000906,平日多切磋，临阵交战时便能多杀几人，阁下可愿与我过上两招？"
+  splits:
+  - split: 2
+    text: "平日多切磋，临阵交战时便能多杀几人，阁下可愿与我过上两招？"
+    translated: "We should practice more often so that we can defeat more enemies in battle. Would you be willing to spar with me for a few rounds?"
+    qcReviewedText: "We should practice more often so that we can defeat more enemies in battle. Would you be willing to spar with me for a few rounds?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "41,22000907,咱们先登营次次打仗都要冲在最前头，平日若不与同门多加切磋，努力精进，只怕九死一生。"
+  splits:
+  - split: 2
+    text: "咱们先登营次次打仗都要冲在最前头，平日若不与同门多加切磋，努力精进，只怕九死一生。"
+    translated: "As the Vanguard Camp, we must always charge to the front in every battle. If we do not frequently spar with our fellow disciples and strive to improve, we will likely face certain death."
+    qcReviewedText: "As the Vanguard Camp, we must always charge to the front in every battle. If we do not frequently spar with our fellow disciples and strive to improve, we will likely face certain death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "42,26000901,纵使本门被天下武林视作江湖邪派，前来拜师之人仍是络绎不绝，向来是不缺人的，是去是留，皆在此处办理。"
+  splits:
+  - split: 2
+    text: "纵使本门被天下武林视作江湖邪派，前来拜师之人仍是络绎不绝，向来是不缺人的，是去是留，皆在此处办理。"
+    translated: "Though our sect is regarded by the Wulin as a heretical faction of the Jianghu, disciples seeking to join us have never ceased to arrive. We are never short of people. Whether one chooses to depart or remain, all such matters are handled here."
+    qcReviewedText: "Though our sect is regarded by the Wulin as a heretical faction of the Jianghu, disciples seeking to join us have never ceased to arrive. We are never short of people. Whether one chooses to depart or remain, all such matters are handled here."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "43,26000902,杀……杀……"
+  splits:
+  - split: 2
+    text: "杀……杀……"
+    translated: "K-K-Kill... Kill..."
+    qcReviewedText: "K-K-Kill... Kill..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "44,26000903,本门武学要旨，便是要“以血喂刀”，若想同我交手，阁下还是掂量掂量为好……"
+  splits:
+  - split: 2
+    text: "本门武学要旨，便是要“以血喂刀”，若想同我交手，阁下还是掂量掂量为好……"
+    translated: "The essence of our sect's martial art is to feed the blade with blood. If you wish to engage me in combat, I suggest you weigh your options carefully..."
+    qcReviewedText: "The essence of our sect's martial art is to feed the blade with blood. If you wish to engage me in combat, I suggest you weigh your options carefully..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "45,26000904,今日杀的人虽已够数，但也不少你这一个……如何，要拔刀么？"
+  splits:
+  - split: 2
+    text: "今日杀的人虽已够数，但也不少你这一个……如何，要拔刀么？"
+    translated: "We have already killed enough today, but one more won't make a difference... So, will you draw your blade?"
+    qcReviewedText: "We have already killed enough today, but one more won't make a difference... So, will you draw your blade?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "46,26000905,杀……杀……"
+  splits:
+  - split: 2
+    text: "杀……杀……"
+    translated: "K-K-Kill... Kill..."
+    qcReviewedText: "K-K-Kill... Kill..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "47,26000906,看来我这口刀上喂的血，还不够多……"
+  splits:
+  - split: 2
+    text: "看来我这口刀上喂的血，还不够多……"
+    translated: "It seems the blood I've fed this blade isn't enough yet..."
+    qcReviewedText: "It seems the blood I've fed this blade isn't enough yet..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "48,26000907,哼，有两下子……此山之上，能胜过我的人可不多。"
+  splits:
+  - split: 2
+    text: "哼，有两下子……此山之上，能胜过我的人可不多。"
+    translated: "Hmph, not bad... There are few who can best me on this mountain."
+    qcReviewedText: "Hmph, not bad... There are few who can best me on this mountain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

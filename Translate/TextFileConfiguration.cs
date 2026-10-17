@@ -91,6 +91,22 @@ public static class TextFileConfiguration
             new() { Path = "inborn__inborn.csv", SkipColumns = TranslateOnly(38, 2, 5) },
             new() { Path = "地图表__MapConfig.csv", SkipColumns = TranslateOnly(20, 2) },
 
+            // Event, boss, gambling, assassin-task, gang-task and letter text, shown directly (nothing compares it with Chinese). The sandbox
+            // copies (BetShop2, GangData2, RefreshTalk2) are already English in the shipped game, so they are not listed. The 说明 column of
+            // dialogChange, the 备注 columns and WorldEvolution__gangTask (never loaded) are design notes.
+            new() { Path = "NPC__dialogChange.csv", SkipColumns = TranslateOnly(9, 6) },
+            new() { Path = "NPC__multiAction.csv", SkipColumns = TranslateOnly(39, 28, 29) },
+            new() { Path = "RefreshBoss__RefreshTalk.csv", SkipColumns = TranslateOnly(10, 2) },
+            new() { Path = "BetShop__Talk.csv", SkipColumns = TranslateOnly(3, 2) },
+            new() { Path = "BetShop__Lips.csv", SkipColumns = TranslateOnly(11, 2, 9) },
+            new() { Path = "BetShop__Bet.csv", SkipColumns = TranslateOnly(11, 2, 3, 4) },
+            new() { Path = "BetShop__SkillTask.csv", SkipColumns = TranslateOnly(11, 3, 4, 5, 6, 7) },
+            new() { Path = "BetShop__SkillLv.csv", SkipColumns = TranslateOnly(9, 2) },
+            new() { Path = "GangData__GangTask.csv", SkipColumns = TranslateOnly(10, 3, 4) },
+            new() { Path = "GangData__GangStation.csv", SkipColumns = TranslateOnly(24, 10, 15) },
+            new() { Path = "LoadingTip__Config.csv", SkipColumns = TranslateOnly(4, 2, 3) },
+            new() { Path = "PigeonMsgData__PigeonMsgData.csv", SkipColumns = TranslateOnly(11, 4, 5) },
+
             // Hard-coded UI text baked into prefabs (Raw/Dumped/PrefabText) and string literals in the game's code
             // (Raw/Dumped/DynamicStrings: Type,Method,ILOffset,RawText,ParamTypes).
             new() { Path = "prefabText.txt", TextFileType = TextFileType.PrefabText },

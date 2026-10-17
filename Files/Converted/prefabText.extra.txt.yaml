@@ -149,3 +149,171 @@
     qcDefectCategory: GarbledNumber
     qcDefectCategories:
     - GarbledNumber
+- raw: "此洞幽深莫名，恐有凶险，眼下不宜妄入。"
+  splits:
+  - text: "此洞幽深莫名，恐有凶险，眼下不宜妄入。"
+    translated: "This cave is fathomlessly deep and may well be dangerous. Now is no time to rush in."
+    qcReviewedText: "This cave is fathomlessly deep and may well be dangerous. Now is no time to rush in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "门扉紧闭。"
+  splits:
+  - text: "门扉紧闭。"
+    translated: "The door is shut tight."
+    qcReviewedText: "The door is shut tight."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "门已上闩，推之不开。"
+  splits:
+  - text: "门已上闩，推之不开。"
+    translated: "The door is barred. It won't budge."
+    qcReviewedText: "The door is barred. It won't budge."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "此地似是太和掌门所居，还是莫要擅闯了。"
+  splits:
+  - text: "此地似是太和掌门所居，还是莫要擅闯了。"
+    translated: "This looks like the residence of the Taihe sect leader. Better not barge in."
+    qcReviewedText: "This looks like the residence of the Taihe sect leader. Better not barge in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "巍巍太和，玄门圣地，不宜擅闯。"
+  splits:
+  - text: "巍巍太和，玄门圣地，不宜擅闯。"
+    translated: "Lofty Taihe, a sacred Daoist ground. Best not to trespass."
+    qcReviewedText: "Lofty Taihe, a sacred Daoist ground. Best not to trespass."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "灰岩石门坚固异常，非蛮力所能为。"
+  splits:
+  - text: "灰岩石门坚固异常，非蛮力所能为。"
+    translated: "The gray stone door is exceptionally sturdy. Brute force won't open it."
+    qcReviewedText: "The gray stone door is exceptionally sturdy. Brute force won't open it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "石门紧闭，非蛮力所能破。"
+  splits:
+  - text: "石门紧闭，非蛮力所能破。"
+    translated: "The stone door is shut tight. Brute force won't break it."
+    qcReviewedText: "The stone door is shut tight. Brute force won't break it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "铁门紧闭，非蛮力所能破。"
+  splits:
+  - text: "铁门紧闭，非蛮力所能破。"
+    translated: "The iron door is shut tight. Brute force won't break it."
+    qcReviewedText: "The iron door is shut tight. Brute force won't break it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "海阁弟子把守此处，不宜擅闯。"
+  splits:
+  - text: "海阁弟子把守此处，不宜擅闯。"
+    translated: "Haige disciples guard this place. Best not to trespass."
+    qcReviewedText: "Haige disciples guard this place. Best not to trespass."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "前路被人层层把守，还是莫要擅闯了。"
+  splits:
+  - text: "前路被人层层把守，还是莫要擅闯了。"
+    translated: "The way ahead is heavily guarded. Better not force your way in."
+    qcReviewedText: "The way ahead is heavily guarded. Better not force your way in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "大门紧闭。"
+  splits:
+  - text: "大门紧闭。"
+    translated: "The gate is shut tight."
+    qcReviewedText: "The gate is shut tight."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "非请勿入，还是莫要擅闯了。"
+  splits:
+  - text: "非请勿入，还是莫要擅闯了。"
+    translated: "No entry without an invitation. Better not barge in."
+    qcReviewedText: "No entry without an invitation. Better not barge in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "前路被五圣教众把守，还是莫要擅入了。"
+  splits:
+  - text: "前路被五圣教众把守，还是莫要擅入了。"
+    translated: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcReviewedText: "The way ahead is guarded by Wusheng Sect members. Better not go in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "石门厚如千钧，若不明其中关要，断难开启……"
+  splits:
+  - text: "石门厚如千钧，若不明其中关要，断难开启……"
+    translated: "The stone door is immensely heavy. Without understanding its mechanism, there is no way to open it..."
+    qcReviewedText: "The stone door is immensely heavy. Without understanding its mechanism, there is no way to open it..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "守门军士将你拦住，示意你随列等候查验。"
+  splits:
+  - text: "守门军士将你拦住，示意你随列等候查验。"
+    translated: "The gate guards stop you and signal for you to join the line and wait to be inspected."
+    qcReviewedText: "The gate guards stop you and signal for you to join the line and wait to be inspected."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "私人宅邸勿要擅闯！"
+  splits:
+  - text: "私人宅邸勿要擅闯！"
+    translated: "Private residence. Do not trespass!"
+    qcReviewedText: "Private residence. Do not trespass!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "军中营房，门扉紧闭。"
+  splits:
+  - text: "军中营房，门扉紧闭。"
+    translated: "Military barracks. The door is shut tight."
+    qcReviewedText: "Military barracks. The door is shut tight."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "军机要地，不宜擅闯。"
+  splits:
+  - text: "军机要地，不宜擅闯。"
+    translated: "A sensitive military site. Best not to trespass."
+    qcReviewedText: "A sensitive military site. Best not to trespass."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "城门紧闭。"
+  splits:
+  - text: "城门紧闭。"
+    translated: "The city gate is shut tight."
+    qcReviewedText: "The city gate is shut tight."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "敌军腹地，不宜擅闯。"
+  splits:
+  - text: "敌军腹地，不宜擅闯。"
+    translated: "Deep in enemy territory. Best not to venture in."
+    qcReviewedText: "Deep in enemy territory. Best not to venture in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "此处乃贼军营寨，不可擅入。"
+  splits:
+  - text: "此处乃贼军营寨，不可擅入。"
+    translated: "This is a rebel army camp. Do not enter rashly."
+    qcReviewedText: "This is a rebel army camp. Do not enter rashly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

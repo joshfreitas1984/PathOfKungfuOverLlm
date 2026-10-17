@@ -111,7 +111,7 @@
   adjustWidth: -70
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task(Clone)/txt_Tittle
   sampleText: The Legend of the Rotten Axe：
-  idealFontSize: 16
+  idealFontSize: 1
   adjustX: -3
   adjustY: 5
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/trans_TaskList/item_task*/txt_tittle
@@ -220,3 +220,44 @@
   sampleText: 气血上限+1680
   idealFontSize: 21
   adjustX: 180
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task(Clone)/txt_Wudao
+  sampleText: 【Character Chronicles】
+  idealFontSize: 20
+  adjustWidth: 50
+- path: CanvasSkillTalk/ImageTip2/TextTalk
+  sampleText: Lone Swan Beholds Its Shadow
+  idealFontSize: 20
+  allowAutoSizing: false
+  adjustWidth: 200
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Text
+  sampleText: Gain
+  idealFontSize: 20
+  adjustWidth: -35
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Text2*
+  sampleText: Cultivation
+  idealFontSize: 17
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Image/TextGetXiuWei
+  sampleText: 6
+  idealFontSize: 18
+- path: 'BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Image2/TextGetSilver '
+  sampleText: 0 5
+  idealFontSize: 18
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Image (2)/TextGetZaoYi
+  sampleText: 10
+  idealFontSize: 18
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/JinMaiContent/BtnBack/TextChild
+  sampleText: Return
+  idealFontSize: 24
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/JinMaiContent/txtDes
+  sampleText: 【Arm Acupoint】
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustX: -70
+  adjustWidth: 70
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/PanelText2/TextTip
+  sampleText: At that time, my husband was barely rescued from prison by …
+  idealFontSize: 16
+  allowAutoSizing: false
+  adjustY: 10
+  adjustWidth: 15
+  adjustHeight: -15

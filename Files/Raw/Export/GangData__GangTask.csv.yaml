@@ -1,0 +1,808 @@
+- raw: "1,,,名称,描述,功勋奖励,修为奖励,时间限制（0表示无限制）,位阶,参数"
+  splits:
+  - split: 3
+    text: "名称"
+  - split: 4
+    text: "描述"
+- raw: "2,id,备注,name,desc,award,award_xiuwei,time,rank,paramStr"
+- raw: "3,1,,宵小作乱,敌帮近日愈发猖狂，其中一伙宵小以npcName为首，速去将其击杀，以正视听。,150,49,0,5,1"
+  splits:
+  - split: 3
+    text: "宵小作乱"
+  - split: 4
+    text: "敌帮近日愈发猖狂，其中一伙宵小以"
+  - split: 4
+    subIndex: 1
+    text: "为首，速去将其击杀，以正视听。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "4,2,,宵小作乱,敌帮近日愈发猖狂，其中一伙宵小以npcName为首，速去将其击杀，以正视听。,150,49,0,5,1"
+  splits:
+  - split: 3
+    text: "宵小作乱"
+  - split: 4
+    text: "敌帮近日愈发猖狂，其中一伙宵小以"
+  - split: 4
+    subIndex: 1
+    text: "为首，速去将其击杀，以正视听。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "5,3,,立足未稳,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,100,35,0,5,2"
+  splits:
+  - split: 3
+    text: "立足未稳"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "6,4,,立足未稳,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,100,35,0,5,2"
+  splits:
+  - split: 3
+    text: "立足未稳"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "7,5,,人情世故,初来乍到，需先通人情世礼，npcName于本帮略有威望，携些礼品相赠，以通往来。,100,35,0,5,5"
+  splits:
+  - split: 3
+    text: "人情世故"
+  - split: 4
+    text: "初来乍到，需先通人情世礼，"
+  - split: 4
+    subIndex: 1
+    text: "于本帮略有威望，携些礼品相赠，以通往来。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "8,6,,人情世故,初来乍到，需先通人情世礼，npcName于本帮略有威望，携些礼品相赠，以通往来。,100,35,0,5,5"
+  splits:
+  - split: 3
+    text: "人情世故"
+  - split: 4
+    text: "初来乍到，需先通人情世礼，"
+  - split: 4
+    subIndex: 1
+    text: "于本帮略有威望，携些礼品相赠，以通往来。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "9,7,,滥竽充数,近日厮杀愈繁，帮内兵器损耗颇巨，急需一件itemName，以充仓储。,200,78,0,5,\"4,102102,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+  - split: 4
+    text: "近日厮杀愈繁，帮内兵器损耗颇巨，急需一件"
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "10,8,,滥竽充数,近日厮杀愈繁，帮内兵器损耗颇巨，急需一件itemName，以充仓储。,200,78,0,5,\"4,106002,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+  - split: 4
+    text: "近日厮杀愈繁，帮内兵器损耗颇巨，急需一件"
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "11,9,,滥竽充数,近日厮杀愈繁，帮内兵器损耗颇巨，急需一件itemName，以充仓储。,200,78,0,5,\"4,104002,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+  - split: 4
+    text: "近日厮杀愈繁，帮内兵器损耗颇巨，急需一件"
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "12,10,,滥竽充数,近日厮杀愈繁，帮内药石损耗颇巨，急需一份itemName，以充仓储。,200,78,0,5,\"4,901000,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+  - split: 4
+    text: "近日厮杀愈繁，帮内药石损耗颇巨，急需一份"
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "13,11,,步步为营,敌帮近日疏于防备，良机易逝，速将npcName除去，以壮本帮声威。,300,139,0,4,1"
+  splits:
+  - split: 3
+    text: "步步为营"
+  - split: 4
+    text: "敌帮近日疏于防备，良机易逝，速将"
+  - split: 4
+    subIndex: 1
+    text: "除去，以壮本帮声威。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "14,12,,步步为营,敌帮近日疏于防备，良机易逝，速将npcName除去，以壮本帮声威。,300,139,0,4,1"
+  splits:
+  - split: 3
+    text: "步步为营"
+  - split: 4
+    text: "敌帮近日疏于防备，良机易逝，速将"
+  - split: 4
+    subIndex: 1
+    text: "除去，以壮本帮声威。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "15,13,,树威立信,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,200,78,0,4,2"
+  splits:
+  - split: 3
+    text: "树威立信"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "16,14,,树威立信,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,200,78,0,4,2"
+  splits:
+  - split: 3
+    text: "树威立信"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "17,15,,处世之本,立足初稳之际，需打通人情脉络，npcName于本帮颇有威望，携些礼品相赠，以通往来。,200,78,0,4,5"
+  splits:
+  - split: 3
+    text: "处世之本"
+  - split: 4
+    text: "立足初稳之际，需打通人情脉络，"
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "18,16,,处世之本,立足初稳之际，需打通人情脉络，npcName于本帮颇有威望，携些礼品相赠，以通往来。,200,78,0,4,5"
+  splits:
+  - split: 3
+    text: "处世之本"
+  - split: 4
+    text: "立足初稳之际，需打通人情脉络，"
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "19,17,,仓储不足,帮内仓储兵器良莠不齐，现需一件itemName，以备不时。,300,139,0,4,\"4,102103,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+  - split: 4
+    text: "帮内仓储兵器良莠不齐，现需一件"
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "20,18,,仓储不足,帮内仓储兵器良莠不齐，现需一件itemName，以备不时。,300,139,0,4,\"4,106003,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+  - split: 4
+    text: "帮内仓储兵器良莠不齐，现需一件"
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "21,19,,仓储不足,帮内仓储兵器良莠不齐，现需一件itemName，以备不时。,300,139,0,4,\"4,104003,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+  - split: 4
+    text: "帮内仓储兵器良莠不齐，现需一件"
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "22,20,,仓储不足,帮内仓储药石良莠不齐，现需一份itemName，以备不时。,300,139,0,4,\"4,901003,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+  - split: 4
+    text: "帮内仓储药石良莠不齐，现需一份"
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "23,21,,侵吞蚕食,敌帮近日骤然偃旗息鼓，定是图谋不轨，将npcName击杀，以观其变。,500,200,0,3,1"
+  splits:
+  - split: 3
+    text: "侵吞蚕食"
+  - split: 4
+    text: "敌帮近日骤然偃旗息鼓，定是图谋不轨，将"
+  - split: 4
+    subIndex: 1
+    text: "击杀，以观其变。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "24,22,,侵吞蚕食,敌帮近日骤然偃旗息鼓，定是图谋不轨，将npcName击杀，以观其变。,500,200,0,3,1"
+  splits:
+  - split: 3
+    text: "侵吞蚕食"
+  - split: 4
+    text: "敌帮近日骤然偃旗息鼓，定是图谋不轨，将"
+  - split: 4
+    subIndex: 1
+    text: "击杀，以观其变。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "25,23,,以武服人,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,400,184,0,3,2"
+  splits:
+  - split: 3
+    text: "以武服人"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "26,24,,以武服人,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,400,184,0,3,2"
+  splits:
+  - split: 3
+    text: "以武服人"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "27,25,,坊间传闻,传闻npcName身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,500,200,0,3,3"
+  splits:
+  - split: 3
+    text: "坊间传闻"
+  - split: 4
+    text: "传闻"
+  - split: 4
+    subIndex: 1
+    text: "身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "28,26,,坊间传闻,传闻npcName身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,500,200,0,3,3"
+  splits:
+  - split: 3
+    text: "坊间传闻"
+  - split: 4
+    text: "传闻"
+  - split: 4
+    subIndex: 1
+    text: "身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "29,27,,秣马厉兵,帮内正缺上好兵刃，现需一件itemName，速速办妥。,400,184,0,3,\"4,102104,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+  - split: 4
+    text: "帮内正缺上好兵刃，现需一件"
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "30,28,,秣马厉兵,帮内正缺上好兵刃，现需一件itemName，速速办妥。,400,184,0,3,\"4,106004,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+  - split: 4
+    text: "帮内正缺上好兵刃，现需一件"
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "31,29,,秣马厉兵,帮内正缺上好兵刃，现需一件itemName，速速办妥。,400,184,0,3,\"4,104004,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+  - split: 4
+    text: "帮内正缺上好兵刃，现需一件"
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "32,30,,秣马厉兵,帮内正缺上好药石，现需一份itemName，速速办妥。,400,184,0,3,\"4,901004,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+  - split: 4
+    text: "帮内正缺上好药石，现需一份"
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "33,31,,血雨腥风,敌帮元气大伤，分身乏术，趁此机会将npcName击杀，以除本帮大敌。,600,224,0,2,1"
+  splits:
+  - split: 3
+    text: "血雨腥风"
+  - split: 4
+    text: "敌帮元气大伤，分身乏术，趁此机会将"
+  - split: 4
+    subIndex: 1
+    text: "击杀，以除本帮大敌。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "34,32,,血雨腥风,敌帮元气大伤，分身乏术，趁此机会将npcName击杀，以除本帮大敌。,600,224,0,2,1"
+  splits:
+  - split: 3
+    text: "血雨腥风"
+  - split: 4
+    text: "敌帮元气大伤，分身乏术，趁此机会将"
+  - split: 4
+    subIndex: 1
+    text: "击杀，以除本帮大敌。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "35,33,,立身扬名,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,500,200,0,2,2"
+  splits:
+  - split: 3
+    text: "立身扬名"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "36,34,,立身扬名,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,500,200,0,2,2"
+  splits:
+  - split: 3
+    text: "立身扬名"
+  - split: 4
+    text: "帮内"
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "37,35,,不传之秘,传闻npcName身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,600,224,0,2,3"
+  splits:
+  - split: 3
+    text: "不传之秘"
+  - split: 4
+    text: "传闻"
+  - split: 4
+    subIndex: 1
+    text: "身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "38,36,,不传之秘,传闻npcName身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,600,224,0,2,3"
+  splits:
+  - split: 3
+    text: "不传之秘"
+  - split: 4
+    text: "传闻"
+  - split: 4
+    subIndex: 1
+    text: "身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "39,37,,披坚执锐,帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件itemName，以解燃眉之急。,500,200,0,2,\"4,102106,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+  - split: 4
+    text: "帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件"
+  - split: 4
+    subIndex: 1
+    text: "，以解燃眉之急。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "40,38,,披坚执锐,帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件itemName，以解燃眉之急。,500,200,0,2,\"4,106004,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+  - split: 4
+    text: "帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件"
+  - split: 4
+    subIndex: 1
+    text: "，以解燃眉之急。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "41,39,,披坚执锐,帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件itemName，以解燃眉之急。,500,200,0,2,\"4,104006,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+  - split: 4
+    text: "帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件"
+  - split: 4
+    subIndex: 1
+    text: "，以解燃眉之急。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "42,40,,披坚执锐,敌帮虽元气大伤，一场血战仍是在所难免，现需一份itemName，以备不时之需。,500,200,0,2,\"4,901004,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+  - split: 4
+    text: "敌帮虽元气大伤，一场血战仍是在所难免，现需一份"
+  - split: 4
+    subIndex: 1
+    text: "，以备不时之需。"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "43,41,,雄踞一方,敌帮已然一溃千里，然贼首尚余，请帮主出手，斩杀npcName！,800,386,0,1,1"
+  splits:
+  - split: 3
+    text: "雄踞一方"
+  - split: 4
+    text: "敌帮已然一溃千里，然贼首尚余，请帮主出手，斩杀"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}！"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "44,42,,群雄俯首,npcName那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！,600,224,0,1,2"
+  splits:
+  - split: 3
+    text: "群雄俯首"
+  - split: 4
+    text: "那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！"
+  templates:
+  - split: 4
+    template: "{taskNpcName}{0}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "45,43,,群雄俯首,npcName那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！,600,224,0,1,2"
+  splits:
+  - split: 3
+    text: "群雄俯首"
+  - split: 4
+    text: "那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！"
+  templates:
+  - split: 4
+    template: "{taskNpcName}{0}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "46,44,,八面玲珑,身为帮主，自需恩威并施，npcName近日为本帮立下不小功劳，或需携礼相赠，以德服人。,500,200,0,1,5"
+  splits:
+  - split: 3
+    text: "八面玲珑"
+  - split: 4
+    text: "身为帮主，自需恩威并施，"
+  - split: 4
+    subIndex: 1
+    text: "近日为本帮立下不小功劳，或需携礼相赠，以德服人。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "47,45,,武林秘辛,敌帮虽溃，却仍有传言，逃出的npcName身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。,700,328,0,1,3"
+  splits:
+  - split: 3
+    text: "武林秘辛"
+  - split: 4
+    text: "敌帮虽溃，却仍有传言，逃出的"
+  - split: 4
+    subIndex: 1
+    text: "身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "48,46,,武林秘辛,敌帮虽溃，却仍有传言，逃出的npcName身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。,700,328,0,1,3"
+  splits:
+  - split: 3
+    text: "武林秘辛"
+  - split: 4
+    text: "敌帮虽溃，却仍有传言，逃出的"
+  - split: 4
+    subIndex: 1
+    text: "身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "49,47,,神兵利器,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件itemName陈于厅堂，定能令本帮声威更胜往昔！,700,328,0,1,\"4,102107,1\""
+  splits:
+  - split: 3
+    text: "神兵利器"
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件"
+  - split: 4
+    subIndex: 1
+    text: "陈于厅堂，定能令本帮声威更胜往昔！"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "50,48,,神兵利器,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件itemName陈于厅堂，定能令本帮声威更胜往昔！,700,328,0,1,\"4,106007,1\""
+  splits:
+  - split: 3
+    text: "神兵利器"
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件"
+  - split: 4
+    subIndex: 1
+    text: "陈于厅堂，定能令本帮声威更胜往昔！"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "51,49,,神兵利器,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件itemName陈于厅堂，定能令本帮声威更胜往昔！,700,328,0,1,\"4,104007,1\""
+  splits:
+  - split: 3
+    text: "神兵利器"
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件"
+  - split: 4
+    subIndex: 1
+    text: "陈于厅堂，定能令本帮声威更胜往昔！"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "52,50,,灵丹妙药,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一份itemName陈于宝库，定能令本帮声威更胜往昔！,700,328,0,1,\"4,901006,1\""
+  splits:
+  - split: 3
+    text: "灵丹妙药"
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一份"
+  - split: 4
+    subIndex: 1
+    text: "陈于宝库，定能令本帮声威更胜往昔！"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "53,51,,捕风捉影,敌帮npcName近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,200,78,0,5,3"
+  splits:
+  - split: 3
+    text: "捕风捉影"
+  - split: 4
+    text: "敌帮"
+  - split: 4
+    subIndex: 1
+    text: "近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "54,52,,追匿寻踪,敌帮npcName近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,300,139,0,4,3"
+  splits:
+  - split: 3
+    text: "追匿寻踪"
+  - split: 4
+    text: "敌帮"
+  - split: 4
+    subIndex: 1
+    text: "近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "55,53,,互通有无,虽立足已稳，然人情事故不可懈怠，npcName于本帮颇有威望，携些礼品相赠，以通往来。,400,184,0,3,5"
+  splits:
+  - split: 3
+    text: "互通有无"
+  - split: 4
+    text: "虽立足已稳，然人情事故不可懈怠，"
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "56,54,,长袖善舞,地位蒸蒸日上，正是广铺人情脉路之时，npcName于本帮颇有威望，携些礼品相赠，以通往来。,500,200,0,2,5"
+  splits:
+  - split: 3
+    text: "长袖善舞"
+  - split: 4
+    text: "地位蒸蒸日上，正是广铺人情脉路之时，"
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"

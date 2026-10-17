@@ -1,0 +1,703 @@
+- raw: "1,怪物组ID,名称,显示条件,条件参数,消耗参数,点击触发的功能,功能参数,功能参数2,不满足条件点击的提示语,关闭赌坊"
+  splits:
+  - split: 2
+    text: "名称"
+    translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 9
+    text: "不满足条件点击的提示语"
+    translated: "Click prompt when conditions are not met"
+    qcReviewedText: "Click prompt when conditions are not met"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,Name,showConditions,ConditionsCan,ConsumeCan,Function,FunctionCan,FunctionCan2,Tips,open"
+- raw: "3,2001,要（需要10文）,0,1002_10,0,1,UIBetShop,,不满此桌最低下注银两,1"
+  splits:
+  - split: 2
+    text: "要（需要10文）"
+    translated: "Required (10 wen)"
+    qcReviewedText: "Required (10 wen)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 9
+    text: "不满此桌最低下注银两"
+    translated: "Below the minimum bet for this table"
+    qcReviewedText: "Below the minimum bet for this table"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,2002,不要,0,0,0,2,0,,0,1"
+  splits:
+  - split: 2
+    text: "不要"
+    translated: "No"
+    qcReviewedText: "No"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,2003,要（需要100文）,0,1002_100,0,1,UIBetShop,,不满此桌最低下注银两,1"
+  splits:
+  - split: 2
+    text: "要（需要100文）"
+    translated: "Required (100 wen)"
+    qcReviewedText: "Required (100 wen)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 9
+    text: "不满此桌最低下注银两"
+    translated: "Below the minimum bet for this table"
+    qcReviewedText: "Below the minimum bet for this table"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,2004,要（需要1两）,0,1002_1000,0,1,UIBetShop,,不满此桌最低下注银两,1"
+  splits:
+  - split: 2
+    text: "要（需要1两）"
+    translated: "Requires (1 pieces)"
+    qcReviewedText: "Requires (1 pieces)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 9
+    text: "不满此桌最低下注银两"
+    translated: "Below the minimum bet for this table"
+    qcReviewedText: "Below the minimum bet for this table"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,9001,寄存物品,0,0,0,1,UIPaiMaiHang,,0,1"
+  splits:
+  - split: 2
+    text: "寄存物品"
+    translated: "Store Items"
+    qcReviewedText: "Store Items"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,8001,买凶杀人,0,0,0,3,1_1,,0,1"
+  splits:
+  - split: 2
+    text: "买凶杀人"
+    translated: "Hire a killer"
+    qcReviewedText: "Hire a killer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,8002,加入组织,1_0,0,0,3,1_2,,0,1"
+  splits:
+  - split: 2
+    text: "加入组织"
+    translated: "Join the Organization"
+    qcReviewedText: "Join the Organization"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,8003,领取杀手任务,1_1,0,0,5,8101_8102,talk,0,1"
+  splits:
+  - split: 2
+    text: "领取杀手任务"
+    translated: "Accept the assassin's mission"
+    qcReviewedText: "Accept the assassin's mission"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "11,8004,杀手商店,1_1,0,0,1,UIShopShow,41001,0,1"
+  splits:
+  - split: 2
+    text: "杀手商店"
+    translated: "Assassin's Shop"
+    qcReviewedText: "Assassin's Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "12,8005,查看当前杀手任务,1_2,0,0,3,1_3,talk,0,1"
+  splits:
+  - split: 2
+    text: "查看当前杀手任务"
+    translated: "View Current Assassin Mission"
+    qcReviewedText: "View Current Assassin Mission"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,8006,杀手商店,1_2,0,0,1,UIShopShow,41001,0,1"
+  splits:
+  - split: 2
+    text: "杀手商店"
+    translated: "Assassin's Shop"
+    qcReviewedText: "Assassin's Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,8009,离开,0,0,0,2,0,,0,1"
+  splits:
+  - split: 2
+    text: "离开"
+    translated: "Leave"
+    qcReviewedText: "Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,8101,领命杀人,0,0,0,3,2_1,talk1,0,1"
+  splits:
+  - split: 2
+    text: "领命杀人"
+    translated: "Taking Orders to Kill"
+    qcReviewedText: "Taking Orders to Kill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,8102,以财抵命,0,0,0,5,8103_8104_8110,talk2,0,1"
+  splits:
+  - split: 2
+    text: "以财抵命"
+    translated: "Life for Wealth"
+    qcReviewedText: "Life for Wealth"
+    qcTranslated: "Wealth for Life"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "17,8103,递交银两(100文),0,1002_100,1002_100,5,8009,talk3,你的银两不足！,1"
+  splits:
+  - split: 2
+    text: "递交银两"
+    translated: "Submit Silver"
+    qcReviewedText: "Submit Silver(100wen)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "100文"
+    translated: "100wen"
+  - split: 9
+    text: "你的银两不足！"
+    translated: "You don't have enough Silver!"
+    qcReviewedText: "You don't have enough Silver!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "18,8104,消减声望(100杀手声望),0,1006_100,1006_100,5,8009,talk3,你的杀手声望不足！,1"
+  splits:
+  - split: 2
+    text: "消减声望"
+    translated: "Reduce Reputation"
+    qcReviewedText: "Reduce Reputation(100 Assassin Reputation)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "100杀手声望"
+    translated: "100 Assassin Reputation"
+  - split: 9
+    text: "你的杀手声望不足！"
+    translated: "Your Assassin Reputation is insufficient!"
+    qcReviewedText: "Your Assassin Reputation is insufficient!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "19,8105,避无可避,0,0,0,6,0,,0,1"
+  splits:
+  - split: 2
+    text: "避无可避"
+    translated: "There is no place to hide"
+    qcReviewedText: "There is no place to hide"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,8106,领命杀人,0,0,0,7,0,,0,1"
+  splits:
+  - split: 2
+    text: "领命杀人"
+    translated: "Taking Orders to Kill"
+    qcReviewedText: "Taking Orders to Kill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,8110,返回,0,0,0,4,8101_8102,,0,1"
+  splits:
+  - split: 2
+    text: "返回"
+    translated: "Return"
+    qcReviewedText: "Return"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,14000101,加入门派,2_1001,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+    translated: "Join a Sect"
+    qcReviewedText: "Join a Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,14000102,退出门派,3_1001,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+    translated: "Leave the Sect"
+    qcReviewedText: "Leave the Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,14000201,门派挑战·初级,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Beginner"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "初级"
+    translated: "Beginner"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "25,14000202,门派挑战·中级,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Intermediate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "中级"
+    translated: "Intermediate"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "26,14000203,门派挑战·高级,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Advanced"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "高级"
+    translated: "Advanced"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "27,15000101,加入门派,2_1002,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+    translated: "Join a Sect"
+    qcReviewedText: "Join a Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,15000102,退出门派,3_1002,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+    translated: "Leave the Sect"
+    qcReviewedText: "Leave the Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "29,15000201,门派挑战·初级,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Beginner"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "初级"
+    translated: "Beginner"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "30,15000202,门派挑战·中级,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Intermediate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "中级"
+    translated: "Intermediate"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "31,15000203,门派挑战·高级,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Advanced"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "高级"
+    translated: "Advanced"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "32,18000101,加入门派,2_1005,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+    translated: "Join a Sect"
+    qcReviewedText: "Join a Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "33,18000102,退出门派,3_1005,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+    translated: "Leave the Sect"
+    qcReviewedText: "Leave the Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "34,18000201,门派挑战·初级,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Beginner"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "初级"
+    translated: "Beginner"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "35,18000202,门派挑战·中级,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Intermediate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "中级"
+    translated: "Intermediate"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "36,18000203,门派挑战·高级,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Advanced"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "高级"
+    translated: "Advanced"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "37,22000101,加入门派,2_1006,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+    translated: "Join a Sect"
+    qcReviewedText: "Join a Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "38,22000102,退出门派,3_1006,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+    translated: "Leave the Sect"
+    qcReviewedText: "Leave the Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "39,22000201,门派挑战·初级,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Beginner"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "初级"
+    translated: "Beginner"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "40,22000202,门派挑战·中级,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Intermediate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "中级"
+    translated: "Intermediate"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "41,22000203,门派挑战·高级,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Advanced"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "高级"
+    translated: "Advanced"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "42,26000101,加入门派,2_1007,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+    translated: "Join a Sect"
+    qcReviewedText: "Join a Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "43,26000102,退出门派,3_1007,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+    translated: "Leave the Sect"
+    qcReviewedText: "Leave the Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "44,26000201,门派挑战·初级,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Beginner"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "初级"
+    translated: "Beginner"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "45,26000202,门派挑战·中级,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Intermediate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "中级"
+    translated: "Intermediate"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "46,26000203,门派挑战·高级,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Advanced"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "高级"
+    translated: "Advanced"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "47,920101,门派挑战·上,5_0,0,0,10,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Upstairs"
+    qcTranslated: "Sect Challenge·Part 1"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 2
+    subIndex: 1
+    text: "上"
+    translated: "Upstairs"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "48,920102,门派挑战·下,5_1,0,0,10,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Down"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "下"
+    translated: "Down"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "49,920201,门派挑战·上(需先加入门派),6_0,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Upstairs(Must join a Sect first)"
+    qcTranslated: "Sect Challenge·Part 1(Must join a Sect first)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 2
+    subIndex: 1
+    text: "上"
+    translated: "Upstairs"
+  - split: 2
+    subIndex: 2
+    text: "需先加入门派"
+    translated: "Must join a Sect first"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "50,920202,门派挑战·下(需先加入门派),6_1,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Down(Must join a Sect first)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "下"
+    translated: "Down"
+  - split: 2
+    subIndex: 2
+    text: "需先加入门派"
+    translated: "Must join a Sect first"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "51,920301,门派挑战·上(需完成前置挑战),7_0,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Upstairs(Complete the prerequisite challenge)"
+    qcTranslated: "Sect Challenge·Part 1(Complete the prerequisite challenge)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 2
+    subIndex: 1
+    text: "上"
+    translated: "Upstairs"
+  - split: 2
+    subIndex: 2
+    text: "需完成前置挑战"
+    translated: "Complete the prerequisite challenge"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "52,920302,门派挑战·下(需完成前置挑战),7_1,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+    translated: "Sect Challenge"
+    qcReviewedText: "Sect Challenge·Down(Complete the prerequisite challenge)"
+    qcTranslated: "Sect Challenge·Part 2 (Complete the prerequisite challenge)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "下"
+    translated: "Down"
+  - split: 2
+    subIndex: 2
+    text: "需完成前置挑战"
+    translated: "Complete the prerequisite challenge"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "53,920999,返回,0,0,0,11,0,,0,1"
+  splits:
+  - split: 2
+    text: "返回"
+    translated: "Return"
+    qcReviewedText: "Return"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

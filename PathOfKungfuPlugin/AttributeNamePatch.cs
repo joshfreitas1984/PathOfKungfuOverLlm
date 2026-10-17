@@ -1,6 +1,9 @@
 using HarmonyLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Reflection.Emit;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,6 +30,8 @@ internal static class AttributeNames
         ("体力上限", "Max Stamina"), ("体力回复", "Stamina Recovery"), ("暴击率", "Crit Rate"), ("暴击伤害", "Crit Damage"), ("暴击减免", "Crit Reduction"),
         ("速度", "Speed"), ("移动速度", "Movement Speed"), ("攻击速度", "Attack Speed"),
     }.OrderByDescending(n => n.Item1.Length).ToArray();
+
+    internal static bool IsAttributeName(string chinese) => Names.Any(n => n.Chinese == chinese);
 
     internal static string Translate(string text)
     {
@@ -92,6 +97,172 @@ internal static class WuXueBonusAttributePatch
         if (___txt_wxJiacheng == null || string.IsNullOrEmpty(___txt_wxJiacheng.text)) return;
 
         ___txt_wxJiacheng.text = AttributeNames.Translate(___txt_wxJiacheng.text);
+    }
+}
+
+/// <summary>
+/// Breaking through a meridian opens UITipContent with the raw JingLuo collaterals tip ("内功防御+5"), a key the game parses elsewhere, untranslated.
+/// </summary>
+[HarmonyPatch(typeof(UI.PopWin.UITipContent), nameof(UI.PopWin.UITipContent.SetContent))]
+internal static class TipContentAttributePatch
+{
+    private static void Prefix(ref string content)
+    {
+        if (WordManager.Singleton == null || !WordManager.Singleton.Open) return;
+
+        content = AttributeNames.Translate(content);
+    }
+}
+
+/// <summary>
+/// The meridian and acupoint data (JingLuo auxiliary/acupoint/collaterals tip columns) are raw attribute keys ("内功防御+13;气血上限+5"). The game
+/// translates a few of them for English, and only some of the screens, so translate every tooltip and text that shows them.
+/// </summary>
+internal static class MeridianTipTexts
+{
+    internal static bool English => WordManager.Singleton != null && WordManager.Singleton.Open;
+
+    internal static void Translate(Text text)
+    {
+        if (text != null && !string.IsNullOrEmpty(text.text))
+            text.text = AttributeNames.Translate(text.text);
+    }
+
+    internal static void TranslateAll(Transform root)
+    {
+        if (root == null) return;
+
+        foreach (var text in root.GetComponentsInChildren<Text>(true))
+            Translate(text);
+    }
+}
+
+/// <summary>
+/// The acupoint screens and tooltips run the raw tip through a chain of .Replace("内功攻击", "ATTACK")...("气血上限", "Max HP"), the game's own
+/// partial English, before anything else can see it. Turn those calls into no-ops so the Chinese reaches the patches below and gets the glossary names.
+/// </summary>
+[HarmonyPatch]
+internal static class GameEnglishAttributeReplaceRemover
+{
+    private static readonly Type[] Types =
+    {
+        typeof(AcupointItem), typeof(UIAcupointItem), typeof(UIAcupoint), typeof(UI.PopWin.UITipChongHoleFinish), typeof(UIJingLuoMinGame), typeof(TipShowWin),
+    };
+
+    private static readonly MethodInfo Replace = AccessTools.Method(typeof(string), nameof(string.Replace), new[] { typeof(string), typeof(string) });
+    private static readonly MethodInfo Keep = AccessTools.Method(typeof(GameEnglishAttributeReplaceRemover), nameof(KeepText));
+
+    private static IEnumerable<MethodBase> TargetMethods() => Types.SelectMany(AccessTools.GetDeclaredMethods).Cast<MethodBase>();
+
+    private static string KeepText(string text, string search, string replacement) => text;
+
+    private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+    {
+        var codes = instructions.ToList();
+        for (var i = 2; i < codes.Count; i++)
+        {
+            if (!codes[i].Calls(Replace) || codes[i - 2].opcode != OpCodes.Ldstr || codes[i - 1].opcode != OpCodes.Ldstr) continue;
+
+            if (codes[i - 2].operand is string search && AttributeNames.IsAttributeName(search))
+                codes[i] = new CodeInstruction(OpCodes.Call, Keep);
+        }
+
+        return codes;
+    }
+}
+
+/// <summary>The acupoint tooltip's own replaceStr ("Defend", "Brit", "En Rec"): use the glossary names instead.</summary>
+[HarmonyPatch(typeof(TipShowWinAcupoint), nameof(TipShowWinAcupoint.replaceStr))]
+internal static class AcupointTipReplaceStrPatch
+{
+    private static bool Prefix(string str, ref string __result)
+    {
+        if (!MeridianTipTexts.English) return true;
+
+        __result = AttributeNames.Translate(str);
+        return false;
+    }
+}
+
+/// <summary>The item tooltip lists a food's raw 使用效果 names ("精力:") as row titles, untranslated.</summary>
+[HarmonyPatch(typeof(TipShowWinNewPanel), "SetItemUse")]
+internal static class ItemUseTitlePatch
+{
+    private static void Postfix(Transform ___trans_Base)
+    {
+        if (!MeridianTipTexts.English || ___trans_Base == null) return;
+
+        foreach (Transform row in ___trans_Base)
+            MeridianTipTexts.Translate(row.FindChildByName("txt_Title")?.GetComponent<Text>());
+    }
+}
+
+/// <summary>Every CommonTips tooltip: acupoint and meridian rows show the raw tip as content and content1-3.</summary>
+[HarmonyPatch(typeof(CommonTips), nameof(CommonTips.SetUiData))]
+internal static class CommonTipsAttributePatch
+{
+    private static void Prefix(TipsShowContect data)
+    {
+        if (data == null || !MeridianTipTexts.English) return;
+
+        data.m_content = AttributeNames.Translate(data.m_content);
+        data.m_content1 = AttributeNames.Translate(data.m_content1);
+        data.m_content2 = AttributeNames.Translate(data.m_content2);
+        data.m_content3 = AttributeNames.Translate(data.m_content3);
+    }
+}
+
+/// <summary>The meridian mini game's acupoint nodes fire their raw auxiliary tip to the tooltip event on hover.</summary>
+[HarmonyPatch(typeof(UIQiZiItem), nameof(UIQiZiItem.SetUiData))]
+internal static class QiZiItemAttributePatch
+{
+    private static void Prefix(ref string tip)
+    {
+        if (MeridianTipTexts.English) tip = AttributeNames.Translate(tip);
+    }
+}
+
+[HarmonyPatch(typeof(UIAcupoint), "ShowAcupointChongHoleView")]
+internal static class AcupointChongHoleViewAttributePatch
+{
+    private static void Postfix(UIAcupoint __instance, bool isShow, Transform chongHoleTrans, Transform fxChongHoleTrans,
+        Transform ___m_chongHoleContentTrans, Transform ___m_fxChongHoleContentTrans)
+    {
+        if (!MeridianTipTexts.English) return;
+
+        MeridianTipTexts.TranslateAll(isShow ? chongHoleTrans : ___m_chongHoleContentTrans);
+        MeridianTipTexts.TranslateAll(isShow ? fxChongHoleTrans : ___m_fxChongHoleContentTrans);
+    }
+}
+
+[HarmonyPatch(typeof(UIAcupoint), "ShowMusclesOrVeinsChongHoleView")]
+internal static class MusclesOrVeinsViewAttributePatch
+{
+    private static void Postfix(UIAcupoint __instance)
+    {
+        if (MeridianTipTexts.English)
+            MeridianTipTexts.TranslateAll(__instance.m_musclesOrVeinsChongHoleView?.Find("TxtContent"));
+    }
+}
+
+[HarmonyPatch(typeof(UI.PopWin.UITipChongHoleFinish), nameof(UI.PopWin.UITipChongHoleFinish.ShowChongHoleFinishView))]
+internal static class ChongHoleFinishAttributePatch
+{
+    private static void Postfix(Text ___txtTip, Transform ___fXChongHoleContent)
+    {
+        if (!MeridianTipTexts.English) return;
+
+        MeridianTipTexts.Translate(___txtTip);
+        MeridianTipTexts.TranslateAll(___fXChongHoleContent);
+    }
+}
+
+[HarmonyPatch(typeof(UIJingLuoMinGame), nameof(UIJingLuoMinGame.SetUIData))]
+internal static class JingLuoMinGameAttributePatch
+{
+    private static void Postfix(Text ___m_tip2)
+    {
+        if (MeridianTipTexts.English) MeridianTipTexts.Translate(___m_tip2);
     }
 }
 

@@ -1,6 +1,6 @@
 # TextFilesToSplit (plan step 3)
 
-[`Translate/TextFileConfiguration.cs`](../../Translate/TextFileConfiguration.cs) lists 50 dumped CSVs. The export workflow has **not** been run
+[`Translate/TextFileConfiguration.cs`](../../Translate/TextFileConfiguration.cs) lists 69 dumped CSVs. The export workflow has **not** been run
 on them yet; `Tests/TextFileConfigurationTests.cs` checks the list against the dumped files (read-only).
 
 ## Dump layout changed to flat names
@@ -32,6 +32,20 @@ About **110k cells, 47k distinct strings, 1.14M Chinese characters**. The flatte
 strings and 0.83M characters (73% of it).
 
 ## Not covered yet (no shipped English to learn from, so a manual decision)
+
+- **Event, boss, gambling, assassin-task, gang-task and letter text** (added 2026-10-17, 12 sheets): `NPC__dialogChange`, `NPC__multiAction`,
+  `RefreshBoss__RefreshTalk`, `BetShop__Talk/Lips/Bet/SkillTask/SkillLv`, `GangData__GangTask`, `GangData__GangStation` (name and the blocked-path
+  tip), `LoadingTip__Config` and `PigeonMsgData__PigeonMsgData`. The game shows these columns directly and nothing compares them with Chinese.
+  Their runtime tokens are slotted in `Config.yaml` (`<city>`, `<x>`, `<y>`, `<relationship>`, and the literal words `npcName` / `itemName` that
+  `GangManager` replaces; `<name>`, `<fName>`, `<lName>` and the NPC letter tokens were already there). The sandbox copies (`BetShop2`, `GangData2`,
+  `RefreshTalk2`) are already English in the shipped game, but their ids do not always line up with the Chinese sheets (`BetShop__Talk` 1002 and
+  1003 differ), so they are not used as translations. Exported and merged into `Converted/`; the translate and QC passes have not run on them.
+- **Still unregistered but loaded by the game** (judge each before adding): `Poetry__Config`, `skill__密卷` / `mijuan` / `心决` (and `skill2__*`),
+  `秘术__Sorcery`, `天赋__Talent`, `Team__Team`, `羁绊__fetter`, `partner__partner`, the `WorldEvolution__*` name tables (`born`, `lichang`,
+  `fame`, `dot`, `friends`, `explain`, `city`), `MapDungeonEntryData`, `BattleDungeonData`, `mall__mall`, `currency__currency`, `Gyms__*`,
+  `PrisonData`, `门派表__sect`, `NPC__NpcXingWei`, and the `BetShop__*` leftovers. Untranslated text columns inside registered files:
+  `NPC__NpcDialogLips` 10 and 16, `NPC__ActionDialog` 7, 8, 10, 11, `WorldEvolution__characteristic` and `attribute`, `inborn__inborn` 8,
+  `CookJingYing__Config` 13.
 
 - **monster**: now covered. The four difficulty sheets (`monster_easy/normal/hard/hardEX`) hold the same 1,424 names, and column 2 (`name`) is
   translated. The battle screen shows it directly (`Monster.textName.text = data.name`), and nothing looks it up by name (the sheets link

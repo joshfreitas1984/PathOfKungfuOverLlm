@@ -1,0 +1,327 @@
+- raw: "1,提示ID,提示文本内容,提示文本内容"
+  splits:
+  - split: 2
+    text: "提示文本内容"
+    translated: "Prompt text content"
+    qcReviewedText: "Prompt text content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "提示文本内容"
+    translated: "Prompt text content"
+    qcReviewedText: "Prompt text content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,ID,TipContent,TipContent2"
+- raw: "3,101,大地图移动时使用【轻功】按键，可跳跃至不易到达的地方。,\"While moving on the world map, press the ​​[Lightness Skill]​​ button to jump to hard-to-reach locations.\""
+  splits:
+  - split: 2
+    text: "大地图移动时使用【轻功】按键，可跳跃至不易到达的地方。"
+    translated: "Use the [Qinggong] key while moving on the world map to leap to hard-to-reach places."
+    qcReviewedText: "Use the [Qinggong] key while moving on the world map to leap to hard-to-reach places."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,102,在非战斗场景中，界面正下方会一直显示玩家所在地块的所有人和物，可以点击交互。,\"In non-combat scenes, all people and objects in the player's current area are displayed at the bottom-center of the interface. Click to interact.\""
+  splits:
+  - split: 2
+    text: "在非战斗场景中，界面正下方会一直显示玩家所在地块的所有人和物，可以点击交互。"
+    translated: "In non-combat scenes, the owner and objects of the player's current tile are always displayed at the bottom of the interface and can be clicked to interact with."
+    qcReviewedText: "In non-combat scenes, the owner and objects of the player's current tile are always displayed at the bottom of the interface and can be clicked to interact with."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,103,于主界面按下空格键，可查看当前地块内的所有人和物，鼠标左键点击即可交互。,Press the ​​Spacebar​​ on the main interface to see all people and objects in the current area. Left-click to interact."
+  splits:
+  - split: 2
+    text: "于主界面按下空格键，可查看当前地块内的所有人和物，鼠标左键点击即可交互。"
+    translated: "Press the spacebar on the main interface to view all people and objects in the current tile. Click with the left mouse button to interact."
+    qcReviewedText: "Press the spacebar on the main interface to view all people and objects in the current tile. Click with the left mouse button to interact."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,104,战斗中处于地面受击僵直时，可释放【闪避】脱离僵直状态（江湖路难度需要额外消耗1点真气）。,\"​​During Ground Hitstun (Combat):​​ Press the ​​[Dodge]​​ button to break free (requires 1 additional Qi point on \"\"Jianghu Road\"\" difficulty).\""
+  splits:
+  - split: 2
+    text: "战斗中处于地面受击僵直时，可释放【闪避】脱离僵直状态（江湖路难度需要额外消耗1点真气）。"
+    translated: "While in a grounded hit-stun during combat, you can activate [Dodge] to break out of the stun state (requires an additional 1 points of True Qi on Jianghu Road difficulty)."
+    qcReviewedText: "While in a grounded hit-stun during combat, you can activate [Dodge] to break out of the stun state (requires an additional 1 points of True Qi on Jianghu Road difficulty)."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,105,战斗中处于地面受击僵直时，或被浮空状态时，可释放【爆气】技能脱离此状态（该技能消耗自身气血值，需注意观察血条）。,​​During Ground Hitstun or Airborne State (Combat):​​ Press the ​​[Qi Burst]​​ skill to escape (consumes HP; monitor health bar)."
+  splits:
+  - split: 2
+    text: "战斗中处于地面受击僵直时，或被浮空状态时，可释放【爆气】技能脱离此状态（该技能消耗自身气血值，需注意观察血条）。"
+    translated: "While grounded and in hitstun during combat, or while airborne, you can activate the [Qi Burst] skill to break free from this state (this skill consumes your Lifeforce; monitor your health bar carefully)."
+    qcReviewedText: "While grounded and in hitstun during combat, or while airborne, you can activate the [Qi Burst] skill to break free from this state (this skill consumes your Lifeforce; monitor your health bar carefully)."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,106,与开放世界NPC好感度达到50以上，即可邀为同伴，可在战斗配置界面选择同伴上阵参与战斗。,\"When an open-world NPC’s favorability reaches 50+, invite them as a ​​Companion​​. Deploy them in the Battle Setup interface.\""
+  splits:
+  - split: 2
+    text: "与开放世界"
+    translated: "And open world"
+    qcReviewedText: "And open world NPC Reach a Favorability of 50 or higher to invite them as a companion. You can select companions in the battle setup screen to join the fight."
+    qcTranslated: "And when an open world NPC's Favorability reaches 50 or higher, you can invite them as a companion. You can select companions in the battle setup screen to join the fight."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 2
+    subIndex: 1
+    text: "好感度达到50以上，即可邀为同伴，可在战斗配置界面选择同伴上阵参与战斗。"
+    translated: "Reach a Favorability of 50 or higher to invite them as a companion. You can select companions in the battle setup screen to join the fight."
+  templates:
+  - split: 2
+    template: "{0}NPC{1}"
+- raw: "9,107,被俘虏的人可被驯化为家仆，可在战斗配置界面选择家仆上阵参与战斗。,Captured enemies can be tamed into ​​Servants​​. Deploy them in the Battle Setup interface."
+  splits:
+  - split: 2
+    text: "被俘虏的人可被驯化为家仆，可在战斗配置界面选择家仆上阵参与战斗。"
+    translated: "Captives can be tamed into servants. You may select a servant to join the battle in the combat formation interface."
+    qcReviewedText: "Captives can be tamed into servants. You may select a servant to join the battle in the combat formation interface."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,108,点击人物界面左下角的放大镜，可查看人物信息详情，当你决定攻击一个NPC时，最好先确认下对方的实力。,Click the magnifying glass icon at the bottom-left of a character panel to see details. Check an NPC’s strength before attacking."
+  splits:
+  - split: 2
+    text: "点击人物界面左下角的放大镜，可查看人物信息详情，当你决定攻击一个"
+    translated: "Click the magnifying glass in the bottom-left corner of the character interface to view detailed character information. When you decide to attack a"
+    qcReviewedText: "Click the magnifying glass in the bottom-left corner of the character interface to view detailed character information. When you decide to attack a NPC When doing so, it is best to first assess the opponent's strength."
+    qcTranslated: "Click the magnifying glass in the bottom-left corner of the character interface to view detailed Character Info. When you decide to attack a NPC, it is best to first assess the opponent's strength."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 2
+    subIndex: 1
+    text: "时，最好先确认下对方的实力。"
+    translated: "When doing so, it is best to first assess the opponent's strength."
+  templates:
+  - split: 2
+    template: "{0}NPC{1}"
+- raw: "11,109,部分剧情NPC的特殊任务完成后，便能直接邀请为同伴，可在战斗配置界面选择同伴上阵参与战斗。,Complete special quests for story NPCs to directly invite them as ​​Companions​​. Deploy them in Battle Setup."
+  splits:
+  - split: 2
+    text: "部分剧情"
+    translated: "Some Story"
+    qcReviewedText: "Some Story NPC After completing the special quest, you can directly invite them as a companion. You may select companions to join battles in the battle configuration interface."
+    qcTranslated: "After completing the special quest of some Story NPCs, you can directly invite them as companions. You may select companions to join battles in the battle configuration interface."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 2
+    subIndex: 1
+    text: "的特殊任务完成后，便能直接邀请为同伴，可在战斗配置界面选择同伴上阵参与战斗。"
+    translated: "After completing the special quest, you can directly invite them as a companion. You may select companions to join battles in the battle configuration interface."
+  templates:
+  - split: 2
+    template: "{0}NPC{1}"
+- raw: "12,110,感到战力不足时，可选择解锁经脉，提升内功境界，更换装备等手段提升战力。,\"If underpowered: Unlock Meridians, advance your Inner Force Realm, upgrade equipment, etc.\""
+  splits:
+  - split: 2
+    text: "感到战力不足时，可选择解锁经脉，提升内功境界，更换装备等手段提升战力。"
+    translated: "When you feel your combat power is insufficient, you can unlock Meridians, raise your Neigong Realm, or change Equipment to boost your strength."
+    qcReviewedText: "When you feel your combat power is insufficient, you can unlock Meridians, raise your Neigong Realm, or change Equipment to boost your strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,111,野外敌人每隔一段时间便会刷新，可前往挑战他们获取武学装备。,Enemies in the wild respawn periodically. Defeat them to obtain martial arts manuals and gear."
+  splits:
+  - split: 2
+    text: "野外敌人每隔一段时间便会刷新，可前往挑战他们获取武学装备。"
+    translated: "Wild enemies respawn periodically. Challenge them to obtain Martial Arts and Equipment."
+    qcReviewedText: "Wild enemies respawn periodically. Challenge them to obtain Martial Arts and Equipment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,112,提升内功境界时，会额外获得属性点，记得在个人属性界面加点以提升人物战斗能力。,Advancing your Inner Force Realm grants bonus attribute points. Allocate them in the Character Attributes menu."
+  splits:
+  - split: 2
+    text: "提升内功境界时，会额外获得属性点，记得在个人属性界面加点以提升人物战斗能力。"
+    translated: "When you raise your Neigong Realm, you will receive additional Attribute points. Remember to allocate them in the personal Attributes screen to enhance your character's combat capabilities."
+    qcReviewedText: "When you raise your Neigong Realm, you will receive additional Attribute points. Remember to allocate them in the personal Attributes screen to enhance your character's combat capabilities."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,113,可以在任务界面打开或者关闭任务追踪（最多可同时跟踪3个任务）。,Enable/disable quest tracking (up to 3 concurrently) in the Quests interface."
+  splits:
+  - split: 2
+    text: "可以在任务界面打开或者关闭任务追踪（最多可同时跟踪3个任务）。"
+    translated: "You can enable or disable the Quest Tracker in the quest interface (up to 3 quests can be tracked simultaneously)."
+    qcReviewedText: "You can enable or disable the Quest Tracker in the quest interface (up to 3 quests can be tracked simultaneously)."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,114,可以通过滚动鼠标滚轮，放大或者缩小视野范围。,Zoom in/out using the mouse scroll wheel."
+  splits:
+  - split: 2
+    text: "可以通过滚动鼠标滚轮，放大或者缩小视野范围。"
+    translated: "You can scroll the mouse wheel to zoom in or out."
+    qcReviewedText: "You can scroll the mouse wheel to zoom in or out."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "17,115,当某个经脉的所有穴位完成冲穴时，你会自动贯通所有穴位并获得额外奖励。,Fully unlocking all acupoints in a Meridian grants an automatic bonus reward."
+  splits:
+  - split: 2
+    text: "当某个经脉的所有穴位完成冲穴时，你会自动贯通所有穴位并获得额外奖励。"
+    translated: "When all acupoints on a meridian have undergone Acupoint Breakthrough, you will automatically connect all acupoints and receive an additional reward."
+    qcReviewedText: "When all acupoints on a meridian have undergone Acupoint Breakthrough, you will automatically connect all acupoints and receive an additional reward."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,116,你不需要向剧情同伴支付薪水，但需要向开放世界里的同伴与家仆支付薪水，欠薪会降低关系。 ,​​No salary​​ for story Companions. ​​Open-world Companions/Servants require payment​​; unpaid wages lower relationship."
+  splits:
+  - split: 2
+    text: "你不需要向剧情同伴支付薪水，但需要向开放世界里的同伴与家仆支付薪水，欠薪会降低关系。"
+    translated: "You do not need to pay wages to story companions, but you must pay wages to open-world companions and household servants. Unpaid wages will lower your relationship with them."
+    qcReviewedText: "You do not need to pay wages to story companions, but you must pay wages to open-world companions and household servants. Unpaid wages will lower your relationship with them. "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0} "
+- raw: "19,117,闪避键可以与方向键一起按，来调整闪避的方向。,Press ​​Directional Keys + [Dodge]​​ to control dodge direction."
+  splits:
+  - split: 2
+    text: "闪避键可以与方向键一起按，来调整闪避的方向。"
+    translated: "The Dodge key can be pressed together with the direction keys to adjust the direction of the dodge."
+    qcReviewedText: "The Dodge key can be pressed together with the direction keys to adjust the direction of the dodge."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,118,要经常注意查看邮件，你的亲友和敌人都有可能通过邮件与你沟通，邮件甚至会触发一些重要的事件。,​​Check Mail regularly!​​ Messages from allies/enemies may trigger critical events."
+  splits:
+  - split: 2
+    text: "要经常注意查看邮件，你的亲友和敌人都有可能通过邮件与你沟通，邮件甚至会触发一些重要的事件。"
+    translated: "Check your mail frequently. Your friends, family, and enemies may all communicate with you via mail, and messages can even trigger important events."
+    qcReviewedText: "Check your mail frequently. Your friends, family, and enemies may all communicate with you via mail, and messages can even trigger important events."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,119,你的子女每2年会成长一次，将会有提示让你选择子女的成长方向。,\"Your ​​children age every 2 years​​, prompting choices for their development path.\""
+  splits:
+  - split: 2
+    text: "你的子女每2年会成长一次，将会有提示让你选择子女的成长方向。"
+    translated: "Your children will grow once every 2 years. You will be prompted to choose their growth direction."
+    qcReviewedText: "Your children will grow once every 2 years. You will be prompted to choose their growth direction."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,120,可以在系统设置里选择以下3种操作方式：键鼠操作，纯键盘操作，手柄操作 。,​​Input Methods​​ (System Settings): Keyboard + Mouse / Keyboard-Only / Gamepad."
+  splits:
+  - split: 2
+    text: "可以在系统设置里选择以下3种操作方式"
+    translated: "You can choose from the following 3 operation modes in System Settings."
+    qcReviewedText: "You can choose from the following 3 operation modes in System Settings.：Keyboard and Mouse, Keyboard Only, Gamepad 。"
+    qcTranslated: "You can choose from the following 3 operation modes in System Settings: Keyboard and Mouse, Keyboard Only, Gamepad."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 2
+    subIndex: 1
+    text: "键鼠操作，纯键盘操作，手柄操作"
+    translated: "Keyboard and Mouse, Keyboard Only, Gamepad"
+  templates:
+  - split: 2
+    template: "{0}：{1} 。"
+- raw: "23,121,可以在系统设置里关闭闪光，震屏等特效。,\"Disable screen flashes, camera shake, and similar effects in System Settings.\""
+  splits:
+  - split: 2
+    text: "可以在系统设置里关闭闪光，震屏等特效。"
+    translated: "You can disable effects such as flashing and screen shake in System Settings."
+    qcReviewedText: "You can disable effects such as flashing and screen shake in System Settings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,122,你可以参考任务提示的箭头方向来寻找任务地点（箭头会指向任务所在的位置）,Follow the ​​directional quest arrow​​ pointing to your objective."
+  splits:
+  - split: 2
+    text: "你可以参考任务提示的箭头方向来寻找任务地点（箭头会指向任务所在的位置）"
+    translated: "You can follow the direction of the quest hint arrow to find the quest location (the arrow points to where the quest is located)."
+    qcReviewedText: "You can follow the direction of the quest hint arrow to find the quest location (the arrow points to where the quest is located)."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,123,你可以在普通攻击的时候释放技能，来组成不同的连击；还可以通过释放浮空类的技能让连击变的更容易。,\"​​Combo System:​​ Use skills during basic attacks to chain combos; \"\"launcher\"\" skills extend airborne combos easily.\""
+  splits:
+  - split: 2
+    text: "你可以在普通攻击的时候释放技能，来组成不同的连击；还可以通过释放浮空类的技能让连击变的更容易。"
+    translated: "You can unleash skills during normal attacks to form different combos; you can also use aerial skills to make combos easier."
+    qcReviewedText: "You can unleash skills during normal attacks to form different combos; you can also use aerial skills to make combos easier."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,124,当你连击时，连击数每增加一次，下一次攻击的伤害也增加1%，持续增加伤害到连击数清0为止。,​​Combo Bonus:​​ Each hit increases the next attack’s damage by 1% (resets when combo ends)."
+  splits:
+  - split: 2
+    text: "当你连击时，连击数每增加一次，下一次攻击的伤害也增加1%，持续增加伤害到连击数清0为止。"
+    translated: "Each time your Combo Count increases while you are in a combo, the Damage of your next attack is increased by 1%. This Damage increase persists until your Combo Count is reset to 0."
+    qcReviewedText: "Each time your Combo Count increases while you are in a combo, the Damage of your next attack is increased by 1%. This Damage increase persists until your Combo Count is reset to 0."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,125,你可以在系统设置里面打开或者关闭地面网格的开关，分别适合不同习惯的玩家。,Toggle the ground grid display On/Off in System Settings."
+  splits:
+  - split: 2
+    text: "你可以在系统设置里面打开或者关闭地面网格的开关，分别适合不同习惯的玩家。"
+    translated: "You can turn the ground grid on or off in System Settings, catering to players with different preferences."
+    qcReviewedText: "You can turn the ground grid on or off in System Settings, catering to players with different preferences."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,126,如果你想知道某NPC当前身在何处，可以提前在此NPC对话界面左上角选择标记，然后在各地酒馆或者客栈找探子打探此人消息。,\"To track an NPC: Select \"\"Mark\"\" in their dialogue UI’s top-left, then ask ​​Informants​​ in Taverns/Inns.\""
+  splits:
+  - split: 2
+    text: "如果你想知道某"
+    translated: "If you want to know"
+    qcReviewedText: "If you want to know NPC Where are we now? We can arrive here early.NPC Select the marker in the top-left corner of the dialogue interface, then visit taverns or inns in various locations to hire informants and gather information about this person."
+    qcTranslated: "If you want to know where a specific NPC is currently located, you can select the marker in the top-left corner of this NPC's dialogue interface in advance, then visit Taverns or Inns in various locations to hire informants and gather information about this person."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "当前身在何处，可以提前在此"
+    translated: "Where are we now? We can arrive here early."
+  - split: 2
+    subIndex: 2
+    text: "对话界面左上角选择标记，然后在各地酒馆或者客栈找探子打探此人消息。"
+    translated: "Select the marker in the top-left corner of the dialogue interface, then visit taverns or inns in various locations to hire informants and gather information about this person."
+  templates:
+  - split: 2
+    template: "{0}NPC{1}NPC{2}"
+- raw: "29,127,可以在系统设置里选择键鼠操作模式，或选择纯键盘操作模式，及手柄操作模式。,​​Control Schemes​​ (System Settings): Keyboard + Mouse / Keyboard-Only / Gamepad."
+  splits:
+  - split: 2
+    text: "可以在系统设置里选择键鼠操作模式，或选择纯键盘操作模式，及手柄操作模式。"
+    translated: "You can select the keyboard and mouse control mode, the keyboard-only control mode, or the gamepad control mode in System Settings."
+    qcReviewedText: "You can select the keyboard and mouse control mode, the keyboard-only control mode, or the gamepad control mode in System Settings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "30,128,对话时可长按空格键跳过当前剧情，抵达下一分支选项。,​​Skip Dialogue:​​ Hold ​​Spacebar​​ to jump to the next branch option."
+  splits:
+  - split: 2
+    text: "对话时可长按空格键跳过当前剧情，抵达下一分支选项。"
+    translated: "Hold the spacebar during dialogue to skip the current story and reach the next branching option."
+    qcReviewedText: "Hold the spacebar during dialogue to skip the current story and reach the next branching option."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

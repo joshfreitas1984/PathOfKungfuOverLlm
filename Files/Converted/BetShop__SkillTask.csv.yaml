@@ -1,0 +1,330 @@
+- raw: "1,杀手任务Id,杀手任务类型,杀手任务名称,杀手任务对话内容,领命杀人的对话内容,以财抵命的对话内容,扣钱成功的回头话,完成任务的银两奖励,完成任务的声望和阅历奖励,任务失败不同境界对应的战斗组（如果不要差异，可以全部一样）"
+  splits:
+  - split: 3
+    text: "杀手任务名称"
+    translated: "Assassin Mission Name"
+    qcReviewedText: "Assassin Mission Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "杀手任务对话内容"
+    translated: "Assassin Mission Dialogue"
+    qcReviewedText: "Assassin Mission Dialogue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "领命杀人的对话内容"
+    translated: "Dialogue about taking orders to kill"
+    qcReviewedText: "Dialogue about taking orders to kill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 6
+    text: "以财抵命的对话内容"
+    translated: "Dialogue Content: Trading Wealth for Life"
+    qcReviewedText: "Dialogue Content: Trading Wealth for Life"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 7
+    text: "扣钱成功的回头话"
+    translated: "A word of thanks after a successful deduction."
+    qcReviewedText: "A word of thanks after a successful deduction."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,type,name,talk,talk1,talk2,talk3,successReward1,successReward2,battleId"
+- raw: "3,1,1,觅踪索命·<{0}>,仇家悬赏，金银铺路，这一刀落下，便是生死两分，<name>的性命就交由你来收去！【<name>所在区域：<city>，（<x>，<y>）】,好，杀人取金，两不相欠，莫再迟疑！【<name>所在区域：<city>，（<x>，<y>）】,想饶其一命？哪有这般好相与的事，没银子也得舍些名声！,既然如此，我帮你打点一二,20_50_100_300_400_500_700_800_900_1000,20_50_100_150_200_250_300_350_400_450,731_731_731_731_731_731_731_731_731_731"
+  splits:
+  - split: 3
+    text: "觅踪索命"
+    translated: "Tracking and Slaying"
+    qcReviewedText: "Tracking and Slaying·<{0}>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "仇家悬赏，金银铺路，这一刀落下，便是生死两分，{fullName}的性命就交由你来收去！【{fullName}所在区域"
+    translated: "A bounty is placed on your head, and gold paves the way. With this single strike, life and death are decided. Take {fullName}'s life! 【{fullName} Location"
+    tokens:
+      fullName:
+        source: "<name>"
+    qcReviewedText: "A bounty is placed on your head, and gold paves the way. With this single strike, life and death are decided. Take {fullName}'s life! 【{fullName} Location：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "好，杀人取金，两不相欠，莫再迟疑！【{fullName}所在区域"
+    translated: "Good. Kill him and take the gold. We'll be even. Don't hesitate any longer! 【Area where {fullName} is located"
+    tokens:
+      fullName:
+        source: "<name>"
+    qcReviewedText: "Good. Kill him and take the gold. We'll be even. Don't hesitate any longer! 【Area where {fullName} is located：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "Good. Kill him and take the gold. We'll be even. Don't hesitate any longer! [Area where {fullName} is located: {cityName}, ({mapPositionX}, {mapPositionY})]"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 6
+    text: "想饶其一命？哪有这般好相与的事，没银子也得舍些名声！"
+    translated: "You wish to spare his life? There is no such easy deal; even without silver, you must sacrifice some of your reputation!"
+    qcReviewedText: "You wish to spare his life? There is no such easy deal; even without silver, you must sacrifice some of your reputation!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 7
+    text: "既然如此，我帮你打点一二"
+    translated: "In that case, I'll help you arrange things."
+    qcReviewedText: "In that case, I'll help you arrange things."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 3
+    template: "{0}·<⟦0⟧>"
+  - split: 4
+    template: "{0}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+  - split: 5
+    template: "{0}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+- raw: "4,2,1,觅踪索命·<{0}>,利字当头，莫问是非，雇主许下重金，要取<name>的性命，此事便交由你去处理！【<name>所在区域：<city>，（<x>，<y>）】,够干脆！速去速回，莫误了买卖！【<name>所在区域：<city>，（<x>，<y>）】,可笑可笑，你倒是心软，不过……不是没得商量。,既然如此，我帮你打点一二,20_50_100_300_400_500_700_800_900_1000,20_50_100_150_200_250_300_350_400_450,731_731_731_731_731_731_731_731_731_731"
+  splits:
+  - split: 3
+    text: "觅踪索命"
+    translated: "Tracking and Slaying"
+    qcReviewedText: "Tracking and Slaying·<{0}>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "利字当头，莫问是非，雇主许下重金，要取{fullName}的性命，此事便交由你去处理！【{fullName}所在区域"
+    translated: "Profit above all; do not question right or wrong. The employer has offered a hefty sum to take {fullName}'s life. This matter is entrusted to you! 【{fullName}'s Location"
+    tokens:
+      fullName:
+        source: "<name>"
+    qcReviewedText: "Profit above all; do not question right or wrong. The employer has offered a hefty sum to take {fullName}'s life. This matter is entrusted to you! 【{fullName}'s Location：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "Profit above all; do not question right or wrong. The employer has offered a hefty sum to take {fullName}'s life. This matter is entrusted to you! 【{fullName}'s Location: {cityName}, ({mapPositionX}, {mapPositionY})】"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 5
+    text: "够干脆！速去速回，莫误了买卖！【{fullName}所在区域"
+    translated: "How decisive! Go and return swiftly; do not let the deal slip away! 【{fullName}'s Area"
+    tokens:
+      fullName:
+        source: "<name>"
+    qcReviewedText: "How decisive! Go and return swiftly; do not let the deal slip away! 【{fullName}'s Area：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "How decisive! Go and return swiftly; do not let the deal slip away! 【{fullName}'s Area: {cityName}, ({mapPositionX}, {mapPositionY})】"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 6
+    text: "可笑可笑，你倒是心软，不过……不是没得商量。"
+    translated: "How laughable, how laughable. You are indeed soft-hearted, but... there is still room for negotiation."
+    qcReviewedText: "How laughable, how laughable. You are indeed soft-hearted, but... there is still room for negotiation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 7
+    text: "既然如此，我帮你打点一二"
+    translated: "In that case, I'll help you arrange things."
+    qcReviewedText: "In that case, I'll help you arrange things."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 3
+    template: "{0}·<⟦0⟧>"
+  - split: 4
+    template: "{0}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+  - split: 5
+    template: "{0}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+- raw: "5,3,2,背义诛亲·<{0}>,有一豪主，许下重金，要买你之<relationship>性命，算你命好，近水楼台，<name>的性命就交由你来收去！【<name>所在区域：<city>，（<x>，<y>）】,哈哈哈，果然没看错你，速战速决！【<name>所在区域：<city>，（<x>，<y>）】,若要饶其一条性命，倒也不难，就是免不得上下打点……,既然如此，我帮你打点一二,20_50_100_300_400_500_700_800_900_1000,20_50_100_150_200_250_300_350_400_450,731_731_731_731_731_731_731_731_731_731"
+  splits:
+  - split: 3
+    text: "背义诛亲"
+    translated: "Betraying Righteousness to Kill Kin"
+    qcReviewedText: "Betraying Righteousness to Kill Kin·<{0}>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "有一豪主，许下重金，要买你之"
+    translated: "A wealthy patron has offered a large sum of money to purchase your"
+    qcReviewedText: "A wealthy patron has offered a large sum of money to purchase your{relationship}Your life is spared. You are fortunate to be close by. Take {fullName}'s life! 【{fullName}'s Area：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "A wealthy patron has offered a large sum of money to purchase the life of your {relationship}. Consider yourself lucky. You are fortunate to be close by. Take {fullName}'s life! 【{fullName}'s Area: {cityName}, ({mapPositionX}, {mapPositionY})】"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 4
+    subIndex: 1
+    text: "性命，算你命好，近水楼台，{fullName}的性命就交由你来收去！【{fullName}所在区域"
+    translated: "Your life is spared. You are fortunate to be close by. Take {fullName}'s life! 【{fullName}'s Area"
+    tokens:
+      fullName:
+        source: "<name>"
+  - split: 5
+    text: "哈哈哈，果然没看错你，速战速决！【{fullName}所在区域"
+    translated: "Hahaha, I knew I wasn't wrong about you. Let's finish this quickly! 【Area where {fullName} is located"
+    tokens:
+      fullName:
+        source: "<name>"
+    qcReviewedText: "Hahaha, I knew I wasn't wrong about you. Let's finish this quickly! 【Area where {fullName} is located：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "Hahaha, I knew I wasn't wrong about you. Let's finish this quickly! 【{fullName}'s location: {cityName}, ({mapPositionX}, {mapPositionY})】"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 6
+    text: "若要饶其一条性命，倒也不难，就是免不得上下打点……"
+    translated: "If you wish to spare his life, it is not difficult, though it will require some... arrangements with the authorities above and below..."
+    qcReviewedText: "If you wish to spare his life, it is not difficult, though it will require some... arrangements with the authorities above and below..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 7
+    text: "既然如此，我帮你打点一二"
+    translated: "In that case, I'll help you arrange things."
+    qcReviewedText: "In that case, I'll help you arrange things."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 3
+    template: "{0}·<⟦0⟧>"
+  - split: 4
+    template: "{0}{relationship}{1}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+      relationship:
+        source: "<relationship>"
+  - split: 5
+    template: "{0}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+- raw: "6,4,2,背义诛亲·<{0}>,世间缘法当真是妙，偏偏这单活计，落于你手。<name>，可是你的<relationship>？由你决断，是活，还是死。【<name>所在区域：<city>，（<x>，<y>）】,够果决，杀手行事，最忌优柔寡断，心狠手辣，才是杀手本分！【<name>所在区域：<city>，（<x>，<y>）】,若要饶其一条性命，倒也不难，就是免不得上下打点……,既然如此，我帮你打点一二,20_50_100_300_400_500_700_800_900_1000,20_50_100_150_200_250_300_350_400_450,731_731_731_731_731_731_731_731_731_731"
+  splits:
+  - split: 3
+    text: "背义诛亲"
+    translated: "Betraying Righteousness to Kill Kin"
+    qcReviewedText: "Betraying Righteousness to Kill Kin·<{0}>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "世间缘法当真是妙，偏偏这单活计，落于你手。{fullName}，可是你的"
+    translated: "The fates of this world are truly wondrous; yet this particular task has fallen into your hands. {fullName}, is it yours?"
+    tokens:
+      fullName: &o0
+        source: "<name>"
+    qcReviewedText: "The fates of this world are truly wondrous; yet this particular task has fallen into your hands. {fullName}, is it yours?{relationship}?It is up to you to decide: life, or death. 【Area where {fullName} is located：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "The fates of this world are truly wondrous; yet this particular task has fallen into your hands. {fullName}, is it your {relationship}? It is up to you to decide: life, or death. 【Area where {fullName} is located: {cityName}, ({mapPositionX}, {mapPositionY})】"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "？由你决断，是活，还是死。【{fullName}所在区域"
+    translated: "?It is up to you to decide: life, or death. 【Area where {fullName} is located"
+    tokens:
+      fullName: *o0
+  - split: 5
+    text: "够果决，杀手行事，最忌优柔寡断，心狠手辣，才是杀手本分！【{fullName}所在区域"
+    translated: "Decisive enough. A killer's greatest sin is hesitation. Ruthlessness and brutality are the true calling of an assassin! 【Area where {fullName} is located"
+    tokens:
+      fullName:
+        source: "<name>"
+    qcReviewedText: "Decisive enough. A killer's greatest sin is hesitation. Ruthlessness and brutality are the true calling of an assassin! 【Area where {fullName} is located：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    qcTranslated: "Decisive enough. A killer's greatest sin is hesitation. Ruthlessness and brutality are the true calling of an assassin! 【Area where {fullName} is located: {cityName}, ({mapPositionX}, {mapPositionY})】"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 6
+    text: "若要饶其一条性命，倒也不难，就是免不得上下打点……"
+    translated: "If you wish to spare his life, it is not difficult, though it will require some... arrangements with the authorities above and below..."
+    qcReviewedText: "If you wish to spare his life, it is not difficult, though it will require some... arrangements with the authorities above and below..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 7
+    text: "既然如此，我帮你打点一二"
+    translated: "In that case, I'll help you arrange things."
+    qcReviewedText: "In that case, I'll help you arrange things."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 3
+    template: "{0}·<⟦0⟧>"
+  - split: 4
+    template: "{0}{relationship}{1}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"
+      relationship:
+        source: "<relationship>"
+  - split: 5
+    template: "{0}：{cityName}，（{mapPositionX}，{mapPositionY}）】"
+    tokens:
+      cityName:
+        source: "<city>"
+      mapPositionX:
+        source: "<x>"
+      mapPositionY:
+        source: "<y>"

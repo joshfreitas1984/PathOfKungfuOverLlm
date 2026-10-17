@@ -1,0 +1,572 @@
+- raw: "1,下注id,点,下注tips1,下注tips2,点数,指定三个筛子的点数,赔率,点击触发的功能,功能参数,不满足条件点击的提示语"
+  splits:
+  - split: 2
+    text: "点"
+    translated: "Dot"
+    qcReviewedText: "Dot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "下注"
+    translated: "Place a Bet"
+    qcReviewedText: "Place a Bet tips1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "下注"
+    translated: "Place a Bet"
+    qcReviewedText: "Place a Bet tips2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 3
+    template: "{0}tips1"
+  - split: 4
+    template: "{0}tips2"
+- raw: "2,id,tips,tips1,tips2,num,zNum,plNum,Function,FunctionCan,Tips"
+- raw: "3,1,赌小,,[一赔一],3_4_5_6_7_8_9_10,,1,,,"
+  splits:
+  - split: 2
+    text: "赌小"
+    translated: "Bet Small"
+    qcReviewedText: "Bet Small"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔一"
+    translated: "One to one"
+    qcReviewedText: "[One to one]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "4,2,赌大,,[一赔一],11_12_13_14_15_16_17_18,,1,,,"
+  splits:
+  - split: 2
+    text: "赌大"
+    translated: "Bet High"
+    qcReviewedText: "Bet High"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔一"
+    translated: "One to one"
+    qcReviewedText: "[One to one]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "5,3,全围,全围,[一赔二十四],,1;1;1_2;2;2_3;3;3_4;4;4_5;5;5_6;6;6,24,,,"
+  splits:
+  - split: 2
+    text: "全围"
+    translated: "Full Encirclement"
+    qcReviewedText: "Full Encirclement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "全围"
+    translated: "Full Encirclement"
+    qcReviewedText: "Full Encirclement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔二十四"
+    translated: "Twenty-four to one"
+    qcReviewedText: "[Twenty-four to one]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "6,4,3点豹子,,[一赔一百五],,1;1;1,150,,,"
+  splits:
+  - split: 2
+    text: "3点豹子"
+    translated: "3 Rolling triple sixes"
+    qcReviewedText: "3 Rolling triple sixes"
+    qcTranslated: "3 Rolling a pair of triples"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 4
+    text: "一赔一百五"
+    translated: "150 to 1"
+    qcReviewedText: "[150 to 1]"
+    qcTranslated: "[One to one hundred and fifty]"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "7,5,6点豹子,,[一赔一百五],,2;2;2,150,,,"
+  splits:
+  - split: 2
+    text: "6点豹子"
+    translated: "6 rolled triple sixes"
+    qcReviewedText: "6 rolled triple sixes"
+    qcTranslated: "6 rolled a triple"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 4
+    text: "一赔一百五"
+    translated: "150 to 1"
+    qcReviewedText: "[150 to 1]"
+    qcTranslated: "[One to one hundred and fifty]"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "8,6,9点豹子,,[一赔一百五],,3;3;3,150,,,"
+  splits:
+  - split: 2
+    text: "9点豹子"
+    translated: "Rolling triple 9s"
+    qcReviewedText: "Rolling triple 9s"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔一百五"
+    translated: "150 to 1"
+    qcReviewedText: "[150 to 1]"
+    qcTranslated: "[One to one hundred and fifty]"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "9,7,12点豹子,,[一赔一百五],,4;4;4,150,,,"
+  splits:
+  - split: 2
+    text: "12点豹子"
+    translated: "Rolling triple 12s"
+    qcReviewedText: "Rolling triple 12s"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔一百五"
+    translated: "150 to 1"
+    qcReviewedText: "[150 to 1]"
+    qcTranslated: "[One to one hundred and fifty]"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "10,8,15点豹子,,[一赔一百五],,5;5;5,150,,,"
+  splits:
+  - split: 2
+    text: "15点豹子"
+    translated: "15 rolled triple sixes"
+    qcReviewedText: "15 rolled triple sixes"
+    qcTranslated: "15 rolled a pair"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - GarbledNumber
+  - split: 4
+    text: "一赔一百五"
+    translated: "150 to 1"
+    qcReviewedText: "[150 to 1]"
+    qcTranslated: "[One to one hundred and fifty]"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "11,9,18点豹子,,[一赔一百五],,6;6;6,150,,,"
+  splits:
+  - split: 2
+    text: "18点豹子"
+    translated: "18 Rolls Three of a Kind"
+    qcReviewedText: "18 Rolls Three of a Kind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔一百五"
+    translated: "150 to 1"
+    qcReviewedText: "[150 to 1]"
+    qcTranslated: "[One to one hundred and fifty]"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  templates:
+  - split: 4
+    template: "[{0}]"
+- raw: "12,10,4点,四点,一赔五十,4,,50,,,"
+  splits:
+  - split: 2
+    text: "4点"
+    translated: "4 o'clock"
+    qcReviewedText: "4 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "四点"
+    translated: "Four o'clock"
+    qcReviewedText: "Four o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔五十"
+    translated: "Fifty to one"
+    qcReviewedText: "Fifty to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,11,5点,五点,一赔十八,5,,18,,,"
+  splits:
+  - split: 2
+    text: "5点"
+    translated: "5 o'clock"
+    qcReviewedText: "5 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "五点"
+    translated: "Five o'clock"
+    qcReviewedText: "Five o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔十八"
+    translated: "Eighteen to one"
+    qcReviewedText: "Eighteen to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,12,6点,六点,一赔十四,6,,14,,,"
+  splits:
+  - split: 2
+    text: "6点"
+    translated: "6 o'clock"
+    qcReviewedText: "6 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "六点"
+    translated: "Six o'clock"
+    qcReviewedText: "Six o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔十四"
+    translated: "Fourteen to one"
+    qcReviewedText: "Fourteen to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,13,7点,七点,一赔十二,7,,12,,,"
+  splits:
+  - split: 2
+    text: "7点"
+    translated: "7 o'clock"
+    qcReviewedText: "7 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "七点"
+    translated: "Seven o'clock"
+    qcReviewedText: "Seven o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔十二"
+    translated: "Twelve to one"
+    qcReviewedText: "Twelve to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,14,8点,八点,一赔八,8,,8,,,"
+  splits:
+  - split: 2
+    text: "8点"
+    translated: "8 o'clock"
+    qcReviewedText: "8 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "八点"
+    translated: "Eight o'clock"
+    qcReviewedText: "Eight o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔八"
+    translated: "Eight-to-one"
+    qcReviewedText: "Eight-to-one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "17,15,9点,九点,一赔六,9,,6,,,"
+  splits:
+  - split: 2
+    text: "9点"
+    translated: "9 o'clock"
+    qcReviewedText: "9 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "九点"
+    translated: "Nine o'clock"
+    qcReviewedText: "Nine o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔六"
+    translated: "One to six"
+    qcReviewedText: "One to six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,16,10点,十点,一赔六,10,,6,,,"
+  splits:
+  - split: 2
+    text: "10点"
+    translated: "10 o'clock"
+    qcReviewedText: "10 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十点"
+    translated: "Ten o'clock"
+    qcReviewedText: "Ten o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔六"
+    translated: "One to six"
+    qcReviewedText: "One to six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,17,11点,十一点,一赔六,11,,6,,,"
+  splits:
+  - split: 2
+    text: "11点"
+    translated: "11 o'clock"
+    qcReviewedText: "11 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十一点"
+    translated: "Eleven o'clock"
+    qcReviewedText: "Eleven o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔六"
+    translated: "One to six"
+    qcReviewedText: "One to six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,18,12点,十二点,一赔六,12,,6,,,"
+  splits:
+  - split: 2
+    text: "12点"
+    translated: "12 points"
+    qcReviewedText: "12 points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十二点"
+    translated: "Twelve o'clock"
+    qcReviewedText: "Twelve o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔六"
+    translated: "One to six"
+    qcReviewedText: "One to six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,19,13点,十三点,一赔八,13,,8,,,"
+  splits:
+  - split: 2
+    text: "13点"
+    translated: "13 o'clock"
+    qcReviewedText: "13 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十三点"
+    translated: "13:00"
+    qcReviewedText: "13:00"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔八"
+    translated: "Eight-to-one"
+    qcReviewedText: "Eight-to-one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,20,14点,十四点,一赔十二,14,,12,,,"
+  splits:
+  - split: 2
+    text: "14点"
+    translated: "14 o'clock"
+    qcReviewedText: "14 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十四点"
+    translated: "14:00"
+    qcReviewedText: "14:00"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔十二"
+    translated: "Twelve to one"
+    qcReviewedText: "Twelve to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,21,15点,十五点,一赔十四,15,,14,,,"
+  splits:
+  - split: 2
+    text: "15点"
+    translated: "15 o'clock"
+    qcReviewedText: "15 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十五点"
+    translated: "15:00"
+    qcReviewedText: "15:00"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔十四"
+    translated: "Fourteen to one"
+    qcReviewedText: "Fourteen to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,22,16点,十六点,一赔十八,16,,18,,,"
+  splits:
+  - split: 2
+    text: "16点"
+    translated: "16"
+    qcReviewedText: "16"
+    qcTranslated: "16 points"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 3
+    text: "十六点"
+    translated: "16:00"
+    qcReviewedText: "16:00"
+    qcTranslated: "Sixteen"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 4
+    text: "一赔十八"
+    translated: "Eighteen to one"
+    qcReviewedText: "Eighteen to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,23,17点,十七点,一赔五十,17,,50,,,"
+  splits:
+  - split: 2
+    text: "17点"
+    translated: "17 o'clock"
+    qcReviewedText: "17 o'clock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "十七点"
+    translated: "17:00"
+    qcReviewedText: "17:00"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "一赔五十"
+    translated: "Fifty to one"
+    qcReviewedText: "Fifty to one"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -93,6 +93,24 @@ namedTokenReplacers:
   - literal: "<faction>"
     name: faction
     description: a faction name, filled in by the game. Copy it exactly as written.
+  - literal: "<city>"
+    name: cityName
+    description: a city name, filled in by the game. Copy it exactly as written.
+  - literal: "<x>"
+    name: mapPositionX
+    description: a map coordinate, filled in by the game. Copy it exactly as written.
+  - literal: "<y>"
+    name: mapPositionY
+    description: a map coordinate, filled in by the game. Copy it exactly as written.
+  - literal: "<relationship>"
+    name: relationship
+    description: how the target is related to the player (father, sworn brother...), filled in by the game. Copy it exactly as written.
+  - literal: npcName
+    name: taskNpcName
+    description: the name of a character, filled in by the game. Copy it exactly as written.
+  - literal: itemName
+    name: taskItemName
+    description: the name of an item, filled in by the game. Copy it exactly as written.
   - pattern: '<(?!他\|\|她>)[^<>|]{1,8}\|\|[^<>|]{1,8}>'
     name: playerTitle
     restoreFromGlossary: true

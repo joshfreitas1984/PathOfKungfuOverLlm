@@ -90,3 +90,7 @@
 - raw: "帮众"
   result: "Gang Member"
   badtrans: false
+
+# 夫君 is a wife's word for her husband, so it is "my husband" in her mouth, never "your husband" (the model flipped it).
+- raw: "夫君"
+  result: "my husband"

@@ -1,0 +1,1606 @@
+- raw: "1,ID,A条件,A值,B条件,B值,对话内容,说明,"
+  splits:
+  - split: 6
+    text: "对话内容"
+    translated: "Dialogue content"
+    qcReviewedText: "Dialogue content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,aParam,aValue,bParam,bValue,content,explain,"
+- raw: "3,1,\"SetSP(),PlayerLove(),1-,2-\",\"25-,5-,friendsEr,lichang\",,,蛇毒在体内淤积，不得排出。致使a内息受阻，全身乏力。幸而毒不致命，若来日多加修养调息，身体或也可以完全恢复。,蛇毒在体内淤积，不得排出。致使a内息受阻，全身乏力。幸而毒不致命，若来日多加修养调息，身体或也可以完全恢复。,"
+  splits:
+  - split: 6
+    text: "蛇毒在体内淤积，不得排出。致使{npcName}内息受阻，全身乏力。幸而毒不致命，若来日多加修养调息，身体或也可以完全恢复。"
+    translated: "The snake venom has accumulated within the body and cannot be expelled. This has obstructed {npcName}'s Inner Qi, causing profound weakness throughout the body. Fortunately, the poison is not fatal. With increased Cultivation and breathing regulation in the future, the body may fully recover."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "The snake venom has accumulated within the body and cannot be expelled. This has obstructed {npcName}'s Inner Qi, causing profound weakness throughout the body. Fortunately, the poison is not fatal. With increased Cultivation and breathing regulation in the future, the body may fully recover."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,2,\"SetSP(),PlayerLove()\",\"10-,10+\",\"3+,4+,15-\",\"friendsSan,lichang,LessenSP()\",p见a身中蛇毒，当即耗费内力帮助他打通内息，助其将毒素排出体外。方使其内脏免受蛇毒之害。,p见a身中蛇毒，当即耗费内力帮助他打通内息，助其将毒素排出体外。方使其内脏免受蛇毒之害。,"
+  splits:
+  - split: 6
+    text: "{playerName}见{npcName}身中蛇毒，当即耗费内力帮助他打通内息，助其将毒素排出体外。方使其内脏免受蛇毒之害。"
+    translated: "Seeing that {npcName} had been struck by snake venom, {playerName} immediately expended Inner Power to help unblock his Inner Qi, assisting him in expelling the toxin from his body. This spared his internal organs from the venom's damage."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing that {npcName} had been struck by snake venom, {playerName} immediately expended Inner Power to help unblock his Inner Qi, assisting him in expelling the toxin from his body. This spared his internal organs from the venom's damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,3,\"SetSP(),PlayerLove()\",\"10-,40-\",\"1-,2-,20+,500+,15-\",\"friendsEr,lichang,xiuWei,sliver,LessenSP()\",趁a无力反抗之际，p忽在暗中施以毒手，使其奄奄一息，生命垂危。,趁a无力反抗之际，p忽在暗中施以毒手，使其奄奄一息，生命垂危。,"
+  splits:
+  - split: 6
+    text: "趁{npcName}无力反抗之际，{playerName}忽在暗中施以毒手，使其奄奄一息，生命垂危。"
+    translated: "While {npcName} was unable to resist, {playerName} suddenly struck from the shadows with a poisoned hand, leaving them on the brink of death."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "While {npcName} was unable to resist, {playerName} suddenly struck from the shadows with a poisoned hand, leaving them on the brink of death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,4,\"SetSP(),npcLove<id>\",\"25-,10-\",\"SetSP(),npcLove<id>\",\"25-,10-\",a与b在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。,a与b在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}在几十个回合后两败俱伤，无力再斗下去。心中对对方的仇怨也更加深了几分。"
+    translated: "After dozens of exchanges, {npcName} and {otherNpcName} were both left battered and exhausted, unable to continue the fight. Their hatred for each other only deepened further."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "After dozens of exchanges, {npcName} and {otherNpcName} were both left battered and exhausted, unable to continue the fight. Their hatred for each other only deepened further."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,5,PlayerLove(),10-,\"PlayerLove(),3+,4+,15-\",\"10-,friendsSan,lichang,LessenSP()\",因为忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。,因为忌惮p武功高强，在江湖中又颇有名望，a和b双方决定暂时罢手，相约他日再做了断。,"
+  splits:
+  - split: 6
+    text: "因为忌惮{playerName}武功高强，在江湖中又颇有名望，{npcName}和{otherNpcName}双方决定暂时罢手，相约他日再做了断。"
+    translated: "Out of respect for {playerName}'s formidable martial skills and their considerable reputation in the Jianghu, both {npcName} and {otherNpcName} decided to cease hostilities for the time being, agreeing to settle the matter at a later date."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Out of respect for {playerName}'s formidable martial skills and their considerable reputation in the Jianghu, both {npcName} and {otherNpcName} decided to cease hostilities for the time being, agreeing to settle the matter at a later date."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,6,PlayerLove(),10+,\"PlayerLove(),3-,4-,10+,15-\",\"10-,friendsEr,lichang,xiuWei,LessenSP()\",双拳难敌四手，b在a得到p出手相助之后，立刻难以支撑，数招之后负伤逃走。,双拳难敌四手，b在a得到p出手相助之后，立刻难以支撑，数招之后负伤逃走。,"
+  splits:
+  - split: 6
+    text: "双拳难敌四手，{otherNpcName}在{npcName}得到{playerName}出手相助之后，立刻难以支撑，数招之后负伤逃走。"
+    translated: "Two fists cannot stand against four hands. After {playerName} stepped in to aid {npcName}, {otherNpcName} could no longer hold their ground and fled wounded after a few exchanges."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Two fists cannot stand against four hands. After {playerName} stepped in to aid {npcName}, {otherNpcName} could no longer hold their ground and fled wounded after a few exchanges."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,7,PlayerLove(),10-,\"PlayerLove(),3-,4-,10+,15-\",\"10+,friendsEr,lichang,xiuWei,LessenSP()\",双拳难敌四手，a在b得到p出手相助之后，立刻难以支撑，数招之后负伤逃走。,双拳难敌四手，a在b得到p出手相助之后，立刻难以支撑，数招之后负伤逃走。,"
+  splits:
+  - split: 6
+    text: "双拳难敌四手，{npcName}在{otherNpcName}得到{playerName}出手相助之后，立刻难以支撑，数招之后负伤逃走。"
+    translated: "One cannot fight four with two fists. After {playerName} stepped in to help, {npcName} could no longer hold their ground against {otherNpcName}. After a few moves, they were wounded and fled."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "One cannot fight four with two fists. After {playerName} stepped in to help, {npcName} could no longer hold their ground against {otherNpcName}. After a few moves, they were wounded and fled."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,8,goldCoin,1000+,,,a讲到精彩之处，人们不禁纷纷喝彩鼓掌，不少路人拿出散碎银两来打赏。,a讲到精彩之处，人们不禁纷纷喝彩鼓掌，不少路人拿出散碎银两来打赏。,"
+  splits:
+  - split: 6
+    text: "{npcName}讲到精彩之处，人们不禁纷纷喝彩鼓掌，不少路人拿出散碎银两来打赏。"
+    translated: "As {npcName} reached the most thrilling part of the tale, the crowd burst into cheers and applause. Many passersby pulled out loose silver coins to tip him."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "As {npcName} reached the most thrilling part of the tale, the crowd burst into cheers and applause. Many passersby pulled out loose silver coins to tip him."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "11,9,\"goldCoin,PlayerLove()\",\"700+,10+\",\"500+,3+,4+,10-\",\"sliver,friendsSan,lichang,LessenSP()\",p听闻a所讲的轶事恰是自己日前亲眼所见，便在一旁帮腔协助。半晌下来，两人都得了不少的赏钱。,p听闻a所讲的轶事恰是自己日前亲眼所见，便在一旁帮腔协助。半晌下来，两人都得了不少的赏钱。,"
+  splits:
+  - split: 6
+    text: "{playerName}听闻{npcName}所讲的轶事恰是自己日前亲眼所见，便在一旁帮腔协助。半晌下来，两人都得了不少的赏钱。"
+    translated: "Hearing that the anecdote {npcName} was telling was something they had witnessed firsthand just days before, {playerName} chimed in to help. After a while, both of them earned quite a bit of money in tips."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Hearing that the anecdote {npcName} was telling was something they had witnessed firsthand just days before, {playerName} chimed in to help. After a while, both of them earned quite a bit of money in tips."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "12,10,PlayerLove(),10-,\"3-,4-,10+,15-\",\"friendsEr,lichang,XiuWei,LessenSP()\",p听闻自己日前亲眼所见之事被a添油加醋，忍不住出手将a教训一番。,p听闻自己日前亲眼所见之事被a添油加醋，忍不住出手将a教训一番。,"
+  splits:
+  - split: 6
+    text: "{playerName}听闻自己日前亲眼所见之事被{npcName}添油加醋，忍不住出手将{npcName}教训一番。"
+    translated: "Hearing that {npcName} had embellished what they witnessed firsthand, {playerName} could not help but step in and give {npcName} a lesson."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Hearing that {npcName} had embellished what they witnessed firsthand, {playerName} could not help but step in and give {npcName} a lesson."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,11,\"npcLove<id>,SetSP()\",\"10+,10-\",\"npcLove<id>,SetSP()\",\"10+,10-\",a与b把酒畅谈，喝了个痛快。两人的江湖情意也愈发深厚了。,a与b把酒畅谈，喝了个痛快。两人的江湖情意也愈发深厚了。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}把酒畅谈，喝了个痛快。两人的江湖情意也愈发深厚了。"
+    translated: "{npcName} and {otherNpcName} shared wine and conversation, drinking to their heart's content. Their bond in the Jianghu grew ever deeper."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{npcName} and {otherNpcName} shared wine and conversation, drinking to their heart's content. Their bond in the Jianghu grew ever deeper."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,12,\"npcLove<id>,PlayerLove()\\n,500-\",\"10+,10+,sliver\",\"npcLove<id>,PlayerLove(),5+,4+,10-\",\"10+,10+,friendsSan,lichang,LessenSP()\",p真是性情中人，见到a与b痛饮畅谈、兴高采烈，便豪爽地主动请客，与两位同桌同饮。,p真是性情中人，见到a与b痛饮畅谈、兴高采烈，便豪爽地主动请客，与两位同桌同饮。,"
+  splits:
+  - split: 6
+    text: "{playerName}真是性情中人，见到{npcName}与{otherNpcName}痛饮畅谈、兴高采烈，便豪爽地主动请客，与两位同桌同饮。"
+    translated: "{playerName} is truly a person of feeling. Seeing {npcName} and {otherNpcName} drinking heartily and chatting with great joy, they generously offered to treat them to a meal and joined the two at the table."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{playerName} is truly a person of feeling. Seeing {npcName} and {otherNpcName} drinking heartily and chatting with great joy, they generously offered to treat them to a meal and joined the two at the table."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,13,PlayerLove(),5-,\"PlayerLove(),1+,2+,10-,20+\",\"5-,friendsSan,lichang,LessenSP(),xiuWei\",a与b喝到尽兴之时，难免吵闹喧哗，惹得邻座食客没法安心用餐，p实在难忍，出手教训了二人一番。,a与b喝到尽兴之时，难免吵闹喧哗，惹得邻座食客没法安心用餐，p实在难忍，出手教训了二人一番。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}喝到尽兴之时，难免吵闹喧哗，惹得邻座食客没法安心用餐，{playerName}实在难忍，出手教训了二人一番。"
+    translated: "When {npcName} and {otherNpcName} got drunk, they inevitably became loud and noisy, disturbing the neighboring diners. Unable to bear it any longer, {playerName} stepped in to teach them a lesson."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "When {npcName} and {otherNpcName} got drunk, they inevitably became loud and noisy, disturbing the neighboring diners. Unable to bear it any longer, {playerName} stepped in to teach them a lesson."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,14,\"SetSP(),1-,2-\",\"5-,friendsEr,lichang\",,,a在许久之后觉得慢慢恢复了。全身酸痛乏力却暂时搞不清病因在哪。,a在许久之后觉得慢慢恢复了。全身酸痛乏力却暂时搞不清病因在哪。,"
+  splits:
+  - split: 6
+    text: "{npcName}在许久之后觉得慢慢恢复了。全身酸痛乏力却暂时搞不清病因在哪。"
+    translated: "After a long while, {npcName} felt their strength slowly returning. Their whole body ached and felt weak, but they couldn't figure out the cause for now."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "After a long while, {npcName} felt their strength slowly returning. Their whole body ached and felt weak, but they couldn't figure out the cause for now."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "17,15,\"SetSP(),PlayerLove()\",\"5-,5-\",\"500+,10-,3-,4-,300-\",\"sliver,LessenSP(),friendsEr,lichang,sliver\",p趁着a无力反抗之际，上前施以拳脚，抢走了a的钱袋。,p趁着a无力反抗之际，上前施以拳脚，抢走了a的钱袋。,"
+  splits:
+  - split: 6
+    text: "{playerName}趁着{npcName}无力反抗之际，上前施以拳脚，抢走了{npcName}的钱袋。"
+    translated: "While {npcName} was too weak to resist, {playerName} stepped forward and struck them, snatching away {npcName}'s money pouch."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "While {npcName} was too weak to resist, {playerName} stepped forward and struck them, snatching away {npcName}'s money pouch."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,16,\"SetSP(),PlayerLove()\",\"5+,10+\",\"3+,4+,10-\",\"friendsSan,lichang,LessenSP()\",p掐住a的人中，将其唤醒后。简单照料一番。待其恢复后才放心离开。,p掐住a的人中，将其唤醒后。简单照料一番。待其恢复后才放心离开。,"
+  splits:
+  - split: 6
+    text: "{playerName}掐住{npcName}的人中，将其唤醒后。简单照料一番。待其恢复后才放心离开。"
+    translated: "{playerName} pinched {npcName}'s philtrum to wake them up, provided basic care, and only left once they had recovered."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} pinched {npcName}'s philtrum to wake them up, provided basic care, and only left once they had recovered."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,17,\"xiuWei,SetSP()\",\"150+,20-\",,,一回生，二回熟。用心复习之后，a的修为和功力都有所增进。,一回生，二回熟。用心复习之后，a的修为和功力都有所增进。,"
+  splits:
+  - split: 6
+    text: "一回生，二回熟。用心复习之后，{npcName}的修为和功力都有所增进。"
+    translated: "First time is learning, second time is mastery. After diligent review, {npcName}'s Cultivation and martial prowess have both improved."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "First time is learning, second time is mastery. After diligent review, {npcName}'s Cultivation and martial prowess have both improved."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,18,\"xiuWei,SetSP(),PlayerLove()\",\"10+,10-,10+\",\"10+,10-,1+,3+\",\"xiuWei,LessenSP(),friendsSan,lichang\",p见到a正在独自习武，自忖对方功力与自己相当，便上前以武会友，搭手陪练。,p见到a正在独自习武，自忖对方功力与自己相当，便上前以武会友，搭手陪练。,"
+  splits:
+  - split: 6
+    text: "{playerName}见到{npcName}正在独自习武，自忖对方功力与自己相当，便上前以武会友，搭手陪练。"
+    translated: "Seeing {npcName} practicing martial arts alone, {playerName} judged that the other's skill was comparable to their own and approached to exchange techniques as friends, offering to spar."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing {npcName} practicing martial arts alone, {playerName} judged that the other's skill was comparable to their own and approached to exchange techniques as friends, offering to spar."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,19,\"xiuWei,SetSP(),PlayerLove(),10+,10-,1+,3+\",\"30+,10-,10+,xiuWei,LessenSP(),friendsSan,lichang\",,,p将自己习武的经验分享给a，让其触类旁通，这一遭修行堪比平日数次所得。,p将自己习武的经验分享给a，让其触类旁通，这一遭修行堪比平日数次所得。,"
+  splits:
+  - split: 6
+    text: "{playerName}将自己习武的经验分享给{npcName}，让其触类旁通，这一遭修行堪比平日数次所得。"
+    translated: "{playerName} shared their martial arts experience with {npcName}, enabling them to draw parallels and apply the principles broadly. This single session of cultivation yielded insights comparable to several ordinary days of practice."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} shared their martial arts experience with {npcName}, enabling them to draw parallels and apply the principles broadly. This single session of cultivation yielded insights comparable to several ordinary days of practice."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,20,\"SetSP(),PlayerLove(),5-,6-,15-\",\"25-,10-,friendsEr,lichang,LessenSP()\",,,a正在专心习武之际，忽遭p偷袭。半日修习不但未有精进，反因被袭负伤。心中颇为愤恨。,a正在专心习武之际，忽遭p偷袭。半日修习不但未有精进，反因被袭负伤。心中颇为愤恨。,"
+  splits:
+  - split: 6
+    text: "{npcName}正在专心习武之际，忽遭{playerName}偷袭。半日修习不但未有精进，反因被袭负伤。心中颇为愤恨。"
+    translated: "While {npcName} was deeply focused on martial arts training, they were suddenly ambushed by {playerName}. Not only did their half-day of practice yield no progress, but they also sustained injuries from the attack. They are filled with resentment."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "While {npcName} was deeply focused on martial arts training, they were suddenly ambushed by {playerName}. Not only did their half-day of practice yield no progress, but they also sustained injuries from the attack. They are filled with resentment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,21,\"xiuWei,SetSP()\",\"15+,20-\",,,果然熟能生巧，a勤加练习之后，武学进境和修为感悟都有了些许提升。,果然熟能生巧，a勤加练习之后，武学进境和修为感悟都有了些许提升。,"
+  splits:
+  - split: 6
+    text: "果然熟能生巧，{npcName}勤加练习之后，武学进境和修为感悟都有了些许提升。"
+    translated: "As expected, practice makes perfect. After {npcName} practiced diligently, their Martial Art proficiency and Cultivation insights both improved slightly."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "As expected, practice makes perfect. After {npcName} practiced diligently, their Martial Art proficiency and Cultivation insights both improved slightly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,22,\"xiuWei,SetSP(),PlayerLove()\",\"10+,10-,10+\",\"10-,3+,4+,20+\",\"LessenSP(),friendsSan,lichang,xiuWei\",p见到a正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身。各有丰厚收益。,p见到a正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身。各有丰厚收益。,"
+  splits:
+  - split: 6
+    text: "{playerName}见到{npcName}正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身。各有丰厚收益。"
+    translated: "Seeing {npcName} meditating alone to cultivate, {playerName} requested to join them in practice. After pressing their palms together, their Inner Qi flowed between them, circulating through their bodies, yielding substantial benefits for both."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing {npcName} meditating alone to cultivate, {playerName} requested to join them in practice. After pressing their palms together, their Inner Qi flowed between them, circulating through their bodies, yielding substantial benefits for both."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,23,\"xiuWei,SetSP(),PlayerLove(),5+,6+,15-\",\"20+,10-,10+,friendsSan,lichang,LessenSP()\",,,p见其独自修行进步缓慢，便以自身内力相助其打通经脉。让a颇为感激这一臂之力。,p见其独自修行进步缓慢，便以自身内力相助其打通经脉。让a颇为感激这一臂之力。,"
+  splits:
+  - split: 6
+    text: "{playerName}见其独自修行进步缓慢，便以自身内力相助其打通经脉。让{npcName}颇为感激这一臂之力。"
+    translated: "Seeing that their solitary cultivation progressed slowly, {playerName} used their own Inner Power to help them open up their Meridians. This assistance left {npcName} deeply grateful."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing that their solitary cultivation progressed slowly, {playerName} used their own Inner Power to help them open up their Meridians. This assistance left {npcName} deeply grateful."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,24,\"SetSP(),PlayerLove(),5-,6-,15-,20+\",\"10-,10-,friendsEr,lichang,LessenSP(),xiuWei\",,,a正在潜心修炼内功之时，忽遭p偷袭，不但前功尽弃且反受重伤。心中颇为愤恨。,a正在潜心修炼内功之时，忽遭p偷袭，不但前功尽弃且反受重伤。心中颇为愤恨。,"
+  splits:
+  - split: 6
+    text: "{npcName}正在潜心修炼内功之时，忽遭{playerName}偷袭，不但前功尽弃且反受重伤。心中颇为愤恨。"
+    translated: "While {npcName} was deeply focused on cultivating Neigong, they were ambushed by {playerName}, causing them to lose all progress and suffer a Grievous Injury. They are filled with resentment."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "While {npcName} was deeply focused on cultivating Neigong, they were ambushed by {playerName}, causing them to lose all progress and suffer a Grievous Injury. They are filled with resentment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,25,\"xiuWei,SetSP()\",\"15+,25-\",,,a施展着招式迎风起舞，将刚刚参悟的谜题一一验证。武功修为大有进境。,a施展着招式迎风起舞，将刚刚参悟的谜题一一验证。武功修为大有进境。,"
+  splits:
+  - split: 6
+    text: "{npcName}施展着招式迎风起舞，将刚刚参悟的谜题一一验证。武功修为大有进境。"
+    translated: "{npcName} performed a series of Moves, dancing in the wind, verifying each puzzle they had just deciphered. Their Martial Skill and Cultivation advanced significantly."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName} performed a series of Moves, dancing in the wind, verifying each puzzle they had just deciphered. Their Martial Skill and Cultivation advanced significantly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,26,\"xiuWei,SetSP(),PlayerLove(),20+,20-,3+,5+\",\"20+,20-,15+,xiuWei,LessenSP(),friendsSan,lichang\",,,p见到a正在独自习武，上前与其陪手对练。二人拆招换式你来我往，各有收益。,p见到a正在独自习武，上前与其陪手对练。二人拆招换式你来我往，各有收益。,"
+  splits:
+  - split: 6
+    text: "{playerName}见到{npcName}正在独自习武，上前与其陪手对练。二人拆招换式你来我往，各有收益。"
+    translated: "{playerName} sees {npcName} practicing martial arts alone and steps forward to spar. The two exchange techniques in a fluid back-and-forth, each gaining valuable insight from the exchange."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} sees {npcName} practicing martial arts alone and steps forward to spar. The two exchange techniques in a fluid back-and-forth, each gaining valuable insight from the exchange."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "29,27,\"xiuWei,SetSP(),PlayerLove(),20+,20-,3+,5+\",\"50+,10-,10+,xiuWei,LessenSP(),friendsSan,lichang\",,,a所练招式虽然精妙，p却仍能想出破解之法并不吝传授，半日下来，二人武学都有不小的进步。,a所练招式虽然精妙，p却仍能想出破解之法并不吝传授，半日下来，二人武学都有不小的进步。,"
+  splits:
+  - split: 6
+    text: "{npcName}所练招式虽然精妙，{playerName}却仍能想出破解之法并不吝传授，半日下来，二人武学都有不小的进步。"
+    translated: "Although the moves {npcName} practiced were exquisite, {playerName} was still able to devise countermeasures and shared them freely. By midday, both had made significant progress in their Martial Arts."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Although the moves {npcName} practiced were exquisite, {playerName} was still able to devise countermeasures and shared them freely. By midday, both had made significant progress in their Martial Arts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "30,28,\"SetSP(),PlayerLove(),20+,20-,3-,5-\",\"10-,10+,xiuWei,LessenSP(),friendsEr,lichang\",,,繁琐复杂的招式让a筋疲力尽，p却趁人之危，藉此偷袭。使其受伤颇重，堪堪活命。,繁琐复杂的招式让a筋疲力尽，p却趁人之危，藉此偷袭。使其受伤颇重，堪堪活命。,"
+  splits:
+  - split: 6
+    text: "繁琐复杂的招式让{npcName}筋疲力尽，{playerName}却趁人之危，藉此偷袭。使其受伤颇重，堪堪活命。"
+    translated: "The intricate and complex moves left {npcName} exhausted, but {playerName} took advantage of the situation to launch a sneak attack. The injury was severe, leaving them barely clinging to life."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "The intricate and complex moves left {npcName} exhausted, but {playerName} took advantage of the situation to launch a sneak attack. The injury was severe, leaving them barely clinging to life."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "31,29,\"xiuWei,SetSP()\",\"35+,25-\",,,凝神静气半晌之后，a终于百尺竿头更近一步，突破自身极限并从修炼中大获收益。,凝神静气半晌之后，a终于百尺竿头更近一步，突破自身极限并从修炼中大获收益。,"
+  splits:
+  - split: 6
+    text: "凝神静气半晌之后，{npcName}终于百尺竿头更近一步，突破自身极限并从修炼中大获收益。"
+    translated: "After a long period of focused meditation, {npcName} finally made a significant breakthrough, surpassing their previous limits and gaining substantial benefits from their cultivation."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "After a long period of focused meditation, {npcName} finally made a significant breakthrough, surpassing their previous limits and gaining substantial benefits from their cultivation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "32,30,\"xiuWei,SetSP(),PlayerLove(),20+,20-,3+,5+\",\"50+,10-,10+,xiuWei,LessenSP(),friendsSan,lichang\",,,p见到a正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身，各有丰厚收益。,p见到a正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身，各有丰厚收益。,"
+  splits:
+  - split: 6
+    text: "{playerName}见到{npcName}正在独自打坐修行，便请求上前与其同修，二人四掌合十后内息交互，流经周身，各有丰厚收益。"
+    translated: "Seeing {npcName} meditating alone to cultivate, {playerName} requested to join in the practice. After pressing their palms together, their Inner Qi flowed between them and circulated through their bodies, yielding substantial benefits for both."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing {npcName} meditating alone to cultivate, {playerName} requested to join in the practice. After pressing their palms together, their Inner Qi flowed between them and circulated through their bodies, yielding substantial benefits for both."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "33,31,\"xiuWei,SetSP(),PlayerLove(),20-,3+,5+\",\"50+,10-,10+,LessenSP(),friendsSan,lichang\",,,p在a即将冲破玄关之际，鼎力相助，耗费精力帮其打通周身经络。,p在a即将冲破玄关之际，鼎力相助，耗费精力帮其打通周身经络。,"
+  splits:
+  - split: 6
+    text: "{playerName}在{npcName}即将冲破玄关之际，鼎力相助，耗费精力帮其打通周身经络。"
+    translated: "Just as {npcName} was on the verge of breaking through the threshold, {playerName} lent a helping hand, expending Energy to unblock their meridians."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Just as {npcName} was on the verge of breaking through the threshold, {playerName} lent a helping hand, expending Energy to unblock their meridians."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "34,32,\"PlayerLove(),SetSP(),20-,3-,5-\",\"10-,25-,LessenSP(),friendsEr,lichang\",,,a正在潜心冲关紧要之刻，忽遭p偷袭，顿时内息紊乱，气血大损。,a正在潜心冲关紧要之刻，忽遭p偷袭，顿时内息紊乱，气血大损。,"
+  splits:
+  - split: 6
+    text: "{npcName}正在潜心冲关紧要之刻，忽遭{playerName}偷袭，顿时内息紊乱，气血大损。"
+    translated: "At the critical moment of {npcName}'s deep cultivation breakthrough, a sudden ambush by {playerName} disrupted their Inner Qi and caused severe damage to their Lifeforce."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "At the critical moment of {npcName}'s deep cultivation breakthrough, a sudden ambush by {playerName} disrupted their Inner Qi and caused severe damage to their Lifeforce."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "35,33,SetSP(),40+,,,经过了一段时间的调息，a的精力恢复了些许。,经过了一段时间的调息，a的精力恢复了些许。,"
+  splits:
+  - split: 6
+    text: "经过了一段时间的调息，{npcName}的精力恢复了些许。"
+    translated: "After a period of breathing exercises, {npcName}'s Energy has recovered somewhat."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "After a period of breathing exercises, {npcName}'s Energy has recovered somewhat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "36,34,\"PlayerLove(),SetSP(),10-,3+,5+\",\"20+,20+,LessenSP(),friendsSan,lichang\",,,恻隐难忍的p就近买了些食物药材送给a，助其快速恢复。,恻隐难忍的p就近买了些食物药材送给a，助其快速恢复。,"
+  splits:
+  - split: 6
+    text: "恻隐难忍的{playerName}就近买了些食物药材送给{npcName}，助其快速恢复。"
+    translated: "Moved by compassion, {playerName} bought some food and medicinal herbs nearby to give to {npcName}, helping them recover quickly."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Moved by compassion, {playerName} bought some food and medicinal herbs nearby to give to {npcName}, helping them recover quickly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "37,35,\"PlayerLove(),SetSP(),10-,3-,5-\",\"10-,20-,LessenSP(),friendsEr,lichang\",,,a被仇视已久p抓住机会突施毒手，一惊之下仓皇逃跑。,a被仇视已久p抓住机会突施毒手，一惊之下仓皇逃跑。,"
+  splits:
+  - split: 6
+    text: "{npcName}被仇视已久{playerName}抓住机会突施毒手，一惊之下仓皇逃跑。"
+    translated: "{npcName}, long despised by {playerName}, was seized by the opportunity to strike with poison and fled in panic."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName}, long despised by {playerName}, was seized by the opportunity to strike with poison and fled in panic."
+    qcTranslated: "{npcName}, who had been hated for a long time, was caught off guard when {playerName} seized the opportunity to strike with poison and fled in panic."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "38,36,\"npcLove<id>,SetSP(),xiuWei\",\"10+,30-,100+\",\"npcLove<id>,SetSP(),xiuWei\",\"10+,30-,100+\",a与b斗至酣处，丝毫未觉已经过去了两个时辰，难分高下的他们精疲力竭，商定他日再战。,a与b斗至酣处，丝毫未觉已经过去了两个时辰，难分高下的他们精疲力竭，商定他日再战。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}斗至酣处，丝毫未觉已经过去了两个时辰，难分高下的他们精疲力竭，商定他日再战。"
+    translated: "{npcName} and {otherNpcName} fought with such fervor that they failed to notice two hours had already passed. Exhausted and unable to determine a winner, they agreed to resume their duel another day."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{npcName} and {otherNpcName} fought with such fervor that they failed to notice two hours had already passed. Exhausted and unable to determine a winner, they agreed to resume their duel another day."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "39,37,PlayerLove(),10+,\"10-,3+,5+,10+,10+\",\"LessenSP(),friendsSan,lichang,xiuWei,PlayerLove()\",p突然闪身出现，举兵刃架开双方刀剑，止住缠斗。a和b均暗自赞叹来者武艺高强，心生敬意。,p突然闪身出现，举兵刃架开双方刀剑，止住缠斗。a和b均暗自赞叹来者武艺高强，心生敬意。,"
+  splits:
+  - split: 6
+    text: "{playerName}突然闪身出现，举兵刃架开双方刀剑，止住缠斗。{npcName}和{otherNpcName}均暗自赞叹来者武艺高强，心生敬意。"
+    translated: "{playerName} suddenly appeared, raising their weapon to deflect the blades of both parties and halt the duel. {npcName} and {otherNpcName} both silently marveled at the newcomer's exceptional martial prowess, feeling a surge of respect."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{playerName} suddenly appeared, raising their weapon to deflect the blades of both parties and halt the duel. {npcName} and {otherNpcName} both silently marveled at the newcomer's exceptional martial prowess, feeling a surge of respect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "40,38,PlayerLove(),10+,\"10-,3-,5-,10+,10+\",\"LessenSP(),friendsEr,lichang,xiuWei,PlayerLove()\",随着p的参战，势均力敌的局面开始慢慢失衡，b逐渐支撑不住，最后被a打伤逃走。,随着p的参战，势均力敌的局面开始慢慢失衡，b逐渐支撑不住，最后被a打伤逃走。,"
+  splits:
+  - split: 6
+    text: "随着{playerName}的参战，势均力敌的局面开始慢慢失衡，{otherNpcName}逐渐支撑不住，最后被{npcName}打伤逃走。"
+    translated: "With {playerName}'s intervention, the balanced situation began to tip, and {otherNpcName} gradually could not hold on, eventually being wounded by {npcName} and forced to flee."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "With {playerName}'s intervention, the balanced situation began to tip, and {otherNpcName} gradually could not hold on, eventually being wounded by {npcName} and forced to flee."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "41,39,PlayerLove(),10-,\"10+,3-,5-,10+,10+\",\"LessenSP(),friendsEr,lichang,xiuWei,PlayerLove()\",随着p的参战，势均力敌的局面开始慢慢失衡，a逐渐支撑不住，最后被b打伤逃走。,随着p的参战，势均力敌的局面开始慢慢失衡，a逐渐支撑不住，最后被b打伤逃走。,"
+  splits:
+  - split: 6
+    text: "随着{playerName}的参战，势均力敌的局面开始慢慢失衡，{npcName}逐渐支撑不住，最后被{otherNpcName}打伤逃走。"
+    translated: "With {playerName}'s intervention, the balanced stalemate begins to tip in favor of one side. {npcName} gradually becomes overwhelmed and is ultimately wounded by {otherNpcName}, forcing a retreat."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "With {playerName}'s intervention, the balanced stalemate begins to tip in favor of one side. {npcName} gradually becomes overwhelmed and is ultimately wounded by {otherNpcName}, forcing a retreat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "42,40,\"SetSP(),npcLove<id>\",\"25-,20-\",\"evil,npcLove<id>\",\"3-,20-,SetSP(),20-\",不料武功高强的大侠a一时大意，竟遭b暗算。不过总算困兽犹勇，且战且逃之后尚得以保命。,不料武功高强的大侠a一时大意，竟遭b暗算。不过总算困兽犹勇，且战且逃之后尚得以保命。,"
+  splits:
+  - split: 6
+    text: "不料武功高强的大侠{npcName}一时大意，竟遭{otherNpcName}暗算。不过总算困兽犹勇，且战且逃之后尚得以保命。"
+    translated: "Unexpectedly, the Great Hero {npcName}, despite possessing formidable Martial Skill, let their guard down and was ambushed by {otherNpcName}. Fortunately, fighting with the desperate courage of a cornered beast, they managed to fight their way out and survive."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Unexpectedly, the Great Hero {npcName}, despite possessing formidable Martial Skill, let their guard down and was ambushed by {otherNpcName}. Fortunately, fighting with the desperate courage of a cornered beast, they managed to fight their way out and survive."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "43,41,\"SetSP(),PlayerLove(),xiuWei\",\"20-,10+,10+\",\"PlayerLove(),5+,6+,20-\",\"10-,friendsSan,lichang,LessenSP()\",看着趁人之危的b一伙围攻大侠a，p忽然现身横刀阻拦，以正身黜恶、惊跑了众贼寇。,看着趁人之危的b一伙围攻大侠a，p忽然现身横刀阻拦，以正身黜恶、惊跑了众贼寇。,"
+  splits:
+  - split: 6
+    text: "看着趁人之危的{otherNpcName}一伙围攻大侠{npcName}，{playerName}忽然现身横刀阻拦，以正身黜恶、惊跑了众贼寇。"
+    translated: "Watching as {otherNpcName} and their gang besieged Great Hero {npcName} while they were vulnerable, {playerName} suddenly appeared, drawing a blade to block the attack. With righteous fury against evil, they drove the bandits away in terror."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Watching as {otherNpcName} and their gang besieged Great Hero {npcName} while they were vulnerable, {playerName} suddenly appeared, drawing a blade to block the attack. With righteous fury against evil, they drove the bandits away in terror."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "44,42,\"SetSP(),PlayerLove(),xiuWei\",\"20-,10+,10+\",\"PlayerLove(),3+,6+,20-,\",\"10-,friendsSan,lichang,LessenSP()\",p看到b一伙人偷袭a的卑劣行径，义愤填膺，立刻挺身而出与大侠一起力斗群贼，将之击退。,p看到b一伙人偷袭a的卑劣行径，义愤填膺，立刻挺身而出与大侠一起力斗群贼，将之击退。,"
+  splits:
+  - split: 6
+    text: "{playerName}看到{otherNpcName}一伙人偷袭{npcName}的卑劣行径，义愤填膺，立刻挺身而出与大侠一起力斗群贼，将之击退。"
+    translated: "Witnessing the treacherous ambush by {otherNpcName}'s gang against {npcName}, {playerName} was filled with righteous indignation and immediately stepped forward to join the Great Hero in battling the bandits, driving them back."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Witnessing the treacherous ambush by {otherNpcName}'s gang against {npcName}, {playerName} was filled with righteous indignation and immediately stepped forward to join the Great Hero in battling the bandits, driving them back."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "45,43,\"PlayerLove(),SetSP()\",\"10-,25-\",\"10-,3-,5-,30+,10+\",\"LessenSP(),friendsEr,lichang,xiuWei,PlayerLove()\",阴险的p在a与b缠斗之时，再次出手偷袭，打得大侠重伤难支，险些丧命。,阴险的p在a与b缠斗之时，再次出手偷袭，打得大侠重伤难支，险些丧命。,"
+  splits:
+  - split: 6
+    text: "阴险的{playerName}在{npcName}与{otherNpcName}缠斗之时，再次出手偷袭，打得大侠重伤难支，险些丧命。"
+    translated: "The treacherous {playerName} struck again while {npcName} and {otherNpcName} were locked in combat, ambushing the Great Hero and inflicting a Grievous Injury that nearly cost him his life."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "The treacherous {playerName} struck again while {npcName} and {otherNpcName} were locked in combat, ambushing the Great Hero and inflicting a Grievous Injury that nearly cost him his life."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "46,44,\"SetSP(),npcLove<id>,lichang,evil\",\"25-,20-,2-,4-\",\"npcLove<id>,10-\",\"20-,LessenSP()\",不自量力的a竟还想趁其不备偷袭，被b一掌打在胸口，顿时内息翻涌，口吐鲜血。,不自量力的a竟还想趁其不备偷袭，被b一掌打在胸口，顿时内息翻涌，口吐鲜血。,"
+  splits:
+  - split: 6
+    text: "不自量力的{npcName}竟还想趁其不备偷袭，被{otherNpcName}一掌打在胸口，顿时内息翻涌，口吐鲜血。"
+    translated: "The overconfident {npcName} attempted a sneak attack while the other was unguarded, only to be struck in the chest by {otherNpcName}'s palm. Instantly, their Inner Qi surged violently, and they coughed up blood."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "The overconfident {npcName} attempted a sneak attack while the other was unguarded, only to be struck in the chest by {otherNpcName}'s palm. Instantly, their Inner Qi surged violently, and they coughed up blood."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "47,45,PlayerLove(),10+,\"SetSP(),PlayerLove(),5-,6-,20-\",\"20-,10-,friendsEr,lichang,LessenSP()\",饶有恶名的p出手包庇恶人a，自忖难敌的b投鼠忌器，撂下几句狠话之后便悻悻离去了。,饶有恶名的p出手包庇恶人a，自忖难敌的b投鼠忌器，撂下几句狠话之后便悻悻离去了。,"
+  splits:
+  - split: 6
+    text: "饶有恶名的{playerName}出手包庇恶人{npcName}，自忖难敌的{otherNpcName}投鼠忌器，撂下几句狠话之后便悻悻离去了。"
+    translated: "The notoriously ruthless {playerName} intervened to shield the villainous {npcName}. Realizing they were outmatched, {otherNpcName} hesitated, let out a few threats, and then left in a huff."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "The notoriously ruthless {playerName} intervened to shield the villainous {npcName}. Realizing they were outmatched, {otherNpcName} hesitated, let out a few threats, and then left in a huff."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "48,46,PlayerLove(),10-,\"PlayerLove(),3+,4+,20-\",\"10+,friendsSan,lichang,LessenSP()\",杀鸡焉用牛刀，还未待b出第二招，p抢先出手把匪盗a一伙人打的落花流水，鸟兽般散去。,杀鸡焉用牛刀，还未待b出第二招，p抢先出手把匪盗a一伙人打的落花流水，鸟兽般散去。,"
+  splits:
+  - split: 6
+    text: "杀鸡焉用牛刀，还未待{otherNpcName}出第二招，{playerName}抢先出手把匪盗{npcName}一伙人打的落花流水，鸟兽般散去。"
+    translated: "Why use a great blade to kill a chicken? Before {otherNpcName} could even land a second move, {playerName} struck first, scattering the bandits led by {npcName} like birds and beasts fleeing in disarray."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Why use a great blade to kill a chicken? Before {otherNpcName} could even land a second move, {playerName} struck first, scattering the bandits led by {npcName} like birds and beasts fleeing in disarray."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "49,47,PlayerLove(),10+,\"PlayerLove(),3-,4-,20-\",\"10-,friendsEr,lichang,LessenSP()\",双拳难敌四手，在a得到p出手相助之后，b立刻难以支撑，数招之后便负伤逃走。,双拳难敌四手，在a得到p出手相助之后，b立刻难以支撑，数招之后便负伤逃走。,"
+  splits:
+  - split: 6
+    text: "双拳难敌四手，在{npcName}得到{playerName}出手相助之后，{otherNpcName}立刻难以支撑，数招之后便负伤逃走。"
+    translated: "One cannot fight with two fists against four hands. After {npcName} received aid from {playerName}, {otherNpcName} could no longer hold their ground and fled after a few moves, wounded."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "One cannot fight with two fists against four hands. After {npcName} received aid from {playerName}, {otherNpcName} could no longer hold their ground and fled after a few moves, wounded."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "50,48,\"SetSP(),lichang,evil\",\"15-,2-,4-\",,,a趁着摊主不注意，挣脱开来，拿着刚刚抢到的点心跑开了。,a趁着摊主不注意，挣脱开来，拿着刚刚抢到的点心跑开了。,"
+  splits:
+  - split: 6
+    text: "{npcName}趁着摊主不注意，挣脱开来，拿着刚刚抢到的点心跑开了。"
+    translated: "{npcName} slipped away while the stall owner wasn't paying attention, clutching the pastries he had just snatched."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName} slipped away while the stall owner wasn't paying attention, clutching the pastries he had just snatched."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "51,49,PlayerLove(),10+,\"20+,3+,4+,20-\",\"xiuWei,friendsSan,lichang,LessenSP()\",不忍a如此落魄的p慷慨地替他付钱给了摊主。不曾想原是世外高人的他随便指点几招便使自己受益匪浅。,不忍a如此落魄的p慷慨地替他付钱给了摊主。不曾想原是世外高人的他随便指点几招便使自己受益匪浅。,"
+  splits:
+  - split: 6
+    text: "不忍{npcName}如此落魄的{playerName}慷慨地替他付钱给了摊主。不曾想原是世外高人的他随便指点几招便使自己受益匪浅。"
+    translated: "Unable to bear seeing {npcName} in such a destitute state, {playerName} generously paid the stall owner on his behalf. Little did they expect that this seemingly humble man was actually a reclusive master whose casual guidance yielded profound insights."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Unable to bear seeing {npcName} in such a destitute state, {playerName} generously paid the stall owner on his behalf. Little did they expect that this seemingly humble man was actually a reclusive master whose casual guidance yielded profound insights."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "52,50,PlayerLove(),5-,\"3-,4-\",\"friendsEr,lichang\",a哭闹了好一阵子，终于被家人寻到，带回家中。,a哭闹了好一阵子，终于被家人寻到，带回家中。,"
+  splits:
+  - split: 6
+    text: "{npcName}哭闹了好一阵子，终于被家人寻到，带回家中。"
+    translated: "{npcName} cried and threw a tantrum for a while before finally being found by their family and taken home."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName} cried and threw a tantrum for a while before finally being found by their family and taken home."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "53,51,PlayerLove(),5+,\"3+,4+,15+,20+\",\"friendsSan,lichang,LessenSP(),xiuWei\",在耐心的劝哄之下，a终于说出了自己的住处。p将其安全护送回家中之后，被盛情难却的家人留下共用晚餐。,在耐心的劝哄之下，a终于说出了自己的住处。p将其安全护送回家中之后，被盛情难却的家人留下共用晚餐。,"
+  splits:
+  - split: 6
+    text: "在耐心的劝哄之下，{npcName}终于说出了自己的住处。{playerName}将其安全护送回家中之后，被盛情难却的家人留下共用晚餐。"
+    translated: "After patient coaxing, {npcName} finally revealed their home address. After safely escorting them home, {playerName} was warmly invited by the family to join them for dinner."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "After patient coaxing, {npcName} finally revealed their home address. After safely escorting them home, {playerName} was warmly invited by the family to join them for dinner."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "54,52,PlayerLove(),5+,\"3+,4+,15+,20+\",\"friendsSan,lichang,LessenSP(),sliver\",a不忍其哭闹不止，带他随便找一家餐铺填饱肚子，怎知a正是这点心铺本家走失的孩子。掌柜千恩万谢，作揖不止。,a不忍其哭闹不止，带他随便找一家餐铺填饱肚子，怎知a正是这点心铺本家走失的孩子。掌柜千恩万谢，作揖不止。,"
+  splits:
+  - split: 6
+    text: "{npcName}不忍其哭闹不止，带他随便找一家餐铺填饱肚子，怎知{npcName}正是这点心铺本家走失的孩子。掌柜千恩万谢，作揖不止。"
+    translated: "Unable to bear the child's endless crying, {npcName} took him to a nearby eatery to fill his stomach. Little did {npcName} know that this was the lost child of the very pastry shop's owner. The Shopkeeper expressed endless gratitude and bowed repeatedly."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "Unable to bear the child's endless crying, {npcName} took him to a nearby eatery to fill his stomach. Little did {npcName} know that this was the lost child of the very pastry shop's owner. The Shopkeeper expressed endless gratitude and bowed repeatedly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "55,53,\"npcLove<id>,SetSP()\",10+.10-,\"npcLove<id>,SetSP()\",10+.10-,a与b欢声谈笑了许久，两人的蜜意浓情又加深了两分。,a与b欢声谈笑了许久，两人的蜜意浓情又加深了两分。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}欢声谈笑了许久，两人的蜜意浓情又加深了两分。"
+    translated: "{npcName} and {otherNpcName} laughed and chatted merrily for a long time, their affection deepening further."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{npcName} and {otherNpcName} laughed and chatted merrily for a long time, their affection deepening further."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "56,54,\"npcLove<id>,SetSP(),PlayerLove()\",\"10+,10-,5+\",\"npcLove<id>,SetSP(),PlayerLove(),3+,4+\",\"10+,10-,5+,friendsSan,lichang\",a与b谈笑散步之时，不巧乌云骤起，暴雨忽来。p有心成人之美，将自己的雨伞送与二人。,a与b谈笑散步之时，不巧乌云骤起，暴雨忽来。p有心成人之美，将自己的雨伞送与二人。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}谈笑散步之时，不巧乌云骤起，暴雨忽来。{playerName}有心成人之美，将自己的雨伞送与二人。"
+    translated: "While {npcName} and {otherNpcName} were strolling and chatting, dark clouds suddenly gathered and a heavy downpour began. {playerName}, wishing to do them a kindness, offered their own umbrella to the pair."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "While {npcName} and {otherNpcName} were strolling and chatting, dark clouds suddenly gathered and a heavy downpour began. {playerName}, wishing to do them a kindness, offered their own umbrella to the pair."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "57,55,PlayerLove(),10-,\"PlayerLove(),3-,4-,15-\",\"10-,friendsEr,lichang,LessenSP()\",看到心上人和别人谈笑风生，p怒从中来，用暗器打伤a与b二人后离去。,看到心上人和别人谈笑风生，p怒从中来，用暗器打伤a与b二人后离去。,"
+  splits:
+  - split: 6
+    text: "看到心上人和别人谈笑风生，{playerName}怒从中来，用暗器打伤{npcName}与{otherNpcName}二人后离去。"
+    translated: "Watching their beloved laughing and chatting with others, {playerName} was overcome with rage. They wounded both {npcName} and {otherNpcName} with a Hidden Weapon before leaving."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Watching their beloved laughing and chatting with others, {playerName} was overcome with rage. They wounded both {npcName} and {otherNpcName} with a Hidden Weapon before leaving."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "58,56,\"npcLove<id>,SetSP()\",\"10+,10-\",\"npcLove<id>,SetSP()\",\"10+,10-\",a与b两人互换了信物，各自离去。看来月老的红线不日就要牵在此二人的身上了。,a与b两人互换了信物，各自离去。看来月老的红线不日就要牵在此二人的身上了。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}两人互换了信物，各自离去。看来月老的红线不日就要牵在此二人的身上了。"
+    translated: "{npcName} and {otherNpcName} exchanged tokens of affection and parted ways. It seems the Red Thread of Fate will soon bind these two together."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{npcName} and {otherNpcName} exchanged tokens of affection and parted ways. It seems the Red Thread of Fate will soon bind these two together."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "59,57,\"npcLove<id>,SetSP(),PlayerLove()\",\"10+,10-,5+\",\"npcLove<id>,SetSP(),PlayerLove(),3+,4+\",\"10+,10-,5+,friendsSan,lichang\",b拿出绣帕，正欲交给a当作定情信物之时，忽然疾风骤起，吹飞了绣帕。p不忍好事多磨，施展轻功取回了锦帕还给二人。,b拿出绣帕，正欲交给a当作定情信物之时，忽然疾风骤起，吹飞了绣帕。p不忍好事多磨，施展轻功取回了锦帕还给二人。,"
+  splits:
+  - split: 6
+    text: "{otherNpcName}拿出绣帕，正欲交给{npcName}当作定情信物之时，忽然疾风骤起，吹飞了绣帕。{playerName}不忍好事多磨，施展轻功取回了锦帕还给二人。"
+    translated: "As {otherNpcName} took out the embroidered handkerchief and was about to present it to {npcName} as a token of their affection, a sudden gust of wind arose and blew the handkerchief away. Unable to bear the idea that good fortune should be so easily thwarted, {playerName} used Qinggong to retrieve the silk handkerchief and returned it to the two of them."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "As {otherNpcName} took out the embroidered handkerchief and was about to present it to {npcName} as a token of their affection, a sudden gust of wind arose and blew the handkerchief away. Unable to bear the idea that good fortune should be so easily thwarted, {playerName} used Qinggong to retrieve the silk handkerchief and returned it to the two of them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "60,58,\"npcLove<id>,SetSP(),PlayerLove()\",\"10-,10-,5+\",\"npcLove<id>,SetSP(),PlayerLove(),3-,4-,15-\",\"10-,10-,5+,friendsEr,lichang,LessenSP()\",存心作梗的p暗中偷走了二人本欲互换的定情信物，让a与b不欢而散。,存心作梗的p暗中偷走了二人本欲互换的定情信物，让a与b不欢而散。,"
+  splits:
+  - split: 6
+    text: "存心作梗的{playerName}暗中偷走了二人本欲互换的定情信物，让{npcName}与{otherNpcName}不欢而散。"
+    translated: "{playerName}, deliberately seeking to cause trouble, secretly stole the tokens of affection that the two had intended to exchange, causing {npcName} and {otherNpcName} to part on bad terms."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{playerName}, deliberately seeking to cause trouble, secretly stole the tokens of affection that the two had intended to exchange, causing {npcName} and {otherNpcName} to part on bad terms."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "61,59,SetSP(),10-,,,气力不足的a连站立都勉力维之。不得不稍作休息以恢复些精力。,气力不足的a连站立都勉力维之。不得不稍作休息以恢复些精力。,"
+  splits:
+  - split: 6
+    text: "气力不足的{npcName}连站立都勉力维之。不得不稍作休息以恢复些精力。"
+    translated: "{npcName}, lacking in strength, could barely stand. They had no choice but to rest briefly to regain some Energy."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName}, lacking in strength, could barely stand. They had no choice but to rest briefly to regain some Energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "62,60,PlayerLove(),5+,\"3+,4+,15+,15-\",\"friendsSan,lichang,xiuWei,LessenSP()\",p将练功心得分享给a，告诫其练功需循序渐进、戒骄戒躁。让其颇有受益。,p将练功心得分享给a，告诫其练功需循序渐进、戒骄戒躁。让其颇有受益。,"
+  splits:
+  - split: 6
+    text: "{playerName}将练功心得分享给{npcName}，告诫其练功需循序渐进、戒骄戒躁。让其颇有受益。"
+    translated: "{playerName} shares their cultivation insights with {npcName}, advising them to progress gradually and avoid arrogance or impatience. This leaves them greatly enlightened."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} shares their cultivation insights with {npcName}, advising them to progress gradually and avoid arrogance or impatience. This leaves them greatly enlightened."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "63,61,\"PlayerLove(),3+,4+,15+,15-\",\"5+,friendsSan,lichang,xiuWei,LessenSP()\",,,见a气虚血亏，p耗费自身功力为其调理。让其得以恢复些许。,见a气虚血亏，p耗费自身功力为其调理。让其得以恢复些许。,"
+  splits:
+  - split: 6
+    text: "见{npcName}气虚血亏，{playerName}耗费自身功力为其调理。让其得以恢复些许。"
+    translated: "Seeing that {npcName} was weak and anemic, {playerName} expended their own internal energy to help regulate their condition, allowing them to recover somewhat."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing that {npcName} was weak and anemic, {playerName} expended their own internal energy to help regulate their condition, allowing them to recover somewhat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "64,62,\"PlayerLove(),3-,4-,15-,500+\",\"5-,friendsEr,lichang,LessenSP(),sliver\",,,趁着a虚弱无力之际，p出手偷袭将其打倒在地之后，抢走不少钱财。,趁着a虚弱无力之际，p出手偷袭将其打倒在地之后，抢走不少钱财。,"
+  splits:
+  - split: 6
+    text: "趁着{npcName}虚弱无力之际，{playerName}出手偷袭将其打倒在地之后，抢走不少钱财。"
+    translated: "Taking advantage of {npcName}'s weakened state, {playerName} launched a surprise attack, knocking them to the ground and stealing a considerable amount of money."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Taking advantage of {npcName}'s weakened state, {playerName} launched a surprise attack, knocking them to the ground and stealing a considerable amount of money."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "65,63,SetSP(),25+,,,a虽然年近花甲，但稍作休息调息之后精力充沛，不啻少年之壮。,a虽然年近花甲，但稍作休息调息之后精力充沛，不啻少年之壮。,"
+  splits:
+  - split: 6
+    text: "{npcName}虽然年近花甲，但稍作休息调息之后精力充沛，不啻少年之壮。"
+    translated: "Although {npcName} is nearly sixty years old, after a brief rest to regulate their breathing, they are brimming with energy, as vigorous as a young man."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "Although {npcName} is nearly sixty years old, after a brief rest to regulate their breathing, they are brimming with energy, as vigorous as a young man."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "66,64,\"PlayerLove(),3+,4+,10-\",\"5+,friendsSan,lichang,LessenSP()\",,,p担心老者年事已高，心力难撑。便耗费内力帮调整内息，几刻过后a红光满面，连连颔首致谢。,p担心老者年事已高，心力难撑。便耗费内力帮调整内息，几刻过后a红光满面，连连颔首致谢。,"
+  splits:
+  - split: 6
+    text: "{playerName}担心老者年事已高，心力难撑。便耗费内力帮调整内息，几刻过后{npcName}红光满面，连连颔首致谢。"
+    translated: "{playerName} worried that the old man was too frail in body and spirit to endure the strain. They expended Inner Power to help regulate his Inner Qi. After a few moments, {npcName}'s complexion flushed with health, and he nodded repeatedly in gratitude."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} worried that the old man was too frail in body and spirit to endure the strain. They expended Inner Power to help regulate his Inner Qi. After a few moments, {npcName}'s complexion flushed with health, and he nodded repeatedly in gratitude."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "67,65,\"PlayerLove(),3+,4+,10-,15+\",\"5+,friendsSan,lichang,LessenSP(),xiuWei\",,,p担心老者独自运功行炁出错。便伴其身侧。陪a一同打坐调息。几刻过后，自己的内功也颇有进境。,p担心老者独自运功行炁出错。便伴其身侧。陪a一同打坐调息。几刻过后，自己的内功也颇有进境。,"
+  splits:
+  - split: 6
+    text: "{playerName}担心老者独自运功行炁出错。便伴其身侧。陪{npcName}一同打坐调息。几刻过后，自己的内功也颇有进境。"
+    translated: "{playerName} worried that the old man might make a mistake while circulating his qi alone. So they stayed by his side, accompanying {npcName} in meditating and regulating their breath. After a few moments, their own Neigong had also made considerable progress."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} worried that the old man might make a mistake while circulating his qi alone. So they stayed by his side, accompanying {npcName} in meditating and regulating their breath. After a few moments, their own Neigong had also made considerable progress."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "68,66,\"npcLove<id>,SetSP()\",\"10+,10-\",\"npcLove<id>,SetSP()\",\"10+,10-\",a与b两人推杯换盏，各自醺醉。,a与b两人推杯换盏，各自醺醉。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}两人推杯换盏，各自醺醉。"
+    translated: "{npcName} and {otherNpcName} clinked cups together, each growing drunk."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{npcName} and {otherNpcName} clinked cups together, each growing drunk."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "69,67,\"npcLove<id>,SetSP(),PlayerLove()\",\"10+,10-,5+\",\"npcLove<id>,SetSP(),PlayerLove(),3+,4+,100-\",\"10+,10-,5+,friendsSan,lichang,sliver\",豪爽外向的p见a和b聊的火热，不禁上前攀谈，同桌共饮。三人酒逢知己，相见恨晚。,豪爽外向的p见a和b聊的火热，不禁上前攀谈，同桌共饮。三人酒逢知己，相见恨晚。,"
+  splits:
+  - split: 6
+    text: "豪爽外向的{playerName}见{npcName}和{otherNpcName}聊的火热，不禁上前攀谈，同桌共饮。三人酒逢知己，相见恨晚。"
+    translated: "The outgoing {playerName}, seeing {npcName} and {otherNpcName} chatting animatedly, couldn't help but join in, sharing a table and drinks. The three found kindred spirits in each other, wishing they had met sooner."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "The outgoing {playerName}, seeing {npcName} and {otherNpcName} chatting animatedly, couldn't help but join in, sharing a table and drinks. The three found kindred spirits in each other, wishing they had met sooner."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "70,68,\"npcLove<id>,SetSP()\",\"10-,10-\",\"npcLove<id>,SetSP(),4-\",\"10-,10-,lichang\",a品性正直，不曾防备席间算计，被b暗器中伤，幸而跳窗逃出，才免于凶险。,a品性正直，不曾防备席间算计，被b暗器中伤，幸而跳窗逃出，才免于凶险。,"
+  splits:
+  - split: 6
+    text: "{npcName}品性正直，不曾防备席间算计，被{otherNpcName}暗器中伤，幸而跳窗逃出，才免于凶险。"
+    translated: "{npcName} is upright in character and did not guard against treachery at the banquet. {otherNpcName} struck them with a Hidden Weapon, but they leaped through the window to escape, narrowly avoiding death."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{npcName} is upright in character and did not guard against treachery at the banquet. {otherNpcName} struck them with a Hidden Weapon, but they leaped through the window to escape, narrowly avoiding death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "71,69,\"npcLove<id>,SetSP(),PlayerLove()\",\"10+,10-,5+\",\"npcLove<id>,SetSP(),4+,3+,PlayerLove()\",\"10+,10-,lichang,friendsSan,5+\",p看破席间阴谋为二人主持公道，a尽述当年恩怨原委后两人才知曾有小人作梗，误会一场。二人尽释前嫌。,p看破席间阴谋为二人主持公道，a尽述当年恩怨原委后两人才知曾有小人作梗，误会一场。二人尽释前嫌。,"
+  splits:
+  - split: 6
+    text: "{playerName}看破席间阴谋为二人主持公道，{npcName}尽述当年恩怨原委后两人才知曾有小人作梗，误会一场。二人尽释前嫌。"
+    translated: "{playerName} sees through the conspiracy at the banquet and speaks up for both of them. After {npcName} recounts the full story of their past grievances, they realize that a schemer had been meddling all along, and it was all a misunderstanding. The two make peace and let go of their old grudges."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} sees through the conspiracy at the banquet and speaks up for both of them. After {npcName} recounts the full story of their past grievances, they realize that a schemer had been meddling all along, and it was all a misunderstanding. The two make peace and let go of their old grudges."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "72,70,PlayerLove(),10+,\"PlayerLove(),15-,3-,4-,200+\",\"10-,LessenSP(),friendsEr,lichang,sliver\",p竟然和a狼狈为奸，借宴请b的机会对其施以毒手。幸而未能得逞才不致妄害人命。,p竟然和a狼狈为奸，借宴请b的机会对其施以毒手。幸而未能得逞才不致妄害人命。,"
+  splits:
+  - split: 6
+    text: "{playerName}竟然和{npcName}狼狈为奸，借宴请{otherNpcName}的机会对其施以毒手。幸而未能得逞才不致妄害人命。"
+    translated: "To our surprise, {playerName} conspired with {npcName}, using the banquet for {otherNpcName} as an opportunity to attempt poisoning. Fortunately, their scheme failed, preventing any loss of life."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "To our surprise, {playerName} conspired with {npcName}, using the banquet for {otherNpcName} as an opportunity to attempt poisoning. Fortunately, their scheme failed, preventing any loss of life."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "73,71,\"npcLove<id>,SetSP(),PlayerLove()\",\"10+,10-,5+\",\"npcLove<id>,SetSP(),4+,3+,PlayerLove()\",\"10+,10-,lichang,friendsSan,5+\",p智勇双全，先是陪同b一起赴宴，护其周全，而后与a当面对质，还原当年原委，化解了矛盾。,p智勇双全，先是陪同b一起赴宴，护其周全，而后与a当面对质，还原当年原委，化解了矛盾。,"
+  splits:
+  - split: 6
+    text: "{playerName}智勇双全，先是陪同{otherNpcName}一起赴宴，护其周全，而后与{npcName}当面对质，还原当年原委，化解了矛盾。"
+    translated: "{playerName} is both wise and brave. First, they accompanied {otherNpcName} to the banquet to ensure their safety. Then, they confronted {npcName} face-to-face to uncover the truth of what happened back then, thereby resolving the conflict."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "{playerName} is both wise and brave. First, they accompanied {otherNpcName} to the banquet to ensure their safety. Then, they confronted {npcName} face-to-face to uncover the truth of what happened back then, thereby resolving the conflict."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "74,72,\"npcLove<id>,SetSP(),xiuWei\",\"10+,10-,10+\",\"npcLove<id>,SetSP(),xiuWei\",\"10+,10-,10+\",几局下来，虽互有胜负，黑白相差始终未过三子。a与b亦在这攻守交错之间各有领悟。,几局下来，虽互有胜负，黑白相差始终未过三子。a与b亦在这攻守交错之间各有领悟。,"
+  splits:
+  - split: 6
+    text: "几局下来，虽互有胜负，黑白相差始终未过三子。{npcName}与{otherNpcName}亦在这攻守交错之间各有领悟。"
+    translated: "After several games, with wins and losses evenly matched, the difference in stones never exceeded three. {npcName} and {otherNpcName} each gained insights through this interplay of attack and defense."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "After several games, with wins and losses evenly matched, the difference in stones never exceeded three. {npcName} and {otherNpcName} each gained insights through this interplay of attack and defense."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "75,73,PlayerLove(),10+,\"PlayerLove(),10-,15+\",\"10+,LessenSP(),xiuWei\",p见a和b二人棋意交错，难忍技痒。三人在这尺方之间尽兴切磋，结为挚友。,p见a和b二人棋意交错，难忍技痒。三人在这尺方之间尽兴切磋，结为挚友。,"
+  splits:
+  - split: 6
+    text: "{playerName}见{npcName}和{otherNpcName}二人棋意交错，难忍技痒。三人在这尺方之间尽兴切磋，结为挚友。"
+    translated: "Watching {npcName} and {otherNpcName} engage in a fierce battle of wits over the board, {playerName} could not resist the urge to join in. The three of them spent hours immersed in their game, exchanging moves with great enthusiasm, and ultimately became close friends."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Watching {npcName} and {otherNpcName} engage in a fierce battle of wits over the board, {playerName} could not resist the urge to join in. The three of them spent hours immersed in their game, exchanging moves with great enthusiasm, and ultimately became close friends."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "76,74,SetSP(),10-,SetSP(),10-,天下英雄，难解珍珑。纵然棋力出众如a与b者亦难参其中玄妙。,天下英雄，难解珍珑。纵然棋力出众如a与b者亦难参其中玄妙。,"
+  splits:
+  - split: 6
+    text: "天下英雄，难解珍珑。纵然棋力出众如{npcName}与{otherNpcName}者亦难参其中玄妙。"
+    translated: "Heroes of the realm find the Zhenlong puzzle a riddle beyond their grasp. Even those with exceptional skill in the game, such as {npcName} and {otherNpcName}, struggle to fathom its profound mysteries."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Heroes of the realm find the Zhenlong puzzle a riddle beyond their grasp. Even those with exceptional skill in the game, such as {npcName} and {otherNpcName}, struggle to fathom its profound mysteries."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "77,75,PlayerLove(),10-,\"PlayerLove(),10-,10+,3+,4+\",\"10-,LessenSP(),xiuWei,friendsSan,lichang\",纵然琴棋不凡的p也从未见过这互生互息，谁也封不尽对方活气的棋面，当即劝a与b就此罢手，莫要痴迷。,纵然琴棋不凡的p也从未见过这互生互息，谁也封不尽对方活气的棋面，当即劝a与b就此罢手，莫要痴迷。,"
+  splits:
+  - split: 6
+    text: "纵然琴棋不凡的{playerName}也从未见过这互生互息，谁也封不尽对方活气的棋面，当即劝{npcName}与{otherNpcName}就此罢手，莫要痴迷。"
+    translated: "Even {playerName}, whose skill with the qin and Go is extraordinary, has never witnessed a board where life and breath sustain each other in such a way that neither can fully seal off the other's vitality. They immediately urged {npcName} and {otherNpcName} to stop, warning them not to become obsessed."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Even {playerName}, whose skill with the qin and Go is extraordinary, has never witnessed a board where life and breath sustain each other in such a way that neither can fully seal off the other's vitality. They immediately urged {npcName} and {otherNpcName} to stop, warning them not to become obsessed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "78,76,PlayerLove(),10-,\"PlayerLove(),10-,10+,3+,4-\",\"10-,LessenSP(),xiuWei,friendsSan,lichang\",眼见a与b棋困于局，心智亦困于局面。无计可施p索性谎称妖邪作祟，妨碍对弈。惹得一场让众人哭笑不得乌龙。,眼见a与b棋困于局，心智亦困于局面。无计可施p索性谎称妖邪作祟，妨碍对弈。惹得一场让众人哭笑不得乌龙。,"
+  splits:
+  - split: 6
+    text: "眼见{npcName}与{otherNpcName}棋困于局，心智亦困于局面。无计可施{playerName}索性谎称妖邪作祟，妨碍对弈。惹得一场让众人哭笑不得乌龙。"
+    translated: "Seeing {npcName} and {otherNpcName} trapped in the game, their minds equally bound by the situation, {playerName}, at a loss for what to do, simply claimed that demons were interfering with the match. This caused a hilarious misunderstanding that left everyone both amused and exasperated."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Seeing {npcName} and {otherNpcName} trapped in the game, their minds equally bound by the situation, {playerName}, at a loss for what to do, simply claimed that demons were interfering with the match. This caused a hilarious misunderstanding that left everyone both amused and exasperated."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "79,77,SetSP(),25-,,,任a如何苦想，终不得其解，最终与无字天书失之交臂。,任a如何苦想，终不得其解，最终与无字天书失之交臂。,"
+  splits:
+  - split: 6
+    text: "任{npcName}如何苦想，终不得其解，最终与无字天书失之交臂。"
+    translated: "No matter how hard {npcName} tried to figure it out, they could not find the solution and ultimately missed their chance with the Wordless Heavenly Scripture."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "No matter how hard {npcName} tried to figure it out, they could not find the solution and ultimately missed their chance with the Wordless Heavenly Scripture."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "80,78,\"SetSP(),PlayerLove(),10-\",\"25-,10+,LessenSP()\",,,p听闻a偶得一本无字之书，与之共同参谋，然苦思多日亦未有结果，倒是二人渐成挚友。,p听闻a偶得一本无字之书，与之共同参谋，然苦思多日亦未有结果，倒是二人渐成挚友。,"
+  splits:
+  - split: 6
+    text: "{playerName}听闻{npcName}偶得一本无字之书，与之共同参谋，然苦思多日亦未有结果，倒是二人渐成挚友。"
+    translated: "{playerName} heard that {npcName} had come across a book with no text. They consulted together on it, but after days of deep thought, they reached no conclusion. Instead, the two gradually became close friends."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} heard that {npcName} had come across a book with no text. They consulted together on it, but after days of deep thought, they reached no conclusion. Instead, the two gradually became close friends."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "81,79,\"xiuWei,PlayerLove()\",\"30+,10+\",,,听闻以异邦花汁为墨，墨干字消。需敷以白醋方使文字复现。p依此法相助，果然帮助a破解了无字书的玄机。,听闻以异邦花汁为墨，墨干字消。需敷以白醋方使文字复现。p依此法相助，果然帮助a破解了无字书的玄机。,"
+  splits:
+  - split: 6
+    text: "听闻以异邦花汁为墨，墨干字消。需敷以白醋方使文字复现。{playerName}依此法相助，果然帮助{npcName}破解了无字书的玄机。"
+    translated: "It is said that ink made from foreign flower juice dries and vanishes. Applying white vinegar causes the text to reappear. {playerName} assisted using this method, successfully helping {npcName} unravel the mystery of the wordless book."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "It is said that ink made from foreign flower juice dries and vanishes. Applying white vinegar causes the text to reappear. {playerName} assisted using this method, successfully helping {npcName} unravel the mystery of the wordless book."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "82,80,\"goldCoin,3-\",\"100-,lichang\",,,a在街上找寻了一个时辰，始终未果。口中喃喃道说着什么钱袋云云。,a在街上找寻了一个时辰，始终未果。口中喃喃道说着什么钱袋云云。,"
+  splits:
+  - split: 6
+    text: "{npcName}在街上找寻了一个时辰，始终未果。口中喃喃道说着什么钱袋云云。"
+    translated: "{npcName} searched the streets for a full hour to no avail, muttering about a lost coin purse."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName} searched the streets for a full hour to no avail, muttering about a lost coin purse."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "83,81,\"PlayerLove(),3+,4+,10-\",\"5+,friendsSan,lichang,LessenSP()\",,,古道热肠p见a似有所寻，便陪同一起寻找，终于在一处草丛中寻找到丢失的荷包。,古道热肠p见a似有所寻，便陪同一起寻找，终于在一处草丛中寻找到丢失的荷包。,"
+  splits:
+  - split: 6
+    text: "古道热肠{playerName}见{npcName}似有所寻，便陪同一起寻找，终于在一处草丛中寻找到丢失的荷包。"
+    translated: "The warm-hearted {playerName} noticed that {npcName} seemed to be looking for something and accompanied them in their search. They finally found the lost purse in a patch of grass."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "The warm-hearted {playerName} noticed that {npcName} seemed to be looking for something and accompanied them in their search. They finally found the lost purse in a patch of grass."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "84,82,\"PlayerLove(),3+,4+,10-,200-\",\"5+,friendsSan,lichang,LessenSP(),sliver\",,,两人一起苦寻良久，钱包依旧不见踪影。p只好拿出些许银两，暂解a的燃眉之急。,两人一起苦寻良久，钱包依旧不见踪影。p只好拿出些许银两，暂解a的燃眉之急。,"
+  splits:
+  - split: 6
+    text: "两人一起苦寻良久，钱包依旧不见踪影。{playerName}只好拿出些许银两，暂解{npcName}的燃眉之急。"
+    translated: "The two searched diligently for a long time, but the wallet remained nowhere to be found. {playerName} had no choice but to take out some silver to ease {npcName}'s immediate predicament."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "The two searched diligently for a long time, but the wallet remained nowhere to be found. {playerName} had no choice but to take out some silver to ease {npcName}'s immediate predicament."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "85,83,\"npcLove<id>,SetSP()\",\"10-,10-\",\"npcLove<id>,SetSP()\",\"10-,10-\",二人争吵良久，a与b均是面红耳赤，最后不欢而散。,二人争吵良久，a与b均是面红耳赤，最后不欢而散。,"
+  splits:
+  - split: 6
+    text: "二人争吵良久，{npcName}与{otherNpcName}均是面红耳赤，最后不欢而散。"
+    translated: "After a long argument, both {npcName} and {otherNpcName} were red-faced, and they eventually parted ways in a huff."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "After a long argument, both {npcName} and {otherNpcName} were red-faced, and they eventually parted ways in a huff."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "86,84,\"npcLove<id>,SetSP(),PlayerLove()\",\"10+,10-,5+\",\"npcLove<id>,SetSP(),4+,3+,PlayerLove()\",\"10+,10-,lichang,friendsSan,5+\",热心又好奇的p走进细听，a与b原本两小无猜，后来不巧在江湖中走散。此一番重逢是半怨半喜、有情难言。随即劝说两人，和好如初。,热心又好奇的p走进细听，a与b原本两小无猜，后来不巧在江湖中走散。此一番重逢是半怨半喜、有情难言。随即劝说两人，和好如初。,"
+  splits:
+  - split: 6
+    text: "热心又好奇的{playerName}走进细听，{npcName}与{otherNpcName}原本两小无猜，后来不巧在江湖中走散。此一番重逢是半怨半喜、有情难言。随即劝说两人，和好如初。"
+    translated: "The enthusiastic and curious {playerName} steps in to listen. {npcName} and {otherNpcName} were childhood friends who were unfortunately separated in the Jianghu. This reunion is a mix of resentment and joy, with feelings left unspoken. They then persuade the two to reconcile and restore their former bond."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "The enthusiastic and curious {playerName} steps in to listen. {npcName} and {otherNpcName} were childhood friends who were unfortunately separated in the Jianghu. This reunion is a mix of resentment and joy, with feelings left unspoken. They then persuade the two to reconcile and restore their former bond."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "87,85,\"npcLove<id>,SetSP()\",\"10-,10-\",\"npcLove<id>,SetSP()\",\"10-,10-\",细听之下，才知道a与b争吵竟是因分赃不均。果然不义之财，易惹祸端。,细听之下，才知道a与b争吵竟是因分赃不均。果然不义之财，易惹祸端。,"
+  splits:
+  - split: 6
+    text: "细听之下，才知道{npcName}与{otherNpcName}争吵竟是因分赃不均。果然不义之财，易惹祸端。"
+    translated: "Listening closely, I realized that {npcName} and {otherNpcName} were quarreling over an uneven division of the spoils. Indeed, ill-gotten gains are a sure path to trouble."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Listening closely, I realized that {npcName} and {otherNpcName} were quarreling over an uneven division of the spoils. Indeed, ill-gotten gains are a sure path to trouble."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "88,86,\"npcLove<id>,SetSP()\",\"10-,10-\",\"npcLove<id>,SetSP(),4-,3-,200+,10-\",\"10+,10-,lichang,friendsEr,sliver,LessenSP()\",p细听之下，才知道两个蠢贼a与b竟都以为对方得赃多于自己，便使诈劝二人把银钱交给自己，竟也使得两人握手言和，自己也得了不少银钱。,p细听之下，才知道两个蠢贼a与b竟都以为对方得赃多于自己，便使诈劝二人把银钱交给自己，竟也使得两人握手言和，自己也得了不少银钱。,"
+  splits:
+  - split: 6
+    text: "{playerName}细听之下，才知道两个蠢贼{npcName}与{otherNpcName}竟都以为对方得赃多于自己，便使诈劝二人把银钱交给自己，竟也使得两人握手言和，自己也得了不少银钱。"
+    translated: "Upon listening closely, {playerName} realized that the two foolish thieves, {npcName} and {otherNpcName}, both believed they had received a larger share of the loot than the other. They then used deception to persuade them to hand over their Silver, which also led to the two making peace with a handshake, while they managed to acquire a fair amount of Silver as well."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Upon listening closely, {playerName} realized that the two foolish thieves, {npcName} and {otherNpcName}, both believed they had received a larger share of the loot than the other. They then used deception to persuade them to hand over their Silver, which also led to the two making peace with a handshake, while they managed to acquire a fair amount of Silver as well."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "89,87,\"npcLove<id>,PlayerLove(),SetSP()\",\"10-,5+,10-\",\"npcLove<id>,4-,3-,PlayerLove(),200+,10-,SetSP()\",\"10-,lichang,friendsEr,10-,sliver,LessenSP(),10-\",经不怂恿之下，a竟向b出手硬夺，并将抢得钱财拿来与p均分。,经不怂恿之下，a竟向b出手硬夺，并将抢得钱财拿来与p均分。,"
+  splits:
+  - split: 6
+    text: "经不怂恿之下，{npcName}竟向{otherNpcName}出手硬夺，并将抢得钱财拿来与{playerName}均分。"
+    translated: "Without any encouragement, {npcName} actually attacked {otherNpcName} to forcibly seize the money and then divided the spoils equally with {playerName}."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Without any encouragement, {npcName} actually attacked {otherNpcName} to forcibly seize the money and then divided the spoils equally with {playerName}."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "90,88,\"npcLove<id>,PlayerLove(),SetSP()\",\"10-,10-,10-\",\"npcLove<id>,4-,3-,PlayerLove(),200+,10-,SetSP()\",\"10-,lichang,friendsEr,5+,sliver,LessenSP(),10-\",经不怂恿之下，b竟向a出手硬夺，并将抢得钱财拿来与p均分。,经不怂恿之下，b竟向a出手硬夺，并将抢得钱财拿来与p均分。,"
+  splits:
+  - split: 6
+    text: "经不怂恿之下，{otherNpcName}竟向{npcName}出手硬夺，并将抢得钱财拿来与{playerName}均分。"
+    translated: "Without any encouragement, {otherNpcName} actually attacked {npcName} to forcibly seize the money and divided the spoils equally with {playerName}."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "Without any encouragement, {otherNpcName} actually attacked {npcName} to forcibly seize the money and divided the spoils equally with {playerName}."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "91,89,\"npcLove<id>,SetSP(),xiuWei\",\"10+,10-,15+\",\"npcLove<id>,SetSP(),xiuWei\",\"10+,10-,15+\",a与b深谈之后，都被对方才学苏折服，暗暗对挚友近些年所学称赞不已。,a与b深谈之后，都被对方才学苏折服，暗暗对挚友近些年所学称赞不已。,"
+  splits:
+  - split: 6
+    text: "{npcName}与{otherNpcName}深谈之后，都被对方才学苏折服，暗暗对挚友近些年所学称赞不已。"
+    translated: "After a deep conversation between {npcName} and {otherNpcName}, both were deeply impressed by the other's learning and talent, silently praising their close friend's recent studies."
+    tokens:
+      npcName:
+        source: "a"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "After a deep conversation between {npcName} and {otherNpcName}, both were deeply impressed by the other's learning and talent, silently praising their close friend's recent studies."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "92,90,\"npcLove<id>,SetSP(),xiuWei\",\"10+,10-,15+\",\"npcLove<id>,SetSP(),xiuWei,15+,15-\",\"10+,10-,15+,xiuWei,LessenSP()\",偶闻二人高谈阔论，p不禁驻足，细听一番之后，从二人的言谈里获益匪浅。,偶闻二人高谈阔论，p不禁驻足，细听一番之后，从二人的言谈里获益匪浅。,"
+  splits:
+  - split: 6
+    text: "偶闻二人高谈阔论，{playerName}不禁驻足，细听一番之后，从二人的言谈里获益匪浅。"
+    translated: "Overhearing their animated discussion, {playerName} paused to listen closely and gained much insight from their conversation."
+    tokens:
+      playerName:
+        source: "p"
+    qcReviewedText: "Overhearing their animated discussion, {playerName} paused to listen closely and gained much insight from their conversation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "93,91,\"SetSP(),4-\",\"20-,lichang\",,,两个时辰过去，毒性渐渐从a身上褪去三分，而店小二早已被此情形吓得无影无踪。,两个时辰过去，毒性渐渐从a身上褪去三分，而店小二早已被此情形吓得无影无踪。,"
+  splits:
+  - split: 6
+    text: "两个时辰过去，毒性渐渐从{npcName}身上褪去三分，而店小二早已被此情形吓得无影无踪。"
+    translated: "Two hours passed, and the poison gradually receded by three parts from {npcName}'s body, while the Waiter had long since fled in terror, leaving no trace behind."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "Two hours passed, and the poison gradually receded by three parts from {npcName}'s body, while the Waiter had long since fled in terror, leaving no trace behind."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "94,92,\"PlayerLove(),1+,2+,10-\",\"5+,friendsSan,lichang,LessenSP()\",,,侠义心肠的p见此情形，虽无计可施却也不敢贸然离去，最终吩咐店小二帮忙叫来郎中后，才放心的走出酒楼。,侠义心肠的p见此情形，虽无计可施却也不敢贸然离去，最终吩咐店小二帮忙叫来郎中后，才放心的走出酒楼。,"
+  splits:
+  - split: 6
+    text: "侠义心肠的{playerName}见此情形，虽无计可施却也不敢贸然离去，最终吩咐店小二帮忙叫来郎中后，才放心的走出酒楼。"
+    translated: "Seeing the situation, the chivalrous {playerName}, though at a loss for what to do, dared not leave recklessly. Only after instructing the waiter to summon a doctor did they finally feel reassured enough to step out of the tavern."
+    tokens:
+      playerName:
+        source: "p"
+    qcReviewedText: "Seeing the situation, the chivalrous {playerName}, though at a loss for what to do, dared not leave recklessly. Only after instructing the waiter to summon a doctor did they finally feel reassured enough to step out of the tavern."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "95,93,\"PlayerLove(),SetSP(),1+,2+,10-\",\"10+,10-,friendsSan,lichang,LessenSP()\",,,江湖阅历丰富的p识得此毒症，当即上前割破a右手小指，帮其将毒素逼出体外。,江湖阅历丰富的p识得此毒症，当即上前割破a右手小指，帮其将毒素逼出体外。,"
+  splits:
+  - split: 6
+    text: "江湖阅历丰富的{playerName}识得此毒症，当即上前割破{npcName}右手小指，帮其将毒素逼出体外。"
+    translated: "With extensive experience in the Jianghu, {playerName} recognized the symptoms of this poison. They immediately stepped forward, sliced the little finger of {npcName}'s right hand, and helped draw the toxin out of their body."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "With extensive experience in the Jianghu, {playerName} recognized the symptoms of this poison. They immediately stepped forward, sliced the little finger of {npcName}'s right hand, and helped draw the toxin out of their body."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "96,94,\"SetSP(),2-\",\"5-,lichang\",,,不知过了多久，a睁开了眼睛，吃了些身边不知是谁施舍的干粮和水，气力恢复了一丝。,不知过了多久，a睁开了眼睛，吃了些身边不知是谁施舍的干粮和水，气力恢复了一丝。,"
+  splits:
+  - split: 6
+    text: "不知过了多久，{npcName}睁开了眼睛，吃了些身边不知是谁施舍的干粮和水，气力恢复了一丝。"
+    translated: "After an unknown amount of time had passed, {npcName} opened their eyes and ate some dry rations and drank water offered by an unknown benefactor, regaining a sliver of strength."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "After an unknown amount of time had passed, {npcName} opened their eyes and ate some dry rations and drank water offered by an unknown benefactor, regaining a sliver of strength."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "97,95,\"PlayerLove(),SetSP(),1+,2+,10-\",\"10+,10-,friendsSan,lichang,LessenSP()\",,,救人一命，胜造七级浮屠。看着奄奄一息的a，p心生恻隐，耗尽内力护住其心脉，随后助其调理，方得其活命。,救人一命，胜造七级浮屠。看着奄奄一息的a，p心生恻隐，耗尽内力护住其心脉，随后助其调理，方得其活命。,"
+  splits:
+  - split: 6
+    text: "救人一命，胜造七级浮屠。看着奄奄一息的{npcName}，{playerName}心生恻隐，耗尽内力护住其心脉，随后助其调理，方得其活命。"
+    translated: "Saving a life is better than building a seven-story pagoda. Seeing {npcName} on the brink of death, {playerName} felt a surge of compassion and exhausted their Inner Power to protect their vital meridians. They then helped regulate their condition, ultimately saving their life."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Saving a life is better than building a seven-story pagoda. Seeing {npcName} on the brink of death, {playerName} felt a surge of compassion and exhausted their Inner Power to protect their vital meridians. They then helped regulate their condition, ultimately saving their life."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "98,96,\"PlayerLove(),SetSP(),1-,2-,10-,350+\",\"10+,10-,friendsEr,lichang,LessenSP(),sliver\",,,穷凶极恶的p竟向毫无还手之力的b痛下毒手。,穷凶极恶的p竟向毫无还手之力的b痛下毒手。,"
+  splits:
+  - split: 6
+    text: "穷凶极恶的{playerName}竟向毫无还手之力的{otherNpcName}痛下毒手。"
+    translated: "The ruthless and wicked {playerName} mercilessly attacked the helpless {otherNpcName}."
+    tokens:
+      playerName:
+        source: "p"
+      otherNpcName:
+        source: "b"
+    qcReviewedText: "The ruthless and wicked {playerName} mercilessly attacked the helpless {otherNpcName}."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "99,97,SetSP(),10-,,,见四周所有人都对他投以白眼，a醉意渐消，悻悻离去。,见四周所有人都对他投以白眼，a醉意渐消，悻悻离去。,"
+  splits:
+  - split: 6
+    text: "见四周所有人都对他投以白眼，{npcName}醉意渐消，悻悻离去。"
+    translated: "Seeing that everyone around him was glaring at him with disdain, {npcName}'s drunkenness gradually faded, and he left in a huff."
+    tokens:
+      npcName:
+        source: "a"
+    qcReviewedText: "Seeing that everyone around him was glaring at him with disdain, {npcName}'s drunkenness gradually faded, and he left in a huff."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "100,98,\"PlayerLove(),1+,2+,10-\",\"5-,friendsSan,lichang,LessenSP()\",,,p止住a的醉言醉语后，一番好言相劝，最终平息了这番不知所谓的闹剧。,p止住a的醉言醉语后，一番好言相劝，最终平息了这番不知所谓的闹剧。,"
+  splits:
+  - split: 6
+    text: "{playerName}止住{npcName}的醉言醉语后，一番好言相劝，最终平息了这番不知所谓的闹剧。"
+    translated: "After {playerName} stopped {npcName}'s drunken ramblings and offered kind words of advice, the nonsensical farce was finally put to rest."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "After {playerName} stopped {npcName}'s drunken ramblings and offered kind words of advice, the nonsensical farce was finally put to rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "101,99,\"PlayerLove(),1+,2+,10-\",\"5+,friendsSan,lichang,LessenSP()\",,,p与a热情的执手相谈，二人语带欢笑，开心异常。,p与a热情的执手相谈，二人语带欢笑，开心异常。,"
+  splits:
+  - split: 6
+    text: "{playerName}与{npcName}热情的执手相谈，二人语带欢笑，开心异常。"
+    translated: "{playerName} and {npcName} held hands warmly as they spoke, their conversation filled with laughter and immense joy."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} and {npcName} held hands warmly as they spoke, their conversation filled with laughter and immense joy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "102,100,\"PlayerLove(),5-\",\"3-,LessenSP()\",,,忙于赶路的p无暇与a闲谈，简单寒暄了两句便匆匆离开了。,忙于赶路的p无暇与a闲谈，简单寒暄了两句便匆匆离开了。,"
+  splits:
+  - split: 6
+    text: "忙于赶路的{playerName}无暇与{npcName}闲谈，简单寒暄了两句便匆匆离开了。"
+    translated: "Busy with the journey, {playerName} had no time for idle chat with {npcName}, exchanging only a few brief pleasantries before hurrying away."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Busy with the journey, {playerName} had no time for idle chat with {npcName}, exchanging only a few brief pleasantries before hurrying away."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "103,101,\"PlayerLove(),SetSP(),1-,2-,10-\",\"10-,10-,friendsEr,lichang,LessenSP()\",,,a与p仇深似海，今日于此处相遇，难免生死相搏！,a与p仇深似海，今日于此处相遇，难免生死相搏！,"
+  splits:
+  - split: 6
+    text: "{npcName}与{playerName}仇深似海，今日于此处相遇，难免生死相搏！"
+    translated: "{npcName} and {playerName} share a grudge deep as the sea; meeting here today, they are bound to fight to the death!"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName} and {playerName} share a grudge deep as the sea; meeting here today, they are bound to fight to the death!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "104,102,\"SetSP(),5-\",\"5-,LessenSP()\",,,万幸早做准备，两方相遇之际，p堪堪避开，免了一场恶战。,万幸早做准备，两方相遇之际，p堪堪避开，免了一场恶战。,"
+  splits:
+  - split: 6
+    text: "万幸早做准备，两方相遇之际，{playerName}堪堪避开，免了一场恶战。"
+    translated: "Fortunately, preparations were made in advance. As the two sides encountered each other, {playerName} barely dodged, avoiding a fierce battle."
+    tokens:
+      playerName:
+        source: "p"
+    qcReviewedText: "Fortunately, preparations were made in advance. As the two sides encountered each other, {playerName} barely dodged, avoiding a fierce battle."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "105,103,\"PlayerLove(),SetSP(),1+,2+,10-\",\"5+,5-,friendsSan,lichang,LessenSP()\",,,唯以德报怨方为上法，p决意劝说a，时过半晌，双方虽未尽释前嫌，关系却亦是缓和了几分。,唯以德报怨方为上法，p决意劝说a，时过半晌，双方虽未尽释前嫌，关系却亦是缓和了几分。,"
+  splits:
+  - split: 6
+    text: "唯以德报怨方为上法，{playerName}决意劝说{npcName}，时过半晌，双方虽未尽释前嫌，关系却亦是缓和了几分。"
+    translated: "Only repaying resentment with virtue is the supreme way. {playerName} resolved to persuade {npcName}. After a long while, though neither party had fully let go of past grievances, their relationship had eased somewhat."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Only repaying resentment with virtue is the supreme way. {playerName} resolved to persuade {npcName}. After a long while, though neither party had fully let go of past grievances, their relationship had eased somewhat."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "106,104,\"PlayerLove(),SetSP(),1-,2-,10-\",\"10-,10-,friendsEr,lichang,LessenSP()\",,,a言语肮脏污秽，实欺人太甚，p行走江湖，又岂可被此等人坠了名头，当即出手直袭！,a言语肮脏污秽，实欺人太甚，p行走江湖，又岂可被此等人坠了名头，当即出手直袭！,"
+  splits:
+  - split: 6
+    text: "{npcName}言语肮脏污秽，实欺人太甚，{playerName}行走江湖，又岂可被此等人坠了名头，当即出手直袭！"
+    translated: "{npcName}'s words were foul and vulgar, a blatant insult. As one who walks the Jianghu, how could {playerName} allow such a person to tarnish their reputation? Without hesitation, they struck out immediately!"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName}'s words were foul and vulgar, a blatant insult. As one who walks the Jianghu, how could {playerName} allow such a person to tarnish their reputation? Without hesitation, they struck out immediately!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "107,105,\"SetSP(),5-\",\"5-,LessenSP()\",,,a出言不逊，p秉君子之气度，不与其计较。,a出言不逊，p秉君子之气度，不与其计较。,"
+  splits:
+  - split: 6
+    text: "{npcName}出言不逊，{playerName}秉君子之气度，不与其计较。"
+    translated: "{npcName} spoke with disrespect, but {playerName}, possessing the grace of a gentleman, chose not to take offense."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{npcName} spoke with disrespect, but {playerName}, possessing the grace of a gentleman, chose not to take offense."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "108,106,\"PlayerLove(),SetSP(),1-,2-,10-\",\"10-,10-,friendsEr,lichang,LessenSP()\",,,如a这般蟊贼，竟敢在p面前卖弄，p当即出手攻袭之！,如a这般蟊贼，竟敢在p面前卖弄，p当即出手攻袭之！,"
+  splits:
+  - split: 6
+    text: "如{npcName}这般蟊贼，竟敢在{playerName}面前卖弄，{playerName}当即出手攻袭之！"
+    translated: "A scoundrel like {npcName} dares to show off before {playerName}. {playerName} immediately strikes them down!"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "A scoundrel like {npcName} dares to show off before {playerName}. {playerName} immediately strikes them down!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "109,107,\"SetSP(),5-\",\"5-,LessenSP()\",,,区区财物，何足挂齿，出手攻袭只是脏了p的手，且放a离去。,区区财物，何足挂齿，出手攻袭只是脏了p的手，且放a离去。,"
+  splits:
+  - split: 6
+    text: "区区财物，何足挂齿，出手攻袭只是脏了{playerName}的手，且放{npcName}离去。"
+    translated: "Such trivial wealth is not worth mentioning. Attacking would only dirty {playerName}'s hands. Let {npcName} go."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Such trivial wealth is not worth mentioning. Attacking would only dirty {playerName}'s hands. Let {npcName} go."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "110,108,\"PlayerLove(),SetSP()\",\"5+,5-\",,,a与p金兰之情，共载此时，天涯挚交如此，人生夫复何求？,a与p金兰之情，共载此时，天涯挚交如此，人生夫复何求？,"
+  splits:
+  - split: 6
+    text: "{npcName}与{playerName}金兰之情，共载此时，天涯挚交如此，人生夫复何求？"
+    translated: "The sworn bond between {npcName} and {playerName}, shared in this moment. With such a true friend by one's side across the vast world, what more could life ask for?"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "The sworn bond between {npcName} and {playerName}, shared in this moment. With such a true friend by one's side across the vast world, what more could life ask for?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "111,109,\"PlayerLove(),SetSP()\",\"5-,5-\",,,金兰之情虽贵，然p正有要事在身，且改日向a赔罪。,金兰之情虽贵，然p正有要事在身，且改日向a赔罪。,"
+  splits:
+  - split: 6
+    text: "金兰之情虽贵，然{playerName}正有要事在身，且改日向{npcName}赔罪。"
+    translated: "Though the bond of sworn friendship is precious, {playerName} has urgent matters to attend to. I shall make amends to {npcName} another day."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Though the bond of sworn friendship is precious, {playerName} has urgent matters to attend to. I shall make amends to {npcName} another day."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "112,110,\"PlayerLove(),SetSP()\",\"5+,5-\",,,三生石枯，忘川海烂，终不改此情，不变此心，今日之誓，便p与a之证。,三生石枯，忘川海烂，终不改此情，不变此心，今日之誓，便p与a之证。,"
+  splits:
+  - split: 6
+    text: "三生石枯，忘川海烂，终不改此情，不变此心，今日之誓，便{playerName}与{npcName}之证。"
+    translated: "Though the Stone of Three Lives withers and the Sea of Forgetting rots, this love shall never change, nor this heart. The vow made today is the proof of {playerName} and {npcName}."
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "Though the Stone of Three Lives withers and the Sea of Forgetting rots, this love shall never change, nor this heart. The vow made today is the proof of {playerName} and {npcName}."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "113,111,\"PlayerLove(),SetSP()\",\"5-,5-\",,,p直言，耳鬓厮磨终有时，岂可因此而误了正事，暂且先去。,p直言，耳鬓厮磨终有时，岂可因此而误了正事，暂且先去。,"
+  splits:
+  - split: 6
+    text: "{playerName}直言，耳鬓厮磨终有时，岂可因此而误了正事，暂且先去。"
+    translated: "{playerName} spoke plainly, noting that such intimacy must come to an end eventually and should not interfere with more pressing matters, and suggested they depart for now."
+    tokens:
+      playerName:
+        source: "p"
+    qcReviewedText: "{playerName} spoke plainly, noting that such intimacy must come to an end eventually and should not interfere with more pressing matters, and suggested they depart for now."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "114,112,\"PlayerLove(),SetSP()\",\"5+,5-\",,,p与a情投意合，人世之所求，又何堪与画眉并论？,p与a情投意合，人世之所求，又何堪与画眉并论？,"
+  splits:
+  - split: 6
+    text: "{playerName}与{npcName}情投意合，人世之所求，又何堪与画眉并论？"
+    translated: "{playerName} and {npcName} are soulmates; what could be sought in this mortal world that compares to Huamei?"
+    tokens:
+      playerName:
+        source: "p"
+      npcName:
+        source: "a"
+    qcReviewedText: "{playerName} and {npcName} are soulmates; what could be sought in this mortal world that compares to Huamei?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "115,113,\"PlayerLove(),SetSP()\",\"5-,5-\",,,情爱片刻，终有时尽，p尚有正事在身，决意来日再论此情。,情爱片刻，终有时尽，p尚有正事在身，决意来日再论此情。,"
+  splits:
+  - split: 6
+    text: "情爱片刻，终有时尽，{playerName}尚有正事在身，决意来日再论此情。"
+    translated: "Though the moment of passion was fleeting, {playerName} still had important matters to attend to and resolved to discuss this affection another day."
+    tokens:
+      playerName:
+        source: "p"
+    qcReviewedText: "Though the moment of passion was fleeting, {playerName} still had important matters to attend to and resolved to discuss this affection another day."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

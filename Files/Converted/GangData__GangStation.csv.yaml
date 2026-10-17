@@ -1,0 +1,258 @@
+- raw: "1,驻地地图id,,驻地类型,父地图id,仓库地图id,密室地图id,密室牢笼位置,密室牢笼交互位置,可在此地创建帮派,驻地名称,创建帮派境界要求,创建帮派资金要求,创建帮派后初始功勋,无帮派时卡点不让进,卡点提示,驻地交互物图标,驻地交互物前景图片,空驻地交互物图标,空驻地交互物前景图片,驻地旗帜交互物位置,驻地旗帜位置偏移,驻地旗帜层级,驻地初始产业"
+  splits:
+  - split: 10
+    text: "驻地名称"
+    translated: "Base Name"
+    qcReviewedText: "Base Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "卡点提示"
+    translated: "Stuck Point Hint"
+    qcReviewedText: "Stuck Point Hint"
+    qcTranslated: "Timing Hint"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "2,stationMapId,备注,stationType,parentMapId,depotMapId,backRoomMapId,capturePos,captureDoorPos,isEmpty,name,reqAttribute,reqGold,initGangCoin,freezPos,freezPosTip,touchIcon,touchSceneImage,touchIcon_empty,touchSceneImage_empty,touchPos,touchOffset,touchSort,propertyIds"
+- raw: "3,81301,承安镇帮派驻地1,1,13000,81302,81303,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"38,44\",\"0.2,0.5\",320,1_2_5_6_9"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,81304,承安镇帮派驻地2,2,13000,81305,81306,\"1,0;3,0;3,2\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"39,17\",\"-0.2,0.5\",450,3_4_7"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,81307,承安镇帮派驻地3,4,13000,81308,81309,\"0,1;0,3;2,3\",\"1,1;2,0;2,2\",1,帮派驻地,2,5000,5000,\"23,11\",坑洞深不见底，诡秘异常，只身前往恐有不妥！,100,113,100,112,\"24,10\",\"0.1,0.1\",564,8"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "坑洞深不见底，诡秘异常，只身前往恐有不妥！"
+    translated: "The pit is bottomless and unnervingly mysterious; venturing in alone would be unwise!"
+    qcReviewedText: "The pit is bottomless and unnervingly mysterious; venturing in alone would be unwise!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,81601,杭州帮派驻地1,1,16000,81602,81603,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"39,42\",\"0.2,0.5\",232,10_13_15_18"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,81604,杭州帮派驻地2,1,16000,81605,81606,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"8,20\",\"0.2,0.5\",504,11_12_14_16"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,81607,杭州帮派驻地3,3,16000,81608,81609,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",1,帮派驻地,5,30000,8000,\"48,19\",此处驻地暂在官府管辖之下，闲人不得进内！,100,113,100,112,\"46,19\",\"-0.1,0.2\",323,17"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "此处驻地暂在官府管辖之下，闲人不得进内！"
+    translated: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcReviewedText: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,81701,大理帮派驻地1,1,17000,81702,81703,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"21,39\",\"0.2,0.5\",319,19_21_23"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,81704,大理帮派驻地2,2,17000,81705,81706,\"1,0;3,0;3,2\",\"1,1;2,0;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"12,30\",\"-0.2,0.2\",416,20_22_24_26"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "11,81707,大理帮派驻地3,5,17000,81708,81709,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",1,帮派驻地,3,20000,7000,\"43,45\",此处驻地暂在官府管辖之下，闲人不得进内！,100,113,100,112,\"42,44\",\"-0.1,0.2\",197,25"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "此处驻地暂在官府管辖之下，闲人不得进内！"
+    translated: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcReviewedText: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "12,82001,襄阳帮派驻地1,1,20000,82002,82003,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"25,50\",\"-0.1,-0.2\",260,27_29_30"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,82004,襄阳帮派驻地2,1,20000,82005,82006,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"11,7\",\"0.2,0.5\",529,28_31_33"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,82007,襄阳帮派驻地3,4,20000,82008,82009,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",1,帮派驻地,4,20000,6000,\"60,19\",废弃矿洞年久失修，无人加固请勿擅自闯入！,100,113,100,112,\"58,19\",\"0.2,0.5\",237,32"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "废弃矿洞年久失修，无人加固请勿擅自闯入！"
+    translated: "The abandoned mine has fallen into disrepair and lacks reinforcement. Do not enter without authorization!"
+    qcReviewedText: "The abandoned mine has fallen into disrepair and lacks reinforcement. Do not enter without authorization!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,82101,长安帮派驻地1,1,21000,82102,82103,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"15,36\",\"0.2,0.5\",308,35_36_37_38"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,82104,长安帮派驻地2,1,21000,82105,82106,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"12,14\",\"0.2,0.5\",429,34_39_41"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "17,82107,长安帮派驻地3,4,21000,82108,82109,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",1,帮派驻地,3,10000,6000,\"13,49\",此处驻地暂在官府管辖之下，闲人不得进内！,100,113,100,112,\"14,48\",\"0.2,0.2\",224,40"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "此处驻地暂在官府管辖之下，闲人不得进内！"
+    translated: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcReviewedText: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,82301,洛阳帮派驻地1,1,23000,82302,82303,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"15,14\",\"0.2,0.5\",414,42_45_46_49"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,82304,洛阳帮派驻地2,2,23000,82305,82306,\"1,0;3,0;3,2\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"32,6\",\"-0.1,0.5\",374,43_44_47"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,82307,洛阳帮派驻地3,4,23000,82308,82309,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",1,帮派驻地,3,10000,6000,\"9,35\",此处驻地暂在官府管辖之下，闲人不得进内！,100,113,100,112,\"10,34\",\"-0.1,0.1\",347,48"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "此处驻地暂在官府管辖之下，闲人不得进内！"
+    translated: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcReviewedText: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,82401,京城帮派驻地1,2,24000,82402,82403,\"1,0;3,0;3,2\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"2,13\",\"0.2,0.5\",504,55_54_53_52_51"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,82404,京城帮派驻地2,1,24000,82405,82406,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",0,帮派驻地,2,0,0,,,100,113,100,112,\"29,8\",\"0.2,0.5\",394,56_58_50"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,82407,京城帮派驻地3,3,24000,82408,82409,\"0,1;0,3;2,3\",\"1,1;0,2;2,2\",1,帮派驻地,5,30000,8000,\"49,11\",此处驻地暂在官府管辖之下，闲人不得进内！,100,113,100,112,\"49,12\",\"-0.1,0.1\",284,57"
+  splits:
+  - split: 10
+    text: "帮派驻地"
+    translated: "Gang headquarters"
+    qcReviewedText: "Gang headquarters"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 15
+    text: "此处驻地暂在官府管辖之下，闲人不得进内！"
+    translated: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcReviewedText: "This camp is currently under the jurisdiction of the authorities. No unauthorized persons are permitted to enter!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

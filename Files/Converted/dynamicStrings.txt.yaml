@@ -7655,6 +7655,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,729,免暴,[GProject.MyEuipData]"
   splits:
@@ -7760,6 +7761,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,641,免暴,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
@@ -7835,6 +7837,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,935,免暴,[System.Collections.Generic.List`1<System.String>]"
   splits:
@@ -7850,6 +7853,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,153,回血,[System.String，RoleAttributeData，System.Int32]"
   splits:
@@ -7870,6 +7874,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,318,回血,[System.String，RoleAttributeData，System.Int32]"
   splits:
@@ -8016,6 +8021,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1277,免暴,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
@@ -8116,6 +8122,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2179,免暴,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
@@ -8254,6 +8261,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,146,暴伤减免,[]"
   splits:
@@ -10584,6 +10592,7 @@
   splits:
   - split: 3
     text: "暴击"
+    translated: "Critical Hit"
     safeToTranslate: false
 - raw: "TipShowWinAcupoint,replaceStr,198,免暴,[System.String]"
   splits:

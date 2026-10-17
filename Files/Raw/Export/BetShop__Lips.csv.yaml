@@ -1,0 +1,371 @@
+- raw: "1,怪物组ID,名称,显示条件,条件参数,消耗参数,点击触发的功能,功能参数,功能参数2,不满足条件点击的提示语,关闭赌坊"
+  splits:
+  - split: 2
+    text: "名称"
+  - split: 9
+    text: "不满足条件点击的提示语"
+- raw: "2,id,Name,showConditions,ConditionsCan,ConsumeCan,Function,FunctionCan,FunctionCan2,Tips,open"
+- raw: "3,2001,要（需要10文）,0,1002_10,0,1,UIBetShop,,不满此桌最低下注银两,1"
+  splits:
+  - split: 2
+    text: "要（需要10文）"
+  - split: 9
+    text: "不满此桌最低下注银两"
+- raw: "4,2002,不要,0,0,0,2,0,,0,1"
+  splits:
+  - split: 2
+    text: "不要"
+- raw: "5,2003,要（需要100文）,0,1002_100,0,1,UIBetShop,,不满此桌最低下注银两,1"
+  splits:
+  - split: 2
+    text: "要（需要100文）"
+  - split: 9
+    text: "不满此桌最低下注银两"
+- raw: "6,2004,要（需要1两）,0,1002_1000,0,1,UIBetShop,,不满此桌最低下注银两,1"
+  splits:
+  - split: 2
+    text: "要（需要1两）"
+  - split: 9
+    text: "不满此桌最低下注银两"
+- raw: "7,9001,寄存物品,0,0,0,1,UIPaiMaiHang,,0,1"
+  splits:
+  - split: 2
+    text: "寄存物品"
+- raw: "8,8001,买凶杀人,0,0,0,3,1_1,,0,1"
+  splits:
+  - split: 2
+    text: "买凶杀人"
+- raw: "9,8002,加入组织,1_0,0,0,3,1_2,,0,1"
+  splits:
+  - split: 2
+    text: "加入组织"
+- raw: "10,8003,领取杀手任务,1_1,0,0,5,8101_8102,talk,0,1"
+  splits:
+  - split: 2
+    text: "领取杀手任务"
+- raw: "11,8004,杀手商店,1_1,0,0,1,UIShopShow,41001,0,1"
+  splits:
+  - split: 2
+    text: "杀手商店"
+- raw: "12,8005,查看当前杀手任务,1_2,0,0,3,1_3,talk,0,1"
+  splits:
+  - split: 2
+    text: "查看当前杀手任务"
+- raw: "13,8006,杀手商店,1_2,0,0,1,UIShopShow,41001,0,1"
+  splits:
+  - split: 2
+    text: "杀手商店"
+- raw: "14,8009,离开,0,0,0,2,0,,0,1"
+  splits:
+  - split: 2
+    text: "离开"
+- raw: "15,8101,领命杀人,0,0,0,3,2_1,talk1,0,1"
+  splits:
+  - split: 2
+    text: "领命杀人"
+- raw: "16,8102,以财抵命,0,0,0,5,8103_8104_8110,talk2,0,1"
+  splits:
+  - split: 2
+    text: "以财抵命"
+- raw: "17,8103,递交银两(100文),0,1002_100,1002_100,5,8009,talk3,你的银两不足！,1"
+  splits:
+  - split: 2
+    text: "递交银两"
+  - split: 2
+    subIndex: 1
+    text: "100文"
+  - split: 9
+    text: "你的银两不足！"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "18,8104,消减声望(100杀手声望),0,1006_100,1006_100,5,8009,talk3,你的杀手声望不足！,1"
+  splits:
+  - split: 2
+    text: "消减声望"
+  - split: 2
+    subIndex: 1
+    text: "100杀手声望"
+  - split: 9
+    text: "你的杀手声望不足！"
+  templates:
+  - split: 2
+    template: "{0}({1})"
+- raw: "19,8105,避无可避,0,0,0,6,0,,0,1"
+  splits:
+  - split: 2
+    text: "避无可避"
+- raw: "20,8106,领命杀人,0,0,0,7,0,,0,1"
+  splits:
+  - split: 2
+    text: "领命杀人"
+- raw: "21,8110,返回,0,0,0,4,8101_8102,,0,1"
+  splits:
+  - split: 2
+    text: "返回"
+- raw: "22,14000101,加入门派,2_1001,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+- raw: "23,14000102,退出门派,3_1001,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+- raw: "24,14000201,门派挑战·初级,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "初级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "25,14000202,门派挑战·中级,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "中级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "26,14000203,门派挑战·高级,4_1001,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "高级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "27,15000101,加入门派,2_1002,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+- raw: "28,15000102,退出门派,3_1002,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+- raw: "29,15000201,门派挑战·初级,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "初级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "30,15000202,门派挑战·中级,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "中级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "31,15000203,门派挑战·高级,4_1002,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "高级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "32,18000101,加入门派,2_1005,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+- raw: "33,18000102,退出门派,3_1005,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+- raw: "34,18000201,门派挑战·初级,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "初级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "35,18000202,门派挑战·中级,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "中级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "36,18000203,门派挑战·高级,4_1005,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "高级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "37,22000101,加入门派,2_1006,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+- raw: "38,22000102,退出门派,3_1006,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+- raw: "39,22000201,门派挑战·初级,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "初级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "40,22000202,门派挑战·中级,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "中级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "41,22000203,门派挑战·高级,4_1006,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "高级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "42,26000101,加入门派,2_1007,0,0,8,0,,0,1"
+  splits:
+  - split: 2
+    text: "加入门派"
+- raw: "43,26000102,退出门派,3_1007,0,0,9,0,,0,1"
+  splits:
+  - split: 2
+    text: "退出门派"
+- raw: "44,26000201,门派挑战·初级,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,1,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "初级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "45,26000202,门派挑战·中级,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,2,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "中级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "46,26000203,门派挑战·高级,4_1007,0,0,5,920101_920102_920201_920202_920301_920302_920999,3,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "高级"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "47,920101,门派挑战·上,5_0,0,0,10,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "上"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "48,920102,门派挑战·下,5_1,0,0,10,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "下"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "49,920201,门派挑战·上(需先加入门派),6_0,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "上"
+  - split: 2
+    subIndex: 2
+    text: "需先加入门派"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "50,920202,门派挑战·下(需先加入门派),6_1,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "下"
+  - split: 2
+    subIndex: 2
+    text: "需先加入门派"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "51,920301,门派挑战·上(需完成前置挑战),7_0,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "上"
+  - split: 2
+    subIndex: 2
+    text: "需完成前置挑战"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "52,920302,门派挑战·下(需完成前置挑战),7_1,0,0,0,0,,0,1"
+  splits:
+  - split: 2
+    text: "门派挑战"
+  - split: 2
+    subIndex: 1
+    text: "下"
+  - split: 2
+    subIndex: 2
+    text: "需完成前置挑战"
+  templates:
+  - split: 2
+    template: "{0}·{1}({2})"
+- raw: "53,920999,返回,0,0,0,11,0,,0,1"
+  splits:
+  - split: 2
+    text: "返回"

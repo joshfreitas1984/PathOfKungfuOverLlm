@@ -1,0 +1,1594 @@
+- raw: "1,,,名称,描述,功勋奖励,修为奖励,时间限制（0表示无限制）,位阶,参数"
+  splits:
+  - split: 3
+    text: "名称"
+    translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "描述"
+    translated: "Description"
+    qcReviewedText: "Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,备注,name,desc,award,award_xiuwei,time,rank,paramStr"
+- raw: "3,1,,宵小作乱,敌帮近日愈发猖狂，其中一伙宵小以npcName为首，速去将其击杀，以正视听。,150,49,0,5,1"
+  splits:
+  - split: 3
+    text: "宵小作乱"
+    translated: "Troublemakers"
+    qcReviewedText: "Troublemakers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮近日愈发猖狂，其中一伙宵小以"
+    translated: "The enemy gang has grown increasingly brazen lately, with one of their lowly bands"
+    qcReviewedText: "The enemy gang has grown increasingly brazen lately, with one of their lowly bands{taskNpcName}Leader, swiftly go and slay them to set the record straight."
+    qcTranslated: "The enemy gang has grown increasingly brazen lately, with one of their lowly bands led by {taskNpcName}; swiftly go and slay them to set the record straight."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "为首，速去将其击杀，以正视听。"
+    translated: "Leader, swiftly go and slay them to set the record straight."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "4,2,,宵小作乱,敌帮近日愈发猖狂，其中一伙宵小以npcName为首，速去将其击杀，以正视听。,150,49,0,5,1"
+  splits:
+  - split: 3
+    text: "宵小作乱"
+    translated: "Troublemakers"
+    qcReviewedText: "Troublemakers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮近日愈发猖狂，其中一伙宵小以"
+    translated: "The enemy gang has grown increasingly brazen lately, with one of their lowly bands"
+    qcReviewedText: "The enemy gang has grown increasingly brazen lately, with one of their lowly bands{taskNpcName}Leader, swiftly go and slay them to set the record straight."
+    qcTranslated: "The enemy gang has grown increasingly brazen lately, with one of their lowly bands led by {taskNpcName}; swiftly go and slay them to set the record straight."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "为首，速去将其击杀，以正视听。"
+    translated: "Leader, swiftly go and slay them to set the record straight."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "5,3,,立足未稳,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,100,35,0,5,2"
+  splits:
+  - split: 3
+    text: "立足未稳"
+    translated: "Unsteady on one's feet"
+    qcReviewedText: "Unsteady on one's feet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "6,4,,立足未稳,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,100,35,0,5,2"
+  splits:
+  - split: 3
+    text: "立足未稳"
+    translated: "Unsteady on one's feet"
+    qcReviewedText: "Unsteady on one's feet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "7,5,,人情世故,初来乍到，需先通人情世礼，npcName于本帮略有威望，携些礼品相赠，以通往来。,100,35,0,5,5"
+  splits:
+  - split: 3
+    text: "人情世故"
+    translated: "Ways of the world"
+    qcReviewedText: "Ways of the world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "初来乍到，需先通人情世礼，"
+    translated: "Newcomers must first learn the ways of the world."
+    qcReviewedText: "Newcomers must first learn the ways of the world.{taskNpcName}He holds some prestige within our sect; bring gifts to present him with, in order to establish relations."
+    qcTranslated: "Newcomers must first learn the ways of the world. {taskNpcName} holds some prestige within our sect; bring gifts to present him with, in order to establish relations."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "于本帮略有威望，携些礼品相赠，以通往来。"
+    translated: "He holds some prestige within our sect; bring gifts to present him with, in order to establish relations."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "8,6,,人情世故,初来乍到，需先通人情世礼，npcName于本帮略有威望，携些礼品相赠，以通往来。,100,35,0,5,5"
+  splits:
+  - split: 3
+    text: "人情世故"
+    translated: "Ways of the world"
+    qcReviewedText: "Ways of the world"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "初来乍到，需先通人情世礼，"
+    translated: "Newcomers must first learn the ways of the world."
+    qcReviewedText: "Newcomers must first learn the ways of the world.{taskNpcName}He holds some prestige within our sect; bring gifts to present him with, in order to establish relations."
+    qcTranslated: "Newcomers must first learn the ways of the world. {taskNpcName} holds some prestige within our sect; bring gifts to present him with, in order to establish relations."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "于本帮略有威望，携些礼品相赠，以通往来。"
+    translated: "He holds some prestige within our sect; bring gifts to present him with, in order to establish relations."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "9,7,,滥竽充数,近日厮杀愈繁，帮内兵器损耗颇巨，急需一件itemName，以充仓储。,200,78,0,5,\"4,102102,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+    translated: "A fraud among the masters"
+    qcReviewedText: "A fraud among the masters"
+    qcTranslated: "A fraud who passes for a master"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 4
+    text: "近日厮杀愈繁，帮内兵器损耗颇巨，急需一件"
+    translated: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a replacement."
+    qcReviewedText: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a replacement.{taskItemName}, To fill the warehouse"
+    qcTranslated: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a {taskItemName} to fill the warehouse."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+    translated: ", To fill the warehouse"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "10,8,,滥竽充数,近日厮杀愈繁，帮内兵器损耗颇巨，急需一件itemName，以充仓储。,200,78,0,5,\"4,106002,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+    translated: "A fraud among the masters"
+    qcReviewedText: "A fraud among the masters"
+    qcTranslated: "A fraud who passes for a master"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 4
+    text: "近日厮杀愈繁，帮内兵器损耗颇巨，急需一件"
+    translated: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a replacement."
+    qcReviewedText: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a replacement.{taskItemName}, To fill the warehouse"
+    qcTranslated: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a {taskItemName} to fill the warehouse."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+    translated: ", To fill the warehouse"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "11,9,,滥竽充数,近日厮杀愈繁，帮内兵器损耗颇巨，急需一件itemName，以充仓储。,200,78,0,5,\"4,104002,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+    translated: "A fraud among the masters"
+    qcReviewedText: "A fraud among the masters"
+    qcTranslated: "A fraud who passes for a master"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 4
+    text: "近日厮杀愈繁，帮内兵器损耗颇巨，急需一件"
+    translated: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a replacement."
+    qcReviewedText: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a replacement.{taskItemName}, To fill the warehouse"
+    qcTranslated: "Recently, the battles have grown increasingly fierce, and the damage to our sect's weapons has been considerable. We are in urgent need of a {taskItemName} to fill the warehouse."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+    translated: ", To fill the warehouse"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "12,10,,滥竽充数,近日厮杀愈繁，帮内药石损耗颇巨，急需一份itemName，以充仓储。,200,78,0,5,\"4,901000,1\""
+  splits:
+  - split: 3
+    text: "滥竽充数"
+    translated: "A fraud among the masters"
+    qcReviewedText: "A fraud among the masters"
+    qcTranslated: "A fraud who passes for a master"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 4
+    text: "近日厮杀愈繁，帮内药石损耗颇巨，急需一份"
+    translated: "Recently, the fighting has intensified, and the sect's consumption of medicine and supplies has been substantial. An urgent supply is needed."
+    qcReviewedText: "Recently, the fighting has intensified, and the sect's consumption of medicine and supplies has been substantial. An urgent supply is needed.{taskItemName}, To fill the warehouse"
+    qcTranslated: "Recently, the fighting has intensified, and the sect's consumption of medicine and supplies has been substantial. An urgent supply of {taskItemName} is needed to fill the warehouse."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以充仓储。"
+    translated: ", To fill the warehouse"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "13,11,,步步为营,敌帮近日疏于防备，良机易逝，速将npcName除去，以壮本帮声威。,300,139,0,4,1"
+  splits:
+  - split: 3
+    text: "步步为营"
+    translated: "Advance step by step"
+    qcReviewedText: "Advance step by step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮近日疏于防备，良机易逝，速将"
+    translated: "The enemy gang has been lax in their defenses lately. This opportunity will not last long. Hurry and..."
+    qcReviewedText: "The enemy gang has been lax in their defenses lately. This opportunity will not last long. Hurry and...{taskNpcName}Eliminate them to bolster our sect's prestige"
+    qcTranslated: "The enemy gang has been lax in their defenses lately. This opportunity will not last long. Hurry and eliminate {taskNpcName} to bolster our sect's prestige"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "除去，以壮本帮声威。"
+    translated: "Eliminate them to bolster our sect's prestige"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "14,12,,步步为营,敌帮近日疏于防备，良机易逝，速将npcName除去，以壮本帮声威。,300,139,0,4,1"
+  splits:
+  - split: 3
+    text: "步步为营"
+    translated: "Advance step by step"
+    qcReviewedText: "Advance step by step"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮近日疏于防备，良机易逝，速将"
+    translated: "The enemy gang has been lax in their defenses lately. This opportunity will not last long. Hurry and..."
+    qcReviewedText: "The enemy gang has been lax in their defenses lately. This opportunity will not last long. Hurry and...{taskNpcName}Eliminate them to bolster our sect's prestige"
+    qcTranslated: "The enemy gang has been lax in their defenses lately. This opportunity will not last long. Hurry and eliminate {taskNpcName} to bolster our sect's prestige"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "除去，以壮本帮声威。"
+    translated: "Eliminate them to bolster our sect's prestige"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "15,13,,树威立信,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,200,78,0,4,2"
+  splits:
+  - split: 3
+    text: "树威立信"
+    translated: "Establishing Authority and Trust"
+    qcReviewedText: "Establishing Authority and Trust"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "16,14,,树威立信,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,200,78,0,4,2"
+  splits:
+  - split: 3
+    text: "树威立信"
+    translated: "Establishing Authority and Trust"
+    qcReviewedText: "Establishing Authority and Trust"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "17,15,,处世之本,立足初稳之际，需打通人情脉络，npcName于本帮颇有威望，携些礼品相赠，以通往来。,200,78,0,4,5"
+  splits:
+  - split: 3
+    text: "处世之本"
+    translated: "Foundation of Conduct"
+    qcReviewedText: "Foundation of Conduct"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "立足初稳之际，需打通人情脉络，"
+    translated: "In the early stages of establishing your footing, you must cultivate social connections."
+    qcReviewedText: "In the early stages of establishing your footing, you must cultivate social connections.{taskNpcName}He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcTranslated: "In the early stages of establishing your footing, you must cultivate social connections. {taskNpcName} holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+    translated: "He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "18,16,,处世之本,立足初稳之际，需打通人情脉络，npcName于本帮颇有威望，携些礼品相赠，以通往来。,200,78,0,4,5"
+  splits:
+  - split: 3
+    text: "处世之本"
+    translated: "Foundation of Conduct"
+    qcReviewedText: "Foundation of Conduct"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "立足初稳之际，需打通人情脉络，"
+    translated: "In the early stages of establishing your footing, you must cultivate social connections."
+    qcReviewedText: "In the early stages of establishing your footing, you must cultivate social connections.{taskNpcName}He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcTranslated: "In the early stages of establishing your footing, you must cultivate social connections. {taskNpcName} holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+    translated: "He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "19,17,,仓储不足,帮内仓储兵器良莠不齐，现需一件itemName，以备不时。,300,139,0,4,\"4,102103,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+    translated: "Insufficient storage"
+    qcReviewedText: "Insufficient storage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内仓储兵器良莠不齐，现需一件"
+    translated: "The weapons in our sect's armory are of mixed quality; we now require one."
+    qcReviewedText: "The weapons in our sect's armory are of mixed quality; we now require one.{taskItemName}, Just in case"
+    qcTranslated: "The weapons in our sect's armory are of mixed quality; we now require one {taskItemName} just in case."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+    translated: ", Just in case"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "20,18,,仓储不足,帮内仓储兵器良莠不齐，现需一件itemName，以备不时。,300,139,0,4,\"4,106003,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+    translated: "Insufficient storage"
+    qcReviewedText: "Insufficient storage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内仓储兵器良莠不齐，现需一件"
+    translated: "The weapons in our sect's armory are of mixed quality; we now require one."
+    qcReviewedText: "The weapons in our sect's armory are of mixed quality; we now require one.{taskItemName}, Just in case"
+    qcTranslated: "The weapons in our sect's armory are of mixed quality; we now require one {taskItemName} just in case."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+    translated: ", Just in case"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "21,19,,仓储不足,帮内仓储兵器良莠不齐，现需一件itemName，以备不时。,300,139,0,4,\"4,104003,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+    translated: "Insufficient storage"
+    qcReviewedText: "Insufficient storage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内仓储兵器良莠不齐，现需一件"
+    translated: "The weapons in our sect's armory are of mixed quality; we now require one."
+    qcReviewedText: "The weapons in our sect's armory are of mixed quality; we now require one.{taskItemName}, Just in case"
+    qcTranslated: "The weapons in our sect's armory are of mixed quality; we now require one {taskItemName} just in case."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+    translated: ", Just in case"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "22,20,,仓储不足,帮内仓储药石良莠不齐，现需一份itemName，以备不时。,300,139,0,4,\"4,901003,1\""
+  splits:
+  - split: 3
+    text: "仓储不足"
+    translated: "Insufficient storage"
+    qcReviewedText: "Insufficient storage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内仓储药石良莠不齐，现需一份"
+    translated: "The quality of medicines and stones stored in the sect's warehouse is inconsistent. A list is now required."
+    qcReviewedText: "The quality of medicines and stones stored in the sect's warehouse is inconsistent. A list is now required.{taskItemName}, Just in case"
+    qcTranslated: "The quality of medicines and stones stored in the sect's warehouse is inconsistent. A {taskItemName} is now required, just in case."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 4
+    subIndex: 1
+    text: "，以备不时。"
+    translated: ", Just in case"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "23,21,,侵吞蚕食,敌帮近日骤然偃旗息鼓，定是图谋不轨，将npcName击杀，以观其变。,500,200,0,3,1"
+  splits:
+  - split: 3
+    text: "侵吞蚕食"
+    translated: "Devour and encroach"
+    qcReviewedText: "Devour and encroach"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮近日骤然偃旗息鼓，定是图谋不轨，将"
+    translated: "The enemy faction has suddenly ceased all activity recently; they must be plotting something sinister."
+    qcReviewedText: "The enemy faction has suddenly ceased all activity recently; they must be plotting something sinister.{taskNpcName}Kill them to see how things unfold"
+    qcTranslated: "The enemy faction has suddenly ceased all activity recently; they must be plotting something sinister. Kill {taskNpcName} to see how things unfold"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "击杀，以观其变。"
+    translated: "Kill them to see how things unfold"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "24,22,,侵吞蚕食,敌帮近日骤然偃旗息鼓，定是图谋不轨，将npcName击杀，以观其变。,500,200,0,3,1"
+  splits:
+  - split: 3
+    text: "侵吞蚕食"
+    translated: "Devour and encroach"
+    qcReviewedText: "Devour and encroach"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮近日骤然偃旗息鼓，定是图谋不轨，将"
+    translated: "The enemy faction has suddenly ceased all activity recently; they must be plotting something sinister."
+    qcReviewedText: "The enemy faction has suddenly ceased all activity recently; they must be plotting something sinister.{taskNpcName}Kill them to see how things unfold"
+    qcTranslated: "The enemy faction has suddenly ceased all activity recently; they must be plotting something sinister. Kill {taskNpcName} to see how things unfold"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "击杀，以观其变。"
+    translated: "Kill them to see how things unfold"
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "25,23,,以武服人,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,400,184,0,3,2"
+  splits:
+  - split: 3
+    text: "以武服人"
+    translated: "Conquer through martial prowess"
+    qcReviewedText: "Conquer through martial prowess"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "26,24,,以武服人,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,400,184,0,3,2"
+  splits:
+  - split: 3
+    text: "以武服人"
+    translated: "Conquer through martial prowess"
+    qcReviewedText: "Conquer through martial prowess"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "27,25,,坊间传闻,传闻npcName身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,500,200,0,3,3"
+  splits:
+  - split: 3
+    text: "坊间传闻"
+    translated: "Rumors"
+    qcReviewedText: "Rumors"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "传闻"
+    translated: "Rumor"
+    qcReviewedText: "Rumor{taskNpcName}Bearing the family secret, capture and interrogate them; there may be a reward. This matter is confidential, so avoid involving our sect and conduct private interrogation."
+    qcTranslated: "Rumor has it that {taskNpcName} bears a family secret; capture and interrogate them, and there may be a gain. This matter is confidential, so avoid involving our sect and conduct private interrogation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
+  - split: 4
+    subIndex: 1
+    text: "身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "Bearing the family secret, capture and interrogate them; there may be a reward. This matter is confidential, so avoid involving our sect and conduct private interrogation."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "28,26,,坊间传闻,传闻npcName身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,500,200,0,3,3"
+  splits:
+  - split: 3
+    text: "坊间传闻"
+    translated: "Rumors"
+    qcReviewedText: "Rumors"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "传闻"
+    translated: "Rumor"
+    qcReviewedText: "Rumor{taskNpcName}Bearing the family secret, capture and interrogate them; there may be a reward. This matter is confidential, so avoid involving our sect and conduct private interrogation."
+    qcTranslated: "Rumor has it that {taskNpcName} bears a family secret; capture and interrogate them, and there may be a gain. This matter is confidential, so avoid involving our sect and conduct private interrogation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
+  - split: 4
+    subIndex: 1
+    text: "身负家传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "Bearing the family secret, capture and interrogate them; there may be a reward. This matter is confidential, so avoid involving our sect and conduct private interrogation."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "29,27,,秣马厉兵,帮内正缺上好兵刃，现需一件itemName，速速办妥。,400,184,0,3,\"4,102104,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+    translated: "Sharpening Swords and Grooming Horses"
+    qcReviewedText: "Sharpening Swords and Grooming Horses"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内正缺上好兵刃，现需一件"
+    translated: "The sect is in need of fine weapons, and one is required now."
+    qcReviewedText: "The sect is in need of fine weapons, and one is required now.{taskItemName}, Hurry and get it done"
+    qcTranslated: "The sect is in need of fine weapons, and one {taskItemName} is required now. Hurry and get it done"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+    translated: ", Hurry and get it done"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "30,28,,秣马厉兵,帮内正缺上好兵刃，现需一件itemName，速速办妥。,400,184,0,3,\"4,106004,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+    translated: "Sharpening Swords and Grooming Horses"
+    qcReviewedText: "Sharpening Swords and Grooming Horses"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内正缺上好兵刃，现需一件"
+    translated: "The sect is in need of fine weapons, and one is required now."
+    qcReviewedText: "The sect is in need of fine weapons, and one is required now.{taskItemName}, Hurry and get it done"
+    qcTranslated: "The sect is in need of fine weapons, and one {taskItemName} is required now. Hurry and get it done"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+    translated: ", Hurry and get it done"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "31,29,,秣马厉兵,帮内正缺上好兵刃，现需一件itemName，速速办妥。,400,184,0,3,\"4,104004,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+    translated: "Sharpening Swords and Grooming Horses"
+    qcReviewedText: "Sharpening Swords and Grooming Horses"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内正缺上好兵刃，现需一件"
+    translated: "The sect is in need of fine weapons, and one is required now."
+    qcReviewedText: "The sect is in need of fine weapons, and one is required now.{taskItemName}, Hurry and get it done"
+    qcTranslated: "The sect is in need of fine weapons, and one {taskItemName} is required now. Hurry and get it done"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+    translated: ", Hurry and get it done"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "32,30,,秣马厉兵,帮内正缺上好药石，现需一份itemName，速速办妥。,400,184,0,3,\"4,901004,1\""
+  splits:
+  - split: 3
+    text: "秣马厉兵"
+    translated: "Sharpening Swords and Grooming Horses"
+    qcReviewedText: "Sharpening Swords and Grooming Horses"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内正缺上好药石，现需一份"
+    translated: "The sect is in urgent need of high-quality medicinal herbs and stones; one batch is required now."
+    qcReviewedText: "The sect is in urgent need of high-quality medicinal herbs and stones; one batch is required now.{taskItemName}, Hurry and get it done"
+    qcTranslated: "The sect is in urgent need of high-quality medicinal herbs and stones; one batch of {taskItemName} is required now. Hurry and get it done"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，速速办妥。"
+    translated: ", Hurry and get it done"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "33,31,,血雨腥风,敌帮元气大伤，分身乏术，趁此机会将npcName击杀，以除本帮大敌。,600,224,0,2,1"
+  splits:
+  - split: 3
+    text: "血雨腥风"
+    translated: "Blood and Storm"
+    qcReviewedText: "Blood and Storm"
+    qcTranslated: "Blood Rain and Fierce Wind"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 4
+    text: "敌帮元气大伤，分身乏术，趁此机会将"
+    translated: "The enemy faction has suffered heavy losses and is stretched thin; seize this opportunity to"
+    qcReviewedText: "The enemy faction has suffered heavy losses and is stretched thin; seize this opportunity to{taskNpcName}Kill them to eliminate our sect's greatest enemy."
+    qcTranslated: "The enemy faction has suffered heavy losses and is stretched thin; seize this opportunity to kill {taskNpcName} to eliminate our sect's greatest enemy."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "击杀，以除本帮大敌。"
+    translated: "Kill them to eliminate our sect's greatest enemy."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "34,32,,血雨腥风,敌帮元气大伤，分身乏术，趁此机会将npcName击杀，以除本帮大敌。,600,224,0,2,1"
+  splits:
+  - split: 3
+    text: "血雨腥风"
+    translated: "Blood and Storm"
+    qcReviewedText: "Blood and Storm"
+    qcTranslated: "Blood Rain and Fierce Wind"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 4
+    text: "敌帮元气大伤，分身乏术，趁此机会将"
+    translated: "The enemy faction has suffered heavy losses and is stretched thin; seize this opportunity to"
+    qcReviewedText: "The enemy faction has suffered heavy losses and is stretched thin; seize this opportunity to{taskNpcName}Kill them to eliminate our sect's greatest enemy."
+    qcTranslated: "The enemy faction has suffered heavy losses and is stretched thin; seize this opportunity to kill {taskNpcName} to eliminate our sect's greatest enemy."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "击杀，以除本帮大敌。"
+    translated: "Kill them to eliminate our sect's greatest enemy."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "35,33,,立身扬名,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,500,200,0,2,2"
+  splits:
+  - split: 3
+    text: "立身扬名"
+    translated: "Establish Oneself and Achieve Fame"
+    qcReviewedText: "Establish Oneself and Achieve Fame"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "36,34,,立身扬名,帮内npcName近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。,500,200,0,2,2"
+  splits:
+  - split: 3
+    text: "立身扬名"
+    translated: "Establish Oneself and Achieve Fame"
+    qcReviewedText: "Establish Oneself and Achieve Fame"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内"
+    translated: "Within the Sect"
+    qcReviewedText: "Within the Sect{taskNpcName}Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcTranslated: "Within the Sect, {taskNpcName} has lately had many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日对你武道实力多有微词，需去寻其切磋一番，扬威澄名。"
+    translated: "Lately, there have been many criticisms of your martial prowess. You must seek them out for a sparring match to demonstrate your strength and clear your name."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "37,35,,不传之秘,传闻npcName身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,600,224,0,2,3"
+  splits:
+  - split: 3
+    text: "不传之秘"
+    translated: "Unwritten Secrets"
+    qcReviewedText: "Unwritten Secrets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "传闻"
+    translated: "Rumor"
+    qcReviewedText: "Rumor{taskNpcName}They carry a secret that is never passed on. If we capture and interrogate them, we may gain something. This matter must remain hidden; it would be best to avoid involving our sect and conduct the interrogation privately."
+    qcTranslated: "Rumor has it that {taskNpcName} carries a secret that is never passed on. If we capture and interrogate them, we may gain something. This matter must remain hidden; it would be best to avoid involving our sect and conduct the interrogation privately."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "They carry a secret that is never passed on. If we capture and interrogate them, we may gain something. This matter must remain hidden; it would be best to avoid involving our sect and conduct the interrogation privately."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "38,36,,不传之秘,传闻npcName身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,600,224,0,2,3"
+  splits:
+  - split: 3
+    text: "不传之秘"
+    translated: "Unwritten Secrets"
+    qcReviewedText: "Unwritten Secrets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "传闻"
+    translated: "Rumor"
+    qcReviewedText: "Rumor{taskNpcName}They carry a secret that is never passed on. If we capture and interrogate them, we may gain something. This matter must remain hidden; it would be best to avoid involving our sect and conduct the interrogation privately."
+    qcTranslated: "Rumor has it that {taskNpcName} carries a secret that is never passed on. If we capture and interrogate them, we may gain something. This matter must remain hidden; it would be best to avoid involving our sect and conduct the interrogation privately."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "身负不传之秘，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "They carry a secret that is never passed on. If we capture and interrogate them, we may gain something. This matter must remain hidden; it would be best to avoid involving our sect and conduct the interrogation privately."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "39,37,,披坚执锐,帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件itemName，以解燃眉之急。,500,200,0,2,\"4,102106,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+    translated: "Donning armor and wielding weapons"
+    qcReviewedText: "Donning armor and wielding weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件"
+    translated: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a suitable one."
+    qcReviewedText: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a suitable one.{taskItemName}, To relieve the immediate crisis"
+    qcTranslated: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a {taskItemName} to relieve the immediate crisis."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以解燃眉之急。"
+    translated: ", To relieve the immediate crisis"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "40,38,,披坚执锐,帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件itemName，以解燃眉之急。,500,200,0,2,\"4,106004,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+    translated: "Donning armor and wielding weapons"
+    qcReviewedText: "Donning armor and wielding weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件"
+    translated: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a suitable one."
+    qcReviewedText: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a suitable one.{taskItemName}, To relieve the immediate crisis"
+    qcTranslated: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a {taskItemName} to relieve the immediate crisis."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以解燃眉之急。"
+    translated: ", To relieve the immediate crisis"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "41,39,,披坚执锐,帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件itemName，以解燃眉之急。,500,200,0,2,\"4,104006,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+    translated: "Donning armor and wielding weapons"
+    qcReviewedText: "Donning armor and wielding weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "帮内高手颇缺合手兵刃，寻常兵器难堪一用，恐需寻来一件"
+    translated: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a suitable one."
+    qcReviewedText: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a suitable one.{taskItemName}, To relieve the immediate crisis"
+    qcTranslated: "Our sect lacks skilled fighters with matching weapons; ordinary arms are useless, so we must find a {taskItemName} to relieve the immediate crisis."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "，以解燃眉之急。"
+    translated: ", To relieve the immediate crisis"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "42,40,,披坚执锐,敌帮虽元气大伤，一场血战仍是在所难免，现需一份itemName，以备不时之需。,500,200,0,2,\"4,901004,1\""
+  splits:
+  - split: 3
+    text: "披坚执锐"
+    translated: "Donning armor and wielding weapons"
+    qcReviewedText: "Donning armor and wielding weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮虽元气大伤，一场血战仍是在所难免，现需一份"
+    translated: "Though the enemy faction has suffered heavy losses, a bloody battle is still inevitable. A plan is now needed"
+    qcReviewedText: "Though the enemy faction has suffered heavy losses, a bloody battle is still inevitable. A plan is now needed{taskItemName}, Just in case"
+    qcTranslated: "Though the enemy faction has suffered heavy losses, a bloody battle is still inevitable. A {taskItemName} is now needed, just in case."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 4
+    subIndex: 1
+    text: "，以备不时之需。"
+    translated: ", Just in case"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "43,41,,雄踞一方,敌帮已然一溃千里，然贼首尚余，请帮主出手，斩杀npcName！,800,386,0,1,1"
+  splits:
+  - split: 3
+    text: "雄踞一方"
+    translated: "Dominating the Region"
+    qcReviewedText: "Dominating the Region"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮已然一溃千里，然贼首尚余，请帮主出手，斩杀"
+    translated: "The enemy gang has already been routed a thousand li, but their leader still remains. Please, Sect Leader, strike and slay them."
+    qcReviewedText: "The enemy gang has already been routed a thousand li, but their leader still remains. Please, Sect Leader, strike and slay them.{taskNpcName}！"
+    qcTranslated: "The enemy gang has already been routed a thousand li, but their leader still remains. Please, Sect Leader, strike and slay {taskNpcName}!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}！"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "44,42,,群雄俯首,npcName那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！,600,224,0,1,2"
+  splits:
+  - split: 3
+    text: "群雄俯首"
+    translated: "All Heroes Bow"
+    qcReviewedText: "All Heroes Bow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！"
+    translated: "That fool with no sense of propriety not only spoke ill of the Sect Leader's martial prowess but also issued a challenge for a sparring match. Please, Sect Leader, step in and demonstrate your might to awe the heroes of our sect!"
+    qcReviewedText: "{taskNpcName}That fool with no sense of propriety not only spoke ill of the Sect Leader's martial prowess but also issued a challenge for a sparring match. Please, Sect Leader, step in and demonstrate your might to awe the heroes of our sect!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 4
+    template: "{taskNpcName}{0}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "45,43,,群雄俯首,npcName那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！,600,224,0,1,2"
+  splits:
+  - split: 3
+    text: "群雄俯首"
+    translated: "All Heroes Bow"
+    qcReviewedText: "All Heroes Bow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "那个不长眼的竟对帮主武道实力多有微词，更是下了切磋战贴，还请帮主出手，以镇帮中群豪！"
+    translated: "That fool with no sense of propriety not only spoke ill of the Sect Leader's martial prowess but also issued a challenge for a sparring match. Please, Sect Leader, step in and demonstrate your might to awe the heroes of our sect!"
+    qcReviewedText: "{taskNpcName}That fool with no sense of propriety not only spoke ill of the Sect Leader's martial prowess but also issued a challenge for a sparring match. Please, Sect Leader, step in and demonstrate your might to awe the heroes of our sect!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 4
+    template: "{taskNpcName}{0}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "46,44,,八面玲珑,身为帮主，自需恩威并施，npcName近日为本帮立下不小功劳，或需携礼相赠，以德服人。,500,200,0,1,5"
+  splits:
+  - split: 3
+    text: "八面玲珑"
+    translated: "Smooth-talking"
+    qcReviewedText: "Smooth-talking"
+    qcTranslated: "A master of diplomacy"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 4
+    text: "身为帮主，自需恩威并施，"
+    translated: "As the Sect Leader, one must balance mercy with authority."
+    qcReviewedText: "As the Sect Leader, one must balance mercy with authority.{taskNpcName}They have recently rendered great service to our sect. We should perhaps present them with gifts to win them over through virtue."
+    qcTranslated: "As the Sect Leader, one must balance mercy with authority. {taskNpcName} has recently rendered great service to our sect. We should perhaps present them with gifts to win them over through virtue."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "近日为本帮立下不小功劳，或需携礼相赠，以德服人。"
+    translated: "They have recently rendered great service to our sect. We should perhaps present them with gifts to win them over through virtue."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "47,45,,武林秘辛,敌帮虽溃，却仍有传言，逃出的npcName身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。,700,328,0,1,3"
+  splits:
+  - split: 3
+    text: "武林秘辛"
+    translated: "Secrets of the Wulin"
+    qcReviewedText: "Secrets of the Wulin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮虽溃，却仍有传言，逃出的"
+    translated: "Though the enemy gang has been routed, rumors persist that those who escaped"
+    qcReviewedText: "Though the enemy gang has been routed, rumors persist that those who escaped{taskNpcName}This individual carries many secrets of the Wulin and possesses considerable cultivation. I urge the Sect Leader to intervene and capture them for interrogation. Given the sensitive nature of this matter, we must avoid implicating our sect; a private interrogation is required."
+    qcTranslated: "Though the enemy gang has been routed, rumors persist that the escaped {taskNpcName} carries many secrets of the Wulin and possesses considerable cultivation. I urge the Sect Leader to intervene and capture them for interrogation. Given the sensitive nature of this matter, we must avoid implicating our sect; a private, extrajudicial interrogation is required."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
+  - split: 4
+    subIndex: 1
+    text: "身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "This individual carries many secrets of the Wulin and possesses considerable cultivation. I urge the Sect Leader to intervene and capture them for interrogation. Given the sensitive nature of this matter, we must avoid implicating our sect; a private interrogation is required."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "48,46,,武林秘辛,敌帮虽溃，却仍有传言，逃出的npcName身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。,700,328,0,1,3"
+  splits:
+  - split: 3
+    text: "武林秘辛"
+    translated: "Secrets of the Wulin"
+    qcReviewedText: "Secrets of the Wulin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮虽溃，却仍有传言，逃出的"
+    translated: "Though the enemy gang has been routed, rumors persist that those who escaped"
+    qcReviewedText: "Though the enemy gang has been routed, rumors persist that those who escaped{taskNpcName}This individual carries many secrets of the Wulin and possesses considerable cultivation. I urge the Sect Leader to intervene and capture them for interrogation. Given the sensitive nature of this matter, we must avoid implicating our sect; a private interrogation is required."
+    qcTranslated: "Though the enemy gang has been routed, rumors persist that the escaped {taskNpcName} carries many secrets of the Wulin and possesses considerable cultivation. I urge the Sect Leader to intervene and capture them for interrogation. Given the sensitive nature of this matter, we must avoid implicating our sect; a private, extrajudicial interrogation is required."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
+  - split: 4
+    subIndex: 1
+    text: "身上携有不少武林秘辛，此人修为颇高，还请帮主出手，将其拿回拷问。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "This individual carries many secrets of the Wulin and possesses considerable cultivation. I urge the Sect Leader to intervene and capture them for interrogation. Given the sensitive nature of this matter, we must avoid implicating our sect; a private interrogation is required."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "49,47,,神兵利器,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件itemName陈于厅堂，定能令本帮声威更胜往昔！,700,328,0,1,\"4,102107,1\""
+  splits:
+  - split: 3
+    text: "神兵利器"
+    translated: "Divine Weapon"
+    qcReviewedText: "Divine Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件"
+    translated: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single"
+    qcReviewedText: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single{taskItemName}Displaying them in the main hall will surely make our sect's prestige even greater than before!"
+    qcTranslated: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single {taskItemName} to display in the main hall, it will surely make our sect's prestige even greater than before!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "陈于厅堂，定能令本帮声威更胜往昔！"
+    translated: "Displaying them in the main hall will surely make our sect's prestige even greater than before!"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "50,48,,神兵利器,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件itemName陈于厅堂，定能令本帮声威更胜往昔！,700,328,0,1,\"4,106007,1\""
+  splits:
+  - split: 3
+    text: "神兵利器"
+    translated: "Divine Weapon"
+    qcReviewedText: "Divine Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件"
+    translated: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single"
+    qcReviewedText: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single{taskItemName}Displaying them in the main hall will surely make our sect's prestige even greater than before!"
+    qcTranslated: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single {taskItemName} to display in the main hall, it will surely make our sect's prestige even greater than before!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "陈于厅堂，定能令本帮声威更胜往昔！"
+    translated: "Displaying them in the main hall will surely make our sect's prestige even greater than before!"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "51,49,,神兵利器,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件itemName陈于厅堂，定能令本帮声威更胜往昔！,700,328,0,1,\"4,104007,1\""
+  splits:
+  - split: 3
+    text: "神兵利器"
+    translated: "Divine Weapon"
+    qcReviewedText: "Divine Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一件"
+    translated: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single"
+    qcReviewedText: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single{taskItemName}Displaying them in the main hall will surely make our sect's prestige even greater than before!"
+    qcTranslated: "Our sect is now on the rise, thriving and flourishing. The Sect Leader possesses immense power; if we could find a single {taskItemName} to display in the main hall, it will surely make our sect's prestige even greater than before!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "陈于厅堂，定能令本帮声威更胜往昔！"
+    translated: "Displaying them in the main hall will surely make our sect's prestige even greater than before!"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "52,50,,灵丹妙药,本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一份itemName陈于宝库，定能令本帮声威更胜往昔！,700,328,0,1,\"4,901006,1\""
+  splits:
+  - split: 3
+    text: "灵丹妙药"
+    translated: "Miraculous Elixir"
+    qcReviewedText: "Miraculous Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "本帮如今如日方升，蒸蒸日上，帮主神通广大，若能寻来一份"
+    translated: "Our sect is now in its prime, thriving and flourishing. The Sect Leader possesses immense power; if he could find a single"
+    qcReviewedText: "Our sect is now in its prime, thriving and flourishing. The Sect Leader possesses immense power; if he could find a single{taskItemName}Displaying them in the treasury will surely make our sect's reputation even greater than before!"
+    qcTranslated: "Our sect is now in its prime, thriving and flourishing. The Sect Leader possesses immense power; if he could find a single {taskItemName} to display in the treasury, it will surely make our sect's reputation even greater than before!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "陈于宝库，定能令本帮声威更胜往昔！"
+    translated: "Displaying them in the treasury will surely make our sect's reputation even greater than before!"
+  templates:
+  - split: 4
+    template: "{0}{taskItemName}{1}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+- raw: "53,51,,捕风捉影,敌帮npcName近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,200,78,0,5,3"
+  splits:
+  - split: 3
+    text: "捕风捉影"
+    translated: "Chasing phantoms"
+    qcReviewedText: "Chasing phantoms"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮"
+    translated: "Enemy Faction"
+    qcReviewedText: "Enemy Faction{taskNpcName}Lately, I seem to have had a fortunate encounter. If we capture and interrogate them, we may gain some valuable information. This matter is confidential; we must avoid involving our sect and conduct the interrogation privately."
+    qcTranslated: "Enemy Faction{taskNpcName} seems to have had a fortunate encounter recently. If we capture and interrogate them, we may gain some valuable information. This matter is confidential; we must avoid involving our sect and conduct the interrogation privately."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 4
+    subIndex: 1
+    text: "近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "Lately, I seem to have had a fortunate encounter. If we capture and interrogate them, we may gain some valuable information. This matter is confidential; we must avoid involving our sect and conduct the interrogation privately."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "54,52,,追匿寻踪,敌帮npcName近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。,300,139,0,4,3"
+  splits:
+  - split: 3
+    text: "追匿寻踪"
+    translated: "Tracking the Hidden"
+    qcReviewedText: "Tracking the Hidden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "敌帮"
+    translated: "Enemy Faction"
+    qcReviewedText: "Enemy Faction{taskNpcName}Lately, I seem to have had a fortunate encounter. If we capture and interrogate them, we may gain some valuable information. This matter is confidential; we must avoid involving our sect and conduct the interrogation privately."
+    qcTranslated: "Enemy Faction{taskNpcName} seems to have had a fortunate encounter recently. If we capture and interrogate them, we may gain some valuable information. This matter is confidential; we must avoid involving our sect and conduct the interrogation privately."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 4
+    subIndex: 1
+    text: "近日似有奇遇，将其拿住拷问一番，许能有获。此事隐秘，恐需避及本帮，私刑讯问。"
+    translated: "Lately, I seem to have had a fortunate encounter. If we capture and interrogate them, we may gain some valuable information. This matter is confidential; we must avoid involving our sect and conduct the interrogation privately."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "55,53,,互通有无,虽立足已稳，然人情事故不可懈怠，npcName于本帮颇有威望，携些礼品相赠，以通往来。,400,184,0,3,5"
+  splits:
+  - split: 3
+    text: "互通有无"
+    translated: "Mutual Benefit Exchange"
+    qcReviewedText: "Mutual Benefit Exchange"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "虽立足已稳，然人情事故不可懈怠，"
+    translated: "Though your footing is now steady, one must never grow complacent in the face of human affairs and worldly changes."
+    qcReviewedText: "Though your footing is now steady, one must never grow complacent in the face of human affairs and worldly changes.{taskNpcName}He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcTranslated: "Though your footing is now steady, one must never grow complacent in the face of human affairs and worldly changes. {taskNpcName} holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+    translated: "He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "56,54,,长袖善舞,地位蒸蒸日上，正是广铺人情脉路之时，npcName于本帮颇有威望，携些礼品相赠，以通往来。,500,200,0,2,5"
+  splits:
+  - split: 3
+    text: "长袖善舞"
+    translated: "Well-connected and skilled in maneuvering"
+    qcReviewedText: "Well-connected and skilled in maneuvering"
+    qcTranslated: "A long sleeve makes for a graceful dance"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 4
+    text: "地位蒸蒸日上，正是广铺人情脉路之时，"
+    translated: "Your status is rising steadily; this is the time to broaden your network of connections."
+    qcReviewedText: "Your status is rising steadily; this is the time to broaden your network of connections.{taskNpcName}He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcTranslated: "Your status is rising steadily; this is the time to broaden your network of connections. {taskNpcName} holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 4
+    subIndex: 1
+    text: "于本帮颇有威望，携些礼品相赠，以通往来。"
+    translated: "He holds considerable prestige within our sect. Bring some gifts to present to him and establish a connection."
+  templates:
+  - split: 4
+    template: "{0}{taskNpcName}{1}"
+    tokens:
+      taskNpcName:
+        source: "npcName"

@@ -33,7 +33,12 @@ a fresh runtime dump, and again after a game update.
 Strings neither dump can find, because the game builds them at runtime, go in [`Files/Raw/Dumped/PrefabText/prefabText.extra.txt`](../../Files/Raw/Dumped/PrefabText/prefabText.extra.txt)
 (one per line, written by hand and never overwritten by a dump; registered in `TextFileConfiguration.cs`). It is translated and packaged like
 the dump, to `Mod/prefabText.extra.txt.yaml`, and the plugin loads it because it loads every `*prefabText*` file. Today it holds the 16 key names the
-game shows raw from its settings (`空格`, `左SHIFT`, ...).
+game shows raw from its settings (`空格`, `左SHIFT`, ...) and the 21 blocked-path messages from `closePos` in `TaskFreeze/body` and
+`SandBox_Pos/FreezePos` (`门扉紧闭。`, `非请勿入，还是莫要擅闯了。`, ...). The game splits each `closePos` entry as `map_x_y_directions_text`, stores the text as
+`LimitMapPos.tip` and shows it in the item-get text box, so the replacement is by exact text and also covers tips already saved in a save file.
+Their translations are in `ManualTranslations.yaml`. When the extra file changes, run test `1. ExportAssetsIntoTranslated` and then
+`99. MergeFilesIntoTranslated`, but **revert `Converted/dynamicStrings.txt.yaml` and `Converted/prefabText.txt.yaml` afterwards**: the merge strips every
+`safeToTranslate: false` flag (only the rules pass sets it), which would re-enable all the `Key` rows.
 
 ## Strings that must not be translated
 
@@ -46,7 +51,9 @@ A scan of the decompiled code (`Files/Raw/Decompiled/`) found no sprite loads by
 - Values compared with data (`类型 == "武学研本"`, `InfoSettingData.GetKeyCode`, weapon `StartsWith("拳")`).
 - Substring matches, `Replace()` search patterns, named lookups (`GetTipsContent("武力")`, `ComputeAttribute("真气上限")`), sound names.
 - Literals the game itself replaces with its own English (`WordGroupHandle` place names, `Replace("内功攻击", "ATTACK")` in `TipShowWin*`):
-  translating the Chinese side would make the game rewrite our English into its English.
+  translating the Chinese side would make the game rewrite our English into its English. For the attribute chains in the acupoint and tooltip
+  classes the plugin goes further: `GameEnglishAttributeReplaceRemover` ([`AttributeNamePatch.cs`](../../PathOfKungfuPlugin/AttributeNamePatch.cs))
+  turns those `.Replace("内功攻击", "ATTACK")` calls into no-ops and the attribute patches there apply our glossary names instead.
 
 [`Files/DynamicStringsDoNotTranslate.csv`](../../Files/DynamicStringsDoNotTranslate.csv) lists them as `Kind,Reason,Type,Method,Raw`
 (1,025 rows: 891 from the scan on 2026-10-13, 20 added after in-game errors, and about 114 added on 2026-10-17 after translated hurt/launch state names cut knockups short, see below):

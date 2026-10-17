@@ -1,0 +1,413 @@
+- raw: "1,,,类型,标题,内容,剧情npcId,后续任务id,邮件物品,,"
+  splits:
+  - split: 4
+    text: "标题"
+    translated: "Title"
+    qcReviewedText: "Title"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "内容"
+    translated: "Content"
+    qcReviewedText: "Content"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,备注,type,title,content,npcId,taskId,awards,,"
+- raw: "3,1,,1,书生来信,青萍遭变，已非堪居之所，我夫妻二人决意去往大理避世隐居，<fName><兄||姑娘>若有意一唔，自当倒履而迎。海天在望，不胜祷企。\\n\\n青萍书生谨拜。,1110002008,81000050,,,"
+  splits:
+  - split: 4
+    text: "书生来信"
+    translated: "A Letter from the Scholar"
+    qcReviewedText: "A Letter from the Scholar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "青萍遭变，已非堪居之所，我夫妻二人决意去往大理避世隐居，{firstName}{playerTitle}若有意一唔，自当倒履而迎。海天在望，不胜祷企。"
+    translated: "Qingping has been struck by calamity and is no longer a place where one can dwell. My wife and I have resolved to retreat to Dali to live in seclusion. Should {playerTitle} {firstName} wish to join us, we shall welcome you with the utmost hospitality. The sea and sky lie within sight; our hopes are fervent."
+    tokens:
+      firstName:
+        source: "<fName>"
+      playerTitle:
+        source: "<兄||姑娘>"
+    qcReviewedText: "Qingping has been struck by calamity and is no longer a place where one can dwell. My wife and I have resolved to retreat to Dali to live in seclusion. Should {playerTitle} {firstName} wish to join us, we shall welcome you with the utmost hospitality. The sea and sky lie within sight; our hopes are fervent.\\n\\nQingping Scholar respectfully bows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    subIndex: 1
+    text: "青萍书生谨拜。"
+    translated: "Qingping Scholar respectfully bows"
+  templates:
+  - split: 5
+    template: "{0}\\n\\n{1}"
+- raw: "4,2,,1,四海敬奉,燕南归行踪已然探明，某即日折返承安，你我仍于先前亭中相会。\\n洪四海,1120001023,130002706,,,"
+  splits:
+  - split: 4
+    text: "四海敬奉"
+    translated: "Respected by the Four Seas"
+    qcReviewedText: "Respected by the Four Seas"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "燕南归行踪已然探明，某即日折返承安，你我仍于先前亭中相会。"
+    translated: "Yan Nan Gui's whereabouts have been confirmed. I will return to Cheng'an immediately, and we shall meet again at the pavilion as before."
+    qcReviewedText: "Yan Nan Gui's whereabouts have been confirmed. I will return to Cheng'an immediately, and we shall meet again at the pavilion as before.\\nHong Sihai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    subIndex: 1
+    text: "洪四海"
+    translated: "Hong Sihai"
+  templates:
+  - split: 5
+    template: "{0}\\n{1}"
+- raw: "5,3,,1,仇人恶函,<name>：\\n你之恶行天下皆知，人神共愤。正所谓血债血偿，若是被我觅得良机，必亲手将你剥皮拆骨，以泄我心中之恨！,,,,,"
+  splits:
+  - split: 4
+    text: "仇人恶函"
+    translated: "A Rival's Vicious Letter"
+    qcReviewedText: "A Rival's Vicious Letter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "你之恶行天下皆知，人神共愤。正所谓血债血偿，若是被我觅得良机，必亲手将你剥皮拆骨，以泄我心中之恨！"
+    translated: "Your crimes are known to all under heaven, and both mortals and gods are outraged. As the saying goes, blood must be repaid with blood. If I find my chance, I will personally flay your skin and shatter your bones to vent the hatred in my heart!"
+    qcReviewedText: "{fullName}：\\nYour crimes are known to all under heaven, and both mortals and gods are outraged. As the saying goes, blood must be repaid with blood. If I find my chance, I will personally flay your skin and shatter your bones to vent the hatred in my heart!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "6,4,,1,仇人恶函,<name>：\\n本以为如何了得，直至闻你言行，方知江湖竟有似这般自命不凡，恬不知耻的人物，实是丢人现眼，可笑至极！,,,,,"
+  splits:
+  - split: 4
+    text: "仇人恶函"
+    translated: "A Rival's Vicious Letter"
+    qcReviewedText: "A Rival's Vicious Letter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "本以为如何了得，直至闻你言行，方知江湖竟有似这般自命不凡，恬不知耻的人物，实是丢人现眼，可笑至极！"
+    translated: "I had assumed you were quite something, but upon hearing your words and observing your conduct, I realize that the Jianghu truly harbors such a self-important and shameless figure. It is nothing short of disgraceful and utterly ridiculous!"
+    qcReviewedText: "{fullName}：\\nI had assumed you were quite something, but upon hearing your words and observing your conduct, I realize that the Jianghu truly harbors such a self-important and shameless figure. It is nothing short of disgraceful and utterly ridiculous!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "7,5,,1,亲友家书,<lName>：\\n你我昔日诸事仍是常萦我心，辗转往复亦不能忘。如今夜卧难眠，仿若昨日，特修此书信，以告衷情。,,,,,"
+  splits:
+  - split: 4
+    text: "亲友家书"
+    translated: "Letters from Family and Friends"
+    qcReviewedText: "Letters from Family and Friends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "你我昔日诸事仍是常萦我心，辗转往复亦不能忘。如今夜卧难眠，仿若昨日，特修此书信，以告衷情。"
+    translated: "Our shared past still lingers in my heart; I turn and toss in vain, unable to forget. Lying awake tonight, it feels as if it were yesterday, so I have penned this letter to express my true feelings."
+    qcReviewedText: "{lastName}：\\nOur shared past still lingers in my heart; I turn and toss in vain, unable to forget. Lying awake tonight, it feels as if it were yesterday, so I have penned this letter to express my true feelings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{lastName}：\\n{0}"
+    tokens:
+      lastName:
+        source: "<lName>"
+- raw: "8,6,,2,亲友家书,<lName>：\\n久别未逢，思念日增。今我偶得一物，想来是你所需，故此随信相赠，此礼虽薄，然含拳拳情义，望君笑纳。,,,902004_5#902006_5#902009_5#901000_5#901001_5#901002_3#901100_4#901101_2#901102_2#101001_1#101002_1#101003_1#101004_1#101005_1#102001_1#102002_1#102003_1#102004_1#102005_1#102101_1#102102_1#102103_1#102104_1#102105_1#103001_1#103002_1#103003_1#103004_1#103005_1#104001_1#104002_1#104003_1#104004_1#104005_1#104101_1#104102_1#104103_1#104104_1#104105_1#105001_1#105002_1#105003_1#105004_1#105005_1#106001_1#106002_1#106003_1#106004_1#106005_1#109001_1#109002_1#109003_1#109004_1#109005_1#110001_1#110002_1#110003_1#110004_1#110005_1#111001_1#111002_1#111003_1#111004_1#111005_1#112001_1#112002_1#112003_1#112004_1#112005_1#113001_1#113002_1#113003_1#113004_1#113005_1#114001_1#114002_1#114003_1#114004_1#114005_1#115001_1#115002_1#115003_1#115004_1#115005_1#200001_1#200002_1#200003_1#200004_1#200005_1#300001_1#300002_1#300003_1#300004_1#300005_1#400001_1#400002_1#400003_1#400004_1#400005_1#500001_1#500002_1#500003_1#500004_1#500005_1#600001_1#600002_1#600003_1#600004_1#600005_1#700001_1#700002_1#700003_1#700004_1#700005_1#800001_1#800002_1#800003_1#800004_1#800005_1,,"
+  splits:
+  - split: 4
+    text: "亲友家书"
+    translated: "Letters from Family and Friends"
+    qcReviewedText: "Letters from Family and Friends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "久别未逢，思念日增。今我偶得一物，想来是你所需，故此随信相赠，此礼虽薄，然含拳拳情义，望君笑纳。"
+    translated: "Long separated, my longing for you grows daily. I have recently come across an item that I believe you need, so I enclose it with this letter as a gift. Though the present is modest, it carries my sincere affection. Please accept it with a smile."
+    qcReviewedText: "{lastName}：\\nLong separated, my longing for you grows daily. I have recently come across an item that I believe you need, so I enclose it with this letter as a gift. Though the present is modest, it carries my sincere affection. Please accept it with a smile."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{lastName}：\\n{0}"
+    tokens:
+      lastName:
+        source: "<lName>"
+- raw: "9,7,,1,亲友家书,<lName>：\\n近日我身陷烦忧，不知何解，不论进境俗事皆是无一顺畅，以至心忧如焚，志沮神伤。常念你处事豁达从容，若能回信，必能令我拨云见日，尽解此忧。,,,,,"
+  splits:
+  - split: 4
+    text: "亲友家书"
+    translated: "Letters from Family and Friends"
+    qcReviewedText: "Letters from Family and Friends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "近日我身陷烦忧，不知何解，不论进境俗事皆是无一顺畅，以至心忧如焚，志沮神伤。常念你处事豁达从容，若能回信，必能令我拨云见日，尽解此忧。"
+    translated: "Lately I have been plagued by deep worries, unable to find resolution. Whether in my progress or in worldly affairs, nothing goes smoothly, leaving my heart burning with anxiety and my spirit disheartened. I often recall your open-mindedness and composure in handling matters. If you could reply, it would surely help me see the light through the clouds and dispel all this distress."
+    qcReviewedText: "{lastName}：\\nLately I have been plagued by deep worries, unable to find resolution. Whether in my progress or in worldly affairs, nothing goes smoothly, leaving my heart burning with anxiety and my spirit disheartened. I often recall your open-mindedness and composure in handling matters. If you could reply, it would surely help me see the light through the clouds and dispel all this distress."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{lastName}：\\n{0}"
+    tokens:
+      lastName:
+        source: "<lName>"
+- raw: "10,8,,1,亲友家书,<lName>：\\n忆及往昔，忽念故人，近日我虽多见奇景，然身侧无君，终究欠些意味，如今扫榻以待，若你亦有意，何不至此一会？,,,,,"
+  splits:
+  - split: 4
+    text: "亲友家书"
+    translated: "Letters from Family and Friends"
+    qcReviewedText: "Letters from Family and Friends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "忆及往昔，忽念故人，近日我虽多见奇景，然身侧无君，终究欠些意味，如今扫榻以待，若你亦有意，何不至此一会？"
+    translated: "Recalling the past, I suddenly think of an old friend. Though I have seen many wondrous sights lately, without you by my side, something is missing. Now I have swept my mat in anticipation; if you are inclined, why not come and meet me here?"
+    qcReviewedText: "{lastName}：\\nRecalling the past, I suddenly think of an old friend. Though I have seen many wondrous sights lately, without you by my side, something is missing. Now I have swept my mat in anticipation; if you are inclined, why not come and meet me here?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{lastName}：\\n{0}"
+    tokens:
+      lastName:
+        source: "<lName>"
+- raw: "11,9,,1,旁人书信,<name>：\\n我每忆起阁下言行，皆觉心潮澎湃，难能自抑，恨不能相随左右。若有幸江湖再逢，愿能再闻高论，乞学一二。,,,,,"
+  splits:
+  - split: 4
+    text: "旁人书信"
+    translated: "Letters from Others"
+    qcReviewedText: "Letters from Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "我每忆起阁下言行，皆觉心潮澎湃，难能自抑，恨不能相随左右。若有幸江湖再逢，愿能再闻高论，乞学一二。"
+    translated: "Each time I recall your words and deeds, my heart surges with emotion, beyond my control. I long to be by your side. Should we meet again in the Jianghu, I hope to hear your wisdom once more and learn from you."
+    qcReviewedText: "{fullName}：\\nEach time I recall your words and deeds, my heart surges with emotion, beyond my control. I long to be by your side. Should we meet again in the Jianghu, I hope to hear your wisdom once more and learn from you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "12,10,,1,旁人书信,<name>：\\n久闻阁下大名，如今所见，只觉名不虚传，如仰高山。阁下言行潇洒卓绝，实令我心驰神往，深感钦敬。,,,,,"
+  splits:
+  - split: 4
+    text: "旁人书信"
+    translated: "Letters from Others"
+    qcReviewedText: "Letters from Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "久闻阁下大名，如今所见，只觉名不虚传，如仰高山。阁下言行潇洒卓绝，实令我心驰神往，深感钦敬。"
+    translated: "I have long heard of your renown, and now that I see you in person, I find the reputation well deserved, like gazing up at a towering peak. Your words and deeds are elegant and exceptional, truly inspiring my admiration and deep respect."
+    qcReviewedText: "{fullName}：\\nI have long heard of your renown, and now that I see you in person, I find the reputation well deserved, like gazing up at a towering peak. Your words and deeds are elegant and exceptional, truly inspiring my admiration and deep respect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "13,11,,1,旁人书信,<name>：\\n阁下近日所为实难称磊落二字，只愿是无心之失，如此尚有可原。但若你不加悔改，变本加厉，莫怪在下施以惩戒！,,,,,"
+  splits:
+  - split: 4
+    text: "旁人书信"
+    translated: "Letters from Others"
+    qcReviewedText: "Letters from Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "阁下近日所为实难称磊落二字，只愿是无心之失，如此尚有可原。但若你不加悔改，变本加厉，莫怪在下施以惩戒！"
+    translated: "Your recent conduct is far from honorable. I can only hope it was an unintentional lapse, for then it might be forgiven. But if you refuse to repent and instead grow more audacious, do not blame me when I mete out punishment!"
+    qcReviewedText: "{fullName}：\\nYour recent conduct is far from honorable. I can only hope it was an unintentional lapse, for then it might be forgiven. But if you refuse to repent and instead grow more audacious, do not blame me when I mete out punishment!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "14,12,,1,旁人书信,<name>：\\n久仰阁下高风，才思敏捷，品行高洁，如星缀于空，令我倾慕难休……,,,,,"
+  splits:
+  - split: 4
+    text: "旁人书信"
+    translated: "Letters from Others"
+    qcReviewedText: "Letters from Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "久仰阁下高风，才思敏捷，品行高洁，如星缀于空，令我倾慕难休……"
+    translated: "I have long admired your noble character and quick wit. Your integrity shines like a star in the sky, filling me with endless admiration..."
+    qcReviewedText: "{fullName}：\\nI have long admired your noble character and quick wit. Your integrity shines like a star in the sky, filling me with endless admiration..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "15,13,,1,旁人书信,<name>：\\n日夜思君，魂牵梦绕，情意难抑。愿与君同游山川湖海，共历大漠孤烟。晨观清风舞剑，夜闻细雨抚琴，此生相随……,,,,,"
+  splits:
+  - split: 4
+    text: "旁人书信"
+    translated: "Letters from Others"
+    qcReviewedText: "Letters from Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "日夜思君，魂牵梦绕，情意难抑。愿与君同游山川湖海，共历大漠孤烟。晨观清风舞剑，夜闻细雨抚琴，此生相随……"
+    translated: "Day and night I think of you, my soul bound to your dreams, my affection impossible to suppress. I wish to wander the mountains, rivers, lakes, and seas with you, to share the lone smoke rising over the vast desert. In the morning, watching the clear breeze dance with the sword; at night, hearing the fine rain caress the qin. For this lifetime, I shall follow you..."
+    qcReviewedText: "{fullName}：\\nDay and night I think of you, my soul bound to your dreams, my affection impossible to suppress. I wish to wander the mountains, rivers, lakes, and seas with you, to share the lone smoke rising over the vast desert. In the morning, watching the clear breeze dance with the sword; at night, hearing the fine rain caress the qin. For this lifetime, I shall follow you..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 5
+    template: "{fullName}：\\n{0}"
+    tokens:
+      fullName:
+        source: "<name>"
+- raw: "16,,,,,,,,,,"
+- raw: "17,,,,,,,,,,"
+- raw: "18,,,,,,,,,,"
+- raw: "19,,,,,,,,,,"
+- raw: "20,,,,,,,,,,"
+- raw: "21,,,,,,,,,,"
+- raw: "22,,,,,,,,,,"
+- raw: "23,,,,,,,,,,"
+- raw: "24,,,,,,,,,,"
+- raw: "25,,,,,,,,,,"
+- raw: "26,,,,,,,,,,"
+- raw: "27,,,,,,,,,,"
+- raw: "28,,,,,,,,,,"
+- raw: "29,,,,,,,,,,"
+- raw: "30,,,,,,,,,,"
+- raw: "31,,,,,,,,,,"
+- raw: "32,,,,,,,,,,"
+- raw: "33,,,,,,,,,,"
+- raw: "34,,,,,,,,,,"
+- raw: "35,,,,,,,,,,"
+- raw: "36,,,,,,,,,,"
+- raw: "37,,,,,,,,,,"
+- raw: "38,,,,,,,,,,"
+- raw: "39,,,,,,,,,,"
+- raw: "40,,,,,,,,,,"
+- raw: "41,,,,,,,,,,"
+- raw: "42,,,,,,,,,,"
+- raw: "43,,,,,,,,,,"
+- raw: "44,,,,,,,,,,"
+- raw: "45,,,,,,,,,,"
+- raw: "46,,,,,,,,,,"
+- raw: "47,,,,,,,,,,"
+- raw: "48,,,,,,,,,,"
+- raw: "49,,,,,,,,,,"
+- raw: "50,,,,,,,,,,"
+- raw: "51,,,,,,,,,,"
+- raw: "52,,,,,,,,,,"
+- raw: "53,,,,,,,,,,"
+- raw: "54,,,,,,,,,,"
+- raw: "55,,,,,,,,,,"
+- raw: "56,,,,,,,,,,"
+- raw: "57,,,,,,,,,,"
+- raw: "58,,,,,,,,,,"
+- raw: "59,,,,,,,,,,"
+- raw: "60,,,,,,,,,,"
+- raw: "61,,,,,,,,,,"
+- raw: "62,,,,,,,,,,"
+- raw: "63,,,,,,,,,,"
+- raw: "64,,,,,,,,,,"
+- raw: "65,,,,,,,,,,"
+- raw: "66,,,,,,,,,,"
+- raw: "67,,,,,,,,,,"
+- raw: "68,,,,,,,,,,"
+- raw: "69,,,,,,,,,,"
+- raw: "70,,,,,,,,,,"
+- raw: "71,,,,,,,,,,"
+- raw: "72,,,,,,,,,,"
+- raw: "73,,,,,,,,,,"
+- raw: "74,,,,,,,,,,"
+- raw: "75,,,,,,,,,,"
+- raw: "76,,,,,,,,,,"
+- raw: "77,,,,,,,,,,"
+- raw: "78,,,,,,,,,,"
+- raw: "79,,,,,,,,,,"
+- raw: "80,,,,,,,,,,"
+- raw: "81,,,,,,,,,,"
+- raw: "82,,,,,,,,,,"
+- raw: "83,,,,,,,,,,"
+- raw: "84,,,,,,,,,,"
+- raw: "85,,,,,,,,,,"
+- raw: "86,,,,,,,,,,"
+- raw: "87,,,,,,,,,,"
+- raw: "88,,,,,,,,,,"
+- raw: "89,,,,,,,,,,"
+- raw: "90,,,,,,,,,,"
+- raw: "91,,,,,,,,,,"
+- raw: "92,,,,,,,,,,"
+- raw: "93,,,,,,,,,,"
+- raw: "94,,,,,,,,,,"
+- raw: "95,,,,,,,,,,"
+- raw: "96,,,,,,,,,,"
+- raw: "97,,,,,,,,,,"
+- raw: "98,,,,,,,,,,"
+- raw: "99,,,,,,,,,,"
+- raw: "100,,,,,,,,,,"
+- raw: "101,,,,,,,,,,"
+- raw: "102,,,,,,,,,,"
+- raw: "103,,,,,,,,,,"
+- raw: "104,,,,,,,,,,"
+- raw: "105,,,,,,,,,,"
+- raw: "106,,,,,,,,,,"
+- raw: "107,,,,,,,,,,"
+- raw: "108,,,,,,,,,,"
+- raw: "109,,,,,,,,,,"
+- raw: "110,,,,,,,,,,"
+- raw: "111,,,,,,,,,,"
+- raw: "112,,,,,,,,,,"
+- raw: "113,,,,,,,,,,"
+- raw: "114,,,,,,,,,,"
+- raw: "115,,,,,,,,,,"
+- raw: "116,,,,,,,,,,"
+- raw: "117,,,,,,,,,,"
+- raw: "118,,,,,,,,,,"

@@ -4,12 +4,11 @@
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_Tittle
   sampleText: Prisoner in the Jar：
   idealFontSize: 18
+  color: '#00000000'
   lineSpacing: 1
-  color: "#00000000"
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_Wudao
   sampleText: 【Jianghu Enmity】
   idealFontSize: 20
-  allowAutoSizing: false
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_WudaoTitle
   sampleText: Prisoner in the Jar：
   idealFontSize: 18

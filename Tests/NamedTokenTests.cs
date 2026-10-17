@@ -59,6 +59,16 @@ public class NamedTokenTests
         Assert.Contains("player's first name", StringTokenReplacer.DescribeNamedTokensIn(slotted));
     }
 
+    [Fact(DisplayName = "Gang and assassin task tokens are slotted under their names and restore as written")]
+    public void TaskTokens_AreSlotted()
+    {
+        const string raw = "速去将npcName击杀，交付itemName，其在<city>（<x>，<y>），是你的<relationship>。";
+        var (slotted, tokens) = Slot(raw);
+
+        Assert.Equal("速去将{taskNpcName}击杀，交付{taskItemName}，其在{cityName}（{mapPositionX}，{mapPositionY}），是你的{relationship}。", slotted);
+        Assert.Equal(raw, Restore(slotted, tokens));
+    }
+
     [Theory(DisplayName = "NPC text tokens are masked as named slots and restored in the game's ///token/// form")]
     [InlineData("咱们gangName在这mapName，可是大大有名。", "咱们{gangName}在这{mapName},可是大大有名。", "Our ///gangName/// is famous in ///mapName///.")]
     [InlineData("致使a内息受阻，全身乏力。", "致使{npcName}内息受阻,全身乏力。", "///a/// has blocked qi.")]
