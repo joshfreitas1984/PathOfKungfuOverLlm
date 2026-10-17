@@ -1,4 +1,5 @@
 # Known issues
 
 Index only — one line per known issue or postmortem, linking to the full write-up under
-`docs/investigations/`. No known issues yet.
+`docs/investigations/`. 
+- [Person shifts and corrector narration in Converted](investigations/person-shift-and-corrector-narration.md) — wife/husband and I/you flips; model narration in translations.
