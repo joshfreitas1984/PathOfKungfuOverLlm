@@ -911,3 +911,22 @@ Log,log or exception text,IEvent.M_EventSystem,RegisterSystem,尝试绑定两个
 Log,log or exception text,IEvent.M_EventSystem,UnBind,没有对应的事件，event_id: {0}
 Log,log or exception text,IEvent.M_EventSystem,UnBind,没有对应的事件，eventName: {0}
 Key,breaks the patched method (NullReferenceException on the tutorial click),UIWuXueNew,SaveWxData,技能保存成功
+Key,animation/state name,EnemyNormalHurtState,Execute,后仰击飞受创
+Key,animation/state name,EnemyNormalHurtState,Execute,后仰空中受创
+Key,animation/state name,EnemyNormalHurtState,Execute,前趴击飞受创
+Key,animation/state name,EnemyNormalHurtState,Execute,前趴空中受创
+Key,animation/state name,EnemyNormalHurtState,Execute,受创
+Key,animation/state name,EnemyNormalHurtState,Execute,击飞
+Key,animation/state name,EnemyLogic,ReleaseNG_NotOnHurtOrAttack,受创
+Key,animation/state name,EnemyLogic,ReleaseNG_OnAttackChase,受创
+Key,animation/state name,EnemyLogic,ReleaseNG_OnAttack,受创
+Key,animation/state name,FlyItemLogic,OnAttack,空中
+Key,animation/state name,BattleARPG,OnAttack,格挡
+Key,animation/state name,BattleARPG,OnAttack,弹反
+Key,animation/state name,FlyItemLogic,OnAttack,弹反
+Key,substring match,EnemyNormalDefendState,Enter,动物
+Key,game replaces with its own English,TipShowWinAcupoint,replaceStr,暴击
+Key,game replaces with its own English,UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,帮派任务
+Key,game replaces with its own English,UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,世间奇遇
+Key,game replaces with its own English,UIWuXueNew,<ShowTongshi>b__109_2,格挡
+Key,game replaces with its own English,UIWuXueNew,<ShowTongshi>b__109_2,重击

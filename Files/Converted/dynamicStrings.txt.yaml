@@ -306,29 +306,17 @@
   splits:
   - split: 3
     text: "弹反"
-    translated: "Parry"
-    qcReviewedText: "Parry"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "BattleARPG,OnAttack,2083,弹反,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，System.Boolean，System.Boolean，System.Boolean，HitAirModel&，HitBlockModel&，HitNormalModel&，UnityEngine.Vector2&，System.Boolean&，System.Boolean&，System.Boolean&，System.Boolean&，System.Int32&，ActionFrame.Runtime.HeroStatus&，System.String，System.Boolean，System.Int32]"
   splits:
   - split: 3
     text: "弹反"
-    translated: "Parry"
-    qcReviewedText: "Parry"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "BattleARPG,OnAttack,2264,弹反,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，System.Boolean，System.Boolean，System.Boolean，HitAirModel&，HitBlockModel&，HitNormalModel&，UnityEngine.Vector2&，System.Boolean&，System.Boolean&，System.Boolean&，System.Boolean&，System.Int32&，ActionFrame.Runtime.HeroStatus&，System.String，System.Boolean，System.Int32]"
   splits:
   - split: 3
     text: "弹反"
-    translated: "Parry"
-    qcReviewedText: "Parry"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "BattleARPG,OnAttack,2423,扣除了：,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，System.Boolean，System.Boolean，System.Boolean，HitAirModel&，HitBlockModel&，HitNormalModel&，UnityEngine.Vector2&，System.Boolean&，System.Boolean&，System.Boolean&，System.Boolean&，System.Int32&，ActionFrame.Runtime.HeroStatus&，System.String，System.Boolean，System.Int32]"
   splits:
   - split: 3
@@ -348,11 +336,7 @@
   splits:
   - split: 3
     text: "格挡"
-    translated: "Block"
-    qcReviewedText: "Block"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "BattleARPG,OnAttack,4800,受创,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，System.Boolean，System.Boolean，System.Boolean，HitAirModel&，HitBlockModel&，HitNormalModel&，UnityEngine.Vector2&，System.Boolean&，System.Boolean&，System.Boolean&，System.Boolean&，System.Int32&，ActionFrame.Runtime.HeroStatus&，System.String，System.Boolean，System.Int32]"
   splits:
   - split: 3
@@ -372,11 +356,7 @@
   splits:
   - split: 3
     text: "弹反"
-    translated: "Parry"
-    qcReviewedText: "Parry"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "BattleARPG,OnAttack,5949,击飞,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，System.Boolean，System.Boolean，System.Boolean，HitAirModel&，HitBlockModel&，HitNormalModel&，UnityEngine.Vector2&，System.Boolean&，System.Boolean&，System.Boolean&，System.Boolean&，System.Int32&，ActionFrame.Runtime.HeroStatus&，System.String，System.Boolean，System.Int32]"
   splits:
   - split: 3
@@ -391,11 +371,7 @@
   splits:
   - split: 3
     text: "弹反"
-    translated: "Parry"
-    qcReviewedText: "Parry"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "BattleARPG,OnAttack,10588,中天诸悬系数,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，System.Boolean，System.Boolean，System.Boolean，HitAirModel&，HitBlockModel&，HitNormalModel&，UnityEngine.Vector2&，System.Boolean&，System.Boolean&，System.Boolean&，System.Boolean&，System.Int32&，ActionFrame.Runtime.HeroStatus&，System.String，System.Boolean，System.Int32]"
   splits:
   - split: 3
@@ -830,11 +806,7 @@
   splits:
   - split: 3
     text: "空中"
-    translated: "In the air"
-    qcReviewedText: "In the air"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "FlyItemLogic,OnAttack,1983,命中111格挡:,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，UnityEngine.Vector2，UnityEngine.Vector2，ActionFrame.Runtime.HeroStatus]"
   splits:
   - split: 3
@@ -859,11 +831,7 @@
   splits:
   - split: 3
     text: "弹反"
-    translated: "Parry"
-    qcReviewedText: "Parry"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "FlyItemLogic,OnAttack,7571,扣除了：,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，UnityEngine.Vector2，UnityEngine.Vector2，ActionFrame.Runtime.HeroStatus]"
   splits:
   - split: 3
@@ -894,11 +862,7 @@
   splits:
   - split: 3
     text: "空中"
-    translated: "In the air"
-    qcReviewedText: "In the air"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "FlyItemLogic,OnAttack,8116,飞命中格挡111,[ActionFrame.Runtime.ESkeletonAnimation，ActionFrame.Runtime.ESkeletonAnimation，UnityEngine.Vector2，UnityEngine.Vector2，ActionFrame.Runtime.HeroStatus]"
   splits:
   - split: 3
@@ -1109,11 +1073,7 @@
   splits:
   - split: 3
     text: "受创"
-    translated: "Injured"
-    qcReviewedText: "Injured"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyLogic,ReleaseNG_NotOnHurtOrAttack,205,击飞,[System.Boolean]"
   splits:
   - split: 3
@@ -1123,11 +1083,7 @@
   splits:
   - split: 3
     text: "受创"
-    translated: "Injured"
-    qcReviewedText: "Injured"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyLogic,ReleaseNG_OnAttackChase,145,击飞,[System.Boolean]"
   splits:
   - split: 3
@@ -1137,11 +1093,7 @@
   splits:
   - split: 3
     text: "受创"
-    translated: "Injured"
-    qcReviewedText: "Injured"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyLogic,ReleaseNG_OnAttack,125,击飞,[System.Boolean]"
   splits:
   - split: 3
@@ -1370,11 +1322,7 @@
   splits:
   - split: 3
     text: "动物"
-    translated: "Animals"
-    qcReviewedText: "Animals"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalDieState/<>c,<Enter>b__2_3,1,死亡,[System.String]"
   splits:
   - split: 3
@@ -1480,38 +1428,22 @@
   splits:
   - split: 3
     text: "后仰击飞受创"
-    translated: "Lean back and launch the injured one away."
-    qcReviewedText: "Lean back and launch the injured one away."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalHurtState,Execute,382,后仰空中受创,[]"
   splits:
   - split: 3
     text: "后仰空中受创"
-    translated: "Injured while falling back in the air"
-    qcReviewedText: "Injured while falling back in the air"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalHurtState,Execute,410,前趴击飞受创,[]"
   splits:
   - split: 3
     text: "前趴击飞受创"
-    translated: "Frontal strike, flying backward from the impact"
-    qcReviewedText: "Frontal strike, flying backward from the impact"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalHurtState,Execute,438,前趴空中受创,[]"
   splits:
   - split: 3
     text: "前趴空中受创"
-    translated: "Injured while airborne in a forward dive"
-    qcReviewedText: "Injured while airborne in a forward dive"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalHurtState,Execute,540,倒地,[]"
   splits:
   - split: 3
@@ -1521,20 +1453,12 @@
   splits:
   - split: 3
     text: "受创"
-    translated: "Injured"
-    qcReviewedText: "Injured"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalHurtState,Execute,606,击飞,[]"
   splits:
   - split: 3
     text: "击飞"
-    translated: "Knock away"
-    qcReviewedText: "Knock away"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "EnemyNormalHurtState,Execute,637,浮空,[]"
   splits:
   - split: 3
@@ -11124,11 +11048,7 @@
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "TipShowWinAcupoint,replaceStr,198,免暴,[System.String]"
   splits:
   - split: 3
@@ -13355,11 +13275,7 @@
   splits:
   - split: 3
     text: "世间奇遇"
-    translated: "Worldly Adventures"
-    qcReviewedText: "Worldly Adventures"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIMainTask/<>c__DisplayClass15_0,<UpdateTaskList>b__1,389,营生委托,[UnityEngine.Transform，System.Int32]"
   splits:
   - split: 3
@@ -14692,11 +14608,7 @@
   splits:
   - split: 3
     text: "帮派任务"
-    translated: "Gang mission"
-    qcReviewedText: "Gang mission"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UITask/<>c__DisplayClass8_0,<InitTaskData>b__0,1098,江湖恩仇,[UnityEngine.Transform，System.Int32]"
   splits:
   - split: 3
@@ -14732,11 +14644,7 @@
   splits:
   - split: 3
     text: "帮派任务"
-    translated: "Gang mission"
-    qcReviewedText: "Gang mission"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UITask/<>c__DisplayClass8_2,<InitTaskData>b__4,318,开启,[UnityEngine.Transform，System.Int32]"
   splits:
   - split: 3
@@ -15071,11 +14979,7 @@
   splits:
   - split: 3
     text: "格挡"
-    translated: "Block"
-    qcReviewedText: "Block"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,<ShowTongshi>b__109_2,89,闪避,[UnityEngine.Transform，System.Int32]"
   splits:
   - split: 3
@@ -15099,11 +15003,7 @@
   splits:
   - split: 3
     text: "重击"
-    translated: "Heavy Attack"
-    qcReviewedText: "Heavy Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew2,SetShowaddSkill,53,查看武学,[System.Int32]"
   splits:
   - split: 3
