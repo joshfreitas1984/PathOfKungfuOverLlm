@@ -49,7 +49,7 @@ A scan of the decompiled code (`Files/Raw/Decompiled/`) found no sprite loads by
   translating the Chinese side would make the game rewrite our English into its English.
 
 [`Files/DynamicStringsDoNotTranslate.csv`](../../Files/DynamicStringsDoNotTranslate.csv) lists them as `Kind,Reason,Type,Method,Raw`
-(911 rows: 891 from the scan on 2026-10-13, plus 20 added after in-game errors):
+(1,025 rows: 891 from the scan on 2026-10-13, 20 added after in-game errors, and about 114 added on 2026-10-17 after translated hurt/launch state names cut knockups short, see below):
 
 - `Key` rows are never translated.
 - `Log` rows are log and exception text the player never sees. They are skipped only while `DynamicStringRules.SkipLogStrings` is true
@@ -68,6 +68,25 @@ names assigned to a local first (`text = "角色战斗AI"; GetDictionary(text, t
 game fail with `Could not find file …\<English name>.xlsx` or `Please check sheetName`. Exception text in `IEvent.EventSystem`
 (`Fire`, `OnListeningAdd/Remove`) was also missed, and patching that method made the game throw `Event SecondUpdate contains different
 types of commissions` every second. Both are now `Key`/`Log` rows. After a game update, check `Player.log` for these before a release.
+
+A second pass (2026-10-17) found more, after knockups ended early: `EnemyNormalHurtState.Execute` keeps an enemy in its hurt state only
+while `StateName.Contains("受创"/"击飞"/…)` matches, and the hurt/launch names had been translated. The pass checked every packaged literal
+against how the decompiled code uses it. Three kinds were missed by the first scan:
+
+- State and object names used in `Contains` (`弹反`, `动物`, `受创`, `空中`, `格挡`).
+- `Replace` **patterns** whose input is a Chinese enum name (`帮派任务`, `世间奇遇`, `格挡`, `重击`) or already-translated text (`暴击`): translating
+  the pattern leaves Chinese on screen or lets the game rewrite our English.
+- Attribute and category names compared with **untranslated** table columns: the equipment/aptitude/skill stat strings read by
+  `UIRoleAttributeDataManager` (`武力+5`), `tipType` (`内功`/`轻功`, column 3 of `武学境界对应招式表`) and `ActiveType` (`主动`/`被动`, column 8
+  of `招式配置`). A translated literal never matches, so stat bonuses silently stop applying. Before translating such a literal, check
+  `Files/Mod/translated-columns.json`: it is only safe when the column is translated with the same wording (`item__秘籍` column 3 is, so
+  `InitPlayData`'s `内功`/`轻功` stay translated).
+
+Known unresolved: `StringTool.IsContainsShiTi` looks for `尸体`/`尸首`/`屍首` in NPC names, which are translated ("Dead Body of the Escort"), so
+neither the Chinese nor the English literal matches. It needs the corpse wording aligned between the glossary and the literal.
+
+Setting a row in the CSV does not clear an already-translated split; clear the split in `Files/Converted/dynamicStrings.txt.yaml` (set
+`safeToTranslate: false` and drop the translation and QC fields) and repackage.
 
 ## The game's own English (`Open ? "English" : "中文"`)
 

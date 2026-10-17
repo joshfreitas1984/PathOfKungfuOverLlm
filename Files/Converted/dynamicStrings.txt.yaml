@@ -7600,47 +7600,27 @@
   splits:
   - split: 3
     text: "武力"
-    translated: "Might"
-    qcReviewedText: "Might"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,176,筋骨,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "筋骨"
-    translated: "Physique"
-    qcReviewedText: "Physique"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,214,身法,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
-    qcReviewedText: "Agility"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,252,内息,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "内息"
-    translated: "Inner Qi"
-    qcReviewedText: "Inner Qi"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,290,悟性,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
-    qcReviewedText: "Comprehension"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,328,攻击力,[GProject.MyEuipData]"
   splits:
   - split: 3
@@ -7650,11 +7630,7 @@
   splits:
   - split: 3
     text: "防御"
-    translated: "Defense"
-    qcReviewedText: "Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,534,气血回复,[GProject.MyEuipData]"
   splits:
   - split: 3
@@ -7664,38 +7640,22 @@
   splits:
   - split: 3
     text: "气血"
-    translated: "Lifeforce"
-    qcReviewedText: "Lifeforce"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,612,命中,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,651,闪避,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,690,暴击,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,729,免暴,[GProject.MyEuipData]"
   splits:
   - split: 3
@@ -7710,92 +7670,52 @@
   splits:
   - split: 3
     text: "内劲增长"
-    translated: "Inner Force Gain"
-    qcReviewedText: "Inner Force Gain"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,846,速度,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "速度"
-    translated: "Speed"
-    qcReviewedText: "Speed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,885,吸血,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "吸血"
-    translated: "Lifesteal"
-    qcReviewedText: "Lifesteal"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,924,反伤,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "反伤"
-    translated: "Damage Reflection"
-    qcReviewedText: "Damage Reflection"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,963,外功攻击,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "外功攻击"
-    translated: "External Attack"
-    qcReviewedText: "External Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,999,外功防御,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "外功防御"
-    translated: "External Defense"
-    qcReviewedText: "External Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,1035,内功攻击,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "内功攻击"
-    translated: "Internal Attack"
-    qcReviewedText: "Internal Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,ResterEquipZhu,1071,内功防御,[GProject.MyEuipData]"
   splits:
   - split: 3
     text: "内功防御"
-    translated: "Internal Defense"
-    qcReviewedText: "Internal Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,179,攻击,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "攻击"
-    translated: "Attack"
-    qcReviewedText: "Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,221,防御,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "防御"
-    translated: "Defense"
-    qcReviewedText: "Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,263,气血上限,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -7805,29 +7725,17 @@
   splits:
   - split: 3
     text: "速度"
-    translated: "Speed"
-    qcReviewedText: "Speed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,347,内劲增长,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内劲增长"
-    translated: "Inner Force Gain"
-    qcReviewedText: "Inner Force Gain"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,389,体力上限,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "体力上限"
-    translated: "Max Stamina"
-    qcReviewedText: "Max Stamina"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,431,体力恢复,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -7837,38 +7745,22 @@
   splits:
   - split: 3
     text: "气血恢复"
-    translated: "Lifeforce Recovery"
-    qcReviewedText: "Lifeforce Recovery"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,515,命中,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,557,闪避,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,599,暴击,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetZaoySx,641,免暴,[System.Collections.Generic.Dictionary`2<System.Int32，System.Int32>，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -7888,38 +7780,22 @@
   splits:
   - split: 3
     text: "外功攻击"
-    translated: "External Attack"
-    qcReviewedText: "External Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,462,内功攻击,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "内功攻击"
-    translated: "Internal Attack"
-    qcReviewedText: "Internal Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,505,外功防御,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "外功防御"
-    translated: "External Defense"
-    qcReviewedText: "External Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,548,内功防御,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "内功防御"
-    translated: "Internal Defense"
-    qcReviewedText: "Internal Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,591,气血上限,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
@@ -7929,20 +7805,12 @@
   splits:
   - split: 3
     text: "速度"
-    translated: "Speed"
-    qcReviewedText: "Speed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,677,内劲增长,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "内劲增长"
-    translated: "Inner Force Gain"
-    qcReviewedText: "Inner Force Gain"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,720,体力恢复,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
@@ -7952,38 +7820,22 @@
   splits:
   - split: 3
     text: "气血恢复"
-    translated: "Lifeforce Recovery"
-    qcReviewedText: "Lifeforce Recovery"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,806,命中,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,849,闪避,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,892,暴击,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetSkillAllSxChengZhang,935,免暴,[System.Collections.Generic.List`1<System.String>]"
   splits:
   - split: 3
@@ -7993,20 +7845,12 @@
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,106,暴击,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,153,回血,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
@@ -8016,29 +7860,17 @@
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,270,命中,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,294,暴击,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsData,318,回血,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
@@ -8048,56 +7880,32 @@
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsNum,146,武力,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "武力"
-    translated: "Might"
-    qcReviewedText: "Might"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsNum,172,筋骨,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "筋骨"
-    translated: "Physique"
-    qcReviewedText: "Physique"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsNum,198,身法,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
-    qcReviewedText: "Agility"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsNum,224,内息,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "内息"
-    translated: "Inner Qi"
-    qcReviewedText: "Inner Qi"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetSkillZsNum,250,悟性,[System.String，RoleAttributeData，System.Int32]"
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
-    qcReviewedText: "Comprehension"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,SetAttributeBase,9,穴位的增加属性为空？,[AttributeBaseData，System.String]"
   splits:
   - split: 3
@@ -8117,11 +7925,7 @@
   splits:
   - split: 3
     text: "防御"
-    translated: "Defense"
-    qcReviewedText: "Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,420,有攻击力或者防御，为什么不分内外攻呢，物品id={0},[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8140,11 +7944,7 @@
   splits:
   - split: 3
     text: "防御"
-    translated: "Defense"
-    qcReviewedText: "Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,484,分内外攻，为什么没有有攻击力或者防御属性呢，物品id={0},[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8161,47 +7961,27 @@
   splits:
   - split: 3
     text: "武力"
-    translated: "Might"
-    qcReviewedText: "Might"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,713,筋骨,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "筋骨"
-    translated: "Physique"
-    qcReviewedText: "Physique"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,752,身法,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
-    qcReviewedText: "Agility"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,791,内息,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内息"
-    translated: "Inner Qi"
-    qcReviewedText: "Inner Qi"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,830,悟性,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
-    qcReviewedText: "Comprehension"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,869,攻击力,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8211,11 +7991,7 @@
   splits:
   - split: 3
     text: "防御"
-    translated: "Defense"
-    qcReviewedText: "Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1077,气血回复,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8225,38 +8001,22 @@
   splits:
   - split: 3
     text: "气血"
-    translated: "Lifeforce"
-    qcReviewedText: "Lifeforce"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1157,命中,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1197,闪避,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1237,暴击,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1277,免暴,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8271,119 +8031,67 @@
   splits:
   - split: 3
     text: "内劲增长"
-    translated: "Inner Force Gain"
-    qcReviewedText: "Inner Force Gain"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1397,速度,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "速度"
-    translated: "Speed"
-    qcReviewedText: "Speed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1437,吸血,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "吸血"
-    translated: "Lifesteal"
-    qcReviewedText: "Lifesteal"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1477,反伤,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "反伤"
-    translated: "Damage Reflection"
-    qcReviewedText: "Damage Reflection"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1517,外功攻击,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "外功攻击"
-    translated: "External Attack"
-    qcReviewedText: "External Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1554,外功防御,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "外功防御"
-    translated: "External Defense"
-    qcReviewedText: "External Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1591,内功攻击,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内功攻击"
-    translated: "Internal Attack"
-    qcReviewedText: "Internal Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1628,内功防御,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内功防御"
-    translated: "Internal Defense"
-    qcReviewedText: "Internal Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1759,武力,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "武力"
-    translated: "Might"
-    qcReviewedText: "Might"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1800,筋骨,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "筋骨"
-    translated: "Physique"
-    qcReviewedText: "Physique"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1841,身法,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
-    qcReviewedText: "Agility"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1882,内息,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内息"
-    translated: "Inner Qi"
-    qcReviewedText: "Inner Qi"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1923,悟性,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
-    qcReviewedText: "Comprehension"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,1964,气血回复,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8398,29 +8106,17 @@
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2093,闪避,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2136,暴击,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2179,免暴,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -8435,191 +8131,107 @@
   splits:
   - split: 3
     text: "内劲增长"
-    translated: "Inner Force Gain"
-    qcReviewedText: "Inner Force Gain"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2308,速度,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "速度"
-    translated: "Speed"
-    qcReviewedText: "Speed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2351,吸血,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "吸血"
-    translated: "Lifesteal"
-    qcReviewedText: "Lifesteal"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2394,反伤,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "反伤"
-    translated: "Damage Reflection"
-    qcReviewedText: "Damage Reflection"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2437,外功攻击,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "外功攻击"
-    translated: "External Attack"
-    qcReviewedText: "External Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2477,外功防御,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "外功防御"
-    translated: "External Defense"
-    qcReviewedText: "External Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2517,内功攻击,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内功攻击"
-    translated: "Internal Attack"
-    qcReviewedText: "Internal Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,GetEuipDAttributeBaseData,2557,内功防御,[GProject.MyEuipData，System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
     text: "内功防御"
-    translated: "Internal Defense"
-    qcReviewedText: "Internal Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,10,武力,[]"
   splits:
   - split: 3
     text: "武力"
-    translated: "Might"
-    qcReviewedText: "Might"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,18,筋骨,[]"
   splits:
   - split: 3
     text: "筋骨"
-    translated: "Physique"
-    qcReviewedText: "Physique"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,26,身法,[]"
   splits:
   - split: 3
     text: "身法"
-    translated: "Agility"
-    qcReviewedText: "Agility"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,34,内息,[]"
   splits:
   - split: 3
     text: "内息"
-    translated: "Inner Qi"
-    qcReviewedText: "Inner Qi"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,42,悟性,[]"
   splits:
   - split: 3
     text: "悟性"
-    translated: "Comprehension"
-    qcReviewedText: "Comprehension"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,50,攻击,[]"
   splits:
   - split: 3
     text: "攻击"
-    translated: "Attack"
-    qcReviewedText: "Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,58,气血恢复,[]"
   splits:
   - split: 3
     text: "气血恢复"
-    translated: "Lifeforce Recovery"
-    qcReviewedText: "Lifeforce Recovery"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,66,防御,[]"
   splits:
   - split: 3
     text: "防御"
-    translated: "Defense"
-    qcReviewedText: "Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,74,命中,[]"
   splits:
   - split: 3
     text: "命中"
-    translated: "Hit"
-    qcReviewedText: "Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,83,闪避,[]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,92,速度,[]"
   splits:
   - split: 3
     text: "速度"
-    translated: "Speed"
-    qcReviewedText: "Speed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,101,气血,[]"
   splits:
   - split: 3
     text: "气血"
-    translated: "Lifeforce"
-    qcReviewedText: "Lifeforce"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,110,内劲增长,[]"
   splits:
   - split: 3
     text: "内劲增长"
-    translated: "Inner Force Gain"
-    qcReviewedText: "Inner Force Gain"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,119,暴击伤害,[]"
   splits:
   - split: 3
@@ -8642,11 +8254,7 @@
   splits:
   - split: 3
     text: "暴击"
-    translated: "Critical Hit"
-    qcReviewedText: "Critical Hit"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,146,暴伤减免,[]"
   splits:
   - split: 3
@@ -8678,29 +8286,17 @@
   splits:
   - split: 3
     text: "体力上限"
-    translated: "Max Stamina"
-    qcReviewedText: "Max Stamina"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,182,吸血,[]"
   splits:
   - split: 3
     text: "吸血"
-    translated: "Lifesteal"
-    qcReviewedText: "Lifesteal"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,191,反伤,[]"
   splits:
   - split: 3
     text: "反伤"
-    translated: "Damage Reflection"
-    qcReviewedText: "Damage Reflection"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,200,免伤,[]"
   splits:
   - split: 3
@@ -8726,38 +8322,22 @@
   splits:
   - split: 3
     text: "外功攻击"
-    translated: "External Attack"
-    qcReviewedText: "External Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,227,内功攻击,[]"
   splits:
   - split: 3
     text: "内功攻击"
-    translated: "Internal Attack"
-    qcReviewedText: "Internal Attack"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,236,外功防御,[]"
   splits:
   - split: 3
     text: "外功防御"
-    translated: "External Defense"
-    qcReviewedText: "External Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIRoleAttributeDataManager,.ctor,245,内功防御,[]"
   splits:
   - split: 3
     text: "内功防御"
-    translated: "Internal Defense"
-    qcReviewedText: "Internal Defense"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager/<StartWorldTime>d__58,MoveNext,91,<color=#EDAC5C>世界时间驱动异常</color>. stackTrace:\\n,[]"
   splits:
   - split: 3
@@ -8777,38 +8357,22 @@
   splits:
   - split: 3
     text: "主动"
-    translated: "Initiative"
-    qcReviewedText: "Initiative"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,InitData,643,被动,[]"
   splits:
   - split: 3
     text: "被动"
-    translated: "Passive"
-    qcReviewedText: "Passive"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,GoWorldEvolution,341,主动,[]"
   splits:
   - split: 3
     text: "主动"
-    translated: "Initiative"
-    qcReviewedText: "Initiative"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,GoWorldEvolution,355,被动,[]"
   splits:
   - split: 3
     text: "被动"
-    translated: "Passive"
-    qcReviewedText: "Passive"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,SetNpcUpZb,135,腰带,[NPCData]"
   splits:
   - split: 3
@@ -8860,29 +8424,17 @@
   splits:
   - split: 3
     text: "主动"
-    translated: "Initiative"
-    qcReviewedText: "Initiative"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,SetSectData,958,主动,[System.Int32，System.Int32，System.Int32，System.Collections.Generic.List`1<System.Int32>，AllSectData]"
   splits:
   - split: 3
     text: "主动"
-    translated: "Initiative"
-    qcReviewedText: "Initiative"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,SetSectData,1187,主动,[System.Int32，System.Int32，System.Int32，System.Collections.Generic.List`1<System.Int32>，AllSectData]"
   splits:
   - split: 3
     text: "主动"
-    translated: "Initiative"
-    qcReviewedText: "Initiative"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,InitSjNpcFromTouch,324,touch npc:{0}同时存在剧情和开放世界!,[]"
   splits:
   - split: 3
@@ -8896,11 +8448,7 @@
   splits:
   - split: 3
     text: "主动"
-    translated: "Initiative"
-    qcReviewedText: "Initiative"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "WorldEvolutionManager,GetRandomNumberList,70,随机数量不对===beginNum:{0}，endNum:{1}，getCount:{2},[System.Int32，System.Int32，System.Int32]"
   splits:
   - split: 3
@@ -14887,20 +14435,12 @@
   splits:
   - split: 3
     text: "内功"
-    translated: "Neigong"
-    qcReviewedText: "Neigong"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,InitEffectState,286,轻功,[]"
   splits:
   - split: 3
     text: "轻功"
-    translated: "Qinggong"
-    qcReviewedText: "Qinggong"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,InitCurSanxue,55,闪避,[]"
   splits:
   - split: 3
@@ -15062,20 +14602,12 @@
   splits:
   - split: 3
     text: "内功"
-    translated: "Neigong"
-    qcReviewedText: "Neigong"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew2,GetWxHoldData,243,轻功,[PlayerData，System.Collections.Generic.Dictionary`2<System.Int32，GProject.Data.BattleWuxueToSkillData>]"
   splits:
   - split: 3
     text: "轻功"
-    translated: "Qinggong"
-    qcReviewedText: "Qinggong"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew2,ShowUnHoldWxTips,46,没有可用的武学进行切换,[]"
   splits:
   - split: 3
