@@ -14890,11 +14890,7 @@
   splits:
   - split: 3
     text: "鼠标左键"
-    translated: "Left Mouse"
-    qcReviewedText: "Left Mouse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,375,方向键上,[]"
   splits:
   - split: 3
@@ -14919,121 +14915,62 @@
   splits:
   - split: 3
     text: "左SHIFT"
-    translated: "Left Shift"
-    qcReviewedText: "Left Shift"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,505,右SHIFT,[]"
   splits:
   - split: 3
     text: "右SHIFT"
-    translated: "Right Shift"
-    qcReviewedText: "Right Shift"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,531,左CONTROL,[]"
   splits:
   - split: 3
     text: "左CONTROL"
-    translated: "Left Ctrl"
-    qcReviewedText: "Left Ctrl"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,557,右CONTROL,[]"
   splits:
   - split: 3
     text: "右CONTROL"
-    translated: "Right Ctrl"
-    qcReviewedText: "Right Ctrl"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,583,鼠标右键,[]"
   splits:
   - split: 3
     text: "鼠标右键"
-    translated: "Right Mouse"
-    qcReviewedText: "Right Mouse"
-    qcTranslated: "Right-click"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,609,鼠标侧下,[]"
   splits:
   - split: 3
     text: "鼠标侧下"
-    translated: "Mouse Button 4"
-    qcReviewedText: "Mouse Button 4"
-    qcTranslated: "Mouse Side Button"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,635,鼠标侧上,[]"
   splits:
   - split: 3
     text: "鼠标侧上"
-    translated: "Mouse Button 5"
-    qcReviewedText: "Mouse Button 5"
-    qcTranslated: "Mouse Side Button"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,661,空格,[]"
   splits:
   - split: 3
     text: "空格"
-    translated: "Space"
-    qcReviewedText: "Space"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,687,左ALT,[]"
   splits:
   - split: 3
     text: "左ALT"
-    translated: "Left Alt"
-    qcReviewedText: "Left Alt"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,713,右ALT,[]"
   splits:
   - split: 3
     text: "右ALT"
-    translated: "Right Alt"
-    qcReviewedText: "Right Alt"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,739,鼠标中键,[]"
   splits:
   - split: 3
     text: "鼠标中键"
-    translated: "Middle Mouse"
-    qcReviewedText: "Middle Mouse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,1013,空格,[]"
   splits:
   - split: 3
     text: "空格"
-    translated: "Space"
-    qcReviewedText: "Space"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew/<>c__DisplayClass75_1/<<InitKeyList>b__1>d,MoveNext,1661,键值重复是否继续？,[]"
   splits:
   - split: 3
@@ -15065,121 +15002,62 @@
   splits:
   - split: 3
     text: "鼠标左键"
-    translated: "Left Mouse"
-    qcReviewedText: "Left Mouse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,202,鼠标右键,[]"
   splits:
   - split: 3
     text: "鼠标右键"
-    translated: "Right Mouse"
-    qcReviewedText: "Right Mouse"
-    qcTranslated: "Right-click"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,231,鼠标中键,[]"
   splits:
   - split: 3
     text: "鼠标中键"
-    translated: "Middle Mouse"
-    qcReviewedText: "Middle Mouse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,257,空格,[]"
   splits:
   - split: 3
     text: "空格"
-    translated: "Space"
-    qcReviewedText: "Space"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,398,左SHIFT,[]"
   splits:
   - split: 3
     text: "左SHIFT"
-    translated: "Left Shift"
-    qcReviewedText: "Left Shift"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,427,右SHIFT,[]"
   splits:
   - split: 3
     text: "右SHIFT"
-    translated: "Right Shift"
-    qcReviewedText: "Right Shift"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,456,左ALT,[]"
   splits:
   - split: 3
     text: "左ALT"
-    translated: "Left Alt"
-    qcReviewedText: "Left Alt"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,485,右ALT,[]"
   splits:
   - split: 3
     text: "右ALT"
-    translated: "Right Alt"
-    qcReviewedText: "Right Alt"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,514,左CONTROL,[]"
   splits:
   - split: 3
     text: "左CONTROL"
-    translated: "Left Ctrl"
-    qcReviewedText: "Left Ctrl"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,543,右CONTROL,[]"
   splits:
   - split: 3
     text: "右CONTROL"
-    translated: "Right Ctrl"
-    qcReviewedText: "Right Ctrl"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,572,鼠标侧下,[]"
   splits:
   - split: 3
     text: "鼠标侧下"
-    translated: "Mouse Button 4"
-    qcReviewedText: "Mouse Button 4"
-    qcTranslated: "Mouse Side Button"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    safeToTranslate: false
 - raw: "UISettingsNew,Update,601,鼠标侧上,[]"
   splits:
   - split: 3
     text: "鼠标侧上"
-    translated: "Mouse Button 5"
-    qcReviewedText: "Mouse Button 5"
-    qcTranslated: "Mouse Side Button"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    safeToTranslate: false
 - raw: "UISettingsNew,<InitKeyPanel>b__66_0,24,保存成功！,[]"
   splits:
   - split: 3
