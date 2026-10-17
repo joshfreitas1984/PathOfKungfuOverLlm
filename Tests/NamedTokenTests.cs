@@ -33,6 +33,18 @@ public class NamedTokenTests
     public void PutTitleBeforeName(string raw, string result, string expected) =>
         Assert.Equal(expected, GameFileHandling.PutTitleBeforeName(raw, result));
 
+    [Theory(DisplayName = "Packaging spaces colour tags from adjacent words")]
+    [InlineData("captured by<color=#E64D00>///a///</color>, whose", "captured by <color=#E64D00>///a///</color>, whose")]
+    [InlineData("<color=#E64D00>///a///</color>While passing", "<color=#E64D00>///a///</color> While passing")]
+    [InlineData("Master<color=#E64D00>///a///</color>Wants", "Master <color=#E64D00>///a///</color> Wants")]
+    [InlineData("of <color=#E64D00>///p///</color>'s", "of <color=#E64D00>///p///</color>'s")]
+    [InlineData("Confirm the cost<color=green>{0}</color>", "Confirm the cost <color=green>{0}</color>")]
+    [InlineData("</color>once learned", "</color> once learned")]
+    [InlineData("<color=red>Sword</color>s and more", "<color=red>Sword</color>s and more")]
+    [InlineData("a\\n<color=green>HP", "a\\n<color=green>HP")]
+    public void SpaceColorTags(string result, string expected) =>
+        Assert.Equal(expected, GameFileHandling.SpaceColorTags(result));
+
     [Fact(DisplayName = "Every title alternative is slotted and restores to its glossary result")]
     public void TitleAlternatives_RoundTripThroughGlossary()
     {

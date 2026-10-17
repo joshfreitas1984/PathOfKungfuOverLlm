@@ -1,4 +1,6 @@
 using HarmonyLib;
+using System.Collections.Generic;
+using System.Reflection.Emit;
 
 namespace PathOfKungfuPlugin;
 
@@ -25,4 +27,33 @@ internal static class GameEnglishPlaceNamesPatch
 internal static class WordSpecialPatch
 {
     private static bool Prefix() => GameEnglishPlaceNamesPatch.UseGameEnglish;
+}
+
+/// <summary>
+/// WordRelationSpecial does the same for the relationship labels ("配偶" -> "Other hand", "同怀" -> "Classmate", "金兰" -> "Brother"). The packaged
+/// prefab text already translates all five ("Spouse", "Siblings", "Sworn Bond"), so skip it.
+/// </summary>
+[HarmonyPatch(typeof(WordRelationSpecial), nameof(WordRelationSpecial.Update))]
+internal static class WordRelationSpecialPatch
+{
+    private static bool Prefix() => GameEnglishPlaceNamesPatch.UseGameEnglish;
+}
+
+/// <summary>
+/// Each skill row (UIWuZsXIem.SetUiData) sets its "UnLearned" label to a hardcoded "UnLearn" in English mode. Swap the literal for the packaged
+/// translation of 未习得.
+/// </summary>
+[HarmonyPatch(typeof(UIWuZsXIem), nameof(UIWuZsXIem.SetUiData))]
+internal static class SkillRowUnlearnedPatch
+{
+    private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+    {
+        foreach (var code in instructions)
+        {
+            if (code.opcode == OpCodes.Ldstr && code.operand as string == "UnLearn")
+                code.operand = "Not learned yet";
+
+            yield return code;
+        }
+    }
 }

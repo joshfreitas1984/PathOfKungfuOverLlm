@@ -48,7 +48,11 @@ public class Plugin : BaseUnityPlugin
             typeof(NamePoolPatch), typeof(RandomNameSpacePatch), typeof(NameXTrimPatch), typeof(NameSetterSpacePatch),
             typeof(OriginNameSpacePatch), typeof(SavedNameMigration), typeof(JobNpcNamePatch),
             typeof(AllowLatinNamePatch), typeof(NameFieldLengthPatch), typeof(RandomChildNamePatch), typeof(SameNameCheckPatch),
-            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh), typeof(AttributeNamePatch), typeof(LifeSkillTipPatch), typeof(SkillTipBonusAttributePatch), typeof(WuXueBonusAttributePatch),typeof(RealmAttributeBracketPatch), typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch), typeof(EquipSlotLabelPatch), typeof(WuXueWeaponTypePatch), typeof(WuXueGeneralTechniquePatch), typeof(WuXueBasicTechniquePatch), typeof(WuXueRightListPatch), typeof(WuXueSaveDiagnosticPatch), typeof(ShowGetItemDiagnosticPatch), typeof(CorpseNamePatch),
+            typeof(ConvertTextEnglishBranchPatch), typeof(StoryNpcNameRefresh), typeof(AttributeNamePatch), typeof(LifeSkillTipPatch), typeof(SkillTipBonusAttributePatch), typeof(WuXueBonusAttributePatch),typeof(RealmAttributeBracketPatch),
+            typeof(TipContentAttributePatch), typeof(GameEnglishAttributeReplaceRemover), typeof(AcupointTipReplaceStrPatch), typeof(ItemUseTitlePatch),
+            typeof(CommonTipsAttributePatch), typeof(QiZiItemAttributePatch), typeof(AcupointChongHoleViewAttributePatch), typeof(MusclesOrVeinsViewAttributePatch),
+            typeof(ChongHoleFinishAttributePatch), typeof(JingLuoMinGameAttributePatch),
+ typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch), typeof(WordRelationSpecialPatch), typeof(SkillRowUnlearnedPatch),typeof(EquipSlotLabelPatch), typeof(WuXueWeaponTypePatch), typeof(WuXueGeneralTechniquePatch), typeof(WuXueBasicTechniquePatch), typeof(WuXueRightListPatch), typeof(WuXueSaveDiagnosticPatch), typeof(ShowGetItemDiagnosticPatch), typeof(CorpseNamePatch),
         })
             harmony.CreateClassProcessor(patch).Patch();
 

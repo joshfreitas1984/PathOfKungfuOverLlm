@@ -29,6 +29,9 @@ internal static class AttributeNames
         ("外功防御力", "External Defense"), ("内功防御力", "Internal Defense"), ("攻击", "Attack"), ("防御", "Defense"),
         ("体力上限", "Max Stamina"), ("体力回复", "Stamina Recovery"), ("暴击率", "Crit Rate"), ("暴击伤害", "Crit Damage"), ("暴击减免", "Crit Reduction"),
         ("速度", "Speed"), ("移动速度", "Movement Speed"), ("攻击速度", "Attack Speed"),
+        ("体力", "Stamina"), ("内劲", "Inner Force"), ("气血值", "Lifeforce"), ("初始真气", "Initial True Qi"), ("战斗初始真气", "Initial True Qi"),
+        ("暴防", "Crit Immunity"), ("暴伤减免", "Crit Reduction"), ("免伤", "Damage Immunity"), ("破防", "Defense Break"), ("增伤", "Damage Boost"),
+        ("外功伤害", "External Damage"), ("内功伤害", "Internal Damage"), ("连击数", "Combo Count"),
     }.OrderByDescending(n => n.Item1.Length).ToArray();
 
     internal static bool IsAttributeName(string chinese) => Names.Any(n => n.Chinese == chinese);

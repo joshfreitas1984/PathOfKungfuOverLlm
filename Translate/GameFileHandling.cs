@@ -45,8 +45,18 @@ public static class GameFileHandling
         UnknownGenderPersonTokens = ["<fName>", "<lName>", "<name>", "///fp///", "///lp///", "///p///"],
         CustomColumnValidator = ValidateRuntimeTokens,
         CustomUnsafeToTranslateRule = DynamicStringRules.IsUnsafe,
-        CustomPackagingFixup = (_, _, raw, result) => PutTitleBeforeName(raw, result),
+        CustomPackagingFixup = (_, _, raw, result) => SpaceColorTags(PutTitleBeforeName(raw, result)),
     };
+
+    // The source writes colour tags tight against Chinese ("交给<color=#E64D00>p</color>然后"), which needs no spaces; English does, or
+    // "to<color=#E64D00>///p///</color>" reads "toFang" in-game. A letter right after a backslash is the end of a literal "\n", and
+    // a lone "s" after a closing tag is a plural or possessive ("<color=red>Sword</color>s"), so neither is spaced.
+    private static readonly Regex ColorOpenAfterWord = new(@"(?<!\\)([A-Za-z0-9])(<color=[^>]*>)", RegexOptions.Compiled);
+    private static readonly Regex ColorCloseBeforeWord = new(@"(</color>)(?!s(?![A-Za-z]))([A-Za-z0-9])", RegexOptions.Compiled);
+
+    /// <summary>Puts a space between a colour tag and an adjacent Latin letter or digit (a word before an opening tag, a word after a closing one).</summary>
+    public static string SpaceColorTags(string result) =>
+        ColorCloseBeforeWord.Replace(ColorOpenAfterWord.Replace(result, "$1 $2"), "$1 $2");
 
     // Chinese puts the title after the name (<fName><少侠||姑娘>, fp[大哥||姐姐]); English puts it first. The model is told to, but
     // often keeps the source order, which reads "Fang Big Brother" once the game fills the name in.

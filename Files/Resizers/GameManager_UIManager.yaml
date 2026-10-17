@@ -41,6 +41,9 @@
   alignment: MiddleCenter
   allowWordWrap: true
 - path: GameManager/UIManager/UIRoot/UIWorldTime/PushParent/Push/img_bg/Image*/Txt
-  sampleText: <color=#E64D00>Zha Lingfeng</color> purchased <color=#B0820…
-  idealFontSize: 14
+  sampleText: <color=#E64D00>Weng Xiayan</color>Moved by night, stealing …
+  idealFontSize: 13
+  allowWordWrap: true
   allowAutoSizing: false
+  adjustY: 2
+  adjustHeight: 7
