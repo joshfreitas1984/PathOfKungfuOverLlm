@@ -23,6 +23,9 @@ internal static class AttributeNames
         ("移动", "Movement"), ("吸血", "Lifesteal"), ("反伤", "Damage Reflection"),
         ("外功攻击力", "External Attack Power"), ("内功攻击力", "Internal Attack Power"), ("外功攻击", "External Attack"), ("外功防御", "External Defense"),
         ("内功攻击", "Internal Attack"), ("内功防御", "Internal Defense"), ("攻击力", "Attack Power"), ("防御力", "Defense"),
+        ("外功防御力", "External Defense"), ("内功防御力", "Internal Defense"), ("攻击", "Attack"), ("防御", "Defense"),
+        ("体力上限", "Max Stamina"), ("体力回复", "Stamina Recovery"), ("暴击率", "Crit Rate"), ("暴击伤害", "Crit Damage"), ("暴击减免", "Crit Reduction"),
+        ("速度", "Speed"), ("移动速度", "Movement Speed"), ("攻击速度", "Attack Speed"),
     }.OrderByDescending(n => n.Item1.Length).ToArray();
 
     internal static string Translate(string text)
@@ -61,6 +64,34 @@ internal static class LifeSkillTipPatch
         if (___Tip1 == null || string.IsNullOrEmpty(___Tip1.text)) return;
 
         ___Tip1.text = AttributeNames.Translate(___Tip1.text);
+    }
+}
+
+/// <summary>
+/// The skill tooltip appends the raw SkillGrowData.effect ("气血上限+2419") to its "Bonus Attribute: " label in English mode, without translating it.
+/// </summary>
+[HarmonyPatch(typeof(TipShowWinSkill), "UpdateInfo")]
+internal static class SkillTipBonusAttributePatch
+{
+    private static void Postfix(Text ___txt_AddAttr)
+    {
+        if (___txt_AddAttr == null || string.IsNullOrEmpty(___txt_AddAttr.text)) return;
+
+        ___txt_AddAttr.text = AttributeNames.Translate(___txt_AddAttr.text);
+    }
+}
+
+/// <summary>
+/// The martial arts screen writes the cultivation bonus ("气血上限+1680") into txt_wxJiacheng from the raw SkillGrowData.effect, untranslated.
+/// </summary>
+[HarmonyPatch(typeof(UIWuXueNew), "RefreshWxXiuwei")]
+internal static class WuXueBonusAttributePatch
+{
+    private static void Postfix(Text ___txt_wxJiacheng)
+    {
+        if (___txt_wxJiacheng == null || string.IsNullOrEmpty(___txt_wxJiacheng.text)) return;
+
+        ___txt_wxJiacheng.text = AttributeNames.Translate(___txt_wxJiacheng.text);
     }
 }
 
