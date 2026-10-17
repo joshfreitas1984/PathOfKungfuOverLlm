@@ -9510,29 +9510,17 @@
   splits:
   - split: 3
     text: "尸首"
-    translated: "Corpse"
-    qcReviewedText: "Corpse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "StringTool,IsContainsShiTi,15,尸体,[System.String]"
   splits:
   - split: 3
     text: "尸体"
-    translated: "Corpse"
-    qcReviewedText: "Corpse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "StringTool,IsContainsShiTi,43,屍首,[System.String]"
   splits:
   - split: 3
     text: "屍首"
-    translated: "Corpse"
-    qcReviewedText: "Corpse"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "TimeTool,GetLocalTime,42,{0:D4}年{1:D2}月{2:D2}日,[]"
   splits:
   - split: 3

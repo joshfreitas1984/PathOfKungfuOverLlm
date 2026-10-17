@@ -82,8 +82,10 @@ against how the decompiled code uses it. Three kinds were missed by the first sc
   `Files/Mod/translated-columns.json`: it is only safe when the column is translated with the same wording (`item__秘籍` column 3 is, so
   `InitPlayData`'s `内功`/`轻功` stay translated).
 
-Known unresolved: `StringTool.IsContainsShiTi` looks for `尸体`/`尸首`/`屍首` in NPC names, which are translated ("Dead Body of the Escort"), so
-neither the Chinese nor the English literal matches. It needs the corpse wording aligned between the glossary and the literal.
+`StringTool.IsContainsShiTi` looks for `尸体`/`尸首`/`屍首` (and the game's own English typo `corse`) in Touch and NPC names to mark a dead NPC.
+Touch names are translated ("Mao Mao (corpse)"), so neither the Chinese words nor `corse` matched, and dead NPCs lost their grey name and could be
+talked to or recruited. The three Chinese literals are `Key` rows, and [`CorpseNamePatch.cs`](../../PathOfKungfuPlugin/CorpseNamePatch.cs) (a
+postfix on the method) also accepts `corpse` / `dead body` in any case.
 
 Setting a row in the CSV does not clear an already-translated split; clear the split in `Files/Converted/dynamicStrings.txt.yaml` (set
 `safeToTranslate: false` and drop the translation and QC fields) and repackage.
