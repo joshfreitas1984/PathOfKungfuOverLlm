@@ -83,7 +83,7 @@ public static class TextFileConfiguration
             new() { Path = "JingLuo__acupoint.csv", SkipColumns = TranslateOnly(21, 2, 3) },
             new() { Path = "JingLuo__auxiliary.csv", SkipColumns = TranslateOnly(9, 2) },
             new() { Path = "JingLuo__collaterals.csv", SkipColumns = TranslateOnly(14, 3, 9, 10) },
-            new() { Path = "WorldEvolution__attribute.csv", SkipColumns = TranslateOnly(32, 3) },
+            new() { Path = "WorldEvolution__attribute.csv", SkipColumns = TranslateOnly(32, 3, 6, 24) },
             new() { Path = "WorldEvolution__characteristic.csv", SkipColumns = TranslateOnly(31, 3, 4) },
             new() { Path = "WorldEvolution__like.csv", SkipColumns = TranslateOnly(4, 2) },
             new() { Path = "WorldEvolution__tips.csv", SkipColumns = TranslateOnly(5, 2, 3) },

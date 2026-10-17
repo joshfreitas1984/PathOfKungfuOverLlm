@@ -162,7 +162,7 @@
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
     translated: "Moved by night, stealing items within the village"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200> i*1</color>, Drawing the ill will of the villagers"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200>{randomItem}*1</color>, Drawing the ill will of the villagers"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -172,16 +172,18 @@
     translated: ", Drawing the ill will of the villagers"
   templates:
   - split: 18
-    template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>i*1</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{randomItem}*1</color>{1}"
     tokens:
       npcName:
         source: "a"
+      randomItem:
+        source: "i"
 - raw: "12,573,\"lichang,energy\",\"<,>\",\"30,19\",100,0,12000_12014,\"9,3\",,,,\"lichang,evil,SetSP(),GetRandomItem()\",\"5-,3-,20-,2;2\",12000,\"16,7;23,10;24,9;27,13;31,5;30,5;29,6;28,7;26,7;26,9;23,10;17,14;16,14;16,17;18,20;17,20;15,10;15,8;16,6;17,9;17,11\",0,,<color=#E64D00>a</color>趁夜而动，于村内盗取了物品<color=#B08200>i*2</color>，引得村中诸人的恶感。,daditu/10001,touqie,,20,100,3,1,1,3,,"
   splits:
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
     translated: "Moved by night, stealing items within the village"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200> i*2</color>, Drawing the ill will of the villagers"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200>{randomItem}*2</color>, Drawing the ill will of the villagers"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -191,16 +193,18 @@
     translated: ", Drawing the ill will of the villagers"
   templates:
   - split: 18
-    template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>i*2</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{randomItem}*2</color>{1}"
     tokens:
       npcName:
         source: "a"
+      randomItem:
+        source: "i"
 - raw: "13,574,\"lichang,energy\",\"<,>\",\"30,19\",100,0,12000_12014,\"9,3\",,,,\"lichang,evil,SetSP(),GetRandomItem()\",\"5-,3-,20-,3;2\",12000,\"16,7;23,10;24,9;27,13;31,5;30,5;29,6;28,7;26,7;26,9;23,10;17,14;16,14;16,17;18,20;17,20;15,10;15,8;16,6;17,9;17,11\",0,,<color=#E64D00>a</color>趁夜而动，于村内盗取了物品<color=#B08200>i*2</color>，引得村中诸人的恶感。,daditu/10001,touqie,,20,100,3,1,1,3,,"
   splits:
   - split: 18
     text: "趁夜而动，于村内盗取了物品"
     translated: "Moved by night, stealing items within the village"
-    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200> i*2</color>, Drawing the ill will of the villagers"
+    qcReviewedText: "<color=#E64D00>{npcName}</color>Moved by night, stealing items within the village<color=#B08200>{randomItem}*2</color>, Drawing the ill will of the villagers"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -210,10 +214,12 @@
     translated: ", Drawing the ill will of the villagers"
   templates:
   - split: 18
-    template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>i*2</color>{1}"
+    template: "<color=#E64D00>{npcName}</color>{0}<color=#B08200>{randomItem}*2</color>{1}"
     tokens:
       npcName:
         source: "a"
+      randomItem:
+        source: "i"
 - raw: "14,575,\"lichang,lichang,evil,energy\",\">,<,<,>\",\"15,45,-14,19\",100,0,12000_12014,\"9,3\",,,,\"SetSP(),evil\",\"15-,1-\",12000,\"28,11;28,13;27,14\",0,,入夜时分，<color=#E64D00>a</color>偷偷潜入了某人的房内，一夜未离……,,zuoe,,240,250,3,1,1,3,,"
   splits:
   - split: 18

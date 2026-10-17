@@ -25,6 +25,14 @@ public class NamedTokenTests
 
     private static string Restore(string slotted, Dictionary<string, TokenValue> tokens) => StringTokenReplacer.Slotter.Restore(slotted, tokens).Text;
 
+    [Theory(DisplayName = "Packaging puts a title before the name it followed in the source")]
+    [InlineData("<fName><少侠||姑娘>，你好", "Hello, <fName> <Big Brother||Big Sister>.", "Hello, <Big Brother||Big Sister> <fName>.")]
+    [InlineData("fp[大哥||姐姐]来了", "///fp///<Big Brother||Big Sister> is here", "<Big Brother||Big Sister> ///fp/// is here")]
+    [InlineData("<fName>说<少侠||姑娘>好", "<fName> told <Big Brother||Big Sister>", "<fName> told <Big Brother||Big Sister>")]
+    [InlineData("<fName><少侠||姑娘>", "<fName> <he||she> came", "<fName> <he||she> came")]
+    public void PutTitleBeforeName(string raw, string result, string expected) =>
+        Assert.Equal(expected, GameFileHandling.PutTitleBeforeName(raw, result));
+
     [Fact(DisplayName = "Every title alternative is slotted and restores to its glossary result")]
     public void TitleAlternatives_RoundTripThroughGlossary()
     {
@@ -76,6 +84,7 @@ public class NamedTokenTests
     [InlineData("lp，你我既是知己好友！", "{playerLastName},你我既是知己好友!", "///lp///, we are friends!")]
     [InlineData("<color=#B08200>i1</color>而不<color=#B08200>i2</color>", "<color=0>{randomItemOne}</color>而不<color=1>{randomItemTwo}</color>", "<color=#B08200>///i1///</color> not <color=#B08200>///i2///</color>")]
     [InlineData("得到《i》", "得到《{randomItem}》", "Got ///i///")]
+    [InlineData("盗取了物品<color=#B08200>i*2</color>，", "盗取了物品<color=0>{randomItem}*{0}</color>,", "Stole <color=#B08200>///i///*2</color>,")]
     public void NpcTokens_RoundTrip(string raw, string expectedMasked, string modelOutput)
     {
         var replacer = new StringTokenReplacer();

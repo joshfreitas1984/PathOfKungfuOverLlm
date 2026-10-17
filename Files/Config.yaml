@@ -139,35 +139,35 @@ namedTokenReplacers:
     name: cooldownRemaining
     restoreAs: "///gangJoinCDRemain///"
     description: a number of days, filled in by the game. Copy it exactly as written.
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)fp(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)fp(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: playerFirstName
     restoreAs: "///fp///"
     description: "the player's first name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)lp(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)lp(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: playerLastName
     restoreAs: "///lp///"
     description: "the player's family name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)p(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)p(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: playerName
     restoreAs: "///p///"
     description: "the player's full name. The player's gender is unknown: never write he/she/him/her for them. Copy it exactly as written."
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)a(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)a(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: npcName
     restoreAs: "///a///"
     description: the name of the character in this scene, filled in by the game. Copy it exactly as written.
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)b(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)b(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: otherNpcName
     restoreAs: "///b///"
     description: the name of a second character in this scene, filled in by the game. Copy it exactly as written.
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i1(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i1(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: randomItemOne
     restoreAs: "///i1///"
     description: the name of an item, filled in by the game. Copy it exactly as written.
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i2(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i2(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: randomItemTwo
     restoreAs: "///i2///"
     description: the name of a second item, filled in by the game. Copy it exactly as written.
-  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)'
+  - pattern: '(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)i(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)'
     name: randomItem
     restoreAs: "///i///"
     description: the name of an item, filled in by the game. Copy it exactly as written.

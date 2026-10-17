@@ -45,4 +45,22 @@ public class GameEnglishContractTests
 
         Assert.Empty(stale);
     }
+
+    [Fact(DisplayName = "A literal that starts with the </color> closing a tag from the previous fragment keeps it in the translation")]
+    public void RestoresLeadingColorClose()
+    {
+        var contracts = new List<DynamicStringContract>
+        {
+            Contract("UIMain", "A", "</color><color=red>等级</color>", "<color=red>Level</color>"),
+            Contract("UIMain", "B", "</color>学会", "</color>learn"),
+            Contract("UIMain", "C", "<color=green>外功攻击+", "<color=green>External Attack+"),
+        };
+
+        var fixedCount = TranslationPackaging.RestoreColorCloseTags(contracts);
+
+        Assert.Equal(1, fixedCount);
+        Assert.Equal("</color><color=red>Level</color>", contracts[0].Translation);
+        Assert.Equal("</color>learn", contracts[1].Translation);
+        Assert.Equal("<color=green>External Attack+", contracts[2].Translation);
+    }
 }

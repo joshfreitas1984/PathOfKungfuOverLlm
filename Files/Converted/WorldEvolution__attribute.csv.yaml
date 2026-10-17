@@ -7,6 +7,20 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "境界描述"
+    translated: "Realm Description"
+    qcReviewedText: "Realm Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "境界突破经络描述"
+    translated: "Realm Breakthrough Meridian Description"
+    qcReviewedText: "Realm Breakthrough Meridian Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,index,id,name,name2,open,tip,tip2,energy,attribute,battlePower,items,goldCoinMin,PartnerWage,goldCoinMax,GiftAddLove,GiftAddLoveFromAttr,gj,fy,yd,qx,name2,mz,sb,getTip,getTip2,getItem,getPtTask,breakTask,getCjTask,getAttribute,getLeveExp"
 - raw: "3,1,0,初出茅庐,Rookie,10,0,0,100,,0,,0,0,100,0_0_1_2_3_4_5,0,0,0,0,0,Novice,0,0,0,0,0,0,0,,0,0"
   splits:
@@ -26,6 +40,30 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "筋骨虽已有所提升，但对武学的运作原理却一窍不通，打斗也同市井匹夫一样徒有蛮力，毫无章法。"
+    translated: "Though your Physique has improved, you know nothing of the principles underlying Martial Arts. In combat, you rely on brute force like a common thug, with no technique or form whatsoever."
+    qcReviewedText: "Though your Physique has improved, you know nothing of the principles underlying Martial Arts. In combat, you rely on brute force like a common thug, with no technique or form whatsoever."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "手太阴经打通"
+    translated: "Hand Taiyin Meridian Unblocked"
+    qcReviewedText: "Hand Taiyin Meridian Unblocked;Hand Yangming Meridian unblocked"
+    qcTranslated: "Hand Taiyin Meridian Unblocked;Hand Yangming Meridian Unblocked"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 24
+    subIndex: 1
+    text: "手阳明经打通"
+    translated: "Hand Yangming Meridian unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "5,3,2,略有小成,Adept,10,习武修学之际，已能隐隐体会到内劲所存，对于武学套路虽不精熟，但已得武学之形。,Level2 guys,110,5,2,,200,10,500,0_0_1_2_3_5_10,0,120,78,0,1000,Minor mastery,0,0,足阳明经打通;足太阴经打通,Stomach Meridian Unblocked; Spleen Meridian Unblocked,103;104,130002901,130002901,90003,5,217"
   splits:
   - split: 3
@@ -35,6 +73,27 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "习武修学之际，已能隐隐体会到内劲所存，对于武学套路虽不精熟，但已得武学之形。"
+    translated: "While practicing martial arts and studying the Way, one can already faintly perceive the presence of Inner Force. Though not yet proficient in the forms, one has grasped the shape of the Martial Art."
+    qcReviewedText: "While practicing martial arts and studying the Way, one can already faintly perceive the presence of Inner Force. Though not yet proficient in the forms, one has grasped the shape of the Martial Art."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "足阳明经打通"
+    translated: "Foot Yangming Meridian Unblocked"
+    qcReviewedText: "Foot Yangming Meridian Unblocked;Foot Taiyin Meridian Unblocked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    subIndex: 1
+    text: "足太阴经打通"
+    translated: "Foot Taiyin Meridian Unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "6,4,3,心领神会,Comprehension,10,可以轻易的施展整套的武学，对各家精意亦有所了解，内劲的运用得到进一步的提升，筋骨身形皆有所变化。,Level3 guys,120,10,3,,200,15,500,0_0_1_2_3_5_10,1,180,117,0,1800,Insight,0,0,手少阴经打通;手太阳经打通,Heart Meridian Unblocked; Small Intestine Meridian Unblocked,105;106,11000004,11000004,90004,5,295"
   splits:
   - split: 3
@@ -44,6 +103,30 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "可以轻易的施展整套的武学，对各家精意亦有所了解，内劲的运用得到进一步的提升，筋骨身形皆有所变化。"
+    translated: "One can effortlessly execute a complete Martial Art system, possesses a solid understanding of the essence of various schools, has further advanced in the application of Inner Force, and has undergone changes in Physique and body form."
+    qcReviewedText: "One can effortlessly execute a complete Martial Art system, possesses a solid understanding of the essence of various schools, has further advanced in the application of Inner Force, and has undergone changes in Physique and body form."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "手少阴经打通"
+    translated: "Hand Shaoyin Meridian Unblocked"
+    qcReviewedText: "Hand Shaoyin Meridian Unblocked;Hand Taiyang Meridian unblocked"
+    qcTranslated: "Hand Shaoyin Meridian Unblocked;Hand Taiyang Meridian Unblocked"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 24
+    subIndex: 1
+    text: "手太阳经打通"
+    translated: "Hand Taiyang Meridian unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "7,5,4,出类拔萃,Exceptional,10,已然能熟练的将内劲与套路结合在一起，让外力与内气充分的融汇。,Level4 guys,130,15,5,,500,25,1000,0_0_0_1_2_3_10,1,300,195,0,3000,Elite,0,0,足厥阴经打通;足少阳经打通,Liver Meridian Unblocked; Gallbladder Meridian Unblocked,107;108,160002301,160002301,90005,5,595"
   splits:
   - split: 3
@@ -53,6 +136,27 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "已然能熟练的将内劲与套路结合在一起，让外力与内气充分的融汇。"
+    translated: "He has already become proficient in combining Inner Force with forms, allowing external force and internal qi to fully merge."
+    qcReviewedText: "He has already become proficient in combining Inner Force with forms, allowing external force and internal qi to fully merge."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "足厥阴经打通"
+    translated: "Foot Jueyin Meridian unblocked"
+    qcReviewedText: "Foot Jueyin Meridian unblocked;Foot Shaoyang Meridian unblocked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    subIndex: 1
+    text: "足少阳经打通"
+    translated: "Foot Shaoyang Meridian unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "8,6,5,登堂入室,Proficiency,10,已然修习与观见诸多的武学招式，可以自由运转体内劲力真气之流转，经脉洞开，已可算江湖砥柱之高手。,Level5 guys,140,20,8,,1000,35,3000,0_0_0_1_2_3_10,1,480,312,0,4800,Proficiency,0,0,手少阳经打通;手厥阴经打通,Triple Burner Meridian Unblocked; Pericardium Meridian Unblocked,109;110,180001202,180001202,90006,5,638"
   splits:
   - split: 3
@@ -62,6 +166,27 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "已然修习与观见诸多的武学招式，可以自由运转体内劲力真气之流转，经脉洞开，已可算江湖砥柱之高手。"
+    translated: "Having mastered numerous martial arts moves and techniques, one can freely circulate inner force and True Qi within the body. With meridians fully opened, one may be considered a pillar of the Jianghu."
+    qcReviewedText: "Having mastered numerous martial arts moves and techniques, one can freely circulate inner force and True Qi within the body. With meridians fully opened, one may be considered a pillar of the Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "手少阳经打通"
+    translated: "Hand Shaoyang Meridian unblocked"
+    qcReviewedText: "Hand Shaoyang Meridian unblocked;Hand Jueyin Meridian unblocked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    subIndex: 1
+    text: "手厥阴经打通"
+    translated: "Hand Jueyin Meridian unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "9,7,6,融会贯通,Integration,10,寻常武人至此已然止步，此境已然不重定式伤敌，反以无招之招，无术之术，融会贯通以克敌机。,Level6 guys,150,25,13,,1000,50,3000,0_0_0_1_2_3_10,2,780,507,0,7800,Mastery,0,0,足少阴经打通;足太阳经打通,Kidney Meridian Unblocked; Bladder Meridian Unblocked,111;112,200001018,200001018,90007,5,809"
   splits:
   - split: 3
@@ -71,6 +196,30 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "寻常武人至此已然止步，此境已然不重定式伤敌，反以无招之招，无术之术，融会贯通以克敌机。"
+    translated: "An ordinary martial artist would stop here. In this realm, one no longer relies on fixed forms to harm the enemy, but instead employs moves without form and techniques without technique, achieving Mastery to counter the enemy's strategies."
+    qcReviewedText: "An ordinary martial artist would stop here. In this realm, one no longer relies on fixed forms to harm the enemy, but instead employs moves without form and techniques without technique, achieving Mastery to counter the enemy's strategies."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "足少阴经打通"
+    translated: "Foot Shaoyin Meridian Unblocked"
+    qcReviewedText: "Foot Shaoyin Meridian Unblocked;Foot Taiyang Meridian unblocked"
+    qcTranslated: "Foot Shaoyin Meridian Unblocked;Foot Taiyang Meridian Unblocked"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 24
+    subIndex: 1
+    text: "足太阳经打通"
+    translated: "Foot Taiyang Meridian unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "10,8,7,炉火纯青,Mastery,10,天下武学之深奥广博，终之毕生亦难尽参，庸庸俗世，能炉火纯青者，又有几人？此境实为武林一流高手之境地。,Level7 guys,160,30,21,,3000,100,7000,0_0_0_0_2_3_10,2,1260,819,0,12600,Perfection,0,0,任脉打通;督脉打通,Conception Vessel Unblocked; Governor Vessel Unblocked,201;202,210001012,210001012,90008,5,877"
   splits:
   - split: 3
@@ -80,6 +229,30 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "天下武学之深奥广博，终之毕生亦难尽参，庸庸俗世，能炉火纯青者，又有几人？此境实为武林一流高手之境地。"
+    translated: "The depth and breadth of martial arts are such that even a lifetime is insufficient to fully comprehend them. In this mundane world, how many have attained the Perfected state? This realm truly represents the pinnacle of Wulin's top-tier masters."
+    qcReviewedText: "The depth and breadth of martial arts are such that even a lifetime is insufficient to fully comprehend them. In this mundane world, how many have attained the Perfected state? This realm truly represents the pinnacle of Wulin's top-tier masters."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "任脉打通"
+    translated: "The Ren Meridian has been opened"
+    qcReviewedText: "The Ren Meridian has been opened;The Du Meridian has been unblocked"
+    qcTranslated: "The Ren Meridian has been opened;The Du Meridian has been opened"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 24
+    subIndex: 1
+    text: "督脉打通"
+    translated: "The Du Meridian has been unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1}"
 - raw: "11,9,8,登峰造极,Perfection,10,古往今来，东去大江，短短数十载，尘世之逝内，寻武之道，可登峰造极者，如凤毛麟角，跻身绝顶高手之列，搅动江湖风云者，舍我其谁。,Level8 guys,170,35,34,,3000,150,7000,0_0_0_0_2_3_10,2,2040,1326,0,20400,Pinnacle,0,0,冲脉打通;带脉打通;阴跷脉打通,Thoroughfare Vessel Unblocked; Girdle Vessel Unblocked; Yin Heel Vessel Unblocked,203;204;205,230001019,230001019,90009,5,953"
   splits:
   - split: 3
@@ -89,6 +262,34 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "古往今来，东去大江，短短数十载，尘世之逝内，寻武之道，可登峰造极者，如凤毛麟角，跻身绝顶高手之列，搅动江湖风云者，舍我其谁。"
+    translated: "From ancient times to the present, as the great river flows east, in the mere span of a few decades within this mortal world, those who have sought the path of martial arts and reached the Pinnacle are as rare as phoenix feathers and unicorn horns. To join the ranks of the supreme masters and stir up the winds and clouds of the Jianghu-who but I?"
+    qcReviewedText: "From ancient times to the present, as the great river flows east, in the mere span of a few decades within this mortal world, those who have sought the path of martial arts and reached the Pinnacle are as rare as phoenix feathers and unicorn horns. To join the ranks of the supreme masters and stir up the winds and clouds of the Jianghu-who but I?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "冲脉打通"
+    translated: "Chong Meridian unblocked"
+    qcReviewedText: "Chong Meridian unblocked;Dai Meridian unblocked;The Yin Qiao Meridian has been opened"
+    qcTranslated: "Chong Meridian unblocked;Dai Meridian unblocked;Yin Qiao Meridian unblocked"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 24
+    subIndex: 1
+    text: "带脉打通"
+    translated: "Dai Meridian unblocked"
+  - split: 24
+    subIndex: 2
+    text: "阴跷脉打通"
+    translated: "The Yin Qiao Meridian has been opened"
+  templates:
+  - split: 24
+    template: "{0};{1};{2}"
 - raw: "12,10,9,震古烁今,Earthshaking,10,武学千年，唯曰，天地众生，此境之玄，言语难以尽书，夫登得此境，方知武之真昧，震古烁今，惊世之才，大造化者方得一窥。,Level9 guys,180,40,55,,7000,200,9000,0_0_0_0_2_3_10,3,3300,2145,0,33000,Legendary,0,0,阳跷脉打通;阴维脉打通;阳维脉打通,Yang Heel Vessel Unblocked; Yin Linking Vessel Unblocked; Yang Linking Vessel Unblocked,206;207;208,240001024,240001024,90001,5,1020"
   splits:
   - split: 3
@@ -98,12 +299,47 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 6
+    text: "武学千年，唯曰，天地众生，此境之玄，言语难以尽书，夫登得此境，方知武之真昧，震古烁今，惊世之才，大造化者方得一窥。"
+    translated: "A thousand years of martial arts, and yet only this: the myriad beings of heaven and earth. The mystery of this realm defies full expression in words. Only upon ascending to this state does one grasp the true essence of martial prowess-Peerless, a talent that startles the world, glimpsed only by those of great creation."
+    qcReviewedText: "A thousand years of martial arts, and yet only this: the myriad beings of heaven and earth. The mystery of this realm defies full expression in words. Only upon ascending to this state does one grasp the true essence of martial prowess-Peerless, a talent that startles the world, glimpsed only by those of great creation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 24
+    text: "阳跷脉打通"
+    translated: "Yang Qiao Meridian Unblocked"
+    qcReviewedText: "Yang Qiao Meridian Unblocked;Yin Wei Meridian unblocked;Yang Wei Meridian Unblocked"
+    qcTranslated: "Yang Qiao Meridian unblocked;Yin Wei Meridian unblocked;Yang Wei Meridian unblocked"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 24
+    subIndex: 1
+    text: "阴维脉打通"
+    translated: "Yin Wei Meridian unblocked"
+  - split: 24
+    subIndex: 2
+    text: "阳维脉打通"
+    translated: "Yang Wei Meridian Unblocked"
+  templates:
+  - split: 24
+    template: "{0};{1};{2}"
 - raw: "13,11,10,返璞归真,Enlightenment,10,草木虫石，夏雨冬冰，自然之法可化万物，返璞归真之下，已无武道之存，心之一念，即为万法。,Level10 guys,200,45,89,,9000,250,10000,0_0_0_0_2_3_10,3,5340,3471,0,53400,Simplicity,0,0,,,,0,0,0,0,1124"
   splits:
   - split: 3
     text: "返璞归真"
     translated: "Transcendence"
     qcReviewedText: "Transcendence"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 6
+    text: "草木虫石，夏雨冬冰，自然之法可化万物，返璞归真之下，已无武道之存，心之一念，即为万法。"
+    translated: "Grass, trees, insects, and stones; summer rain and winter ice. The laws of nature can transform all things. Beneath Transcendence, the martial way ceases to exist. A single thought of the heart becomes all dharma."
+    qcReviewedText: "Grass, trees, insects, and stones; summer rain and winter ice. The laws of nature can transform all things. Beneath Transcendence, the martial way ceases to exist. A single thought of the heart becomes all dharma."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

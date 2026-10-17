@@ -599,8 +599,8 @@
   splits:
   - split: 3
     text: "<color=green>外功攻击+"
-    translated: "<color=green>External Attack"
-    qcReviewedText: "<color=green>External Attack"
+    translated: "<color=green>External Attack+"
+    qcReviewedText: "<color=green>External Attack+"
     qcTranslated: "<color=green>External Attack+"
     qcStatus: Corrected
     qcQualityScore: 100
@@ -633,8 +633,8 @@
   splits:
   - split: 3
     text: "<color=green>外功攻击+"
-    translated: "<color=green>External Attack"
-    qcReviewedText: "<color=green>External Attack"
+    translated: "<color=green>External Attack+"
+    qcReviewedText: "<color=green>External Attack+"
     qcTranslated: "<color=green>External Attack+"
     qcStatus: Corrected
     qcQualityScore: 100
@@ -1352,8 +1352,8 @@
   splits:
   - split: 3
     text: "<color=green>外功攻击+"
-    translated: "<color=green>External Attack"
-    qcReviewedText: "<color=green>External Attack"
+    translated: "<color=green>External Attack+"
+    qcReviewedText: "<color=green>External Attack+"
     qcTranslated: "<color=green>External Attack+"
     qcStatus: Corrected
     qcQualityScore: 100
@@ -7220,8 +7220,8 @@
   splits:
   - split: 3
     text: "</color>对你的<color=yellow>好感度</color>"
-    translated: "Their favorability toward you"
-    qcReviewedText: "Their favorability toward you"
+    translated: "</color>Their <color=yellow>favorability</color> toward you"
+    qcReviewedText: "</color>Their <color=yellow>favorability</color> toward you"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

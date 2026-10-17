@@ -256,8 +256,15 @@
   adjustWidth: 70
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/PanelText2/TextTip
   sampleText: At that time, my husband was barely rescued from prison by …
-  idealFontSize: 16
+  idealFontSize: 17
   allowAutoSizing: false
   adjustY: 10
   adjustWidth: 15
   adjustHeight: -15
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_tongshi/panel_tsRightList/Viewport/Content/item(Clone)/name
+  sampleText: Light Attack·Heavy Blade
+  allowWordWrap: true
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/ScrollViewOption/Viewport/ContentOption/ButtonLips*/TextName
+  sampleText: '......This, this, what should I do?'
+  idealFontSize: 16

@@ -28,7 +28,7 @@ public static class GameFileHandling
     // a tag, punctuation or the string's ends (never a space or another letter), which keeps ordinary English words out. The same
     // patterns are in Config.yaml's namedTokenReplacers (the model sees them as {npcName}...); NamedTokenTests keeps the two in step.
     private const string TokenPrev = @"(?:(?<=[^\x00-\x7F])|(?<=[>,.!?:;()])|^)";
-    private const string TokenNext = @"(?=[^\x00-\x7F]|[<,.!?:;()\[]|$)";
+    private const string TokenNext = @"(?=[^\x00-\x7F]|[<,.!?:;()\[*]|$)";
     public static readonly Regex WordTokenPattern = new(@"gangName|mapName|gangWuxue|lastRandomAttributeName|gangJoinCDRemain", RegexOptions.Compiled);
     public static readonly Regex CodeLetterTokenPattern = new(TokenPrev + "(?:fp|lp|p|a|b|i1|i2|i)" + TokenNext, RegexOptions.Compiled);
     public static readonly Regex BracketAlternativePattern = new(@"\[[^\[\]|]{1,8}\|\|[^\[\]|]{1,8}\]", RegexOptions.Compiled);
@@ -45,7 +45,32 @@ public static class GameFileHandling
         UnknownGenderPersonTokens = ["<fName>", "<lName>", "<name>", "///fp///", "///lp///", "///p///"],
         CustomColumnValidator = ValidateRuntimeTokens,
         CustomUnsafeToTranslateRule = DynamicStringRules.IsUnsafe,
+        CustomPackagingFixup = (_, _, raw, result) => PutTitleBeforeName(raw, result),
     };
+
+    // Chinese puts the title after the name (<fName><少侠||姑娘>, fp[大哥||姐姐]); English puts it first. The model is told to, but
+    // often keeps the source order, which reads "Fang Big Brother" once the game fills the name in.
+    private static readonly Regex SourceNameThenTitle = new(
+        @"(?:<(?:fName|lName|name)>|" + TokenPrev + @"(?:fp|lp|p|a|b)" + TokenNext + @")\s*(?:<[^<>|]*\|\|[^<>|]*>|\[[^\[\]|]+\|\|[^\[\]|]+\])",
+        RegexOptions.Compiled);
+    private static readonly Regex ResultNameThenTitle = new(
+        @"(?<name><(?:fName|lName|name)>|///(?:fp|lp|p|a|b)///)(?<gap>\s?)(?<title><[^<>|]*\|\|[^<>|]*>)",
+        RegexOptions.Compiled);
+
+    /// <summary>
+    /// Swaps "name title" to "title name" in a packaged cell, but only where the source itself had the title straight after
+    /// the name, so a title the model meant as a separate noun ("told Fang that Big Brother...") is not touched.
+    /// </summary>
+    public static string PutTitleBeforeName(string raw, string result)
+    {
+        if (!SourceNameThenTitle.IsMatch(raw))
+            return result;
+
+        return ResultNameThenTitle.Replace(result, m =>
+            PronounPairPattern.IsMatch(m.Groups["title"].Value)
+                ? m.Value
+                : m.Groups["title"].Value + (m.Groups["gap"].Length > 0 ? m.Groups["gap"].Value : " ") + m.Groups["name"].Value);
+    }
 
     /// <summary>
     /// The dialogue files switch LlmKit's generic tag check off (a gender alternative such as &lt;少侠||姑娘&gt; looks like an

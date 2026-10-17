@@ -9686,14 +9686,11 @@
   splits:
   - split: 4
     text: "夫君！夫君无恙便好，此处异响，只怕那“村中人”盏茶即至，我夫妻速速离去为好。"
-    translated: "Husband! As long as you're unharmed, the strange noise here means that the villagers might arrive at any moment. We should leave quickly."
-    qcReviewedText: "Husband! As long as you're unharmed, the strange noise here means that the villagers might arrive at any moment. We should leave quickly."
-    qcTranslated: "Husband! As long as you're unharmed, the strange noise here means that those villagers might arrive in the time it takes to drink a cup of tea. It would be best for us two to leave quickly."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "My husband! I'm glad you're unharmed. There are strange sounds here; those villagers will arrive within the time it takes to drink a cup of tea. We should leave quickly."
+    qcReviewedText: "My husband! I'm glad you're unharmed. There are strange sounds here; those villagers will arrive within the time it takes to drink a cup of tea. We should leave quickly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "76,81000051002,4,[0].talks{json}[4].name,穷酸书生"
   splits:
   - split: 4
@@ -9725,14 +9722,11 @@
   splits:
   - split: 4
     text: "这……夫君！"
-    translated: "This......husband!"
-    qcReviewedText: "This......husband!"
-    qcTranslated: "Oh......my husband!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "This... my husband!"
+    qcReviewedText: "This... my husband!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "76,81000051002,4,[0].talks{json}[6].name,穷酸书生"
   splits:
   - split: 4
@@ -10388,8 +10382,8 @@
   splits:
   - split: 4
     text: "夫君，你已仁至义尽，事已如此，何须再忍？"
-    translated: "Husband, you have been as generous and kind as you can be. Given the situation, why must you continue to endure?"
-    qcReviewedText: "Husband, you have been as generous and kind as you can be. Given the situation, why must you continue to endure?"
+    translated: "My husband, you have done all that is expected of you. Since it has come to this, why must you endure any longer?"
+    qcReviewedText: "My husband, you have done all that is expected of you. Since it has come to this, why must you endure any longer?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10467,8 +10461,8 @@
   splits:
   - split: 4
     text: "夫君……"
-    translated: "Husband......"
-    qcReviewedText: "Husband......"
+    translated: "My husband..."
+    qcReviewedText: "My husband..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10647,8 +10641,8 @@
   splits:
   - split: 4
     text: "夫君……"
-    translated: "Husband......"
-    qcReviewedText: "Husband......"
+    translated: "My husband..."
+    qcReviewedText: "My husband..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10843,8 +10837,8 @@
   splits:
   - split: 4
     text: "夫君曾有一老师，乃是朝廷清流重臣，夫君对他颇为尊崇，然此僚人面兽心，因夫君才学远胜于他，故而因嫉生恨，心生歹念，甚至设计废了夫君武功，将其投入大牢……"
-    translated: "Your husband once had a teacher who was a high-ranking official in the imperial court. Your husband held him in great respect, but this man was hypocritical and cruel. Because your husband's talent far surpassed his own, he grew jealous and hateful, harboring evil intentions. He even plotted to strip your husband of his martial skills and had him thrown into prison..."
-    qcReviewedText: "Your husband once had a teacher who was a high-ranking official in the imperial court. Your husband held him in great respect, but this man was hypocritical and cruel. Because your husband's talent far surpassed his own, he grew jealous and hateful, harboring evil intentions. He even plotted to strip your husband of his martial skills and had him thrown into prison..."
+    translated: "My husband once had a teacher who was a prominent and upright official at court. My husband held him in high esteem, but this man was a wolf in sheep's clothing. Because my husband's learning far surpassed his own, jealousy turned to hatred, and he harbored malicious intent. He even schemed to cripple my husband's martial skills and had him thrown into prison..."
+    qcReviewedText: "My husband once had a teacher who was a prominent and upright official at court. My husband held him in high esteem, but this man was a wolf in sheep's clothing. Because my husband's learning far surpassed his own, jealousy turned to hatred, and he harbored malicious intent. He even schemed to cripple my husband's martial skills and had him thrown into prison..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10960,8 +10954,8 @@
   splits:
   - split: 4
     text: "夫君！夫君……"
-    translated: "Husband! Husband......"
-    qcReviewedText: "Husband! Husband......"
+    translated: "My husband! My husband..."
+    qcReviewedText: "My husband! My husband..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11044,15 +11038,11 @@
   splits:
   - split: 4
     text: "既如此，今日我与夫人恐不便再行招待，改日，我便再上门相约。"
-    translated: "Ah, ... I guess there's nothing else to do here. Let me see if there's anything interesting around town."
-    qcReviewedText: "Ah, ... I guess there's nothing else to do here. Let me see if there's anything interesting around town."
-    qcTranslated: "Since that is the case, my wife and I are afraid we cannot entertain you further today. On another day, I shall come to your door again to arrange a meeting."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "Since that is the case, my wife and I will not be able to host you today. I shall come by another day to arrange a meeting."
+    qcReviewedText: "Since that is the case, my wife and I will not be able to host you today. I shall come by another day to arrange a meeting."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "80,81000052002,4,[0].talks{json}[21].options{json}[0].name,“一言为定。”"
   splits:
   - split: 4
@@ -35896,14 +35886,11 @@
   splits:
   - split: 4
     text: "赤鼎堂主刘烁，专司货物买卖、寨内百工、物资存储、生活饮食之事。"
-    translated: "Ah, ... I can't seem to find anything interesting here. Maybe Liu Shuo knows something."
-    qcReviewedText: "Ah, ... I can't seem to find anything interesting here. Maybe Liu Shuo knows something."
-    qcTranslated: "Liu Shuo, the Hall Master of the Red Cauldron Hall, is solely in charge of goods trading, the hundred crafts within the stronghold, material storage, and daily life and food."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Liu Shuo, the Hall Master of Chiding Hall, is in charge of trade and commerce, the hundred crafts within the stronghold, storage of supplies, and daily sustenance."
+    qcReviewedText: "Liu Shuo, the Hall Master of Chiding Hall, is in charge of trade and commerce, the hundred crafts within the stronghold, storage of supplies, and daily sustenance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "198,240001004001,4,[0].talks{json}[57].name,袁二爷"
   splits:
   - split: 4
@@ -60135,14 +60122,11 @@
   splits:
   - split: 4
     text: "此番雇主是朝中人物，莫要做得太过难看，稍后切忌伤人性命。此番负责押送之人中不乏乔装军士的好手，凭我一人恐难速胜，先头官差由我办理，劫囚之事，便交予你了。"
-    translated: "Ah, ... I wonder what's going on outside. Maybe I should take a look."
-    qcReviewedText: "Ah, ... I wonder what's going on outside. Maybe I should take a look."
-    qcTranslated: "The client this time is a figure in the court; do not make things too ugly, and above all, refrain from taking lives. Among those responsible for the escort are no few skilled soldiers in disguise. I alone am unlikely to secure a quick victory, so I will handle the officials at the front, and leave the prisoner rescue to you."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The client is a figure of high standing in the court. Do not make this affair look too ugly, and above all, do not take any lives. Among those responsible for the escort, there are no few skilled soldiers in disguise. I fear I cannot secure a swift victory alone. I shall handle the officials at the front; leave the prisoner's rescue to you."
+    qcReviewedText: "The client is a figure of high standing in the court. Do not make this affair look too ugly, and above all, do not take any lives. Among those responsible for the escort, there are no few skilled soldiers in disguise. I fear I cannot secure a swift victory alone. I shall handle the officials at the front; leave the prisoner's rescue to you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "290,210001008003,4,[0].talks{json}[1].talk,话音落下，探花九不复多言，你有心探听探花虚实，此人于其中似是地位颇高，又非其他探花那般少言寡语，故此沉吟片刻，挑了件无关痛痒之事，出言相询。"
   splits:
   - split: 4
@@ -83637,14 +83621,11 @@
   splits:
   - split: 4
     text: "单研一道，便能反推出禁蛊之术，倘若被蒙巳、百目君将《九黎录》原本夺去，恐怕……"
-    translated: "Ah, ...\\nI wonder what Lord Hundred Eyes is up to now.\\n\\nIt's been quite some time since I last saw him...\\n\\nIs he alright?"
-    qcReviewedText: "Ah, ...\\nI wonder what Lord Hundred Eyes is up to now.\\n\\nIt's been quite some time since I last saw him...\\n\\nIs he alright?"
-    qcTranslated: "Mastering a single discipline allows one to reverse-engineer the forbidden gu techniques. If Meng Si and Lord Hundred Eyes were to seize the original of the *Jiuli Record*, I fear..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Mastering a single technique would allow one to reverse-engineer the forbidden gu methods. If Meng Si and Lord Hundred Eyes were to seize the original *Jiuli Record*, then..."
+    qcReviewedText: "Mastering a single technique would allow one to reverse-engineer the forbidden gu methods. If Meng Si and Lord Hundred Eyes were to seize the original *Jiuli Record*, then..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "400,180001225001,4,[0].talks{json}[15].talk,你闻言沉默许久，正待你欲开口再问，忽闻身侧蝎姬冷声开口。"
   splits:
   - split: 4
@@ -84682,15 +84663,11 @@
   splits:
   - split: 4
     text: "所以我才要硬闯净蛊天池，只要取得《九黎录》，结合百目君研蛊之能，便可批量炼制蛊人大军，如此不必令族人赴险亦可成就大业……可如今百目君重伤濒死，这控蛊之术已无人能解……"
-    translated: "Bored Ah, ...\\nI wonder what Lord Hundred Eyes is up to now.\\nHe must be dealing with some urgent matters if he's been gone so long.\\nI hope the Poisoner is doing well despite his Grievous Injury.\\n\\nPerhaps I should check on them..."
-    qcReviewedText: "Bored Ah, ...\\nI wonder what Lord Hundred Eyes is up to now.\\nHe must be dealing with some urgent matters if he's been gone so long.\\nI hope the Poisoner is doing well despite his Grievous Injury.\\n\\nPerhaps I should check on them..."
-    qcTranslated: "That is why I must force my way into the Pure Gu Heavenly Pool. As long as I obtain the *Jiuli Record* and combine it with Lord Hundred Eyes' ability to research gu, I can mass-produce an army of gu people. This way, I can achieve great deeds without sending my clan members into danger... But now Lord Hundred Eyes is on the verge of death from his Grievous Injury, and no one can decipher this art of controlling gu anymore..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "That is why I must force my way into the Pure Gu Heavenly Pool. As long as I obtain the *Jiuli Record* and combine it with Lord Hundred Eyes' expertise in gu cultivation, I can mass-produce an army of gu people. This way, I can achieve great deeds without sending my clan members into danger... But now that Lord Hundred Eyes is on the brink of death from grievous injury, no one remains who can unravel this art of controlling gu..."
+    qcReviewedText: "That is why I must force my way into the Pure Gu Heavenly Pool. As long as I obtain the *Jiuli Record* and combine it with Lord Hundred Eyes' expertise in gu cultivation, I can mass-produce an army of gu people. This way, I can achieve great deeds without sending my clan members into danger... But now that Lord Hundred Eyes is on the brink of death from grievous injury, no one remains who can unravel this art of controlling gu..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "403,180001225004,4,[0].talks{json}[14].name,蒙巳"
   splits:
   - split: 4
@@ -85570,14 +85547,14 @@
   splits:
   - split: 4
     text: "螣蛇一族……自族长蒙巳以下，大多参与叛乱，“银蛇使”蒙托已弃暗投明，除却投降的三成族人……其余死者已占十之七八……“虹蛇使”蒙芸叩请教主娘娘、诸位族长宽恕……"
-    translated: "It seems there might have been an oversight in the previous response. Please provide the specific text that needs to be translated, and I will ensure it is rendered correctly into fluent, natural English without any Chinese characters or extraneous information..."
-    qcReviewedText: "It seems there might have been an oversight in the previous response. Please provide the specific text that needs to be translated, and I will ensure it is rendered correctly into fluent, natural English without any Chinese characters or extraneous information..."
-    qcTranslated: "The Teng Snake clan... from the clan leader Meng Si down, most participated in the rebellion. Silver Snake Envoy Meng Tuo has abandoned darkness for light, and aside from the thirty percent of the clan who surrendered... the rest of the dead account for seven or eight tenths... Rainbow Snake Envoy Meng Yun kowtows to beg the Lady Clan Leader and the various clan leaders for forgiveness..."
+    translated: "The Teng Snake clan... From the Clan Leader Meng Si downward, most participated in the rebellion. The Silver Snake Envoy, Meng Tuo, has already abandoned darkness for light. Excluding the thirty percent of clan members who surrendered... the dead now account for seventy to eighty percent... The Rainbow Snake Envoy, Meng Yun, is kneeling to beg the Lady of the Sect for mercy. She implores the various clan leaders for forgiveness..."
+    qcReviewedText: "The Teng Snake clan... From the Clan Leader Meng Si downward, most participated in the rebellion. The Silver Snake Envoy, Meng Tuo, has already abandoned darkness for light. Excluding the thirty percent of clan members who surrendered... the dead now account for seventy to eighty percent... The Rainbow Snake Envoy, Meng Yun, is kneeling to beg the Lady of the Sect for mercy. She implores the various clan leaders for forgiveness..."
+    qcTranslated: "The Teng Snake clan... From the Clan Leader Meng Si downward, most participated in the rebellion. The Silver Snake Envoy, Meng Tuo, has already abandoned darkness for light. Excluding the thirty percent of clan members who surrendered... the dead now account for seventy to eighty percent... The Rainbow Snake Envoy, Meng Yun, is kneeling to beg the Lady of the Sect and the various clan leaders for mercy and forgiveness..."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: OtherNamedDefect
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - OtherNamedDefect
+    - DroppedContent
 - raw: "403,180001225004,4,[0].talks{json}[65].talk,蒙芸怯生生的声音仍带着哭腔从身后传来，众人回头，只见蒙芸跪在地上，小小的身躯仍止不住颤抖，眼中仍淌着泪，却无比坚定……此时圣蝎堂前反戈的蒙托也带伤前来，于蒙芸身旁跪下，向教主与众族长叩首。"
   splits:
   - split: 4
@@ -107165,15 +107142,11 @@
   splits:
   - split: 4
     text: "你窥见那头领一面嘲笑鹤子姑娘，一面对手下暗中比划。几名倭寇心领神会，似不经意地调整站位，握住兵器。而鹤子正专注于驳斥贼人，对此毫无所觉。事已至此，你当即出手相助。"
-    translated: "Ah, I wonder what I should do next."
-    qcReviewedText: "Ah, I wonder what I should do next."
-    qcTranslated: "You caught the Chieftain mocking Miss Hezi while secretly signaling to his men. Several Wokou understood without a word, seemingly casually adjusting their positions and gripping their weapons. Meanwhile, Miss Hezi was so focused on refuting the bandits that she was completely unaware of this. Seeing this, you immediately stepped in to help."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "You catch the chieftain sneering at Miss Hezi while subtly gesturing to his men. Several Wokou understand without a word, casually adjusting their positions and gripping their weapons. Meanwhile, Miss Hezi is focused on refuting the bandits, completely unaware of the danger. Seeing this, you immediately step in to help."
+    qcReviewedText: "You catch the chieftain sneering at Miss Hezi while subtly gesturing to his men. Several Wokou understand without a word, casually adjusting their positions and gripping their weapons. Meanwhile, Miss Hezi is focused on refuting the bandits, completely unaware of the danger. Seeing this, you immediately step in to help."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "525,150006019000,4,[0].talks{json}[11].options{json}[0].name,“贼人休想！”"
   splits:
   - split: 4
@@ -108125,14 +108098,11 @@
   splits:
   - split: 4
     text: "“为虎作伥！”"
-    translated: "Sure, please provide the specific text that needs to be translated so I can proceed with the correction."
-    qcReviewedText: "Sure, please provide the specific text that needs to be translated so I can proceed with the correction."
-    qcTranslated: "Playing the tiger's henchman!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Aiding the tiger in its crimes!"
+    qcReviewedText: "Aiding the tiger in its crimes!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "529,150006020001,4,[0].talks{json}[25].talk,这群打手才被你一扫而空，便有几名倭人紧随其后，手持刀枪，围攻而上。"
   splits:
   - split: 4
@@ -109917,15 +109887,11 @@
   splits:
   - split: 4
     text: "苏鹤子未再出言反驳，只是紧紧抓着薙刀不放。你安置好鹤子，虽有心即刻擒拿住那人贩，只是……若再用守株待兔之法，贼人来与不来，尚未可知，只怕迁延日久，复生变故。"
-    translated: "Bored Ah, ... I wonder what Su Hezi is up to now."
-    qcReviewedText: "Bored Ah, ... I wonder what Su Hezi is up to now."
-    qcTranslated: "Su Hezi did not speak up to refute you again; she merely clung tightly to her naginata and would not let go. You settled Hezi down, and though you were eager to capture that human trafficker immediately... if you were to use the method of waiting by the tree stump for a rabbit again, whether the thief would come or not remained unknown, and you feared that dragging things out for too long might lead to new complications."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - MeaningReversal
+    translated: "Su Hezi did not argue further; she merely clung tightly to her naginata. After settling Hezi, you wished to capture the human trafficker immediately, but... if you relied on the strategy of waiting by the tree stump for the rabbit, it was uncertain whether the thief would return or not. Prolonging the wait risked new complications arising."
+    qcReviewedText: "Su Hezi did not argue further; she merely clung tightly to her naginata. After settling Hezi, you wished to capture the human trafficker immediately, but... if you relied on the strategy of waiting by the tree stump for the rabbit, it was uncertain whether the thief would return or not. Prolonging the wait risked new complications arising."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "535,150006023001,4,[0].talks{json}[6].options{json}[0].name,……何不“问问”苏娘子？"
   splits:
   - split: 4
@@ -142707,14 +142673,11 @@
   splits:
   - split: 4
     text: "“放眼大旗门中，恐怕唯有一人能有这般风采……”"
-    translated: "Among the Daqi Sect, perhaps only one person could have such charm... If there's no specific glossary entry for it in this context, a natural translation would be grace or demeanor. Among the Daqi Sect, perhaps only one person could have such charm..."
-    qcReviewedText: "Among the Daqi Sect, perhaps only one person could have such charm... If there's no specific glossary entry for it in this context, a natural translation would be grace or demeanor. Among the Daqi Sect, perhaps only one person could have such charm..."
-    qcTranslated: "Among the Daqi Sect, perhaps only one person could have such charm..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Looking across the Daqi Sect, I fear only one person could possess such an aura..."
+    qcReviewedText: "Looking across the Daqi Sect, I fear only one person could possess such an aura..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "732,220001001000,4,[0].talks{json}[12].talk,果不其然，方才还谈吐自如的燕鸾，眼下望着那道身影双唇微张，竟是磕绊起来。"
   splits:
   - split: 4
@@ -162762,14 +162725,11 @@
   splits:
   - split: 4
     text: "齐佑一扬马鞭，指了指西侧群山，雪原相衬之下，燕山更显巍峨。"
-    translated: "Ah, ... I wonder what Qi You is up to now."
-    qcReviewedText: "Ah, ... I wonder what Qi You is up to now."
-    qcTranslated: "Qi You flicked his horse whip and pointed toward the mountain range to the west; set off against the snowfield, Mount Yan appeared even more majestic."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Qi You flicked his riding crop and pointed toward the mountain range to the west. Set against the snow-covered plains, Mount Yan appeared even more majestic."
+    qcReviewedText: "Qi You flicked his riding crop and pointed toward the mountain range to the west. Set against the snow-covered plains, Mount Yan appeared even more majestic."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "785,220001022004,4,[0].talks{json}[3].name,齐佑"
   splits:
   - split: 4
@@ -180999,14 +180959,11 @@
   splits:
   - split: 4
     text: "被壁城水寨所劫之船，有焚毁，有拆沉，更多却是被其收为己用，借以横征暴敛，收取资财。"
-    translated: "Ah, ... I wonder what there is to do around here. \\nMaybe I should head over to the Bicheng Water Stronghold and see if anything interesting is happening."
-    qcReviewedText: "Ah, ... I wonder what there is to do around here. \\nMaybe I should head over to the Bicheng Water Stronghold and see if anything interesting is happening."
-    qcTranslated: "The ships seized by the Bicheng Water Stronghold were either burned or dismantled and sunk, but most were taken into their own service to levy heavy taxes and extort wealth."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The ships seized by the Bicheng Water Stronghold were either burned or scuttled, but most were taken into their own service to levy heavy taxes and plunder wealth."
+    qcReviewedText: "The ships seized by the Bicheng Water Stronghold were either burned or scuttled, but most were taken into their own service to levy heavy taxes and plunder wealth."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "876,190001037000,4,[0].talks{json}[9].name,锦瑟"
   splits:
   - split: 4
@@ -202022,18 +201979,14 @@
   splits:
   - split: 4
     text: "在下丁昭，初次得见{playerTitle}……想来，是我二位家仆颇有得罪之处，却不知能否容在下将详情述来呢？"
-    translated: "Ding Zhao appears to be addressing you as '{playerTitle}'."
+    translated: "I am Ding Zhao. It is my first time meeting {playerTitle}... I suspect that my two servants have offended you in some way. May I be permitted to explain the details?"
     tokens:
       playerTitle:
         source: "<少侠||女侠>"
-    qcReviewedText: "Ding Zhao appears to be addressing you as '{playerTitle}'."
-    qcTranslated: "I am Ding Zhao, and this is my first time meeting {playerTitle}... It seems that my two household servants have greatly offended you. May I be permitted to explain the details?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - MeaningReversal
+    qcReviewedText: "I am Ding Zhao. It is my first time meeting {playerTitle}... I suspect that my two servants have offended you in some way. May I be permitted to explain the details?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "987,160001901001,4,[0].talks{json}[16].options{json}[0].name,默不作声，且听他如何开口。"
   splits:
   - split: 4
@@ -204224,15 +204177,11 @@
   splits:
   - split: 4
     text: "话音落下，众人看向范岩的目光中皆现几分钦羡之意，你心下亦是微微一动——寻常武人若不欲打家劫舍，想要养家糊口便只那几条路走，范岩能于隆顺镖局这等大字号出任镖师，自是求之不得……"
-    translated: "Ah, ... I can't seem to find anything interesting here. Maybe Fan Yan knows something..."
-    qcReviewedText: "Ah, ... I can't seem to find anything interesting here. Maybe Fan Yan knows something..."
-    qcTranslated: "As the words fell, a hint of admiration appeared in everyone's gaze as they looked at Fan Yan, and your heart stirred slightly as well-ordinary martial artists who did not wish to rob houses or plunder had only a few paths to earn a living; for Fan Yan to serve as an escort at a prestigious firm like the Longshun Escort Agency was something to be grateful for..."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - MeaningReversal
+    translated: "As the words fell, the gazes of those present turned to Fan Yan, each carrying a hint of envy. A subtle stir rose in your heart as well-ordinary martial artists who did not wish to rob and plunder had only a few paths to sustain their families. For Fan Yan to serve as an escort at a prestigious firm like the Longshun Escort Agency was a position beyond what most could hope for..."
+    qcReviewedText: "As the words fell, the gazes of those present turned to Fan Yan, each carrying a hint of envy. A subtle stir rose in your heart as well-ordinary martial artists who did not wish to rob and plunder had only a few paths to sustain their families. For Fan Yan to serve as an escort at a prestigious firm like the Longshun Escort Agency was a position beyond what most could hope for..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "999,160002102002,4,[0].talks{json}[47].talk,果不其然，范岩闻言微微一怔，旋即面上强抑喜色，抱拳拱手。"
   splits:
   - split: 4
@@ -207316,14 +207265,11 @@
   splits:
   - split: 4
     text: "秦懿瑶向廉德强拱手一礼。"
-    translated: "Bored, ah, ... I wonder what Lian Deqiang is up to now. Qin Yi Yao must be busy with her own affairs too."
-    qcReviewedText: "Bored, ah, ... I wonder what Lian Deqiang is up to now. Qin Yi Yao must be busy with her own affairs too."
-    qcTranslated: "Qin Yi Yao clasped her hands together in a salute to Lian Deqiang."
-    qcStatus: Corrected
+    translated: "Qin Yi Yao clasped her hands together in a salute to Lian Deqiang."
+    qcReviewedText: "Qin Yi Yao clasped her hands together in a salute to Lian Deqiang."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcDefectCategory: None
 - raw: "1013,160002104003,4,[0].talks{json}[6].name,秦懿瑶"
   splits:
   - split: 4
@@ -221031,11 +220977,14 @@
   splits:
   - split: 4
     text: "夫君……无能，害你受这般……苦……"
-    translated: "Husband... I am useless, causing you such... suffering..."
-    qcReviewedText: "Husband... I am useless, causing you such... suffering..."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "My husband... is so weak, causing you to suffer such... pain..."
+    qcReviewedText: "My husband... is so weak, causing you to suffer such... pain..."
+    qcTranslated: "My husband... I am so weak, causing you to suffer such... pain..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "1075,130001306004,4,[0].talks{json}[34].talk,李青山眼帘低垂，喘息良久，方才将赵云灵轻轻放下，而后拾起地上浸满鲜血的长剑，硬撑起身，一步一步，逼向肉痴。"
   splits:
   - split: 4
@@ -242811,14 +242760,11 @@
   splits:
   - split: 4
     text: "纪雨竹被许多人注视，又现出几分往日怯弱，伸手扯着你的衣角，低声发问……"
-    translated: "I wonder what Ji Yuzhu is up to now.\\n\\nIt seems like she's been busy lately.\\n\\nMaybe I should check in on her..."
-    qcReviewedText: "I wonder what Ji Yuzhu is up to now.\\n\\nIt seems like she's been busy lately.\\n\\nMaybe I should check in on her..."
-    qcTranslated: "Ji Yuzhu is being watched by many, and a hint of her usual timidity shows again as she reaches out to tug at the hem of your clothes, asking in a low voice..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Ji Yuzhu, watched by many, once again showed a hint of her usual timidity. She reached out to tug at the hem of your clothes and asked in a low voice..."
+    qcReviewedText: "Ji Yuzhu, watched by many, once again showed a hint of her usual timidity. She reached out to tug at the hem of your clothes and asked in a low voice..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1198,130003103003,4,[0].talks{json}[2].name,纪雨竹"
   splits:
   - split: 4
@@ -243339,14 +243285,11 @@
   splits:
   - split: 4
     text: "招式便罢，连其内息亦是由急转缓，愈发悠长……单切磋一场，其内功境界之关隘，亦有松动。"
-    translated: "Ah, ... I guess there's nothing else to do here. Let me see if there's anything interesting around. After finishing the move, even their Inner Qi slowed down from rapid to calm, becoming more relaxed and steady......Just by sparring with them, the bottleneck in their Neigong Realm also showed signs of loosening."
-    qcReviewedText: "Ah, ... I guess there's nothing else to do here. Let me see if there's anything interesting around. After finishing the move, even their Inner Qi slowed down from rapid to calm, becoming more relaxed and steady......Just by sparring with them, the bottleneck in their Neigong Realm also showed signs of loosening."
-    qcTranslated: "Ah, ... I guess there's nothing else to do here. Let me see if there's anything interesting around. After finishing the Move, even their Inner Qi slowed down from rapid to calm, becoming more relaxed and steady......Just by sparring with them, the bottleneck in their Neigong Realm also showed signs of loosening."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Not only the Move, but even their Inner Qi shifted from rapid to slow, growing ever more prolonged... A single sparring match alone has loosened the barriers of their Neigong Realm."
+    qcReviewedText: "Not only the Move, but even their Inner Qi shifted from rapid to slow, growing ever more prolonged... A single sparring match alone has loosened the barriers of their Neigong Realm."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1198,130003103003,4,[0].talks{json}[33].name,邓红婵"
   splits:
   - split: 4
@@ -251590,15 +251533,11 @@
   splits:
   - split: 4
     text: "我笑前辈武艺虽高，执掌山寨却毫无章法，说是应友人之诺代为照料其弟，却是徒留骂名，滋敌养患罢了，硬说为人最重承诺，想来未免可笑的很。"
-    translated: "Bored, ah, ... I guess there's nothing else to do here. Maybe I should head back and see if there's any news."
-    qcReviewedText: "Bored, ah, ... I guess there's nothing else to do here. Maybe I should head back and see if there's any news."
-    qcTranslated: "I laugh at how, though Senior's martial arts are high, his management of the stronghold is utterly without method. He claims he took care of his friend's brother out of a promise, yet all he has done is leave behind a reputation for cursing and nurture enemies and trouble. To insist that he values promises above all else is, I think, rather laughable."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "I mocked Senior for possessing great martial prowess yet governing the stronghold with no order. Claiming to care for his friend's brother out of a promise, he only earned a bad reputation and nurtured enemies. To insist that he values promises above all else is rather laughable."
+    qcReviewedText: "I mocked Senior for possessing great martial prowess yet governing the stronghold with no order. Claiming to care for his friend's brother out of a promise, he only earned a bad reputation and nurtured enemies. To insist that he values promises above all else is rather laughable."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1235,130003206000,4,[0].talks{json}[58].name,葛有方"
   splits:
   - split: 4
@@ -283881,15 +283820,11 @@
   splits:
   - split: 4
     text: "未及拆坛，便闻其芳……倭酒虽及不竹叶青之唇齿留香，甜绵清醇，女儿红之澄净香柔，烈爽难明……但自有其独到之清冽余味，嗯，难得，难得……"
-    translated: "Ah, ... I wonder what there is to do around here. Before the pavilion is even dismantled, I smell its fragrance... Although Japanese sake may not have the lingering aroma on the lips like Bamboo Leaf Green Liquor, nor the sweetness and clarity of Lady Red Wine, it has a unique crisp aftertaste. Hmm, rare, rare..."
-    qcReviewedText: "Ah, ... I wonder what there is to do around here. Before the pavilion is even dismantled, I smell its fragrance... Although Japanese sake may not have the lingering aroma on the lips like Bamboo Leaf Green Liquor, nor the sweetness and clarity of Lady Red Wine, it has a unique crisp aftertaste. Hmm, rare, rare..."
-    qcTranslated: "Before the jar is even opened, I catch its fragrance... Although Japanese sake may not have the lingering aroma on the lips like Bamboo Leaf Green Liquor, nor the sweetness and clarity of Lady Red Wine, it has a unique crisp aftertaste. Hmm, rare, rare..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - MeaningReversal
+    translated: "Before the seal could be broken, its fragrance already reached my nose... Though this Japanese wine lacks the lingering taste of Bamboo Leaf Green Liquor on the lips and teeth, or the clear, soft aroma and sharp refreshment of Daughter's Red... it possesses a unique, crisp aftertaste. Mm, rare indeed, truly rare..."
+    qcReviewedText: "Before the seal could be broken, its fragrance already reached my nose... Though this Japanese wine lacks the lingering taste of Bamboo Leaf Green Liquor on the lips and teeth, or the clear, soft aroma and sharp refreshment of Daughter's Red... it possesses a unique, crisp aftertaste. Mm, rare indeed, truly rare..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1392,15000308001,4,[0].talks{json}[1].options{json}[0].name,“不愧是柳先生……”"
   splits:
   - split: 4
@@ -285623,14 +285558,11 @@
   splits:
   - split: 4
     text: "在下方顾，流落画师，今日一两一局棋，输赢莫讲，落子无悔，若有人胜得在下半子，一两纹银奉上，不过……如是在下侥幸胜了，还望各位，多照顾小摊生意。"
-    translated: "Ah, ...\\nI wonder what Fang Gu is up to now.\\n\\nIt seems like he hasn't returned yet.\\n\\nPerhaps he's still out on some errand.\\n\\nI should wait a bit longer."
-    qcReviewedText: "Ah, ...\\nI wonder what Fang Gu is up to now.\\n\\nIt seems like he hasn't returned yet.\\n\\nPerhaps he's still out on some errand.\\n\\nI should wait a bit longer."
-    qcTranslated: "Ah, ...\\nI am Fang Gu, a wandering painter. Today, one liang per game of chess. No arguing over wins or losses; once a piece is placed, there is no regret. If anyone can beat me by half a move, I will offer one liang of fine silver. However... if I happen to win by luck, I hope you all will look after my little stall's business."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Below is Fang Gu, a wandering painter. Today, one tael of silver per game. No arguing over wins or losses; once a move is made, it cannot be taken back. If anyone can beat me by half a stone, I will gladly pay out one tael of fine silver. However... if I happen to win by luck, I hope you will all do your part to support my little stall's business."
+    qcReviewedText: "Below is Fang Gu, a wandering painter. Today, one tael of silver per game. No arguing over wins or losses; once a move is made, it cannot be taken back. If anyone can beat me by half a stone, I will gladly pay out one tael of fine silver. However... if I happen to win by luck, I hope you will all do your part to support my little stall's business."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1401,15000401003,4,[0].talks{json}[2].name,方顾"
   splits:
   - split: 4
@@ -294272,14 +294204,11 @@
   splits:
   - split: 4
     text: "你裹紧外袍，沿着山峡拾级而上，刚踏上窄道，便有一股劲风迎面扑来，几乎将人掀翻。定睛一看，岭上积雪被风卷起，形成无数细小冰刃，直似要将人骨肉分离、埋葬绝地。倘若不是你根骨强健、腿功扎实，恐怕早被掀翻在地，难得存进。"
-    translated: "Ah, ...\\nI guess there's nothing else to do here."
-    qcReviewedText: "Ah, ...\\nI guess there's nothing else to do here."
-    qcTranslated: "You wrap your outer robe tightly and climb the steps along the mountain gorge. The moment you step onto the narrow path, a fierce gust of wind rushes at you, nearly knocking you off your feet. Looking closely, the snow on the ridge is whipped up by the wind, forming countless tiny ice blades that seem intent on tearing flesh from bone and burying you in this desolate place. Had it not been for your strong Potential and solid leg skills, you would have been blown to the ground long ago; it's a miracle you survived."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "You tighten your outer robe and climb the steps along the mountain gorge. The moment you step onto the narrow path, a fierce gust of wind strikes you head-on, nearly knocking you off your feet. Looking closely, you see that snow on the ridge is whipped up by the wind, forming countless tiny ice blades that seem intent on tearing flesh from bone and burying you in this desolate place. Had it not been for your strong Potential and solid leg techniques, you would have been blown to the ground long ago; it is a rare stroke of luck that you survived."
+    qcReviewedText: "You tighten your outer robe and climb the steps along the mountain gorge. The moment you step onto the narrow path, a fierce gust of wind strikes you head-on, nearly knocking you off your feet. Looking closely, you see that snow on the ridge is whipped up by the wind, forming countless tiny ice blades that seem intent on tearing flesh from bone and burying you in this desolate place. Had it not been for your strong Potential and solid leg techniques, you would have been blown to the ground long ago; it is a rare stroke of luck that you survived."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1442,260001003004,4,[0].talks{json}[4].talk,行至半途，前方忽见一道身影立于风雪之中，衣袍翻飞。他腰间长刀尚未出鞘，已有几分刀气夹杂在寒风里。"
   splits:
   - split: 4
@@ -298450,15 +298379,11 @@
   splits:
   - split: 4
     text: "刀祖怒意勃发，似是想说什么，最终却只是摆了摆手，意兴阑珊。"
-    translated: "Ah, I wonder what there is to do around here."
-    qcReviewedText: "Ah, I wonder what there is to do around here."
-    qcTranslated: "The Blade Ancestor's fury surged, and though he seemed to want to say something, in the end he merely waved his hand, his spirits dampened."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "The Ancestor of Blades bristled with fury, seemingly on the verge of speaking, but in the end merely waved a hand, his spirit utterly deflated."
+    qcReviewedText: "The Ancestor of Blades bristled with fury, seemingly on the verge of speaking, but in the end merely waved a hand, his spirit utterly deflated."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1451,260001007002,4,[0].talks{json}[4].name,于红梅"
   splits:
   - split: 4
@@ -300478,14 +300403,11 @@
   splits:
   - split: 4
     text: "恩公高义，阿仓无以为报！这枚玉佩……请恩公暂为保管！若阿仓能在刀擂中活下来，侥幸得入山门，日后定当奉上百倍酬谢，赎回此玉！若……若阿仓不幸……那这玉佩，便赠予恩公，也算……也算对阿妹有个交代……"
-    translated: "Ah, I wonder what there is to do around here..."
-    qcReviewedText: "Ah, I wonder what there is to do around here..."
-    qcTranslated: "Your generosity is beyond words, A-Cang has no way to repay you! Please keep this jade pendant safe for me! If A-Cang survives the Blade Tournament and is fortunate enough to enter the sect, I will surely offer a hundredfold reward in the future to redeem this jade! If... if A-Cang is unfortunately... then this jade pendant shall be a gift to you, which will also serve as... as some sort of explanation for my younger sister..."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Your kindness is beyond words; A-Cang has no way to repay you! Please take this jade pendant... and keep it safe for me. If I survive the Blade Arena and am fortunate enough to enter the sect, I will surely offer a hundredfold reward in the future to redeem this jade. But if... if A-Cang is not so lucky... then please accept this jade as a gift. It will serve as... as some form of closure for my younger sister..."
+    qcReviewedText: "Your kindness is beyond words; A-Cang has no way to repay you! Please take this jade pendant... and keep it safe for me. If I survive the Blade Arena and am fortunate enough to enter the sect, I will surely offer a hundredfold reward in the future to redeem this jade. But if... if A-Cang is not so lucky... then please accept this jade as a gift. It will serve as... as some form of closure for my younger sister..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1455,260001011001,4,[0].talks{json}[20].talk,你看着他决绝的神情，沉默片刻，最终接过了那枚尚带着他体温的平安玉佩。"
   splits:
   - split: 4
@@ -304685,15 +304607,11 @@
   splits:
   - split: 4
     text: "我那孩子虽痴心学武，但绝无可能行此偭规越矩之事，后生是何企图！"
-    translated: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can translate it accurately into fluent, natural English."
-    qcReviewedText: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can translate it accurately into fluent, natural English."
-    qcTranslated: "My child may be obsessed with martial arts, but he would never do such a rule-breaking thing. What is the young man's intention!"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "My child may be devoted to martial arts, but there is no way they would commit such a reckless and lawless act. What are your intentions, young man?"
+    qcReviewedText: "My child may be devoted to martial arts, but there is no way they would commit such a reckless and lawless act. What are your intentions, young man?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1480,41000002000,4,[0].talks{json}[7].name,王村长"
   splits:
   - split: 4
@@ -319038,14 +318956,11 @@
   splits:
   - split: 4
     text: "恍惚间不知过了多久，你只觉周身上下真气奔涌，再不受限于丹田一处，不论拳脚发肤，只需心念一动便能内力令眨眼即凝，刚柔并济，当真是妙不可言。"
-    translated: "Ah, ... I wonder what there is to do around here. I only feel True Qi surging throughout my body, no longer confined to my dantian. No matter whether it's my fists, feet, or skin, with just a thought, Inner Power can condense instantly, blending hardness and softness in perfect harmony-it truly is marvelous."
-    qcReviewedText: "Ah, ... I wonder what there is to do around here. I only feel True Qi surging throughout my body, no longer confined to my dantian. No matter whether it's my fists, feet, or skin, with just a thought, Inner Power can condense instantly, blending hardness and softness in perfect harmony-it truly is marvelous."
-    qcTranslated: "In a daze, I don't know how long has passed. I only feel True Qi surging throughout my body, no longer confined to my dantian. No matter whether it's my fists, feet, or skin, with just a thought, Inner Power can condense instantly, blending hardness and softness in perfect harmony-it truly is marvelous."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "In a daze, you lose track of time. You feel True Qi surging through your entire body, no longer confined to the Dantian. Whether in fists, feet, or skin, a mere thought allows Inner Power to condense in an instant, blending hardness and softness in perfect harmony-a sensation truly beyond words."
+    qcReviewedText: "In a daze, you lose track of time. You feel True Qi surging through your entire body, no longer confined to the Dantian. Whether in fists, feet, or skin, a mere thought allows Inner Power to condense in an instant, blending hardness and softness in perfect harmony-a sensation truly beyond words."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1535,230001019000,4,[0].talks{json}[17].options{json}[0].name,“昔年镇国公竟能悟出这等绝学，当真……”"
   splits:
   - split: 4
@@ -329792,14 +329707,11 @@
   splits:
   - split: 4
     text: "你悟性不差，眼下足厥阴经、足少阳经已然无所窒碍。但若要寻解铃之人，恐怕难免往天涯海阁走上一遭，此后之事，便非老朽所能妄言了。"
-    translated: "Ah, ... I wonder what there is to do around here. \\nMaybe I should head back to Tianya Haige and see if there's anything new. Your Comprehension isn't bad, and your Foot Jueyin Meridian and Foot Shaoyang Meridian are now unobstructed. But if you want to find the person who can help you, you may have to go to Tianya Haige. What happens after that is beyond my knowledge."
-    qcReviewedText: "Ah, ... I wonder what there is to do around here. \\nMaybe I should head back to Tianya Haige and see if there's anything new. Your Comprehension isn't bad, and your Foot Jueyin Meridian and Foot Shaoyang Meridian are now unobstructed. But if you want to find the person who can help you, you may have to go to Tianya Haige. What happens after that is beyond my knowledge."
-    qcTranslated: "Your Comprehension isn't bad, and your Foot Jueyin Meridian and Foot Shaoyang Meridian are now unobstructed. But if you want to find the person who can untie the knot, you will likely have to make a trip to Tianya Haige. What happens after that is beyond what this old man can presume to say."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Your Comprehension is not poor. At present, the Foot Jueyin Meridian and the Foot Shaoyang Meridian are already free of obstruction. However, if you seek the one who can untie this knot, I fear you will have to make a journey to Tianya Haige. What happens after that is beyond what this old man can presume to speak of."
+    qcReviewedText: "Your Comprehension is not poor. At present, the Foot Jueyin Meridian and the Foot Shaoyang Meridian are already free of obstruction. However, if you seek the one who can untie this knot, I fear you will have to make a journey to Tianya Haige. What happens after that is beyond what this old man can presume to speak of."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1573,11000004005,4,[0].talks{json}[9].options{json}[0].name,“多谢前辈指点……”"
   splits:
   - split: 4
@@ -367416,9 +367328,9 @@
   splits:
   - split: 4
     text: "哈哈！此事确是老夫考虑不周，还请夫人莫要向瑶儿告状，否则瑶儿定要恼我给他夫君难堪了！"
-    translated: "Ha ha! It was indeed my oversight. Please don't tell Yaorong; otherwise, she'll be upset with me for embarrassing her husband!"
-    qcReviewedText: "Ha ha! It was indeed my oversight. Please don't tell Yaorong; otherwise, she'll be upset with me for embarrassing her husband!"
-    qcTranslated: "Ha ha! It was indeed my oversight. Please, Madam, don't tell Yaorong; otherwise, she'll be upset with me for embarrassing her husband!"
+    translated: "Haha! This is indeed my oversight. Please do not tell Yao'er, or she will surely be angry with me for making her husband look bad!"
+    qcReviewedText: "Haha! This is indeed my oversight. Please do not tell Yao'er, or she will surely be angry with me for making her husband look bad!"
+    qcTranslated: "Haha! This is indeed my oversight. Please, Madam, do not tell Yao'er, or she will surely be angry with me for making her husband look bad!"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -380060,14 +379972,11 @@
   splits:
   - split: 4
     text: "那小童拗不过别人，只得从怀中取出一卷旧画，不情不愿地在地上展开。"
-    translated: "The text you provided doesn't contain any additional content after the instruction. Could you please provide the specific text you'd like translated?"
-    qcReviewedText: "The text you provided doesn't contain any additional content after the instruction. Could you please provide the specific text you'd like translated?"
-    qcTranslated: "The young boy couldn't argue them down, so he reluctantly took an old scroll from his bosom and spread it out on the ground with a long face."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Unable to resist the others' insistence, the young boy reluctantly pulled an old scroll from his robe and spread it out on the ground with a heavy heart."
+    qcReviewedText: "Unable to resist the others' insistence, the young boy reluctantly pulled an old scroll from his robe and spread it out on the ground with a heavy heart."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1810,170001009005,4,[0].talks{json}[22].name,陈风"
   splits:
   - split: 4
@@ -381631,14 +381540,11 @@
   splits:
   - split: 4
     text: "“……你勾结螣蛇蛊主意欲何为？”"
-    translated: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcReviewedText: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcTranslated: "......You colluded with the Teng She Gu. What are your intentions?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...What do you intend by colluding with the Tengshe Gu?"
+    qcReviewedText: "...What do you intend by colluding with the Tengshe Gu?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1817,170001012001,4,[0].talks{json}[15].name,段绍裘"
   splits:
   - split: 4
@@ -388305,9 +388211,9 @@
   splits:
   - split: 4
     text: "我欠你可不止百两……待我归来之后，不仅要连本带息还清赌债，将所欠情债亦一并还清！藤娘可要在大理好生等候夫君！"
-    translated: "I owe you more than a hundred taels... When I return, I will not only pay back the debt with interest, but also settle the debt of gratitude! Lady Kudzu, wait for your husband in Dali!"
-    qcReviewedText: "I owe you more than a hundred taels... When I return, I will not only pay back the debt with interest, but also settle the debt of gratitude! Lady Kudzu, wait for your husband in Dali!"
-    qcTranslated: "I owe you more than a hundred taels... When I return, I will not only pay back the gambling debt with interest, but also settle the debt of affection! Lady Kudzu, wait well for your husband in Dali!"
+    translated: "I owe you far more than a hundred taels... Once I return, I will not only repay the gambling debt with interest, but also settle the debt of affection in full! My husband, please wait for me in Dali."
+    qcReviewedText: "I owe you far more than a hundred taels... Once I return, I will not only repay the gambling debt with interest, but also settle the debt of affection in full! My husband, please wait for me in Dali."
+    qcTranslated: "I owe you far more than a hundred taels... Once I return, I will not only repay the gambling debt with interest, but also settle the debt of affection in full! Tengtang, please wait for your husband in Dali."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -388318,14 +388224,11 @@
   splits:
   - split: 4
     text: "阿藤俏脸一红，却并未如往日一般反驳，只是轻咬玉唇，眼泪忍不住流了下来……"
-    translated: "Ah, I wonder what I should do next..."
-    qcReviewedText: "Ah, I wonder what I should do next..."
-    qcTranslated: "A-Teng's pretty face flushed red, but instead of retorting as she usually did, she merely bit her jade lips lightly, and tears couldn't help but stream down..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "A-Ten's face flushed red, but unlike her usual self, she did not retort. She merely bit her lips, unable to hold back the tears that streamed down her cheeks..."
+    qcReviewedText: "A-Ten's face flushed red, but unlike her usual self, she did not retort. She merely bit her lips, unable to hold back the tears that streamed down her cheeks..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1839,170001016002,4,[0].talks{json}[14].talk,你立于原地尴尬不已，进退两难，许久方才出声。"
   splits:
   - split: 4
@@ -391641,8 +391544,8 @@
   splits:
   - split: 4
     text: "夫君……此人当真信得过么？"
-    translated: "Husband...... can you really trust this person?"
-    qcReviewedText: "Husband...... can you really trust this person?"
+    translated: "My husband... Can this person truly be trusted?"
+    qcReviewedText: "My husband... Can this person truly be trusted?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -449023,14 +448926,11 @@
   splits:
   - split: 4
     text: "既然如此，还请归还家母遗物，今日之事，望能封于心间。"
-    translated: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcReviewedText: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcTranslated: "Since that is the case, please return my late mother's keepsake. I hope you will keep today's events sealed in your heart."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcReviewedText: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2113,140007005003,4,[0].talks{json}[72].talk,戴群也好，戴和也罢……此人修为深不可测，需慎之又慎……"
   splits:
   - split: 4
@@ -449085,14 +448985,11 @@
   splits:
   - split: 4
     text: "既然如此，还请归还家母遗物，今日之事，望能封于心间。"
-    translated: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcReviewedText: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcTranslated: "Since that is the case, please return my late mother's keepsake. I hope you will keep today's events sealed in your heart."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcReviewedText: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2113,140007005003,4,[0].talks{json}[75].name,何傲霜"
   splits:
   - split: 4
@@ -453416,14 +453313,11 @@
   splits:
   - split: 4
     text: "既然如此，还请归还家母遗物，今日之事，望能封于心间。"
-    translated: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcReviewedText: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcTranslated: "Since that is the case, please return my late mother's keepsake. I hope you will keep today's events sealed in your heart."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcReviewedText: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2128,140007009003,4,[0].talks{json}[72].talk,戴群也好，戴和也罢……此人修为深不可测，需慎之又慎……"
   splits:
   - split: 4
@@ -453478,14 +453372,11 @@
   splits:
   - split: 4
     text: "既然如此，还请归还家母遗物，今日之事，望能封于心间。"
-    translated: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcReviewedText: "It seems there was an instruction to correct a previous output, but no specific previous output or original text was provided for me to work with. Please provide the relevant text and context so I can proceed with the requested correction."
-    qcTranslated: "Since that is the case, please return my late mother's keepsake. I hope you will keep today's events sealed in your heart."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcReviewedText: "In that case, please return my late mother's keepsake. I hope you will keep today's events to yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2128,140007009003,4,[0].talks{json}[75].name,何傲霜"
   splits:
   - split: 4

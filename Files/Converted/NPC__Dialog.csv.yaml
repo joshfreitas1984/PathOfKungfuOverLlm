@@ -723,14 +723,11 @@
   splits:
   - split: 5
     text: "夫君，可是有心事烦忧？妾身愿为夫君分担，倾听夫君心声。"
-    translated: "Husband, are you troubled by something? I am willing to share your burdens and listen to your heart's voice. I am willing to share your burden and listen to your heart."
-    qcReviewedText: "Husband, are you troubled by something? I am willing to share your burdens and listen to your heart's voice. I am willing to share your burden and listen to your heart."
-    qcTranslated: "Husband, are you troubled by something? I am willing to share your burdens and listen to your heart's voice."
-    qcStatus: Corrected
+    translated: "My husband, is something troubling you? I wish to share your burdens and listen to what weighs on your heart."
+    qcReviewedText: "My husband, is something troubling you? I wish to share your burdens and listen to what weighs on your heart."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "68,68,1000,<,age,前辈仙风道骨，若有差遣，随时效劳。,1,1"
   splits:
   - split: 5
@@ -965,8 +962,8 @@
   splits:
   - split: 5
     text: "夫君面有喜色，可是有携佳音，要与我同享？"
-    translated: "Husband, your face shows joy. Do you have good news to share with me?"
-    qcReviewedText: "Husband, your face shows joy. Do you have good news to share with me?"
+    translated: "My husband, you look pleased. Do you have good news to share with me?"
+    qcReviewedText: "My husband, you look pleased. Do you have good news to share with me?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3372,8 +3369,8 @@
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
-    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
-    qcReviewedText: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
+    translated: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
+    qcReviewedText: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3381,8 +3378,8 @@
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
-    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
-    qcReviewedText: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
+    translated: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
+    qcReviewedText: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3624,8 +3621,8 @@
   splits:
   - split: 5
     text: "是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。"
-    translated: "Yes. Yihe is waiting outside Wenchang Town at all times... Lord Husband, come back soon."
-    qcReviewedText: "Yes. Yihe is waiting outside Wenchang Town at all times... Lord Husband, come back soon."
+    translated: "Yes. Yi He is outside Wenchang Town, awaiting my husband's return at any moment... My husband, please come back soon."
+    qcReviewedText: "Yes. Yi He is outside Wenchang Town, awaiting my husband's return at any moment... My husband, please come back soon."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3633,11 +3630,11 @@
   splits:
   - split: 5
     text: "好……{playerLastName}若是想念夫君，便到大理昔日同行之地来。"
-    translated: "Good......If you miss your husband, come to the places where we used to travel together in Dali, {playerLastName}."
+    translated: "Very well... If {playerLastName} misses my husband, come to Dali, where we once traveled together."
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Good......If you miss your husband, come to the places where we used to travel together in Dali, {playerLastName}."
+    qcReviewedText: "Very well... If {playerLastName} misses my husband, come to Dali, where we once traveled together."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3782,8 +3779,8 @@
   splits:
   - split: 5
     text: "胧就在东瀛，随时等候夫君大人……请夫君大人，莫要忘了胧。"
-    translated: "Lum is in Dongying, waiting for you at all times......Please, Lord Husband, do not forget Lum."
-    qcReviewedText: "Lum is in Dongying, waiting for you at all times......Please, Lord Husband, do not forget Lum."
+    translated: "Ryu is in Dongying, awaiting my husband at any time... Please, my husband, do not forget Ryu."
+    qcReviewedText: "Ryu is in Dongying, awaiting my husband at any time... Please, my husband, do not forget Ryu."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3791,8 +3788,8 @@
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
-    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
-    qcReviewedText: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
+    translated: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
+    qcReviewedText: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3800,8 +3797,8 @@
   splits:
   - split: 5
     text: "好。夫君若还想相见，便回太和山来罢……"
-    translated: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
-    qcReviewedText: "Very well. If husband still wishes to meet, return to Taihe Mountain..."
+    translated: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
+    qcReviewedText: "Very well. If my husband wishes to see me again, he may return to Taihe Mountain..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4043,8 +4040,8 @@
   splits:
   - split: 5
     text: "是。衣鹤在文昌镇外，随时等候夫君大人……夫君大人，早些回来。"
-    translated: "Yes. Yihe is waiting outside Wenchang Town at all times... Lord Husband, come back soon."
-    qcReviewedText: "Yes. Yihe is waiting outside Wenchang Town at all times... Lord Husband, come back soon."
+    translated: "Yes. Yi He is outside Wenchang Town, awaiting my husband's return at any moment... My husband, please come back soon."
+    qcReviewedText: "Yes. Yi He is outside Wenchang Town, awaiting my husband's return at any moment... My husband, please come back soon."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4052,11 +4049,11 @@
   splits:
   - split: 5
     text: "好……{playerLastName}若是想念夫君，便到大理昔日同行之地来。"
-    translated: "Good......If you miss your husband, come to the places where we used to travel together in Dali, {playerLastName}."
+    translated: "Very well... If {playerLastName} misses my husband, come to Dali, where we once traveled together."
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Good......If you miss your husband, come to the places where we used to travel together in Dali, {playerLastName}."
+    qcReviewedText: "Very well... If {playerLastName} misses my husband, come to Dali, where we once traveled together."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4201,8 +4198,8 @@
   splits:
   - split: 5
     text: "胧就在东瀛，随时等候夫君大人……请夫君大人，莫要忘了胧。"
-    translated: "Lum is in Dongying, waiting for you at all times......Please, Lord Husband, do not forget Lum."
-    qcReviewedText: "Lum is in Dongying, waiting for you at all times......Please, Lord Husband, do not forget Lum."
+    translated: "Ryu is in Dongying, awaiting my husband at any time... Please, my husband, do not forget Ryu."
+    qcReviewedText: "Ryu is in Dongying, awaiting my husband at any time... Please, my husband, do not forget Ryu."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5295,8 +5292,8 @@
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
-    translated: "Husband, why have you become like this..."
-    qcReviewedText: "Husband, why have you become like this..."
+    translated: "My husband, why have you... become so..."
+    qcReviewedText: "My husband, why have you... become so..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5304,8 +5301,8 @@
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
-    translated: "Husband, why have you become like this..."
-    qcReviewedText: "Husband, why have you become like this..."
+    translated: "My husband, why have you... become so..."
+    qcReviewedText: "My husband, why have you... become so..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5346,8 +5343,8 @@
   splits:
   - split: 5
     text: "夫君大人……衣鹤惹夫君大人生气了吗？"
-    translated: "My lord husband... Did Lord Yihuo anger you, my lord?"
-    qcReviewedText: "My lord husband... Did Lord Yihuo anger you, my lord?"
+    translated: "My husband, my lord... Did Yihe upset you?"
+    qcReviewedText: "My husband, my lord... Did Yihe upset you?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5367,23 +5364,23 @@
   splits:
   - split: 5
     text: "夫君……唤若烟何事？"
-    translated: "Husband... why are you calling Ruoyan?"
-    qcReviewedText: "Husband... why are you calling Ruoyan?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "My husband... what do you wish to call Ruoyan for?"
+    qcReviewedText: "My husband... what do you wish to call Ruoyan for?"
+    qcTranslated: "My husband... what do you wish to ask Ruoyan?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "494,1288,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",夫君，若你也弃梦秋，我……,30,3"
   splits:
   - split: 5
     text: "夫君，若你也弃梦秋，我……"
-    translated: "Husband, if you also abandon Dreamchase, I..."
-    qcReviewedText: "Husband, if you also abandon Dreamchase, I..."
-    qcTranslated: "Husband, if you also abandon Meng Qiu, I..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "My husband, if you abandon Meng Qiu as well, I..."
+    qcReviewedText: "My husband, if you abandon Meng Qiu as well, I..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "495,1289,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",娘子……这酒喝着，都快没有滋味了。,30,3"
   splits:
   - split: 5
@@ -5499,8 +5496,8 @@
   splits:
   - split: 5
     text: "夫君大人……胧是否不配做您的影？"
-    translated: "My lord husband... Is Long not worthy to be your shadow?"
-    qcReviewedText: "My lord husband... Is Long not worthy to be your shadow?"
+    translated: "My husband, my lord... Is Rong unworthy of being your shadow?"
+    qcReviewedText: "My husband, my lord... Is Rong unworthy of being your shadow?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5508,8 +5505,8 @@
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
-    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
-    qcReviewedText: "Husband, to the ends of the earth, through life and death, I will follow you."
+    translated: "My husband, to the ends of the earth, through life and death, I shall follow you."
+    qcReviewedText: "My husband, to the ends of the earth, through life and death, I shall follow you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5517,8 +5514,8 @@
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
-    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
-    qcReviewedText: "Husband, to the ends of the earth, through life and death, I will follow you."
+    translated: "My husband, to the ends of the earth, through life and death, I shall follow you."
+    qcReviewedText: "My husband, to the ends of the earth, through life and death, I shall follow you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5709,20 +5706,17 @@
   splits:
   - split: 5
     text: "夫君大人……胧的刀刃、身心，皆属您一人。"
-    translated: "Husband... Lon's blade and heart belong to you alone."
-    qcReviewedText: "Husband... Lon's blade and heart belong to you alone."
-    qcTranslated: "My Lord Husband... Lon's blade, body, and heart belong to you alone."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "My husband, Lord...... My blade, my body, and my soul all belong to you alone."
+    qcReviewedText: "My husband, Lord...... My blade, my body, and my soul all belong to you alone."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "526,1320,\"1140007004,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君，你为何……变得这般……,30,3"
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
-    translated: "Husband, why have you become like this..."
-    qcReviewedText: "Husband, why have you become like this..."
+    translated: "My husband, why have you... become so..."
+    qcReviewedText: "My husband, why have you... become so..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5730,8 +5724,8 @@
   splits:
   - split: 5
     text: "夫君，你为何……变得这般……"
-    translated: "Husband, why have you become like this..."
-    qcReviewedText: "Husband, why have you become like this..."
+    translated: "My husband, why have you... become so..."
+    qcReviewedText: "My husband, why have you... become so..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5772,8 +5766,8 @@
   splits:
   - split: 5
     text: "夫君大人……衣鹤惹夫君大人生气了吗？"
-    translated: "My lord husband... Did Lord Yihuo anger you, my lord?"
-    qcReviewedText: "My lord husband... Did Lord Yihuo anger you, my lord?"
+    translated: "My husband, my lord... Did Yihe upset you?"
+    qcReviewedText: "My husband, my lord... Did Yihe upset you?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5793,23 +5787,23 @@
   splits:
   - split: 5
     text: "夫君……唤若烟何事？"
-    translated: "Husband... why are you calling Ruoyan?"
-    qcReviewedText: "Husband... why are you calling Ruoyan?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "My husband... what do you wish to call Ruoyan for?"
+    qcReviewedText: "My husband... what do you wish to call Ruoyan for?"
+    qcTranslated: "My husband... what do you wish to ask Ruoyan?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "534,1328,\"1200001063,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",夫君，若你也弃梦秋，我……,30,3"
   splits:
   - split: 5
     text: "夫君，若你也弃梦秋，我……"
-    translated: "Husband, if you also abandon Dreamchase, I..."
-    qcReviewedText: "Husband, if you also abandon Dreamchase, I..."
-    qcTranslated: "Husband, if you also abandon Meng Qiu, I..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "My husband, if you abandon Meng Qiu as well, I..."
+    qcReviewedText: "My husband, if you abandon Meng Qiu as well, I..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "535,1329,\"1200000247,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",娘子……这酒喝着，都快没有滋味了。,30,3"
   splits:
   - split: 5
@@ -5925,8 +5919,8 @@
   splits:
   - split: 5
     text: "夫君大人……胧是否不配做您的影？"
-    translated: "My lord husband... Is Long not worthy to be your shadow?"
-    qcReviewedText: "My lord husband... Is Long not worthy to be your shadow?"
+    translated: "My husband, my lord... Is Rong unworthy of being your shadow?"
+    qcReviewedText: "My husband, my lord... Is Rong unworthy of being your shadow?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5934,8 +5928,8 @@
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
-    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
-    qcReviewedText: "Husband, to the ends of the earth, through life and death, I will follow you."
+    translated: "My husband, to the ends of the earth, through life and death, I shall follow you."
+    qcReviewedText: "My husband, to the ends of the earth, through life and death, I shall follow you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5943,8 +5937,8 @@
   splits:
   - split: 5
     text: "夫君，天涯海角，生死相随。"
-    translated: "Husband, to the ends of the earth, through life and death, I will follow you."
-    qcReviewedText: "Husband, to the ends of the earth, through life and death, I will follow you."
+    translated: "My husband, to the ends of the earth, through life and death, I shall follow you."
+    qcReviewedText: "My husband, to the ends of the earth, through life and death, I shall follow you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6135,14 +6129,11 @@
   splits:
   - split: 5
     text: "夫君大人……胧的刀刃、身心，皆属您一人。"
-    translated: "Husband... Lon's blade and heart belong to you alone."
-    qcReviewedText: "Husband... Lon's blade and heart belong to you alone."
-    qcTranslated: "My Lord Husband... Lon's blade, body, and heart belong to you alone."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "My husband, Lord...... My blade, my body, and my soul all belong to you alone."
+    qcReviewedText: "My husband, Lord...... My blade, my body, and my soul all belong to you alone."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "566,1360,\"1280100188,30\",\"//,>\",\"touchId,love\",终究还是……，我会在大漠等你。,33,2"
   splits:
   - split: 5

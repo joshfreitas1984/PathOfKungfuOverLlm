@@ -53360,8 +53360,8 @@
   splits:
   - split: 4
     text: "适才又来一位公子上门提亲，不知小姐未来夫君是何模样……"
-    translated: "Just now, another young lord came to propose, I wonder what the future husband of the lady looks like......"
-    qcReviewedText: "Just now, another young lord came to propose, I wonder what the future husband of the lady looks like......"
+    translated: "A young lord came to propose a match just now. I wonder what her future husband will be like..."
+    qcReviewedText: "A young lord came to propose a match just now. I wonder what her future husband will be like..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -84193,14 +84193,11 @@
   splits:
   - split: 4
     text: "壁城水寨竟然、竟然抛弃主上……"
-    translated: "Ah, ... I wonder what there is to do around here. Maybe I should head over to the Bicheng Water Stronghold and see if anything interesting is happening..."
-    qcReviewedText: "Ah, ... I wonder what there is to do around here. Maybe I should head over to the Bicheng Water Stronghold and see if anything interesting is happening..."
-    qcTranslated: "The Bicheng Water Stronghold actually, actually abandoned our lord..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The Bicheng Water Stronghold has actually... actually abandoned our lord......"
+    qcReviewedText: "The Bicheng Water Stronghold has actually... actually abandoned our lord......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3769,1190005001,15,[0].talks{json}[0].name,桃坞宾客"
   splits:
   - split: 4
