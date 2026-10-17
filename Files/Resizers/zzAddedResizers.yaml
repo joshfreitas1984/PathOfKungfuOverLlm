@@ -13,13 +13,16 @@
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (1)/txt_tsDesName
   sampleText: Heart Formula
   allowAutoSizing: true
-  color: '#000000'
-  adjustWidth: 35
+  adjustX: 5
+  adjustY: -5
+  adjustWidth: 30
+  adjustHeight: -20
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image/txt_tsDesName
   sampleText: Martial Manual
   allowAutoSizing: true
-  color: '#FF8000'
-  adjustWidth: 40
+  adjustY: -10
+  adjustWidth: 37
+  adjustHeight: -22
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuQi/Text_shuxing
   sampleText: Current weapon
   allowAutoSizing: true
@@ -71,13 +74,14 @@
 - path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/txt_Name
   sampleText: Heavy Attack·One-Handed Light Blade
   allowAutoSizing: false
-  color: '#FF8000'
+  color: '#FFFFFF'
   adjustWidth: 15
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (2)/txt_tsDesName
   sampleText: Martial Annotation
+  maxFontSize: 24
   allowAutoSizing: true
-  color: '#FF8000'
-  adjustWidth: 85
+  adjustWidth: 200
+  adjustHeight: -30
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Text (Legacy)
   sampleText: Realm Breakthrough can be achieved
   allowAutoSizing: true
@@ -171,3 +175,48 @@
   allowWordWrap: true
   adjustY: -3
   adjustWidth: 50
+- path: GameManager/UIManager/UIRoot/UIGameLvSelect/bgImage/Scroll View/Viewport/Content/*/Tip
+  sampleText: Number of days per month
+  maxFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIGameLvSelect/bgImage/Scroll View/Viewport/Content/*/*/Tip*/Tip*
+  sampleText: Story
+  maxFontSize: 22
+  allowWordWrap: true
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/PanelSkill/ContentSkill/*/lvLock/name
+  sampleText: <color=red>Insufficient Realm</color>
+  allowAutoSizing: true
+  adjustWidth: -65
+  adjustHeight: -40
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip*/panel_Base/GameObject/go_*/labelType
+  sampleText: 'Type:'
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Type/txt_Type
+  sampleText: Common
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Learn/txt_Learn
+  sampleText: Proficient
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Learn/txt_LearnTitle
+  sampleText: 'Requirement:'
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Skill/txt_Skill
+  sampleText: Demon-Mocking Blood-Offering True Scripture
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Skill/txt_SkillLabel
+  sampleText: 'Affiliated Martial Art:'
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Des/txt_Des
+  sampleText: Passive Move：[Qi Burst] Move cooldown is additionally reduc…
+  idealFontSize: 14
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/PanelSkillZong/ContentSkill/Item/Icon/Hav/Name
+  sampleText: Mocking Ten Thousand Demon Transformations
+  maxFontSize: 14
+  alignment: UpperCenter
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/txt_WuXueAdd/txt_Add
+  sampleText: 气血上限+1680
+  idealFontSize: 21
+  adjustX: 180

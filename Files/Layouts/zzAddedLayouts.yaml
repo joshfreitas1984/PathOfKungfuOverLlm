@@ -2,3 +2,23 @@
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/obj_wugong/modify/UI_BtnCommon
   offsetPosition: [10, 0]
   offsetSize: [50, 0]
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image
+  offsetPosition: [40, 47]
+  offsetSize: [20, -70]
+  rotationZ: 90
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image/txt_tsDesName
+  rotationZ: 270
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (1)
+  offsetPosition: [10, 10]
+  offsetSize: [20, 10]
+  rotationZ: 90
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (1)/txt_tsDesName
+  rotationZ: 270
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (2)
+  offsetPosition: [140, 175]
+  rotationZ: 90
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (2)/txt_tsDesName
+  rotationZ: 270
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/name_Bg
+  offsetPosition: [20, 0]
+  offsetSize: [140, 0]
