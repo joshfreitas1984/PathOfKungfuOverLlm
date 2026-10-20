@@ -1,0 +1,31 @@
+- raw: "1,,,镖局名,场景名,地图id,坐标,镖车生成坐标,原建筑,新建筑,交互物图标,美术前景资源id,美术前景资源层级,美术前景资源位置偏移,定时运镖的时间间隔"
+  splits:
+  - split: 3
+    text: "镖局名"
+    translated: "Escort Agency Name"
+- raw: "2,id,备注,name,mapName,mapId,posStr,cartGenPosStr,oldBuildName,newBuildName,touchId,touchSceneId,touchSceneOrder,touchScenePosStr,escortTaskIntervalTime"
+- raw: "3,2,,尚和镖局,杭州城,16000,\"19,17\",\"20,15\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,464,\"1,1\",2"
+  splits:
+  - split: 3
+    text: "尚和镖局"
+    translated: "Shanghe Escort Agency"
+- raw: "4,3,,玉源镖局,大理,17000,\"22,29\",\"20,28\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,368,\"1,1\",2"
+  splits:
+  - split: 3
+    text: "玉源镖局"
+    translated: "Yuyuan Escort Agency"
+- raw: "5,4,,昌合镖局,襄阳,20000,\"37,7\",\"38,5\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,394,\"1,1\",2"
+  splits:
+  - split: 3
+    text: "昌合镖局"
+    translated: "Changhe Escort Agency"
+- raw: "6,5,,泰宝镖局,洛阳,23000,\"31,28\",\"32,26\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,264,\"1,1\",2"
+  splits:
+  - split: 3
+    text: "泰宝镖局"
+    translated: "Taibao Escort Agency"
+- raw: "7,6,,弘都镖局,京城,24000,\"43,20\",\"44,18\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,266,\"1,1\",2"
+  splits:
+  - split: 3
+    text: "弘都镖局"
+    translated: "Hongdu Escort Agency"

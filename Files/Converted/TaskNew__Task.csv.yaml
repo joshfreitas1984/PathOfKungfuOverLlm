@@ -8549,11 +8549,7 @@
     qcDefectCategory: None
   - split: 13
     text: "前往贼人所在，助丹左膳救出阿藤。"
-    translated: "Head to where the bandits are and help Tange Sazen rescue Atsuko."
-    qcReviewedText: "Head to where the bandits are and help Tange Sazen rescue Atsuko."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Head to the bandits' location and help Tange Sazen rescue A'teng."
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -14450,11 +14446,7 @@
     translated: "Two"
   - split: 13
     text: "一日后，前往大雪山候刀镇擂台处，查看阿仓情况。"
-    translated: "One day later, go to the Arena in the Houdao Town on Daxue Mountain to check on Ah Cang's condition."
-    qcReviewedText: "One day later, go to the Arena in the Houdao Town on Daxue Mountain to check on Ah Cang's condition.(Click to track and view remaining time)"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "The next day, head to the Arena in Daoshu Town on Daxue Mountain to check on A'cang."
   - split: 13
     subIndex: 1
     text: "点击追踪以查看剩余时间"

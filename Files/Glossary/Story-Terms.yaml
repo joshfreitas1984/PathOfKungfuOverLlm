@@ -1,6 +1,24 @@
 # Recurring story terms the primary translation rendered several different ways (found in the 2026-10 QC review).
 # One agreed rendering each, so a stray variant is flagged and retranslated instead of surviving as a "fluent" mistranslation.
 
+- raw: "小法师"
+  result: "Young Monk"
+  context: A polite way to address a young Buddhist monk. Never Mage, Little Mage, Sorcerer or Wizard - this is a Buddhist setting, not a magic one.
+- raw: "法师"
+  result: "Dharma Master"
+  context: A Buddhist monk honoured for his teaching (慈云法师 is Dharma Master Ciyun, 中土法师 a Central Plains Dharma Master). Never Mage, Sorcerer or Wizard.
+# - raw: "青萍"
+#   result: "Qingping"
+#   context: The village (青萍村) and everything from it - a 青萍 junior is someone from Qingping. A place name, so never Green Reed, Green Duckweed or Blue Duckweed.
+# - raw: "青云"
+#   result: "Qingyun"
+#   context: A name, as in 青云侠侣 (the Qingyun Hero Couple) and the Letter from Qingyun. Never Green Cloud, Azure Cloud or Blue Cloud.
+# - raw: "青云侠侣"
+#   result: "Qingyun Hero Couple"
+#   context: The hero couple Li Qingshan and Zhao Yunling, and the quest about them. Never Green Cloud Hero Couple or Qingyun Knight Couple.
+- raw: "青山大侠"
+  result: "Great Hero Qingshan"
+  context: Honorific for Li Qingshan (李青山), using his given name Qingshan. Never Great Hero Qing Mountain or Green Mountain.
 - raw: "探花"
   result: "Tanhua"
   context: The secret organisation in the main story and its members (also in names such as Tanhua Xu). Not the imperial-examination rank, so never Jinshi, Investigator or Scholar.

@@ -1,0 +1,56 @@
+- raw: "1,地牢ID,所处地图ID,所属房子ID,释放后前往地图,释放后前往地图坐标,出口坐标,房门坐标,交互物坐标,阻挡坐标,牢中坐标,开启名称,关闭名称,交互物名称,交互物图标,囚禁人数限制"
+  splits:
+  - split: 13
+    text: "交互物名称"
+    translated: "Interactive Object Name"
+- raw: "2,uid,id,houseID,mapID,mapPoint,outPoint,housePoint,touchPoint,resistPoint,inPoint,open,close,touchName,touchId,captureMax"
+- raw: "3,1001,12015,12001,12014,\"1,3\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "4,1002,12016,12002,12014,\"1,3\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "5,1003,13015,13001,13060,\"4,1\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "6,1004,15015,15001,15050,\"4,1\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "7,1005,16015,16001,16080,\"1,1\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "8,1006,17015,17001,17080,\"1,1\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "9,1007,20015,20001,20120,\"1,2\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "10,1008,21015,21001,21080,\"1,2\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "11,1009,23015,23001,23080,\"1,1\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"
+- raw: "12,1010,24015,24001,24080,\"1,1\",\"1,1\",\"1,3\",\"0,2\",\"0,3\",\"1,3\",door,lock,铁栅栏,90000001,6"
+  splits:
+  - split: 13
+    text: "铁栅栏"
+    translated: "Iron Grate"

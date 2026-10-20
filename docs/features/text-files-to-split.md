@@ -40,10 +40,15 @@ strings and 0.83M characters (73% of it).
   `GangManager` replaces; `<name>`, `<fName>`, `<lName>` and the NPC letter tokens were already there). The sandbox copies (`BetShop2`, `GangData2`,
   `RefreshTalk2`) are already English in the shipped game, but their ids do not always line up with the Chinese sheets (`BetShop__Talk` 1002 and
   1003 differ), so they are not used as translations. Exported and merged into `Converted/`; the translate and QC passes have not run on them.
-- **Still unregistered but loaded by the game** (judge each before adding): `Poetry__Config`, `skill__密卷` / `mijuan` / `心决` (and `skill2__*`),
-  `秘术__Sorcery`, `天赋__Talent`, `Team__Team`, `羁绊__fetter`, `partner__partner`, the `WorldEvolution__*` name tables (`born`, `lichang`,
-  `fame`, `dot`, `friends`, `explain`, `city`), `MapDungeonEntryData`, `BattleDungeonData`, `mall__mall`, `currency__currency`, `Gyms__*`,
-  `PrisonData`, `门派表__sect`, `NPC__NpcXingWei`, and the `BetShop__*` leftovers. Untranslated text columns inside registered files:
+- **Registered 2026-10-20 after tracing the decompiled code** (display-only columns, English mode): `Gyms__Main`/`config` (the hall name and the
+  `_`-separated staff titles; keep exactly 5 items), `NPC__NpcXingWei`/`Talk` (`{0}` NPC name, `{1}` player name), `TaskDes__TaskZhiYing`,
+  `EscortAgencyData`, `PrisonData`, `PrisonCellData`, `MapDungeonEntryData`, `MapPracticeRoomEntryData`, `StorageBoxData`, `box__宝箱表现形式`,
+  `dungeon__config`, `Team__Team`, `mall__mall`, `shop2__shop`, `partner__partner`, `门派表__sect`/`party`, `WorldEvolution__lichang`/`friends`/`city`,
+  `currency__currency`, `language__language`, `Library__装备后缀`. Left out on purpose: `Poetry__Config` (split on ',' by position),
+  `LangCX__Lang` (Chinese key), `WorldEvolution__fame` (matched against LanguageConfig strings), `Library__属性翻译` (parsed to an enum),
+  `setting__*` (keys stay untranslated), and sheets that English mode replaces with its own twin (`NPC_EN` NpcAction, `boxpoint2`, `explain2`, `body2`).
+- **Still unregistered but loaded by the game** (judge each before adding): `skill__密卷` / `mijuan` / `心决` (and `skill2__*`),
+  `秘术__Sorcery`, `天赋__Talent`, `羁绊__fetter`, and the `BetShop__*` leftovers. Untranslated text columns inside registered files:
   `NPC__NpcDialogLips` 10 and 16, `NPC__ActionDialog` 7, 8, 10, 11, `WorldEvolution__characteristic` and `attribute`, `inborn__inborn` 8,
   `CookJingYing__Config` 13.
 

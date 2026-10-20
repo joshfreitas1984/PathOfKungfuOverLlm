@@ -17857,11 +17857,7 @@
   splits:
   - split: 3
     text: "阿金"
-    translated: "Ajin"
-    qcReviewedText: "Ajin"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "A'jin"
 - raw: "1927,1170009002,,泉月楼掌柜,,0,0,0,None,,,,dataName:新角色0517183809;protagonist:1;npcId:0;sex:1;Face:43/5;FrontHair:44/5;BehindHair:4/5;Eyes:2/5;Eyebrow:6/5;Nose:2/5;Mouth:8/5;FaceDecoration:1/5;Beard:1/5;Clothes:27/5;Mask:1/5;,,\"[{\"\"mapId\"\":17080,\"\"x\"\":9,\"\"y\"\":10,\"\"startHour\"\":0,\"\"endHour\"\":11,\"\"showConditions\"\":null}]\",\"[{\"\"index\"\":0,\"\"open\"\":null,\"\"close\"\":null,\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"泉月楼掌柜\\\"\",\\\"\"preId\\\"\":\\\"\"\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"咱这的东西，离了大理可尝不着！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1170009002\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"购买。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"暂且离去。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":3}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"6:0,217003\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":3,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\"}]\",1725448903,\"[{\"\"id\"\":1,\"\"talkType\"\":0,\"\"name\"\":null,\"\"preId\"\":\"\"0\"\",\"\"preCondition\"\":null,\"\"talk\"\":\"\"\"\",\"\"time\"\":0,\"\"image\"\":null,\"\"audio\"\":null,\"\"config\"\":null,\"\"action\"\":null,\"\"options\"\":\"\"[]\"\",\"\"isOpenAttr\"\":false,\"\"attr\"\":null}]\",False,0"
   splits:
   - split: 3

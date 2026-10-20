@@ -1,0 +1,62 @@
+- raw: "1,商品名称,chinese,"
+- raw: "2,key,text,"
+- raw: "3,CreateRole_1,性别选择,"
+  splits:
+  - split: 2
+    text: "性别选择"
+    translated: "Gender Selection"
+- raw: "4,CreateRole_2,脸型选择,"
+  splits:
+  - split: 2
+    text: "脸型选择"
+    translated: "Face Shape Selection"
+- raw: "5,CreateRole_3,前发,"
+  splits:
+  - split: 2
+    text: "前发"
+    translated: "Forward throw"
+- raw: "6,CreateRole_4,后发,"
+  splits:
+  - split: 2
+    text: "后发"
+    translated: "Later move"
+- raw: "7,CreateRole_5,眼睛,"
+  splits:
+  - split: 2
+    text: "眼睛"
+    translated: "Eyes"
+- raw: "8,CreateRole_6,眉毛,"
+  splits:
+  - split: 2
+    text: "眉毛"
+    translated: "Eyebrows"
+- raw: "9,CreateRole_7,鼻子,"
+  splits:
+  - split: 2
+    text: "鼻子"
+    translated: "Nose"
+- raw: "10,CreateRole_8,嘴巴,"
+  splits:
+  - split: 2
+    text: "嘴巴"
+    translated: "Mouth"
+- raw: "11,CreateRole_9,脸饰,"
+  splits:
+  - split: 2
+    text: "脸饰"
+    translated: "Face mask"
+- raw: "12,CreateRole_10,胡须,"
+  splits:
+  - split: 2
+    text: "胡须"
+    translated: "Beard"
+- raw: "13,CreateRole_11,服装,"
+  splits:
+  - split: 2
+    text: "服装"
+    translated: "Clothing"
+- raw: "14,CreateRole_12,高度,"
+  splits:
+  - split: 2
+    text: "高度"
+    translated: "Height"

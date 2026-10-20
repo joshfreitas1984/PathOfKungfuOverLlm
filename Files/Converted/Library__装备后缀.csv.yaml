@@ -1,0 +1,106 @@
+- raw: "1,ID,属性类型,属性名称,境界等级,后缀文本"
+  splits:
+  - split: 5
+    text: "后缀文本"
+    translated: "Suffix Text"
+- raw: "2,ID,type,name,lvel,txt"
+- raw: "3,1000,1,外功攻击,1,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "4,1001,1,外功攻击,2,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "5,1002,1,外功攻击,3,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "6,1003,1,外功攻击,4,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "7,1004,1,外功攻击,5,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "8,1005,1,外功攻击,6,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "9,1006,1,外功攻击,7,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "10,1007,1,外功攻击,8,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "11,1008,1,外功攻击,9,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "12,1009,1,外功攻击,10,锋"
+  splits:
+  - split: 5
+    text: "锋"
+    translated: "Feng"
+- raw: "13,2000,2,内功攻击,1,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "14,2001,2,内功攻击,2,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "15,2002,2,内功攻击,3,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "16,2003,2,内功攻击,4,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "17,2004,2,内功攻击,5,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "18,2005,2,内功攻击,6,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "19,2006,2,内功攻击,7,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "20,2007,2,内功攻击,8,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "21,2008,2,内功攻击,9,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"
+- raw: "22,2009,2,内功攻击,10,蕴"
+  splits:
+  - split: 5
+    text: "蕴"
+    translated: "Nurturing"

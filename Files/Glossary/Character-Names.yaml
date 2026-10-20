@@ -1,6 +1,32 @@
 # Dialogue speaker and NPC names of three or more characters (people as pinyin, roles in English), as prompt hints for lines that mention them.
 # The same names, and the shorter ones, are applied exactly through Files/ManualTranslations.yaml.
 
+# 阿 names: 阿 is a familiar prefix, written as "A'" (lowercase) joined to the pinyin of the rest, e.g. Wang A'sheng, Ma A'si.
+- raw: "阿大"
+  result: "A'da"
+- raw: "阿二"
+  result: "A'er"
+- raw: "阿福"
+  result: "A'fu"
+- raw: "阿年"
+  result: "A'nian"
+- raw: "阿强"
+  result: "A'qiang"
+- raw: "阿舟"
+  result: "A'zhou"
+- raw: "阿金"
+  result: "A'jin"
+- raw: "阿仓"
+  result: "A'cang"
+- raw: "阿藤"
+  result: "A'teng"
+  context: The Dongying gambling-house proprietress in the Tange Sazen quest. Although she is Japanese, the name is kept as pinyin like the other 阿 names, as a Chinese reader would read it. Never Ofuji or Ateng.
+- raw: "藤娘"
+  result: "Tengniang"
+  context: A'teng's nickname, pinyin like her name. Never Fuji Musume or Wisteria Maiden.
+- raw: "阿真"
+  result: "A'zhen"
+
 - raw: "何傲霜"
   result: "He Aoshuang"
 - raw: "左三思"
@@ -14,7 +40,7 @@
 - raw: "店小二"
   result: "Waiter"
 - raw: "王阿生"
-  result: "Wang Asheng"
+  result: "Wang A'sheng"
 - raw: "孙猎户"
   result: "Hunter Sun"
   allowalt:
@@ -796,7 +822,7 @@
 - raw: "元康记掌柜"
   result: "Yuankang Shop Keeper"
 - raw: "小阿花"
-  result: "Little Ahua"
+  result: "Little A'hua"
 - raw: "搬运工"
   result: "Porter"
 - raw: "女真头人"

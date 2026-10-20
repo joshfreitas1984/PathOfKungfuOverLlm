@@ -1,0 +1,27 @@
+- raw: "1,ID,商店id,踢馆应战超时,  武馆人员身份称谓,挑战者生成概率,挑战者生成时辰延迟,挑战者生成的CD,挑战者是由前馆主中生成的概率,世界同时存在的挑战者数量上限,月钱俸禄境界系数"
+  splits:
+  - split: 4
+    text: "武馆人员身份称谓"
+  templates:
+  - split: 4
+    template: "  {0}"
+- raw: "2,id,ShopId,ChallengeTimeLimit,JobExtraName,DefierGenerateProb,DefierGenerateDelay,DefierGenerateCD,DefierGenerateFromOldOwnerPro,DefierMaxCountOnWorld,MonthlyIncomeAttrbuteFactor"
+- raw: "3,1,10000,360,(馆主)_(大弟子)_(小弟子)_(挑战者)_(守卫),5,0_11,120_720_360,30,2,100_120_150_180_210_240_270_300_350_400"
+  splits:
+  - split: 4
+    text: "馆主"
+  - split: 4
+    subIndex: 1
+    text: "大弟子"
+  - split: 4
+    subIndex: 2
+    text: "小弟子"
+  - split: 4
+    subIndex: 3
+    text: "挑战者"
+  - split: 4
+    subIndex: 4
+    text: "守卫"
+  templates:
+  - split: 4
+    template: "({0})_({1})_({2})_({3})_({4})"

@@ -2580,14 +2580,7 @@
   splits:
   - split: 5
     text: "好……那丹某便回大理探望藤娘。"
-    translated: "Well...... then Tan will return to Dali to visit Teng mother."
-    qcReviewedText: "Well...... then Tan will return to Dali to visit Teng mother."
-    qcTranslated: "Well...... then I, Tan, will return to Dali to visit Mother Teng."
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Very well... Then I, Dan, shall return to Dali to visit Tengniang."
 - raw: "253,1007,\"1190001076,30\",\"//,>\",\"touchId,love\",……嗯。若烟只回桃花坞中探望姊妹。,33,2"
   splits:
   - split: 5
@@ -2673,11 +2666,7 @@
   splits:
   - split: 5
     text: "……阿真回辽东去，阿真不需帮手。"
-    translated: "...Ah Zhen will return to Liaodong, Ah Zhen doesn't need any help."
-    qcReviewedText: "...Ah Zhen will return to Liaodong, Ah Zhen doesn't need any help."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "... A'zhen will return to Liaodong. A'zhen does not need help."
 - raw: "263,1017,\"1220001042,30\",\"//,>\",\"touchId,love\",是……小弟别无所归，只回辽东看看。,33,2"
   splits:
   - split: 5
@@ -2902,11 +2891,7 @@
   splits:
   - split: 5
     text: "阿真不熟悉中原，阿真仍回辽东杀鞑子去。"
-    translated: "Although Ah Zhen is unfamiliar with Central Plains, they still return to Liaodong to fight the Tartars."
-    qcReviewedText: "Although Ah Zhen is unfamiliar with Central Plains, they still return to Liaodong to fight the Tartars."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "A'zhen is unfamiliar with the Central Plains. A'zhen will return to Liaodong to slay the Tartars."
 - raw: "283,1037,\"1220001042,29\",\"//,<\",\"touchId,love\",是，小弟回去后一定日日习练，不致荒废功夫。,33,2"
   splits:
   - split: 5
@@ -2995,14 +2980,7 @@
   splits:
   - split: 5
     text: "好……那丹某便回大理探望藤娘。"
-    translated: "Well...... then Tan will return to Dali to visit Teng mother."
-    qcReviewedText: "Well...... then Tan will return to Dali to visit Teng mother."
-    qcTranslated: "Well...... then I, Tan, will return to Dali to visit Mother Teng."
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Very well... Then I, Dan, shall return to Dali to visit Tengniang."
 - raw: "293,1047,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……嗯。若烟只回桃花坞中探望姊妹。,33,3"
   splits:
   - split: 5
@@ -3088,11 +3066,7 @@
   splits:
   - split: 5
     text: "……阿真回辽东去，阿真不需帮手。"
-    translated: "...Ah Zhen will return to Liaodong, Ah Zhen doesn't need any help."
-    qcReviewedText: "...Ah Zhen will return to Liaodong, Ah Zhen doesn't need any help."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "... A'zhen will return to Liaodong. A'zhen does not need help."
 - raw: "303,1057,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",是……小弟别无所归，只回辽东看看。,33,3"
   splits:
   - split: 5
@@ -3323,11 +3297,7 @@
   splits:
   - split: 5
     text: "阿真不熟悉中原，阿真仍回辽东杀鞑子去。"
-    translated: "Although Ah Zhen is unfamiliar with Central Plains, they still return to Liaodong to fight the Tartars."
-    qcReviewedText: "Although Ah Zhen is unfamiliar with Central Plains, they still return to Liaodong to fight the Tartars."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "A'zhen is unfamiliar with the Central Plains. A'zhen will return to Liaodong to slay the Tartars."
 - raw: "323,1077,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",是，小弟回去后一定日日习练，不致荒废功夫。,33,3"
   splits:
   - split: 5
@@ -3531,14 +3501,10 @@
   splits:
   - split: 5
     text: "阿真回辽东去……{playerLastName}哥哥，不要阿真了？"
-    translated: "Ah Zheng is going back to Liaodong... Brother {playerLastName}, are you not going to need me anymore?"
+    translated: "A'zhen is going back to Liaodong... Brother {playerLastName}, you don't want A'zhen anymore?"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Ah Zheng is going back to Liaodong... Brother {playerLastName}, are you not going to need me anymore?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "343,1097,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -3746,14 +3712,10 @@
   splits:
   - split: 5
     text: "阿真回辽东看望爷爷……{playerLastName}哥哥哪日来找阿真？"
-    translated: "Ah Jin returned to Liaodong to visit Grandpa......When will {playerLastName} Brother come to find Ah Jin?"
+    translated: "A'zhen is returning to Liaodong to visit Grandpa... When will Brother {playerLastName} come to see A'zhen?"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Ah Jin returned to Liaodong to visit Grandpa......When will {playerLastName} Brother come to find Ah Jin?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "363,1117,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
@@ -3950,14 +3912,10 @@
   splits:
   - split: 5
     text: "阿真回辽东去……{playerLastName}哥哥，不要阿真了？"
-    translated: "Ah Zheng is going back to Liaodong... Brother {playerLastName}, are you not going to need me anymore?"
+    translated: "A'zhen is going back to Liaodong... Brother {playerLastName}, you don't want A'zhen anymore?"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Ah Zheng is going back to Liaodong... Brother {playerLastName}, are you not going to need me anymore?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "383,1137,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -4165,14 +4123,10 @@
   splits:
   - split: 5
     text: "阿真回辽东看望爷爷……{playerLastName}哥哥哪日来找阿真？"
-    translated: "Ah Jin returned to Liaodong to visit Grandpa......When will {playerLastName} Brother come to find Ah Jin?"
+    translated: "A'zhen is returning to Liaodong to visit Grandpa... When will Brother {playerLastName} come to see A'zhen?"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Ah Jin returned to Liaodong to visit Grandpa......When will {playerLastName} Brother come to find Ah Jin?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "403,1157,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
@@ -4429,19 +4383,12 @@
   splits:
   - split: 5
     text: "{playerFirstName}{playerTitle}，阿真做错了什么……？"
-    translated: "{playerFirstName}{playerTitle}, Ah Zhen did something wrong......?"
+    translated: "{playerFirstName} {playerTitle}, what did A'zhen do wrong...?"
     tokens:
       playerFirstName:
         source: "fp"
       playerTitle:
         source: "[大哥||姐姐]"
-    qcReviewedText: "{playerFirstName}{playerTitle}, Ah Zhen did something wrong......?"
-    qcTranslated: "{playerFirstName}{playerTitle}, what did Ah Zhen do wrong......?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
 - raw: "423,1217,\"1220001042,30\",\"//,>\",\"touchId,love\",fp大侠……是小弟何处做得不对么？,30,2"
   splits:
   - split: 5
@@ -4966,19 +4913,12 @@
   splits:
   - split: 5
     text: "{playerLastName}{playerTitle}，阿真做错了什么……？"
-    translated: "{playerLastName}{playerTitle}, Ah Zhen, what did I do wrong......?"
+    translated: "{playerTitle} {playerLastName}, what did A'zhen do wrong...?"
     tokens:
       playerLastName:
         source: "lp"
       playerTitle:
         source: "[哥哥||姐姐]"
-    qcReviewedText: "{playerLastName}{playerTitle}, Ah Zhen, what did I do wrong......?"
-    qcTranslated: "{playerLastName}{playerTitle}, what did Ah Zhen do wrong......?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
 - raw: "463,1257,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……是小弟何处做得不对么？,30,3"
   splits:
   - split: 5
@@ -5460,14 +5400,10 @@
   splits:
   - split: 5
     text: "{playerLastName}哥哥……阿真做错了什么……？"
-    translated: "{playerLastName} Brother...... What did Ah Zhen do wrong......?"
+    translated: "{playerLastName} Brother... What did A'zhen do wrong...?"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "{playerLastName} Brother...... What did Ah Zhen do wrong......?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "503,1297,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
@@ -5670,14 +5606,10 @@
   splits:
   - split: 5
     text: "阿真愿作{playerLastName}哥哥的箭，阿真一定保护好{playerLastName}哥哥！"
-    translated: "Ah Zhen will be {playerLastName}'s arrow, Ah Zhen will surely protect Brother {playerLastName}!"
+    translated: "A'zhen will be Brother {playerLastName}'s arrow. A'zhen will definitely protect Brother {playerLastName}!"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Ah Zhen will be {playerLastName}'s arrow, Ah Zhen will surely protect Brother {playerLastName}!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "523,1317,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5
@@ -5883,14 +5815,10 @@
   splits:
   - split: 5
     text: "{playerLastName}哥哥……阿真做错了什么……？"
-    translated: "{playerLastName} Brother...... What did Ah Zhen do wrong......?"
+    translated: "{playerLastName} Brother... What did A'zhen do wrong...?"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "{playerLastName} Brother...... What did Ah Zhen do wrong......?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "543,1337,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
@@ -6093,14 +6021,10 @@
   splits:
   - split: 5
     text: "阿真愿作{playerLastName}哥哥的箭，阿真一定保护好{playerLastName}哥哥！"
-    translated: "Ah Zhen will be {playerLastName}'s arrow, Ah Zhen will surely protect Brother {playerLastName}!"
+    translated: "A'zhen will be Brother {playerLastName}'s arrow. A'zhen will definitely protect Brother {playerLastName}!"
     tokens:
       playerLastName:
         source: "lp"
-    qcReviewedText: "Ah Zhen will be {playerLastName}'s arrow, Ah Zhen will surely protect Brother {playerLastName}!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "563,1357,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5

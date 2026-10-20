@@ -1,0 +1,45 @@
+- raw: "1,ID,名称,值范围最小值,值范围最大值"
+  splits:
+  - split: 2
+    text: "名称"
+- raw: "2,id,name,min,max"
+- raw: "3,1,绝情无义,1,10"
+  splits:
+  - split: 2
+    text: "绝情无义"
+- raw: "4,2,不仁不义,11,20"
+  splits:
+  - split: 2
+    text: "不仁不义"
+- raw: "5,3,断恩少义,21,30"
+  splits:
+  - split: 2
+    text: "断恩少义"
+- raw: "6,4,薄情寡义,31,40"
+  splits:
+  - split: 2
+    text: "薄情寡义"
+- raw: "7,5,仁义行事,41,50"
+  splits:
+  - split: 2
+    text: "仁义行事"
+- raw: "8,6,含仁怀义,51,60"
+  splits:
+  - split: 2
+    text: "含仁怀义"
+- raw: "9,7,重情重义,61,70"
+  splits:
+  - split: 2
+    text: "重情重义"
+- raw: "10,8,深情厚义,71,80"
+  splits:
+  - split: 2
+    text: "深情厚义"
+- raw: "11,9,大仁大义,81,90"
+  splits:
+  - split: 2
+    text: "大仁大义"
+- raw: "12,10,义薄云天,91,100"
+  splits:
+  - split: 2
+    text: "义薄云天"

@@ -107,6 +107,39 @@ public static class TextFileConfiguration
             new() { Path = "LoadingTip__Config.csv", SkipColumns = TranslateOnly(4, 2, 3) },
             new() { Path = "PigeonMsgData__PigeonMsgData.csv", SkipColumns = TranslateOnly(11, 4, 5) },
 
+            // Display-only tables found by tracing the decompiled code (only tables the game still loads in English mode; the sheets that
+            // have an English twin there - NPC_EN NpcAction, boxpoint2, explain2, body2, Read Sheet2, key1 name2 - are not listed).
+            // Martial-hall (Gyms) labels shown under NPC names: "【name】" from Main and the "(title)_(title)_..." list from config, which the game
+            // splits on '_' by staff type, so the translation must keep exactly 5 '_'-separated items. Job's title column is never read.
+            new() { Path = "Gyms__Main.csv", SkipColumns = TranslateOnly(9, 2) },
+            new() { Path = "Gyms__config.csv", SkipColumns = TranslateOnly(11, 4) },
+            // NPC action buttons and their reply lines ({0} is the NPC name, {1} the player name).
+            new() { Path = "NPC__NpcXingWei.csv", SkipColumns = TranslateOnly(16, 4) },
+            new() { Path = "NPC__NpcXingWeiTalk.csv", SkipColumns = TranslateOnly(10, 4, 5, 6, 7, 8, 9) },
+            new() { Path = "TaskDes__TaskZhiYing.csv", SkipColumns = TranslateOnly(6, 2, 3) },
+            new() { Path = "EscortAgencyData__EscortAgencyData.csv", SkipColumns = TranslateOnly(15, 3) },
+            // Interaction names (touch names go through GetLangText, which returns an unknown key unchanged) and map entry text.
+            new() { Path = "PrisonData__PrisonData.csv", SkipColumns = TranslateOnly(9, 4) },
+            new() { Path = "PrisonCellData__PrisonCellData.csv", SkipColumns = TranslateOnly(7, 4) },
+            new() { Path = "MapDungeonEntryData__MapDungeonEntryData.csv", SkipColumns = TranslateOnly(10, 4, 8, 9) },
+            new() { Path = "MapPracticeRoomEntryData__MapPracticeRoomEntryData.csv", SkipColumns = TranslateOnly(10, 3) },
+            new() { Path = "StorageBoxData__StorageBoxData.csv", SkipColumns = TranslateOnly(7, 3) },
+            new() { Path = "box__宝箱表现形式.csv", SkipColumns = TranslateOnly(6, 2) },
+            new() { Path = "dungeon__config.csv", SkipColumns = TranslateOnly(16, 13) },
+            // Team formations, mall, shops, partners, sects, world-evolution names, currency, character-creation labels, weapon suffixes.
+            new() { Path = "Team__Team.csv", SkipColumns = TranslateOnly(17, 2, 6, 7, 8) },
+            new() { Path = "mall__mall.csv", SkipColumns = TranslateOnly(11, 2, 5) },
+            new() { Path = "shop2__shop.csv", SkipColumns = TranslateOnly(11, 2) },
+            new() { Path = "partner__partner.csv", SkipColumns = TranslateOnly(27, 2) },
+            new() { Path = "门派表__sect.csv", SkipColumns = TranslateOnly(15, 3) },
+            new() { Path = "门派表__party.csv", SkipColumns = TranslateOnly(9, 2) },
+            new() { Path = "WorldEvolution__lichang.csv", SkipColumns = TranslateOnly(9, 2) },
+            new() { Path = "WorldEvolution__friends.csv", SkipColumns = TranslateOnly(5, 2) },
+            new() { Path = "WorldEvolution__city.csv", SkipColumns = TranslateOnly(9, 2) },
+            new() { Path = "currency__currency.csv", SkipColumns = TranslateOnly(6, 3) },
+            new() { Path = "language__language.csv", SkipColumns = TranslateOnly(4, 2) },
+            new() { Path = "Library__装备后缀.csv", SkipColumns = TranslateOnly(6, 5) },
+
             // Hard-coded UI text baked into prefabs (Raw/Dumped/PrefabText) and string literals in the game's code
             // (Raw/Dumped/DynamicStrings: Type,Method,ILOffset,RawText,ParamTypes).
             new() { Path = "prefabText.txt", TextFileType = TextFileType.PrefabText },

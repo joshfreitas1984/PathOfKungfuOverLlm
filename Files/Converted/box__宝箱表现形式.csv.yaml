@@ -1,0 +1,215 @@
+- raw: "1,ID,宝箱名,限制方式,icon,icon_UI"
+  splits:
+  - split: 2
+    text: "宝箱名"
+    translated: "Treasure Chest Name"
+- raw: "2,1,枯树洞  ,室外,880001,880001"
+  splits:
+  - split: 2
+    text: "枯树洞"
+    translated: "Hollow Tree"
+  templates:
+  - split: 2
+    template: "{0}  "
+- raw: "3,2,乱石堆  ,室外,880002,880002"
+  splits:
+  - split: 2
+    text: "乱石堆"
+    translated: "Pile of Rubble"
+  templates:
+  - split: 2
+    template: "{0}  "
+- raw: "4,3,墙缝   ,室内,880003,880003"
+  splits:
+  - split: 2
+    text: "墙缝"
+    translated: "Crack in the wall"
+  templates:
+  - split: 2
+    template: "{0}   "
+- raw: "5,4,破木柜  ,室内,880004,880004"
+  splits:
+  - split: 2
+    text: "破木柜"
+    translated: "Rotten wood cabinet"
+  templates:
+  - split: 2
+    template: "{0}  "
+- raw: "6,5,橱柜  ,室内,880005,880005"
+  splits:
+  - split: 2
+    text: "橱柜"
+    translated: "Cupboard"
+  templates:
+  - split: 2
+    template: "{0}  "
+- raw: "7,6,书架,室内,880006,880006"
+  splits:
+  - split: 2
+    text: "书架"
+    translated: "Bookshelf"
+- raw: "8,7,土坑,室外,880007,880007"
+  splits:
+  - split: 2
+    text: "土坑"
+    translated: "Dirt Pit"
+- raw: "9,8,破布袋,通用,880008,880008"
+  splits:
+  - split: 2
+    text: "破布袋"
+    translated: "Torn Cloth Bag"
+- raw: "10,9,旧木桶,通用,880009,880009"
+  splits:
+  - split: 2
+    text: "旧木桶"
+    translated: "Old Wooden Barrel"
+- raw: "11,10,水井,室外,880010,880010"
+  splits:
+  - split: 2
+    text: "水井"
+    translated: "Well"
+- raw: "12,11,破水缸,通用,880011,880011"
+  splits:
+  - split: 2
+    text: "破水缸"
+    translated: "Break the water jar"
+- raw: "13,12,墙壁暗格,室内,880012,880012"
+  splits:
+  - split: 2
+    text: "墙壁暗格"
+    translated: "Hidden Wall Compartment"
+- raw: "14,13,旧陶罐,通用,880013,880013"
+  splits:
+  - split: 2
+    text: "旧陶罐"
+    translated: "Old Pot"
+- raw: "15,14,旧花瓶,室外,880014,880014"
+  splits:
+  - split: 2
+    text: "旧花瓶"
+    translated: "Old Vase"
+- raw: "16,15,干草垛,室外,880015,880015"
+  splits:
+  - split: 2
+    text: "干草垛"
+    translated: "Haystack"
+- raw: "17,16,柴堆,室外,880016,880016"
+  splits:
+  - split: 2
+    text: "柴堆"
+    translated: "Pile of firewood"
+- raw: "18,17,铜鼎,通用,880017,880017"
+  splits:
+  - split: 2
+    text: "铜鼎"
+    translated: "Bronze tripod cauldron"
+- raw: "19,18,残缺瓦瓮,室外,880018,880018"
+  splits:
+  - split: 2
+    text: "残缺瓦瓮"
+    translated: "Broken Pot"
+- raw: "20,19,肮脏的布堆,室外,880019,880019"
+  splits:
+  - split: 2
+    text: "肮脏的布堆"
+    translated: "A pile of dirty cloth"
+- raw: "21,20,古旧木匣,室外,880020,880020"
+  splits:
+  - split: 2
+    text: "古旧木匣"
+    translated: "Old Wooden Box"
+- raw: "22,21,石制玉盒,室外,880021,880021"
+  splits:
+  - split: 2
+    text: "石制玉盒"
+    translated: "Stone Jade Box"
+- raw: "23,22,遗失的镖物,室外,880022,880022"
+  splits:
+  - split: 2
+    text: "遗失的镖物"
+    translated: "Lost Escort Cargo"
+- raw: "24,23,承装赃物的包袱,室外,880023,880023"
+  splits:
+  - split: 2
+    text: "承装赃物的包袱"
+    translated: "The bundle containing the stolen goods"
+- raw: "25,24,半掩埋的旧物,室外,880024,880024"
+  splits:
+  - split: 2
+    text: "半掩埋的旧物"
+    translated: "Half-Buried Old Objects"
+- raw: "26,25,游方郎中的兜挎,室外,880025,880025"
+  splits:
+  - split: 2
+    text: "游方郎中的兜挎"
+    translated: "Traveling Doctor's Satchel"
+- raw: "27,26,不具名的锦囊,室外,880026,880026"
+  splits:
+  - split: 2
+    text: "不具名的锦囊"
+    translated: "An Unnamed Hint"
+- raw: "28,27,路边草坑,室外,880027,880027"
+  splits:
+  - split: 2
+    text: "路边草坑"
+    translated: "Grass pit by the roadside"
+- raw: "29,28,野兽遗弃的巢穴,室外,880028,880028"
+  splits:
+  - split: 2
+    text: "野兽遗弃的巢穴"
+    translated: "Abandoned den of beasts"
+- raw: "30,29,无人认领的书箱,室外,880029,880029"
+  splits:
+  - split: 2
+    text: "无人认领的书箱"
+    translated: "Unclaimed Book Chest"
+- raw: "31,30,板条货箱,通用,880030,880030"
+  splits:
+  - split: 2
+    text: "板条货箱"
+    translated: "Slatted Crate"
+- raw: "32,31,骸骨堆,通用,880031,880031"
+  splits:
+  - split: 2
+    text: "骸骨堆"
+    translated: "Pile of Bones"
+- raw: "33,32,黄土堆,室外,880032,880032"
+  splits:
+  - split: 2
+    text: "黄土堆"
+    translated: "Pile of Yellow Earth"
+- raw: "34,33,毁坏的篷车,室外,880033,880033"
+  splits:
+  - split: 2
+    text: "毁坏的篷车"
+    translated: "Wrecked Wagon"
+- raw: "35,34,精致宝箱,通用,880034,880034"
+  splits:
+  - split: 2
+    text: "精致宝箱"
+    translated: "Exquisite Treasure Chest"
+- raw: "36,35,盔甲架,通用,880035,880035"
+  splits:
+  - split: 2
+    text: "盔甲架"
+    translated: "Armor stand"
+- raw: "37,36,泥土堆,室外,880036,880036"
+  splits:
+  - split: 2
+    text: "泥土堆"
+    translated: "Pile of Dirt"
+- raw: "38,37,树叶堆,室外,880037,880037"
+  splits:
+  - split: 2
+    text: "树叶堆"
+    translated: "Pile of Leaves"
+- raw: "39,38,武器架,通用,880038,880038"
+  splits:
+  - split: 2
+    text: "武器架"
+    translated: "Weapon rack"
+- raw: "40,39,竹篓,通用,880039,880039"
+  splits:
+  - split: 2
+    text: "竹篓"
+    translated: "Bamboo basket"

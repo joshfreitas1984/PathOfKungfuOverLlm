@@ -1,0 +1,21 @@
+- raw: "1,任务id,替换的指引的标题,替换的指引的内容,,"
+  splits:
+  - split: 2
+    text: "替换的指引的标题"
+    translated: "Title of the Replacement Guide"
+  - split: 3
+    text: "替换的指引的内容"
+    translated: "Content of the replacement guide"
+- raw: "2,id,title,des,,"
+- raw: "3,190001039,关中旧人,离开灵隐寺厢房。,,"
+  splits:
+  - split: 2
+    text: "关中旧人"
+    translated: "Old Friends of Guanzhong"
+  - split: 3
+    text: "离开灵隐寺厢房。"
+    translated: "Leave the guest room at Lingyin Temple"
+- raw: "4,,,,,"
+- raw: "5,,,,,"
+- raw: "6,,,,,"
+- raw: "7,,,,,"

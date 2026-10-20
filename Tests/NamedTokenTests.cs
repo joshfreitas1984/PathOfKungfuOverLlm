@@ -30,6 +30,15 @@ public class NamedTokenTests
     [InlineData("fp[大哥||姐姐]来了", "///fp///<Big Brother||Big Sister> is here", "<Big Brother||Big Sister> ///fp/// is here")]
     [InlineData("<fName>说<少侠||姑娘>好", "<fName> told <Big Brother||Big Sister>", "<fName> told <Big Brother||Big Sister>")]
     [InlineData("<fName><少侠||姑娘>", "<fName> <he||she> came", "<fName> <he||she> came")]
+    [InlineData("<fName>兄？我爹他在里面！", "<fName> brother? My father is in there!", "Brother <fName>? My father is in there!")]
+    [InlineData("<fName>师兄，你来了", "<fName> Senior Brother, you came", "Senior Brother <fName>, you came")]
+    [InlineData("p大哥你来了", "///p/// Big Brother, you came", "Big Brother ///p///, you came")]
+    [InlineData("<fName>少侠，请", "<fName> Young Hero, please", "Young Hero <fName>, please")]
+    [InlineData("<fName>姑娘，请", "<fName> Miss, please", "Miss <fName>, please")]
+    [InlineData("<fName>兄的剑", "<fName> Brother's sword", "<fName> Brother's sword")]
+    [InlineData("<fName>兄的剑", "<fName> Brother-in-law's sword", "<fName> Brother-in-law's sword")]
+    [InlineData("<fName>说兄长来了", "<fName> said Brother came", "<fName> said Brother came")]
+    [InlineData("<fName>师兄，你来了", "Senior Brother <fName>, you came", "Senior Brother <fName>, you came")]
     public void PutTitleBeforeName(string raw, string result, string expected) =>
         Assert.Equal(expected, GameFileHandling.PutTitleBeforeName(raw, result));
 

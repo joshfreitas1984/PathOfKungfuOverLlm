@@ -1,0 +1,61 @@
+- raw: "1,,,交互物名称,交互物图标Id\\n（Touch表的id）,所在地图id\\n（地图表的id）,在地图上的位置,美术前景资源id,美术前景资源层级,美术前景资源位置偏移"
+  splits:
+  - split: 3
+    text: "交互物名称"
+    translated: "Interactive Object Name"
+- raw: "2,id,备注,touchName,touchIconId,mapId,mapPosStr,touchSceneId,touchSceneOrder,touchScenePosStr"
+- raw: "3,1,承安镇,练功木人,11000997,13000,\"36,20\",11000997,457,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "4,2,承安镇,练功木人,11000997,13000,\"19,33\",11000997,478,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "5,3,杭州城,练功木人,11000997,16000,\"32,29\",11000997,352,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "6,4,杭州城,练功木人,11000997,16000,\"12,16\",11000997,510,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "7,5,大理,练功木人,11000997,17000,\"16,21\",11000997,445,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "8,6,大理,练功木人,11000997,17000,\"47,46\",11000997,172,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "9,7,襄阳,练功木人,11000997,20000,\"37,22\",11000997,335,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "10,8,襄阳,练功木人,11000997,20000,\"45,9\",11000997,365,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "11,9,长安,练功木人,11000997,21000,\"35,17\",11000997,296,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "12,10,洛阳,练功木人,11000997,23000,\"21,9\",11000997,409,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"
+- raw: "13,11,京城,练功木人,11000997,24000,\"43,5\",11000997,336,\"1,1\""
+  splits:
+  - split: 3
+    text: "练功木人"
+    translated: "Training Dummy"

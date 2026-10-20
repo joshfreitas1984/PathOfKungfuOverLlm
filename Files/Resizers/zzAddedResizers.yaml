@@ -276,3 +276,10 @@
   idealFontSize: 20
   allowAutoSizing: false
   adjustWidth: 20
+- path: GameManager/UIManager/UIRoot/UIWorldTime/PushParent/Push/img_bg/TitleImg/TitleImg (1)/TextChild
+  sampleText: Meditate
+  idealFontSize: 16
+  alignment: MiddleCenter
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Attribute/AddAttribute/*
+  sampleText: External Defense
+  idealFontSize: 16

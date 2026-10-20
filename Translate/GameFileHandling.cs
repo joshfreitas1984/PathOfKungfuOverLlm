@@ -73,14 +73,42 @@ public static class GameFileHandling
     /// </summary>
     public static string PutTitleBeforeName(string raw, string result)
     {
-        if (!SourceNameThenTitle.IsMatch(raw))
-            return result;
+        if (SourceNameThenTitle.IsMatch(raw))
+        {
+            result = ResultNameThenTitle.Replace(result, m =>
+                PronounPairPattern.IsMatch(m.Groups["title"].Value)
+                    ? m.Value
+                    : m.Groups["title"].Value + (m.Groups["gap"].Length > 0 ? m.Groups["gap"].Value : " ") + m.Groups["name"].Value);
+        }
 
-        return ResultNameThenTitle.Replace(result, m =>
-            PronounPairPattern.IsMatch(m.Groups["title"].Value)
-                ? m.Value
-                : m.Groups["title"].Value + (m.Groups["gap"].Length > 0 ? m.Groups["gap"].Value : " ") + m.Groups["name"].Value);
+        // A plain title written after the name ("<fName>师兄", "p大哥"): the same swap, for an English title phrase from a fixed list.
+        if (SourceNameThenPlainTitle.IsMatch(raw))
+        {
+            result = ResultNameThenPlainTitle.Replace(result, m =>
+            {
+                var title = m.Groups["title"].Value;
+                return char.ToUpperInvariant(title[0]) + title[1..] + " " + m.Groups["name"].Value;
+            });
+        }
+
+        return result;
     }
+
+    // Longest first, so 师兄 is read as one title and never as 师 plus a bare 兄.
+    private const string SourcePlainTitles = "师兄|师姐|师弟|师妹|大哥|大姐|哥哥|姐姐|姊姊|大侠|少侠|施主|将军|统领|大人|姑娘|少爷|公子|兄|哥|姐|姊|弟|妹";
+    // A title phrase the model gives a plain Chinese title. It must not run on into a longer word, a possessive or a compound
+    // ("Brother's", "Brother-in-law", "Brothers"), which is not a title in front of the name.
+    private const string ResultPlainTitles =
+        "Senior Brother|Senior Sister|Junior Brother|Junior Sister|Older Brother|Older Sister|Elder Brother|Elder Sister|Big Brother|Big Sister|" +
+        "Little Brother|Little Sister|Younger Brother|Younger Sister|Great Hero|Young Hero|Young Master|Young Lord|Brother|Sister|Miss|General|Commander|" +
+        "Benefactor|Patron|Hero|Lord|Master";
+
+    private static readonly Regex SourceNameThenPlainTitle = new(
+        @"(?:<(?:fName|lName|name)>|" + TokenPrev + @"(?:fp|lp|p|a|b)" + TokenNext + @")(?:" + SourcePlainTitles + ")",
+        RegexOptions.Compiled);
+    private static readonly Regex ResultNameThenPlainTitle = new(
+        @"(?<name><(?:fName|lName|name)>|///(?:fp|lp|p|a|b)///)\s+(?<title>" + ResultPlainTitles + @")(?![\p{L}'’\-])",
+        RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
     /// <summary>
     /// The dialogue files switch LlmKit's generic tag check off (a gender alternative such as &lt;少侠||姑娘&gt; looks like an

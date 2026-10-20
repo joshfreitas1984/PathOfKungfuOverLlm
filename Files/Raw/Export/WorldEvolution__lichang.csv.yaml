@@ -1,0 +1,43 @@
+- raw: "1,ID,名称,开放世界npc立场分布权重,值范围最小值,值范围最大值,选中图标,未选中图标,描述"
+  splits:
+  - split: 2
+    text: "名称"
+- raw: "2,id,name,weightOnWorld,min,max,iconSelect,iconNormal,tip"
+- raw: "3,1,逐世霸道,5,-1000,15,lichang/ShuXingLiChang__0011_3,lichang/ShuXingLiChang__0004_10,霸道者，逐鹿定鼎，建不世之功，青史黄册之上，功过自有后人评说。"
+  splits:
+  - split: 2
+    text: "逐世霸道"
+- raw: "4,2,乖僻奉私,10,16,30,lichang/ShuXingLiChang__0012_2,lichang/ShuXingLiChang__0002_12,天道曰，损有余而奉不足，奉己之私，何尝不谓之大勇之诚，红尘濯浪，唯私者故存。"
+  splits:
+  - split: 2
+    text: "乖僻奉私"
+- raw: "5,3,疏狂落拓,20,31,45,lichang/ShuXingLiChang__0013_1,lichang/ShuXingLiChang__0001_13,人生而有法，存而受缚，疏狂洞心，可为明观，俗世之法理，怎敢拘我本愿？"
+  splits:
+  - split: 2
+    text: "疏狂落拓"
+- raw: "6,4,允执中庸,30,46,55,lichang/ShuXingLiChang__0010_4,lichang/ShuXingLiChang__0000_14,邪善之辨，正恶之别，夫纷争者，皆出于此，昏昏昭昭，中庸者，自有心迹可鉴。"
+  splits:
+  - split: 2
+    text: "允执中庸"
+- raw: "7,5,襟怀磊落,20,56,69,lichang/ShuXingLiChang__0009_5,lichang/ShuXingLiChang__0006_8,行于世者，需坦荡磊落，不拘礼法，亦可称丈夫，襟怀磊落者，近仁也。"
+  splits:
+  - split: 2
+    text: "襟怀磊落"
+- raw: "8,6,善贤仁悯,10,70,84,lichang/ShuXingLiChang__0008_6,lichang/ShuXingLiChang__0005_9,尘世混杂，人心黯晦，唯仁悯者，如世间之灯火，迷盲之归途，其星火既传，则世间人心不腐。"
+  splits:
+  - split: 2
+    text: "善贤仁悯"
+- raw: "9,7,一孤侠道,5,85,1000,lichang/ShuXingLiChang__0007_7,lichang/ShuXingLiChang__0003_11,千秋百年，一孤侠道，世事变化万千，然黑白善恶终须有别，侠者，逢恶即斩！"
+  splits:
+  - split: 2
+    text: "一孤侠道"
+- raw: "10,,,,,,,,"
+- raw: "11,,,,,,,,"
+- raw: "12,,,,,,,,"
+- raw: "13,,,,,,,,"
+- raw: "14,,,,,,,,"
+- raw: "15,,,,,,,,"
+- raw: "16,,,,,,,,"
+- raw: "17,,,,,,,,"
+- raw: "18,,,,,,,,"
+- raw: "19,,,,,,,,"
