@@ -3,69 +3,125 @@
   - split: 2
     text: "场景名"
     translated: "Scene Name"
+    qcReviewedText: "Scene Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,lv,otherId,gangNum,gangLv,kongId,light"
 - raw: "3,11000,无名集,子地图,0,0,0,0,0"
   splits:
   - split: 2
     text: "无名集"
     translated: "Wuming Market"
+    qcReviewedText: "Wuming Market"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,12000,青萍村,村庄,0,0,0,120002001;120002002,1"
   splits:
   - split: 2
     text: "青萍村"
     translated: "Qingping Village"
+    qcReviewedText: "Qingping Village"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,13000,承安镇,城镇,0,3,2,130002001;130002002,1"
   splits:
   - split: 2
     text: "承安镇"
     translated: "Cheng'an Town"
+    qcReviewedText: "Cheng'an Town"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,14000,太和山,城市,0,0,0,140002001;140002002,1"
   splits:
   - split: 2
     text: "太和山"
     translated: "Taihe Mountain"
+    qcReviewedText: "Taihe Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,15000,天涯海阁,城市,0,0,0,150002001;150002002,1"
   splits:
   - split: 2
     text: "天涯海阁"
     translated: "Tianya Haige"
+    qcReviewedText: "Tianya Haige"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,16000,杭州城,大城市,0,3,3,160002001;160002002;160002003,1"
   splits:
   - split: 2
     text: "杭州城"
     translated: "Hangzhou City"
+    qcReviewedText: "Hangzhou City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,17000,大理,大城市,0,3,4,0,0"
   splits:
   - split: 2
     text: "大理"
     translated: "Dali"
+    qcReviewedText: "Dali"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,18000,五圣教,城市,0,0,0,0,0"
   splits:
   - split: 2
     text: "五圣教"
     translated: "Wusheng Sect"
+    qcReviewedText: "Wusheng Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,19000,桃花坞,城市,0,0,0,0,0"
   splits:
   - split: 2
     text: "桃花坞"
     translated: "Taohua Dock"
+    qcReviewedText: "Taohua Dock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,20000,襄阳城,大城市,0,3,3,0,0"
   splits:
   - split: 2
     text: "襄阳城"
     translated: "Xiangyang City"
+    qcReviewedText: "Xiangyang City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,21000,长安城,大城市,0,3,5,0,0"
   splits:
   - split: 2
     text: "长安城"
     translated: "Chang'an City"
+    qcReviewedText: "Chang'an City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,23000,洛阳城,大城市,0,3,5,0,0"
   splits:
   - split: 2
     text: "洛阳城"
     translated: "Luoyang City"
+    qcReviewedText: "Luoyang City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "15,24000,京城,大城市,0,3,5,0,0"
   splits:
   - split: 2
     text: "京城"
     translated: "Capital City"
+    qcReviewedText: "Capital City"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

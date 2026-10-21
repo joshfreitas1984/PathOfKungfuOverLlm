@@ -2824,8 +2824,8 @@
   splits:
   - split: 4
     text: "西门家主宅，时有江湖豪侠往来其间。"
-    translated: "In the main residence of the Western Gate family, there are often martial heroes of the Jianghu who come and go."
-    qcReviewedText: "In the main residence of the Western Gate family, there are often martial heroes of the Jianghu who come and go."
+    translated: "The Ximen family's main residence, where heroes of the Jianghu often come and go."
+    qcReviewedText: "The Ximen family's main residence, where heroes of the Jianghu often come and go."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2842,8 +2842,8 @@
   splits:
   - split: 4
     text: "西门家厢房，布置典雅，却略有破败之相。"
-    translated: "The Western Gate family's guest room is elegantly furnished, yet shows signs of neglect."
-    qcReviewedText: "The Western Gate family's guest room is elegantly furnished, yet shows signs of neglect."
+    translated: "The side room of the Ximen family was elegantly furnished, yet showed slight signs of decay."
+    qcReviewedText: "The side room of the Ximen family was elegantly furnished, yet showed slight signs of decay."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -43518,6 +43518,10 @@
   - split: 4
     text: "阿金"
     translated: "A'jin"
+    qcReviewedText: "A'jin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1926,1170009001,15,[0].talks{json}[0].talk,嘿，要买趁手家伙，那客官可是来对地方了。"
   splits:
   - split: 4

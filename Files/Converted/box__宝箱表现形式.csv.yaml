@@ -3,11 +3,19 @@
   - split: 2
     text: "宝箱名"
     translated: "Treasure Chest Name"
+    qcReviewedText: "Treasure Chest Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,1,枯树洞  ,室外,880001,880001"
   splits:
   - split: 2
     text: "枯树洞"
     translated: "Hollow Tree"
+    qcReviewedText: "Hollow Tree  "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}  "
@@ -16,6 +24,10 @@
   - split: 2
     text: "乱石堆"
     translated: "Pile of Rubble"
+    qcReviewedText: "Pile of Rubble  "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}  "
@@ -24,6 +36,10 @@
   - split: 2
     text: "墙缝"
     translated: "Crack in the wall"
+    qcReviewedText: "Crack in the wall   "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}   "
@@ -32,6 +48,13 @@
   - split: 2
     text: "破木柜"
     translated: "Rotten wood cabinet"
+    qcReviewedText: "Rotten wood cabinet  "
+    qcTranslated: "Broken wooden cabinet"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   templates:
   - split: 2
     template: "{0}  "
@@ -40,6 +63,10 @@
   - split: 2
     text: "橱柜"
     translated: "Cupboard"
+    qcReviewedText: "Cupboard  "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}  "
@@ -48,168 +75,307 @@
   - split: 2
     text: "书架"
     translated: "Bookshelf"
+    qcReviewedText: "Bookshelf"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,7,土坑,室外,880007,880007"
   splits:
   - split: 2
     text: "土坑"
     translated: "Dirt Pit"
+    qcReviewedText: "Dirt Pit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,8,破布袋,通用,880008,880008"
   splits:
   - split: 2
     text: "破布袋"
     translated: "Torn Cloth Bag"
+    qcReviewedText: "Torn Cloth Bag"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,9,旧木桶,通用,880009,880009"
   splits:
   - split: 2
     text: "旧木桶"
     translated: "Old Wooden Barrel"
+    qcReviewedText: "Old Wooden Barrel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,10,水井,室外,880010,880010"
   splits:
   - split: 2
     text: "水井"
     translated: "Well"
+    qcReviewedText: "Well"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,11,破水缸,通用,880011,880011"
   splits:
   - split: 2
     text: "破水缸"
     translated: "Break the water jar"
+    qcReviewedText: "Break the water jar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,12,墙壁暗格,室内,880012,880012"
   splits:
   - split: 2
     text: "墙壁暗格"
     translated: "Hidden Wall Compartment"
+    qcReviewedText: "Hidden Wall Compartment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,13,旧陶罐,通用,880013,880013"
   splits:
   - split: 2
     text: "旧陶罐"
     translated: "Old Pot"
+    qcReviewedText: "Old Pot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "15,14,旧花瓶,室外,880014,880014"
   splits:
   - split: 2
     text: "旧花瓶"
     translated: "Old Vase"
+    qcReviewedText: "Old Vase"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,15,干草垛,室外,880015,880015"
   splits:
   - split: 2
     text: "干草垛"
     translated: "Haystack"
+    qcReviewedText: "Haystack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "17,16,柴堆,室外,880016,880016"
   splits:
   - split: 2
     text: "柴堆"
     translated: "Pile of firewood"
+    qcReviewedText: "Pile of firewood"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "18,17,铜鼎,通用,880017,880017"
   splits:
   - split: 2
     text: "铜鼎"
     translated: "Bronze tripod cauldron"
+    qcReviewedText: "Bronze tripod cauldron"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "19,18,残缺瓦瓮,室外,880018,880018"
   splits:
   - split: 2
     text: "残缺瓦瓮"
     translated: "Broken Pot"
+    qcReviewedText: "Broken Pot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "20,19,肮脏的布堆,室外,880019,880019"
   splits:
   - split: 2
     text: "肮脏的布堆"
     translated: "A pile of dirty cloth"
+    qcReviewedText: "A pile of dirty cloth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "21,20,古旧木匣,室外,880020,880020"
   splits:
   - split: 2
     text: "古旧木匣"
     translated: "Old Wooden Box"
+    qcReviewedText: "Old Wooden Box"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "22,21,石制玉盒,室外,880021,880021"
   splits:
   - split: 2
     text: "石制玉盒"
     translated: "Stone Jade Box"
+    qcReviewedText: "Stone Jade Box"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "23,22,遗失的镖物,室外,880022,880022"
   splits:
   - split: 2
     text: "遗失的镖物"
     translated: "Lost Escort Cargo"
+    qcReviewedText: "Lost Escort Cargo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "24,23,承装赃物的包袱,室外,880023,880023"
   splits:
   - split: 2
     text: "承装赃物的包袱"
     translated: "The bundle containing the stolen goods"
+    qcReviewedText: "The bundle containing the stolen goods"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "25,24,半掩埋的旧物,室外,880024,880024"
   splits:
   - split: 2
     text: "半掩埋的旧物"
     translated: "Half-Buried Old Objects"
+    qcReviewedText: "Half-Buried Old Objects"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "26,25,游方郎中的兜挎,室外,880025,880025"
   splits:
   - split: 2
     text: "游方郎中的兜挎"
     translated: "Traveling Doctor's Satchel"
+    qcReviewedText: "Traveling Doctor's Satchel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "27,26,不具名的锦囊,室外,880026,880026"
   splits:
   - split: 2
     text: "不具名的锦囊"
     translated: "An Unnamed Hint"
+    qcReviewedText: "An Unnamed Hint"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "28,27,路边草坑,室外,880027,880027"
   splits:
   - split: 2
     text: "路边草坑"
     translated: "Grass pit by the roadside"
+    qcReviewedText: "Grass pit by the roadside"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "29,28,野兽遗弃的巢穴,室外,880028,880028"
   splits:
   - split: 2
     text: "野兽遗弃的巢穴"
     translated: "Abandoned den of beasts"
+    qcReviewedText: "Abandoned den of beasts"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "30,29,无人认领的书箱,室外,880029,880029"
   splits:
   - split: 2
     text: "无人认领的书箱"
     translated: "Unclaimed Book Chest"
+    qcReviewedText: "Unclaimed Book Chest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "31,30,板条货箱,通用,880030,880030"
   splits:
   - split: 2
     text: "板条货箱"
     translated: "Slatted Crate"
+    qcReviewedText: "Slatted Crate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "32,31,骸骨堆,通用,880031,880031"
   splits:
   - split: 2
     text: "骸骨堆"
     translated: "Pile of Bones"
+    qcReviewedText: "Pile of Bones"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "33,32,黄土堆,室外,880032,880032"
   splits:
   - split: 2
     text: "黄土堆"
     translated: "Pile of Yellow Earth"
+    qcReviewedText: "Pile of Yellow Earth"
+    qcTranslated: "Yellow Earth Mound"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "34,33,毁坏的篷车,室外,880033,880033"
   splits:
   - split: 2
     text: "毁坏的篷车"
     translated: "Wrecked Wagon"
+    qcReviewedText: "Wrecked Wagon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "35,34,精致宝箱,通用,880034,880034"
   splits:
   - split: 2
     text: "精致宝箱"
     translated: "Exquisite Treasure Chest"
+    qcReviewedText: "Exquisite Treasure Chest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "36,35,盔甲架,通用,880035,880035"
   splits:
   - split: 2
     text: "盔甲架"
     translated: "Armor stand"
+    qcReviewedText: "Armor stand"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "37,36,泥土堆,室外,880036,880036"
   splits:
   - split: 2
     text: "泥土堆"
     translated: "Pile of Dirt"
+    qcReviewedText: "Pile of Dirt"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "38,37,树叶堆,室外,880037,880037"
   splits:
   - split: 2
     text: "树叶堆"
     translated: "Pile of Leaves"
+    qcReviewedText: "Pile of Leaves"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "39,38,武器架,通用,880038,880038"
   splits:
   - split: 2
     text: "武器架"
     translated: "Weapon rack"
+    qcReviewedText: "Weapon rack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "40,39,竹篓,通用,880039,880039"
   splits:
   - split: 2
     text: "竹篓"
     translated: "Bamboo basket"
+    qcReviewedText: "Bamboo basket"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

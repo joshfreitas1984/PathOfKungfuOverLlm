@@ -3,21 +3,41 @@
   - split: 4
     text: "交互物名称"
     translated: "Interactive Object Name"
+    qcReviewedText: "Interactive Object Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "在地图上的名字"
     translated: "Name on the map"
+    qcReviewedText: "Name on the map"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "在地图上的描述"
     translated: "Description on the Map"
+    qcReviewedText: "Description on the Map"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,备注,battleDungeonIdListStr,touchName,touchIconId,mapId,mapPosStr,nameOnMap,descOnMap"
 - raw: "3,1,副本 连环寨,\"1000002,1000017,1000018\",内寨大门,11000812,13030,\"20,23\",副本·连环寨,连环寨盘踞承安多年，横行霸道，鱼肉乡里，堪称无恶不作，如今贼首尽皆藏身内寨之中，正是将其一网打尽的千载良机……"
   splits:
   - split: 4
     text: "内寨大门"
     translated: "Inner Camp Main Gate"
+    qcReviewedText: "Inner Camp Main Gate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Lianhuan Stronghold"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     subIndex: 1
     text: "连环寨"
@@ -25,6 +45,10 @@
   - split: 9
     text: "连环寨盘踞承安多年，横行霸道，鱼肉乡里，堪称无恶不作，如今贼首尽皆藏身内寨之中，正是将其一网打尽的千载良机……"
     translated: "Lianhuan Stronghold has held sway over Cheng'an for years, running rampant and terrorizing the locals, committing every conceivable crime. Now that all the bandit leaders are holed up in the inner stronghold, this is a once-in-a-lifetime chance to wipe them all out..."
+    qcReviewedText: "Lianhuan Stronghold has held sway over Cheng'an for years, running rampant and terrorizing the locals, committing every conceivable crime. Now that all the bandit leaders are holed up in the inner stronghold, this is a once-in-a-lifetime chance to wipe them all out..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -33,9 +57,20 @@
   - split: 4
     text: "天池小舟"
     translated: "Little Boat on Tianchi"
+    qcReviewedText: "Little Boat on Tianchi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Purifying Toad Demon Heaven Pool"
+    qcTranslated: "Dungeon·Jinggu Tianchi"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 8
     subIndex: 1
     text: "净蛊天池"
@@ -43,6 +78,10 @@
   - split: 9
     text: "净蛊天池千百年来皆是五圣禁地，其中藏有无数不可见世的至深隐秘。如今一干五圣叛党为求秘宝闯入其中，若不将其拦阻而下，恐怕天下万民，皆有倒悬之虞……"
     translated: "The Pure Gu Tianchi has been a forbidden ground of the Five Sages for thousands of years, concealing countless profound secrets that must never be revealed to the world. Now, a group of traitors among the Five Sages have breached it in search of secret treasures. If we do not stop them, the entire realm and its people may face imminent peril..."
+    qcReviewedText: "The Pure Gu Tianchi has been a forbidden ground of the Five Sages for thousands of years, concealing countless profound secrets that must never be revealed to the world. Now, a group of traitors among the Five Sages have breached it in search of secret treasures. If we do not stop them, the entire realm and its people may face imminent peril..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -51,9 +90,20 @@
   - split: 4
     text: "寝宫入口"
     translated: "Entrance to the Sleeping Palace"
+    qcReviewedText: "Entrance to the Sleeping Palace"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Xiaoxiang Palace Dormitory【Task】"
+    qcTranslated: "Dungeon·Xiaoxiang Palace Bedchamber【Task】"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 8
     subIndex: 1
     text: "潇湘寝宫"
@@ -61,6 +111,10 @@
   - split: 9
     text: "桃花坞乃天下首屈一指的温柔乡，往来宾客中不乏达官显贵，潇湘子籍此长袖善舞，为祸一方。若能除去此害，定能造福百姓，以贯侠道。"
     translated: "Taohua Dock is the most renowned pleasure quarter in the realm, attracting many distinguished guests of high rank and status. Xiaoxiangzi leverages these connections to wield influence and wreak havoc upon the region. Eliminating this threat would surely benefit the common people and uphold the path of chivalry."
+    qcReviewedText: "Taohua Dock is the most renowned pleasure quarter in the realm, attracting many distinguished guests of high rank and status. Xiaoxiangzi leverages these connections to wield influence and wreak havoc upon the region. Eliminating this threat would surely benefit the common people and uphold the path of chivalry."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -69,9 +123,17 @@
   - split: 4
     text: "古陵墓门"
     translated: "Ancient Tomb Door"
+    qcReviewedText: "Ancient Tomb Door"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Ancient Tombs of Chang'an"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     subIndex: 1
     text: "长安古陵"
@@ -79,6 +141,10 @@
   - split: 9
     text: "长安之地乃旧朝都城所在，历朝于此大修陵寝，斗转星移，或有陵墓重现天日，然长安已物是人非。而今探花组织将其作为据点，杀人买命，若能清剿此处，便可为江湖除去一凶……"
     translated: "Chang'an was the capital of the former dynasty. Over successive reigns, grand mausoleums were constructed here. As time passed and stars shifted, some tombs have resurfaced, yet Chang'an is now a place where things remain but people are gone. Today, the Tanhua organization has established an outpost here, trading in murder for survival. If we can purge this location, we shall rid the Jianghu of one great evil..."
+    qcReviewedText: "Chang'an was the capital of the former dynasty. Over successive reigns, grand mausoleums were constructed here. As time passed and stars shifted, some tombs have resurfaced, yet Chang'an is now a place where things remain but people are gone. Today, the Tanhua organization has established an outpost here, trading in murder for survival. If we can purge this location, we shall rid the Jianghu of one great evil..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -87,9 +153,17 @@
   - split: 4
     text: "岗哨寨门"
     translated: "Sentry Stronghold Gate"
+    qcReviewedText: "Sentry Stronghold Gate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Jurchen sentry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     subIndex: 1
     text: "女真岗哨"
@@ -97,6 +171,13 @@
   - split: 9
     text: "近岁辽东女真频频南侵，此次进犯，虽以瓦尔喀部为主力，却也有余部在旁策应，占据燕山山口要道，以为犄角之势。若能拔除此寨，便可削去女真爪牙，为隋东关除去一心头之患。"
     translated: "In recent years, the Jurchen of Liaodong have repeatedly invaded from the south. Although the Warkha tribe forms the main force in this incursion, other tribes are providing support, occupying key passes in the Yanshan Mountains to create a pincer formation. If we can destroy this fortress, we will cut off the Jurchen's claws and remove a persistent threat to Suidong Pass."
+    qcReviewedText: "In recent years, the Jurchen of Liaodong have repeatedly invaded from the south. Although the Warkha tribe forms the main force in this incursion, other tribes are providing support, occupying key passes in the Yanshan Mountains to create a pincer formation. If we can destroy this fortress, we will cut off the Jurchen's claws and remove a persistent threat to Suidong Pass."
+    qcTranslated: "In recent years, the Jurchen of Liaodong have repeatedly invaded from the north. Although the Warkha tribe forms the main force in this incursion, other tribes are providing support, occupying key passes in the Yanshan Mountains to create a pincer formation. If we can destroy this fortress, we will cut off the Jurchen's claws and remove a persistent threat to Suidong Pass."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -105,9 +186,17 @@
   - split: 4
     text: "贼寨屋舍"
     translated: "Bandit Camp Buildings"
+    qcReviewedText: "Bandit Camp Buildings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Water Bandit's Lair"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     subIndex: 1
     text: "水贼巢穴"
@@ -115,6 +204,13 @@
   - split: 9
     text: "壁城水寨垄断东南水运、海运多年，独霸漕运、纵横绿林。如今，有一伙狠厉水贼便盘踞于窝点之中，若能将之剿除，便可还一方水道安宁。"
     translated: "The Bicheng Water Stronghold has monopolized the southeast waterways for years, dominating maritime trade and the canal transport system, while also exerting influence over the outlaw bands. Currently, a ruthless gang of Water Bandits is entrenched in their hideout. If they can be eradicated, peace will be restored to these waterways."
+    qcReviewedText: "The Bicheng Water Stronghold has monopolized the southeast waterways for years, dominating maritime trade and the canal transport system, while also exerting influence over the outlaw bands. Currently, a ruthless gang of Water Bandits is entrenched in their hideout. If they can be eradicated, peace will be restored to these waterways."
+    qcTranslated: "The Bicheng Water Stronghold has monopolized the southeast waterways for years, dominating maritime trade and the canal transport system, while also exerting influence over the outlaw bands. Currently, a ruthless gang of Water Bandits is entrenched in their hideout. If they can be eradicated, peace will be restored to these Shuidao."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -123,9 +219,17 @@
   - split: 4
     text: "贵族家宅"
     translated: "Noble Residence"
+    qcReviewedText: "Noble Residence"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Daming Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     subIndex: 1
     text: "大名府邸"
@@ -133,6 +237,10 @@
   - split: 9
     text: "东瀛大名贼心不死，勾结沿海奸商走私兵器，豢养忍者、死士，更以活人试刀残杀百姓，意图积蓄势力，再侵中原。若能捣毁倭贼巢穴，可断东瀛染指中原之野心。"
     translated: "The Japanese Daimyo's wicked ambitions remain undimmed. He colludes with corrupt merchants along the coast to smuggle weapons, harbors ninjas and death warriors, and even tests blades on living humans, massacring the populace. His intent is to amass power and invade the Central Plains once more. If we can destroy the nest of these Japanese bandits, we can crush Japan's ambitions to meddle in the Central Plains."
+    qcReviewedText: "The Japanese Daimyo's wicked ambitions remain undimmed. He colludes with corrupt merchants along the coast to smuggle weapons, harbors ninjas and death warriors, and even tests blades on living humans, massacring the populace. His intent is to amass power and invade the Central Plains once more. If we can destroy the nest of these Japanese bandits, we can crush Japan's ambitions to meddle in the Central Plains."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 8
     template: "{0}·{1}"
@@ -141,9 +249,17 @@
   - split: 4
     text: "宫阙偏殿"
     translated: "Palace Side Hall"
+    qcReviewedText: "Palace Side Hall"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "副本"
     translated: "Dungeon"
+    qcReviewedText: "Dungeon·Deep within the Imperial Palace"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     subIndex: 1
     text: "皇宫深处"
@@ -151,6 +267,10 @@
   - split: 9
     text: "紫禁城深处宫阙，为伪帝占据，豢养鹰犬。其妄图勾结北狄势力篡权，此刻禁宫深处杀机四伏，若能冲破防线、斩杀伪帝，应可重振天朝纲纪。"
     translated: "Deep within the Forbidden City, the False Emperor has seized the palace and bred a pack of loyal hounds. He schemes to collude with the Northern Di tribes to usurp power. At this moment, lethal danger lurks in every corner of the inner palace. If we can breach his defenses and slay the False Emperor, we may restore order to the Celestial Dynasty."
+    qcReviewedText: "Deep within the Forbidden City, the False Emperor has seized the palace and bred a pack of loyal hounds. He schemes to collude with the Northern Di tribes to usurp power. At this moment, lethal danger lurks in every corner of the inner palace. If we can breach his defenses and slay the False Emperor, we may restore order to the Celestial Dynasty."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 8
     template: "{0}·{1}"

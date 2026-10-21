@@ -204,6 +204,9 @@ public class NamedTokenTests
 
         Assert.Null(Validate("<fName>你好", "Hello <fName>"));
         Assert.NotNull(Validate("<fName>你好", "Hello <fName> <fName>"));
+        Assert.NotNull(Validate("<fName>你好", "Hello"));
+        Assert.Null(Validate("<fName>你好，<fName>再见", "Hello <fName>, bye to you"));
+        Assert.NotNull(Validate("<fName>你好，<fName>再见", "Hello you, bye"));
         Assert.Null(Validate("<少侠||姑娘>你好", "<Young Hero||Miss> hello"));
         Assert.NotNull(Validate("<少侠||姑娘>你好", "<Young Hero||Miss> <Brother||Sister> hello"));
 

@@ -121,14 +121,15 @@ public static class GameFileHandling
             return null;
 
         // Name tokens must match in number, not just be present: an extra one is the model inventing the player's name.
-        // Colour tags only need to be present.
+        // Colour tags only need to be present. A name the source repeats ("<fName><少侠||姑娘>...<fName><少侠||姑娘>") may be written once and
+        // "you" after that, as the playerTitle slot's description tells the model, so a repeated name needs one and has no lower bound.
         foreach (var (pattern, exact) in new[] { (NameTokenPattern, true), (ColorTagPattern, false) })
         {
             var expected = pattern.Matches(raw).Select(m => m.Value).GroupBy(v => v).ToDictionary(g => g.Key, g => g.Count());
             foreach (var (token, count) in expected)
             {
                 var found = Regex.Matches(result, Regex.Escape(token)).Count;
-                if (exact ? found != count : found < count)
+                if (exact ? found > count || found < Math.Min(count, 1) : found < count)
                     return token;
             }
         }

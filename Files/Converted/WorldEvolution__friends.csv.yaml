@@ -3,54 +3,98 @@
   - split: 2
     text: "名称"
     translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,min,max"
 - raw: "3,1,绝情无义,1,10"
   splits:
   - split: 2
     text: "绝情无义"
     translated: "Heartless and unfeeling"
+    qcReviewedText: "Heartless and unfeeling"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,2,不仁不义,11,20"
   splits:
   - split: 2
     text: "不仁不义"
     translated: "Unrighteous and unkind"
+    qcReviewedText: "Unrighteous and unkind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,3,断恩少义,21,30"
   splits:
   - split: 2
     text: "断恩少义"
     translated: "Cutting off kindness and abandoning loyalty"
+    qcReviewedText: "Cutting off kindness and abandoning loyalty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,4,薄情寡义,31,40"
   splits:
   - split: 2
     text: "薄情寡义"
     translated: "Heartless and unfaithful"
+    qcReviewedText: "Heartless and unfaithful"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,5,仁义行事,41,50"
   splits:
   - split: 2
     text: "仁义行事"
     translated: "Act with benevolence and righteousness"
+    qcReviewedText: "Act with benevolence and righteousness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,6,含仁怀义,51,60"
   splits:
   - split: 2
     text: "含仁怀义"
     translated: "Full of benevolence and righteousness"
+    qcReviewedText: "Full of benevolence and righteousness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,7,重情重义,61,70"
   splits:
   - split: 2
     text: "重情重义"
     translated: "Loyal and devoted"
+    qcReviewedText: "Loyal and devoted"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,8,深情厚义,71,80"
   splits:
   - split: 2
     text: "深情厚义"
     translated: "Deep affection and profound loyalty"
+    qcReviewedText: "Deep affection and profound loyalty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,9,大仁大义,81,90"
   splits:
   - split: 2
     text: "大仁大义"
     translated: "Great Benevolence and Great Righteousness"
+    qcReviewedText: "Great Benevolence and Great Righteousness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,10,义薄云天,91,100"
   splits:
   - split: 2
     text: "义薄云天"
     translated: "Righteous to the skies"
+    qcReviewedText: "Righteous to the skies"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

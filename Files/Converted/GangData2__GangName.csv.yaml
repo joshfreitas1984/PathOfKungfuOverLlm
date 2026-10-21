@@ -1,0 +1,39 @@
+- raw: "1,ID,帮派类别,帮派名称,首领称呼,二阶称呼,三阶称呼,四阶称呼,五阶称呼,,"
+  splits:
+  - split: 2
+    text: "帮派类别"
+    translated: "Gang Category"
+    qcReviewedText: "Gang Category"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,style,name,firstName,sencondName,thirdName,fourthName,fifthName,,"
+- raw: "3,1,帮,\"Tornado, shiva, loss of the soul, poison control, qianshan mountain, live to kill, sand, pear flower, beast huang, spirit monkey, reincarnation, blue dragon, white tiger, xuanwu, kylin, dragon, crocodiles, the dragon king, shura, prajnaparamita, three to four elephants, five lines, liuhe, seven stars, gossip\", Gang Leader,Deputy Gang Leader,Elder,Captain, Member,,"
+  splits:
+  - split: 2
+    text: "帮"
+    translated: "Help"
+    qcReviewedText: "Help"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,2,会,\"Yunlong, yawata, coloured glaze, hag, Russian, fuxi and nuwa, shennong, compassion, ravaged, gong gong, maha, king kong, bodhi, Yellow River, rejoice, the god of wealth, in the beginning, green xia, jiugong, broken stars, yan, comfortable, neon, innate\", Gang Leader,Deputy Gang Leader,Elder,Captain, Member,,"
+  splits:
+  - split: 2
+    text: "会"
+    translated: "Will"
+    qcReviewedText: "Will"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,3,教,\"Jiugong, Yin and Yang, bliss, by god, huanglong, shadows, and the skeleton, ghost bat, Wolf, army, seven killed, and Chinese, day chief, plough, the detective, qiankun, LianZhen, hook, Chen xuan, lion, tiger, eagle, snow camel, nine\", Gang Leader,Deputy Gang Leader,Elder,Captain, Member,,"
+  splits:
+  - split: 2
+    text: "教"
+    translated: "Teach"
+    qcReviewedText: "Teach"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,,,,,,,,,,"
+- raw: "7,,,,,,,,,,"

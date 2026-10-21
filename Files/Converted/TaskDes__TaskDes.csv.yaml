@@ -104,8 +104,8 @@
     qcDefectCategory: None
   - split: 3
     text: "西门家主望之甚通达，然着承安镇甚是水深，尚需四处打探南宫家底细，方好周旋。"
-    translated: "Master of the Western Gate seems very astute, but he knows Cheng'an Town to be quite complex, still needing to gather information about the Nangong family before he can navigate it well."
-    qcReviewedText: "Master of the Western Gate seems very astute, but he knows Cheng'an Town to be quite complex, still needing to gather information about the Nangong family before he can navigate it well."
+    translated: "The head of the Ximen family is quite open-minded, but his influence in Cheng'an Town is still shallow. He must continue to investigate the Nangong family's background before he can maneuver effectively."
+    qcReviewedText: "The head of the Ximen family is quite open-minded, but his influence in Cheng'an Town is still shallow. He must continue to investigate the Nangong family's background before he can maneuver effectively."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -311,8 +311,8 @@
   splits:
   - split: 2
     text: "重登西门"
-    translated: "Revisit West Gate"
-    qcReviewedText: "Revisit West Gate"
+    translated: "Return to Ximen"
+    qcReviewedText: "Return to Ximen"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1695,6 +1695,10 @@
   - split: 3
     text: "还是去速寻王阿生为妙。"
     translated: "It would be best to quickly go find Wang A'sheng."
+    qcReviewedText: "It would be best to quickly go find Wang A'sheng."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -2823,6 +2827,10 @@
   - split: 3
     text: "不妨应了这王阿生，去寻王村长。"
     translated: "Why not agree to Wang A'sheng and go find Village Head Wang."
+    qcReviewedText: "Why not agree to Wang A'sheng and go find Village Head Wang."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -2842,6 +2850,10 @@
   - split: 3
     text: "既顺利支开王村长，那还不速速与王阿生会合？"
     translated: "Now that Village Head Wang has been successfully sent away, why not hurry to meet up with Wang A'sheng?"
+    qcReviewedText: "Now that Village Head Wang has been successfully sent away, why not hurry to meet up with Wang A'sheng?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -2884,6 +2896,10 @@
   - split: 3
     text: "既然决意摸清青萍底细，那便依王阿生计划。"
     translated: "Since we've resolved to uncover Qingping's true identity, let's proceed according to Wang A'sheng's plan."
+    qcReviewedText: "Since we've resolved to uncover Qingping's true identity, let's proceed according to Wang A'sheng's plan."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -5666,6 +5682,10 @@
   - split: 3
     text: "阿福告知镇子上有歌谣传唱，颂扬铲除连环寨之英雄事迹。"
     translated: "A'fu informed them that songs were being sung in the town, praising the heroic deeds of those who eradicated Lianhuan Stronghold."
+    qcReviewedText: "A'fu informed them that songs were being sung in the town, praising the heroic deeds of those who eradicated Lianhuan Stronghold."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -5688,6 +5708,10 @@
   - split: 3
     text: "阿舟只觉世道依旧黑暗。"
     translated: "A'zhou felt that the world remained as dark as ever."
+    qcReviewedText: "A'zhou felt that the world remained as dark as ever."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -5736,6 +5760,10 @@
   - split: 3
     text: "小阿花正盼望父亲从连环寨归来。"
     translated: "Little A'hua was eagerly awaiting her father's return from Lianhuan Stronghold."
+    qcReviewedText: "Little A'hua was eagerly awaiting her father's return from Lianhuan Stronghold."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -5810,6 +5838,10 @@
   - split: 3
     text: "阿强盼望肉价下降。"
     translated: "A'qiang hopes that meat prices will drop"
+    qcReviewedText: "A'qiang hopes that meat prices will drop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -5977,14 +6009,11 @@
   splits:
   - split: 2
     text: "初访西门"
-    translated: "First Visit to West Gate"
-    qcReviewedText: "First Visit to West Gate"
-    qcTranslated: "First Visit to Ximen"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "First Visit to Ximen"
+    qcReviewedText: "First Visit to Ximen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "西门家仆告知你家主不在，待日后再来拜访罢。"
     translated: "The Ximen Servant informs you that the master is not at home. Come back another time."
@@ -6003,14 +6032,11 @@
   splits:
   - split: 2
     text: "初访西门"
-    translated: "First Visit to West Gate"
-    qcReviewedText: "First Visit to West Gate"
-    qcTranslated: "First Visit to Ximen"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "First Visit to Ximen"
+    qcReviewedText: "First Visit to Ximen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "西门家仆拒绝你入府拜访。"
     translated: "The Ximen servant refuses your visit to the residence."
@@ -12211,6 +12237,10 @@
   - split: 3
     text: "你与丹左膳追至大理三塔，林不忘与罗刹寨贼人相斗，终有所悟，而藤娘已为贼人所掳。"
     translated: "You and Tange Sazen pursue the bandits to the Three Pagodas of Dali. Lin Buwang battles the outlaws from Luocha Stronghold and finally gains enlightenment, but Tengniang has already been captured by the bandits."
+    qcReviewedText: "You and Tange Sazen pursue the bandits to the Three Pagodas of Dali. Lin Buwang battles the outlaws from Luocha Stronghold and finally gains enlightenment, but Tengniang has already been captured by the bandits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -12230,6 +12260,10 @@
   - split: 3
     text: "你与丹左膳除去罗刹寨贼人，救下藤娘。"
     translated: "You and Tange Sazen defeated the bandits of Rakshasa Stronghold and rescued Tengniang."
+    qcReviewedText: "You and Tange Sazen defeated the bandits of Rakshasa Stronghold and rescued Tengniang."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -13227,6 +13261,10 @@
   - split: 3
     text: "你重逢王阿生，他已全然不似从前，而欲拜展诛恶为师，杀尽天下恶人。"
     translated: "You reunite with Wang A'sheng, who is no longer the same as before. He wishes to become Zhan Zhu'e's disciple and slay all the wicked in the world."
+    qcReviewedText: "You reunite with Wang A'sheng, who is no longer the same as before. He wishes to become Zhan Zhu'e's disciple and slay all the wicked in the world."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -13253,6 +13291,10 @@
   - split: 3
     text: "你告知王阿生大理青萍故旧之事，他动身往大理而去。"
     translated: "You inform Wang A'sheng of the old acquaintances in Dali, and he sets off for Dali."
+    qcReviewedText: "You inform Wang A'sheng of the old acquaintances in Dali, and he sets off for Dali."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -16850,6 +16892,10 @@
   - split: 3
     text: "经此之事，丹左膳明确本我，不复为“伪侠”。藤娘许他与你江湖同游。"
     translated: "Through this ordeal, Tange Sazen has clarified his true self and is no longer a false hero. Tengniang has granted him permission to roam the Jianghu alongside you."
+    qcReviewedText: "Through this ordeal, Tange Sazen has clarified his true self and is no longer a false hero. Tengniang has granted him permission to roam the Jianghu alongside you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -19106,6 +19152,10 @@
   - split: 3
     text: "你于候刀镇铁匠铺中遇见少年阿仓，他正想典当玉石换取一柄刀。"
     translated: "You meet the young A'cang at the blacksmith's shop in Houdao Town. He is looking to pawn a jade stone in exchange for a blade."
+    qcReviewedText: "You meet the young A'cang at the blacksmith's shop in Houdao Town. He is looking to pawn a jade stone in exchange for a blade."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -19132,6 +19182,10 @@
   - split: 3
     text: "你无意帮助阿仓，日后发现阿仓已然死去。"
     translated: "You did not help A'cang, only to find him dead later."
+    qcReviewedText: "You did not help A'cang, only to find him dead later."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."
@@ -19158,6 +19212,10 @@
   - split: 3
     text: "你给阿仓银钱买刀，阿仓成功通过刀擂大比。"
     translated: "You gave A'cang silver to buy a blade, and A'cang successfully passed the Blade Tournament."
+    qcReviewedText: "You gave A'cang silver to buy a blade, and A'cang successfully passed the Blade Tournament."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "时事变迁，时机已逝，此事已无完成之途。"
     translated: "Times have changed, the opportunity has passed; there is no way to complete this now."

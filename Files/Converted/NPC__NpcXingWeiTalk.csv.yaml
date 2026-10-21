@@ -3,21 +3,51 @@
   - split: 4
     text: "我方请求内容"
     translated: "Our Request"
+    qcReviewedText: "Our Request"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "对方对你请求内容的回应"
     translated: "The other party's response to your request"
+    qcReviewedText: "The other party's response to your request"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "判定成功"
     translated: "Judgment successful"
+    qcReviewedText: "npc Judgment successful"
+    qcTranslated: "NPC judgment successful"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 7
     text: "判定失败"
     translated: "Judgment Failed"
+    qcReviewedText: "npc Judgment Failed"
+    qcTranslated: "NPC Judgment Failed"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 8
     text: "第二级行为判定成功"
     translated: "Level 2 behavior check passed"
+    qcReviewedText: "npc Level 2 behavior check passed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "第二级行为判定失败"
     translated: "Second-level behavior check failed"
+    qcReviewedText: "npc Second-level behavior check failed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 6
     template: "npc{0}"
@@ -33,14 +63,26 @@
   - split: 6
     text: "哦？不想在此又与阁下见面了。"
     translated: "Oh? You don't wish to meet me here again."
+    qcReviewedText: "Oh? You don't wish to meet me here again."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "初次相见，却不知有何见教？"
     translated: "We meet for the first time, yet I am unsure what you wish to discuss."
+    qcReviewedText: "We meet for the first time, yet I am unsure what you wish to discuss."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,2,1,武馆（挑战前对话）,0,{0}：欢迎你的到来，有什么可以为你效劳的呢？,0,0,0,0"
   splits:
   - split: 5
     text: "欢迎你的到来，有什么可以为你效劳的呢？"
     translated: "Welcome! How may I assist you?"
+    qcReviewedText: "{0}：Welcome! How may I assist you?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -49,12 +91,24 @@
   - split: 5
     text: "想挑战我，先跟我小弟子门打一场吧"
     translated: "If you want to challenge me, first fight my junior disciples."
+    qcReviewedText: "{0}：If you want to challenge me, first fight my junior disciples."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "没想到你有点本事啊"
     translated: "I didn't expect you to have some real skill."
+    qcReviewedText: "{0}：I didn't expect you to have some real skill."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "你连我小弟子都打不过，还想挑战我？"
     translated: "You can't even beat my junior disciple, and you still dare challenge me?"
+    qcReviewedText: "{0}：You can't even beat my junior disciple, and you still dare challenge me?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -67,12 +121,24 @@
   - split: 5
     text: "想挑战我，先跟我大弟子门打一场吧"
     translated: "If you want to challenge me, first fight my senior disciple."
+    qcReviewedText: "{0}：If you want to challenge me, first fight my senior disciple."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "不错，你有资格挑战我。"
     translated: "Not bad. You have the right to challenge me."
+    qcReviewedText: "{0}：Not bad. You have the right to challenge me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "你连我大弟子都打不过，还想挑战我？。"
     translated: "You can't even beat my eldest disciple, and you still dare challenge me?"
+    qcReviewedText: "{0}：You can't even beat my eldest disciple, and you still dare challenge me?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -85,12 +151,24 @@
   - split: 5
     text: "总于。。。。要我出场了吗"
     translated: "Finally... are you calling me out?"
+    qcReviewedText: "{0}：Finally... are you calling me out?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "不可能。。。。。。好吧。。。。。馆主是你的了"
     translated: "Impossible... ...Alright... ...The pavilion is yours."
+    qcReviewedText: "{0}：Impossible... ...Alright... ...The pavilion is yours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "你很厉害，不过你比我还差点"
     translated: "You're quite impressive, but you still fall short of me."
+    qcReviewedText: "{0}：You're quite impressive, but you still fall short of me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -103,12 +181,24 @@
   - split: 5
     text: "特意来找我相谈，可是最近江湖上有了什么新鲜事儿？"
     translated: "You came here on purpose to talk with me. Is there some new news in the Jianghu lately?"
+    qcReviewedText: "{0}：You came here on purpose to talk with me. Is there some new news in the Jianghu lately?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "早就想知道关于这件事的消息了，多谢大侠告知。"
     translated: "I've been eager to learn about this for a long time. Thank you, Great Hero, for letting me know."
+    qcReviewedText: "{0}：I've been eager to learn about this for a long time. Thank you, Great Hero, for letting me know."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "此事我早已听说，不过平平无奇的世俗琐事而已，不值一提。"
     translated: "I have long heard of this matter, but it is merely an ordinary worldly triviality, not worth mentioning."
+    qcReviewedText: "{0}：I have long heard of this matter, but it is merely an ordinary worldly triviality, not worth mentioning."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -121,15 +211,34 @@
   - split: 4
     text: "朋友身上这件宝贝恰是在下苦求难得之物，不知是否可以慷慨相赠。"
     translated: "This treasure upon my friend's person is precisely the item I have longed for in vain. Might I ask if you would be so kind as to bestow it upon me?"
+    qcReviewedText: "{0}：This treasure upon my friend's person is precisely the item I have longed for in vain. Might I ask if you would be so kind as to bestow it upon me?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "听了你的请求，稍微犹豫了一会"
     translated: "Hearing your request, I hesitated for a moment."
+    qcReviewedText: "{0} Hearing your request, I hesitated for a moment."
+    qcTranslated: "{0} heard your request and hesitated for a moment."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 6
     text: "这本是我颇费周折得来之物，不过既然是朋友想要，自然不该吝啬，你拿去便是了。"
     translated: "This item was quite difficult for me to obtain, but since you are a friend and wish to have it, I would not be so stingy. Please take it."
+    qcReviewedText: "{0}：This item was quite difficult for me to obtain, but since you are a friend and wish to have it, I would not be so stingy. Please take it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "实不相瞒，这东西正是我眼下当用之物，确实不方便赠予阁下，还请见谅"
     translated: "To be honest, this is exactly what I need right now, so I'm afraid I can't part with it. Please forgive me."
+    qcReviewedText: "{0}：To be honest, this is exactly what I need right now, so I'm afraid I can't part with it. Please forgive me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -144,12 +253,24 @@
   - split: 4
     text: "最近新得了一个小物件，想到朋友你应该会喜欢，便特意送来给你了。"
     translated: "I recently acquired a small trinket and thought you might like it, so I brought it over for you."
+    qcReviewedText: "{0}：I recently acquired a small trinket and thought you might like it, so I brought it over for you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "满脸期待，伸手接过你给的物品，仔细的看了看。"
     translated: "With an eager expression, they reach out to take the item you give them and examine it closely."
+    qcReviewedText: "{0} With an eager expression, they reach out to take the item you give them and examine it closely."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "太棒了，这是我喜欢的东西"
     translated: "Awesome, I love this!"
+    qcReviewedText: "{0}：Awesome, I love this!&{0}：I don't particularly like this, but it's not bad. I'll take it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     subIndex: 1
     text: "这东西虽然不是我喜欢的，但是还不错，我收下了"
@@ -157,6 +278,10 @@
   - split: 7
     text: "这礼物确实是我喜欢的，只恐在下身无长物，无以回赠，因而愧不敢受。"
     translated: "This gift is truly to my liking. I only fear that I have nothing of value to offer in return, and so I feel unworthy to accept it."
+    qcReviewedText: "{0}：This gift is truly to my liking. I only fear that I have nothing of value to offer in return, and so I feel unworthy to accept it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -171,21 +296,45 @@
   - split: 4
     text: "近日来疏于练习，拳脚都有些生疏了，不如你我切磋一番如何？"
     translated: "I have been neglecting my practice lately, and my martial arts have grown somewhat rusty. How about we spar a bit?"
+    qcReviewedText: "{0}：I have been neglecting my practice lately, and my martial arts have grown somewhat rusty. How about we spar a bit?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "听闻“切磋”二字，不自觉的舒展了一下筋骨"
     translated: "Hearing the word sparring, I unconsciously stretched my Physique."
+    qcReviewedText: "{0} Hearing the word sparring, I unconsciously stretched my Physique."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "我也正有此意，请赐教"
     translated: "I share that intention. Please, teach me."
+    qcReviewedText: "{0}：I share that intention. Please, teach me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "今日身体略有不适，还是改日再与阁下切磋吧"
     translated: "I'm feeling a bit unwell today, so let's postpone our sparring session to another day."
+    qcReviewedText: "{0}：I'm feeling a bit unwell today, so let's postpone our sparring session to another day."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "想不到你武功早已今非昔比，在下输得心服口服"
     translated: "I never imagined your martial skill had advanced so far. I concede defeat wholeheartedly."
+    qcReviewedText: "{0}: I never imagined your martial skill had advanced so far. I concede defeat wholeheartedly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "承让，阁下这拳脚功夫确实还需勤加练习才是。"
     translated: "My apologies, but your martial arts still require much more practice."
+    qcReviewedText: "{0}：My apologies, but your martial arts still require much more practice."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -204,21 +353,45 @@
   - split: 4
     text: "看你这般模样，武功、才学、品德都是武林之中下下品，实在是江湖之笑柄。"
     translated: "Look at your state. Your martial skill, learning, and virtue are all of the lowest rank in Wulin. You are truly a laughingstock of Jianghu."
+    qcReviewedText: "{0}：Look at your state. Your martial skill, learning, and virtue are all of the lowest rank in Wulin. You are truly a laughingstock of Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "眉头微皱的看了看你"
     translated: "Furrowed brows, glanced at you"
+    qcReviewedText: "{0} Furrowed brows, glanced at you"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "阁下如此言行，莫不是诚心要惹是生非？"
     translated: "Is your intent to provoke trouble with such words and actions?"
+    qcReviewedText: "{0}：Is your intent to provoke trouble with such words and actions?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "我不屑与你一般见识，也请阁下就此作罢，莫要再咄咄逼人了。"
     translated: "I find it beneath me to stoop to your level. I urge you to desist and cease your aggressive posturing."
+    qcReviewedText: "{0}：I find it beneath me to stoop to your level. I urge you to desist and cease your aggressive posturing."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "看阁下气焰嚣张，还以为武功了得，却不想如此不堪一击。"
     translated: "I saw your arrogance and assumed you were a formidable martial artist, but you proved to be as fragile as glass."
+    qcReviewedText: "{0}：I saw your arrogance and assumed you were a formidable martial artist, but you proved to be as fragile as glass."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "恃强凌弱而已，哼！"
     translated: "Bullying the weak and oppressing the vulnerable. Hmph!"
+    qcReviewedText: "{0}：Bullying the weak and oppressing the vulnerable. Hmph!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -237,12 +410,27 @@
   - split: 5
     text: "在你伸手行窃的瞬间感到了一丝异样。"
     translated: "You felt a strange sensation the moment you reached out to steal."
+    qcReviewedText: "{0} You felt a strange sensation the moment you reached out to steal."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "鸡鸣狗盗之辈，看招！"
     translated: "You lowly scoundrels, take this!"
+    qcReviewedText: "{0}：You lowly scoundrels, take this!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "轻微的异样并未引起"
     translated: "Slight anomaly did not"
+    qcReviewedText: "Slight anomaly did not {0} Paid special attention to it, and after a brief moment of distraction, returned to their own tasks"
+    qcTranslated: "The slight anomaly did not draw {0}'s particular attention, and after a brief moment of distraction, they returned to their own tasks"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 7
     subIndex: 1
     text: "的格外注意，稍一晃神之后，就继续忙着自己的事情了"
@@ -250,9 +438,17 @@
   - split: 8
     text: "今日饶你一命，若再敢行窃，必然把你绑送官府。"
     translated: "I'll spare your life today. If you dare steal again, I will surely have you bound and handed over to the authorities."
+    qcReviewedText: "{0}：I'll spare your life today. If you dare steal again, I will surely have you bound and handed over to the authorities."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "没想到你这蟊贼也有一身好武功，我无话可说。"
     translated: "I never expected a scoundrel like you to possess such formidable martial skills. I have nothing to say."
+    qcReviewedText: "{0}：I never expected a scoundrel like you to possess such formidable martial skills. I have nothing to say."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧{0}"
@@ -269,9 +465,20 @@
   - split: 4
     text: "这位朋友，若是想安稳的活过今日，就把身上值钱的东西交出来吧。"
     translated: "Friend, if you wish to survive today in peace, hand over whatever valuables you have on you."
+    qcReviewedText: "{0}：Friend, if you wish to survive today in peace, hand over whatever valuables you have on you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "见你横在面前，"
     translated: "Seeing you standing in my way,"
+    qcReviewedText: "Seeing you standing in my way,{0} Stepped back two paces"
+    qcTranslated: "Seeing you standing in my way, {0} stepped back two paces"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 5
     subIndex: 1
     text: "后退了两步"
@@ -279,12 +486,24 @@
   - split: 6
     text: "青天白日便敢如此行凶，实在是欺人太甚"
     translated: "To commit such violence in broad daylight is truly an outrageous insult."
+    qcReviewedText: "{0}：To commit such violence in broad daylight is truly an outrageous insult."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "恃强凌弱而已，哼！我既技不如人，无话可说。"
     translated: "Bullying the weak, that's all it is. Hmph! Since I am outmatched, I have nothing to say."
+    qcReviewedText: "{0}：Bullying the weak, that's all it is. Hmph! Since I am outmatched, I have nothing to say."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "今日饶你一命，若再敢行凶抢劫，必然把你绑送官府"
     translated: "I spare your life today. If you dare to commit violence or robbery again, I will surely hand you over to the authorities."
+    qcReviewedText: "{0}：I spare your life today. If you dare to commit violence or robbery again, I will surely hand you over to the authorities."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -301,15 +520,31 @@
   - split: 5
     text: "耳边听得你一击袭来，敏捷的躲开之后，转头向你，目光如炬。"
     translated: "I heard your strike coming and nimbly dodged it, then turned to face you with eyes blazing like torches."
+    qcReviewedText: "{0} I heard your strike coming and nimbly dodged it, then turned to face you with eyes blazing like torches."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "我与阁下有何仇怨，为何拔刀相向？"
     translated: "What grievance do I have with you, sir, that you would draw your blade against me?"
+    qcReviewedText: "{0}：What grievance do I have with you, sir, that you would draw your blade against me?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "山野蛮夫，逞凶斗狠而已，算什么英雄好汉，要杀要剐悉听尊便。"
     translated: "A mere country brute, nothing more than a thug who resorts to violence. What kind of hero is that? Do with me as you please-kill or torture, I accept your will."
+    qcReviewedText: "{0}：A mere country brute, nothing more than a thug who resorts to violence. What kind of hero is that? Do with me as you please-kill or torture, I accept your will."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 9
     text: "你这歹人，今日有次一败，看你日后还敢行凶否"
     translated: "You wretch! You have been defeated today. I hope you will not dare to commit violence again in the future."
+    qcReviewedText: "{0}：You wretch! You have been defeated today. I hope you will not dare to commit violence again in the future.?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧{0}"
@@ -324,6 +559,13 @@
   - split: 4
     text: "你杀心骤起，决意置"
     translated: "Your killing intent flares up, and you resolve to put"
+    qcReviewedText: "Your killing intent flares up, and you resolve to put {0} To death"
+    qcTranslated: "Your killing intent flares up, and you resolve to put {0} to death."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 4
     subIndex: 1
     text: "于死地。"
@@ -331,9 +573,17 @@
   - split: 6
     text: "无非一死而已，动手吧"
     translated: "It's just death either way. Go ahead."
+    qcReviewedText: "{0}：It's just death either way. Go ahead."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "多谢不杀之恩"
     translated: "Thank you for sparing my life"
+    qcReviewedText: "{0}：Thank you for sparing my life"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "{0}⟦0⟧{1}"
@@ -346,6 +596,13 @@
   - split: 4
     text: "你朝着"
     translated: "You are facing"
+    qcReviewedText: "You are facing {0} He spat heavily, then hurled a string of obscenities at him."
+    qcTranslated: "You face {0} and spit heavily at him, then hurl a string of obscenities at him."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 4
     subIndex: 1
     text: "重重的吐了一口口水，而后对其一番污言秽语。"
@@ -353,9 +610,20 @@
   - split: 6
     text: "今日奇耻大辱，在下记下了，他日定当讨要个说法"
     translated: "Today's humiliation is etched in my memory. I shall seek justice for this in the future."
+    qcReviewedText: "{0}：Today's humiliation is etched in my memory. I shall seek justice for this in the future."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "轻蔑的冷笑了一声，对你的无礼言行置之不理。"
     translated: "Let out a contemptuous snort and ignore your rude behavior."
+    qcReviewedText: "{0} Let out a contemptuous snort and ignore your rude behavior."
+    qcTranslated: "{0} let out a contemptuous snort, ignoring your rude behavior."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   templates:
   - split: 4
     template: "{0}⟦0⟧{1}"
@@ -368,6 +636,14 @@
   - split: 4
     text: "念在"
     translated: "In consideration of"
+    qcReviewedText: "In consideration of {0} His misdeeds have not been severe. You decide to overlook the minor offense and let him go."
+    qcTranslated: "Given that {0} has not committed grave offenses, you decide to overlook the minor transgression and let him go."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 4
     subIndex: 1
     text: "平日里作恶不深，你决定大人不记小人过，放他一马。"
@@ -375,6 +651,10 @@
   - split: 6
     text: "多谢您高抬贵手，后会有期"
     translated: "Thank you for your mercy. We shall meet again."
+    qcReviewedText: "{0}：Thank you for your mercy. We shall meet again."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "{0}⟦0⟧{1}"
@@ -385,9 +665,20 @@
   - split: 4
     text: "你举起兵刃，决意痛下毒手，砍向对方要害，独留对方一口活气而已"
     translated: "You raise your weapon, resolved to deliver a fatal blow. You strike at the opponent's vital point, leaving them with just enough life to remain breathing."
+    qcReviewedText: "You raise your weapon, resolved to deliver a fatal blow. You strike at the opponent's vital point, leaving them with just enough life to remain breathing."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "你这心如蛇蝎的恶徒，必遭天谴"
     translated: "You vile wretch with a heart as venomous as a scorpion's sting shall surely face divine retribution."
+    qcReviewedText: "{0}：You vile wretch with a heart as venomous as a scorpion's sting shall surely face divine retribution."
+    qcTranslated: "{0}: You vile wretch with a heart as venomous as a snake's or scorpion's shall surely face divine retribution."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   templates:
   - split: 6
     template: "⟦0⟧：{0}"
@@ -396,12 +687,27 @@
   - split: 4
     text: "暂未实现"
     translated: "Not yet implemented"
+    qcReviewedText: "Not yet implemented"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "暂未实现"
     translated: "Not yet implemented"
+    qcReviewedText: "Not yet implemented"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "暂未实现"
     translated: "Not yet implemented"
+    qcReviewedText: "{0}：Not yet implemented"
+    qcTranslated: "{0}: Not yet implemented"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 7
     template: "⟦0⟧：{0}"
@@ -410,6 +716,10 @@
   - split: 5
     text: "今日一败，无非一死而已。要杀要剐，悉听尊便"
     translated: "Today's defeat means nothing but death. Kill me or behead me; do as you please."
+    qcReviewedText: "{0}：Today's defeat means nothing but death. Kill me or behead me; do as you please."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -418,6 +728,10 @@
   - split: 5
     text: "今日受此大辱，岂能继续苟活世间。"
     translated: "To suffer such a great humiliation today, how could I possibly continue to live in this world?"
+    qcReviewedText: "{0}：To suffer such a great humiliation today, how could I possibly continue to live in this world?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -426,6 +740,10 @@
   - split: 5
     text: "求大侠高抬贵手放我一命，若是大侠不弃，我愿将此宝物双手奉上"
     translated: "Please spare my life, Great Hero. If you are willing to accept it, I will gladly offer this treasure to you with both hands."
+    qcReviewedText: "{0}：Please spare my life, Great Hero. If you are willing to accept it, I will gladly offer this treasure to you with both hands."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -434,6 +752,10 @@
   - split: 5
     text: "小的命不足惜，还望大人不记小人过，放我一条性命，来日自当为阁下当牛做马"
     translated: "My life is of little value. I beg you, Lord, to overlook my transgressions and spare me. In the future, I shall serve you as a humble beast of burden."
+    qcReviewedText: "{0}：My life is of little value. I beg you, Lord, to overlook my transgressions and spare me. In the future, I shall serve you as a humble beast of burden."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 5
     template: "⟦0⟧：{0}"
@@ -442,15 +764,31 @@
   - split: 4
     text: "你我二人性情相近，志趣相投，不知道我鄙人否有幸与阁下不知道阁下义结金兰"
     translated: "You and I share similar temperaments and interests. May I have the honor of forming a Sworn Bond with you?"
+    qcReviewedText: "{0}：You and I share similar temperaments and interests. May I have the honor of forming a Sworn Bond with you?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "听闻你的一番言语，激动之情溢于言表。"
     translated: "Hearing your words, my excitement is evident in my expression."
+    qcReviewedText: "{0} Hearing your words, my excitement is evident in my expression."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "此一番你我二人结义，实在是三生有幸。"
     translated: "Forming this sworn brotherhood between us is truly a blessing of three lifetimes."
+    qcReviewedText: "{0}：Forming this sworn brotherhood between us is truly a blessing of three lifetimes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "此番厚爱实在是愧不敢当，怎奈人各有志，我与阁下非同路之人，恕在下难以从命了。"
     translated: "I am truly unworthy of such generous favor, but each person has their own aspirations. You and I are not of the same path, so please forgive me for being unable to comply."
+    qcReviewedText: "{0}：I am truly unworthy of such generous favor, but each person has their own aspirations. You and I are not of the same path, so please forgive me for being unable to comply."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -465,15 +803,31 @@
   - split: 4
     text: "我对你仰慕已久，不知是否有幸结识？"
     translated: "I have long admired you. May I have the honor of making your acquaintance?"
+    qcReviewedText: "{0}：I have long admired you. May I have the honor of making your acquaintance?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "听闻你突如其来的表白，一下子怔住了。"
     translated: "Hearing your sudden confession, I was stunned for a moment."
+    qcReviewedText: "{0} Hearing your sudden confession, I was stunned for a moment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "被阁下青睐，实属有幸，望来日可以朝暮相伴，三生相约。"
     translated: "To be favored by you is a great honor. I hope to spend every day by your side, bound together for three lifetimes."
+    qcReviewedText: "{0}：To be favored by you is a great honor. I hope to spend every day by your side, bound together for three lifetimes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "我孤身一身闯荡江湖惯了，儿女私情不足虑也，你我还是萍水相逢的好。"
     translated: "I am accustomed to wandering the Jianghu alone. Matters of romance are no concern of mine. It is best if we remain mere strangers."
+    qcReviewedText: "{0}：I am accustomed to wandering the Jianghu alone. Matters of romance are no concern of mine. It is best if we remain mere strangers."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -488,15 +842,31 @@
   - split: 4
     text: "你我相识日久，其实我对你早已倾心，不知可愿与共结连理，我白首偕老？"
     translated: "We have known each other for a long time. In truth, I have long held you in my heart. Would you be willing to marry me and grow old together?"
+    qcReviewedText: "{0}：We have known each other for a long time. In truth, I have long held you in my heart. Would you be willing to marry me and grow old together?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "听闻你突如其来的表白，一下子怔住了。"
     translated: "Hearing your sudden confession, I was stunned for a moment."
+    qcReviewedText: "{0} Hearing your sudden confession, I was stunned for a moment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "愿你我二人结发白首，直至山无角楞，江水为竭。"
     translated: "May we grow old together, until the mountains lose their peaks and the rivers run dry."
+    qcReviewedText: "{0}：May we grow old together, until the mountains lose their peaks and the rivers run dry."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "若要约定三生，自当有媒妁之言，高堂之命，你如此轻言出口，委实让人难以应允。"
     translated: "To pledge a bond for three lifetimes, there must be the words of a matchmaker and the command of one's parents. To speak so lightly is truly something I cannot accept."
+    qcReviewedText: "{0}：To pledge a bond for three lifetimes, there must be the words of a matchmaker and the command of one's parents. To speak so lightly is truly something I cannot accept."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -511,9 +881,20 @@
   - split: 4
     text: "你我二人今日重逢，不如举杯三千，百无禁忌恣意欢谑一次，如何？"
     translated: "Now that we have reunited today, why not raise three thousand cups and let loose with unrestricted merriment? What do you say?"
+    qcReviewedText: "{0}：Now that we have reunited today, why not raise three thousand cups and let loose with unrestricted merriment? What do you say?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "快哉！"
     translated: "How thrilling!"
+    qcReviewedText: "{0}：How thrilling!"
+    qcTranslated: "{0}: How exhilarating!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -524,12 +905,24 @@
   - split: 4
     text: "自此之后，你我兄弟恩断义绝，再无瓜葛，望你好自为之！"
     translated: "From this moment on, our bond as brothers is severed. We shall have no further ties. Take care of yourself!"
+    qcReviewedText: "{0}：From this moment on, our bond as brothers is severed. We shall have no further ties. Take care of yourself!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "脸上的表情略有些复杂，似乎一半惊诧，一般愤怒。"
     translated: "The expression on their face was somewhat complex, appearing half in astonishment and half in anger."
+    qcReviewedText: "{0} The expression on their face was somewhat complex, appearing half in astonishment and half in anger."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "兄弟当真要与我割袍断义？如此也好，免得耽误了兄弟的前程。"
     translated: "Are you truly determined to sever our bond? Very well. It is best this way, so as not to hinder your future."
+    qcReviewedText: "{0}：Are you truly determined to sever our bond? Very well. It is best this way, so as not to hinder your future."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -542,15 +935,31 @@
   - split: 4
     text: "近日江湖奔波，颇为辛劳，不如你我今日不言刀剑，只谈风月，如何？"
     translated: "We have been running around the Jianghu these past few days, and it has been quite exhausting. How about we refrain from discussing blades and swords today, and only talk about the wind and moon?"
+    qcReviewedText: "{0}：We have been running around the Jianghu these past few days, and it has been quite exhausting. How about we refrain from discussing blades and swords today, and only talk about the wind and moon?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "闻听你所言，面颊上绯色浮动，如晕渐浓。"
     translated: "Hearing your words, a flush crept across her cheeks, deepening like a spreading stain."
+    qcReviewedText: "{0} Hearing your words, a flush crept across her cheeks, deepening like a spreading stain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "依……依你便是"
     translated: "V-Very well, I'll do as you say"
+    qcReviewedText: "{0}：V-Very well, I'll do as you say~"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "这……周公之礼，还是留在你我合卺礼成之后，如何？"
     translated: "This... the rites of Duke Zhou should perhaps wait until after our wedding ceremony is complete. What do you say?"
+    qcReviewedText: "{0}：This... the rites of Duke Zhou should perhaps wait until after our wedding ceremony is complete. What do you say?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -565,12 +974,24 @@
   - split: 4
     text: "我与你之间相处日久，愈发觉得琴瑟难鸣，不如早些分开吧"
     translated: "We have been together for so long, yet I find our harmony growing ever more elusive. Perhaps it is best we part ways sooner rather than later."
+    qcReviewedText: "{0}：We have been together for so long, yet I find our harmony growing ever more elusive. Perhaps it is best we part ways sooner rather than later."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "不敢置信的看着你。"
     translated: "Looking at you in disbelief"
+    qcReviewedText: "{0} Looking at you in disbelief"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "不曾想到你如此负心薄幸，今日遂了你的心愿，你我各觅佳偶便是"
     translated: "I never imagined you would be so unfaithful and heartless. Today, your wish is granted; let us each find our own match."
+    qcReviewedText: "{0}：I never imagined you would be so unfaithful and heartless. Today, your wish is granted; let us each find our own match."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -583,9 +1004,17 @@
   - split: 4
     text: "今日良辰美景，不如晚些一同赏月如何？"
     translated: "What a fine day and beautiful scenery. How about we stay up a bit later to admire the moon together?"
+    qcReviewedText: "{0}：What a fine day and beautiful scenery. How about we stay up a bit later to admire the moon together?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "月下观景，人生幸事也。心上人在侧，亦人生幸事也。"
     translated: "Gazing at the moonlit scenery is a blessing in life. Having one's beloved by one's side is also a blessing in life."
+    qcReviewedText: "{0}：Gazing at the moonlit scenery is a blessing in life. Having one's beloved by one's side is also a blessing in life."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -596,15 +1025,31 @@
   - split: 4
     text: "如此花月美景，你我郎情妾意，何不早些就寝，尽享春宵一刻。"
     translated: "With such a beautiful moonlit night and our mutual affection, why not retire early to fully enjoy this precious moment of intimacy?"
+    qcReviewedText: "{0}：With such a beautiful moonlit night and our mutual affection, why not retire early to fully enjoy this precious moment of intimacy?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "听了你的请求，脸上一阵惊讶，一阵羞赧，一阵不知所措。"
     translated: "Hearing your request, their face flickered with surprise, then embarrassment, and finally a sense of being at a loss."
+    qcReviewedText: "{0} Hearing your request, their face flickered with surprise, then embarrassment, and finally a sense of being at a loss."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "依你便是"
     translated: "As you wish"
+    qcReviewedText: "{0}：As you wish~"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "每天都只想男欢女爱之事，不知上进。"
     translated: "Every day, all you think about is romance and pleasure, with no ambition to improve yourself."
+    qcReviewedText: "{0}：Every day, all you think about is romance and pleasure, with no ambition to improve yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"
@@ -619,12 +1064,24 @@
   - split: 4
     text: "你我缘尽于此，今日与你休书一封，来日便不再是夫妻了。"
     translated: "Our bond ends here. I write this letter of divorce today; from now on, we shall no longer be husband and wife."
+    qcReviewedText: "{0}：Our bond ends here. I write this letter of divorce today; from now on, we shall no longer be husband and wife."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "一脸不可置信，瞪大的双眼慢慢涌出泪水来"
     translated: "With an expression of utter disbelief, tears slowly well up in their wide eyes."
+    qcReviewedText: "{0} With an expression of utter disbelief, tears slowly well up in their wide eyes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "罢了，曾经的海誓山盟不过是过眼云烟而已，此言既已出口，还望你他日不会后悔。"
     translated: "Very well. The vows we once exchanged were but fleeting clouds. Now that these words have left my lips, I hope you will not regret them in the days to come."
+    qcReviewedText: "{0}：Very well. The vows we once exchanged were but fleeting clouds. Now that these words have left my lips, I hope you will not regret them in the days to come."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "⟦0⟧：{0}"

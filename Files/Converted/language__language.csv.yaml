@@ -5,58 +5,106 @@
   - split: 2
     text: "性别选择"
     translated: "Gender Selection"
+    qcReviewedText: "Gender Selection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,CreateRole_2,脸型选择,"
   splits:
   - split: 2
     text: "脸型选择"
     translated: "Face Shape Selection"
+    qcReviewedText: "Face Shape Selection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,CreateRole_3,前发,"
   splits:
   - split: 2
     text: "前发"
     translated: "Forward throw"
+    qcReviewedText: "Forward throw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,CreateRole_4,后发,"
   splits:
   - split: 2
     text: "后发"
     translated: "Later move"
+    qcReviewedText: "Later move"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,CreateRole_5,眼睛,"
   splits:
   - split: 2
     text: "眼睛"
     translated: "Eyes"
+    qcReviewedText: "Eyes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,CreateRole_6,眉毛,"
   splits:
   - split: 2
     text: "眉毛"
     translated: "Eyebrows"
+    qcReviewedText: "Eyebrows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,CreateRole_7,鼻子,"
   splits:
   - split: 2
     text: "鼻子"
     translated: "Nose"
+    qcReviewedText: "Nose"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,CreateRole_8,嘴巴,"
   splits:
   - split: 2
     text: "嘴巴"
     translated: "Mouth"
+    qcReviewedText: "Mouth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,CreateRole_9,脸饰,"
   splits:
   - split: 2
     text: "脸饰"
     translated: "Face mask"
+    qcReviewedText: "Face mask"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,CreateRole_10,胡须,"
   splits:
   - split: 2
     text: "胡须"
     translated: "Beard"
+    qcReviewedText: "Beard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,CreateRole_11,服装,"
   splits:
   - split: 2
     text: "服装"
     translated: "Clothing"
+    qcReviewedText: "Clothing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,CreateRole_12,高度,"
   splits:
   - split: 2
     text: "高度"
     translated: "Height"
+    qcReviewedText: "Height"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

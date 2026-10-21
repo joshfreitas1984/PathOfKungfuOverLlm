@@ -2842,8 +2842,8 @@
   splits:
   - split: 4
     text: "西门家主宅，时有江湖豪侠往来其间。"
-    translated: "In the main residence of the Western Gate family, there are often martial heroes of the Jianghu who come and go."
-    qcReviewedText: "In the main residence of the Western Gate family, there are often martial heroes of the Jianghu who come and go."
+    translated: "The Ximen family's main residence, where heroes of the Jianghu often come and go."
+    qcReviewedText: "The Ximen family's main residence, where heroes of the Jianghu often come and go."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2860,8 +2860,8 @@
   splits:
   - split: 4
     text: "西门家厢房，布置典雅，却略有破败之相。"
-    translated: "The Western Gate family's guest room is elegantly furnished, yet shows signs of neglect."
-    qcReviewedText: "The Western Gate family's guest room is elegantly furnished, yet shows signs of neglect."
+    translated: "The side room of the Ximen family was elegantly furnished, yet showed slight signs of decay."
+    qcReviewedText: "The side room of the Ximen family was elegantly furnished, yet showed slight signs of decay."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -45053,6 +45053,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[0].talks{json}[1].talk,<fName>兄，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
   splits:
   - split: 4
@@ -45079,6 +45083,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[0].talks{json}[2].talk,<fName>姑娘，你虽胜我，却也只胜在那功法凌厉。要是我能从杜先生那学个一招半式，定胜你！"
   splits:
   - split: 4
@@ -45105,6 +45113,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[0].talks{json}[3].talk,...哎哟，我这腿，怎如此疼痛，定是伤了筋骨。待我调养些时日，必让你好好见识我的拳脚功夫。"
   splits:
   - split: 4
@@ -45119,6 +45131,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[1].talks{json}[0].talk,虽说是地窖，但实为一个开在墙壁的洞口缝隙，就在屋中最里处。"
   splits:
   - split: 4
@@ -45133,6 +45149,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[1].talk,<fName>兄……"
   splits:
   - split: 4
@@ -45159,6 +45179,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[2].talk,<fName>姑娘……"
   splits:
   - split: 4
@@ -45185,6 +45209,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[3].talk,我跑遍村口各处，也未寻到他。只发现此处众多凌乱的脚印……"
   splits:
   - split: 4
@@ -45217,6 +45245,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[4].talk,可那只是我爹酒后所言，当不得真。"
   splits:
   - split: 4
@@ -45240,6 +45272,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[5].talk,啊……竟真是如此。"
   splits:
   - split: 4
@@ -45254,6 +45290,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[6].talk,但我……我还是放心不下我爹，我还是再寻寻我爹。"
   splits:
   - split: 4
@@ -45268,6 +45308,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[7].talk,我爹仅一山野村夫，又无武艺傍身，怎会行此鲁莽之事？"
   splits:
   - split: 4
@@ -45291,6 +45335,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[8].talk,可那只是我爹酒后所言，当不得真。"
   splits:
   - split: 4
@@ -45314,6 +45362,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[2].talks{json}[9].talk,<fName><兄||姑娘>此事待以后再议……我还是放心不下我爹，我还是再寻寻我爹。"
   splits:
   - split: 4
@@ -45333,6 +45385,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[3].talks{json}[0].talk,走……你走啊！"
   splits:
   - split: 4
@@ -45350,6 +45406,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[4].talks{json}[1].talk,为什么……为什么，好人不应该有好报吗？"
   splits:
   - split: 4
@@ -45364,6 +45424,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[4].talks{json}[2].talk,为什么……为什么，好人不应该有好报吗？"
   splits:
   - split: 4
@@ -45378,6 +45442,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[5].talks{json}[0].talk,<fName><大哥||姑娘>！你回来了！可曾在地窖中发现些什么？"
   splits:
   - split: 4
@@ -45409,6 +45477,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1935,1110001002,15,[5].talks{json}[1].talk,那便辛苦<fName><大哥||姑娘>再走一趟！"
   splits:
   - split: 4
@@ -48509,17 +48581,14 @@
   splits:
   - split: 4
     text: "西门二爷仗义！{playerTitle}仗义！"
-    translated: "Mr. Second Master Xi Men is righteous! {playerTitle} is righteous!"
+    translated: "Second Master Ximen is righteous! {playerTitle} is righteous!"
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "Mr. Second Master Xi Men is righteous! {playerTitle} is righteous!"
-    qcTranslated: "Second Master Ximen is righteous! {playerTitle} is righteous!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcReviewedText: "Second Master Ximen is righteous! {playerTitle} is righteous!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2008,1120001006,15,[0].talks{json}[0].name,小包袱"
   splits:
   - split: 4
@@ -49735,8 +49804,8 @@
   splits:
   - split: 4
     text: "家主一朝身死，西门家该何去何从……"
-    translated: "Now that the family head has passed away, what should the Western Gate family do..."
-    qcReviewedText: "Now that the family head has passed away, what should the Western Gate family do..."
+    translated: "With the patriarch's sudden death, where should the Ximen family turn to..."
+    qcReviewedText: "With the patriarch's sudden death, where should the Ximen family turn to..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49960,8 +50029,8 @@
   splits:
   - split: 4
     text: "西门家落得这般下场，当真是咎由自取。"
-    translated: "The Western Gate family met this fate; they truly brought it upon themselves."
-    qcReviewedText: "The Western Gate family met this fate; they truly brought it upon themselves."
+    translated: "The Ximen family brought this upon themselves"
+    qcReviewedText: "The Ximen family brought this upon themselves"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -50656,6 +50725,10 @@
   - split: 4
     text: "阿福"
     translated: "A'fu"
+    qcReviewedText: "A'fu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2070,1120002020,15,[0].talks{json}[0].talk,少爷人长得好，家世也好，诗才也好，什么都好！"
   splits:
   - split: 4
@@ -50670,6 +50743,10 @@
   - split: 4
     text: "阿福"
     translated: "A'fu"
+    qcReviewedText: "A'fu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2070,1120002020,15,[1].talks{json}[0].talk,承安豪侠世无双，匹马单枪破连环……此句童谣已然传遍承安镇，如今无人不知这位神秘英雄……"
   splits:
   - split: 4
@@ -50765,6 +50842,10 @@
   - split: 4
     text: "阿年"
     translated: "A'nian"
+    qcReviewedText: "A'nian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2072,1120002022,15,[0].talks{json}[0].talk,小姐终日抱着个琴不放，也不明白到底有什么好弹的。"
   splits:
   - split: 4
@@ -50942,6 +51023,10 @@
   - split: 4
     text: "阿强"
     translated: "A'qiang"
+    qcReviewedText: "A'qiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2076,1120002026,15,[0].talks{json}[0].talk,近日东市的肉价好像上涨了些许？没了那东霸天，这坊间反倒是更乱了。"
   splits:
   - split: 4
@@ -50956,6 +51041,10 @@
   - split: 4
     text: "阿强"
     translated: "A'qiang"
+    qcReviewedText: "A'qiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2076,1120002026,15,[1].talks{json}[0].talk,连环寨覆灭要是能使肉价下降该有多好！"
   splits:
   - split: 4
@@ -50970,6 +51059,10 @@
   - split: 4
     text: "阿舟"
     translated: "A'zhou"
+    qcReviewedText: "A'zhou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2077,1120002027,15,[0].talks{json}[0].talk,居此世道，能安稳生活已经十分满足了。"
   splits:
   - split: 4
@@ -50984,6 +51077,10 @@
   - split: 4
     text: "阿舟"
     translated: "A'zhou"
+    qcReviewedText: "A'zhou"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2077,1120002027,15,[1].talks{json}[0].talk,连环寨贼寇虽灭，如此世道也不会有何变化……"
   splits:
   - split: 4
@@ -51226,6 +51323,10 @@
   - split: 4
     text: "小阿花"
     translated: "Little A'hua"
+    qcReviewedText: "Little A'hua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2082,1120002032,15,[0].talks{json}[0].talk,爹爹什么时候回来啊......"
   splits:
   - split: 4
@@ -51240,6 +51341,10 @@
   - split: 4
     text: "小阿花"
     translated: "Little A'hua"
+    qcReviewedText: "Little A'hua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2082,1120002032,15,[1].talks{json}[0].talk,小花好饿……爹爹怎么还没从寨中回来……"
   splits:
   - split: 4
@@ -51628,8 +51733,8 @@
   splits:
   - split: 4
     text: "哎……这西门家，一夜之间忽然没了……"
-    translated: "Ah...... The Western Gate family is suddenly gone overnight......"
-    qcReviewedText: "Ah...... The Western Gate family is suddenly gone overnight......"
+    translated: "Ah... the Ximen family has vanished overnight..."
+    qcReviewedText: "Ah... the Ximen family has vanished overnight..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -51877,8 +51982,8 @@
   splits:
   - split: 4
     text: "历经西门家之事，承安时局更是乱上加乱，只愿东市那些人莫要借机生事，否则……"
-    translated: "After the incident at the Western Gate family, the political situation in Cheng'an has become even more chaotic. I only hope that those people in the East Market do not take advantage of the situation to cause trouble, or else..."
-    qcReviewedText: "After the incident at the Western Gate family, the political situation in Cheng'an has become even more chaotic. I only hope that those people in the East Market do not take advantage of the situation to cause trouble, or else..."
+    translated: "After the troubles at the Ximen family, the situation in Cheng'an has only grown more chaotic. I can only hope those in the Eastern Market do not take advantage of the chaos to stir up trouble; otherwise..."
+    qcReviewedText: "After the troubles at the Ximen family, the situation in Cheng'an has only grown more chaotic. I can only hope those in the Eastern Market do not take advantage of the chaos to stir up trouble; otherwise..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -52775,8 +52880,8 @@
   splits:
   - split: 4
     text: "西门家愈发势微，若是老家主尚在，焉会如此……"
-    translated: "The Western Gate family's influence has waned even further; if the old patriarch were still around, things wouldn't be this way......"
-    qcReviewedText: "The Western Gate family's influence has waned even further; if the old patriarch were still around, things wouldn't be this way......"
+    translated: "The Ximen family has grown ever weaker. Had the old patriarch still been alive, things would never have come to this..."
+    qcReviewedText: "The Ximen family has grown ever weaker. Had the old patriarch still been alive, things would never have come to this..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -52793,14 +52898,11 @@
   splits:
   - split: 4
     text: "唉，从今往后，西门家该如何才好……"
-    translated: "Sigh, from now on, how should the Western Gate family fare..."
-    qcReviewedText: "Sigh, from now on, how should the Western Gate family fare..."
-    qcTranslated: "Sigh, from now on, how should the Ximen family fare..."
-    qcStatus: Corrected
+    translated: "Sigh... What is to become of the Ximen family from now on..."
+    qcReviewedText: "Sigh... What is to become of the Ximen family from now on..."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "2149,1120002100,15,[0].talks{json}[0].talk,西门家仆微微躬身，颇为尊敬。"
   splits:
   - split: 4
@@ -69321,6 +69423,10 @@
   - split: 4
     text: "阿藤"
     translated: "A'teng"
+    qcReviewedText: "A'teng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3042,1170001055,15,[0].talks{json}[0].talk,<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
   splits:
   - split: 4
@@ -69338,6 +69444,10 @@
   - split: 4
     text: "阿藤"
     translated: "A'teng"
+    qcReviewedText: "A'teng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3042,1170001055,15,[2].talks{json}[0].talk,<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
   splits:
   - split: 4
@@ -69355,6 +69465,10 @@
   - split: 4
     text: "阿藤"
     translated: "A'teng"
+    qcReviewedText: "A'teng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3042,1170001055,15,[3].talks{json}[0].talk,那冤家不知何时能归……"
   splits:
   - split: 4
@@ -69378,6 +69492,10 @@
   - split: 4
     text: "藤娘离别之意，皆在其中，且借此曲壮我胸怀，天下偌大，无我不可去者！"
     translated: "Tengniang's parting sentiments are all contained within this melody. Let me use it to fortify my spirit. The world is vast, and there is no place I cannot go!"
+    qcReviewedText: "Tengniang's parting sentiments are all contained within this melody. Let me use it to fortify my spirit. The world is vast, and there is no place I cannot go!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3043,1170001056,15,[0].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
@@ -69416,6 +69534,10 @@
     tokens:
       playerTitle:
         source: "<贤弟||小妹>"
+    qcReviewedText: "Now is not the best time. {playerTitle}, you may come to find me again in three days. By then, Tengniang should have calmed down, and we can drink to our heart's content!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3046,1170001059,15,[0].talks{json}[0].talk,一剑封喉，回天乏术！"
   splits:
   - split: 4
@@ -71437,6 +71559,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3109,1170001123,15,[0].talks{json}[0].talk,走……你走啊！"
   splits:
   - split: 4
@@ -72153,6 +72279,10 @@
   - split: 4
     text: "阿金"
     translated: "A'jin"
+    qcReviewedText: "A'jin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3169,1170009001,15,[0].talks{json}[0].talk,嘿，要买趁手家伙，那客官可是来对地方了。"
   splits:
   - split: 4
@@ -86616,6 +86746,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3938,1200000226,15,[0].talks{json}[0].talk,我已有决意，定要似展伯伯那般，以手中剑，诛尽天下恶人！"
   splits:
   - split: 4
@@ -93468,9 +93602,12 @@
     text: "你见解倒合我心意，且先去罢，若逢他事，李某或需再听听你心中所想。"
     translated: "Your insights align with my thoughts; you may leave for now. If anything else comes up, Li Mou might need to hear your ideas again."
     qcReviewedText: "Your insights align with my thoughts; you may leave for now. If anything else comes up, Li Mou might need to hear your ideas again."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "Your insights align with my thoughts; you may leave for now. If anything else comes up, I, Li, might need to hear your ideas again."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "4417,1220001007,15,[2].talks{json}[0].name,李麒"
   splits:
   - split: 4
@@ -93557,9 +93694,12 @@
       playerTitle:
         source: "<兄弟||姑娘>"
     qcReviewedText: "{playerTitle} {firstName}, Li Mou has always been a man of his word. If you need anything in the future, all of Daqi Sect will be at your disposal."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "{playerTitle} {firstName}, I, Li, have always been a man of my word. If you need anything in the future, all of Daqi Sect will be at your disposal."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "4418,1220001008,15,[1].talks{json}[0].name,仇千秋"
   splits:
   - split: 4
@@ -96964,9 +97104,12 @@
     text: "成某所言是真是假，请阁下到冯兄弟家中，一问便知。"
     translated: "Whether Cheng Mou speaks the truth or not, please go to Brother Feng's house and ask him directly."
     qcReviewedText: "Whether Cheng Mou speaks the truth or not, please go to Brother Feng's house and ask him directly."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "Whether what I, Cheng, have said is true or false, please go to Brother Feng's house and ask him directly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "4727,1230001016,15,[1].talks{json}[0].name,成达"
   splits:
   - split: 4
@@ -99615,9 +99758,12 @@
       playerTitle:
         source: "<少侠||姑娘>"
     qcReviewedText: "{playerTitle} {firstName}, recently Chen Mou has been killing plenty of Tartars. Now that you're here, we must have a good drink together!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "{playerTitle} {firstName}, I haven't been short on killing Tartars lately. Now that you're here, we must have a good drink together!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "4932,1240001052,15,[0].talks{json}[0].talk,此人业已毙命。"
   splits:
   - split: 4
@@ -103432,6 +103578,10 @@
   - split: 4
     text: "阿仓"
     translated: "A'cang"
+    qcReviewedText: "A'cang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5238,1260001025,15,[0].talks{json}[0].talk,此人业已毙命。"
   splits:
   - split: 4
@@ -112782,9 +112932,12 @@
     text: "周某感激大侠不弃犬子，愿亲自教诲……大侠之恩，没齿难忘！"
     translated: "Zhou Mou is grateful that Great Hero did not abandon his son and wishes to personally instruct him... The Hero's kindness will be remembered until the end of his days!"
     qcReviewedText: "Zhou Mou is grateful that Great Hero did not abandon his son and wishes to personally instruct him... The Hero's kindness will be remembered until the end of his days!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "I, Zhou, am grateful that Great Hero did not abandon my son and wishes to personally instruct him... The Hero's kindness will be remembered until the end of my days!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "6009,1400001133,15,[0].talks{json}[0].name,老人"
   splits:
   - split: 4

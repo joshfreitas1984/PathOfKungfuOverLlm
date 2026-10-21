@@ -94,6 +94,8 @@ public static class TextFileConfiguration
             // Event, boss, gambling, assassin-task, gang-task and letter text, shown directly (nothing compares it with Chinese). The sandbox
             // copies (BetShop2, GangData2, RefreshTalk2) are already English in the shipped game, so they are not listed. The 说明 column of
             // dialogChange, the 备注 columns and WorldEvolution__gangTask (never loaded) are design notes.
+            // GangData2__GangName is English in the shipped game except the style column (帮/会/教), which the game appends to the name ("... 会").
+            new() { Path = "GangData2__GangName.csv", SkipColumns = TranslateOnly(11, 2) },
             new() { Path = "NPC__dialogChange.csv", SkipColumns = TranslateOnly(9, 6) },
             new() { Path = "NPC__multiAction.csv", SkipColumns = TranslateOnly(39, 28, 29) },
             new() { Path = "RefreshBoss__RefreshTalk.csv", SkipColumns = TranslateOnly(10, 2) },

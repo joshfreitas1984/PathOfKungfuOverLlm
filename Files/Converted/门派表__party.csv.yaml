@@ -3,47 +3,83 @@
   - split: 2
     text: "门派名称"
     translated: "Sect Name"
+    qcReviewedText: "Sect Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,sectStyle,,,,,"
 - raw: "3,1001,太和派,1,,,,,"
   splits:
   - split: 2
     text: "太和派"
     translated: "Taihe Sect"
+    qcReviewedText: "Taihe Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,1002,天涯海阁,2,,,,,"
   splits:
   - split: 2
     text: "天涯海阁"
     translated: "Tianya Haige"
+    qcReviewedText: "Tianya Haige"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,1003,两禅寺,3,,,,,"
   splits:
   - split: 2
     text: "两禅寺"
     translated: "Liangchan Temple"
+    qcReviewedText: "Liangchan Temple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,1004,神秀峰,4,,,,,"
   splits:
   - split: 2
     text: "神秀峰"
     translated: "Shenxiu Peak"
+    qcReviewedText: "Shenxiu Peak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,1005,五圣教,5,,,,,"
   splits:
   - split: 2
     text: "五圣教"
     translated: "Wusheng Sect"
+    qcReviewedText: "Wusheng Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,1006,大旗门,6,,,,,"
   splits:
   - split: 2
     text: "大旗门"
     translated: "Daqi Sect"
+    qcReviewedText: "Daqi Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,1007,大雪山,7,,,,,"
   splits:
   - split: 2
     text: "大雪山"
     translated: "Daxue Mountain"
+    qcReviewedText: "Daxue Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,1,无门无派,8,,,,,"
   splits:
   - split: 2
     text: "无门无派"
     translated: "No Sect"
+    qcReviewedText: "No Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,,,,,,,,"
 - raw: "12,,,,,,,,"
 - raw: "13,,,,,,,,"

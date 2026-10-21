@@ -2581,6 +2581,10 @@
   - split: 5
     text: "好……那丹某便回大理探望藤娘。"
     translated: "Very well... Then I, Dan, shall return to Dali to visit Tengniang."
+    qcReviewedText: "Very well... Then I, Dan, shall return to Dali to visit Tengniang."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "253,1007,\"1190001076,30\",\"//,>\",\"touchId,love\",……嗯。若烟只回桃花坞中探望姊妹。,33,2"
   splits:
   - split: 5
@@ -2667,6 +2671,10 @@
   - split: 5
     text: "……阿真回辽东去，阿真不需帮手。"
     translated: "... A'zhen will return to Liaodong. A'zhen does not need help."
+    qcReviewedText: "... A'zhen will return to Liaodong. A'zhen does not need help."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "263,1017,\"1220001042,30\",\"//,>\",\"touchId,love\",是……小弟别无所归，只回辽东看看。,33,2"
   splits:
   - split: 5
@@ -2892,6 +2900,10 @@
   - split: 5
     text: "阿真不熟悉中原，阿真仍回辽东杀鞑子去。"
     translated: "A'zhen is unfamiliar with the Central Plains. A'zhen will return to Liaodong to slay the Tartars."
+    qcReviewedText: "A'zhen is unfamiliar with the Central Plains. A'zhen will return to Liaodong to slay the Tartars."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "283,1037,\"1220001042,29\",\"//,<\",\"touchId,love\",是，小弟回去后一定日日习练，不致荒废功夫。,33,2"
   splits:
   - split: 5
@@ -2981,6 +2993,10 @@
   - split: 5
     text: "好……那丹某便回大理探望藤娘。"
     translated: "Very well... Then I, Dan, shall return to Dali to visit Tengniang."
+    qcReviewedText: "Very well... Then I, Dan, shall return to Dali to visit Tengniang."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "293,1047,\"1190001076,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",……嗯。若烟只回桃花坞中探望姊妹。,33,3"
   splits:
   - split: 5
@@ -3067,6 +3083,10 @@
   - split: 5
     text: "……阿真回辽东去，阿真不需帮手。"
     translated: "... A'zhen will return to Liaodong. A'zhen does not need help."
+    qcReviewedText: "... A'zhen will return to Liaodong. A'zhen does not need help."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "303,1057,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",是……小弟别无所归，只回辽东看看。,33,3"
   splits:
   - split: 5
@@ -3298,6 +3318,10 @@
   - split: 5
     text: "阿真不熟悉中原，阿真仍回辽东杀鞑子去。"
     translated: "A'zhen is unfamiliar with the Central Plains. A'zhen will return to Liaodong to slay the Tartars."
+    qcReviewedText: "A'zhen is unfamiliar with the Central Plains. A'zhen will return to Liaodong to slay the Tartars."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "323,1077,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JinLan>,love\",是，小弟回去后一定日日习练，不致荒废功夫。,33,3"
   splits:
   - split: 5
@@ -3505,6 +3529,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "A'zhen is going back to Liaodong... Brother {playerLastName}, you don't want A'zhen anymore?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "343,1097,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -3716,6 +3744,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "A'zhen is returning to Liaodong to visit Grandpa... When will Brother {playerLastName} come to see A'zhen?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "363,1117,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
@@ -3916,6 +3948,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "A'zhen is going back to Liaodong... Brother {playerLastName}, you don't want A'zhen anymore?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "383,1137,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",是……弟只在辽东，等候姊姊相召。,33,3"
   splits:
   - split: 5
@@ -4127,6 +4163,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "A'zhen is returning to Liaodong to visit Grandpa... When will Brother {playerLastName} come to see A'zhen?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "403,1157,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊放心，弟在辽东能顾好自己，姊姊万事小心。,33,3"
   splits:
   - split: 5
@@ -4389,6 +4429,10 @@
         source: "fp"
       playerTitle:
         source: "[大哥||姐姐]"
+    qcReviewedText: "{playerFirstName} {playerTitle}, what did A'zhen do wrong...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "423,1217,\"1220001042,30\",\"//,>\",\"touchId,love\",fp大侠……是小弟何处做得不对么？,30,2"
   splits:
   - split: 5
@@ -4919,6 +4963,10 @@
         source: "lp"
       playerTitle:
         source: "[哥哥||姐姐]"
+    qcReviewedText: "{playerTitle} {playerLastName}, what did A'zhen do wrong...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "463,1257,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JinLan>,love\",lp[哥哥||姐姐]……是小弟何处做得不对么？,30,3"
   splits:
   - split: 5
@@ -5404,6 +5452,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "{playerLastName} Brother... What did A'zhen do wrong...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "503,1297,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
@@ -5610,6 +5662,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "A'zhen will be Brother {playerLastName}'s arrow. A'zhen will definitely protect Brother {playerLastName}!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "523,1317,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<JuanLv>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5
@@ -5819,6 +5875,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "{playerLastName} Brother... What did A'zhen do wrong...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "543,1337,\"1220001042,id,30\",\"//,//,>\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊……可是我本领低微，不能帮上姊姊？,30,3"
   splits:
   - split: 5
@@ -6025,6 +6085,10 @@
     tokens:
       playerLastName:
         source: "lp"
+    qcReviewedText: "A'zhen will be Brother {playerLastName}'s arrow. A'zhen will definitely protect Brother {playerLastName}!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "563,1357,\"1220001042,id,29\",\"//,//,<\",\"touchId,JiaoQing<PeiOu>,love\",lp姊姊，弟虽本领不强，但纵有千难万险，也一定护姊姊周全！,30,3"
   splits:
   - split: 5

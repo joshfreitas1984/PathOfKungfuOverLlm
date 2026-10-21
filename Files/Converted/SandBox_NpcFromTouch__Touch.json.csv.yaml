@@ -1063,8 +1063,8 @@
   splits:
   - split: 4
     text: "历经西门家之事，承安时局更是乱上加乱，只愿东市那些人莫要借机生事，否则……"
-    translated: "After the incident at the Western Gate family, the political situation in Cheng'an has become even more chaotic. I only hope that those people in the East Market do not take advantage of the situation to cause trouble, or else..."
-    qcReviewedText: "After the incident at the Western Gate family, the political situation in Cheng'an has become even more chaotic. I only hope that those people in the East Market do not take advantage of the situation to cause trouble, or else..."
+    translated: "After the troubles at the Ximen family, the situation in Cheng'an has only grown more chaotic. I can only hope those in the Eastern Market do not take advantage of the chaos to stir up trouble; otherwise..."
+    qcReviewedText: "After the troubles at the Ximen family, the situation in Cheng'an has only grown more chaotic. I can only hope those in the Eastern Market do not take advantage of the chaos to stir up trouble; otherwise..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4131,9 +4131,12 @@
     text: "你见解倒合我心意，且先去罢，若逢他事，李某或需再听听你心中所想。"
     translated: "Your insights align with my thoughts; you may leave for now. If anything else comes up, Li Mou might need to hear your ideas again."
     qcReviewedText: "Your insights align with my thoughts; you may leave for now. If anything else comes up, Li Mou might need to hear your ideas again."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "Your insights align with my thoughts; you may leave for now. If anything else comes up, I, Li, might need to hear your ideas again."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "111,1220001007,10,[2].talks{json}[0].name,李麒"
   splits:
   - split: 4
@@ -4220,9 +4223,12 @@
       playerTitle:
         source: "<兄弟||姑娘>"
     qcReviewedText: "{playerTitle} {firstName}, Li Mou has always been a man of his word. If you need anything in the future, all of Daqi Sect will be at your service."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "{playerTitle} {firstName}, I, Li, have always been a man of my word. If you need anything in the future, all of Daqi Sect will be at your service."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "112,1220001008,10,[1].talks{json}[0].name,仇千秋"
   splits:
   - split: 4
@@ -4443,9 +4449,12 @@
     text: "成某所言是真是假，请阁下到冯兄弟家中，一问便知。"
     translated: "Whether Cheng Mou speaks the truth or not, please go to Brother Feng's house and ask him directly."
     qcReviewedText: "Whether Cheng Mou speaks the truth or not, please go to Brother Feng's house and ask him directly."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "Whether what I, Cheng, have said is true or false, please go to Brother Feng's house and ask him directly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "122,1230001016,10,[1].talks{json}[0].name,成达"
   splits:
   - split: 4
@@ -5138,6 +5147,10 @@
   - split: 4
     text: "阿藤"
     translated: "A'teng"
+    qcReviewedText: "A'teng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "138,1170001055,10,[0].talks{json}[0].talk,<少侠||姑娘>放心，赌坊往来甚众，我亲为传话，林大侠不日可知……"
   splits:
   - split: 4
@@ -5155,6 +5168,10 @@
   - split: 4
     text: "阿藤"
     translated: "A'teng"
+    qcReviewedText: "A'teng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "138,1170001055,10,[2].talks{json}[0].talk,<少侠||姑娘>好生厉害，此番大闹竟让鄙店三日不得开张……"
   splits:
   - split: 4
@@ -5172,6 +5189,10 @@
   - split: 4
     text: "阿藤"
     translated: "A'teng"
+    qcReviewedText: "A'teng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "138,1170001055,10,[3].talks{json}[0].talk,那冤家不知何时能归……"
   splits:
   - split: 4
@@ -5195,6 +5216,10 @@
   - split: 4
     text: "藤娘离别之意，皆在其中，且借此曲壮我胸怀，天下偌大，无我不可去者！"
     translated: "Tengniang's parting sentiments are all contained within this melody. Let me use it to fortify my spirit. The world is vast, and there is no place I cannot go!"
+    qcReviewedText: "Tengniang's parting sentiments are all contained within this melody. Let me use it to fortify my spirit. The world is vast, and there is no place I cannot go!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "139,1170001056,10,[0].talks{json}[0].options{json}[0].name,江湖同游。"
   splits:
   - split: 4
@@ -6627,6 +6652,10 @@
   - split: 4
     text: "王阿生"
     translated: "Wang A'sheng"
+    qcReviewedText: "Wang A'sheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "162,1200000226,10,[0].talks{json}[0].talk,我已有决意，定要似展伯伯那般，以手中剑，诛尽天下恶人！"
   splits:
   - split: 4

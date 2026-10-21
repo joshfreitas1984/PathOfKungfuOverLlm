@@ -3,29 +3,53 @@
   - split: 3
     text: "镖局名"
     translated: "Escort Agency Name"
+    qcReviewedText: "Escort Agency Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,备注,name,mapName,mapId,posStr,cartGenPosStr,oldBuildName,newBuildName,touchId,touchSceneId,touchSceneOrder,touchScenePosStr,escortTaskIntervalTime"
 - raw: "3,2,,尚和镖局,杭州城,16000,\"19,17\",\"20,15\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,464,\"1,1\",2"
   splits:
   - split: 3
     text: "尚和镖局"
     translated: "Shanghe Escort Agency"
+    qcReviewedText: "Shanghe Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,3,,玉源镖局,大理,17000,\"22,29\",\"20,28\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,368,\"1,1\",2"
   splits:
   - split: 3
     text: "玉源镖局"
     translated: "Yuyuan Escort Agency"
+    qcReviewedText: "Yuyuan Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,4,,昌合镖局,襄阳,20000,\"37,7\",\"38,5\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,394,\"1,1\",2"
   splits:
   - split: 3
     text: "昌合镖局"
     translated: "Changhe Escort Agency"
+    qcReviewedText: "Changhe Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,5,,泰宝镖局,洛阳,23000,\"31,28\",\"32,26\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,264,\"1,1\",2"
   splits:
   - split: 3
     text: "泰宝镖局"
     translated: "Taibao Escort Agency"
+    qcReviewedText: "Taibao Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,6,,弘都镖局,京城,24000,\"43,20\",\"44,18\",bangpaijiaotouA1,bangpaijiaotouA2,11000999,11000999,266,\"1,1\",2"
   splits:
   - split: 3
     text: "弘都镖局"
     translated: "Hongdu Escort Agency"
+    qcReviewedText: "Hongdu Escort Agency"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -3,39 +3,71 @@
   - split: 2
     text: "名字"
     translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,Name,MapId,Points,Staffs,Defiers,DialogIds,MonthlyIncome"
 - raw: "3,1001,【德海武馆】,13000,\"36,19_35,18_35,20_35,19_35,19\",100_101_102,103_103,108_109_110_111_121,1002_100_300"
   splits:
   - split: 2
     text: "【德海武馆】"
     translated: "[Dehai Martial Arts Hall]"
+    qcReviewedText: "[Dehai Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,1002,【成翰武馆】,16000,\"13,16_12,15_14,15_13,15_13,15\",100_101_102,103,108_109_110_111_121,1002_100_300"
   splits:
   - split: 2
     text: "【成翰武馆】"
     translated: "[Chenghan Martial Arts Hall]"
+    qcReviewedText: "[Chenghan Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,1003,【会贤武馆】,17000,\"17,21_16,20_18,20_17,20_17,20\",100_101_102,,108_109_110_111_121,1002_100_300"
   splits:
   - split: 2
     text: "【会贤武馆】"
     translated: "[Huixian Martial Arts Hall]"
+    qcReviewedText: "[Huixian Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,1004,【沛德武馆】,20000,\"38,22_37,21_39,21_38,21_38,21\",100_101_102,,108_109_110_111_121,1002_100_300"
   splits:
   - split: 2
     text: "【沛德武馆】"
     translated: "[Peide Martial Arts Hall]"
+    qcReviewedText: "[Peide Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,1005,【青门武馆】,21000,\"36,16_35,16_37,16_36,16_36,16\",100_101_102,,108_109_110_111_121,1002_100_300"
   splits:
   - split: 2
     text: "【青门武馆】"
     translated: "[Qingmen Martial Arts Hall]"
+    qcReviewedText: "[Qingmen Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,1006,【伏钧武馆】,23000,\"22,8_21,7_21,9_21,8_21,8\",100_101_102,,108_109_110_111_121,1002_100_500"
   splits:
   - split: 2
     text: "【伏钧武馆】"
     translated: "[Fujun Martial Arts Hall]"
+    qcReviewedText: "[Fujun Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,1007,【京义武馆】,24000,\"44,4_43,3_43,5_43,4_43,4\",100_101_102,,108_109_110_111_121,1002_100_500"
   splits:
   - split: 2
     text: "【京义武馆】"
     translated: "[Jingyi Martial Arts Hall]"
+    qcReviewedText: "[Jingyi Martial Arts Hall]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -3,6 +3,10 @@
   - split: 4
     text: "武馆人员身份称谓"
     translated: "Titles for Martial Arts Hall Staff"
+    qcReviewedText: "  Titles for Martial Arts Hall Staff"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 4
     template: "  {0}"
@@ -12,6 +16,10 @@
   - split: 4
     text: "馆主"
     translated: "Pavilion Master"
+    qcReviewedText: "(Pavilion Master)_(Senior Disciple)_(Little Disciple)_(Challenger)_(Guard)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "大弟子"

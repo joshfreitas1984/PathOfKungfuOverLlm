@@ -3,33 +3,61 @@
   - split: 3
     text: "货币名"
     translated: "Currency Name"
+    qcReviewedText: "Currency Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,1001,1,修为,999999999,"
   splits:
   - split: 3
     text: "修为"
     translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3,1002,2,银两,999999999,item/silver"
   splits:
   - split: 3
     text: "银两"
     translated: "Silver"
+    qcReviewedText: "Silver"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,1003,3,帮派贡献,9999999,"
   splits:
   - split: 3
     text: "帮派贡献"
     translated: "Gang Contribution"
+    qcReviewedText: "Gang Contribution"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,1004,4,门派贡献,9999999,"
   splits:
   - split: 3
     text: "门派贡献"
     translated: "Sect Contribution"
+    qcReviewedText: "Sect Contribution"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,1005,5,当前区域声望,9999999,"
   splits:
   - split: 3
     text: "当前区域声望"
     translated: "Current Regional Reputation"
+    qcReviewedText: "Current Regional Reputation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,1006,6,杀手组织声望,999999999,"
   splits:
   - split: 3
     text: "杀手组织声望"
     translated: "Assassin Organization Reputation"
+    qcReviewedText: "Assassin Organization Reputation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

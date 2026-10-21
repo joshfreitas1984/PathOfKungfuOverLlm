@@ -245,7 +245,14 @@ public static class TranslationPackaging
             if (!File.Exists(file))
                 continue;
 
-            var width = ColumnCount(File.ReadLines(file).First());
+            var header = File.ReadLines(file).FirstOrDefault();
+            if (header is null)
+            {
+                Console.WriteLine($"Skipped {textFile.Path} in translated-columns.json: the packaged file is empty (not translated yet?)");
+                continue;
+            }
+
+            var width = ColumnCount(header);
             columns[textFile.Path] = Enumerable.Range(1, width - 1).Where(c => !textFile.SkipColumns.Contains(c) || IsMirrorTarget(textFile.Path, c)).ToArray();
         }
 

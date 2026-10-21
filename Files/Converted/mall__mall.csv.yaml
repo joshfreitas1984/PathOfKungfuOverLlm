@@ -3,119 +3,242 @@
   - split: 2
     text: "商品名称"
     translated: "Item Name"
+    qcReviewedText: "Item Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "效果说明"
     translated: "Effect Description"
+    qcReviewedText: "Effect Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,itemId,num,text,price,,,,"
 - raw: "3,10000101,纵行靴,400005,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "纵行靴"
     translated: "Vertical Stride Boots"
+    qcReviewedText: "Vertical Stride Boots"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,10000102,初心镯,300004,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "初心镯"
     translated: "Purity Bracelet"
+    qcReviewedText: "Purity Bracelet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5,10000103,名俊服,200005,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "名俊服"
     translated: "Mingjun Attire"
+    qcReviewedText: "Mingjun Attire"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "6,10000104,世家带,500005,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "世家带"
     translated: "Noble Family"
+    qcReviewedText: "Noble Family"
+    qcTranslated: "Noble Family Belt"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "7,10000105,琳琅佩,600005,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "琳琅佩"
     translated: "Linglang Pendant"
+    qcReviewedText: "Linglang Pendant"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "8,10000106,明月坠,700003,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "明月坠"
     translated: "Falling Moon"
+    qcReviewedText: "Falling Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "9,10000107,白玉戒,800003,1,金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。,20,-1,1,-1,-1"
   splits:
   - split: 2
     text: "白玉戒"
     translated: "White Jade Ring"
+    qcReviewedText: "White Jade Ring"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "金鲤商会为江湖新俊所备的诸多礼品之一，愿少侠驰马试剑，快意江湖。"
     translated: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcReviewedText: "One of the many gifts prepared by the Golden Carp Merchant Guild for the rising stars of Jianghu. May Young Hero ride swift and wield your Sword with joy in Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "10,10000108,繁市绘,990007,1,繁市胜景之图，绘三教九流之貌，阅览可增加500阅历。,10,5,-1,-1,-1"
   splits:
   - split: 2
     text: "繁市绘"
     translated: "Painting of the Bustling Market"
+    qcReviewedText: "Painting of the Bustling Market"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "繁市胜景之图，绘三教九流之貌，阅览可增加500阅历。"
     translated: "A painting of the bustling market's grandeur, depicting the diverse faces of all walks of life. Viewing it increases 500 Experience."
+    qcReviewedText: "A painting of the bustling market's grandeur, depicting the diverse faces of all walks of life. Viewing it increases 500 Experience."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "11,10000109,百相图,990008,1,人世百相，众生面目皆在此图，阅览可增加5000阅历。,50,2,-1,-1,-1"
   splits:
   - split: 2
     text: "百相图"
     translated: "Hundred Faces"
+    qcReviewedText: "Hundred Faces"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "人世百相，众生面目皆在此图，阅览可增加5000阅历。"
     translated: "The Hundred Faces of the World: The countenances of all beings are depicted in this scroll. Viewing it increases 5000 Experience."
+    qcReviewedText: "The Hundred Faces of the World: The countenances of all beings are depicted in this scroll. Viewing it increases 5000 Experience."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "12,10000110,玉灵续命膏,910011,1,据传为太和山所遗丹方炼制，世间罕有，服之可完全回复气血值。,5,-1,-1,-1,-1"
   splits:
   - split: 2
     text: "玉灵续命膏"
     translated: "Jade Spirit Life-Prolonging Ointment"
+    qcReviewedText: "Jade Spirit Life-Prolonging Ointment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "据传为太和山所遗丹方炼制，世间罕有，服之可完全回复气血值。"
     translated: "Reportedly crafted from a pill formula left behind by Taihe Mountain, it is exceedingly rare in the world. Consuming it fully restores Lifeforce."
+    qcReviewedText: "Reportedly crafted from a pill formula left behind by Taihe Mountain, it is exceedingly rare in the world. Consuming it fully restores Lifeforce."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "13,10000111,天香万寿露,910012,1,昔年“梁君子”自拜月教内所盗丹药，据传其内药效可充盈气海，服之可完全回复内力值。,5,-1,-1,-1,-1"
   splits:
   - split: 2
     text: "天香万寿露"
     translated: "Celestial Fragrance Longevity Dew"
+    qcReviewedText: "Celestial Fragrance Longevity Dew"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "昔年“梁君子”自拜月教内所盗丹药，据传其内药效可充盈气海，服之可完全回复内力值。"
     translated: "The pills stolen by Gentleman Liang from the Moon-Worshipping Cult in years past are said to possess a potency that can fill the Sea of Qi; consuming them fully restores one's Inner Power."
+    qcReviewedText: "The pills stolen by Gentleman Liang from the Moon-Worshipping Cult in years past are said to possess a potency that can fill the Sea of Qi; consuming them fully restores one's Inner Power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "14,10000112,小还丹,910013,1,来源无考，丹方为不宣之秘，多收于大通商会，服之可完全回复气血值与内力值。,10,-1,-1,-1,-1"
   splits:
   - split: 2
     text: "小还丹"
     translated: "Minor Return Pill"
+    qcReviewedText: "Minor Return Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "来源无考，丹方为不宣之秘，多收于大通商会，服之可完全回复气血值与内力值。"
     translated: "Its origin is unknown. The elixir recipe is a closely guarded secret, mostly held by the Grand Commerce Guild. Consuming it fully restores Lifeforce and Inner Power."
+    qcReviewedText: "Its origin is unknown. The elixir recipe is a closely guarded secret, mostly held by the Grand Commerce Guild. Consuming it fully restores Lifeforce and Inner Power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "15,10000113,金乌丹,910014,1,日中有踆乌，扶摇望九霄，服用此丹药可立即减少1小时修炼疲劳时间。,30,-1,-1,-1,-1"
   splits:
   - split: 2
     text: "金乌丹"
     translated: "Golden Crow Pill"
+    qcReviewedText: "Golden Crow Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "日中有踆乌，扶摇望九霄，服用此丹药可立即减少1小时修炼疲劳时间。"
     translated: "The sun harbors the Crouching Crow; soaring on the whirlwind, one gazes at the nine heavens. Consuming this elixir immediately reduces cultivation fatigue by 1 hours."
+    qcReviewedText: "The sun harbors the Crouching Crow; soaring on the whirlwind, one gazes at the nine heavens. Consuming this elixir immediately reduces cultivation fatigue by 1 hours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "16,10000114,灵犀茶,910015,1,人生百态，红尘千回，皆在盏茶之间，饮之可立即减少3小时修炼疲劳时间。,50,-1,-1,-1,-1"
   splits:
   - split: 2
     text: "灵犀茶"
     translated: "Lingxi Tea"
+    qcReviewedText: "Lingxi Tea"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 5
     text: "人生百态，红尘千回，皆在盏茶之间，饮之可立即减少3小时修炼疲劳时间。"
     translated: "The myriad forms of life and the thousand turns of the mortal world all reside within a cup of tea. Drinking it immediately reduces cultivation fatigue time by 3 hours."
+    qcReviewedText: "The myriad forms of life and the thousand turns of the mortal world all reside within a cup of tea. Drinking it immediately reduces cultivation fatigue time by 3 hours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -2649,8 +2649,8 @@
     - DroppedContent
   - split: 13
     text: "应西门仲邀请，前往西门家相谈。"
-    translated: "Accepted Ximen Zhong's invitation and went to the Ximen residence for a discussion."
-    qcReviewedText: "Accepted Ximen Zhong's invitation and went to the Ximen residence for a discussion."
+    translated: "At Ximen Zhong's invitation, visit the Ximen family to discuss matters."
+    qcReviewedText: "At Ximen Zhong's invitation, visit the Ximen family to discuss matters."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2714,8 +2714,8 @@
     qcDefectCategory: None
   - split: 13
     text: "依南宫莲建议，离开陋巷，寻访西门家。"
-    translated: "Following Nangong Lian's suggestion, you left the alley and went to visit the Western Gate family."
-    qcReviewedText: "Following Nangong Lian's suggestion, you left the alley and went to visit the Western Gate family."
+    translated: "Following Nangong Lian's advice, leave the shabby alley and seek out the Ximen family."
+    qcReviewedText: "Following Nangong Lian's advice, leave the shabby alley and seek out the Ximen family."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3322,8 +3322,8 @@
   splits:
   - split: 2
     text: "重登西门"
-    translated: "Revisit West Gate"
-    qcReviewedText: "Revisit West Gate"
+    translated: "Return to Ximen"
+    qcReviewedText: "Return to Ximen"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3355,8 +3355,8 @@
   splits:
   - split: 2
     text: "重登西门二"
-    translated: "Return to Xi Men II"
-    qcReviewedText: "Return to Xi Men II"
+    translated: "Return to Ximen II"
+    qcReviewedText: "Return to Ximen II"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3396,8 +3396,8 @@
   splits:
   - split: 2
     text: "重登西门三"
-    translated: "Log in to West Gate Three again"
-    qcReviewedText: "Log in to West Gate Three again"
+    translated: "Return to Ximen III"
+    qcReviewedText: "Return to Ximen III"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3419,8 +3419,8 @@
   splits:
   - split: 2
     text: "重登西门四"
-    translated: "Return to West Gate Four"
-    qcReviewedText: "Return to West Gate Four"
+    translated: "Return to Ximen IV"
+    qcReviewedText: "Return to Ximen IV"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3449,8 +3449,8 @@
   splits:
   - split: 2
     text: "重登西门二"
-    translated: "Return to Xi Men II"
-    qcReviewedText: "Return to Xi Men II_Ximen Servant dialogue section"
+    translated: "Return to Ximen II"
+    qcReviewedText: "Return to Ximen II_Ximen Servant dialogue section"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3465,8 +3465,8 @@
   splits:
   - split: 2
     text: "重登西门二"
-    translated: "Return to Xi Men II"
-    qcReviewedText: "Return to Xi Men II_130003202_Guide"
+    translated: "Return to Ximen II"
+    qcReviewedText: "Return to Ximen II_130003202_Guide"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8550,6 +8550,10 @@
   - split: 13
     text: "前往贼人所在，助丹左膳救出阿藤。"
     translated: "Head to the bandits' location and help Tange Sazen rescue A'teng."
+    qcReviewedText: "Head to the bandits' location and help Tange Sazen rescue A'teng."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 2
     template: "{0}-{1}"
@@ -14447,6 +14451,10 @@
   - split: 13
     text: "一日后，前往大雪山候刀镇擂台处，查看阿仓情况。"
     translated: "The next day, head to the Arena in Daoshu Town on Daxue Mountain to check on A'cang."
+    qcReviewedText: "The next day, head to the Arena in Daoshu Town on Daxue Mountain to check on A'cang.(Click to track and view remaining time)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     subIndex: 1
     text: "点击追踪以查看剩余时间"

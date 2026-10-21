@@ -3,44 +3,95 @@
   - split: 2
     text: "阵法名称"
     translated: "Formation Name"
+    qcReviewedText: "Formation Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "限制文本"
     translated: "Restricted Text"
+    qcReviewedText: "Restricted Text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "阵法介绍文本"
     translated: "Formation Introduction"
+    qcReviewedText: "Formation Introduction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "阵法效果文本"
     translated: "Formation Effect Text"
+    qcReviewedText: "Formation Effect Text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2,id,name,,effect,count,textLimit,textTip,textEffect,able1,able2,able3,able4,able5,able6,able7,able8"
 - raw: "3,1000001,众势阵,此阵法可随意进行位置配置。,,0,无任何限制,人众而势高，拾薪而卷火，跨州连郡，夫星火而染天。,此阵法可随意进行位置配置。,1,1,1,1,1,1,1,1"
   splits:
   - split: 2
     text: "众势阵"
     translated: "Alliance Formation Array"
+    qcReviewedText: "Alliance Formation Array"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "无任何限制"
     translated: "With no restrictions"
+    qcReviewedText: "With no restrictions"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "人众而势高，拾薪而卷火，跨州连郡，夫星火而染天。"
     translated: "With many people and great power, gathering kindling to fuel the flames, spanning states and counties, a single spark can ignite the sky."
+    qcReviewedText: "With many people and great power, gathering kindling to fuel the flames, spanning states and counties, a single spark can ignite the sky."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "此阵法可随意进行位置配置。"
     translated: "This formation can be freely configured in terms of position."
+    qcReviewedText: "This formation can be freely configured in terms of position."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "4,1000002,六合阵,,,2,需要至少2人才能启动阵法。,融融六合，神清完足，江湖中流传的攻守兼备之阵法。,\"此阵法可增强前排角色防御8%,减少后排血量5%。\",1,0,1,1,1,1,0,1"
   splits:
   - split: 2
     text: "六合阵"
     translated: "Six Directions Formation"
+    qcReviewedText: "Six Directions Formation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 6
     text: "需要至少2人才能启动阵法。"
     translated: "At least 2 people are required to activate the formation."
+    qcReviewedText: "At least 2 people are required to activate the formation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 7
     text: "融融六合，神清完足，江湖中流传的攻守兼备之阵法。"
     translated: "Harmonious Six Directions, Spirit Clarity and Completeness, a formation known in the Jianghu for its balanced offense and defense."
+    qcReviewedText: "Harmonious Six Directions, Spirit Clarity and Completeness, a formation known in the Jianghu for its balanced offense and defense."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 8
     text: "此阵法可增强前排角色防御8%"
     translated: "This formation increases the defense of front-row characters by 8%."
+    qcReviewedText: "This formation increases the defense of front-row characters by 8%.,Reduces the HP of back-row units by 5%."
+    qcTranslated: "This formation increases the defense of front-row characters by 8%, reducing the HP of back-row units by 5%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 8
     subIndex: 1
     text: "减少后排血量5%。"
