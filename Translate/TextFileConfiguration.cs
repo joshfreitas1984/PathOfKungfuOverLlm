@@ -95,6 +95,7 @@ public static class TextFileConfiguration
             // copies (BetShop2, GangData2, RefreshTalk2) are already English in the shipped game, so they are not listed. The 说明 column of
             // dialogChange, the 备注 columns and WorldEvolution__gangTask (never loaded) are design notes.
             // GangData2__GangName is English in the shipped game except the style column (帮/会/教), which the game appends to the name ("... 会").
+            // The plugin (GangNamePatch) replaces both the name pool and the suffixes after load, so this column's translation is overridden.
             new() { Path = "GangData2__GangName.csv", SkipColumns = TranslateOnly(11, 2) },
             new() { Path = "NPC__dialogChange.csv", SkipColumns = TranslateOnly(9, 6) },
             new() { Path = "NPC__multiAction.csv", SkipColumns = TranslateOnly(39, 28, 29) },

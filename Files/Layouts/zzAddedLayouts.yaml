@@ -22,3 +22,9 @@
 - path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/name_Bg
   offsetPosition: [20, 0]
   offsetSize: [140, 0]
+- path: GameManager/UIManager/UICanvansTop/UIShopShow/bgImage/Xl/Buy/ScrollViewEquipList/Viewport/ContentEquipList/*/Go_Limit
+  offsetPosition: [-30, -70]
+  offsetSize: [-10, 0]
+  rotationZ: 90
+- path: GameManager/UIManager/UICanvansTop/UIShopShow/bgImage/Xl/Buy/ScrollViewEquipList/Viewport/ContentEquipList/*/Go_Limit/Text (Legacy)
+  rotationZ: 270

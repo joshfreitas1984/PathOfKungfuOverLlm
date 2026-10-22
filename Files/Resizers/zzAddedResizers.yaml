@@ -283,3 +283,29 @@
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Attribute/AddAttribute/*
   sampleText: External Defense
   idealFontSize: 16
+- path: GameManager/UIManager/UICanvansTop/UIShopShow/bgImage/Xl/Buy/ScrollViewEquipList/Viewport/ContentEquipList/*/Go_Limit/Text (Legacy)
+  sampleText: >
+    Purchase Limit
+  idealFontSize: 13
+  adjustWidth: 40
+  adjustHeight: -40
+- path: GameManager/UIManager/UICanvansTop/UIShopShow/bgImage/Xl/Buy/ScrollViewEquipList/Viewport/ContentEquipList/*/Item/TextTitle
+  sampleText: Small Circumstantial Fan Technique (Full Version)
+  idealFontSize: 18
+  maxFontSize: 16
+  alignment: UpperLeft
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustX: 60
+  adjustY: -15
+  adjustWidth: 120
+  adjustHeight: 20
+- path: GameManager/UIManager/UICanvansSystem/UISystemMenu/BgImage/Menus/btn_*/Text (Legacy)
+  sampleText: Save Archive
+  idealFontSize: 34
+- path: GameManager/UIManager/UIRoot/UIGameArchive/bgImage/VerticalScrollView/Viewport/Content/*/time
+  sampleText: 2026 Year 10 Month 21 Day
+  idealFontSize: 17
+- path: GameManager/UIManager/UIRoot/UIGameArchive/bgImage/*/*/time
+  sampleText: 2026 Year 10 Month 21 Day
+  idealFontSize: 17
