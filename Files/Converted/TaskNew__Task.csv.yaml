@@ -1212,8 +1212,8 @@
     qcDefectCategory: None
   - split: 13
     text: "毛毛似乎有话，听他说完。"
-    translated: "Mao Mao seems to have something to say; let him finish."
-    qcReviewedText: "Mao Mao seems to have something to say; let him finish."
+    translated: "Maomao seems to have something to say. Let him finish."
+    qcReviewedText: "Maomao seems to have something to say. Let him finish."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4426,8 +4426,8 @@
     qcDefectCategory: None
   - split: 13
     text: "待一日后，在道奴藏身处等待何傲霜。"
-    translated: "Wait until the day after and then wait for He Aoshuang at Dao Nu's hideout."
-    qcReviewedText: "Wait until the day after and then wait for He Aoshuang at Dao Nu's hideout."
+    translated: "Wait for He Aoshuang at Daoist Servant's hiding place one day later."
+    qcReviewedText: "Wait for He Aoshuang at Daoist Servant's hiding place one day later."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10371,17 +10371,14 @@
   - split: 2
     text: "决战前夕2"
     translated: "The Eve of the Final Battle 2"
-    qcReviewedText: "The Eve of the Final Battle 2-Man Zhu turned and spoke"
-    qcTranslated: "The Eve of the Final Battle 2-Man Zhu's Parting Words"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    qcReviewedText: "The Eve of the Final Battle 2-Manzhu turned around and spoke"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "曼珠回头话"
-    translated: "Man Zhu turned and spoke"
+    translated: "Manzhu turned around and spoke"
   templates:
   - split: 2
     template: "{0}-{1}"

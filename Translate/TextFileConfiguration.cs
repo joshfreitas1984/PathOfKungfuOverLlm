@@ -97,6 +97,9 @@ public static class TextFileConfiguration
             // GangData2__GangName is English in the shipped game except the style column (帮/会/教), which the game appends to the name ("... 会").
             // The plugin (GangNamePatch) replaces both the name pool and the suffixes after load, so this column's translation is overridden.
             new() { Path = "GangData2__GangName.csv", SkipColumns = TranslateOnly(11, 2) },
+            // Gang property names (mines, shops): shown on the map under "(Sheltered by <gang>)". The English-mode copy (GangData2) is Chinese too.
+            new() { Path = "GangData2__GangProperty.csv", SkipColumns = TranslateOnly(18, 3) },
+            new() { Path = "GangData__GangProperty.csv", SkipColumns = TranslateOnly(18, 3) },
             new() { Path = "NPC__dialogChange.csv", SkipColumns = TranslateOnly(9, 6) },
             new() { Path = "NPC__multiAction.csv", SkipColumns = TranslateOnly(39, 28, 29) },
             new() { Path = "RefreshBoss__RefreshTalk.csv", SkipColumns = TranslateOnly(10, 2) },

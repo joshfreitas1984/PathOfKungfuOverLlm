@@ -963,14 +963,11 @@
     qcDefectCategory: None
   - split: 26
     text: "杜鹃落尽子规啼，端木清随身佩剑，长三尺一寸，年时日久，未曾出鞘示人，太和上下，不见其锋。"
-    translated: "The cuckoo's cry echoes as Duanmu Qing draws her sword, which is three feet and one inch long. Though it has been years since she last unsheathed it to show others, none have seen its blade in Taihe."
-    qcReviewedText: "The cuckoo's cry echoes as Duanmu Qing draws her sword, which is three feet and one inch long. Though it has been years since she last unsheathed it to show others, none have seen its blade in Taihe."
-    qcTranslated: "The cuckoo's cry echoes as Duanmu Qing wears her sword, which is three feet and one inch long. Though it has been years since she last unsheathed it to show others, none have seen its blade in Taihe."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "When the azaleas fall and the cuckoos cry, Duanmu Qing carries a sword at her side. It is three feet and one inch long. Over the years, it has never been drawn from its scabbard to be shown to others; throughout Taihe, no one has seen its edge."
+    qcReviewedText: "When the azaleas fall and the cuckoos cry, Duanmu Qing carries a sword at her side. It is three feet and one inch long. Over the years, it has never been drawn from its scabbard to be shown to others; throughout Taihe, no one has seen its edge."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "55,102607,小切玉·精,Jade Cutter·Refined  ,武器,2,单手轻刃,wuqi/qingren/zhidao7,制作,1,4,0,3,4;5;6;7,攻击力+664,50,0.7,0,1,True,91,1365,1820,0,7,装备,裂石断玉，切雾撕风。,Test For English54,item/102107,100000,1,1,0,7"
   splits:
   - split: 2

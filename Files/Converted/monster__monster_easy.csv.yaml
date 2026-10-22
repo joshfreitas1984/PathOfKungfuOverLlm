@@ -3499,8 +3499,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5053,8 +5053,8 @@
   splits:
   - split: 2
     text: "蛇形蛊人"
-    translated: "Snake-shaped Gu Practitioner"
-    qcReviewedText: "Snake-shaped Gu Practitioner"
+    translated: "Snake Gu Puppet"
+    qcReviewedText: "Snake Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5251,8 +5251,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5260,8 +5260,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5269,8 +5269,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7651,8 +7651,8 @@
   splits:
   - split: 2
     text: "杜鹃"
-    translated: "Du Juan"
-    qcReviewedText: "Du Juan"
+    translated: "Dujuan"
+    qcReviewedText: "Dujuan"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15341,8 +15341,8 @@
   splits:
   - split: 2
     text: "蛊人“蒙笙”"
-    translated: "Poison Master Meng Sheng"
-    qcReviewedText: "Poison Master Meng Sheng"
+    translated: "Gu Puppet Meng Sheng"
+    qcReviewedText: "Gu Puppet Meng Sheng"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15350,8 +15350,8 @@
   splits:
   - split: 2
     text: "蜈蚣蛊人"
-    translated: "Centipede Gu Man"
-    qcReviewedText: "Centipede Gu Man"
+    translated: "Centipede Gu Puppet"
+    qcReviewedText: "Centipede Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15386,8 +15386,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15395,8 +15395,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19844,8 +19844,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19853,15 +19853,11 @@
   splits:
   - split: 2
     text: "蛊人（尸首）"
-    translated: "Guru Man (Corpse)"
-    qcReviewedText: "Guru Man (Corpse)"
-    qcTranslated: "Gu Ren (Corpse)"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Gu Puppet (Corpse)"
+    qcReviewedText: "Gu Puppet (Corpse)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2195,1500667,五圣弟子（尸首）,1180000329,五圣弟子（尸首）,0,-1,-1,,115001,,115001;200001;300001;400001;500001;600001;700001;800001,10;10;10;10;10;10;10;10,0,-1,88,65,0,30,0,3,9150001;9150002;9150003;9150004,9150011;9150012,9000001,9060021,9000003,115001,1150101;1150102;1150103;1150104;1150105;1150106;1150107;1150108;1150109;1150110,1150001;1150002,201016,2011601;2011602;2011603;2011604;2011605;2011606;2011607;2011608,301009,3010901;3010902;3010903;3010904;3010905;3010906;3010907;3010908,0,0,\"1,0.9;2,0.9;3,0.9;4,0.9;5,0.9;6,0.9;7,1;8,1;9,0.9;10,0.9;11,0.9;12,0.9;13,0.9;14,0.9;15,1\",五圣教,0,1020,,50000006,5,,0,,5,,"
   splits:
   - split: 2
@@ -19956,28 +19952,20 @@
   splits:
   - split: 2
     text: "蛊人（尸首）"
-    translated: "Guru Man (Corpse)"
-    qcReviewedText: "Guru Man (Corpse)"
-    qcTranslated: "Gu Ren (Corpse)"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Gu Puppet (Corpse)"
+    qcReviewedText: "Gu Puppet (Corpse)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2206,1500678,蛊人（尸首）,1180000351,蛊人（尸首）,0,-1,-1,guren,501005,,0,0;0;0;0;0;0;0;0,0,-1,88,65,0,30,0,3,0,0,9000001,9060021,9000003,501005,9340001,0,0,0,0,0,0,0,0,五圣教,0,1030,,,5,,0,,5,,"
   splits:
   - split: 2
     text: "蛊人（尸首）"
-    translated: "Guru Man (Corpse)"
-    qcReviewedText: "Guru Man (Corpse)"
-    qcTranslated: "Gu Ren (Corpse)"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Gu Puppet (Corpse)"
+    qcReviewedText: "Gu Puppet (Corpse)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "2207,1500679,蛛卫（尸首）,1180000352,蛛卫（尸首）,0,-1,-1,,115001,,115001;200001;300001;400001;500001;600001;700001;800001,10;10;10;10;10;10;10;10,0,-1,88,65,0,30,0,3,9150001;9150002;9150003;9150004,9150011;9150012,9000001,9060021,9000003,115001,1150101;1150102;1150103;1150104;1150105;1150106;1150107;1150108;1150109;1150110,1150001;1150002,201014,2011401;2011402;2011403;2011404;2011405;2011406;2011407;2011408,301004,3010401;3010402;3010403;3010404;3010405;3010406;3010407;3010408,0,0,\"1,0.9;2,0.9;3,0.9;4,0.9;5,0.9;6,0.9;7,1;8,1;9,0.9;10,0.9;11,0.9;12,0.9;13,0.9;14,0.9;15,1\",五圣教,0,1020,,50000006,5,,0,,5,,"
   splits:
   - split: 2
@@ -20149,8 +20137,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20158,8 +20146,8 @@
   splits:
   - split: 2
     text: "蛊人"
-    translated: "Gu Man"
-    qcReviewedText: "Gu Man"
+    translated: "Gu Puppet"
+    qcReviewedText: "Gu Puppet"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20462,8 +20450,8 @@
   splits:
   - split: 2
     text: "道奴（尸首）"
-    translated: "Dao Nu (corpse)"
-    qcReviewedText: "Dao Nu (corpse)"
+    translated: "Daoist Servant (Corpse)"
+    qcReviewedText: "Daoist Servant (Corpse)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20471,8 +20459,8 @@
   splits:
   - split: 2
     text: "道奴（尸首）"
-    translated: "Dao Nu (corpse)"
-    qcReviewedText: "Dao Nu (corpse)"
+    translated: "Daoist Servant (Corpse)"
+    qcReviewedText: "Daoist Servant (Corpse)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20480,8 +20468,8 @@
   splits:
   - split: 2
     text: "道奴（尸首）"
-    translated: "Dao Nu (corpse)"
-    qcReviewedText: "Dao Nu (corpse)"
+    translated: "Daoist Servant (Corpse)"
+    qcReviewedText: "Daoist Servant (Corpse)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20732,8 +20720,8 @@
   splits:
   - split: 2
     text: "桃卫（尸首）"
-    translated: "Tao Wei (corpse)"
-    qcReviewedText: "Tao Wei (corpse)"
+    translated: "Peach Guard (Corpse)"
+    qcReviewedText: "Peach Guard (Corpse)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20741,8 +20729,8 @@
   splits:
   - split: 2
     text: "桃卫（尸首）"
-    translated: "Tao Wei (corpse)"
-    qcReviewedText: "Tao Wei (corpse)"
+    translated: "Peach Guard (Corpse)"
+    qcReviewedText: "Peach Guard (Corpse)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20786,8 +20774,8 @@
   splits:
   - split: 2
     text: "桃卫（尸首）"
-    translated: "Tao Wei (corpse)"
-    qcReviewedText: "Tao Wei (corpse)"
+    translated: "Peach Guard (Corpse)"
+    qcReviewedText: "Peach Guard (Corpse)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -41225,8 +41213,8 @@
   splits:
   - split: 2
     text: "失心刀奴"
-    translated: "Mad Blade Slave"
-    qcReviewedText: "Mad Blade Slave"
+    translated: "Mad Blade Thrall"
+    qcReviewedText: "Mad Blade Thrall"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -42659,8 +42647,8 @@
   splits:
   - split: 2
     text: "嗜血刀奴"
-    translated: "Bloodthirsty Blade Slave"
-    qcReviewedText: "Bloodthirsty Blade Slave"
+    translated: "Bloodthirsty Blade Thrall"
+    qcReviewedText: "Bloodthirsty Blade Thrall"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

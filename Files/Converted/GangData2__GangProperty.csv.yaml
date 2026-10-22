@@ -1,0 +1,576 @@
+- raw: "1,驻地产业id,产业类型,名称,备注,地图,对应touchId,基础收入上下限,商店收入系数,帮派收入率%,抢劫系数,一次最多能抢劫 多少天积攒的收入,打工系数,队友打工系数,矿产位置,矿产层级,矿产前景图片,矿产交互图片"
+  splits:
+  - split: 3
+    text: "名称"
+    translated: "Name"
+    qcReviewedText: "Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,type,name,,map,touchId,baseIncome,lvFactor,taxRate,robFactor,maxRobDays,workFactor,partnerWorkFactor,minePos,mineSort,mineSceneImage,mineTouchImage"
+- raw: "3,1,0,许张丝绸,许张氏,13000,1120001030,800_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "许张丝绸"
+    translated: "Xu Zhang Silk"
+    qcReviewedText: "Xu Zhang Silk"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,2,0,何氏中药,何郎中,13000,1120001032,700_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "何氏中药"
+    translated: "He's Traditional Chinese Medicine"
+    qcReviewedText: "He's Traditional Chinese Medicine"
+    qcTranslated: "He Family Traditional Chinese Medicine"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "5,3,0,杂货铺,杂货郎,13000,1120001034,800_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "杂货铺"
+    translated: "Provisions Shop"
+    qcReviewedText: "Provisions Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,4,0,青松阁机关,青松阁特使,13000,1120001035,1000_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "青松阁机关"
+    translated: "Qingsong Pavilion Mechanism"
+    qcReviewedText: "Qingsong Pavilion Mechanism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,5,0,武器铺,赵辛,13000,1120001042,900_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "武器铺"
+    translated: "Weapon Shop"
+    qcReviewedText: "Weapon Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,6,2,贸易商队,,13000,,50_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,7,2,贸易商队,,13000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,8,2,贸易商队,,13000,,70_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "11,9,1,承安矿产,,13000,1001,250_500,100,100,0,0,0,0,\"31,56\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "承安矿产"
+    translated: "Cheng'an Minerals"
+    qcReviewedText: "Cheng'an Minerals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "12,10,0,善德中药,善德堂掌柜,16000,1160009002,900_1000,60,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "善德中药"
+    translated: "Shande Traditional Chinese Medicine"
+    qcReviewedText: "Shande Traditional Chinese Medicine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,11,0,杭绣丝绸,布庄掌柜,16000,1160009004,1000_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "杭绣丝绸"
+    translated: "Hangzhou Silk Embroidery"
+    qcReviewedText: "Hangzhou Silk Embroidery"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,12,0,晁记铁铺,老晁,16000,1160009001,900_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "晁记铁铺"
+    translated: "Chao's Ironworks"
+    qcReviewedText: "Chao's Ironworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,13,0,鸿文阁机关,鸿文阁特使,16000,1160009008,1000_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "鸿文阁机关"
+    translated: "Hongwen Pavilion Mechanism"
+    qcReviewedText: "Hongwen Pavilion Mechanism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,14,0,隐月楼,隐月楼圣使,16000,1160009006,1000_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "隐月楼"
+    translated: "Yinyue Tower"
+    qcReviewedText: "Yinyue Tower"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "17,15,2,贸易商队,,16000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,16,2,贸易商队,,16000,,70_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,17,2,贸易商队,,16000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,18,1,杭州矿产,,16000,1002,250_500,100,100,0,0,0,0,\"21,47\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "杭州矿产"
+    translated: "Hangzhou Minerals"
+    qcReviewedText: "Hangzhou Minerals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,19,0,阿金铁铺,阿金,17000,1170009001,800_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "阿金铁铺"
+    translated: "A'jin's Blacksmith Shop"
+    qcReviewedText: "A'jin's Blacksmith Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,20,0,夜兰染坊,夜兰,17000,1170009003,1000_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "夜兰染坊"
+    translated: "Yelan Dyeing Workshop"
+    qcReviewedText: "Yelan Dyeing Workshop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,21,0,杂货铺,杂货铺掌柜,17000,1170001084,1000_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "杂货铺"
+    translated: "Provisions Shop"
+    qcReviewedText: "Provisions Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,22,0,巫黎寨,巫黎寨特使,17000,1170009004,1000_1300,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "巫黎寨"
+    translated: "Wuli Stronghold"
+    qcReviewedText: "Wuli Stronghold"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,23,2,贸易商队,,17000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,24,2,贸易商队,,17000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,25,2,贸易商队,,17000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,26,1,大理矿产,,17000,1003,250_500,100,100,0,0,0,0,\"34,49\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "大理矿产"
+    translated: "Dali Minerals"
+    qcReviewedText: "Dali Minerals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "29,27,0,襄阳布庄,襄阳布庄掌柜,20000,1200000184,1000_1200,60,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "襄阳布庄"
+    translated: "Xiangyang Cloth Shop"
+    qcReviewedText: "Xiangyang Cloth Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "30,28,0,陈记锻坊,陈记锻坊掌柜,20000,1200000185,1000_1100,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "陈记锻坊"
+    translated: "Chen Smithy"
+    qcReviewedText: "Chen Smithy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "31,29,0,元康记,元康记掌柜,20000,1200000183,900_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "元康记"
+    translated: "Records of Yuan Kang"
+    qcReviewedText: "Records of Yuan Kang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "32,30,2,贸易商队,,20000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "33,31,2,贸易商队,,20000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "34,32,2,贸易商队,,20000,,80_110,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "35,33,1,襄阳矿产,,20000,1004,250_500,100,100,0,0,0,0,\"55,31\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "襄阳矿产"
+    translated: "Xiangyang Minerals"
+    qcReviewedText: "Xiangyang Minerals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "36,34,0,普济堂,鲁良温,21000,1210002014,1000_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "普济堂"
+    translated: "Puji Hall"
+    qcReviewedText: "Puji Hall"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "37,35,0,老虞铸坊,虞庆,21000,1210002015,1000_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "老虞铸坊"
+    translated: "Old Yu's Foundry"
+    qcReviewedText: "Old Yu's Foundry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "38,36,0,清荷锦铺,马小荷,21000,1210002017,1000_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "清荷锦铺"
+    translated: "Qinghe Brocade Shop"
+    qcReviewedText: "Qinghe Brocade Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "39,37,0,西京商会,西京商会执事,21000,1210002018,800_1500,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "西京商会"
+    translated: "Xijing Merchant Guild"
+    qcReviewedText: "Xijing Merchant Guild"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "40,38,2,贸易商队,,21000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "41,39,2,贸易商队,,21000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "42,40,2,贸易商队,,21000,,90_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "43,41,1,长安矿产,,21000,1005,250_500,100,100,0,0,0,0,\"45,3\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "长安矿产"
+    translated: "Chang'an Minerals"
+    qcReviewedText: "Chang'an Minerals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "44,42,0,铁号铸坊,铁号掌柜,23000,1230002015,1000_1000,60,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "铁号铸坊"
+    translated: "Iron Bell Foundry"
+    qcReviewedText: "Iron Bell Foundry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "45,43,0,裁云庄,裁云庄掌柜  ,23000,1230002016,800_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "裁云庄"
+    translated: "Caiyun Manor"
+    qcReviewedText: "Caiyun Manor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "46,44,0,灵素堂,灵素堂掌柜,23000,1230002018,1000_1000,50,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "灵素堂"
+    translated: "Lingsu Hall"
+    qcReviewedText: "Lingsu Hall"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "47,45,0,弘德堂,弘德堂执事,23000,1230002019,900_1000,60,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "弘德堂"
+    translated: "Hongde Hall"
+    qcReviewedText: "Hongde Hall"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "48,46,2,贸易商队,,23000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "49,47,2,贸易商队,,23000,,80_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "50,48,2,贸易商队,,23000,,90_100,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "51,49,1,洛阳矿产,,23000,1006,250_500,100,100,0,0,0,0,\"3,41\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "洛阳矿产"
+    translated: "Luoyang Mineral Resources"
+    qcReviewedText: "Luoyang Mineral Resources"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "52,50,0,铸轩铁铺,铸轩匠人,24000,1240002001,1000_1000,70,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "铸轩铁铺"
+    translated: "Zhuxuan Ironworks"
+    qcReviewedText: "Zhuxuan Ironworks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "53,51,0,衣记丝绸,衣记掌柜,24000,1240002002,1000_1200,80,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "衣记丝绸"
+    translated: "Yi's Silk"
+    qcReviewedText: "Yi's Silk"
+    qcTranslated: "Yiji Silk"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "54,52,0,山草记,山草记掌柜,24000,1240002004,1000_1000,60,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "山草记"
+    translated: "Mountain Grass Record"
+    qcReviewedText: "Mountain Grass Record"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "55,53,0,轩海阁,轩海阁特使,24000,1240002005,1000_1000,40,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "轩海阁"
+    translated: "Xuanhai Pavilion"
+    qcReviewedText: "Xuanhai Pavilion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "56,54,0,西域商铺,西域商人,24000,1240002006,1000_1500,60,20,5,30,5,5,,,,"
+  splits:
+  - split: 3
+    text: "西域商铺"
+    translated: "Western Regions Shop"
+    qcReviewedText: "Western Regions Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "57,55,2,贸易商队,,24000,,50_150,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "58,56,2,贸易商队,,24000,,50_151,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "59,57,2,贸易商队,,24000,,80_152,100,100,0,0,0,0,,,,"
+  splits:
+  - split: 3
+    text: "贸易商队"
+    translated: "Merchant Caravan"
+    qcReviewedText: "Merchant Caravan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "60,58,1,京城矿产,,24000,1007,250_500,100,100,0,0,0,0,\"48,6\",50,11000099,11000094"
+  splits:
+  - split: 3
+    text: "京城矿产"
+    translated: "Capital City Minerals"
+    qcReviewedText: "Capital City Minerals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "61,59,,,,,,,,,,,,,,,,"
+- raw: "62,60,,,,,,,,,,,,,,,,"
+- raw: "63,61,,,,,,,,,,,,,,,,"
+- raw: "64,62,,,,,,,,,,,,,,,,"
+- raw: "65,63,,,,,,,,,,,,,,,,"
+- raw: "66,64,,,,,,,,,,,,,,,,"
+- raw: "67,65,,,,,,,,,,,,,,,,"
+- raw: "68,66,,,,,,,,,,,,,,,,"
+- raw: "69,67,,,,,,,,,,,,,,,,"
+- raw: "70,68,,,,,,,,,,,,,,,,"
+- raw: "71,69,,,,,,,,,,,,,,,,"
+- raw: "72,70,,,,,,,,,,,,,,,,"
+- raw: "73,71,,,,,,,,,,,,,,,,"
+- raw: "74,72,,,,,,,,,,,,,,,,"
+- raw: "75,73,,,,,,,,,,,,,,,,"
+- raw: "76,74,,,,,,,,,,,,,,,,"
+- raw: "77,75,,,,,,,,,,,,,,,,"
+- raw: "78,76,,,,,,,,,,,,,,,,"
+- raw: "79,77,,,,,,,,,,,,,,,,"
+- raw: "80,78,,,,,,,,,,,,,,,,"
+- raw: "81,79,,,,,,,,,,,,,,,,"
+- raw: "82,80,,,,,,,,,,,,,,,,"
+- raw: "83,81,,,,,,,,,,,,,,,,"
+- raw: "84,82,,,,,,,,,,,,,,,,"
+- raw: "85,83,,,,,,,,,,,,,,,,"
+- raw: "86,84,,,,,,,,,,,,,,,,"
+- raw: "87,85,,,,,,,,,,,,,,,,"
+- raw: "88,85,,,,,,,,,,,,,,,,"
+- raw: "89,86,,,,,,,,,,,,,,,,"
+- raw: "90,87,,,,,,,,,,,,,,,,"
+- raw: "91,88,,,,,,,,,,,,,,,,"
+- raw: "92,89,,,,,,,,,,,,,,,,"
+- raw: "93,73,,,,,,,,,,,,,,,,"
+- raw: "94,74,,,,,,,,,,,,,,,,"
+- raw: "95,75,,,,,,,,,,,,,,,,"
+- raw: "96,76,,,,,,,,,,,,,,,,"
+- raw: "97,77,,,,,,,,,,,,,,,,"
+- raw: "98,78,,,,,,,,,,,,,,,,"

@@ -1728,18 +1728,17 @@
   - split: 2
     text: "你与"
     translated: "You and"
-    qcReviewedText: "You and {0} A mutual affection is what people seek in life; how can it be compared to what Mei desires?"
-    qcTranslated: "You and {0} are a perfect match; what people seek in this world, how could it be compared to painting eyebrows together?"
+    qcReviewedText: "You and {0} Harmony of hearts is what mortals seek, yet how can it compare to Huamei?"
+    qcTranslated: "You and {0} are a perfect match; what mortals seek in this world, how can it compare to Huamei?"
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
     qcDefectCategory: HardToParseSeam
     qcDefectCategories:
     - HardToParseSeam
-    - DroppedContent
   - split: 2
     subIndex: 1
     text: "情投意合，人世之所求，又何堪与画眉并论？"
-    translated: "A mutual affection is what people seek in life; how can it be compared to what Mei desires?"
+    translated: "Harmony of hearts is what mortals seek, yet how can it compare to Huamei?"
   templates:
   - split: 2
     template: "{0}⟦0⟧{1}"

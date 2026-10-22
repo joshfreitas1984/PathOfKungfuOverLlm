@@ -27,6 +27,54 @@
 - raw: "阿真"
   result: "A'zhen"
 
+- raw: "肉痴"
+  result: "Meat Fanatic"
+  context: Nickname of the Lianhuan Stronghold's third chief (a male bandit who tortures captives), translated as a title, not pinyin. Same rendering in dialogue, narration and speaker labels. Never Rouchi, Rou Chi, Carnivore, Meat Obsessed, Meat-Lust, Carnal Delight, Flesh Nerd or Meat Lovers.
+- raw: "肉痴居所"
+  result: "Meat Fanatic's Residence"
+- raw: "北豺"
+  result: "Northern Jackal"
+  context: Nickname of the Bicheng Water Stronghold's second boss, translated as a title, not pinyin. Never Beichai, North Wolf or North Zhi.
+- raw: "刀奴"
+  result: "Blade Thrall"
+  context: A sect member driven mad by the divine art and kept as a tempering slave. Never Blade Slave.
+- raw: "失心刀奴"
+  result: "Mad Blade Thrall"
+  context: A 刀奴 who has lost their mind. Never Mad Blade Slave.
+- raw: "桃卫"
+  result: "Peach Guard"
+  context: The Peach Blossom Dock guards, always translated, never Tao Wei.
+- raw: "明尊"
+  result: "Mingzun"
+  context: Cult title of the Holy Flame Cave leader, pinyin like the cult name. Never Master Ming or Sage Master Ming.
+- raw: "杜鹃"
+  result: "Dujuan"
+  context: Treasure-ship sister who guards the Zhuhuo Pagoda, written as one word. Never Du Juan.
+- raw: "曼珠"
+  result: "Manzhu"
+  context: Lady of the Peach Blossom Dock. Never Man Zhu or Manju.
+- raw: "画眉"
+  result: "Huamei"
+  context: A character name in pinyin, written as one word. Never Mei.
+- raw: "蝎姬"
+  result: "Scorpion Lady"
+  context: Leader of Shengxie Hall. Never Scorpion Princess.
+- raw: "蛊人"
+  result: "Gu Puppet"
+  context: A person controlled by a parasitic Gu creature. Never Gu Man, Gu Ren or Gu Practitioner.
+- raw: "道奴"
+  result: "Daoist Servant"
+  context: Servants forced to study the Yellow Heaven diagram. Never Dao Nu, Dao Slave or Dao Thrall.
+- raw: "毛毛"
+  result: "Maomao"
+  context: A boy's name, pinyin as one word. Never Mao Mao.
+- raw: "跑跑"
+  result: "Paopao"
+  context: A boy's name, pinyin as one word. Never Pao Pao or Run Run.
+- raw: "跳跳"
+  result: "Tiaotiao"
+  context: A boy's name, pinyin as one word.
+
 - raw: "何傲霜"
   result: "He Aoshuang"
 - raw: "左三思"
@@ -1225,8 +1273,10 @@
   result: "Male Taiping Envoy"
 - raw: "太和 何傲霜"
   result: "Taihe He Aoshuang"
+- raw: "蛇形蛊人"
+  result: "Snake Gu Puppet"
 - raw: "蜈蚣蛊人"
-  result: "Centipede Gu Man"
+  result: "Centipede Gu Puppet"
 - raw: "小天师"
   result: "Little Celestial Master"
 - raw: "太平道人男"

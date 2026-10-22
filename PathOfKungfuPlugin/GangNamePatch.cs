@@ -140,6 +140,7 @@ internal static class SavedGangNameMigration
             if (gangs == null) return;
 
             var changed = 0;
+            var refreshed = 0;
             foreach (var gang in gangs.Values)
             {
                 var converted = GangNames.Convert(gang.GangName, gang.Style);
@@ -151,7 +152,25 @@ internal static class SavedGangNameMigration
                 catch (Exception ex) { Plugin.Logger.LogWarning($"Could not refresh station NPC names for gang {gang.gangDataId}: {ex.Message}"); }
             }
 
+            // A mine's label on the map ("(Sheltered by <gang>)" + the mine's name) is stored in the save's touch data and only rebuilt when
+            // ownership changes, so it keeps the old gang name and the Chinese mine name until it is rebuilt here.
+            foreach (var gang in gangs.Values)
+            {
+                if (gang.propertyInfos == null) continue;
+                foreach (var info in gang.propertyInfos)
+                {
+                    try
+                    {
+                        if (info.GetPropertyType() != GangPropertyType.Mine || GangPropertyData.GetMineTouch(info.id) == null) continue;
+                        GangPropertyData.UpdateMineTouch(info);
+                        refreshed++;
+                    }
+                    catch (Exception ex) { Plugin.Logger.LogWarning($"Could not refresh the mine label of property {info.id}: {ex.Message}"); }
+                }
+            }
+
             if (changed > 0) Plugin.Logger.LogInfo($"Converted {changed} saved gang names to the translated pool.");
+            if (refreshed > 0) Plugin.Logger.LogInfo($"Refreshed {refreshed} saved mine labels.");
         }
         catch (Exception ex)
         {
