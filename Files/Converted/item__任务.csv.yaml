@@ -1369,15 +1369,15 @@
   splits:
   - split: 2
     text: "倭文书信"
-    translated: "Japanese-Script Letter"
-    qcReviewedText: "Japanese-Script Letter"
+    translated: "Dongying-Script Letter"
+    qcReviewedText: "Dongying-Script Letter"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 19
     text: "一封倭文写就的书信。"
-    translated: "A letter written in Japanese"
-    qcReviewedText: "A letter written in Japanese"
+    translated: "A letter written in Dongying"
+    qcReviewedText: "A letter written in Dongying"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1619,8 +1619,8 @@
     qcDefectCategory: None
   - split: 19
     text: "倭国名酒，香气醉人。"
-    translated: "Famous wine from Japan, intoxicatingly fragrant"
-    qcReviewedText: "Famous wine from Japan, intoxicatingly fragrant"
+    translated: "Famous wine from Dongying, intoxicatingly fragrant"
+    qcReviewedText: "Famous wine from Dongying, intoxicatingly fragrant"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1660,15 +1660,15 @@
   splits:
   - split: 2
     text: "倭文书信"
-    translated: "Japanese-Script Letter"
-    qcReviewedText: "Japanese-Script Letter"
+    translated: "Dongying-Script Letter"
+    qcReviewedText: "Dongying-Script Letter"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 19
     text: "其上尽是倭国文字，似鬼画符，或可寻人解之……"
-    translated: "It is covered in Japanese text, like scribbled curses; perhaps one can find someone to decipher it......"
-    qcReviewedText: "It is covered in Japanese text, like scribbled curses; perhaps one can find someone to decipher it......"
+    translated: "It is covered in Dongying text, like scribbled curses; perhaps one can find someone to decipher it......"
+    qcReviewedText: "It is covered in Dongying text, like scribbled curses; perhaps one can find someone to decipher it......"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1683,8 +1683,8 @@
     qcDefectCategory: None
   - split: 19
     text: "其上尽是倭国文字，但其中亦夹汉文，勉强只能认出几个皆以“今川”为姓的人名……"
-    translated: "It was filled with Japanese text, but interspersed were some Han characters. Barely recognizing a few names all surnamed Imagawa......"
-    qcReviewedText: "It was filled with Japanese text, but interspersed were some Han characters. Barely recognizing a few names all surnamed Imagawa......"
+    translated: "It was filled with Dongying text, but interspersed were some Han characters. Barely recognizing a few names all surnamed Imagawa......"
+    qcReviewedText: "It was filled with Dongying text, but interspersed were some Han characters. Barely recognizing a few names all surnamed Imagawa......"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -117,8 +117,8 @@
     translated: "Two"
   - split: 13
     text: "进入膳房，与黄小小交谈。"
-    translated: "Enter the dining hall and talk to Huang Xiao Xiao."
-    qcReviewedText: "Enter the dining hall and talk to Huang Xiao Xiao."
+    translated: "Enter the dining hall and talk to Huang Xiaoxiao."
+    qcReviewedText: "Enter the dining hall and talk to Huang Xiaoxiao."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -129,8 +129,8 @@
   splits:
   - split: 2
     text: "初见黄小小"
-    translated: "First Meeting with Huang Xiao Xiao"
-    qcReviewedText: "First Meeting with Huang Xiao Xiao"
+    translated: "First Meeting with Huang Xiaoxiao"
+    qcReviewedText: "First Meeting with Huang Xiaoxiao"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -147,8 +147,8 @@
     translated: "Three"
   - split: 13
     text: "前往海岸，保护黄小小。"
-    translated: "Head to the coast to protect Huang Xiao Xiao."
-    qcReviewedText: "Head to the coast to protect Huang Xiao Xiao."
+    translated: "Head to the coast to protect Huang Xiaoxiao."
+    qcReviewedText: "Head to the coast to protect Huang Xiaoxiao."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -159,8 +159,8 @@
   splits:
   - split: 2
     text: "拯救黄小小"
-    translated: "Save Huang Xiao Xiao"
-    qcReviewedText: "Save Huang Xiao Xiao"
+    translated: "Save Huang Xiaoxiao"
+    qcReviewedText: "Save Huang Xiaoxiao"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3027,8 +3027,8 @@
     qcDefectCategory: None
   - split: 13
     text: "依洪四海之言，前往大理打探青萍村中人下落，等候燕南归消息。"
-    translated: "As Hong Sihai suggested, go to Dali to investigate the whereabouts of the people in Qingping Village and wait for Yan Nan Gui's message."
-    qcReviewedText: "As Hong Sihai suggested, go to Dali to investigate the whereabouts of the people in Qingping Village and wait for Yan Nan Gui's message."
+    translated: "As Hong Sihai suggested, go to Dali to investigate the whereabouts of the people in Qingping Village and wait for Yan Nangui's message."
+    qcReviewedText: "As Hong Sihai suggested, go to Dali to investigate the whereabouts of the people in Qingping Village and wait for Yan Nangui's message."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3040,14 +3040,14 @@
   - split: 2
     text: "四海缉仇"
     translated: "Pursue Enemies Across the Seas"
-    qcReviewedText: "Pursue Enemies Across the Seas_Seeking Yan Nan Gui"
+    qcReviewedText: "Pursue Enemies Across the Seas_Seeking Yan Nangui"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "寻找燕南归"
-    translated: "Seeking Yan Nan Gui"
+    translated: "Seeking Yan Nangui"
   - split: 12
     text: "醇酒醉影"
     translated: "Intoxicating Wine, Blurred Reflections"
@@ -3057,8 +3057,8 @@
     qcDefectCategory: None
   - split: 13
     text: "前往杭州灵隐寺附近，寻找燕南归。"
-    translated: "Head to the area near Lingyin Temple in Hangzhou to find Yan Nan Gui."
-    qcReviewedText: "Head to the area near Lingyin Temple in Hangzhou to find Yan Nan Gui."
+    translated: "Head to the area near Lingyin Temple in Hangzhou to find Yan Nangui."
+    qcReviewedText: "Head to the area near Lingyin Temple in Hangzhou to find Yan Nangui."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3110,8 +3110,8 @@
     qcDefectCategory: None
   - split: 13
     text: "与乔应珠交谈，告知梁三顾之事。"
-    translated: "Talk to Qiao Yingzhu and tell her about Liang San Gu."
-    qcReviewedText: "Talk to Qiao Yingzhu and tell her about Liang San Gu."
+    translated: "Talk to Qiao Yingzhu and tell her about Liang Sangu."
+    qcReviewedText: "Talk to Qiao Yingzhu and tell her about Liang Sangu."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3188,7 +3188,7 @@
   - split: 2
     text: "梁乔情事"
     translated: "Liang Qiao's Affairs"
-    qcReviewedText: "Liang Qiao's Affairs-Letter from the Qiao Mansion_Ask the villagers about Liang San Gu's whereabouts."
+    qcReviewedText: "Liang Qiao's Affairs-Letter from the Qiao Mansion_Ask the villagers about Liang Sangu's whereabouts."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3199,7 +3199,7 @@
   - split: 2
     subIndex: 2
     text: "向村民打听梁三顾消息"
-    translated: "Ask the villagers about Liang San Gu's whereabouts."
+    translated: "Ask the villagers about Liang Sangu's whereabouts."
   templates:
   - split: 2
     template: "{0}-{1}_{2}"
@@ -3550,8 +3550,8 @@
     qcDefectCategory: None
   - split: 13
     text: "前往灵隐寺，与燕南归会合。"
-    translated: "Go to Lingyin Temple to meet Yan Nan Gui."
-    qcReviewedText: "Go to Lingyin Temple to meet Yan Nan Gui."
+    translated: "Go to Lingyin Temple to meet Yan Nangui."
+    qcReviewedText: "Go to Lingyin Temple to meet Yan Nangui."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3754,9 +3754,9 @@
     qcDefectCategory: None
   - split: 13
     text: "拜见紫霄道主叶伯应。"
-    translated: "Pay respects to Dao Master Ye Bo Ying."
-    qcReviewedText: "Pay respects to Dao Master Ye Bo Ying."
-    qcTranslated: "Pay respects to Zixiao Dao Master Ye Bo Ying."
+    translated: "Pay respects to Dao Master Ye Boying."
+    qcReviewedText: "Pay respects to Dao Master Ye Boying."
+    qcTranslated: "Pay respects to Zixiao Dao Master Ye Boying."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -3916,7 +3916,7 @@
   - split: 2
     text: "初入山门"
     translated: "Entering the Mountain Gate for the First Time"
-    qcReviewedText: "Entering the Mountain Gate for the First Time-Our sect-Ye Bo Ying"
+    qcReviewedText: "Entering the Mountain Gate for the First Time-Our sect-Ye Boying"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3927,7 +3927,7 @@
   - split: 2
     subIndex: 2
     text: "叶伯应"
-    translated: "Ye Bo Ying"
+    translated: "Ye Boying"
   - split: 12
     text: "太和上人"
     translated: "Senior Taihe"
@@ -4073,7 +4073,7 @@
   - split: 2
     text: "非本门"
     translated: "Not from our sect"
-    qcReviewedText: "Not from our sect-Beginnings-Ye Bo Ying"
+    qcReviewedText: "Not from our sect-Beginnings-Ye Boying"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4084,7 +4084,7 @@
   - split: 2
     subIndex: 2
     text: "叶伯应"
-    translated: "Ye Bo Ying"
+    translated: "Ye Boying"
   - split: 12
     text: "太和上人"
     translated: "Senior Taihe"
@@ -4919,8 +4919,8 @@
     qcDefectCategory: None
   - split: 12
     text: "新军征倭"
-    translated: "Recruit New Troops Against the Japanese"
-    qcReviewedText: "Recruit New Troops Against the Japanese·Two"
+    translated: "Recruit New Troops Against the Dongying"
+    qcReviewedText: "Recruit New Troops Against the Dongying·Two"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5192,8 +5192,8 @@
     translated: "Six"
   - split: 13
     text: "与黄小小交谈，打听黄小玥。"
-    translated: "Talk to Huang Xiao Xiao about Huang Xiaoyue."
-    qcReviewedText: "Talk to Huang Xiao Xiao about Huang Xiaoyue."
+    translated: "Talk to Huang Xiaoxiao about Huang Xiaoyue."
+    qcReviewedText: "Talk to Huang Xiaoxiao about Huang Xiaoyue."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5207,14 +5207,14 @@
   - split: 2
     text: "东海遗孤"
     translated: "Orphan of the Eastern Sea"
-    qcReviewedText: "Orphan of the Eastern Sea-Huang Xiao Xiao"
+    qcReviewedText: "Orphan of the Eastern Sea-Huang Xiaoxiao"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 2
     subIndex: 1
     text: "黄小小"
-    translated: "Huang Xiao Xiao"
+    translated: "Huang Xiaoxiao"
   - split: 12
     text: "南山只影"
     translated: "Solitary Figure on Southern Mountain"
@@ -7135,8 +7135,8 @@
     qcDefectCategory: None
   - split: 13
     text: "前往青萍村，寻找燕南归。"
-    translated: "Go to Qingping Village to find Yan Nan Gui."
-    qcReviewedText: "Go to Qingping Village to find Yan Nan Gui."
+    translated: "Go to Qingping Village to find Yan Nangui."
+    qcReviewedText: "Go to Qingping Village to find Yan Nangui."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7158,8 +7158,8 @@
     qcDefectCategory: None
   - split: 13
     text: "前往连环寨前，与燕南归交谈。"
-    translated: "Before heading to Lianhuan Stronghold, speak with Yan Nan Gui."
-    qcReviewedText: "Before heading to Lianhuan Stronghold, speak with Yan Nan Gui."
+    translated: "Before heading to Lianhuan Stronghold, speak with Yan Nangui."
+    qcReviewedText: "Before heading to Lianhuan Stronghold, speak with Yan Nangui."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7379,8 +7379,8 @@
   splits:
   - split: 2
     text: "秦懿瑶"
-    translated: "Qin Yi Yao"
-    qcReviewedText: "Qin Yi Yao-Preparation"
+    translated: "Qin Yiyao"
+    qcReviewedText: "Qin Yiyao-Preparation"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7409,8 +7409,8 @@
   splits:
   - split: 2
     text: "秦懿瑶1"
-    translated: "Qin Yi Yao1"
-    qcReviewedText: "Qin Yi Yao1-Bounty Firm Martial Trials"
+    translated: "Qin Yiyao1"
+    qcReviewedText: "Qin Yiyao1-Bounty Firm Martial Trials"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7442,8 +7442,8 @@
   splits:
   - split: 2
     text: "秦懿瑶"
-    translated: "Qin Yi Yao"
-    qcReviewedText: "Qin Yi Yao-Bai Hao Incident"
+    translated: "Qin Yiyao"
+    qcReviewedText: "Qin Yiyao-Bai Hao Incident"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7458,8 +7458,8 @@
   splits:
   - split: 2
     text: "秦懿瑶2"
-    translated: "Qin Yi Yao2"
-    qcReviewedText: "Qin Yi Yao2-Escort and Protect Valuable Cargo"
+    translated: "Qin Yiyao2"
+    qcReviewedText: "Qin Yiyao2-Escort and Protect Valuable Cargo"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7491,9 +7491,9 @@
   splits:
   - split: 2
     text: "秦懿瑶"
-    translated: "Qin Yi Yao"
-    qcReviewedText: "Qin Yi Yao-What now?\\nWhat should I do?"
-    qcTranslated: "Qin Yi Yao-The Annihilation of the Escort Agency"
+    translated: "Qin Yiyao"
+    qcReviewedText: "Qin Yiyao-What now?\\nWhat should I do?"
+    qcTranslated: "Qin Yiyao-The Annihilation of the Escort Agency"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -7513,8 +7513,8 @@
     qcDefectCategory: None
   - split: 13
     text: "待一日之约到后，前往杭州春风楼与秦懿瑶会合。（点击追踪以查看剩余时间）"
-    translated: "After the day of our agreement arrives, go to Hangzhou Chunfeng Tower to meet Qin Yi Yao. (Click to track and see remaining time.)"
-    qcReviewedText: "After the day of our agreement arrives, go to Hangzhou Chunfeng Tower to meet Qin Yi Yao. (Click to track and see remaining time.)"
+    translated: "After the day of our agreement arrives, go to Hangzhou Chunfeng Tower to meet Qin Yiyao. (Click to track and see remaining time.)"
+    qcReviewedText: "After the day of our agreement arrives, go to Hangzhou Chunfeng Tower to meet Qin Yiyao. (Click to track and see remaining time.)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7525,9 +7525,9 @@
   splits:
   - split: 2
     text: "秦懿瑶三"
-    translated: "Qin Yi Yao three"
-    qcReviewedText: "Qin Yi Yao three-You have completed Breakthrough One"
-    qcTranslated: "Qin Yi Yao Three - You have completed Breakthrough One"
+    translated: "Qin Yiyao three"
+    qcReviewedText: "Qin Yiyao three-You have completed Breakthrough One"
+    qcTranslated: "Qin Yiyao Three - You have completed Breakthrough One"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -7544,8 +7544,8 @@
   splits:
   - split: 2
     text: "秦懿瑶三"
-    translated: "Qin Yi Yao three"
-    qcReviewedText: "Qin Yi Yao three-Incomplete Breakthrough One"
+    translated: "Qin Yiyao three"
+    qcReviewedText: "Qin Yiyao three-Incomplete Breakthrough One"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7560,9 +7560,9 @@
   splits:
   - split: 2
     text: "秦懿瑶"
-    translated: "Qin Yi Yao"
-    qcReviewedText: "Qin Yi Yao-Fleeing to wipe out the clan"
-    qcTranslated: "Qin Yi Yao-Fleeing to Escape the Clan's Annihilation"
+    translated: "Qin Yiyao"
+    qcReviewedText: "Qin Yiyao-Fleeing to wipe out the clan"
+    qcTranslated: "Qin Yiyao-Fleeing to Escape the Clan's Annihilation"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -7579,8 +7579,8 @@
   splits:
   - split: 2
     text: "秦懿瑶"
-    translated: "Qin Yi Yao"
-    qcReviewedText: "Qin Yi Yao-Unbroken Path-Guidance Quest"
+    translated: "Qin Yiyao"
+    qcReviewedText: "Qin Yiyao-Unbroken Path-Guidance Quest"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7619,8 +7619,8 @@
   splits:
   - split: 2
     text: "秦懿瑶"
-    translated: "Qin Yi Yao"
-    qcReviewedText: "Qin Yi Yao-Branch broken through-Guidance Quest"
+    translated: "Qin Yiyao"
+    qcReviewedText: "Qin Yiyao-Branch broken through-Guidance Quest"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8703,8 +8703,8 @@
     qcDefectCategory: None
   - split: 13
     text: "大理之行日久，洪四海或已有消息。返回承安镇寻洪四海，打听燕南归下落。"
-    translated: "After a long stay in Dali, Hong Sihai may have news. Return to Cheng'an Town to seek out Hong Sihai and inquire about Yan Nan Gui's whereabouts."
-    qcReviewedText: "After a long stay in Dali, Hong Sihai may have news. Return to Cheng'an Town to seek out Hong Sihai and inquire about Yan Nan Gui's whereabouts."
+    translated: "After a long stay in Dali, Hong Sihai may have news. Return to Cheng'an Town to seek out Hong Sihai and inquire about Yan Nangui's whereabouts."
+    qcReviewedText: "After a long stay in Dali, Hong Sihai may have news. Return to Cheng'an Town to seek out Hong Sihai and inquire about Yan Nangui's whereabouts."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

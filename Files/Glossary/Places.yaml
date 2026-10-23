@@ -43,22 +43,38 @@
   result: "Wangyue Village"
 - raw: "东瀛"
   result: "Dongying"
-  allowalt:
-  - "Japan"
-  - "Japanese"
+  context: Always "Dongying" (place, people and adjective alike, e.g. Dongying Ronin, Dongying Lord, the Dongying army), never Japan or Japanese. 倭 words (倭寇, 倭国, 倭人) are a separate term and keep their own renderings (Wokou, Japanese).
 - raw: "朝鲜"
   result: "Joseon"
-  allowalt:
-  - "Korea"
-  - "Korean"
+  context: Always "Joseon" (place, people and adjective alike, e.g. Joseon Martial Artist, Joseon Pharmacy), never Korea or Korean.
+- raw: "罗刹寨"
+  result: "Rakshasa Stronghold"
+  context: A bandit stronghold, always "Rakshasa Stronghold" (the Sanskrit name kept as in the game's own item name), never Luosha, Luosha Fort or Raksha.
+- raw: "天竺"
+  result: "Tianzhu"
+  context: Ancient name for India, kept as pinyin. Never India or Indian.
+- raw: "三韩"
+  result: "Samhan"
+  context: The Three Han of the Korean peninsula, always "Samhan". Never Three Han, Three Khan, Sanhan or Koreans.
+- raw: "瓦尔喀"
+  result: "Warka"
+  context: A Jurchen tribe, always "Warka" (so Warka tribe). Never Walake, Walha, Warkha, Varka or Valka.
+- raw: "鞑子"
+  result: "Tartars"
+  context: Derogatory term for northern raiders, always Tartar(s). Never Tatar or Mongol.
 - raw: "楼兰"
   result: "Loulan"
 - raw: "女真"
   result: "Jurchen"
+- raw: "倭国"
+  result: "Dongying"
+  context: Same place as 东瀛, so always Dongying, never Japan or Japanese. Only 倭寇 (the raiders) stays Wokou.
+- raw: "倭人"
+  result: "Dongying people"
+  context: Dongying person or people (Dongying Samurai, a Dongying man). Never Japanese. Only 倭寇 stays Wokou.
 - raw: "倭寇"
   result: "Wokou"
   allowalt:
-  - "Japanese pirates"
   - "pirates"
   badtrans: false
 - raw: "西湖"
