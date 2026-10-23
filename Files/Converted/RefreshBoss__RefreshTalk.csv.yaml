@@ -959,14 +959,11 @@
   splits:
   - split: 2
     text: "哼，三韩人都是软骨头，杀起来都嫌无趣。"
-    translated: "Hmph, the Samsun are all soft-spined cowards; killing them is tedious."
-    qcReviewedText: "Hmph, the Samsun are all soft-spined cowards; killing them is tedious."
-    qcTranslated: "Hmph, the Samhan are all soft-spined cowards; killing them is tedious."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Hmph, all the Samhan are soft-spined; killing them is even tedious."
+    qcReviewedText: "Hmph, all the Samhan are soft-spined; killing them is even tedious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "107,105,老子当年在中原，干的可是诛九族的买卖……,,,,,,,"
   splits:
   - split: 2

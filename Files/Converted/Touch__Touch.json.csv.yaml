@@ -48593,8 +48593,8 @@
   splits:
   - split: 4
     text: "小包袱"
-    translated: "Little Bundle"
-    qcReviewedText: "Little Bundle"
+    translated: "Xiaobaofu"
+    qcReviewedText: "Xiaobaofu"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -48611,8 +48611,8 @@
   splits:
   - split: 4
     text: "小包袱"
-    translated: "Little Bundle"
-    qcReviewedText: "Little Bundle"
+    translated: "Xiaobaofu"
+    qcReviewedText: "Xiaobaofu"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -48641,8 +48641,8 @@
   splits:
   - split: 4
     text: "你……你要是敢欺……欺负小七姐姐，我的黑……黑虎拳，可不是吃素的！"
-    translated: "You... you try to bully my Older Sister Qiaoqi, and my Black Tiger Fist won't be easy to handle!"
-    qcReviewedText: "You... you try to bully my Older Sister Qiaoqi, and my Black Tiger Fist won't be easy to handle!"
+    translated: "You... you try to bully my Older Sister Xiaoqi, and my Black Tiger Fist won't be easy to handle!"
+    qcReviewedText: "You... you try to bully my Older Sister Xiaoqi, and my Black Tiger Fist won't be easy to handle!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -48721,13 +48721,13 @@
   splits:
   - split: 4
     text: "可惜小七本领低微，若能助{firstName}{playerTitle}手刃连天明，那才解气！"
-    translated: "Alas, Xiao Qi's skills are limited. If only she could help {playerTitle} {firstName} slay Lian Tianming with her own hands; that would truly be satisfying!"
+    translated: "Alas, Xiaoqi's skills are limited. If only she could help {playerTitle} {firstName} slay Lian Tianming with her own hands; that would truly be satisfying!"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<哥哥||姐姐>"
-    qcReviewedText: "Alas, Xiao Qi's skills are limited. If only she could help {playerTitle} {firstName} slay Lian Tianming with her own hands; that would truly be satisfying!"
+    qcReviewedText: "Alas, Xiaoqi's skills are limited. If only she could help {playerTitle} {firstName} slay Lian Tianming with her own hands; that would truly be satisfying!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61072,8 +61072,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61093,8 +61093,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61114,8 +61114,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61132,8 +61132,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61150,8 +61150,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61168,8 +61168,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61186,8 +61186,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -61204,8 +61204,8 @@
   splits:
   - split: 4
     text: "倭人"
-    translated: "Wokou"
-    qcReviewedText: "Wokou"
+    translated: "Dongying people"
+    qcReviewedText: "Dongying people"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -62844,8 +62844,8 @@
   splits:
   - split: 4
     text: "秦懿瑶冲你微微一笑。"
-    translated: "Qin Yiyao gave you a slight smile."
-    qcReviewedText: "Qin Yiyao gave you a slight smile."
+    translated: "Qin Yiyao gave you a slight smile"
+    qcReviewedText: "Qin Yiyao gave you a slight smile"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -69364,15 +69364,11 @@
   splits:
   - split: 4
     text: "听闻那罗刹寨残匪，勾连南疆众匪寇再次啸聚山寨，未曾想顷刻间便灰飞烟灭，老朽听闻，此事亦是林不忘大侠所为，一朝功成身退，林大侠已再次云游四方……"
-    translated: "Great Hero Lin Buwang smiled and nodded, draining the tea in one gulp..."
-    qcReviewedText: "Great Hero Lin Buwang smiled and nodded, draining the tea in one gulp..."
-    qcTranslated: "I heard that the remnants of the Rakshasa Stronghold bandits colluded with the bandits of the Southern Frontier to gather at the stronghold again, but unexpectedly they were annihilated in an instant. This old one has heard that this deed was also done by Great Hero Lin Buwang; having achieved his goal, he withdrew from public life, and Great Hero Lin has once again roamed the four corners of the world..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "I heard that the remnants of the Rakshasa Stronghold colluded with bandits from the southern frontier to regroup at their stronghold. Yet, before long, they were utterly annihilated. I have been told that Great Hero Lin Buwang was responsible for this deed. Having achieved his goal, he has once again departed to wander the world..."
+    qcReviewedText: "I heard that the remnants of the Rakshasa Stronghold colluded with bandits from the southern frontier to regroup at their stronghold. Yet, before long, they were utterly annihilated. I have been told that Great Hero Lin Buwang was responsible for this deed. Having achieved his goal, he has once again departed to wander the world..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "3040,1170001053,15,[0].talks{json}[0].name,酒楼闲人"
   splits:
   - split: 4
@@ -93464,8 +93460,8 @@
   splits:
   - split: 4
     text: "近年来鞑子频频来犯，细作频出，守门也是件紧要差事，万不能出差错。"
-    translated: "In recent years, Tartar invasions have been frequent, and spies are everywhere. Guarding the gate is a crucial duty; one cannot afford to make any mistakes."
-    qcReviewedText: "In recent years, Tartar invasions have been frequent, and spies are everywhere. Guarding the gate is a crucial duty; one cannot afford to make any mistakes."
+    translated: "In recent years, the Tartars have launched frequent incursions and spies have appeared in droves. Guarding the gate is a critical duty; there must be no mistakes."
+    qcReviewedText: "In recent years, the Tartars have launched frequent incursions and spies have appeared in droves. Guarding the gate is a critical duty; there must be no mistakes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -95727,8 +95723,8 @@
   splits:
   - split: 4
     text: "当务之急，应是尽快打退女真鞑子，使边关安宁，百姓恢复生产。否则军粮难以为继，绝难长久……"
-    translated: "The immediate priority should be to quickly drive back the Jurchen invaders, ensuring peace at the border and allowing the people to resume their livelihoods. Otherwise, sustaining military supplies will be difficult, and it cannot be maintained for long..."
-    qcReviewedText: "The immediate priority should be to quickly drive back the Jurchen invaders, ensuring peace at the border and allowing the people to resume their livelihoods. Otherwise, sustaining military supplies will be difficult, and it cannot be maintained for long..."
+    translated: "The immediate priority is to repel the Jurchen Tartars as swiftly as possible, restoring peace to the frontier and allowing the people to resume their livelihoods. Otherwise, our military provisions will be unsustainable, and this situation cannot last..."
+    qcReviewedText: "The immediate priority is to repel the Jurchen Tartars as swiftly as possible, restoring peace to the frontier and allowing the people to resume their livelihoods. Otherwise, our military provisions will be unsustainable, and this situation cannot last..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -95871,8 +95867,8 @@
   splits:
   - split: 4
     text: "李将军能打女真鞑子，护着俺们村子平安，俺也愿意为李将军出力！"
-    translated: "General Li can fight off the Jurchen invaders and protect our village in peace; I'm willing to help General Li too!"
-    qcReviewedText: "General Li can fight off the Jurchen invaders and protect our village in peace; I'm willing to help General Li too!"
+    translated: "General Li can fight the Jurchen Tartars and keep our village safe. I'm willing to help General Li too!"
+    qcReviewedText: "General Li can fight the Jurchen Tartars and keep our village safe. I'm willing to help General Li too!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -95907,8 +95903,8 @@
   splits:
   - split: 4
     text: "近来女真鞑子侵犯愈繁，怕不是甚么好兆头……"
-    translated: "Lately, the Jurchen invaders have been growing more frequent; this cannot be a good omen......"
-    qcReviewedText: "Lately, the Jurchen invaders have been growing more frequent; this cannot be a good omen......"
+    translated: "The Jurchen Tartars have been invading with increasing frequency lately. This is no good omen..."
+    qcReviewedText: "The Jurchen Tartars have been invading with increasing frequency lately. This is no good omen..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -96492,8 +96488,8 @@
   splits:
   - split: 4
     text: "女真、雄壮！倭人、矮小！哈哈哈！"
-    translated: "Jurchens, mighty! Wus, short! Ha ha ha!"
-    qcReviewedText: "Jurchens, mighty! Wus, short! Ha ha ha!"
+    translated: "Jurchen, mighty! Dongying people, short! Hahaha!"
+    qcReviewedText: "Jurchen, mighty! Dongying people, short! Hahaha!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -96760,8 +96756,8 @@
   splits:
   - split: 4
     text: "此人听着头人训斥，连连点头，倒是颇有几分倭人风范。"
-    translated: "This person nodded repeatedly in response to the headman's scolding, displaying a rather Dongying demeanor."
-    qcReviewedText: "This person nodded repeatedly in response to the headman's scolding, displaying a rather Dongying demeanor."
+    translated: "Listening to the headman's reprimand, the man nodded repeatedly, displaying a certain air of the Dongying people."
+    qcReviewedText: "Listening to the headman's reprimand, the man nodded repeatedly, displaying a certain air of the Dongying people."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -104548,8 +104544,8 @@
   splits:
   - split: 4
     text: "上次在山外巡逻，女真鞑子的马刀快得很，若不是我刀势够狠，便差点折在那儿。"
-    translated: "Last time on patrol outside the mountains, the Jurchen's sabers were very swift. If not for my fierce blade work, I would have nearly fallen there."
-    qcReviewedText: "Last time on patrol outside the mountains, the Jurchen's sabers were very swift. If not for my fierce blade work, I would have nearly fallen there."
+    translated: "Last time I was patrolling outside the mountains, the Jurchen Tartars' sabers were swift. Had my blade not been fierce enough, I would have nearly perished there."
+    qcReviewedText: "Last time I was patrolling outside the mountains, the Jurchen Tartars' sabers were swift. Had my blade not been fierce enough, I would have nearly perished there."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -106641,14 +106637,11 @@
   splits:
   - split: 4
     text: "主公有意出征三韩，跨海作战，风险可不小啊。"
-    translated: "My lord, an expedition to Silla across the sea carries significant risks."
-    qcReviewedText: "My lord, an expedition to Silla across the sea carries significant risks."
-    qcTranslated: "My lord, an expedition to the Samhan across the sea carries significant risks."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Lord, you intend to launch a campaign against Samhan? Crossing the sea to fight is no small risk."
+    qcReviewedText: "Lord, you intend to launch a campaign against Samhan? Crossing the sea to fight is no small risk."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "5519,1270002046,15,[0].talks{json}[0].name,卫兵"
   splits:
   - split: 4

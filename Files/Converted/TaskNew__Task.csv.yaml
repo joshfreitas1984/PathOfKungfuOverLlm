@@ -3188,7 +3188,7 @@
   - split: 2
     text: "梁乔情事"
     translated: "Liang Qiao's Affairs"
-    qcReviewedText: "Liang Qiao's Affairs-Letter from the Qiao Mansion_Ask the villagers about Liang Sangu's whereabouts."
+    qcReviewedText: "Liang Qiao's Affairs-Letter from the Qiao Mansion_Ask the villagers about Liang Sangu's whereabouts"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3199,7 +3199,7 @@
   - split: 2
     subIndex: 2
     text: "向村民打听梁三顾消息"
-    translated: "Ask the villagers about Liang Sangu's whereabouts."
+    translated: "Ask the villagers about Liang Sangu's whereabouts"
   templates:
   - split: 2
     template: "{0}-{1}_{2}"
@@ -3369,8 +3369,8 @@
     qcDefectCategory: None
   - split: 13
     text: "前往小七等被关押之所。"
-    translated: "Head to where Little Seven and the others are being held."
-    qcReviewedText: "Head to where Little Seven and the others are being held."
+    translated: "Head to where Xiaoqi and the others are being held."
+    qcReviewedText: "Head to where Xiaoqi and the others are being held."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3499,8 +3499,8 @@
   splits:
   - split: 2
     text: "小七后续"
-    translated: "Little Seven's follow-up"
-    qcReviewedText: "Little Seven's follow-up"
+    translated: "Xiaoqi's follow-up"
+    qcReviewedText: "Xiaoqi's follow-up"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3754,14 +3754,11 @@
     qcDefectCategory: None
   - split: 13
     text: "拜见紫霄道主叶伯应。"
-    translated: "Pay respects to Dao Master Ye Boying."
-    qcReviewedText: "Pay respects to Dao Master Ye Boying."
-    qcTranslated: "Pay respects to Zixiao Dao Master Ye Boying."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Pay respects to Dao Master Ye Boying"
+    qcReviewedText: "Pay respects to Dao Master Ye Boying"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "226,140001002,太和外门,1,0,14000,1,\"{\"\"isOpenWeather\"\":false,\"\"isOpenTime\"\":false,\"\"isOpenTask\"\":true,\"\"isOpenTaskLib\"\":false,\"\"isOpenAttr\"\":false,\"\"weatherType\"\":0,\"\"startHour\"\":0,\"\"endHour\"\":0,\"\"preTask\"\":\"\"140008001,990:0\"\",\"\"isOpenTask2\"\":false,\"\"preTask2\"\":\"\"\"\",\"\"preTaskLib\"\":\"\"\"\",\"\"attr\"\":\"\"\"\"}\",\"0,1,2,3,4,5,\",1727260584,False,,,"
   splits:
   - split: 2
@@ -5192,8 +5189,8 @@
     translated: "Six"
   - split: 13
     text: "与黄小小交谈，打听黄小玥。"
-    translated: "Talk to Huang Xiaoxiao about Huang Xiaoyue."
-    qcReviewedText: "Talk to Huang Xiaoxiao about Huang Xiaoyue."
+    translated: "Talk to Huang Xiaoxiao about Huang Xiaoyue"
+    qcReviewedText: "Talk to Huang Xiaoxiao about Huang Xiaoyue"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -1323,8 +1323,8 @@
   splits:
   - split: 4
     text: "小包袱"
-    translated: "Little Bundle"
-    qcReviewedText: "Little Bundle"
+    translated: "Xiaobaofu"
+    qcReviewedText: "Xiaobaofu"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1341,8 +1341,8 @@
   splits:
   - split: 4
     text: "小包袱"
-    translated: "Little Bundle"
-    qcReviewedText: "Little Bundle"
+    translated: "Xiaobaofu"
+    qcReviewedText: "Xiaobaofu"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1371,8 +1371,8 @@
   splits:
   - split: 4
     text: "你……你要是敢欺……欺负小七姐姐，我的黑……黑虎拳，可不是吃素的！"
-    translated: "You... you try to bully my Older Sister Qiaoqi, and my Black Tiger Fist won't be easy to handle!"
-    qcReviewedText: "You... you try to bully my Older Sister Qiaoqi, and my Black Tiger Fist won't be easy to handle!"
+    translated: "You... you try to bully my Older Sister Xiaoqi, and my Black Tiger Fist won't be easy to handle!"
+    qcReviewedText: "You... you try to bully my Older Sister Xiaoqi, and my Black Tiger Fist won't be easy to handle!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1451,20 +1451,20 @@
   splits:
   - split: 4
     text: "可惜小七本领低微，若能助{firstName}{playerTitle}手刃连天明，那才解气！"
-    translated: "{playerTitle}, W-what is wrong with you? Lian Tianming looks worriedly at {firstName}."
+    translated: "Alas, Xiaoqi's skills are limited. If only I could help {playerTitle} {firstName} slay Lian Tianming with your own hands-that would truly be satisfying!"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<哥哥||姐姐>"
-    qcReviewedText: "{playerTitle}, W-what is wrong with you? Lian Tianming looks worriedly at {firstName}."
-    qcTranslated: "It's a pity that Xiao Qi's skills are so low. If she could help {firstName}{playerTitle} kill Lian Tianming with her own hands, that would be satisfying!"
+    qcReviewedText: "Alas, Xiaoqi's skills are limited. If only I could help {playerTitle} {firstName} slay Lian Tianming with your own hands-that would truly be satisfying!"
+    qcTranslated: "Alas, Xiaoqi's skills are limited. If only I could help {playerTitle} {firstName} slay Lian Tianming with your own hands-that would truly be satisfying!"
     qcStatus: Corrected
-    qcQualityScore: 95
+    flaggedForQcReview: true
+    qcQualityScore: 0
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-    - DroppedContent
 - raw: "21,1120001008,10,[3].talks{json}[0].name,小七"
   splits:
   - split: 4
@@ -2971,8 +2971,8 @@
   splits:
   - split: 4
     text: "秦懿瑶冲你微微一笑。"
-    translated: "Qin Yiyao gave you a slight smile."
-    qcReviewedText: "Qin Yiyao gave you a slight smile."
+    translated: "Qin Yiyao gave you a slight smile"
+    qcReviewedText: "Qin Yiyao gave you a slight smile"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4029,8 +4029,8 @@
   splits:
   - split: 4
     text: "近年来鞑子频频来犯，细作频出，守门也是件紧要差事，万不能出差错。"
-    translated: "In recent years, Tartar invasions have been frequent, and spies are everywhere. Guarding the gate is a crucial duty; one cannot afford to make any mistakes."
-    qcReviewedText: "In recent years, Tartar invasions have been frequent, and spies are everywhere. Guarding the gate is a crucial duty; one cannot afford to make any mistakes."
+    translated: "In recent years, the Tartars have launched frequent incursions and spies have appeared in droves. Guarding the gate is a critical duty; there must be no mistakes."
+    qcReviewedText: "In recent years, the Tartars have launched frequent incursions and spies have appeared in droves. Guarding the gate is a critical duty; there must be no mistakes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

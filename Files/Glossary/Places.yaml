@@ -61,6 +61,8 @@
   context: A Jurchen tribe, always "Warka" (so Warka tribe). Never Walake, Walha, Warkha, Varka or Valka.
 - raw: "鞑子"
   result: "Tartars"
+  allowalt:
+  - "Tartar"
   context: Derogatory term for northern raiders, always Tartar(s). Never Tatar or Mongol.
 - raw: "楼兰"
   result: "Loulan"
@@ -71,6 +73,8 @@
   context: Same place as 东瀛, so always Dongying, never Japan or Japanese. Only 倭寇 (the raiders) stays Wokou.
 - raw: "倭人"
   result: "Dongying people"
+  allowalt:
+  - "Dongying"
   context: Dongying person or people (Dongying Samurai, a Dongying man). Never Japanese. Only 倭寇 stays Wokou.
 - raw: "倭寇"
   result: "Wokou"

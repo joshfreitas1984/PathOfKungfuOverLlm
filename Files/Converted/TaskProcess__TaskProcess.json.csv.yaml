@@ -20353,8 +20353,8 @@
   splits:
   - split: 4
     text: "你连杀十余人，一路冲至宋红玉身侧，只见她手中长剑上下翻飞，独战三人，亦能将那倭人头目逼得破绽百出，但却未下杀手，显然是存了活捉之心，那倭人且战且退，面目狰狞，显然亦非寻常倭寇。"
-    translated: "You killed more than ten people and charged to Song Hongyu's side. You saw her wielding a long sword, dancing around as she fought off three enemies alone. She managed to force the Wokou leader into making numerous mistakes, yet she refrained from killing him, clearly intending to capture him alive. The Wokou leader fought while retreating, his face twisted in a terrifying expression, obviously not an ordinary Wokou."
-    qcReviewedText: "You killed more than ten people and charged to Song Hongyu's side. You saw her wielding a long sword, dancing around as she fought off three enemies alone. She managed to force the Wokou leader into making numerous mistakes, yet she refrained from killing him, clearly intending to capture him alive. The Wokou leader fought while retreating, his face twisted in a terrifying expression, obviously not an ordinary Wokou."
+    translated: "You slew over a dozen enemies in succession and charged to Song Hongyu's side. There you saw her long sword dancing up and down as she faced three foes alone, forcing the Dongying chieftain to expose countless openings. Yet she did not deliver the killing blow, clearly intending to capture him alive. The Dongying man fought while retreating, his face twisted in ferocity, clearly no ordinary Wokou."
+    qcReviewedText: "You slew over a dozen enemies in succession and charged to Song Hongyu's side. There you saw her long sword dancing up and down as she faced three foes alone, forcing the Dongying chieftain to expose countless openings. Yet she did not deliver the killing blow, clearly intending to capture him alive. The Dongying man fought while retreating, his face twisted in ferocity, clearly no ordinary Wokou."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20374,8 +20374,8 @@
   splits:
   - split: 4
     text: "宋红玉修为虽不如左三思、李映心二人那般精湛，多以智闻名天下，但究竟是一派掌门，得你相助，更是不过区区数招，便将船头所余倭寇尽皆杀死，只留了那倭人头目半条性命。"
-    translated: "Although Song Hongyu's cultivation is not as refined as Zuo Sansi and Li Yingxin's, she is renowned for her wisdom across the land. As a sect leader, with your help, she managed to kill all the Wokou remaining at the ship's prow in just a few moves, leaving only the life of the Wokou captain hanging by a thread."
-    qcReviewedText: "Although Song Hongyu's cultivation is not as refined as Zuo Sansi and Li Yingxin's, she is renowned for her wisdom across the land. As a sect leader, with your help, she managed to kill all the Wokou remaining at the ship's prow in just a few moves, leaving only the life of the Wokou captain hanging by a thread."
+    translated: "Though Song Hongyu's cultivation was not as refined as that of Zuo Sansi and Li Yingxin, and she was renowned across the land for her intellect rather than martial prowess, she was still the Sect Leader. With your assistance, she killed all the remaining Wokou at the bow in a mere few moves, leaving only the Dongying chieftain half-alive."
+    qcReviewedText: "Though Song Hongyu's cultivation was not as refined as that of Zuo Sansi and Li Yingxin, and she was renowned across the land for her intellect rather than martial prowess, she was still the Sect Leader. With your assistance, she killed all the remaining Wokou at the bow in a mere few moves, leaving only the Dongying chieftain half-alive."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20580,21 +20580,16 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}，你修为虽强，但大阪城乃是天下人老巢，妄然行事只怕不妥，待那倭人开了口，再动不迟。"
-    translated: "{playerTitle} {firstName}, though your cultivation is strong, Osaka Castle is the lair of Tian Xia Ren. Acting rashly may not be wise; wait until the Dongying speak, then move accordingly."
+    translated: "{playerTitle} {firstName}, though your Cultivation is formidable, Osaka Castle is the stronghold of Tian Xia Ren. Acting rashly would be unwise; it is best to wait until the Dongying people speak before taking action."
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "{playerTitle} {firstName}, though your cultivation is strong, Osaka Castle is the lair of Tian Xia Ren. Acting rashly may not be wise; wait until the Dongying speak, then move accordingly."
-    qcTranslated: "{playerTitle} {firstName}, though your Cultivation is strong, Osaka Castle is the lair of Tianxia Ren. Acting rashly may not be wise; wait until the Dongying speak, then move accordingly."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - OtherNamedDefect
+    qcReviewedText: "{playerTitle} {firstName}, though your Cultivation is formidable, Osaka Castle is the stronghold of Tian Xia Ren. Acting rashly would be unwise; it is best to wait until the Dongying people speak before taking action."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "136,270001002004,4,[0].talks{json}[14].talk,听闻此言，其余众人亦是尽皆颔首，你亦知此事非同小可，点头应下。"
   splits:
   - split: 4
@@ -21489,8 +21484,8 @@
   splits:
   - split: 4
     text: "忽闻不远处传来兵刃相交之声，顺其看去，只见一名倭人男子手提倭刀，正与几个盗匪斗在一处。"
-    translated: "Suddenly, the sound of clashing weapons came from nearby. Looking in that direction, you saw a Dongying man wielding a katana, battling several bandits."
-    qcReviewedText: "Suddenly, the sound of clashing weapons came from nearby. Looking in that direction, you saw a Dongying man wielding a katana, battling several bandits."
+    translated: "Suddenly, the clash of blades echoed from nearby. Following the sound, a Dongying man wielding a katana was seen battling several bandits."
+    qcReviewedText: "Suddenly, the clash of blades echoed from nearby. Following the sound, a Dongying man wielding a katana was seen battling several bandits."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21516,8 +21511,8 @@
   splits:
   - split: 4
     text: "你并无意相助，站定旁观，却见那倭人男子刀法颇有几分特异，虽以一敌多，劣势尽显，却能稳守不失，时而还能还击一刀，逼得盗匪中人狼狈闪躲。"
-    translated: "You had no intention of helping and merely stood by to watch. Yet you noticed that the Dongying man's blade technique was quite unusual. Though he was outnumbered and clearly at a disadvantage, he managed to hold his ground and even occasionally struck back, forcing the bandits to awkwardly dodge."
-    qcReviewedText: "You had no intention of helping and merely stood by to watch. Yet you noticed that the Dongying man's blade technique was quite unusual. Though he was outnumbered and clearly at a disadvantage, he managed to hold his ground and even occasionally struck back, forcing the bandits to awkwardly dodge."
+    translated: "You had no intention of helping and stood by to observe, only to notice that the Dongying man's blade technique was rather peculiar. Though outnumbered and clearly at a disadvantage, he held his ground steadily without losing an inch, occasionally striking back with a single cut that forced the bandits to scramble and evade in disarray."
+    qcReviewedText: "You had no intention of helping and stood by to observe, only to notice that the Dongying man's blade technique was rather peculiar. Though outnumbered and clearly at a disadvantage, he held his ground steadily without losing an inch, occasionally striking back with a single cut that forced the bandits to scramble and evade in disarray."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21789,14 +21784,11 @@
   splits:
   - split: 4
     text: "“倭人内斗，乐见其成罢了。”"
-    translated: "It's just wishful thinking that they will fight among themselves."
-    qcReviewedText: "It's just wishful thinking that they will fight among themselves."
-    qcTranslated: "It is merely a matter of watching the Dongying infight and being pleased by it."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The Dongying people are fighting among themselves. We simply welcome the outcome."
+    qcReviewedText: "The Dongying people are fighting among themselves. We simply welcome the outcome."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "148,270001010000,4,[0].talks{json}[21].talk,黑田宗次郎闻言沉默，只是低头包着刀伤，直过良久，方才开口询问。"
   splits:
   - split: 4
@@ -21975,8 +21967,8 @@
   splits:
   - split: 4
     text: "你对倭人自是好感全无，黑田宗次郎听你此言，亦是不再多说，撑起身子，便往匪巢深处走去，大声叫战，不过片刻，便有比方才更多数倍的盗匪蜂拥而出，齐齐向他扑来。"
-    translated: "You have no goodwill toward the Dongying, and upon hearing your words, Kuroda Sojiro also said no more. He got up and walked deeper into the bandit lair, loudly challenging them to battle. In no time, far more bandits than before swarmed out, all rushing toward him."
-    qcReviewedText: "You have no goodwill toward the Dongying, and upon hearing your words, Kuroda Sojiro also said no more. He got up and walked deeper into the bandit lair, loudly challenging them to battle. In no time, far more bandits than before swarmed out, all rushing toward him."
+    translated: "You hold no fondness for the Dongying people. Hearing this, Kuroda Sojiro says nothing more. He rises to his feet and strides deeper into the bandit stronghold, shouting a challenge. In moments, a swarm of bandits-far more numerous than before-rushes out and pounces on him all at once."
+    qcReviewedText: "You hold no fondness for the Dongying people. Hearing this, Kuroda Sojiro says nothing more. He rises to his feet and strides deeper into the bandit stronghold, shouting a challenge. In moments, a swarm of bandits-far more numerous than before-rushes out and pounces on him all at once."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22116,8 +22108,8 @@
   splits:
   - split: 4
     text: "不待你出言以答，黑田宗次郎抽出腰后短刀，一刀刺进自己小腹，你先前虽听闻过此般倭人行径，却未想陡然目睹，仍是微微一惊。"
-    translated: "Before you could respond, Kuroda Sojiro drew a short blade from behind his waist and plunged it into his own abdomen. Though you had heard of such actions by Dongying men before, witnessing it suddenly still gave you a start."
-    qcReviewedText: "Before you could respond, Kuroda Sojiro drew a short blade from behind his waist and plunged it into his own abdomen. Though you had heard of such actions by Dongying men before, witnessing it suddenly still gave you a start."
+    translated: "Before you could respond, Kuroda Sojiro drew the short blade from his waist and plunged it into his own abdomen. Though you had heard of such practices among the Dongying people before, witnessing it so suddenly still caused a slight startle."
+    qcReviewedText: "Before you could respond, Kuroda Sojiro drew the short blade from his waist and plunged it into his own abdomen. Though you had heard of such practices among the Dongying people before, witnessing it so suddenly still caused a slight startle."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22588,8 +22580,8 @@
   splits:
   - split: 4
     text: "你信步上前，胸膛几乎抵在那倭人刀尖之上。"
-    translated: "You strolled forward, your chest nearly touching the tip of the Dongying blade."
-    qcReviewedText: "You strolled forward, your chest nearly touching the tip of the Dongying blade."
+    translated: "You step forward casually, your chest nearly touching the tip of the Dongying's blade."
+    qcReviewedText: "You step forward casually, your chest nearly touching the tip of the Dongying's blade."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22624,8 +22616,8 @@
   splits:
   - split: 4
     text: "你将冲出的几人数招击倒，他们却连你半片衣角都未能沾到，方才那茶寮老板早已吓呆，围观倭人亦是愈来愈多。"
-    translated: "You knocked down the few who charged at you, not even touching a thread of your clothes. The teahouse owner had long been petrified with fear, and more and more Dongying onlookers gathered around."
-    qcReviewedText: "You knocked down the few who charged at you, not even touching a thread of your clothes. The teahouse owner had long been petrified with fear, and more and more Dongying onlookers gathered around."
+    translated: "You knocked down several of them with a few strikes, yet they couldn't even touch the hem of your robe. The Teahouse Owner had long since been frozen in fear, and more Dongying people gathered to watch."
+    qcReviewedText: "You knocked down several of them with a few strikes, yet they couldn't even touch the hem of your robe. The Teahouse Owner had long since been frozen in fear, and more Dongying people gathered to watch."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22651,8 +22643,8 @@
   splits:
   - split: 4
     text: "身后倭人杂言杂语，你只充耳不闻，直至一名身着倭袍的干瘦老人大步走出，怒目直视，方才松开了手中提着的倭人衣领。"
-    translated: "Ignoring the babbling behind you, you only paid attention when a thin old man in Dongying robes stepped forward and glared at you, releasing his grip on the Dongying man's collar."
-    qcReviewedText: "Ignoring the babbling behind you, you only paid attention when a thin old man in Dongying robes stepped forward and glared at you, releasing his grip on the Dongying man's collar."
+    translated: "The murmurs of the Dongying people behind you went unheard until a gaunt old man in a Dongying robe strode forward, glaring at you with fury, and only then did you release the Dongying's collar that you had been gripping."
+    qcReviewedText: "The murmurs of the Dongying people behind you went unheard until a gaunt old man in a Dongying robe strode forward, glaring at you with fury, and only then did you release the Dongying's collar that you had been gripping."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22745,8 +22737,8 @@
   splits:
   - split: 4
     text: "忽然间，那与柳生宗近面貌有七八分相似的中年倭人陡然拔刀向你一刀斩来，你不动不惊，待刀锋距咽喉三寸之际，方才屈指轻弹，一指便将那人手中倭刀弹飞，直刺入头顶横梁，嗡然不绝。"
-    translated: "Suddenly, the middle-aged Dongying man, who resembled Yagyu Munechika by seven or eight parts, suddenly drew his blade and slashed at you. You remained calm and still, waiting until the blade was three inches from your throat before lightly flicking your finger, sending his Dongying saber flying into the crossbeam above, where it reverberated loudly."
-    qcReviewedText: "Suddenly, the middle-aged Dongying man, who resembled Yagyu Munechika by seven or eight parts, suddenly drew his blade and slashed at you. You remained calm and still, waiting until the blade was three inches from your throat before lightly flicking your finger, sending his Dongying saber flying into the crossbeam above, where it reverberated loudly."
+    translated: "Suddenly, the middle-aged Dongying man, who bore a striking resemblance to Yagyu Munechika, drew his blade and slashed at you. You remained perfectly still, unmoved by the threat. Only when the edge of the sword was three inches from your throat did you casually flick your finger. With a single strike, you sent the man's Dongying blade flying, embedding it deep into the overhead beam with a resonant hum that lingered in the air."
+    qcReviewedText: "Suddenly, the middle-aged Dongying man, who bore a striking resemblance to Yagyu Munechika, drew his blade and slashed at you. You remained perfectly still, unmoved by the threat. Only when the edge of the sword was three inches from your throat did you casually flick your finger. With a single strike, you sent the man's Dongying blade flying, embedding it deep into the overhead beam with a resonant hum that lingered in the air."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22754,8 +22746,8 @@
   splits:
   - split: 4
     text: "你心中暗自留神。此间倭人刀术确有几分诡奇，虽说只重刀技，不修内力，但却快似流星，力技皆巧，却是不得不防。"
-    translated: "You silently stay alert. The Dongying here do indeed have a few tricks up their sleeves with their sword techniques. Though they focus solely on sword skills and do not cultivate Inner Power, their strikes are as swift as shooting stars, both quick and clever, making them a force to be reckoned with."
-    qcReviewedText: "You silently stay alert. The Dongying here do indeed have a few tricks up their sleeves with their sword techniques. Though they focus solely on sword skills and do not cultivate Inner Power, their strikes are as swift as shooting stars, both quick and clever, making them a force to be reckoned with."
+    translated: "You keep a wary watch. The Dongying people's blade techniques are indeed peculiar and strange. Though they rely solely on swordsmanship without cultivating Inner Power, their strikes are swift as meteors, blending speed and skill with deadly precision. You must remain vigilant."
+    qcReviewedText: "You keep a wary watch. The Dongying people's blade techniques are indeed peculiar and strange. Though they rely solely on swordsmanship without cultivating Inner Power, their strikes are swift as meteors, blending speed and skill with deadly precision. You must remain vigilant."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22934,8 +22926,8 @@
   splits:
   - split: 4
     text: "话音落下，这位方才还被诸多倭人敬若仙人的老者迈步便走，似是再无颜在此多耽，其余众人没了主心骨，亦是作鸟兽散，在你面前尽皆低头，不敢看你。"
-    translated: "With those words, the old man who had just been revered by many Dongying as if he were a god took a step and left, seemingly unable to bear staying any longer. The rest of the people, lacking their leader, also scattered, bowing before you and not daring to meet your gaze."
-    qcReviewedText: "With those words, the old man who had just been revered by many Dongying as if he were a god took a step and left, seemingly unable to bear staying any longer. The rest of the people, lacking their leader, also scattered, bowing before you and not daring to meet your gaze."
+    translated: "As his words fell, the old man, who had just been revered by the Dongying people as a celestial being, turned and walked away, seemingly unable to bear staying another moment. The others, having lost their leader, scattered like frightened beasts, lowering their heads before you, not daring to meet your gaze."
+    qcReviewedText: "As his words fell, the old man, who had just been revered by the Dongying people as a celestial being, turned and walked away, seemingly unable to bear staying another moment. The others, having lost their leader, scattered like frightened beasts, lowering their heads before you, not daring to meet your gaze."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22961,8 +22953,8 @@
   splits:
   - split: 4
     text: "正沉思间，你忽觉有人注视，转头看去，只见几名武士打扮的倭人，正向你嘻嘻哈哈，指指点点。"
-    translated: "As you were deep in thought, you suddenly felt someone watching you. Turning to look, you saw several Dongying warriors laughing and pointing at you."
-    qcReviewedText: "As you were deep in thought, you suddenly felt someone watching you. Turning to look, you saw several Dongying warriors laughing and pointing at you."
+    translated: "Lost in thought, you suddenly feel a gaze upon you. Turning around, you see several Dongying people dressed as samurai, snickering and pointing at you."
+    qcReviewedText: "Lost in thought, you suddenly feel a gaze upon you. Turning around, you see several Dongying people dressed as samurai, snickering and pointing at you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -23375,14 +23367,11 @@
   splits:
   - split: 4
     text: "她手指动作快若疾电，转瞬间自衣间抽出两把短刀，瞬进身形，与那佯装熟睡的倭人老者一同出手，朝你攻袭而来！"
-    translated: "Her fingers moved as fast as lightning, and in an instant she drew two short knives from her clothes. She then lunged forward, attacking alongside the feigning-sleeping elderly Dongying man!"
-    qcReviewedText: "Her fingers moved as fast as lightning, and in an instant she drew two short knives from her clothes. She then lunged forward, attacking alongside the feigning-sleeping elderly Dongying man!"
-    qcTranslated: "Her fingers moved as fast as lightning, and in an instant she drew two short knives from her clothes. She then lunged forward, attacking alongside the elderly Dongying man who was feigning sleep, rushing toward you!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Her fingers moved with lightning speed. In an instant, she drew two short blades from her robes and closed the distance, striking out alongside the Dongying elder who had been feigning sleep. They launched a joint assault toward you!"
+    qcReviewedText: "Her fingers moved with lightning speed. In an instant, she drew two short blades from her robes and closed the distance, striking out alongside the Dongying elder who had been feigning sleep. They launched a joint assault toward you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "153,270001013001,4,[0].talks{json}[14].talk,果如你所料，此人年纪轻轻，身手却极为诡异，一退一进之间竟是毫无声息，但论起正面对敌，她终究不若你修为深厚，不过数招之下便败于你手，被你牢牢制住。"
   splits:
   - split: 4
@@ -24156,8 +24145,8 @@
   splits:
   - split: 4
     text: "你自离了倭人村庄，便往那人所言方位行来，到了此处，果不其然听得人声马嘶，似是有人争吵。"
-    translated: "You left the Dongying village and headed toward the direction mentioned. Upon arriving here, you indeed heard voices and neighing horses, as if someone was arguing."
-    qcReviewedText: "You left the Dongying village and headed toward the direction mentioned. Upon arriving here, you indeed heard voices and neighing horses, as if someone was arguing."
+    translated: "You left the Dongying village and followed the directions given by that man. Upon arriving here, you indeed heard voices and the snorting of horses, suggesting a quarrel was taking place."
+    qcReviewedText: "You left the Dongying village and followed the directions given by that man. Upon arriving here, you indeed heard voices and the snorting of horses, suggesting a quarrel was taking place."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24480,8 +24469,8 @@
   splits:
   - split: 4
     text: "行至此处，只见一艘倭国海船正扬帆待发，不远处几个披甲挎刀的倭人正在岸边高谈阔论，狞笑阵阵。"
-    translated: "Arriving here, you see a Dongying warship ready to set sail, and not far away, several armed men with knives are loudly discussing something on the shore, their sneers evident."
-    qcReviewedText: "Arriving here, you see a Dongying warship ready to set sail, and not far away, several armed men with knives are loudly discussing something on the shore, their sneers evident."
+    translated: "As they reached this point, a Dongying warship was seen with its sails raised, ready to set out. Not far away, several Dongying people clad in armor and carrying blades stood on the shore, boasting loudly and exchanging sinister grins."
+    qcReviewedText: "As they reached this point, a Dongying warship was seen with its sails raised, ready to set out. Not far away, several Dongying people clad in armor and carrying blades stood on the shore, boasting loudly and exchanging sinister grins."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24825,8 +24814,8 @@
   splits:
   - split: 4
     text: "话音落下，在场倭人不论百姓武士，尽皆面露得意之色，明忍禅师虽还了一礼，却仍不依不饶。"
-    translated: "As soon as the words were spoken, all the Dongying present, whether commoners or warriors, wore smug expressions. Zen Master Mingren returned a bow but did not back down."
-    qcReviewedText: "As soon as the words were spoken, all the Dongying present, whether commoners or warriors, wore smug expressions. Zen Master Mingren returned a bow but did not back down."
+    translated: "As the words fell, every Dongying present, whether commoner or warrior, wore a smug expression. Zen Master Mingren returned the bow but remained unyielding."
+    qcReviewedText: "As the words fell, every Dongying present, whether commoner or warrior, wore a smug expression. Zen Master Mingren returned the bow but remained unyielding."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25251,8 +25240,8 @@
   splits:
   - split: 4
     text: "你远远见一个倭人男子满身是血，鬼鬼祟祟窜入民房，心中有疑，迈步至此，正欲推门一观，却听其中隐有人声。"
-    translated: "You spotted a Dongying man covered in blood sneaking into a civilian home furtively from afar. With suspicion in your heart, you approached and were about to push open the door when you heard muffled voices inside."
-    qcReviewedText: "You spotted a Dongying man covered in blood sneaking into a civilian home furtively from afar. With suspicion in your heart, you approached and were about to push open the door when you heard muffled voices inside."
+    translated: "From afar, you spot a Dongying man drenched in blood, sneaking furtively into a civilian's home. Suspicion arises in your heart. You step forward and are just about to push open the door to take a look when you hear faint voices from within."
+    qcReviewedText: "From afar, you spot a Dongying man drenched in blood, sneaking furtively into a civilian's home. Suspicion arises in your heart. You step forward and are just about to push open the door to take a look when you hear faint voices from within."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -48473,8 +48462,8 @@
   splits:
   - split: 4
     text: "路过此间，你忽然耳侧微动，只听其中隐有语声，却非中原官话，细听之下，竟是倭人言语，若非你内力过人，耳力超群，只怕也难听出甚么名堂。"
-    translated: "Passing by, you suddenly noticed a faint sound beside your ear. It was not in Mandarin, but rather Dongying. If not for your exceptional Inner Power and keen hearing, you might not have discerned anything at all."
-    qcReviewedText: "Passing by, you suddenly noticed a faint sound beside your ear. It was not in Mandarin, but rather Dongying. If not for your exceptional Inner Power and keen hearing, you might not have discerned anything at all."
+    translated: "As you pass through this area, your ears suddenly twitch. Faint voices drift to you, but they are not the standard Mandarin of the Central Plains. Upon listening closely, you realize they are speaking in the tongue of the Dongying people. Had your Inner Power not been exceptional and your hearing not extraordinarily keen, you likely would have failed to discern anything at all."
+    qcReviewedText: "As you pass through this area, your ears suddenly twitch. Faint voices drift to you, but they are not the standard Mandarin of the Central Plains. Upon listening closely, you realize they are speaking in the tongue of the Dongying people. Had your Inner Power not been exceptional and your hearing not extraordinarily keen, you likely would have failed to discern anything at all."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49671,8 +49660,8 @@
   splits:
   - split: 4
     text: "你依沈无瑕之言在馈玉楼盘桓，未见有异，但今日再来之时，忽听此处房门之中，似有倭人语调，口出汉话。"
-    translated: "You followed Shen Wuxia's advice and lingered at the Feiyu Pavilion, but saw nothing unusual. Yet today, upon returning, you suddenly heard what sounded like Dongying speaking in Chinese from within one of the rooms."
-    qcReviewedText: "You followed Shen Wuxia's advice and lingered at the Feiyu Pavilion, but saw nothing unusual. Yet today, upon returning, you suddenly heard what sounded like Dongying speaking in Chinese from within one of the rooms."
+    translated: "You lingered at the Kuixu Pavilion as Shen Wuxia advised, finding nothing unusual. Yet when you returned today, you suddenly heard voices from within the room-Dongying people speaking in Han."
+    qcReviewedText: "You lingered at the Kuixu Pavilion as Shen Wuxia advised, finding nothing unusual. Yet when you returned today, you suddenly heard voices from within the room-Dongying people speaking in Han."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49917,8 +49906,8 @@
   splits:
   - split: 4
     text: "你既知真情，推门便入，那东瀛倭人颇为机警，见你神情，便知你已听了许久。"
-    translated: "Since you know the truth, you pushed open the door and entered. The Dongying man was quite alert; seeing your expression, he knew you had been listening for a while."
-    qcReviewedText: "Since you know the truth, you pushed open the door and entered. The Dongying man was quite alert; seeing your expression, he knew you had been listening for a while."
+    translated: "Since you already know the truth, simply push open the door and enter. The Dongying people are quite alert; seeing your expression, they will realize that you have been listening for a long time."
+    qcReviewedText: "Since you already know the truth, simply push open the door and enter. The Dongying people are quite alert; seeing your expression, they will realize that you have been listening for a long time."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -49953,14 +49942,11 @@
   splits:
   - split: 4
     text: "你将那东瀛倭人杀死于地，转头看向那位沈公子，他此时已然双腿战战，缩在桌角，见你看来，更是诸液齐流。"
-    translated: "You killed the Dongying man on the ground and turned to look at Young Lord Shen. He was trembling with both legs shaking, crouched behind a table corner. When he saw you looking at him, he began to sweat and tremble even more."
-    qcReviewedText: "You killed the Dongying man on the ground and turned to look at Young Lord Shen. He was trembling with both legs shaking, crouched behind a table corner. When he saw you looking at him, he began to sweat and tremble even more."
-    qcTranslated: "You killed the Dongying man on the ground and turned to look at Young Lord Shen. He was trembling with both legs shaking, crouched behind a table corner. When he saw you looking at him, all his bodily fluids began to flow."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "You slew the Dongying man on the ground and turned to look at Young Lord Shen. His legs were already trembling as he cowered in the corner of the table; upon seeing your gaze, he was overcome by a flood of bodily fluids."
+    qcReviewedText: "You slew the Dongying man on the ground and turned to look at Young Lord Shen. His legs were already trembling as he cowered in the corner of the table; upon seeing your gaze, he was overcome by a flood of bodily fluids."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "231,240001024002,4,[0].talks{json}[20].name,商会十七"
   splits:
   - split: 4
@@ -52008,8 +51994,8 @@
   splits:
   - split: 4
     text: "到江湖去，小七可愿同往？"
-    translated: "To the Jianghu, would you like to go with me, Little Seven?"
-    qcReviewedText: "To the Jianghu, would you like to go with me, Little Seven?"
+    translated: "Shall we head to the Jianghu, Xiaoqi? Will you come with me?"
+    qcReviewedText: "Shall we head to the Jianghu, Xiaoqi? Will you come with me?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -52049,8 +52035,8 @@
   splits:
   - split: 4
     text: "你微微一笑，伸手摸摸小七的头，携两人一起，转身上路。"
-    translated: "You smiled slightly, reached out to pat Little Seven's head, and led them both as you turned to set off."
-    qcReviewedText: "You smiled slightly, reached out to pat Little Seven's head, and led them both as you turned to set off."
+    translated: "You smile faintly, reach out to pat Xiaoqi on the head, and then turn around with her to continue on your way."
+    qcReviewedText: "You smile faintly, reach out to pat Xiaoqi on the head, and then turn around with her to continue on your way."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -52601,8 +52587,8 @@
   splits:
   - split: 4
     text: "嘿，这一镖咱们镖局高手尽出，哪怕是碰上鞑子兵马，想来也能与其斗上一斗。"
-    translated: "Hey, for this escort, our bureau has sent out all our skilled experts. Even if we run into Tartar troops, I think we can hold our own against them."
-    qcReviewedText: "Hey, for this escort, our bureau has sent out all our skilled experts. Even if we run into Tartar troops, I think we can hold our own against them."
+    translated: "Hey, our escort agency has deployed all its top experts for this mission. Even if we encounter Tartar troops, I'm sure we can hold our own against them."
+    qcReviewedText: "Hey, our escort agency has deployed all its top experts for this mission. Even if we encounter Tartar troops, I'm sure we can hold our own against them."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -53996,8 +53982,8 @@
   splits:
   - split: 4
     text: "你转头看去，只见那人面貌虽无异常，服饰却与中原略有差异，又不似倭人那般望之生厌，一时间竟没瞧出此人的来历。"
-    translated: "You turned to look, and saw that although the person's appearance was unremarkable, their attire differed slightly from that of Central China and did not resemble that of the Dongying in a way that would make one dislike them at first sight. For a moment, you could not tell where this person came from."
-    qcReviewedText: "You turned to look, and saw that although the person's appearance was unremarkable, their attire differed slightly from that of Central China and did not resemble that of the Dongying in a way that would make one dislike them at first sight. For a moment, you could not tell where this person came from."
+    translated: "You turned to look. The person's face was unremarkable, and while their attire differed slightly from that of the Central Plains, it did not carry the repulsive quality associated with the Dongying people. For a moment, you could not discern their origin."
+    qcReviewedText: "You turned to look. The person's face was unremarkable, and while their attire differed slightly from that of the Central Plains, it did not carry the repulsive quality associated with the Dongying people. For a moment, you could not discern their origin."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -54161,8 +54147,8 @@
   splits:
   - split: 4
     text: "朝鲜之地，三韩之国，便是他最终归隐之地。"
-    translated: "The land of Samhan, the country of Samhan, is where he ultimately chose to retire."
-    qcReviewedText: "The land of Samhan, the country of Samhan, is where he ultimately chose to retire."
+    translated: "The land of Joseon, the nation of Samhan, was where he ultimately retired into seclusion."
+    qcReviewedText: "The land of Joseon, the nation of Samhan, was where he ultimately retired into seclusion."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -54443,8 +54429,8 @@
   splits:
   - split: 4
     text: "如此甚好，我这艘商船常年于三韩中原往来，近日倭寇闹得厉害，在下届时只能将船停在近海，阁下自划小舟登岸。"
-    translated: "Very well, my trading ship travels regularly between Silla and Central China. Lately, the Wokou have been causing trouble, so I will have to anchor near the coast. You will need to disembark in a small boat."
-    qcReviewedText: "Very well, my trading ship travels regularly between Silla and Central China. Lately, the Wokou have been causing trouble, so I will have to anchor near the coast. You will need to disembark in a small boat."
+    translated: "That is most convenient. My merchant vessel travels between Samhan and the Central Plains year-round. Lately, the Wokou pirates have been particularly active, so I will only be able to anchor near the coast. You may row a small boat ashore yourself."
+    qcReviewedText: "That is most convenient. My merchant vessel travels between Samhan and the Central Plains year-round. Lately, the Wokou pirates have been particularly active, so I will only be able to anchor near the coast. You may row a small boat ashore yourself."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -91698,8 +91684,8 @@
   splits:
   - split: 4
     text: "挣倭人的银子，说来还是为国做事哩，他们手上银子到了你我二人手里，得少置多少军械铠甲？"
-    translated: "Earning money from the Dongying, one could say it's still for the sake of the country. Once their money is in our hands, how much military equipment and armor could we acquire?"
-    qcReviewedText: "Earning money from the Dongying, one could say it's still for the sake of the country. Once their money is in our hands, how much military equipment and armor could we acquire?"
+    translated: "Earning the silver of the Dongying people is, in truth, a service to the nation. How much military equipment and armor could we purchase with the silver that passes from their hands into ours?"
+    qcReviewedText: "Earning the silver of the Dongying people is, in truth, a service to the nation. How much military equipment and armor could we purchase with the silver that passes from their hands into ours?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -91761,8 +91747,8 @@
   splits:
   - split: 4
     text: "她本是临川村人，离此地不远……那村子让倭人屠了，她不知如何逃出，又不知如何练了身厉害功夫……"
-    translated: "She was originally from Linchuan Village, not far from here......That village was razed by the Dongying, and she doesn't know how she escaped or how she learned such formidable skills......"
-    qcReviewedText: "She was originally from Linchuan Village, not far from here......That village was razed by the Dongying, and she doesn't know how she escaped or how she learned such formidable skills......"
+    translated: "She was originally from Linchuan Village, not far from here... The village was massacred by the Dongying people. She doesn't know how she escaped, nor how she acquired such formidable martial arts..."
+    qcReviewedText: "She was originally from Linchuan Village, not far from here... The village was massacred by the Dongying people. She doesn't know how she escaped, nor how she acquired such formidable martial arts..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -91788,8 +91774,8 @@
   splits:
   - split: 4
     text: "这几年间，不知多少倭人死于她手……"
-    translated: "In these past few years, countless Dongying have met their end at her hands......"
-    qcReviewedText: "In these past few years, countless Dongying have met their end at her hands......"
+    translated: "Over the past few years, countless Dongying people have died by her hand..."
+    qcReviewedText: "Over the past few years, countless Dongying people have died by her hand..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -91815,8 +91801,8 @@
   splits:
   - split: 4
     text: "嘿！官府管得动才是奇事，倭人散发文书，而不是闯入镇中搜捕，已是给足面子啦。"
-    translated: "Hey! It's a rare thing for the authorities to have any sway. The Dongying have issued wanted notices instead of raiding the town to make arrests, which is already a generous gesture."
-    qcReviewedText: "Hey! It's a rare thing for the authorities to have any sway. The Dongying have issued wanted notices instead of raiding the town to make arrests, which is already a generous gesture."
+    translated: "Hey! It would be a miracle if the authorities could actually control things. The fact that the Dongying people are distributing documents instead of storming into town to search for people is already giving us plenty of face."
+    qcReviewedText: "Hey! It would be a miracle if the authorities could actually control things. The fact that the Dongying people are distributing documents instead of storming into town to search for people is already giving us plenty of face."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -96085,8 +96071,8 @@
   splits:
   - split: 4
     text: "此乃倭国家族，以鹰羽为纹，所传“出云无心流”颇有门道，左某昔年，亦领教过其中精妙。"
-    translated: "This is a clan from the Wa nation, with an eagle feather as their crest. Their Izumo Mindless School has its intricacies, and I once experienced its subtleties firsthand."
-    qcReviewedText: "This is a clan from the Wa nation, with an eagle feather as their crest. Their Izumo Mindless School has its intricacies, and I once experienced its subtleties firsthand."
+    translated: "This is a Dongying clan bearing the hawk feather crest. Their Izumo Mindless School has its own subtleties; in my younger days, I too had the pleasure of studying its finer points."
+    qcReviewedText: "This is a Dongying clan bearing the hawk feather crest. Their Izumo Mindless School has its own subtleties; in my younger days, I too had the pleasure of studying its finer points."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -98330,8 +98316,8 @@
   splits:
   - split: 4
     text: "唐恕不知你心中盘算，只是盯着篝火默默不言，过了片刻，忽闻密道尽头脚步声响，却是那倭人去而复返。"
-    translated: "Tang Su didn't know what you were thinking; he just stared at the campfire silently. After a moment, he suddenly heard footsteps at the end of the secret passage-it was the Dongying man returning."
-    qcReviewedText: "Tang Su didn't know what you were thinking; he just stared at the campfire silently. After a moment, he suddenly heard footsteps at the end of the secret passage-it was the Dongying man returning."
+    translated: "Tang Shu did not know what was on your mind. He merely stared silently at the campfire. After a moment, footsteps echoed from the far end of the secret passage-it was one of the Dongying people returning."
+    qcReviewedText: "Tang Shu did not know what was on your mind. He merely stared silently at the campfire. After a moment, footsteps echoed from the far end of the secret passage-it was one of the Dongying people returning."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -99439,8 +99425,8 @@
   splits:
   - split: 4
     text: "不错，我而立之年，妻女死于女真鞑子之手，自此更名为恨，誓报此仇。然手刃鞑子虽多，但日夜辗转，此仇却似永远报之不尽。"
-    translated: "Fine, at thirty, my wife and daughter died at the hands of the Jurchen invaders. From then on, I changed my name to Hate and swore to avenge them. Yet, despite killing many of those invaders, this hatred seems to grow and fester endlessly, night and day."
-    qcReviewedText: "Fine, at thirty, my wife and daughter died at the hands of the Jurchen invaders. From then on, I changed my name to Hate and swore to avenge them. Yet, despite killing many of those invaders, this hatred seems to grow and fester endlessly, night and day."
+    translated: "Not bad. I was thirty when my wife and daughter were killed by the Jurchen Tartars. From that day on, I changed my name to Hate and swore to avenge them. Though I have slain many Tartars with my own hands, I lie awake day and night, and this vengeance feels as though it will never be fully avenged."
+    qcReviewedText: "Not bad. I was thirty when my wife and daughter were killed by the Jurchen Tartars. From that day on, I changed my name to Hate and swore to avenge them. Though I have slain many Tartars with my own hands, I lie awake day and night, and this vengeance feels as though it will never be fully avenged."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -107152,8 +107138,8 @@
   splits:
   - split: 4
     text: "你听得倭人头目语气谦卑，而鹤子姑娘答复之言则颇有骄傲得意之感。可那一众倭人初时小心翼翼，听了鹤子答复，便渐显放肆。那头领哈哈大笑几声，用倭语说了什么，你虽不懂东瀛话，却将其表情看得分明，大有嘲讽之意。"
-    translated: "You could hear the Dongying chieftain's tone was humble, while Miss Heizi's response was filled with pride and satisfaction. However, the group of Dongying initially approached cautiously. After hearing Heizi's reply, they gradually became more brazen. The chieftain laughed haughtily a few times and said something in Dongying. Though you didn't understand Dongying language, you could clearly see the mocking expression on his face."
-    qcReviewedText: "You could hear the Dongying chieftain's tone was humble, while Miss Heizi's response was filled with pride and satisfaction. However, the group of Dongying initially approached cautiously. After hearing Heizi's reply, they gradually became more brazen. The chieftain laughed haughtily a few times and said something in Dongying. Though you didn't understand Dongying language, you could clearly see the mocking expression on his face."
+    translated: "You noticed the Dongying chieftain's humble tone, while Miss Hezi's reply carried a distinct air of pride and smugness. At first, the group of Dongying people had been cautious, but after hearing Hezi's response, they gradually grew bolder. The chieftain burst into loud laughter several times and said something in the Dongying language. Though you did not understand their tongue, you clearly saw his expression, which was filled with mockery."
+    qcReviewedText: "You noticed the Dongying chieftain's humble tone, while Miss Hezi's reply carried a distinct air of pride and smugness. At first, the group of Dongying people had been cautious, but after hearing Hezi's response, they gradually grew bolder. The chieftain burst into loud laughter several times and said something in the Dongying language. Though you did not understand their tongue, you clearly saw his expression, which was filled with mockery."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -107299,11 +107285,15 @@
   splits:
   - split: 4
     text: "大侠救命之恩，小女子永记在心……那日、那日我在海边玩耍，撞见三个倭人，被其、被其掳了去……先是将我藏在、藏在镇子东边流莺营地里，昨夜又将我与这几个姊妹带来此处、此处……"
-    translated: "Great Hero, for saving my life, this woman will forever remember your kindness... That day, that day I was playing by the seaside when I encountered three Dongying men who captured me... They first hid me in the Camp of Courtesans on the east side of the town, and last night brought me and these sisters here, to this place..."
-    qcReviewedText: "Great Hero, for saving my life, this woman will forever remember your kindness... That day, that day I was playing by the seaside when I encountered three Dongying men who captured me... They first hid me in the Camp of Courtesans on the east side of the town, and last night brought me and these sisters here, to this place..."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Great Hero, I shall never forget the debt of life you have saved me for... That day, that day I was playing by the seaside and encountered three Dongying people. They, they abducted me... First, they hid me in the Liuying Camp on the east side of town, and last night they brought me and these sisters here, here..."
+    qcReviewedText: "Great Hero, I shall never forget the debt of life you have saved me for... That day, that day I was playing by the seaside and encountered three Dongying people. They, they abducted me... First, they hid me in the Liuying Camp on the east side of town, and last night they brought me and these sisters here, here..."
+    qcTranslated: "Great Hero, I shall forever keep the debt of life you have saved me for in my heart... That day, that day I was playing by the seaside and encountered three Dongying people. They, they abducted me... First, they hid me in the Liuying Camp on the east side of town, and last night they brought me and these sisters here, here..."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "526,150006019003,4,[0].talks{json}[5].name,孙家女儿"
   splits:
   - split: 4
@@ -108135,8 +108125,8 @@
   splits:
   - split: 4
     text: "这群打手才被你一扫而空，便有几名倭人紧随其后，手持刀枪，围攻而上。"
-    translated: "A group of ruffians had just been dispatched by you when several Dongying men followed, wielding blades and spears, and attacked."
-    qcReviewedText: "A group of ruffians had just been dispatched by you when several Dongying men followed, wielding blades and spears, and attacked."
+    translated: "You had just swept away the thugs when several Dongying people followed close behind, wielding blades and spears, closing in to surround you."
+    qcReviewedText: "You had just swept away the thugs when several Dongying people followed close behind, wielding blades and spears, closing in to surround you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -108153,8 +108143,8 @@
   splits:
   - split: 4
     text: "倭人悍不畏死，刀术颇精，颇费了你一番功夫。正喘息休整间，你只听得几声爆响，数枚铅丸破空而来！你猝不及防，堪堪闪过要害，但仍被弹丸伤到右肩。"
-    translated: "The Dongying fighters were fearless and skilled with their blades, making you work hard to defeat them. As you caught your breath and rested, several loud explosions rang out, followed by lead pellets flying through the air! Caught off guard, you narrowly avoided a vital point being hit but still took a pellet in your right shoulder."
-    qcReviewedText: "The Dongying fighters were fearless and skilled with their blades, making you work hard to defeat them. As you caught your breath and rested, several loud explosions rang out, followed by lead pellets flying through the air! Caught off guard, you narrowly avoided a vital point being hit but still took a pellet in your right shoulder."
+    translated: "The Dongying people are fierce and fearless in battle, with highly refined blade techniques. They put up a considerable fight for you. As you were catching your breath to recover, you heard several sharp cracks as lead bullets tore through the air! Caught off guard, you barely dodged the vital points, but were still struck in the right shoulder by the projectiles."
+    qcReviewedText: "The Dongying people are fierce and fearless in battle, with highly refined blade techniques. They put up a considerable fight for you. As you were catching your breath to recover, you heard several sharp cracks as lead bullets tore through the air! Caught off guard, you barely dodged the vital points, but were still struck in the right shoulder by the projectiles."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -108162,8 +108152,8 @@
   splits:
   - split: 4
     text: "还不待你包扎伤口，又有数名武士高举长刀，大喊冲来，更兼两个倭人手持火枪，立于一旁伺机瞄准。你本欲先毙持枪之敌，奈何武士纠缠，不得机会。眼见躲闪空间愈小，加之伤口牵扯，战况愈下。"
-    translated: "Before you could even bandage your wounds, several more warriors raised their long blades and charged, shouting. Two Dongying men armed with muskets stood by, waiting for an opportunity to aim. You intended to take out the gunmen first, but the warriors' interference left you no chance. With fewer spaces to dodge and your wounds pulling at you, the situation worsened."
-    qcReviewedText: "Before you could even bandage your wounds, several more warriors raised their long blades and charged, shouting. Two Dongying men armed with muskets stood by, waiting for an opportunity to aim. You intended to take out the gunmen first, but the warriors' interference left you no chance. With fewer spaces to dodge and your wounds pulling at you, the situation worsened."
+    translated: "Before you could even tend to your wounds, several more samurai charged forward with long blades raised high, shouting as they came. To make matters worse, two Dongying people stood nearby with firearms, waiting for an opening to take aim. You intended to put down the gunners first, but the samurai kept closing in, leaving you no chance. With less room to maneuver and your wounds pulling at every move, your situation grew ever more dire."
+    qcReviewedText: "Before you could even tend to your wounds, several more samurai charged forward with long blades raised high, shouting as they came. To make matters worse, two Dongying people stood nearby with firearms, waiting for an opening to take aim. You intended to put down the gunners first, but the samurai kept closing in, leaving you no chance. With less room to maneuver and your wounds pulling at every move, your situation grew ever more dire."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -110825,14 +110815,11 @@
   splits:
   - split: 4
     text: "她与壁城水寨的一名倭人供奉互有勾连，致使连环寨与村中恶人里应外合，现下青萍村已然毁于大火……"
-    translated: "She had ties with a Dongying offering at Bicheng Water Stronghold, leading to the Lianhuan Stronghold and the villains in Qingping Village working together from the inside, resulting in Qingping Village being destroyed by a great fire......"
-    qcReviewedText: "She had ties with a Dongying offering at Bicheng Water Stronghold, leading to the Lianhuan Stronghold and the villains in Qingping Village working together from the inside, resulting in Qingping Village being destroyed by a great fire......"
-    qcTranslated: "She had ties with a Dongying priest at Bicheng Water Stronghold, leading to the Lianhuan Stronghold and the villains in Qingping Village working together from the inside, resulting in Qingping Village being destroyed by a great fire......"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "She conspired with a Dongying people priest from Bicheng Water Stronghold, enabling Lianhuan Stronghold and the village's villains to coordinate from within and without. Now, Qingping Village has been reduced to ashes by fire..."
+    qcReviewedText: "She conspired with a Dongying people priest from Bicheng Water Stronghold, enabling Lianhuan Stronghold and the village's villains to coordinate from within and without. Now, Qingping Village has been reduced to ashes by fire..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "547,120001002001,4,[0].talks{json}[20].name,杜颜白"
   splits:
   - split: 4
@@ -145066,8 +145053,8 @@
   splits:
   - split: 4
     text: "先前倭人扰南，女真袭北，三韩虎视于东，朝廷无暇分而兼顾。如今天下人陡然而起席卷三韩，女真若是识相，亦要服于其麾，听调听宣。"
-    translated: "Earlier, the Dongying troubled the south, the Jurchen attacked the north, and the Samhan states loomed threateningly to the east. The court had no time to deal with them all. Now, Tian Xia Ren has suddenly risen up and swept through the Samhan states. If the Jurchen are wise, they will also submit to his command, heeding his orders and proclamations."
-    qcReviewedText: "Earlier, the Dongying troubled the south, the Jurchen attacked the north, and the Samhan states loomed threateningly to the east. The court had no time to deal with them all. Now, Tian Xia Ren has suddenly risen up and swept through the Samhan states. If the Jurchen are wise, they will also submit to his command, heeding his orders and proclamations."
+    translated: "Previously, the Dongying people raided the south, the Jurchen attacked the north, and Samhan lurked in the east like a tiger; the court had no time to attend to all fronts. Now that Tian Xia Ren has suddenly risen and swept through Samhan, if the Jurchen are wise, they too will submit to their banner and obey their summons."
+    qcReviewedText: "Previously, the Dongying people raided the south, the Jurchen attacked the north, and Samhan lurked in the east like a tiger; the court had no time to attend to all fronts. Now that Tian Xia Ren has suddenly risen and swept through Samhan, if the Jurchen are wise, they too will submit to their banner and obey their summons."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -146932,8 +146919,8 @@
   splits:
   - split: 4
     text: "满营上下无一人是孬种，杀起鞑子来，往往先登营冲过一轮，便不剩几成活着的留给兄弟们啦！"
-    translated: "Everyone in the vanguard camp is a tough fighter; by the time they charge through the first wave, there are hardly any left alive for the others to join in!"
-    qcReviewedText: "Everyone in the vanguard camp is a tough fighter; by the time they charge through the first wave, there are hardly any left alive for the others to join in!"
+    translated: "Not a single coward in the entire camp. When we fight the Tartars, the Vanguard Camp often charges through a round and leaves hardly any survivors for our brothers to deal with!"
+    qcReviewedText: "Not a single coward in the entire camp. When we fight the Tartars, the Vanguard Camp often charges through a round and leaves hardly any survivors for our brothers to deal with!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -148762,8 +148749,8 @@
   splits:
   - split: 4
     text: "以天下而言，大雪山与本门同族同脉，位处此地，皆与女真鞑子有不共戴天之仇，于红梅虽疯癫嗜血，此事之上却并不糊涂，倘若隋东关陷落，天山往中原之路断却，他大雪山的日子，想来亦不会好过。"
-    translated: "In terms of the greater realm, Daxue Mountain and our sect share the same lineage and roots. Being located here, we all have an irreconcilable enmity with the Jurchen invaders. Although Yu Hongmei is mad and bloodthirsty, she is not deluded on this matter. If Suidong Pass falls, cutting off the path from Tianshan to Central China, life for Daxue Mountain would surely not be easy either."
-    qcReviewedText: "In terms of the greater realm, Daxue Mountain and our sect share the same lineage and roots. Being located here, we all have an irreconcilable enmity with the Jurchen invaders. Although Yu Hongmei is mad and bloodthirsty, she is not deluded on this matter. If Suidong Pass falls, cutting off the path from Tianshan to Central China, life for Daxue Mountain would surely not be easy either."
+    translated: "In terms of the realm at large, Daxue Mountain shares the same lineage and roots as our sect. Situated here, both are bound by a hatred so deep that we cannot live under the same sky as the Jurchen Tartars. Though Yu Hongmei is mad and bloodthirsty, she is not foolish on this matter. Should Suidong Pass fall, the road from Tianshan to the Central Plains would be cut off, and I imagine life on Daxue Mountain would not be easy either."
+    qcReviewedText: "In terms of the realm at large, Daxue Mountain shares the same lineage and roots as our sect. Situated here, both are bound by a hatred so deep that we cannot live under the same sky as the Jurchen Tartars. Though Yu Hongmei is mad and bloodthirsty, she is not foolish on this matter. Should Suidong Pass fall, the road from Tianshan to the Central Plains would be cut off, and I imagine life on Daxue Mountain would not be easy either."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -148798,8 +148785,8 @@
   splits:
   - split: 4
     text: "此番副门主乃是奉命而行，向大雪山来人接索一件物事，若是出了岔子，两派之间，恐怕便是死仇了，眼下鞑子兵临城下，我虽看不惯大雪山那些崽子，却也不愿……见此情形。"
-    translated: "This time, the deputy sect leader was acting on orders to come to Daxue Mountain and retrieve an item. If anything goes wrong, it could mean a death sentence for the relationship between the two sects. With the Tartar army besieging the city, although I despise those brats at Daxue Mountain, I don't wish to... see this situation unfold."
-    qcReviewedText: "This time, the deputy sect leader was acting on orders to come to Daxue Mountain and retrieve an item. If anything goes wrong, it could mean a death sentence for the relationship between the two sects. With the Tartar army besieging the city, although I despise those brats at Daxue Mountain, I don't wish to... see this situation unfold."
+    translated: "The Vice Sect Leader acted on orders, going to Daxue Mountain to retrieve an item. If anything goes wrong, the two sects will surely become mortal enemies. With the Tartars' army at our gates, I may not care for those brats from Daxue Mountain, but I do not wish to see this situation unfold."
+    qcReviewedText: "The Vice Sect Leader acted on orders, going to Daxue Mountain to retrieve an item. If anything goes wrong, the two sects will surely become mortal enemies. With the Tartars' army at our gates, I may not care for those brats from Daxue Mountain, but I do not wish to see this situation unfold."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -148947,8 +148934,8 @@
   splits:
   - split: 4
     text: "出了隋东关，这关外的女真鞑子，可是杀人不眨眼呐……"
-    translated: "Beyond Suidong Pass, the Jurchen bandits here have no qualms about killing..."
-    qcReviewedText: "Beyond Suidong Pass, the Jurchen bandits here have no qualms about killing..."
+    translated: "Beyond Suidong Pass, the Jurchen Tartars out there are ruthless killers who show no mercy..."
+    qcReviewedText: "Beyond Suidong Pass, the Jurchen Tartars out there are ruthless killers who show no mercy..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -149354,8 +149341,8 @@
   splits:
   - split: 4
     text: "如今时节，鞑子兵临城下，仇统领这般虎将不于军中坐镇，却有好心情到关外林间，这倒是稀奇。"
-    translated: "At this time of year, with Tartar troops besieging the city, it's rather unusual for a fierce general like Commander Cao to have such good spirits strolling in the woods outside the pass instead of commanding his troops."
-    qcReviewedText: "At this time of year, with Tartar troops besieging the city, it's rather unusual for a fierce general like Commander Cao to have such good spirits strolling in the woods outside the pass instead of commanding his troops."
+    translated: "It is a rare sight indeed. With the Tartars at our gates, Commander Qiu, a tiger of a general, does not hold his post in the army but instead finds the leisure to stroll through the woods beyond the pass."
+    qcReviewedText: "It is a rare sight indeed. With the Tartars at our gates, Commander Qiu, a tiger of a general, does not hold his post in the army but instead finds the leisure to stroll through the woods beyond the pass."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -149408,8 +149395,8 @@
   splits:
   - split: 4
     text: "如今女真鞑子大军压境，隋东关首当其冲，办理此事，自是稳妥为上。"
-    translated: "Now that the Jurchen invaders are bearing down on us, Suidong Pass is the first to face their advance. When dealing with this matter, it is best to proceed with caution."
-    qcReviewedText: "Now that the Jurchen invaders are bearing down on us, Suidong Pass is the first to face their advance. When dealing with this matter, it is best to proceed with caution."
+    translated: "The Jurchen Tartar army now presses upon our borders, and Suidong Pass is the first to bear the brunt. In handling this matter, caution is the surest course."
+    qcReviewedText: "The Jurchen Tartar army now presses upon our borders, and Suidong Pass is the first to bear the brunt. In handling this matter, caution is the surest course."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -151282,8 +151269,8 @@
   splits:
   - split: 4
     text: "不过片刻，有足足十余人一路交手，直冲向你等所在方位，为首数人虽着女真服饰，然却发髻散乱，口出倭语，赫然是东瀛倭人，后方数个女真倭人满面凶光，穷追不舍。"
-    translated: "In no time at all, over a dozen people engaged in combat as they charged toward your location. The leaders among them wore Jurchen clothing but had disheveled hair and spoke Dongying, revealing themselves to be Dongying invaders. Those trailing behind, several Jurchen and Dongying alike, bore sinister expressions and relentlessly pursued."
-    qcReviewedText: "In no time at all, over a dozen people engaged in combat as they charged toward your location. The leaders among them wore Jurchen clothing but had disheveled hair and spoke Dongying, revealing themselves to be Dongying invaders. Those trailing behind, several Jurchen and Dongying alike, bore sinister expressions and relentlessly pursued."
+    translated: "Within moments, a dozen or so figures clashed along the way, charging straight toward your position. The leaders wore Jurchen attire, yet their hair was disheveled and they spoke in Dongying tongues-clearly Dongying people. Several more Jurchen-Dongying pursuers followed behind, their faces twisted with ferocity as they gave chase without letup."
+    qcReviewedText: "Within moments, a dozen or so figures clashed along the way, charging straight toward your position. The leaders wore Jurchen attire, yet their hair was disheveled and they spoke in Dongying tongues-clearly Dongying people. Several more Jurchen-Dongying pursuers followed behind, their faces twisted with ferocity as they gave chase without letup."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -151408,8 +151395,8 @@
   splits:
   - split: 4
     text: "观其步辙，此番沿此为径，侵入隋东关之敌……恐怕至少有三百之数，其中混杂倭人精锐，难怪那般难缠。"
-    translated: "By their tracks, this time they took this path, with at least three hundred enemies invading Suidong Pass... among them were elite Dongying troops, no wonder they were so difficult to deal with."
-    qcReviewedText: "By their tracks, this time they took this path, with at least three hundred enemies invading Suidong Pass... among them were elite Dongying troops, no wonder they were so difficult to deal with."
+    translated: "Judging by the footprints, the enemy that breached Suidong Pass along this path... there must be at least three hundred of them, with Dongying people's elite forces mixed in. No wonder they were so tough to deal with."
+    qcReviewedText: "Judging by the footprints, the enemy that breached Suidong Pass along this path... there must be at least three hundred of them, with Dongying people's elite forces mixed in. No wonder they were so tough to deal with."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -151586,14 +151573,11 @@
   splits:
   - split: 4
     text: "如此看来，此事已成了多半，仇统领，可已取到三韩之讯？"
-    translated: "From this, it seems the matter is mostly settled. Commander, have you obtained news from Silla?"
-    qcReviewedText: "From this, it seems the matter is mostly settled. Commander, have you obtained news from Silla?"
-    qcTranslated: "From this, it seems the matter is mostly settled. Commander Chou, have you obtained news from the Samhan?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "It seems the matter is largely settled. Commander Chou, have you obtained the intelligence from Samhan?"
+    qcReviewedText: "It seems the matter is largely settled. Commander Chou, have you obtained the intelligence from Samhan?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "760,220001014004,4,[0].talks{json}[8].name,仇千秋"
   splits:
   - split: 4
@@ -152776,8 +152760,8 @@
   splits:
   - split: 4
     text: "如今非常时节，鞑子眼线只怕遍布关外，此行需慎之又慎，咱们出了关，可就把命交在彼此手上了！"
-    translated: "These are perilous times now, with Tartar spies likely everywhere beyond the pass. This journey must be approached with utmost caution. Once we leave the pass, we will be entrusting our lives to one another!"
-    qcReviewedText: "These are perilous times now, with Tartar spies likely everywhere beyond the pass. This journey must be approached with utmost caution. Once we leave the pass, we will be entrusting our lives to one another!"
+    translated: "These are perilous times. Tartar spies likely lurk everywhere beyond the pass. We must tread with extreme caution. Once we cross the border, our lives rest in each other's hands!"
+    qcReviewedText: "These are perilous times. Tartar spies likely lurk everywhere beyond the pass. We must tread with extreme caution. Once we cross the border, our lives rest in each other's hands!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -155600,8 +155584,8 @@
   splits:
   - split: 4
     text: "此事我亦是近日方才想明，东瀛三韩虽弹丸之地，但以他这般穷兵黩武，手下兵马想必也远远多过此数，当真要打，何必假手他人？"
-    translated: "I only recently figured this out as well. Although the lands of Dongying and Silla are small, if he is so bent on war, his forces must surely be far greater than what has been reported. If he truly intends to fight, why would he need to rely on others?"
-    qcReviewedText: "I only recently figured this out as well. Although the lands of Dongying and Silla are small, if he is so bent on war, his forces must surely be far greater than what has been reported. If he truly intends to fight, why would he need to rely on others?"
+    translated: "I only recently came to understand this as well. Though Dongying and Samhan are but specks on the map, given his relentless pursuit of war, his forces must far exceed this number. If he truly intended to fight, why would he need to rely on others?"
+    qcReviewedText: "I only recently came to understand this as well. Though Dongying and Samhan are but specks on the map, given his relentless pursuit of war, his forces must far exceed this number. If he truly intended to fight, why would he need to rely on others?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -156635,14 +156619,11 @@
   splits:
   - split: 4
     text: "鞑子马快，来不及！如今辽东战事极近，他们若是见了此尸，势要满山搜人，若是逃了，要牵扯不知多少无辜性命！"
-    translated: "The Tartar horses are fast; there's no time! The current war in Liaodong is very close. If they see this body, they will surely search the entire mountain for survivors. If I flee, it will involve countless innocent lives!"
-    qcReviewedText: "The Tartar horses are fast; there's no time! The current war in Liaodong is very close. If they see this body, they will surely search the entire mountain for survivors. If I flee, it will involve countless innocent lives!"
-    qcTranslated: "The Tartar horses are fast; there's no time! The current war in Liaodong is very close. If they see this body, they will surely search the entire mountain for survivors. If I am caught, it will involve countless innocent lives!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The Tartars' horses are swift; there is no time to spare! The war in Liaodong is imminent. If they find this corpse, they will surely comb the entire mountain for survivors. If we flee, countless innocent lives may be dragged into this!"
+    qcReviewedText: "The Tartars' horses are swift; there is no time to spare! The war in Liaodong is imminent. If they find this corpse, they will surely comb the entire mountain for survivors. If we flee, countless innocent lives may be dragged into this!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "768,220001017001,4,[0].talks{json}[35].talk,说话之间，敌已骤至，为首女真头人勒马扬鞭，竟是十余骑女真人马挽弓执鞭，游猎至此。"
   splits:
   - split: 4
@@ -156869,13 +156850,13 @@
   splits:
   - split: 4
     text: "原来是{firstName}{playerTitle}，非是老朽没骨气，只是这女真鞑子着实可恶得紧，今日杀了他们十余人，恐怕此事……难以善罢。"
-    translated: "Turns out it's you, {playerTitle}. It's not that I lack backbone, but these Jurchen devils are truly detestable. Killing over ten of them today, I fear this matter... cannot be resolved amicably, {firstName}."
+    translated: "So it was you, {playerTitle} {firstName}. It is not that this old man lacks backbone; rather, these Jurchen Tartars are truly despicable. Having slain more than ten of them today, I fear this matter... will not end quietly."
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "Turns out it's you, {playerTitle}. It's not that I lack backbone, but these Jurchen devils are truly detestable. Killing over ten of them today, I fear this matter... cannot be resolved amicably, {firstName}."
+    qcReviewedText: "So it was you, {playerTitle} {firstName}. It is not that this old man lacks backbone; rather, these Jurchen Tartars are truly despicable. Having slain more than ten of them today, I fear this matter... will not end quietly."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -156987,8 +156968,8 @@
   splits:
   - split: 4
     text: "久之……连山贼匪寨都不敢在此间立足，生怕哪日被鞑子铁骑踏来，落得个惨死之局。"
-    translated: "Over time...... even bandits and outlaws dared not establish their bases here, fearing that one day they would be trampled by the Tartar cavalry, meeting a miserable end."
-    qcReviewedText: "Over time...... even bandits and outlaws dared not establish their bases here, fearing that one day they would be trampled by the Tartar cavalry, meeting a miserable end."
+    translated: "Over time... even the mountain bandits dared not establish their strongholds here, fearing that one day the Tartar cavalry might sweep in and leave them all dead."
+    qcReviewedText: "Over time... even the mountain bandits dared not establish their strongholds here, fearing that one day the Tartar cavalry might sweep in and leave them all dead."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -157887,8 +157868,8 @@
   splits:
   - split: 4
     text: "但比起女真鞑子，大雪山之恶，嘿，那反倒是萤火难与皓月争了。"
-    translated: "But compared to the Jurchen invaders, the evil of Daxue Mountain, heh, that's like a firefly trying to compete with the moon."
-    qcReviewedText: "But compared to the Jurchen invaders, the evil of Daxue Mountain, heh, that's like a firefly trying to compete with the moon."
+    translated: "But compared to the Jurchen Tartars, the evil of Daxue Mountain... heh, that's like a firefly trying to rival the full moon."
+    qcReviewedText: "But compared to the Jurchen Tartars, the evil of Daxue Mountain... heh, that's like a firefly trying to rival the full moon."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -158031,8 +158012,8 @@
   splits:
   - split: 4
     text: "……失踪数日，不想这崽子竟投女真鞑子去了。"
-    translated: "... missing for days, and now this brat has joined the Jurchen invaders."
-    qcReviewedText: "... missing for days, and now this brat has joined the Jurchen invaders."
+    translated: "...missing for several days, and to think that the brat actually defected to the Jurchen Tartars."
+    qcReviewedText: "...missing for several days, and to think that the brat actually defected to the Jurchen Tartars."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -159047,8 +159028,8 @@
   splits:
   - split: 4
     text: "是啊……鞑子兵卒常常四下游猎，动辄十余人成行，我等便是被一支鞑子杀入村中，这才沦落至此……"
-    translated: "Yes......Manchu soldiers often roam around hunting in groups of ten or more. It was one such group that entered our village and led to our current plight......"
-    qcReviewedText: "Yes......Manchu soldiers often roam around hunting in groups of ten or more. It was one such group that entered our village and led to our current plight......"
+    translated: "Yes... The Tartar soldiers often roam the countryside hunting, traveling in groups of ten or more. We were attacked by a band of Tartars who raided our village, and that is how we ended up here..."
+    qcReviewedText: "Yes... The Tartar soldiers often roam the countryside hunting, traveling in groups of ten or more. We were attacked by a band of Tartars who raided our village, and that is how we ended up here..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -161270,8 +161251,8 @@
   splits:
   - split: 4
     text: "此间乃是一支倭人兵马囤积粮草之处，某乃大旗门先登营下校尉马恒，这辽东关外兵荒马乱，阁下若无他事，还请速去。"
-    translated: "This place is where a band of Dongying troops stores their supplies. I am Ma Heng of the Vanguard Camp under the Daqi Sect. With turmoil in the borderlands beyond Liaodong, if you have no other business, please leave quickly."
-    qcReviewedText: "This place is where a band of Dongying troops stores their supplies. I am Ma Heng of the Vanguard Camp under the Daqi Sect. With turmoil in the borderlands beyond Liaodong, if you have no other business, please leave quickly."
+    translated: "This is where the Dongying people store their grain and supplies. I am Ma Heng, a junior commander of the Vanguard Camp in the Daqi Sect. The region beyond Liaodong Pass is in turmoil with war; if you have no other business here, please leave at once."
+    qcReviewedText: "This is where the Dongying people store their grain and supplies. I am Ma Heng, a junior commander of the Vanguard Camp in the Daqi Sect. The region beyond Liaodong Pass is in turmoil with war; if you have no other business here, please leave at once."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -162917,14 +162898,11 @@
   splits:
   - split: 4
     text: "我听不懂那厮鸟语，定然是女真鞑子所在。咱们悄悄靠过去，见机行事。"
-    translated: "I can't understand that fellow's gibberish; it must be the Jurchen. Let's move quietly over there and see how we can help."
-    qcReviewedText: "I can't understand that fellow's gibberish; it must be the Jurchen. Let's move quietly over there and see how we can help."
-    qcTranslated: "I can't understand that fellow's gibberish; it must be where the Jurchen are. Let's move quietly over there and act according to the situation."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "I can't make sense of that barbarian gibberish. It must be the Jurchen Tartars. Let's sneak closer and see how things develop."
+    qcReviewedText: "I can't make sense of that barbarian gibberish. It must be the Jurchen Tartars. Let's sneak closer and see how things develop."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "787,220001022006,4,[0].talks{json}[2].action;7,战场篝火"
   splits:
   - split: 4
@@ -163184,8 +163162,8 @@
   splits:
   - split: 4
     text: "老子在山里东躲西藏，这帮鞑子倒是在这儿吃香喝辣！"
-    translated: "I've been hiding in the mountains, while these damn invaders are feasting here!"
-    qcReviewedText: "I've been hiding in the mountains, while these damn invaders are feasting here!"
+    translated: "I've been hiding in the mountains, yet these Tartars are feasting here!"
+    qcReviewedText: "I've been hiding in the mountains, yet these Tartars are feasting here!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -163778,8 +163756,8 @@
   splits:
   - split: 4
     text: "女真鞑子久居塞北，体魄确是壮实，又收买汉奸贼子，偷学武林本领。这些年来，军中武功好手委实多了不少。鞑子有时专以高手结成小队破阵，我门中子弟却少与高手对敌经验，折损颇多……"
-    translated: "The Jurchen invaders have long resided in the northern frontier, and their bodies are indeed robust. They also bribe traitorous Han scoundrels to secretly learn Wulin skills. In recent years, there have been quite a few martial skill experts among their troops. At times, they form small teams of experts to break through our formations. Our disciples, however, lack experience in facing such experts and suffer significant losses......"
-    qcReviewedText: "The Jurchen invaders have long resided in the northern frontier, and their bodies are indeed robust. They also bribe traitorous Han scoundrels to secretly learn Wulin skills. In recent years, there have been quite a few martial skill experts among their troops. At times, they form small teams of experts to break through our formations. Our disciples, however, lack experience in facing such experts and suffer significant losses......"
+    translated: "The Jurchen Tartars have long dwelt beyond the northern frontier; their physiques are indeed robust. They have also bribed Han traitors to secretly learn martial arts from the Wulin. Over these years, the number of skilled martial artists in their army has grown considerably. The Tartars sometimes form small squads of elite fighters to break through formations, yet our disciples have little experience facing such masters, resulting in heavy losses..."
+    qcReviewedText: "The Jurchen Tartars have long dwelt beyond the northern frontier; their physiques are indeed robust. They have also bribed Han traitors to secretly learn martial arts from the Wulin. Over these years, the number of skilled martial artists in their army has grown considerably. The Tartars sometimes form small squads of elite fighters to break through formations, yet our disciples have little experience facing such masters, resulting in heavy losses..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -169432,8 +169410,8 @@
   splits:
   - split: 4
     text: "你将小钰如何被劫，以及追查倭人踪迹之事悉数告知锦瑟。锦瑟姑娘沉吟片刻后，将佩刀收回，起身行至堂中。"
-    translated: "You told Jinsui about Xiaoyu being kidnapped and your investigation into the whereabouts of the Dongying. Miss Jinsui pondered for a moment, then sheathed her blade and stood up, walking to the center of the hall."
-    qcReviewedText: "You told Jinsui about Xiaoyu being kidnapped and your investigation into the whereabouts of the Dongying. Miss Jinsui pondered for a moment, then sheathed her blade and stood up, walking to the center of the hall."
+    translated: "You told Jinse everything about how Xiaoyu was abducted and your pursuit of the Dongying people's trail. After a moment of contemplation, Miss Jinse sheathed her blade and rose to walk into the hall."
+    qcReviewedText: "You told Jinse everything about how Xiaoyu was abducted and your pursuit of the Dongying people's trail. After a moment of contemplation, Miss Jinse sheathed her blade and rose to walk into the hall."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -169471,8 +169449,8 @@
   splits:
   - split: 4
     text: "适才阁下所言此事或与倭人有关……若倭人挟持小钰姑娘意图出逃，唯有海运一途，而如今圣朝海禁仍在，唯有壁城水寨有能力将人运抵倭国……"
-    translated: "What you just mentioned might be related to the Dongying......If they kidnap Miss Xiaoyu and attempt to escape, the only option would be by sea. However, with the current maritime ban in place, only the Bicheng Water Stronghold has the capability to transport someone to the Woji Country......"
-    qcReviewedText: "What you just mentioned might be related to the Dongying......If they kidnap Miss Xiaoyu and attempt to escape, the only option would be by sea. However, with the current maritime ban in place, only the Bicheng Water Stronghold has the capability to transport someone to the Woji Country......"
+    translated: "What you just said may be connected to the Dongying people... If the Dongying are holding Miss Xiaoyu hostage and attempting to flee, their only route is by sea. However, the Imperial Court's maritime ban remains in effect, and only the Bicheng Water Stronghold has the capability to transport people to Dongying..."
+    qcReviewedText: "What you just said may be connected to the Dongying people... If the Dongying are holding Miss Xiaoyu hostage and attempting to flee, their only route is by sea. However, the Imperial Court's maritime ban remains in effect, and only the Bicheng Water Stronghold has the capability to transport people to Dongying..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -181691,8 +181669,8 @@
   splits:
   - split: 4
     text: "随着锦瑟一声叱喝，一众桃卫亦随她纵起轻功，疾掠而出，桃花坞众人虽称不上绝世高手，但既得援力，张英红绡等人压力亦是骤减，随着倭人大呼小叫，水寨众人，转瞬间竟有了反败为胜之势。"
-    translated: "At Jinse's sharp command, the Peach Guards followed her into flight, their Qinggong carrying them swiftly outward. Though the defenders of Taohua Dock could hardly be called peerless masters, the sudden reinforcement greatly eased the pressure on Zhang Ying, Hongxiao, and the others. As the Dongying invaders cried out in panic, the forces of the Water Stronghold seized the moment, turning defeat into victory in an instant."
-    qcReviewedText: "At Jinse's sharp command, the Peach Guards followed her into flight, their Qinggong carrying them swiftly outward. Though the defenders of Taohua Dock could hardly be called peerless masters, the sudden reinforcement greatly eased the pressure on Zhang Ying, Hongxiao, and the others. As the Dongying invaders cried out in panic, the forces of the Water Stronghold seized the moment, turning defeat into victory in an instant."
+    translated: "At Jinse's sharp command, the Peach Guards followed her into flight, their Qinggong carrying them swiftly outward. Though the defenders of Taohua Dock could not be called peerless masters, the sudden reinforcement greatly eased the pressure on Zhang Ying, Hongxiao, and the others. Amid the wailing and shouting of the Dongying people, the forces of the Water Stronghold seemed poised to turn defeat into victory in an instant."
+    qcReviewedText: "At Jinse's sharp command, the Peach Guards followed her into flight, their Qinggong carrying them swiftly outward. Though the defenders of Taohua Dock could not be called peerless masters, the sudden reinforcement greatly eased the pressure on Zhang Ying, Hongxiao, and the others. Amid the wailing and shouting of the Dongying people, the forces of the Water Stronghold seemed poised to turn defeat into victory in an instant."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -182235,9 +182213,9 @@
   splits:
   - split: 4
     text: "你定睛细看，只见今川留与小钰面前，站着一位身穿长衫的中年文士，若先前你未曾听到那人自报家门，恐怕断难想到，他竟是位东瀛倭人……"
-    translated: "You squinted and looked closely. You saw Imagawa Tome standing in front of Xiaoyu, dressed in a long robe. If you hadn't heard him introduce himself earlier, you never would have guessed he was from Dongying..."
-    qcReviewedText: "You squinted and looked closely. You saw Imagawa Tome standing in front of Xiaoyu, dressed in a long robe. If you hadn't heard him introduce himself earlier, you never would have guessed he was from Dongying..."
-    qcTranslated: "You squinted and looked closely. You saw Imagawa Tome standing in front of Xiaoyu, a middle-aged scholar dressed in a long robe. If you hadn't heard him introduce himself earlier, you never would have guessed he was from Dongying..."
+    translated: "You look closely and see a middle-aged scholar in a long robe standing before Imagawa Tome and Xiao Yu. Had you not heard him introduce himself earlier, you would never have guessed that he was a Dongying..."
+    qcReviewedText: "You look closely and see a middle-aged scholar in a long robe standing before Imagawa Tome and Xiao Yu. Had you not heard him introduce himself earlier, you would never have guessed that he was a Dongying..."
+    qcTranslated: "You look closely and see a middle-aged scholar in a long robe standing before Imagawa Tome and Xiao Yu. Had you not heard him introduce himself earlier, you would never have guessed that he was a Dongying person..."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -185836,8 +185814,8 @@
   splits:
   - split: 4
     text: "若要做乾坤一锅烩，还差那么几味食材，我刚刚找齐回返，便碰上了林间巡哨的鞑子，想来是先前生的火被他们瞧见了。"
-    translated: "If I were to make One Pot of Heaven and Earth, I still need a few more ingredients. I had just gathered them and returned when I ran into Tartar sentries patrolling in the woods; they must have spotted the fire I made earlier."
-    qcReviewedText: "If I were to make One Pot of Heaven and Earth, I still need a few more ingredients. I had just gathered them and returned when I ran into Tartar sentries patrolling in the woods; they must have spotted the fire I made earlier."
+    translated: "If I am to prepare One Pot of Heaven and Earth, I am still missing a few ingredients. I had just gathered them and was on my way back when I ran into Tartars patrolling In the Woods. They must have spotted the fire I lit earlier."
+    qcReviewedText: "If I am to prepare One Pot of Heaven and Earth, I am still missing a few ingredients. I had just gathered them and was on my way back when I ran into Tartars patrolling In the Woods. They must have spotted the fire I lit earlier."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -186359,14 +186337,11 @@
   splits:
   - split: 4
     text: "你口中虽仍在回味，心中却也明白此地不宜久留，似他这般不精武学之人莫说撞上鞑子，就是碰见两头狼，只怕都凶多吉少。"
-    translated: "Though the taste lingered on your tongue, you knew it was best not to stay in such a place. A person with no martial arts training like him would likely fare poorly, even against just two wolves, let alone encountering bandits."
-    qcReviewedText: "Though the taste lingered on your tongue, you knew it was best not to stay in such a place. A person with no martial arts training like him would likely fare poorly, even against just two wolves, let alone encountering bandits."
-    qcTranslated: "Though the taste lingered on your tongue, you knew it was best not to stay in such a place. A person with no Martial Art training like him would likely fare poorly, even against just two wolves, let alone encountering bandits."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Though your mouth still savors the taste, your heart knows this is no place to linger. For someone as unskilled in martial arts as him, encountering Tartars would be a death sentence; even facing two wolves would likely spell doom."
+    qcReviewedText: "Though your mouth still savors the taste, your heart knows this is no place to linger. For someone as unskilled in martial arts as him, encountering Tartars would be a death sentence; even facing two wolves would likely spell doom."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "899,220105000005,4,[0].talks{json}[41].name,江寻砚"
   splits:
   - split: 4
@@ -186671,8 +186646,8 @@
   splits:
   - split: 4
     text: "近几年女真鞑子屡犯东疆，这“辽饷”便是为辽东增兵所设，除鞑子外，近年倭寇盗匪亦是横行无忌，层出不穷，这“练饷”，便是为操练各地卫所兵卒所设名目……"
-    translated: "In recent years, the Jurchen invaders have repeatedly attacked the eastern frontier. The Liao Tax was established to reinforce troops in Liaodong against them. Besides the Jurchens, Wokou pirates and bandits have also been rampant and unrelenting recently. The Training Tax was set up to drill and train the garrison soldiers across various regions..."
-    qcReviewedText: "In recent years, the Jurchen invaders have repeatedly attacked the eastern frontier. The Liao Tax was established to reinforce troops in Liaodong against them. Besides the Jurchens, Wokou pirates and bandits have also been rampant and unrelenting recently. The Training Tax was set up to drill and train the garrison soldiers across various regions..."
+    translated: "In recent years, the Jurchen and Tartars have repeatedly raided the eastern frontier. The Liao Levy was established to fund reinforcements for Liaodong. Beyond the Tartars, Wokou pirates and bandits have also run rampant in recent times, appearing endlessly. The Training Levy is a designation set up to train the garrison troops at various military posts..."
+    qcReviewedText: "In recent years, the Jurchen and Tartars have repeatedly raided the eastern frontier. The Liao Levy was established to fund reinforcements for Liaodong. Beyond the Tartars, Wokou pirates and bandits have also run rampant in recent times, appearing endlessly. The Training Levy is a designation set up to train the garrison troops at various military posts..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -187040,8 +187015,8 @@
   splits:
   - split: 4
     text: "近几年女真鞑子屡犯东疆，这“辽饷”便是为辽东增兵所设，除鞑子外，近年倭寇盗匪亦是横行无忌，层出不穷，这“练饷”，便是为操练各地卫所兵卒所设名目……"
-    translated: "In recent years, the Jurchen invaders have repeatedly attacked the eastern frontier. The Liao Tax was established to reinforce troops in Liaodong against them. Besides the Jurchens, Wokou pirates and bandits have also been rampant and unrelenting recently. The Training Tax was set up to drill and train the garrison soldiers across various regions..."
-    qcReviewedText: "In recent years, the Jurchen invaders have repeatedly attacked the eastern frontier. The Liao Tax was established to reinforce troops in Liaodong against them. Besides the Jurchens, Wokou pirates and bandits have also been rampant and unrelenting recently. The Training Tax was set up to drill and train the garrison soldiers across various regions..."
+    translated: "In recent years, the Jurchen and Tartars have repeatedly raided the eastern frontier. The Liao Levy was established to fund reinforcements for Liaodong. Beyond the Tartars, Wokou pirates and bandits have also run rampant in recent times, appearing endlessly. The Training Levy is a designation set up to train the garrison troops at various military posts..."
+    qcReviewedText: "In recent years, the Jurchen and Tartars have repeatedly raided the eastern frontier. The Liao Levy was established to fund reinforcements for Liaodong. Beyond the Tartars, Wokou pirates and bandits have also run rampant in recent times, appearing endlessly. The Training Levy is a designation set up to train the garrison troops at various military posts..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -187409,8 +187384,8 @@
   splits:
   - split: 4
     text: "近几年女真鞑子屡犯东疆，这“辽饷”便是为辽东增兵所设，除鞑子外，近年倭寇盗匪亦是横行无忌，层出不穷，这“练饷”，便是为操练各地卫所兵卒所设名目……"
-    translated: "In recent years, the Jurchen invaders have repeatedly attacked the eastern frontier. The Liao Tax was established to reinforce troops in Liaodong against them. Besides the Jurchens, Wokou pirates and bandits have also been rampant and unrelenting recently. The Training Tax was set up to drill and train the garrison soldiers across various regions..."
-    qcReviewedText: "In recent years, the Jurchen invaders have repeatedly attacked the eastern frontier. The Liao Tax was established to reinforce troops in Liaodong against them. Besides the Jurchens, Wokou pirates and bandits have also been rampant and unrelenting recently. The Training Tax was set up to drill and train the garrison soldiers across various regions..."
+    translated: "In recent years, the Jurchen and Tartars have repeatedly raided the eastern frontier. The Liao Levy was established to fund reinforcements for Liaodong. Beyond the Tartars, Wokou pirates and bandits have also run rampant in recent times, appearing endlessly. The Training Levy is a designation set up to train the garrison troops at various military posts..."
+    qcReviewedText: "In recent years, the Jurchen and Tartars have repeatedly raided the eastern frontier. The Liao Levy was established to fund reinforcements for Liaodong. Beyond the Tartars, Wokou pirates and bandits have also run rampant in recent times, appearing endlessly. The Training Levy is a designation set up to train the garrison troops at various military posts..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211241,8 +211216,8 @@
   splits:
   - split: 4
     text: "秦懿瑶向你微微一笑。"
-    translated: "Qin Yiyao gave you a slight smile."
-    qcReviewedText: "Qin Yiyao gave you a slight smile."
+    translated: "Qin Yiyao gave you a slight smile"
+    qcReviewedText: "Qin Yiyao gave you a slight smile"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -211533,8 +211508,8 @@
   splits:
   - split: 4
     text: "秦懿瑶向你微微一笑。"
-    translated: "Qin Yiyao gave you a slight smile."
-    qcReviewedText: "Qin Yiyao gave you a slight smile."
+    translated: "Qin Yiyao gave you a slight smile"
+    qcReviewedText: "Qin Yiyao gave you a slight smile"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -223405,14 +223380,11 @@
   splits:
   - split: 4
     text: "“东市东天霸……？”"
-    translated: "East Market East Heaven Tyrant......?"
-    qcReviewedText: "East Market East Heaven Tyrant......?"
-    qcTranslated: "East Market's Dong Tianba......?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Dong Tianba of the East Market...?"
+    qcReviewedText: "Dong Tianba of the East Market...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1091,130001501000,4,[0].talks{json}[9].talk,乞儿压低声音。"
   splits:
   - split: 4
@@ -223689,14 +223661,11 @@
   splits:
   - split: 4
     text: "“东市东天霸……？”"
-    translated: "East Market East Heaven Tyrant......?"
-    qcReviewedText: "East Market East Heaven Tyrant......?"
-    qcTranslated: "East Market's Dong Tianba......?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Dong Tianba of the East Market...?"
+    qcReviewedText: "Dong Tianba of the East Market...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1091,130001501000,4,[0].talks{json}[25].name,乞儿"
   splits:
   - split: 4
@@ -224178,8 +224147,8 @@
   splits:
   - split: 4
     text: "这刀是小包袱儿的……这刀，是狗剩儿的娘亲的……"
-    translated: "This blade belongs to Little Bundle... This blade belonged to Gousheng'er's mother..."
-    qcReviewedText: "This blade belongs to Little Bundle... This blade belonged to Gousheng'er's mother..."
+    translated: "This blade belongs to Xiaobaofu's... This blade is Gousheng'er's mother's..."
+    qcReviewedText: "This blade belongs to Xiaobaofu's... This blade is Gousheng'er's mother's..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -224205,8 +224174,8 @@
   splits:
   - split: 4
     text: "这刀……是小七自己的。"
-    translated: "This blade......is Little Seven's own."
-    qcReviewedText: "This blade......is Little Seven's own."
+    translated: "This blade... is Xiaoqi's own."
+    qcReviewedText: "This blade... is Xiaoqi's own."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -224268,8 +224237,8 @@
   splits:
   - split: 4
     text: "小包袱"
-    translated: "Little Bundle"
-    qcReviewedText: "Little Bundle"
+    translated: "Xiaobaofu"
+    qcReviewedText: "Xiaobaofu"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -224277,8 +224246,8 @@
   splits:
   - split: 4
     text: "别打小七姐姐！"
-    translated: "Don't hit Little Seven, Older Sister!"
-    qcReviewedText: "Don't hit Little Seven, Older Sister!"
+    translated: "Don't hit Xiaoqi, Sister!"
+    qcReviewedText: "Don't hit Xiaoqi, Sister!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -224286,8 +224255,8 @@
   splits:
   - split: 4
     text: "躲在那小乞儿身后的两个娃娃突然扑上来，那女孩忙去拉那“小七”，男孩则尽可能摆出一个凶猛架势。"
-    translated: "The two children who had been hiding behind the Little Beggar suddenly pounced forward. The girl hurried to pull on the Little Seven, while the boy tried his best to adopt a fierce stance."
-    qcReviewedText: "The two children who had been hiding behind the Little Beggar suddenly pounced forward. The girl hurried to pull on the Little Seven, while the boy tried his best to adopt a fierce stance."
+    translated: "The two children hiding behind the Little Beggar suddenly lunged forward. The girl hurried to pull Xiaoqi, while the boy tried his best to strike a fierce Stance."
+    qcReviewedText: "The two children hiding behind the Little Beggar suddenly lunged forward. The girl hurried to pull Xiaoqi, while the boy tried his best to strike a fierce Stance."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -224322,8 +224291,8 @@
   splits:
   - split: 4
     text: "闻听你无意伤人，只是来此处求购黑市名帖，周遭的小乞儿逐渐放松下来，那偷走你钱袋的小七也坐起了身，只是手指摸动，悄悄藏起了几枚铜板，再将盗去的银两抛还与你。"
-    translated: "Hearing that you had no intention of hurting anyone and only came here to buy a Black Market Calling Card, the little beggars around gradually relaxed. Little Seven, who had stolen your money bag, also sat up, but she secretly kept a few copper coins while returning the silver she had taken."
-    qcReviewedText: "Hearing that you had no intention of hurting anyone and only came here to buy a Black Market Calling Card, the little beggars around gradually relaxed. Little Seven, who had stolen your money bag, also sat up, but she secretly kept a few copper coins while returning the silver she had taken."
+    translated: "Hearing that you have no intention of harming anyone and are merely here to purchase a Black Market Calling Card, the surrounding Little Beggars gradually relax. Xiaoqi, who had stolen your money pouch, also sits up. However, she fiddles with her fingers, quietly hiding a few coins before tossing the stolen Silver back to you."
+    qcReviewedText: "Hearing that you have no intention of harming anyone and are merely here to purchase a Black Market Calling Card, the surrounding Little Beggars gradually relax. Xiaoqi, who had stolen your money pouch, also sits up. However, she fiddles with her fingers, quietly hiding a few coins before tossing the stolen Silver back to you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -224367,9 +224336,9 @@
   splits:
   - split: 4
     text: "你望向小七身后的孩童，那两个孩子同样衣衫褴褛，却打理齐整，尚属整洁，显然也是细细浣洗过的，看来小七确将这两个孩子照顾得很好，念及至此，你于怀中点出些许银钱，递交于小七之手。"
-    translated: "You looked at the child behind Little Seven. The two children were also ragged but neatly groomed and clean, clearly having been carefully washed. It seemed that Little Seven had indeed taken good care of them. Thinking this, you took out some silver from your pocket and handed it to Little Seven."
-    qcReviewedText: "You looked at the child behind Little Seven. The two children were also ragged but neatly groomed and clean, clearly having been carefully washed. It seemed that Little Seven had indeed taken good care of them. Thinking this, you took out some silver from your pocket and handed it to Little Seven."
-    qcTranslated: "You looked at the children behind Little Seven. The two children were also ragged but neatly groomed and clean, clearly having been carefully washed. It seemed that Little Seven had indeed taken good care of them. Thinking this, you took out some Silver from your pocket and handed it to Little Seven."
+    translated: "You glance at the child behind Xiaoqi. The two children are equally ragged, yet their clothes are neatly arranged and clean, clearly having been washed with care. It seems Xiaoqi has taken good care of them. With this in mind, you take out some Silver from your pocket and hand it to Xiaoqi."
+    qcReviewedText: "You glance at the child behind Xiaoqi. The two children are equally ragged, yet their clothes are neatly arranged and clean, clearly having been washed with care. It seems Xiaoqi has taken good care of them. With this in mind, you take out some Silver from your pocket and hand it to Xiaoqi."
+    qcTranslated: "You glance at the children behind Xiaoqi. The two children are equally ragged, yet their clothes are neatly arranged and clean, clearly having been washed with care. It seems Xiaoqi has taken good care of them. With this in mind, you take out some Silver from your pocket and hand it to Xiaoqi."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -225015,8 +224984,8 @@
   splits:
   - split: 4
     text: "阁下若将我当镇口的乞儿小七，那可将西门家瞧得浅了。"
-    translated: "If you treat me as just Xiao Qi, the beggar at the town entrance, then you have underestimated the Ximen family."
-    qcReviewedText: "If you treat me as just Xiao Qi, the beggar at the town entrance, then you have underestimated the Ximen family."
+    translated: "If you mistake me for Xiaoqi, the beggar at the town gate, then you have underestimated the Ximen family."
+    qcReviewedText: "If you mistake me for Xiaoqi, the beggar at the town gate, then you have underestimated the Ximen family."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -225593,8 +225562,8 @@
   splits:
   - split: 4
     text: "阁下若将我当镇口的乞儿小七，那可将西门家瞧得浅了。"
-    translated: "If you treat me as just Xiao Qi, the beggar at the town entrance, then you have underestimated the Ximen family."
-    qcReviewedText: "If you treat me as just Xiao Qi, the beggar at the town entrance, then you have underestimated the Ximen family."
+    translated: "If you mistake me for Xiaoqi, the beggar at the town gate, then you have underestimated the Ximen family."
+    qcReviewedText: "If you mistake me for Xiaoqi, the beggar at the town gate, then you have underestimated the Ximen family."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -226702,11 +226671,14 @@
   splits:
   - split: 4
     text: "你所说之人，可是被一独眼倭人所胁？"
-    translated: "Is the person you spoke of being threatened by a one-eyed Dongying man?"
-    qcReviewedText: "Is the person you spoke of being threatened by a one-eyed Dongying man?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Is the person you spoke of being held at bay by a one-eyed Dongying?"
+    qcReviewedText: "Is the person you spoke of being held at bay by a one-eyed Dongying?"
+    qcTranslated: "Is the person you spoke of being coerced by a one-eyed Dongying?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "1104,130001702004,4,[0].talks{json}[4].name,南宫莲"
   splits:
   - split: 4
@@ -227047,15 +227019,11 @@
   splits:
   - split: 4
     text: "除此之外，黑市另有传言，连环寨主连天明闻听东天霸之死勃然大怒，已派人下山来，却不知此番过境，又会令承安多少百姓流离失所……"
-    translated: "Lian Tianming Hello, <fName>. I hope you've brought something interesting to the Black Market. As the Stronghold Master of Lianhuan Stronghold, I'm always on the lookout for unique items."
-    qcReviewedText: "Lian Tianming Hello, <fName>. I hope you've brought something interesting to the Black Market. As the Stronghold Master of Lianhuan Stronghold, I'm always on the lookout for unique items."
-    qcTranslated: "Beyond that, there are other rumors in the Black Market. Lian Tianming, the Stronghold Master of Lianhuan Stronghold, was furious upon hearing of Dong Tianba's death and has already sent men down the mountain. It is unknown how many more commoners of Cheng'an will be left homeless by this passage..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "Beyond that, rumors swirl in the Black Market: Lianhuan Stronghold Master Lian Tianming flew into a rage upon hearing of Dong Tianba's death and has already sent men down the mountain. Yet who knows how many more common folk of Cheng'an will be driven from their homes when they pass through..."
+    qcReviewedText: "Beyond that, rumors swirl in the Black Market: Lianhuan Stronghold Master Lian Tianming flew into a rage upon hearing of Dong Tianba's death and has already sent men down the mountain. Yet who knows how many more common folk of Cheng'an will be driven from their homes when they pass through..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1104,130001702004,4,[0].talks{json}[18].name,南宫莲"
   splits:
   - split: 4
@@ -227339,11 +227307,14 @@
   splits:
   - split: 4
     text: "你所说之人，可是被一独眼倭人所胁？"
-    translated: "Is the person you spoke of being threatened by a one-eyed Dongying man?"
-    qcReviewedText: "Is the person you spoke of being threatened by a one-eyed Dongying man?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Is the person you spoke of being held at bay by a one-eyed Dongying?"
+    qcReviewedText: "Is the person you spoke of being held at bay by a one-eyed Dongying?"
+    qcTranslated: "Is the person you spoke of being coerced by a one-eyed Dongying?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "1105,130001703000,4,[0].talks{json}[4].name,南宫莲"
   splits:
   - split: 4
@@ -227684,15 +227655,11 @@
   splits:
   - split: 4
     text: "除此之外，黑市另有传言，连环寨主连天明闻听东天霸之死勃然大怒，已派人下山来，却不知此番过境，又会令承安多少百姓流离失所……"
-    translated: "Lian Tianming Hello, <fName>. I hope you've brought something interesting to the Black Market. As the Stronghold Master of Lianhuan Stronghold, I'm always on the lookout for unique items."
-    qcReviewedText: "Lian Tianming Hello, <fName>. I hope you've brought something interesting to the Black Market. As the Stronghold Master of Lianhuan Stronghold, I'm always on the lookout for unique items."
-    qcTranslated: "Beyond that, there are other rumors in the Black Market. Lian Tianming, the Stronghold Master of Lianhuan Stronghold, was furious upon hearing of Dong Tianba's death and has already sent men down the mountain. It is unknown how many more commoners of Cheng'an will be left homeless by this passage..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    translated: "Beyond that, rumors swirl in the Black Market: Lianhuan Stronghold Master Lian Tianming flew into a rage upon hearing of Dong Tianba's death and has already sent men down the mountain. Yet who knows how many more common folk of Cheng'an will be driven from their homes when they pass through..."
+    qcReviewedText: "Beyond that, rumors swirl in the Black Market: Lianhuan Stronghold Master Lian Tianming flew into a rage upon hearing of Dong Tianba's death and has already sent men down the mountain. Yet who knows how many more common folk of Cheng'an will be driven from their homes when they pass through..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1105,130001703000,4,[0].talks{json}[18].name,南宫莲"
   splits:
   - split: 4
@@ -228901,8 +228868,8 @@
   splits:
   - split: 4
     text: "近日所见？近日承安镇可不止一两件事，东天霸遭刺身死，青萍村毁于一旦……"
-    translated: "Recent events? In Cheng'an Town alone, there's been more than just a few things lately-East Heaven Tyrant was assassinated, Qingping Village was destroyed..."
-    qcReviewedText: "Recent events? In Cheng'an Town alone, there's been more than just a few things lately-East Heaven Tyrant was assassinated, Qingping Village was destroyed..."
+    translated: "What have you seen lately? In Cheng'an Town recently, it's not just one or two incidents. Dong Tianba was assassinated and killed, and Qingping Village was destroyed in an instant..."
+    qcReviewedText: "What have you seen lately? In Cheng'an Town recently, it's not just one or two incidents. Dong Tianba was assassinated and killed, and Qingping Village was destroyed in an instant..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -230399,8 +230366,8 @@
   splits:
   - split: 4
     text: "“此言何意？据传东天霸欺行霸市，可是因此所致？”"
-    translated: "What do you mean by that? It's said that Dongtian Bully monopolizes the market. Is this what you're referring to?"
-    qcReviewedText: "What do you mean by that? It's said that Dongtian Bully monopolizes the market. Is this what you're referring to?"
+    translated: "What do you mean by that? It is said that Dong Tianba bullies the common folk and monopolizes the market. Is this the cause?"
+    qcReviewedText: "What do you mean by that? It is said that Dong Tianba bullies the common folk and monopolizes the market. Is this the cause?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -230558,14 +230525,11 @@
   splits:
   - split: 4
     text: "“东天霸已然死了。”"
-    translated: "Eastern Tyrant Domin has already died"
-    qcReviewedText: "Eastern Tyrant Domin has already died"
-    qcTranslated: "Eastern Tyrant Domin has already died"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Dong Tianba is already dead"
+    qcReviewedText: "Dong Tianba is already dead"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1126,130002501000,4,[0].talks{json}[8].options{json}[1].name,“不知可否容在下前往绣娘起居处查探。”"
   splits:
   - split: 4
@@ -230984,8 +230948,8 @@
   splits:
   - split: 4
     text: "我等……平民百姓，哪里敢招惹些江湖人，据我所见，那人怕不是东天霸的人马呢！"
-    translated: "We commoners... dare not provoke those Jianghu figures; from what I've seen, that person might be part of the Eastern Heaven Tyrant's gang!"
-    qcReviewedText: "We commoners... dare not provoke those Jianghu figures; from what I've seen, that person might be part of the Eastern Heaven Tyrant's gang!"
+    translated: "We... common folk, how dare we provoke a Jianghu Figure? From what I've seen, that person is likely part of Dong Tianba's gang!"
+    qcReviewedText: "We... common folk, how dare we provoke a Jianghu Figure? From what I've seen, that person is likely part of Dong Tianba's gang!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -233372,11 +233336,11 @@
   splits:
   - split: 4
     text: "此人自号“东天霸”，与两大家族分庭抗礼，并称“承安三雄”，这不，前不久东天霸被{fullName}给杀了，这可大大乱套，东市那些悍猛之徒日日缉凶，搞得镇子鸡犬不宁……"
-    translated: "This person styled themselves as Eastern Heaven Tyrant, standing against the two major families and known collectively as the Three Heroes of Cheng'an. Recently, Eastern Heaven Tyrant was killed by {fullName}, causing quite a stir. The toughs in East Market have been searching for the culprit every day, making the town uneasy..."
+    translated: "This man styles himself Dong Tianba, rivals the two great families, and is known as one of the Three Heroes of Cheng'an. Recently, Dong Tianba was slain by {fullName}, causing considerable chaos. The toughs from the East Market have been hunting for the culprit daily, turning the town upside down..."
     tokens:
       fullName:
         source: "<name>"
-    qcReviewedText: "This person styled themselves as Eastern Heaven Tyrant, standing against the two major families and known collectively as the Three Heroes of Cheng'an. Recently, Eastern Heaven Tyrant was killed by {fullName}, causing quite a stir. The toughs in East Market have been searching for the culprit every day, making the town uneasy..."
+    qcReviewedText: "This man styles himself Dong Tianba, rivals the two great families, and is known as one of the Three Heroes of Cheng'an. Recently, Dong Tianba was slain by {fullName}, causing considerable chaos. The toughs from the East Market have been hunting for the culprit daily, turning the town upside down..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -235792,8 +235756,8 @@
   splits:
   - split: 4
     text: "询问燕南归现在何处。"
-    translated: "Ask Yan Nangui where he is now."
-    qcReviewedText: "Ask Yan Nangui where he is now."
+    translated: "Ask Yan Nangui where he is now"
+    qcReviewedText: "Ask Yan Nangui where he is now"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -235891,8 +235855,8 @@
   splits:
   - split: 4
     text: "询问燕南归现在何处。"
-    translated: "Ask Yan Nangui where he is now."
-    qcReviewedText: "Ask Yan Nangui where he is now."
+    translated: "Ask Yan Nangui where he is now"
+    qcReviewedText: "Ask Yan Nangui where he is now"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -237513,11 +237477,11 @@
   splits:
   - split: 4
     text: "连环寨贼寇听着！回去告诉连天明，倘若再借搜捕{fullName}之名作恶，纵使他连天明亲自下山，也与东天霸一个下场！"
-    translated: "Listen up, bandits of Lianhuan Stronghold! Go back and tell Lian Tianming that if he continues to abuse the search for {fullName} as an excuse for evil deeds, even if he, Lian Tianming, comes down from the mountain himself, he will meet the same fate as East Heaven Tyrant!"
+    translated: "Bandits of Lianhuan Stronghold, listen! Go back and tell Lian Tianming: if he continues to commit evil under the pretext of searching for {fullName}, even if Lian Tianming himself descends from the mountain, he will meet the same fate as Dong Tianba!"
     tokens:
       fullName:
         source: "<name>"
-    qcReviewedText: "Listen up, bandits of Lianhuan Stronghold! Go back and tell Lian Tianming that if he continues to abuse the search for {fullName} as an excuse for evil deeds, even if he, Lian Tianming, comes down from the mountain himself, he will meet the same fate as East Heaven Tyrant!"
+    qcReviewedText: "Bandits of Lianhuan Stronghold, listen! Go back and tell Lian Tianming: if he continues to commit evil under the pretext of searching for {fullName}, even if Lian Tianming himself descends from the mountain, he will meet the same fate as Dong Tianba!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -241553,14 +241517,11 @@
   splits:
   - split: 4
     text: "连环寨为恶多端，不单草菅人命，强抢民女，更有威逼勒索，强迫山下百姓按月缴奉，东天霸尚在之时，收钱之人尚讲情面……但自东天霸暴死，连环寨直管此事之后，便是横征暴敛，愈加贪婪……"
-    translated: "Lianhuan Stronghold has committed many evil deeds, not only disregarding human life and forcibly abducting young women, but also threatening and extorting money from the villagers at the foot of the mountain. They demand monthly tributes... When Dongtian was still alive, those collecting the money would show some leniency... But since Dongtian's sudden death, with Lianhuan Stronghold taking direct control, they have become even more oppressive and greedy..."
-    qcReviewedText: "Lianhuan Stronghold has committed many evil deeds, not only disregarding human life and forcibly abducting young women, but also threatening and extorting money from the villagers at the foot of the mountain. They demand monthly tributes... When Dongtian was still alive, those collecting the money would show some leniency... But since Dongtian's sudden death, with Lianhuan Stronghold taking direct control, they have become even more oppressive and greedy..."
-    qcTranslated: "Lianhuan Stronghold has committed many evil deeds, not only disregarding human life and forcibly abducting young women, but also threatening and extorting money from the villagers at the foot of the mountain, compelling them to pay monthly tributes... When Dongtian was still alive, those collecting the money would show some leniency... But since Dongtian's sudden death, with Lianhuan Stronghold taking direct control, they have become even more oppressive and greedy..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Lianhuan Stronghold has committed countless atrocities. Not only do they treat human lives as cheap as grass and forcibly abduct women, but they also extort the villagers at the foot of the mountain, compelling them to pay monthly tributes. When Dong Tianba was still alive, those who collected the money still showed some consideration... But since Dong Tianba's violent death, when Lianhuan Stronghold took direct control of this matter, they have imposed heavy taxes and levies, becoming even more greedy..."
+    qcReviewedText: "Lianhuan Stronghold has committed countless atrocities. Not only do they treat human lives as cheap as grass and forcibly abduct women, but they also extort the villagers at the foot of the mountain, compelling them to pay monthly tributes. When Dong Tianba was still alive, those who collected the money still showed some consideration... But since Dong Tianba's violent death, when Lianhuan Stronghold took direct control of this matter, they have imposed heavy taxes and levies, becoming even more greedy..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1189,130003101003,4,[0].talks{json}[31].name,纪雨竹"
   splits:
   - split: 4
@@ -246701,14 +246662,11 @@
   splits:
   - split: 4
     text: "“杀东天霸者，另有其人……”"
-    translated: "Killing Dongtian Overlord, there is another person...... Overlord"
-    qcReviewedText: "Killing Dongtian Overlord, there is another person...... Overlord"
-    qcTranslated: "The one who killed the Dongtian Overlord is someone else......"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
+    translated: "The one who killed Dong Tianba is someone else..."
+    qcReviewedText: "The one who killed Dong Tianba is someone else..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1213,130003201004,4,[0].talks{json}[12].options{json}[2].name,默然不语。"
   splits:
   - split: 4
@@ -248376,15 +248334,11 @@
   splits:
   - split: 4
     text: "连环寨盘踞山间，东天霸悍勇霸道，南宫家步步紧逼……自东天霸身死，连环寨于承安之基随之动荡。"
-    translated: "Lianhuan Stronghold has been entrenched in the mountains, with Dongtian brutally bold and domineering, and the Nangong family steadily pressing forward... Since Dongtian's death, Lianhuan Stronghold has been thrown into turmoil."
-    qcReviewedText: "Lianhuan Stronghold has been entrenched in the mountains, with Dongtian brutally bold and domineering, and the Nangong family steadily pressing forward... Since Dongtian's death, Lianhuan Stronghold has been thrown into turmoil."
-    qcTranslated: "Lianhuan Stronghold has been entrenched in the mountains, with Dong Tianba brutally bold and domineering, and the Nangong family steadily pressing forward... Since Dong Tianba's death, the foundation of Cheng'an has been thrown into turmoil."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Lianhuan Stronghold has long held the mountains. Dong Tianba was fierce and domineering, while the Nangong family pressed ever closer... Since Dong Tianba's death, Lianhuan Stronghold has been thrown into turmoil, shaking the foundations of Cheng'an."
+    qcReviewedText: "Lianhuan Stronghold has long held the mountains. Dong Tianba was fierce and domineering, while the Nangong family pressed ever closer... Since Dong Tianba's death, Lianhuan Stronghold has been thrown into turmoil, shaking the foundations of Cheng'an."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1220,130003202000,4,[0].talks{json}[4].name,西门仲"
   splits:
   - split: 4
@@ -248974,8 +248928,8 @@
   splits:
   - split: 4
     text: "心下暗惭，询问小七被追杀的始末。"
-    translated: "She inwardly felt ashamed and asked Xiao Qi about the details of her pursuit."
-    qcReviewedText: "She inwardly felt ashamed and asked Xiao Qi about the details of her pursuit."
+    translated: "Feeling a pang of shame, they inquired about the circumstances that led to Xiaoqi being pursued."
+    qcReviewedText: "Feeling a pang of shame, they inquired about the circumstances that led to Xiaoqi being pursued."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -249037,8 +248991,8 @@
   splits:
   - split: 4
     text: "那杀东天霸之人长得什么模样外貌，你可看得真切？"
-    translated: "What did the person who killed Eastern Heaven Tyrant look like? Did you get a good look at them?"
-    qcReviewedText: "What did the person who killed Eastern Heaven Tyrant look like? Did you get a good look at them?"
+    translated: "Can you describe the appearance of the person who killed Dong Tianba? Did you see them clearly?"
+    qcReviewedText: "Can you describe the appearance of the person who killed Dong Tianba? Did you see them clearly?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -249186,8 +249140,8 @@
   splits:
   - split: 4
     text: "你隐约觉得此事不妥，但未等你出言阻止，小七却已兴高采烈地拉着两个孩子同行，随着西门仲转出了陋巷。"
-    translated: "You had a vague feeling that this was not right, but before you could speak up to stop them, Little Seven was already excitedly leading the two children along with Ximen Zhong as they turned out of the alley."
-    qcReviewedText: "You had a vague feeling that this was not right, but before you could speak up to stop them, Little Seven was already excitedly leading the two children along with Ximen Zhong as they turned out of the alley."
+    translated: "You sensed something was amiss, but before you could voice your objection, Xiaoqi had already cheerfully taken the two children by the hand and followed Ximen Zhong out of the narrow alley."
+    qcReviewedText: "You sensed something was amiss, but before you could voice your objection, Xiaoqi had already cheerfully taken the two children by the hand and followed Ximen Zhong out of the narrow alley."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -249726,8 +249680,8 @@
   splits:
   - split: 4
     text: "自西门仲寻找小七开始，其所作所为便颇为古怪，他所说的宾客若是指连环寨之人……"
-    translated: "Since Ximen Zhong began searching for Little Seven, his actions have been rather strange. If the guests he mentioned refer to the people of Lianhuan Stronghold......"
-    qcReviewedText: "Since Ximen Zhong began searching for Little Seven, his actions have been rather strange. If the guests he mentioned refer to the people of Lianhuan Stronghold......"
+    translated: "Ever since Ximen Zhong began searching for Xiaoqi, his behavior has been rather peculiar. If the guests he mentioned refer to those of Lianhuan Stronghold..."
+    qcReviewedText: "Ever since Ximen Zhong began searching for Xiaoqi, his behavior has been rather peculiar. If the guests he mentioned refer to those of Lianhuan Stronghold..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -249830,8 +249784,8 @@
   splits:
   - split: 4
     text: "今日得连环寨葛先生厚爱，西门家大兴有望，日后定如那东天霸一般为山寨尽心尽力……却是不知，葛先生信中所言，是否……"
-    translated: "Today, thanks to Mr. Ge's kindness at Lianhuan Stronghold, the Ximen family is poised for great prosperity. In the future, I shall devote myself wholeheartedly to the stronghold, just as the Eastern Sky Tyrant did... Yet I wonder if what Mr. Ge wrote in his letter is truly..."
-    qcReviewedText: "Today, thanks to Mr. Ge's kindness at Lianhuan Stronghold, the Ximen family is poised for great prosperity. In the future, I shall devote myself wholeheartedly to the stronghold, just as the Eastern Sky Tyrant did... Yet I wonder if what Mr. Ge wrote in his letter is truly..."
+    translated: "Today, thanks to Mr. Ge's kindness at Lianhuan Stronghold, the Ximen family is poised for great prosperity. In the future, I shall devote myself wholeheartedly to the stronghold, just as Dong Tianba did... Yet I wonder if what Mr. Ge wrote in his letter is truly..."
+    qcReviewedText: "Today, thanks to Mr. Ge's kindness at Lianhuan Stronghold, the Ximen family is poised for great prosperity. In the future, I shall devote myself wholeheartedly to the stronghold, just as Dong Tianba did... Yet I wonder if what Mr. Ge wrote in his letter is truly..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -249848,8 +249802,8 @@
   splits:
   - split: 4
     text: "哼，叫花子此生无有虚言，更不会管那些鸡毛蒜皮之事，死个东天霸不算什么，但若是让人以为我连环寨软弱可欺，岂不是糟人耻笑？"
-    translated: "Hmph, a beggar like me never lies, and I don't bother with petty matters. The death of Dongtian doesn't matter, but if people think Lianhuan Stronghold is weak and easy to bully, wouldn't that be shameful?"
-    qcReviewedText: "Hmph, a beggar like me never lies, and I don't bother with petty matters. The death of Dongtian doesn't matter, but if people think Lianhuan Stronghold is weak and easy to bully, wouldn't that be shameful?"
+    translated: "Hmph. A beggar never utters a false word in this life, and I certainly do not concern myself with trivialities. The death of Dong Tianba is nothing, but if it leads people to believe that Lianhuan Stronghold is weak and easy to bully, would we not be the laughingstock of all?"
+    qcReviewedText: "Hmph. A beggar never utters a false word in this life, and I certainly do not concern myself with trivialities. The death of Dong Tianba is nothing, but if it leads people to believe that Lianhuan Stronghold is weak and easy to bully, would we not be the laughingstock of all?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250168,8 +250122,8 @@
   splits:
   - split: 4
     text: "（压低声音）“里面的可是小七？”"
-    translated: "(In a low voice) Is it Little Seven inside?"
-    qcReviewedText: "(In a low voice) Is it Little Seven inside?"
+    translated: "(Lowering voice) Is it Xiaoqi inside?"
+    qcReviewedText: "(Lowering voice) Is it Xiaoqi inside?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250195,8 +250149,8 @@
   splits:
   - split: 4
     text: "是你？你可是来救我们的？快把门打开，他们把小包袱和狗剩儿也关起来了！"
-    translated: "Is it you? Are you here to save us? Hurry, open the door; they've locked Little Bundle and Gousheng'er up too!"
-    qcReviewedText: "Is it you? Are you here to save us? Hurry, open the door; they've locked Little Bundle and Gousheng'er up too!"
+    translated: "Is that you? Are you here to save us? Open the door quickly! They've locked Xiaobaofu and Gousheng'er in there too!"
+    qcReviewedText: "Is that you? Are you here to save us? Open the door quickly! They've locked Xiaobaofu and Gousheng'er in there too!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250231,8 +250185,8 @@
   splits:
   - split: 4
     text: "出言询问小七可有办法。"
-    translated: "Asked Xiao Qi if she had any ideas."
-    qcReviewedText: "Asked Xiao Qi if she had any ideas."
+    translated: "They asked Xiaoqi if she had a solution."
+    qcReviewedText: "They asked Xiaoqi if she had a solution."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250258,8 +250212,8 @@
   splits:
   - split: 4
     text: "小七说着将手中草签递出，你随着小七的指导细细撬动这内里绷簧，却是不得其法，耗时甚久，待锁解落地时，周遭的西门家仆已然围拢过来。"
-    translated: "Xiao Qi said this and handed out the straw tag she was holding. You followed Xiao Qi's guidance and carefully worked on the inner spring mechanism, but you couldn't find the right method and spent a long time doing so. By the time the lock fell to the ground, the Ximen servants had already gathered around."
-    qcReviewedText: "Xiao Qi said this and handed out the straw tag she was holding. You followed Xiao Qi's guidance and carefully worked on the inner spring mechanism, but you couldn't find the right method and spent a long time doing so. By the time the lock fell to the ground, the Ximen servants had already gathered around."
+    translated: "As Xiaoqi spoke, she handed over the grass twig in her hand. Following her guidance, you carefully pried at the internal spring, but without finding the right technique, it took a long time. By the time the lock fell to the ground, the Ximen Servants had already closed in around you."
+    qcReviewedText: "As Xiaoqi spoke, she handed over the grass twig in her hand. Following her guidance, you carefully pried at the internal spring, but without finding the right technique, it took a long time. By the time the lock fell to the ground, the Ximen Servants had already closed in around you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250321,8 +250275,8 @@
   splits:
   - split: 4
     text: "狗剩儿！小包袱！快跟我来！"
-    translated: "Gousheng'er! Little Bundle! Follow me quickly!"
-    qcReviewedText: "Gousheng'er! Little Bundle! Follow me quickly!"
+    translated: "Gousheng'er! Xiaobaofu! Come with me quickly!"
+    qcReviewedText: "Gousheng'er! Xiaobaofu! Come with me quickly!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250339,19 +250293,16 @@
   splits:
   - split: 4
     text: "小七姑娘，{firstName}{playerTitle}，这便要走么？莫非是我属下招待不周？"
-    translated: "Little Seven, {playerTitle} {firstName}, are you leaving already? Is it because my subordinates did not treat you well enough?"
+    translated: "Miss Xiaoqi, {playerTitle} {firstName}, are you leaving already? Could it be that my subordinates failed to treat you with proper hospitality?"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄||姑娘>"
-    qcReviewedText: "Little Seven, {playerTitle} {firstName}, are you leaving already? Is it because my subordinates did not treat you well enough?"
-    qcTranslated: "Miss Little Seven, {playerTitle} {firstName}, are you leaving already? Is it because my subordinates did not treat you well enough?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcReviewedText: "Miss Xiaoqi, {playerTitle} {firstName}, are you leaving already? Could it be that my subordinates failed to treat you with proper hospitality?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1234,130003205003,4,[0].talks{json}[0].options{json}[0].name,“西门仲，你因何欺瞒于我，去投靠连环寨？”"
   splits:
   - split: 4
@@ -250573,8 +250524,8 @@
   splits:
   - split: 4
     text: "小七牙关紧咬，随即便要冲身向前，与西门仲搏命。"
-    translated: "Little Seven clenched her teeth and was about to rush forward to fight for her life against Ximen Zhong."
-    qcReviewedText: "Little Seven clenched her teeth and was about to rush forward to fight for her life against Ximen Zhong."
+    translated: "Xiaoqi clenched her teeth and was about to charge forward, ready to fight Ximen Zhong to the death."
+    qcReviewedText: "Xiaoqi clenched her teeth and was about to charge forward, ready to fight Ximen Zhong to the death."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250833,8 +250784,8 @@
   splits:
   - split: 4
     text: "杀东天霸之人，便是<他||她>？"
-    translated: "The one who killed Eastern Heaven Tyrant is <he||she>?"
-    qcReviewedText: "The one who killed Eastern Heaven Tyrant is <he||she>?"
+    translated: "The one who killed Dong Tianba is <he||she>?"
+    qcReviewedText: "The one who killed Dong Tianba is <he||she>?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -250956,8 +250907,8 @@
   splits:
   - split: 4
     text: "不等他上前，小七猛然前扑，狠狠一口咬在了西门仲的手背之上，西门仲吃痛甩开，发丝散乱，牙关紧咬，咯吱有声……"
-    translated: "Without waiting for him to approach, Little Seven suddenly lunged forward and bit down hard on Ximen Zhong's hand. Ximen Zhong flinched in pain and pulled away, his hair disheveled, teeth clenched tightly with a grinding sound......"
-    qcReviewedText: "Without waiting for him to approach, Little Seven suddenly lunged forward and bit down hard on Ximen Zhong's hand. Ximen Zhong flinched in pain and pulled away, his hair disheveled, teeth clenched tightly with a grinding sound......"
+    translated: "Before he could step forward, Xiaoqi lunged and bit down hard on Ximen Zhong's hand. In pain, Ximen Zhong shook him off, his hair disheveled, teeth clenched so tightly they ground together..."
+    qcReviewedText: "Before he could step forward, Xiaoqi lunged and bit down hard on Ximen Zhong's hand. In pain, Ximen Zhong shook him off, his hair disheveled, teeth clenched so tightly they ground together..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -251024,8 +250975,8 @@
   splits:
   - split: 4
     text: "见你负伤，小七急忙向你奔来，却被周遭家仆缠住，一时不得脱身。"
-    translated: "Seeing you injured, Little Seven hurried to your side but was held back by the servants around her, unable to break free for a moment."
-    qcReviewedText: "Seeing you injured, Little Seven hurried to your side but was held back by the servants around her, unable to break free for a moment."
+    translated: "Seeing your injuries, Xiaoqi rushed toward you but was held back by the surrounding servants, unable to break free."
+    qcReviewedText: "Seeing your injuries, Xiaoqi rushed toward you but was held back by the surrounding servants, unable to break free."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -251074,8 +251025,8 @@
   splits:
   - split: 4
     text: "杀东天霸之人，便是<他||她>？"
-    translated: "The one who killed Eastern Heaven Tyrant is <he||she>?"
-    qcReviewedText: "The one who killed Eastern Heaven Tyrant is <he||she>?"
+    translated: "The one who killed Dong Tianba is <he||she>?"
+    qcReviewedText: "The one who killed Dong Tianba is <he||she>?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -251197,8 +251148,8 @@
   splits:
   - split: 4
     text: "不等他上前，小七猛然前扑，狠狠一口咬在了西门仲的手背之上，纠缠之际，南宫莲已贴至近前，皓腕一翻一旋，已将半粒丹药送入你口。"
-    translated: "Before he could react, Little Seven suddenly lunged forward and bit down hard on Ximen Zhong's hand. As they struggled, Nangong Lian moved in close and flipped her wrist, slipping half a pill into your mouth."
-    qcReviewedText: "Before he could react, Little Seven suddenly lunged forward and bit down hard on Ximen Zhong's hand. As they struggled, Nangong Lian moved in close and flipped her wrist, slipping half a pill into your mouth."
+    translated: "Before he could close the distance, Xiaoqi lunged forward and bit down hard on Ximen Zhong's hand. As they grappled, Nangong Lian pressed in close; with a swift twist of her wrist, she slipped half a pill into your mouth."
+    qcReviewedText: "Before he could close the distance, Xiaoqi lunged forward and bit down hard on Ximen Zhong's hand. As they grappled, Nangong Lian pressed in close; with a swift twist of her wrist, she slipped half a pill into your mouth."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -251618,8 +251569,8 @@
   splits:
   - split: 4
     text: "正是！小女以为，以此人武学，显然并非击杀东天霸之人，此人背后必有朋党！依小女之见……前辈应将连环寨之敌尽聚于此，一网打尽，方可永除后患！"
-    translated: "Exactly! I believe that based on this person's martial arts skills, they clearly did not kill Eastern Heaven Tyrant. There must be accomplices behind them! In my opinion, Senior should gather all the enemies of Lianhuan Stronghold here and eliminate them in one fell swoop to permanently remove this threat!"
-    qcReviewedText: "Exactly! I believe that based on this person's martial arts skills, they clearly did not kill Eastern Heaven Tyrant. There must be accomplices behind them! In my opinion, Senior should gather all the enemies of Lianhuan Stronghold here and eliminate them in one fell swoop to permanently remove this threat!"
+    translated: "Indeed! In my humble opinion, judging by this person's martial arts, they clearly did not kill Dong Tianba. There must be accomplices behind them! I believe... Senior should gather all the enemies from Lianhuan Stronghold here and eliminate them in one sweep to permanently remove the threat!"
+    qcReviewedText: "Indeed! In my humble opinion, judging by this person's martial arts, they clearly did not kill Dong Tianba. There must be accomplices behind them! I believe... Senior should gather all the enemies from Lianhuan Stronghold here and eliminate them in one sweep to permanently remove the threat!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -251958,8 +251909,8 @@
   splits:
   - split: 4
     text: "狗剩儿、小包袱别怕，有我在，那西门仲休想伤你们分毫……"
-    translated: "Gousheng'er, Little Bundle, don't be afraid. With me here, Ximen Zhong won't lay a finger on you two...."
-    qcReviewedText: "Gousheng'er, Little Bundle, don't be afraid. With me here, Ximen Zhong won't lay a finger on you two...."
+    translated: "Gousheng'er, Xiaobaofu, don't be afraid. As long as I'm here, Ximen Zhong won't lay a finger on you..."
+    qcReviewedText: "Gousheng'er, Xiaobaofu, don't be afraid. As long as I'm here, Ximen Zhong won't lay a finger on you..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -251985,8 +251936,8 @@
   splits:
   - split: 4
     text: "小包袱"
-    translated: "Little Bundle"
-    qcReviewedText: "Little Bundle"
+    translated: "Xiaobaofu"
+    qcReviewedText: "Xiaobaofu"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -253629,13 +253580,13 @@
   splits:
   - split: 4
     text: "若是{firstName}{playerTitle}求得燕大侠相助，还请务要知会小七一声，小七虽武艺低微，但连环寨那些家伙当真可恶得很，我也要跟着教训教训他们！"
-    translated: "If {playerTitle} {firstName} seeks the aid of Great Hero Yan, please be sure to inform Xiao Qi. Though my martial arts are modest, those scoundrels at Lianhuan Stronghold are truly despicable, and I wish to join in giving them a lesson!"
+    translated: "If {playerTitle} {firstName} seeks the aid of Great Hero Yan, please be sure to inform Xiaoqi. Though my martial arts are modest, those scoundrels at Lianhuan Stronghold are truly despicable, and I wish to join in teaching them a lesson!"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<哥哥||姐姐>"
-    qcReviewedText: "If {playerTitle} {firstName} seeks the aid of Great Hero Yan, please be sure to inform Xiao Qi. Though my martial arts are modest, those scoundrels at Lianhuan Stronghold are truly despicable, and I wish to join in giving them a lesson!"
+    qcReviewedText: "If {playerTitle} {firstName} seeks the aid of Great Hero Yan, please be sure to inform Xiaoqi. Though my martial arts are modest, those scoundrels at Lianhuan Stronghold are truly despicable, and I wish to join in teaching them a lesson!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -253652,8 +253603,8 @@
   splits:
   - split: 4
     text: "小七将手中物事交予你手，旋即不待推辞，便转过身去，快步跑开。"
-    translated: "Little Seven handed you whatever she was holding and, without waiting for a refusal, turned around and ran off quickly."
-    qcReviewedText: "Little Seven handed you whatever she was holding and, without waiting for a refusal, turned around and ran off quickly."
+    translated: "Xiaoqi placed the item in her hand into yours, then, without waiting for you to decline, turned around and ran off at a quick pace."
+    qcReviewedText: "Xiaoqi placed the item in her hand into yours, then, without waiting for you to decline, turned around and ran off at a quick pace."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -255156,13 +255107,13 @@
   splits:
   - split: 4
     text: "这般死地，小七姑娘还是莫要以身犯险的好，届时单凭我与{firstName}{playerTitle}，恐难护你周全。"
-    translated: "In such a perilous place, Miss Qixiao, it's best not to put yourself in danger. At that time, relying solely on me and {playerTitle} {firstName} may not be enough to protect you."
+    translated: "In such a deadly situation, Miss Xiaoqi would be wise not to put herself in harm's way. With only {playerTitle} {firstName} and me, we may struggle to keep you safe."
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄||姑娘>"
-    qcReviewedText: "In such a perilous place, Miss Qixiao, it's best not to put yourself in danger. At that time, relying solely on me and {playerTitle} {firstName} may not be enough to protect you."
+    qcReviewedText: "In such a deadly situation, Miss Xiaoqi would be wise not to put herself in harm's way. With only {playerTitle} {firstName} and me, we may struggle to keep you safe."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -255170,8 +255121,8 @@
   splits:
   - split: 4
     text: "闻听此言，小七虽面带几分不甘，却仍是咬牙点头。"
-    translated: "Hearing this, Xiao Qi, though unwilling, gritted her teeth and nodded."
-    qcReviewedText: "Hearing this, Xiao Qi, though unwilling, gritted her teeth and nodded."
+    translated: "Hearing this, Xiaoqi wore a look of reluctance but still gritted her teeth and nodded."
+    qcReviewedText: "Hearing this, Xiaoqi wore a look of reluctance but still gritted her teeth and nodded."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -255188,8 +255139,8 @@
   splits:
   - split: 4
     text: "小七自知本领低微，自不会再添麻烦……但若是碰到了那连天明，可得好好替我教训教训他！"
-    translated: "Little Seven knows his own limitations and won't cause any more trouble... but if he runs into Lian Tianming, he'll have to give him a good lesson for me!"
-    qcReviewedText: "Little Seven knows his own limitations and won't cause any more trouble... but if he runs into Lian Tianming, he'll have to give him a good lesson for me!"
+    translated: "Xiaoqi knows his own limitations and will not cause any further trouble... But if he encounters Lian Tianming, please teach him a good lesson for me!"
+    qcReviewedText: "Xiaoqi knows his own limitations and will not cause any further trouble... But if he encounters Lian Tianming, please teach him a good lesson for me!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -255224,8 +255175,8 @@
   splits:
   - split: 4
     text: "见你与洪四海应下，小七犹豫片刻，转身而去，洪四海长出口气，挠挠后脑，转头看你。"
-    translated: "Seeing you agree with Hong Sihai, Xia Qi hesitated for a moment before turning and leaving. Hong Sihai let out a long breath, scratched the back of his head, and turned to look at you."
-    qcReviewedText: "Seeing you agree with Hong Sihai, Xia Qi hesitated for a moment before turning and leaving. Hong Sihai let out a long breath, scratched the back of his head, and turned to look at you."
+    translated: "Seeing that you and Hong Sihai had agreed, Xiaoqi hesitated for a moment before turning to leave. Hong Sihai let out a long sigh, scratched the back of his head, and turned to look at you."
+    qcReviewedText: "Seeing that you and Hong Sihai had agreed, Xiaoqi hesitated for a moment before turning to leave. Hong Sihai let out a long sigh, scratched the back of his head, and turned to look at you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -257495,8 +257446,8 @@
   splits:
   - split: 4
     text: "南宫莲见是你来，当即向你郑重一礼，小七亦是有样学样，向你抱拳拱手。"
-    translated: "Seeing it was you, Nangong Lian immediately bowed to you formally, and Xiaqi followed suit, bowing with clasped fists."
-    qcReviewedText: "Seeing it was you, Nangong Lian immediately bowed to you formally, and Xiaqi followed suit, bowing with clasped fists."
+    translated: "Seeing that it was you who had come, Nangong Lian immediately offered a formal bow in your direction. Xiaoqi followed suit, clasping her fists together in a respectful salute."
+    qcReviewedText: "Seeing that it was you who had come, Nangong Lian immediately offered a formal bow in your direction. Xiaoqi followed suit, clasping her fists together in a respectful salute."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -257513,13 +257464,13 @@
   splits:
   - split: 4
     text: "小七也要多谢{firstName}{playerTitle}！"
-    translated: "Little Seven also thanks you, {playerTitle} {firstName}!"
+    translated: "Xiaoqi must also thank you, {playerTitle} {firstName}!"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<哥哥||姐姐>"
-    qcReviewedText: "Little Seven also thanks you, {playerTitle} {firstName}!"
+    qcReviewedText: "Xiaoqi must also thank you, {playerTitle} {firstName}!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -257799,8 +257750,8 @@
   splits:
   - split: 4
     text: "外公已知此间之事，不日间便要遣人带我回返，我有意带小七往京城一行，或能……查出些许有关小七身世之事。"
-    translated: "My great-grandfather is aware of the situation here and will soon send someone to take me back. I intend to bring Little Seven with me to the Capital City, where we might be able to... uncover some information about her origins."
-    qcReviewedText: "My great-grandfather is aware of the situation here and will soon send someone to take me back. I intend to bring Little Seven with me to the Capital City, where we might be able to... uncover some information about her origins."
+    translated: "My grandfather is already aware of the situation here and will soon send someone to escort me back. I intend to take Xiaoqi to the Capital City; perhaps we can... uncover some details regarding her origins."
+    qcReviewedText: "My grandfather is already aware of the situation here and will soon send someone to escort me back. I intend to take Xiaoqi to the Capital City; perhaps we can... uncover some details regarding her origins."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -260575,8 +260526,8 @@
   splits:
   - split: 4
     text: "此红斑中毒者往往症状不一，有人状如疯魔，有人内力陡升，唯一相同之处便是这周身红斑。可未有一人与倭人相关，为免误诊，在下才有此问……"
-    translated: "These red rash poisoning cases often have different symptoms; some appear mad, others see a sudden surge in Inner Power, but the only commonality is this red rash. Yet none of them are related to the Dongying, to avoid misdiagnosis, I had to ask..."
-    qcReviewedText: "These red rash poisoning cases often have different symptoms; some appear mad, others see a sudden surge in Inner Power, but the only commonality is this red rash. Yet none of them are related to the Dongying, to avoid misdiagnosis, I had to ask..."
+    translated: "Those afflicted by this red rash often present with varied symptoms. Some behave as if possessed by demons, while others experience a sudden surge in Inner Power. The only commonality is the red rash covering their entire bodies. However, none of them have any connection to the Dongying people. To avoid misdiagnosis, I ask this question..."
+    qcReviewedText: "Those afflicted by this red rash often present with varied symptoms. Some behave as if possessed by demons, while others experience a sudden surge in Inner Power. The only commonality is the red rash covering their entire bodies. However, none of them have any connection to the Dongying people. To avoid misdiagnosis, I ask this question..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -260892,14 +260843,11 @@
   splits:
   - split: 4
     text: "你与燕南归眼神顿时暗淡下来。"
-    translated: "Your and Yan Nangui's eyes immediately darkened."
-    qcReviewedText: "Your and Yan Nangui's eyes immediately darkened."
-    qcTranslated: "The light in your and Yan Nangui's eyes immediately dimmed."
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Your and Yan Nangui's eyes immediately darkened"
+    qcReviewedText: "Your and Yan Nangui's eyes immediately darkened"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1270,160101004006,4,[0].talks{json}[33].options{json}[0].name,“实不相瞒，张大侠中毒前或已知晓其中端倪，可当下其昏迷不醒，在下再无其余线索……”"
   splits:
   - split: 4
@@ -265806,8 +265754,8 @@
   splits:
   - split: 4
     text: "燕南归向你低声笑语。"
-    translated: "Yan Nangui whispers and laughs to you."
-    qcReviewedText: "Yan Nangui whispers and laughs to you."
+    translated: "Yan Nangui whispers and laughs to you"
+    qcReviewedText: "Yan Nangui whispers and laughs to you"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -286949,8 +286897,8 @@
   splits:
   - split: 4
     text: "你途径此地，忽听得镇中人喊马嘶，兼有金铁对撞、百姓哀嚎，更有倭人嘶骂狞笑声不绝于耳……"
-    translated: "As you passed through this place, suddenly you heard cries and neighing from the town, along with clashing metal and the wails of the townspeople, interspersed with the shrill laughter and menacing curses of the Dongying invaders......"
-    qcReviewedText: "As you passed through this place, suddenly you heard cries and neighing from the town, along with clashing metal and the wails of the townspeople, interspersed with the shrill laughter and menacing curses of the Dongying invaders......"
+    translated: "As you pass through this place, you suddenly hear the cries of townsfolk and the neighing of horses, accompanied by the clashing of metal, the wailing of commoners, and the relentless, menacing shouts and laughter of Dongying people..."
+    qcReviewedText: "As you pass through this place, you suddenly hear the cries of townsfolk and the neighing of horses, accompanied by the clashing of metal, the wailing of commoners, and the relentless, menacing shouts and laughter of Dongying people..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -287051,8 +286999,8 @@
   splits:
   - split: 4
     text: "阁中弟子已陆续赶来，眼下正与倭人交战，此地既已肃清，我等兵分两路，各出援手！"
-    translated: "The disciples in the hall have already arrived and are currently fighting against the Dongying. Since this place has been cleared, let's split into two groups to offer assistance!"
-    qcReviewedText: "The disciples in the hall have already arrived and are currently fighting against the Dongying. Since this place has been cleared, let's split into two groups to offer assistance!"
+    translated: "The disciples of the pavilion have arrived in succession and are currently engaged in combat with the Dongying people. Since this area has been cleared, we shall split our forces into two groups to provide reinforcements!"
+    qcReviewedText: "The disciples of the pavilion have arrived in succession and are currently engaged in combat with the Dongying people. Since this area has been cleared, we shall split our forces into two groups to provide reinforcements!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -287430,9 +287378,10 @@
     text: "倭人起名与中原有颇多异处，这物见番头，便是他们的探子头领。"
     translated: "The Wa name things quite differently from the Central Plains. This “Monomi Banto” is what they call their chief scout."
     qcReviewedText: "The Wa name things quite differently from the Central Plains. This “Monomi Banto” is what they call their chief scout."
-    qcTranslated: "The Wa name things quite differently from the Central Plains. This Monomi Banto is what they call their Chieftain of scouts."
+    qcTranslated: "The Dongying people name things with many differences from the Central Plains. This Monomi Banto is what they call their Chieftain scout."
     qcStatus: Corrected
-    qcQualityScore: 95
+    flaggedForQcReview: true
+    qcQualityScore: 0
     qcDefectCategory: DroppedContent
     qcDefectCategories:
     - DroppedContent
@@ -289483,8 +289432,8 @@
   splits:
   - split: 4
     text: "那倭人男子乃是剖腹自尽，此乃倭俗，不足道耳。"
-    translated: "That Dongying man committed seppuku. It is a custom among them, not worth mentioning."
-    qcReviewedText: "That Dongying man committed seppuku. It is a custom among them, not worth mentioning."
+    translated: "That Dongying man committed seppuku. It is a custom of the Dongying people and not worth mentioning."
+    qcReviewedText: "That Dongying man committed seppuku. It is a custom of the Dongying people and not worth mentioning."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -289492,8 +289441,8 @@
   splits:
   - split: 4
     text: "“门主竟懂倭人风俗？”"
-    translated: "Does the Sect Leader actually understand Dongying customs?"
-    qcReviewedText: "Does the Sect Leader actually understand Dongying customs?"
+    translated: "Does the Sect Master know Dongying customs?"
+    qcReviewedText: "Does the Sect Master know Dongying customs?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -289819,8 +289768,8 @@
   splits:
   - split: 4
     text: "那倭人男子乃是剖腹自尽，此乃倭俗，不足道耳。"
-    translated: "That Dongying man committed seppuku. It is a custom among them, not worth mentioning."
-    qcReviewedText: "That Dongying man committed seppuku. It is a custom among them, not worth mentioning."
+    translated: "That Dongying man committed seppuku. It is a custom of the Dongying people and not worth mentioning."
+    qcReviewedText: "That Dongying man committed seppuku. It is a custom of the Dongying people and not worth mentioning."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -289828,8 +289777,8 @@
   splits:
   - split: 4
     text: "“左门主竟懂倭人风俗？”"
-    translated: "Does Left Sect Master actually understand Dongying customs?"
-    qcReviewedText: "Does Left Sect Master actually understand Dongying customs?"
+    translated: "Left Gate Master, you know the customs of the Dongying people?"
+    qcReviewedText: "Left Gate Master, you know the customs of the Dongying people?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -290548,9 +290497,9 @@
   splits:
   - split: 4
     text: "“此乃女倭随身之物，想来是那倭人男子临终所赠，弟子不解其意，故此……”"
-    translated: "This is something the female follower carried with her. It must have been given to her by that male follower on his deathbed. I don't understand its meaning, so..."
-    qcReviewedText: "This is something the female follower carried with her. It must have been given to her by that male follower on his deathbed. I don't understand its meaning, so..."
-    qcTranslated: "This is something the female follower carried with her. It must have been given to her by that male follower on his deathbed. I, your Disciple, don't understand its meaning, so..."
+    translated: "This is a personal item of a Dongying woman. It was likely given to her by a Dongying man on his deathbed. I do not understand its significance, so..."
+    qcReviewedText: "This is a personal item of a Dongying woman. It was likely given to her by a Dongying man on his deathbed. I do not understand its significance, so..."
+    qcTranslated: "This is a personal item of a Dongying woman. It was likely given to her by a Dongying man on his deathbed. Disciple does not understand its significance, so..."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -301016,8 +300965,8 @@
   splits:
   - split: 4
     text: "但若是带人去了，却没碰到鞑子三韩的人，那便……"
-    translated: "But if you take someone there and don't run into any Tartar Samhan people, then..."
-    qcReviewedText: "But if you take someone there and don't run into any Tartar Samhan people, then..."
+    translated: "But if we bring people along and fail to encounter any Tartars or Samhan, then..."
+    qcReviewedText: "But if we bring people along and fail to encounter any Tartars or Samhan, then..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -306056,8 +306005,8 @@
   splits:
   - split: 4
     text: "前些日子寺中修缮，在一尊佛塔里寻得了此画，其乃是天竺神僧竺法兰晚年所绘，距今已有千百年了。"
-    translated: "A few days ago, during the temple's renovation, this painting was found inside a Buddhist Pagoda. It was painted by the divine monk Zhu Falan in his later years and dates back over a thousand years."
-    qcReviewedText: "A few days ago, during the temple's renovation, this painting was found inside a Buddhist Pagoda. It was painted by the divine monk Zhu Falan in his later years and dates back over a thousand years."
+    translated: "Some time ago, during repairs at the temple, this painting was discovered inside a Buddhist Pagoda. It was painted in his later years by the divine monk Zhu Falan of Tianzhu, making it over a thousand years old."
+    qcReviewedText: "Some time ago, during repairs at the temple, this painting was discovered inside a Buddhist Pagoda. It was painted in his later years by the divine monk Zhu Falan of Tianzhu, making it over a thousand years old."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -350902,8 +350851,8 @@
   splits:
   - split: 4
     text: "昔年我与营中三百死士死守粮道，遭四千女真鞑子穷追猛打，最终战至仅剩我一人之时，国公亲率铁骑赶来，将敌军杀得片甲不留……"
-    translated: "Years ago, I fought alongside three hundred brave soldiers to defend the supply route, facing relentless attacks from four thousand Jurchen invaders. In the end, when only I remained, the Duke himself led his iron cavalry to our rescue, leaving no enemy standing..."
-    qcReviewedText: "Years ago, I fought alongside three hundred brave soldiers to defend the supply route, facing relentless attacks from four thousand Jurchen invaders. In the end, when only I remained, the Duke himself led his iron cavalry to our rescue, leaving no enemy standing..."
+    translated: "Years ago, I and three hundred death warriors held the grain supply route to the last man. Four thousand Jurchen Tartars pursued us relentlessly, and we fought until only I remained. Then the Duke personally led his iron cavalry to our aid, slaughtering the enemy without leaving a single survivor..."
+    qcReviewedText: "Years ago, I and three hundred death warriors held the grain supply route to the last man. Four thousand Jurchen Tartars pursued us relentlessly, and we fought until only I remained. Then the Duke personally led his iron cavalry to our aid, slaughtering the enemy without leaving a single survivor..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -386797,8 +386746,8 @@
   splits:
   - split: 4
     text: "……来者自称……罗刹寨大当家……"
-    translated: "......the one who came introduced themselves as the Big Boss of LuoSha Fort..."
-    qcReviewedText: "......the one who came introduced themselves as the Big Boss of LuoSha Fort..."
+    translated: "...The visitor claims to be... the Big Boss of Rakshasa Stronghold..."
+    qcReviewedText: "...The visitor claims to be... the Big Boss of Rakshasa Stronghold..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -387265,8 +387214,8 @@
   splits:
   - split: 4
     text: "……来者自称……罗刹寨大当家……"
-    translated: "......the one who came introduced themselves as the Big Boss of LuoSha Fort..."
-    qcReviewedText: "......the one who came introduced themselves as the Big Boss of LuoSha Fort..."
+    translated: "...The visitor claims to be... the Big Boss of Rakshasa Stronghold..."
+    qcReviewedText: "...The visitor claims to be... the Big Boss of Rakshasa Stronghold..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
