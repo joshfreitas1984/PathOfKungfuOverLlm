@@ -20842,8 +20842,8 @@
     qcDefectCategory: None
   - split: 3
     text: "前往客栈，打探苏北五猖消息。"
-    translated: "Go to the Inn to inquire about the Five Gods of Northern Su."
-    qcReviewedText: "Go to the Inn to inquire about the Five Gods of Northern Su."
+    translated: "Head to the Inn and inquire about the Five Ravagers of Subei."
+    qcReviewedText: "Head to the Inn and inquire about the Five Ravagers of Subei."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20858,14 +20858,11 @@
     qcDefectCategory: None
   - split: 3
     text: "前往承安祠堂，探寻苏北五猖去向。"
-    translated: "Head to the Cheng'an Ancestral Hall to investigate the whereabouts of the Suzhou North Five Abominations."
-    qcReviewedText: "Head to the Cheng'an Ancestral Hall to investigate the whereabouts of the Suzhou North Five Abominations."
-    qcTranslated: "Head to the Cheng'an Ancestral Hall to investigate the whereabouts of the Five Changs of Northern Su."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Head to the Cheng'an Ancestral Hall and investigate the whereabouts of the Five Ravagers of Subei."
+    qcReviewedText: "Head to the Cheng'an Ancestral Hall and investigate the whereabouts of the Five Ravagers of Subei."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1154,130002701003,四海缉仇,寻找苏北五猖。,\"[{\"\"triggerType\"\":1,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"reach,13000,18,26\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010030001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关伯金\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010030000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"李承安的秘宝，咱们就算把这祠堂翻个底朝天也要把它找出来！到那时我等岂会再畏惧那区区洪四海？\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004001\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010030002,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关仲木\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010030001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"可说是秘宝，我们左右翻找都一无所获，难道真如那“商会”中人所言，需待月升之时，方可得见？\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004002\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010030003,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关翠花\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010030002\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"大哥二哥，且收声，有人来了。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004004\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010030004,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010030003\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"几人言谈颇鬼祟，偏又小心谨慎得很，不如绕到背后尝试探听一二。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"0:130002701,4,0;25:13000,18,24;25:13000,18,25\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":\"\"1\"\"}]\",\"[{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120001023\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010030001,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010030000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"洪四海斜倚亭中，鼾声渐起，似已沉沉睡去。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001023\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null},{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120001024\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010030001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"孟阳伯\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010030000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"那几位才去不久，阁下若要去寻，想来不难。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001024\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null}]\""
   splits:
   - split: 2
@@ -20877,14 +20874,11 @@
     qcDefectCategory: None
   - split: 3
     text: "寻找苏北五猖。"
-    translated: "Search for the Five Sacred Beasts of Northern Su."
-    qcReviewedText: "Search for the Five Sacred Beasts of Northern Su."
-    qcTranslated: "Search for the Five Chang of Northern Su."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Find the Five Ravagers of Subei"
+    qcReviewedText: "Find the Five Ravagers of Subei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1155,130002701004,四海缉仇,前往祠堂附近，窃听苏北五猖密谈。,\"[{\"\"triggerType\"\":1,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"reach,13000,16,24\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":2,\\\"\"name\\\"\":null,\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":null,\\\"\"talk\\\"\":\\\"\"此处背阴，隐隐能听到林外传来的谈话声响。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":null,\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":null,\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"侧耳倾听。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1300027010040003},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"暂且离去。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1300027010040002}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040002,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"23:4\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040003,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关仲木\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"那李承安的秘籍就在此处，我们却要在此空等，真晦气！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004002\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040004,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关翠花\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040003\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"二哥莫要急躁，近几日便是月升之日，待到子时，这承安祠堂之秘自可见得分晓，取了秘籍，我等还怕丐帮追缉么？\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004004\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040005,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关仲木\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040004\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"不错！无非是杀了他们个打探消息的小乞丐，竟然一路追杀至此，尤其是那洪四海！待我等取了此间秘宝，修了李承安的神功，定要将那厮挫骨扬灰，方解我心头之恨！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004002\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040006,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关伯金\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040005\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"哼，且不说此人，若天可怜见我五兄妹，持了神功去投连环寨又如何？说不定，有一天将那丐帮杭州舵挑了也说不定！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004001\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040007,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关翠花\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040006\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"此时莫要节外生枝……小妹倒是还有一想法……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004004\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040008,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040007\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"几人的声音缓缓隐去，想来是已然走远，至于那<color=#FC011CFF>月升子时</color>的承安祠堂，却或还有大事发生。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"0:130002701,999,0;2:1120004001,13000,999,999,0,0,0,0,0;2:1120004002,13000,999,999,0,0,0,0,0;2:1120004004,13000,999,999,0,0,0,0,0;2:1120004005,13000,999,999,0,0,0,0,0;2:1120004003,13000,999,999,0,0,0,0,0;2:1120001024,13000,999,999,0,0,0,0,0;20:0,130002702;9:1300050;30:1,1\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":\"\"1\"\"}]\",\"[{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120001023\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"洪四海斜倚亭中，鼾声渐起，似已沉沉睡去。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001023\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null},{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120004001\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关伯金\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"来者何人！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004001\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null},{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120004002\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关仲木\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"小辈，报上名来！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004002\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null},{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120004004\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关翠花\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"喲，这般俊俏的游侠儿，就是不知刮花这张脸，会不会更惹人怜爱些……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004004\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null},{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120004005\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"关季火\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"小辈，在此鬼祟探看作甚!\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004005\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null},{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1120004003\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027010040001,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"关叔水\\\"\",\\\"\"preId\\\"\":\\\"\"1300027010040000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"<小子||丫头>，你在鬼祟探看什么！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120004003\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"暂且避其锋。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":1300027010040002}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":1300027010040002,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":null,\\\"\"preId\\\"\":\\\"\"1300027010040001\\\"\",\\\"\"preCondition\\\"\":null,\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":null,\\\"\"config\\\"\":null,\\\"\"action\\\"\":null,\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null}]\""
   splits:
   - split: 2
@@ -20896,14 +20890,11 @@
     qcDefectCategory: None
   - split: 3
     text: "前往祠堂附近，窃听苏北五猖密谈。"
-    translated: "Go to the area near the Ancestral Hall to eavesdrop on the secret discussions of the Wuchang Five in the north."
-    qcReviewedText: "Go to the area near the Ancestral Hall to eavesdrop on the secret discussions of the Wuchang Five in the north."
-    qcTranslated: "Go to the area near the Ancestral Hall to eavesdrop on the secret discussions of the Five Changs of Su Bei."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Head to the area near the Ancestral Hall and eavesdrop on the secret talks of the Five Ravagers of Subei."
+    qcReviewedText: "Head to the area near the Ancestral Hall and eavesdrop on the secret talks of the Five Ravagers of Subei."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1156,130002702000,夜探祠堂,待夜间再入承安祠堂。,\"[{\"\"triggerType\"\":1,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"reach,13000,21,27\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027020000001,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027020000000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"夜半子时，月色飘洒，昼间面目不清的泥塑也多了几分柔和。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"0:130002702,1,0\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":\"\"1\"\"}]\",\"[{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,0\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":1300027020000001,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"1300027020000000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1120001023\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":null}]\""
   splits:
   - split: 2
@@ -21011,8 +21002,8 @@
     qcDefectCategory: None
   - split: 3
     text: "五猖事毕，返回镇北亭子与洪四海相谈。"
-    translated: "After the Five Sacrifices ceremony was over, I returned to the northern pavilion to talk with Hong Sihai."
-    qcReviewedText: "After the Five Sacrifices ceremony was over, I returned to the northern pavilion to talk with Hong Sihai."
+    translated: "After the Five Ravagers were dealt with, return to Zhenbei Pavilion to speak with Hong Sihai."
+    qcReviewedText: "After the Five Ravagers were dealt with, return to Zhenbei Pavilion to speak with Hong Sihai."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30857,8 +30848,8 @@
     translated: "One"
   - split: 3
     text: "前往襄阳楚府，确认五猖所遗宝剑是否为楚家之物。"
-    translated: "Go to Chu Mansion in Xiangyang to confirm if the treasure sword left by Wuchang belongs to the Chu family."
-    qcReviewedText: "Go to Chu Mansion in Xiangyang to confirm if the treasure sword left by Wuchang belongs to the Chu family."
+    translated: "Travel to the Chu Mansion in Xiangyang to confirm whether the sword left behind by the Five Ravagers belongs to the Chu family."
+    qcReviewedText: "Travel to the Chu Mansion in Xiangyang to confirm whether the sword left behind by the Five Ravagers belongs to the Chu family."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

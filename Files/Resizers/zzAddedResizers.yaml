@@ -267,10 +267,11 @@
   adjustWidth: -85
 - path: GameManager/UIManager/UIRoot/UIMain/*/PanelText*/TextTip
   sampleText: Jianghu's former guest Jiang Huichu, a former guest of Tian…
-  idealFontSize: 17
+  idealFontSize: 16
+  allowAutoSizing: false
   adjustY: 10
   adjustWidth: 20
-  adjustHeight: -20
+  adjustHeight: -16
 - path: GameManager/UIManager/UIRoot/UIWorldTime/AccelerateRoot/Root/timeSpeedRoot/*/txt
   sampleText: Pass
   idealFontSize: 20
@@ -309,3 +310,26 @@
 - path: GameManager/UIManager/UIRoot/UIGameArchive/bgImage/*/*/time
   sampleText: 2026 Year 10 Month 21 Day
   idealFontSize: 17
+- path: GameManager/UIManager/UIRoot/UICook/BgImage/MiddleCenter/panel_BookList/Scroll View/Viewport/trans_BookList/item*/go_Select/txt_Name
+  sampleText: Nine Provinces, Boundless·Refined
+  maxFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: 45
+  adjustHeight: 25
+- path: GameManager/UIManager/UIRoot/UICook/BgImage/MiddleCenter/panel_BookList/Scroll View/Viewport/trans_BookList/item*/txt_Name
+  sampleText: Little Jade-Cutter·Refined
+  maxFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: 45
+  adjustHeight: 30
+- path: GameManager/UIManager/UICanvansTop/TipShowWinNew/tip*/panel_Base/txt_Name
+  sampleText: <color=#FFFFFF>Horse-Cleaving Blade·Feng</color>
+  idealFontSize: 18
+  alignment: Center
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: 220
+- path: GameManager/UIManager/UICanvansTop/TipShowWinNew/tip1/panel_Base/txt_Name
+  sampleText: <color=#FFFFFF>Weighing and Dividing Gold·Feng</color>

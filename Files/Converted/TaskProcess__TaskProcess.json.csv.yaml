@@ -234666,14 +234666,11 @@
   splits:
   - split: 4
     text: "这其二，便是前来追索“苏北五猖”，这几人手上功夫不怎么样，脚底抹油的本事却厉害得紧。"
-    translated: "Secondly, they came to reclaim the Five Unrestrained Beasts of Northern Su. Though these individuals aren't particularly skilled with their hands, they are adept at making a quick getaway."
-    qcReviewedText: "Secondly, they came to reclaim the Five Unrestrained Beasts of Northern Su. Though these individuals aren't particularly skilled with their hands, they are adept at making a quick getaway."
-    qcTranslated: "Secondly, they came to pursue the Five Unrestrained Demons of Northern Su. Though these individuals aren't particularly skilled with their hands, they are adept at making a quick getaway."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "The second reason is that they are here to pursue the Five Ravagers of Subei. These individuals are not particularly skilled in martial arts, but they are remarkably adept at slipping away."
+    qcReviewedText: "The second reason is that they are here to pursue the Five Ravagers of Subei. These individuals are not particularly skilled in martial arts, but they are remarkably adept at slipping away."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1151,130002701000,4,[0].talks{json}[11].name,洪四海"
   splits:
   - split: 4
@@ -234696,8 +234693,8 @@
   splits:
   - split: 4
     text: "“苏北五猖……名头倒是极恶，却不知丐帮因何追索？”"
-    translated: "Su Bei Wuchang... the reputation is indeed terrible, but I wonder why the Beggars' Sect is pursuing them?"
-    qcReviewedText: "Su Bei Wuchang... the reputation is indeed terrible, but I wonder why the Beggars' Sect is pursuing them?"
+    translated: "The Five Ravagers of Subei... a fearsome reputation indeed, but why is the Beggars' Sect pursuing them?"
+    qcReviewedText: "The Five Ravagers of Subei... a fearsome reputation indeed, but why is the Beggars' Sect pursuing them?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -234780,8 +234777,8 @@
   splits:
   - split: 4
     text: "“既如此，你我亦无需深交，且容我去追缉那苏北五猖，树德必报，逢恶必眦，此乃唯一正道！”"
-    translated: "Since this is the case, there's no need for us to become close friends. Allow me to pursue those Five Wild Beasts of Northern Su instead. Virtue must be rewarded, and evil must be punished; this is the only righteous path!"
-    qcReviewedText: "Since this is the case, there's no need for us to become close friends. Allow me to pursue those Five Wild Beasts of Northern Su instead. Virtue must be rewarded, and evil must be punished; this is the only righteous path!"
+    translated: "Since it is so, there is no need for us to become close. Allow me to pursue and apprehend the Five Ravagers of Subei. I shall repay kindness and confront evil without hesitation; this is the only righteous path!"
+    qcReviewedText: "Since it is so, there is no need for us to become close. Allow me to pursue and apprehend the Five Ravagers of Subei. I shall repay kindness and confront evil without hesitation; this is the only righteous path!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -234894,14 +234891,11 @@
   splits:
   - split: 4
     text: "“客栈消息流转灵通，却是不知是否听闻过“苏北五猖”？”"
-    translated: "The inn's news travels swiftly, yet I don't know if they've heard of the 'Five Prowess of Northern Su'?"
-    qcReviewedText: "The inn's news travels swiftly, yet I don't know if they've heard of the 'Five Prowess of Northern Su'?"
-    qcTranslated: "The Inn's news travels swiftly, yet I don't know if they've heard of the 'Five Changs of Northern Su'?"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "The inn's information network is swift and far-reaching. Have you perhaps heard of the 'Five Ravagers of Subei'?"
+    qcReviewedText: "The inn's information network is swift and far-reaching. Have you perhaps heard of the 'Five Ravagers of Subei'?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1152,130002701001,4,[0].talks{json}[1].name,店小二"
   splits:
   - split: 4
@@ -234915,15 +234909,11 @@
   splits:
   - split: 4
     text: "苏北五猖……听着像是什么庙儿里的小鬼儿，若是人的话却是没听过，倒是前些日子来了对儿五胞兄妹，大哥四弟叫得亲热。"
-    translated: "Suzhou North Five Gods... it sounds like some temple goblins, but if they were people, I've never heard of them. Recently, though, a set of quintuplet siblings came by, calling each other Big Brother and Little Brothers affectionately."
-    qcReviewedText: "Suzhou North Five Gods... it sounds like some temple goblins, but if they were people, I've never heard of them. Recently, though, a set of quintuplet siblings came by, calling each other Big Brother and Little Brothers affectionately."
-    qcTranslated: "Suzhou North Five Fierce Ones... it sounds like some temple goblins, but if they were people, I've never heard of them. Recently, though, a set of quintuplet siblings came by, calling each other Big Brother and Fourth Brother affectionately."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
-    - DomainTerm
+    translated: "The Five Ravagers of Subei... That sounds like some little temple demons. I've never heard of them as people, though. A set of five siblings did arrive a few days ago, and the eldest brother and fourth brother were quite affectionate with each other."
+    qcReviewedText: "The Five Ravagers of Subei... That sounds like some little temple demons. I've never heard of them as people, though. A set of five siblings did arrive a few days ago, and the eldest brother and fourth brother were quite affectionate with each other."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1152,130002701001,4,[0].talks{json}[1].options{json}[0].name,“五胞兄妹？”"
   splits:
   - split: 4
@@ -234964,8 +234954,8 @@
   splits:
   - split: 4
     text: "“那五兄妹怕是极似苏北五猖……那承安祠堂在何处？”"
-    translated: "Those five siblings are likely very similar to the Five Gods of Su Bei... Where is the Cheng'an Ancestral Hall?"
-    qcReviewedText: "Those five siblings are likely very similar to the Five Gods of Su Bei... Where is the Cheng'an Ancestral Hall?"
+    translated: "Those five siblings must bear a striking resemblance to the Five Ravagers of Subei... Where is the Cheng'an Ancestral Hall?"
+    qcReviewedText: "Those five siblings must bear a striking resemblance to the Five Ravagers of Subei... Where is the Cheng'an Ancestral Hall?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -235084,8 +235074,8 @@
   splits:
   - split: 4
     text: "近期除了你还有几位，言谈举止令人不悦，自号什么苏北五猖……还有什么洪四海如此可恨，诸如此类，神神秘秘。"
-    translated: "Recently, besides you, a few others have been around, their behavior and speech quite unpleasant. They call themselves the Five Pests of Su Bei... and there's also Hong Sihai, who is utterly detestable, along with others like them, all shrouded in mystery."
-    qcReviewedText: "Recently, besides you, a few others have been around, their behavior and speech quite unpleasant. They call themselves the Five Pests of Su Bei... and there's also Hong Sihai, who is utterly detestable, along with others like them, all shrouded in mystery."
+    translated: "Lately, besides you, there have been a few others whose words and manner are quite unpleasant. They call themselves the Five Ravagers of Subei... and then there is Hong Sihai, so hateful. All of them, so secretive and mysterious."
+    qcReviewedText: "Lately, besides you, there have been a few others whose words and manner are quite unpleasant. They call themselves the Five Ravagers of Subei... and then there is Hong Sihai, so hateful. All of them, so secretive and mysterious."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -235606,11 +235596,11 @@
   splits:
   - split: 4
     text: "{playerTitle}，五猖可有消息？"
-    translated: "{playerTitle}, have there been any news about the Wuchang?"
+    translated: "{playerTitle}, do you have any news of the Five Ravagers?"
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "{playerTitle}, have there been any news about the Wuchang?"
+    qcReviewedText: "{playerTitle}, do you have any news of the Five Ravagers?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -235903,11 +235893,11 @@
   splits:
   - split: 4
     text: "{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，洪某便在镇外亭中相候。"
-    translated: "{playerTitle}, your aid in purging the Five Fierce of Northern Su from the Beggars' Sect spared me the trouble of chasing them down, and those Elders in the sect can finally keep their mouths shut. Though Sihai is naturally lazy, I have never been one to owe a debt. Should you ever need assistance in the future, I, Hong, shall await you at the pavilion outside town."
+    translated: "{playerTitle}, your aid in helping the Beggars' Sect eliminate the Five Ravagers of Subei has spared me much running about and silenced those Elders in the sect. Though Sihai is naturally lazy, I have never owed a debt. Should you ever require assistance in the future, this Hong shall await you at the pavilion outside town."
     tokens:
       playerTitle:
         source: "<少侠||姑娘>"
-    qcReviewedText: "{playerTitle}, your aid in purging the Five Fierce of Northern Su from the Beggars' Sect spared me the trouble of chasing them down, and those Elders in the sect can finally keep their mouths shut. Though Sihai is naturally lazy, I have never been one to owe a debt. Should you ever need assistance in the future, I, Hong, shall await you at the pavilion outside town."
+    qcReviewedText: "{playerTitle}, your aid in helping the Beggars' Sect eliminate the Five Ravagers of Subei has spared me much running about and silenced those Elders in the sect. Though Sihai is naturally lazy, I have never owed a debt. Should you ever require assistance in the future, this Hong shall await you at the pavilion outside town."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -236137,8 +236127,8 @@
   splits:
   - split: 4
     text: "祠堂地下已然一片狼藉，孟阳伯全力施为之下，苏北五猖尽皆毙命，自关翠花身上跌出一柄油布裹贴的宝剑，可叹一场荒梦终醒，待你走上前去，发觉孟阳伯业已力竭，其身半册秘籍也无。"
-    translated: "The underground of the Ancestral Hall was already in shambles. Under Meng Yangbo's full force, all five of the Northern Wujiang bandits were killed. From Guan Cuihua's body fell a precious sword wrapped in oiled cloth. Alas, this wild dream finally came to an end. When you walked forward, you found that Meng Yangbo had already exhausted his strength, and he held only half of a Manual."
-    qcReviewedText: "The underground of the Ancestral Hall was already in shambles. Under Meng Yangbo's full force, all five of the Northern Wujiang bandits were killed. From Guan Cuihua's body fell a precious sword wrapped in oiled cloth. Alas, this wild dream finally came to an end. When you walked forward, you found that Meng Yangbo had already exhausted his strength, and he held only half of a Manual."
+    translated: "The undercroft of the Ancestral Hall lay in utter ruin. Meng Yangbo had unleashed his full might, and all Five Ravagers of Subei were slain. A sword wrapped in oilcloth tumbled from Guan Cuihua's body. Alas, a wild dream at last awakens. As you step forward, you find that Meng Yangbo has already exhausted himself; half a Manual lies beside him, but the rest is gone."
+    qcReviewedText: "The undercroft of the Ancestral Hall lay in utter ruin. Meng Yangbo had unleashed his full might, and all Five Ravagers of Subei were slain. A sword wrapped in oilcloth tumbled from Guan Cuihua's body. Alas, a wild dream at last awakens. As you step forward, you find that Meng Yangbo has already exhausted himself; half a Manual lies beside him, but the rest is gone."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -236374,13 +236364,13 @@
   splits:
   - split: 4
     text: "{firstName}{playerTitle}助丐帮除去苏北五猖，省了我追来跑去，帮里那几个长老也能闭嘴了，四海虽生性懒散，但亦向来不欠人情，阁下他日若需助力，某便在此相候。"
-    translated: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang in Su Bei. This spared me from running around, and the elders there can finally stop complaining. Although Si Hai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, I will be here waiting for you."
+    translated: "{playerTitle} {firstName}, your aid in helping the Beggars' Sect eliminate the Five Ravagers of Subei has spared me much running about and silenced those Elders in the sect. Though Si Hai is naturally lazy, I have never owed a debt. Should you ever need assistance in the future, I shall be here to await you."
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄||姑娘>"
-    qcReviewedText: "{playerTitle} {firstName}, you helped the Beggars' Sect eliminate the Five Chang in Su Bei. This spared me from running around, and the elders there can finally stop complaining. Although Si Hai is naturally lazy, he never owes anyone a debt. If you ever need assistance in the future, I will be here waiting for you."
+    qcReviewedText: "{playerTitle} {firstName}, your aid in helping the Beggars' Sect eliminate the Five Ravagers of Subei has spared me much running about and silenced those Elders in the sect. Though Si Hai is naturally lazy, I have never owed a debt. Should you ever need assistance in the future, I shall be here to await you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -350447,8 +350437,8 @@
   splits:
   - split: 4
     text: "“苏北五猖，已然尽数伏诛。”"
-    translated: "The Five Rampaging Beasts of Northern Su have been vanquished."
-    qcReviewedText: "The Five Rampaging Beasts of Northern Su have been vanquished."
+    translated: "The Five Ravagers of Subei have all been executed."
+    qcReviewedText: "The Five Ravagers of Subei have all been executed."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

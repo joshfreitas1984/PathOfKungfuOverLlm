@@ -1268,14 +1268,11 @@
   splits:
   - split: 2
     text: "寻五猖"
-    translated: "Seek the Five Sacred Beasts"
-    qcReviewedText: "Seek the Five Sacred Beasts"
-    qcTranslated: "Seek the Five Fierce Ones"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Seek the Five Ravagers"
+    qcReviewedText: "Seek the Five Ravagers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "即探得消息，不若前去细看。"
     translated: "Upon hearing the news, it would be better to go and take a closer look."
@@ -1301,8 +1298,8 @@
     qcDefectCategory: None
   - split: 3
     text: "此处果荒僻，那老头或有秘密。然事分轻重，以五猖为重。"
-    translated: "This place is indeed remote; that old man might have secrets. Yet priorities must be set, and the Five Rampaging Beasts take precedence."
-    qcReviewedText: "This place is indeed remote; that old man might have secrets. Yet priorities must be set, and the Five Rampaging Beasts take precedence."
+    translated: "This place is indeed desolate; that old man may harbor secrets. Yet matters have their priorities-the Five Ravagers take precedence."
+    qcReviewedText: "This place is indeed desolate; that old man may harbor secrets. Yet matters have their priorities-the Five Ravagers take precedence."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1340,8 +1337,8 @@
   splits:
   - split: 2
     text: "承安后人（未杀五猖）"
-    translated: "Descendants of Cheng'an (Did Not Kill the Five Wandering Spirits)"
-    qcReviewedText: "Descendants of Cheng'an (Did Not Kill the Five Wandering Spirits)"
+    translated: "Descendants of Cheng'an (The Five Ravagers Unslain)"
+    qcReviewedText: "Descendants of Cheng'an (The Five Ravagers Unslain)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1356,8 +1353,8 @@
   splits:
   - split: 2
     text: "承安后人（已杀五猖）"
-    translated: "Descendant of Cheng'an (Already Killed Five Aberrants)"
-    qcReviewedText: "Descendant of Cheng'an (Already Killed Five Aberrants)"
+    translated: "Descendant of Cheng'an (Slew the Five Ravagers)"
+    qcReviewedText: "Descendant of Cheng'an (Slew the Five Ravagers)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4884,8 +4881,8 @@
     qcDefectCategory: None
   - split: 3
     text: "苏北五猖于祠堂密谋，此地或将起风雨。"
-    translated: "The Five Rampaging Clans of Northern Su conspire in the Ancestral Hall; storms may brew here."
-    qcReviewedText: "The Five Rampaging Clans of Northern Su conspire in the Ancestral Hall; storms may brew here."
+    translated: "The Five Ravagers of Subei conspire in secret within the Ancestral Hall; a storm may soon break here."
+    qcReviewedText: "The Five Ravagers of Subei conspire in secret within the Ancestral Hall; a storm may soon break here."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4907,8 +4904,8 @@
     qcDefectCategory: None
   - split: 3
     text: "你于祠堂香案处寻得密道，进入密室之中，了结苏北五猖之事。"
-    translated: "You found a secret passage at the ancestral hall's altar and entered the secret room to settle the matter of the Five Wild Tribes of Northern Su."
-    qcReviewedText: "You found a secret passage at the ancestral hall's altar and entered the secret room to settle the matter of the Five Wild Tribes of Northern Su."
+    translated: "You find a hidden passage at the altar in the Ancestral Hall, enter the secret chamber, and put an end to the Five Ravagers of Subei."
+    qcReviewedText: "You find a hidden passage at the altar in the Ancestral Hall, enter the secret chamber, and put an end to the Five Ravagers of Subei."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16677,8 +16674,8 @@
     qcDefectCategory: None
   - split: 3
     text: "五猖事毕，洪四海计划与你分头探寻燕南归下落，建议你往大理一行。"
-    translated: "After the Wu Chang ceremony is complete, Hong Sihai plans to part ways with you to search for Yan Nangui's whereabouts. He suggests that you head to Dali."
-    qcReviewedText: "After the Wu Chang ceremony is complete, Hong Sihai plans to part ways with you to search for Yan Nangui's whereabouts. He suggests that you head to Dali."
+    translated: "With the Five Ravagers matter resolved, Hong Sihai plans to split up and search for Yan Nangui's whereabouts separately, suggesting you travel to Dali."
+    qcReviewedText: "With the Five Ravagers matter resolved, Hong Sihai plans to split up and search for Yan Nangui's whereabouts separately, suggesting you travel to Dali."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
