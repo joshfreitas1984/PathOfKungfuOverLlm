@@ -1,0 +1,16 @@
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Image (2)/TextGetZaoYi
+  sampleText: 10
+  idealFontSize: 18
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Image/TextGetXiuWei
+  sampleText: 6
+  idealFontSize: 18
+- path: 'BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Image2/TextGetSilver '
+  sampleText: 0 5
+  idealFontSize: 18
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Text
+  sampleText: Gain
+  idealFontSize: 20
+  adjustWidth: -35
+- path: BattleObj/CanvasBattleResult/TurnText/Win/Image/ImageGet/Text2*
+  sampleText: Cultivation
+  idealFontSize: 17

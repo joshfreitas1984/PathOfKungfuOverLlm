@@ -1,6 +1,118 @@
+- path: GameManager/UIManager/UICanvansSystem/UISystemMenu/BgImage/Menus/btn_*/Text (Legacy)
+  sampleText: Save Archive
+  idealFontSize: 34
+- path: GameManager/UIManager/UICanvansTop/TipShowWinNew/tip*/panel_Base/txt_Name
+  sampleText: <color=#FFFFFF>Horse-Cleaving Blade·Feng</color>
+  idealFontSize: 18
+  alignment: Center
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: 220
+- path: GameManager/UIManager/UICanvansTop/TipShowWinNew/tip*/panel_BaseDes/trans_Base/item_Base/txt_Content
+  sampleText: <color=red>(NotLearn)</color>
+  allowAutoSizing: false
+- path: GameManager/UIManager/UICanvansTop/TipShowWinNew/tip1/panel_Base/txt_Name
+  sampleText: <color=#FFFFFF>Weighing and Dividing Gold·Feng</color>
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip*/panel_Base/GameObject/go_*/labelType
+  sampleText: 'Type:'
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Learn/txt_Learn
+  sampleText: Proficient
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Learn/txt_LearnTitle
+  sampleText: 'Requirement:'
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Skill/txt_Skill
+  sampleText: Demon-Mocking Blood-Offering True Scripture
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Skill/txt_SkillLabel
+  sampleText: 'Affiliated Martial Art:'
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/GameObject/go_Type/txt_Type
+  sampleText: Common
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Base/txt_Name
+  sampleText: Heavy Attack·One-Handed Light Blade
+  allowAutoSizing: false
+  color: '#FFFFFF'
+  adjustWidth: 15
+- path: GameManager/UIManager/UICanvansTop/TipShowWinSkill/tip1/panel_Des/txt_Des
+  sampleText: Passive Move：[Qi Burst] Move cooldown is additionally reduc…
+  idealFontSize: 14
+- path: GameManager/UIManager/UICanvansTop/UIShopShow/bgImage/Xl/Buy/ScrollViewEquipList/Viewport/ContentEquipList/*/Go_Limit/Text (Legacy)
+  sampleText: >
+    Purchase Limit
+  idealFontSize: 13
+  adjustWidth: 40
+  adjustHeight: -40
+- path: GameManager/UIManager/UICanvansTop/UIShopShow/bgImage/Xl/Buy/ScrollViewEquipList/Viewport/ContentEquipList/*/Item/TextTitle
+  sampleText: Small Circumstantial Fan Technique (Full Version)
+  idealFontSize: 18
+  maxFontSize: 16
+  alignment: UpperLeft
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustX: 60
+  adjustY: -15
+  adjustWidth: 120
+  adjustHeight: 20
+- path: GameManager/UIManager/UIRoot/UICook/BgImage/MiddleCenter/panel_BookList/Scroll View/Viewport/trans_BookList/item*/go_Select/txt_Name
+  sampleText: Nine Provinces, Boundless·Refined
+  maxFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: 45
+  adjustHeight: 25
+- path: GameManager/UIManager/UIRoot/UICook/BgImage/MiddleCenter/panel_BookList/Scroll View/Viewport/trans_BookList/item*/txt_Name
+  sampleText: Little Jade-Cutter·Refined
+  maxFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: 45
+  adjustHeight: 30
+- path: GameManager/UIManager/UIRoot/UIGameArchive/bgImage/*/*/time
+  sampleText: 2026 Year 10 Month 21 Day
+  idealFontSize: 17
+- path: GameManager/UIManager/UIRoot/UIGameArchive/bgImage/VerticalScrollView/Viewport/Content/*/time
+  sampleText: 2026 Year 10 Month 21 Day
+  idealFontSize: 17
+- path: GameManager/UIManager/UIRoot/UIGameLvSelect/bgImage/Scroll View/Viewport/Content/*/*/Tip*/Tip*
+  sampleText: Story
+  maxFontSize: 22
+  allowWordWrap: true
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIGameLvSelect/bgImage/Scroll View/Viewport/Content/*/Tip
+  sampleText: Number of days per month
+  maxFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UILogin/Image/WinLogin/*/imgTxt/TextChild
+  sampleText: Jianghu Chronicles
+  idealFontSize: 26
+  alignment: MiddleCenter
+  adjustWidth: 125
+- path: GameManager/UIManager/UIRoot/UIMain/*/PanelText*/TextTip
+  sampleText: Jianghu's former guest Jiang Huichu, a former guest of Tian…
+  idealFontSize: 16
+  allowAutoSizing: false
+  adjustY: 10
+  adjustWidth: 20
+  adjustHeight: -16
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/PanelText2/Avatar/name
   sampleText: Candy Figurine Zhang
   fontPercentage: 0.6
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/ScrollViewOption/Viewport/ContentOption/ButtonLips*/TextName
+  sampleText: '......This, this, what should I do?'
+  idealFontSize: 16
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task(Clone)/txt_Tittle
+  sampleText: The Legend of the Rotten Axe：
+  idealFontSize: 1
+  adjustX: -3
+  adjustY: 5
+- path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task(Clone)/txt_Wudao
+  sampleText: 【Character Chronicles】
+  idealFontSize: 20
+  adjustWidth: 50
 - path: GameManager/UIManager/UIRoot/UIMain/MainObj/UIMainTask/panel_Task/ScrollViewTask/Viewport/trans_Content/item_Task/txt_Tittle
   sampleText: Prisoner in the Jar：
   idealFontSize: 18
@@ -17,6 +129,18 @@
   sampleText: Candy Figurine Zhang
   idealFontSize: 10
   allowAutoSizing: false
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Attribute/AddAttribute/*
+  sampleText: External Defense
+  idealFontSize: 16
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Attribute/JbAttribute/HaoList/Item(Clone)/show/Text
+  sampleText: Preserved fruit
+  idealFontSize: 20
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustWidth: -90
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Bag/Item/Zb/ObjAvatar/EquipTrans/*/Text
+  sampleText: System Settings
+  fontPercentage: 0.6
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/FriendShip/Content/AllJiaoQing/Grid/*/Text_type
   sampleText: Parent
   maxFontSize: 18
@@ -24,6 +148,182 @@
   allowAutoSizing: true
   adjustWidth: -30
   adjustHeight: -5
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuQi/Text_shuxing
+  sampleText: Current weapon
+  allowAutoSizing: true
+  adjustY: -60
+  adjustWidth: 30
+  adjustHeight: 15
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Content_*/*/Text
+  sampleText: FistAndPalm
+  idealFontSize: 16
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_NeiGong_Current
+  sampleText: Current Neigong
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_QingGong_Current
+  sampleText: Current qinggong
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_SanXue
+  sampleText: Jianghu Miscellaneous Art
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 1
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_SanXue_Current
+  sampleText: Current Miscellaneous Art
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_TongShi
+  sampleText: Jianghu Common Form
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 20
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_TongShi_Current
+  sampleText: Current Common Form
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_WuGong_Current
+  sampleText: Current Martial Skill
+  idealFontSize: 21
+  alignment: MiddleCenter
+  allowWordWrap: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/Text_YanBen
+  sampleText: Martial Art Study Manual
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/objSanXue/ItemSkill/Text_btn
+  sampleText: Left mouse button
+  idealFontSize: 15
+  alignment: UpperCenter
+  allowWordWrap: true
+  adjustY: -3
+  adjustWidth: 50
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/WuXue/obj_wugong/modify/UI_BtnCommon/Text (Legacy)
+  sampleText: Martial Art Hybridization
+  idealFontSize: 14
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: -12
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_tongshi/panel_tsRightList/Viewport/Content/item(Clone)/name
+  sampleText: Light Attack·Heavy Blade
+  allowWordWrap: true
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (1)/txt_tsDesName
+  sampleText: Heart Formula
+  allowAutoSizing: true
+  adjustX: 5
+  adjustY: -5
+  adjustWidth: 30
+  adjustHeight: -20
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image (2)/txt_tsDesName
+  sampleText: Martial Annotation
+  maxFontSize: 24
+  allowAutoSizing: true
+  adjustWidth: 200
+  adjustHeight: -30
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image/txt_tsDesName
+  sampleText: Martial Manual
+  allowAutoSizing: true
+  adjustY: -10
+  adjustWidth: 37
+  adjustHeight: -22
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/PanelSkill/ContentSkill/*/lvLock/name
+  sampleText: <color=red>Insufficient Realm</color>
+  allowAutoSizing: true
+  adjustWidth: -65
+  adjustHeight: -40
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/PanelSkillZong/ContentSkill/Item/Icon/Hav/Name
+  sampleText: Mocking Ten Thousand Demon Transformations
+  maxFontSize: 14
+  alignment: UpperCenter
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/panel_WxXiuWei/Tip2
+  sampleText: 'Current Cultivation:'
+  fontPercentage: 0.75
+  alignment: MiddleLeft
+  adjustX: 10
+  adjustWidth: 65
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/panel_wxRightList/Viewport/Content/item/Select/name
+  sampleText: Heaven-and-Earth Formation Banner
+  allowAutoSizing: true
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/txt_WuXueAdd/txt_Add
+  sampleText: 气血上限+1680
+  idealFontSize: 21
+  adjustX: 180
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/JinMaiContent/BtnBack/TextChild
+  sampleText: Return
+  idealFontSize: 24
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/JinMaiContent/txtDes
+  sampleText: 【Arm Acupoint】
+  allowWordWrap: true
+  allowAutoSizing: true
+  adjustX: -70
+  adjustWidth: 70
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Page/TglItem/Tip1/Tip1
+  sampleText: Friendship
+  fontPercentage: 0.6
+  allowWordWrap: true
+  adjustWidth: -50
+  adjustHeight: 10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Page/TglItem/Tip2/Tip1
+  sampleText: Friendship
+  fontPercentage: 0.7
+  allowWordWrap: true
+  adjustWidth: -50
+  adjustHeight: 10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/Content/item*/tip
+  sampleText: ' Governor Vessel Unblocked'
+  alignment: MiddleCenter
+  allowAutoSizing: true
+  adjustWidth: 23
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Content/item*/tip
+  sampleText: Max HP︻7800︼
+  alignment: MiddleCenter
+  allowAutoSizing: true
+  adjustWidth: 30
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Text (Legacy)
+  sampleText: Realm Breakthrough can be achieved
+  allowAutoSizing: true
+  color: '#FF8000'
+  adjustX: 10
+  adjustWidth: 80
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/nameuu/Text (Legacy)
+  sampleText: Realm Breakthrough requires satisfying
+  allowWordWrap: true
+  allowAutoSizing: true
+  color: '#FF8000'
+  adjustX: 15
+  adjustWidth: 75
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UILiftSkillZhu/Connect/Dz/Btn*List/*/Tip*/Tip1
+  sampleText: One-Handed Light Blade
+  idealFontSize: 20
+  alignment: MiddleCenter
+  adjustWidth: 5
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/name
+  sampleText: 'New Path:'
+  idealFontSize: 26
+  adjustX: -5
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/trans_TaskList/item_task*/txt_content
+  sampleText: Head to Hangzhou to investigate Fang Zi Zhen's former resid…
+  idealFontSize: 16
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/trans_TaskList/item_task*/txt_tittle
+  sampleText: Question the Five Sacred Gu：
+  idealFontSize: 16
+  alignment: MiddleLeft
+  adjustX: 20
+  adjustY: 10
+  adjustHeight: -10
+- path: GameManager/UIManager/UIRoot/UIRoleAttributeNpc/bgImage/UIAttribute/JbAttribute/HaoList/Item*/show/Text
+  sampleText: Tea Ceremony
+  allowAutoSizing: true
+  adjustWidth: -85
 - path: GameManager/UIManager/UIRoot/UIWorldTime/AccelerateRoot/Root/enable/Label
   sampleText: no Interrupt
   idealFontSize: 22
@@ -35,6 +335,11 @@
   sampleText: Confirm
   idealFontSize: 50
   alignment: MiddleCenter
+- path: GameManager/UIManager/UIRoot/UIWorldTime/AccelerateRoot/Root/timeSpeedRoot/*/txt
+  sampleText: Pass
+  idealFontSize: 20
+  allowAutoSizing: false
+  adjustWidth: 20
 - path: GameManager/UIManager/UIRoot/UIWorldTime/PushParent/Push/img_bg/Btn_*/*/Text*
   sampleText: Carrier Pigeon
   idealFontSize: 16
@@ -47,3 +352,7 @@
   allowAutoSizing: false
   adjustY: 2
   adjustHeight: 7
+- path: GameManager/UIManager/UIRoot/UIWorldTime/PushParent/Push/img_bg/TitleImg/TitleImg (1)/TextChild
+  sampleText: Meditate
+  idealFontSize: 16
+  alignment: MiddleCenter

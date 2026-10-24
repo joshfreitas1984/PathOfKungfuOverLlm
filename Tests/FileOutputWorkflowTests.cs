@@ -1,6 +1,7 @@
 using FanslationStudio.Installer.Core;
 using FanslationStudio.LlmKit;
 using FanslationStudio.LlmKit.Release;
+using FanslationStudio.LlmKit.Utility;
 using Translate;
 
 namespace Tests;
@@ -25,6 +26,10 @@ public class FileOutputWorkflowTests
             Directory.Delete(modDirectory, true);
 
         GameFileHandlingBase.CopyDirectory(sourceDirectory, modDirectory);
+
+        EditorFileSplitter.SplitResizers(GameFileHandling.WorkingDirectory);
+        EditorFileSplitter.SplitSprites(GameFileHandling.WorkingDirectory);
+        EditorFileSplitter.SplitLayouts(GameFileHandling.WorkingDirectory);
     }
 
     // The patch zip holds only this project's files. BepInEx itself (winhttp.dll, doorstop, BepInEx/core) is
