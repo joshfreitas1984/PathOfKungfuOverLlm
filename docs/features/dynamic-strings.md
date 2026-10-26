@@ -125,13 +125,7 @@ Related, lower priority: `WordGroupHandle.CheckWord` replaces any Chinese place 
 
 ## Harmony transpilers break `try { return x; } catch { } return default;` (2026-10-26)
 
-NPCs clumped at the map corner with `FindPath error, end on Obstacles ...:[0,0]` in the log. `NpcActionUtil.GetPointByConfStr` returned (0,0) for valid
-strings (no exception), so every self action got destination (0,0). Its only translated literal was the log text `坐标解析异常{0}：{1}`. An identity transpiler
-(0 differing IL lines) reproduced it, and a probe method with the same shape returned 0 with a transpiler and 42 with an `ILManipulator` (`LeaveProbe` in
-[`NpcMovementDiagnostics.cs`](../../PathOfKungfuPlugin/NpcMovementDiagnostics.cs)). HarmonyX 2.9 loses the explicit `leave` that ends a try block when it round-trips
-the method through `CodeInstruction`s, so the success path falls through to the code after the catch. `StringTranspiler` in `FanslationStudio.Plugins` now patches with
-an `ILManipulator` (except the map-fix method, which edits locals by index), which edits the IL in place. Any game that uses the old plugin DLL has the bug in every
-patched method of that shape. The literal is also a `Log` row now, and so is `InitCurSanxue` `闪避` (`Key`: the dictionary key is parsed with `Enum.TryParse<ESkillTipType>`).
-
-Actions already started in a save keep their saved (0,0) destination until the game ends them (one in-game day). Turn on `[Diagnostics] NpcMovement` in the BepInEx config to log
-an NPC census, failed `SetDestination` calls and exceptions in the NPC action code ([`npc-movement-diagnostics.md`](npc-movement-diagnostics.md)).
+A HarmonyX transpiler loses the explicit `leave` that ends a try block, so a patched method of that shape returns `default` without throwing. It made
+`NpcActionUtil.GetPointByConfStr` return (0,0) and sent NPCs to the map corner. `FanslationStudio.Plugins` now patches with an `ILManipulator` instead; the `Log` row for that
+method's literal and the `Key` row for `InitCurSanxue` `闪避` came out of the same investigation. Full write-up:
+[`npc-clump-harmony-leave.md`](../investigations/npc-clump-harmony-leave.md).
