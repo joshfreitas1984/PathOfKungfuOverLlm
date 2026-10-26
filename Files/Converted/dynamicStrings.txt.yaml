@@ -4511,11 +4511,7 @@
   splits:
   - split: 3
     text: "坐标解析异常{0}：{1}"
-    translated: "Coordinate parsing error {0}:{1}"
-    qcReviewedText: "Coordinate parsing error {0}:{1}"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "NpcActionUtil,GetPointByConfStr,229,<color=#FF0000>坐标: ,[System.Int32，System.String]"
   splits:
   - split: 3
@@ -14442,20 +14438,12 @@
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,InitCurSanxue,143,闪避,[]"
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,InitCurSanxue,574,闪躲,[]"
   splits:
   - split: 3
@@ -14465,11 +14453,7 @@
   splits:
   - split: 3
     text: "闪避"
-    translated: "Dodge"
-    qcReviewedText: "Dodge"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    safeToTranslate: false
 - raw: "UIWuXueNew,<InitMainList_Sanxue>b__105_0,81,闪躲,[UnityEngine.Transform，System.Int32]"
   splits:
   - split: 3
