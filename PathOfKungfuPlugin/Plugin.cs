@@ -18,6 +18,7 @@ public class Plugin : BaseUnityPlugin
     private ConfigEntry<string> dumpFolder = null!;
     private ConfigEntry<bool> quitAfterDump = null!;
     private volatile bool dumpFinished;
+    private bool npcMovementDiagnostics;
 
     private void Awake()
     {
@@ -56,6 +57,20 @@ public class Plugin : BaseUnityPlugin
         })
             harmony.CreateClassProcessor(patch).Patch();
 
+        npcMovementDiagnostics = Config.Bind("Diagnostics", "NpcMovement", false,
+            "Log a census of NPC movement every few seconds (how many are stuck or heading to tile 0,0), failed SetDestination calls and exceptions in the NPC action code. For tracking down NPCs that stay clumped; leave off for players.").Value;
+        NpcMovementDiagnostics.IntervalSeconds = Config.Bind("Diagnostics", "NpcMovementIntervalSeconds", 30f,
+            "Seconds between NPC movement census lines.").Value;
+        NpcMovementDiagnostics.DumpIl = Config.Bind("Diagnostics", "DumpIl", "",
+            "Comma separated Type.Method names. On the first diagnostics tick, write each method's original and current (patched) IL to BepInEx/ilDump, to see what the dynamic string patcher changed.").Value
+            .Split(new[] { ',' }, System.StringSplitOptions.RemoveEmptyEntries);
+        if (npcMovementDiagnostics)
+        {
+            foreach (var patch in new[] { typeof(NpcSetDestinationDiagnostic), typeof(NpcPointConfDiagnostic), typeof(FindPathDiagnostic), typeof(NpcExceptionDiagnostic) })
+                harmony.CreateClassProcessor(patch).Patch();
+            Logger.LogInfo("NPC movement diagnostics on.");
+        }
+
         if (Config.Bind("Translation", "Enabled", true,
                 "Replace the game's text with the packaged translation in <plugin folder>/resources. Turn off to see the game's own text.").Value)
             Injection.Install(harmony);
@@ -79,6 +94,8 @@ public class Plugin : BaseUnityPlugin
 
     private void Update()
     {
+        if (npcMovementDiagnostics) NpcMovementDiagnostics.Tick();
+
         if (dumpFinished && quitAfterDump.Value)
         {
             dumpFinished = false;

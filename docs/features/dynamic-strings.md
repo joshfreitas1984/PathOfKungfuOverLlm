@@ -56,7 +56,7 @@ A scan of the decompiled code (`Files/Raw/Decompiled/`) found no sprite loads by
   turns those `.Replace("内功攻击", "ATTACK")` calls into no-ops and the attribute patches there apply our glossary names instead.
 
 [`Files/DynamicStringsDoNotTranslate.csv`](../../Files/DynamicStringsDoNotTranslate.csv) lists them as `Kind,Reason,Type,Method,Raw`
-(1,025 rows: 891 from the scan on 2026-10-13, 20 added after in-game errors, and about 114 added on 2026-10-17 after translated hurt/launch state names cut knockups short, see below):
+(1,027 rows: 891 from the scan on 2026-10-13, 20 added after in-game errors, about 114 added on 2026-10-17 after translated hurt/launch state names cut knockups short, and 2 on 2026-10-26 from the NPC movement investigation, see below):
 
 - `Key` rows are never translated.
 - `Log` rows are log and exception text the player never sees. They are skipped only while `DynamicStringRules.SkipLogStrings` is true
@@ -122,3 +122,16 @@ Other game English that overrides ours is switched off by default in the plugin 
 
 Related, lower priority: `WordGroupHandle.CheckWord` replaces any Chinese place name still on screen with the game's own English
 ("Green Duckweed Village"), which may not match our glossary. It cannot touch text we translated, only text left in Chinese.
+
+## Harmony transpilers break `try { return x; } catch { } return default;` (2026-10-26)
+
+NPCs clumped at the map corner with `FindPath error, end on Obstacles ...:[0,0]` in the log. `NpcActionUtil.GetPointByConfStr` returned (0,0) for valid
+strings (no exception), so every self action got destination (0,0). Its only translated literal was the log text `坐标解析异常{0}：{1}`. An identity transpiler
+(0 differing IL lines) reproduced it, and a probe method with the same shape returned 0 with a transpiler and 42 with an `ILManipulator` (`LeaveProbe` in
+[`NpcMovementDiagnostics.cs`](../../PathOfKungfuPlugin/NpcMovementDiagnostics.cs)). HarmonyX 2.9 loses the explicit `leave` that ends a try block when it round-trips
+the method through `CodeInstruction`s, so the success path falls through to the code after the catch. `StringTranspiler` in `FanslationStudio.Plugins` now patches with
+an `ILManipulator` (except the map-fix method, which edits locals by index), which edits the IL in place. Any game that uses the old plugin DLL has the bug in every
+patched method of that shape. The literal is also a `Log` row now, and so is `InitCurSanxue` `闪避` (`Key`: the dictionary key is parsed with `Enum.TryParse<ESkillTipType>`).
+
+Actions already started in a save keep their saved (0,0) destination until the game ends them (one in-game day). Turn on `[Diagnostics] NpcMovement` in the BepInEx config to log
+an NPC census, failed `SetDestination` calls and exceptions in the NPC action code ([`npc-movement-diagnostics.md`](npc-movement-diagnostics.md)).

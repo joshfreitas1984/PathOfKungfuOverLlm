@@ -487,6 +487,7 @@ Log,log or exception text,Monster,OnAttack,攻击：普通伤害:{0}
 Log,log or exception text,Monster,OnAttack,真实伤害 当释放某些技能时:{0}
 Log,log or exception text,Monster,PlayAnimation,{0}找不到动作: Animation name:{2}  id:{1} 
 Key,compared with data,NPCData,AddItem,秘籍
+Log,log or exception text,NpcActionUtil,GetPointByConfStr,坐标解析异常{0}：{1}
 Log,log or exception text,NpcActionUtil,GetPointByConfStr, 错误</color>:\n stackTrace:
 Log,log or exception text,NpcActionUtil,GetPointByConfStr,<color=#FF0000>坐标: 
 Log,log or exception text,NpcAction_Self,DoOnStart, action 配置了不允许npc到达的地图
@@ -738,6 +739,7 @@ Key,game replaces with its own English,UIWuXueNew,<ShowTongshi>b__109_2,纵跃
 Key,game replaces with its own English,UIWuXueNew,<ShowTongshi>b__109_2,轻击
 Key,Replace pattern,UIWuXueNew,<ShowTongshi>b__109_2,闪躲
 Key,Replace pattern,UIWuXueNew,InitCurSanxue,闪躲
+Key,dictionary key and Enum.TryParse name,UIWuXueNew,InitCurSanxue,闪避
 Key,Replace pattern,UIWuXueNew,SelectSanxueRightItem,闪躲
 Key,substring match,UIXingLiangItem,SetUiData,心诀
 Key,substring match,UIXingLiangShowItem,SetUiData,心诀
