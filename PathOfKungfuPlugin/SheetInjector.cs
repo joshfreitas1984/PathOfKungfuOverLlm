@@ -26,6 +26,15 @@ namespace PathOfKungfuPlugin;
 internal static class SheetInjector
 {
     private static readonly Regex LanguageWorkbook = new(@"_(en|fr|de|ja|ko|es|ft|th|vi)$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+    /// <summary>Sheets the game swaps for an English twin without a language marker in the name (WordManager.Open), mapped to the Chinese sheet they replace.</summary>
+    private static readonly Dictionary<(string Workbook, string Sheet), (string Workbook, string Sheet)> EnglishTwins = new()
+    {
+        [("box", "boxpoint2")] = ("box", "boxpoint"),
+        [("Read", "Sheet2")] = ("Read", "Sheet1"),
+        [("MapBuffer", "body2")] = ("MapBuffer", "body"),
+        [("WorldEvolution", "explain2")] = ("WorldEvolution", "explain"),
+    };
+
     private static readonly Regex CellRow = new(@"\d+", RegexOptions.Compiled);
 
     internal sealed class Stats
@@ -50,9 +59,31 @@ internal static class SheetInjector
     internal static string BaseName(string workbook, string sheet)
     {
         workbook = LanguageWorkbook.Replace(workbook, "");
+        if (EnglishTwins.TryGetValue((workbook, sheet), out var chinese)) (workbook, sheet) = chinese;
+        else if (workbook == "skill2") workbook = "skill";
         if (sheet.EndsWith("英文", StringComparison.Ordinal)) sheet = sheet.Substring(0, sheet.Length - "英文".Length);
         else if (sheet.EndsWith("English", StringComparison.OrdinalIgnoreCase)) sheet = sheet.Substring(0, sheet.Length - "English".Length);
         return SafeName(workbook) + "__" + SafeName(sheet);
+    }
+
+    private static readonly Dictionary<(string Workbook, string Sheet), (string Workbook, string Sheet)> SandboxTwins = new()
+    {
+        [("RefreshBoss", "Refresh2")] = ("RefreshBoss", "Refresh"),
+        [("RefreshBoss", "RefreshTalk2")] = ("RefreshBoss", "RefreshTalk"),
+        [("PigeonMsgData", "PigeonMsgData2")] = ("PigeonMsgData", "PigeonMsgData"),
+    };
+
+    /// <summary>
+    /// The Chinese sheet an English-mode copy (BetShop2, GangData2, RefreshTalk2...) mirrors, to use when nothing is packaged under the copy's own name.
+    /// The copies keep the Chinese sheets' ids, rows and column order (checked on the dump), so rows pair by id, duplicate ids in order.
+    /// Null when the sheet is not such a copy.
+    /// </summary>
+    internal static string? SandboxCopy(string workbook, string sheet)
+    {
+        workbook = LanguageWorkbook.Replace(workbook, "");
+        if (SandboxTwins.TryGetValue((workbook, sheet), out var twin)) return SafeName(twin.Workbook) + "__" + SafeName(twin.Sheet);
+        if (workbook is "BetShop2" or "GangData2" or "shop2") return SafeName(workbook.TrimEnd('2')) + "__" + SafeName(sheet);
+        return null;
     }
 
     private static string SafeName(string name)
@@ -68,6 +99,11 @@ internal static class SheetInjector
 
         var baseName = BaseName(workbook, sheet);
         var table = source.Get(baseName + ".csv");
+        if (table == null && SandboxCopy(workbook, sheet) is { } chineseName && source.Get(chineseName + ".csv") != null)
+        {
+            baseName = chineseName;
+            table = source.Get(baseName + ".csv");
+        }
         if (table == null) return null;
 
         var headerIndex = HeaderRow(startCell) - 1;

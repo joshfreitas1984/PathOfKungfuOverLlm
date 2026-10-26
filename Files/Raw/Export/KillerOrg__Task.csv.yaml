@@ -1,0 +1,41 @@
+- raw: "1,,,标题,描述,任务参数,奖励声望,奖励银两"
+  splits:
+  - split: 3
+    text: "标题"
+  - split: 4
+    text: "描述"
+- raw: "2,id,备注,title,desc,param,prestige,coin"
+- raw: "3,1,,杀死npcName,组织现在需要你去暗杀npcName,1,10,1000"
+  splits:
+  - split: 3
+    text: "杀死"
+  - split: 4
+    text: "组织现在需要你去暗杀"
+  templates:
+  - split: 3
+    template: "{0}{taskNpcName}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+  - split: 4
+    template: "{0}{taskNpcName}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "4,2,,提交itemName,组织急需5个itemName,\"2,901301,5\",10,1000"
+  splits:
+  - split: 3
+    text: "提交"
+  - split: 4
+    text: "组织急需5个"
+  templates:
+  - split: 3
+    template: "{0}{taskItemName}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+  - split: 4
+    template: "{0}{taskItemName}"
+    tokens:
+      taskItemName:
+        source: "itemName"

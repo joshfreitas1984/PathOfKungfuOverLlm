@@ -45,6 +45,7 @@ public static class GameFileHandling
         UnknownGenderPersonTokens = ["<fName>", "<lName>", "<name>", "///fp///", "///lp///", "///p///"],
         CustomColumnValidator = ValidateRuntimeTokens,
         CustomUnsafeToTranslateRule = DynamicStringRules.IsUnsafe,
+        CustomQcExclusionRule = DynamicStringRules.IsQcExcluded,
         CustomPackagingFixup = (_, _, raw, result) => SpaceColorTags(PutTitleBeforeName(raw, result)),
     };
 

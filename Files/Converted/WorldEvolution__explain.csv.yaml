@@ -1,0 +1,634 @@
+- raw: "1,键,描述"
+  splits:
+  - split: 2
+    text: "描述"
+    translated: "Description"
+    qcReviewedText: "Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,key,txt"
+- raw: "3,gangLook,成员一览"
+  splits:
+  - split: 2
+    text: "成员一览"
+    translated: "Member List"
+    qcReviewedText: "Member List"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,gangTask,帮派悬赏"
+  splits:
+  - split: 2
+    text: "帮派悬赏"
+    translated: "Gang Bounty"
+    qcReviewedText: "Gang Bounty"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,gangShop,帮派商店"
+  splits:
+  - split: 2
+    text: "帮派商店"
+    translated: "Gang Shop"
+    qcReviewedText: "Gang Shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,gangJoin,加入帮派"
+  splits:
+  - split: 2
+    text: "加入帮派"
+    translated: "Join a gang"
+    qcReviewedText: "Join a gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,gangQuit,退出帮派"
+  splits:
+  - split: 2
+    text: "退出帮派"
+    translated: "Leave the Gang"
+    qcReviewedText: "Leave the Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,gangSubm,提交任务"
+  splits:
+  - split: 2
+    text: "提交任务"
+    translated: "Submit Quest"
+    qcReviewedText: "Submit Quest"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,close,离开"
+  splits:
+  - split: 2
+    text: "离开"
+    translated: "Leave"
+    qcReviewedText: "Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,noGang,敬请光临大侠来到{0}"
+  splits:
+  - split: 2
+    text: "敬请光临大侠来到"
+    translated: "Welcome, Great Hero"
+    qcReviewedText: "Welcome, Great Hero {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "11,sameGang,\"已加入{0},可通过领取任务获取帮派贡献兑换相应商品\""
+  splits:
+  - split: 2
+    text: "已加入"
+    translated: "Joined"
+    qcReviewedText: "Joined {0},Complete quests to earn Gang contributions and redeem them for items."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "可通过领取任务获取帮派贡献兑换相应商品"
+    translated: "Complete quests to earn Gang contributions and redeem them for items."
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,{1}"
+- raw: "12,takeGang,\"已加入{0},领取任务后即时完成任务,切勿超时\""
+  splits:
+  - split: 2
+    text: "已加入"
+    translated: "Joined"
+    qcReviewedText: "Joined {0},Complete the quest immediately after accepting it,Do not exceed the time limit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "领取任务后即时完成任务"
+    translated: "Complete the quest immediately after accepting it"
+  - split: 2
+    subIndex: 2
+    text: "切勿超时"
+    translated: "Do not exceed the time limit"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,{1},{2}"
+- raw: "13,diffGang,\"小子,你来我们{0}有何领教\""
+  splits:
+  - split: 2
+    text: "小子"
+    translated: "Kid"
+    qcReviewedText: "Kid,Come to us {0} How may I be of service?"
+    qcTranslated: "Kid, what do you want from our {0}?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 2
+    subIndex: 1
+    text: "你来我们"
+    translated: "Come to us"
+  - split: 2
+    subIndex: 2
+    text: "有何领教"
+    translated: "How may I be of service?"
+  templates:
+  - split: 2
+    template: "{0},{1}⟦0⟧{2}"
+- raw: "14,joinGang,欢迎你加入到{0}中"
+  splits:
+  - split: 2
+    text: "欢迎你加入到"
+    translated: "Welcome to"
+    qcReviewedText: "Welcome to {0} Middle"
+    qcTranslated: "Welcome to joining {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  - split: 2
+    subIndex: 1
+    text: "中"
+    translated: "Middle"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "15,joinGangTips,必须加入帮派才能领取任务"
+  splits:
+  - split: 2
+    text: "必须加入帮派才能领取任务"
+    translated: "You must join a Gang to accept quests."
+    qcReviewedText: "You must join a Gang to accept quests."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,getGangTips,确定领取[{0}]任务?"
+  splits:
+  - split: 2
+    text: "确定领取"
+    translated: "Confirm Receipt"
+    qcReviewedText: "Confirm Receipt[{0}]Task?"
+    qcTranslated: "Confirm accepting the [{0}] quest?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "任务"
+    translated: "Task"
+  templates:
+  - split: 2
+    template: "{0}[⟦0⟧]{1}?"
+- raw: "17,redoGangTips,\"已领取了其他任务,无法继续领取\""
+  splits:
+  - split: 2
+    text: "已领取了其他任务"
+    translated: "Already accepted another quest"
+    qcReviewedText: "Already accepted another quest,Unable to continue claiming"
+    qcTranslated: "Already accepted another quest. Unable to continue claiming"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 2
+    subIndex: 1
+    text: "无法继续领取"
+    translated: "Unable to continue claiming"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "18,quitGang,你已退出本帮派"
+  splits:
+  - split: 2
+    text: "你已退出本帮派"
+    translated: "You have left the Gang"
+    qcReviewedText: "You have left the Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,undoneGang,\"未完成任务,无法提交\""
+  splits:
+  - split: 2
+    text: "未完成任务"
+    translated: "Incomplete Task"
+    qcReviewedText: "Incomplete Task,Unable to submit"
+    qcTranslated: "Incomplete task, unable to submit"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 2
+    subIndex: 1
+    text: "无法提交"
+    translated: "Unable to submit"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "20,doneGang,任务完成 获取{0}贡献"
+  splits:
+  - split: 2
+    text: "任务完成"
+    translated: "Task completed"
+    qcReviewedText: "Task completed Obtain {0} Contribution"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "获取"
+    translated: "Obtain"
+  - split: 2
+    subIndex: 2
+    text: "贡献"
+    translated: "Contribution"
+  templates:
+  - split: 2
+    template: "{0} {1}⟦0⟧{2}"
+- raw: "21,discGang,你不满足我们入帮要求"
+  splits:
+  - split: 2
+    text: "你不满足我们入帮要求"
+    translated: "You do not meet our guild's requirements"
+    qcReviewedText: "You do not meet our guild's requirements"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,noAttackSelf,无法挑战自己"
+  splits:
+  - split: 2
+    text: "无法挑战自己"
+    translated: "Unable to challenge oneself"
+    qcReviewedText: "Unable to challenge oneself"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,checkTips,\"此人正在[{0}],前去挑战\""
+  splits:
+  - split: 2
+    text: "此人正在"
+    translated: "This person is"
+    qcReviewedText: "This person is[{0}],Go challenge them"
+    qcTranslated: "This person is [{0}]. Go challenge them."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "前去挑战"
+    translated: "Go challenge them"
+  templates:
+  - split: 2
+    template: "{0}[⟦0⟧],{1}"
+- raw: "24,joinGangTips2,需要先加入该帮派才可发起挑战"
+  splits:
+  - split: 2
+    text: "需要先加入该帮派才可发起挑战"
+    translated: "You must join the Gang first to initiate a challenge."
+    qcReviewedText: "You must join the Gang first to initiate a challenge."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,atGangTask,任务已领取"
+  splits:
+  - split: 2
+    text: "任务已领取"
+    translated: "Quest accepted"
+    qcReviewedText: "Quest accepted"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,openLock,房锁已打开"
+  splits:
+  - split: 2
+    text: "房锁已打开"
+    translated: "The room lock has been opened"
+    qcReviewedText: "The room lock has been opened"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,needLock,需有门锁钥匙或购买此处宅邸方可入内。"
+  splits:
+  - split: 2
+    text: "需有门锁钥匙或购买此处宅邸方可入内。"
+    translated: "You must have the key to the door or purchase this residence to enter."
+    qcReviewedText: "You must have the key to the door or purchase this residence to enter."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,findSucc,\"此人名叫{0},{1},年龄{2},目前坐落在{3}中\""
+  splits:
+  - split: 2
+    text: "此人名叫"
+    translated: "This person's name is"
+    qcReviewedText: "This person's name is {0},{1},Age {2},Currently located at {3} Middle"
+    qcTranslated: "This person's name is {0},{1},Age {2},Currently located in the middle of {3}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "年龄"
+    translated: "Age"
+  - split: 2
+    subIndex: 2
+    text: "目前坐落在"
+    translated: "Currently located at"
+  - split: 2
+    subIndex: 3
+    text: "中"
+    translated: "Middle"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,⟦1⟧,{1}⟦2⟧,{2}⟦3⟧{3}"
+- raw: "29,findFail,\"未查询到此人,请阁下确认姓名是否输出有误\""
+  splits:
+  - split: 2
+    text: "未查询到此人"
+    translated: "No record found for this person"
+    qcReviewedText: "No record found for this person,Please confirm whether the name was entered incorrectly."
+    qcTranslated: "No record found for this person. Please confirm whether the name was entered incorrectly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 2
+    subIndex: 1
+    text: "请阁下确认姓名是否输出有误"
+    translated: "Please confirm whether the name was entered incorrectly."
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "30,limitTips,此行为今日已至上限，不妨明日再试。"
+  splits:
+  - split: 2
+    text: "此行为今日已至上限，不妨明日再试。"
+    translated: "You have reached today's limit for this action. Please try again tomorrow."
+    qcReviewedText: "You have reached today's limit for this action. Please try again tomorrow."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "31,spTips,精力值"
+  splits:
+  - split: 2
+    text: "精力值"
+    translated: "Energy Value"
+    qcReviewedText: "Energy Value"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "32,loveTips,好感度"
+  splits:
+  - split: 2
+    text: "好感度"
+    translated: "Favorability"
+    qcReviewedText: "Favorability"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "33,spLimit,精力值不足"
+  splits:
+  - split: 2
+    text: "精力值不足"
+    translated: "Energy level insufficient"
+    qcReviewedText: "Energy level insufficient"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "34,putFail,暂无绑架人质"
+  splits:
+  - split: 2
+    text: "暂无绑架人质"
+    translated: "No hostages taken"
+    qcReviewedText: "No hostages taken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "35,putSucc,人质安置完成"
+  splits:
+  - split: 2
+    text: "人质安置完成"
+    translated: "Hostage placement complete"
+    qcReviewedText: "Hostage placement complete"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "36,release,人质已释放"
+  splits:
+  - split: 2
+    text: "人质已释放"
+    translated: "Hostage has been released"
+    qcReviewedText: "Hostage has been released"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "37,sackTitle,装有{0}的麻袋"
+  splits:
+  - split: 2
+    text: "装有"
+    translated: "Installed"
+    qcReviewedText: "Installed {0} Sack"
+    qcTranslated: "Sack containing {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "的麻袋"
+    translated: "Sack"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "38,sackContent,\"{0}于{1},将{2}掳掠至此\""
+  splits:
+  - split: 2
+    text: "于"
+    translated: "At"
+    qcReviewedText: "{0} At {1},Will {2} Captured and brought here"
+    qcTranslated: "{0} at {1} captured {2} and brought them here"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 2
+    subIndex: 1
+    text: "将"
+    translated: "Will"
+  - split: 2
+    subIndex: 2
+    text: "掳掠至此"
+    translated: "Captured and brought here"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧,{1}⟦2⟧{2}"
+- raw: "39,giveKid,[{0}]降生了。"
+  splits:
+  - split: 2
+    text: "降生了。"
+    translated: "It was born"
+    qcReviewedText: "[{0}]It was born"
+    qcTranslated: "[{0}] was born"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  templates:
+  - split: 2
+    template: "[⟦0⟧]{0}"
+- raw: "40,npcOver,{0}寿终正寝。"
+  splits:
+  - split: 2
+    text: "寿终正寝。"
+    translated: "Passed away peacefully in their sleep"
+    qcReviewedText: "{0} Passed away peacefully in their sleep"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "41,noRelease,此处无法进行释放"
+  splits:
+  - split: 2
+    text: "此处无法进行释放"
+    translated: "Cannot release here"
+    qcReviewedText: "Cannot release here"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "42,noEquip,已无装备可搜刮"
+  splits:
+  - split: 2
+    text: "已无装备可搜刮"
+    translated: "No equipment left to loot"
+    qcReviewedText: "No equipment left to loot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "43,noItemNum,该道具使用次数已用完"
+  splits:
+  - split: 2
+    text: "该道具使用次数已用完"
+    translated: "This item has been used up"
+    qcReviewedText: "This item has been used up"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "44,useItemNum,该道具还能使用{0}次"
+  splits:
+  - split: 2
+    text: "该道具还能使用"
+    translated: "This item can still be used"
+    qcReviewedText: "This item can still be used {0} Next"
+    qcTranslated: "This item can still be used {0} times"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  - split: 2
+    subIndex: 1
+    text: "次"
+    translated: "Next"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "45,lessSP,你精疲力尽，只觉身乏体劳，精力降低了{0}。"
+  splits:
+  - split: 2
+    text: "你精疲力尽，只觉身乏体劳，精力降低了"
+    translated: "You are exhausted, feeling weary and fatigued; your Energy has decreased."
+    qcReviewedText: "You are exhausted, feeling weary and fatigued; your Energy has decreased.{0}。"
+    qcTranslated: "You are exhausted, feeling weary and fatigued; your Energy has decreased by {0}."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧。"
+- raw: "46,addSP,你心满意足，只觉百骸通畅，精力增加了{0}。"
+  splits:
+  - split: 2
+    text: "你心满意足，只觉百骸通畅，精力增加了"
+    translated: "You feel deeply satisfied, your entire body flowing with ease, and your Energy increases."
+    qcReviewedText: "You feel deeply satisfied, your entire body flowing with ease, and your Energy increases.{0}。"
+    qcTranslated: "You feel deeply satisfied, your entire body flowing with ease, and your Energy increases by {0}."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧。"
+- raw: "47,acupointSucc,你辣手重施，消耗自身内力废除了此人一处真气穴道。"
+  splits:
+  - split: 2
+    text: "你辣手重施，消耗自身内力废除了此人一处真气穴道。"
+    translated: "You strike with lethal precision, expending your Inner Power to seal one of the target's True Qi acupoints."
+    qcReviewedText: "You strike with lethal precision, expending your Inner Power to seal one of the target's True Qi acupoints."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "48,acupointFail,此人身负经脉已然尽废，无法施为。"
+  splits:
+  - split: 2
+    text: "此人身负经脉已然尽废，无法施为。"
+    translated: "This person's meridians have been completely destroyed, leaving them unable to exert any power."
+    qcReviewedText: "This person's meridians have been completely destroyed, leaving them unable to exert any power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "49,wuxueSucc,你辣手重施，消耗自身内力废除了此人的一项武学。"
+  splits:
+  - split: 2
+    text: "你辣手重施，消耗自身内力废除了此人的一项武学。"
+    translated: "You used a ruthless technique, expending your Inner Power to cripple one of this person's Martial Arts."
+    qcReviewedText: "You used a ruthless technique, expending your Inner Power to cripple one of this person's Martial Arts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "50,wuxueFail,此人身负武学已然尽废，无法施为。"
+  splits:
+  - split: 2
+    text: "此人身负武学已然尽废，无法施为。"
+    translated: "This person's martial arts have been completely crippled, leaving them unable to act."
+    qcReviewedText: "This person's martial arts have been completely crippled, leaving them unable to act."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "51,getPlayerItem,{0}被偷窃"
+  splits:
+  - split: 2
+    text: "被偷窃"
+    translated: "Stolen"
+    qcReviewedText: "{0} Stolen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"

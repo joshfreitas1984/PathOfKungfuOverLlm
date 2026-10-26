@@ -1,0 +1,321 @@
+- raw: "1,键,描述"
+  splits:
+  - split: 2
+    text: "描述"
+- raw: "2,key,txt"
+- raw: "3,gangLook,成员一览"
+  splits:
+  - split: 2
+    text: "成员一览"
+- raw: "4,gangTask,帮派悬赏"
+  splits:
+  - split: 2
+    text: "帮派悬赏"
+- raw: "5,gangShop,帮派商店"
+  splits:
+  - split: 2
+    text: "帮派商店"
+- raw: "6,gangJoin,加入帮派"
+  splits:
+  - split: 2
+    text: "加入帮派"
+- raw: "7,gangQuit,退出帮派"
+  splits:
+  - split: 2
+    text: "退出帮派"
+- raw: "8,gangSubm,提交任务"
+  splits:
+  - split: 2
+    text: "提交任务"
+- raw: "9,close,离开"
+  splits:
+  - split: 2
+    text: "离开"
+- raw: "10,noGang,敬请光临大侠来到{0}"
+  splits:
+  - split: 2
+    text: "敬请光临大侠来到"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧"
+- raw: "11,sameGang,\"已加入{0},可通过领取任务获取帮派贡献兑换相应商品\""
+  splits:
+  - split: 2
+    text: "已加入"
+  - split: 2
+    subIndex: 1
+    text: "可通过领取任务获取帮派贡献兑换相应商品"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,{1}"
+- raw: "12,takeGang,\"已加入{0},领取任务后即时完成任务,切勿超时\""
+  splits:
+  - split: 2
+    text: "已加入"
+  - split: 2
+    subIndex: 1
+    text: "领取任务后即时完成任务"
+  - split: 2
+    subIndex: 2
+    text: "切勿超时"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,{1},{2}"
+- raw: "13,diffGang,\"小子,你来我们{0}有何领教\""
+  splits:
+  - split: 2
+    text: "小子"
+  - split: 2
+    subIndex: 1
+    text: "你来我们"
+  - split: 2
+    subIndex: 2
+    text: "有何领教"
+  templates:
+  - split: 2
+    template: "{0},{1}⟦0⟧{2}"
+- raw: "14,joinGang,欢迎你加入到{0}中"
+  splits:
+  - split: 2
+    text: "欢迎你加入到"
+  - split: 2
+    subIndex: 1
+    text: "中"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "15,joinGangTips,必须加入帮派才能领取任务"
+  splits:
+  - split: 2
+    text: "必须加入帮派才能领取任务"
+- raw: "16,getGangTips,确定领取[{0}]任务?"
+  splits:
+  - split: 2
+    text: "确定领取"
+  - split: 2
+    subIndex: 1
+    text: "任务"
+  templates:
+  - split: 2
+    template: "{0}[⟦0⟧]{1}?"
+- raw: "17,redoGangTips,\"已领取了其他任务,无法继续领取\""
+  splits:
+  - split: 2
+    text: "已领取了其他任务"
+  - split: 2
+    subIndex: 1
+    text: "无法继续领取"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "18,quitGang,你已退出本帮派"
+  splits:
+  - split: 2
+    text: "你已退出本帮派"
+- raw: "19,undoneGang,\"未完成任务,无法提交\""
+  splits:
+  - split: 2
+    text: "未完成任务"
+  - split: 2
+    subIndex: 1
+    text: "无法提交"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "20,doneGang,任务完成 获取{0}贡献"
+  splits:
+  - split: 2
+    text: "任务完成"
+  - split: 2
+    subIndex: 1
+    text: "获取"
+  - split: 2
+    subIndex: 2
+    text: "贡献"
+  templates:
+  - split: 2
+    template: "{0} {1}⟦0⟧{2}"
+- raw: "21,discGang,你不满足我们入帮要求"
+  splits:
+  - split: 2
+    text: "你不满足我们入帮要求"
+- raw: "22,noAttackSelf,无法挑战自己"
+  splits:
+  - split: 2
+    text: "无法挑战自己"
+- raw: "23,checkTips,\"此人正在[{0}],前去挑战\""
+  splits:
+  - split: 2
+    text: "此人正在"
+  - split: 2
+    subIndex: 1
+    text: "前去挑战"
+  templates:
+  - split: 2
+    template: "{0}[⟦0⟧],{1}"
+- raw: "24,joinGangTips2,需要先加入该帮派才可发起挑战"
+  splits:
+  - split: 2
+    text: "需要先加入该帮派才可发起挑战"
+- raw: "25,atGangTask,任务已领取"
+  splits:
+  - split: 2
+    text: "任务已领取"
+- raw: "26,openLock,房锁已打开"
+  splits:
+  - split: 2
+    text: "房锁已打开"
+- raw: "27,needLock,需有门锁钥匙或购买此处宅邸方可入内。"
+  splits:
+  - split: 2
+    text: "需有门锁钥匙或购买此处宅邸方可入内。"
+- raw: "28,findSucc,\"此人名叫{0},{1},年龄{2},目前坐落在{3}中\""
+  splits:
+  - split: 2
+    text: "此人名叫"
+  - split: 2
+    subIndex: 1
+    text: "年龄"
+  - split: 2
+    subIndex: 2
+    text: "目前坐落在"
+  - split: 2
+    subIndex: 3
+    text: "中"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧,⟦1⟧,{1}⟦2⟧,{2}⟦3⟧{3}"
+- raw: "29,findFail,\"未查询到此人,请阁下确认姓名是否输出有误\""
+  splits:
+  - split: 2
+    text: "未查询到此人"
+  - split: 2
+    subIndex: 1
+    text: "请阁下确认姓名是否输出有误"
+  templates:
+  - split: 2
+    template: "{0},{1}"
+- raw: "30,limitTips,此行为今日已至上限，不妨明日再试。"
+  splits:
+  - split: 2
+    text: "此行为今日已至上限，不妨明日再试。"
+- raw: "31,spTips,精力值"
+  splits:
+  - split: 2
+    text: "精力值"
+- raw: "32,loveTips,好感度"
+  splits:
+  - split: 2
+    text: "好感度"
+- raw: "33,spLimit,精力值不足"
+  splits:
+  - split: 2
+    text: "精力值不足"
+- raw: "34,putFail,暂无绑架人质"
+  splits:
+  - split: 2
+    text: "暂无绑架人质"
+- raw: "35,putSucc,人质安置完成"
+  splits:
+  - split: 2
+    text: "人质安置完成"
+- raw: "36,release,人质已释放"
+  splits:
+  - split: 2
+    text: "人质已释放"
+- raw: "37,sackTitle,装有{0}的麻袋"
+  splits:
+  - split: 2
+    text: "装有"
+  - split: 2
+    subIndex: 1
+    text: "的麻袋"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "38,sackContent,\"{0}于{1},将{2}掳掠至此\""
+  splits:
+  - split: 2
+    text: "于"
+  - split: 2
+    subIndex: 1
+    text: "将"
+  - split: 2
+    subIndex: 2
+    text: "掳掠至此"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}⟦1⟧,{1}⟦2⟧{2}"
+- raw: "39,giveKid,[{0}]降生了。"
+  splits:
+  - split: 2
+    text: "降生了。"
+  templates:
+  - split: 2
+    template: "[⟦0⟧]{0}"
+- raw: "40,npcOver,{0}寿终正寝。"
+  splits:
+  - split: 2
+    text: "寿终正寝。"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"
+- raw: "41,noRelease,此处无法进行释放"
+  splits:
+  - split: 2
+    text: "此处无法进行释放"
+- raw: "42,noEquip,已无装备可搜刮"
+  splits:
+  - split: 2
+    text: "已无装备可搜刮"
+- raw: "43,noItemNum,该道具使用次数已用完"
+  splits:
+  - split: 2
+    text: "该道具使用次数已用完"
+- raw: "44,useItemNum,该道具还能使用{0}次"
+  splits:
+  - split: 2
+    text: "该道具还能使用"
+  - split: 2
+    subIndex: 1
+    text: "次"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧{1}"
+- raw: "45,lessSP,你精疲力尽，只觉身乏体劳，精力降低了{0}。"
+  splits:
+  - split: 2
+    text: "你精疲力尽，只觉身乏体劳，精力降低了"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧。"
+- raw: "46,addSP,你心满意足，只觉百骸通畅，精力增加了{0}。"
+  splits:
+  - split: 2
+    text: "你心满意足，只觉百骸通畅，精力增加了"
+  templates:
+  - split: 2
+    template: "{0}⟦0⟧。"
+- raw: "47,acupointSucc,你辣手重施，消耗自身内力废除了此人一处真气穴道。"
+  splits:
+  - split: 2
+    text: "你辣手重施，消耗自身内力废除了此人一处真气穴道。"
+- raw: "48,acupointFail,此人身负经脉已然尽废，无法施为。"
+  splits:
+  - split: 2
+    text: "此人身负经脉已然尽废，无法施为。"
+- raw: "49,wuxueSucc,你辣手重施，消耗自身内力废除了此人的一项武学。"
+  splits:
+  - split: 2
+    text: "你辣手重施，消耗自身内力废除了此人的一项武学。"
+- raw: "50,wuxueFail,此人身负武学已然尽废，无法施为。"
+  splits:
+  - split: 2
+    text: "此人身负武学已然尽废，无法施为。"
+- raw: "51,getPlayerItem,{0}被偷窃"
+  splits:
+  - split: 2
+    text: "被偷窃"
+  templates:
+  - split: 2
+    template: "⟦0⟧{0}"

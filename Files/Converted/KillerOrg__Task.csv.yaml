@@ -1,0 +1,74 @@
+- raw: "1,,,标题,描述,任务参数,奖励声望,奖励银两"
+  splits:
+  - split: 3
+    text: "标题"
+    translated: "Title"
+    qcReviewedText: "Title"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "描述"
+    translated: "Description"
+    qcReviewedText: "Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,备注,title,desc,param,prestige,coin"
+- raw: "3,1,,杀死npcName,组织现在需要你去暗杀npcName,1,10,1000"
+  splits:
+  - split: 3
+    text: "杀死"
+    translated: "Kill"
+    qcReviewedText: "Kill{taskNpcName}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "组织现在需要你去暗杀"
+    translated: "The organization now requires you to carry out an assassination."
+    qcReviewedText: "The organization now requires you to carry out an assassination.{taskNpcName}"
+    qcTranslated: "The organization now requires you to carry out an assassination of {taskNpcName}."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  templates:
+  - split: 3
+    template: "{0}{taskNpcName}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+  - split: 4
+    template: "{0}{taskNpcName}"
+    tokens:
+      taskNpcName:
+        source: "npcName"
+- raw: "4,2,,提交itemName,组织急需5个itemName,\"2,901301,5\",10,1000"
+  splits:
+  - split: 3
+    text: "提交"
+    translated: "Submit"
+    qcReviewedText: "Submit{taskItemName}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 4
+    text: "组织急需5个"
+    translated: "Organization urgently needs 5"
+    qcReviewedText: "Organization urgently needs 5{taskItemName}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 3
+    template: "{0}{taskItemName}"
+    tokens:
+      taskItemName:
+        source: "itemName"
+  - split: 4
+    template: "{0}{taskItemName}"
+    tokens:
+      taskItemName:
+        source: "itemName"

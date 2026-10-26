@@ -61,3 +61,27 @@
 - raw: "催命三侠"
   result: "Three Life-Shortening Heroes"
   context: Nickname of a trio of self-styled heroes. 三侠 is their own title ("Heroes"), 催命 was added by others because their deeds shorten people's lives. Never Urgent, Death-Seeking, Death-Defying, Deathly or Life-Urging; never plain Three Heroes.
+- raw: "辞却山门"
+  result: "went down the mountain"
+  allowalt:
+  - "descended down the mountain"
+  - "left the mountain"
+  - "came down the mountain"
+  - "left the sect"
+  - "took my leave of the sect"
+  context: 辞 here is "take leave of", not "decline", and 山门 stands for the sect on its mountain. Someone who 辞却山门 has left their sect and gone down the mountain (to wander the Jianghu) - keep it colloquial, matching how 下山 is rendered. Never "declined the mountain gate" or "refused the gate".
+- raw: "拜入山门"
+  result: "join the sect"
+  allowalt:
+  - "joined the school"
+  - "be accepted into the sect"
+  context: Become a disciple of a sect, with 山门 as the sect itself. Never "join the mountain gate".
+- raw: "逐出山门"
+  result: "expelled from the sect"
+  allowalt:
+  - "expel from the sect"
+  - "expelled from the school"
+  - "expelled from a sect"
+  - "expelled from some sect"
+  - "expelled from the mountain"
+  context: Thrown out of a sect, with 山门 as the sect itself. Never "expelled from the mountain gate".

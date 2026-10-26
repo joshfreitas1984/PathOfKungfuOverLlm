@@ -1,0 +1,482 @@
+- raw: "1,buffer类型,buffer名称,buffer描述,buffer持续时间(秒)(如果是永久buffer填-1),bufferIcon,txt,关联战斗buffId(ECA表的BuffData的id)"
+  splits:
+  - split: 2
+    text: "名称"
+    translated: "Name"
+    qcReviewedText: "buffer Name"
+    qcTranslated: "Buffer Name"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 3
+    text: "描述"
+    translated: "Description"
+    qcReviewedText: "buffer Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "buffer{0}"
+  - split: 3
+    template: "buffer{0}"
+- raw: "2,id,name,des,time,icon,错误提示,battleBuffId"
+- raw: "3,10010,中毒,异毒入腑，其效隐而不发，难知其索……降低血量上限20%，持续12时辰。,1440,mapbuff/10010,,10010"
+  splits:
+  - split: 2
+    text: "中毒"
+    translated: "Poisoned"
+    qcReviewedText: "Poisoned"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "异毒入腑，其效隐而不发，难知其索……降低血量上限20%，持续12时辰。"
+    translated: "Poison enters the fu, its effect hidden and unmanifest, hard to trace......Reduces maximum health by 20%, lasting for 12 hours."
+    qcReviewedText: "Poison enters the fu, its effect hidden and unmanifest, hard to trace......Reduces maximum health by 20%, lasting for 12 hours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "4,10011,饥饿,久未进食，体乏无力……持续减少精力值。,-1,mapbuff/10011,,"
+  splits:
+  - split: 2
+    text: "饥饿"
+    translated: "Hunger"
+    qcReviewedText: "Hunger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "久未进食，体乏无力……持续减少精力值。"
+    translated: "Hunger has weakened you... Energy continues to decrease."
+    qcReviewedText: "Hunger has weakened you... Energy continues to decrease."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,10018,跛脚,足脚已断，残腿终身。,-1,mapbuff/10018,,"
+  splits:
+  - split: 2
+    text: "跛脚"
+    translated: "Limping"
+    qcReviewedText: "Limping"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "足脚已断，残腿终身。"
+    translated: "The feet are severed; the mangled legs will last a lifetime."
+    qcReviewedText: "The feet are severed; the mangled legs will last a lifetime."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "6,10019,断指,残掌缺指，握持不能。,-1,mapbuff/10019,,"
+  splits:
+  - split: 2
+    text: "断指"
+    translated: "Severed Finger"
+    qcReviewedText: "Severed Finger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "残掌缺指，握持不能。"
+    translated: "Mangled palms and missing fingers, unable to grip."
+    qcReviewedText: "Mangled palms and missing fingers, unable to grip."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "7,10020,渺目,渺一眼目，残疾在面。,-1,mapbuff/10020,,"
+  splits:
+  - split: 2
+    text: "渺目"
+    translated: "Distant Gaze"
+    qcReviewedText: "Distant Gaze"
+    qcTranslated: "Miao Mu"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 3
+    text: "渺一眼目，残疾在面。"
+    translated: "A glance reveals the truth; the disability is written upon the face."
+    qcReviewedText: "A glance reveals the truth; the disability is written upon the face."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "8,10021,毁容,容貌尽毁，丑陋可怖。,-1,mapbuff/10021,,"
+  splits:
+  - split: 2
+    text: "毁容"
+    translated: "Disfigurement"
+    qcReviewedText: "Disfigurement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "容貌尽毁，丑陋可怖。"
+    translated: "Her appearance is utterly ruined, grotesquely ugly"
+    qcReviewedText: "Her appearance is utterly ruined, grotesquely ugly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "9,10022,耳聋,耳灌铜汁，聋而难闻。,-1,mapbuff/10022,,"
+  splits:
+  - split: 2
+    text: "耳聋"
+    translated: "Deafness"
+    qcReviewedText: "Deafness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "耳灌铜汁，聋而难闻。"
+    translated: "Ears filled with molten copper, deafened and unable to hear."
+    qcReviewedText: "Ears filled with molten copper, deafened and unable to hear."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "10,10023,烧肤,肌毁肤烂，烧痕溃烂。,-1,mapbuff/10023,,"
+  splits:
+  - split: 2
+    text: "烧肤"
+    translated: "Scorched Skin"
+    qcReviewedText: "Scorched Skin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "肌毁肤烂，烧痕溃烂。"
+    translated: "Muscles destroyed and skin ruined, with burns and festering sores."
+    qcReviewedText: "Muscles destroyed and skin ruined, with burns and festering sores."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "11,10024,阉割,阉阳去势，残根尽毁。,-1,mapbuff/10024,该武学需要自我阉割后才能习得,"
+  splits:
+  - split: 2
+    text: "阉割"
+    translated: "Castration"
+    qcReviewedText: "Castration"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "阉阳去势，残根尽毁。"
+    translated: "Castrated and emasculated, the roots utterly destroyed"
+    qcReviewedText: "Castrated and emasculated, the roots utterly destroyed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "12,10025,丈督,缺阴剜胯，尽去私脔。,-1,mapbuff/10025,,"
+  splits:
+  - split: 2
+    text: "丈督"
+    translated: "Commander"
+    qcReviewedText: "Commander"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "缺阴剜胯，尽去私脔。"
+    translated: "Cutting away the yin and castrating the private parts."
+    qcReviewedText: "Cutting away the yin and castrating the private parts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "13,10026,怀胎,身怀六甲，诸事不便。,10m,mapbuff/10025,,"
+  splits:
+  - split: 2
+    text: "怀胎"
+    translated: "Pregnancy"
+    qcReviewedText: "Pregnancy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "身怀六甲，诸事不便。"
+    translated: "I am six months pregnant and unable to manage many things."
+    qcReviewedText: "I am six months pregnant and unable to manage many things."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "14,10027,全身舒泰,经络通畅，遍体舒泰，筋骨行动俱灵活了些许，提升少许【外功】攻击，持续12时辰。,1440,mapbuff/10027,,10027"
+  splits:
+  - split: 2
+    text: "全身舒泰"
+    translated: "Whole-Body Ease"
+    qcReviewedText: "Whole-Body Ease"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "经络通畅，遍体舒泰，筋骨行动俱灵活了些许，提升少许【外功】攻击，持续12时辰。"
+    translated: "Meridians flow freely, body feels relaxed and at ease, physique becomes slightly more agile, increasing External Skill attack by a small amount for 12 hours."
+    qcReviewedText: "Meridians flow freely, body feels relaxed and at ease, physique becomes slightly more agile, increasing External Skill attack by a small amount for 12 hours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "15,10028,神清气爽,气爽神清，怡然圆融，内息通达，提升少许【内功】攻击，持续12时辰。,1440,mapbuff/10028,,10028"
+  splits:
+  - split: 2
+    text: "神清气爽"
+    translated: "Clear-Minded and Refreshed"
+    qcReviewedText: "Clear-Minded and Refreshed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "气爽神清，怡然圆融，内息通达，提升少许【内功】攻击，持续12时辰。"
+    translated: "Refreshed and serene, feeling harmonious and complete, with inner qi flowing freely, slightly increases Neigong attack for 12 hours."
+    qcReviewedText: "Refreshed and serene, feeling harmonious and complete, with inner qi flowing freely, slightly increases Neigong attack for 12 hours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "16,10029,精力充沛,神完气足，精力充沛，进退之间若有新力渐升，提升一定程度【体力】回复效果，持续12时辰。,1440,mapbuff/10029,,10029"
+  splits:
+  - split: 2
+    text: "精力充沛"
+    translated: "Brimming with Energy"
+    qcReviewedText: "Brimming with Energy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "神完气足，精力充沛，进退之间若有新力渐升，提升一定程度【体力】回复效果，持续12时辰。"
+    translated: "Full Spirit, Full Qi, with brimming energy, the effect of Stamina recovery increases during movement, lasting 12 hours."
+    qcReviewedText: "Full Spirit, Full Qi, with brimming energy, the effect of Stamina recovery increases during movement, lasting 12 hours."
+    qcTranslated: "Full Spirit, Full Qi, Brimming with Energy, with a new force gradually rising between advance and retreat, increasing the effect of Stamina recovery to a certain degree, lasting 12 hours."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "17,10030,山珍海味,其味甚美，食之如享天馔，令人欲罢不能……,1440,mapbuff/10030,,10030"
+  splits:
+  - split: 2
+    text: "山珍海味"
+    translated: "Delicacies of Mountain and Sea"
+    qcReviewedText: "Delicacies of Mountain and Sea"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "其味甚美，食之如享天馔，令人欲罢不能……"
+    translated: "Its taste is exquisite, eating it is like feasting on divine cuisine, leaving one unable to stop..."
+    qcReviewedText: "Its taste is exquisite, eating it is like feasting on divine cuisine, leaving one unable to stop..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,10031,龙虎法脉,高人点悟，似灵光照耀，使体内真气流转，功力倍增。,180,mapbuff/10031,,10031"
+  splits:
+  - split: 2
+    text: "龙虎法脉"
+    translated: "Dragon-Tiger Lineage"
+    qcReviewedText: "Dragon-Tiger Lineage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "高人点悟，似灵光照耀，使体内真气流转，功力倍增。"
+    translated: "A sage's enlightenment, like a divine light, illuminates the path, allowing True Qi to circulate within and greatly increasing one's power."
+    qcReviewedText: "A sage's enlightenment, like a divine light, illuminates the path, allowing True Qi to circulate within and greatly increasing one's power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,10032,内息通畅,功行已毕，内息畅若流泉奔涌，周行全身，舒泰无比。,180,mapbuff/10032,,10032"
+  splits:
+  - split: 2
+    text: "内息通畅"
+    translated: "Inner Qi Flows Freely"
+    qcReviewedText: "Inner Qi Flows Freely"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "功行已毕，内息畅若流泉奔涌，周行全身，舒泰无比。"
+    translated: "The ritual is complete; my Inner Qi flows like a rushing stream throughout my body, bringing unparalleled comfort."
+    qcReviewedText: "The ritual is complete; my Inner Qi flows like a rushing stream throughout my body, bringing unparalleled comfort."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "20,10033,常备不懈,惕然而警，心神凝聚，神思敏锐，意势勃发。,180,mapbuff/10033,,10033"
+  splits:
+  - split: 2
+    text: "常备不懈"
+    translated: "Ever Prepared"
+    qcReviewedText: "Ever Prepared"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "惕然而警，心神凝聚，神思敏锐，意势勃发。"
+    translated: "Alert and wary, focused and sharp-minded, intent and energy surging."
+    qcReviewedText: "Alert and wary, focused and sharp-minded, intent and energy surging."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "21,10034,流星赶月,提气凝神，顿感身若飞燕，盈然自如，似能逐星追月。,180,mapbuff/10034,,10034"
+  splits:
+  - split: 2
+    text: "流星赶月"
+    translated: "Meteor Chases the Moon"
+    qcReviewedText: "Meteor Chases the Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "提气凝神，顿感身若飞燕，盈然自如，似能逐星追月。"
+    translated: "Drawing in breath and focusing the spirit, one feels as light as a flying swallow, graceful and at ease, as if able to chase stars and moons."
+    qcReviewedText: "Drawing in breath and focusing the spirit, one feels as light as a flying swallow, graceful and at ease, as if able to chase stars and moons."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "22,10035,先声夺人,因你之声势，众人群心惶惶，不敢妄动。,180,mapbuff/10035,,10035"
+  splits:
+  - split: 2
+    text: "先声夺人"
+    translated: "Strike Fear First"
+    qcReviewedText: "Strike Fear First"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "因你之声势，众人群心惶惶，不敢妄动。"
+    translated: "Because of your imposing presence, the crowd was shaken and dared not move."
+    qcReviewedText: "Because of your imposing presence, the crowd was shaken and dared not move."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "23,10036,重伤,身遭重创，筋骨欲断，体乏无力，危在顷刻。,1440,mapbuff/10036,,10036"
+  splits:
+  - split: 2
+    text: "重伤"
+    translated: "Grievous Injury"
+    qcReviewedText: "Grievous Injury"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "身遭重创，筋骨欲断，体乏无力，危在顷刻。"
+    translated: "Severely injured, my physique is on the brink of breaking, weak and exhausted, my life hangs in the balance."
+    qcReviewedText: "Severely injured, my physique is on the brink of breaking, weak and exhausted, my life hangs in the balance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,10037,虹蛇蛊毒,毒侵六腑，体热如炙，五脏如焚，痛苦不堪。,1440,mapbuff/10037,,"
+  splits:
+  - split: 2
+    text: "虹蛇蛊毒"
+    translated: "Rainbow Snake Venom"
+    qcReviewedText: "Rainbow Snake Venom"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "毒侵六腑，体热如炙，五脏如焚，痛苦不堪。"
+    translated: "The poison invades the six viscera, the body burns as if scorched by fire, and the five organs feel as though they are being consumed by flames, causing unbearable agony."
+    qcReviewedText: "The poison invades the six viscera, the body burns as if scorched by fire, and the five organs feel as though they are being consumed by flames, causing unbearable agony."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "25,10038,覃菇汤,喝了覃菇汤，只觉通体舒泰，飘然欲仙……,600,mapbuff/10038,,"
+  splits:
+  - split: 2
+    text: "覃菇汤"
+    translated: "Taro Mushroom Soup"
+    qcReviewedText: "Taro Mushroom Soup"
+    qcTranslated: "Tan Gu Tang"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 3
+    text: "喝了覃菇汤，只觉通体舒泰，飘然欲仙……"
+    translated: "After drinking the mushroom soup, I felt a wave of ease wash over my entire body, as if I were about to ascend to the heavens..."
+    qcReviewedText: "After drinking the mushroom soup, I felt a wave of ease wash over my entire body, as if I were about to ascend to the heavens..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,10039,瘴气,受南疆瘴气所侵，体倦神疲，气息不畅。,4320,mapbuff/10039,,"
+  splits:
+  - split: 2
+    text: "瘴气"
+    translated: "Miasma"
+    qcReviewedText: "Miasma"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "受南疆瘴气所侵，体倦神疲，气息不畅。"
+    translated: "Weakened by the miasma of the Southern Frontier, my body is weary and my spirit exhausted, with my breath growing labored."
+    qcReviewedText: "Weakened by the miasma of the Southern Frontier, my body is weary and my spirit exhausted, with my breath growing labored."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,10040,精力旺盛,稍作歇息之后，精力充沛，气息通畅，提升少许【体力】回复效果，持续12时辰。,1440,mapbuff/10040,,10040"
+  splits:
+  - split: 2
+    text: "精力旺盛"
+    translated: "Vigorous Energy"
+    qcReviewedText: "Vigorous Energy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "稍作歇息之后，精力充沛，气息通畅，提升少许【体力】回复效果，持续12时辰。"
+    translated: "After a brief rest, brimming with energy and breathing freely, slightly increases the Stamina recovery effect, lasting 12 hours."
+    qcReviewedText: "After a brief rest, brimming with energy and breathing freely, slightly increases the Stamina recovery effect, lasting 12 hours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "28,10041,幻赤,妙传家法髑髅眼，巧幻神通赤肉团,180,mapbuff/10023,,10041"
+  splits:
+  - split: 2
+    text: "幻赤"
+    translated: "Phantom Crimson"
+    qcReviewedText: "Phantom Crimson"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "妙传家法髑髅眼，巧幻神通赤肉团"
+    translated: "Skillful transmission of the family law, Skull Eye; cleverly transforming divine power into a ball of flesh"
+    qcReviewedText: "Skillful transmission of the family law, Skull Eye; cleverly transforming divine power into a ball of flesh"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "29,10042,诡奇异毒,毒侵六腑，体热如炙，五脏如焚，痛苦难堪……,1m,mapbuff/10010,,10042"
+  splits:
+  - split: 2
+    text: "诡奇异毒"
+    translated: "Strange and Uncanny Poison"
+    qcReviewedText: "Strange and Uncanny Poison"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "毒侵六腑，体热如炙，五脏如焚，痛苦难堪……"
+    translated: "Poison invades the six viscera, the body burns as if roasted, the five organs feel like they are on fire, and the pain is unbearable..."
+    qcReviewedText: "Poison invades the six viscera, the body burns as if roasted, the five organs feel like they are on fire, and the pain is unbearable..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "30,10043,福临心至,心无障碍，自然福至心灵，内息通达，遍体舒畅，战斗中提升少许移动速度，持续1月。,1m,mapbuff/10029,,10043"
+  splits:
+  - split: 2
+    text: "福临心至"
+    translated: "Fortune Arrives with the Heart"
+    qcReviewedText: "Fortune Arrives with the Heart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    text: "心无障碍，自然福至心灵，内息通达，遍体舒畅，战斗中提升少许移动速度，持续1月。"
+    translated: "With an unburdened heart, blessings come naturally, and Inner Qi flows freely, bringing comfort throughout the body. Increases Movement Speed slightly during combat for 1 months."
+    qcReviewedText: "With an unburdened heart, blessings come naturally, and Inner Qi flows freely, bringing comfort throughout the body. Increases Movement Speed slightly during combat for 1 months."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

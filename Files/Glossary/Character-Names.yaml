@@ -55,7 +55,8 @@
   context: Lady of the Peach Blossom Dock. Never Man Zhu or Manju.
 - raw: "画眉"
   result: "Huamei"
-  context: A character name in pinyin, written as one word. Never Mei.
+  badtrans: false
+  context: A character name in pinyin, written as one word. Never Mei. Also the ordinary phrase for painting eyebrows (闺阁画眉, 同研墨画眉), where it is translated normally, so a fluent translation without Huamei is not a mistranslation.
 - raw: "蝎姬"
   result: "Scorpion Lady"
   context: Leader of Shengxie Hall. Never Scorpion Princess.

@@ -1,0 +1,810 @@
+- raw: "1,秘术ID,秘术名称,备注,备注,,,,条件类型,条件类型参数,气血上限,气血回复,外功防御,内功防御,外功攻击,内功攻击,暴击,免暴,暴击伤害,暴击减免,体力上限,体力回复,吸血,反伤,内劲,速度,武力,内息,身法,筋骨,悟性,体力消耗,修为加成"
+  splits:
+  - split: 2
+    text: "秘术名称"
+    translated: "Secret Art Name"
+    qcReviewedText: "Secret Art Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,name,,,,,,type,typeNum,qxsx,qxhf,wgfy,ngfy,wg,ng,bj,mb,bjsh,bjjm,tlsx,tlhf,xx,fs,nj,sd,wl,nx,sf,jg,wx,tlxh,xwjc"
+- raw: "3,100101,天衍·夕落卷,,装配此卷的角色持单手轻刃、扇法时外功和内功攻击额外提升5%。,单手轻刃,扇子,,1,5_2,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Sunset Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "夕落卷"
+    translated: "Sunset Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "4,100102,天衍·裂石卷,,装配此卷的角色持拳掌、腿脚时外功和内功攻击额外提升5%。,拳掌,腿脚,,1,9_1,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Stone-Splitting Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "裂石卷"
+    translated: "Stone-Splitting Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "5,100103,天衍·破军卷,,装配此卷的角色持重刃、长兵时外功和内功攻击额外提升5%。,重刃,长兵,,1,4_3,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Pojun Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "破军卷"
+    translated: "Pojun Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "6,100104,天衍·桃花卷,,装配此卷的角色持绳镖、软鞭时外功和内功攻击额外提升5%。,绳镖,软鞭,,1,13_11,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Peach Blossom Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "桃花卷"
+    translated: "Peach Blossom Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "7,100105,天衍·摘星卷,,装配此卷的角色持暗器、火器、弓箭时外功和内功攻击额外提升5%。,暗器,火器,弓箭,1,14_6_12,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Star-Plucking Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "摘星卷"
+    translated: "Star-Plucking Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "8,100106,天衍·须佐卷,,装配此卷的角色持双手轻刃、短兵时外功和内功攻击额外提升5%。,双手轻刃,短兵,,1,15_10,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Susano Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "须佐卷"
+    translated: "Susano Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "9,100107,天衍·望山卷,,装配此卷的角色施展拳掌、腿脚的相关武学时，将获得额外5%外功和内功攻击的提升。,拳掌,腿脚,,8,9_1,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Mountain-Gazing Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "望山卷"
+    translated: "Mountain-Gazing Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "10,100108,天衍·凌云卷,,装配此卷的角色施展单手轻刃、扇法的相关武学时，将获得额外5%外功和内功攻击的提升。,单手轻刃,扇子,,8,5_2,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Cloud-Soaring Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "凌云卷"
+    translated: "Cloud-Soaring Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "11,100109,天衍·西风卷,,装配此卷的角色施展重剑、长兵的相关武学时，将获得额外5%外功和内功攻击的提升。,重刃,长兵,,8,4_3,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·West Wind Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "西风卷"
+    translated: "West Wind Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "12,100110,天衍·相思卷,,装配此卷的角色施展暗器、火器、弓箭的相关武学时，将获得额外5%外功和内功攻击的提升。,暗器,火器,弓箭,8,14_6_12,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Lovesickness Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "相思卷"
+    translated: "Lovesickness Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "13,100111,天衍·建御卷,,装配此卷的角色施展双手轻刃、短兵的相关武学时，将获得额外5%外功和内功攻击的提升。,双手轻刃,短兵,,8,15_10,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Takemikazuchi Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "建御卷"
+    translated: "Takemikazuchi Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "14,100112,天衍·泄玉卷,,装配此卷的角色施展绳镖、软鞭的相关武学时，将获得额外5%外功和内功攻击的提升。,绳镖,软鞭,,8,13_11,,,,,0.05,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Jade-Pouring Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "泄玉卷"
+    translated: "Jade-Pouring Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "15,100113,天衍·狮搏卷,,装配此卷的角色外功攻击提升5%，外功防御降低5%。,,,,0,,,,-0.05,,0.05,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Lion-Pounce Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "狮搏卷"
+    translated: "Lion-Pounce Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "16,100114,天衍·敛瀑卷,,装配此卷的角色内功攻击提升5%，内功防御降低5%。,,,,0,,,,,-0.05,,0.05,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Waterfall-Gathering Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "敛瀑卷"
+    translated: "Waterfall-Gathering Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "17,100116,天衍·震乾卷,,装配此卷的角色暴击率提升5%。,,,,0,,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Heaven-Shaking Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "震乾卷"
+    translated: "Heaven-Shaking Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "18,100117,天衍·镇厌卷,,装配此卷的角色暴击伤害提升15%，暴击减免降低5%。,,,,0,,,,,,,,,,0.15,-0.05,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Quelling Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "镇厌卷"
+    translated: "Quelling Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "19,100120,天衍·喋喰卷,,装配此卷的角色吸血提升5%。,,,,0,,,,,,,,,,,,,,0.05,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Devouring Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "喋喰卷"
+    translated: "Devouring Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "20,100121,地覆·混元卷,,装配此卷的角色内功防御与外功防御皆提升5%。,,,,0,,,,0.05,0.05,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Primordial Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "混元卷"
+    translated: "Primordial Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "21,100125,地覆·诸御卷,,装配此卷的角色暴击减免提升10%。,,,,0,,,,,,,,,,,0.1,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·All-Defenses Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "诸御卷"
+    translated: "All-Defenses Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "22,100126,地覆·万钟卷,,装配此卷的角色内功防御提升10%。,,,,0,,,,,0.1,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Ten-Thousand Bells Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "万钟卷"
+    translated: "Ten-Thousand Bells Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "23,100127,地覆·固源卷,,装配此卷的角色免暴提升10%。,,,,0,,,,,,,,,0.1,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Source-Securing Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "固源卷"
+    translated: "Source-Securing Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "24,100128,地覆·架擎卷,,装配此卷的角色暴击减免提升10%。,,,,0,,,,,,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Stance-Holding Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "架擎卷"
+    translated: "Stance-Holding Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "25,100129,地覆·骄子卷,,装配此卷的角色气血上限提升10%。,,,,0,,0.1,,,,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Favored Son Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "骄子卷"
+    translated: "Favored Son Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "26,100131,地覆·触石卷,,装配此卷的角色外功防御提升10%。,,,,0,,,,0.1,,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Stone-Touching Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "触石卷"
+    translated: "Stone-Touching Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "27,100132,地覆·睚眦卷,,装配此卷的角色反伤提升5%。,,,,0,,,,,,,,,,,,,,,0.05,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Yazi Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "睚眦卷"
+    translated: "Yazi Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "28,100133,地覆·坤玖卷,,装配此卷的角色体力上限提升10%。,,,,0,,,,,,,,,,,,0.1,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Kun Nine Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "坤玖卷"
+    translated: "Kun Nine Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "29,100134,人世·诛邪卷,,装配此卷的角色单手轻刃、扇法的相关武学时，将获得暴击率提升5%。,单手轻刃,扇子,,8,5_2,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Evil-Slaying Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "诛邪卷"
+    translated: "Evil-Slaying Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "30,100135,人世·撼岳卷,,装配此卷的角色拳掌、腿脚的相关武学时，将获得暴击率提升5%。,拳掌,腿脚,,8,9_1,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Mountain-Shaking Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "撼岳卷"
+    translated: "Mountain-Shaking Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "31,100136,人世·孤鸾卷,,装配此卷的角色重刃、长兵的相关武学时，将获得暴击率提升5%。,重刃,长兵,,8,4_3,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Lone Phoenix Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "孤鸾卷"
+    translated: "Lone Phoenix Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "32,100137,人世·天照卷,,装配此卷的角色双手轻刃、短兵的相关武学时，将获得暴击率提升5%。,双手轻刃,短兵,,8,15_10,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Amaterasu Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "天照卷"
+    translated: "Amaterasu Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "33,100138,人世·寒鹊卷,,装配此卷的角色暗器、火器、弓箭的相关武学时，将获得暴击率提升5%。,暗器,火器,弓箭,8,14_6_12,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Cold Magpie Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "寒鹊卷"
+    translated: "Cold Magpie Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "34,100139,人世·断肠卷,,装配此卷的角色软鞭、绳镖的相关武学时，将获得暴击率提升5%。,绳镖,软鞭,,8,13_11,,,,,,,0.05,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Heartbreak Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "断肠卷"
+    translated: "Heartbreak Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "35,100141,人世·致学卷,,装配此卷的角色获得的修为值额外提升10%，仅主角可生效。,,,,4,,,,,,,,,,,,,,,,,,,,,,,,0.1"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Pursuit-of-Learning Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "致学卷"
+    translated: "Pursuit-of-Learning Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "36,100142,人世·无迹卷,,装配此卷的角色提升30点移动速度。,,,,0,,,,,,,,,,,,,,,,,30,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Traceless Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "无迹卷"
+    translated: "Traceless Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "37,100143,人世·百草卷,,装配此卷的角色气血恢复属性提升10%。,,,,0,,,0.1,,,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Hundred Herbs Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "百草卷"
+    translated: "Hundred Herbs Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "38,100144,人世·药蛊卷,,装配此卷的角色体力恢复提升20%。,,,,0,,,,,,,,,,,,,0.2,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Medicinal Gu Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "药蛊卷"
+    translated: "Medicinal Gu Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "39,100148,人世·丹霞卷,,装配此卷的角色内劲增长提升10%。,,,,0,,,,,,,,,,,,,,,,0.1,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Crimson Cloud Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "丹霞卷"
+    translated: "Crimson Cloud Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "40,100115,天衍·长生卷,,装配此卷的角色气血恢复额外提升10%,,,,,,,0.1,,,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Longevity Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "长生卷"
+    translated: "Longevity Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "41,100118,天衍·弃世卷,,装配此卷的角色暴击率提升5%，暴击伤害提升10%,,,,,,,,,,,,0.05,,0.1,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·World-Abandoning Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "弃世卷"
+    translated: "World-Abandoning Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "42,100119,天衍·晦朔卷 ,,装配此卷的角色攻击力提升3%，气血上限降低10%,,,,,,-0.1,,,,0.03,0.03,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "天衍"
+    translated: "Heavenly Derivation"
+    qcReviewedText: "Heavenly Derivation·Waning-to-New-Moon Scroll "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "晦朔卷"
+    translated: "Waning-to-New-Moon Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1} "
+- raw: "43,100122,地覆·万生卷,,装配此卷的角色体力恢复额外提升20%,,,,,,,,,,,,,,,,,0.2,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Myriad Lives Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "万生卷"
+    translated: "Myriad Lives Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "44,100123,地覆·垒峦卷,,装配此卷的角色外功防御提升15%，外功攻击降低10%,,,,,,,,0.15,,-0.1,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Stacked Peaks Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "垒峦卷"
+    translated: "Stacked Peaks Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "45,100124,地覆·开疆卷,,装配此卷的角色内功防御提升15%，内功攻击降低10%,,,,,,,,,0.15,,-0.1,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Frontier-Opening Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "开疆卷"
+    translated: "Frontier-Opening Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "46,100130,地覆·无垢卷,,装配此卷的角色气血上限增加5%，气血恢复降低5%,,,,,,0.05,-0.05,,,,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "地覆"
+    translated: "Earth Overturned"
+    qcReviewedText: "Earth Overturned·Immaculate Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "无垢卷"
+    translated: "Immaculate Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "47,100140,人世·不工卷,,装配此卷的角色反伤提升10%，移动速度降低50,,,,,,,,,,,,,,,,,,,0.1,,-80,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Unworked Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "不工卷"
+    translated: "Unworked Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "48,100145,人世·悬壶卷,,装配此卷的角色吸血提升5%，气血上限降低5%,,,,,,-0.05,,,,,,,,,,,,0.05,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Hanging Gourd Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "悬壶卷"
+    translated: "Hanging Gourd Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "49,100146,人世·匠造卷,,装配此卷的角色移动速度提升30，体力上限降低20%,,,,,,,,,,,,,,,,-0.2,,,,,30,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Artisan Crafting Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "匠造卷"
+    translated: "Artisan Crafting Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "50,100147,人世·妙手卷,,装配此卷的角色，使用暗器时提升自身暴击率10%,暗器,,,1,6,,,,,,,0.1,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Skilled Hands Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "妙手卷"
+    translated: "Skilled Hands Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "51,100149,人世·达摩卷,,装配此卷的角色获得的修为值额外提升10%，攻击力降低5%,,,,,,,,,-0.05,-0.05,,,,,,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Bodhidharma Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "达摩卷"
+    translated: "Bodhidharma Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "52,100150,人世·情蛊卷,,装配此卷的角色免暴提升10%，暴击减免提升10%,,,,,,,,,,,,,0.1,,0.1,,,,,,,,,,,,,"
+  splits:
+  - split: 2
+    text: "人世"
+    translated: "Mortal World"
+    qcReviewedText: "Mortal World·Love Gu Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "情蛊卷"
+    translated: "Love Gu Scroll"
+  templates:
+  - split: 2
+    template: "{0}·{1}"

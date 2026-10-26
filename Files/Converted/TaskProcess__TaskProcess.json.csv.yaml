@@ -294034,8 +294034,8 @@
   splits:
   - split: 4
     text: "在下不欲拜入山门，只愿精进武学。"
-    translated: "I do not wish to join the mountain gate, only to advance in my martial art."
-    qcReviewedText: "I do not wish to join the mountain gate, only to advance in my martial art."
+    translated: "I do not wish to join the sect; I only seek to refine my Martial Art."
+    qcReviewedText: "I do not wish to join the sect; I only seek to refine my Martial Art."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356156,8 +356156,8 @@
   splits:
   - split: 4
     text: "风凌！睁眼看看，其上写的甚么？"
-    translated: "Wind Ling! Open your eyes and see what is written there?"
-    qcReviewedText: "Wind Ling! Open your eyes and see what is written there?"
+    translated: "Feng Ling! Open your eyes and see what is written on it?"
+    qcReviewedText: "Feng Ling! Open your eyes and see what is written on it?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356380,8 +356380,8 @@
   splits:
   - split: 4
     text: "风凌！下雨把你头脑淋坏了么？！"
-    translated: "Wind Ling! Did the rain soak your head?!!"
-    qcReviewedText: "Wind Ling! Did the rain soak your head?!!"
+    translated: "Feng Ling! Has the rain made you lose your mind?!"
+    qcReviewedText: "Feng Ling! Has the rain made you lose your mind?!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356568,11 +356568,11 @@
   splits:
   - split: 4
     text: "{playerTitle}，我本乃白氏子弟，说来亦算武林世家……但多年前家父病亡，我便被卷入继承争掠之中，故而流落街头，若非风大哥给了口吃的，怕便要在这襄阳城中冻饿而死……"
-    translated: "{playerTitle}, I am a descendant of the Bai family. To put it simply, we are a martial arts clan... but many years ago, my father passed away, and I was caught up in a struggle for inheritance, so I ended up on the streets. If not for Brother Feng giving me something to eat, I would have frozen and starved to death in Xiangyang..."
+    translated: "{playerTitle}, I am a scion of the Bai clan. By all accounts, we are a distinguished family in Wulin... However, my father passed away from illness many years ago, and I was swept up in the struggle for succession. As a result, I ended up on the streets. If it were not for Big Brother Feng providing me with food, I would have surely frozen or starved to death in Xiangyang..."
     tokens:
       playerTitle:
         source: "<兄弟||姑娘>"
-    qcReviewedText: "{playerTitle}, I am a descendant of the Bai family. To put it simply, we are a martial arts clan... but many years ago, my father passed away, and I was caught up in a struggle for inheritance, so I ended up on the streets. If not for Brother Feng giving me something to eat, I would have frozen and starved to death in Xiangyang..."
+    qcReviewedText: "{playerTitle}, I am a scion of the Bai clan. By all accounts, we are a distinguished family in Wulin... However, my father passed away from illness many years ago, and I was swept up in the struggle for succession. As a result, I ended up on the streets. If it were not for Big Brother Feng providing me with food, I would have surely frozen or starved to death in Xiangyang..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356598,8 +356598,8 @@
   splits:
   - split: 4
     text: "小玉乃七年前我与风凌在街上收留的孤女，不想时光一晃，我三人竟是相依为命这般久了……"
-    translated: "Little Yu is the orphaned girl whom Wind Ling and I rescued on the street seven years ago; time has flown by, and it turns out we have relied on each other for so long..."
-    qcReviewedText: "Little Yu is the orphaned girl whom Wind Ling and I rescued on the street seven years ago; time has flown by, and it turns out we have relied on each other for so long..."
+    translated: "Xiao Yu is the orphaned girl that Feng Ling and I took in on the street seven years ago. I never imagined that time would pass so quickly, and that the three of us would have been bound together by fate for so long..."
+    qcReviewedText: "Xiao Yu is the orphaned girl that Feng Ling and I took in on the street seven years ago. I never imagined that time would pass so quickly, and that the three of us would have been bound together by fate for so long..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356652,8 +356652,8 @@
   splits:
   - split: 4
     text: "风大哥过往，我与小玉亦知之甚少，只知他似曾被某个门派逐出山门……"
-    translated: "Regarding Big Brother Feng's past, I know very little about it, only that he was seemingly expelled from some sect..."
-    qcReviewedText: "Regarding Big Brother Feng's past, I know very little about it, only that he was seemingly expelled from some sect..."
+    translated: "As for Big Brother Feng's past, I know little about it myself. All I know is that he was once expelled from a sect..."
+    qcReviewedText: "As for Big Brother Feng's past, I know little about it myself. All I know is that he was once expelled from a sect..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -357849,17 +357849,14 @@
   - split: 4
     text: "在下确曾为太和弟子，亦非被逐出师门。初时我只欲行侠仗义，扶危济困，此后方觉"
     translated: "I was indeed once a Taihe Disciple and was not expelled from the sect. At first, I merely wished to uphold justice and help those in need, but later I realized"
-    qcReviewedText: "I was indeed once a Taihe Disciple and was not expelled from the sect. At first, I merely wished to uphold justice and help those in need, but later I realized：Small tasks are easy to accomplish, but great benevolence and righteousness often lead to a dilemma if one is not free of attachments... Thus, I declined the mountain gate and set out to travel the Jianghu."
-    qcTranslated: "I was indeed once a Taihe Disciple and was not expelled from the sect. At first, I merely wished to uphold justice and help those in need, but later I realized: Small tasks are easy to accomplish, but great benevolence and righteousness often lead to a dilemma if one is not free of attachments... Thus, I declined the mountain gate and set out to travel the Jianghu."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcReviewedText: "I was indeed once a Taihe Disciple and was not expelled from the sect. At first, I merely wished to uphold justice and help those in need, but later I realized：Small matters are easy to handle, but great benevolence and righteousness demand a heart free of all attachments; otherwise, one is trapped in an impossible dilemma... Thus, I left the sect to wander the Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "小事易为，而大仁大义，若非了无牵挂，必陷两难……故此辞却山门，游历江湖。"
-    translated: "Small tasks are easy to accomplish, but great benevolence and righteousness often lead to a dilemma if one is not free of attachments... Thus, I declined the mountain gate and set out to travel the Jianghu."
+    translated: "Small matters are easy to handle, but great benevolence and righteousness demand a heart free of all attachments; otherwise, one is trapped in an impossible dilemma... Thus, I left the sect to wander the Jianghu."
   templates:
   - split: 4
     template: "{0}：{1}"
@@ -358062,8 +358059,8 @@
   splits:
   - split: 4
     text: "那日事发我并不在场……只在街边等风凌买酒，不想酒没买到，却捡回一个脏兮兮的小姑娘……"
-    translated: "That day, I wasn't there when it happened......I was just waiting at the street corner for Fengling to buy wine, but ended up bringing home a dirty little girl instead..."
-    qcReviewedText: "That day, I wasn't there when it happened......I was just waiting at the street corner for Fengling to buy wine, but ended up bringing home a dirty little girl instead..."
+    translated: "I was not present when the incident occurred that day... I was merely waiting by the roadside for Feng Ling to buy wine. Unexpectedly, he failed to purchase the wine but instead brought back a filthy little girl..."
+    qcReviewedText: "I was not present when the incident occurred that day... I was merely waiting by the roadside for Feng Ling to buy wine. Unexpectedly, he failed to purchase the wine but instead brought back a filthy little girl..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -361415,8 +361412,8 @@
   splits:
   - split: 4
     text: "嗯，还是风大哥的歪理中听。"
-    translated: "Hmm, Wind Big Brother's nonsense still sounds good to me."
-    qcReviewedText: "Hmm, Wind Big Brother's nonsense still sounds good to me."
+    translated: "Hmm, Big Brother Feng's nonsense still sounds good to me."
+    qcReviewedText: "Hmm, Big Brother Feng's nonsense still sounds good to me."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -361523,8 +361520,8 @@
   splits:
   - split: 4
     text: "逢山开路便是，若说闹，风大哥可是再擅不过。"
-    translated: "Clearing a path through mountains is what we do. As for causing a commotion, Wind Big Brother is unmatched."
-    qcReviewedText: "Clearing a path through mountains is what we do. As for causing a commotion, Wind Big Brother is unmatched."
+    translated: "Clearing a path through mountains is what we do. As for causing a commotion, Big Brother Feng is unmatched."
+    qcReviewedText: "Clearing a path through mountains is what we do. As for causing a commotion, Big Brother Feng is unmatched."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

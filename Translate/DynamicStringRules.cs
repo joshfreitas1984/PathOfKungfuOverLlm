@@ -37,6 +37,15 @@ public static class DynamicStringRules
     /// </summary>
     private static bool IsRepeatedFiller(string raw) => raw.Length >= 100 && raw.Distinct().Count() * 10 < raw.Length;
 
+    /// <summary>
+    /// A Read__Sheet1 cell longer than this is hand-translated (ManualTranslations.yaml) and left out of QC. The one cell over it is the Analects
+    /// excerpt (720 characters of classical Chinese), whose QC prompt came to 6,722 tokens against num_ctx 6144. The next longest letter is 231.
+    /// </summary>
+    public const int MaxQcReadSheetTextLength = 400;
+
+    public static bool IsQcExcluded(TextFileToSplit textFile, int? split, string raw) =>
+        textFile.Path == "Read__Sheet1.csv" && raw.Length > MaxQcReadSheetTextLength;
+
     /// <summary>The line's dump format is Type,Method,ILOffset,RawText,ParamTypes.</summary>
     public static bool IsUnsafe(TextFileToSplit textFile, TranslationLine line, TranslationSplit split)
     {

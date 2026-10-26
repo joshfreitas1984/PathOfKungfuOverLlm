@@ -278,11 +278,6 @@
   allowWordWrap: true
   adjustWidth: -50
   adjustHeight: 10
-- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/Content/item*/tip
-  sampleText: ' Governor Vessel Unblocked'
-  alignment: MiddleCenter
-  allowAutoSizing: true
-  adjustWidth: 23
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Content/item*/tip
   sampleText: Max HP︻7800︼
   alignment: MiddleCenter
@@ -308,8 +303,9 @@
   adjustWidth: 5
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/name
   sampleText: 'New Path:'
-  idealFontSize: 26
-  adjustX: -5
+  idealFontSize: 24
+  adjustX: -25
+  adjustWidth: 60
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/UITask/panel_List/Viewport/toggleGroup_TaskType/item*/trans_TaskList/item_task*/txt_content
   sampleText: Head to Hangzhou to investigate Fang Zi Zhen's former resid…
   idealFontSize: 16

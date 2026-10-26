@@ -52,7 +52,7 @@ public class Plugin : BaseUnityPlugin
             typeof(TipContentAttributePatch), typeof(GameEnglishAttributeReplaceRemover), typeof(AcupointTipReplaceStrPatch), typeof(ItemUseTitlePatch),
             typeof(CommonTipsAttributePatch), typeof(QiZiItemAttributePatch), typeof(AcupointChongHoleViewAttributePatch), typeof(MusclesOrVeinsViewAttributePatch),
             typeof(ChongHoleFinishAttributePatch), typeof(JingLuoMinGameAttributePatch),
- typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch), typeof(WordRelationSpecialPatch), typeof(SkillRowUnlearnedPatch),typeof(EquipSlotLabelPatch), typeof(WuXueWeaponTypePatch), typeof(WuXueGeneralTechniquePatch), typeof(WuXueBasicTechniquePatch), typeof(WuXueRightListPatch), typeof(WuXueSaveDiagnosticPatch), typeof(ShowGetItemDiagnosticPatch), typeof(CorpseNamePatch), typeof(WorldTimeLabelPatch),typeof(GangNamePoolPatch), typeof(SavedGangNameMigration),
+ typeof(SavedAptitudeTitleMigration), typeof(GameEnglishPlaceNamesPatch), typeof(WordSpecialPatch), typeof(WordRelationSpecialPatch), typeof(SkillRowUnlearnedPatch),typeof(EquipSlotLabelPatch), typeof(WuXueWeaponTypePatch), typeof(WuXueGeneralTechniquePatch), typeof(WuXueBasicTechniquePatch), typeof(WuXueRightListPatch), typeof(WuXueSaveDiagnosticPatch), typeof(ShowGetItemDiagnosticPatch), typeof(CorpseNamePatch), typeof(WorldTimeLabelPatch), typeof(TipScreenClampPatch),typeof(GangNamePoolPatch), typeof(SavedGangNameMigration),
         })
             harmony.CreateClassProcessor(patch).Patch();
 

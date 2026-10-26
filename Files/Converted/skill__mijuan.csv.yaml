@@ -1,0 +1,510 @@
+- raw: "1,id,篇章名称,悟性值消耗,篇章分类,篇章奖励描述,篇章奖励,资源名称,描述"
+  splits:
+  - split: 2
+    text: "篇章名称"
+    translated: "Chapter Name"
+    qcReviewedText: "Chapter Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    text: "篇章奖励描述"
+    translated: "Chapter Reward Description"
+    qcReviewedText: "Chapter Reward Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "描述"
+    translated: "Description"
+    qcReviewedText: "Description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "2,id,name,wxz,type,rewardTip,reward,icon,des"
+- raw: "3,1001,天书·晨明篇,0,1,无,0,sancaishutian,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "天书"
+    translated: "Heavenly Scripture"
+    qcReviewedText: "Heavenly Scripture·Chapter of Dawn"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "晨明篇"
+    translated: "Chapter of Dawn"
+  - split: 5
+    text: "无"
+    translated: "None"
+    qcReviewedText: "None"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "4,1002,天书·朏明篇,20,1,气血上限提升5%,\"气血,0.05\",sancaishutian,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "天书"
+    translated: "Heavenly Scripture"
+    qcReviewedText: "Heavenly Scripture·Chapter of the Bright Moon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "朏明篇"
+    translated: "Chapter of the Bright Moon"
+  - split: 5
+    text: "气血上限提升5%"
+    translated: "Max Lifeforce increased by 5%"
+    qcReviewedText: "Max Lifeforce increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "5,1003,天书·旦明篇,40,1,防御力提升5%,\"防御,0.05\",sancaishutian,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "天书"
+    translated: "Heavenly Scripture"
+    qcReviewedText: "Heavenly Scripture·Daming Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "旦明篇"
+    translated: "Daming Chapter"
+  - split: 5
+    text: "防御力提升5%"
+    translated: "Defense increased by 5%"
+    qcReviewedText: "Defense increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "6,1004,天书·蚤食篇,60,1,体力上限提升5%,\"体力上限,0.05\",sancaishutian,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "天书"
+    translated: "Heavenly Scripture"
+    qcReviewedText: "Heavenly Scripture·Chapter on Eating Breakfast"
+    qcTranslated: "Heavenly Scripture·Chapter on Early Meals"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+  - split: 2
+    subIndex: 1
+    text: "蚤食篇"
+    translated: "Chapter on Eating Breakfast"
+  - split: 5
+    text: "体力上限提升5%"
+    translated: "Max Stamina increased by 5%"
+    qcReviewedText: "Max Stamina increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "7,1005,天书·宴食篇,90,1,免伤提升5% 吸血提升5%,\"免伤,0.05;吸血,0.05\",sancaishutian,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "天书"
+    translated: "Heavenly Scripture"
+    qcReviewedText: "Heavenly Scripture·Feast"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "宴食篇"
+    translated: "Feast"
+  - split: 5
+    text: "免伤提升5%"
+    translated: "Damage Reduction Increased by 5%"
+    qcReviewedText: "Damage Reduction Increased by 5% Lifesteal increased by 5%"
+    qcTranslated: "Damage Reduction Increased by 5% Lifesteal Increased by 5%"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 5
+    subIndex: 1
+    text: "吸血提升5%"
+    translated: "Lifesteal increased by 5%"
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+  - split: 5
+    template: "{0} {1}"
+- raw: "8,2001,地书·隅中篇,0,2,无,0,sancaishudi,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "地书"
+    translated: "Earth Book"
+    qcReviewedText: "Earth Book·Midday Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "隅中篇"
+    translated: "Midday Chapter"
+  - split: 5
+    text: "无"
+    translated: "None"
+    qcReviewedText: "None"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "9,2002,地书·正中篇,20,2,攻击力提升5%,\"攻击,0.05\",sancaishudi,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "地书"
+    translated: "Earth Book"
+    qcReviewedText: "Earth Book·Core Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "正中篇"
+    translated: "Core Chapter"
+  - split: 5
+    text: "攻击力提升5%"
+    translated: "Attack Power increased by 5%"
+    qcReviewedText: "Attack Power increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "10,2003,地书·小还篇,40,2,内劲增长提升5%,\"内劲增长,0.05\",sancaishudi,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "地书"
+    translated: "Earth Book"
+    qcReviewedText: "Earth Book·Little Return Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "小还篇"
+    translated: "Little Return Chapter"
+  - split: 5
+    text: "内劲增长提升5%"
+    translated: "Inner Force Gain increased by 5%"
+    qcReviewedText: "Inner Force Gain increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "11,2004,地书·哺时篇,60,2,暴击提升5%,\"暴击,0.05\",sancaishudi,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "地书"
+    translated: "Earth Book"
+    qcReviewedText: "Earth Book·Hour of the Horse"
+    qcTranslated: "Earth Book·Hour of the Snake"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+  - split: 2
+    subIndex: 1
+    text: "哺时篇"
+    translated: "Hour of the Horse"
+  - split: 5
+    text: "暴击提升5%"
+    translated: "Critical Hit increase by 5%"
+    qcReviewedText: "Critical Hit increase by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "12,2005,地书·大还篇,90,2,破防提升5% 真气上限提升5%,\"破防,0.05;真气上限,0.2\",sancaishudi,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "地书"
+    translated: "Earth Book"
+    qcReviewedText: "Earth Book·Great Restoration"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "大还篇"
+    translated: "Great Restoration"
+  - split: 5
+    text: "破防提升5%"
+    translated: "Guard Break increased by 5%"
+    qcReviewedText: "Guard Break increased by 5% Max True Qi increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    subIndex: 1
+    text: "真气上限提升5%"
+    translated: "Max True Qi increased by 5%"
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+  - split: 5
+    template: "{0} {1}"
+- raw: "13,3001,人书·高舂篇,0,3,无,,sancaishuren,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "人书"
+    translated: "Human Book"
+    qcReviewedText: "Human Book·Chapter of Gaochong"
+    qcTranslated: "Human Book: The Gaochong Chapter"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 2
+    subIndex: 1
+    text: "高舂篇"
+    translated: "Chapter of Gaochong"
+  - split: 5
+    text: "无"
+    translated: "None"
+    qcReviewedText: "None"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "14,3002,人书·下舂篇,20,3,攻击力提升5%,\"攻击,0.05\",sancaishuren,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "人书"
+    translated: "Human Book"
+    qcReviewedText: "Human Book·Xia Chong Chapter"
+    qcTranslated: "Human Book · Lower Spring Chapter"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 2
+    subIndex: 1
+    text: "下舂篇"
+    translated: "Xia Chong Chapter"
+  - split: 5
+    text: "攻击力提升5%"
+    translated: "Attack Power increased by 5%"
+    qcReviewedText: "Attack Power increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "15,3003,人书·县车篇,40,3,内劲增长提升5%,\"内劲增长,0.05\",sancaishuren,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "人书"
+    translated: "Human Book"
+    qcReviewedText: "Human Book·Chapter on County Carriages"
+    qcTranslated: "Human Book·Chapter on Abandoning the Chariot"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 2
+    subIndex: 1
+    text: "县车篇"
+    translated: "Chapter on County Carriages"
+  - split: 5
+    text: "内劲增长提升5%"
+    translated: "Inner Force Gain increased by 5%"
+    qcReviewedText: "Inner Force Gain increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "16,3004,人书·黄昏篇,60,3,暴击提升5%,\"暴击,0.05\",sancaishuren,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "人书"
+    translated: "Human Book"
+    qcReviewedText: "Human Book·Dusk Chapter"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "黄昏篇"
+    translated: "Dusk Chapter"
+  - split: 5
+    text: "暴击提升5%"
+    translated: "Critical Hit increase by 5%"
+    qcReviewedText: "Critical Hit increase by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+- raw: "17,3005,人书·定昏篇,90,3,破防提升5% 真气上限提升5%,\"破防,0.05;真气上限,0.2\",sancaishuren,天行健，君子自强不息"
+  splits:
+  - split: 2
+    text: "人书"
+    translated: "Human Book"
+    qcReviewedText: "Human Book·Betrothal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 2
+    subIndex: 1
+    text: "定昏篇"
+    translated: "Betrothal"
+  - split: 5
+    text: "破防提升5%"
+    translated: "Guard Break increased by 5%"
+    qcReviewedText: "Guard Break increased by 5% Max True Qi increased by 5%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 5
+    subIndex: 1
+    text: "真气上限提升5%"
+    translated: "Max True Qi increased by 5%"
+  - split: 8
+    text: "天行健，君子自强不息"
+    translated: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcReviewedText: "Heaven moves with vigor; the noble person strives ceaselessly for self-improvement."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 2
+    template: "{0}·{1}"
+  - split: 5
+    template: "{0} {1}"

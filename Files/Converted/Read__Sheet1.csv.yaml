@@ -1,0 +1,738 @@
+- raw: "1,id,类型：1.书 book    2. 信,文本内容  换行用 /n ,,,,,"
+  splits:
+  - split: 3
+    text: "文本内容"
+    translated: "Text Content"
+    qcReviewedText: "Text Content  Use /n "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "换行用"
+    translated: "Use"
+  templates:
+  - split: 3
+    template: "{0}  {1} /n "
+- raw: "2,id,type,text,,,,,"
+- raw: "3,980011,2,还请阁下莫以一时乱了心神，我已飞鸽传书于京城王家，只是山高路远，恐难相顾。\\n此番若事有不协，张大侠行踪无定，于此事之上，恐难相助。即刻去寻燕大侠，或有一线之机。\\n此去艰辛，万望保重，若事不可为……切莫再归。\\n南宫莲笔,,,,,"
+  splits:
+  - split: 3
+    text: "还请阁下莫以一时乱了心神，我已飞鸽传书于京城王家，只是山高路远，恐难相顾。"
+    translated: "I beg you not to let your mind be clouded by the moment. I have already sent a carrier pigeon to the Wang family in the Capital City, but given the vast distances and rugged terrain, they may not be able to come to your aid."
+    qcReviewedText: "I beg you not to let your mind be clouded by the moment. I have already sent a carrier pigeon to the Wang family in the Capital City, but given the vast distances and rugged terrain, they may not be able to come to your aid.\\nIf things go awry this time, Great Hero Zhang's whereabouts are uncertain, and he may be unable to lend a hand. Go find Great Hero Yan immediately; there may still be a slim chance.\\nThe road ahead is fraught with hardship. Please take great care of yourself. Should the mission prove impossible... do not return.\\nNangong Lian's brush"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "此番若事有不协，张大侠行踪无定，于此事之上，恐难相助。即刻去寻燕大侠，或有一线之机。"
+    translated: "If things go awry this time, Great Hero Zhang's whereabouts are uncertain, and he may be unable to lend a hand. Go find Great Hero Yan immediately; there may still be a slim chance."
+  - split: 3
+    subIndex: 2
+    text: "此去艰辛，万望保重，若事不可为……切莫再归。"
+    translated: "The road ahead is fraught with hardship. Please take great care of yourself. Should the mission prove impossible... do not return."
+  - split: 3
+    subIndex: 3
+    text: "南宫莲笔"
+    translated: "Nangong Lian's brush"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "4,980014,2,前日多蒙相助，应珠感念于心，只是另有不情之请，若阁下不吝援手，还望乔府一叙。,,,,,"
+  splits:
+  - split: 3
+    text: "前日多蒙相助，应珠感念于心，只是另有不情之请，若阁下不吝援手，还望乔府一叙。"
+    translated: "I am deeply grateful for your assistance the other day. However, I have an awkward request to make. If you would be so kind as to lend me a hand, I would appreciate it if we could meet at Qiao Mansion to discuss it further."
+    qcReviewedText: "I am deeply grateful for your assistance the other day. However, I have an awkward request to make. If you would be so kind as to lend me a hand, I would appreciate it if we could meet at Qiao Mansion to discuss it further."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "5,940004,1,子曰：“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”\\n\\n有子曰：“其为人也孝弟，而好犯上者，鲜矣；不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与！”\\n\\n子曰：“巧言令色，鲜矣仁！”\\n\\n曾子曰：“吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？”\\n\\n子曰：“道千乘之国，敬事而信，节用而爱人，使民以时。”\\n\\n子曰：“弟子入则孝，出则弟，谨而信，泛爱众，而亲仁，行有余力，则以学文。”\\n\\n子夏曰：“贤贤易色；事父母，能竭其力；事君，能致其身；与朋友交，言而有信。虽曰未学，吾必谓之学矣。”\\n\\n子曰：“君子不重则不威，学则不固。主忠信，无友不如己者，过，则勿惮改。”\\n\\n曾子曰：“慎终追远，民德归厚矣。”\\n\\n子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？”子贡曰：“夫子温、良、恭、俭、让以得之。夫子之求之也，其诸异乎人之求之与？”\\n\\n子曰：“父在，观其志；父没，观其行；三年无改于父之道，可谓孝矣。”\\n\\n有子曰：“礼之用，和为贵。先王之道，斯为美，小大由之。有所不行，知和而和，不以礼节之，亦不可行也。”\\n\\n有子曰：“信近于义，言可复也。恭近于礼，远耻辱也。因不失其亲，亦可宗也。”\\n\\n子曰：“君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。可谓好学也已。”\\n\\n子贡曰：“贫而无谄，富而无骄，何如？”子曰：“可也。未若贫而乐，富而好礼者也。”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。”\\n\\n子曰：“不患人之不己知，患不知人也。”,,,,,"
+  splits:
+  - split: 3
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 1
+    text: "“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”"
+    translated: "Is it not a joy to learn and practice what you have learned in due time? Is it not a pleasure when friends come from afar? Is it not the mark of a gentleman to remain unruffled even when others do not recognize your worth?"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 2
+    text: "有子曰"
+    translated: "Master said:"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 3
+    text: "“其为人也孝弟，而好犯上者，鲜矣；不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与！”"
+    translated: "Such a person is filial and fraternal, yet fond of defying superiors-how rare is that! One who does not defy superiors yet delights in rebellion has never existed. The gentleman devotes himself to the root; when the root is established, the Way arises. Filiality and fraternal respect-are they not the root of benevolence?"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 4
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 5
+    text: "“巧言令色，鲜矣仁！”"
+    translated: "Smooth talk and a pleasant face are rarely accompanied by true benevolence!"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 6
+    text: "曾子曰"
+    translated: "Master Zeng said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 7
+    text: "“吾日三省吾身"
+    translated: "'I examine myself three times a day"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 8
+    text: "为人谋而不忠乎？与朋友交而不信乎？传不习乎？”"
+    translated: "Have I been disloyal in serving others? Have I been untrustworthy in my dealings with friends? Have I failed to practice what I have learned?'"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 9
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 10
+    text: "“道千乘之国，敬事而信，节用而爱人，使民以时。”"
+    translated: "Govern a state of a thousand chariots with reverence and trustworthiness; be frugal in expenditure and loving toward the people; employ them only at the proper times."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 11
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 12
+    text: "“弟子入则孝，出则弟，谨而信，泛爱众，而亲仁，行有余力，则以学文。”"
+    translated: "When a disciple is at home, he should be filial; when outside, he should be respectful to his elders. He should be careful in his conduct and faithful in his words, showing broad love to all and drawing close to the benevolent. If he still has energy to spare after these duties, he should then apply himself to learning."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 13
+    text: "子夏曰"
+    translated: "Zixia said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 14
+    text: "“贤贤易色；事父母，能竭其力；事君，能致其身；与朋友交，言而有信。虽曰未学，吾必谓之学矣。”"
+    translated: "A man who values virtue over beauty; who serves his parents with all his strength; who serves his lord with his whole self; and who keeps his word in dealings with friends-though he may claim to be unlearned, I would call him a scholar."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 15
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 16
+    text: "“君子不重则不威，学则不固。主忠信，无友不如己者，过，则勿惮改。”"
+    translated: "A gentleman who lacks gravity lacks dignity; his learning will be insecure. He should be faithful and sincere in his conduct, and associate only with those who are equal to or better than himself. When he makes a mistake, he should not hesitate to correct it."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 17
+    text: "曾子曰"
+    translated: "Master Zeng said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 18
+    text: "“慎终追远，民德归厚矣。”"
+    translated: "Be cautious at the end and remember the distant past, and the people's virtue will return to its thickness."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 19
+    text: "子禽问于子贡曰"
+    translated: "Zi Qin asked Zi Gong, saying:"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 20
+    text: "“夫子至于是邦也，必闻其政，求之与，抑与之与？”子贡曰"
+    translated: "When the Master arrived in a state, he would certainly inquire about its governance. Was he seeking to participate in it, or was he being offered a position? Zigong said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 21
+    text: "“夫子温、良、恭、俭、让以得之。夫子之求之也，其诸异乎人之求之与？”"
+    translated: "Master Wen acquired his position through warmth, goodness, respect, frugality, and humility. In the way Master Wen sought it, perhaps he differed from others in their pursuit?"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 22
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 23
+    text: "“父在，观其志；父没，观其行；三年无改于父之道，可谓孝矣。”"
+    translated: "When a father is alive, observe his son's aspirations; when he has passed, observe his actions. If after three years the son does not alter his father's way, he may be called filial."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 24
+    text: "有子曰"
+    translated: "Master said:"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 25
+    text: "“礼之用，和为贵。先王之道，斯为美，小大由之。有所不行，知和而和，不以礼节之，亦不可行也。”"
+    translated: "The use of propriety values harmony as the most precious. The way of the former kings was beautiful in this respect; both great and small matters followed it. However, if there are cases where this cannot be carried out, and one knows harmony but pursues harmony without regulating it by propriety, then it also cannot be carried out."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 26
+    text: "有子曰"
+    translated: "Master said:"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 27
+    text: "“信近于义，言可复也。恭近于礼，远耻辱也。因不失其亲，亦可宗也。”"
+    translated: "Trust that aligns with righteousness makes one's words trustworthy. Reverence that aligns with propriety keeps one far from disgrace. Relying on others without losing sight of the worthy is also worthy of trust."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 28
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 29
+    text: "“君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。可谓好学也已。”"
+    translated: "A gentleman does not seek to be well-fed in his food, nor to be at ease in his dwelling; he is quick in action and cautious in speech. He associates with those who have the Way in order to rectify himself. This may be called a love of learning."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 30
+    text: "子贡曰"
+    translated: "Zigong said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 31
+    text: "“贫而无谄，富而无骄，何如？”子曰"
+    translated: "Being poor yet not servile, and being rich yet not arrogant-how is that? The Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 32
+    text: "“可也。未若贫而乐，富而好礼者也。”子贡曰"
+    translated: "Indeed. Yet one who is poor yet finds joy in life, or wealthy yet reveres propriety, surpasses such a person. Zigong said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 33
+    text: "“《诗》云"
+    translated: "Book of Songs says"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 34
+    text: "‘如切如磋，如琢如磨’，其斯之谓与？”子曰"
+    translated: "As if cutting and filing, as if carving and polishing'-is this what is meant by it? The Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 35
+    text: "“赐也，始可与言《诗》已矣，告诸往而知来者。”"
+    translated: "Zi, you may now discuss the Book of Songs with me. You can infer what is to come from what has been told."
+    safeToTranslate: false
+  - split: 3
+    subIndex: 36
+    text: "子曰"
+    translated: "Master said"
+    safeToTranslate: false
+  - split: 3
+    subIndex: 37
+    text: "“不患人之不己知，患不知人也。”"
+    translated: "Do not worry that others do not know you; worry that you do not know others."
+    safeToTranslate: false
+  templates:
+  - split: 3
+    template: "{0}：{1}\\n\\n{2}：{3}\\n\\n{4}：{5}\\n\\n{6}：{7}：{8}\\n\\n{9}：{10}\\n\\n{11}：{12}\\n\\n{13}：{14}\\n\\n{15}：{16}\\n\\n{17}：{18}\\n\\n{19}：{20}：{21}\\n\\n{22}：{23}\\n\\n{24}：{25}\\n\\n{26}：{27}\\n\\n{28}：{29}\\n\\n{30}：{31}：{32}：{33}：{34}：{35}\\n\\n{36}：{37}"
+- raw: "6,940003,2,青田鱼一条，洗净晾干，留其皮鳞。\\n姜两片，切碎，酱汁少许，淋其上。\\n武火燎烧片刻，遂转文火静待。\\n覆水没其鱼身，待其汤稠若乳白，色泽清亮而味美。,,,,,"
+  splits:
+  - split: 3
+    text: "青田鱼一条，洗净晾干，留其皮鳞。"
+    translated: "Take one Qingtian fish, wash it clean and dry it, keeping the skin and scales intact."
+    qcReviewedText: "Take one Qingtian fish, wash it clean and dry it, keeping the skin and scales intact.\\nSlice two pieces of ginger, mince them, add a little sauce, and drizzle over the top.\\nApply high heat for a moment, then reduce to low heat and wait quietly.\\nPour the water over the fish until it is submerged. Wait until the broth thickens to a milky white, achieving a clear, bright color and a delicious flavor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "姜两片，切碎，酱汁少许，淋其上。"
+    translated: "Slice two pieces of ginger, mince them, add a little sauce, and drizzle over the top."
+  - split: 3
+    subIndex: 2
+    text: "武火燎烧片刻，遂转文火静待。"
+    translated: "Apply high heat for a moment, then reduce to low heat and wait quietly."
+  - split: 3
+    subIndex: 3
+    text: "覆水没其鱼身，待其汤稠若乳白，色泽清亮而味美。"
+    translated: "Pour the water over the fish until it is submerged. Wait until the broth thickens to a milky white, achieving a clear, bright color and a delicious flavor."
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "7,990002,2,乾卦为天，象曰：大哉乾元，春生夏长，万物资始。元亨利贞，天行健，君子以自强不息。,,,,,"
+  splits:
+  - split: 3
+    text: "乾卦为天，象曰"
+    translated: "The Qian trigram represents Heaven; the Image states:"
+    qcReviewedText: "The Qian trigram represents Heaven; the Image states:：Great is the creative power of Heaven; in spring things are born, in summer they grow, and all things draw their origin from it. The Way is original, penetrating, harmonious, and firm. Heaven moves with vigor; thus the noble person strives ceaselessly for self-strengthening."
+    qcTranslated: "The Qian trigram represents Heaven; the Image states: Great is the creative power of Heaven; in spring things are born, in summer they grow, and all things draw their origin from it. The Way is original, penetrating, harmonious, and firm. Heaven moves with vigor; thus the noble person strives ceaselessly for self-strengthening."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 3
+    subIndex: 1
+    text: "大哉乾元，春生夏长，万物资始。元亨利贞，天行健，君子以自强不息。"
+    translated: "Great is the creative power of Heaven; in spring things are born, in summer they grow, and all things draw their origin from it. The Way is original, penetrating, harmonious, and firm. Heaven moves with vigor; thus the noble person strives ceaselessly for self-strengthening."
+  templates:
+  - split: 3
+    template: "{0}：{1}"
+- raw: "8,980021,2,江夫见信如面：\\n\\n冬日将至，天愈寒冷，家中不够钱添置棉衣，需得你寄回五六百钱来，我去东市买棉布来编衣，能省下不少钱。\\n\\n现如今匪祸横行，许久未收到你的信件，也不知你自己独身一人在外，能否寻得一处安定居所，能否吃饱穿暖？\\n\\n不用太过担心家中，女儿更加乖巧懂事了，现在能够帮我取丝来补贴家用了。女儿十分思念你，每日吵着要见父亲。\\n\\n唉...哪怕未积攒下钱财，也尽早归家，平安回来。我们多穿几件薄衣，修补好屋中破洞，也能熬过这个冬天。\\n\\n盼即赐复。,,,,,"
+  splits:
+  - split: 3
+    text: "江夫见信如面"
+    translated: "Husband Jiang, this letter serves as my presence before you."
+    qcReviewedText: "Husband Jiang, this letter serves as my presence before you.：\\n\\nWinter is approaching and the cold is intensifying. We do not have enough money at home to buy padded clothing. Please send back five or six hundred coins so I can purchase cotton cloth from the East Market and sew clothes myself, which will save us a considerable amount of money.\\n\\nThese days, bandits run rampant. I have not received a letter from you in a long time, and I do not know if you, alone out there, have found a place of safety, or if you are able to eat your fill and stay warm.\\n\\nThere is no need to worry about home. My daughter has become even more obedient and sensible; she can now help me spin silk to supplement our household income. She misses you greatly and begs to see her father every day.\\n\\nSigh... Even if we haven't saved up any money, let's return home as soon as possible and come back safely. If we wear a few extra layers of thin clothing and patch up the holes in the house, we can get through this winter.\\n\\nI await your reply"
+    qcTranslated: "Husband Jiang, this letter serves as my presence before you:\\n\\nWinter is approaching and the cold is intensifying. We do not have enough money at home to buy padded clothing. Please send back five or six hundred coins so I can purchase cotton cloth from the East Market and sew clothes myself, which will save us a considerable amount of money.\\n\\nThese days, bandits run rampant. I have not received a letter from you in a long time, and I do not know if you, alone out there, have found a place of safety, or if you are able to eat your fill and stay warm.\\n\\nThere is no need to worry about home. My daughter has become even more obedient and sensible; she can now help me spin silk to supplement our household income. She misses you greatly and begs to see her father every day.\\n\\nSigh... Even if we haven't saved up any money, let's return home as soon as possible and come back safely. If we wear a few extra layers of thin clothing and patch up the holes in the house, we can get through this winter.\\n\\nI await your reply"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 3
+    subIndex: 1
+    text: "冬日将至，天愈寒冷，家中不够钱添置棉衣，需得你寄回五六百钱来，我去东市买棉布来编衣，能省下不少钱。"
+    translated: "Winter is approaching and the cold is intensifying. We do not have enough money at home to buy padded clothing. Please send back five or six hundred coins so I can purchase cotton cloth from the East Market and sew clothes myself, which will save us a considerable amount of money."
+  - split: 3
+    subIndex: 2
+    text: "现如今匪祸横行，许久未收到你的信件，也不知你自己独身一人在外，能否寻得一处安定居所，能否吃饱穿暖？"
+    translated: "These days, bandits run rampant. I have not received a letter from you in a long time, and I do not know if you, alone out there, have found a place of safety, or if you are able to eat your fill and stay warm."
+  - split: 3
+    subIndex: 3
+    text: "不用太过担心家中，女儿更加乖巧懂事了，现在能够帮我取丝来补贴家用了。女儿十分思念你，每日吵着要见父亲。"
+    translated: "There is no need to worry about home. My daughter has become even more obedient and sensible; she can now help me spin silk to supplement our household income. She misses you greatly and begs to see her father every day."
+  - split: 3
+    subIndex: 4
+    text: "唉...哪怕未积攒下钱财，也尽早归家，平安回来。我们多穿几件薄衣，修补好屋中破洞，也能熬过这个冬天。"
+    translated: "Sigh... Even if we haven't saved up any money, let's return home as soon as possible and come back safely. If we wear a few extra layers of thin clothing and patch up the holes in the house, we can get through this winter."
+  - split: 3
+    subIndex: 5
+    text: "盼即赐复。"
+    translated: "I await your reply"
+  templates:
+  - split: 3
+    template: "{0}：\\n\\n{1}\\n\\n{2}\\n\\n{3}\\n\\n{4}\\n\\n{5}"
+- raw: "9,980022,2,江怀楚已为镇国卫杜颜白所杀，遗剑法典籍一册，另有古丹方藏匿青萍村中，速取，重赏。/n商会廿九,,,,,"
+  splits:
+  - split: 3
+    text: "江怀楚已为镇国卫杜颜白所杀，遗剑法典籍一册，另有古丹方藏匿青萍村中，速取，重赏。"
+    translated: "Jiang Huaichu has been slain by Du Yanbai of the Imperial Guard. He left behind a volume of Sword Art manuals, and an ancient pill recipe is hidden in Qingping Village. Retrieve it swiftly; a heavy reward awaits."
+    qcReviewedText: "Jiang Huaichu has been slain by Du Yanbai of the Imperial Guard. He left behind a volume of Sword Art manuals, and an ancient pill recipe is hidden in Qingping Village. Retrieve it swiftly; a heavy reward awaits./n Merchant Guild Twenty-Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "商会廿九"
+    translated: "Merchant Guild Twenty-Nine"
+  templates:
+  - split: 3
+    template: "{0}/n{1}"
+- raw: "10,980023,2,无名兄，见信如晤：\\n十余载未见，当年兄台故乡一别，余至今仍难以忘怀。\\n\\n那夜在下久寻兄而不得，便寻至兄家，兄母即赴黄泉代余寻尔，而兄嫂，兄妹则招待侍寝，而后便自追随父母，甚是无趣。兄当年何不同去？\\n\\n既当年未行，便可来青萍村寻我。弟暂遣弟之得意门生传信，望兄到时切莫耽搁，我兄弟二人之事，尚未了结。 \\n\\n顺颂时祺。,,,,,"
+  splits:
+  - split: 3
+    text: "无名兄，见信如晤"
+    translated: "Brother Wuming, may this letter find you well."
+    qcReviewedText: "Brother Wuming, may this letter find you well.：\\nIt has been over ten years since we last met. I still cannot forget our parting in your homeland all those years ago.\\n\\nThat night, I searched for you for a long time but could not find you. I then went to your home, where your mother immediately departed for the Yellow Springs to search for you on my behalf. Your wife and siblings, however, entertained me and attended to my rest. Afterward, I followed my parents, which was rather dull. Why did you not go with them back then?\\n\\nSince you did not act back then, you may come to Qingping Village to find me. I have sent my most promising disciple to deliver this message. I hope you will not delay upon your arrival. The matters between you and me are far from settled. \\n\\nWith best wishes for the season"
+    qcTranslated: "Brother Wuming, may this letter find you well.\\nIt has been over ten years since we last met. I still cannot forget our parting in your homeland all those years ago.\\n\\nThat night, I searched for you for a long time but could not find you. I then went to your home, where your mother immediately departed for the Yellow Springs to search for you on my behalf. Your wife and siblings, however, entertained me and attended to my rest. Afterward, they followed their parents, which was rather dull. Why did you not go with them back then?\\n\\nSince you did not act back then, you may come to Qingping Village to find me. I have sent my most promising disciple to deliver this message. I hope you will not delay upon your arrival. The matters between you and me are far from settled. \\n\\nWith best wishes for the season"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 3
+    subIndex: 1
+    text: "十余载未见，当年兄台故乡一别，余至今仍难以忘怀。"
+    translated: "It has been over ten years since we last met. I still cannot forget our parting in your homeland all those years ago."
+  - split: 3
+    subIndex: 2
+    text: "那夜在下久寻兄而不得，便寻至兄家，兄母即赴黄泉代余寻尔，而兄嫂，兄妹则招待侍寝，而后便自追随父母，甚是无趣。兄当年何不同去？"
+    translated: "That night, I searched for you for a long time but could not find you. I then went to your home, where your mother immediately departed for the Yellow Springs to search for you on my behalf. Your wife and siblings, however, entertained me and attended to my rest. Afterward, I followed my parents, which was rather dull. Why did you not go with them back then?"
+  - split: 3
+    subIndex: 3
+    text: "既当年未行，便可来青萍村寻我。弟暂遣弟之得意门生传信，望兄到时切莫耽搁，我兄弟二人之事，尚未了结。"
+    translated: "Since you did not act back then, you may come to Qingping Village to find me. I have sent my most promising disciple to deliver this message. I hope you will not delay upon your arrival. The matters between you and me are far from settled."
+  - split: 3
+    subIndex: 4
+    text: "顺颂时祺。"
+    translated: "With best wishes for the season"
+  templates:
+  - split: 3
+    template: "{0}：\\n{1}\\n\\n{2}\\n\\n{3} \\n\\n{4}"
+- raw: "11,980024,2,小友，见信如唔:\\n分别不过些许时日，小友已前往承安，想必是武学另有进境，后进果真不可小觑，至于你体内互冲的两气，不得不劝你，寻常武人能做到如邓馆主一般的进境已属不易，若你欲再进一层，则必须令体内两股真气不再互相消耗。\\n\\n天下武学中，太和武学中正平和，内力精纯，若欲寻此法，需前往太和山，不要去前殿，只去寻【太和山隐仙岩】便可。,,,,,"
+  splits:
+  - split: 3
+    text: "小友，见信如唔"
+    translated: "Dear friend, I hope this letter finds you well."
+    qcReviewedText: "Dear friend, I hope this letter finds you well.: \\nIt has been but a short while since we last met, yet you have already traveled to Cheng'an. I suspect your martial arts have advanced further. One must never underestimate the younger generation. As for the two opposing forces of energy within your body, I must advise you: it is already no small feat for an ordinary martial artist to achieve progress comparable to that of Pavilion Master Deng. If you wish to advance another step, you must ensure that the two streams of True Qi within you cease to deplete one another.\\n\\nAmong all Martial Arts in the world, Taihe Martial Art is balanced and harmonious, with pure Inner Power. To seek this method, you must go to Taihe Mountain. Do not enter the front hall; simply search for [Yinxian Rock on Taihe Mountain]."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "分别不过些许时日，小友已前往承安，想必是武学另有进境，后进果真不可小觑，至于你体内互冲的两气，不得不劝你，寻常武人能做到如邓馆主一般的进境已属不易，若你欲再进一层，则必须令体内两股真气不再互相消耗。"
+    translated: "It has been but a short while since we last met, yet you have already traveled to Cheng'an. I suspect your martial arts have advanced further. One must never underestimate the younger generation. As for the two opposing forces of energy within your body, I must advise you: it is already no small feat for an ordinary martial artist to achieve progress comparable to that of Pavilion Master Deng. If you wish to advance another step, you must ensure that the two streams of True Qi within you cease to deplete one another."
+  - split: 3
+    subIndex: 2
+    text: "天下武学中，太和武学中正平和，内力精纯，若欲寻此法，需前往太和山，不要去前殿，只去寻【太和山隐仙岩】便可。"
+    translated: "Among all Martial Arts in the world, Taihe Martial Art is balanced and harmonious, with pure Inner Power. To seek this method, you must go to Taihe Mountain. Do not enter the front hall; simply search for [Yinxian Rock on Taihe Mountain]."
+  templates:
+  - split: 3
+    template: "{0}:\\n{1}\\n\\n{2}"
+- raw: "12,980025,2,蜂蛹五枚。\\n天麻草少许。\\n迷香草三株。,,,,,"
+  splits:
+  - split: 3
+    text: "蜂蛹五枚。"
+    translated: "Five bee larvae"
+    qcReviewedText: "Five bee larvae \\nA small amount of Gastrodia Herb \\nThree Intoxicating Incense Herbs"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "天麻草少许。"
+    translated: "A small amount of Gastrodia Herb"
+  - split: 3
+    subIndex: 2
+    text: "迷香草三株。"
+    translated: "Three Intoxicating Incense Herbs"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}"
+- raw: "13,980026,2,见信如晤：\\n我已至杭州，于府衙内拜访前辈，恰得了城内巡捕差事，虽追索换糖帮一事颇为麻烦，却亦是竭心尽力，若阁下恰履杭州，且来寻在下，那时定然宴请阁下，为阁下接风洗尘，以报太和山间相助之恩。\\n戚定远,,,,,"
+  splits:
+  - split: 3
+    text: "见信如晤"
+    translated: "As if seeing you in person"
+    qcReviewedText: "As if seeing you in person：\\nI have arrived in Hangzhou and visited the Senior at the prefectural office. I was fortunate enough to secure a position as a city patrol officer. Although investigating the Sugar Exchange Gang has proven quite troublesome, I am giving it my all. Should you happen to be passing through Hangzhou, please come find me. I will certainly host a banquet in your honor to wash the dust from your travels and repay the kindness you showed me on Taihe Mountain.\\nQi Dingyuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "我已至杭州，于府衙内拜访前辈，恰得了城内巡捕差事，虽追索换糖帮一事颇为麻烦，却亦是竭心尽力，若阁下恰履杭州，且来寻在下，那时定然宴请阁下，为阁下接风洗尘，以报太和山间相助之恩。"
+    translated: "I have arrived in Hangzhou and visited the Senior at the prefectural office. I was fortunate enough to secure a position as a city patrol officer. Although investigating the Sugar Exchange Gang has proven quite troublesome, I am giving it my all. Should you happen to be passing through Hangzhou, please come find me. I will certainly host a banquet in your honor to wash the dust from your travels and repay the kindness you showed me on Taihe Mountain."
+  - split: 3
+    subIndex: 2
+    text: "戚定远"
+    translated: "Qi Dingyuan"
+  templates:
+  - split: 3
+    template: "{0}：\\n{1}\\n{2}"
+- raw: "14,980027,1,从那宅子逃出多日……在杭州也寻不到丁郎……近日总有人影在我周遭徘徊，一定是桃花坞的恶人们！他们来捉我回去……\\n丁郎，丁郎你在何处……我不要再回桃花坞，不要！,,,,,"
+  splits:
+  - split: 3
+    text: "从那宅子逃出多日……在杭州也寻不到丁郎……近日总有人影在我周遭徘徊，一定是桃花坞的恶人们！他们来捉我回去……"
+    translated: "It has been many days since I escaped that house... I still cannot find Ding Lang in Hangzhou... Lately, there are always figures lurking around me. It must be the villains from Taohua Dock! They have come to drag me back..."
+    qcReviewedText: "It has been many days since I escaped that house... I still cannot find Ding Lang in Hangzhou... Lately, there are always figures lurking around me. It must be the villains from Taohua Dock! They have come to drag me back...\\nDing Lang, Ding Lang, where are you... I don't want to return to Taohua Dock. No!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "丁郎，丁郎你在何处……我不要再回桃花坞，不要！"
+    translated: "Ding Lang, Ding Lang, where are you... I don't want to return to Taohua Dock. No!"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}"
+- raw: "15,980028,1,神狩十三年——杀潜川镇吴氏取血，始修魔功\\n神狩十五年——杀杭州四位年轻女子取血\\n神狩十六年——两人合杀工部尚书徐承禄满门九十二口\\n神狩十七年——因逢临安县父子口角，以不孝为由残杀其子\\n神狩十七年——被王扫庭缉至青萍村中，暂寄其命\\n神狩二十二年——恶性难改，青萍村中残杀数人，后更趁乱逃出\\n当诛,,,,,"
+  splits:
+  - split: 3
+    text: "神狩十三年——杀潜川镇吴氏取血，始修魔功"
+    translated: "The Thirteenth Year of the Divine Hunt-Slaughtered the Wu clan of Qianchuan Town to harvest their blood, and began cultivating demonic arts."
+    qcReviewedText: "The Thirteenth Year of the Divine Hunt-Slaughtered the Wu clan of Qianchuan Town to harvest their blood, and began cultivating demonic arts.\\nThe Fifteenth Year of the Divine Hunt-Slaying Four Young Women in Hangzhou to Harvest Their Blood \\nYear 16 of the Divine Hunt-The two jointly slew the entire household of Xu Chenglu, Minister of Works, ninety-two souls in total.\\nYear 17 of the Divine Hunt-Due to a verbal altercation between a father and son in Lin'an County, the son was brutally killed on charges of filial impiety.\\nYear 17 of the Divine Hunt-arrested by Wang Saoting and confined to Qingping Village, where his life was temporarily spared.\\nYear 22 of the Divine Hunt-Unrepentant in nature, he killed several people in Qingping Village and later escaped amid the chaos.\\nExecute them"
+    qcTranslated: "The Thirteenth Year of the Divine Hunt-Slaughtered the Wu clan of Qianchuan Town to harvest their blood, and began cultivating demonic arts.\\nThe Fifteenth Year of the Divine Hunt-Slayed four Young Women in Hangzhou to harvest their blood.\\nYear 16 of the Divine Hunt-The two jointly slew the entire household of Xu Chenglu, Minister of Works, ninety-two souls in total.\\nYear 17 of the Divine Hunt-Due to a verbal altercation between a father and son in Lin'an County, the son was brutally killed on charges of filial impiety.\\nYear 17 of the Divine Hunt-arrested by Wang Saoting and confined to Qingping Village, where his life was temporarily spared.\\nYear 22 of the Divine Hunt-Unrepentant in nature, he killed several people in Qingping Village and later escaped amid the chaos.\\nExecute them"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
+  - split: 3
+    subIndex: 1
+    text: "神狩十五年——杀杭州四位年轻女子取血"
+    translated: "The Fifteenth Year of the Divine Hunt-Slaying Four Young Women in Hangzhou to Harvest Their Blood"
+  - split: 3
+    subIndex: 2
+    text: "神狩十六年——两人合杀工部尚书徐承禄满门九十二口"
+    translated: "Year 16 of the Divine Hunt-The two jointly slew the entire household of Xu Chenglu, Minister of Works, ninety-two souls in total."
+  - split: 3
+    subIndex: 3
+    text: "神狩十七年——因逢临安县父子口角，以不孝为由残杀其子"
+    translated: "Year 17 of the Divine Hunt-Due to a verbal altercation between a father and son in Lin'an County, the son was brutally killed on charges of filial impiety."
+  - split: 3
+    subIndex: 4
+    text: "神狩十七年——被王扫庭缉至青萍村中，暂寄其命"
+    translated: "Year 17 of the Divine Hunt-arrested by Wang Saoting and confined to Qingping Village, where his life was temporarily spared."
+  - split: 3
+    subIndex: 5
+    text: "神狩二十二年——恶性难改，青萍村中残杀数人，后更趁乱逃出"
+    translated: "Year 22 of the Divine Hunt-Unrepentant in nature, he killed several people in Qingping Village and later escaped amid the chaos."
+  - split: 3
+    subIndex: 6
+    text: "当诛"
+    translated: "Execute them"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}\\n{6}"
+- raw: "16,980029,2,弟仲亲启：\\n自连环寨矗于镇外，承安风雨飘摇，西门家既居此位，已断难独善其身。汝自幼虽无意于继掌族业，然此危急之年，恐需以西门氏之存续为重，吾自与连环寨暂作周旋。倘若事有不协，吾身死无妨，西门一脉便着于汝手。\\n海天在望，不尽依迟。 ,,,,,"
+  splits:
+  - split: 3
+    text: "弟仲亲启"
+    translated: "To My Dearest Brother Zhong"
+    qcReviewedText: "To My Dearest Brother Zhong：\\nSince Lianhuan Stronghold stands beyond the town and Cheng'an is on the brink of collapse, the Ximen family, holding its current position, can no longer remain isolated from the turmoil. Though you have never shown interest in taking over the family affairs since childhood, in these perilous times, the survival of the Ximen clan must take precedence. I shall engage in temporary negotiations with Lianhuan Stronghold. Should things go awry and I meet my end, the continuation of the Ximen line will rest in your hands.\\nThe sea and sky lie in view, their endless expanse lingering before us. "
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "自连环寨矗于镇外，承安风雨飘摇，西门家既居此位，已断难独善其身。汝自幼虽无意于继掌族业，然此危急之年，恐需以西门氏之存续为重，吾自与连环寨暂作周旋。倘若事有不协，吾身死无妨，西门一脉便着于汝手。"
+    translated: "Since Lianhuan Stronghold stands beyond the town and Cheng'an is on the brink of collapse, the Ximen family, holding its current position, can no longer remain isolated from the turmoil. Though you have never shown interest in taking over the family affairs since childhood, in these perilous times, the survival of the Ximen clan must take precedence. I shall engage in temporary negotiations with Lianhuan Stronghold. Should things go awry and I meet my end, the continuation of the Ximen line will rest in your hands."
+  - split: 3
+    subIndex: 2
+    text: "海天在望，不尽依迟。"
+    translated: "The sea and sky lie in view, their endless expanse lingering before us."
+  templates:
+  - split: 3
+    template: "{0}：\\n{1}\\n{2} "
+- raw: "17,980030,2,余离家经商多年，于杭州受灾民、流寇所困，财帛已尽，如今唯有冒死出城，若有不测，望逢吉人将此信送往临川村张氏之处，必有重酬。,,,,,"
+  splits:
+  - split: 3
+    text: "余离家经商多年，于杭州受灾民、流寇所困，财帛已尽，如今唯有冒死出城，若有不测，望逢吉人将此信送往临川村张氏之处，必有重酬。"
+    translated: "I have been away from home doing business for many years. In Hangzhou, I was trapped by disaster victims and bandits, and my wealth has been exhausted. Now I must risk my life to leave the city. Should anything happen to me, I hope a kind soul will deliver this letter to the Zhang family in Linchuan Village. A generous reward awaits."
+    qcReviewedText: "I have been away from home doing business for many years. In Hangzhou, I was trapped by disaster victims and bandits, and my wealth has been exhausted. Now I must risk my life to leave the city. Should anything happen to me, I hope a kind soul will deliver this letter to the Zhang family in Linchuan Village. A generous reward awaits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "18,980031,2,你我却亦相别，临行之际，唯愿阁下不负今夕之月，不悔今日之言，若然明日三竿，妾身等不到阁下赎我……那也只怪，你我今生无缘，容妾身，来世再寻此情……,,,,,"
+  splits:
+  - split: 3
+    text: "你我却亦相别，临行之际，唯愿阁下不负今夕之月，不悔今日之言，若然明日三竿，妾身等不到阁下赎我……那也只怪，你我今生无缘，容妾身，来世再寻此情……"
+    translated: "Yet we must part. As you depart, I only wish that you will not betray the moon of this night, nor regret the words spoken today. Should the sun rise high tomorrow and I still await your redemption... then it can only be said that our fates were never meant to intertwine in this life. Allow me to seek this love again in a future existence..."
+    qcReviewedText: "Yet we must part. As you depart, I only wish that you will not betray the moon of this night, nor regret the words spoken today. Should the sun rise high tomorrow and I still await your redemption... then it can only be said that our fates were never meant to intertwine in this life. Allow me to seek this love again in a future existence..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "19,980032,2,沈某自决断擅自调兵以来，便已知晓船场诸事皆是奸臣阴险筹谋，只为逼迫沈某出面相抗，借此罗织罪名，以图谋沈家数代积累之财货……\\n然沈某无法坐视奸臣害民残灭之举，故以身饲虎，以沈家万贯家财及自身性命，换得数千船工、万余流民之保全！\\n此事乃沈某一意孤行，唯念小女梦秋年岁尚小，还请阁下带小女远离此是非之地，从此浪迹天涯也好过如我这般结局……\\n沈瑄涕泪再拜，所请之事，务祈垂许。\\n,,,,,"
+  splits:
+  - split: 3
+    text: "沈某自决断擅自调兵以来，便已知晓船场诸事皆是奸臣阴险筹谋，只为逼迫沈某出面相抗，借此罗织罪名，以图谋沈家数代积累之财货……"
+    translated: "Ever since I, Shen, made the decision to redeploy troops on my own authority, I have known that every matter at the shipyard was a sinister scheme orchestrated by treacherous ministers. Their sole aim is to force me to confront them openly, thereby fabricating charges against me and seizing the wealth accumulated by the Shen family over generations..."
+    qcReviewedText: "Ever since I, Shen, made the decision to redeploy troops on my own authority, I have known that every matter at the shipyard was a sinister scheme orchestrated by treacherous ministers. Their sole aim is to force me to confront them openly, thereby fabricating charges against me and seizing the wealth accumulated by the Shen family over generations...\\nYet I, Shen, could not stand by while treacherous ministers harmed the people and committed atrocities. Thus, I fed myself to the tiger, wagering the Shen family's vast fortune and my own life to secure the safety of thousands of boatmen and over ten thousand refugees!\\nThis was Shen's own reckless decision. Considering that my daughter Mengqiu is still young, I beg you to take her far from this place of strife. Wandering the world freely would be better than ending up like me...\\nShen Xuan wept and kowtowed again, earnestly begging for your gracious permission to grant his request.\\n"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "然沈某无法坐视奸臣害民残灭之举，故以身饲虎，以沈家万贯家财及自身性命，换得数千船工、万余流民之保全！"
+    translated: "Yet I, Shen, could not stand by while treacherous ministers harmed the people and committed atrocities. Thus, I fed myself to the tiger, wagering the Shen family's vast fortune and my own life to secure the safety of thousands of boatmen and over ten thousand refugees!"
+  - split: 3
+    subIndex: 2
+    text: "此事乃沈某一意孤行，唯念小女梦秋年岁尚小，还请阁下带小女远离此是非之地，从此浪迹天涯也好过如我这般结局……"
+    translated: "This was Shen's own reckless decision. Considering that my daughter Mengqiu is still young, I beg you to take her far from this place of strife. Wandering the world freely would be better than ending up like me..."
+  - split: 3
+    subIndex: 3
+    text: "沈瑄涕泪再拜，所请之事，务祈垂许。"
+    translated: "Shen Xuan wept and kowtowed again, earnestly begging for your gracious permission to grant his request."
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n"
+- raw: "20,980033,2,\"太和山经此一事，非可久留之所,我护送潜龙先生回往钱塘听潮阁寻卢师以定计策，多番相救，难以言谢，就此一别，江湖再会。--孙茶。\",,,,,"
+  splits:
+  - split: 3
+    text: "太和山经此一事，非可久留之所"
+    translated: "Taihe Mountain is no longer a place where one can stay for long."
+    qcReviewedText: "Taihe Mountain is no longer a place where one can stay for long.,I escorted Mr. Qianlong back to the Tiaochao Pavilion in Qiantang to seek Master Lu and finalize our strategy. You have saved me on multiple occasions, and I find it hard to express my gratitude. This is where we part ways; may we meet again in the Jianghu.--Sun Cha"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "我护送潜龙先生回往钱塘听潮阁寻卢师以定计策，多番相救，难以言谢，就此一别，江湖再会。"
+    translated: "I escorted Mr. Qianlong back to the Tiaochao Pavilion in Qiantang to seek Master Lu and finalize our strategy. You have saved me on multiple occasions, and I find it hard to express my gratitude. This is where we part ways; may we meet again in the Jianghu."
+  - split: 3
+    subIndex: 2
+    text: "孙茶。"
+    translated: "Sun Cha"
+  templates:
+  - split: 3
+    template: "{0},{1}--{2}"
+- raw: "21,980034,2,此事机要，勿传他处，朝堂罪臣朱丹阳，藏匿太和山间，值此救封之机，将此人隐回京中，若事有不协，无需顾虑太和，全力截杀此人--下方是一张中年男子画像。,,,,,"
+  splits:
+  - split: 3
+    text: "此事机要，勿传他处，朝堂罪臣朱丹阳，藏匿太和山间，值此救封之机，将此人隐回京中，若事有不协，无需顾虑太和，全力截杀此人"
+    translated: "This matter is highly confidential; do not disclose it to others. The disgraced court official Zhu Danyang is hiding in the Taihe Mountains. Seizing this opportunity of the imperial pardon, bring him back to the capital. Should anything go awry, do not hesitate regarding Taihe; use all means necessary to intercept and kill him."
+    qcReviewedText: "This matter is highly confidential; do not disclose it to others. The disgraced court official Zhu Danyang is hiding in the Taihe Mountains. Seizing this opportunity of the imperial pardon, bring him back to the capital. Should anything go awry, do not hesitate regarding Taihe; use all means necessary to intercept and kill him.--Below is a portrait of a middle-aged man."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "下方是一张中年男子画像。"
+    translated: "Below is a portrait of a middle-aged man."
+  templates:
+  - split: 3
+    template: "{0}--{1}"
+- raw: "22,980035,2,脚踏非实地，浮萍当可凭。\\n一着稍不慎，回眸返太虚。\\n行步踏七星，魁斗连杓柄。\\n紫微自为首，天枢至破军。,,,,,"
+  splits:
+  - split: 3
+    text: "脚踏非实地，浮萍当可凭。"
+    translated: "The ground beneath your feet is not solid; the duckweed can serve as a foothold."
+    qcReviewedText: "The ground beneath your feet is not solid; the duckweed can serve as a foothold.\\nOne careless move, and you return to the Great Void.\\nWalk the Seven Stars, the Dipper's bowl and handle aligned.\\nZiwei leads the stars, from Tianshu to Pojun."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "一着稍不慎，回眸返太虚。"
+    translated: "One careless move, and you return to the Great Void."
+  - split: 3
+    subIndex: 2
+    text: "行步踏七星，魁斗连杓柄。"
+    translated: "Walk the Seven Stars, the Dipper's bowl and handle aligned."
+  - split: 3
+    subIndex: 3
+    text: "紫微自为首，天枢至破军。"
+    translated: "Ziwei leads the stars, from Tianshu to Pojun."
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "23,980036,2,爹爹整日不陪芸儿玩，爹爹是笨蛋！,,,,,"
+  splits:
+  - split: 3
+    text: "爹爹整日不陪芸儿玩，爹爹是笨蛋！"
+    translated: "Father never plays with Yun'er all day long. Father is a silly goose!"
+    qcReviewedText: "Father never plays with Yun'er all day long. Father is a silly goose!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "24,980037,2,余幼时家贫，夏无凉扇，冬欠裘炉。束发年入酒楼帮工，细观躬问，勤习商略，终得其要。数年后，自城中豪富处借抵家资，开办饭铺，初始生意颇隆，然旧贷压身，以利翻利，家资房舍尚不足抵，不得已亡命南疆，自此明志……\\n后半段因浸水染土，字迹已然难辨明晰。,,,,,"
+  splits:
+  - split: 3
+    text: "余幼时家贫，夏无凉扇，冬欠裘炉。束发年入酒楼帮工，细观躬问，勤习商略，终得其要。数年后，自城中豪富处借抵家资，开办饭铺，初始生意颇隆，然旧贷压身，以利翻利，家资房舍尚不足抵，不得已亡命南疆，自此明志……"
+    translated: "In my youth, my family was poor; in summer I had no fan for coolness, and in winter lacked a fur coat or stove. Upon reaching the age of fifteen, I entered a tavern to work as an apprentice. Through careful observation, diligent inquiry, and earnest study of commerce, I eventually mastered its essentials. A few years later, I borrowed capital from the wealthy in the city to establish a restaurant. Initially, business was thriving, but the weight of old debts pressed upon me. As profits were reinvested, my assets and property still fell short of repayment. Forced by circumstances, I fled to the southern frontier, and from then on, I resolved my mind..."
+    qcReviewedText: "In my youth, my family was poor; in summer I had no fan for coolness, and in winter lacked a fur coat or stove. Upon reaching the age of fifteen, I entered a tavern to work as an apprentice. Through careful observation, diligent inquiry, and earnest study of commerce, I eventually mastered its essentials. A few years later, I borrowed capital from the wealthy in the city to establish a restaurant. Initially, business was thriving, but the weight of old debts pressed upon me. As profits were reinvested, my assets and property still fell short of repayment. Forced by circumstances, I fled to the southern frontier, and from then on, I resolved my mind...\\nThe latter half is stained with water and dirt, making the characters difficult to discern clearly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "后半段因浸水染土，字迹已然难辨明晰。"
+    translated: "The latter half is stained with water and dirt, making the characters difficult to discern clearly."
+  templates:
+  - split: 3
+    template: "{0}\\n{1}"
+- raw: "25,980038,2,黑风亡路，黄沙遗冢，今将有死，寄命于斯。他日兄回故地，或用或弃，兄自度之。,,,,,"
+  splits:
+  - split: 3
+    text: "黑风亡路，黄沙遗冢，今将有死，寄命于斯。他日兄回故地，或用或弃，兄自度之。"
+    translated: "Black winds mark the path of the dead, yellow sands hide forgotten tombs. I shall die here, entrusting my fate to this place. When you return to these lands, use or discard what you find-judge for yourself."
+    qcReviewedText: "Black winds mark the path of the dead, yellow sands hide forgotten tombs. I shall die here, entrusting my fate to this place. When you return to these lands, use or discard what you find-judge for yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "26,980039,2,听闻阁下攻破连环，剿除贼首，李某仇耻得雪，无以为报，唯当与妻结草衔环，以谢大恩。,,,,,"
+  splits:
+  - split: 3
+    text: "听闻阁下攻破连环，剿除贼首，李某仇耻得雪，无以为报，唯当与妻结草衔环，以谢大恩。"
+    translated: "I have heard that you broke the chain formation and eradicated the bandit leader. My grievance is avenged, and I have no way to repay your kindness. I and my wife shall be eternally grateful, bound by a debt of life and death."
+    qcReviewedText: "I have heard that you broke the chain formation and eradicated the bandit leader. My grievance is avenged, and I have no way to repay your kindness. I and my wife shall be eternally grateful, bound by a debt of life and death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "27,980040,2,依花相所言，需寻得████之人，因██之体，可以无虞。故择地暂存，以免████████\\n桃之夭夭，灼灼其华。\\n方位在体，物类在用。\\n文字旁画着两个卦象。其一上震下艮，为雷山小过卦；其二上离下艮，为火山旅卦。,,,,,"
+  splits:
+  - split: 3
+    text: "依花相所言，需寻得"
+    translated: "As Hua Xiang says, we must find"
+    qcReviewedText: "As Hua Xiang says, we must find████Person, because██Body, so there is no need to worry. Therefore, I have chosen a temporary resting place to avoid████████\\nThe peach tree blooms in its prime, its blossoms radiant and bright.\\nPosition lies in the body; category lies in function.\\nTwo hexagrams were drawn beside the text. The first had Thunder above and Mountain below, forming the hexagram of Small Exceeding; the second had Fire above and Mountain below, forming the hexagram of Traveler."
+    qcTranslated: "As Hua Xiang says, we must find████Person, for██Body, so there is no need to worry. Therefore, I have chosen a temporary resting place to avoid████████\\nThe peach tree blooms in its prime, its blossoms radiant and bright.\\nPosition lies in the body; category lies in function.\\nTwo hexagrams were drawn beside the text. The first had Thunder above and Mountain below, forming the hexagram of Small Exceeding; the second had Fire above and Mountain below, forming the hexagram of Traveler."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 3
+    subIndex: 1
+    text: "之人，因"
+    translated: "Person, because"
+  - split: 3
+    subIndex: 2
+    text: "之体，可以无虞。故择地暂存，以免"
+    translated: "Body, so there is no need to worry. Therefore, I have chosen a temporary resting place to avoid"
+  - split: 3
+    subIndex: 3
+    text: "桃之夭夭，灼灼其华。"
+    translated: "The peach tree blooms in its prime, its blossoms radiant and bright."
+  - split: 3
+    subIndex: 4
+    text: "方位在体，物类在用。"
+    translated: "Position lies in the body; category lies in function."
+  - split: 3
+    subIndex: 5
+    text: "文字旁画着两个卦象。其一上震下艮，为雷山小过卦；其二上离下艮，为火山旅卦。"
+    translated: "Two hexagrams were drawn beside the text. The first had Thunder above and Mountain below, forming the hexagram of Small Exceeding; the second had Fire above and Mountain below, forming the hexagram of Traveler."
+  templates:
+  - split: 3
+    template: "{0}████{1}██{2}████████\\n{3}\\n{4}\\n{5}"
+- raw: "28,980041,2,执笔欲书，泪潸然，手颤颤。\\n妾知大限将至，每念及此，悲恸难抑。自与君结发，往昔岁月如璨珠熠熠。犹记初逢之时，君跨马执鞭，马踏江湖，何等风采？结为夫妻，相濡以沫，君亦无怨无悔，虽因妾故为王扫庭所害，囚于村中，亦能如妾之春阳，若妾之明月，未尝有怨。\\n今妾身染沉疴，药石罔效。生死有命，不可强求。果果年幼，需君悉心教导，望君以慈育之，以严规之，果果若有所成，妾于九泉之下，亦能瞑目。\\n唐兰月绝笔,,,,,"
+  splits:
+  - split: 3
+    text: "执笔欲书，泪潸然，手颤颤。"
+    translated: "I take up the brush to write, but tears fall, and my hand trembles."
+    qcReviewedText: "I take up the brush to write, but tears fall, and my hand trembles.\\nI know my time is near its end, and each thought of it brings me to tears. Since we were joined in marriage, our past days have shone like bright pearls. I still remember when we first met: you rode a horse, whip in hand, trampling through the Jianghu-what a commanding presence! We became husband and wife, supporting each other through thick and thin. You never once regretted it. Even though, because of me, you were harmed by Wang Sao Ting and imprisoned in the village, you remained like my spring sun, like my bright moon, without a single word of complaint.\\nI am now afflicted with a grave illness, and no medicine can cure it. Life and death are fated; they cannot be forced. Guoguo is still young and requires your careful guidance. I beg you to nurture her with kindness and discipline her with strictness. If she achieves something in life, I shall rest peacefully even from the depths of the underworld.\\nTang Lanyue's Final Words"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 3
+    subIndex: 1
+    text: "妾知大限将至，每念及此，悲恸难抑。自与君结发，往昔岁月如璨珠熠熠。犹记初逢之时，君跨马执鞭，马踏江湖，何等风采？结为夫妻，相濡以沫，君亦无怨无悔，虽因妾故为王扫庭所害，囚于村中，亦能如妾之春阳，若妾之明月，未尝有怨。"
+    translated: "I know my time is near its end, and each thought of it brings me to tears. Since we were joined in marriage, our past days have shone like bright pearls. I still remember when we first met: you rode a horse, whip in hand, trampling through the Jianghu-what a commanding presence! We became husband and wife, supporting each other through thick and thin. You never once regretted it. Even though, because of me, you were harmed by Wang Sao Ting and imprisoned in the village, you remained like my spring sun, like my bright moon, without a single word of complaint."
+  - split: 3
+    subIndex: 2
+    text: "今妾身染沉疴，药石罔效。生死有命，不可强求。果果年幼，需君悉心教导，望君以慈育之，以严规之，果果若有所成，妾于九泉之下，亦能瞑目。"
+    translated: "I am now afflicted with a grave illness, and no medicine can cure it. Life and death are fated; they cannot be forced. Guoguo is still young and requires your careful guidance. I beg you to nurture her with kindness and discipline her with strictness. If she achieves something in life, I shall rest peacefully even from the depths of the underworld."
+  - split: 3
+    subIndex: 3
+    text: "唐兰月绝笔"
+    translated: "Tang Lanyue's Final Words"
+  templates:
+  - split: 3
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "29,980042,2,《圆觉经》言：诸戒定慧及淫怒痴，俱是梵行。慧寂愚钝，参了十年空即是色，却参不透小蝶姑娘句句禅机。\\n我那徒儿方才竟在抄下的法华经中掺了句《六祖坛经》——佛法在世间，不离世间觉。于是大彻大悟，还俗去也。自此酒肉穿肠是供养，闺阁画眉即诵经。谢佛门渡我之恩，谢阁下当头棒喝，江湖路远，就此相别。\\n慧寂敬拜。,,,,,"
+  splits:
+  - split: 3
+    text: "《圆觉经》言"
+    translated: "The Sutra of Perfect Enlightenment states"
+    qcReviewedText: "The Sutra of Perfect Enlightenment states：All precepts, concentration, wisdom, lust, anger, and ignorance are all part of the Brahma way. Huiji is dull and obtuse; he has meditated for ten years on emptiness is form, yet he cannot fathom the Zen riddles in every word spoken by Miss Xiaodie.\\nMy disciple has just slipped a line from the Platform Sutra of the Sixth Patriarch into his copied Lotus Sutra: The Buddha's Way is in the world; it does not depart from worldly awakening. Thus he attained great enlightenment and has returned to secular life. From now on, wine and meat passing through his gut are offerings, and painting eyebrows in the boudoir is reciting sutras. I thank the Buddhist gate for its grace of salvation, and I thank you for your sudden awakening blow. The Jianghu Road is long; we part here.\\nHuiji pays his respects"
+    qcTranslated: "The Sutra of Perfect Enlightenment states：All precepts, concentration, wisdom, lust, anger, and ignorance are all part of the Brahma way. Huiji is dull and obtuse; he has meditated for ten years on emptiness is form, yet he cannot fathom the Zen riddles in every word spoken by Miss Xiaodie.\\nMy disciple has just slipped a line from the Platform Sutra of the Sixth Patriarch into his copied Lotus Sutra: The Buddha's Way is in the world; it does not depart from worldly awakening. Thus he attained great enlightenment and has returned to secular life. From now on, wine and meat passing through his gut are offerings, and Huamei in the boudoir is reciting sutras. I thank the Buddhist gate for its grace of salvation, and I thank you for your sudden awakening blow. The Jianghu Road is long; we part here.\\nHuiji pays his respects"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 3
+    subIndex: 1
+    text: "诸戒定慧及淫怒痴，俱是梵行。慧寂愚钝，参了十年空即是色，却参不透小蝶姑娘句句禅机。"
+    translated: "All precepts, concentration, wisdom, lust, anger, and ignorance are all part of the Brahma way. Huiji is dull and obtuse; he has meditated for ten years on emptiness is form, yet he cannot fathom the Zen riddles in every word spoken by Miss Xiaodie."
+  - split: 3
+    subIndex: 2
+    text: "我那徒儿方才竟在抄下的法华经中掺了句《六祖坛经》——佛法在世间，不离世间觉。于是大彻大悟，还俗去也。自此酒肉穿肠是供养，闺阁画眉即诵经。谢佛门渡我之恩，谢阁下当头棒喝，江湖路远，就此相别。"
+    translated: "My disciple has just slipped a line from the Platform Sutra of the Sixth Patriarch into his copied Lotus Sutra: The Buddha's Way is in the world; it does not depart from worldly awakening. Thus he attained great enlightenment and has returned to secular life. From now on, wine and meat passing through his gut are offerings, and painting eyebrows in the boudoir is reciting sutras. I thank the Buddhist gate for its grace of salvation, and I thank you for your sudden awakening blow. The Jianghu Road is long; we part here."
+  - split: 3
+    subIndex: 3
+    text: "慧寂敬拜。"
+    translated: "Huiji pays his respects"
+  templates:
+  - split: 3
+    template: "{0}：{1}\\n{2}\\n{3}"

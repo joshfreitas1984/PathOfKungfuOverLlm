@@ -57,8 +57,24 @@ namespace Tests
         [InlineData("item", "装备英文", "item__装备")]
         [InlineData("地图表", "MapConfigEnglish", "地图表__MapConfig")]
         [InlineData("SkillBattle", "招式配置", "SkillBattle__招式配置")]
+        [InlineData("skill2", "密卷", "skill__密卷")]
+        [InlineData("box", "boxpoint2", "box__boxpoint")]
+        [InlineData("Read", "Sheet2", "Read__Sheet1")]
+        [InlineData("MapBuffer", "body2", "MapBuffer__body")]
+        [InlineData("WorldEvolution", "explain2", "WorldEvolution__explain")]
+        [InlineData("avatar", "body", "avatar__body")]
         public void BaseName_StripsTheLanguageMarker(string workbook, string sheet, string expected) =>
             Assert.Equal(expected, SheetInjector.BaseName(workbook, sheet));
+
+        [Theory]
+        [InlineData("BetShop2", "Talk", "BetShop__Talk")]
+        [InlineData("GangData2", "GangTask", "GangData__GangTask")]
+        [InlineData("RefreshBoss", "RefreshTalk2", "RefreshBoss__RefreshTalk")]
+        [InlineData("PigeonMsgData", "PigeonMsgData2", "PigeonMsgData__PigeonMsgData")]
+        [InlineData("BetShop", "Talk", null)]
+        [InlineData("RefreshBoss", "Refresh", null)]
+        public void SandboxCopy_NamesTheChineseSheet(string workbook, string sheet, string? expected) =>
+            Assert.Equal(expected, SheetInjector.SandboxCopy(workbook, sheet));
 
         [Fact]
         public void Apply_PairsRowsById_WhenTheGameDroppedRows_AndOnlyWritesTranslatedColumns()

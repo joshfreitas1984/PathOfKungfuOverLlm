@@ -91,26 +91,42 @@ public static class TextFileConfiguration
             new() { Path = "inborn__inborn.csv", SkipColumns = TranslateOnly(38, 2, 5) },
             new() { Path = "地图表__MapConfig.csv", SkipColumns = TranslateOnly(20, 2) },
 
-            // Event, boss, gambling, assassin-task, gang-task and letter text, shown directly (nothing compares it with Chinese). The sandbox
-            // copies (BetShop2, GangData2, RefreshTalk2) are already English in the shipped game, so they are not listed. The 说明 column of
+            // Event, boss, gambling, assassin-task, gang-task and letter text, shown directly (nothing compares it with Chinese). The English-mode
+            // copies (BetShop2, GangData2, RefreshTalk2, PigeonMsgData2) keep the Chinese sheets' ids and rows, so the plugin applies these
+            // translations to them and replaces their shipped English (SheetInjector.SandboxCopy). The 说明 column of
             // dialogChange, the 备注 columns and WorldEvolution__gangTask (never loaded) are design notes.
             // GangData2__GangName is English in the shipped game except the style column (帮/会/教), which the game appends to the name ("... 会").
             // The plugin (GangNamePatch) replaces both the name pool and the suffixes after load, so this column's translation is overridden.
             new() { Path = "GangData2__GangName.csv", SkipColumns = TranslateOnly(11, 2) },
-            // Gang property names (mines, shops): shown on the map under "(Sheltered by <gang>)". The English-mode copy (GangData2) is Chinese too.
-            new() { Path = "GangData2__GangProperty.csv", SkipColumns = TranslateOnly(18, 3) },
+            // Gang property names (mines, shops): shown on the map under "(Sheltered by <gang>)". The English-mode copy (GangData2) is identical and uses this file.
             new() { Path = "GangData__GangProperty.csv", SkipColumns = TranslateOnly(18, 3) },
             new() { Path = "NPC__dialogChange.csv", SkipColumns = TranslateOnly(9, 6) },
             new() { Path = "NPC__multiAction.csv", SkipColumns = TranslateOnly(39, 28, 29) },
             new() { Path = "RefreshBoss__RefreshTalk.csv", SkipColumns = TranslateOnly(10, 2) },
+            // Gambling table names (e.g. 襄阳城赌坊天字桌), shown as the NPC name tag. BetShop2 (English mode) is identical to this sheet, so the plugin uses it for both (SheetInjector.SandboxCopy).
+            new() { Path = "BetShop__Config.csv", SkipColumns = TranslateOnly(15, 2) },
             new() { Path = "BetShop__Talk.csv", SkipColumns = TranslateOnly(3, 2) },
             new() { Path = "BetShop__Lips.csv", SkipColumns = TranslateOnly(11, 2, 9) },
             new() { Path = "BetShop__Bet.csv", SkipColumns = TranslateOnly(11, 2, 3, 4) },
             new() { Path = "BetShop__SkillTask.csv", SkipColumns = TranslateOnly(11, 3, 4, 5, 6, 7) },
             new() { Path = "BetShop__SkillLv.csv", SkipColumns = TranslateOnly(9, 2) },
             new() { Path = "GangData__GangTask.csv", SkipColumns = TranslateOnly(10, 3, 4) },
+            // Assassin-organisation pigeon letters (title, description); the game replaces the literal words npcName / itemName.
+            new() { Path = "KillerOrg__Task.csv", SkipColumns = TranslateOnly(8, 3, 4) },
             new() { Path = "GangData__GangStation.csv", SkipColumns = TranslateOnly(24, 10, 15) },
             new() { Path = "LoadingTip__Config.csv", SkipColumns = TranslateOnly(4, 2, 3) },
+
+            // Sheets the game replaces with a shipped English twin in English mode (skill2, boxpoint2, body2, explain2, Sheet2). The plugin maps the
+            // twin back to these Chinese sheets (SheetInjector.EnglishTwins), pairs rows by id and overwrites the shipped English.
+            // Scroll (密卷) names and effect text, chapter names/reward text, scroll-effect names. Column 9 of 密卷 has no header, so the game never reads it.
+            new() { Path = "skill__密卷.csv", SkipColumns = TranslateOnly(13, 2, 4) },
+            new() { Path = "skill__mijuan.csv", SkipColumns = TranslateOnly(9, 2, 5, 8) },
+            new() { Path = "skill__三才书属性加成.csv", SkipColumns = TranslateOnly(33, 2) },
+            // Map status effects (hunger, poison...) and search-point text. Skipped: lipsStr (a comma-separated button list the code splits).
+            new() { Path = "MapBuffer__body.csv", SkipColumns = TranslateOnly(8, 2, 3) },
+            new() { Path = "box__boxpoint.csv", SkipColumns = TranslateOnly(10, 6) },
+            new() { Path = "WorldEvolution__explain.csv", SkipColumns = TranslateOnly(3, 2) },
+            new() { Path = "Read__Sheet1.csv", SkipColumns = TranslateOnly(9, 3) },
             new() { Path = "PigeonMsgData__PigeonMsgData.csv", SkipColumns = TranslateOnly(11, 4, 5) },
 
             // Display-only tables found by tracing the decompiled code (only tables the game still loads in English mode; the sheets that
