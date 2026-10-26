@@ -23613,8 +23613,8 @@
   splits:
   - split: 4
     text: "神州百户，俞秉襄。"
-    translated: "Master Yu Bingxiang of the Hundred Houses of Zhongshan."
-    qcReviewedText: "Master Yu Bingxiang of the Hundred Houses of Zhongshan."
+    translated: "Centurion of the Divine Land, Yu Bingxiang"
+    qcReviewedText: "Centurion of the Divine Land, Yu Bingxiang"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -47268,8 +47268,8 @@
   splits:
   - split: 4
     text: "实不相瞒，小人几年前曾在锦衣卫当差，世袭父荫官至百户，只是实在搞不懂官场门道，这才被恶人暗害，削了官位。"
-    translated: "To be honest, I once served in the Imperial Guard a few years ago, inheriting my father's position and rising to the rank of captain. But I simply couldn't figure out the politics of the court, which is why I was secretly betrayed by some villains and stripped of my title."
-    qcReviewedText: "To be honest, I once served in the Imperial Guard a few years ago, inheriting my father's position and rising to the rank of captain. But I simply couldn't figure out the politics of the court, which is why I was secretly betrayed by some villains and stripped of my title."
+    translated: "To be perfectly honest, I served in the Imperial Guard a few years ago. I inherited my father's position and rose to the rank of Centurion, but I simply could not grasp the ways of officialdom. As a result, I was harmed by malicious individuals and stripped of my title."
+    qcReviewedText: "To be perfectly honest, I served in the Imperial Guard a few years ago. I inherited my father's position and rose to the rank of Centurion, but I simply could not grasp the ways of officialdom. As a result, I was harmed by malicious individuals and stripped of my title."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -47550,26 +47550,20 @@
   splits:
   - split: 4
     text: "刘百户，昔年陈某先一步顶了你的缺，不想竟能忌恨我到今日！"
-    translated: "Liu Baihu, back in the day, Chen Mou took your position before you could, and yet you still harbor such hatred for me to this day!"
-    qcReviewedText: "Liu Baihu, back in the day, Chen Mou took your position before you could, and yet you still harbor such hatred for me to this day!"
-    qcTranslated: "Liu Baihu, back in the day, I, Chen, took your position before you could, and yet you still harbor such hatred for me to this day!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Centurion Liu, years ago I took your place before you could. I never imagined you would still harbor such resentment toward me to this day!"
+    qcReviewedText: "Centurion Liu, years ago I took your place before you could. I never imagined you would still harbor such resentment toward me to this day!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "225,240001020001,4,[0].talks{json}[11].talk,这一声百户叫出，此人身份亦是呼之欲出，不想他却哈哈大笑，兀自摇头。"
   splits:
   - split: 4
     text: "这一声百户叫出，此人身份亦是呼之欲出，不想他却哈哈大笑，兀自摇头。"
-    translated: "With this shout, the man's identity was revealed, but to his surprise, he burst into laughter and shook his head."
-    qcReviewedText: "With this shout, the man's identity was revealed, but to his surprise, he burst into laughter and shook his head."
-    qcTranslated: "With this shout of Baihu, the man's identity was about to be revealed, but unexpectedly, he burst into laughter and shook his head."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The moment the title Centurion was called out, the man's identity was practically laid bare. Yet he burst into laughter, shaking his head to himself."
+    qcReviewedText: "The moment the title Centurion was called out, the man's identity was practically laid bare. Yet he burst into laughter, shaking his head to himself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "225,240001020001,4,[0].talks{json}[12].name,刘文晓"
   splits:
   - split: 4
@@ -47583,14 +47577,14 @@
   splits:
   - split: 4
     text: "今日刘某休沐，不是百户，只是个百姓，但撞上了这等辣手害人之徒，说不得，要改日再休了。"
-    translated: "Today Liu Mou is off duty, not a chief of a hundred households, just an ordinary citizen, but encountering such a vicious criminal, I can't just turn a blind eye and leave it for another day."
-    qcReviewedText: "Today Liu Mou is off duty, not a chief of a hundred households, just an ordinary citizen, but encountering such a vicious criminal, I can't just turn a blind eye and leave it for another day."
-    qcTranslated: "Today this Liu is off duty, not a chief of a hundred households, just an ordinary citizen, but encountering such a vicious criminal, I can't just turn a blind eye and leave it for another day."
+    translated: "Today is my day off, Liu. I am not a Centurion, just an ordinary citizen. But since I have run into such a dangerous and malicious scoundrel, it seems I will have to postpone my rest until another day."
+    qcReviewedText: "Today is my day off, Liu. I am not a Centurion, just an ordinary citizen. But since I have run into such a dangerous and malicious scoundrel, it seems I will have to postpone my rest until another day."
+    qcTranslated: "Today is my day off, I am Liu. I am not a Centurion, just an ordinary citizen. But since I have run into such a dangerous and malicious scoundrel, it seems I will have to postpone my rest until another day."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - OtherNamedDefect
+    - MeaningReversal
 - raw: "225,240001020001,4,[0].talks{json}[13].name,刘文晓"
   splits:
   - split: 4
@@ -47661,8 +47655,8 @@
   splits:
   - split: 4
     text: "眼见两人要动手，周遭百姓唯恐殃及池鱼，纷纷散去，那刘百户似等的便是这一句，当即将手中折扇合拢，大喝一声。"
-    translated: "Seeing the two about to fight, the nearby civilians feared getting caught in the crossfire and scattered. That Li Baihu seemed to have been waiting for this moment; he promptly closed his fan and bellowed."
-    qcReviewedText: "Seeing the two about to fight, the nearby civilians feared getting caught in the crossfire and scattered. That Li Baihu seemed to have been waiting for this moment; he promptly closed his fan and bellowed."
+    translated: "Seeing the two about to clash, the surrounding townsfolk, fearing they would be caught in the crossfire, quickly dispersed. Centurion Liu, seemingly waiting for this moment, immediately snapped his folding fan shut and bellowed a command."
+    qcReviewedText: "Seeing the two about to clash, the surrounding townsfolk, fearing they would be caught in the crossfire, quickly dispersed. Centurion Liu, seemingly waiting for this moment, immediately snapped his folding fan shut and bellowed a command."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -47679,9 +47673,9 @@
   splits:
   - split: 4
     text: "都听见了，此人当街行凶，还要杀我这个锦衣百户！"
-    translated: "I heard everything. This person committed murder right on the street, and they even want to kill me, the brocade-clad hundred-house captain!"
-    qcReviewedText: "I heard everything. This person committed murder right on the street, and they even want to kill me, the brocade-clad hundred-house captain!"
-    qcTranslated: "Everyone heard it. This person committed murder right on the street, and they even want to kill me, the brocade-clad hundred-house captain!"
+    translated: "I heard everything. This person committed a violent crime in the street and even tried to kill me, a Centurion of the Embroidered Uniform Guard!"
+    qcReviewedText: "I heard everything. This person committed a violent crime in the street and even tried to kill me, a Centurion of the Embroidered Uniform Guard!"
+    qcTranslated: "You all heard it. This person committed a violent crime in the street and even tried to kill me, a Centurion of the Embroidered Uniform Guard!"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -89913,23 +89907,17 @@
   splits:
   - split: 4
     text: "是……是此间镇民奉上的，百户大人明、明鉴……"
-    translated: "Is... is this from the townspeople of this place, Lord Ming, please understand..."
-    qcReviewedText: "Is... is this from the townspeople of this place, Lord Ming, please understand..."
-    qcTranslated: "Is... is this from the townspeople of this place, Lord Baihu, please M-ming-jian..."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
-    - UntranslatedPinyin
-    - OtherNamedDefect
+    translated: "It... it was offered by the townsfolk here. Please, Centurion, discern the truth..."
+    qcReviewedText: "It... it was offered by the townsfolk here. Please, Centurion, discern the truth..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "431,150005501001,4,[0].talks{json}[9].options{json}[0].name,百户？此人竟是六品武官……"
   splits:
   - split: 4
     text: "百户？此人竟是六品武官……"
-    translated: "Hundred-household officer? This person is actually a sixth-rank military official..."
-    qcReviewedText: "Hundred-household officer? This person is actually a sixth-rank military official..."
+    translated: "Centurion? This person is actually a sixth-rank military officer..."
+    qcReviewedText: "Centurion? This person is actually a sixth-rank military officer..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -90111,23 +90099,17 @@
   splits:
   - split: 4
     text: "是……是此间镇民奉上的，百户大人明、明鉴……"
-    translated: "Is... is this from the townspeople of this place, Lord Ming, please understand..."
-    qcReviewedText: "Is... is this from the townspeople of this place, Lord Ming, please understand..."
-    qcTranslated: "Is... is this from the townspeople of this place, Lord Baihu, please M-ming-jian..."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
-    - UntranslatedPinyin
-    - OtherNamedDefect
+    translated: "It... it was offered by the townsfolk here. Please, Centurion, discern the truth..."
+    qcReviewedText: "It... it was offered by the townsfolk here. Please, Centurion, discern the truth..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "432,150005501002,4,[0].talks{json}[8].options{json}[0].name,百户？此人竟是六品武官……"
   splits:
   - split: 4
     text: "百户？此人竟是六品武官……"
-    translated: "Hundred-household officer? This person is actually a sixth-rank military official..."
-    qcReviewedText: "Hundred-household officer? This person is actually a sixth-rank military official..."
+    translated: "Centurion? This person is actually a sixth-rank military officer..."
+    qcReviewedText: "Centurion? This person is actually a sixth-rank military officer..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -90189,14 +90171,11 @@
   splits:
   - split: 4
     text: "看着兵卒上前替你松绑，俞姓百户向你微微颔首，眸中寒芒一闪即逝。"
-    translated: "Watching Bingzu step forward to untie you, the Yu hundred-household officer nodded slightly at you, a flash of coldness in his eyes."
-    qcReviewedText: "Watching Bingzu step forward to untie you, the Yu hundred-household officer nodded slightly at you, a flash of coldness in his eyes."
-    qcTranslated: "Watching the soldier step forward to untie you, the Yu hundred-household officer nodded slightly at you, a flash of coldness in his eyes."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "Watching as Bing Zu stepped forward to untie your bonds, the Centurion of the Yu clan gave you a slight nod, a cold glint flashing briefly in his eyes."
+    qcReviewedText: "Watching as Bing Zu stepped forward to untie your bonds, the Centurion of the Yu clan gave you a slight nod, a cold glint flashing briefly in his eyes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "432,150005501002,4,[0].talks{json}[14].name,俞秉襄"
   splits:
   - split: 4
@@ -90219,15 +90198,11 @@
   splits:
   - split: 4
     text: "俞姓百户嘱咐已毕，沉声开口。"
-    translated: "Yu Hundred Household gave his instructions and spoke in a solemn voice."
-    qcReviewedText: "Yu Hundred Household gave his instructions and spoke in a solemn voice."
-    qcTranslated: "The Yu-named Baihu gave his instructions and spoke in a solemn voice."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Having finished his instructions, the Centurion of the Yu family spoke in a grave tone."
+    qcReviewedText: "Having finished his instructions, the Centurion of the Yu family spoke in a grave tone."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "433,150005501003,4,[0].talks{json}[1].name,俞秉襄"
   splits:
   - split: 4
@@ -90358,8 +90333,8 @@
   splits:
   - split: 4
     text: "江云晟迈步上前，向俞姓百户附耳低言几句，边说边朝着那些愁眉苦脸的兵卒望去，俞姓百户怒意渐消，面色之上，却生萧索……"
-    translated: "Jiang Yunsheng stepped forward and leaned in to whisper a few words to the Yu hundred-household, glancing at the gloomy soldiers as he spoke; the Yu hundred-household's anger gradually subsided, but his expression grew desolate..."
-    qcReviewedText: "Jiang Yunsheng stepped forward and leaned in to whisper a few words to the Yu hundred-household, glancing at the gloomy soldiers as he spoke; the Yu hundred-household's anger gradually subsided, but his expression grew desolate..."
+    translated: "Jiang Yunsheng stepped forward and leaned in to whisper a few words into the ear of the Centurion surnamed Yu. As he spoke, his gaze drifted toward the soldiers, their faces etched with worry. The Centurion's anger gradually faded, but a desolate look settled over his features..."
+    qcReviewedText: "Jiang Yunsheng stepped forward and leaned in to whisper a few words into the ear of the Centurion surnamed Yu. As he spoke, his gaze drifted toward the soldiers, their faces etched with worry. The Centurion's anger gradually faded, but a desolate look settled over his features..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -90394,8 +90369,8 @@
   splits:
   - split: 4
     text: "你见此人鹰扬虎视，正气凛然，本以为江云晟要碰个钉子，却不料他三言两语，竟使得这位百户面露萧索，只得低头……"
-    translated: "You saw this person with an eagle's soaring gaze and a tiger's watchful stare, exuding righteousness. You thought Jiang Yunsheng would hit a dead end, but unexpectedly, he spoke a few words that left this hundred-household leader looking forlorn, forcing him to lower his head......"
-    qcReviewedText: "You saw this person with an eagle's soaring gaze and a tiger's watchful stare, exuding righteousness. You thought Jiang Yunsheng would hit a dead end, but unexpectedly, he spoke a few words that left this hundred-household leader looking forlorn, forcing him to lower his head......"
+    translated: "You saw this man's eagle-like gaze and tiger-like bearing, radiating righteous authority, and assumed Jiang Yunsheng would be rebuffed. Yet unexpectedly, with just a few words, he left the Centurion looking dejected, forcing him to lower his head..."
+    qcReviewedText: "You saw this man's eagle-like gaze and tiger-like bearing, radiating righteous authority, and assumed Jiang Yunsheng would be rebuffed. Yet unexpectedly, with just a few words, he left the Centurion looking dejected, forcing him to lower his head..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -90502,11 +90477,14 @@
   splits:
   - split: 4
     text: "百户大人，您……？"
-    translated: "Lord Baihu, you...?"
-    qcReviewedText: "Lord Baihu, you...?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Centurion, you...?"
+    qcReviewedText: "Centurion, you...?"
+    qcTranslated: "Lord Centurion, you...?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "433,150005501003,4,[0].talks{json}[20].name,俞秉襄"
   splits:
   - split: 4
@@ -90679,8 +90657,8 @@
   splits:
   - split: 4
     text: "某乃杭州司百户所俞秉襄，月前方至此间上任，本以为能一展身手……唉。"
-    translated: "I am Yu Bingxiang, a commander of the Baihu Post in Hangzhou. I arrived here just a month ago to take up my post, and thought I would finally have the chance to prove myself......sigh."
-    qcReviewedText: "I am Yu Bingxiang, a commander of the Baihu Post in Hangzhou. I arrived here just a month ago to take up my post, and thought I would finally have the chance to prove myself......sigh."
+    translated: "I am Yu Bingxiang of the Centurion Office in Hangzhou. I only took up this post a month ago, and I had hoped to make my mark... Sigh."
+    qcReviewedText: "I am Yu Bingxiang of the Centurion Office in Hangzhou. I only took up this post a month ago, and I had hoped to make my mark... Sigh."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -121417,11 +121395,9 @@
   splits:
   - split: 4
     text: "这长安城李姓人家，昔年没有一百户，恐怕也有八十户，阁下……何来此问？"
-    translated: "In Chang'an, there were once no fewer than eighty households surnamed Li. Sir, what brings you here with such a question?"
-    qcReviewedText: "In Chang'an, there were once no fewer than eighty households surnamed Li. Sir, what brings you here with such a question?\\nThe old man's lips were cracked, and his voice was hoarse as he scrutinized you for a long time."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Of the Li families in Chang'an, there were never a hundred, but surely eighty. Why do you ask?"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Centurion,百户,"
   - split: 4
     subIndex: 1
     text: "老人双唇干裂，喉音沙哑，打量了你许久。"
@@ -190998,9 +190974,12 @@
     text: "徐某自幼好习枪棒，乾贞十七年武举出身，后于京中任职，熟习十八般武艺，如今功成身退，本欲在江南旧乡养老，近年却听闻周遭流贼四起，百姓难安……"
     translated: "Xu Mou has been practicing spears and staffs since childhood. He passed the military examination in the seventeenth year of the Qianzhen era and later served in the capital. He is proficient in the eighteen forms of martial arts. Now that he has retired, he originally intended to spend his days in peace in his old hometown in Jiangnan, but recently he has heard of bandits rising around him, causing unrest among the people......"
     qcReviewedText: "Xu Mou has been practicing spears and staffs since childhood. He passed the military examination in the seventeenth year of the Qianzhen era and later served in the capital. He is proficient in the eighteen forms of martial arts. Now that he has retired, he originally intended to spend his days in peace in his old hometown in Jiangnan, but recently he has heard of bandits rising around him, causing unrest among the people......"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    qcTranslated: "A certain Xu has been practicing spears and staffs since childhood. He passed the military examination in the seventeenth year of the Qianzhen era and later served in the capital. He is proficient in the eighteen forms of martial arts. Now that he has retired, he originally intended to spend his days in peace in his old hometown in Jiangnan, but recently he has heard of bandits rising around him, causing unrest among the people......"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "923,160001301000,4,[0].talks{json}[4].name,徐行川"
   splits:
   - split: 4

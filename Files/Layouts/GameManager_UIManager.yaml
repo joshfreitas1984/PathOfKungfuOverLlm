@@ -54,3 +54,7 @@
   rotationZ: 270
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MartialArts/go_wuxue/Image/txt_tsDesName
   rotationZ: 270
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/Content/item*/OKImage
+  offsetSize:
+  - 15
+  - 0

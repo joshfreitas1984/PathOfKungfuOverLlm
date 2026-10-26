@@ -56,6 +56,16 @@
   adjustY: -15
   adjustWidth: 120
   adjustHeight: 20
+- path: GameManager/UIManager/UIRoot/UIChongHoleTip/BgImage/txtDes_1
+  sampleText: 'Manual Channeling: Manually complete channeling; connecting…'
+  idealFontSize: 18
+  adjustHeight: 12
+- path: GameManager/UIManager/UIRoot/UIChongHoleTip/BgImage/txtDes_2
+  sampleText: 'Force Channeling: Spend <color=green>449</color> Cultivatio…'
+  idealFontSize: 18
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustHeight: 11
 - path: GameManager/UIManager/UIRoot/UICook/BgImage/MiddleCenter/panel_BookList/Scroll View/Viewport/trans_BookList/item*/go_Select/txt_Name
   sampleText: Nine Provinces, Boundless·Refined
   maxFontSize: 18
@@ -266,6 +276,18 @@
   allowAutoSizing: true
   adjustX: -70
   adjustWidth: 70
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/MusclesOrVeinsMainContent/TglGroup/TglItem_1/Tip1
+  sampleText: Twelve Primary Meridians
+  idealFontSize: 20
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/MusclesOrVeinsMainContent/TglGroup/TglItem_1/Tip2
+  sampleText: Twelve Primary Meridians
+  idealFontSize: 20
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/MusclesOrVeinsMainContent/TglGroup/TglItem_2/Tip1
+  sampleText: Eight Extraordinary Meridians
+  idealFontSize: 20
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/MusclesOrVeins/MusclesOrVeinsMainContent/TglGroup/TglItem_2/Tip2
+  sampleText: Eight Extraordinary Meridians
+  idealFontSize: 20
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/Page/TglItem/Tip1/Tip1
   sampleText: Friendship
   fontPercentage: 0.6
@@ -278,6 +300,12 @@
   allowWordWrap: true
   adjustWidth: -50
   adjustHeight: 10
+- path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/Content/item*/tip
+  sampleText: Trace the Origin to Halt the Illness
+  maxFontSize: 16
+  alignment: UpperCenter
+  allowAutoSizing: true
+  adjustWidth: 10
 - path: GameManager/UIManager/UIRoot/UIRoleAttribute/Content/RoleLevel/jingjieAttribute/jingjiebg/Bg/RImage/UpImage/Content/item*/tip
   sampleText: Max HP︻7800︼
   alignment: MiddleCenter

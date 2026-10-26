@@ -85,3 +85,12 @@
   - "expelled from some sect"
   - "expelled from the mountain"
   context: Thrown out of a sect, with 山门 as the sect itself. Never "expelled from the mountain gate".
+
+- raw: "百户"
+  result: "Centurion"
+  context: A Ming-dynasty Imperial Guard (锦衣卫) sixth-rank military officer commanding a 百户所 (a "hundred-household" unit). Always Centurion, never "hundred-household", "Hundred Houses" or "hundred-house captain". 百户大人 is "Lord Centurion"; 俞姓百户 is "Centurion Yu".
+  allowalt:
+  - "a hundred"
+- raw: "百户所"
+  result: "Centurion Office"
+  context: The Imperial Guard office a 百户 commands, e.g. 杭州司百户所 is "Hangzhou Centurion Office".
