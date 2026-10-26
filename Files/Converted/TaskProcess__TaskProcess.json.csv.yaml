@@ -352061,8 +352061,8 @@
   splits:
   - split: 4
     text: "催命三侠催命三侠催命三侠催命三侠催命三侠催命三侠……"
-    translated: "Hastening Death Trio Hastening Death Trio Hastening Death Trio Hastening Death Trio Hastening Death Trio Hastening Death Trio......"
-    qcReviewedText: "[Hastening Death Trio Hastening Death Trio Hastening Death Trio Hastening Death Trio Hastening Death Trio Hastening Death Trio......]"
+    translated: "Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes......"
+    qcReviewedText: "[Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes Three Life-Shortening Heroes......]"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -352082,8 +352082,8 @@
   splits:
   - split: 4
     text: "“催命三侠？名号倒是响亮，怎么从未听过？”"
-    translated: "Three Death-Hasteners? The name is certainly catchy, but I've never heard of them before."
-    qcReviewedText: "Three Death-Hasteners? The name is certainly catchy, but I've never heard of them before."
+    translated: "The Three Life-Shortening Heroes? Quite a fearsome title. Why have I never heard of them?"
+    qcReviewedText: "The Three Life-Shortening Heroes? Quite a fearsome title. Why have I never heard of them?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -352130,14 +352130,11 @@
   splits:
   - split: 4
     text: "“这位小哥，可曾听过‘催命三侠’？”"
-    translated: "Have you heard of the 'Three Urgent Death Warriors,' young man?"
-    qcReviewedText: "Have you heard of the 'Three Urgent Death Warriors,' young man?"
-    qcTranslated: "Have you heard of the 'Three Life-Shortening Heroes,' young man?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Young man, have you ever heard of the 'Three Life-Shortening Heroes'?"
+    qcReviewedText: "Young man, have you ever heard of the 'Three Life-Shortening Heroes'?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1689,200001034000,4,[0].talks{json}[3].name,卖糕小贩"
   splits:
   - split: 4
@@ -352151,8 +352148,8 @@
   splits:
   - split: 4
     text: "催命三侠？"
-    translated: "Three Heroes of Doom?"
-    qcReviewedText: "Three Heroes of Doom?"
+    translated: "Three Life-Shortening Heroes?"
+    qcReviewedText: "Three Life-Shortening Heroes?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -352304,8 +352301,8 @@
   splits:
   - split: 4
     text: "老张头被催命三侠说的蠢蠢欲动，眼下怕还念着王寡妇的好呢，天天唉声叹气，怕也没几年活头咯！这可不是催命么？"
-    translated: "Old Zhang is itching to act on what the Three Death-Seeking Heroes said; he's probably still pining for Widow Wang, sighing every day. He won't have many years left, will he? Isn't that just a death sentence?"
-    qcReviewedText: "Old Zhang is itching to act on what the Three Death-Seeking Heroes said; he's probably still pining for Widow Wang, sighing every day. He won't have many years left, will he? Isn't that just a death sentence?"
+    translated: "Old Zhang was stirred by the words of the Three Life-Shortening Heroes. He is likely still thinking of Widow Wang's kindness, sighing day after day. He probably has only a few years left to live! Isn't that exactly what life-shortening means?"
+    qcReviewedText: "Old Zhang was stirred by the words of the Three Life-Shortening Heroes. He is likely still thinking of Widow Wang's kindness, sighing day after day. He probably has only a few years left to live! Isn't that exactly what life-shortening means?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -352361,8 +352358,8 @@
   splits:
   - split: 4
     text: "“阁下可曾听过‘催命三侠’？”"
-    translated: "Have you heard of the 'Three Urgent Death Heroes'?"
-    qcReviewedText: "Have you heard of the 'Three Urgent Death Heroes'?"
+    translated: "Have you ever heard of the 'Three Life-Shortening Heroes'?"
+    qcReviewedText: "Have you ever heard of the 'Three Life-Shortening Heroes'?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -352595,8 +352592,8 @@
   splits:
   - split: 4
     text: "大侠，你可是要寻“催命三侠”么？"
-    translated: "Great Hero, are you looking for the Three Death-Seeking Heroes?"
-    qcReviewedText: "Great Hero, are you looking for the Three Death-Seeking Heroes?"
+    translated: "Great Hero, are you seeking the Three Life-Shortening Heroes?"
+    qcReviewedText: "Great Hero, are you seeking the Three Life-Shortening Heroes?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -352640,14 +352637,11 @@
   splits:
   - split: 4
     text: "大侠，你休听那些人胡说，催命三侠，可都是好人……"
-    translated: "Great Hero, don't listen to those people talking nonsense. The Three Death-Seekers are all good people......"
-    qcReviewedText: "Great Hero, don't listen to those people talking nonsense. The Three Death-Seekers are all good people......"
-    qcTranslated: "Great Hero, don't listen to those people talking nonsense. The Three Life-Takers are all good people......"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Great Hero, do not listen to their nonsense. The Three Life-Shortening Heroes are all good people..."
+    qcReviewedText: "Great Hero, do not listen to their nonsense. The Three Life-Shortening Heroes are all good people..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1691,200001036000,4,[0].talks{json}[3].options{json}[0].name,“你也识得他们？”"
   splits:
   - split: 4
@@ -352670,8 +352664,8 @@
   splits:
   - split: 4
     text: "约莫半月前，与我相依为命的大黄被狗肉铺给偷了……正是催命三侠出手把狗肉老板打了一顿，帮我把大黄讨了回来……"
-    translated: "About half a month ago, Big Yellow, who had been my sole companion, was stolen by the dog meat shop... It was the Three Death-Defying Heroes who stepped in, beat up the dog meat shop owner, and helped me retrieve Big Yellow..."
-    qcReviewedText: "About half a month ago, Big Yellow, who had been my sole companion, was stolen by the dog meat shop... It was the Three Death-Defying Heroes who stepped in, beat up the dog meat shop owner, and helped me retrieve Big Yellow..."
+    translated: "About half a month ago, my loyal companion Dahuang was stolen by a dog meat shop... It was the Three Life-Shortening Heroes who beat up the shop owner and helped me get Dahuang back..."
+    qcReviewedText: "About half a month ago, my loyal companion Dahuang was stolen by a dog meat shop... It was the Three Life-Shortening Heroes who beat up the shop owner and helped me get Dahuang back..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -353133,14 +353127,11 @@
   splits:
   - split: 4
     text: "平白昧了我三钱银子，当“催命三侠”好欺负么？"
-    translated: "You cheated me out of three coins, do the “Three Bully Heroes” seem easy to bully?"
-    qcReviewedText: "You cheated me out of three coins, do the “Three Bully Heroes” seem easy to bully?"
-    qcTranslated: "You cheated me out of three coins, do the “Three Life-Chasing Heroes” seem easy to bully?"
-    qcStatus: Corrected
-    qcQualityScore: 85
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Stealing three coins from me without a word-do you think the Three Life-Shortening Heroes are easy to bully?"
+    qcReviewedText: "Stealing three coins from me without a word-do you think the Three Life-Shortening Heroes are easy to bully?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1693,200001036002,4,[0].talks{json}[18].name,赌徒"
   splits:
   - split: 4
@@ -353250,8 +353241,8 @@
   splits:
   - split: 4
     text: "你正欲寻这“催命三侠”，本不欲插手此事，但这公子既然报了三侠名号，此事便得管上一管了。"
-    translated: "You were about to seek out these Three Heroes of Doom, but you did not wish to get involved. However, since this young lord has mentioned the Three Heroes, you feel compelled to take an interest in the matter."
-    qcReviewedText: "You were about to seek out these Three Heroes of Doom, but you did not wish to get involved. However, since this young lord has mentioned the Three Heroes, you feel compelled to take an interest in the matter."
+    translated: "You were about to seek out the Three Life-Shortening Heroes. I had no intention of meddling in this matter, but since this Young Lord has invoked the heroes' names, I must intervene."
+    qcReviewedText: "You were about to seek out the Three Life-Shortening Heroes. I had no intention of meddling in this matter, but since this Young Lord has invoked the heroes' names, I must intervene."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -353706,13 +353697,13 @@
   splits:
   - split: 4
     text: "罢了罢了，富贵功名旦夕有，今日能结识这位{firstName}{playerTitle}，正是塞翁失马，焉知非福，你既帮文和，自是催命三侠的朋友，若不好生招待，万说不过去。"
-    translated: "Forget it, forget it. Wealth and honor can come and go in an instant, but to meet someone like this {playerTitle} {firstName} today is truly a case of losing a horse at the edge of the wilderness, who knows if it isn't a blessing in disguise? Since you've helped Wenhuo, you are a friend of the Three Death-Bringing Heroes. If we don't treat you well, Master Wan wouldn't approve."
+    translated: "Very well, very well. Wealth and fame may come or go in a blink. Meeting {playerTitle} {firstName} today is a blessing in disguise. Since you aid Wenhe, you are naturally a friend of the Three Life-Shortening Heroes. It would be unthinkable not to treat you with proper hospitality."
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄弟||姑娘>"
-    qcReviewedText: "Forget it, forget it. Wealth and honor can come and go in an instant, but to meet someone like this {playerTitle} {firstName} today is truly a case of losing a horse at the edge of the wilderness, who knows if it isn't a blessing in disguise? Since you've helped Wenhuo, you are a friend of the Three Death-Bringing Heroes. If we don't treat you well, Master Wan wouldn't approve."
+    qcReviewedText: "Very well, very well. Wealth and fame may come or go in a blink. Meeting {playerTitle} {firstName} today is a blessing in disguise. Since you aid Wenhe, you are naturally a friend of the Three Life-Shortening Heroes. It would be unthinkable not to treat you with proper hospitality."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -353738,13 +353729,13 @@
   splits:
   - split: 4
     text: "催命三侠向来好客，只是我等手头实有些……不知可否劳烦{firstName}{playerTitle}与我同去取些银钱，置办酒菜？"
-    translated: "The Three Life-Takers are always hospitable, but we are rather short on funds... Might I trouble {playerTitle} {firstName} to accompany us to fetch some Silver so we can purchase wine and food?"
+    translated: "The Three Life-Shortening Heroes are always hospitable, but we are rather short on funds... Might I trouble {playerTitle} {firstName} to accompany us to obtain some Silver so we may purchase wine and food?"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄弟||姑娘>"
-    qcReviewedText: "The Three Life-Takers are always hospitable, but we are rather short on funds... Might I trouble {playerTitle} {firstName} to accompany us to fetch some Silver so we can purchase wine and food?"
+    qcReviewedText: "The Three Life-Shortening Heroes are always hospitable, but we are rather short on funds... Might I trouble {playerTitle} {firstName} to accompany us to obtain some Silver so we may purchase wine and food?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -353961,15 +353952,11 @@
   splits:
   - split: 4
     text: "那你可找对人咯！小……在下“催命三侠”白文和的便是！"
-    translated: "Then you've come to the right person! I'm Bai Wenhe, also known as the Three Urgent Messengers!"
-    qcReviewedText: "Then you've come to the right person! I'm Bai Wenhe, also known as the Three Urgent Messengers!"
-    qcTranslated: "Then you've come to the right person! I'm... I am Bai Wenhe, also known as the Three Life-Takers!"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Then you've come to the right person! I... I am Bai Wenhe of the Three Life-Shortening Heroes!"
+    qcReviewedText: "Then you've come to the right person! I... I am Bai Wenhe of the Three Life-Shortening Heroes!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1695,200001036004,4,[0].talks{json}[2].talk,不待你继续问话，白文和便伸手扯了你的衣袖，满面喜色。"
   splits:
   - split: 4
@@ -353992,8 +353979,8 @@
   splits:
   - split: 4
     text: "既你出手帮忙，那从此便是“催命三侠”的朋友，走走走，我带你去见另外两……两侠！咱们今日可得好好喝上一杯。"
-    translated: "Since you helped us, you're now a friend of the Three Death-Calling Heroes. Come on, come on, I'll take you to meet the other two...two heroes! We must have a good drink today."
-    qcReviewedText: "Since you helped us, you're now a friend of the Three Death-Calling Heroes. Come on, come on, I'll take you to meet the other two...two heroes! We must have a good drink today."
+    translated: "Since you've lent a hand, you're now a friend of the Three Life-Shortening Heroes. Come on, come on, let me introduce you to the other two... two heroes! We must have a good drink today."
+    qcReviewedText: "Since you've lent a hand, you're now a friend of the Three Life-Shortening Heroes. Come on, come on, let me introduce you to the other two... two heroes! We must have a good drink today."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -354043,8 +354030,8 @@
   splits:
   - split: 4
     text: "“实不相瞒，在下乃是为寻‘催命三侠’而来。”"
-    translated: "“I must confess, I have come in search of the 'Three Deathly Heroes.'”"
-    qcReviewedText: "“I must confess, I have come in search of the 'Three Deathly Heroes.'”"
+    translated: "I won't hide it from you. I have come here in search of the Three Life-Shortening Heroes."
+    qcReviewedText: "I won't hide it from you. I have come here in search of the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -354076,8 +354063,8 @@
   splits:
   - split: 4
     text: "“实不相瞒，在下乃是为寻‘催命三侠’而来。”"
-    translated: "“I must confess, I have come in search of the 'Three Deathly Heroes.'”"
-    qcReviewedText: "“I must confess, I have come in search of the 'Three Deathly Heroes.'”"
+    translated: "I won't hide it from you. I have come here in search of the Three Life-Shortening Heroes."
+    qcReviewedText: "I won't hide it from you. I have come here in search of the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -354142,14 +354129,11 @@
   splits:
   - split: 4
     text: "掌柜见风凌面貌，脸色顿时一僵，显是没少听说“催命三侠”的事迹……"
-    translated: "The shopkeeper saw Feng Ling's face and immediately stiffened, clearly having heard plenty about the Three Urgent Death Heroes..."
-    qcReviewedText: "The shopkeeper saw Feng Ling's face and immediately stiffened, clearly having heard plenty about the Three Urgent Death Heroes..."
-    qcTranslated: "The shopkeeper saw Feng Ling's face and immediately stiffened, clearly having heard plenty about the Three Life-Taking Heroes..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Seeing Feng Ling's face, the Shopkeeper's expression froze instantly, clearly having heard no little about the deeds of the Three Life-Shortening Heroes..."
+    qcReviewedText: "Seeing Feng Ling's face, the Shopkeeper's expression froze instantly, clearly having heard no little about the deeds of the Three Life-Shortening Heroes..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1701,200001036011,4,[0].talks{json}[2].name,风凌"
   splits:
   - split: 4
@@ -354724,8 +354708,8 @@
   splits:
   - split: 4
     text: "催命三侠手头虽紧，但这用别人钱请客的事，还干不太出来……"
-    translated: "The Three Death Defying Heroes are short on cash, but they're not quite at the point of using someone else's money to treat others..."
-    qcReviewedText: "The Three Death Defying Heroes are short on cash, but they're not quite at the point of using someone else's money to treat others..."
+    translated: "The Three Life-Shortening Heroes may be tight on coin, but they wouldn't stoop low enough to treat others using someone else's money..."
+    qcReviewedText: "The Three Life-Shortening Heroes may be tight on coin, but they wouldn't stoop low enough to treat others using someone else's money..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -355221,19 +355205,16 @@
   splits:
   - split: 4
     text: "咳，这位便是催命三侠的第三侠，玉先生。{firstName}{playerTitle}喊她小玉便是，这先生之名是她自己安的，也不知一姑娘家，为何喜欢给自己起这种称呼……"
-    translated: "Cough, this is the third of the Three Urgent Messengers, Master Yu. {playerTitle} {firstName} calls her Little Jade; she gave herself the title of Master, though it's strange for a girl to call herself that..."
+    translated: "Cough. This is the Third of the Three Life-Shortening Heroes, Master Yu. {playerTitle} {firstName}, you may call her Xiao Yu. The title Master is one she gave herself. I don't know why a young woman would choose such a name for herself..."
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄||姑娘>"
-    qcReviewedText: "Cough, this is the third of the Three Urgent Messengers, Master Yu. {playerTitle} {firstName} calls her Little Jade; she gave herself the title of Master, though it's strange for a girl to call herself that..."
-    qcTranslated: "Cough, this is the third of the Three Life-Urging Heroes, Master Yu. {playerTitle} {firstName} calls her Little Jade; she gave herself the title of Master, though it's strange for a girl to call herself that..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    qcReviewedText: "Cough. This is the Third of the Three Life-Shortening Heroes, Master Yu. {playerTitle} {firstName}, you may call her Xiao Yu. The title Master is one she gave herself. I don't know why a young woman would choose such a name for herself..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1703,200001037001,4,[0].talks{json}[16].talk,玉先生面色一寒。"
   splits:
   - split: 4
@@ -355941,8 +355922,8 @@
   splits:
   - split: 4
     text: "还能怎生写，“催命三侠，扶危济困；价钱公道，手到事了……”"
-    translated: "How else can I write, The Three Urgent Helpers, aiding the needy and distressed; fair prices, quick results..."
-    qcReviewedText: "How else can I write, The Three Urgent Helpers, aiding the needy and distressed; fair prices, quick results..."
+    translated: "How else could it be written? The Three Life-Shortening Heroes, aiding the distressed and relieving the desperate; fair prices, tasks completed with ease..."
+    qcReviewedText: "How else could it be written? The Three Life-Shortening Heroes, aiding the distressed and relieving the desperate; fair prices, tasks completed with ease..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -355950,8 +355931,8 @@
   splits:
   - split: 4
     text: "你不禁想起告示牌上所见那张写满“催命三侠”四字的宣纸，其上内容，似与风凌所说大相径庭……"
-    translated: "You couldn't help but recall the announcement paper you had seen on the signboard, which was filled with the words Cui Ming San Xia, its content vastly different from what Feng Ling had said......"
-    qcReviewedText: "You couldn't help but recall the announcement paper you had seen on the signboard, which was filled with the words Cui Ming San Xia, its content vastly different from what Feng Ling had said......"
+    translated: "You couldn't help but recall the sheet of xuan paper you had seen on the notice board, covered in the four characters Three Life-Shortening Heroes. Its contents seemed to contradict greatly what Feng Ling had said..."
+    qcReviewedText: "You couldn't help but recall the sheet of xuan paper you had seen on the notice board, covered in the four characters Three Life-Shortening Heroes. Its contents seemed to contradict greatly what Feng Ling had said..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356202,14 +356183,11 @@
   splits:
   - split: 4
     text: "还能是什么？“催命三侠，扶危济困，价……”"
-    translated: "Can it be anything else? The Three Urgent Saviors, aiding those in peril, at a price..."
-    qcReviewedText: "Can it be anything else? The Three Urgent Saviors, aiding those in peril, at a price..."
-    qcTranslated: "Can it be anything else? The Three Life-Takers, aiding the weak and relieving distress, at a price..."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "What else could it be? The Three Life-Shortening Heroes, aiding the distressed and relieving the needy, at a price..."
+    qcReviewedText: "What else could it be? The Three Life-Shortening Heroes, aiding the distressed and relieving the needy, at a price..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1704,200001037002,4,[0].talks{json}[32].talk,前几字仍是得意语气，但往后风凌每说一字，便迟疑一分。"
   splits:
   - split: 4
@@ -356327,8 +356305,8 @@
   splits:
   - split: 4
     text: "“……在下但见满纸尽是‘催命三侠’四字，心中突生好奇，故而……”"
-    translated: "“......I noticed that the entire page was filled with the words 'Three Death-Defying Heroes,' and my curiosity suddenly sparked, so I......”"
-    qcReviewedText: "“......I noticed that the entire page was filled with the words 'Three Death-Defying Heroes,' and my curiosity suddenly sparked, so I......”"
+    translated: "...I merely saw the four characters 'Three Life-Shortening Heroes' written all over the page, which sparked my curiosity, and so..."
+    qcReviewedText: "...I merely saw the four characters 'Three Life-Shortening Heroes' written all over the page, which sparked my curiosity, and so..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -356336,8 +356314,8 @@
   splits:
   - split: 4
     text: "空气凝滞良久，催命三侠尽皆举箸于空，目瞪口呆。"
-    translated: "The air hung heavy for a long while; the Three Deathly Companions all held their chopsticks suspended, staring in disbelief."
-    qcReviewedText: "The air hung heavy for a long while; the Three Deathly Companions all held their chopsticks suspended, staring in disbelief."
+    translated: "The air hung heavy for a long moment. The Three Life-Shortening Heroes all held their chopsticks suspended in midair, dumbfounded."
+    qcReviewedText: "The air hung heavy for a long moment. The Three Life-Shortening Heroes all held their chopsticks suspended in midair, dumbfounded."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -357378,14 +357356,11 @@
   splits:
   - split: 4
     text: "算有些眼力，若说英雄，襄阳城中除催命三侠，还有何人？"
-    translated: "To call yourself an expert, who else in Xiangyang City would you consider a hero besides the Three Deathly Heroes?"
-    qcReviewedText: "To call yourself an expert, who else in Xiangyang City would you consider a hero besides the Three Deathly Heroes?"
-    qcTranslated: "You have some eye for talent, but if we're talking about heroes, who else in Xiangyang City would you consider a hero besides the Three Deathly Heroes?"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "You have some discernment. If we speak of heroes, who else in Xiangyang City, besides the Three Life-Shortening Heroes, could be called one?"
+    qcReviewedText: "You have some discernment. If we speak of heroes, who else in Xiangyang City, besides the Three Life-Shortening Heroes, could be called one?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1706,200001038000,4,[0].talks{json}[24].name,风凌"
   splits:
   - split: 4
@@ -357417,8 +357392,8 @@
   splits:
   - split: 4
     text: "赌坊掌柜听到“催命三侠”名号，微微一怔。"
-    translated: "The Gambling Den Manager froze slightly at the name Cui Ming San Xia."
-    qcReviewedText: "The Gambling Den Manager froze slightly at the name Cui Ming San Xia."
+    translated: "The Gambling Den Manager paused for a moment upon hearing the name Three Life-Shortening Heroes."
+    qcReviewedText: "The Gambling Den Manager paused for a moment upon hearing the name Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -357435,8 +357410,8 @@
   splits:
   - split: 4
     text: "催命三侠何时……干起打家劫舍勾当了？"
-    translated: "When did the Three Deathly Heroes start engaging in robbery and plundering?"
-    qcReviewedText: "When did the Three Deathly Heroes start engaging in robbery and plundering?"
+    translated: "When did the Three Life-Shortening Heroes... start robbing houses and plundering?"
+    qcReviewedText: "When did the Three Life-Shortening Heroes... start robbing houses and plundering?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -357513,8 +357488,8 @@
   splits:
   - split: 4
     text: "化名在此隐匿七年，可惜瞒不过催命三侠！"
-    translated: "Using an alias to hide here for seven years, unfortunately, it couldn't escape the eyes of the Three Death-Seeking Heroes!"
-    qcReviewedText: "Using an alias to hide here for seven years, unfortunately, it couldn't escape the eyes of the Three Death-Seeking Heroes!"
+    translated: "I have hidden here under an alias for seven years, but alas, I could not escape the Three Life-Shortening Heroes!"
+    qcReviewedText: "I have hidden here under an alias for seven years, but alas, I could not escape the Three Life-Shortening Heroes!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -358423,8 +358398,8 @@
   splits:
   - split: 4
     text: "此乃催命三侠逆天改命之大事，马虎不得！"
-    translated: "This is a crucial matter for the Three Heroes who defied fate; no carelessness is allowed!"
-    qcReviewedText: "This is a crucial matter for the Three Heroes who defied fate; no carelessness is allowed!"
+    translated: "This is a momentous affair for the Three Life-Shortening Heroes to defy fate and alter their destiny; there can be no carelessness!"
+    qcReviewedText: "This is a momentous affair for the Three Life-Shortening Heroes to defy fate and alter their destiny; there can be no carelessness!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -358459,14 +358434,11 @@
   splits:
   - split: 4
     text: "赌坊掌柜爽快利索，当即拿出地契，三侠仔细再三，方由玉先生签好过手文书，从此以后，这赌坊便是“催命三侠”的了。"
-    translated: "The Gambling Den Manager handed over the deed without delay. The Three Heroes examined it carefully before Master Yu signed the transfer document. From then on, the Gambling Den belonged to the Cui Ming San Xia."
-    qcReviewedText: "The Gambling Den Manager handed over the deed without delay. The Three Heroes examined it carefully before Master Yu signed the transfer document. From then on, the Gambling Den belonged to the Cui Ming San Xia."
-    qcTranslated: "The Gambling Den Manager was quick and decisive, immediately producing the land deed. The Three Heroes examined it carefully and repeatedly before Master Yu signed the transfer document. From then on, the Gambling Den belonged to the Cui Ming San Xia."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "The Gambling Den Manager was quick and efficient, immediately producing the land deed. The Three Life-Shortening Heroes examined it carefully and repeatedly before Master Yu signed the transfer documents. From then on, the Gambling Den belonged to the Three Life-Shortening Heroes."
+    qcReviewedText: "The Gambling Den Manager was quick and efficient, immediately producing the land deed. The Three Life-Shortening Heroes examined it carefully and repeatedly before Master Yu signed the transfer documents. From then on, the Gambling Den belonged to the Three Life-Shortening Heroes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1706,200001038000,4,[0].talks{json}[94].name,风凌"
   splits:
   - split: 4
@@ -358817,14 +358789,11 @@
   splits:
   - split: 4
     text: "不想催命三侠还有能交到好运这一日……"
-    translated: "Don't want to have a day when even the Three Deathly Heroes could catch a break..."
-    qcReviewedText: "Don't want to have a day when even the Three Deathly Heroes could catch a break..."
-    qcTranslated: "I never thought the Three Deathly Heroes would ever get a lucky day like this..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "I never thought the Three Life-Shortening Heroes would have a day of good luck..."
+    qcReviewedText: "I never thought the Three Life-Shortening Heroes would have a day of good luck..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1707,200001038001,5,[2].talks{json}[0].name,玉先生"
   splits:
   - split: 4
@@ -359570,8 +359539,8 @@
   splits:
   - split: 4
     text: "催命三侠同进退，我们这便动身……"
-    translated: "The Three Death-defying Heroes move together, we shall set out now......"
-    qcReviewedText: "The Three Death-defying Heroes move together, we shall set out now......"
+    translated: "The Three Life-Shortening Heroes rise and fall together; let us set off at once..."
+    qcReviewedText: "The Three Life-Shortening Heroes rise and fall together; let us set off at once..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -359652,8 +359621,8 @@
   splits:
   - split: 4
     text: "好！痛快！若是此次我等能全身而退，催命三侠此后，凭君差遣！"
-    translated: "Great! That's what I like! If we manage to escape unscathed this time, the Three Deathly Heroes will be at your command henceforth!"
-    qcReviewedText: "Great! That's what I like! If we manage to escape unscathed this time, the Three Deathly Heroes will be at your command henceforth!"
+    translated: "Excellent! How refreshing! If we can all escape unscathed this time, the Three Life-Shortening Heroes will be at your command from now on!"
+    qcReviewedText: "Excellent! How refreshing! If we can all escape unscathed this time, the Three Life-Shortening Heroes will be at your command from now on!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -359747,8 +359716,8 @@
   splits:
   - split: 4
     text: "你与催命三侠昼夜兼程寻至此地，只见偌大山庄掩映于群山之中，其间云雾缭绕，确是处人间妙境，来路便见此间自有农田水井，想来便不入世，亦可自给自足……"
-    translated: "You and the Three Urgent Life Heroes traveled day and night to reach this place. Upon arrival, you see a vast estate nestled among the mountains, shrouded in mist and clouds, truly a paradise on earth. Even the way here reveals fields and wells, suggesting that one could live self-sufficiently without venturing into the world..."
-    qcReviewedText: "You and the Three Urgent Life Heroes traveled day and night to reach this place. Upon arrival, you see a vast estate nestled among the mountains, shrouded in mist and clouds, truly a paradise on earth. Even the way here reveals fields and wells, suggesting that one could live self-sufficiently without venturing into the world..."
+    translated: "You and the Three Life-Shortening Heroes have traveled day and night to reach this place. You see a vast mountain estate nestled among the peaks, shrouded in swirling mist and clouds-truly a hidden paradise on earth. The path here reveals fields and wells within the estate; it seems that even without engaging with the world, they could sustain themselves..."
+    qcReviewedText: "You and the Three Life-Shortening Heroes have traveled day and night to reach this place. You see a vast mountain estate nestled among the peaks, shrouded in swirling mist and clouds-truly a hidden paradise on earth. The path here reveals fields and wells within the estate; it seems that even without engaging with the world, they could sustain themselves..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -361620,8 +361589,8 @@
   splits:
   - split: 4
     text: "这些拦路门客颇具身手，你与催命三侠一番苦战，终将其悉数击倒，但须臾之间，便有更多庄客涌出。"
-    translated: "These blocking guards are quite skilled. You fought a bitter battle with the Three Ghosts of Doom and finally defeated them all, but in no time at all, more guards poured out."
-    qcReviewedText: "These blocking guards are quite skilled. You fought a bitter battle with the Three Ghosts of Doom and finally defeated them all, but in no time at all, more guards poured out."
+    translated: "These roadblock retainers are quite skilled. After a fierce battle with the Three Life-Shortening Heroes, you finally knocked them all down, but in an instant, more retainers from the manor poured out."
+    qcReviewedText: "These roadblock retainers are quite skilled. After a fierce battle with the Three Life-Shortening Heroes, you finally knocked them all down, but in an instant, more retainers from the manor poured out."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -362981,8 +362950,8 @@
   splits:
   - split: 4
     text: "“催命三侠”向来福薄……今日似乎太顺了些。"
-    translated: "The Three Death-Dealing Heroes have been rather unlucky lately......Today, things seem to be going too smoothly."
-    qcReviewedText: "The Three Death-Dealing Heroes have been rather unlucky lately......Today, things seem to be going too smoothly."
+    translated: "The Three Life-Shortening Heroes have always been ill-fated... Today seems a bit too smooth."
+    qcReviewedText: "The Three Life-Shortening Heroes have always been ill-fated... Today seems a bit too smooth."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -364302,13 +364271,13 @@
   splits:
   - split: 4
     text: "我三人自此了无牵挂，先前之诺，仍当作数，日后{firstName}{playerTitle}行走江湖，“催命三侠”凭君差遣！"
-    translated: "The three of us are now free of all ties. The promise made earlier still stands. In the future, when you, {playerTitle}, travel through Jianghu, the Three Death-Calling Heroes shall be at your command, {firstName}!"
+    translated: "The three of us are now free of all ties. Our previous promise still stands. As {playerTitle} {firstName} travels the Jianghu, the Three Life-Shortening Heroes are at your command!"
     tokens:
       firstName:
         source: "<fName>"
       playerTitle:
         source: "<兄||姑娘>"
-    qcReviewedText: "The three of us are now free of all ties. The promise made earlier still stands. In the future, when you, {playerTitle}, travel through Jianghu, the Three Death-Calling Heroes shall be at your command, {firstName}!"
+    qcReviewedText: "The three of us are now free of all ties. Our previous promise still stands. As {playerTitle} {firstName} travels the Jianghu, the Three Life-Shortening Heroes are at your command!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

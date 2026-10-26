@@ -31048,14 +31048,11 @@
   splits:
   - split: 2
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "查看襄阳城中告示牌。"
     translated: "Check the notice boards in Xiangyang"
@@ -31067,40 +31064,31 @@
   splits:
   - split: 2
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "与卖糕小贩交谈，询问“催命三侠”之事。"
-    translated: "Talk to the Cake Vendor about the Three Urgent Assassins."
-    qcReviewedText: "Talk to the Cake Vendor about the Three Urgent Assassins."
-    qcTranslated: "Talk to the Cake Vendor about the Three Life-Urging Heroes."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Talk to the Cake Vendor and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Talk to the Cake Vendor and ask about the Three Life-Shortening Heroes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1690,200001035000,催命三侠,与算命先生交谈，询问“催命三侠”之事。,\"[{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,1200000241\"\",\"\"talks\"\":\"\"[{\\\"\"id\\\"\":2000010330020001,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020000\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"占卦算命，指点迷津，先问前事，非者分文不取……这位少侠，可是要算上一卦？\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"算。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020003},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"不算。\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020002},{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“阁下可曾听过‘催命三侠’？”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020005}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020002,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"23:2\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020003,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"算命先生摸了摸你手上骨骼，又闭目抬头，虚捏手指，良久方才睁眼，连连摆手。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020004,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020003\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"算不得，算不得……少侠命数非比寻常，小老儿功夫不到，再算怕无几年阳寿可折了……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020005,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020001\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"5:6,1200000241,-10,0\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020006,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":null,\\\"\"preId\\\"\":\\\"\"2000010330020005\\\"\",\\\"\"preCondition\\\"\":null,\\\"\"talk\\\"\":\\\"\"算命先生面色不善，上下再打量你一遍。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":null,\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":null,\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020007,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020006\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"你们相识？\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“只是听闻，无缘得见……”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020008}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020008,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020007\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"5:6,1200000241,10,0\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020009,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":null,\\\"\"preId\\\"\":\\\"\"2000010330020008\\\"\",\\\"\"preCondition\\\"\":null,\\\"\"talk\\\"\":\\\"\"算命先生松了口气。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":null,\\\"\"config\\\"\":null,\\\"\"action\\\"\":null,\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020010,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020009\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"不识便好，这几位可不是甚么好人……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“此话怎讲？”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020011}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020011,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020010\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"上月我听他们自称“三侠”，想来是侠义之士，便想免费给他们一卦。没成想这免费算卦，竟算出事儿来了……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020012,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020011\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"我虽道行不高，却也自负不是江湖骗子，那日给这三人分别算过，都是……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“都是什么？”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020013}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020013,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":null,\\\"\"preId\\\"\":\\\"\"2000010330020012\\\"\",\\\"\"preCondition\\\"\":null,\\\"\"talk\\\"\":\\\"\"算命先生面色凄苦，摇了摇头。\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":null,\\\"\"config\\\"\":null,\\\"\"action\\\"\":null,\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020014,\\\"\"talkType\\\"\":1,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020013\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"都是穷命！\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020015,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020014\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"这三人当即说我是骗子，算得不准，连我的牌子，都给他们砸了……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“这不是恶霸行径么？如何当得起这个‘侠’字？”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020016}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020016,\\\"\"talkType\\\"\":9,\\\"\"name\\\"\":\\\"\"算命先生\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020015\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"唉……我其后才知，“三侠”是他们自封的，“催命”才是旁人加上的，这可不要了命么……\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"1200000241\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[{\\\\\\\"\"name\\\\\\\"\":\\\\\\\"\"“……”\\\\\\\"\",\\\\\\\"\"id\\\\\\\"\":2000010330020017}]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020017,\\\"\"talkType\\\"\":15,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020016\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"2000010330020018;2000010330020019;17;0;200001034_990\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":\\\"\"\\\"\",\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":\\\"\"\\\"\",\\\"\"action\\\"\":\\\"\"\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020018,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020017\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"20:0,200001036\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null},{\\\"\"id\\\"\":2000010330020019,\\\"\"talkType\\\"\":0,\\\"\"name\\\"\":\\\"\"\\\"\",\\\"\"preId\\\"\":\\\"\"2000010330020017,2000010330020018\\\"\",\\\"\"preCondition\\\"\":\\\"\"\\\"\",\\\"\"talk\\\"\":\\\"\"\\\"\",\\\"\"time\\\"\":0,\\\"\"image\\\"\":null,\\\"\"audio\\\"\":\\\"\"\\\"\",\\\"\"config\\\"\":null,\\\"\"action\\\"\":\\\"\"0:200001035,999,0;9:2000030;30:1,1\\\"\",\\\"\"options\\\"\":\\\"\"[]\\\"\",\\\"\"isOpenAttr\\\"\":false,\\\"\"attr\\\"\":null}]\"\",\"\"changeProcess\"\":\"\"1\"\"}]\",\"[{\"\"triggerType\"\":0,\"\"npcId\"\":null,\"\"triggerValue\"\":\"\"talk,0\"\",\"\"talks\"\":\"\"[]\"\",\"\"changeProcess\"\":null}]\""
   splits:
   - split: 2
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "与算命先生交谈，询问“催命三侠”之事。"
-    translated: "Talk to the Fortune Teller about the Three Urgent Fate Heroes."
-    qcReviewedText: "Talk to the Fortune Teller about the Three Urgent Fate Heroes."
+    translated: "Talk to the Fortune Teller and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Talk to the Fortune Teller and ask about the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31115,8 +31103,8 @@
     qcDefectCategory: None
   - split: 3
     text: "与小乞儿交谈，询问“催命三侠”之事。"
-    translated: "Talk to Little Beggar about the Three Urgent Death Heroes."
-    qcReviewedText: "Talk to Little Beggar about the Three Urgent Death Heroes."
+    translated: "Speak with Little Beggar and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Speak with Little Beggar and ask about the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31131,8 +31119,8 @@
     qcDefectCategory: None
   - split: 3
     text: "与小乞儿交谈，询问“催命三侠”之事。"
-    translated: "Talk to Little Beggar about the Three Urgent Death Heroes."
-    qcReviewedText: "Talk to Little Beggar about the Three Urgent Death Heroes."
+    translated: "Speak with Little Beggar and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Speak with Little Beggar and ask about the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31147,8 +31135,8 @@
     qcDefectCategory: None
   - split: 3
     text: "前往襄阳赌场，寻找“催命三侠”下落。"
-    translated: "Head to the casino in Xiangyang to find out about the Three Urgent Death Heroes."
-    qcReviewedText: "Head to the casino in Xiangyang to find out about the Three Urgent Death Heroes."
+    translated: "Head to the Xiangyang casino and find out what happened to the Three Life-Shortening Heroes."
+    qcReviewedText: "Head to the Xiangyang casino and find out what happened to the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

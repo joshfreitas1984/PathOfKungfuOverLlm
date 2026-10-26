@@ -11486,18 +11486,15 @@
     translated: "Notice Board"
   - split: 12
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 13
     text: "与卖糕小贩交谈，询问“催命三侠”之事。"
-    translated: "Talk to the Cake Vendor about the Three Urgent Fate Heroes."
-    qcReviewedText: "Talk to the Cake Vendor about the Three Urgent Fate Heroes."
+    translated: "Speak with the Cake Vendor and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Speak with the Cake Vendor and ask about the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11526,8 +11523,8 @@
     qcDefectCategory: None
   - split: 13
     text: "与小乞儿交谈，询问“催命三侠”之事。"
-    translated: "Talk to Little Beggar about the Three Urgent Death Heroes."
-    qcReviewedText: "Talk to Little Beggar about the Three Urgent Death Heroes."
+    translated: "Talk to Little Beggar and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Talk to Little Beggar and ask about the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11556,8 +11553,8 @@
     qcDefectCategory: None
   - split: 13
     text: "与小乞儿交谈，询问“催命三侠”之事。"
-    translated: "Talk to Little Beggar about the Three Urgent Death Heroes."
-    qcReviewedText: "Talk to Little Beggar about the Three Urgent Death Heroes."
+    translated: "Talk to Little Beggar and ask about the Three Life-Shortening Heroes."
+    qcReviewedText: "Talk to Little Beggar and ask about the Three Life-Shortening Heroes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -13372,18 +13372,15 @@
   splits:
   - split: 2
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "你于告示牌侧角，见了一张写满“催命三侠”的告示，似乎满是怨念。"
-    translated: "You noticed a notice board nearby with The Three Death Urging Heroes written on it, seeming full of resentment."
-    qcReviewedText: "You noticed a notice board nearby with The Three Death Urging Heroes written on it, seeming full of resentment."
+    translated: "You notice a notice plastered on the side of the signpost, covered in the words Three Life-Shortening Heroes, seemingly brimming with resentment."
+    qcReviewedText: "You notice a notice plastered on the side of the signpost, covered in the words Three Life-Shortening Heroes, seemingly brimming with resentment."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13398,18 +13395,15 @@
   splits:
   - split: 2
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "你向小贩询问催命三侠，小贩将其“恶行”大加抱怨。"
-    translated: "You ask the vendor about the Three Grim Reapers, and he complains loudly about their deeds."
-    qcReviewedText: "You ask the vendor about the Three Grim Reapers, and he complains loudly about their deeds."
+    translated: "You ask the vendor about the Three Life-Shortening Heroes, and the vendor complains at length about their evil deeds."
+    qcReviewedText: "You ask the vendor about the Three Life-Shortening Heroes, and the vendor complains at length about their evil deeds."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13424,18 +13418,15 @@
   splits:
   - split: 2
     text: "催命三侠"
-    translated: "Three Urgent Heroes"
-    qcReviewedText: "Three Urgent Heroes"
-    qcTranslated: "Three Life-Takers"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "Three Life-Shortening Heroes"
+    qcReviewedText: "Three Life-Shortening Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 3
     text: "你向算命道士询问催命三侠，得知其所犯“恶行”。"
-    translated: "You asked the fortune-telling Taoist about the Three Death-Hasteners and learned of their evil deeds."
-    qcReviewedText: "You asked the fortune-telling Taoist about the Three Death-Hasteners and learned of their evil deeds."
+    translated: "You ask the fortune-telling Taoist about the Three Life-Shortening Heroes and learn of their evil deeds."
+    qcReviewedText: "You ask the fortune-telling Taoist about the Three Life-Shortening Heroes and learn of their evil deeds."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
