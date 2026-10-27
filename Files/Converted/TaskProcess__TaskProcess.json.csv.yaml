@@ -121395,9 +121395,11 @@
   splits:
   - split: 4
     text: "这长安城李姓人家，昔年没有一百户，恐怕也有八十户，阁下……何来此问？"
-    translated: "Of the Li families in Chang'an, there were never a hundred, but surely eighty. Why do you ask?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Centurion,百户,"
+    translated: "Of the Li families in Chang'an, there were never a hundred, but perhaps eighty. Sir... why do you ask?"
+    qcReviewedText: "Of the Li families in Chang'an, there were never a hundred, but perhaps eighty. Sir... why do you ask?\\nThe old man's lips were cracked, and his voice was hoarse as he scrutinized you for a long time."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     subIndex: 1
     text: "老人双唇干裂，喉音沙哑，打量了你许久。"
@@ -281861,8 +281863,8 @@
   splits:
   - split: 4
     text: "“此物可是第五姑娘的？”"
-    translated: "Is this Miss Fifth's?"
-    qcReviewedText: "Is this Miss Fifth's?"
+    translated: "Is this Miss Diwu's?"
+    qcReviewedText: "Is this Miss Diwu's?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281927,8 +281929,8 @@
   splits:
   - split: 4
     text: "你既亦是阁中之人……可曾听过“第五萝”之名？"
-    translated: "Since you are also one of us in the Pavilion... have you ever heard of the name Fifth Lotus?"
-    qcReviewedText: "Since you are also one of us in the Pavilion... have you ever heard of the name Fifth Lotus?"
+    translated: "You are also one of the Pavilion's members... Have you ever heard the name Diwu Luo?"
+    qcReviewedText: "You are also one of the Pavilion's members... Have you ever heard the name Diwu Luo?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281945,8 +281947,8 @@
   splits:
   - split: 4
     text: "“我所识此姓之人，便仅第五姑娘一人……”"
-    translated: "I only know one person of this surname, Miss Fifth..."
-    qcReviewedText: "I only know one person of this surname, Miss Fifth..."
+    translated: "The only person I know with that surname is Miss Diwu..."
+    qcReviewedText: "The only person I know with that surname is Miss Diwu..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281972,8 +281974,8 @@
   splits:
   - split: 4
     text: "既不知“第五萝”，你可知神秀“慧剑”？"
-    translated: "If you don't know Fifth Luo, do you know Shenhui's Wisdom Sword?"
-    qcReviewedText: "If you don't know Fifth Luo, do you know Shenhui's Wisdom Sword?"
+    translated: "If you do not know of Diwu Luo, then do you know the Divine Show's Hui Sword?"
+    qcReviewedText: "If you do not know of Diwu Luo, then do you know the Divine Show's Hui Sword?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -282017,14 +282019,11 @@
   splits:
   - split: 4
     text: "“第五姑娘此行所求，不仅是将定海石安然送抵么？”"
-    translated: "Is your fifth request merely to safely deliver the Sea-Calming Stone?"
-    qcReviewedText: "Is your fifth request merely to safely deliver the Sea-Calming Stone?"
-    qcTranslated: "Is Miss Fifth's purpose in this journey merely to safely deliver the Sea-Calming Stone?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Is Miss Diwu's only purpose in this journey to safely deliver the Sea-Calming Stone?"
+    qcReviewedText: "Is Miss Diwu's only purpose in this journey to safely deliver the Sea-Calming Stone?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "1379,15000306000,4,[0].talks{json}[11].name,第五青衫"
   splits:
   - split: 4
@@ -282133,8 +282132,8 @@
   splits:
   - split: 4
     text: "“第五姑娘疑心左门主……”"
-    translated: "Miss Fifth suspects Left Sect Master..."
-    qcReviewedText: "Miss Fifth suspects Left Sect Master..."
+    translated: "Miss Diwu suspects Sect Leader Zuo..."
+    qcReviewedText: "Miss Diwu suspects Sect Leader Zuo..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -282196,8 +282195,8 @@
   splits:
   - split: 4
     text: "“令堂往事，连第五姑娘也不知么？”"
-    translated: "“Even Fifth Miss doesn't know about your mother's past?”"
-    qcReviewedText: "“Even Fifth Miss doesn't know about your mother's past?”"
+    translated: "Did Miss Diwu not know of your mother's past?"
+    qcReviewedText: "Did Miss Diwu not know of your mother's past?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -282703,8 +282702,8 @@
   splits:
   - split: 4
     text: "“吕姑娘可曾听过‘慧剑’第五萝？”"
-    translated: "Have you heard of the 'Wisdom Sword' Fifth Luo, Miss Lu?"
-    qcReviewedText: "Have you heard of the 'Wisdom Sword' Fifth Luo, Miss Lu?"
+    translated: "Has Miss Lu ever heard of 'Wisdom Sword' Diwu Luo?"
+    qcReviewedText: "Has Miss Lu ever heard of 'Wisdom Sword' Diwu Luo?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -282751,8 +282750,8 @@
   splits:
   - split: 4
     text: "“此事便是受第五姑娘所托……”"
-    translated: "This matter was entrusted to me by the Fifth Miss..."
-    qcReviewedText: "This matter was entrusted to me by the Fifth Miss..."
+    translated: "This matter is something I was entrusted with by Miss Diwu..."
+    qcReviewedText: "This matter is something I was entrusted with by Miss Diwu..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -282817,8 +282816,8 @@
   splits:
   - split: 4
     text: "“黄姑娘可曾听过‘慧剑’或‘第五萝’？”"
-    translated: "Have you heard of 'Wise Sword' or 'Fifth Luo', Miss Huang?"
-    qcReviewedText: "Have you heard of 'Wise Sword' or 'Fifth Luo', Miss Huang?"
+    translated: "Have you ever heard of the 'Sage Sword' or 'Diwu Luo', Miss Huang?"
+    qcReviewedText: "Have you ever heard of the 'Sage Sword' or 'Diwu Luo', Miss Huang?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -282937,8 +282936,8 @@
   splits:
   - split: 4
     text: "“东壁先生可曾听过‘慧剑’或‘第五萝’之下落？”"
-    translated: "Have you, Master Dongbi, heard of the whereabouts of 'Wisdom Sword' or 'Fifth Luo'?"
-    qcReviewedText: "Have you, Master Dongbi, heard of the whereabouts of 'Wisdom Sword' or 'Fifth Luo'?"
+    translated: "Has Master Dongbi ever heard of the whereabouts of 'Huijian' or Diwu Luo?"
+    qcReviewedText: "Has Master Dongbi ever heard of the whereabouts of 'Huijian' or Diwu Luo?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -284140,8 +284139,8 @@
   splits:
   - split: 4
     text: "这位“神秀英才”，便是下山行侠，正当妙龄的“神秀慧剑”第五萝，她虽为女子，性情却是直爽豪勇，两人激斗千招，竟是平分秋色。"
-    translated: "This Divine Talent, who goes by the name Fifth Luo of the Divine Wisdom Sword, is a woman who travels the world to practice chivalry at the height of her youth. Despite being female, she has a straightforward and bold personality. After battling for a thousand exchanges, they were evenly matched."
-    qcReviewedText: "This Divine Talent, who goes by the name Fifth Luo of the Divine Wisdom Sword, is a woman who travels the world to practice chivalry at the height of her youth. Despite being female, she has a straightforward and bold personality. After battling for a thousand exchanges, they were evenly matched."
+    translated: "This Divine Show Talent is Diwu Luo, the Divine Show Wisdom Sword, a young woman of prime age who descends the mountain to practice chivalry. Though she is a woman, her temperament is forthright and bold; after a fierce battle of a thousand moves, they were evenly matched."
+    qcReviewedText: "This Divine Show Talent is Diwu Luo, the Divine Show Wisdom Sword, a young woman of prime age who descends the mountain to practice chivalry. Though she is a woman, her temperament is forthright and bold; after a fierce battle of a thousand moves, they were evenly matched."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -284203,8 +284202,8 @@
   splits:
   - split: 4
     text: "吕怀青与第五萝行走天下，云游四海，名号亦是愈来愈响……但十余年前，东瀛祸起……"
-    translated: "Lu Huaiqing and the Fifth Luo traveled the world, wandering across the four seas, their reputation growing ever greater... but over a decade ago, calamity struck Dongying..."
-    qcReviewedText: "Lu Huaiqing and the Fifth Luo traveled the world, wandering across the four seas, their reputation growing ever greater... but over a decade ago, calamity struck Dongying..."
+    translated: "Lu Huaqing and Diwu Luo traveled the world, wandering across the four seas, and their fame grew ever louder... But more than a decade ago, disaster struck Dongying..."
+    qcReviewedText: "Lu Huaqing and Diwu Luo traveled the world, wandering across the four seas, and their fame grew ever louder... But more than a decade ago, disaster struck Dongying..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -284248,8 +284247,8 @@
   splits:
   - split: 4
     text: "第五萝用尽法子，终是留不下吕怀青，两人就此决裂……随后第五萝便隐于江湖，再不复现……"
-    translated: "Fifth Luo tried every means possible but could not retain Lyu Huaiqing in the end; they parted ways forever... Afterward, Fifth Luo disappeared into the Jianghu and was never seen again..."
-    qcReviewedText: "Fifth Luo tried every means possible but could not retain Lyu Huaiqing in the end; they parted ways forever... Afterward, Fifth Luo disappeared into the Jianghu and was never seen again..."
+    translated: "Diwu Luo tried every means to keep Lu Huaqing, but in the end, she could not. The two parted ways forever... Afterward, Diwu Luo vanished into the Jianghu and was never seen again..."
+    qcReviewedText: "Diwu Luo tried every means to keep Lu Huaqing, but in the end, she could not. The two parted ways forever... Afterward, Diwu Luo vanished into the Jianghu and was never seen again..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -284685,8 +284684,8 @@
   splits:
   - split: 4
     text: "“左门主可曾听过‘第五萝’其人？”"
-    translated: "Have you heard of 'Fifth Luo,' Master Left?"
-    qcReviewedText: "Have you heard of 'Fifth Luo,' Master Left?"
+    translated: "Has the Left Gate Master ever heard of 'Diwu Luo'?"
+    qcReviewedText: "Has the Left Gate Master ever heard of 'Diwu Luo'?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -404313,8 +404312,8 @@
   splits:
   - split: 4
     text: "“第五姑娘可是有些推测？”"
-    translated: "Have you made any guesses, Miss?"
-    qcReviewedText: "Have you made any guesses, Miss?"
+    translated: "Does Miss Diwu have any conjectures?"
+    qcReviewedText: "Does Miss Diwu have any conjectures?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -404322,8 +404321,8 @@
   splits:
   - split: 4
     text: "“没料到第五姑娘年岁不大，心思却如此缜密，竟已猜出幕后之人吗？”"
-    translated: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
-    qcReviewedText: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
+    translated: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
+    qcReviewedText: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -406930,8 +406929,8 @@
   splits:
   - split: 4
     text: "“第五姑娘可是有些推测？”"
-    translated: "Have you made any guesses, Miss?"
-    qcReviewedText: "Have you made any guesses, Miss?"
+    translated: "Does Miss Diwu have any conjectures?"
+    qcReviewedText: "Does Miss Diwu have any conjectures?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -406939,8 +406938,8 @@
   splits:
   - split: 4
     text: "“没料到第五姑娘年岁不大，心思却如此缜密，竟已猜出幕后之人吗？”"
-    translated: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
-    qcReviewedText: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
+    translated: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
+    qcReviewedText: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -407584,8 +407583,8 @@
   splits:
   - split: 4
     text: "“第五姑娘可是有些推测？”"
-    translated: "Have you made any guesses, Miss?"
-    qcReviewedText: "Have you made any guesses, Miss?"
+    translated: "Does Miss Diwu have any conjectures?"
+    qcReviewedText: "Does Miss Diwu have any conjectures?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -407593,8 +407592,8 @@
   splits:
   - split: 4
     text: "“没料到第五姑娘年岁不大，心思却如此缜密，竟已猜出幕后之人吗？”"
-    translated: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
-    qcReviewedText: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
+    translated: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
+    qcReviewedText: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -408215,8 +408214,8 @@
   splits:
   - split: 4
     text: "“第五姑娘可是有些推测？”"
-    translated: "Have you made any guesses, Miss?"
-    qcReviewedText: "Have you made any guesses, Miss?"
+    translated: "Does Miss Diwu have any conjectures?"
+    qcReviewedText: "Does Miss Diwu have any conjectures?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -408224,8 +408223,8 @@
   splits:
   - split: 4
     text: "“没料到第五姑娘年岁不大，心思却如此缜密，竟已猜出幕后之人吗？”"
-    translated: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
-    qcReviewedText: "“I didn't expect Miss Fifth to be so perceptive for one so young and have already guessed the person behind it all?”"
+    translated: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
+    qcReviewedText: "I did not expect Miss Diwu to be so young yet so meticulous in her thinking. Have you already deduced who is behind this?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
