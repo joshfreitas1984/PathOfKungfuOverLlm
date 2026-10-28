@@ -130425,8 +130425,8 @@
   splits:
   - split: 4
     text: "那人四十岁时据大光明宫教义创出了隐月楼如今信奉的拜月教义，迅速席卷西域，短短十余年，大光明宫便在他手下分崩离析，如今除了我等，整个西域只怕也寻不到还在拜圣火明王的了。"
-    translated: "At the age of forty, he established the Moon Worship doctrine now followed by Yinyue Tower, based on the teachings of the Great Brightness Palace. It rapidly swept across the Western Regions, and within just over a decade, the Great Brightness Palace crumbled under his influence. Today, aside from us, it is likely that no one in the entire Western Regions still worships the Holy Fire Mingwang."
-    qcReviewedText: "At the age of forty, he established the Moon Worship doctrine now followed by Yinyue Tower, based on the teachings of the Great Brightness Palace. It rapidly swept across the Western Regions, and within just over a decade, the Great Brightness Palace crumbled under his influence. Today, aside from us, it is likely that no one in the entire Western Regions still worships the Holy Fire Mingwang."
+    translated: "At the age of forty, that man drew on the teachings of the Great Brightness Palace to create the Baiyue Doctrine now followed by Yinyue Tower. It swiftly swept across the Western Regions, and within a mere decade or so, the Great Brightness Palace crumbled under his hand. Today, aside from us, it is doubtful that anyone in the entire Western Regions still worships the Holy Fire Mingwang."
+    qcReviewedText: "At the age of forty, that man drew on the teachings of the Great Brightness Palace to create the Baiyue Doctrine now followed by Yinyue Tower. It swiftly swept across the Western Regions, and within a mere decade or so, the Great Brightness Palace crumbled under his hand. Today, aside from us, it is doubtful that anyone in the entire Western Regions still worships the Holy Fire Mingwang."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -131374,14 +131374,11 @@
   splits:
   - split: 4
     text: "楼主如今正在拜月楼中闭关，如今教中一干事务皆由月女决断。"
-    translated: "The leader of the forum is currently in seclusion at the Banyue Tower, and all matters of the sect are now handled by Moon Maiden."
-    qcReviewedText: "The leader of the forum is currently in seclusion at the Banyue Tower, and all matters of the sect are now handled by Moon Maiden."
-    qcTranslated: "The Sect Leader is currently in seclusion at the Moon Worship Pavilion, and all matters of the sect are now handled by Moon Maiden."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "The Master of Yinyue Tower is currently in seclusion at Baiyue Tower. All affairs of the sect are now decided by the Moon Maiden."
+    qcReviewedText: "The Master of Yinyue Tower is currently in seclusion at Baiyue Tower. All affairs of the sect are now decided by the Moon Maiden."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "658,280101006002,4,[0].talks{json}[7].talk,说到此节，老者眉头微皱，微微叹了口气。"
   splits:
   - split: 4
@@ -131713,8 +131710,8 @@
   splits:
   - split: 4
     text: "你想起隐月楼中有人与天下人有所勾连之事，不禁只觉离奇，倘若是其他身居高位之人倒也罢了，贵为楼主如此行事，却不知是何道理。"
-    translated: "Recalling that someone at Yinyue Tower was connected to Tian Xia Ren seemed bizarre. If it were anyone else in a position of power, it would be one thing, but for the esteemed Tower Lord to act this way is incomprehensible."
-    qcReviewedText: "Recalling that someone at Yinyue Tower was connected to Tian Xia Ren seemed bizarre. If it were anyone else in a position of power, it would be one thing, but for the esteemed Tower Lord to act this way is incomprehensible."
+    translated: "Recalling that someone at Yinyue Tower was connected to Tian Xia Ren seemed bizarre. If it were anyone else in a position of power, it would be one thing, but for the esteemed Master of Yinyue Tower to act this way is incomprehensible."
+    qcReviewedText: "Recalling that someone at Yinyue Tower was connected to Tian Xia Ren seemed bizarre. If it were anyone else in a position of power, it would be one thing, but for the esteemed Master of Yinyue Tower to act this way is incomprehensible."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -133483,8 +133480,8 @@
   splits:
   - split: 4
     text: "便是他暗中给本座投毒，使我只得困于楼中全力驱毒，他却以职位之便宣称本座在拜月楼中闭关，不得令任何人入内来见。"
-    translated: "Even if he secretly poisoned me, forcing me to stay in the tower to expel the poison, he used his position to claim that I was in seclusion at the Baoyue Tower and did not allow anyone to enter."
-    qcReviewedText: "Even if he secretly poisoned me, forcing me to stay in the tower to expel the poison, he used his position to claim that I was in seclusion at the Baoyue Tower and did not allow anyone to enter."
+    translated: "Even if he secretly poisoned me, forcing me to remain confined within the tower to expel the toxin with all my might, he would exploit his position to declare that I was in seclusion at Baiyue Tower and forbid anyone from entering to see me."
+    qcReviewedText: "Even if he secretly poisoned me, forcing me to remain confined within the tower to expel the toxin with all my might, he would exploit his position to declare that I was in seclusion at Baiyue Tower and forbid anyone from entering to see me."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -133723,8 +133720,8 @@
   splits:
   - split: 4
     text: "若有所需，便到拜月楼来罢。"
-    translated: "If you need anything, come to the Moon Prayer Tower."
-    qcReviewedText: "If you need anything, come to the Moon Prayer Tower."
+    translated: "If you need anything, come to the Baiyue Tower."
+    qcReviewedText: "If you need anything, come to the Baiyue Tower."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -135378,8 +135375,8 @@
   splits:
   - split: 4
     text: "拜月教义，本应是为天下苍生福祉而诞。"
-    translated: "The Way of the Moon Sect should have been born for the welfare of all mankind."
-    qcReviewedText: "The Way of the Moon Sect should have been born for the welfare of all mankind."
+    translated: "The Baiyue Doctrine was originally meant to be born for the well-being of all under heaven."
+    qcReviewedText: "The Baiyue Doctrine was originally meant to be born for the well-being of all under heaven."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281338,8 +281335,8 @@
   splits:
   - split: 4
     text: "我多年前曾与其打过交道，这项天奉，恐怕便是拜月中人。"
-    translated: "I dealt with him many years ago; this Xiang Tianfeng is likely a Moon Worshipper."
-    qcReviewedText: "I dealt with him many years ago; this Xiang Tianfeng is likely a Moon Worshipper."
+    translated: "I dealt with him many years ago. This Xiang Tianfeng is likely a member of the Baiyue cult."
+    qcReviewedText: "I dealt with him many years ago. This Xiang Tianfeng is likely a member of the Baiyue cult."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281347,8 +281344,8 @@
   splits:
   - split: 4
     text: "“隐月，拜月……？”"
-    translated: "Yin Yue, Bai Yue......?"
-    qcReviewedText: "Yin Yue, Bai Yue......?"
+    translated: "Yinyue, Baiyue...?"
+    qcReviewedText: "Yinyue, Baiyue...?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281365,8 +281362,8 @@
   splits:
   - split: 4
     text: "隐月楼如天涯海阁一般，派分两脉，分为“拜月”、“影月”。"
-    translated: "Yinyue Tower, like Tianya Haige, is divided into two branches: Worship Moon and Shadow Moon."
-    qcReviewedText: "Yinyue Tower, like Tianya Haige, is divided into two branches: Worship Moon and Shadow Moon."
+    translated: "Like Tianya Haige, Yinyue Tower is divided into two branches: Baiyue and Yingyue."
+    qcReviewedText: "Like Tianya Haige, Yinyue Tower is divided into two branches: Baiyue and Yingyue."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281383,8 +281380,8 @@
   splits:
   - split: 4
     text: "这两脉中人行事迥异，影月一脉行事极为隐秘，拜月中人行事却多有偏激，故我有此推断……"
-    translated: "The two lineages act very differently; the Shadow Moon lineage acts extremely covertly, while those of the Moon Worship lineage often act in a biased and extreme manner, hence my conclusion......"
-    qcReviewedText: "The two lineages act very differently; the Shadow Moon lineage acts extremely covertly, while those of the Moon Worship lineage often act in a biased and extreme manner, hence my conclusion......"
+    translated: "The two sects act in vastly different ways. The Yingyue faction operates with extreme secrecy, while the Baiyue faction often behaves in an extreme manner. Therefore, I have made this inference..."
+    qcReviewedText: "The two sects act in vastly different ways. The Yingyue faction operates with extreme secrecy, while the Baiyue faction often behaves in an extreme manner. Therefore, I have made this inference..."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -281392,8 +281389,8 @@
   splits:
   - split: 4
     text: "“门主又如何得知，他是隐月门人？”"
-    translated: "How does the Sect Master know that he is from the Hidden Moon Sect?"
-    qcReviewedText: "How does the Sect Master know that he is from the Hidden Moon Sect?"
+    translated: "How did the Sect Leader know he was a Yinyue Disciple?"
+    qcReviewedText: "How did the Sect Leader know he was a Yinyue Disciple?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

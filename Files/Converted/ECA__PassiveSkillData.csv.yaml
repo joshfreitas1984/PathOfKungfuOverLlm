@@ -8751,24 +8751,18 @@
   splits:
   - split: 2
     text: "隐月"
-    translated: "Hidden Moon"
-    qcReviewedText: "Hidden Moon"
-    qcTranslated: "Yin Yue"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Yinyue"
+    qcReviewedText: "Yinyue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 4
     text: "隐月"
-    translated: "Hidden Moon"
-    qcReviewedText: "Hidden Moon"
-    qcTranslated: "Yin Yue"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Yinyue"
+    qcReviewedText: "Yinyue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "531,8020204,悲鸣,招式【纵起惊鸿】在空中时无敌2秒,/,/,802020400,0,,,,,,,,,,,,"
   splits:
   - split: 2

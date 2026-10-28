@@ -18101,14 +18101,11 @@
   splits:
   - split: 9
     text: "隐月"
-    translated: "Hidden Moon"
-    qcReviewedText: "Hidden Moon"
-    qcTranslated: "Yin Yue"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Yinyue"
+    qcReviewedText: "Yinyue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "气血低于50%时，内功攻击提升30%"
     translated: "Lifeforce below 50% increases Internal Attack by 30%"
@@ -18120,14 +18117,11 @@
   splits:
   - split: 9
     text: "隐月"
-    translated: "Hidden Moon"
-    qcReviewedText: "Hidden Moon"
-    qcTranslated: "Yin Yue"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Yinyue"
+    qcReviewedText: "Yinyue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 10
     text: "变量"
     translated: "Variable"
